@@ -9,11 +9,22 @@
 </head>
 <body>
   <header class="site-header">
-    <div class="header-inner">
-      <h1>📅 Eventkalender</h1>
-      <p class="subtitle" id="subtitle">Veranstaltungen aus verschiedenen Quellen</p>
-    </div>
-    <div class="controls">
+    <!-- Tab-artige Reiter für die Tage (springen zum jeweiligen Tag) -->
+    <nav class="day-tabs" id="day-tabs" aria-label="Nach Tag springen"></nav>
+
+    <!-- Suche & Tags: aufklappbar, in einer Spalte -->
+    <button
+      type="button"
+      class="filter-toggle"
+      id="filter-toggle"
+      aria-expanded="false"
+      aria-controls="filter-panel"
+    >
+      <span class="filter-toggle-label">Suchen &amp; Filtern</span>
+      <span class="filter-toggle-meta" id="subtitle"></span>
+      <span class="chevron" aria-hidden="true">▾</span>
+    </button>
+    <div class="filter-panel" id="filter-panel" hidden>
       <input
         type="search"
         id="search"

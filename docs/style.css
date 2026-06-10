@@ -57,28 +57,105 @@ body {
   padding: env(safe-area-inset-top) 0 0;
 }
 
-.header-inner {
+/* -- Tages-Reiter (Tabs) -- */
+
+.day-tabs {
+  display: flex;
+  gap: 6px;
   max-width: 960px;
   margin: 0 auto;
-  padding: 16px 20px 4px;
+  padding: 10px 16px 8px;
+  overflow-x: auto;
+  scrollbar-width: none; /* Firefox */
+  -webkit-overflow-scrolling: touch;
 }
 
-h1 {
-  margin: 0;
-  font-size: 1.5rem;
-  letter-spacing: -0.02em;
+.day-tabs::-webkit-scrollbar {
+  display: none;
 }
 
-.subtitle {
-  margin: 2px 0 0;
+.day-tab {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.15;
+  padding: 6px 12px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--bg-soft);
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.15s ease;
+}
+
+.day-tab .dow {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  letter-spacing: 0.03em;
+}
+
+.day-tab:hover {
+  color: var(--text);
+}
+
+.day-tab.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #06121e;
+}
+
+/* -- Aufklappbarer Filter (Suche + Tags in einer Spalte) -- */
+
+.filter-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 8px 20px 10px;
+  background: none;
+  border: none;
   color: var(--text-muted);
   font-size: 0.9rem;
+  font-family: inherit;
+  cursor: pointer;
 }
 
-.controls {
+.filter-toggle-label {
+  font-weight: 600;
+  color: var(--text);
+}
+
+.filter-toggle-meta {
+  color: var(--text-muted);
+  font-size: 0.82rem;
+}
+
+.filter-toggle .chevron {
+  margin-left: auto;
+  transition: transform 0.2s ease;
+}
+
+.filter-toggle[aria-expanded="true"] .chevron {
+  transform: rotate(180deg);
+}
+
+.filter-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   max-width: 960px;
   margin: 0 auto;
-  padding: 8px 20px 14px;
+  padding: 0 20px 14px;
+}
+
+.filter-panel[hidden] {
+  display: none;
 }
 
 #search {
@@ -101,7 +178,6 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  margin-top: 10px;
 }
 
 .tag-chip {
@@ -143,11 +219,11 @@ h1 {
 
 .day-group {
   margin-bottom: 28px;
+  /* So jumping to a day isn't hidden under the sticky header. */
+  scroll-margin-top: 120px;
 }
 
 .day-heading {
-  position: sticky;
-  top: 0;
   margin: 0 0 12px;
   padding: 6px 0;
   font-size: 0.95rem;

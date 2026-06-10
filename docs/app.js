@@ -16,6 +16,9 @@ const els = {
   tagFilter: document.getElementById("tag-filter"),
   subtitle: document.getElementById("subtitle"),
   footer: document.getElementById("footer-note"),
+  dayTabs: document.getElementById("day-tabs"),
+  filterToggle: document.getElementById("filter-toggle"),
+  filterPanel: document.getElementById("filter-panel"),
 };
 
 const DAY_FMT = new Intl.DateTimeFormat("de-DE", {
@@ -29,6 +32,14 @@ const TIME_FMT = new Intl.DateTimeFormat("de-DE", {
   hour: "2-digit",
   minute: "2-digit",
 });
+
+const TAB_DOW_FMT = new Intl.DateTimeFormat("de-DE", { weekday: "short" });
+const TAB_DATE_FMT = new Intl.DateTimeFormat("de-DE", {
+  day: "numeric",
+  month: "numeric",
+});
+
+let dayObserver = null;
 
 init();
 
@@ -51,12 +62,22 @@ async function init() {
     state.query = e.target.value.trim().toLowerCase();
     render();
   });
+
+  // Collapsible search & tags panel.
+  els.filterToggle.addEventListener("click", () => {
+    const open = els.filterPanel.hasAttribute("hidden");
+    if (open) {
+      els.filterPanel.removeAttribute("hidden");
+    } else {
+      els.filterPanel.setAttribute("hidden", "");
+    }
+    els.filterToggle.setAttribute("aria-expanded", String(open));
+  });
 }
 
 function updateMeta(data) {
   const count = data.count ?? state.events.length;
-  els.subtitle.textContent =
-    `${count} kommende Veranstaltung${count === 1 ? "" : "en"}`;
+  els.subtitle.textContent = `${count} Termine`;
 
   if (data.generated_at) {
     const when = new Date(data.generated_at);
@@ -150,9 +171,11 @@ function render() {
     const { date, events } = groups.get(key);
     const group = document.createElement("section");
     group.className = "day-group";
+    group.id = `day-${key}`;
 
     const heading = document.createElement("h2");
     heading.className = "day-heading";
+    heading.dataset.key = key;
     heading.textContent = DAY_FMT.format(date);
     group.appendChild(heading);
 
@@ -167,6 +190,56 @@ function render() {
 
   els.feed.innerHTML = "";
   els.feed.appendChild(frag);
+
+  buildDayTabs(sortedKeys, groups);
+  setupScrollSpy(sortedKeys);
+}
+
+// The list stays continuous; the tabs just jump to a day.
+function buildDayTabs(sortedKeys, groups) {
+  els.dayTabs.innerHTML = "";
+  for (const key of sortedKeys) {
+    const { date } = groups.get(key);
+    const tab = document.createElement("button");
+    tab.className = "day-tab";
+    tab.dataset.key = key;
+    tab.innerHTML =
+      `<span class="dow">${TAB_DOW_FMT.format(date).replace(".", "")}</span>` +
+      `<span>${TAB_DATE_FMT.format(date)}</span>`;
+    tab.addEventListener("click", () => {
+      const target = document.getElementById(`day-${key}`);
+      if (target) target.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+    els.dayTabs.appendChild(tab);
+  }
+}
+
+// Highlight the tab for the day currently at the top of the list.
+function setupScrollSpy(sortedKeys) {
+  if (dayObserver) dayObserver.disconnect();
+  dayObserver = new IntersectionObserver(
+    (entries) => {
+      for (const entry of entries) {
+        if (entry.isIntersecting) setActiveTab(entry.target.dataset.key);
+      }
+    },
+    { rootMargin: "-110px 0px -80% 0px", threshold: 0 }
+  );
+  for (const key of sortedKeys) {
+    const heading = document.querySelector(`#day-${key} .day-heading`);
+    if (heading) dayObserver.observe(heading);
+  }
+  if (sortedKeys.length) setActiveTab(sortedKeys[0]);
+}
+
+function setActiveTab(key) {
+  for (const tab of els.dayTabs.children) {
+    const active = tab.dataset.key === key;
+    tab.classList.toggle("active", active);
+    if (active) {
+      tab.scrollIntoView({ inline: "center", block: "nearest", behavior: "smooth" });
+    }
+  }
 }
 
 function renderCard(ev) {

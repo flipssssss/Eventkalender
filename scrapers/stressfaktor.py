@@ -19,6 +19,7 @@ from urllib.parse import urljoin
 
 from bs4 import BeautifulSoup
 
+from .anubis import AnubisSession
 from .base import BaseScraper, Event, parse_datetime
 
 DEBUG_DIR = pathlib.Path(__file__).resolve().parents[1] / "docs" / "data" / "_debug"
@@ -53,10 +54,13 @@ class StressfaktorScraper(BaseScraper):
     def fetch_events(self) -> Iterable[Event]:
         debug_lines: list[str] = []
         events: list[Event] = []
+        # The site is behind the Anubis bot wall; this session solves the
+        # proof-of-work the same way a browser does.
+        session = AnubisSession()
 
         for url in self.urls:
             try:
-                html = self.get(url).text
+                html = session.get(url).text
             except Exception as exc:  # noqa: BLE001
                 debug_lines.append(f"URL {url}: FEHLER {exc}\n" + "-" * 60)
                 continue
@@ -66,9 +70,9 @@ class StressfaktorScraper(BaseScraper):
             events.extend(found)
             debug_lines.append(self._diagnose(soup, html, url, len(found)))
             if found:
-                # First working mirror is enough.
                 break
 
+        debug_lines.append("Anubis-Notizen: " + " | ".join(session.notes))
         if self.write_debug:
             self._dump_debug(debug_lines)
         return events

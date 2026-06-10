@@ -175,20 +175,23 @@ class BerlinBuehnenScraper(BaseScraper):
         hints = ("spielstaette", "spielstätte", "haus", "buehne", "bühne",
                  "venue", "ort", "seite", "page", "datum", "date", "/b/",
                  "hebbel", "gorki", "volksbuehne", "volksbühne", "filter")
-        candidates = set()
+        priority = set()
+        others = set()
         for a in soup.find_all("a", href=True):
             href = a["href"]
             if self.EVENT_LINK_RE.search(href):
                 continue
             low = href.lower()
-            if low.startswith(("/de/", "/en/")) and any(h in low for h in hints):
-                candidates.add(href)
-        listed = sorted(candidates)[:40]
-        if not listed:
-            return "  (keine Bühnen-/Blätter-Links erkannt)"
-        return "  Bühnen-/Blätter-Link-Kandidaten:\n" + "\n".join(
-            f"    - {c}" for c in listed
-        )
+            if not low.startswith(("/de/", "/en/", "?")):
+                continue
+            if any(h in low for h in hints):
+                priority.add(href)
+            else:
+                others.add(href)
+        lines = ["  Interne Links (Bühnen/Blättern bevorzugt):"]
+        lines += [f"    * {c}" for c in sorted(priority)[:40]]
+        lines += [f"    - {c}" for c in sorted(others)[:40]]
+        return "\n".join(lines)
 
     def _discover_endpoints(self, html: str) -> str:
         """Look through the HTML for the data source the page uses.

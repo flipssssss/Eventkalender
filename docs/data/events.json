@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T17:58:03.514110+00:00",
+  "generated_at": "2026-06-10T18:02:37.844399+00:00",
   "count": 340,
   "sources": [
     {
@@ -10,7 +10,7 @@
     {
       "source": "Tipsy Bear",
       "count": 0,
-      "error": "403 Client Error: Forbidden for url: https://tipsybearberlin.com/events"
+      "error": null
     },
     {
       "source": "Stressfaktor",
@@ -19,7 +19,7 @@
     },
     {
       "source": "Berlin Bühnen",
-      "count": 113,
+      "count": 110,
       "error": null
     }
   ],
@@ -1010,32 +1010,6 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ]
-    },
-    {
-      "title": "Songs from the last years",
-      "start": "2026-06-12T20:00:00",
-      "end": null,
-      "location": "Maxim Gorki Theater",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/ceaa089d1cb1ae70204780a8c37f6361.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/songs-from-the-last-years/events/365186/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ]
-    },
-    {
-      "title": "The Color Scheme",
-      "start": "2026-06-12T20:00:00",
-      "end": null,
-      "location": "Haus der Kulturen der Welt",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/1dad660c99438cfa48f39dc421d4a666.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/the-color-scheme/events/368366/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
       ]
     },
     {
@@ -4442,6 +4416,32 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
+      ]
+    },
+    {
+      "title": "mittwochskufa",
+      "start": "2026-06-24T18:00:00",
+      "end": null,
+      "location": "Erreichbar Reichenberger Str. 63a HH 10999 Berlin Deutschland",
+      "description": "mittwochskufa  \njeden mittwoch von 18-21 uhr \nwoechetliche vegane küfa in der  erreichbar . sie ist leider nur über eine treppe zu erreichen.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/322077",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ]
+    },
+    {
+      "title": "Küfa im JUP",
+      "start": "2026-06-24T18:00:00",
+      "end": null,
+      "location": "JUP Florastr. 84 13187 Berlin Deutschland",
+      "description": "Mittwoch ist KüfA-Tag! Wir jede Woche gibt es eine leckere Küche für Alle am Mittwoch, 18 Uhr (am ersten Mittwoch im Monat um 19 Uhr mit der DWE-Küfa <3 !) gibts Essen - komm gerne schon früher vorbei zum Schnippeln und Kochen!",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/324021",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
       ]
     }
   ]

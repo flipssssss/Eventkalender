@@ -3,6 +3,7 @@ URL: https://www.donau115.de
   HTML-Länge: 20487 Zeichen
   JSON-LD vorhanden: False
   Events gefunden: 0
+  (keine Programm-/Event-Unterseiten erkannt)
   Snippet:
 <!DOCTYPE html>
 <html lang="en">
@@ -19,5 +20,35 @@ URL: https://www.donau115.de
   .header-left { display: flex; align-items: flex-end; gap: 40px; padding: 32px 0 24px; }
   .header-right { display: flex; flex-direction: column; align-items: flex-end; justify-content: space-between; padding: 20px 0 16px; gap: 12px; }
   .header-socials { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; }
-  .header-social-link { font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 1px; text-transform: uppercase; color: #555; text-decoratio
+  .header-social-link { font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 1px; text-transform: uppercase; color: #555; text-decoration: none; line-height: 1.8; }
+  .header-social-link:hover { color: var(--black); }
+  .header-social-label { color: #aaa; margin-right: 4px; }
+  .mailing-list-link { font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: var(--black); text-decoration: none; border: 1px solid var(--black); padding: 6px 14px; white-space: nowrap; transition: background 0.15s, color 0.15s; }
+  .mailing-list-link:hover { background: var(--black); color: var(--white); }
+  .logo-block { display: flex; flex-direction: column; gap: 2px; }
+  .venue-name { font-family: 'IBM Plex Mono', monospace; font-size: 36px; font-weight: 700; letter-spacing: -1px; line-height: 1; }
+  .venue-tagline { font-family: 'IBM Plex Mono', monospace; font-size: 11px; font-weight: 400; letter-spacing: 3px; text-transform: uppercase; color: var(--mid); }
+  .venue-details { border-left: 1px solid var(--black); padding-left: 32px; font-family: 'IBM Plex Mono', monospace; font-size: 12px; line-height: 2; color: #444; }
+  .page-heading { padding: 24px 48px 12px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 4px; text-transform: uppercase; color: #444; border-bottom: 1px solid #ccc; }
+  .events-list { list-style: none; }
+  .event-row { display: grid; grid-template-columns: 160px 220px 1fr; border-bottom: 1px solid #ddd; align-items: start; }
+  .event-row:hover { background: #f0f0eb; }
+  .event-date-col { padding: 24px 24px 24px 48px; border-right: 1px solid #ddd; display: flex; flex-direction: column; justify-content: flex-start; gap: 4px; align-self: start; padding-bottom: 24px; }
+  .event-day { font-family: 'IBM Plex Mono', monospace; font-size: 28px; font-weight: 700; line-height: 1; }
+  .event-month { font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 3px; text-transform: uppercase; color: #555; }
+  .event-weekday { font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: #777; margin-top: 8px; }
+  .event-image-col { border-right: 1px solid #ddd; cursor: zoom-in; }
+  .event-image-col img { width: 100%; height: auto; display: block; filter: grayscale(100%); }
+  .event-image-placeholder { width: 100%; height: 120px; background: #e8e8e3; display: flex; align-items: center; justify-content: center; font-family: 'IBM Plex Mono', monospace; font-size: 9px; letter-spacing: 2px; color: #bbb; text-transform: uppercase; }
+  .event-info-col { padding: 24px 48px 24px 32px; display: flex; flex-direction: column; justify-content: flex-start; gap: 8px; }
+  .event-band { font-family: 'IBM Plex Mono', monospace; font-size: 20px; font-weight: 700; letter-spacing: -0.5px; line-height: 1.1; cursor: pointer; }
+  .event-band:hover { text-decoration: underline; }
+  .event-description { font-size: 13px; color: var(--black); line-height: 1.65; max-width: 560px; }
+  .event-description.truncated { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .read-more { font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 1px; color: var(--mid); cursor: pointer; background: none; border: none; padding: 2px 0; text-decoration: underline; display: block; margin-top: 2px; }
+  .read-more:hover { color: var(--black); }
+  .event-members { font-size: 13px; color: var(--mid); line-height: 1.6; }
+  .event-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 4px; }
+  .event-link { font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 1px; text-transform: uppercase; color: var(--black); text-decoration: none; border: 1px solid var(--black); padding: 3px 8px; }
+  .event-ext-link { font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 2px; text-transform: u
 ------------------------------------------------------------

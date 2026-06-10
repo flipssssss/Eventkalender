@@ -1,7 +1,8 @@
 URL: https://shifts-a77a1-default-rtdb.europe-west1.firebasedatabase.app/events.json
 Gefundene Einträge: 92
-Events geparst: 0
-Beispiel-Datensätze:
+Events geparst: 92
+Alle Feldnamen: ['bandName', 'contactEmail', 'date', 'description', 'facebook', 'gema', 'images', 'instagram', 'links', 'live', 'members', 'photoCredit', 'submittedAt']
+Beispiel-Datensätze (ohne Bild-Daten):
 [
   {
     "bandName": "Glupp Shitto with Donkin/Malkmus/Krämpenbäuch",
@@ -11,4 +12,57 @@ Beispiel-Datensätze:
     "facebook": "facebook.com/emperorx.net",
     "gema": "no",
     "images": [
-      "data:image/jpeg;base64,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
+      "[base64, 11571 Zeichen]"
+    ],
+    "instagram": [
+      "@emperorx"
+    ],
+    "links": [
+      "emperorx.bandcamp.com"
+    ],
+    "live": true,
+    "members": [
+      "Glupp Shitto - wangewa",
+      "Other peeps - cans"
+    ],
+    "photoCredit": "",
+    "submittedAt": "2026-04-23T16:05:56.773Z"
+  },
+  {
+    "bandName": "BORT!",
+    "contactEmail": "bor@gmooo.org",
+    "date": "2026-04-24",
+    "description": "she  has risen!",
+    "facebook": "",
+    "gema": "no",
+    "images": [
+      "http://crmatheny.net/board/wp-content/uploads/2025/06/ex-summer-2025-d-02-bladmat-559x1024.jpg"
+    ],
+    "live": true,
+    "photoCredit": "",
+    "submittedAt": "2026-04-23T16:57:02.882Z"
+  },
+  {
+    "bandName": "Marantz/Jermyn/Donkin/Rösch",
+    "contactEmail": "exnahelos@gmail.com",
+    "date": "2026-05-06",
+    "description": "Pianist Luke Marantz and guitarist Simon Jermyn celebrate the release of their new collaborative recording, \"Echoes\" alongside bassist Phil Donkin and drummer Fabian Rösch.",
+    "facebook": "https://www.facebook.com/events/1682791859415484/?acontext=%7B%22ref%22%3A%2252%22%2C%22action_history%22%3A%22[%7B%5C%22surface%5C%22%3A%5C%22share_link%5C%22%2C%5C%22mechanism%5C%22%3A%5C%22share_link%5C%22%2C%5C%22extra_data%5C%22%3A%7B%5C%22invite_link_id%5C%22%3A1300808198651807%7D%7D]%22%7D",
+    "gema": "yes",
+    "images": [
+      "https://res.cloudinary.com/dci7i3mni/image/upload/v1777970537/tezbqlh3defojowebt0n.jpg"
+    ],
+    "links": [
+      "https://open.spotify.com/track/4wveLifsXJeqQ4jC1l9aFu?si=26f4d5753e0d4f1f&fbclid=IwY2xjawRmjWhleHRuA2FlbQIxMABicmlkETFQVW5UQVBUelZMeXhXaU5tc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHtE2BhBkqASa3JHlJQO3uqIRkWpOQxAe0zAuql9nJ0jwalh-rCMYUZY15FJP_aem_cENJGqOWs-ug3TCty-bjaA&nd=1&dlsi=7236f68ecf414451"
+    ],
+    "live": true,
+    "members": [
+      "Luke Marantz - piano",
+      "Simon Jermyn - guitar",
+      "Phil Donkin - bass",
+      "Fabian Rösch - drums"
+    ],
+    "photoCredit": "",
+    "submittedAt": "2026-05-05T08:43:02.474Z"
+  }
+]

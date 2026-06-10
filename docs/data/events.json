@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-10T18:12:45.096171+00:00",
-  "count": 340,
+  "generated_at": "2026-06-10T18:18:24.731164+00:00",
+  "count": 353,
   "sources": [
     {
       "source": "Stressfaktor",
@@ -14,11 +14,24 @@
     },
     {
       "source": "Donau115",
-      "count": 0,
+      "count": 92,
       "error": null
     }
   ],
   "events": [
+    {
+      "title": "Vollbrecht/Herzog/Akintaya",
+      "start": "2026-06-10T00:00:00",
+      "end": null,
+      "location": "Donau115, Donaustraße 115, Berlin",
+      "description": "Back together after eight years: Timo Vollbrecht, Florian Herzog, and Lukas Akintaya reunite for this trio. Having first crossed paths in New York, the three now return with original music shaped by jazz, improvisation, and a strong sense of play - a reunion that looks less to the past in nostalgia than forward with curiosity.",
+      "image_url": null,
+      "source_url": "https://www.facebook.com/events/1487154939870371",
+      "source_name": "Donau115",
+      "tags": [
+        "Konzert"
+      ]
+    },
     {
       "title": "mittwochskufa",
       "start": "2026-06-10T18:00:00",
@@ -225,6 +238,19 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Film"
+      ]
+    },
+    {
+      "title": "Thursday Jazz Jam",
+      "start": "2026-06-11T00:00:00",
+      "end": null,
+      "location": "Donau115, Donaustraße 115, Berlin",
+      "description": "FEAT. SWINGING LINEUPS EVERY WEEK\ndoors: 19:30 / opening set: 20:00 / jam: 21:00",
+      "image_url": null,
+      "source_url": "https://www.facebook.com/events/904352819000250",
+      "source_name": "Donau115",
+      "tags": [
+        "Konzert"
       ]
     },
     {
@@ -602,6 +628,19 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Film"
+      ]
+    },
+    {
+      "title": "Seth Sjöström Quintet - Album Release",
+      "start": "2026-06-12T00:00:00",
+      "end": null,
+      "location": "Donau115, Donaustraße 115, Berlin",
+      "description": "Seth Sjöström (*2000) is a bass player and composer from northern Sweden currently based Berlin. With a foundation in Jazz, free improvisation and Swedish folk music, he's constantly looking for new ways to express himself as well as communicating with others through art. He's greatly inspired by the harsh but honest nature of northern Sweden and is driven by the will to use music as a tool to build a genuine connection to himself, other people and the world around him.\nOn the 12th of June 2026, Seth releases his new album \"\"Kom Hem\"\" together with his quintet.\nDeeply personal yet widely resonant, his songwriting has connected with audiences and musicians worldwide, with his work recorded by artists from Emilia Mårtensson to the RTV Slovenian Big Band. In his own words, his music is rooted in a belief that songs can help people better understand themselves and their lives.\nThis special double bill brings together two singular voices in contemporary music, joined by acclaimed pianist Matt Robinson and saxophonist Adam Waldmann for an evening of evocative, boundary-crossing music.",
+      "image_url": null,
+      "source_url": "https://www.facebook.com/events/1138858851704901",
+      "source_name": "Donau115",
+      "tags": [
+        "Konzert"
       ]
     },
     {
@@ -1138,6 +1177,19 @@
       ]
     },
     {
+      "title": "Kaiser Pommes",
+      "start": "2026-06-13T00:00:00",
+      "end": null,
+      "location": "Donau115, Donaustraße 115, Berlin",
+      "description": "* a note from Kaiser Pommes *\nDear all,\nWe are hitting the german roads again, coming back to Donau115, we are very excited.\nAs our members are currently spread out between NYC, Copenhagen & Berlin, it shall be interesting to hear what each of us will bring with us on to the stage; fresh improvised fire, new melodographic weaverings, further hybrid beats, whatever and/or even more.\nCome see for yourselves, we hope you will!\"",
+      "image_url": null,
+      "source_url": "https://www.facebook.com/events/1505617047826200",
+      "source_name": "Donau115",
+      "tags": [
+        "Konzert"
+      ]
+    },
+    {
       "title": "Dorfplatz Frühstück & Demo",
       "start": "2026-06-13T11:00:00",
       "end": null,
@@ -1642,6 +1694,19 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
+      ]
+    },
+    {
+      "title": "Adam Winchester",
+      "start": "2026-06-14T00:00:00",
+      "end": null,
+      "location": "Donau115, Donaustraße 115, Berlin",
+      "description": "“Dubby DIY dance music with brilliant sound design\"\nResident Advisor\n”Deep, richly textured, Dub to Industrial to Clicks ’n Cuts leaning Electronics”\nHardwax\nWinchester’s industrial soundscaping suggests mainframes on the fritz and nuclear cores in meltdown, dystopian sci-fi fantasies playing out on a galactic scale.”\nPitchfork\nAdam Winchester is an electronic musician and live performer whose work applies dub mixing techniques to experimental electronic music. His live sets centre on the mixer as an instrument, using delay, echo, and spatial processing to reshape bass driven rhythms, found sounds, modular synthesis, bespoke instruments, feedback systems, and heavily manipulated samples in real time.\nWith roots in Bristol’s dubstep scene as Wedge, and a long-running practice operating between bass music and exploratory sound design, Winchester has developed a distinctive approach that prioritises space, repetition, and gradual transformation fused with tropes of Dub, IDM and the hardcore continuum. He has released on revered labels Osiris Music, Soil, and Mindwaves, with a forthcoming LP on Oval Harmonique set to drop on vinyl later this year.\nAlongside solo work, his collaborative projects include Wrecked Lightship and Dot Product, with acclaimed releases on Midnight Shift, and Peak Oil, spanning experimental performance, club contexts, and installation work. His music also involves collaborations with Renate Knaup of Amon Düül II, the BBC Radiophonic Workshop, and Japanese Noise artist KK Nüll, alongside performances at festivals including Berlin Atonal, Krake, and Boiler Room.",
+      "image_url": null,
+      "source_url": "https://www.facebook.com/events/1676664413670886",
+      "source_name": "Donau115",
+      "tags": [
+        "Konzert"
       ]
     },
     {
@@ -2217,6 +2282,19 @@
       ]
     },
     {
+      "title": "Two-Song Tuesday (MUSIC STARTS 20:00)",
+      "start": "2026-06-16T00:00:00",
+      "end": null,
+      "location": "Donau115, Donaustraße 115, Berlin",
+      "description": "/////// TWO-SONG TUESDAY ///////\n[sign up 19:30 // start 20:00]\nCALLING ALL SONGWRITERS, COMPOSERS, INSTRUMENTALISTS, POETS, WRITERS, STORYTELLERS, SYNTH WIZARDS, BAGPIPE SAVANTS, BROKEN HEARTS, TAP DANCERS, POLE DANCERS, MIND MELDERS, RACE CAR DRIVERS, AND AGNOSTIC SAINTS!\nDo you have new solo/duo/small group material to present? Join us for Donau115's regular open stage series, Two-Song Tuesday.\nSign-up: 19:30\nSet 1: 20:00\nSet 2: 21:15\nSet 3: 22:15\n\"The Same Procedure as Every Week, James.\"\n- The random-order setlists appear at 19:45 at http://donau115.de\n- First come, first booked, randomly-assigned slot, 15 slots per night + an overflow maybe list that we rarely get to.\n- The bar staff tell you how to sign up, starting at 7.30pm. It is usually a link to an online sign-up form.\n- Your set may include TWO SONGS or last TEN MINUTES, WHICHEVER IS SHORTER (e.g. two seven-minute songs = NO, three three-minute songs = NO).\n- NO SOUNDCHECKS. Be ready. Slip on, blow minds, slip off. Setup is 90 seconds.\n- Sets are no longer than 10 minutes. THERE IS A STOPWATCH TO ENSURE THIS. If your set goes beyond 10 minutes, the stopwatch goes off in the middle of your song. (The alarm sound is in the key of C#, FYI, so modulate to that key for a smooth overtime ending.)\n- For the love of God, DO NOT PLAY THE SAME SONG OVER AND OVER EVERY WEEK. THIS IS BORING. TRY NEW THINGS. WE ADORE YOU. TAKE RISKS! ❤ ❤ ❤\n- Out of respect for our neighbours:\n--- you may NOT use loud percussion or send loud bass-heavy signals into the PA.\n--- you may NOT bring your own amp\n--- you are welcome to use the following itwms from our backline: piano, two generic vocal microphones, and a guitar cable directly into our PA.\n--- DON'T COUNT ON US HAVING ANYTHING OTHER THAN THE FEW THINGS LISTED ABOVE. COME PREPARED.\nFurther questions?\ninfo@donau115.de",
+      "image_url": null,
+      "source_url": "https://www.facebook.com/photo/?fbid=1629237932542727&set=gm.1532792951738317",
+      "source_name": "Donau115",
+      "tags": [
+        "Konzert"
+      ]
+    },
+    {
       "title": "Flinta*only Kickern",
       "start": "2026-06-16T18:00:00",
       "end": null,
@@ -2435,6 +2513,19 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Film"
+      ]
+    },
+    {
+      "title": "Cravo e Canela 4tet",
+      "start": "2026-06-17T00:00:00",
+      "end": null,
+      "location": "Donau115, Donaustraße 115, Berlin",
+      "description": "Brazilian folk traditions and contemporary songwriting blended with improvisation and open musical dialogue.",
+      "image_url": null,
+      "source_url": "https://www.donau115.de",
+      "source_name": "Donau115",
+      "tags": [
+        "Konzert"
       ]
     },
     {
@@ -2708,6 +2799,19 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Film"
+      ]
+    },
+    {
+      "title": "Thursday Jazz Jam",
+      "start": "2026-06-18T00:00:00",
+      "end": null,
+      "location": "Donau115, Donaustraße 115, Berlin",
+      "description": "FEAT. SWINGING LINEUPS EVERY WEEK\ndoors: 19:30 / opening set: 20:00 / jam: 21:00",
+      "image_url": null,
+      "source_url": "https://www.facebook.com/events/904352819000250",
+      "source_name": "Donau115",
+      "tags": [
+        "Konzert"
       ]
     },
     {
@@ -3049,6 +3153,19 @@
       ]
     },
     {
+      "title": "Meinberg/Greve/Wesley",
+      "start": "2026-06-19T00:00:00",
+      "end": null,
+      "location": "Donau115, Donaustraße 115, Berlin",
+      "description": "Lajos Meinberg grew up in a family of musicians, which nurtured his love for jazz from an early age. Since 2020, he has been studying at the Jazz Institute Berlin under Wolfgang Köhler, Tino Dorado, and Bastian Stein, and has been actively involved in the Berlin jazz scene since then. He has had the opportunity to perform with musicians such as Rodney Green, Doug Weiss, Matt Wilson and Martin Wind. Lajos received the Ingolf Burkhardt Award in 2022 and won first prize at the International Jazzhaus Piano Competition in Freiburg in 2024, as well as second prize at the International Jazz Piano Competition Lausanne in 2025. In August 2023, Lajos was part of the Elbphilharmonie Jazz Academy, where he had the chance to learn from musicians like Anat Cohen, Donny McCaslin, and Sullivan Fortner.\nJohann Greve is a double bassist and composer from Lower Saxony. Since moving to Berlin in 2019, he has worked as a sideman on a wide variety of projects and established himself in the young Berlin jazz scene. He has performed with Percy Pursglove, Julius Gawlik, Charlotte Greve and Olga Reznichenko, among others. In March 2024, he recorded material for his debut album with his quartet.\nCalifornia-born drummer Genius Wesley is an emerging force on the international jazz scene, known for his electrifying energy, deep musicality, and fearless improvisation. A prodigy percussionist, he has already performed with jazz greats such as David Binney, Sean Jones, Buster Williams, Azar Lawrence, Gerald Clayton, and many more.",
+      "image_url": null,
+      "source_url": "https://www.facebook.com/events/1602371814327040",
+      "source_name": "Donau115",
+      "tags": [
+        "Konzert"
+      ]
+    },
+    {
       "title": "Summer.Sun.Done",
       "start": "2026-06-19T15:00:00",
       "end": null,
@@ -3371,6 +3488,19 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
+      ]
+    },
+    {
+      "title": "MUSViT",
+      "start": "2026-06-20T00:00:00",
+      "end": null,
+      "location": "Donau115, Donaustraße 115, Berlin",
+      "description": "Known for their unique and genre-defying music, the Danish-Swedish quartet MUSViT quickly established themselves both as a critically acclaimed live band and with their triple Danish Music Awards-nominated debut EP. With a unique line-up of drums, bass, tenor sax and vocals with touches of vocoder and alto sax, the band is inspired by everything from free-jazz to hip-hop. In a minimalist but powerful burst of energy they create a new sound and invite you into their playful universe, where anything can happen, as long as it serves the music. This evening they will celebrate the release of their debut album 'SUKKER' that's coming out on the 22nd of May.",
+      "image_url": null,
+      "source_url": "https://www.facebook.com/events/744402728667002",
+      "source_name": "Donau115",
+      "tags": [
+        "Konzert"
       ]
     },
     {
@@ -3733,6 +3863,19 @@
       "image_url": null,
       "source_url": "https://stressfaktor.squat.net/node/327459",
       "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ]
+    },
+    {
+      "title": "Hunger",
+      "start": "2026-06-21T00:00:00",
+      "end": null,
+      "location": "Donau115, Donaustraße 115, Berlin",
+      "description": "Christoph Rothmeier: percussive and electronic stuff, theremin, vocals.\nJörg Hochapfel: keyboards, guitar, glockenspiel, vocals.\nThe band Hunger, consisting of Christoph Rothmeier and Jörg Hochapfel, has been around since 1996, initially on Lake Constance, then for a long time in Hamburg, and finally in Berlin.\nPreviously known in the music world for their \"\"abstract pop studies with a Dadaist bent\"\" (taz) and \"\"nervous disco-punk racket\"\" (Tagesspiegel), they have in recent years moved into a somewhat quieter, but no less disorienting, musical territory between stumbling exotica and out-of-tune fake folk, using synthesizers, home organs, theremin, and homemade instruments.\nThey're bringing with them their brand-new album \"\"Trikotin,\"\" consisting of eight tracks improvised and subsequently refined in a secret French studio, available in the most practical and versatile format imaginable: a 36-page, lovingly risographed sheet music book!",
+      "image_url": null,
+      "source_url": "https://www.facebook.com/events/952694731012747",
+      "source_name": "Donau115",
       "tags": [
         "Konzert"
       ]
@@ -4193,6 +4336,19 @@
       ]
     },
     {
+      "title": "Two-Song Tuesday (MUSIC STARTS 20:00)",
+      "start": "2026-06-23T00:00:00",
+      "end": null,
+      "location": "Donau115, Donaustraße 115, Berlin",
+      "description": "/////// TWO-SONG TUESDAY ///////\n[sign up 19:30 // start 20:00]\nCALLING ALL SONGWRITERS, COMPOSERS, INSTRUMENTALISTS, POETS, WRITERS, STORYTELLERS, SYNTH WIZARDS, BAGPIPE SAVANTS, BROKEN HEARTS, TAP DANCERS, POLE DANCERS, MIND MELDERS, RACE CAR DRIVERS, AND AGNOSTIC SAINTS!\nDo you have new solo/duo/small group material to present? Join us for Donau115's regular open stage series, Two-Song Tuesday.\nSign-up: 19:30\nSet 1: 20:00\nSet 2: 21:15\nSet 3: 22:15\n\"The Same Procedure as Every Week, James.\"\n- The random-order setlists appear at 19:45 at http://donau115.de\n- First come, first booked, randomly-assigned slot, 15 slots per night + an overflow maybe list that we rarely get to.\n- The bar staff tell you how to sign up, starting at 7.30pm. It is usually a link to an online sign-up form.\n- Your set may include TWO SONGS or last TEN MINUTES, WHICHEVER IS SHORTER (e.g. two seven-minute songs = NO, three three-minute songs = NO).\n- NO SOUNDCHECKS. Be ready. Slip on, blow minds, slip off. Setup is 90 seconds.\n- Sets are no longer than 10 minutes. THERE IS A STOPWATCH TO ENSURE THIS. If your set goes beyond 10 minutes, the stopwatch goes off in the middle of your song. (The alarm sound is in the key of C#, FYI, so modulate to that key for a smooth overtime ending.)\n- For the love of God, DO NOT PLAY THE SAME SONG OVER AND OVER EVERY WEEK. THIS IS BORING. TRY NEW THINGS. WE ADORE YOU. TAKE RISKS! ❤ ❤ ❤\n- Out of respect for our neighbours:\n--- you may NOT use loud percussion or send loud bass-heavy signals into the PA.\n--- you may NOT bring your own amp\n--- you are welcome to use the following itwms from our backline: piano, two generic vocal microphones, and a guitar cable directly into our PA.\n--- DON'T COUNT ON US HAVING ANYTHING OTHER THAN THE FEW THINGS LISTED ABOVE. COME PREPARED.\nFurther questions?\ninfo@donau115.de",
+      "image_url": null,
+      "source_url": "https://www.facebook.com/photo/?fbid=1629237932542727&set=gm.1532792951738317",
+      "source_name": "Donau115",
+      "tags": [
+        "Konzert"
+      ]
+    },
+    {
       "title": "Historische Hausführung: Never Work",
       "start": "2026-06-23T15:00:00",
       "end": null,
@@ -4398,6 +4554,19 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
+      ]
+    },
+    {
+      "title": "Dan Nicholls &",
+      "start": "2026-06-24T00:00:00",
+      "end": null,
+      "location": "Donau115, Donaustraße 115, Berlin",
+      "description": "As a keyboardist, producer and improviser, Dan Nicholls embraces sound as a tool for liberation, healing and joyful collectivity. Intricately crafting sound worlds which invite listeners to explore both other-worldly perceptions and the grounding and embodying nature of sound and movement, Dan's work deeply considers how sonic (and other) gestures might facilitate forms of resistance, unity and deeper understanding. \n\nDan has worked as a keyboardist with Alabaster De Plume, Goldie, Shabaka, Dudù Kouate, Dali De Saint Paul, Matthew Herbert, Sarah Nicolls, Christian Marklay, Squarepusher and many more.\nThey co-curate the London event series 'Free Movements' and have created music and sound design for dance, film and installations.",
+      "image_url": null,
+      "source_url": "https://www.donau115.de",
+      "source_name": "Donau115",
+      "tags": [
+        "Konzert"
       ]
     },
     {

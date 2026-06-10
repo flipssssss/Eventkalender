@@ -1,0 +1,28 @@
+# =====================================================================
+#  Veranstaltungs-Quellen
+# =====================================================================
+#
+# Hier trägst du die Websites ein, von denen Veranstaltungen geholt
+# werden sollen. Jeder Eintrag wird mit dem generischen JSON-LD-Ausleser
+# verarbeitet, der bei sehr vielen Event-Seiten ohne weitere
+# Programmierung funktioniert.
+#
+# Felder pro Eintrag:
+#   url   (Pflicht)  Adresse der Veranstaltungs-Übersichtsseite
+#   name  (optional) Anzeigename der Quelle im Feed
+#   tags  (optional) Tags, die jedem Event dieser Quelle hinzugefügt
+#                    werden (z. B. die Stadt)
+#
+# Beispiel:
+#   - url: https://www.beispielstadt.de/veranstaltungen
+#     name: Stadt Beispielstadt
+#     tags: [Beispielstadt]
+#
+# Nach dem Bearbeiten einfach speichern und committen -- die Automatik
+# aktualisiert den Feed dann automatisch.
+# ---------------------------------------------------------------------
+
+sources: []
+  # - url: https://www.beispielstadt.de/veranstaltungen
+  #   name: Stadt Beispielstadt
+  #   tags: [Beispielstadt]

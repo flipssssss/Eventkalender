@@ -1,0 +1,262 @@
+"use strict";
+
+// Loads the generated feed (data/events.json) and renders it grouped by
+// day, with a search box and tag filters. No build step, no framework.
+
+const state = {
+  events: [],
+  activeTags: new Set(),
+  query: "",
+};
+
+const els = {
+  feed: document.getElementById("feed"),
+  status: document.getElementById("status"),
+  search: document.getElementById("search"),
+  tagFilter: document.getElementById("tag-filter"),
+  subtitle: document.getElementById("subtitle"),
+  footer: document.getElementById("footer-note"),
+};
+
+const DAY_FMT = new Intl.DateTimeFormat("de-DE", {
+  weekday: "long",
+  day: "numeric",
+  month: "long",
+  year: "numeric",
+});
+
+const TIME_FMT = new Intl.DateTimeFormat("de-DE", {
+  hour: "2-digit",
+  minute: "2-digit",
+});
+
+init();
+
+async function init() {
+  try {
+    const res = await fetch("data/events.json", { cache: "no-cache" });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    state.events = Array.isArray(data.events) ? data.events : [];
+    updateMeta(data);
+    buildTagFilter();
+    render();
+  } catch (err) {
+    els.status.textContent =
+      "Konnte den Veranstaltungs-Feed nicht laden. " +
+      "Wurde das Tool schon einmal ausgeführt? (" + err.message + ")";
+  }
+
+  els.search.addEventListener("input", (e) => {
+    state.query = e.target.value.trim().toLowerCase();
+    render();
+  });
+}
+
+function updateMeta(data) {
+  const count = data.count ?? state.events.length;
+  els.subtitle.textContent =
+    `${count} kommende Veranstaltung${count === 1 ? "" : "en"}`;
+
+  if (data.generated_at) {
+    const when = new Date(data.generated_at);
+    els.footer.textContent =
+      "Zuletzt aktualisiert: " +
+      when.toLocaleString("de-DE") +
+      " · Eventkalender";
+  }
+}
+
+function allTags() {
+  const counts = new Map();
+  for (const ev of state.events) {
+    for (const tag of ev.tags || []) {
+      counts.set(tag, (counts.get(tag) || 0) + 1);
+    }
+  }
+  return [...counts.entries()]
+    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "de"))
+    .map(([tag]) => tag);
+}
+
+function buildTagFilter() {
+  const tags = allTags();
+  els.tagFilter.innerHTML = "";
+  for (const tag of tags) {
+    const chip = document.createElement("button");
+    chip.className = "tag-chip";
+    chip.textContent = tag;
+    chip.addEventListener("click", () => {
+      if (state.activeTags.has(tag)) {
+        state.activeTags.delete(tag);
+        chip.classList.remove("active");
+      } else {
+        state.activeTags.add(tag);
+        chip.classList.add("active");
+      }
+      render();
+    });
+    els.tagFilter.appendChild(chip);
+  }
+}
+
+function matches(ev) {
+  // Tag filter: event must contain ALL selected tags.
+  if (state.activeTags.size > 0) {
+    const evTags = new Set(ev.tags || []);
+    for (const t of state.activeTags) {
+      if (!evTags.has(t)) return false;
+    }
+  }
+  // Text search across the visible fields.
+  if (state.query) {
+    const haystack = [
+      ev.title,
+      ev.location,
+      ev.description,
+      ev.source_name,
+      (ev.tags || []).join(" "),
+    ]
+      .filter(Boolean)
+      .join(" ")
+      .toLowerCase();
+    if (!haystack.includes(state.query)) return false;
+  }
+  return true;
+}
+
+function render() {
+  const visible = state.events.filter(matches);
+
+  if (visible.length === 0) {
+    els.feed.innerHTML =
+      '<p class="status">Keine Veranstaltungen gefunden.</p>';
+    return;
+  }
+
+  // Group by calendar day.
+  const groups = new Map();
+  for (const ev of visible) {
+    const date = new Date(ev.start);
+    const key = date.toISOString().slice(0, 10);
+    if (!groups.has(key)) groups.set(key, { date, events: [] });
+    groups.get(key).events.push(ev);
+  }
+
+  const sortedKeys = [...groups.keys()].sort();
+  const frag = document.createDocumentFragment();
+
+  for (const key of sortedKeys) {
+    const { date, events } = groups.get(key);
+    const group = document.createElement("section");
+    group.className = "day-group";
+
+    const heading = document.createElement("h2");
+    heading.className = "day-heading";
+    heading.textContent = DAY_FMT.format(date);
+    group.appendChild(heading);
+
+    const cards = document.createElement("div");
+    cards.className = "cards";
+    for (const ev of events) {
+      cards.appendChild(renderCard(ev));
+    }
+    group.appendChild(cards);
+    frag.appendChild(group);
+  }
+
+  els.feed.innerHTML = "";
+  els.feed.appendChild(frag);
+}
+
+function renderCard(ev) {
+  const card = document.createElement("a");
+  card.className = "card";
+  card.href = ev.source_url || "#";
+  card.target = "_blank";
+  card.rel = "noopener noreferrer";
+
+  // Image (or a placeholder when none is available).
+  if (ev.image_url) {
+    const img = document.createElement("img");
+    img.className = "card-image";
+    img.src = ev.image_url;
+    img.alt = ev.title || "";
+    img.loading = "lazy";
+    img.addEventListener("error", () => {
+      img.replaceWith(placeholderImage());
+    });
+    card.appendChild(img);
+  } else {
+    card.appendChild(placeholderImage());
+  }
+
+  const body = document.createElement("div");
+  body.className = "card-body";
+
+  const time = document.createElement("div");
+  time.className = "card-time";
+  time.textContent = formatTime(ev);
+  body.appendChild(time);
+
+  const title = document.createElement("h3");
+  title.className = "card-title";
+  title.textContent = ev.title || "Ohne Titel";
+  body.appendChild(title);
+
+  if (ev.location) {
+    const loc = document.createElement("div");
+    loc.className = "card-location";
+    loc.textContent = "📍 " + ev.location;
+    body.appendChild(loc);
+  }
+
+  if (ev.description) {
+    const desc = document.createElement("p");
+    desc.className = "card-desc";
+    desc.textContent = ev.description;
+    body.appendChild(desc);
+  }
+
+  if (ev.tags && ev.tags.length) {
+    const tagWrap = document.createElement("div");
+    tagWrap.className = "card-tags";
+    for (const tag of ev.tags) {
+      const t = document.createElement("span");
+      t.className = "card-tag";
+      t.textContent = tag;
+      tagWrap.appendChild(t);
+    }
+    body.appendChild(tagWrap);
+  }
+
+  if (ev.source_name) {
+    const src = document.createElement("div");
+    src.className = "card-source";
+    src.textContent = "Quelle: " + ev.source_name;
+    body.appendChild(src);
+  }
+
+  card.appendChild(body);
+  return card;
+}
+
+function placeholderImage() {
+  const div = document.createElement("div");
+  div.className = "card-image placeholder";
+  div.textContent = "📅";
+  return div;
+}
+
+function formatTime(ev) {
+  const start = new Date(ev.start);
+  let label = TIME_FMT.format(start) + " Uhr";
+  if (ev.end) {
+    const end = new Date(ev.end);
+    const sameDay = start.toDateString() === end.toDateString();
+    if (sameDay) {
+      label += " – " + TIME_FMT.format(end) + " Uhr";
+    }
+  }
+  return label;
+}

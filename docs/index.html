@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0f172a" />
+  <title>Eventkalender</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <h1>📅 Eventkalender</h1>
+      <p class="subtitle" id="subtitle">Veranstaltungen aus verschiedenen Quellen</p>
+    </div>
+    <div class="controls">
+      <input
+        type="search"
+        id="search"
+        placeholder="Suchen (Titel, Ort, Beschreibung) …"
+        autocomplete="off"
+      />
+      <div class="tag-filter" id="tag-filter"></div>
+    </div>
+  </header>
+
+  <main id="feed" class="feed">
+    <p class="status" id="status">Lade Veranstaltungen …</p>
+  </main>
+
+  <footer class="site-footer">
+    <p id="footer-note"></p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

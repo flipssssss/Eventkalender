@@ -36,13 +36,7 @@
 # Hinweis: Stressfaktor wird über einen eigenen Ausleser eingebunden
 # (scrapers/stressfaktor.py, in aggregate.py registriert), weil die
 # Originalseite einen Bot-Schutz hat.
-sources:
-  # Donau115 (Berlin) -- Jazz-Club, alle Events als Konzert.
-  - url: https://www.donau115.de
-    name: Donau115
-    category: Konzert
-
-  # Tipsy Bear (Berlin) -- Bar mit Events, vorläufig als Party.
-  - url: https://tipsybearberlin.com/events
-    name: Tipsy Bear
-    category: Party
+sources: []
+  # Donau115 wird über einen eigenen Ausleser eingebunden
+  # (scrapers/donau115.py), weil die Events aus einer Firebase-DB kommen.
+  # Tipsy Bear (tipsybearberlin.com) blockt automatisierte Zugriffe (403).

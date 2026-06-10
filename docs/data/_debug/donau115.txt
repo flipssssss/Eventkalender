@@ -4,51 +4,56 @@ URL: https://www.donau115.de
   JSON-LD vorhanden: False
   Events gefunden: 0
   (keine Programm-/Event-Unterseiten erkannt)
-  Snippet:
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Donau115 â Upcoming Events</title>
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=IBM+Plex+Sans:wght@300;400;600&display=swap');
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  :root { --black: #0a0a0a; --white: #f5f5f0; --mid: #555; }
-  body { background: var(--white); color: var(--black); font-family: 'IBM Plex Sans', sans-serif; font-size: 14px; line-height: 1.5; }
-  header { border-bottom: 2px solid var(--black); padding: 0 48px; display: flex; align-items: stretch; justify-content: space-between; }
-  .header-left { display: flex; align-items: flex-end; gap: 40px; padding: 32px 0 24px; }
-  .header-right { display: flex; flex-direction: column; align-items: flex-end; justify-content: space-between; padding: 20px 0 16px; gap: 12px; }
-  .header-socials { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; }
-  .header-social-link { font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 1px; text-transform: uppercase; color: #555; text-decoration: none; line-height: 1.8; }
-  .header-social-link:hover { color: var(--black); }
-  .header-social-label { color: #aaa; margin-right: 4px; }
-  .mailing-list-link { font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: var(--black); text-decoration: none; border: 1px solid var(--black); padding: 6px 14px; white-space: nowrap; transition: background 0.15s, color 0.15s; }
-  .mailing-list-link:hover { background: var(--black); color: var(--white); }
-  .logo-block { display: flex; flex-direction: column; gap: 2px; }
-  .venue-name { font-family: 'IBM Plex Mono', monospace; font-size: 36px; font-weight: 700; letter-spacing: -1px; line-height: 1; }
-  .venue-tagline { font-family: 'IBM Plex Mono', monospace; font-size: 11px; font-weight: 400; letter-spacing: 3px; text-transform: uppercase; color: var(--mid); }
-  .venue-details { border-left: 1px solid var(--black); padding-left: 32px; font-family: 'IBM Plex Mono', monospace; font-size: 12px; line-height: 2; color: #444; }
-  .page-heading { padding: 24px 48px 12px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 4px; text-transform: uppercase; color: #444; border-bottom: 1px solid #ccc; }
-  .events-list { list-style: none; }
-  .event-row { display: grid; grid-template-columns: 160px 220px 1fr; border-bottom: 1px solid #ddd; align-items: start; }
-  .event-row:hover { background: #f0f0eb; }
-  .event-date-col { padding: 24px 24px 24px 48px; border-right: 1px solid #ddd; display: flex; flex-direction: column; justify-content: flex-start; gap: 4px; align-self: start; padding-bottom: 24px; }
-  .event-day { font-family: 'IBM Plex Mono', monospace; font-size: 28px; font-weight: 700; line-height: 1; }
-  .event-month { font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 3px; text-transform: uppercase; color: #555; }
-  .event-weekday { font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: #777; margin-top: 8px; }
-  .event-image-col { border-right: 1px solid #ddd; cursor: zoom-in; }
-  .event-image-col img { width: 100%; height: auto; display: block; filter: grayscale(100%); }
-  .event-image-placeholder { width: 100%; height: 120px; background: #e8e8e3; display: flex; align-items: center; justify-content: center; font-family: 'IBM Plex Mono', monospace; font-size: 9px; letter-spacing: 2px; color: #bbb; text-transform: uppercase; }
-  .event-info-col { padding: 24px 48px 24px 32px; display: flex; flex-direction: column; justify-content: flex-start; gap: 8px; }
-  .event-band { font-family: 'IBM Plex Mono', monospace; font-size: 20px; font-weight: 700; letter-spacing: -0.5px; line-height: 1.1; cursor: pointer; }
-  .event-band:hover { text-decoration: underline; }
-  .event-description { font-size: 13px; color: var(--black); line-height: 1.65; max-width: 560px; }
-  .event-description.truncated { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
-  .read-more { font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 1px; color: var(--mid); cursor: pointer; background: none; border: none; padding: 2px 0; text-decoration: underline; display: block; margin-top: 2px; }
-  .read-more:hover { color: var(--black); }
-  .event-members { font-size: 13px; color: var(--mid); line-height: 1.6; }
-  .event-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 4px; }
-  .event-link { font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 1px; text-transform: uppercase; color: var(--black); text-decoration: none; border: 1px solid var(--black); padding: 3px 8px; }
-  .event-ext-link { font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 2px; text-transform: u
+  Body (ohne CSS/JS):
+<body>
+<header>
+<div class="header-left">
+<div class="logo-block">
+<div class="venue-name">DONAU115</div>
+<div class="venue-tagline">Musik und Experimente</div>
+</div>
+<div class="venue-details">
+      DonaustraÃe 115, 12043 Berlin<br/>
+      U8 BoddinstraÃe
+    </div>
+</div>
+<div class="header-right">
+<div class="header-socials">
+<a class="header-social-link" href="https://instagram.com/donau115" rel="noopener" target="_blank"><span class="header-social-label">IG</span> @DONAU115</a>
+<a class="header-social-link" href="https://fb.com/donau115" rel="noopener" target="_blank"><span class="header-social-label">FB</span> FB.COM/DONAU115</a>
+<a class="header-social-link" href="mailto:info@donau115.de"><span class="header-social-label">EMAIL</span> INFO@DONAU115.DE</a>
+</div>
+<a class="mailing-list-link" href="https://donau115.mailchimpsites.com/" rel="noopener" target="_blank">â Join Our Mailing List</a>
+</div>
+</header>
+<div class="page-heading">Upcoming Events</div>
+<ul class="events-list" id="eventsList">
+<li id="loading">Loading eventsâ¦</li>
+</ul>
+<footer>
+<div class="footer-top">Donau115 Â© <span id="year"></span></div>
+<div class="impressum">
+<h3>Impressum</h3>
+<strong>Angaben gemÃ¤Ã Â§ 5 TMG</strong><br/>
+    Donau115<br/>
+    DonaustraÃe 115<br/>
+    12043 Berlin<br/><br/>
+<strong>Kontakt</strong><br/>
+    E-Mail: info@donau115.de<br/>
+    Web: <a href="https://donau115.de" style="color:#bbb;">donau115.de</a><br/><br/>
+<strong>Verantwortlich fÃ¼r den Inhalt nach Â§ 55 Abs. 2 RStV</strong><br/>
+    Donau115, DonaustraÃe 115, 12043 Berlin<br/><br/>
+<strong>Haftungsausschluss</strong><br/>
+    Die Inhalte unserer Seiten wurden mit grÃ¶Ãter Sorgfalt erstellt. FÃ¼r die Richtigkeit, VollstÃ¤ndigkeit und AktualitÃ¤t der Inhalte kÃ¶nnen wir jedoch keine GewÃ¤hr Ã¼bernehmen. Als Diensteanbieter sind wir gemÃ¤Ã Â§ 7 Abs.1 TMG fÃ¼r eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach Â§Â§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, Ã¼bermittelte oder gespeicherte fremde Informationen zu Ã¼berwachen oder nach UmstÃ¤nden zu forschen, die auf eine rechtswidrige TÃ¤tigkeit hinweisen.<br/><br/>
+<strong>Urheberrecht</strong><br/>
+    Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die VervielfÃ¤ltigung, Bearbeitung, Verbreitung und jede Art der Verwertung auÃerhalb der Grenzen des Urheberrechtes bedÃ¼rfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers.<br/><br/>
+<strong>Datenschutz</strong><br/>
+    Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten mÃ¶glich. Soweit auf unseren Seiten personenbezogene Daten erhoben werden, erfolgt dies stets auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdrÃ¼ckliche Zustimmung nicht an Dritte weitergegeben.
+  </div>
+</footer>
+
+<div id="lightbox" onclick="this.classList.remove('open')">
+<img alt="" id="lightboxImg" src=""/>
+</div>
+</body>
 ------------------------------------------------------------

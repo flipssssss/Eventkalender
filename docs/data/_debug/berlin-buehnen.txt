@@ -1,3 +1,33 @@
 URL: https://www.berlin-buehnen.de/de/spielplan/
-  FEHLER: 403 Client Error: Forbidden for url: https://www.berlin-buehnen.de/de/spielplan/
+  HTTP-Status: 200
+  HTML-Länge: 206238 Zeichen
+  JSON-LD vorhanden: False
+  Events gefunden (alle): 0
+  Events nach Bühnen-Filter: 0
+  Snippet:
+<!DOCTYPE html>
+
+<html dir="ltr" lang="de" class="is-xs is-vertical">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="viewport-fit=cover, width=device-width, shrink-to-fit=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+  <link rel="canonical" href="https://www.berlin-buehnen.de/de/spielplan/">
+
+  <title>
+    Berlin Bühnen
+    – 
+    Spielplan
+  </title>
+
+  <link rel="apple-touch-icon" sizes="57x57" href="/static/20260603153353/site/img/favicons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/static/20260603153353/site/img/favicons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/static/20260603153353/site/img/favicons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/static/20260603153353/site/img/favicons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/static/20260603153353/site/img/favicons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/static/20260603153353/site/img/favicons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/static/20260603153353/site/img/favicons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/static/20260603153353/site/img/favicons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/static/20260603153353/site/img/favicons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" 
 ------------------------------------------------------------

@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-10T07:30:43.322073+00:00",
+  "generated_at": "2026-06-10T07:32:50.731806+00:00",
   "count": 0,
   "sources": [
     {
       "source": "Stressfaktor",
       "count": 0,
-      "error": "403 Client Error: Forbidden for url: https://radar.squat.net/ical/node/1599"
+      "error": "Content line could not be parsed into parts: '<!doctype html><html lang=\"en\"><head><title>Making sure you&#39;re not a bot!</title><link rel=\"stylesheet\" href=\"/.within.website/x/xess/xess.min.css?cachebuster=1.25.0\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"><meta name=\"robots\" content=\"noindex,nofollow\"><style>       body,       html {           height: 100%;           display: flex;           justify-content: center;           align-items: center;           margin-left: auto;           margin-right: auto;       }       .centered-div {           text-align: center;       }       #status {           font-variant-numeric: tabular-nums;       }       #progress {           display: none;           width: 90%;           width: min(20rem, 90%);           height: 2rem;           border-radius: 1rem;           overflow: hidden;           margin: 1rem 0 2rem;           outline-offset: 2px;           outline: #b16286 solid 4px;       }       .bar-inner {           background-color: #b16286;           height: 100%;           width: 0;           transition: width 0.25s ease-in;       }   \t</style><script id=\"anubis_version\" type=\"application/json\">\"1.25.0\"': <!doctypehtml><htmllang=\"en\"><head><title>Makingsureyou&#39"
     },
     {
       "source": "Berlin Bühnen",

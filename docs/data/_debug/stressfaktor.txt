@@ -1,19 +1,19 @@
 Tage abgefragt: 14 | Events (vor Dedup): 224
 2026-06-10: 16 Events
 URL: https://stressfaktor.squat.net/termine?f%5B0%5D=event_date:2026-06-10
-  HTML-Länge: 162064 Zeichen
+  HTML-Länge: 162085 Zeichen
   Events geparst: 16
   Datum-Treffer (Text) im HTML: 0
-  Häufigste CSS-Klassen: [('facet-item__value', 274), ('count-1', 169), ('views-field', 128), ('field-content', 128), ('count-2', 74), ('status-confirmed', 32), ('count-3', 26), ('field', 20), ('field--label-hidden', 20), ('field--item', 20), ('is-published', 16), ('views-row', 16), ('views-field-field-event-status-1', 16), ('views-field-title', 16), ('views-field-field-date-time', 16), ('views-field-nothing', 16), ('location', 16), ('field--name-field-address', 16), ('field--type-address', 16), ('address', 16), ('organization', 16), ('locality', 16), ('country', 16), ('views-field-body', 16), ('views-field-field-category', 16)]
+  Häufigste CSS-Klassen: [('facet-item__value', 274), ('count-1', 169), ('views-field', 128), ('field-content', 128), ('count-2', 74), ('status-confirmed', 30), ('count-3', 26), ('field', 20), ('field--label-hidden', 20), ('field--item', 20), ('is-published', 16), ('views-row', 16), ('views-field-field-event-status-1', 16), ('views-field-title', 16), ('views-field-field-date-time', 16), ('views-field-nothing', 16), ('location', 16), ('field--name-field-address', 16), ('field--type-address', 16), ('address', 16), ('organization', 16), ('locality', 16), ('country', 16), ('views-field-body', 16), ('views-field-field-category', 16)]
   Erste .views-row (HTML):
-<div class="is-published views-row"><div class="views-field views-field-field-event-status-1"><span class="field-content"></span></div><div class="views-field views-field-title"><h4 class="field-content status-confirmed"><a href="/node/320717" hreflang="de">Solidarische Sozialberatung</a></h4></div><div class="views-field views-field-field-date-time"><span class="field-content"><time datetime="2026-06-10T16:00:00Z">16:00</time>
+<div class="is-published views-row"><div class="views-field views-field-field-event-status-1"><span class="field-content">Fällt aus - Cancelled</span></div><div class="views-field views-field-title"><h4 class="field-content status-cancelled"><a href="/node/320717" hreflang="de">Solidarische Sozialberatung</a></h4></div><div class="views-field views-field-field-date-time"><span class="field-content"><time datetime="2026-06-10T16:00:00Z">16:00</time>
 </span></div><div class="views-field views-field-nothing"><span class="field-content"><a href="/group/431" hreflang="de">BASTA! Erwerbsloseninitiative</a> - Ort: <div class="location">
 <div class="field field--name-field-address field--type-address field--label-hidden field--item"><p class="address" translate="no"><span class="organization">Scherer8</span><br/>
 <span class="address-line1">Schererstraße 8</span><br/>
 <span class="postal-code">13347</span> <span class="locality">Berlin</span><br/>
 <span class="country">Deutschland</span></p></div>
 </div>
-</span></div><div class="views-field views-field-body"><span class="field-content status-confirmed">Beratung zu Bürgergeld &amp; Co
+</span></div><div class="views-field views-field-body"><span class="field-content status-cancelled">Beratung zu Bürgergeld &amp; Co
 <strong>… in der Schererstraße 8 im Wedding:</strong>
 <strong>Mittwochs (aber nicht am letzten Mittwoch im Monat!) </strong>16-19 Uhr, Sprachen: deutsch, englisch. Bei konkreten Sprachwünschen bitte vorher nachfragen.
  </span></div><span class="views-field views-field-field-category"><span class="field-content">Beratung/Hilfe/Sprechstunde</span></span><span class="views-field views-field-field-topic"><span class="field-content"></span></span><div class="views-field views-field-field-price-category"><span class="field-content"></span></div></div>
@@ -31,4 +31,4 @@ URL: https://stressfaktor.squat.net/termine?f%5B0%5D=event_date:2026-06-10
 2026-06-21: 16 Events
 2026-06-22: 16 Events
 2026-06-23: 16 Events
-Anubis-Notizen: PoW: difficulty=2 nonce=181 hash=00cea8901548… pass-status=200 cookies=['techaro.lol-anubis-cookie-verification', 'techaro.lol-anubis-auth']
+Anubis-Notizen: PoW: difficulty=2 nonce=27 hash=003dce799b0a… pass-status=200 cookies=['techaro.lol-anubis-cookie-verification', 'techaro.lol-anubis-auth']

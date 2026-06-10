@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-10T09:30:56.465388+00:00",
-  "count": 72,
+  "generated_at": "2026-06-10T10:42:52.674810+00:00",
+  "count": 132,
   "sources": [
     {
       "source": "Stressfaktor",
@@ -9,11 +9,24 @@
     },
     {
       "source": "Berlin Bühnen",
-      "count": 57,
+      "count": 120,
       "error": null
     }
   ],
   "events": [
+    {
+      "title": "Im Dazwischen zu Hause",
+      "start": "2026-06-10T17:00:00",
+      "end": null,
+      "location": "Humboldt Forum",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/a1873195884003b9e3f2dd45dd609c76.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/im-dazwischen-hause/events/369894/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ]
+    },
     {
       "title": "mittwochskufa",
       "start": "2026-06-10T18:00:00",
@@ -51,6 +64,19 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
+      ]
+    },
+    {
+      "title": "ZEIT Forum Wissenschaft: America first, Europa allein? Szenarien einer neuen Weltordnung",
+      "start": "2026-06-10T18:00:00",
+      "end": null,
+      "location": "Humboldt Forum",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/5d9fb1b185f69fc112842d198fe6832f.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/zeit-forum-wissenschaft-america-first-europa-allein-szenarien-neuen-weltordnung/events/368704/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
       ]
     },
     {
@@ -197,6 +223,19 @@
       ]
     },
     {
+      "title": "Egal",
+      "start": "2026-06-10T19:30:00",
+      "end": null,
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/76be035fcf29ecc136ddd86e7de00ba0.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/egal/events/367275/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ]
+    },
+    {
       "title": "Irish Trad Session",
       "start": "2026-06-10T20:00:00",
       "end": null,
@@ -249,6 +288,19 @@
       ]
     },
     {
+      "title": "Hannah Zabrisky tritt nicht auf",
+      "start": "2026-06-10T20:00:00",
+      "end": null,
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/f6f0f5d2e7bb98e122028b63e09c3a61.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/hannah-zabrisky-tritt/events/367266/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ]
+    },
+    {
       "title": "Vegane Küfa",
       "start": "2026-06-10T20:15:00",
       "end": null,
@@ -285,6 +337,32 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Film"
+      ]
+    },
+    {
+      "title": "Studio 9. Der Tag mit Paul Ronzheimer",
+      "start": "2026-06-11T11:45:00",
+      "end": null,
+      "location": "Humboldt Forum",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/b7f798d9abbf5304c463c2ea3f6dfa07.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/studio-9-der-tag-paul-ronzheimer/events/369895/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ]
+    },
+    {
+      "title": "Zukunftsbilder im Fluss",
+      "start": "2026-06-11T19:00:00",
+      "end": null,
+      "location": "Humboldt Forum",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/7ec65d4c1d24d5aa894fc86a5893efae.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/zukunftsbilder-fluss/events/367346/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
       ]
     },
     {
@@ -327,6 +405,19 @@
       ]
     },
     {
+      "title": "Hannah Zabrisky tritt nicht auf",
+      "start": "2026-06-11T20:00:00",
+      "end": null,
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/f6f0f5d2e7bb98e122028b63e09c3a61.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/hannah-zabrisky-tritt/events/367267/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ]
+    },
+    {
       "title": "SALLY – Mein Leben im Drag",
       "start": "2026-06-11T20:00:00",
       "end": null,
@@ -334,6 +425,32 @@
       "description": null,
       "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/7c159d8dc566548bc981f3359d5cc42a.jpg",
       "source_url": "https://www.berlin-buehnen.de/de/spielplan/sally-mein-leben-drag/events/368153/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ]
+    },
+    {
+      "title": "Abhishek Thapar: Soft Pressure (Working Title)",
+      "start": "2026-06-12T16:00:00",
+      "end": null,
+      "location": "Sophiensæle",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/5dc2ebb12fe64cacb14065c98bb2af8e.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/abhishek-thapar-soft-pressure-working-title/events/368425/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ]
+    },
+    {
+      "title": "Laurie Young: After Work Tours #1",
+      "start": "2026-06-12T17:30:00",
+      "end": null,
+      "location": "Sophiensæle",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/6a23c2590b8712b258382ae842c96e31.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/laurie-young-after-work-tours-1/events/367966/",
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
@@ -353,6 +470,32 @@
       ]
     },
     {
+      "title": "MEXA: Reality Show",
+      "start": "2026-06-12T19:00:00",
+      "end": null,
+      "location": "Sophiensæle",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/40219a6047141537c683c63b6c26723f.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/mexa-reality-show/events/367987/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ]
+    },
+    {
+      "title": "Lesung und Gespräch mit Kiran Desai",
+      "start": "2026-06-12T19:00:00",
+      "end": null,
+      "location": "Humboldt Forum",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/4f64b771403c0b848d1026cd82160898.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/lesung-gespraech-kiran-desai/events/368198/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ]
+    },
+    {
       "title": "Goodbye Berlin",
       "start": "2026-06-12T19:30:00",
       "end": null,
@@ -366,6 +509,19 @@
       ]
     },
     {
+      "title": "Call me Paris",
+      "start": "2026-06-12T19:30:00",
+      "end": null,
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/f21ce3b69e3722af3aaa5aefa961cbc8.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/call-me-paris/events/367262/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ]
+    },
+    {
       "title": "Songs from the last years",
       "start": "2026-06-12T20:00:00",
       "end": null,
@@ -373,6 +529,32 @@
       "description": null,
       "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/ceaa089d1cb1ae70204780a8c37f6361.jpg",
       "source_url": "https://www.berlin-buehnen.de/de/spielplan/songs-from-the-last-years/events/365186/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ]
+    },
+    {
+      "title": "The Color Scheme",
+      "start": "2026-06-12T20:00:00",
+      "end": null,
+      "location": "Haus der Kulturen der Welt",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/1dad660c99438cfa48f39dc421d4a666.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/the-color-scheme/events/368366/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ]
+    },
+    {
+      "title": "Paradiesische Zustände",
+      "start": "2026-06-12T20:00:00",
+      "end": null,
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/cf36627458d6d6267a34beb50775afae.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/paradiesische-zustaende/events/367234/",
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
@@ -405,6 +587,19 @@
       ]
     },
     {
+      "title": "Liina Magnea: What’s a Mob to a King (Plot-twist Redemption)",
+      "start": "2026-06-12T21:30:00",
+      "end": null,
+      "location": "Sophiensæle",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/730668c193e9b31324e2cf5e87d3a87c.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/liina-magnea-whats-a-mob-to-a-king-plot-twist-redemption/events/367983/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ]
+    },
+    {
       "title": "Abschiedsparty Studio Я",
       "start": "2026-06-12T22:00:00",
       "end": null,
@@ -412,6 +607,71 @@
       "description": null,
       "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/43673b2ad2ab31bbe499ff32e27ab3de.jpg",
       "source_url": "https://www.berlin-buehnen.de/de/spielplan/abschiedsparty-studio/events/365188/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ]
+    },
+    {
+      "title": "Abhishek Thapar: Soft Pressure (Working Title)",
+      "start": "2026-06-13T11:00:00",
+      "end": null,
+      "location": "Sophiensæle",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/5dc2ebb12fe64cacb14065c98bb2af8e.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/abhishek-thapar-soft-pressure-working-title/events/368405/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ]
+    },
+    {
+      "title": "Laurie Young: After Work Tours #1",
+      "start": "2026-06-13T17:30:00",
+      "end": null,
+      "location": "Sophiensæle",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/6a23c2590b8712b258382ae842c96e31.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/laurie-young-after-work-tours-1/events/367967/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ]
+    },
+    {
+      "title": "Glaube, Geld, Krieg und Liebe",
+      "start": "2026-06-13T19:00:00",
+      "end": null,
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/9932aee668ccaaf89bcda56c1294ae72.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/glaube-geld-krieg-liebe/events/367252/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ]
+    },
+    {
+      "title": "MEXA: Reality Show",
+      "start": "2026-06-13T19:00:00",
+      "end": null,
+      "location": "Sophiensæle",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/40219a6047141537c683c63b6c26723f.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/mexa-reality-show/events/367988/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ]
+    },
+    {
+      "title": "Call me Paris",
+      "start": "2026-06-13T19:30:00",
+      "end": null,
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/f21ce3b69e3722af3aaa5aefa961cbc8.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/call-me-paris/events/367263/",
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
@@ -457,6 +717,19 @@
       ]
     },
     {
+      "title": "Paradiesische Zustände",
+      "start": "2026-06-13T20:00:00",
+      "end": null,
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/cf36627458d6d6267a34beb50775afae.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/paradiesische-zustaende/events/367235/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ]
+    },
+    {
       "title": "JUICE",
       "start": "2026-06-13T20:00:00",
       "end": null,
@@ -464,6 +737,19 @@
       "description": null,
       "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/e6c70b6964d46cb3328ee754ed5070c5.jpg",
       "source_url": "https://www.berlin-buehnen.de/de/spielplan/juice/events/368149/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ]
+    },
+    {
+      "title": "Liina Magnea: What’s a Mob to a King (Plot-twist Redemption)",
+      "start": "2026-06-13T21:30:00",
+      "end": null,
+      "location": "Sophiensæle",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/730668c193e9b31324e2cf5e87d3a87c.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/liina-magnea-whats-a-mob-to-a-king-plot-twist-redemption/events/367984/",
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
@@ -483,6 +769,19 @@
       ]
     },
     {
+      "title": "Abhishek Thapar: Soft Pressure (Working Title)",
+      "start": "2026-06-14T11:00:00",
+      "end": null,
+      "location": "Sophiensæle",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/5dc2ebb12fe64cacb14065c98bb2af8e.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/abhishek-thapar-soft-pressure-working-title/events/368406/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ]
+    },
+    {
       "title": "Abschiedsfest",
       "start": "2026-06-14T17:00:00",
       "end": null,
@@ -490,6 +789,45 @@
       "description": null,
       "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/f71f35389a63d8c8520cc43b244050cf.jpg",
       "source_url": "https://www.berlin-buehnen.de/de/spielplan/abschiedsfest/events/365190/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ]
+    },
+    {
+      "title": "Laurie Young: After Work Tours #1",
+      "start": "2026-06-14T17:30:00",
+      "end": null,
+      "location": "Sophiensæle",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/6a23c2590b8712b258382ae842c96e31.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/laurie-young-after-work-tours-1/events/367968/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ]
+    },
+    {
+      "title": "Glaube, Geld, Krieg und Liebe",
+      "start": "2026-06-14T18:00:00",
+      "end": null,
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/9932aee668ccaaf89bcda56c1294ae72.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/glaube-geld-krieg-liebe/events/367253/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ]
+    },
+    {
+      "title": "Liina Magnea: What’s a Mob to a King (Plot-twist Redemption)",
+      "start": "2026-06-14T19:00:00",
+      "end": null,
+      "location": "Sophiensæle",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/730668c193e9b31324e2cf5e87d3a87c.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/liina-magnea-whats-a-mob-to-a-king-plot-twist-redemption/events/367985/",
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
@@ -535,6 +873,19 @@
       ]
     },
     {
+      "title": "Paradiesische Zustände",
+      "start": "2026-06-14T20:00:00",
+      "end": null,
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/cf36627458d6d6267a34beb50775afae.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/paradiesische-zustaende/events/367236/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ]
+    },
+    {
       "title": "NOT FUCKABLE",
       "start": "2026-06-14T20:00:00",
       "end": null,
@@ -542,6 +893,19 @@
       "description": null,
       "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/f706056034bf13a8858aba633fb5c164.jpg",
       "source_url": "https://www.berlin-buehnen.de/de/spielplan/not-fuckable/events/368127/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ]
+    },
+    {
+      "title": "Liina Magnea: What’s a Mob to a King (Plot-twist Redemption)",
+      "start": "2026-06-15T19:00:00",
+      "end": null,
+      "location": "Sophiensæle",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/730668c193e9b31324e2cf5e87d3a87c.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/liina-magnea-whats-a-mob-to-a-king-plot-twist-redemption/events/367986/",
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
@@ -561,6 +925,19 @@
       ]
     },
     {
+      "title": "Call me Paris",
+      "start": "2026-06-15T20:00:00",
+      "end": null,
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/f21ce3b69e3722af3aaa5aefa961cbc8.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/call-me-paris/events/367264/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ]
+    },
+    {
       "title": "10,000 Blinks presents: I AM STILL ALIVE",
       "start": "2026-06-15T22:00:00",
       "end": null,
@@ -574,6 +951,19 @@
       ]
     },
     {
+      "title": "Egal",
+      "start": "2026-06-16T19:30:00",
+      "end": null,
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/76be035fcf29ecc136ddd86e7de00ba0.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/egal/events/367276/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ]
+    },
+    {
       "title": "Ich weiß nicht, was ein Ort ist, ich kenne nur seinen Preis (Manzini-Studien)",
       "start": "2026-06-16T19:30:00",
       "end": null,
@@ -581,6 +971,19 @@
       "description": null,
       "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/3d44b368fddba766e5b4898477bbc9dd.jpg",
       "source_url": "https://www.berlin-buehnen.de/de/spielplan/ich-weiss-nicht-ort-ist-kenne-nur-seinen-preis-manzini-studien/events/368151/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ]
+    },
+    {
+      "title": "Im Herzen der Gewalt",
+      "start": "2026-06-16T20:00:00",
+      "end": null,
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/471ff06353b27a4d8d217663cdacad25.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/im-herzen-gewalt/events/367225/",
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
@@ -626,6 +1029,32 @@
       ]
     },
     {
+      "title": "#Logoskop vierundvierzig",
+      "start": "2026-06-17T18:00:00",
+      "end": null,
+      "location": "Humboldt Forum",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/2e0660ece0317fbc78ff6b704b9dd0d9.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/logoskop-vierundvierzig/events/368231/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ]
+    },
+    {
+      "title": "Beziehungskiller Wohnungskrise – Über das Zusammenleben unter Bedingungen der Knappheit",
+      "start": "2026-06-17T18:30:00",
+      "end": null,
+      "location": "Humboldt Forum",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/93b92db01e4e32badfbe55df6e3a5eb1.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/beziehungskiller-wohnungskrise-ueber-zusammenleben-bedingungen-knappheit/events/369257/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ]
+    },
+    {
       "title": "Romani POV: Young Roma on Screen and Stage",
       "start": "2026-06-17T18:30:00",
       "end": null,
@@ -665,6 +1094,19 @@
       ]
     },
     {
+      "title": "Egal",
+      "start": "2026-06-17T19:30:00",
+      "end": null,
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/76be035fcf29ecc136ddd86e7de00ba0.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/egal/events/367277/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ]
+    },
+    {
       "title": "Fantômas",
       "start": "2026-06-17T19:30:00",
       "end": null,
@@ -672,6 +1114,19 @@
       "description": null,
       "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/2b7c995c673b1ac786b43f0a487de4d0.jpg",
       "source_url": "https://www.berlin-buehnen.de/de/spielplan/fantomas/events/368154/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ]
+    },
+    {
+      "title": "Im Herzen der Gewalt",
+      "start": "2026-06-17T20:00:00",
+      "end": null,
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/471ff06353b27a4d8d217663cdacad25.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/im-herzen-gewalt/events/367226/",
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
@@ -730,6 +1185,32 @@
       ]
     },
     {
+      "title": "Egal",
+      "start": "2026-06-18T19:30:00",
+      "end": null,
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/76be035fcf29ecc136ddd86e7de00ba0.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/egal/events/367278/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ]
+    },
+    {
+      "title": "Im Herzen der Gewalt",
+      "start": "2026-06-18T20:00:00",
+      "end": null,
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/471ff06353b27a4d8d217663cdacad25.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/im-herzen-gewalt/events/367227/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ]
+    },
+    {
       "title": "Mi Madre y el Dinero",
       "start": "2026-06-18T20:00:00",
       "end": null,
@@ -782,6 +1263,32 @@
       ]
     },
     {
+      "title": "Angela Alves: Never Rest (After Work Tours #2)",
+      "start": "2026-06-19T17:30:00",
+      "end": null,
+      "location": "Sophiensæle",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/6a23c2590b8712b258382ae842c96e31.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/angela-alves-never-rest-after-work-tours-2/events/367969/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ]
+    },
+    {
+      "title": "Humboldting #10 Social Muscle Club",
+      "start": "2026-06-19T18:00:00",
+      "end": null,
+      "location": "Humboldt Forum",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/83949d596feae0f1841a39b461128a49.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/humboldting-10-social-muscle-club/events/369261/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ]
+    },
+    {
       "title": "P14 – endlich endlich",
       "start": "2026-06-19T18:00:00",
       "end": null,
@@ -821,6 +1328,45 @@
       ]
     },
     {
+      "title": "Moya Michael: It’s like a Finger Pointing a Way to the Moon",
+      "start": "2026-06-19T19:00:00",
+      "end": null,
+      "location": "Sophiensæle",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/177476f103c9e27367d3115dbac6b195.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/moya-michael-its-like-a-finger-pointing-a-way-to-the-moon/events/367981/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ]
+    },
+    {
+      "title": "Salome",
+      "start": "2026-06-19T20:00:00",
+      "end": null,
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/360ce498e8891fe859b125efe27ee092.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/salome-603/events/367280/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ]
+    },
+    {
+      "title": "Ea Torrado: Brown Madonna",
+      "start": "2026-06-19T20:30:00",
+      "end": null,
+      "location": "Sophiensæle",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/d37b7f8a7dc70bf31063b8bdc21d2400.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/ea-torrado-brown-madonna/events/367979/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ]
+    },
+    {
       "title": "Sonora Berlín",
       "start": "2026-06-19T21:00:00",
       "end": null,
@@ -828,6 +1374,32 @@
       "description": null,
       "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/65e7b8f3e8692e021cba9b9096f944c2.jpg",
       "source_url": "https://www.berlin-buehnen.de/de/spielplan/sonora-berlin/events/368138/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ]
+    },
+    {
+      "title": "Humboldting #10 Social Muscle Club",
+      "start": "2026-06-20T17:00:00",
+      "end": null,
+      "location": "Humboldt Forum",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/83949d596feae0f1841a39b461128a49.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/humboldting-10-social-muscle-club/events/369262/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ]
+    },
+    {
+      "title": "Angela Alves: Never Rest (After Work Tours #2)",
+      "start": "2026-06-20T17:30:00",
+      "end": null,
+      "location": "Sophiensæle",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/6a23c2590b8712b258382ae842c96e31.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/angela-alves-never-rest-after-work-tours-2/events/367970/",
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
@@ -860,6 +1432,32 @@
       ]
     },
     {
+      "title": "Moya Michael: It’s like a Finger Pointing a Way to the Moon",
+      "start": "2026-06-20T19:00:00",
+      "end": null,
+      "location": "Sophiensæle",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/177476f103c9e27367d3115dbac6b195.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/moya-michael-its-like-a-finger-pointing-a-way-to-the-moon/events/367982/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ]
+    },
+    {
+      "title": "Being Young",
+      "start": "2026-06-20T19:30:00",
+      "end": null,
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/f9fc79ec2142925fa940e1a08b0725ac.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/being-young/events/367462/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ]
+    },
+    {
       "title": "Salon Ma ما",
       "start": "2026-06-20T19:30:00",
       "end": null,
@@ -867,6 +1465,19 @@
       "description": null,
       "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/c51c9dfb7930bea121aa4849f79666da.jpeg",
       "source_url": "https://www.berlin-buehnen.de/de/spielplan/salon-ma/events/368130/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ]
+    },
+    {
+      "title": "Salome",
+      "start": "2026-06-20T20:00:00",
+      "end": null,
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/360ce498e8891fe859b125efe27ee092.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/salome-603/events/367281/",
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
@@ -886,6 +1497,71 @@
       ]
     },
     {
+      "title": "Die Seherin",
+      "start": "2026-06-20T20:30:00",
+      "end": null,
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/f2616dcab8130514ba30cc061aeb6885.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/die-seherin/events/367259/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ]
+    },
+    {
+      "title": "Ea Torrado: Brown Madonna",
+      "start": "2026-06-20T20:30:00",
+      "end": null,
+      "location": "Sophiensæle",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/d37b7f8a7dc70bf31063b8bdc21d2400.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/ea-torrado-brown-madonna/events/367980/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ]
+    },
+    {
+      "title": "Olympia Bukkakis: Queer and Present Dangers/The Nation at Work",
+      "start": "2026-06-20T21:00:00",
+      "end": null,
+      "location": "Sophiensæle",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/491c0b63cceccb15bca8bd5be9457576.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/olympia-bukkakis-queer-and-present-dangersthe-nation-at-work/events/367977/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ]
+    },
+    {
+      "title": "Streitraum",
+      "start": "2026-06-21T12:00:00",
+      "end": null,
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/c1eeb70d20387e10a26909fe3346aee9.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/streitraum-886/events/367288/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ]
+    },
+    {
+      "title": "Historische Hausführung: Never Work",
+      "start": "2026-06-21T15:00:00",
+      "end": null,
+      "location": "Sophiensæle",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/5fa0fda6a18be9a73672c9121097ed18.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/historische-hausfuehrung-never-work/events/368241/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ]
+    },
+    {
       "title": "Unsere Träume zu leben /  Hayallerimizi yaşamak",
       "start": "2026-06-21T16:00:00",
       "end": null,
@@ -893,6 +1569,19 @@
       "description": null,
       "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/3fc4104ffc0baf446a6c9daedc602a2b.jpeg",
       "source_url": "https://www.berlin-buehnen.de/de/spielplan/unsere-traeume-leben-hayallerimizi-yasamak/events/367598/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ]
+    },
+    {
+      "title": "Angela Alves: Never Rest (After Work Tours #2)",
+      "start": "2026-06-21T17:30:00",
+      "end": null,
+      "location": "Sophiensæle",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/6a23c2590b8712b258382ae842c96e31.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/angela-alves-never-rest-after-work-tours-2/events/367971/",
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
@@ -945,6 +1634,97 @@
       "description": null,
       "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/182055a863bc88f0cebdb61f85b082dc.jpg",
       "source_url": "https://www.berlin-buehnen.de/de/spielplan/love-me-tender/events/368144/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ]
+    },
+    {
+      "title": "Die Seherin",
+      "start": "2026-06-21T19:30:00",
+      "end": null,
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/f2616dcab8130514ba30cc061aeb6885.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/die-seherin/events/367260/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ]
+    },
+    {
+      "title": "Olympia Bukkakis: Queer and Present Dangers/The Nation at Work",
+      "start": "2026-06-21T21:00:00",
+      "end": null,
+      "location": "Sophiensæle",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/491c0b63cceccb15bca8bd5be9457576.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/olympia-bukkakis-queer-and-present-dangersthe-nation-at-work/events/367978/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ]
+    },
+    {
+      "title": "Die Seherin",
+      "start": "2026-06-22T19:30:00",
+      "end": null,
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/f2616dcab8130514ba30cc061aeb6885.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/die-seherin/events/367261/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ]
+    },
+    {
+      "title": "Salome",
+      "start": "2026-06-22T20:00:00",
+      "end": null,
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/360ce498e8891fe859b125efe27ee092.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/salome-603/events/367282/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ]
+    },
+    {
+      "title": "Historische Hausführung: Never Work",
+      "start": "2026-06-23T15:00:00",
+      "end": null,
+      "location": "Sophiensæle",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/5fa0fda6a18be9a73672c9121097ed18.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/historische-hausfuehrung-never-work/events/368242/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ]
+    },
+    {
+      "title": "Sophiensæle Forever #2 – Never Work",
+      "start": "2026-06-23T17:00:00",
+      "end": null,
+      "location": "Sophiensæle",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/a388c6b504d2021d7fde1d22296a967d.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/sophiensle-forever-2-never-work/events/369769/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ]
+    },
+    {
+      "title": "Ein Volksfeind",
+      "start": "2026-06-23T20:30:00",
+      "end": null,
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/9bd6bb7aa312d79656e80fe18855c2bd.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/ein-volksfeind/events/367220/",
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"

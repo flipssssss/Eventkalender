@@ -101,7 +101,13 @@ class BerlinBuehnenScraper(BaseScraper):
         if not self.EVENT_LINK_RE.search(href):
             return None
 
-        venue = self._match_venue(card.get_text(" ", strip=True))
+        # Match the venue against the venue field only -- matching the whole
+        # card would also catch the playwright's name (e.g. "Kinder der
+        # Sonne" by Maxim *Gorki* playing at a different theatre).
+        location = self._venue_display(card)
+        if not location:
+            return None
+        venue = self._match_venue(location)
         if not venue:
             return None
 
@@ -123,7 +129,7 @@ class BerlinBuehnenScraper(BaseScraper):
             start=start,
             source_url=urljoin(self.BASE, href),
             source_name=self.name,
-            location=self._venue_display(card) or venue,
+            location=location,
             image_url=image_url,
             tags=["Theater"],
         )

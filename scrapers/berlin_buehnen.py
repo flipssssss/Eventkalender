@@ -93,8 +93,9 @@ class BerlinBuehnenScraper(BaseScraper):
                     venue = self._venue_of(event)
                     if not venue:
                         continue
-                    # Only the venue as the single category tag.
-                    event.tags = [venue]
+                    # Single category tag "Theater"; the specific venue is
+                    # already shown in the location (📍) line.
+                    event.tags = ["Theater"]
                     events.append(event)
             except Exception as exc:  # noqa: BLE001
                 debug_lines.append(f"DETAIL FEHLER {detail_url}: {exc}")
@@ -189,20 +190,11 @@ class BerlinBuehnenScraper(BaseScraper):
         # The links are embedded as raw data, not <a> tags. Find the
         # densest cluster of event links (= the actual event list data)
         # and dump a wide window around it to reveal the JSON shape.
-        positions = [m.start() for m in self.EVENT_LINK_RE.finditer(html)]
-        lines.append(f"  Event-Link-Positionen: {len(positions)}")
-        if positions:
-            window = 3000
-            best = max(
-                positions,
-                key=lambda p: sum(1 for q in positions if p <= q < p + window),
-            )
-            start = max(0, best - 500)
-            end = min(len(html), best + 6000)
-            lines.append(
-                f"  Roh-Kontext am dichtesten Cluster (Pos {best}):\n"
-                + html[start:end]
-            )
+        # Events are <hylo-router-link> custom elements, not <a> tags.
+        cards = soup.find_all("hylo-router-link", href=self.EVENT_LINK_RE)
+        lines.append(f"  hylo-router-link-Karten: {len(cards)}")
+        if cards:
+            lines.append("  Erste vollständige Karte (HTML):\n" + cards[0].decode()[:4500])
         return "\n".join(lines)
 
     def _inspect_scripts(self, html: str) -> str:

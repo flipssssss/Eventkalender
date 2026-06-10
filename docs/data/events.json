@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T18:18:24.731164+00:00",
+  "generated_at": "2026-06-10T18:24:29.919445+00:00",
   "count": 353,
   "sources": [
     {
@@ -16,6 +16,11 @@
       "source": "Donau115",
       "count": 92,
       "error": null
+    },
+    {
+      "source": "Tipsy Bear",
+      "count": 0,
+      "error": null
     }
   ],
   "events": [
@@ -26,11 +31,12 @@
       "location": "Donau115, Donaustraße 115, Berlin",
       "description": "Back together after eight years: Timo Vollbrecht, Florian Herzog, and Lukas Akintaya reunite for this trio. Having first crossed paths in New York, the three now return with original music shaped by jazz, improvisation, and a strong sense of play - a reunion that looks less to the past in nostalgia than forward with curiosity.",
       "image_url": null,
-      "source_url": "https://www.facebook.com/events/1487154939870371",
+      "source_url": "https://www.donau115.de",
       "source_name": "Donau115",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": false
     },
     {
       "title": "mittwochskufa",
@@ -43,7 +49,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Küfa im JUP",
@@ -56,7 +63,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Ende Gelände Ortsgruppen Onboarding",
@@ -69,7 +77,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Soli-Küfa für Bleiberechtskämpfe",
@@ -82,7 +91,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Soli-Küfa, jeden Mittwoch 19 Uhr",
@@ -95,7 +105,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Konzert",
@@ -108,7 +119,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Offenes Antifa Treffen",
@@ -121,7 +133,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Diskussion"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Konzert",
@@ -134,7 +147,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Soli Küfa in supporting a comrade’s right to stay",
@@ -147,7 +161,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "INFOVERANSTALTUNG: KENN DEINE RECHTE!",
@@ -160,7 +175,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Protest"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Irish Trad Session",
@@ -173,7 +189,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "KüFa (Kitchen for all)",
@@ -186,7 +203,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Film"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "PöKü - Küche für Alle!",
@@ -199,7 +217,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Vegane Küfa",
@@ -212,7 +231,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "ELLBOGEN",
@@ -225,7 +245,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "VideoKino (Open Air)",
@@ -238,7 +259,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Film"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Thursday Jazz Jam",
@@ -247,11 +269,12 @@
       "location": "Donau115, Donaustraße 115, Berlin",
       "description": "FEAT. SWINGING LINEUPS EVERY WEEK\ndoors: 19:30 / opening set: 20:00 / jam: 21:00",
       "image_url": null,
-      "source_url": "https://www.facebook.com/events/904352819000250",
+      "source_url": "https://www.donau115.de",
       "source_name": "Donau115",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": false
     },
     {
       "title": "Studio 9. Der Tag mit Paul Ronzheimer",
@@ -264,7 +287,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Die solidarische Jobcenter-Sozialberatung",
@@ -277,7 +301,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Solicafé Klatsche",
@@ -290,7 +315,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Solicafé Klatsche",
@@ -303,7 +329,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Weltspieletag im Vetomat! World Play Day!",
@@ -316,7 +343,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Gutschein-Tausch im YAAM",
@@ -329,7 +357,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Protest"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Aperol Spritz-Night  -> 5 Euro",
@@ -342,7 +371,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Verantwortung für Kindern als Methode des Postkapitalismus.",
@@ -355,7 +385,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Diskussion"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Soli - Sause für Bleiberechtskampf",
@@ -368,7 +399,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Stadtwanderung: Auf den Spuren des Roten Weddings",
@@ -381,7 +413,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Näh’n’Nerd Cafe / Reparaturkneipe",
@@ -394,7 +427,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Open Jam",
@@ -407,7 +441,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Open Decks im Technokeller (14-27 Jahre)",
@@ -420,7 +455,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Soli event for the Colombian Community organisation Convivamos",
@@ -433,7 +469,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Diskussion"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Konzert",
@@ -446,7 +483,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Näh’n’Nerd Cafe - Das Repaircafé im Vetomat",
@@ -459,7 +497,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Konzert",
@@ -472,7 +511,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Metalküfa",
@@ -485,7 +525,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Film"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Blaue Lippen - Aktionsprotokolle des mermaid Werdens",
@@ -498,7 +539,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Offenes Treffen für eine revolutionäre Perspektive",
@@ -511,7 +553,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Outtakes Cinema: Growing up/ DIY in Germany?!",
@@ -524,7 +567,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Film"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Velvet Rebels – leftist, feminist, queer, kinkster, friends",
@@ -537,7 +581,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Zukunftsbilder im Fluss",
@@ -550,7 +595,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Memory Distortion. M I X T A P E",
@@ -563,7 +609,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "On Justice #10: Racial (In)Justice in Authoritarian Times",
@@ -576,7 +623,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Albert Queens comes to town",
@@ -589,7 +637,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Hannah Zabrisky tritt nicht auf",
@@ -602,7 +651,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "SALLY – Mein Leben im Drag",
@@ -615,7 +665,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Filmabend im K(P)",
@@ -628,7 +679,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Film"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Seth Sjöström Quintet - Album Release",
@@ -637,11 +689,12 @@
       "location": "Donau115, Donaustraße 115, Berlin",
       "description": "Seth Sjöström (*2000) is a bass player and composer from northern Sweden currently based Berlin. With a foundation in Jazz, free improvisation and Swedish folk music, he's constantly looking for new ways to express himself as well as communicating with others through art. He's greatly inspired by the harsh but honest nature of northern Sweden and is driven by the will to use music as a tool to build a genuine connection to himself, other people and the world around him.\nOn the 12th of June 2026, Seth releases his new album \"\"Kom Hem\"\" together with his quintet.\nDeeply personal yet widely resonant, his songwriting has connected with audiences and musicians worldwide, with his work recorded by artists from Emilia Mårtensson to the RTV Slovenian Big Band. In his own words, his music is rooted in a belief that songs can help people better understand themselves and their lives.\nThis special double bill brings together two singular voices in contemporary music, joined by acclaimed pianist Matt Robinson and saxophonist Adam Waldmann for an evening of evocative, boundary-crossing music.",
       "image_url": null,
-      "source_url": "https://www.facebook.com/events/1138858851704901",
+      "source_url": "https://www.donau115.de",
       "source_name": "Donau115",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": false
     },
     {
       "title": "Lila Lama Bildungsfestival (DWE & Friends)",
@@ -654,7 +707,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Protest"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "CHILLGARAGE",
@@ -667,7 +721,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Abhishek Thapar: Soft Pressure (Working Title)",
@@ -680,7 +735,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Gutscheintausch Regenbogencafé",
@@ -693,7 +749,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Protest"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Tropenbude Bar und Garten offen",
@@ -706,7 +763,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Aus der Nacht heraus - Political Film Festival -Day 1",
@@ -719,7 +777,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Film"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Aus der Nacht heraus (Day 1): Panel Discussion; Film & more",
@@ -732,7 +791,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Film"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Laurie Young: After Work Tours #1",
@@ -745,7 +805,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Potse Raumkampfplenum",
@@ -758,7 +819,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Protest"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Das Leben neu gestalten - Von der Pariser Kommune nach Rojava",
@@ -771,7 +833,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Film"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Filmfestival - \"Aus der Nacht heraus\"",
@@ -784,7 +847,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Film"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Short Film Fundraiser",
@@ -797,7 +861,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Film"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "sos – media loves you",
@@ -810,7 +875,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Konzert",
@@ -823,7 +889,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Vortrag & Soliparty",
@@ -836,7 +903,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Party"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Konzert: Baustelle & Bikinizone",
@@ -849,7 +917,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Filmgespräch: Zeit des Schweigens und der Dunkelheit",
@@ -862,7 +931,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Film"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Film-Doku",
@@ -875,7 +945,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Film"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "MEXA: Reality Show",
@@ -888,7 +959,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Lesung und Gespräch mit Kiran Desai",
@@ -901,7 +973,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Goodbye Berlin",
@@ -914,7 +987,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Call me Paris",
@@ -927,7 +1001,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Kuba Soli Abend",
@@ -940,7 +1015,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Diskussion"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Konzert im K (F)",
@@ -953,7 +1029,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Filmscreening „About Love on a Small Island“ - Iran",
@@ -966,7 +1043,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Film"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Kein Urlaub? Kein Problem!",
@@ -979,7 +1057,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Konzert im Abstand",
@@ -992,7 +1071,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Party"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Freitags Varieté - Klein aber fein!",
@@ -1005,7 +1085,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Hardcore Friday: Rompo + Furunculus",
@@ -1018,7 +1099,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Songs from the last years",
@@ -1031,7 +1113,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "The Color Scheme",
@@ -1044,7 +1127,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Paradiesische Zustände",
@@ -1057,7 +1141,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "COME OR DIE – A double bill on politics and sex",
@@ -1070,7 +1155,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "JUICE",
@@ -1083,7 +1169,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "beav boloney freak punk shows",
@@ -1096,7 +1183,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "beav boloney freak punk shows",
@@ -1109,7 +1197,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Konzert",
@@ -1122,7 +1211,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Liina Magnea: What’s a Mob to a King (Plot-twist Redemption)",
@@ -1135,7 +1225,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "PASSIV AGGRESSIV SOLI HAKKÛH",
@@ -1148,7 +1239,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Abschiedsparty Studio Я",
@@ -1161,7 +1253,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Let the Ships Fly · Soli-Party · 12.06.2026",
@@ -1174,7 +1267,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Party"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Kaiser Pommes",
@@ -1183,11 +1277,12 @@
       "location": "Donau115, Donaustraße 115, Berlin",
       "description": "* a note from Kaiser Pommes *\nDear all,\nWe are hitting the german roads again, coming back to Donau115, we are very excited.\nAs our members are currently spread out between NYC, Copenhagen & Berlin, it shall be interesting to hear what each of us will bring with us on to the stage; fresh improvised fire, new melodographic weaverings, further hybrid beats, whatever and/or even more.\nCome see for yourselves, we hope you will!\"",
       "image_url": null,
-      "source_url": "https://www.facebook.com/events/1505617047826200",
+      "source_url": "https://www.donau115.de",
       "source_name": "Donau115",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": false
     },
     {
       "title": "Dorfplatz Frühstück & Demo",
@@ -1200,7 +1295,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Diskussion"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Abhishek Thapar: Soft Pressure (Working Title)",
@@ -1213,7 +1309,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Anreise zum CSD Eberswalde",
@@ -1226,7 +1323,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Weberwiese Kiezfest",
@@ -1239,7 +1337,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "🛟Save Our Spree - Aktionstag💧",
@@ -1252,7 +1351,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Protest"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Fayatak Festival 2026",
@@ -1265,7 +1365,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Tropenbude Bar und Garten offen",
@@ -1278,7 +1379,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Demo gegen die digitale Aufrüstung der Polizei",
@@ -1291,7 +1393,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Demo: Gegen die digitale Aufrüstung der Polizei!",
@@ -1304,7 +1407,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Protest"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Save our Spree - Trinkwasser retten!",
@@ -1317,7 +1421,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Protest"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Soli-Sommermarkt",
@@ -1330,7 +1435,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Demo: Gegen KI-Überwachung – Für Freiheit und Selbstbestimmung!",
@@ -1343,7 +1449,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Protest"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Demo: Gegen KI-Überwachung – Für Freiheit und Selbstbestimmung!",
@@ -1356,7 +1463,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Protest"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Bethanien Südflügel Sommerfest",
@@ -1369,7 +1477,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Beziehungsweise Anarchie Lesung",
@@ -1382,7 +1491,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Diskussion"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Monatliche Massendemonstration für Palästina in Berlin",
@@ -1395,7 +1505,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Protest"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Rundgang Ausstellung „Die Anarchie ist das Leben der Menschen, die dem Joche entronnen sind.“",
@@ -1408,7 +1519,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Diskussion"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Laurie Young: After Work Tours #1",
@@ -1421,7 +1533,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Konzert: Elf Füsse",
@@ -1434,7 +1547,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "AKaF KüfA + Chirigota Berlin - 13.06.2026",
@@ -1447,7 +1561,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "10 Jahre nach dem rechten Anschlag am OEZ München",
@@ -1460,7 +1575,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Diskussion"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Konzert",
@@ -1473,7 +1589,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Soliparty for SOFT EDGES",
@@ -1486,7 +1603,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Glaube, Geld, Krieg und Liebe",
@@ -1499,7 +1617,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "MEXA: Reality Show",
@@ -1512,7 +1631,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Kneipenquiz: Straße der Besten",
@@ -1525,7 +1645,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "F*impro: Feminismus meets Impro",
@@ -1538,7 +1659,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Call me Paris",
@@ -1551,7 +1673,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "F*impro Berlin –  die erste feministische Improgruppe in Berlin",
@@ -1564,7 +1687,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "ja nichts ist ok",
@@ -1577,7 +1701,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Die Liedermacher*innenliga Thema:“Wäscheklammer“",
@@ -1590,7 +1715,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Konzert: Low Ceiling, Maschinenbrut, Hephaestus",
@@ -1603,7 +1729,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Punk Gig",
@@ -1616,7 +1743,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Songs from the last years",
@@ -1629,7 +1757,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Paradiesische Zustände",
@@ -1642,7 +1771,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "JUICE",
@@ -1655,7 +1785,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Konzert",
@@ -1668,7 +1799,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Liina Magnea: What’s a Mob to a King (Plot-twist Redemption)",
@@ -1681,7 +1813,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Abschiedsparty Bühne",
@@ -1694,7 +1827,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Adam Winchester",
@@ -1703,11 +1837,12 @@
       "location": "Donau115, Donaustraße 115, Berlin",
       "description": "“Dubby DIY dance music with brilliant sound design\"\nResident Advisor\n”Deep, richly textured, Dub to Industrial to Clicks ’n Cuts leaning Electronics”\nHardwax\nWinchester’s industrial soundscaping suggests mainframes on the fritz and nuclear cores in meltdown, dystopian sci-fi fantasies playing out on a galactic scale.”\nPitchfork\nAdam Winchester is an electronic musician and live performer whose work applies dub mixing techniques to experimental electronic music. His live sets centre on the mixer as an instrument, using delay, echo, and spatial processing to reshape bass driven rhythms, found sounds, modular synthesis, bespoke instruments, feedback systems, and heavily manipulated samples in real time.\nWith roots in Bristol’s dubstep scene as Wedge, and a long-running practice operating between bass music and exploratory sound design, Winchester has developed a distinctive approach that prioritises space, repetition, and gradual transformation fused with tropes of Dub, IDM and the hardcore continuum. He has released on revered labels Osiris Music, Soil, and Mindwaves, with a forthcoming LP on Oval Harmonique set to drop on vinyl later this year.\nAlongside solo work, his collaborative projects include Wrecked Lightship and Dot Product, with acclaimed releases on Midnight Shift, and Peak Oil, spanning experimental performance, club contexts, and installation work. His music also involves collaborations with Renate Knaup of Amon Düül II, the BBC Radiophonic Workshop, and Japanese Noise artist KK Nüll, alongside performances at festivals including Berlin Atonal, Krake, and Boiler Room.",
       "image_url": null,
-      "source_url": "https://www.facebook.com/events/1676664413670886",
+      "source_url": "https://www.donau115.de",
       "source_name": "Donau115",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": false
     },
     {
       "title": "Neocypherpunk Summit",
@@ -1720,7 +1855,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Diskussion"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Abhishek Thapar: Soft Pressure (Working Title)",
@@ -1733,7 +1869,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Kiezversammlung44 - Selbstorganisiertes Treffen zur Wohnkrise in Nordneukölln",
@@ -1746,7 +1883,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Protest"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "📖 Infoladen Scherer 8 📖",
@@ -1759,7 +1897,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Kiezspaziergang",
@@ -1772,7 +1911,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Stadtrundgang: Obdachlos, politisiert, zu Hause in Berlin",
@@ -1785,7 +1925,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Repair Café",
@@ -1798,7 +1939,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Workshop",
@@ -1811,7 +1953,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Offene Bibliothek UJZ Karslhorst",
@@ -1824,7 +1967,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Tropenbude Bar und Garten offen",
@@ -1837,7 +1981,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Märchenstunde auf Vietnamesisch, Russisch und Deutsch",
@@ -1850,7 +1995,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Second Hand Market",
@@ -1863,7 +2009,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Protest the WEF: Strategien für Globale Solidarität",
@@ -1876,7 +2023,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Diskussion"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "K19 KONZERT",
@@ -1889,7 +2037,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Abschiedsfest",
@@ -1902,7 +2051,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Laurie Young: After Work Tours #1",
@@ -1915,7 +2065,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Chillout Jam",
@@ -1928,7 +2079,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Glaube, Geld, Krieg und Liebe",
@@ -1941,7 +2093,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Liina Magnea: What’s a Mob to a King (Plot-twist Redemption)",
@@ -1954,7 +2107,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Ein Stück: Tschechien: Nachlese 2026 – Ophelia OnlyFans",
@@ -1967,7 +2121,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Tea. thoughts and theories",
@@ -1980,7 +2135,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Spooky Paradise",
@@ -1993,7 +2149,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Spooky Paradise",
@@ -2006,7 +2163,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Open Sunday",
@@ -2019,7 +2177,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Paradiesische Zustände",
@@ -2032,7 +2191,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "NOT FUCKABLE",
@@ -2045,7 +2205,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Messy Salon #1",
@@ -2058,7 +2219,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Konzert im K (F)",
@@ -2071,7 +2233,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Fahrrad-Selbsthilfe-Werkstatt",
@@ -2084,7 +2247,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Vernetzung der Mieter/innen der landeseigenen Wohnungsunternehmen (LWU Vernetzung)",
@@ -2097,7 +2261,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Offene Mietenberatung",
@@ -2110,7 +2275,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Offene Mietenberatung",
@@ -2123,7 +2289,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Offene Mieterberatung",
@@ -2136,7 +2303,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Soli-Bleiberechtsbar",
@@ -2149,7 +2317,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Konzert",
@@ -2162,7 +2331,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Konzert",
@@ -2175,7 +2345,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Gesellschaft erkennen, kritisieren und verändern.",
@@ -2188,7 +2359,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Diskussion"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Anarchist Dinner: Free the Ulm 5!",
@@ -2201,7 +2373,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Diskussion"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Liina Magnea: What’s a Mob to a King (Plot-twist Redemption)",
@@ -2214,7 +2387,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "FLINTA* LESEKREIS",
@@ -2227,7 +2401,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Geht es dir gut?",
@@ -2240,7 +2415,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Call me Paris",
@@ -2253,7 +2429,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Filmabend inK(P)",
@@ -2266,7 +2443,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Film"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "10,000 Blinks presents: I AM STILL ALIVE",
@@ -2279,7 +2457,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Two-Song Tuesday (MUSIC STARTS 20:00)",
@@ -2288,11 +2467,12 @@
       "location": "Donau115, Donaustraße 115, Berlin",
       "description": "/////// TWO-SONG TUESDAY ///////\n[sign up 19:30 // start 20:00]\nCALLING ALL SONGWRITERS, COMPOSERS, INSTRUMENTALISTS, POETS, WRITERS, STORYTELLERS, SYNTH WIZARDS, BAGPIPE SAVANTS, BROKEN HEARTS, TAP DANCERS, POLE DANCERS, MIND MELDERS, RACE CAR DRIVERS, AND AGNOSTIC SAINTS!\nDo you have new solo/duo/small group material to present? Join us for Donau115's regular open stage series, Two-Song Tuesday.\nSign-up: 19:30\nSet 1: 20:00\nSet 2: 21:15\nSet 3: 22:15\n\"The Same Procedure as Every Week, James.\"\n- The random-order setlists appear at 19:45 at http://donau115.de\n- First come, first booked, randomly-assigned slot, 15 slots per night + an overflow maybe list that we rarely get to.\n- The bar staff tell you how to sign up, starting at 7.30pm. It is usually a link to an online sign-up form.\n- Your set may include TWO SONGS or last TEN MINUTES, WHICHEVER IS SHORTER (e.g. two seven-minute songs = NO, three three-minute songs = NO).\n- NO SOUNDCHECKS. Be ready. Slip on, blow minds, slip off. Setup is 90 seconds.\n- Sets are no longer than 10 minutes. THERE IS A STOPWATCH TO ENSURE THIS. If your set goes beyond 10 minutes, the stopwatch goes off in the middle of your song. (The alarm sound is in the key of C#, FYI, so modulate to that key for a smooth overtime ending.)\n- For the love of God, DO NOT PLAY THE SAME SONG OVER AND OVER EVERY WEEK. THIS IS BORING. TRY NEW THINGS. WE ADORE YOU. TAKE RISKS! ❤ ❤ ❤\n- Out of respect for our neighbours:\n--- you may NOT use loud percussion or send loud bass-heavy signals into the PA.\n--- you may NOT bring your own amp\n--- you are welcome to use the following itwms from our backline: piano, two generic vocal microphones, and a guitar cable directly into our PA.\n--- DON'T COUNT ON US HAVING ANYTHING OTHER THAN THE FEW THINGS LISTED ABOVE. COME PREPARED.\nFurther questions?\ninfo@donau115.de",
       "image_url": null,
-      "source_url": "https://www.facebook.com/photo/?fbid=1629237932542727&set=gm.1532792951738317",
+      "source_url": "https://www.donau115.de",
       "source_name": "Donau115",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": false
     },
     {
       "title": "Flinta*only Kickern",
@@ -2305,7 +2485,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Kiezküche im Kiezhaus Agnes Reinhold",
@@ -2318,7 +2499,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Queer Ageing Group",
@@ -2331,7 +2513,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "anarcha solidarity kitchen",
@@ -2344,7 +2527,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Breaking News - offener politischer Treff (14-27 Jahre)",
@@ -2357,7 +2541,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Breaking News - offener politischer Treff (14-27 Jahre)",
@@ -2370,7 +2555,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "anarcha solidarity kitchen",
@@ -2383,7 +2569,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Soli-Küfa",
@@ -2396,7 +2583,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Lesung",
@@ -2409,7 +2597,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Queercoustic Hangout",
@@ -2422,7 +2611,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Egal",
@@ -2435,7 +2625,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Ich weiß nicht, was ein Ort ist, ich kenne nur seinen Preis (Manzini-Studien)",
@@ -2448,7 +2639,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Flinta*only Kickern",
@@ -2461,7 +2653,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Im Herzen der Gewalt",
@@ -2474,7 +2667,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "DER SOLDAT. Ein Übergangsritual",
@@ -2487,7 +2681,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Fragezeichen am Hörizont der Tauben",
@@ -2500,7 +2695,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "LatinoKino",
@@ -2513,7 +2709,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Film"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Cravo e Canela 4tet",
@@ -2526,7 +2723,8 @@
       "source_name": "Donau115",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": false
     },
     {
       "title": "Die Welt im Umbruch: Emotionen und Solidarität",
@@ -2539,7 +2737,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Theaterführung",
@@ -2552,7 +2751,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "mittwochskufa",
@@ -2565,7 +2765,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Küfa im JUP",
@@ -2578,7 +2779,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "#Logoskop vierundvierzig",
@@ -2591,7 +2793,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Beziehungskiller Wohnungskrise – Über das Zusammenleben unter Bedingungen der Knappheit",
@@ -2604,7 +2807,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Romani POV: Young Roma on Screen and Stage",
@@ -2617,7 +2821,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Soli-Küfa, jeden Mittwoch 19 Uhr",
@@ -2630,7 +2835,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Konzert",
@@ -2643,7 +2849,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Soli-Abend Nein zur Bezahlkarte",
@@ -2656,7 +2863,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Protest"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Lesekreis: Die Überlegenheit der Unterlegenen. Eine Theorie der Gegengemeinschaften - Daniel Loick",
@@ -2669,7 +2877,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Diskussion"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "DER SOLDAT. Ein Übergangsritual",
@@ -2682,7 +2891,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "P14 – endlich endlich",
@@ -2695,7 +2905,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "90 Jahre Ken Loach: Kes (OmU)",
@@ -2708,7 +2919,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Film"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Egal",
@@ -2721,7 +2933,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Fantômas",
@@ -2734,7 +2947,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "KüFa (Kitchen for all)",
@@ -2747,7 +2961,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Film"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Im Herzen der Gewalt",
@@ -2760,7 +2975,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "TWINK DEATH",
@@ -2773,7 +2989,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Vegane Küfa",
@@ -2786,7 +3003,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "VideoKino (Open Air)",
@@ -2799,7 +3017,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Film"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Thursday Jazz Jam",
@@ -2808,11 +3027,12 @@
       "location": "Donau115, Donaustraße 115, Berlin",
       "description": "FEAT. SWINGING LINEUPS EVERY WEEK\ndoors: 19:30 / opening set: 20:00 / jam: 21:00",
       "image_url": null,
-      "source_url": "https://www.facebook.com/events/904352819000250",
+      "source_url": "https://www.donau115.de",
       "source_name": "Donau115",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": false
     },
     {
       "title": "Die solidarische Jobcenter-Sozialberatung",
@@ -2825,7 +3045,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Solicafé Klatsche",
@@ -2838,7 +3059,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Solicafé Klatsche",
@@ -2851,7 +3073,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Gutschein-Tausch im YAAM",
@@ -2864,7 +3087,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Protest"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "queer-feministische Fahrrad-Werkstatt | queer feminist bike workshop",
@@ -2877,7 +3101,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Eddy Playground",
@@ -2890,7 +3115,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Aperol Spritz-Night  -> 5 Euro",
@@ -2903,7 +3129,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Verantwortung für Kindern als Methode des Postkapitalismus.",
@@ -2916,7 +3143,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "KvU - VV + Tresen",
@@ -2929,7 +3157,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Open Jam",
@@ -2942,7 +3171,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Open Decks im Technokeller (14-27 Jahre)",
@@ -2955,7 +3185,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Attac Berlin lädt ein - Reiche in die Pflicht!",
@@ -2968,7 +3199,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Diskussion"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Konzert",
@@ -2981,7 +3213,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "beav boloney freak punk shows",
@@ -2994,7 +3227,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Land, Kultur,  Autonomie - indigener Widerstand in Kolumbien",
@@ -3007,7 +3241,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Diskussion"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Annäherungen an meine Eltern Hans und Hilde Coppi",
@@ -3020,7 +3255,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Diskussion"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "P14 – endlich endlich",
@@ -3033,7 +3269,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "This is waving salon",
@@ -3046,7 +3283,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Goodbye Berlin",
@@ -3059,7 +3297,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Egal",
@@ -3072,7 +3311,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Punkrocktresen",
@@ -3085,7 +3325,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Im Herzen der Gewalt",
@@ -3098,7 +3339,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Mi Madre y el Dinero",
@@ -3111,7 +3353,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "TWINK DEATH",
@@ -3124,7 +3367,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Konzert",
@@ -3137,7 +3381,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Filmabend im K(P)",
@@ -3150,7 +3395,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Film"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Meinberg/Greve/Wesley",
@@ -3159,11 +3405,12 @@
       "location": "Donau115, Donaustraße 115, Berlin",
       "description": "Lajos Meinberg grew up in a family of musicians, which nurtured his love for jazz from an early age. Since 2020, he has been studying at the Jazz Institute Berlin under Wolfgang Köhler, Tino Dorado, and Bastian Stein, and has been actively involved in the Berlin jazz scene since then. He has had the opportunity to perform with musicians such as Rodney Green, Doug Weiss, Matt Wilson and Martin Wind. Lajos received the Ingolf Burkhardt Award in 2022 and won first prize at the International Jazzhaus Piano Competition in Freiburg in 2024, as well as second prize at the International Jazz Piano Competition Lausanne in 2025. In August 2023, Lajos was part of the Elbphilharmonie Jazz Academy, where he had the chance to learn from musicians like Anat Cohen, Donny McCaslin, and Sullivan Fortner.\nJohann Greve is a double bassist and composer from Lower Saxony. Since moving to Berlin in 2019, he has worked as a sideman on a wide variety of projects and established himself in the young Berlin jazz scene. He has performed with Percy Pursglove, Julius Gawlik, Charlotte Greve and Olga Reznichenko, among others. In March 2024, he recorded material for his debut album with his quartet.\nCalifornia-born drummer Genius Wesley is an emerging force on the international jazz scene, known for his electrifying energy, deep musicality, and fearless improvisation. A prodigy percussionist, he has already performed with jazz greats such as David Binney, Sean Jones, Buster Williams, Azar Lawrence, Gerald Clayton, and many more.",
       "image_url": null,
-      "source_url": "https://www.facebook.com/events/1602371814327040",
+      "source_url": "https://www.donau115.de",
       "source_name": "Donau115",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": false
     },
     {
       "title": "Summer.Sun.Done",
@@ -3176,7 +3423,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "CHILLGARAGE",
@@ -3189,7 +3437,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Gutscheintausch Regenbogencafé",
@@ -3202,7 +3451,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Protest"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Tropenbude Bar und Garten offen",
@@ -3215,7 +3465,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Ich schneide schneller",
@@ -3228,7 +3479,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Und jetzt?",
@@ -3241,7 +3493,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Angela Alves: Never Rest (After Work Tours #2)",
@@ -3254,7 +3507,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Filmfestival - \"Aus der Nacht heraus\"",
@@ -3267,7 +3521,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Film"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Humboldting #10 Social Muscle Club",
@@ -3280,7 +3535,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "P14 – endlich endlich",
@@ -3293,7 +3549,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Queer Death Café",
@@ -3306,7 +3563,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Bi+Flinta* meet up",
@@ -3319,7 +3577,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Bi+Flinta* meet up",
@@ -3332,7 +3591,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Input und Diskussion \"Sicherheitspaket\"",
@@ -3345,7 +3605,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Diskussion"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Konzert",
@@ -3358,7 +3619,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Vortrag: Was ist eigentlich in Schnellroda los?",
@@ -3371,7 +3633,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Diskussion"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Pride Dinner –Platz am Kaisersteg Für Queers only!",
@@ -3384,7 +3647,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Protest"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Kampf gegen den Faschismus in Spanien 1936-1939",
@@ -3397,7 +3661,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Diskussion"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Abschlussfest",
@@ -3410,7 +3675,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Mi Madre y el Dinero",
@@ -3423,7 +3689,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Moya Michael: It’s like a Finger Pointing a Way to the Moon",
@@ -3436,7 +3703,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Kneipe & Briefe an Gefangene schreiben",
@@ -3449,7 +3717,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Salome",
@@ -3462,7 +3731,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Ea Torrado: Brown Madonna",
@@ -3475,7 +3745,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Sonora Berlín",
@@ -3488,7 +3759,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "MUSViT",
@@ -3497,11 +3769,12 @@
       "location": "Donau115, Donaustraße 115, Berlin",
       "description": "Known for their unique and genre-defying music, the Danish-Swedish quartet MUSViT quickly established themselves both as a critically acclaimed live band and with their triple Danish Music Awards-nominated debut EP. With a unique line-up of drums, bass, tenor sax and vocals with touches of vocoder and alto sax, the band is inspired by everything from free-jazz to hip-hop. In a minimalist but powerful burst of energy they create a new sound and invite you into their playful universe, where anything can happen, as long as it serves the music. This evening they will celebrate the release of their debut album 'SUKKER' that's coming out on the 22nd of May.",
       "image_url": null,
-      "source_url": "https://www.facebook.com/events/744402728667002",
+      "source_url": "https://www.donau115.de",
       "source_name": "Donau115",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": false
     },
     {
       "title": "Tropenbude Bar und Garten offen",
@@ -3514,7 +3787,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Schach- und Spiele-Nachmittag",
@@ -3527,7 +3801,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Solitresen - Sweet drinks for bitter times",
@@ -3540,7 +3815,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Lesung und Punkkonzert",
@@ -3553,7 +3829,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Konzert im Garten",
@@ -3566,7 +3843,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Humboldting #10 Social Muscle Club",
@@ -3579,7 +3857,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Rundgang Ausstellung „Die Anarchie ist das Leben der Menschen, die dem Joche entronnen sind.“",
@@ -3592,7 +3871,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Diskussion"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Angela Alves: Never Rest (After Work Tours #2)",
@@ -3605,7 +3885,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Screening \"ProPal - for the global justice\" + aperitivo",
@@ -3618,7 +3899,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Freedom of Movement",
@@ -3631,7 +3913,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Gaybar",
@@ -3644,7 +3927,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Oratorium – Kollektive Andacht zu einem wohlgehüteten Geheimnis",
@@ -3657,7 +3941,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Moya Michael: It’s like a Finger Pointing a Way to the Moon",
@@ -3670,7 +3955,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Lesung & Buchvorstellung",
@@ -3683,7 +3969,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Being Young",
@@ -3696,7 +3983,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Salon Ma ما",
@@ -3709,7 +3997,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Konzert im $@#@riterviertel",
@@ -3722,7 +4011,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Riot Grrrl Tresen feat. ZOFF & RubberXhead",
@@ -3735,7 +4025,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Der Mitsingabend",
@@ -3748,7 +4039,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Salome",
@@ -3761,7 +4053,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Love Me Tender",
@@ -3774,7 +4067,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Konzert im TRxxxTR",
@@ -3787,7 +4081,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Die Seherin",
@@ -3800,7 +4095,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Ea Torrado: Brown Madonna",
@@ -3813,7 +4109,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Konzert im K (A)",
@@ -3826,7 +4123,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Wello Rauschs Karaoke Gala",
@@ -3839,7 +4137,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Olympia Bukkakis: Queer and Present Dangers/The Nation at Work",
@@ -3852,7 +4151,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Kriminal Kitchen fuck off soundssystem",
@@ -3865,7 +4165,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Hunger",
@@ -3874,11 +4175,12 @@
       "location": "Donau115, Donaustraße 115, Berlin",
       "description": "Christoph Rothmeier: percussive and electronic stuff, theremin, vocals.\nJörg Hochapfel: keyboards, guitar, glockenspiel, vocals.\nThe band Hunger, consisting of Christoph Rothmeier and Jörg Hochapfel, has been around since 1996, initially on Lake Constance, then for a long time in Hamburg, and finally in Berlin.\nPreviously known in the music world for their \"\"abstract pop studies with a Dadaist bent\"\" (taz) and \"\"nervous disco-punk racket\"\" (Tagesspiegel), they have in recent years moved into a somewhat quieter, but no less disorienting, musical territory between stumbling exotica and out-of-tune fake folk, using synthesizers, home organs, theremin, and homemade instruments.\nThey're bringing with them their brand-new album \"\"Trikotin,\"\" consisting of eight tracks improvised and subsequently refined in a secret French studio, available in the most practical and versatile format imaginable: a 36-page, lovingly risographed sheet music book!",
       "image_url": null,
-      "source_url": "https://www.facebook.com/events/952694731012747",
+      "source_url": "https://www.donau115.de",
       "source_name": "Donau115",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": false
     },
     {
       "title": "Vegan Soli Brunch",
@@ -3891,7 +4193,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Vegan Soli Brunch",
@@ -3904,7 +4207,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Kiez-Flohmarkt",
@@ -3917,7 +4221,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Save Rojava Soliparty and Tattoo",
@@ -3930,7 +4235,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Squat de la Musique",
@@ -3943,7 +4249,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Streitraum",
@@ -3956,7 +4263,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "📖 Infoladen Scherer 8 📖",
@@ -3969,7 +4277,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Squat de la Musique * Schreina47",
@@ -3982,7 +4291,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Protest"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Tropenbude Bar und Garten offen",
@@ -3995,7 +4305,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Squat de la Musique aufm Dorfplatz",
@@ -4008,7 +4319,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Historische Hausführung: Never Work",
@@ -4021,7 +4333,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Konzert",
@@ -4034,7 +4347,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Unsere Träume zu leben /  Hayallerimizi yaşamak",
@@ -4047,7 +4361,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Gedenkkundgebung 93 Jahre Köpenicker Blutwoche",
@@ -4060,7 +4375,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Protest"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Angela Alves: Never Rest (After Work Tours #2)",
@@ -4073,7 +4389,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Chillout Jam",
@@ -4086,7 +4403,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Der Schnittchenkauf",
@@ -4099,7 +4417,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Filmscreening",
@@ -4112,7 +4431,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Film"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "P14 – endlich endlich",
@@ -4125,7 +4445,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Oratorium – Kollektive Andacht zu einem wohlgehüteten Geheimnis",
@@ -4138,7 +4459,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Love Me Tender",
@@ -4151,7 +4473,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Die Seherin",
@@ -4164,7 +4487,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Olympia Bukkakis: Queer and Present Dangers/The Nation at Work",
@@ -4177,7 +4501,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "VideoKino (Open Air)",
@@ -4190,7 +4515,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Film"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Sozialberatung  - Social counseling",
@@ -4203,7 +4529,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Fahrrad-Selbsthilfe-Werkstatt",
@@ -4216,7 +4543,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Offene Mietenberatung",
@@ -4229,7 +4557,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Offene Mietenberatung",
@@ -4242,7 +4571,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Offene Mieterberatung",
@@ -4255,7 +4585,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Soli-Bleiberechtsbar",
@@ -4268,7 +4599,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Konzert",
@@ -4281,7 +4613,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Palästina , Israel und die Deutschen.",
@@ -4294,7 +4627,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Diskussion"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Die Seherin",
@@ -4307,7 +4641,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Salome",
@@ -4320,7 +4655,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Filmabend im K( P)",
@@ -4333,7 +4669,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Film"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Two-Song Tuesday (MUSIC STARTS 20:00)",
@@ -4342,11 +4679,12 @@
       "location": "Donau115, Donaustraße 115, Berlin",
       "description": "/////// TWO-SONG TUESDAY ///////\n[sign up 19:30 // start 20:00]\nCALLING ALL SONGWRITERS, COMPOSERS, INSTRUMENTALISTS, POETS, WRITERS, STORYTELLERS, SYNTH WIZARDS, BAGPIPE SAVANTS, BROKEN HEARTS, TAP DANCERS, POLE DANCERS, MIND MELDERS, RACE CAR DRIVERS, AND AGNOSTIC SAINTS!\nDo you have new solo/duo/small group material to present? Join us for Donau115's regular open stage series, Two-Song Tuesday.\nSign-up: 19:30\nSet 1: 20:00\nSet 2: 21:15\nSet 3: 22:15\n\"The Same Procedure as Every Week, James.\"\n- The random-order setlists appear at 19:45 at http://donau115.de\n- First come, first booked, randomly-assigned slot, 15 slots per night + an overflow maybe list that we rarely get to.\n- The bar staff tell you how to sign up, starting at 7.30pm. It is usually a link to an online sign-up form.\n- Your set may include TWO SONGS or last TEN MINUTES, WHICHEVER IS SHORTER (e.g. two seven-minute songs = NO, three three-minute songs = NO).\n- NO SOUNDCHECKS. Be ready. Slip on, blow minds, slip off. Setup is 90 seconds.\n- Sets are no longer than 10 minutes. THERE IS A STOPWATCH TO ENSURE THIS. If your set goes beyond 10 minutes, the stopwatch goes off in the middle of your song. (The alarm sound is in the key of C#, FYI, so modulate to that key for a smooth overtime ending.)\n- For the love of God, DO NOT PLAY THE SAME SONG OVER AND OVER EVERY WEEK. THIS IS BORING. TRY NEW THINGS. WE ADORE YOU. TAKE RISKS! ❤ ❤ ❤\n- Out of respect for our neighbours:\n--- you may NOT use loud percussion or send loud bass-heavy signals into the PA.\n--- you may NOT bring your own amp\n--- you are welcome to use the following itwms from our backline: piano, two generic vocal microphones, and a guitar cable directly into our PA.\n--- DON'T COUNT ON US HAVING ANYTHING OTHER THAN THE FEW THINGS LISTED ABOVE. COME PREPARED.\nFurther questions?\ninfo@donau115.de",
       "image_url": null,
-      "source_url": "https://www.facebook.com/photo/?fbid=1629237932542727&set=gm.1532792951738317",
+      "source_url": "https://www.donau115.de",
       "source_name": "Donau115",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": false
     },
     {
       "title": "Historische Hausführung: Never Work",
@@ -4359,7 +4697,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Sophiensæle Forever #2 – Never Work",
@@ -4372,7 +4711,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Flinta*only Kickern",
@@ -4385,7 +4725,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Kiezküche im Kiezhaus Agnes Reinhold",
@@ -4398,7 +4739,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Berliner Bündnis gegen Vonovia & Co. - monatliches Vernetzungstreffen",
@@ -4411,7 +4753,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Protest"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Berliner Bündnis gegen Vonovia & Co. - monatliches Vernetzungstreffen",
@@ -4424,7 +4767,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Protest"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "anarcha solidarity kitchen",
@@ -4437,7 +4781,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Breaking News - offener politischer Treff (14-27 Jahre)",
@@ -4450,7 +4795,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Breaking News - offener politischer Treff (14-27 Jahre)",
@@ -4463,7 +4809,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "anarcha solidarity kitchen",
@@ -4476,7 +4823,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Soli-Küfa",
@@ -4489,7 +4837,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "AfD Parteitag stoppen!",
@@ -4502,7 +4851,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Protest"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Flinta*only Kickern",
@@ -4515,7 +4865,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "LatinoKino",
@@ -4528,7 +4879,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Film"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Abwärts!: #2 Texte, Filme, Sensationen + Release Heft 59",
@@ -4541,7 +4893,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Film"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Ein Volksfeind",
@@ -4554,7 +4907,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Dan Nicholls &",
@@ -4567,7 +4921,8 @@
       "source_name": "Donau115",
       "tags": [
         "Konzert"
-      ]
+      ],
+      "time_known": false
     },
     {
       "title": "Studio 9. Der Tag mit Sarah Bosetti. Deutschlandfunk Kultur – live aus dem Humboldt Forum",
@@ -4580,7 +4935,8 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "mittwochskufa",
@@ -4593,7 +4949,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
-      ]
+      ],
+      "time_known": true
     },
     {
       "title": "Küfa im JUP",
@@ -4606,7 +4963,8 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
-      ]
+      ],
+      "time_known": true
     }
   ]
 }

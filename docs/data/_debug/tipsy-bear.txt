@@ -1,3 +1,40 @@
-URL: https://tipsybearberlin.com/events
-  FEHLER: 403 Client Error: Forbidden for url: https://tipsybearberlin.com/events
+/
+  status=403 type=text/html; charset=UTF-8 len=5687 builder=unbekannt
+  snippet=<!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scal
+------------------------------------------------------------
+/events
+  status=403 type=text/html; charset=UTF-8 len=5727 builder=unbekannt
+  snippet=<!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scal
+------------------------------------------------------------
+/events?format=json
+  status=403 type=text/html; charset=UTF-8 len=5778 builder=unbekannt
+  snippet=<!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scal
+------------------------------------------------------------
+/events?format=ical
+  status=403 type=text/html; charset=UTF-8 len=5778 builder=unbekannt
+  snippet=<!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scal
+------------------------------------------------------------
+/calendar?format=json
+  status=403 type=text/html; charset=UTF-8 len=5805 builder=unbekannt
+  snippet=<!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scal
+------------------------------------------------------------
+/shows?format=json
+  status=403 type=text/html; charset=UTF-8 len=5775 builder=unbekannt
+  snippet=<!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scal
+------------------------------------------------------------
+/sitemap.xml
+  status=403 type=text/html; charset=UTF-8 len=5742 builder=unbekannt
+  snippet=<!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scal
+------------------------------------------------------------
+/robots.txt
+  status=200 type=text/plain; charset=utf-8 len=1738 builder=unbekannt
+  snippet=# As a condition of accessing this website, you agree to abide by the following # content signals:  # (a)  If a Content-Signal = yes, you may collect content for the corresponding #      use. # (b)  If a Content-Signal = no, you may not collect content for the #      corresponding use. # (c)  If the
+------------------------------------------------------------
+/events/feed/
+  status=403 type=text/html; charset=UTF-8 len=5745 builder=unbekannt
+  snippet=<!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scal
+------------------------------------------------------------
+/wp-json/tribe/events/v1/events
+  status=403 type=text/html; charset=UTF-8 len=5820 builder=unbekannt
+  snippet=<!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scal
 ------------------------------------------------------------

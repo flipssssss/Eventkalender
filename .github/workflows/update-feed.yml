@@ -10,7 +10,6 @@ on:
   # Manuell per Knopfdruck im "Actions"-Tab startbar.
   workflow_dispatch:
 
-# Rechte, die für die Veröffentlichung auf GitHub Pages nötig sind.
 permissions:
   contents: write
   pages: write
@@ -22,11 +21,10 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build-and-deploy:
+  # --- Schritt 1: Veranstaltungen sammeln und Daten speichern -----------
+  daten:
+    name: Veranstaltungen sammeln
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Code auschecken
         uses: actions/checkout@v4
@@ -55,14 +53,33 @@ jobs:
             git push
           fi
 
-      - name: GitHub Pages vorbereiten
+  # --- Schritt 2: Feed-Webseite auf GitHub Pages veröffentlichen --------
+  # Schlägt fehl, solange GitHub Pages nicht aktiv ist -- das ist ok und
+  # betrifft Schritt 1 nicht. Sobald das Repo öffentlich ist, aktiviert
+  # sich Pages hier automatisch.
+  veroeffentlichen:
+    name: Auf GitHub Pages veröffentlichen
+    runs-on: ubuntu-latest
+    needs: daten
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Aktuellen Stand (inkl. neuer Daten) auschecken
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+
+      - name: GitHub Pages vorbereiten (und ggf. aktivieren)
         uses: actions/configure-pages@v5
+        with:
+          enablement: true
 
       - name: Webseite hochladen
         uses: actions/upload-pages-artifact@v3
         with:
           path: docs
 
-      - name: Auf GitHub Pages veröffentlichen
+      - name: Veröffentlichen
         id: deployment
         uses: actions/deploy-pages@v4

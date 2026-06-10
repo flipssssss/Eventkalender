@@ -19,12 +19,12 @@ EVENTS_URL = (
 )
 DEBUG_DIR = pathlib.Path(__file__).resolve().parents[1] / "docs" / "data" / "_debug"
 
-TITLE_KEYS = ("title", "name", "event", "artist", "act", "headline")
+TITLE_KEYS = ("bandName", "band", "title", "name", "event", "artist", "act", "headline")
 DATE_KEYS = ("date", "start", "startDate", "datetime", "day", "when")
-TIME_KEYS = ("time", "start_time", "startTime", "doors", "beginn")
+TIME_KEYS = ("time", "start_time", "startTime", "doors", "doorsTime", "beginn", "uhrzeit")
 DESC_KEYS = ("description", "text", "info", "details", "subtitle", "support")
 IMAGE_KEYS = ("image", "img", "photo", "flyer", "picture", "imageUrl")
-LINK_KEYS = ("link", "url", "tickets", "ticketLink", "ticket_url")
+LINK_KEYS = ("link", "url", "tickets", "ticketLink", "ticket_url", "facebook")
 
 
 class Donau115Scraper(BaseScraper):
@@ -51,11 +51,14 @@ class Donau115Scraper(BaseScraper):
                 events.append(event)
 
         if self.write_debug:
-            sample = json.dumps(items[:2], ensure_ascii=False, indent=2)[:2500]
+            keys = sorted({k for it in items for k in it.keys()})
+            cleaned = [_strip_blobs(it) for it in items[:3]]
+            sample = json.dumps(cleaned, ensure_ascii=False, indent=2)[:2500]
             self._dump_debug(
                 f"URL: {self.url}\nGefundene Einträge: {len(items)}\n"
                 f"Events geparst: {len(events)}\n"
-                f"Beispiel-Datensätze:\n{sample}"
+                f"Alle Feldnamen: {keys}\n"
+                f"Beispiel-Datensätze (ohne Bild-Daten):\n{sample}"
             )
         return events
 
@@ -76,7 +79,13 @@ class Donau115Scraper(BaseScraper):
                 start = parsed_time
 
         link = _first(item, LINK_KEYS) or "https://www.donau115.de"
+        if isinstance(link, str) and not link.startswith("http"):
+            link = "https://" + link.lstrip("/")
+        # Ignore inline base64 images (they would bloat the feed); only keep
+        # real http(s) image URLs.
         image = _first(item, IMAGE_KEYS)
+        if isinstance(image, str) and not image.startswith("http"):
+            image = None
 
         return Event(
             title=str(title).strip(),
@@ -85,7 +94,7 @@ class Donau115Scraper(BaseScraper):
             source_name=self.name,
             location="Donau115, Donaustraße 115, Berlin",
             description=_first(item, DESC_KEYS),
-            image_url=str(image) if image else None,
+            image_url=image,
             tags=["Konzert"],
         )
 
@@ -95,6 +104,22 @@ class Donau115Scraper(BaseScraper):
             (DEBUG_DIR / "donau115.txt").write_text(text, encoding="utf-8")
         except OSError:
             pass
+
+
+def _strip_blobs(item: dict) -> dict:
+    """Replace huge base64 image blobs with a placeholder for debugging."""
+    out = {}
+    for key, value in item.items():
+        if isinstance(value, str) and value.startswith("data:"):
+            out[key] = f"[base64, {len(value)} Zeichen]"
+        elif isinstance(value, list):
+            out[key] = [
+                f"[base64, {len(v)} Zeichen]" if isinstance(v, str) and v.startswith("data:") else v
+                for v in value
+            ]
+        else:
+            out[key] = value
+    return out
 
 
 def _first(item: dict, keys):

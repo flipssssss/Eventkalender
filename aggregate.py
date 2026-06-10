@@ -26,6 +26,7 @@ import yaml
 
 from scrapers.base import Event
 from scrapers.berlin_buehnen import BerlinBuehnenScraper
+from scrapers.categories import categorize
 from scrapers.ical import ICalScraper
 from scrapers.jsonld import JsonLdScraper
 from scrapers.stressfaktor import StressfaktorScraper
@@ -109,6 +110,12 @@ def filter_and_sort(events: list[Event]) -> list[Event]:
         start_naive = event.start.replace(tzinfo=None)
         if start_naive < cutoff:
             continue
+        # Map the source's raw categories onto the fixed tag set; drop
+        # advice/help ("Beratung") events entirely.
+        primary = categorize(event.tags)
+        if primary is None:
+            continue
+        event.tags = [primary]
         key = event.dedupe_key()
         if key in seen:
             continue

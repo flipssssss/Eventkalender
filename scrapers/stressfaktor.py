@@ -40,9 +40,12 @@ class StressfaktorScraper(BaseScraper):
         default_tags: list[str] | None = None,
         write_debug: bool = True,
     ):
+        # The live site uses the same Drupal markup as the (now stale 2021)
+        # mirror, so the same parser works. We read the live site directly;
+        # the mirror is intentionally NOT used as a fallback because its
+        # snapshot is years out of date.
         self.urls = urls or [
-            "https://mirror.systemli.org/stressfaktor.squat.net/termine/alle.html",
-            "https://mirror.systemli.org/stressfaktor.squat.net/termine.html",
+            "https://stressfaktor.squat.net/termine",
         ]
         self.default_tags = list(default_tags or ["Berlin", "Politik & Kultur"])
         self.write_debug = write_debug

@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-10T10:42:52.674810+00:00",
-  "count": 132,
+  "generated_at": "2026-06-10T10:46:34.132299+00:00",
+  "count": 345,
   "sources": [
     {
       "source": "Stressfaktor",
-      "count": 224,
+      "count": 300,
       "error": null
     },
     {
@@ -353,6 +353,279 @@
       ]
     },
     {
+      "title": "Die solidarische Jobcenter-Sozialberatung",
+      "start": "2026-06-11T15:00:00",
+      "end": null,
+      "location": "Kiezhaus Agnes Reinhold Afrikanische Straße 74 13351 Berlin Deutschland",
+      "description": "Beratung und Solidarität:",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/321606",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ]
+    },
+    {
+      "title": "Solicafé Klatsche",
+      "start": "2026-06-11T15:00:00",
+      "end": null,
+      "location": "Regenbogenfabrik Lausitzer Str. 22 10999 Berlin Deutschland",
+      "description": "CAFÉ KLATSCHE - WIR HABEN DEN TAG GEWECHSELT, JETZT IMMER DONNERSTAGS!\n(English version below)",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/324038",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ]
+    },
+    {
+      "title": "Solicafé Klatsche",
+      "start": "2026-06-11T15:00:00",
+      "end": null,
+      "location": "Regenbogenfabrik Lausitzer Str. 22 10999 Berlin Deutschland",
+      "description": "Kaffee, Kuchen und KÜFA (meist ab 19:00) vegan und auf Spendenbasis! Geöffnet 15-22 Uhr. Kein Konsumzwang, kommt rum wie ihr seid. Manchmal gibts auch Veranstaltungen und andere Events, die stehen dann extra im Stressi. Alle unsere Einnahmen werden gespendet bzw.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327211",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ]
+    },
+    {
+      "title": "Weltspieletag im Vetomat! World Play Day!",
+      "start": "2026-06-11T15:00:00",
+      "end": null,
+      "location": "Vetomat Wühlischstr. 42 10247 Berlin Deutschland",
+      "description": "World play day! For all adults! We call upon you to put a stop to the doctrine of reason, to defy the dictatorship of maturity, and to recklessly fall into the game of uncertainty! There will be Riesenjenga, 3D-4gewinnt, Board- and Cardgames, Chess,  later Glücksschnapsrad..",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327701",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ]
+    },
+    {
+      "title": "Gutschein-Tausch im YAAM",
+      "start": "2026-06-11T16:00:00",
+      "end": null,
+      "location": "Yaam (an der Schillingbrücke) An der Schillingbrücke 3 Berlin Deutschland",
+      "description": "Gutscheintausch im YAAM – Gemeinsam gegen die Bezahlkarte! Voucher Exchange at YAAM – Together Against the Payment Card! --- English version below  ---",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/326645",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Protest"
+      ]
+    },
+    {
+      "title": "Aperol Spritz-Night  -> 5 Euro",
+      "start": "2026-06-11T18:00:00",
+      "end": null,
+      "location": "B-Lage Mareschstr. 1 12055 Berlin Deutschland",
+      "description": "Ab jetzt gibt es jeden Donnerstag Spritz für 5 Euro in der B-Lage, kommt gern rum! Es wird spritzig.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/326845",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ]
+    },
+    {
+      "title": "Verantwortung für Kindern als Methode des Postkapitalismus.",
+      "start": "2026-06-11T18:00:00",
+      "end": null,
+      "location": "Mariannenplatz Bethanien New York im Bethanien 10997 Berlin Deutschland",
+      "description": "Verantwortung gegenüber den Kindern als wirkmächtige Methode des Postkapitalismus. Wir behandeln das Buch, \"der KUEKeN- radikal trivial, Kinder Verantwortung Zukunft\"\nDer Autor liest aus dem Buch und beantwortet Fragen.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327572",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Diskussion"
+      ]
+    },
+    {
+      "title": "Soli - Sause für Bleiberechtskampf",
+      "start": "2026-06-11T18:00:00",
+      "end": null,
+      "location": "Tristeza Pannierstr. 5 12047 Berlin Deutschland",
+      "description": "Ein soli abend in der tirsse mit tombola, bingo, siebdruck und noch ganz viel mehr!",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327630",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ]
+    },
+    {
+      "title": "Stadtwanderung: Auf den Spuren des Roten Weddings",
+      "start": "2026-06-11T18:30:00",
+      "end": null,
+      "location": "Ort bei Anmeldung Ort bei Anmeldung Berlin Deutschland",
+      "description": "Zwischen den großen Fabriken und den engen Mietskasernen des Weddings lebten und organisierten sich gerade in den 1920er- und frühen 1930er-Jahren viele Arbeiter:innen. Sie diskutierten, streikten und demonstrierten für bessere Lebens- und Arbeitsbedingungen.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/326592",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ]
+    },
+    {
+      "title": "Näh’n’Nerd Cafe / Reparaturkneipe",
+      "start": "2026-06-11T19:00:00",
+      "end": null,
+      "location": "Vetomat Wühlischstr. 42 10247 Berlin Deutschland",
+      "description": "Näh’n’Nerd CafeAb jetzt jeden zweiten Donnerstag 19-22 Uhr im Veto NerdCafe Das Nerd-Cafe in alter Tradition, gemütliches gemeinsames rumnerden und barrierefreier Tech-Support. Mit Reparaturcafe in Kneipenatmosphäre!",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/324105",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ]
+    },
+    {
+      "title": "Open Jam",
+      "start": "2026-06-11T19:00:00",
+      "end": null,
+      "location": "Café Köpenick Seelenbinderstr. 54 12555 Berlin Deutschland",
+      "description": "Komm gern allein oder mit deiner Band vorbei - Gitarren, Bass, Drums, Klavier und Mikros haben wir vor Ort.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/325538",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ]
+    },
+    {
+      "title": "Open Decks im Technokeller (14-27 Jahre)",
+      "start": "2026-06-11T19:00:00",
+      "end": null,
+      "location": "Café Köpenick Seelenbinderstr. 54 12555 Berlin Deutschland",
+      "description": "Ihr habt Bock auf Djing?\nEgal ob unerfahren und lernbereit oder auch erfahren sowie auf der Suche nach einem Platz zum Musik aufdrehen.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/325586",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ]
+    },
+    {
+      "title": "Soli event for the Colombian Community organisation Convivamos",
+      "start": "2026-06-11T19:00:00",
+      "end": null,
+      "location": "Regenbogenfabrik Lausitzer Str. 21a 10999 Berlin Deutschland",
+      "description": "For more than 30 years, Con-Vivamos has been working on neighbourhood organising, popular feminism, and grassroots self-organisation in the barrios of Medellín.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327253",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Diskussion"
+      ]
+    },
+    {
+      "title": "Konzert",
+      "start": "2026-06-11T19:00:00",
+      "end": null,
+      "location": "Regenbogenfabrik Lausitzer Str. 21a 10999 Berlin Deutschland",
+      "description": "\"La Niña Jaguar\"\n--- Einlass 19:00, Beginn 20:00 | RegenbogenKino ---",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327255",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ]
+    },
+    {
+      "title": "Näh’n’Nerd Cafe - Das Repaircafé im Vetomat",
+      "start": "2026-06-11T19:00:00",
+      "end": null,
+      "location": "Vetomat Wühlischstr. 42 10247 Berlin Deutschland",
+      "description": "Näh’n’Nerd CafeAb jetzt jeden zweiten Donnerstag 19-22 Uhr im Veto UPDATE: Jetzt im Sommer ist die Hilfe bei Nähprojekten nicht immer da -- Nähmaschinen und Material gibt es trotzdem, aber nicht immer Support!",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327317",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ]
+    },
+    {
+      "title": "Konzert",
+      "start": "2026-06-11T19:00:00",
+      "end": null,
+      "location": "Schokoladen Ackerstrasse 169 10115 Berlin Deutschland",
+      "description": "süper!nice! prsnts: Die Expressionisten [jangle punk] + Grateful Cat [indie pop folk]",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327332",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ]
+    },
+    {
+      "title": "Metalküfa",
+      "start": "2026-06-11T19:00:00",
+      "end": null,
+      "location": "Zielona Góra Grünbergerstr. 73 10245 Berlin Deutschland",
+      "description": "Into The Pit präsentiert...\n\"Nie wieder Krieg!\"\nFilmscreening von \"johnny zieht in, den krieg\" \nMit Einleitung: Antimilitarismus im Metal\nAftershow w/ DJ Broken\nVegane Küfa ab 21 Uhr!",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327438",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Film"
+      ]
+    },
+    {
+      "title": "Blaue Lippen - Aktionsprotokolle des mermaid Werdens",
+      "start": "2026-06-11T19:00:00",
+      "end": null,
+      "location": "Berlin Berlin Deutschland",
+      "description": "Blaue Lippen Aktionsprotokolle des mermaid Werdens ohneflossen.projekt 11.06.26 19 Uhr",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327485",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Theater"
+      ]
+    },
+    {
+      "title": "Offenes Treffen für eine revolutionäre Perspektive",
+      "start": "2026-06-11T19:00:00",
+      "end": null,
+      "location": "Mieterladen Kreutzigerstr. 23 10247 Berlin Deutschland",
+      "description": "Täglich prasseln schlechte Nachrichten auf uns ein: Kriege eskalieren, die Krise ist allgegenwärtig und unsere Zukunftsaussichten scheinen miserabel. Doch statt die Ursachen anzugehen, werden Milliarden in die Aufrüstung gesteckt und die Wehrpflicht wieder eingeführt.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327559",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ]
+    },
+    {
+      "title": "Outtakes Cinema: Growing up/ DIY in Germany?!",
+      "start": "2026-06-11T19:00:00",
+      "end": null,
+      "location": "Berlin Berlin Deutschland",
+      "description": "Outtakes Cinema x Frachtkante x Mangel Records lädt ein zum ersten Filmscreening in Tegel mit: „Stau – Jetzt geht’s los“ Zeit: 11.06.2026 19:00",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327580",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Film"
+      ]
+    },
+    {
+      "title": "Velvet Rebels – leftist, feminist, queer, kinkster, friends",
+      "start": "2026-06-11T19:00:00",
+      "end": null,
+      "location": "Cocoon Exerzierstraße 14 13357 Berlin Deutschland",
+      "description": "(English version below)",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327656",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ]
+    },
+    {
       "title": "Zukunftsbilder im Fluss",
       "start": "2026-06-11T19:00:00",
       "end": null,
@@ -431,6 +704,45 @@
       ]
     },
     {
+      "title": "Filmabend im K(P)",
+      "start": "2026-06-11T21:00:00",
+      "end": null,
+      "location": "K Köpenicker Straße Berlin Deutschland",
+      "description": "\" Nightcrawler \"USA, 2014, OmU, 117 Min.R.: Dan Gilroy D.: Jake Gyllenhaal, Rene RussoA petty thief desperate for work muscles into the world of crime journalism and becomes the star of his own story as he blurs the line between observer and participant.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327163",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Film"
+      ]
+    },
+    {
+      "title": "Lila Lama Bildungsfestival (DWE & Friends)",
+      "start": "2026-06-12T12:00:00",
+      "end": null,
+      "location": "Rote Mühle Falkenberg Karl-Marx-Straße 26 16259 Falkenberg Deutschland",
+      "description": "Liebe Leute, es ist soweit: Es gibt\n🌈 Bildungsfestival-Tickets 🥳",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327151",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Protest"
+      ]
+    },
+    {
+      "title": "CHILLGARAGE",
+      "start": "2026-06-12T16:00:00",
+      "end": null,
+      "location": "Columbiadamm 10 Zollgarage im alten Flughafen Tempelhof 10965 Berlin Deutschland",
+      "description": "[DE]Chillgarage in der ZollgarageJeden Freitag ab 16 Uhr sind wir offen und warm, mit viel Raum zum treffen, entspannen, organisieren, basteln, spielen, Film schauen, politisieren, was trinken und auf was ihr Bock habt…Jeden FREITAG 16 Uhr bis min. 20 Uhr",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/323193",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ]
+    },
+    {
       "title": "Abhishek Thapar: Soft Pressure (Working Title)",
       "start": "2026-06-12T16:00:00",
       "end": null,
@@ -441,6 +753,58 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
+      ]
+    },
+    {
+      "title": "Gutscheintausch Regenbogencafé",
+      "start": "2026-06-12T17:00:00",
+      "end": null,
+      "location": "Berlin Deutschland",
+      "description": "NEIN zur Bezahlkarte Berlin - Brandenburg",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/326668",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Protest"
+      ]
+    },
+    {
+      "title": "Tropenbude Bar und Garten offen",
+      "start": "2026-06-12T17:00:00",
+      "end": null,
+      "location": "Villa Kuriosum Scheffelstr. 21 10367 Berlin Deutschland",
+      "description": "Die Tropenbude Bar und der Garten der Villa Kuriosum sind geöffnet.Freitag 17-22Uhr.\nAnsonsten gibt es Kaffee, Kuchen, Snacks, Bier, Drinks, Natur und Kultur .\nProgramm -> schaut Bitte auf unsere Website.\nKeine Hunde bitte, no dogs please - Katzengarten.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327352",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ]
+    },
+    {
+      "title": "Aus der Nacht heraus - Political Film Festival -Day 1",
+      "start": "2026-06-12T17:30:00",
+      "end": null,
+      "location": "Wagenburg Lohmühle Lohmühlenstr. 17 12435 Berlin Deutschland",
+      "description": "Climate (In)Justice in Times of War and Neocolonialism (Doors open at 18:00 - Event starts at 19:00)",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327660",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Film"
+      ]
+    },
+    {
+      "title": "Aus der Nacht heraus (Day 1): Panel Discussion; Film & more",
+      "start": "2026-06-12T17:30:00",
+      "end": null,
+      "location": "Wagenburg Lohmühle Lohmühlenstr. 17 12435 Berlin Deutschland",
+      "description": "𝐅𝐫𝐢𝐝𝐚𝐲, 𝟏𝟐. 𝐉𝐮𝐧𝐞 𝟐𝟎𝟐𝟔 (𝐃𝐀𝐘 𝟏)\n𝐓𝐡𝐞 𝐬𝐨𝐥𝐢𝐝𝐚𝐫𝐢𝐭𝐲 𝐠𝐫𝐨𝐮𝐩 “𝐀𝐮𝐬𝐰𝐚̈𝐫𝐭𝐬”𝐢𝐧𝐯𝐢𝐭𝐞𝐬 𝐲𝐨𝐮 𝐭𝐨 𝐭𝐡𝐞 𝐟𝐢𝐫𝐬𝐭 𝐝𝐚𝐲 𝐨𝐟 𝐭𝐡𝐞 𝐅𝐢𝐥𝐦 𝐟𝐞𝐬𝐭𝐢𝐯𝐚𝐥 “𝐀𝐮𝐬 𝐝𝐞𝐫 𝐍𝐚𝐜𝐡𝐭 𝐡𝐞𝐫𝐚𝐮𝐬 𝟖” 𝐟𝐨𝐫 𝐚𝐧 𝐞𝐯𝐞𝐧𝐢𝐧𝐠 𝐝𝐞𝐝𝐢𝐜𝐚𝐭𝐞𝐝 𝐭𝐨:\n𝐂𝐥𝐢𝐦𝐚𝐭𝐞 (𝐈𝐧)𝐉𝐮𝐬𝐭𝐢𝐜𝐞 𝐢𝐧 𝐓𝐢𝐦𝐞𝐬 𝐨𝐟 𝐖𝐚𝐫 𝐚𝐧𝐝 𝐍𝐞𝐨𝐜𝐨𝐥𝐨𝐧𝐢𝐚𝐥𝐢𝐬𝐦",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327670",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Film"
       ]
     },
     {
@@ -457,6 +821,58 @@
       ]
     },
     {
+      "title": "Potse Raumkampfplenum",
+      "start": "2026-06-12T18:00:00",
+      "end": null,
+      "location": "Columbiadamm 10 Zollgarage im alten Flughafen Tempelhof 10965 Berlin Deutschland",
+      "description": "[English below]\nDie Potse ist in einem Raumkampf, mal wieder! Unser Mietvertrag läuft im September aus und es gibt bisher keine Ersatzräume bis die permanente Lösung mit dem \"Haus der Jugend\" 2030 gebaut ist.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327318",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Protest"
+      ]
+    },
+    {
+      "title": "Das Leben neu gestalten - Von der Pariser Kommune nach Rojava",
+      "start": "2026-06-12T18:00:00",
+      "end": null,
+      "location": "Drugstore Potsdamer Str. 134 10783 Berlin Deutschland",
+      "description": "Veranstaltung zum Geburtstag von ANNA HÊLÎN CAMPBELL (12.6.1991 - 15.3.2018) mit Info + Buchvorstellung mit Christopher Wimmer",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327470",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Film"
+      ]
+    },
+    {
+      "title": "Filmfestival - \"Aus der Nacht heraus\"",
+      "start": "2026-06-12T18:00:00",
+      "end": null,
+      "location": "Wagenburg Lohmühle Lohmühlenstr. 17 12435 Berlin Deutschland",
+      "description": "Filmfestival - \"Aus der Nacht heraus\" - Climate (In)Justice in Times of War and Neocolonialism, Start 19:00 Uhr (ab 18:00 Uhr Bar, ca. 21:30 Uhr Film),",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327618",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Film"
+      ]
+    },
+    {
+      "title": "Short Film Fundraiser",
+      "start": "2026-06-12T18:00:00",
+      "end": null,
+      "location": "Tristeza Pannierstr. 5 12047 Berlin Deutschland",
+      "description": "✪ FUNDRAISER NIGHT ✪\nJoin us on June 12th from 18:00 onwards at @tristezakiezkneipe Pannierstraße 5, 12047 Berlin for a quinceañera core night! \nThis is a donation-based event, so come through, bring your people and help us make some movie magic happen €€€€",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327634",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Film"
+      ]
+    },
+    {
       "title": "sos – media loves you",
       "start": "2026-06-12T18:30:00",
       "end": null,
@@ -467,6 +883,71 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
+      ]
+    },
+    {
+      "title": "Konzert",
+      "start": "2026-06-12T19:00:00",
+      "end": null,
+      "location": "Schokoladen Ackerstrasse 169 10115 Berlin Deutschland",
+      "description": "offbeatclub prsnts: Wood In Di Fire [rocksteady reggae jamaican jazz]",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327319",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ]
+    },
+    {
+      "title": "Vortrag & Soliparty",
+      "start": "2026-06-12T19:00:00",
+      "end": null,
+      "location": "Schreina47 Schreinerstr. 47 10245 Berlin Deutschland",
+      "description": "Am Freitag, den 12.06., laden wir in die SchreinA 47 zur Soliparty ein – politisch, laut, solidarisch!",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327427",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Party"
+      ]
+    },
+    {
+      "title": "Konzert: Baustelle & Bikinizone",
+      "start": "2026-06-12T19:00:00",
+      "end": null,
+      "location": "KvU Händelallee 22 10557 Berlin Deutschland",
+      "description": "Bikinizone (synth-Punk, Berlin)\nBaustelle (Nerdcore-Rap, Weimar)\nK.v.U.\nHändelallee 22, S-Tiergarten, U-Hansaplatz",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327581",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ]
+    },
+    {
+      "title": "Filmgespräch: Zeit des Schweigens und der Dunkelheit",
+      "start": "2026-06-12T19:00:00",
+      "end": null,
+      "location": "Regenbogenfabrik Lausitzer Str. 22 10999 Berlin Deutschland",
+      "description": "Zeit des Schweigens und der Dunkelheit Doku (Nina Gladitz, 1982) 60 min. in deutscher Spracheund anschließendem Gespräch mit Petra Rosenberg\nFilm und GesprächZum 90. Jahrestag der Verschleppung der Berliner Sinti*zze und Romn*ja in das Zwangslager Marzahn",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327663",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Film"
+      ]
+    },
+    {
+      "title": "Film-Doku",
+      "start": "2026-06-12T19:00:00",
+      "end": null,
+      "location": "Regenbogenfabrik Lausitzer Str. 21a 10999 Berlin Deutschland",
+      "description": "\"Zeit des Schweigens und der Dunkelheit\" Dokumentation (Nina Gladitz, 1982, 60 min., de) und Gespräch mit Petra Rosenberg | RegenbogenKino",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327690",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Film"
       ]
     },
     {
@@ -519,6 +1000,97 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
+      ]
+    },
+    {
+      "title": "Kuba Soli Abend",
+      "start": "2026-06-12T20:00:00",
+      "end": null,
+      "location": "Zielona Góra Grünbergerstr. 73 10245 Berlin Deutschland",
+      "description": "Wir stellen das Projekt \"Energie für die Revolution\" vor. Außerdem berichten Teilnehmer der Mai-Brigade über ihre Erfahrungen und die aktuelle Situation auf Kuba.\nDanach feiern wir den Geburtstag von Che Guevara.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327551",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Diskussion"
+      ]
+    },
+    {
+      "title": "Konzert im K (F)",
+      "start": "2026-06-12T20:00:00",
+      "end": null,
+      "location": "K Köpenicker Straße Berlin Deutschland",
+      "description": "\"Jason Kane & The Jive\" (RocknRoll, Texas US) - \"Lunacy\" (Sleaze Metal, Berlin) - \"Clean Emmie\" (HC Glam Metal, Berlin)",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327579",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ]
+    },
+    {
+      "title": "Filmscreening „About Love on a Small Island“ - Iran",
+      "start": "2026-06-12T20:00:00",
+      "end": null,
+      "location": "Casinoooo Sonnenallee 100 12045 Berlin Deutschland",
+      "description": "Filmscreening von dis:orient.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327597",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Film"
+      ]
+    },
+    {
+      "title": "Kein Urlaub? Kein Problem!",
+      "start": "2026-06-12T20:00:00",
+      "end": null,
+      "location": "ZGK Scharnweberstr. 38 10247 Berlin Deutschland",
+      "description": "Im Juni ist Daiquiri Tresen!\nKommt vorbei für ein kühles Getränk, eine Runde Kicker und Musik aus der Dose.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327691",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ]
+    },
+    {
+      "title": "Konzert im Abstand",
+      "start": "2026-06-12T20:00:00",
+      "end": null,
+      "location": "Kneipe im Gefahrengebiet Rigaer Straße 10247 Berlin Deutschland",
+      "description": "Konzert im Abstand mit 2 Bands aus Győr und einer Überraschung. \nConcert at Abstand featuring two bands and a surprise.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327695",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Party"
+      ]
+    },
+    {
+      "title": "Freitags Varieté - Klein aber fein!",
+      "start": "2026-06-12T20:00:00",
+      "end": null,
+      "location": "Vetomat Wühlischstr. 42 10247 Berlin Deutschland",
+      "description": "Anything to perform (up to max7min)? - be our guest and try the stage! We welcome everyone who dares to do sth crazy, boring, creative, musical, poetic, scientific, or magical our little stage - you're welcome like hell! :D (be there around 7pm for soundcheck etc.)",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327700",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ]
+    },
+    {
+      "title": "Hardcore Friday: Rompo + Furunculus",
+      "start": "2026-06-12T20:00:00",
+      "end": null,
+      "location": "Rigaer Str. 78 10247 Berlin Deutschland",
+      "description": "Hungary Hardcore goes to Berlin",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327704",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
       ]
     },
     {
@@ -587,6 +1159,45 @@
       ]
     },
     {
+      "title": "beav boloney freak punk shows",
+      "start": "2026-06-12T20:30:00",
+      "end": null,
+      "location": "Berlin Berlin Deutschland",
+      "description": "Eel Men (kings of modpunk,London) & Lovebomb (eggpunk,Mannheim,you will hate it)",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327451",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ]
+    },
+    {
+      "title": "beav boloney freak punk shows",
+      "start": "2026-06-12T20:30:00",
+      "end": null,
+      "location": "Trixxxter Kreuzberg Berlin Deutschland",
+      "description": "Eel Men (kings of modpunk,London) & Lovebomb (eggpunk,Mannheim,you`ll hate it)",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327452",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ]
+    },
+    {
+      "title": "Konzert",
+      "start": "2026-06-12T21:30:00",
+      "end": null,
+      "location": "Supamolly Jessnerstr. 41 10247 Berlin Deutschland",
+      "description": "ACT!ON: ALEX WILCOX & HYPNOSIS THERAPY electro punk/techno meets electronic hiphop from South Korea",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327439",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ]
+    },
+    {
       "title": "Liina Magnea: What’s a Mob to a King (Plot-twist Redemption)",
       "start": "2026-06-12T21:30:00",
       "end": null,
@@ -597,6 +1208,19 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
+      ]
+    },
+    {
+      "title": "PASSIV AGGRESSIV SOLI HAKKÛH",
+      "start": "2026-06-12T22:00:00",
+      "end": null,
+      "location": "Rxxxhaus, Bethaniendamm Berlin Deutschland",
+      "description": "- SOLI HAKKÛH AM 12 JUNI -\nGabber - Frenchcore - Early - Terror\nÆNZØDJ ROBSENK1KO VS P. FORTELITHIUMMISTER PREXIT (VINYL)RADICALTEK",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327593",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
       ]
     },
     {
@@ -613,6 +1237,32 @@
       ]
     },
     {
+      "title": "Let the Ships Fly · Soli-Party · 12.06.2026",
+      "start": "2026-06-12T23:00:00",
+      "end": null,
+      "location": "Berlin Berlin Deutschland",
+      "description": "LET THE SHIPS FLY, 2nd Edition: 12 June 2026 📅 Date: Friday, 12 June 2026\n📍 Venue: Beate Uwe, Berlin\n🕙 Time: From 23:00",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327455",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Party"
+      ]
+    },
+    {
+      "title": "Dorfplatz Frühstück & Demo",
+      "start": "2026-06-13T11:00:00",
+      "end": null,
+      "location": "Dorfplatz (Fhain) Rigaerstr. Ecke Liebigstr. 10247 Berlin Deutschland",
+      "description": "Liebe Nachbarinnen und Nachbarn,am Samstag, den 13. Juni 2026, laden wir Euch herzlich zu einem gemeinsamen Dorfplatz-Frühstück ein.📍 Dorfplatz (Liebigstraße / Ecke Rigaer Straße)🕚 ab 11.00 Uhr",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327679",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Diskussion"
+      ]
+    },
+    {
       "title": "Abhishek Thapar: Soft Pressure (Working Title)",
       "start": "2026-06-13T11:00:00",
       "end": null,
@@ -626,6 +1276,201 @@
       ]
     },
     {
+      "title": "Anreise zum CSD Eberswalde",
+      "start": "2026-06-13T12:15:00",
+      "end": null,
+      "location": "Gesundbrunnen (Gleis 9) Berlin Deutschland",
+      "description": "Gemeinsam wollen wir den CSD Eberswalde unterstützen und mit dem Zug aus Berlin anreisen. Denn in Eberswalde und überall gilt: Vielfältig und widerständig stehen wir ein für queere Rechte und Sichtbarkeit!",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327649",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ]
+    },
+    {
+      "title": "Weberwiese Kiezfest",
+      "start": "2026-06-13T14:00:00",
+      "end": null,
+      "location": "Gubener Straße Ecke Grünberger Straße 10243 Berlin Deutschland",
+      "description": "Save the Date: Weberwiese Kiezfest 2026 Am 13. Juni 2026 feiern wir zum vierten Mal in Folge unser Weberwiese Kiezfest – und setzen erneut ein klares Zeichen für unseren Kiez!",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/326762",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ]
+    },
+    {
+      "title": "🛟Save Our Spree - Aktionstag💧",
+      "start": "2026-06-13T14:00:00",
+      "end": null,
+      "location": "Treptower Park Berlin Deutschland",
+      "description": "Kundgebung, Fest, Protestschwimmen und mehr! Die Spree ist bedroht. Wir werden aktiv.🚰Unser Trinkwasser stammt zu großen Teilen aus der Spree. Doch die Spree hat ein Problem:💧Sie besteht zum Großteil aus dem abgepumpten Grubenwasser der Tagebaue in der Lausitz.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327198",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Protest"
+      ]
+    },
+    {
+      "title": "Fayatak Festival 2026",
+      "start": "2026-06-13T14:00:00",
+      "end": null,
+      "location": "Jugendkulturzentrum M24 Mühlenstr.24, 13187 Berlin Deutschland",
+      "description": "English below Am 13. Juni verwandelt sich das Jugendkulturzentrum m24 in Berlin-Pankow wieder in den Place-to-be für alle, die Bock auf Newcomer-Acts und entspannte Festival-Vibes haben...\nDas FAYATAK (ehemals Klimatak) ist zurück 🔥",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327348",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ]
+    },
+    {
+      "title": "Tropenbude Bar und Garten offen",
+      "start": "2026-06-13T14:00:00",
+      "end": null,
+      "location": "Villa Kuriosum Scheffelstr. 21 10367 Berlin Deutschland",
+      "description": "Die Tropenbude Bar und der Garten der Villa Kuriosum sind wieder geöffnet.Samstag von 14-22Uhr.\nAnsonsten gibt es Kaffee, Kuchen, Snacks, Bier, Drinks, Natur und Kultur .\nProgramm -> schaut Bitte auf unsere Website.\nKeine Hunde bitte, no dogs please - Katzengarten.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327377",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ]
+    },
+    {
+      "title": "Demo gegen die digitale Aufrüstung der Polizei",
+      "start": "2026-06-13T14:00:00",
+      "end": null,
+      "location": "Warschauer Brücke Warschauer Brücke Berlin Deutschland",
+      "description": "Keine biometrische Massenüberwachung und KI-Fahndung durch Palantir & Co\nTreffpunkt: Warschauer Str. / Marchlewskistr., Berlin, 14 Uhr\nDemoroute:",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327554",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ]
+    },
+    {
+      "title": "Demo: Gegen die digitale Aufrüstung der Polizei!",
+      "start": "2026-06-13T14:00:00",
+      "end": null,
+      "location": "U-Bhf Warschauer Straße 10243 Berlin Deutschland",
+      "description": "Demo: Gegen die digitale Aufrüstung der Polizei! Keine biometrische Massenüberwachung und KI-Fahndung durch Palantir & Co\nWann? Am 13. Juni 2026, 14 Uhr\nWo? Warschauer Straße / Marchlewskistraße",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327564",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Protest"
+      ]
+    },
+    {
+      "title": "Save our Spree - Trinkwasser retten!",
+      "start": "2026-06-13T14:00:00",
+      "end": null,
+      "location": "Treptower Park Berlin Deutschland",
+      "description": "Am Samstag, den 13. Juni, laden wir euch ein, unter dem Motto „Save our Spree“ gemeinsam mit zahlreichen Initiativen, Vereinen, Umweltverbänden, Forschungsinstituten und Kunstprojekten ein Zeichen zu setzen.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327619",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Protest"
+      ]
+    },
+    {
+      "title": "Soli-Sommermarkt",
+      "start": "2026-06-13T14:00:00",
+      "end": null,
+      "location": "Villa Kuriosum Scheffelstr. 21 10367 Berlin Deutschland",
+      "description": "Wir zelebrieren den Sommer und laden euch herzlich zum Soli-Markt für Selbstgemachtes, Kunst & Kurioses ein. Oben drauf gibt’s Musik, Performances und spontane Überraschungen, u.a.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327643",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ]
+    },
+    {
+      "title": "Demo: Gegen KI-Überwachung – Für Freiheit und Selbstbestimmung!",
+      "start": "2026-06-13T14:00:00",
+      "end": null,
+      "location": "Warschauer Straße/Marchlewskistraße 10243 Berlin Deutschland",
+      "description": "STAB OUT THE EYES OF THE STATE!",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327713",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Protest"
+      ]
+    },
+    {
+      "title": "Demo: Gegen KI-Überwachung – Für Freiheit und Selbstbestimmung!",
+      "start": "2026-06-13T14:00:00",
+      "end": null,
+      "location": "Warschauer Straße/Marchlewskistraße 10243 Berlin Deutschland",
+      "description": "STAB OUT THE EYES OF THE STATE!",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327714",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Protest"
+      ]
+    },
+    {
+      "title": "Bethanien Südflügel Sommerfest",
+      "start": "2026-06-13T15:00:00",
+      "end": null,
+      "location": "Der Preis ist heiß New Yorck im Bethanien Mariannenplatz 2A 10997 Berlin Deutschland",
+      "description": "EN & FR below\n🔥 Bethanien Südflügel Sommerfest 🔥",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327576",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ]
+    },
+    {
+      "title": "Beziehungsweise Anarchie Lesung",
+      "start": "2026-06-13T15:00:00",
+      "end": null,
+      "location": "Der Preis ist heiß New Yorck im Bethanien Mariannenplatz 2A 10997 Berlin Deutschland",
+      "description": "Anarcha-Café: Beziehungsweise Anarchie Dieses Mal ist unser Anarcha-Café Teil vom Sommerfest Südflügel Bethanien! 🎉\nWir freuen uns, BEA mit einer Lesung aus „Beziehungsweise Anarchie\" vorzustellen",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327646",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Diskussion"
+      ]
+    },
+    {
+      "title": "Monatliche Massendemonstration für Palästina in Berlin",
+      "start": "2026-06-13T16:00:00",
+      "end": null,
+      "location": "O-Platz Oranienplatz 10999 Berlin Deutschland",
+      "description": "(english below) Geht auf die Straße! Schließt euch dem Widerstand gegen die zionistische Entität an für die Freiheit aller Gefangenen, für ein Ende der Besatzung und für ein freies Palästina. Am 30.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327728",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Protest"
+      ]
+    },
+    {
+      "title": "Rundgang Ausstellung „Die Anarchie ist das Leben der Menschen, die dem Joche entronnen sind.“",
+      "start": "2026-06-13T17:30:00",
+      "end": null,
+      "location": "Anti-Kriegs-Museum Berlin Brüsseler Str. 21 13353 Berlin Deutschland",
+      "description": "Gustav Landauers Schrift „Die Abschaffung des Krieges durch die Selbstbestimmung des Volkes“ ist in Zeiten mannigfaltiger Kriege aktueller denn je.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/326570",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Diskussion"
+      ]
+    },
+    {
       "title": "Laurie Young: After Work Tours #1",
       "start": "2026-06-13T17:30:00",
       "end": null,
@@ -636,6 +1481,71 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
+      ]
+    },
+    {
+      "title": "Konzert: Elf Füsse",
+      "start": "2026-06-13T18:30:00",
+      "end": null,
+      "location": "Regenbogenfabrik Lausitzer Str. 21a 10999 Berlin Deutschland",
+      "description": "--- Einlass 18:30, Beginn 19:00 | RegenbogenKino ---",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/326817",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ]
+    },
+    {
+      "title": "AKaF KüfA + Chirigota Berlin - 13.06.2026",
+      "start": "2026-06-13T18:30:00",
+      "end": null,
+      "location": "Bandito Rosso Lottumstr. 10a 10119 Berlin Deutschland",
+      "description": "** English below ** Deutsch AKaF KüfA + Chirigota Berlin 13.06.2026 @ Banditorosso(Lottumstr. 10A, 10119 Berlin)\n18:30 Uhr Einlass\n19:00 Uhr Chirigota Berlin",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327685",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ]
+    },
+    {
+      "title": "10 Jahre nach dem rechten Anschlag am OEZ München",
+      "start": "2026-06-13T19:00:00",
+      "end": null,
+      "location": "Schreina47 Schreinerstr. 47 10245 Berlin Deutschland",
+      "description": "TOP B3rlin und Antifa NT aus München laden zum Vortrag: \n10 Jahre nach dem rechten Anschlag am OEZ München - Antifa heißt Erinnern -",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327260",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Diskussion"
+      ]
+    },
+    {
+      "title": "Konzert",
+      "start": "2026-06-13T19:00:00",
+      "end": null,
+      "location": "Schokoladen Ackerstrasse 169 10115 Berlin Deutschland",
+      "description": "thirsty & miserable prsnts: Trainer [no wave noise rock°saarbrücken] + AACKR [instrumental post noise°köln]",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327320",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ]
+    },
+    {
+      "title": "Soliparty for SOFT EDGES",
+      "start": "2026-06-13T19:00:00",
+      "end": null,
+      "location": "OGH Sonnenallee Berlin Deutschland",
+      "description": "LINE UP:\nb1unt b1ade (ethereal dark ambient)\nWathutsky (experimental ambient)\nEva van Dijk (alt hyperpop)",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327599",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
       ]
     },
     {
@@ -660,6 +1570,32 @@
       "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/40219a6047141537c683c63b6c26723f.jpg",
       "source_url": "https://www.berlin-buehnen.de/de/spielplan/mexa-reality-show/events/367988/",
       "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ]
+    },
+    {
+      "title": "Kneipenquiz: Straße der Besten",
+      "start": "2026-06-13T19:30:00",
+      "end": null,
+      "location": "Baiz Schönhauser Allee 26 A 10435 Berlin Deutschland",
+      "description": "Quizshow für Ratekollektive von 2-5 Leuten. Es gibt wie immer keine Teilnahmegebühr, dem zweiten und letzten Team winkt jeweils Perlwein, den Gewinnern dafür viel Ruhm. Kontakt unter quiz[ät]baiz.info möglich.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327321",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ]
+    },
+    {
+      "title": "F*impro: Feminismus meets Impro",
+      "start": "2026-06-13T19:30:00",
+      "end": null,
+      "location": "Grüner Salon, Volksbühne, Rosa-Luxemburg-Platz 2 10178 Berlin Deutschland",
+      "description": "Liebe Freund*innen, wir möchten euch herzlich zu unserer nächsten Ausgabe von \"F*impro – die Show\" einladen: Samstag, 13. Juni 2026 \nGrüner Salon in der Volksbühne",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327673",
+      "source_name": "Stressfaktor",
       "tags": [
         "Theater"
       ]
@@ -704,6 +1640,45 @@
       ]
     },
     {
+      "title": "Die Liedermacher*innenliga Thema:“Wäscheklammer“",
+      "start": "2026-06-13T20:00:00",
+      "end": null,
+      "location": "Archiv Potsdam Berlin Deutschland",
+      "description": "Die Liedermacher*innenliga ist ein musikalischer Wettstreit bei dem die Teilnehmenden ein Lied zu einem vorher ausgerufenen Thema schreiben um sich damit einer Jury zu stellen.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327264",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ]
+    },
+    {
+      "title": "Konzert: Low Ceiling, Maschinenbrut, Hephaestus",
+      "start": "2026-06-13T20:00:00",
+      "end": null,
+      "location": "Trixxxter Kreuzberg Berlin Deutschland",
+      "description": "Low Ceiling (indie-rock/post-punk, Aigio GR), Maschinenbrut (post/punk/rock, Berlin), Hephaestus (doom/sludge, Berlin)",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327583",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ]
+    },
+    {
+      "title": "Punk Gig",
+      "start": "2026-06-13T20:00:00",
+      "end": null,
+      "location": "Zielona Góra Grünbergerstr. 73 10245 Berlin Deutschland",
+      "description": "Punk gig in solidarity and support for anarchist prisoners Marianna M. And Dimitra Z., accused for the Ampelokipi case in Athens, Greece. Kyriakos Xymitiris–Always present in our struggles.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327590",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ]
+    },
+    {
       "title": "Songs from the last years",
       "start": "2026-06-13T20:00:00",
       "end": null,
@@ -743,6 +1718,19 @@
       ]
     },
     {
+      "title": "Konzert",
+      "start": "2026-06-13T21:30:00",
+      "end": null,
+      "location": "Supamolly Jessnerstr. 41 10247 Berlin Deutschland",
+      "description": "The Berry und Snailmate (Punk Rap Gutter Poetry)",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327440",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ]
+    },
+    {
       "title": "Liina Magnea: What’s a Mob to a King (Plot-twist Redemption)",
       "start": "2026-06-13T21:30:00",
       "end": null,
@@ -769,6 +1757,19 @@
       ]
     },
     {
+      "title": "Neocypherpunk Summit",
+      "start": "2026-06-14T10:00:00",
+      "end": null,
+      "location": "Berlin Berlin Deutschland",
+      "description": "Gathering at Berlin's historic Funkhaus, the Neocypherpunk Summit brings together a global network of hacktivists, researchers, technologists, whistleblowers, philosophers, lawyers & policy-makers.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/326110",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Diskussion"
+      ]
+    },
+    {
       "title": "Abhishek Thapar: Soft Pressure (Working Title)",
       "start": "2026-06-14T11:00:00",
       "end": null,
@@ -779,6 +1780,162 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
+      ]
+    },
+    {
+      "title": "Kiezversammlung44 - Selbstorganisiertes Treffen zur Wohnkrise in Nordneukölln",
+      "start": "2026-06-14T12:00:00",
+      "end": null,
+      "location": "Casinoooo Sonnenallee 100 12045 Berlin Deutschland",
+      "description": "Die Kiezversammlung ist ein monatlicher, nachbarschaftlicher Austausch zu Problemen im Kiez, mit Vermietern, Hausverwaltungen, Chefs und der kapitalistischer Stadtentwicklung.\nLasst uns vernetzen gegen den Ausverkauf der Stadt!Kommen wir zusammen zur Kiezversammlung44!",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/325428",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Protest"
+      ]
+    },
+    {
+      "title": "📖 Infoladen Scherer 8 📖",
+      "start": "2026-06-14T13:00:00",
+      "end": null,
+      "location": "Infoladen Scherer Schererstraße 8 13347 Berlin Deutschland",
+      "description": "[EN below] Vernetzt euch im Berliner Norden! Zum Austausch über anarchistische, (queer-)feministische, antifaschistische, ökologische und stadtpolitische Themen ist der selbstorganisierte Infoladen jeden Sonntag für euch geöffnet.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/324710",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ]
+    },
+    {
+      "title": "Kiezspaziergang",
+      "start": "2026-06-14T13:00:00",
+      "end": null,
+      "location": "Regenbogenfabrik Lausitzer Str. 21a 10999 Berlin Deutschland",
+      "description": "Kiezspaziergang durch das „widerständige SO36“\nFür alle, die wissen möchten, warum Kreuzberg in den 1980er Jahren der bekannteste Bezirk Berlins war und bis heute etwas „Besonderes“ ist\n- in deutscher Sprache",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327535",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ]
+    },
+    {
+      "title": "Stadtrundgang: Obdachlos, politisiert, zu Hause in Berlin",
+      "start": "2026-06-14T14:00:00",
+      "end": null,
+      "location": "Alexanderplatz 10187 Berlin Deutschland",
+      "description": "Eigentlich wollte Janet auf dem Weg nach Hause nur ein paar Freunde in Berlin besuchen, doch dann wird sie nachts überfallen, ihr Telefon und letztes Geld geraubt und so strandet sie hier mitten in der Coronazeit. Schon zuvor war sie jahrelang in verschiedenen Städten wohnungslos.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/326715",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ]
+    },
+    {
+      "title": "Repair Café",
+      "start": "2026-06-14T14:00:00",
+      "end": null,
+      "location": "Piekfeiner Laden - Hausprojekt Wönnichstr. 103 Berlin Deutschland",
+      "description": "Hallo liebe Menschen im Kiez,\ndas Repair Café in der Wönnichstraße 103 öffnet am 14. Juni wieder seine Türen – und wir laden euch herzlich ein!",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327688",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ]
+    },
+    {
+      "title": "Workshop",
+      "start": "2026-06-14T15:00:00",
+      "end": null,
+      "location": "Rxxxhaus, Bethaniendamm Berlin Deutschland",
+      "description": "CHOOSING TO REPAIR YOUR CLOTHES IS AN ANTI-CAPITALIST ACT\nBring your garment to repair and join us to sew together and enjoy the afternoon with vegan cakes and coffee!\nIf you want to practice or improve your sewing skills, this is the place for you!",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/325076",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ]
+    },
+    {
+      "title": "Offene Bibliothek UJZ Karslhorst",
+      "start": "2026-06-14T15:00:00",
+      "end": null,
+      "location": "Hönower Straße 30 10318 Berlin Deutschland",
+      "description": "Offene UJZ-BibliothekWann? Am 2. und 4. Sonntag im Monat | 15-19 UhrWo? UJZ Karlshorst, Hönower Str. 30, 10318 Berlin",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/326550",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ]
+    },
+    {
+      "title": "Tropenbude Bar und Garten offen",
+      "start": "2026-06-14T15:00:00",
+      "end": null,
+      "location": "Villa Kuriosum Scheffelstr. 21 10367 Berlin Deutschland",
+      "description": "Die Tropenbude Bar und der Garten der Villa Kuriosum sind geöffnet.Sonntag von 15-21 Uhr.\nAnsonsten gibt es Kaffee, Kuchen, Snacks, Bier, Drinks, Natur und Kultur .\nProgramm -> schaut Bitte auf unsere Website.\nKeine Hunde bitte, no dogs please - Katzengarten.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327401",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ]
+    },
+    {
+      "title": "Märchenstunde auf Vietnamesisch, Russisch und Deutsch",
+      "start": "2026-06-14T15:30:00",
+      "end": null,
+      "location": "Betonoase Dolgenseestr. 60a 10319 Berlin Deutschland",
+      "description": "Eine Märchenstunde für Groß und Klein. Kommt vorbei es wird gemütlich.Programm:- Die Krähe und der Pfau - Quạ và công- Vom Fröschlein, das auf Reisen ging - Лягушка-путешественница- Die drei Schwestern - Ba cô gái",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327567",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ]
+    },
+    {
+      "title": "Second Hand Market",
+      "start": "2026-06-14T16:00:00",
+      "end": null,
+      "location": "Köpi Berlin Deutschland",
+      "description": "Flea Market In Kopi Yard\nMusic, Food,Bar, Cockatils,\nBring your own Table ! (or use ours, Limited Amount)\nSOLI FOR GREEK ANARCHISTS IN PRISION",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327624",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ]
+    },
+    {
+      "title": "Protest the WEF: Strategien für Globale Solidarität",
+      "start": "2026-06-14T16:00:00",
+      "end": null,
+      "location": "MURX Karl-Marx-Str. 282 12057 Berlin Deutschland",
+      "description": "Jedes Jahr prägt das Weltwirtschaftsforum (WEF) in Davos die globale Politik – ohne die Menschen einzubeziehen, die gegen die jetzigen Weltwirtschaftsstrukturen am meisten ankmäpfen müssen.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327626",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Diskussion"
+      ]
+    },
+    {
+      "title": "K19 KONZERT",
+      "start": "2026-06-14T17:00:00",
+      "end": null,
+      "location": "K19 Café Kreutzigerstr. 19 10247 Berlin Deutschland",
+      "description": "live in concert: Niña Jaguar (alternative psicolatingroove psicolatingroove, costa rica)\n+ DJ SETS \nSIGNOGRAPH / MONO CLONE\nstart 17.00  end 22.00",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327668",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
       ]
     },
     {
@@ -805,6 +1962,19 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
+      ]
+    },
+    {
+      "title": "Chillout Jam",
+      "start": "2026-06-14T18:00:00",
+      "end": null,
+      "location": "Filmrisz Filmrisz Rigaerstr. 103 10247 Berlin Deutschland",
+      "description": "english below\nDer Filmrisz lädt ein zur gemütlichen halbakkustischen Jamsession. \nDie Grundausstattung ist vorhanden: Bass, Gitarre, Cajon und Keyboard.Das ganze wird leicht gewürzt mit elektronischen Verzierungen.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/323324",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
       ]
     },
     {
@@ -847,6 +2017,19 @@
       ]
     },
     {
+      "title": "Tea. thoughts and theories",
+      "start": "2026-06-14T19:30:00",
+      "end": null,
+      "location": "Café Cralle Hochstädterstr. 10a 13347 Berlin Deutschland",
+      "description": "An experiment event hosted by Vanessa Júpiter Always in the second Sunday of the month!\nDoors 19:00\nShow 19:30",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/324449",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ]
+    },
+    {
       "title": "Spooky Paradise",
       "start": "2026-06-14T19:30:00",
       "end": null,
@@ -870,6 +2053,19 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
+      ]
+    },
+    {
+      "title": "Open Sunday",
+      "start": "2026-06-14T20:00:00",
+      "end": null,
+      "location": "Berlin Berlin Deutschland",
+      "description": "Clärchens Ballhaus, Auguststraße 24/25, 10117 Berlin\nOpen Mic/Open Stage im Spiegelsaal, Eintritt Frei.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327137",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
       ]
     },
     {
@@ -899,6 +2095,149 @@
       ]
     },
     {
+      "title": "Messy Salon #1",
+      "start": "2026-06-14T20:30:00",
+      "end": null,
+      "location": "Café Cralle Hochstädterstr. 10a 13347 Berlin Deutschland",
+      "description": "Messy Salon #1 at Café Cralle Sunday 14th of June 2026, 20.30 doors, program starts at 21:00 Line up: Messy Malina, Crocodile Tear and more to come",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327594",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ]
+    },
+    {
+      "title": "Konzert im K (F)",
+      "start": "2026-06-14T21:00:00",
+      "end": null,
+      "location": "K Köpenicker Straße Berlin Deutschland",
+      "description": "'Le Rox' (HC-Punk, London) - 'Ember Brick' (Doom Rock'N'Roll, Brazil) - 'I Hate The Bouncers' (Noisy Synth Punk, Bln)",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327447",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ]
+    },
+    {
+      "title": "Fahrrad-Selbsthilfe-Werkstatt",
+      "start": "2026-06-15T18:00:00",
+      "end": null,
+      "location": "Neckarstr. 19 Souterrain im Hof/ basement in the court 12053 Berlin Deutschland",
+      "description": "Jeden Montag kannst du bei uns dein Fahrrad reparieren. Vorkenntnisse sind nicht nötig, wir können dich unterstützen. Komm einfach vorbei.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/324663",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ]
+    },
+    {
+      "title": "Vernetzung der Mieter/innen der landeseigenen Wohnungsunternehmen (LWU Vernetzung)",
+      "start": "2026-06-15T18:30:00",
+      "end": null,
+      "location": "Kiezraum auf dem Dragonerareal Mehringdamm 20 10961 Berlin Deutschland",
+      "description": "Wir sind Mieterinnen und Mieter bei den landeseigenen Wohnungsunternehmen (LWU) sowie stadtpolitisch aktive Menschen und engagieren uns in unseren Kiezen und in den Gremien der Wohnungsunternehmen für ein besseres und bezahlbares Wohnen. Wir treffen uns am 3. Montag jeden Monats.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/323405",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ]
+    },
+    {
+      "title": "Offene Mietenberatung",
+      "start": "2026-06-15T18:30:00",
+      "end": null,
+      "location": "Baiz Schönhauser Allee 26 A 10435 Berlin Deutschland",
+      "description": "Mietenberatung mit RA Henrik Solf und Unterstützung der Mietergemeinschaft Prenzlauer Berg",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/323505",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ]
+    },
+    {
+      "title": "Offene Mietenberatung",
+      "start": "2026-06-15T18:30:00",
+      "end": null,
+      "location": "Baiz Schönhauser Allee 26 A 10435 Berlin Deutschland",
+      "description": "Mietenberatung mit RA Henrik Solf und Unterstützung der Mietergemeinschaft Prenzlauer Berg",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/326445",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ]
+    },
+    {
+      "title": "Offene Mieterberatung",
+      "start": "2026-06-15T18:30:00",
+      "end": null,
+      "location": "Baiz Schönhauser Allee 26 A 10435 Berlin Deutschland",
+      "description": "von Rechtsanwalt Henrik Solf mit Unterstützunge der Bezirksgruppe Prenzlauer Berg der Berliner Mietergemeinschaft;",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/326478",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ]
+    },
+    {
+      "title": "Soli-Bleiberechtsbar",
+      "start": "2026-06-15T19:00:00",
+      "end": null,
+      "location": "KuBiZ Bernkasteler Str. 78 13088 Berlin Deutschland",
+      "description": "Soli-Bleiberechtsbar",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327060",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ]
+    },
+    {
+      "title": "Konzert",
+      "start": "2026-06-15T19:00:00",
+      "end": null,
+      "location": "Schokoladen Ackerstrasse 169 10115 Berlin Deutschland",
+      "description": "porcupine records & little league shows prsnt: Telephonist [shoegaze alt rock°drtmnd] + Efka Mott [kraut pop freak folk°bln]",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327322",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ]
+    },
+    {
+      "title": "Konzert",
+      "start": "2026-06-15T19:00:00",
+      "end": null,
+      "location": "Regenbogenfabrik Lausitzer Str. 21a 10999 Berlin Deutschland",
+      "description": "--- Einlass 19:00, Beginn 19:30 | RegenbogenKino\n\"The Durgas\"",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327611",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ]
+    },
+    {
+      "title": "Gesellschaft erkennen, kritisieren und verändern.",
+      "start": "2026-06-15T19:00:00",
+      "end": null,
+      "location": "FMP1 Franz-Mehring-Platz 1, 10243 Berlin Deutschland",
+      "description": "Zum Ideologieproblem bei der Bestimmung von „Gesellschaft“ als Gesamtzusammenhang Klaus Lederer im Gespräch mit Alex Struwe",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327671",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Diskussion"
+      ]
+    },
+    {
       "title": "Liina Magnea: What’s a Mob to a King (Plot-twist Redemption)",
       "start": "2026-06-15T19:00:00",
       "end": null,
@@ -909,6 +2248,19 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
+      ]
+    },
+    {
+      "title": "FLINTA* LESEKREIS",
+      "start": "2026-06-15T19:30:00",
+      "end": null,
+      "location": "Café Cralle Hochstädterstr. 10a 13347 Berlin Deutschland",
+      "description": "Am 15.06. um 19:30 findet wieder der FLINTA* Lesekreis im Café Cralle statt. Wir werden \"Im Park der prächtigen Schwestern\" von Camila Sosa Villada besprechen.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327612",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
       ]
     },
     {
@@ -938,6 +2290,19 @@
       ]
     },
     {
+      "title": "Filmabend inK(P)",
+      "start": "2026-06-15T21:00:00",
+      "end": null,
+      "location": "K Köpenicker Straße Berlin Deutschland",
+      "description": "\" La Piscine \" Fr 1969, OmeU R .:Jacques Deray",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327460",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Film"
+      ]
+    },
+    {
       "title": "10,000 Blinks presents: I AM STILL ALIVE",
       "start": "2026-06-15T22:00:00",
       "end": null,
@@ -948,6 +2313,136 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
+      ]
+    },
+    {
+      "title": "Flinta*only Kickern",
+      "start": "2026-06-16T18:00:00",
+      "end": null,
+      "location": "Tristeza Pannierstr. 5 12047 Berlin Deutschland",
+      "description": "Kickern gegens Patriarchat!\nJeden Dienstag gibts den Kickerraum nur für FLINTA. Das heisst nur Frauen, Lesben, Inter, Trans*, Nicht-Binäre und Agender Personen sind im Kickerraum willkommen.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/320457",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ]
+    },
+    {
+      "title": "Kiezküche im Kiezhaus Agnes Reinhold",
+      "start": "2026-06-16T18:00:00",
+      "end": null,
+      "location": "Kiezhaus Agnes Reinhold Afrikanische Straße 74 13351 Berlin Deutschland",
+      "description": "Jeden Dienstag gibt es warmes Essen gegen Spende im Kiezhaus. Los gehts wie immer ab 18 Uhr, Essen gibt es so lange wie das Gekochte reicht. Alle Spenden gehen nach Abzug der Kosten für die Menüs direkt ans Kiezhaus.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/325298",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ]
+    },
+    {
+      "title": "Queer Ageing Group",
+      "start": "2026-06-16T18:30:00",
+      "end": null,
+      "location": "Kiez Zentrum Villa Lützow Lützowstraße 28 10785 Berlin Deutschland",
+      "description": "This is a space to talk about ageing as a queer person. How do we feel in our bodies as we age? How do we think people see us and how do we see ourselves? How do we want to live in old age?",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327428",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ]
+    },
+    {
+      "title": "anarcha solidarity kitchen",
+      "start": "2026-06-16T19:00:00",
+      "end": null,
+      "location": "Martha Bethaniendamm Berlin Deutschland",
+      "description": "dear queerfeminist worker! lets come together to mulled wine/ punch and a comfy time warm vegan meal from 8pmbethaniendamm 26 (look out for a stand up display)more infos and program in our telegram group",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/323875",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ]
+    },
+    {
+      "title": "Breaking News - offener politischer Treff (14-27 Jahre)",
+      "start": "2026-06-16T19:00:00",
+      "end": null,
+      "location": "Café Köpenick Seelenbinderstr. 54 12555 Berlin Deutschland",
+      "description": "Du hast Bock, über das aktuelle Weltgeschehen zu quatschen, Nachrichten einzuordnen und zu diskutieren? Egal, ob du schon politisch aktiv bist oder einfach neugierig – bei uns bist du willkommen!",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/325503",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ]
+    },
+    {
+      "title": "Breaking News - offener politischer Treff (14-27 Jahre)",
+      "start": "2026-06-16T19:00:00",
+      "end": null,
+      "location": "Café Köpenick Seelenbinderstr. 54 12555 Berlin Deutschland",
+      "description": "Du hast Bock, über das aktuelle Weltgeschehen zu quatschen, Nachrichten einzuordnen und zu diskutieren? Egal, ob du schon politisch aktiv bist oder einfach neugierig – bei uns bist du willkommen!",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/325866",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ]
+    },
+    {
+      "title": "anarcha solidarity kitchen",
+      "start": "2026-06-16T19:00:00",
+      "end": null,
+      "location": "Martha Bethaniendamm Berlin Deutschland",
+      "description": "dear queerfeminist worker! lets come together to mulled wine/ punch and a comfy time warm vegan meal from 8pmbethaniendamm 26 (look out for a stand up display)more infos and program in our telegram group",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/326277",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ]
+    },
+    {
+      "title": "Soli-Küfa",
+      "start": "2026-06-16T19:00:00",
+      "end": null,
+      "location": "B-Lage Mareschstr. 1 12055 Berlin Deutschland",
+      "description": "Soli- Küfa\nJeden Dienstag gibt es bei uns Küfa (Küche für Alle).Dabei gibt es eine Spendenempfehlung, es kann aber immer auch mehr oder weniger gezahlt werden.Die Einnahmen werden gespendet an verschiedene soziale, linke Projekte. Die Küfa ist vegan.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/326939",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ]
+    },
+    {
+      "title": "Lesung",
+      "start": "2026-06-16T19:00:00",
+      "end": null,
+      "location": "Schokoladen Ackerstrasse 169 10115 Berlin Deutschland",
+      "description": "LSD - liebe statt dogen",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327323",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ]
+    },
+    {
+      "title": "Queercoustic Hangout",
+      "start": "2026-06-16T19:30:00",
+      "end": null,
+      "location": "Zielona Góra Grünbergerstr. 73 10245 Berlin Deutschland",
+      "description": "Come to the thirtythird Queercoustic Hangout! Doors open at 7:30pm, one live act at 8pm, and open jam session afterwards.\nKomm vorbei zum dreiunddreißigsten Queercoustic Hangout! Türen sind auf ab 19:30h, es wird einen live act ab 20h geben, und danach offenes jammen!",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327177",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
       ]
     },
     {
@@ -974,6 +2469,19 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
+      ]
+    },
+    {
+      "title": "Flinta*only Kickern",
+      "start": "2026-06-16T20:00:00",
+      "end": null,
+      "location": "Tristeza Pannierstr. 5 12047 Berlin Deutschland",
+      "description": "Kickern gegens Patriarchat!\nJeden Dienstag gibts den Kickerraum nur für FLINTA. Das heisst nur Frauen, Lesben, Inter, Trans*, Nicht-Binäre und Agender Personen sind im Kickerraum willkommen.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/321812",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
       ]
     },
     {
@@ -1016,6 +2524,32 @@
       ]
     },
     {
+      "title": "LatinoKino",
+      "start": "2026-06-16T20:15:00",
+      "end": null,
+      "location": "KuBiZ Bernkasteler Str. 78 13088 Berlin Deutschland",
+      "description": "Offenes Filmtreffen (auf Spanisch) - Cita abierta de cine (en español)",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327496",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Film"
+      ]
+    },
+    {
+      "title": "Die Welt im Umbruch: Emotionen und Solidarität",
+      "start": "2026-06-17T17:00:00",
+      "end": null,
+      "location": "Prinzessinnengarten Neukölln Hermannstraße 99-105 12051 Berlin Deutschland",
+      "description": "Komplexität vermitteln, Fakten und Werte reflektieren, Selbstwirksamkeitserfahrungen ermöglichen, utopisches Denken trainieren: all das sind wichtige Bausteine einer Bildung, die immer mehr Menschen dazu befähigen will, sich – individuell und kollektiv – auf solidarische Wege durch die Welt im Um",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327682",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ]
+    },
+    {
       "title": "Theaterführung",
       "start": "2026-06-17T17:30:00",
       "end": null,
@@ -1026,6 +2560,32 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
+      ]
+    },
+    {
+      "title": "mittwochskufa",
+      "start": "2026-06-17T18:00:00",
+      "end": null,
+      "location": "Erreichbar Reichenberger Str. 63a HH 10999 Berlin Deutschland",
+      "description": "mittwochskufa  \njeden mittwoch von 18-21 uhr \nwoechetliche vegane küfa in der  erreichbar . sie ist leider nur über eine treppe zu erreichen.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/322088",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ]
+    },
+    {
+      "title": "Küfa im JUP",
+      "start": "2026-06-17T18:00:00",
+      "end": null,
+      "location": "JUP Florastr. 84 13187 Berlin Deutschland",
+      "description": "Mittwoch ist KüfA-Tag! Wir jede Woche gibt es eine leckere Küche für Alle am Mittwoch, 18 Uhr (am ersten Mittwoch im Monat um 19 Uhr mit der DWE-Küfa <3 !) gibts Essen - komm gerne schon früher vorbei zum Schnippeln und Kochen!",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/324019",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
       ]
     },
     {
@@ -1068,6 +2628,58 @@
       ]
     },
     {
+      "title": "Soli-Küfa, jeden Mittwoch 19 Uhr",
+      "start": "2026-06-17T19:00:00",
+      "end": null,
+      "location": "B-Lage Mareschstr. 1 12055 Berlin Deutschland",
+      "description": "Soli- KüfaShort url: \nhttps://squ.at/r/api6",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/326940",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ]
+    },
+    {
+      "title": "Konzert",
+      "start": "2026-06-17T19:00:00",
+      "end": null,
+      "location": "Schokoladen Ackerstrasse 169 10115 Berlin Deutschland",
+      "description": "m:soundtrack prsnts: Naari [°new dehli°bln]",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327311",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ]
+    },
+    {
+      "title": "Soli-Abend Nein zur Bezahlkarte",
+      "start": "2026-06-17T19:00:00",
+      "end": null,
+      "location": "Café Cralle, Hochstädter Straße 10A, Wedding Berlin Deutschland",
+      "description": "💜Nein zur Bezahlkarte wieder im Cralle!🔥💜 \"No to the Payment Card\" returns to Cralle! 🔥 \n[Eng. version below]",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327705",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Protest"
+      ]
+    },
+    {
+      "title": "Lesekreis: Die Überlegenheit der Unterlegenen. Eine Theorie der Gegengemeinschaften - Daniel Loick",
+      "start": "2026-06-17T19:00:00",
+      "end": null,
+      "location": "Traumreparatur Lausitzer Straße 13 10999 Berlin Deutschland",
+      "description": "Wir lesen und diskutieren das Buch ist \"Die Überlegenheit der Unterlegenen. Eine Theorie der Gegengemeinschaften\" von Daniel Loick. Wir lesen bis zum Treffen Seite 151-171 und werden dann gemeinsam über diesen Abschnitt diskutieren.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327718",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Diskussion"
+      ]
+    },
+    {
       "title": "DER SOLDAT. Ein Übergangsritual",
       "start": "2026-06-17T19:00:00",
       "end": null,
@@ -1091,6 +2703,19 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
+      ]
+    },
+    {
+      "title": "90 Jahre Ken Loach: Kes (OmU)",
+      "start": "2026-06-17T19:15:00",
+      "end": null,
+      "location": "Brotfabrik Caligariplatz 1 13086 Berlin Deutschland",
+      "description": "Dem britischen Regisseur Ken Loach, der am 17. Juni 90 Jahre alt wird, gelang mit seinem zweiten Kinofilm »Kes« der internationale Durchbruch.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327147",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Film"
       ]
     },
     {
@@ -1120,6 +2745,19 @@
       ]
     },
     {
+      "title": "KüFa (Kitchen for all)",
+      "start": "2026-06-17T20:00:00",
+      "end": null,
+      "location": "Kadterschmiede Rigaer Str. 94 10245 Berlin Deutschland",
+      "description": "Vegan Fooood\nFood,Drinks,Music\npartially smokefree\nIrregular events and discussions - there is a garden and sometimes a firebin\nThe entrance is elevated but there is a ramp, the toilet is moderately accessible",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/324330",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Film"
+      ]
+    },
+    {
       "title": "Im Herzen der Gewalt",
       "start": "2026-06-17T20:00:00",
       "end": null,
@@ -1143,6 +2781,240 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
+      ]
+    },
+    {
+      "title": "Vegane Küfa",
+      "start": "2026-06-17T20:15:00",
+      "end": null,
+      "location": "KuBiZ Bernkasteler Str. 78 13088 Berlin Deutschland",
+      "description": "Leckere Vegane Küfa im Offenen Raum!\nJeden Mittwoch ab ca. 20.15 Uhr (vor dem Film) Spende erbeten",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/323588",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ]
+    },
+    {
+      "title": "VideoKino (Open Air)",
+      "start": "2026-06-17T21:30:00",
+      "end": null,
+      "location": "KuBiZ Bernkasteler Str. 78 13088 Berlin Deutschland",
+      "description": "REPO MAN Komödie, USA 1984, 95 min, R: Alex Cox",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327497",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Film"
+      ]
+    },
+    {
+      "title": "Die solidarische Jobcenter-Sozialberatung",
+      "start": "2026-06-18T15:00:00",
+      "end": null,
+      "location": "Kiezhaus Agnes Reinhold Afrikanische Straße 74 13351 Berlin Deutschland",
+      "description": "Beratung und Solidarität:",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/321607",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ]
+    },
+    {
+      "title": "Solicafé Klatsche",
+      "start": "2026-06-18T15:00:00",
+      "end": null,
+      "location": "Regenbogenfabrik Lausitzer Str. 22 10999 Berlin Deutschland",
+      "description": "CAFÉ KLATSCHE - WIR HABEN DEN TAG GEWECHSELT, JETZT IMMER DONNERSTAGS!\n(English version below)",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/324020",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ]
+    },
+    {
+      "title": "Solicafé Klatsche",
+      "start": "2026-06-18T15:00:00",
+      "end": null,
+      "location": "Regenbogenfabrik Lausitzer Str. 22 10999 Berlin Deutschland",
+      "description": "Kaffee, Kuchen und KÜFA (meist ab 19:00) vegan und auf Spendenbasis! Geöffnet 15-22 Uhr. Kein Konsumzwang, kommt rum wie ihr seid. Manchmal gibts auch Veranstaltungen und andere Events, die stehen dann extra im Stressi. Alle unsere Einnahmen werden gespendet bzw.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327212",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ]
+    },
+    {
+      "title": "Gutschein-Tausch im YAAM",
+      "start": "2026-06-18T16:00:00",
+      "end": null,
+      "location": "Yaam (an der Schillingbrücke) An der Schillingbrücke 3 Berlin Deutschland",
+      "description": "Gutscheintausch im YAAM – Gemeinsam gegen die Bezahlkarte! Voucher Exchange at YAAM – Together Against the Payment Card! --- English version below  ---",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/326646",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Protest"
+      ]
+    },
+    {
+      "title": "queer-feministische Fahrrad-Werkstatt | queer feminist bike workshop",
+      "start": "2026-06-18T18:00:00",
+      "end": null,
+      "location": "Neckarstr. 19 12053 Berlin Deutschland",
+      "description": "[English below]",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/322854",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ]
+    },
+    {
+      "title": "Eddy Playground",
+      "start": "2026-06-18T18:00:00",
+      "end": null,
+      "location": "Drugstore im Rockhaus Buchberger Str. 6 10365 Berlin Deutschland",
+      "description": "Drum & Bass / DubStep / Breaks / Open Decks / Tischtennis / Kicker / Mitbringbuffet\nLiebe Freunde der Breakmusik,liebe Tischtennisspielende, Kickernde, und nicht zuletzt Liebende der Getränke, ab zum ersten Playground 2026!!!",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/324502",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ]
+    },
+    {
+      "title": "Aperol Spritz-Night  -> 5 Euro",
+      "start": "2026-06-18T18:00:00",
+      "end": null,
+      "location": "B-Lage Mareschstr. 1 12055 Berlin Deutschland",
+      "description": "Ab jetzt gibt es jeden Donnerstag Spritz für 5 Euro in der B-Lage, kommt gern rum! Es wird spritzig.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/326846",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ]
+    },
+    {
+      "title": "Verantwortung für Kindern als Methode des Postkapitalismus.",
+      "start": "2026-06-18T18:00:00",
+      "end": null,
+      "location": "Mariannenplatz Bethanien New York im Bethanien 10997 Berlin Deutschland",
+      "description": "Verantwortung gegenüber den Kindern als wirkmächtige Methode des Postkapitalismus. Wir behandeln das Buch, \"der KUEKeN- radikal trivial, Kinder Verantwortung Zukunft\"\nDer Autor liest aus dem Buch und beantwortet Fragen.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327667",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ]
+    },
+    {
+      "title": "KvU - VV + Tresen",
+      "start": "2026-06-18T19:00:00",
+      "end": null,
+      "location": "Bandito Rosso Lottumstr. 10a 10119 Berlin Deutschland",
+      "description": "Du willst mitmachen, mitgestalten, hast Ideen und möchtest diese mit uns umsetzen ? Dann fühl dich herzlich eingeladen bei uns’rer VV vorbeizuschauen. (Jeden 1. und 3. Donnerstag im Monat außer an Feiertagen)",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/323800",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ]
+    },
+    {
+      "title": "Open Jam",
+      "start": "2026-06-18T19:00:00",
+      "end": null,
+      "location": "Café Köpenick Seelenbinderstr. 54 12555 Berlin Deutschland",
+      "description": "Komm gern allein oder mit deiner Band vorbei - Gitarren, Bass, Drums, Klavier und Mikros haben wir vor Ort.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/325539",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ]
+    },
+    {
+      "title": "Open Decks im Technokeller (14-27 Jahre)",
+      "start": "2026-06-18T19:00:00",
+      "end": null,
+      "location": "Café Köpenick Seelenbinderstr. 54 12555 Berlin Deutschland",
+      "description": "Ihr habt Bock auf Djing?\nEgal ob unerfahren und lernbereit oder auch erfahren sowie auf der Suche nach einem Platz zum Musik aufdrehen.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/325587",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ]
+    },
+    {
+      "title": "Attac Berlin lädt ein - Reiche in die Pflicht!",
+      "start": "2026-06-18T19:00:00",
+      "end": null,
+      "location": "Kiezraum auf dem Dragoner-Areal Berlin Deutschland",
+      "description": "Reiche in die Pflicht: Gerechte Steuern fürs Gemeinwohl Vortrag und Diskussion mit Julia Jirmann Expertin für Steuerrecht und Steuerpolitik beim Netzwerk Steuergerechtigkeit",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/326682",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Diskussion"
+      ]
+    },
+    {
+      "title": "Konzert",
+      "start": "2026-06-18T19:00:00",
+      "end": null,
+      "location": "Schokoladen Ackerstrasse 169 10115 Berlin Deutschland",
+      "description": "punkfilmfest berlin booking prsnts: Jared Hart [°new jersey°us] + Oli Ng [°crewe°england]",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327312",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ]
+    },
+    {
+      "title": "beav boloney freak punk shows",
+      "start": "2026-06-18T19:00:00",
+      "end": null,
+      "location": "Trixxxter Kreuzberg Berlin Deutschland",
+      "description": "Teo Wise (your favorite italian musician) & Die Anteile (Tapete rec.)",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327453",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ]
+    },
+    {
+      "title": "Land, Kultur,  Autonomie - indigener Widerstand in Kolumbien",
+      "start": "2026-06-18T19:00:00",
+      "end": null,
+      "location": "aquarium (südblock) Skalitzer str. 6 10997 Berlin Deutschland",
+      "description": "In Kolumbien, im departmento Cauca wehren sich indigene Gemeinden gegen wirtschaftliche und rassistische Ausgrenzung und die Gewalt der Drogenwirtschaft und bewaffneter Gruppen.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327596",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Diskussion"
+      ]
+    },
+    {
+      "title": "Annäherungen an meine Eltern Hans und Hilde Coppi",
+      "start": "2026-06-18T19:00:00",
+      "end": null,
+      "location": "Mitte Museum Pankstr. 47 13357 Berlin Deutschland",
+      "description": "Buchvorstellung: Hans Coppi jr.: Annäherungen an meine Eltern Hans und Hilde Coppi \nDr. Geertje Andresen, Historikerin \nDonnerstag, | 18. Juni 2026 | 19 Uhr Mitte Museum | Pankstr. 47 13357 Berlin (U-Pankstraße)",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327662",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Diskussion"
       ]
     },
     {
@@ -1198,6 +3070,19 @@
       ]
     },
     {
+      "title": "Punkrocktresen",
+      "start": "2026-06-18T20:00:00",
+      "end": null,
+      "location": "Erreichbar Reichenberger Str. 63a HH 10999 Berlin Deutschland",
+      "description": "Punkrocktresen   Jeden zweiten Donnerstag ab 20:00 Uhr gibts gute Mukke für jung gebliebene und jüngere Semester und kaltes für den \"Durst\".",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/322089",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ]
+    },
+    {
       "title": "Im Herzen der Gewalt",
       "start": "2026-06-18T20:00:00",
       "end": null,
@@ -1234,6 +3119,84 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
+      ]
+    },
+    {
+      "title": "Konzert",
+      "start": "2026-06-18T21:00:00",
+      "end": null,
+      "location": "Supamolly Jessnerstr. 41 10247 Berlin Deutschland",
+      "description": "El Sonidero Insurgente (Cumbia/ Rock/ Latin aus Argentinien)",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327441",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ]
+    },
+    {
+      "title": "Filmabend im K(P)",
+      "start": "2026-06-18T21:00:00",
+      "end": null,
+      "location": "K Köpenicker Straße Berlin Deutschland",
+      "description": "\" The Producers \" USA 1968, 88 Min OmU R.: Mel.Brooks D.:Zero Mostel, Gene Wilder",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327461",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Film"
+      ]
+    },
+    {
+      "title": "Summer.Sun.Done",
+      "start": "2026-06-19T15:00:00",
+      "end": null,
+      "location": "Archiv Potsdam Berlin Deutschland",
+      "description": "Termin Details Datum: 19. Juni 2026 15:00 – 20. Juni 2026 0:00 Terminkategorien: Soliparty\n\n⭐Summer.Sun.Done⭐19.06.2026 15 – 22 Uhr",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327645",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ]
+    },
+    {
+      "title": "CHILLGARAGE",
+      "start": "2026-06-19T16:00:00",
+      "end": null,
+      "location": "Columbiadamm 10 Zollgarage im alten Flughafen Tempelhof 10965 Berlin Deutschland",
+      "description": "[DE]Chillgarage in der ZollgarageJeden Freitag ab 16 Uhr sind wir offen und warm, mit viel Raum zum treffen, entspannen, organisieren, basteln, spielen, Film schauen, politisieren, was trinken und auf was ihr Bock habt…Jeden FREITAG 16 Uhr bis min. 20 Uhr",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/323234",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ]
+    },
+    {
+      "title": "Gutscheintausch Regenbogencafé",
+      "start": "2026-06-19T17:00:00",
+      "end": null,
+      "location": "Berlin Deutschland",
+      "description": "NEIN zur Bezahlkarte Berlin - Brandenburg",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/326669",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Protest"
+      ]
+    },
+    {
+      "title": "Tropenbude Bar und Garten offen",
+      "start": "2026-06-19T17:00:00",
+      "end": null,
+      "location": "Villa Kuriosum Scheffelstr. 21 10367 Berlin Deutschland",
+      "description": "Die Tropenbude Bar und der Garten der Villa Kuriosum sind geöffnet.Freitag 17-22Uhr.\nAnsonsten gibt es Kaffee, Kuchen, Snacks, Bier, Drinks, Natur und Kultur .\nProgramm -> schaut Bitte auf unsere Website.\nKeine Hunde bitte, no dogs please - Katzengarten.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327353",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
       ]
     },
     {
@@ -1276,6 +3239,19 @@
       ]
     },
     {
+      "title": "Filmfestival - \"Aus der Nacht heraus\"",
+      "start": "2026-06-19T18:00:00",
+      "end": null,
+      "location": "Wagenburg Lohmühle Lohmühlenstr. 17 12435 Berlin Deutschland",
+      "description": "Filmfestival - \"Aus der Nacht heraus\" - \nToday: Resisting dehumanizing refugee policies, building grassroots alternatives - \nStart 19:00 Uhr (ab 18:00 Uhr Bar, ca. 21:30 Uhr Film),",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327613",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Film"
+      ]
+    },
+    {
       "title": "Humboldting #10 Social Muscle Club",
       "start": "2026-06-19T18:00:00",
       "end": null,
@@ -1299,6 +3275,110 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
+      ]
+    },
+    {
+      "title": "Queer Death Café",
+      "start": "2026-06-19T18:30:00",
+      "end": null,
+      "location": "Kiez Zentrum Villa Lützow Lützowstraße 28 10785 Berlin Deutschland",
+      "description": "A death cafe is a group discussion of death with no agenda, objectives or themes and is a discussion group rather than grief support or counselling session.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327429",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ]
+    },
+    {
+      "title": "Bi+Flinta* meet up",
+      "start": "2026-06-19T19:00:00",
+      "end": null,
+      "location": "B-Lage Mareschstr. 1 12055 Berlin Deutschland",
+      "description": "Bi+Flinta* meet up Wir wollen Bi-, Pan- und anderen nicht monosexuellen Frauen, trans*, inter*, nonbinären und agender Personen die Möglichkeit bieten mit Anderen locker ins Gespräch zu kommen, sich auszutauschen und zu vernetzen.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/326909",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ]
+    },
+    {
+      "title": "Bi+Flinta* meet up",
+      "start": "2026-06-19T19:00:00",
+      "end": null,
+      "location": "B-Lage Mareschstr. 1 12055 Berlin Deutschland",
+      "description": "Bi+Flinta* meet up Wir wollen Bi-, Pan- und anderen nicht monosexuellen Frauen, trans*, inter*, nonbinären und agender Personen die Möglichkeit bieten mit Anderen locker ins Gespräch zu kommen, sich auszutauschen und zu vernetzen.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/326941",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ]
+    },
+    {
+      "title": "Input und Diskussion \"Sicherheitspaket\"",
+      "start": "2026-06-19T19:00:00",
+      "end": null,
+      "location": "Schmatzkammer Eberswalde Coppistr. 1-3 Berlin Deutschland",
+      "description": "Die Rote Hilfe Ortsgrupppe Strausberg lädt zur Infoveranstaltung zum Thema \"neues Sicherheitspaket - neue Repression\" ein.\n@ Schmatzkammer Eberswalde Coppistr. 1-3",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327138",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Diskussion"
+      ]
+    },
+    {
+      "title": "Konzert",
+      "start": "2026-06-19T19:00:00",
+      "end": null,
+      "location": "Schokoladen Ackerstrasse 169 10115 Berlin Deutschland",
+      "description": "ready steady go & pleasure seekers club prsnt: The Roaring 420s [°dresden] + Sacred Buzz [°bln]",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327313",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ]
+    },
+    {
+      "title": "Vortrag: Was ist eigentlich in Schnellroda los?",
+      "start": "2026-06-19T19:00:00",
+      "end": null,
+      "location": "Schreina47 Schreinerstr. 47 10245 Berlin Deutschland",
+      "description": "Kollektiv IfS Dichtmachen: Was ist eigentlich in Schnellroda los? - Netzwerk und Ideologie der „neuen“ Rechten und Buchvorstellung: \"Faschismus im intellektuellen Gewand\"",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327481",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Diskussion"
+      ]
+    },
+    {
+      "title": "Pride Dinner –Platz am Kaisersteg Für Queers only!",
+      "start": "2026-06-19T19:00:00",
+      "end": null,
+      "location": "Berlin Berlin Deutschland",
+      "description": "Am 19.06. ab 19 Uhr nehmen  wir gemeinsam am Kaisersteg Platz (Platz am Kaisersteg, 12439 Berlin)– zum Essen, zum sichtbar sein, zum laut sein und um Raum einzunehmen.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327638",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Protest"
+      ]
+    },
+    {
+      "title": "Kampf gegen den Faschismus in Spanien 1936-1939",
+      "start": "2026-06-19T19:00:00",
+      "end": null,
+      "location": "Kiezladen Rote Ella, Buttmannstr. 1A, Berlin-Wedding Berlin Deutschland",
+      "description": "Internationalistische Gedenkreihe Teil 1: Deutsche Internationalist:innen im antifaschistischen Kampf / Vortrag und Diskussion\nDer Kampf gegen den Faschismus begann in Spanien!",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327692",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Diskussion"
       ]
     },
     {
@@ -1341,6 +3421,19 @@
       ]
     },
     {
+      "title": "Kneipe & Briefe an Gefangene schreiben",
+      "start": "2026-06-19T20:00:00",
+      "end": null,
+      "location": "Zielona Góra Grünbergerstr. 73 10245 Berlin Deutschland",
+      "description": "„Todx persx es politicx – jede*r Gefangene ist politisch.“ Jeden 3.Freitag im Monat.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327175",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ]
+    },
+    {
       "title": "Salome",
       "start": "2026-06-19T20:00:00",
       "end": null,
@@ -1380,6 +3473,71 @@
       ]
     },
     {
+      "title": "Tropenbude Bar und Garten offen",
+      "start": "2026-06-20T14:00:00",
+      "end": null,
+      "location": "Villa Kuriosum Scheffelstr. 21 10367 Berlin Deutschland",
+      "description": "Die Tropenbude Bar und der Garten der Villa Kuriosum sind wieder geöffnet.Samstag von 14-22Uhr.\nAnsonsten gibt es Kaffee, Kuchen, Snacks, Bier, Drinks, Natur und Kultur .\nProgramm -> schaut Bitte auf unsere Website.\nKeine Hunde bitte, no dogs please - Katzengarten.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327378",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ]
+    },
+    {
+      "title": "Schach- und Spiele-Nachmittag",
+      "start": "2026-06-20T16:00:00",
+      "end": null,
+      "location": "Baiz Schönhauser Allee 26 A 10435 Berlin Deutschland",
+      "description": "Es ist Zeit für Hirnsport! Der Schachnachmittag im Baiz (jeden dritten Samstag im Monat!!!).Ob freies Spiel oder kompetitiv. Kommt vorbei, und spielt mit! (Schachbrett mitbringen ist erwünscht, da nur eine begrenzte Anzahl gestellt werden kann)---------------------------------",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327314",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ]
+    },
+    {
+      "title": "Solitresen - Sweet drinks for bitter times",
+      "start": "2026-06-20T16:00:00",
+      "end": null,
+      "location": "f.a.q. Jonasstr. 40 12053 Berlin Deutschland",
+      "description": "Süße Getränke für bittere Zeiten Solitresen, um eine:n Genoss:in im Visumsverfahren zu unterstützen um zurück nach Deutschland zu kommen.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327689",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ]
+    },
+    {
+      "title": "Lesung und Punkkonzert",
+      "start": "2026-06-20T17:00:00",
+      "end": null,
+      "location": "Zionskirche Zionskirchplatz Berlin Deutschland",
+      "description": "Hier kriegt ihr drei Events in einem!",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/324387",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ]
+    },
+    {
+      "title": "Konzert im Garten",
+      "start": "2026-06-20T17:00:00",
+      "end": null,
+      "location": "Villa Kuriosum Scheffelstr. 21 10367 Berlin Deutschland",
+      "description": "LOS BOSQUES (electro cumbia dub, Uruguay)\nDJ ALI GUA GUA (electro cumbia, Mexico, LGBTQ++)\nSWARAJ CHRONOS (UK)\nsoli omars kufa\nDer Villa Garten öffnet 14 Uhr. Musik zwischen 17-21 Uhr.\nNo Dogs - Cat Area",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327398",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ]
+    },
+    {
       "title": "Humboldting #10 Social Muscle Club",
       "start": "2026-06-20T17:00:00",
       "end": null,
@@ -1390,6 +3548,19 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
+      ]
+    },
+    {
+      "title": "Rundgang Ausstellung „Die Anarchie ist das Leben der Menschen, die dem Joche entronnen sind.“",
+      "start": "2026-06-20T17:30:00",
+      "end": null,
+      "location": "Anti-Kriegs-Museum Berlin Brüsseler Str. 21 13353 Berlin Deutschland",
+      "description": "Gustav Landauers Schrift „Die Abschaffung des Krieges durch die Selbstbestimmung des Volkes“ ist in Zeiten mannigfaltiger Kriege aktueller denn je.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/326569",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Diskussion"
       ]
     },
     {
@@ -1406,6 +3577,19 @@
       ]
     },
     {
+      "title": "Screening \"ProPal - for the global justice\" + aperitivo",
+      "start": "2026-06-20T18:00:00",
+      "end": null,
+      "location": "Zielona Góra Grünbergerstr. 73 10245 Berlin Deutschland",
+      "description": "Brigata Transfemminista presents: \"ProPal - for the global justice\"\n20th June 2026 @ Zielona Góra, Grünbergerstr. 73, Berlin.\nTimetable:",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327674",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ]
+    },
+    {
       "title": "Freedom of Movement",
       "start": "2026-06-20T18:00:00",
       "end": null,
@@ -1416,6 +3600,19 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
+      ]
+    },
+    {
+      "title": "Gaybar",
+      "start": "2026-06-20T19:00:00",
+      "end": null,
+      "location": "KTS 13 Karpfenteichstr. 13 12435 Berlin Deutschland",
+      "description": "Mostly-outdoor DIY solibar for queers & friends.\nGaybar 10th birthday party: with karaoke, danceoke, fire &/or pool, cheap drinks (with & without alcohol) & hot new friends.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327188",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
       ]
     },
     {
@@ -1445,6 +3642,19 @@
       ]
     },
     {
+      "title": "Lesung & Buchvorstellung",
+      "start": "2026-06-20T19:30:00",
+      "end": null,
+      "location": "Museum des Kapitalismus Köpenicker Str. 172 10997 Berlin Deutschland",
+      "description": "Abschaffung des Kriegs durch Selbstbestimmung Manuel Harder liest Texte von Gustav Landauer",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327165",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ]
+    },
+    {
       "title": "Being Young",
       "start": "2026-06-20T19:30:00",
       "end": null,
@@ -1468,6 +3678,45 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
+      ]
+    },
+    {
+      "title": "Konzert im $@#@riterviertel",
+      "start": "2026-06-20T20:00:00",
+      "end": null,
+      "location": null,
+      "description": "Es spielen für euch Glass (HC Punk, Warsaw Pl) Fornhorst (Punkrock, Hamburg) Ausschreitung (HC Punk, Lauchhammer)",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/325678",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ]
+    },
+    {
+      "title": "Riot Grrrl Tresen feat. ZOFF & RubberXhead",
+      "start": "2026-06-20T20:00:00",
+      "end": null,
+      "location": "Kneipe Kleinod Niemetzstraße 24, 12055 Berlin Deutschland",
+      "description": "(english below)\nSommerpause? Nicht mit uns! Am Samstag den 20.6. ist es wieder so weit: Riot Grrrl-Tresen mit feinstem Punk und Hardcore aus der Dose (=Keine Konzerte). Jede Band mit flinta*-Anteil und emanzipatorischen Texten.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327676",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ]
+    },
+    {
+      "title": "Der Mitsingabend",
+      "start": "2026-06-20T20:00:00",
+      "end": null,
+      "location": "Regenbogenfabrik Lausitzer Str. 21a 10999 Berlin Deutschland",
+      "description": "If you want to sing out: SING OUT! \n--- Das Mitsingding mit Jens Svenson ---\nSingen verbindet, also tun wir es gemeinsam.Schön, schräg, flüsternd, laut, wütend, zart…",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327702",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
       ]
     },
     {
@@ -1497,6 +3746,19 @@
       ]
     },
     {
+      "title": "Konzert im TRxxxTR",
+      "start": "2026-06-20T20:30:00",
+      "end": null,
+      "location": "Schlesisches Tor Berlin Deutschland",
+      "description": "In die Nacht mit… \nSpandau + Blaue Flecken \n@ TRxxxTR, U Schles. Tor, X-Berg\nDoors 20.30\nAchtung! Während Konzert rauchfrei!",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327659",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ]
+    },
+    {
       "title": "Die Seherin",
       "start": "2026-06-20T20:30:00",
       "end": null,
@@ -1523,6 +3785,32 @@
       ]
     },
     {
+      "title": "Konzert im K (A)",
+      "start": "2026-06-20T21:00:00",
+      "end": null,
+      "location": "K Köpenicker Straße Berlin Deutschland",
+      "description": "\"DHK\" (D-Beat Hardcore, Lima, Peru) - \"Electric Masochist\" (Local Raw Noize Punk) - \"Veneo\" (Post Punk, New York City, US)",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/324803",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ]
+    },
+    {
+      "title": "Wello Rauschs Karaoke Gala",
+      "start": "2026-06-20T21:00:00",
+      "end": null,
+      "location": "Baiz Schönhauser Allee 26 A 10435 Berlin Deutschland",
+      "description": "Singen, performen, tanzen, trinken & leuchten im Glanze eurer Lieblingssongs! Sieben Jahrzehnte von Glück bis Frust stehen zur Auswahl aus allen Stilen! Von euch in Brand gesetzt auf der schicken Baiz Bühne mit perfektem Sound & herzlichem Ambiente! Keep empathy burning!",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327315",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ]
+    },
+    {
       "title": "Olympia Bukkakis: Queer and Present Dangers/The Nation at Work",
       "start": "2026-06-20T21:00:00",
       "end": null,
@@ -1533,6 +3821,84 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
+      ]
+    },
+    {
+      "title": "Kriminal Kitchen fuck off soundssystem",
+      "start": "2026-06-21T00:00:00",
+      "end": null,
+      "location": "Kreuzdorf Mariannenplatz 1a 10997 Berlin Deutschland",
+      "description": "Los  Bosques,electro dub rumbia aus uruguay\nAliguagua,  dj electro rumbiaaus columbia\nStick in the Casino, berlin\nswaras chronos aus uk",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327459",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ]
+    },
+    {
+      "title": "Vegan Soli Brunch",
+      "start": "2026-06-21T12:00:00",
+      "end": null,
+      "location": "Erreichbar Reichenberger Str. 63a HH 10999 Berlin Deutschland",
+      "description": "Vegan Soli Brunch with lots of choices: salads , sometimes pizza , often Quiché and always spreads .\nIt's all vegan and we use whatever is in season.  Lots of gluten-free options as well.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/324851",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ]
+    },
+    {
+      "title": "Vegan Soli Brunch",
+      "start": "2026-06-21T12:00:00",
+      "end": null,
+      "location": "Erreichbar Reichenberger Str. 63a HH 10999 Berlin Deutschland",
+      "description": "Vegan Soli Brunch with lots of choices: salads , sometimes pizza , often Quiché and always spreads .\nIt's all vegan and we use whatever is in season.  Lots of gluten-free options as well.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/325276",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ]
+    },
+    {
+      "title": "Kiez-Flohmarkt",
+      "start": "2026-06-21T12:00:00",
+      "end": null,
+      "location": "Wagenburg Lohmühle Lohmühlenstr. 17 12435 Berlin Deutschland",
+      "description": "Kiez-Flohmarkt auf der Lohmühle, jeden 3. Sonntag im Monat.\nMit kalten und warmen Getränken und Kuchen. \nAufbau ab 11:00 Uhr, Standgebühr ein Kuchen, möglichst vegan",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/326309",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ]
+    },
+    {
+      "title": "Save Rojava Soliparty and Tattoo",
+      "start": "2026-06-21T12:00:00",
+      "end": null,
+      "location": "Rigaer Str. 78 10247 Berlin Deutschland",
+      "description": "Save Rojava Soliparty and TattooSTART: 12:00 - OPEN END\nFood&Drinks\nSoli-Tattoo\nBasement Cinema\nCONCERT START 16:00GeigenzählerRabukkFrontalangriffSpend goes to Heyvasor",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327476",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ]
+    },
+    {
+      "title": "Squat de la Musique",
+      "start": "2026-06-21T12:00:00",
+      "end": null,
+      "location": "Berlin Friedrichshain Berlin Deutschland",
+      "description": "We’re taking to the streets in dance to protest displacement, gentrification, and rent speculation, and to make a political statement, just as the city kicks off summer with Fête de la Musique. For a neighborhood built on solidarity!\nCome dance and fight with us at 5 locations",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327636",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
       ]
     },
     {
@@ -1549,6 +3915,58 @@
       ]
     },
     {
+      "title": "📖 Infoladen Scherer 8 📖",
+      "start": "2026-06-21T13:00:00",
+      "end": null,
+      "location": "Infoladen Scherer Schererstraße 8 13347 Berlin Deutschland",
+      "description": "[EN below] Vernetzt euch im Berliner Norden! Zum Austausch über anarchistische, (queer-)feministische, antifaschistische, ökologische und stadtpolitische Themen ist der selbstorganisierte Infoladen jeden Sonntag für euch geöffnet.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/324711",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ]
+    },
+    {
+      "title": "Squat de la Musique * Schreina47",
+      "start": "2026-06-21T14:00:00",
+      "end": null,
+      "location": "Schreina47 Schreinerstr. 47 10245 Berlin Deutschland",
+      "description": "Squat de la Musique vor der Scheina47/Villa Felix: Donna Abriss, Transophonix, Hight as Fact (Grunge/Punk, UA), Magische Aktion, Mischkonzum (Mischkonsum), Oi!ronie (Streetpunk), Yansn und einer Feuershow.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327637",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Protest"
+      ]
+    },
+    {
+      "title": "Tropenbude Bar und Garten offen",
+      "start": "2026-06-21T15:00:00",
+      "end": null,
+      "location": "Villa Kuriosum Scheffelstr. 21 10367 Berlin Deutschland",
+      "description": "Die Tropenbude Bar und der Garten der Villa Kuriosum sind geöffnet.Sonntag von 15-21 Uhr.\nAnsonsten gibt es Kaffee, Kuchen, Snacks, Bier, Drinks, Natur und Kultur .\nProgramm -> schaut Bitte auf unsere Website.\nKeine Hunde bitte, no dogs please - Katzengarten.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327402",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ]
+    },
+    {
+      "title": "Squat de la Musique aufm Dorfplatz",
+      "start": "2026-06-21T15:00:00",
+      "end": null,
+      "location": "Dorfplatz (Fhain) Rigaerstr. Ecke Liebigstr. 10247 Berlin Deutschland",
+      "description": "Laut. Sichtbar. Unüberhörbar.  Squat de la Musique auf dem Dorfplatz!",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327680",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ]
+    },
+    {
       "title": "Historische Hausführung: Never Work",
       "start": "2026-06-21T15:00:00",
       "end": null,
@@ -1559,6 +3977,19 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
+      ]
+    },
+    {
+      "title": "Konzert",
+      "start": "2026-06-21T16:00:00",
+      "end": null,
+      "location": "Schokoladen Ackerstrasse 169 10115 Berlin Deutschland",
+      "description": "Fête de la Musique @ SchokoladenHof [eintritt frei] w/ Die Wallerts [humppa] + Aka Rinde [akustik punk]",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327316",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
       ]
     },
     {
@@ -1575,6 +4006,19 @@
       ]
     },
     {
+      "title": "Gedenkkundgebung 93 Jahre Köpenicker Blutwoche",
+      "start": "2026-06-21T17:00:00",
+      "end": null,
+      "location": "Berlin Berlin Deutschland",
+      "description": "Die VVN-BdA Köpenick e.V. lädt herzlich zur jährlichen Gedenkkundgebung zur Köpenicker Blutwoche ein:\nWann: 21. Juni 2026 um 17 Uhr Wo: Platz des 23. April (an der „Faust“) 12555 Berlin",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327604",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Protest"
+      ]
+    },
+    {
       "title": "Angela Alves: Never Rest (After Work Tours #2)",
       "start": "2026-06-21T17:30:00",
       "end": null,
@@ -1588,6 +4032,19 @@
       ]
     },
     {
+      "title": "Chillout Jam",
+      "start": "2026-06-21T18:00:00",
+      "end": null,
+      "location": "Filmrisz Filmrisz Rigaerstr. 103 10247 Berlin Deutschland",
+      "description": "english below\nDer Filmrisz lädt ein zur gemütlichen halbakkustischen Jamsession. \nDie Grundausstattung ist vorhanden: Bass, Gitarre, Cajon und Keyboard.Das ganze wird leicht gewürzt mit elektronischen Verzierungen.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/326076",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ]
+    },
+    {
       "title": "Der Schnittchenkauf",
       "start": "2026-06-21T18:00:00",
       "end": null,
@@ -1598,6 +4055,19 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
+      ]
+    },
+    {
+      "title": "Filmscreening",
+      "start": "2026-06-21T19:00:00",
+      "end": null,
+      "location": "K9 Kinzigstr 9 Berlin Deutschland",
+      "description": "„Une Jeunesse Allemande – Eine deutsche Jugend \",  Doku. 2015 - Jean-Gabriel Périot - 93 Min., dt./frz.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/326546",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Film"
       ]
     },
     {
@@ -1666,6 +4136,123 @@
       ]
     },
     {
+      "title": "VideoKino (Open Air)",
+      "start": "2026-06-21T21:30:00",
+      "end": null,
+      "location": "KuBiZ Bernkasteler Str. 78 13088 Berlin Deutschland",
+      "description": "DELICATESSEN Groteske Komödie, Frankreich 1990, 99 min, R: Jean-Pierre Jeunet",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327498",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Film"
+      ]
+    },
+    {
+      "title": "Sozialberatung  - Social counseling",
+      "start": "2026-06-22T17:00:00",
+      "end": null,
+      "location": "Müßiggang Oranienstr. 14a 10999 Berlin Deutschland",
+      "description": "Sozialberatung\njeden 2. und 4.Montag17 - 19 UhrWir beraten kostenlos zuFragen rund ums Bürgergeldin deutscher und englischer Sprache.\n \n--\nSocial Counseling\nEvery 2nd and 4th\nMonday\n5:00–7:00 p.m.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327161",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ]
+    },
+    {
+      "title": "Fahrrad-Selbsthilfe-Werkstatt",
+      "start": "2026-06-22T18:00:00",
+      "end": null,
+      "location": "Neckarstr. 19 Souterrain im Hof/ basement in the court 12053 Berlin Deutschland",
+      "description": "Jeden Montag kannst du bei uns dein Fahrrad reparieren. Vorkenntnisse sind nicht nötig, wir können dich unterstützen. Komm einfach vorbei.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/324664",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ]
+    },
+    {
+      "title": "Offene Mietenberatung",
+      "start": "2026-06-22T18:30:00",
+      "end": null,
+      "location": "Baiz Schönhauser Allee 26 A 10435 Berlin Deutschland",
+      "description": "Mietenberatung mit RA Henrik Solf und Unterstützung der Mietergemeinschaft Prenzlauer Berg",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/323506",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ]
+    },
+    {
+      "title": "Offene Mietenberatung",
+      "start": "2026-06-22T18:30:00",
+      "end": null,
+      "location": "Baiz Schönhauser Allee 26 A 10435 Berlin Deutschland",
+      "description": "Mietenberatung mit RA Henrik Solf und Unterstützung der Mietergemeinschaft Prenzlauer Berg",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/326446",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ]
+    },
+    {
+      "title": "Offene Mieterberatung",
+      "start": "2026-06-22T18:30:00",
+      "end": null,
+      "location": "Baiz Schönhauser Allee 26 A 10435 Berlin Deutschland",
+      "description": "von Rechtsanwalt Henrik Solf mit Unterstützunge der Bezirksgruppe Prenzlauer Berg der Berliner Mietergemeinschaft;",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/326479",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ]
+    },
+    {
+      "title": "Soli-Bleiberechtsbar",
+      "start": "2026-06-22T19:00:00",
+      "end": null,
+      "location": "KuBiZ Bernkasteler Str. 78 13088 Berlin Deutschland",
+      "description": "Soli-Bleiberechtsbar",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327061",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ]
+    },
+    {
+      "title": "Konzert",
+      "start": "2026-06-22T19:00:00",
+      "end": null,
+      "location": "Schokoladen Ackerstrasse 169 10115 Berlin Deutschland",
+      "description": "reverberation fest & little league shows prsnt: Rolando Bruno y el Grupo Arevalo [cumbia psych°arg]",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327302",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ]
+    },
+    {
+      "title": "Palästina , Israel und die Deutschen.",
+      "start": "2026-06-22T19:00:00",
+      "end": null,
+      "location": "Lunte Weisestr. 53 12049 Berlin Deutschland",
+      "description": "Vom Vernichtungskrieg gegen die europäischen Juden zum Genozid in Gaza.Eine solidarisch , kritische  Auseinandersetzung mit der Palästinasolidaritätseit den 1980er Jahren. Wieso gibt es keinen gerechten Frieden seit 1948?",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327639",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Diskussion"
+      ]
+    },
+    {
       "title": "Die Seherin",
       "start": "2026-06-22T19:30:00",
       "end": null,
@@ -1692,6 +4279,19 @@
       ]
     },
     {
+      "title": "Filmabend im K( P)",
+      "start": "2026-06-22T21:00:00",
+      "end": null,
+      "location": "K Köpenicker Straße Berlin Deutschland",
+      "description": "\" Bogonia \" USA, Kor, Irl 2025, 120 Min OmeU R.:Yorgos Lanthimos D.: Emma StoneTwo conspiracy obsessed young men kidnap the high-powered CEO of a major company, convinced that she is an alien intent on destroying planet Earth.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327462",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Film"
+      ]
+    },
+    {
       "title": "Historische Hausführung: Never Work",
       "start": "2026-06-23T15:00:00",
       "end": null,
@@ -1715,6 +4315,175 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
+      ]
+    },
+    {
+      "title": "Flinta*only Kickern",
+      "start": "2026-06-23T18:00:00",
+      "end": null,
+      "location": "Tristeza Pannierstr. 5 12047 Berlin Deutschland",
+      "description": "Kickern gegens Patriarchat!\nJeden Dienstag gibts den Kickerraum nur für FLINTA. Das heisst nur Frauen, Lesben, Inter, Trans*, Nicht-Binäre und Agender Personen sind im Kickerraum willkommen.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/320458",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ]
+    },
+    {
+      "title": "Kiezküche im Kiezhaus Agnes Reinhold",
+      "start": "2026-06-23T18:00:00",
+      "end": null,
+      "location": "Kiezhaus Agnes Reinhold Afrikanische Straße 74 13351 Berlin Deutschland",
+      "description": "Jeden Dienstag gibt es warmes Essen gegen Spende im Kiezhaus. Los gehts wie immer ab 18 Uhr, Essen gibt es so lange wie das Gekochte reicht. Alle Spenden gehen nach Abzug der Kosten für die Menüs direkt ans Kiezhaus.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/325299",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ]
+    },
+    {
+      "title": "Berliner Bündnis gegen Vonovia & Co. - monatliches Vernetzungstreffen",
+      "start": "2026-06-23T18:30:00",
+      "end": null,
+      "location": "Stadtteilzentrum Schöneberg Hauptstraße 121 A 10827 Berlin Deutschland",
+      "description": "Im Berliner Bündnis organisieren sich MieterInnen berlinweit, um sich gegenseitig zu unterstützen und gemeinsam gegen Vonovia zu kämpfen.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/324595",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Protest"
+      ]
+    },
+    {
+      "title": "Berliner Bündnis gegen Vonovia & Co. - monatliches Vernetzungstreffen",
+      "start": "2026-06-23T18:30:00",
+      "end": null,
+      "location": "Stadtteilzentrum Schöneberg Hauptstraße 121 A 10827 Berlin Deutschland",
+      "description": "Im Berliner Bündnis organisieren sich MieterInnen berlinweit, um sich gegenseitig zu unterstützen und gemeinsam gegen Vonovia zu kämpfen.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327077",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Protest"
+      ]
+    },
+    {
+      "title": "anarcha solidarity kitchen",
+      "start": "2026-06-23T19:00:00",
+      "end": null,
+      "location": "Martha Bethaniendamm Berlin Deutschland",
+      "description": "dear queerfeminist worker! lets come together to mulled wine/ punch and a comfy time warm vegan meal from 8pmbethaniendamm 26 (look out for a stand up display)more infos and program in our telegram group",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/323833",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ]
+    },
+    {
+      "title": "Breaking News - offener politischer Treff (14-27 Jahre)",
+      "start": "2026-06-23T19:00:00",
+      "end": null,
+      "location": "Café Köpenick Seelenbinderstr. 54 12555 Berlin Deutschland",
+      "description": "Du hast Bock, über das aktuelle Weltgeschehen zu quatschen, Nachrichten einzuordnen und zu diskutieren? Egal, ob du schon politisch aktiv bist oder einfach neugierig – bei uns bist du willkommen!",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/325504",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ]
+    },
+    {
+      "title": "Breaking News - offener politischer Treff (14-27 Jahre)",
+      "start": "2026-06-23T19:00:00",
+      "end": null,
+      "location": "Café Köpenick Seelenbinderstr. 54 12555 Berlin Deutschland",
+      "description": "Du hast Bock, über das aktuelle Weltgeschehen zu quatschen, Nachrichten einzuordnen und zu diskutieren? Egal, ob du schon politisch aktiv bist oder einfach neugierig – bei uns bist du willkommen!",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/325867",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ]
+    },
+    {
+      "title": "anarcha solidarity kitchen",
+      "start": "2026-06-23T19:00:00",
+      "end": null,
+      "location": "Martha Bethaniendamm Berlin Deutschland",
+      "description": "dear queerfeminist worker! lets come together to mulled wine/ punch and a comfy time warm vegan meal from 8pmbethaniendamm 26 (look out for a stand up display)more infos and program in our telegram group",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/326278",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ]
+    },
+    {
+      "title": "Soli-Küfa",
+      "start": "2026-06-23T19:00:00",
+      "end": null,
+      "location": "B-Lage Mareschstr. 1 12055 Berlin Deutschland",
+      "description": "Soli- Küfa\nJeden Dienstag gibt es bei uns Küfa (Küche für Alle).Dabei gibt es eine Spendenempfehlung, es kann aber immer auch mehr oder weniger gezahlt werden.Die Einnahmen werden gespendet an verschiedene soziale, linke Projekte. Die Küfa ist vegan.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/326942",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ]
+    },
+    {
+      "title": "AfD Parteitag stoppen!",
+      "start": "2026-06-23T19:00:00",
+      "end": null,
+      "location": "Baiz Schönhauser Allee 26 A 10435 Berlin Deutschland",
+      "description": "Am 4. Juli 2026 will die AfD ihren Bundesparteitag in Erfurt abhalten. Dagegen mobilisiert das bundesweite Bündnis „Widersetzen“. Bereits in Essen, Riesa und Gießen wurde gezeigt, dass massenhafter ziviler Ungehorsam Veranstaltungen der AfD über Stunden hinweg lahmlegen kann.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327303",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Protest"
+      ]
+    },
+    {
+      "title": "Flinta*only Kickern",
+      "start": "2026-06-23T20:00:00",
+      "end": null,
+      "location": "Tristeza Pannierstr. 5 12047 Berlin Deutschland",
+      "description": "Kickern gegens Patriarchat!\nJeden Dienstag gibts den Kickerraum nur für FLINTA. Das heisst nur Frauen, Lesben, Inter, Trans*, Nicht-Binäre und Agender Personen sind im Kickerraum willkommen.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/321813",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ]
+    },
+    {
+      "title": "LatinoKino",
+      "start": "2026-06-23T20:15:00",
+      "end": null,
+      "location": "KuBiZ Bernkasteler Str. 78 13088 Berlin Deutschland",
+      "description": "Offenes Filmtreffen (auf Spanisch) - Cita abierta de cine (en español)",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327499",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Film"
+      ]
+    },
+    {
+      "title": "Abwärts!: #2 Texte, Filme, Sensationen + Release Heft 59",
+      "start": "2026-06-23T20:30:00",
+      "end": null,
+      "location": "Berlin Berlin Deutschland",
+      "description": "Die Zeitschrift »Abwärts!« feiert das Erscheinen von Heft 59 mit dem 2. bunten Kurzfilmabend.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327145",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Film"
       ]
     },
     {

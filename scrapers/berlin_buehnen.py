@@ -42,52 +42,91 @@ DEBUG_DIR = pathlib.Path(__file__).resolve().parents[1] / "docs" / "data" / "_de
 class BerlinBuehnenScraper(BaseScraper):
     name = "Berlin Bühnen"
 
+    BASE = "https://www.berlin-buehnen.de"
+    # Matches links to an event detail page, e.g.
+    # /de/spielplan/caligula-inferno/events/368323/
+    EVENT_LINK_RE = re.compile(r"/de/spielplan/[a-z0-9-]+/events/\d+/", re.I)
+
     def __init__(
         self,
-        urls: list[str] | None = None,
+        listing_urls: list[str] | None = None,
         venues: dict[str, list[str]] | None = None,
         default_tags: list[str] | None = None,
+        max_events: int = 120,
         write_debug: bool = True,
     ):
-        self.urls = urls or ["https://www.berlin-buehnen.de/de/spielplan/"]
+        self.listing_urls = listing_urls or [
+            "https://www.berlin-buehnen.de/de/spielplan/",
+        ]
         self.venues = venues or DEFAULT_VENUES
         self.default_tags = list(default_tags or ["Theater", "Berlin"])
+        self.max_events = max_events
         self.write_debug = write_debug
 
     def fetch_events(self) -> Iterable[Event]:
-        events: list[Event] = []
         debug_lines: list[str] = []
 
-        for url in self.urls:
+        # 1) Collect event detail links from the listing page(s).
+        detail_urls = self._collect_detail_urls(debug_lines)
+
+        # 2) Visit each detail page, read its structured data, keep the
+        #    events at the wanted venues.
+        events: list[Event] = []
+        first_snippets = 0
+        for detail_url in detail_urls[: self.max_events]:
             try:
-                response = self.get(url)
-                html = response.text
+                html = self.get(detail_url).text
                 found = extract_events_from_html(
-                    html, base_url=url, source_name=self.name,
+                    html, base_url=detail_url, source_name=self.name,
                     default_tags=self.default_tags,
                 )
-                kept = [e for e in found if self._venue_of(e)]
-                for event in kept:
+                if not found and first_snippets < 2:
+                    # Detail page had no JSON-LD -- capture it so we can see
+                    # how the data is structured instead.
+                    first_snippets += 1
+                    debug_lines.append(
+                        f"DETAIL ohne JSON-LD: {detail_url}\n"
+                        f"  JSON-LD vorhanden: {'application/ld+json' in html}\n"
+                        f"  Snippet:\n{html[:1200]}\n" + "-" * 60
+                    )
+                for event in found:
                     venue = self._venue_of(event)
-                    if venue and venue not in event.tags:
+                    if not venue:
+                        continue
+                    if venue not in event.tags:
                         event.tags.append(venue)
-                events.extend(kept)
-                debug_lines.append(
-                    f"URL: {url}\n"
-                    f"  HTTP-Status: {response.status_code}\n"
-                    f"  HTML-Länge: {len(html)} Zeichen\n"
-                    f"  JSON-LD vorhanden: {'application/ld+json' in html}\n"
-                    f"  Events gefunden (alle): {len(found)}\n"
-                    f"  Events nach Bühnen-Filter: {len(kept)}\n"
-                    f"{self._discover_endpoints(html)}\n"
-                    + "-" * 60
-                )
+                    events.append(event)
             except Exception as exc:  # noqa: BLE001
-                debug_lines.append(f"URL: {url}\n  FEHLER: {exc}\n" + "-" * 60)
+                debug_lines.append(f"DETAIL FEHLER {detail_url}: {exc}")
 
+        debug_lines.insert(
+            0,
+            f"Gefundene Event-Links: {len(detail_urls)}\n"
+            f"Behaltene Events (nach Bühnen-Filter): {len(events)}\n"
+            + "=" * 60,
+        )
         if self.write_debug:
             self._dump_debug(debug_lines)
         return events
+
+    def _collect_detail_urls(self, debug_lines: list[str]) -> list[str]:
+        seen: list[str] = []
+        for url in self.listing_urls:
+            try:
+                html = self.get(url).text
+                paths = self.EVENT_LINK_RE.findall(html)
+                for path in paths:
+                    full = self.BASE + path
+                    if full not in seen:
+                        seen.append(full)
+                debug_lines.append(
+                    f"LISTING {url}: {len(paths)} Links "
+                    f"({len(set(paths))} eindeutig)\n"
+                    f"{self._discover_endpoints(html)}\n" + "-" * 60
+                )
+            except Exception as exc:  # noqa: BLE001
+                debug_lines.append(f"LISTING FEHLER {url}: {exc}\n" + "-" * 60)
+        return seen
 
     def _discover_endpoints(self, html: str) -> str:
         """Look through the HTML for the data source the page uses.

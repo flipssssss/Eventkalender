@@ -42,7 +42,22 @@ Der Feed aktualisiert sich danach **automatisch jede Nacht**. Du kannst ihn
 
 ---
 
-## ➕ Veranstaltungs-Websites hinzufügen
+## ✅ Bereits eingerichtete Quellen
+
+| Quelle | Methode | Status |
+| --- | --- | --- |
+| **Stressfaktor** (Berlin) | iCal-Feed von radar.squat.net | ✅ eingerichtet |
+| **Berlin Bühnen** – nur HAU (Hebbel am Ufer), Maxim Gorki, Volksbühne | Webseite, gefiltert nach Bühne | 🟡 wird beim 1. Lauf geprüft |
+
+> Bei „Berlin Bühnen" lädt die Seite ihre Termine teils per JavaScript nach.
+> Der Ausleser sammelt beim ersten Lauf auf GitHub automatisch technische
+> Infos (in `docs/data/_debug/`), mit denen die genaue Anbindung an die
+> offizielle Export-API fertiggestellt wird. Falls dort zunächst keine
+> Veranstaltungen erscheinen, ist das erwartet — kurz Bescheid geben.
+
+---
+
+## ➕ Weitere Veranstaltungs-Websites hinzufügen
 
 Trage neue Quellen in die Datei [`sources.yml`](sources.yml) ein:
 

@@ -8,21 +8,31 @@
 # Programmierung funktioniert.
 #
 # Felder pro Eintrag:
-#   url   (Pflicht)  Adresse der Veranstaltungs-Übersichtsseite
+#   url   (Pflicht)  Adresse der Quelle (Webseite oder iCal-Feed)
 #   name  (optional) Anzeigename der Quelle im Feed
 #   tags  (optional) Tags, die jedem Event dieser Quelle hinzugefügt
 #                    werden (z. B. die Stadt)
+#   type  (optional) "jsonld" (Standard, normale Webseiten) oder
+#                    "ical" für .ics-Kalenderfeeds
 #
-# Beispiel:
+# Beispiel (normale Webseite):
 #   - url: https://www.beispielstadt.de/veranstaltungen
 #     name: Stadt Beispielstadt
 #     tags: [Beispielstadt]
+#
+# Beispiel (iCal-Feed):
+#   - url: https://example.org/feed.ics
+#     name: Beispiel-Kalender
+#     type: ical
 #
 # Nach dem Bearbeiten einfach speichern und committen -- die Automatik
 # aktualisiert den Feed dann automatisch.
 # ---------------------------------------------------------------------
 
-sources: []
-  # - url: https://www.beispielstadt.de/veranstaltungen
-  #   name: Stadt Beispielstadt
-  #   tags: [Beispielstadt]
+sources:
+  # Stressfaktor (Berlin) -- linke (Sub-)Kultur & Politik.
+  # Bezogen über den iCal-Feed der Stressfaktor-Gruppe auf radar.squat.net.
+  - url: https://radar.squat.net/ical/node/1599
+    name: Stressfaktor
+    type: ical
+    tags: [Berlin, Politik & Kultur]

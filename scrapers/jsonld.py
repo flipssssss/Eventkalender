@@ -104,6 +104,61 @@ def _is_event(node: dict) -> bool:
     return any(isinstance(t, str) and "Event" in t for t in types)
 
 
+def extract_events_from_html(
+    html: str,
+    base_url: str,
+    source_name: str,
+    default_tags=None,
+) -> list[Event]:
+    """Pull all schema.org Events out of a raw HTML string.
+
+    Shared by :class:`JsonLdScraper` and other scrapers that already have
+    the page HTML in hand.
+    """
+    soup = BeautifulSoup(html, "html.parser")
+    default_tags = list(default_tags or [])
+    events: list[Event] = []
+
+    for script in soup.find_all("script", type="application/ld+json"):
+        raw = script.string or script.get_text()
+        if not raw:
+            continue
+        try:
+            data = json.loads(raw)
+        except json.JSONDecodeError:
+            continue
+        for node in _iter_nodes(data):
+            if not _is_event(node):
+                continue
+            event = _build_event_from_node(node, base_url, source_name, default_tags)
+            if event:
+                events.append(event)
+    return events
+
+
+def _build_event_from_node(node, base_url, source_name, default_tags) -> Event | None:
+    title = _text(node.get("name"))
+    start = parse_datetime(node.get("startDate"))
+    if not title or not start:
+        return None
+
+    source_url = node.get("url") or base_url
+    if isinstance(source_url, str):
+        source_url = urljoin(base_url, source_url)
+
+    return Event(
+        title=title,
+        start=start,
+        end=parse_datetime(node.get("endDate")),
+        source_url=source_url,
+        source_name=source_name,
+        location=_location(node.get("location")),
+        description=_text(node.get("description")),
+        image_url=_image_url(node.get("image"), base_url),
+        tags=list(default_tags) + _tags(node),
+    )
+
+
 class JsonLdScraper(BaseScraper):
     """Read schema.org Events embedded in a page as JSON-LD."""
 
@@ -114,46 +169,9 @@ class JsonLdScraper(BaseScraper):
 
     def fetch_events(self) -> Iterable[Event]:
         response = self.get(self.url)
-        soup = BeautifulSoup(response.text, "html.parser")
-        events: list[Event] = []
-
-        for script in soup.find_all("script", type="application/ld+json"):
-            raw = script.string or script.get_text()
-            if not raw:
-                continue
-            try:
-                data = json.loads(raw)
-            except json.JSONDecodeError:
-                continue
-
-            for node in _iter_nodes(data):
-                if not _is_event(node):
-                    continue
-                event = self._build_event(node)
-                if event:
-                    events.append(event)
-        return events
-
-    def _build_event(self, node: dict) -> Event | None:
-        title = _text(node.get("name"))
-        start = parse_datetime(node.get("startDate"))
-        if not title or not start:
-            return None
-
-        source_url = node.get("url") or self.url
-        if isinstance(source_url, str):
-            source_url = urljoin(self.url, source_url)
-
-        tags = self.default_tags + _tags(node)
-
-        return Event(
-            title=title,
-            start=start,
-            end=parse_datetime(node.get("endDate")),
-            source_url=source_url,
+        return extract_events_from_html(
+            response.text,
+            base_url=self.url,
             source_name=self.name,
-            location=_location(node.get("location")),
-            description=_text(node.get("description")),
-            image_url=_image_url(node.get("image"), self.url),
-            tags=tags,
+            default_tags=self.default_tags,
         )

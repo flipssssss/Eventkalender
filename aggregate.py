@@ -21,12 +21,12 @@ import datetime as _dt
 import json
 import pathlib
 import sys
-import traceback
 
 import yaml
 
 from scrapers.base import Event
-from scrapers.demo import DemoScraper
+from scrapers.berlin_buehnen import BerlinBuehnenScraper
+from scrapers.ical import ICalScraper
 from scrapers.jsonld import JsonLdScraper
 
 ROOT = pathlib.Path(__file__).parent
@@ -50,8 +50,10 @@ def load_yaml_scrapers() -> list[JsonLdScraper]:
         url = entry.get("url")
         if not url:
             continue
+        kind = (entry.get("type") or "jsonld").lower()
+        cls = ICalScraper if kind in ("ical", "ics") else JsonLdScraper
         scrapers.append(
-            JsonLdScraper(
+            cls(
                 url=url,
                 name=entry.get("name"),
                 default_tags=entry.get("tags"),
@@ -66,10 +68,11 @@ def get_scrapers():
     Add custom scrapers (for sites without JSON-LD) to ``custom`` below.
     """
     custom = [
-        DemoScraper(),
-        # Example for a hand-written scraper:
-        # from scrapers.beispielstadt import BeispielstadtScraper
-        # BeispielstadtScraper(),
+        # berlin-buehnen.de, gefiltert auf die gewünschten Bühnen.
+        BerlinBuehnenScraper(),
+        # Demo-Daten sind standardmäßig aus. Zum Ausprobieren einkommentieren:
+        # from scrapers.demo import DemoScraper
+        # DemoScraper(),
     ]
     return load_yaml_scrapers() + custom
 
@@ -88,7 +91,6 @@ def collect() -> tuple[list[Event], list[dict]]:
         except Exception as exc:  # noqa: BLE001 - one bad source must not kill the run
             report.append({"source": name, "count": 0, "error": str(exc)})
             print(f"  ✗ {name}: FEHLER -> {exc}", file=sys.stderr)
-            traceback.print_exc()
     return events, report
 
 

@@ -15,6 +15,7 @@ import datetime as _dt
 import pathlib
 import re
 from typing import Iterable
+from urllib.parse import urljoin
 
 from bs4 import BeautifulSoup
 
@@ -72,52 +73,91 @@ class StressfaktorScraper(BaseScraper):
     # -- parsing ---------------------------------------------------------
 
     def _parse(self, soup: BeautifulSoup, base_url: str) -> list[Event]:
-        """Best-effort extraction of events from the mirror markup.
+        """Extract events from the Drupal ``views-row`` markup.
 
-        The Drupal-based listing renders each event in a ``views-row``
-        container with a date and a titled link. We try that first and
-        fall back to scanning rows that contain a German date plus a link.
+        Each event row contains structured fields:
+          .views-field-title           -> title + link
+          .views-field-field-date-time -> a <time datetime="..."> element
+          .location / .locality        -> venue / place
+          .views-field-body            -> description
+          .views-field-field-category  -> tags
+          .views-field-field-topic     -> tags
         """
         events: list[Event] = []
-        rows = soup.select(".views-row, .event, .termin, tr.termin, li.termin")
-        for row in rows:
+        for row in soup.select(".views-row"):
             event = self._row_to_event(row, base_url)
             if event:
                 events.append(event)
         return events
 
     def _row_to_event(self, row, base_url: str) -> Event | None:
-        link = row.find("a", href=True)
-        if not link:
-            return None
-        title = link.get_text(" ", strip=True)
+        title_el = row.select_one(".views-field-title")
+        link = (title_el or row).find("a", href=True)
+        title = (title_el or row).get_text(" ", strip=True) if title_el else (
+            link.get_text(" ", strip=True) if link else None
+        )
         if not title:
             return None
 
-        text = row.get_text(" ", strip=True)
-        match = GERMAN_DATE_RE.search(text)
-        start = parse_datetime(match.group(0)) if match else None
+        start = self._row_date(row)
         if not start:
             return None
 
-        href = link["href"]
-        if href.startswith("/"):
-            href = "https://stressfaktor.squat.net" + href
+        href = link["href"] if link else base_url
+        source_url = urljoin(base_url, href)
+
+        location = self._first_text(
+            row, ".location", ".locality", ".field--name-field-address"
+        )
+        description = self._first_text(row, ".views-field-body")
+
+        tags = list(self.default_tags)
+        for sel in (".views-field-field-category", ".views-field-field-topic"):
+            for el in row.select(sel):
+                txt = el.get_text(" ", strip=True)
+                # Strip a leading field label like "Kategorie: ".
+                txt = re.sub(r"^[\wäöüÄÖÜ ]{0,20}:\s*", "", txt)
+                tags.extend(t.strip() for t in re.split(r"[,/]", txt) if t.strip())
 
         img = row.find("img")
-        image_url = img["src"] if img and img.get("src") else None
-        if image_url and image_url.startswith("/"):
-            image_url = "https://stressfaktor.squat.net" + image_url
+        image_url = urljoin(base_url, img["src"]) if img and img.get("src") else None
 
         return Event(
             title=title,
             start=start,
-            source_url=href,
+            source_url=source_url,
             source_name=self.name,
-            description=None,
+            location=location,
+            description=description,
             image_url=image_url,
-            tags=list(self.default_tags),
+            tags=tags,
         )
+
+    def _row_date(self, row) -> _dt.datetime | None:
+        # Drupal renders dates as <time datetime="2026-07-03T20:00:00Z">.
+        time_el = row.select_one(".views-field-field-date-time time, time")
+        if time_el and time_el.get("datetime"):
+            dt = parse_datetime(time_el["datetime"])
+            if dt:
+                return dt.replace(tzinfo=None)
+        # Fallbacks: the field's text, then any German date in the row.
+        date_field = row.select_one(".views-field-field-date-time")
+        if date_field:
+            dt = parse_datetime(date_field.get_text(" ", strip=True))
+            if dt:
+                return dt.replace(tzinfo=None)
+        match = GERMAN_DATE_RE.search(row.get_text(" ", strip=True))
+        return parse_datetime(match.group(0)) if match else None
+
+    @staticmethod
+    def _first_text(row, *selectors) -> str | None:
+        for sel in selectors:
+            el = row.select_one(sel)
+            if el:
+                txt = el.get_text(" ", strip=True)
+                if txt:
+                    return txt
+        return None
 
     # -- diagnostics -----------------------------------------------------
 
@@ -129,16 +169,16 @@ class StressfaktorScraper(BaseScraper):
         top = sorted(classes.items(), key=lambda kv: -kv[1])[:25]
         dates = GERMAN_DATE_RE.findall(html)
 
-        body = soup.find("body")
-        snippet = (body.decode() if body else html)[:5000]
+        first_row = soup.select_one(".views-row")
+        row_html = first_row.decode()[:3000] if first_row else "(keine .views-row)"
 
         return (
             f"URL: {url}\n"
             f"  HTML-Länge: {len(html)} Zeichen\n"
             f"  Events geparst: {n}\n"
-            f"  Datum-Treffer im HTML: {len(dates)}\n"
+            f"  Datum-Treffer (Text) im HTML: {len(dates)}\n"
             f"  Häufigste CSS-Klassen: {top}\n"
-            f"  Body-Snippet:\n{snippet}\n" + "-" * 60
+            f"  Erste .views-row (HTML):\n{row_html}\n" + "-" * 60
         )
 
     def _dump_debug(self, lines: list[str]) -> None:

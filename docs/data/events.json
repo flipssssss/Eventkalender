@@ -1,17 +1,63 @@
 {
-  "generated_at": "2026-06-10T07:36:54.388636+00:00",
-  "count": 0,
+  "generated_at": "2026-06-10T07:41:34.039594+00:00",
+  "count": 3,
   "sources": [
     {
       "source": "Stressfaktor",
       "count": 0,
-      "error": "Content line could not be parsed into parts: '<!doctype html><html lang=\"en\"><head><title>Making sure you&#39;re not a bot!</title><link rel=\"stylesheet\" href=\"/.within.website/x/xess/xess.min.css?cachebuster=1.25.0\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"><meta name=\"robots\" content=\"noindex,nofollow\"><style>       body,       html {           height: 100%;           display: flex;           justify-content: center;           align-items: center;           margin-left: auto;           margin-right: auto;       }       .centered-div {           text-align: center;       }       #status {           font-variant-numeric: tabular-nums;       }       #progress {           display: none;           width: 90%;           width: min(20rem, 90%);           height: 2rem;           border-radius: 1rem;           overflow: hidden;           margin: 1rem 0 2rem;           outline-offset: 2px;           outline: #b16286 solid 4px;       }       .bar-inner {           background-color: #b16286;           height: 100%;           width: 0;           transition: width 0.25s ease-in;       }   \t</style><script id=\"anubis_version\" type=\"application/json\">\"1.25.0\"': <!doctypehtml><htmllang=\"en\"><head><title>Makingsureyou&#39"
+      "error": "403 Client Error: Forbidden for url: https://radar.squat.net/ical/node/1599"
     },
     {
       "source": "Berlin Bühnen",
-      "count": 0,
+      "count": 3,
       "error": null
     }
   ],
-  "events": []
+  "events": [
+    {
+      "title": "Parole Text:Buch",
+      "start": "2026-06-10T18:30:00+02:00",
+      "end": null,
+      "location": "Volksbühne am Rosa-Luxemburg-Platz, Rosa-Luxemburg-Platz, 10178, Berlin",
+      "description": "Nachtcafé, Lesezone, Lesebühne, Literatur und jetzt Parole Text:Buch – das waren und sind Bezeichnungen für das Format im Roten Salon der Volksbühne am Rosa-Luxemburg-Platz, in dessen Fokus seit 30 Jahren das geschriebene Wort steht.\nTexte und Bücher, die eine Premiere feiern, Texte, die durch eine besondere Interpretation gewinnen oder die durch Verleger vor dem Vergessen gerettet werden.\nAlle Richtungen und Genres sind vertreten: Belletristik, Erzählungen, Novellen, das politische Buch, das ungewöhnliche Sachbuch, das Drama, die Lyrik, Essays, Biografien – No Mainstream und als Schwerpunkt: Das Debüt. Jedes vorgestellte Buch besticht durch seine Eigenart und nicht selten erleben die Zuschauer:innen neben der Lesung und dem Gespräch noch einiges mehr: Musik – live oder aus der Dose – Filmchen, Tanz und was die Phantasie noch so hergibt.\nUnd der Tresen im Roten Salon gibt das I-Tüpfelchen dazu. Denn natürlich erst mit einem Getränk am Platz wird ein Leseabend von A bis Z salonfähig.",
+      "image_url": "https://www.berlin-buehnen.de/media/productions/parole-textbuch/events/gallery/202605030011490264.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/parole-textbuch/events/368161/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Berlin",
+        "Theater",
+        "Volksbühne"
+      ]
+    },
+    {
+      "title": "sos – media loves you",
+      "start": "2026-06-10T19:00:00+02:00",
+      "end": null,
+      "location": "Volksbühne am Rosa-Luxemburg-Platz, Rosa-Luxemburg-Platz, 10178, Berlin",
+      "description": "Mox Mäkelä ist eine finnische Konzeptkünstlerin, deren Arbeiten an zahlreichen Orten und Festivals in Europa präsentiert wurden, darunter das Maritime Museum of Finland, das Internationale Kurzfilmtage Oberhausen und das International Film Festival Rotterdam.\nIhre künstlerische Praxis hat ihre Wurzeln in der bildenden Kunst. Allerdings löste sich Mäkelä früh von deren traditionellen Ausdrucksformen. Seit den 2000er Jahren arbeitet sie verstärkt mit dem Medium Film. In ihrem ökokritischen Kurz- und Langspielfilmen und Installationen erforscht sie das Spannungsverhältnis zwischen Natur und menschlicher Natur. Darüber hinaus entwickelte sie ein eigenes Filmgenre, das sie kuunnelmaelokuva („Hörspielfilm“) nennt.\nSTATUS (7 Min.)\nIhre Arbeitsgruppe ist wie unsere Arbeitsgruppe, auch wenn wir vielleicht etwas anderes meinen. Der Unterschied ist zum Beispiel, dass sie das Legen von Eiern ins Auge völlig ohne Geheimnisse betreiben und was ist mit dem Maßstab, was ist mit den Regeln, der Klarheit!\nSUMMER´S Tale (9 Min.)\nEin kleines Mädchen verbringt die Sommerferien in einem Aquarium voller seltsam gefärbter Flüssigkeit. Von dieser Erfahrung ausgehend entfaltet sich das Kurzfilmforum „Story Ambient“ als lose verbundene Sammlung von Geschichten, Bildern und Erinnerungen.\nSOS — MEDIA LOVES YOU (4 Min.)\nSOS, die Medien lieben dich immer mehr.\nHOSPITALITY FIN€ (4 Min.)\nDer fließende, seitlich abgeschrägte Rock wirkt zunächst harmlos. Doch darunter rotiert ein Winkelschleifer mit Diamantscheibe. In diesem System erscheint jede Beschwerde über den Service als riskante Fehlentscheidung.\nZsar Outlet (5 Min.)\nEine Vorhersage, selbstverständlich. In den Hallen des Handels treffen sich die Begierden der Großmächte. Die gehämmerten Knochen des Ostens rotieren im Takt der zerbrochenen Knochen des Westens.",
+      "image_url": null,
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/sos-media-loves-you/events/369877/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Berlin",
+        "Theater",
+        "Volksbühne"
+      ]
+    },
+    {
+      "title": "Memory Distortion. M I X T A P E",
+      "start": "2026-06-10T19:00:00+02:00",
+      "end": null,
+      "location": "HAU Hebbel am Ufer, Stresemannstraße 29, 10963, Berlin",
+      "description": "Zwischen Kassettenrauschen und wiederentdeckten Stimmen entsteht eine vielstimmige Performance über Erinnerung als umkämpften Raum. Das Kollektiv teatru-spălătorie verwebt Klang, Geschichte und Politik zu einer eindringlichen Collage über das, was bleibt – und was gelöscht wird.Die frisch mit dem Preis des Internationalen Theaterinstituts (ITI) ausgezeichnete Nicoleta Esinencu kehrt mit ihrem Kollektiv teatru-spălătorie aus Chișinău ans HAU zurück. Ausgangspunkt von “Memory Distortion. M I X T A P E” sind zunächst gelöschte, überspielte und wiederentdeckte Tonspuren – Kassetten mit Stimmen und Fragmenten –, in denen sich persönliche und politische Geschichte überlagern. Aus diesen Spuren entwickelt teatru-spălătorie eine vielstimmige, musikalisch-performative Collage über verzerrte Erinnerung, das politische Umschreiben von Geschichte und die Frage, was von Vergangenem hörbar bleibt.Wer entscheidet, was festgehalten, was bewahrt und was vergessen wird? Individuelle Biografien verschränken sich mit Faschismus, Krieg, Migration, neoliberaler Transformation und Ausbeutung. Erinnerung erscheint dabei nicht als verlässliches Archiv, sondern als umkämpfter Raum, geprägt von Auslassungen, ideologischen Setzungen und bewusster Neuschreibung. In musikalischen Loops, Wiederholungen und Brüchen verschieben sich Vergangenheit und Gegenwart ineinander. Dabei werden neo-koloniale und machtpolitische Dynamiken innerhalb Europas sichtbar. Mit der für das Kollektiv typischen Schärfe, Komik und politischen Dringlichkeit entsteht ein Abend darüber, wie Erinnerung zum Konfliktfeld wird.",
+      "image_url": "https://www.berlin-buehnen.de/media/productions/memory-distortion-m-i-x-t-a-p-e/gallery/202604292228200827.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/memory-distortion-m-i-x-t-a-p-e/events/367593/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Berlin",
+        "Hebbel am Ufer",
+        "Theater"
+      ]
+    }
+  ]
 }

@@ -1,9 +1,7 @@
-URL: https://www.berlin-buehnen.de/de/spielplan/
-  HTTP-Status: 200
-  HTML-Länge: 206238 Zeichen
-  JSON-LD vorhanden: False
-  Events gefunden (alle): 0
-  Events nach Bühnen-Filter: 0
+Gefundene Event-Links: 24
+Behaltene Events (nach Bühnen-Filter): 3
+============================================================
+LISTING https://www.berlin-buehnen.de/de/spielplan/: 24 Links (24 eindeutig)
   Mögliche Daten-Endpunkte:
     - /de/feedback/_feedback-categories/
     - /de/feedback/_send-feedback-message/

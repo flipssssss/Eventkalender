@@ -118,13 +118,14 @@ class StressfaktorScraper(BaseScraper):
         )
         description = self._first_text(row, ".views-field-body")
 
-        tags = list(self.default_tags)
-        for sel in (".views-field-field-category", ".views-field-field-topic"):
-            for el in row.select(sel):
-                txt = el.get_text(" ", strip=True)
-                # Strip a leading field label like "Kategorie: ".
-                txt = re.sub(r"^[\wäöüÄÖÜ ]{0,20}:\s*", "", txt)
-                tags.extend(t.strip() for t in re.split(r"[,/]", txt) if t.strip())
+        # Only the category (Konzert, Essen, Vortrag, …) -- not the broad
+        # default tags and not the secondary topics (vegan, queer, …).
+        tags: list[str] = []
+        for el in row.select(".views-field-field-category"):
+            txt = el.get_text(" ", strip=True)
+            # Strip a leading field label like "Kategorie: ".
+            txt = re.sub(r"^[\wäöüÄÖÜ ]{0,20}:\s*", "", txt)
+            tags.extend(t.strip() for t in re.split(r"[,/]", txt) if t.strip())
 
         img = row.find("img")
         image_url = urljoin(base_url, img["src"]) if img and img.get("src") else None

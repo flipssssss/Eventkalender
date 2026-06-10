@@ -176,19 +176,17 @@ function renderCard(ev) {
   card.target = "_blank";
   card.rel = "noopener noreferrer";
 
-  // Image (or a placeholder when none is available).
+  // Image only when one exists. No placeholder: cards without an image
+  // simply start with the text, no empty graphic.
   if (ev.image_url) {
     const img = document.createElement("img");
     img.className = "card-image";
     img.src = ev.image_url;
     img.alt = ev.title || "";
     img.loading = "lazy";
-    img.addEventListener("error", () => {
-      img.replaceWith(placeholderImage());
-    });
+    // If the image fails to load, drop it rather than leaving a gap.
+    img.addEventListener("error", () => img.remove());
     card.appendChild(img);
-  } else {
-    card.appendChild(placeholderImage());
   }
 
   const body = document.createElement("div");
@@ -239,13 +237,6 @@ function renderCard(ev) {
 
   card.appendChild(body);
   return card;
-}
-
-function placeholderImage() {
-  const div = document.createElement("div");
-  div.className = "card-image placeholder";
-  div.textContent = "📅";
-  return div;
 }
 
 function formatTime(ev) {

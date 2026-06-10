@@ -93,8 +93,8 @@ class BerlinBuehnenScraper(BaseScraper):
                     venue = self._venue_of(event)
                     if not venue:
                         continue
-                    if venue not in event.tags:
-                        event.tags.append(venue)
+                    # Only the venue as the single category tag.
+                    event.tags = [venue]
                     events.append(event)
             except Exception as exc:  # noqa: BLE001
                 debug_lines.append(f"DETAIL FEHLER {detail_url}: {exc}")

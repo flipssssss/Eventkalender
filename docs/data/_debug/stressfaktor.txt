@@ -1,5 +1,7 @@
-URL: https://stressfaktor.squat.net/termine
-  HTML-Länge: 162093 Zeichen
+Tage abgefragt: 14 | Events (vor Dedup): 224
+2026-06-10: 16 Events
+URL: https://stressfaktor.squat.net/termine?f%5B0%5D=event_date:2026-06-10
+  HTML-Länge: 162064 Zeichen
   Events geparst: 16
   Datum-Treffer (Text) im HTML: 0
   Häufigste CSS-Klassen: [('facet-item__value', 274), ('count-1', 169), ('views-field', 128), ('field-content', 128), ('count-2', 74), ('status-confirmed', 32), ('count-3', 26), ('field', 20), ('field--label-hidden', 20), ('field--item', 20), ('is-published', 16), ('views-row', 16), ('views-field-field-event-status-1', 16), ('views-field-title', 16), ('views-field-field-date-time', 16), ('views-field-nothing', 16), ('location', 16), ('field--name-field-address', 16), ('field--type-address', 16), ('address', 16), ('organization', 16), ('locality', 16), ('country', 16), ('views-field-body', 16), ('views-field-field-category', 16)]
@@ -16,4 +18,17 @@ URL: https://stressfaktor.squat.net/termine
 <strong>Mittwochs (aber nicht am letzten Mittwoch im Monat!) </strong>16-19 Uhr, Sprachen: deutsch, englisch. Bei konkreten Sprachwünschen bitte vorher nachfragen.
  </span></div><span class="views-field views-field-field-category"><span class="field-content">Beratung/Hilfe/Sprechstunde</span></span><span class="views-field views-field-field-topic"><span class="field-content"></span></span><div class="views-field views-field-field-price-category"><span class="field-content"></span></div></div>
 ------------------------------------------------------------
-Anubis-Notizen: PoW: difficulty=2 nonce=30 hash=00d8ee46c22c… pass-status=200 cookies=['techaro.lol-anubis-cookie-verification', 'techaro.lol-anubis-auth']
+2026-06-11: 16 Events
+2026-06-12: 16 Events
+2026-06-13: 16 Events
+2026-06-14: 16 Events
+2026-06-15: 16 Events
+2026-06-16: 16 Events
+2026-06-17: 16 Events
+2026-06-18: 16 Events
+2026-06-19: 16 Events
+2026-06-20: 16 Events
+2026-06-21: 16 Events
+2026-06-22: 16 Events
+2026-06-23: 16 Events
+Anubis-Notizen: PoW: difficulty=2 nonce=181 hash=00cea8901548… pass-status=200 cookies=['techaro.lol-anubis-cookie-verification', 'techaro.lol-anubis-auth']

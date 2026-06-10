@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-06-10T09:28:45.195446+00:00",
-  "count": 85,
+  "generated_at": "2026-06-10T09:30:56.465388+00:00",
+  "count": 72,
   "sources": [
     {
       "source": "Stressfaktor",
-      "count": 16,
+      "count": 224,
       "error": null
     },
     {
       "source": "Berlin Bühnen",
-      "count": 70,
+      "count": 57,
       "error": null
     }
   ],
@@ -945,175 +945,6 @@
       "description": null,
       "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/182055a863bc88f0cebdb61f85b082dc.jpg",
       "source_url": "https://www.berlin-buehnen.de/de/spielplan/love-me-tender/events/368144/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ]
-    },
-    {
-      "title": "Hier sein heißt handeln",
-      "start": "2026-06-26T18:00:00",
-      "end": null,
-      "location": "HAU Hebbel am Ufer",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/96e793644b116dc4bcd6526feea43ac1.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/hier-heisst-handeln/events/367591/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ]
-    },
-    {
-      "title": "Spielraum",
-      "start": "2026-06-26T18:00:00",
-      "end": null,
-      "location": "HAU Hebbel am Ufer",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/543c5db2ef90c9499ae732d3afaaf559.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/spielraum/events/368240/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ]
-    },
-    {
-      "title": "Apaches",
-      "start": "2026-06-26T20:00:00",
-      "end": null,
-      "location": "HAU Hebbel am Ufer",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/0273e8f53b4df825bb8e61b55c71bb12.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/apaches/events/367576/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ]
-    },
-    {
-      "title": "Die schwarze Krähe der Weißen Siedlung",
-      "start": "2026-06-27T17:00:00",
-      "end": null,
-      "location": "HAU Hebbel am Ufer",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/b8a281c2a178e67d9868f05cbe1c9b38.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/die-schwarze-kraehe-weissen-siedlung/events/367583/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ]
-    },
-    {
-      "title": "Apaches",
-      "start": "2026-06-27T18:00:00",
-      "end": null,
-      "location": "HAU Hebbel am Ufer",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/0273e8f53b4df825bb8e61b55c71bb12.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/apaches/events/367577/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ]
-    },
-    {
-      "title": "Hier sein heißt handeln",
-      "start": "2026-06-27T19:00:00",
-      "end": null,
-      "location": "HAU Hebbel am Ufer",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/96e793644b116dc4bcd6526feea43ac1.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/hier-heisst-handeln/events/367592/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ]
-    },
-    {
-      "title": "Konzert",
-      "start": "2026-06-27T20:00:00",
-      "end": null,
-      "location": "HAU Hebbel am Ufer",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/a71914202f0eb048c48f7ca4a019e6ab.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/konzert-1764/events/368336/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ]
-    },
-    {
-      "title": "DJ-Set von Slimgirl Fat",
-      "start": "2026-06-27T22:00:00",
-      "end": null,
-      "location": "HAU Hebbel am Ufer",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/370b129ab21d8613c757dd11e392228d.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/dj-set-slimgirl-fat/events/367590/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ]
-    },
-    {
-      "title": "Dialog mit Politiker*innen und Expert*innen",
-      "start": "2026-07-01T20:00:00",
-      "end": null,
-      "location": "HAU Hebbel am Ufer",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/10edfb34f2f07b38c7c11b30359ac5a7.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/dialog-politikerinnen-expertinnen/events/367582/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ]
-    },
-    {
-      "title": "Die Stadt & The City – Ein analoges Live-Game im Stadtraum",
-      "start": "2026-07-02T17:00:00",
-      "end": null,
-      "location": "HAU Hebbel am Ufer",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/90301d5cf0d46917904bfe4ae815138a.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/die-stadt-the-city-ein-analoges-live-game-stadtraum/events/367584/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ]
-    },
-    {
-      "title": "Mit Lavinia Vago",
-      "start": "2026-07-02T18:00:00",
-      "end": null,
-      "location": "HAU Hebbel am Ufer",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/6021c515fbcc7b37a808d02842084389.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/mit-lavinia-vago/events/367578/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ]
-    },
-    {
-      "title": "The Soft Layer",
-      "start": "2026-07-02T18:30:00",
-      "end": null,
-      "location": "HAU Hebbel am Ufer",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/595aa914d986c702eb697d40ea5cddb5.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/the-soft-layer/events/367958/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ]
-    },
-    {
-      "title": "Die Stadt & The City – Ein analoges Live-Game im Stadtraum",
-      "start": "2026-07-02T19:00:00",
-      "end": null,
-      "location": "HAU Hebbel am Ufer",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/90301d5cf0d46917904bfe4ae815138a.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/die-stadt-the-city-ein-analoges-live-game-stadtraum/events/367585/",
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"

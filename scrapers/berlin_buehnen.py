@@ -43,17 +43,22 @@ class BerlinBuehnenScraper(BaseScraper):
     def __init__(
         self,
         venues: dict[str, list[str]] | None = None,
+        horizon_days: int = 14,
         max_pages: int = 60,
         write_debug: bool = True,
     ):
         self.venues = venues or DEFAULT_VENUES
+        self.horizon_days = horizon_days
         self.max_pages = max_pages
         self.write_debug = write_debug
 
     def fetch_events(self) -> Iterable[Event]:
+        import datetime as _dt
+
         events: list[Event] = []
         seen_ids: set[str] = set()
         report: list[str] = []
+        horizon = _dt.datetime.now() + _dt.timedelta(days=self.horizon_days)
 
         for page in range(1, self.max_pages + 1):
             url = f"{self.BASE}/de/spielplan/?page={page}"
@@ -68,12 +73,16 @@ class BerlinBuehnenScraper(BaseScraper):
 
             new_here = 0
             kept_here = 0
+            page_min_date = None
             for card in cards:
                 event_id = self._event_id(card.get("href", ""))
                 if event_id in seen_ids:
                     continue
                 seen_ids.add(event_id)
                 new_here += 1
+                date = self._card_date(card)
+                if date and (page_min_date is None or date < page_min_date):
+                    page_min_date = date
                 event = self._parse_card(card)
                 if event:
                     events.append(event)
@@ -85,6 +94,11 @@ class BerlinBuehnenScraper(BaseScraper):
             )
             # End of programme reached (no cards or only already-seen ones).
             if not cards or new_here == 0:
+                break
+            # The listing is sorted by date; once a whole page is past the
+            # 14-day horizon we can stop paging.
+            if page_min_date and page_min_date > horizon:
+                report.append(f"Horizont ({self.horizon_days} Tage) erreicht.")
                 break
 
         if self.write_debug:
@@ -133,6 +147,10 @@ class BerlinBuehnenScraper(BaseScraper):
             image_url=image_url,
             tags=["Theater"],
         )
+
+    def _card_date(self, card):
+        time_el = card.find("time", attrs={"datetime": True})
+        return parse_datetime(time_el["datetime"]) if time_el else None
 
     def _match_venue(self, text: str) -> str | None:
         low = text.lower()

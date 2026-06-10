@@ -39,6 +39,10 @@ SOURCES_FILE = ROOT / "sources.yml"
 # already started). Everything older is dropped.
 KEEP_PAST_DAYS = 1
 
+# How far into the future the feed reaches. Events further out are dropped,
+# and the scrapers use the same horizon so they don't fetch needlessly.
+HORIZON_DAYS = 14
+
 
 def load_yaml_scrapers() -> list[JsonLdScraper]:
     """Build a JSON-LD scraper for every entry in sources.yml."""
@@ -70,10 +74,10 @@ def get_scrapers():
     Add custom scrapers (for sites without JSON-LD) to ``custom`` below.
     """
     custom = [
-        # Stressfaktor (Berlin) über die freie Spiegel-Kopie.
-        StressfaktorScraper(),
+        # Stressfaktor (Berlin) -- nächste HORIZON_DAYS Tage via Datums-Facet.
+        StressfaktorScraper(days=HORIZON_DAYS),
         # berlin-buehnen.de, gefiltert auf die gewünschten Bühnen.
-        BerlinBuehnenScraper(),
+        BerlinBuehnenScraper(horizon_days=HORIZON_DAYS),
         # Demo-Daten sind standardmäßig aus. Zum Ausprobieren einkommentieren:
         # from scrapers.demo import DemoScraper
         # DemoScraper(),
@@ -100,6 +104,7 @@ def collect() -> tuple[list[Event], list[dict]]:
 
 def filter_and_sort(events: list[Event]) -> list[Event]:
     cutoff = _dt.datetime.now() - _dt.timedelta(days=KEEP_PAST_DAYS)
+    horizon = _dt.datetime.now() + _dt.timedelta(days=HORIZON_DAYS)
 
     seen: set[str] = set()
     kept: list[Event] = []
@@ -108,7 +113,7 @@ def filter_and_sort(events: list[Event]) -> list[Event]:
             continue
         # Compare naively to avoid tz-aware/naive mix-ups.
         start_naive = event.start.replace(tzinfo=None)
-        if start_naive < cutoff:
+        if start_naive < cutoff or start_naive > horizon:
             continue
         # Map the source's raw categories onto the fixed tag set; drop
         # advice/help ("Beratung") events entirely.

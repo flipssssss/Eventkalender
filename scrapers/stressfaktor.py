@@ -35,43 +35,49 @@ GERMAN_DATE_RE = re.compile(
 class StressfaktorScraper(BaseScraper):
     name = "Stressfaktor"
 
+    BASE_URL = "https://stressfaktor.squat.net/termine"
+
     def __init__(
         self,
-        urls: list[str] | None = None,
-        default_tags: list[str] | None = None,
+        days: int = 14,
+        base_url: str | None = None,
         write_debug: bool = True,
     ):
-        # The live site uses the same Drupal markup as the (now stale 2021)
-        # mirror, so the same parser works. We read the live site directly;
-        # the mirror is intentionally NOT used as a fallback because its
-        # snapshot is years out of date.
-        self.urls = urls or [
-            "https://stressfaktor.squat.net/termine",
-        ]
-        self.default_tags = list(default_tags or ["Berlin", "Politik & Kultur"])
+        # The live site shows only one day at a time, so we walk the next
+        # `days` days via its date facet. The live site uses the same Drupal
+        # markup as the (stale 2021) mirror, so the same parser works.
+        self.days = days
+        self.base_url = base_url or self.BASE_URL
         self.write_debug = write_debug
 
     def fetch_events(self) -> Iterable[Event]:
         debug_lines: list[str] = []
         events: list[Event] = []
-        # The site is behind the Anubis bot wall; this session solves the
-        # proof-of-work the same way a browser does.
+        # The site is behind the Anubis bot wall; one session solves the
+        # proof-of-work once and reuses the cookie for every day.
         session = AnubisSession()
+        today = _dt.date.today()
 
-        for url in self.urls:
+        for offset in range(self.days):
+            day = today + _dt.timedelta(days=offset)
+            # Drupal Search API date facet (same shape as the mirror used).
+            url = f"{self.base_url}?f%5B0%5D=event_date:{day.isoformat()}"
             try:
                 html = session.get(url).text
             except Exception as exc:  # noqa: BLE001
-                debug_lines.append(f"URL {url}: FEHLER {exc}\n" + "-" * 60)
+                debug_lines.append(f"{day}: FEHLER {exc}")
                 continue
 
             soup = BeautifulSoup(html, "html.parser")
             found = self._parse(soup, url)
             events.extend(found)
-            debug_lines.append(self._diagnose(soup, html, url, len(found)))
-            if found:
-                break
+            debug_lines.append(f"{day}: {len(found)} Events")
+            if offset == 0:
+                debug_lines.append(self._diagnose(soup, html, url, len(found)))
 
+        debug_lines.insert(
+            0, f"Tage abgefragt: {self.days} | Events (vor Dedup): {len(events)}"
+        )
         debug_lines.append("Anubis-Notizen: " + " | ".join(session.notes))
         if self.write_debug:
             self._dump_debug(debug_lines)

@@ -12,13 +12,17 @@
 #   name  (optional) Anzeigename der Quelle im Feed
 #   tags  (optional) Tags, die jedem Event dieser Quelle hinzugefügt
 #                    werden (z. B. die Stadt)
-#   type  (optional) "jsonld" (Standard, normale Webseiten) oder
-#                    "ical" für .ics-Kalenderfeeds
+#   type     (optional) "jsonld" (Standard, normale Webseiten) oder
+#                        "ical" für .ics-Kalenderfeeds
+#   category (optional) erzwingt EINEN festen Tag für alle Events dieser
+#                        Quelle (z. B. Konzert, Party) -- ignoriert die
+#                        Kategorien der Seite
+#   extra_urls (optional) weitere Unterseiten derselben Quelle
 #
 # Beispiel (normale Webseite):
 #   - url: https://www.beispielstadt.de/veranstaltungen
 #     name: Stadt Beispielstadt
-#     tags: [Beispielstadt]
+#     category: Konzert
 #
 # Beispiel (iCal-Feed):
 #   - url: https://example.org/feed.ics
@@ -31,6 +35,14 @@
 
 # Hinweis: Stressfaktor wird über einen eigenen Ausleser eingebunden
 # (scrapers/stressfaktor.py, in aggregate.py registriert), weil die
-# Originalseite einen Bot-Schutz hat und wir die frei zugängliche
-# Spiegel-Kopie (mirror.systemli.org) verwenden.
-sources: []
+# Originalseite einen Bot-Schutz hat.
+sources:
+  # Donau115 (Berlin) -- Jazz-Club, alle Events als Konzert.
+  - url: https://www.donau115.de
+    name: Donau115
+    category: Konzert
+
+  # Tipsy Bear (Berlin) -- Bar mit Events, vorläufig als Party.
+  - url: https://tipsybearberlin.com/events
+    name: Tipsy Bear
+    category: Party

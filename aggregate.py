@@ -57,14 +57,24 @@ def load_yaml_scrapers() -> list[JsonLdScraper]:
         if not url:
             continue
         kind = (entry.get("type") or "jsonld").lower()
-        cls = ICalScraper if kind in ("ical", "ics") else JsonLdScraper
-        scrapers.append(
-            cls(
-                url=url,
-                name=entry.get("name"),
-                default_tags=entry.get("tags"),
+        if kind in ("ical", "ics"):
+            scrapers.append(
+                ICalScraper(
+                    url=url,
+                    name=entry.get("name"),
+                    default_tags=entry.get("tags"),
+                )
             )
-        )
+        else:
+            scrapers.append(
+                JsonLdScraper(
+                    url=url,
+                    name=entry.get("name"),
+                    default_tags=entry.get("tags"),
+                    category=entry.get("category"),
+                    extra_urls=entry.get("extra_urls"),
+                )
+            )
     return scrapers
 
 

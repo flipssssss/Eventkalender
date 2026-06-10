@@ -160,18 +160,68 @@ def _build_event_from_node(node, base_url, source_name, default_tags) -> Event |
 
 
 class JsonLdScraper(BaseScraper):
-    """Read schema.org Events embedded in a page as JSON-LD."""
+    """Read schema.org Events embedded in a page as JSON-LD.
 
-    def __init__(self, url: str, name: str | None = None, default_tags=None):
+    ``category`` forces every event onto a single fixed tag (e.g. all
+    Donau115 events -> "Konzert"), ignoring whatever keywords the page
+    declares. ``extra_urls`` lets a source list several pages to read.
+    """
+
+    def __init__(
+        self,
+        url: str,
+        name: str | None = None,
+        default_tags=None,
+        category: str | None = None,
+        extra_urls=None,
+        write_debug: bool = True,
+    ):
         self.url = url
         self.name = name or url
         self.default_tags = list(default_tags or [])
+        self.category = category
+        self.extra_urls = list(extra_urls or [])
+        self.write_debug = write_debug
 
     def fetch_events(self) -> Iterable[Event]:
-        response = self.get(self.url)
-        return extract_events_from_html(
-            response.text,
-            base_url=self.url,
-            source_name=self.name,
-            default_tags=self.default_tags,
+        events: list[Event] = []
+        debug_lines: list[str] = []
+        for url in [self.url, *self.extra_urls]:
+            response = self.get(url)
+            found = extract_events_from_html(
+                response.text,
+                base_url=url,
+                source_name=self.name,
+                default_tags=self.default_tags,
+            )
+            events.extend(found)
+            debug_lines.append(
+                f"URL: {url}\n"
+                f"  HTTP-Status: {response.status_code}\n"
+                f"  HTML-Länge: {len(response.text)} Zeichen\n"
+                f"  JSON-LD vorhanden: {'application/ld+json' in response.text}\n"
+                f"  Events gefunden: {len(found)}\n"
+                f"  Snippet:\n{response.text[:1200]}\n" + "-" * 60
+            )
+
+        if self.category:
+            for event in events:
+                event.tags = [self.category]
+
+        if self.write_debug:
+            self._dump_debug(debug_lines)
+        return events
+
+    def _dump_debug(self, lines: list[str]) -> None:
+        import pathlib
+        import re
+
+        debug_dir = (
+            pathlib.Path(__file__).resolve().parents[1] / "docs" / "data" / "_debug"
         )
+        slug = re.sub(r"[^a-z0-9]+", "-", self.name.lower()).strip("-") or "jsonld"
+        try:
+            debug_dir.mkdir(parents=True, exist_ok=True)
+            (debug_dir / f"{slug}.txt").write_text("\n".join(lines), encoding="utf-8")
+        except OSError:
+            pass

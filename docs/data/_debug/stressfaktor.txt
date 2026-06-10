@@ -1,15 +1,8 @@
-URL: https://mirror.systemli.org/stressfaktor.squat.net/termine/alle.html
-  HTML-Länge: 126597 Zeichen
-  Events geparst: 27
+URL: https://stressfaktor.squat.net/termine
+  HTML-Länge: 4439 Zeichen
+  Events geparst: 0
   Datum-Treffer (Text) im HTML: 0
-  Häufigste CSS-Klassen: [('views-field', 216), ('field-content', 216), ('facet-item__value', 167), ('count-1', 91), ('facet-item', 58), ('facet-item__count', 58), ('status-confirmed', 54), ('field', 30), ('field--label-hidden', 30), ('field--item', 30), ('views-row', 27), ('views-field-field-event-status-1', 27), ('views-field-title', 27), ('views-field-field-date-time', 27), ('views-field-nothing', 27), ('location', 27), ('field--name-field-address', 27), ('field--type-address', 27), ('address', 27), ('locality', 27), ('country', 27), ('views-field-body', 27), ('views-field-field-category', 27), ('views-field-field-topic', 27), ('views-field-field-price-category', 27)]
+  Häufigste CSS-Klassen: [('centered-div', 3), ('bar-inner', 1)]
   Erste .views-row (HTML):
-<div class="views-row"><div class="views-field views-field-field-event-status-1"><span class="field-content"></span></div><div class="views-field views-field-title"><h4 class="field-content status-confirmed"><a href="../node/210558.html" hreflang="de">Konzert im AGH</a></h4></div><div class="views-field views-field-field-date-time"><span class="field-content"><time datetime="2021-10-29T21:00:00Z">21:00</time>
-</span></div><div class="views-field views-field-nothing"><span class="field-content"><a href="../group/342.html" hreflang="de">KØPI</a> - Ort: <div class="location">
-<div class="field field--name-field-address field--type-address field--label-hidden field--item"><p class="address" translate="no"><span class="organization">KØPI</span><br/>
-<span class="address-line1">Köpenicker Straße 137</span><br/>
-<span class="postal-code">10179</span> <span class="locality">Berlin</span><br/>
-<span class="country">Deutschland</span></p></div>
-</div>
-</span></div><div class="views-field views-field-body"><span class="field-content status-confirmed"><strong>"La Maldita Infamia"</strong> (Hardcore Rap / Madrid) - <strong>"Nomadas"</strong> (Hip Hop Collective / Berlin) - <strong>"Owner" </strong>(Beat Box) - <strong>"SARA" </strong>(Rap)</span></div><span class="views-field views-field-field-category"><span class="field-content">Musik/Konzert</span></span><span class="views-field views-field-field-topic"><span class="field-content"></span></span><div class="views-field views-field-field-price-category"><span class="field-content"></span></div></div>
+(keine .views-row)
 ------------------------------------------------------------

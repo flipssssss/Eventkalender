@@ -123,11 +123,45 @@ class BerlinBuehnenScraper(BaseScraper):
                     f"LISTING {url}: {len(paths)} Links "
                     f"({len(set(paths))} eindeutig)\n"
                     f"{self._discover_links(html)}\n"
-                    f"{self._discover_endpoints(html)}\n" + "-" * 60
+                    f"{self._discover_endpoints(html)}\n"
+                    f"{self._inspect_scripts(html)}\n" + "-" * 60
                 )
             except Exception as exc:  # noqa: BLE001
                 debug_lines.append(f"LISTING FEHLER {url}: {exc}\n" + "-" * 60)
         return seen
+
+    def _inspect_scripts(self, html: str) -> str:
+        """Fetch the page's own JS bundles and look for the events API.
+
+        The Spielplan is filled by a web component (project.esm.js). The
+        URL it calls to load events is the key to full coverage, so we
+        download those scripts and surface any endpoint-like strings.
+        """
+        soup = BeautifulSoup(html, "html.parser")
+        srcs = [s.get("src") for s in soup.find_all("script", src=True)]
+        own = [self.BASE + s if s.startswith("/") else s
+               for s in srcs if s and (s.startswith("/") or self.BASE in s)]
+        lines: list[str] = []
+        for src in own[:4]:
+            try:
+                js = self.get(src).text
+            except Exception as exc:  # noqa: BLE001
+                lines.append(f"  Skript {src}: FEHLER {exc}")
+                continue
+            hits = sorted(set(re.findall(
+                r"""["'`](/[a-z0-9_./-]*(?:api|event|spielplan|calendar|search|graphql|query|list)[a-z0-9_./-]*)["'`]""",
+                js, flags=re.IGNORECASE,
+            )))
+            url_hits = sorted(set(re.findall(
+                r"""(https?://[a-z0-9_.:/-]*(?:api|event|spielplan|graphql)[a-z0-9_.:/?=&-]*)""",
+                js, flags=re.IGNORECASE,
+            )))
+            found = (hits + url_hits)[:30]
+            lines.append(
+                f"  Skript {src} ({len(js)} Zeichen): "
+                + (", ".join(found) if found else "keine Endpunkt-Strings")
+            )
+        return "\n".join(lines) if lines else "  (keine eigenen Skripte)"
 
     def _discover_links(self, html: str) -> str:
         """Surface venue and pagination links to widen coverage later.

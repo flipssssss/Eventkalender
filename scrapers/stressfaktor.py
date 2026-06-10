@@ -173,7 +173,12 @@ class StressfaktorScraper(BaseScraper):
         dates = GERMAN_DATE_RE.findall(html)
 
         first_row = soup.select_one(".views-row")
-        row_html = first_row.decode()[:3000] if first_row else "(keine .views-row)"
+        if first_row:
+            detail = "  Erste .views-row (HTML):\n" + first_row.decode()[:3000]
+        else:
+            # Likely an Anubis challenge page -- dump it raw so the
+            # proof-of-work solver can be built to match exactly.
+            detail = "  Roh-HTML (vollständig):\n" + html[:6000]
 
         return (
             f"URL: {url}\n"
@@ -181,7 +186,7 @@ class StressfaktorScraper(BaseScraper):
             f"  Events geparst: {n}\n"
             f"  Datum-Treffer (Text) im HTML: {len(dates)}\n"
             f"  Häufigste CSS-Klassen: {top}\n"
-            f"  Erste .views-row (HTML):\n{row_html}\n" + "-" * 60
+            f"{detail}\n" + "-" * 60
         )
 
     def _dump_debug(self, lines: list[str]) -> None:

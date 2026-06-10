@@ -125,9 +125,8 @@ class BerlinBuehnenScraper(BaseScraper):
                 debug_lines.append(
                     f"LISTING {url}: {len(paths)} Links "
                     f"({len(set(paths))} eindeutig)\n"
-                    f"{self._discover_links(html)}\n"
-                    f"{self._discover_endpoints(html)}\n"
-                    f"{self._inspect_scripts(html)}\n" + "-" * 60
+                    f"{self._dump_card(html)}\n"
+                    f"{self._discover_endpoints(html)}\n" + "-" * 60
                 )
             except Exception as exc:  # noqa: BLE001
                 debug_lines.append(f"LISTING FEHLER {url}: {exc}\n" + "-" * 60)
@@ -173,6 +172,25 @@ class BerlinBuehnenScraper(BaseScraper):
                 )
             except Exception as exc:  # noqa: BLE001
                 lines.append(f"    {path}  ->  FEHLER {exc}")
+        return "\n".join(lines)
+
+    def _dump_card(self, html: str) -> str:
+        """Show the markup around a listing event link.
+
+        If each listing card already carries date + venue + image, we can
+        parse the listing directly (and paginate via ?page=N) instead of
+        fetching every detail page.
+        """
+        soup = BeautifulSoup(html, "html.parser")
+        anchors = [a for a in soup.find_all("a", href=True)
+                   if self.EVENT_LINK_RE.search(a["href"])]
+        lines = [f"  Event-<a>-Tags im Listing: {len(anchors)}"]
+        if anchors:
+            card = anchors[0]
+            for _ in range(4):  # climb a few levels to capture the card
+                if card.parent and card.parent.name not in ("body", "html", "[document]"):
+                    card = card.parent
+            lines.append("  Beispiel-Kachel (HTML):\n" + card.decode()[:2200])
         return "\n".join(lines)
 
     def _inspect_scripts(self, html: str) -> str:

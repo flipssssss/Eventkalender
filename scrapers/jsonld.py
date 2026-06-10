@@ -183,18 +183,26 @@ class JsonLdScraper(BaseScraper):
         self.extra_urls = list(extra_urls or [])
         self.write_debug = write_debug
 
-    # A real browser UA so WAFs (Cloudflare etc.) don't return 403.
-    BROWSER_UA = (
-        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
-        "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-    )
+    # Full browser-like headers so WAFs (Cloudflare etc.) don't return 403.
+    BROWSER_HEADERS = {
+        "User-Agent": (
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+            "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+        ),
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "de-DE,de;q=0.9,en;q=0.8",
+        "Sec-Fetch-Dest": "document",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-Site": "none",
+        "Upgrade-Insecure-Requests": "1",
+    }
 
     def fetch_events(self) -> Iterable[Event]:
         events: list[Event] = []
         debug_lines: list[str] = []
         for url in [self.url, *self.extra_urls]:
             try:
-                response = self.get(url, headers={"User-Agent": self.BROWSER_UA})
+                response = self.get(url, headers=self.BROWSER_HEADERS)
             except Exception as exc:  # noqa: BLE001
                 debug_lines.append(f"URL: {url}\n  FEHLER: {exc}\n" + "-" * 60)
                 continue
@@ -212,7 +220,8 @@ class JsonLdScraper(BaseScraper):
                 f"  JSON-LD vorhanden: {'application/ld+json' in response.text}\n"
                 f"  Events gefunden: {len(found)}\n"
                 f"{self._discover_links(response.text, url)}\n"
-                f"  Snippet:\n{response.text[:5000]}\n" + "-" * 60
+                f"  Body (ohne CSS/JS):\n{self._body_snippet(response.text)}\n"
+                + "-" * 60
             )
 
         if self.category:
@@ -222,6 +231,13 @@ class JsonLdScraper(BaseScraper):
         if self.write_debug:
             self._dump_debug(debug_lines)
         return events
+
+    def _body_snippet(self, html: str, limit: int = 5000) -> str:
+        soup = BeautifulSoup(html, "html.parser")
+        for tag in soup(["style", "script", "head"]):
+            tag.decompose()
+        body = soup.body or soup
+        return body.decode()[:limit]
 
     def _discover_links(self, html: str, base_url: str) -> str:
         """Surface likely programme/event subpages to read instead."""

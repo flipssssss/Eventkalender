@@ -29,10 +29,8 @@
 # aktualisiert den Feed dann automatisch.
 # ---------------------------------------------------------------------
 
-sources:
-  # Stressfaktor (Berlin) -- linke (Sub-)Kultur & Politik.
-  # Bezogen über den iCal-Feed der Stressfaktor-Gruppe auf radar.squat.net.
-  - url: https://radar.squat.net/ical/node/1599
-    name: Stressfaktor
-    type: ical
-    tags: [Berlin, Politik & Kultur]
+# Hinweis: Stressfaktor wird über einen eigenen Ausleser eingebunden
+# (scrapers/stressfaktor.py, in aggregate.py registriert), weil die
+# Originalseite einen Bot-Schutz hat und wir die frei zugängliche
+# Spiegel-Kopie (mirror.systemli.org) verwenden.
+sources: []

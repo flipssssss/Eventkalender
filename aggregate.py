@@ -28,6 +28,7 @@ from scrapers.base import Event
 from scrapers.berlin_buehnen import BerlinBuehnenScraper
 from scrapers.ical import ICalScraper
 from scrapers.jsonld import JsonLdScraper
+from scrapers.stressfaktor import StressfaktorScraper
 
 ROOT = pathlib.Path(__file__).parent
 OUTPUT = ROOT / "docs" / "data" / "events.json"
@@ -68,6 +69,8 @@ def get_scrapers():
     Add custom scrapers (for sites without JSON-LD) to ``custom`` below.
     """
     custom = [
+        # Stressfaktor (Berlin) über die freie Spiegel-Kopie.
+        StressfaktorScraper(),
         # berlin-buehnen.de, gefiltert auf die gewünschten Bühnen.
         BerlinBuehnenScraper(),
         # Demo-Daten sind standardmäßig aus. Zum Ausprobieren einkommentieren:

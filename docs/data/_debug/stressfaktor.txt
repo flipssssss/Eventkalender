@@ -1,0 +1,4 @@
+URL https://mirror.systemli.org/stressfaktor.squat.net/termine/alle.html: FEHLER 403 Client Error: Forbidden for url: https://mirror.systemli.org/stressfaktor.squat.net/termine/alle.html
+------------------------------------------------------------
+URL https://mirror.systemli.org/stressfaktor.squat.net/termine.html: FEHLER 403 Client Error: Forbidden for url: https://mirror.systemli.org/stressfaktor.squat.net/termine.html
+------------------------------------------------------------

@@ -186,14 +186,21 @@ class BerlinBuehnenScraper(BaseScraper):
                    if self.EVENT_LINK_RE.search(a["href"])]
         lines = [f"  Event-<a>-Tags im Listing: {len(anchors)}"]
 
-        # The links are embedded as raw data, not <a> tags -- dump the raw
-        # context around the first occurrence to see the data shape.
-        m = self.EVENT_LINK_RE.search(html)
-        if m:
-            start = max(0, m.start() - 1100)
-            end = min(len(html), m.end() + 1100)
+        # The links are embedded as raw data, not <a> tags. Find the
+        # densest cluster of event links (= the actual event list data)
+        # and dump a wide window around it to reveal the JSON shape.
+        positions = [m.start() for m in self.EVENT_LINK_RE.finditer(html)]
+        lines.append(f"  Event-Link-Positionen: {len(positions)}")
+        if positions:
+            window = 3000
+            best = max(
+                positions,
+                key=lambda p: sum(1 for q in positions if p <= q < p + window),
+            )
+            start = max(0, best - 500)
+            end = min(len(html), best + 6000)
             lines.append(
-                f"  Roh-Kontext um ersten Event-Link (Pos {m.start()}):\n"
+                f"  Roh-Kontext am dichtesten Cluster (Pos {best}):\n"
                 + html[start:end]
             )
         return "\n".join(lines)

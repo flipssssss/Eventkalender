@@ -35,52 +35,69 @@ GERMAN_DATE_RE = re.compile(
 class StressfaktorScraper(BaseScraper):
     name = "Stressfaktor"
 
-    BASE_URL = "https://stressfaktor.squat.net/termine"
+    # "/termine/alle" lists all upcoming events (the date facet on
+    # "/termine" is ignored by the live site). "/termine" is the fallback.
+    LIST_URL = "https://stressfaktor.squat.net/termine/alle"
+    FALLBACK_URL = "https://stressfaktor.squat.net/termine"
 
     def __init__(
         self,
         days: int = 14,
-        base_url: str | None = None,
+        list_url: str | None = None,
+        max_pages: int = 15,
         write_debug: bool = True,
     ):
-        # The live site shows only one day at a time, so we walk the next
-        # `days` days via its date facet. The live site uses the same Drupal
-        # markup as the (stale 2021) mirror, so the same parser works.
         self.days = days
-        self.base_url = base_url or self.BASE_URL
+        self.list_url = list_url or self.LIST_URL
+        self.max_pages = max_pages
         self.write_debug = write_debug
 
     def fetch_events(self) -> Iterable[Event]:
         debug_lines: list[str] = []
-        events: list[Event] = []
         # The site is behind the Anubis bot wall; one session solves the
-        # proof-of-work once and reuses the cookie for every day.
+        # proof-of-work once and reuses the cookie for every request.
         session = AnubisSession()
-        today = _dt.date.today()
+        horizon = _dt.datetime.now() + _dt.timedelta(days=self.days)
 
-        for offset in range(self.days):
-            day = today + _dt.timedelta(days=offset)
-            # Drupal Search API date facet (same shape as the mirror used).
-            url = f"{self.base_url}?f%5B0%5D=event_date:{day.isoformat()}"
-            try:
-                html = session.get(url).text
-            except Exception as exc:  # noqa: BLE001
-                debug_lines.append(f"{day}: FEHLER {exc}")
-                continue
+        events = self._paginate(session, self.list_url, horizon, debug_lines)
+        if not events:
+            # Fall back to the plain (today-only) listing.
+            debug_lines.append("→ Fallback auf /termine")
+            events = self._paginate(session, self.FALLBACK_URL, horizon, debug_lines)
 
-            soup = BeautifulSoup(html, "html.parser")
-            found = self._parse(soup, url)
-            events.extend(found)
-            debug_lines.append(f"{day}: {len(found)} Events")
-            if offset == 0:
-                debug_lines.append(self._diagnose(soup, html, url, len(found)))
-
-        debug_lines.insert(
-            0, f"Tage abgefragt: {self.days} | Events (vor Dedup): {len(events)}"
-        )
+        debug_lines.insert(0, f"Events (vor Dedup): {len(events)}")
         debug_lines.append("Anubis-Notizen: " + " | ".join(session.notes))
         if self.write_debug:
             self._dump_debug(debug_lines)
+        return events
+
+    def _paginate(self, session, base, horizon, debug_lines) -> list[Event]:
+        """Page through a Drupal listing until the 14-day horizon is hit."""
+        events: list[Event] = []
+        for page in range(self.max_pages):
+            url = base + (f"?page={page}" if page else "")
+            try:
+                html = session.get(url).text
+            except Exception as exc:  # noqa: BLE001
+                debug_lines.append(f"{base} page {page}: FEHLER {exc}")
+                break
+
+            soup = BeautifulSoup(html, "html.parser")
+            found = self._parse(soup, url)
+            if page == 0 and not found:
+                debug_lines.append(self._diagnose(soup, html, url, 0))
+                break
+            if not found:
+                debug_lines.append(f"{base} page {page}: 0 Events – Ende")
+                break
+
+            events.extend(found)
+            dates = [e.start for e in found if e.start]
+            lo = min(dates).date().isoformat() if dates else "?"
+            hi = max(dates).date().isoformat() if dates else "?"
+            debug_lines.append(f"{base} page {page}: {len(found)} Events ({lo}…{hi})")
+            if dates and min(dates) > horizon:
+                break
         return events
 
     # -- parsing ---------------------------------------------------------

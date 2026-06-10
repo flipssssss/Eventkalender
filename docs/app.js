@@ -33,6 +33,12 @@ const TIME_FMT = new Intl.DateTimeFormat("de-DE", {
   minute: "2-digit",
 });
 
+const CARD_DATE_FMT = new Intl.DateTimeFormat("de-DE", {
+  weekday: "short",
+  day: "numeric",
+  month: "numeric",
+});
+
 const TAB_DOW_FMT = new Intl.DateTimeFormat("de-DE", { weekday: "short" });
 const TAB_DATE_FMT = new Intl.DateTimeFormat("de-DE", {
   day: "numeric",
@@ -314,7 +320,8 @@ function renderCard(ev) {
 
 function formatTime(ev) {
   const start = new Date(ev.start);
-  let label = TIME_FMT.format(start) + " Uhr";
+  // Date next to the time on every card (e.g. "Mi., 10.6. · 19:00 Uhr").
+  let label = CARD_DATE_FMT.format(start) + " · " + TIME_FMT.format(start) + " Uhr";
   if (ev.end) {
     const end = new Date(ev.end);
     const sameDay = start.toDateString() === end.toDateString();

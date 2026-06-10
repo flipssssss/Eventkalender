@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-10T18:24:29.919445+00:00",
-  "count": 353,
+  "generated_at": "2026-06-10T18:28:36.528985+00:00",
+  "count": 312,
   "sources": [
     {
       "source": "Stressfaktor",
@@ -9,17 +9,12 @@
     },
     {
       "source": "Berlin Bühnen",
-      "count": 110,
+      "count": 68,
       "error": null
     },
     {
       "source": "Donau115",
       "count": 92,
-      "error": null
-    },
-    {
-      "source": "Tipsy Bear",
-      "count": 0,
       "error": null
     }
   ],
@@ -3343,34 +3338,6 @@
       "time_known": true
     },
     {
-      "title": "Mi Madre y el Dinero",
-      "start": "2026-06-18T20:00:00",
-      "end": null,
-      "location": "HAU Hebbel am Ufer",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/976dfa6c1e74da77a545cf9cae20231b.JPG",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/mi-madre-y-el-dinero/events/367595/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "TWINK DEATH",
-      "start": "2026-06-18T20:00:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/a037576cc985d29a688b3ae92e5c0187.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/twink-death/events/368108/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Konzert",
       "start": "2026-06-18T21:00:00",
       "end": null,
@@ -3469,48 +3436,6 @@
       "time_known": true
     },
     {
-      "title": "Ich schneide schneller",
-      "start": "2026-06-19T17:00:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/00373c065781021bee8e2e70798b1cd1.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/ich-schneide-schneller/events/368119/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Und jetzt?",
-      "start": "2026-06-19T17:00:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/382eadd98d3017aaaf231ab9d0a25d89.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/und-jetzt/events/368155/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Angela Alves: Never Rest (After Work Tours #2)",
-      "start": "2026-06-19T17:30:00",
-      "end": null,
-      "location": "Sophiensæle",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/6a23c2590b8712b258382ae842c96e31.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/angela-alves-never-rest-after-work-tours-2/events/367969/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Filmfestival - \"Aus der Nacht heraus\"",
       "start": "2026-06-19T18:00:00",
       "end": null,
@@ -3521,34 +3446,6 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Film"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Humboldting #10 Social Muscle Club",
-      "start": "2026-06-19T18:00:00",
-      "end": null,
-      "location": "Humboldt Forum",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/83949d596feae0f1841a39b461128a49.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/humboldting-10-social-muscle-club/events/369261/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "P14 – endlich endlich",
-      "start": "2026-06-19T18:00:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/e460ca489510b3a2c7b291bffd2194c9.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/p14-endlich-endlich/events/368114/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
       ],
       "time_known": true
     },
@@ -3665,48 +3562,6 @@
       "time_known": true
     },
     {
-      "title": "Abschlussfest",
-      "start": "2026-06-19T19:00:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/e460ca489510b3a2c7b291bffd2194c9.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/abschlussfest/events/368814/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Mi Madre y el Dinero",
-      "start": "2026-06-19T19:00:00",
-      "end": null,
-      "location": "HAU Hebbel am Ufer",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/976dfa6c1e74da77a545cf9cae20231b.JPG",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/mi-madre-y-el-dinero/events/367596/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Moya Michael: It’s like a Finger Pointing a Way to the Moon",
-      "start": "2026-06-19T19:00:00",
-      "end": null,
-      "location": "Sophiensæle",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/177476f103c9e27367d3115dbac6b195.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/moya-michael-its-like-a-finger-pointing-a-way-to-the-moon/events/367981/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Kneipe & Briefe an Gefangene schreiben",
       "start": "2026-06-19T20:00:00",
       "end": null,
@@ -3717,48 +3572,6 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Salome",
-      "start": "2026-06-19T20:00:00",
-      "end": null,
-      "location": "Schaubühne am Lehniner Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/360ce498e8891fe859b125efe27ee092.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/salome-603/events/367280/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Ea Torrado: Brown Madonna",
-      "start": "2026-06-19T20:30:00",
-      "end": null,
-      "location": "Sophiensæle",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/d37b7f8a7dc70bf31063b8bdc21d2400.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/ea-torrado-brown-madonna/events/367979/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Sonora Berlín",
-      "start": "2026-06-19T21:00:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/65e7b8f3e8692e021cba9b9096f944c2.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/sonora-berlin/events/368138/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
       ],
       "time_known": true
     },
@@ -3847,20 +3660,6 @@
       "time_known": true
     },
     {
-      "title": "Humboldting #10 Social Muscle Club",
-      "start": "2026-06-20T17:00:00",
-      "end": null,
-      "location": "Humboldt Forum",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/83949d596feae0f1841a39b461128a49.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/humboldting-10-social-muscle-club/events/369262/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Rundgang Ausstellung „Die Anarchie ist das Leben der Menschen, die dem Joche entronnen sind.“",
       "start": "2026-06-20T17:30:00",
       "end": null,
@@ -3871,20 +3670,6 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Diskussion"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Angela Alves: Never Rest (After Work Tours #2)",
-      "start": "2026-06-20T17:30:00",
-      "end": null,
-      "location": "Sophiensæle",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/6a23c2590b8712b258382ae842c96e31.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/angela-alves-never-rest-after-work-tours-2/events/367970/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
       ],
       "time_known": true
     },
@@ -3903,20 +3688,6 @@
       "time_known": true
     },
     {
-      "title": "Freedom of Movement",
-      "start": "2026-06-20T18:00:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/b2234486d448820f548561705ef37392.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/freedom-of-movement/events/368121/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Gaybar",
       "start": "2026-06-20T19:00:00",
       "end": null,
@@ -3931,34 +3702,6 @@
       "time_known": true
     },
     {
-      "title": "Oratorium – Kollektive Andacht zu einem wohlgehüteten Geheimnis",
-      "start": "2026-06-20T19:00:00",
-      "end": null,
-      "location": "HAU Hebbel am Ufer",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/3f05b10dfcb4090975987669019acc53.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/oratorium-kollektive-andacht-wohlgehueteten-geheimnis/events/368350/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Moya Michael: It’s like a Finger Pointing a Way to the Moon",
-      "start": "2026-06-20T19:00:00",
-      "end": null,
-      "location": "Sophiensæle",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/177476f103c9e27367d3115dbac6b195.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/moya-michael-its-like-a-finger-pointing-a-way-to-the-moon/events/367982/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Lesung & Buchvorstellung",
       "start": "2026-06-20T19:30:00",
       "end": null,
@@ -3969,34 +3712,6 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Being Young",
-      "start": "2026-06-20T19:30:00",
-      "end": null,
-      "location": "Schaubühne am Lehniner Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/f9fc79ec2142925fa940e1a08b0725ac.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/being-young/events/367462/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Salon Ma ما",
-      "start": "2026-06-20T19:30:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/c51c9dfb7930bea121aa4849f79666da.jpeg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/salon-ma/events/368130/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
       ],
       "time_known": true
     },
@@ -4043,34 +3758,6 @@
       "time_known": true
     },
     {
-      "title": "Salome",
-      "start": "2026-06-20T20:00:00",
-      "end": null,
-      "location": "Schaubühne am Lehniner Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/360ce498e8891fe859b125efe27ee092.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/salome-603/events/367281/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Love Me Tender",
-      "start": "2026-06-20T20:00:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/182055a863bc88f0cebdb61f85b082dc.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/love-me-tender/events/368145/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Konzert im TRxxxTR",
       "start": "2026-06-20T20:30:00",
       "end": null,
@@ -4081,34 +3768,6 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Die Seherin",
-      "start": "2026-06-20T20:30:00",
-      "end": null,
-      "location": "Schaubühne am Lehniner Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/f2616dcab8130514ba30cc061aeb6885.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/die-seherin/events/367259/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Ea Torrado: Brown Madonna",
-      "start": "2026-06-20T20:30:00",
-      "end": null,
-      "location": "Sophiensæle",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/d37b7f8a7dc70bf31063b8bdc21d2400.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/ea-torrado-brown-madonna/events/367980/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
       ],
       "time_known": true
     },
@@ -4137,20 +3796,6 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Olympia Bukkakis: Queer and Present Dangers/The Nation at Work",
-      "start": "2026-06-20T21:00:00",
-      "end": null,
-      "location": "Sophiensæle",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/491c0b63cceccb15bca8bd5be9457576.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/olympia-bukkakis-queer-and-present-dangersthe-nation-at-work/events/367977/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
       ],
       "time_known": true
     },
@@ -4253,20 +3898,6 @@
       "time_known": true
     },
     {
-      "title": "Streitraum",
-      "start": "2026-06-21T12:00:00",
-      "end": null,
-      "location": "Schaubühne am Lehniner Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/c1eeb70d20387e10a26909fe3346aee9.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/streitraum-886/events/367288/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "📖 Infoladen Scherer 8 📖",
       "start": "2026-06-21T13:00:00",
       "end": null,
@@ -4323,20 +3954,6 @@
       "time_known": true
     },
     {
-      "title": "Historische Hausführung: Never Work",
-      "start": "2026-06-21T15:00:00",
-      "end": null,
-      "location": "Sophiensæle",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/5fa0fda6a18be9a73672c9121097ed18.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/historische-hausfuehrung-never-work/events/368241/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Konzert",
       "start": "2026-06-21T16:00:00",
       "end": null,
@@ -4347,20 +3964,6 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Unsere Träume zu leben /  Hayallerimizi yaşamak",
-      "start": "2026-06-21T16:00:00",
-      "end": null,
-      "location": "HAU Hebbel am Ufer",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/3fc4104ffc0baf446a6c9daedc602a2b.jpeg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/unsere-traeume-leben-hayallerimizi-yasamak/events/367598/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
       ],
       "time_known": true
     },
@@ -4379,20 +3982,6 @@
       "time_known": true
     },
     {
-      "title": "Angela Alves: Never Rest (After Work Tours #2)",
-      "start": "2026-06-21T17:30:00",
-      "end": null,
-      "location": "Sophiensæle",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/6a23c2590b8712b258382ae842c96e31.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/angela-alves-never-rest-after-work-tours-2/events/367971/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Chillout Jam",
       "start": "2026-06-21T18:00:00",
       "end": null,
@@ -4407,20 +3996,6 @@
       "time_known": true
     },
     {
-      "title": "Der Schnittchenkauf",
-      "start": "2026-06-21T18:00:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/e2aab61b0f30abc1f1cb9cd84f0db0b9.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/der-schnittchenkauf/events/368147/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Filmscreening",
       "start": "2026-06-21T19:00:00",
       "end": null,
@@ -4431,76 +4006,6 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Film"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "P14 – endlich endlich",
-      "start": "2026-06-21T19:00:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/e460ca489510b3a2c7b291bffd2194c9.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/p14-endlich-endlich/events/369879/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Oratorium – Kollektive Andacht zu einem wohlgehüteten Geheimnis",
-      "start": "2026-06-21T19:00:00",
-      "end": null,
-      "location": "HAU Hebbel am Ufer",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/3f05b10dfcb4090975987669019acc53.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/oratorium-kollektive-andacht-wohlgehueteten-geheimnis/events/368351/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Love Me Tender",
-      "start": "2026-06-21T19:00:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/182055a863bc88f0cebdb61f85b082dc.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/love-me-tender/events/368144/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Die Seherin",
-      "start": "2026-06-21T19:30:00",
-      "end": null,
-      "location": "Schaubühne am Lehniner Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/f2616dcab8130514ba30cc061aeb6885.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/die-seherin/events/367260/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Olympia Bukkakis: Queer and Present Dangers/The Nation at Work",
-      "start": "2026-06-21T21:00:00",
-      "end": null,
-      "location": "Sophiensæle",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/491c0b63cceccb15bca8bd5be9457576.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/olympia-bukkakis-queer-and-present-dangersthe-nation-at-work/events/367978/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
       ],
       "time_known": true
     },
@@ -4631,34 +4136,6 @@
       "time_known": true
     },
     {
-      "title": "Die Seherin",
-      "start": "2026-06-22T19:30:00",
-      "end": null,
-      "location": "Schaubühne am Lehniner Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/f2616dcab8130514ba30cc061aeb6885.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/die-seherin/events/367261/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Salome",
-      "start": "2026-06-22T20:00:00",
-      "end": null,
-      "location": "Schaubühne am Lehniner Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/360ce498e8891fe859b125efe27ee092.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/salome-603/events/367282/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Filmabend im K( P)",
       "start": "2026-06-22T21:00:00",
       "end": null,
@@ -4685,34 +4162,6 @@
         "Konzert"
       ],
       "time_known": false
-    },
-    {
-      "title": "Historische Hausführung: Never Work",
-      "start": "2026-06-23T15:00:00",
-      "end": null,
-      "location": "Sophiensæle",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/5fa0fda6a18be9a73672c9121097ed18.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/historische-hausfuehrung-never-work/events/368242/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Sophiensæle Forever #2 – Never Work",
-      "start": "2026-06-23T17:00:00",
-      "end": null,
-      "location": "Sophiensæle",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/a388c6b504d2021d7fde1d22296a967d.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/sophiensle-forever-2-never-work/events/369769/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
     },
     {
       "title": "Flinta*only Kickern",
@@ -4897,20 +4346,6 @@
       "time_known": true
     },
     {
-      "title": "Ein Volksfeind",
-      "start": "2026-06-23T20:30:00",
-      "end": null,
-      "location": "Schaubühne am Lehniner Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/9bd6bb7aa312d79656e80fe18855c2bd.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/ein-volksfeind/events/367220/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Dan Nicholls &",
       "start": "2026-06-24T00:00:00",
       "end": null,
@@ -4923,20 +4358,6 @@
         "Konzert"
       ],
       "time_known": false
-    },
-    {
-      "title": "Studio 9. Der Tag mit Sarah Bosetti. Deutschlandfunk Kultur – live aus dem Humboldt Forum",
-      "start": "2026-06-24T11:50:00",
-      "end": null,
-      "location": "Humboldt Forum",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/b83646fdf05636760c5b71d6aeae28c0.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/studio-9-der-tag-sarah-bosetti-deutschlandfunk-kultur-live-humboldt-forum/events/369732/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
     },
     {
       "title": "mittwochskufa",

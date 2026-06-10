@@ -185,12 +185,17 @@ class BerlinBuehnenScraper(BaseScraper):
         anchors = [a for a in soup.find_all("a", href=True)
                    if self.EVENT_LINK_RE.search(a["href"])]
         lines = [f"  Event-<a>-Tags im Listing: {len(anchors)}"]
-        if anchors:
-            card = anchors[0]
-            for _ in range(4):  # climb a few levels to capture the card
-                if card.parent and card.parent.name not in ("body", "html", "[document]"):
-                    card = card.parent
-            lines.append("  Beispiel-Kachel (HTML):\n" + card.decode()[:2200])
+
+        # The links are embedded as raw data, not <a> tags -- dump the raw
+        # context around the first occurrence to see the data shape.
+        m = self.EVENT_LINK_RE.search(html)
+        if m:
+            start = max(0, m.start() - 1100)
+            end = min(len(html), m.end() + 1100)
+            lines.append(
+                f"  Roh-Kontext um ersten Event-Link (Pos {m.start()}):\n"
+                + html[start:end]
+            )
         return "\n".join(lines)
 
     def _inspect_scripts(self, html: str) -> str:

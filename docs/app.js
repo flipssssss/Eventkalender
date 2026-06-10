@@ -129,12 +129,11 @@ function buildTagFilter() {
 }
 
 function matches(ev) {
-  // Tag filter: event must contain ALL selected tags.
+  // Tag filter: event must contain AT LEAST ONE selected tag (OR).
   if (state.activeTags.size > 0) {
-    const evTags = new Set(ev.tags || []);
-    for (const t of state.activeTags) {
-      if (!evTags.has(t)) return false;
-    }
+    const evTags = ev.tags || [];
+    const anyMatch = evTags.some((t) => state.activeTags.has(t));
+    if (!anyMatch) return false;
   }
   // Text search across the visible fields.
   if (state.query) {

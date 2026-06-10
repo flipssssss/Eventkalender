@@ -3,6 +3,104 @@ Behaltene Events (nach Bühnen-Filter): 4
 ============================================================
 LISTING https://www.berlin-buehnen.de/de/spielplan/: 24 Links (24 eindeutig)
   Event-<a>-Tags im Listing: 0
+  Roh-Kontext um ersten Event-Link (Pos 52608):
+
+    "position": "filter",
+    "selected": false,
+    "inactive": false
+  }
+
+]
+'
+  >
+
+    <div slot="header">
+      
+    </div>
+
+    <div slot="header-small">
+      
+
+
+  <div
+    
+    class="cms-plugin-style-container"
+  >
+    <hylo-page-width>
+      <div
+        
+        class="cms-plugin-style-container-inner tw-mb-8"
+        
+      >
+        
+          <h2>SPIELPLAN</h2>
+        
+      </div>
+    </hylo-page-width>
+  </div>
+
+
+
+
+
+
+
+
+    </div>
+
+    <hylo-accessibility-button
+      slot="filter"
+      toggle="closed"
+      class="btn round tw-whitespace-nowrap"
+      data-type="sidebar"
+    >
+      <div class="icon">
+        Filter
+        <hylo-icon-controller-3 height='{"default":18,"xs":12.25,"sm":12.25}' color="currentColor"></hylo-icon-controller-3>
+      </div>
+      <div class="counter"></div>
+    </hylo-accessibility-button>
+
+    <div class="tw-flex tw-flex-col" role="list">
+      
+        
+
+
+
+
+
+
+<hylo-router-link
+  class="tw-block tw-pb-6 md:tw-py-8 md:tw-border-b-3 md:tw-border-b-fontcolor list-item hylo-image-hover event-list-item"
+  link-class="!tw-no-underline"
+  href="/de/spielplan/youngstar-festival-2845/events/343065/"
+  role="listitem"
+>
+  <hylo-card-grid
+    class="event-grid tw-flex tw-flex-col tw-gap-y-6 md:tw-flex-row md:tw-gap-x-6"
+    class-start="tw-hidden tw-w-full md:tw-block md:tw-w-2/12"
+    class-content="tw-w-full md:tw-w-4/12"
+    class-end="tw-hidden tw-w-full md:tw-block md:tw-w-6/12"
+  >
+    <div slot="start" class="tw-h-full md:tw-flex md:tw-flex-col">
+      
+      <time
+        class="tw-text-gray-600 tw-text-[1rem] lg:tw-text-[1.75rem] tw-leading-[1.25] lg:tw-leading-[1.1429] tw-italic tw-font-secondary"
+        datetime="2026-06-10 11:00"
+      >
+        <span class="tw-block !tw-my-0" aria-hidden="true">MI</span>
+        <span class="tw-block !tw-my-0">10.06.2026</span>
+        
+          <span class="tw-block !tw-my-0">11:00</span>
+        
+      </time>
+
+      
+      
+      <div class="event-labels tw-flex tw-flex-col tw-items-start md:tw-my-3">
+        
+          <bb-label class="tw-text-fontcolor tw-mb-1 ion-hide-lg-down" color="kinder-jugend">Kinder &amp; Jugendliche</bb-label>
+          <bb-label class="tw-text-fontcolor tw-mb-1 ion-hide-lg-up" small color="kinder-jug
   Mögliche Daten-Endpunkte:
     - /de/feedback/_feedback-categories/
     - /de/feedback/_send-feedback-message/

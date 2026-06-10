@@ -99,6 +99,9 @@ class BerlinBuehnenScraper(BaseScraper):
             except Exception as exc:  # noqa: BLE001
                 debug_lines.append(f"DETAIL FEHLER {detail_url}: {exc}")
 
+        if self.write_debug:
+            debug_lines.append(self._probe_pagination(detail_urls))
+
         debug_lines.insert(
             0,
             f"Gefundene Event-Links: {len(detail_urls)}\n"
@@ -129,6 +132,48 @@ class BerlinBuehnenScraper(BaseScraper):
             except Exception as exc:  # noqa: BLE001
                 debug_lines.append(f"LISTING FEHLER {url}: {exc}\n" + "-" * 60)
         return seen
+
+    def _probe_pagination(self, base_urls: list[str]) -> str:
+        """Empirically test candidate pagination / date / venue URLs.
+
+        The listing exposes no navigation links, so we try likely URL
+        shapes and report which return a *different* set of event links.
+        Whichever works tells us how to page through the full programme.
+        """
+        import datetime as _dt
+
+        base_ids = {self.EVENT_LINK_RE.search(u).group(0) for u in base_urls}
+        future = (_dt.date.today() + _dt.timedelta(days=40)).isoformat()
+        candidates = [
+            "/de/spielplan/?page=2",
+            "/de/spielplan/?seite=2",
+            "/de/spielplan/?p=2",
+            "/de/spielplan/page/2/",
+            "/de/spielplan/seite/2/",
+            "/de/spielplan/?offset=24",
+            "/de/spielplan/?start=24",
+            "/de/spielplan/?limit=200",
+            f"/de/spielplan/?date={future}",
+            f"/de/spielplan/?datum={future}",
+            f"/de/spielplan/?tag={future}",
+            f"/de/spielplan/{future}/",
+            f"/de/spielplan/?from={future}",
+            "/de/spielstaetten/",
+            "/de/spielplan/?spielstaette=volksbuehne",
+        ]
+        lines = ["  Blätter-Test (Kandidaten):"]
+        for path in candidates:
+            url = self.BASE + path
+            try:
+                html = self.get(url).text
+                ids = set(self.EVENT_LINK_RE.findall(html))
+                new = ids - base_ids
+                lines.append(
+                    f"    {path}  ->  {len(ids)} Events, {len(new)} neue"
+                )
+            except Exception as exc:  # noqa: BLE001
+                lines.append(f"    {path}  ->  FEHLER {exc}")
+        return "\n".join(lines)
 
     def _inspect_scripts(self, html: str) -> str:
         """Fetch the page's own JS bundles and look for the events API.

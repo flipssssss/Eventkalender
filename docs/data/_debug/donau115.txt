@@ -4,6 +4,19 @@ URL: https://www.donau115.de
   JSON-LD vorhanden: False
   Events gefunden: 0
   (keine Programm-/Event-Unterseiten erkannt)
+  URL-Strings im Skript: ; return; }
+
+    // Group events by date for double/triple bills
+    var grouped = {};
+    var dateOrder = [];
+    events.forEach(function(ev) {
+      if (!grouped[ev.date]) { grouped[ev.date] = []; dateOrder.push(ev.date); }
+      grouped[ev.date].push(ev);
+    });
+
+    dateOrder.forEach(function(date) {
+      var bill = grouped[date];
+      // Use first event, https://instagram.com/, https://shifts-a77a1-default-rtdb.europe-west1.firebasedatabase.app/events.json?ts=
   Body (ohne CSS/JS):
 <body>
 <header>
@@ -46,14 +59,5 @@ URL: https://www.donau115.de
 <strong>Haftungsausschluss</strong><br/>
     Die Inhalte unserer Seiten wurden mit grÃ¶Ãter Sorgfalt erstellt. FÃ¼r die Richtigkeit, VollstÃ¤ndigkeit und AktualitÃ¤t der Inhalte kÃ¶nnen wir jedoch keine GewÃ¤hr Ã¼bernehmen. Als Diensteanbieter sind wir gemÃ¤Ã Â§ 7 Abs.1 TMG fÃ¼r eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach Â§Â§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, Ã¼bermittelte oder gespeicherte fremde Informationen zu Ã¼berwachen oder nach UmstÃ¤nden zu forschen, die auf eine rechtswidrige TÃ¤tigkeit hinweisen.<br/><br/>
 <strong>Urheberrecht</strong><br/>
-    Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die VervielfÃ¤ltigung, Bearbeitung, Verbreitung und jede Art der Verwertung auÃerhalb der Grenzen des Urheberrechtes bedÃ¼rfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers.<br/><br/>
-<strong>Datenschutz</strong><br/>
-    Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten mÃ¶glich. Soweit auf unseren Seiten personenbezogene Daten erhoben werden, erfolgt dies stets auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdrÃ¼ckliche Zustimmung nicht an Dritte weitergegeben.
-  </div>
-</footer>
-
-<div id="lightbox" onclick="this.classList.remove('open')">
-<img alt="" id="lightboxImg" src=""/>
-</div>
-</body>
+    Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die VervielfÃ¤ltigung, Bearbeitung, Verbreitung und jede Art der Verwertung auÃerhalb der Grenzen des Urheberrechtes bedÃ¼rfen der schriftlichen Zustimmung 
 ------------------------------------------------------------

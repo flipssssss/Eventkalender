@@ -14,11 +14,9 @@ const els = {
   status: document.getElementById("status"),
   search: document.getElementById("search"),
   tagFilter: document.getElementById("tag-filter"),
-  subtitle: document.getElementById("subtitle"),
   footer: document.getElementById("footer-note"),
   dayTabs: document.getElementById("day-tabs"),
-  filterToggle: document.getElementById("filter-toggle"),
-  filterPanel: document.getElementById("filter-panel"),
+  searchToggle: document.getElementById("search-toggle"),
 };
 
 const DAY_FMT = new Intl.DateTimeFormat("de-DE", {
@@ -69,22 +67,25 @@ async function init() {
     render();
   });
 
-  // Collapsible search & tags panel.
-  els.filterToggle.addEventListener("click", () => {
-    const open = els.filterPanel.hasAttribute("hidden");
+  // Tags stay visible; the magnifier toggles the search field in the row.
+  els.searchToggle.addEventListener("click", () => {
+    const open = els.search.hasAttribute("hidden");
     if (open) {
-      els.filterPanel.removeAttribute("hidden");
+      els.search.removeAttribute("hidden");
+      els.tagFilter.setAttribute("hidden", "");
+      els.search.focus();
     } else {
-      els.filterPanel.setAttribute("hidden", "");
+      els.search.setAttribute("hidden", "");
+      els.tagFilter.removeAttribute("hidden");
+      els.search.value = "";
+      state.query = "";
+      render();
     }
-    els.filterToggle.setAttribute("aria-expanded", String(open));
+    els.searchToggle.setAttribute("aria-expanded", String(open));
   });
 }
 
 function updateMeta(data) {
-  const count = data.count ?? state.events.length;
-  els.subtitle.textContent = `${count} Termine`;
-
   if (data.generated_at) {
     const when = new Date(data.generated_at);
     els.footer.textContent =

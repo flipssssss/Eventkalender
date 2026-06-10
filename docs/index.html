@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="theme-color" content="#0f172a" />
+  <meta name="theme-color" content="#f3e9d8" />
   <title>Eventkalender</title>
   <link rel="stylesheet" href="style.css" />
 </head>
@@ -12,26 +12,31 @@
     <!-- Tab-artige Reiter für die Tage (springen zum jeweiligen Tag) -->
     <nav class="day-tabs" id="day-tabs" aria-label="Nach Tag springen"></nav>
 
-    <!-- Suche & Tags: aufklappbar, in einer Spalte -->
-    <button
-      type="button"
-      class="filter-toggle"
-      id="filter-toggle"
-      aria-expanded="false"
-      aria-controls="filter-panel"
-    >
-      <span class="filter-toggle-label">Suchen &amp; Filtern</span>
-      <span class="filter-toggle-meta" id="subtitle"></span>
-      <span class="chevron" aria-hidden="true">▾</span>
-    </button>
-    <div class="filter-panel" id="filter-panel" hidden>
+    <!-- Tags immer sichtbar; Suche klappt per Lupe in derselben Zeile aus -->
+    <div class="filter-bar">
+      <div class="tag-filter" id="tag-filter"></div>
       <input
         type="search"
         id="search"
-        placeholder="Suchen (Titel, Ort, Beschreibung) …"
+        class="search-input"
+        placeholder="Suchen …"
         autocomplete="off"
+        hidden
       />
-      <div class="tag-filter" id="tag-filter"></div>
+      <button
+        type="button"
+        class="search-toggle"
+        id="search-toggle"
+        aria-label="Suche ein-/ausblenden"
+        aria-expanded="false"
+      >
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none"
+             stroke="currentColor" stroke-width="2" stroke-linecap="round"
+             aria-hidden="true">
+          <circle cx="11" cy="11" r="7" />
+          <line x1="16.5" y1="16.5" x2="21" y2="21" />
+        </svg>
+      </button>
     </div>
   </header>
 

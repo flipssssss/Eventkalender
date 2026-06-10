@@ -220,7 +220,8 @@ class JsonLdScraper(BaseScraper):
                 f"  JSON-LD vorhanden: {'application/ld+json' in response.text}\n"
                 f"  Events gefunden: {len(found)}\n"
                 f"{self._discover_links(response.text, url)}\n"
-                f"  Body (ohne CSS/JS):\n{self._body_snippet(response.text)}\n"
+                f"{self._discover_scripts(response.text)}\n"
+                f"  Body (ohne CSS/JS):\n{self._body_snippet(response.text, 2500)}\n"
                 + "-" * 60
             )
 
@@ -231,6 +232,33 @@ class JsonLdScraper(BaseScraper):
         if self.write_debug:
             self._dump_debug(debug_lines)
         return events
+
+    def _discover_scripts(self, html: str) -> str:
+        """Find the data endpoint a JS-rendered page fetches its events from."""
+        import re as _re
+
+        soup = BeautifulSoup(html, "html.parser")
+        # External script files.
+        ext = [s.get("src") for s in soup.find_all("script", src=True)]
+        # Inline script text.
+        inline = "\n".join(
+            s.string or s.get_text() or "" for s in soup.find_all("script", src=False)
+        )
+        urls = sorted(set(_re.findall(
+            r"""["'`]([^"'`]*(?:https?://[^"'`]+|/[^"'`]*(?:api|event|json|calendar|feed|sheet|data)[^"'`]*))["'`]""",
+            inline, flags=_re.IGNORECASE,
+        )))
+        fetches = sorted(set(_re.findall(
+            r"""fetch\(\s*[`'"]([^`'"]+)[`'"]""", inline, flags=_re.IGNORECASE
+        )))
+        lines = []
+        if fetches:
+            lines.append("  fetch()-Aufrufe: " + ", ".join(fetches[:10]))
+        if urls:
+            lines.append("  URL-Strings im Skript: " + ", ".join(urls[:15]))
+        if ext:
+            lines.append("  Externe Skripte: " + ", ".join(s for s in ext if s)[:400])
+        return "\n".join(lines) if lines else "  (keine Skript-Endpunkte gefunden)"
 
     def _body_snippet(self, html: str, limit: int = 5000) -> str:
         soup = BeautifulSoup(html, "html.parser")

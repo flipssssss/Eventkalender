@@ -183,11 +183,21 @@ class JsonLdScraper(BaseScraper):
         self.extra_urls = list(extra_urls or [])
         self.write_debug = write_debug
 
+    # A real browser UA so WAFs (Cloudflare etc.) don't return 403.
+    BROWSER_UA = (
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+    )
+
     def fetch_events(self) -> Iterable[Event]:
         events: list[Event] = []
         debug_lines: list[str] = []
         for url in [self.url, *self.extra_urls]:
-            response = self.get(url)
+            try:
+                response = self.get(url, headers={"User-Agent": self.BROWSER_UA})
+            except Exception as exc:  # noqa: BLE001
+                debug_lines.append(f"URL: {url}\n  FEHLER: {exc}\n" + "-" * 60)
+                continue
             found = extract_events_from_html(
                 response.text,
                 base_url=url,
@@ -201,7 +211,8 @@ class JsonLdScraper(BaseScraper):
                 f"  HTML-Länge: {len(response.text)} Zeichen\n"
                 f"  JSON-LD vorhanden: {'application/ld+json' in response.text}\n"
                 f"  Events gefunden: {len(found)}\n"
-                f"  Snippet:\n{response.text[:1200]}\n" + "-" * 60
+                f"{self._discover_links(response.text, url)}\n"
+                f"  Snippet:\n{response.text[:5000]}\n" + "-" * 60
             )
 
         if self.category:
@@ -211,6 +222,23 @@ class JsonLdScraper(BaseScraper):
         if self.write_debug:
             self._dump_debug(debug_lines)
         return events
+
+    def _discover_links(self, html: str, base_url: str) -> str:
+        """Surface likely programme/event subpages to read instead."""
+        soup = BeautifulSoup(html, "html.parser")
+        hints = ("programm", "konzert", "event", "termin", "kalender",
+                 "spielplan", "veranstalt", "shows", "tickets", "calendar")
+        found = set()
+        for a in soup.find_all("a", href=True):
+            low = a["href"].lower()
+            if any(h in low for h in hints):
+                found.add(urljoin(base_url, a["href"]))
+        listed = sorted(found)[:25]
+        if not listed:
+            return "  (keine Programm-/Event-Unterseiten erkannt)"
+        return "  Mögliche Programm-Unterseiten:\n" + "\n".join(
+            f"    - {u}" for u in listed
+        )
 
     def _dump_debug(self, lines: list[str]) -> None:
         import pathlib

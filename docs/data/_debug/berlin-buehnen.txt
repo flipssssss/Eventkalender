@@ -4,30 +4,33 @@ URL: https://www.berlin-buehnen.de/de/spielplan/
   JSON-LD vorhanden: False
   Events gefunden (alle): 0
   Events nach Bühnen-Filter: 0
-  Snippet:
-<!DOCTYPE html>
-
-<html dir="ltr" lang="de" class="is-xs is-vertical">
-<head>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="viewport-fit=cover, width=device-width, shrink-to-fit=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0, user-scalable=yes">
-  <link rel="canonical" href="https://www.berlin-buehnen.de/de/spielplan/">
-
-  <title>
-    Berlin Bühnen
-    – 
-    Spielplan
-  </title>
-
-  <link rel="apple-touch-icon" sizes="57x57" href="/static/20260603153353/site/img/favicons/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="/static/20260603153353/site/img/favicons/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="/static/20260603153353/site/img/favicons/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="/static/20260603153353/site/img/favicons/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="/static/20260603153353/site/img/favicons/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="/static/20260603153353/site/img/favicons/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="/static/20260603153353/site/img/favicons/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="/static/20260603153353/site/img/favicons/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/static/20260603153353/site/img/favicons/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" 
+  Mögliche Daten-Endpunkte:
+    - /de/feedback/_feedback-categories/
+    - /de/feedback/_send-feedback-message/
+    - /de/spielplan/
+    - /de/spielplan/ariana-baborie-marie-guelich/events/366786/
+    - /de/spielplan/baecker-ballerina-boss-wie-weit-traeumst-du-2/events/361611/
+    - /de/spielplan/caligula-inferno/events/368323/
+    - /de/spielplan/cirque-soleil-alize/events/348469/
+    - /de/spielplan/das-neinhorn-2/events/358876/
+    - /de/spielplan/der-eingebildet-kranke/events/351288/
+    - /de/spielplan/der-satanarchaeoluegenialkohoellische-wunschpunsch/events/362495/
+    - /de/spielplan/ein-buch-lebendig/events/357758/
+    - /de/spielplan/eine-woche-voller-samstage-5/events/359742/
+    - /de/spielplan/expedition-grossen-glueck-2/events/357944/
+    - /de/spielplan/gans-baer-2/events/366797/
+    - /de/spielplan/im-dazwischen-hause/events/369894/
+    - /de/spielplan/lunchkonzert-31734/events/345952/
+    - /de/spielplan/memory-distortion-m-i-x-t-a-p-e/events/367593/
+    - /de/spielplan/na-also-geht-doch/events/359977/
+    - /de/spielplan/nasser-7leben-2/events/363694/
+    - /de/spielplan/parole-textbuch/events/368161/
+    - /de/spielplan/platypus-3/events/367713/
+    - /de/spielplan/sos-media-loves-you/events/369877/
+    - /de/spielplan/typen/events/357490/
+    - /de/spielplan/weglaufen-werde-ich-nie/events/362317/
+    - /de/spielplan/where-is-mark/events/369714/
+  Eingebundene Skripte:
+    - /static/20260603153353/site/webcomponents/project/project/project.esm.js
+    - https://www.googletagmanager.com/gtag/js?id=G-0JT0T513MK
 ------------------------------------------------------------

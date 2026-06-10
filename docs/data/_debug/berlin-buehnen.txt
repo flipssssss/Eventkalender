@@ -2,7 +2,7 @@ Gefundene Event-Links: 24
 Behaltene Events (nach Bühnen-Filter): 4
 ============================================================
 LISTING https://www.berlin-buehnen.de/de/spielplan/: 24 Links (24 eindeutig)
-  Interne Links (Bühnen/Blättern bevorzugt):
+  Event-<a>-Tags im Listing: 0
   Mögliche Daten-Endpunkte:
     - /de/feedback/_feedback-categories/
     - /de/feedback/_send-feedback-message/
@@ -32,7 +32,6 @@ LISTING https://www.berlin-buehnen.de/de/spielplan/: 24 Links (24 eindeutig)
   Eingebundene Skripte:
     - /static/20260603153353/site/webcomponents/project/project/project.esm.js
     - https://www.googletagmanager.com/gtag/js?id=G-0JT0T513MK
-  Skript https://www.berlin-buehnen.de/static/20260603153353/site/webcomponents/project/project/project.esm.js (130908 Zeichen): keine Endpunkt-Strings
 ------------------------------------------------------------
   Blätter-Test (Kandidaten):
     /de/spielplan/?page=2  ->  24 Events, 24 neue

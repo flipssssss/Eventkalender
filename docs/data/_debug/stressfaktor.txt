@@ -16,4 +16,4 @@ URL: https://stressfaktor.squat.net/termine
 <strong>Mittwochs (aber nicht am letzten Mittwoch im Monat!) </strong>16-19 Uhr, Sprachen: deutsch, englisch. Bei konkreten Sprachwünschen bitte vorher nachfragen.
  </span></div><span class="views-field views-field-field-category"><span class="field-content">Beratung/Hilfe/Sprechstunde</span></span><span class="views-field views-field-field-topic"><span class="field-content"></span></span><div class="views-field views-field-field-price-category"><span class="field-content"></span></div></div>
 ------------------------------------------------------------
-Anubis-Notizen: PoW: difficulty=2 nonce=492 hash=00894cfb3004… pass-status=200 cookies=['techaro.lol-anubis-cookie-verification', 'techaro.lol-anubis-auth']
+Anubis-Notizen: PoW: difficulty=2 nonce=310 hash=00f3d5f494d7… pass-status=200 cookies=['techaro.lol-anubis-cookie-verification', 'techaro.lol-anubis-auth']

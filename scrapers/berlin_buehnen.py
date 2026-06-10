@@ -21,7 +21,10 @@ so "HAU" / "Hebbel am Ufer", "Maxim Gorki" and "Volksbühne" all work.
 from __future__ import annotations
 
 import pathlib
+import re
 from typing import Iterable
+
+from bs4 import BeautifulSoup
 
 from .base import BaseScraper, Event
 from .jsonld import extract_events_from_html
@@ -76,7 +79,7 @@ class BerlinBuehnenScraper(BaseScraper):
                     f"  JSON-LD vorhanden: {'application/ld+json' in html}\n"
                     f"  Events gefunden (alle): {len(found)}\n"
                     f"  Events nach Bühnen-Filter: {len(kept)}\n"
-                    f"  Snippet:\n{html[:1500]}\n"
+                    f"{self._discover_endpoints(html)}\n"
                     + "-" * 60
                 )
             except Exception as exc:  # noqa: BLE001
@@ -85,6 +88,47 @@ class BerlinBuehnenScraper(BaseScraper):
         if self.write_debug:
             self._dump_debug(debug_lines)
         return events
+
+    def _discover_endpoints(self, html: str) -> str:
+        """Look through the HTML for the data source the page uses.
+
+        The Spielplan is rendered client-side, so the events come from an
+        API or an embedded JSON blob. This surfaces likely candidates so
+        the parser can be pointed at the right endpoint next.
+        """
+        soup = BeautifulSoup(html, "html.parser")
+        lines: list[str] = []
+
+        # Inline JSON blobs (<script type="application/json"> ...).
+        json_blobs = soup.find_all("script", type=lambda t: t and "json" in t)
+        for blob in json_blobs[:3]:
+            text = (blob.string or blob.get_text() or "").strip()
+            if text:
+                lines.append(f"  JSON-Block ({blob.get('type')}):\n    {text[:600]}")
+
+        # URLs that look like data/API endpoints anywhere in the markup.
+        candidates = set(
+            re.findall(
+                r"""["'(]([^"'() ]*(?:api|export|spielplan|veranstalt|event|calendar|feed|ajax|\.json|\.xml)[^"'() ]*)["')]""",
+                html,
+                flags=re.IGNORECASE,
+            )
+        )
+        interesting = sorted(
+            c for c in candidates
+            if not c.lower().endswith((".css", ".png", ".jpg", ".svg", ".woff", ".woff2", ".ico"))
+        )[:25]
+        if interesting:
+            lines.append("  Mögliche Daten-Endpunkte:")
+            lines.extend(f"    - {c}" for c in interesting)
+
+        # External script files (the API URL is often built inside these).
+        scripts = [s.get("src") for s in soup.find_all("script", src=True)]
+        if scripts:
+            lines.append("  Eingebundene Skripte:")
+            lines.extend(f"    - {s}" for s in scripts[:15])
+
+        return "\n".join(lines) if lines else "  (keine Endpunkt-Hinweise gefunden)"
 
     def _venue_of(self, event: Event) -> str | None:
         haystack = " ".join(

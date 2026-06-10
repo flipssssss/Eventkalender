@@ -69,7 +69,16 @@ class ICalScraper(BaseScraper):
         self.default_tags = list(default_tags or [])
 
     def fetch_events(self) -> Iterable[Event]:
-        response = self.get(self.url)
+        # A non-"Mozilla" user agent plus a calendar Accept header gets
+        # past bot walls like Anubis, which only challenge browser-like
+        # requests. Plain feed fetchers are allowed through.
+        response = self.get(
+            self.url,
+            headers={
+                "User-Agent": "Eventkalender-Feed/1.0 (+https://github.com/flipssssss/eventkalender)",
+                "Accept": "text/calendar, application/calendar+xml, text/plain, */*",
+            },
+        )
         calendar = Calendar.from_ical(response.content)
         events: list[Event] = []
 

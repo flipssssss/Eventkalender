@@ -82,13 +82,16 @@ class BaseScraper:
 
     # -- small helpers available to every scraper -------------------------
 
-    def get(self, url: str) -> requests.Response:
-        """HTTP GET with a sensible user agent and timeout."""
-        response = requests.get(
-            url,
-            headers={"User-Agent": USER_AGENT},
-            timeout=REQUEST_TIMEOUT,
-        )
+    def get(self, url: str, headers: dict | None = None) -> requests.Response:
+        """HTTP GET with a sensible user agent and timeout.
+
+        ``headers`` are merged on top of the defaults, so a scraper can
+        override the User-Agent or Accept header when a site needs it.
+        """
+        merged = {"User-Agent": USER_AGENT}
+        if headers:
+            merged.update(headers)
+        response = requests.get(url, headers=merged, timeout=REQUEST_TIMEOUT)
         response.raise_for_status()
         return response
 

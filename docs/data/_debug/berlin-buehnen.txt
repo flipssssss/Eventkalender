@@ -8,15 +8,14 @@ LISTING https://www.berlin-buehnen.de/de/spielplan/: 24 Links (24 eindeutig)
     - /de/feedback/_send-feedback-message/
     - /de/spielplan/
     - /de/spielplan/ariana-baborie-marie-guelich/events/366786/
-    - /de/spielplan/baecker-ballerina-boss-wie-weit-traeumst-du-2/events/361611/
     - /de/spielplan/caligula-inferno/events/368323/
     - /de/spielplan/cirque-soleil-alize/events/348469/
     - /de/spielplan/der-eingebildet-kranke/events/351288/
     - /de/spielplan/die-katze-von-kampen/events/365777/
     - /de/spielplan/die-weisse-rose-musical-alex-melcher-vera-bolten/events/361511/
-    - /de/spielplan/eine-woche-voller-samstage-5/events/359742/
     - /de/spielplan/expedition-grossen-glueck-2/events/357944/
     - /de/spielplan/im-dazwischen-hause/events/369894/
+    - /de/spielplan/leonce-lena-2/events/368634/
     - /de/spielplan/lunchkonzert-31734/events/345952/
     - /de/spielplan/memory-distortion-m-i-x-t-a-p-e/events/367593/
     - /de/spielplan/na-also-geht-doch/events/359977/
@@ -24,6 +23,7 @@ LISTING https://www.berlin-buehnen.de/de/spielplan/: 24 Links (24 eindeutig)
     - /de/spielplan/parole-textbuch/events/368161/
     - /de/spielplan/platypus-3/events/367713/
     - /de/spielplan/sos-media-loves-you/events/369877/
+    - /de/spielplan/stadt-land-sockenschuss-3/events/368760/
     - /de/spielplan/typen/events/357490/
     - /de/spielplan/unser-deutschlandmaerchen/events/365143/
     - /de/spielplan/wedding-mon-amour/events/365338/
@@ -34,3 +34,19 @@ LISTING https://www.berlin-buehnen.de/de/spielplan/: 24 Links (24 eindeutig)
     - https://www.googletagmanager.com/gtag/js?id=G-0JT0T513MK
   Skript https://www.berlin-buehnen.de/static/20260603153353/site/webcomponents/project/project/project.esm.js (130908 Zeichen): keine Endpunkt-Strings
 ------------------------------------------------------------
+  Blätter-Test (Kandidaten):
+    /de/spielplan/?page=2  ->  24 Events, 24 neue
+    /de/spielplan/?seite=2  ->  24 Events, 0 neue
+    /de/spielplan/?p=2  ->  24 Events, 0 neue
+    /de/spielplan/page/2/  ->  FEHLER 404 Client Error: Not Found for url: https://www.berlin-buehnen.de/de/spielplan/page/2/
+    /de/spielplan/seite/2/  ->  FEHLER 404 Client Error: Not Found for url: https://www.berlin-buehnen.de/de/spielplan/seite/2/
+    /de/spielplan/?offset=24  ->  24 Events, 0 neue
+    /de/spielplan/?start=24  ->  24 Events, 0 neue
+    /de/spielplan/?limit=200  ->  24 Events, 0 neue
+    /de/spielplan/?date=2026-07-20  ->  24 Events, 24 neue
+    /de/spielplan/?datum=2026-07-20  ->  24 Events, 0 neue
+    /de/spielplan/?tag=2026-07-20  ->  24 Events, 0 neue
+    /de/spielplan/2026-07-20/  ->  24 Events, 0 neue
+    /de/spielplan/?from=2026-07-20  ->  24 Events, 0 neue
+    /de/spielstaetten/  ->  FEHLER 404 Client Error: Not Found for url: https://www.berlin-buehnen.de/de/spielstaetten/
+    /de/spielplan/?spielstaette=volksbuehne  ->  24 Events, 0 neue

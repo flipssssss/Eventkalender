@@ -1,19 +1,104 @@
 {
-  "generated_at": "2026-06-10T08:02:02.209244+00:00",
-  "count": 3,
+  "generated_at": "2026-06-10T08:30:39.466217+00:00",
+  "count": 20,
   "sources": [
     {
       "source": "Stressfaktor",
-      "count": 0,
+      "count": 16,
       "error": null
     },
     {
       "source": "Berlin Bühnen",
-      "count": 3,
+      "count": 4,
       "error": null
     }
   ],
   "events": [
+    {
+      "title": "Solidarische Sozialberatung",
+      "start": "2026-06-10T16:00:00",
+      "end": null,
+      "location": "Scherer8 Schererstraße 8 13347 Berlin Deutschland",
+      "description": "Beratung zu Bürgergeld & Co … in der Schererstraße 8 im Wedding: Mittwochs (aber nicht am letzten Mittwoch im Monat!) 16-19 Uhr, Sprachen: deutsch, englisch. Bei konkreten Sprachwünschen bitte vorher nachfragen.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/320717",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Beratung",
+        "Berlin",
+        "Hilfe",
+        "Politik & Kultur",
+        "Sprechstunde"
+      ]
+    },
+    {
+      "title": "mittwochskufa",
+      "start": "2026-06-10T18:00:00",
+      "end": null,
+      "location": "Erreichbar Reichenberger Str. 63a HH 10999 Berlin Deutschland",
+      "description": "mittwochskufa  \njeden mittwoch von 18-21 uhr \nwoechetliche vegane küfa in der  erreichbar . sie ist leider nur über eine treppe zu erreichen.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/322087",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Berlin",
+        "Café",
+        "Essen",
+        "Kneipe",
+        "Politik & Kultur"
+      ]
+    },
+    {
+      "title": "Küfa im JUP",
+      "start": "2026-06-10T18:00:00",
+      "end": null,
+      "location": "JUP Florastr. 84 13187 Berlin Deutschland",
+      "description": "Mittwoch ist KüfA-Tag! Wir jede Woche gibt es eine leckere Küche für Alle am Mittwoch, 18 Uhr (am ersten Mittwoch im Monat um 19 Uhr mit der DWE-Küfa <3 !) gibts Essen - komm gerne schon früher vorbei zum Schnippeln und Kochen!",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/324037",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Berlin",
+        "Essen",
+        "Politik & Kultur"
+      ]
+    },
+    {
+      "title": "Ende Gelände Ortsgruppen Onboarding",
+      "start": "2026-06-10T18:00:00",
+      "end": null,
+      "location": "K9 Kinzigstr 9 Berlin Deutschland",
+      "description": "⚒️ Komm zu unserem Onboarding und lerne die Berliner Ortsgruppe von Ende Gelände kennen❤️‍🔥. Am 10.06.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327603",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Berlin",
+        "Politik & Kultur",
+        "Treffen"
+      ]
+    },
+    {
+      "title": "Soli-Küfa für Bleiberechtskämpfe",
+      "start": "2026-06-10T18:30:00",
+      "end": null,
+      "location": "K-fetisch Wildenbruchstraße 86 12045 Berlin Deutschland",
+      "description": "Am Mittwochabend werden wir für euch leckeres kamerunisches Essenvorbereiten, um Geld für die Bleiberechtskämpfe von zwei gutenFreunden zu sammeln. Gemeinsam organisieren wir uns seit über 2Jahren gegen das rassistische Grenzregime und Kettenduldung. Wir",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327652",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Berlin",
+        "Café",
+        "Essen",
+        "Kneipe",
+        "Politik & Kultur",
+        "barrierearm",
+        "queer",
+        "vegan",
+        "vegetarisch"
+      ]
+    },
     {
       "title": "Parole Text:Buch",
       "start": "2026-06-10T18:30:00+02:00",
@@ -27,6 +112,85 @@
         "Berlin",
         "Theater",
         "Volksbühne"
+      ]
+    },
+    {
+      "title": "Soli-Küfa, jeden Mittwoch 19 Uhr",
+      "start": "2026-06-10T19:00:00",
+      "end": null,
+      "location": "B-Lage Mareschstr. 1 12055 Berlin Deutschland",
+      "description": "Soli- KüfaShort url: \nhttps://squ.at/r/api6",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/326947",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Berlin",
+        "Café",
+        "Kneipe",
+        "Politik & Kultur"
+      ]
+    },
+    {
+      "title": "Konzert",
+      "start": "2026-06-10T19:00:00",
+      "end": null,
+      "location": "Schokoladen Ackerstrasse 169 10115 Berlin Deutschland",
+      "description": "little league shows prsnts: 250CC [fuzz garage pop duo°bln] + Halfsilks [post punk indie pop°bln]",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327331",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Berlin",
+        "Konzert",
+        "Musik",
+        "Politik & Kultur"
+      ]
+    },
+    {
+      "title": "Offenes Antifa Treffen",
+      "start": "2026-06-10T19:00:00",
+      "end": null,
+      "location": "Bandito Rosso Lottumstr. 10a 10119 Berlin Deutschland",
+      "description": "*English below*",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327509",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Berlin",
+        "Diskussion",
+        "Politik & Kultur",
+        "Treffen",
+        "Vortrag"
+      ]
+    },
+    {
+      "title": "Konzert",
+      "start": "2026-06-10T19:00:00",
+      "end": null,
+      "location": "Regenbogenfabrik Lausitzer Str. 21a 10999 Berlin Deutschland",
+      "description": "\"TANGO FOLK\"\nSoli-Konzert mit Quena Tapia & Carly Quiroz | Musik aus Lateinamerika\nEinlass 19:00, Beginn 19:30\nQuena Tapia: Gesang, Gitarre – Carly Quiroz: Keyboard / Klavier",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327642",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Berlin",
+        "Konzert",
+        "Musik",
+        "Politik & Kultur"
+      ]
+    },
+    {
+      "title": "Soli Küfa in supporting a comrade’s right to stay",
+      "start": "2026-06-10T19:00:00",
+      "end": null,
+      "location": "Berlin Berlin Deutschland",
+      "description": "We invite you to join Soli Küfa in supporting a comrade’s right to stay by FNB",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327675",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Berlin",
+        "Politik & Kultur"
       ]
     },
     {
@@ -57,6 +221,135 @@
         "Berlin",
         "Hebbel am Ufer",
         "Theater"
+      ]
+    },
+    {
+      "title": "INFOVERANSTALTUNG: KENN DEINE RECHTE!",
+      "start": "2026-06-10T19:00:29",
+      "end": null,
+      "location": "Bunte Kuh Bernkastelerstr. 78 13088 Berlin Deutschland",
+      "description": "An diesem Mittwoch findet ab 18:00 Uhr eine Infoveranstaltung mit zwei Anwält*innen statt. Hierwird es Input zu aktuellen Gesetzeslagen im Bereich Versammlungsfreiheit, Polizeigesetzen uvm. geben,sowie Raum für Fragestellungen und Diskussion.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327687",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Aktion",
+        "Beratung",
+        "Berlin",
+        "Camp",
+        "Diskussion",
+        "Hilfe",
+        "Kurs",
+        "Politik & Kultur",
+        "Protest",
+        "Sprechstunde",
+        "Treffen",
+        "Vortrag",
+        "Workshop",
+        "rauchfrei"
+      ]
+    },
+    {
+      "title": "UNSER DEUTSCHLANDMÄRCHEN",
+      "start": "2026-06-10T19:30:00+02:00",
+      "end": "2026-06-10T21:30:00+02:00",
+      "location": "Maxim Gorki Theater, Am Festungsgraben 2, 10117, Berlin",
+      "description": "Mutter und Sohn bewegen sich noch einmal durch ein gemeinsames Leben, durch ihr Deutschlandmärchen, das alles andere ist als ein Märchen. Auf der Suche nach Identität, Sprache und dem eigenen Platz kämpfen sich Fatma und Dinçer durch unerbittliche Verhältnisse, mit- und gegeneinander, zwischen tiefer Zuneigung und wütender Abrechnung. Unser Deutschlandmärchen, das Romandebüt des 1979 in Nettetal geborenen Dinçer Güçyeter, das 2023 mit dem Preis der Leipziger Buchmesse ausgezeichnet wurde, verwebt Motive seiner Lebensgeschichte und der seiner Mutter, die in den 60er-Jahren als Gastarbeiterin aus der Türkei nach Deutschland kam. Regisseur Hakan Savaş Mican erzählt diese ungewöhnlich offene und berührende Familiengeschichte als eine lustvoll musikalische Reise. Zwei ungeheuer starke Menschen bewegen sich zwischen unerreichbaren Heimaten, durch ein Leben voller Sehnsüchte, geplatzter Träume, Wut und Liebe.\n\n Trailer ansehen \n\nUraufführung 6/April 2024\n\nEingeladen zum 62. Theatertreffen 2025\n\nFoto: Esra RotthoffBühennfoto: Ute Langkafel MAIFOTOTrailer: Schnittmenge",
+      "image_url": "https://www.berlin-buehnen.de/media/productions/unser-deutschlandmaerchen/gallery/202503060005400292.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/unser-deutschlandmaerchen/events/365143/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Berlin",
+        "Maxim Gorki Theater",
+        "Theater"
+      ]
+    },
+    {
+      "title": "Irish Trad Session",
+      "start": "2026-06-10T20:00:00",
+      "end": null,
+      "location": "Filmrisz Filmrisz Rigaerstr. 103 10247 Berlin Deutschland",
+      "description": "Ein fester Kern und wechselnde Gäste spielen zusammen life und akustisch irische Tunes und Jigs. \nMusiker sind willkommen mitzumachen (solange sie in der Tradition spielen).\nAlle anderen sind herzlich wilkommen zu genießen.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/323323",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Berlin",
+        "Café",
+        "Kneipe",
+        "Konzert",
+        "Musik",
+        "Politik & Kultur"
+      ]
+    },
+    {
+      "title": "KüFa (Kitchen for all)",
+      "start": "2026-06-10T20:00:00",
+      "end": null,
+      "location": "Kadterschmiede Rigaer Str. 94 10245 Berlin Deutschland",
+      "description": "Vegan Fooood\nFood,Drinks,Music\npartially smokefree\nIrregular events and discussions - there is a garden and sometimes a firebin\nThe entrance is elevated but there is a ramp, the toilet is moderately accessible",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/324329",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Berlin",
+        "Buch-",
+        "Bücherei",
+        "Café",
+        "Diskussion",
+        "Essen",
+        "Film",
+        "Infoladen",
+        "Kneipe",
+        "Politik & Kultur",
+        "Vortrag"
+      ]
+    },
+    {
+      "title": "PöKü - Küche für Alle!",
+      "start": "2026-06-10T20:00:00",
+      "end": null,
+      "location": "Vetomat Wühlischstr. 42 10247 Berlin Deutschland",
+      "description": "Wie immer bescheidene veggie Küche (diesmal vom Full Spoon Collective) für alle und bescheidenes kaltes Bier ;-)",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327699",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Berlin",
+        "Essen",
+        "Politik & Kultur",
+        "Treffen"
+      ]
+    },
+    {
+      "title": "Vegane Küfa",
+      "start": "2026-06-10T20:15:00",
+      "end": null,
+      "location": "KuBiZ Bernkasteler Str. 78 13088 Berlin Deutschland",
+      "description": "Leckere Vegane Küfa im Offenen Raum!\nJeden Mittwoch ab ca. 20.15 Uhr (vor dem Film) Spende erbeten",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/323615",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Berlin",
+        "Essen",
+        "Politik & Kultur"
+      ]
+    },
+    {
+      "title": "VideoKino (Open Air)",
+      "start": "2026-06-10T21:30:00",
+      "end": null,
+      "location": "KuBiZ Bernkasteler Str. 78 13088 Berlin Deutschland",
+      "description": "VOLVER – ZURÜCKKEHREN Spielfilm, Spanien 2006, 115 min, R: Pedro Almodóvar",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327510",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Berlin",
+        "Essen",
+        "Film",
+        "Politik & Kultur"
       ]
     }
   ]

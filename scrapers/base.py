@@ -46,6 +46,8 @@ class Event:
     description: str | None = None
     image_url: str | None = None
     tags: list[str] = field(default_factory=list)
+    # False when the source only gives a date (no time) -> show date only.
+    time_known: bool = True
 
     def dedupe_key(self) -> str:
         """Identify duplicate events coming from several sources."""
@@ -66,6 +68,7 @@ class Event:
             "source_url": self.source_url,
             "source_name": self.source_name,
             "tags": sorted({t.strip() for t in self.tags if t and t.strip()}),
+            "time_known": self.time_known,
         }
 
 

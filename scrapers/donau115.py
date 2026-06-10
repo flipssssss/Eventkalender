@@ -71,16 +71,15 @@ class Donau115Scraper(BaseScraper):
         start = _to_datetime(date_raw)
         if not start:
             return None
-        # If the date had no time, try to add a separate time field.
-        if start.hour == 0 and start.minute == 0:
+        # The Donau data has no time field; try a separate one, else mark
+        # the time as unknown so the card shows the date only.
+        time_known = not (start.hour == 0 and start.minute == 0)
+        if not time_known:
             time_raw = _first(item, TIME_KEYS)
-            parsed_time = parse_datetime(f"{start.date().isoformat()} {time_raw}") if time_raw else None
-            if parsed_time:
-                start = parsed_time
+            parsed = parse_datetime(f"{start.date().isoformat()} {time_raw}") if time_raw else None
+            if parsed and (parsed.hour or parsed.minute):
+                start, time_known = parsed, True
 
-        link = _first(item, LINK_KEYS) or "https://www.donau115.de"
-        if isinstance(link, str) and not link.startswith("http"):
-            link = "https://" + link.lstrip("/")
         # Ignore inline base64 images (they would bloat the feed); only keep
         # real http(s) image URLs.
         image = _first(item, IMAGE_KEYS)
@@ -90,12 +89,13 @@ class Donau115Scraper(BaseScraper):
         return Event(
             title=str(title).strip(),
             start=start,
-            source_url=str(link),
+            source_url="https://www.donau115.de",
             source_name=self.name,
             location="Donau115, Donaustraße 115, Berlin",
             description=_first(item, DESC_KEYS),
             image_url=image,
             tags=["Konzert"],
+            time_known=time_known,
         )
 
     def _dump_debug(self, text: str) -> None:

@@ -320,6 +320,10 @@ function renderCard(ev) {
 
 function formatTime(ev) {
   const start = new Date(ev.start);
+  // Sources without a time (e.g. Donau115) show the date only.
+  if (ev.time_known === false) {
+    return CARD_DATE_FMT.format(start);
+  }
   // Date next to the time on every card (e.g. "Mi., 10.6. · 19:00 Uhr").
   let label = CARD_DATE_FMT.format(start) + " · " + TIME_FMT.format(start) + " Uhr";
   if (ev.end) {

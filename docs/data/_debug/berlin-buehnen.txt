@@ -3,225 +3,75 @@ Behaltene Events (nach Bühnen-Filter): 4
 ============================================================
 LISTING https://www.berlin-buehnen.de/de/spielplan/: 24 Links (24 eindeutig)
   Event-<a>-Tags im Listing: 0
-  Event-Link-Positionen: 24
-  Roh-Kontext am dichtesten Cluster (Pos 52608):
-
-      <div class="icon">
-        Filter
-        <hylo-icon-controller-3 height='{"default":18,"xs":12.25,"sm":12.25}' color="currentColor"></hylo-icon-controller-3>
-      </div>
-      <div class="counter"></div>
-    </hylo-accessibility-button>
-
-    <div class="tw-flex tw-flex-col" role="list">
-      
-        
-
-
-
-
-
-
-<hylo-router-link
-  class="tw-block tw-pb-6 md:tw-py-8 md:tw-border-b-3 md:tw-border-b-fontcolor list-item hylo-image-hover event-list-item"
-  link-class="!tw-no-underline"
-  href="/de/spielplan/youngstar-festival-2845/events/343065/"
-  role="listitem"
->
-  <hylo-card-grid
-    class="event-grid tw-flex tw-flex-col tw-gap-y-6 md:tw-flex-row md:tw-gap-x-6"
-    class-start="tw-hidden tw-w-full md:tw-block md:tw-w-2/12"
-    class-content="tw-w-full md:tw-w-4/12"
-    class-end="tw-hidden tw-w-full md:tw-block md:tw-w-6/12"
-  >
-    <div slot="start" class="tw-h-full md:tw-flex md:tw-flex-col">
-      
-      <time
-        class="tw-text-gray-600 tw-text-[1rem] lg:tw-text-[1.75rem] tw-leading-[1.25] lg:tw-leading-[1.1429] tw-italic tw-font-secondary"
-        datetime="2026-06-10 11:00"
-      >
-        <span class="tw-block !tw-my-0" aria-hidden="true">MI</span>
-        <span class="tw-block !tw-my-0">10.06.2026</span>
-        
-          <span class="tw-block !tw-my-0">11:00</span>
-        
-      </time>
-
-      
-      
-      <div class="event-labels tw-flex tw-flex-col tw-items-start md:tw-my-3">
-        
-          <bb-label class="tw-text-fontcolor tw-mb-1 ion-hide-lg-down" color="kinder-jugend">Kinder &amp; Jugendliche</bb-label>
-          <bb-label class="tw-text-fontcolor tw-mb-1 ion-hide-lg-up" small color="kinder-jugend">Kinder &amp; Jugendliche</bb-label>
-        
-          <bb-label class="tw-text-fontcolor tw-mb-1 ion-hide-lg-down" color="klassik">Klassik</bb-label>
-          <bb-label class="tw-text-fontcolor tw-mb-1 ion-hide-lg-up" small color="klassik">Klassik</bb-label>
-        
-      </div>
-
-      
-      <div class="event-actions md:tw-flex md:tw-flex-col md:tw-gap-y-4 md:tw-mt-auto">
-        <hylo-favorite-manager
-          identifier="productions.event.343065"
-          class="tw-text-white hover:tw-text-blue-300"
-          prevent-focus
-        >
-          <hylo-icon-star width="21" stroke="var(--color)" color="currentColor"></hylo-icon-star>
-        </hylo-favorite-manager>
-        
-          <hylo-router-link
-            class="btn tw-hidden md:tw-block"
-            href="https://www.berliner-philharmoniker.de/konzerte/kalender/56493"
-            target="_blank"
-            link-tabindex="-1"
-            pseudo
-            aria-hidden="true"
-          >
-            <span class="icon">Tickets<hylo-icon-ticket color="currentColor" height="13"></hylo-icon-ticket></span>
-          </hylo-router-link>
-        
-      </div>
-
-    </div>
-
-    <div class="tw-relative">
-      <div class="hylo-image-wrapper tw-w-full tw-h-0 tw-pb-[65%] md:tw-pb-[82%]">
-        <hylo-responsive-image
-          class="tw-block tw-bg-cover tw-bg-center tw-h-0 tw-pb-[65%] md:tw-pb-[82%]"
-          show-info
-          comment
-          aria-hidden-always
-          gradient
-        >
-          
-            
-            
-            
-            
-            <hylo-image src="/media/CACHE/images/9958ac9a50acd338bbe482f3d0912311.jpg" background xl lg></hylo-image>
-            <hylo-image src="/media/CACHE/images/9f4a639821916c1d13a1ec45b4d5843d.jpg" background md></hylo-image>
-            <hylo-image src="/media/CACHE/images/3e222e37174900ccbf47621e218ef529.jpg" background sm></hylo-image>
-            <hylo-image src="/media/CACHE/images/5b67c51938d201bcd5d7359b09469541.jpg" background xs></hylo-image>
-
-            
-              
-  <div slot="comment">
-    <div><span class="tw-text-[1.3em] tw-align-middle">&copy;&nbsp;</span>Frederike van der Straeten</div>
-    <div></div>
-  </div>
-
-            
-          
-        </hylo-responsive-image>
-      </div>
-
-      <div class="tw-flex tw-flex-col tw-justify-end tw-absolute tw-bottom-0 tw-h-full md:tw-hidden">
-        <div class="tw-overflow-y-auto tw-p-5 tw-break-words">
-          
-          <div class="event-labels tw-flex tw-flex-wrap sm:tw-flex-nowrap sm:tw-flex-col sm:tw-items-start tw-gap-1 tw-mb-1">
-            
-              <bb-label small class="tw-text-fontcolor" color="kinder-jugend">Kinder &amp; Jugendliche</bb-label>
-            
-              <bb-label small class="tw-text-fontcolor" color="klassik">Klassik</bb-label>
-            
-          </div>
-
-          
-          <h4 class="!tw-m-0 !tw-text-[1rem] !tw-leading-[1.3125] !tw-text-white !tw-font-secondary !tw-font-normal tw-italic tw-normal-case">
-            <time datetime="2026-06-10 11:00">10.06.2026, 11:00</time>
-            
-              
-              
-                
-                <span> | Philharmonie Berlin</span>
-              
-            
-          </h4>
-
-          <h3 class="tw-h4 !tw-m-0 !tw-text-white">youngSTAR Festival</h3>
-        </div>
-      </div>
-
-      <hylo-favorite-manager
-        identifier="productions.event.343065"
-        class="tw-text-white hover:tw-text-blue-300 tw-absolute tw-top-2 tw-right-2 ion-hide-md-up"
-      >
-        <hylo-icon-star width="18" stroke="white" color="currentColor"></hylo-icon-star>
-      </hylo-favorite-manager>
-    </div>
-
-    <div slot="end" class="tw-h-full md:tw-flex md:tw-flex-col">
-
-      
-      
-      <h4 class="tw-h6 lg:tw-h5 !tw-mb-3 lg:!tw-mb-4 tw-font-secondary !tw-italic tw-text-gray-500 !tw-font-normal">
-        
-          
-          <span>
+  hylo-router-link-Karten: 24
+  Erste vollständige Karte (HTML):
+<hylo-router-link class="tw-block tw-pb-6 md:tw-py-8 md:tw-border-b-3 md:tw-border-b-fontcolor list-item hylo-image-hover event-list-item" href="/de/spielplan/youngstar-festival-2845/events/343065/" link-class="!tw-no-underline" role="listitem">
+<hylo-card-grid class="event-grid tw-flex tw-flex-col tw-gap-y-6 md:tw-flex-row md:tw-gap-x-6" class-content="tw-w-full md:tw-w-4/12" class-end="tw-hidden tw-w-full md:tw-block md:tw-w-6/12" class-start="tw-hidden tw-w-full md:tw-block md:tw-w-2/12">
+<div class="tw-h-full md:tw-flex md:tw-flex-col" slot="start">
+<time class="tw-text-gray-600 tw-text-[1rem] lg:tw-text-[1.75rem] tw-leading-[1.25] lg:tw-leading-[1.1429] tw-italic tw-font-secondary" datetime="2026-06-10 11:00">
+<span aria-hidden="true" class="tw-block !tw-my-0">MI</span>
+<span class="tw-block !tw-my-0">10.06.2026</span>
+<span class="tw-block !tw-my-0">11:00</span>
+</time>
+<div class="event-labels tw-flex tw-flex-col tw-items-start md:tw-my-3">
+<bb-label class="tw-text-fontcolor tw-mb-1 ion-hide-lg-down" color="kinder-jugend">Kinder &amp; Jugendliche</bb-label>
+<bb-label class="tw-text-fontcolor tw-mb-1 ion-hide-lg-up" color="kinder-jugend" small="">Kinder &amp; Jugendliche</bb-label>
+<bb-label class="tw-text-fontcolor tw-mb-1 ion-hide-lg-down" color="klassik">Klassik</bb-label>
+<bb-label class="tw-text-fontcolor tw-mb-1 ion-hide-lg-up" color="klassik" small="">Klassik</bb-label>
+</div>
+<div class="event-actions md:tw-flex md:tw-flex-col md:tw-gap-y-4 md:tw-mt-auto">
+<hylo-favorite-manager class="tw-text-white hover:tw-text-blue-300" identifier="productions.event.343065" prevent-focus="">
+<hylo-icon-star color="currentColor" stroke="var(--color)" width="21"></hylo-icon-star>
+</hylo-favorite-manager>
+<hylo-router-link aria-hidden="true" class="btn tw-hidden md:tw-block" href="https://www.berliner-philharmoniker.de/konzerte/kalender/56493" link-tabindex="-1" pseudo="" target="_blank">
+<span class="icon">Tickets<hylo-icon-ticket color="currentColor" height="13"></hylo-icon-ticket></span>
+</hylo-router-link>
+</div>
+</div>
+<div class="tw-relative">
+<div class="hylo-image-wrapper tw-w-full tw-h-0 tw-pb-[65%] md:tw-pb-[82%]">
+<hylo-responsive-image aria-hidden-always="" class="tw-block tw-bg-cover tw-bg-center tw-h-0 tw-pb-[65%] md:tw-pb-[82%]" comment="" gradient="" show-info="">
+<hylo-image background="" lg="" src="/media/CACHE/images/9958ac9a50acd338bbe482f3d0912311.jpg" xl=""></hylo-image>
+<hylo-image background="" md="" src="/media/CACHE/images/9f4a639821916c1d13a1ec45b4d5843d.jpg"></hylo-image>
+<hylo-image background="" sm="" src="/media/CACHE/images/3e222e37174900ccbf47621e218ef529.jpg"></hylo-image>
+<hylo-image background="" src="/media/CACHE/images/5b67c51938d201bcd5d7359b09469541.jpg" xs=""></hylo-image>
+<div slot="comment">
+<div><span class="tw-text-[1.3em] tw-align-middle">© </span>Frederike van der Straeten</div>
+<div></div>
+</div>
+</hylo-responsive-image>
+</div>
+<div class="tw-flex tw-flex-col tw-justify-end tw-absolute tw-bottom-0 tw-h-full md:tw-hidden">
+<div class="tw-overflow-y-auto tw-p-5 tw-break-words">
+<div class="event-labels tw-flex tw-flex-wrap sm:tw-flex-nowrap sm:tw-flex-col sm:tw-items-start tw-gap-1 tw-mb-1">
+<bb-label class="tw-text-fontcolor" color="kinder-jugend" small="">Kinder &amp; Jugendliche</bb-label>
+<bb-label class="tw-text-fontcolor" color="klassik" small="">Klassik</bb-label>
+</div>
+<h4 class="!tw-m-0 !tw-text-[1rem] !tw-leading-[1.3125] !tw-text-white !tw-font-secondary !tw-font-normal tw-italic tw-normal-case">
+<time datetime="2026-06-10 11:00">10.06.2026, 11:00</time>
+<span> | Philharmonie Berlin</span>
+</h4>
+<h3 class="tw-h4 !tw-m-0 !tw-text-white">youngSTAR Festival</h3>
+</div>
+</div>
+<hylo-favorite-manager class="tw-text-white hover:tw-text-blue-300 tw-absolute tw-top-2 tw-right-2 ion-hide-md-up" identifier="productions.event.343065">
+<hylo-icon-star color="currentColor" stroke="white" width="18"></hylo-icon-star>
+</hylo-favorite-manager>
+</div>
+<div class="tw-h-full md:tw-flex md:tw-flex-col" slot="end">
+<h4 class="tw-h6 lg:tw-h5 !tw-mb-3 lg:!tw-mb-4 tw-font-secondary !tw-italic tw-text-gray-500 !tw-font-normal">
+<span>
             Philharmonie Berlin
           </span>
-        
-
-        
-          <span> | </span>
-          
-          <span>
+<span> | </span>
+<span>
             Kammermusiksaal
           </span>
-        
-
-        
-      </h4>
-      
-
-      
-      
-      <h3 class="tw-h4 lg:tw-h3 !tw-mb-1">youngSTAR Festival</h3>
-      
-      
-
-      
-      
-
-      
-
-      
-      
-      
-
-    </div>
-  </hylo-card-grid>
+</h4>
+<h3 class="tw-h4 lg:tw-h3 !tw-mb-1">youngSTAR Festival</h3>
+</div>
+</hylo-card-grid>
 </hylo-router-link>
-
-
-        
-          
-            
-              <div
-                class="tw-pb-6 md:tw-py-8 tw-gap-6 md:tw-border-b-3 md:tw-border-b-black
-                md:tw-hidden tw-flex tw-flex-col
-                
-                "
-                role="listitem"
-              >
-                
-                  
-
-<hylo-ad
-  class="ad-zone_schedule_left"
-  link="/de/ads/view/342/"
-  show-label
-  text-label-advertisement="Anzeige"
-
-  
->
-  
-    <hylo-responsive-image
-      alt="Kulturvolk_Spielplan_08.-21.06.2026"
-      fullwidth
-      instant-loading
-    >
-      <hylo-image src="/media/adv
   Mögliche Daten-Endpunkte:
     - /de/feedback/_feedback-categories/
     - /de/feedback/_send-feedback-message/

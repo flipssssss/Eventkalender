@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T08:45:52.154317+00:00",
+  "generated_at": "2026-06-10T08:54:20.988557+00:00",
   "count": 20,
   "sources": [
     {
@@ -25,9 +25,7 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Beratung",
-        "Berlin",
         "Hilfe",
-        "Politik & Kultur",
         "Sprechstunde"
       ]
     },
@@ -41,11 +39,9 @@
       "source_url": "https://stressfaktor.squat.net/node/322087",
       "source_name": "Stressfaktor",
       "tags": [
-        "Berlin",
         "Café",
         "Essen",
-        "Kneipe",
-        "Politik & Kultur"
+        "Kneipe"
       ]
     },
     {
@@ -58,9 +54,7 @@
       "source_url": "https://stressfaktor.squat.net/node/324037",
       "source_name": "Stressfaktor",
       "tags": [
-        "Berlin",
-        "Essen",
-        "Politik & Kultur"
+        "Essen"
       ]
     },
     {
@@ -73,8 +67,6 @@
       "source_url": "https://stressfaktor.squat.net/node/327603",
       "source_name": "Stressfaktor",
       "tags": [
-        "Berlin",
-        "Politik & Kultur",
         "Treffen"
       ]
     },
@@ -88,15 +80,9 @@
       "source_url": "https://stressfaktor.squat.net/node/327652",
       "source_name": "Stressfaktor",
       "tags": [
-        "Berlin",
         "Café",
         "Essen",
-        "Kneipe",
-        "Politik & Kultur",
-        "barrierearm",
-        "queer",
-        "vegan",
-        "vegetarisch"
+        "Kneipe"
       ]
     },
     {
@@ -109,9 +95,7 @@
       "source_url": "https://www.berlin-buehnen.de/de/spielplan/parole-textbuch/events/368161/",
       "source_name": "Berlin Bühnen",
       "tags": [
-        "Berlin",
-        "Theater",
-        "Volksbühne"
+        "Theater"
       ]
     },
     {
@@ -124,10 +108,8 @@
       "source_url": "https://stressfaktor.squat.net/node/326947",
       "source_name": "Stressfaktor",
       "tags": [
-        "Berlin",
         "Café",
-        "Kneipe",
-        "Politik & Kultur"
+        "Kneipe"
       ]
     },
     {
@@ -140,10 +122,8 @@
       "source_url": "https://stressfaktor.squat.net/node/327331",
       "source_name": "Stressfaktor",
       "tags": [
-        "Berlin",
         "Konzert",
-        "Musik",
-        "Politik & Kultur"
+        "Musik"
       ]
     },
     {
@@ -156,9 +136,7 @@
       "source_url": "https://stressfaktor.squat.net/node/327509",
       "source_name": "Stressfaktor",
       "tags": [
-        "Berlin",
         "Diskussion",
-        "Politik & Kultur",
         "Treffen",
         "Vortrag"
       ]
@@ -173,10 +151,8 @@
       "source_url": "https://stressfaktor.squat.net/node/327642",
       "source_name": "Stressfaktor",
       "tags": [
-        "Berlin",
         "Konzert",
-        "Musik",
-        "Politik & Kultur"
+        "Musik"
       ]
     },
     {
@@ -188,10 +164,7 @@
       "image_url": null,
       "source_url": "https://stressfaktor.squat.net/node/327675",
       "source_name": "Stressfaktor",
-      "tags": [
-        "Berlin",
-        "Politik & Kultur"
-      ]
+      "tags": []
     },
     {
       "title": "sos – media loves you",
@@ -203,9 +176,7 @@
       "source_url": "https://www.berlin-buehnen.de/de/spielplan/sos-media-loves-you/events/369877/",
       "source_name": "Berlin Bühnen",
       "tags": [
-        "Berlin",
-        "Theater",
-        "Volksbühne"
+        "Theater"
       ]
     },
     {
@@ -218,8 +189,6 @@
       "source_url": "https://www.berlin-buehnen.de/de/spielplan/memory-distortion-m-i-x-t-a-p-e/events/367593/",
       "source_name": "Berlin Bühnen",
       "tags": [
-        "Berlin",
-        "Hebbel am Ufer",
         "Theater"
       ]
     },
@@ -235,18 +204,15 @@
       "tags": [
         "Aktion",
         "Beratung",
-        "Berlin",
         "Camp",
         "Diskussion",
         "Hilfe",
         "Kurs",
-        "Politik & Kultur",
         "Protest",
         "Sprechstunde",
         "Treffen",
         "Vortrag",
-        "Workshop",
-        "rauchfrei"
+        "Workshop"
       ]
     },
     {
@@ -259,8 +225,6 @@
       "source_url": "https://www.berlin-buehnen.de/de/spielplan/unser-deutschlandmaerchen/events/365143/",
       "source_name": "Berlin Bühnen",
       "tags": [
-        "Berlin",
-        "Maxim Gorki Theater",
         "Theater"
       ]
     },
@@ -274,12 +238,10 @@
       "source_url": "https://stressfaktor.squat.net/node/323323",
       "source_name": "Stressfaktor",
       "tags": [
-        "Berlin",
         "Café",
         "Kneipe",
         "Konzert",
-        "Musik",
-        "Politik & Kultur"
+        "Musik"
       ]
     },
     {
@@ -292,7 +254,6 @@
       "source_url": "https://stressfaktor.squat.net/node/324329",
       "source_name": "Stressfaktor",
       "tags": [
-        "Berlin",
         "Buch-",
         "Bücherei",
         "Café",
@@ -301,7 +262,6 @@
         "Film",
         "Infoladen",
         "Kneipe",
-        "Politik & Kultur",
         "Vortrag"
       ]
     },
@@ -315,9 +275,7 @@
       "source_url": "https://stressfaktor.squat.net/node/327699",
       "source_name": "Stressfaktor",
       "tags": [
-        "Berlin",
         "Essen",
-        "Politik & Kultur",
         "Treffen"
       ]
     },
@@ -331,9 +289,7 @@
       "source_url": "https://stressfaktor.squat.net/node/323615",
       "source_name": "Stressfaktor",
       "tags": [
-        "Berlin",
-        "Essen",
-        "Politik & Kultur"
+        "Essen"
       ]
     },
     {
@@ -346,10 +302,8 @@
       "source_url": "https://stressfaktor.squat.net/node/327510",
       "source_name": "Stressfaktor",
       "tags": [
-        "Berlin",
         "Essen",
-        "Film",
-        "Politik & Kultur"
+        "Film"
       ]
     }
   ]

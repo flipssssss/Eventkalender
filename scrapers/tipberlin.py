@@ -82,28 +82,20 @@ class TipBerlinScraper(BaseScraper):
             except Exception as exc:  # noqa: BLE001
                 report.append(f"  /{path} -> FEHLER {exc}")
 
-        # Dump full REST objects (yoast stripped) for a music + an exhibition
-        # event, to find the real event-date field.
+        # List all REST routes mentioning event/rce/calendar to find the
+        # endpoint that carries the actual event dates.
         import json as _json
-        for slug in ["musik+konzert", "ausstellung+museen"]:
-            try:
-                r = session.get(
-                    "https://www.tip-berlin.de/wp-json/wp/v2/event"
-                    f"?per_page=2&event-category={slug.replace('+', '-')}",
-                    timeout=25)
-                data = _json.loads(r.text)
-                if not isinstance(data, list) or not data:
-                    # taxonomy filter may not work; fall back to plain list.
-                    data = _json.loads(session.get(
-                        "https://www.tip-berlin.de/wp-json/wp/v2/event?per_page=2",
-                        timeout=25).text)
-                report.append(f"\n=== REST-Objekt ({slug}) ===")
-                for it in data[:1]:
-                    for k in ("yoast_head", "yoast_head_json", "content", "excerpt"):
-                        it.pop(k, None)
-                    report.append(_json.dumps(it, ensure_ascii=False)[:2200])
-            except Exception as exc:  # noqa: BLE001
-                report.append(f"REST {slug} FEHLER: {exc}")
+        try:
+            root = _json.loads(session.get(
+                "https://www.tip-berlin.de/wp-json/", timeout=25).text)
+            routes = list((root.get("routes") or {}).keys())
+            hits = [r for r in routes if re.search(
+                r"rce|event|calendar|termin|program|occurr|date", r, re.I)]
+            report.append(f"\nRouten gesamt: {len(routes)}; relevante:")
+            report.extend(f"   {r}" for r in hits[:40])
+            report.append("\nNamespaces: " + ", ".join(root.get("namespaces", [])))
+        except Exception as exc:  # noqa: BLE001
+            report.append(f"Routen-FEHLER: {exc}")
 
         if self.write_debug:
             self._dump_debug("\n".join(report))

@@ -14,4 +14,11 @@ Tage: 14 | Events (vor Dedup): 43
 2026-06-23: 0 Events
 2026-06-24: 0 Events
 
-Sonde: kein Slug gefunden
+Detail-URL-Sonde für Slug 'hobby-tell-mama-25':
+  /en/events/hobby-tell-mama-25/ -> 429 (https://www.siegessaeule.de/en/events/hobby-tell-mama-25/)
+  /en/event/hobby-tell-mama-25/ -> 404 (https://www.siegessaeule.de/en/event/hobby-tell-mama-25/)
+  /events/hobby-tell-mama-25/ -> 404 (https://www.siegessaeule.de/events/hobby-tell-mama-25/)
+  /en/hobby-tell-mama-25/ -> 404 (https://www.siegessaeule.de/en/hobby-tell-mama-25/)
+  /termine/hobby-tell-mama-25/ -> 429 (https://www.siegessaeule.de/termine/hobby-tell-mama-25/)
+  /en/events/hobby-tell-mama-25 -> 429 (https://www.siegessaeule.de/en/events/hobby-tell-mama-25)
+  /event/hobby-tell-mama-25/ -> 404 (https://www.siegessaeule.de/event/hobby-tell-mama-25/)

@@ -221,6 +221,7 @@ class JsonLdScraper(BaseScraper):
                 f"  Events gefunden: {len(found)}\n"
                 f"{self._discover_links(response.text, url)}\n"
                 f"{self._discover_scripts(response.text)}\n"
+                f"{self._preload_snippet(response.text)}\n"
                 f"  Body (ohne CSS/JS):\n{self._body_snippet(response.text, 2500)}\n"
                 + "-" * 60
             )
@@ -232,6 +233,26 @@ class JsonLdScraper(BaseScraper):
         if self.write_debug:
             self._dump_debug(debug_lines)
         return events
+
+    def _preload_snippet(self, html: str) -> str:
+        """Dump the largest inline script around an 'event' mention.
+
+        JS-rendered pages (e.g. Sapper/Svelte) embed their data in an inline
+        script; this surfaces its shape and any API hint.
+        """
+        soup = BeautifulSoup(html, "html.parser")
+        scripts = [s.get_text() or "" for s in soup.find_all("script", src=False)]
+        if not scripts:
+            return "  (keine Inline-Skripte)"
+        blob = max(scripts, key=len)
+        low = blob.lower()
+        idx = -1
+        for needle in ("\"events\"", "events:", "event", "__sapper__", "startdate"):
+            idx = low.find(needle)
+            if idx >= 0:
+                break
+        snippet = blob[max(0, idx - 200): idx + 2500] if idx >= 0 else blob[:2500]
+        return f"  Größtes Inline-Skript ({len(blob)} Zeichen), Auszug:\n{snippet}"
 
     def _discover_scripts(self, html: str) -> str:
         """Find the data endpoint a JS-rendered page fetches its events from."""

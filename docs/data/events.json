@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-10T18:28:36.528985+00:00",
-  "count": 312,
+  "generated_at": "2026-06-11T05:30:36.325816+00:00",
+  "count": 348,
   "sources": [
     {
       "source": "Stressfaktor",
@@ -9,7 +9,7 @@
     },
     {
       "source": "Berlin Bühnen",
-      "count": 68,
+      "count": 113,
       "error": null
     },
     {
@@ -21,7 +21,7 @@
   "events": [
     {
       "title": "Vollbrecht/Herzog/Akintaya",
-      "start": "2026-06-10T00:00:00",
+      "start": "2026-06-10T20:00:00",
       "end": null,
       "location": "Donau115, Donaustraße 115, Berlin",
       "description": "Back together after eight years: Timo Vollbrecht, Florian Herzog, and Lukas Akintaya reunite for this trio. Having first crossed paths in New York, the three now return with original music shaped by jazz, improvisation, and a strong sense of play - a reunion that looks less to the past in nostalgia than forward with curiosity.",
@@ -31,245 +31,7 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": false
-    },
-    {
-      "title": "mittwochskufa",
-      "start": "2026-06-10T18:00:00",
-      "end": null,
-      "location": "Erreichbar Reichenberger Str. 63a HH 10999 Berlin Deutschland",
-      "description": "mittwochskufa  \njeden mittwoch von 18-21 uhr \nwoechetliche vegane küfa in der  erreichbar . sie ist leider nur über eine treppe zu erreichen.",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/322087",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Essen"
-      ],
       "time_known": true
-    },
-    {
-      "title": "Küfa im JUP",
-      "start": "2026-06-10T18:00:00",
-      "end": null,
-      "location": "JUP Florastr. 84 13187 Berlin Deutschland",
-      "description": "Mittwoch ist KüfA-Tag! Wir jede Woche gibt es eine leckere Küche für Alle am Mittwoch, 18 Uhr (am ersten Mittwoch im Monat um 19 Uhr mit der DWE-Küfa <3 !) gibts Essen - komm gerne schon früher vorbei zum Schnippeln und Kochen!",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/324037",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Essen"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Ende Gelände Ortsgruppen Onboarding",
-      "start": "2026-06-10T18:00:00",
-      "end": null,
-      "location": "K9 Kinzigstr 9 Berlin Deutschland",
-      "description": "⚒️ Komm zu unserem Onboarding und lerne die Berliner Ortsgruppe von Ende Gelände kennen❤️‍🔥. Am 10.06.",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327603",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Sonstiges"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Soli-Küfa für Bleiberechtskämpfe",
-      "start": "2026-06-10T18:30:00",
-      "end": null,
-      "location": "K-fetisch Wildenbruchstraße 86 12045 Berlin Deutschland",
-      "description": "Am Mittwochabend werden wir für euch leckeres kamerunisches Essenvorbereiten, um Geld für die Bleiberechtskämpfe von zwei gutenFreunden zu sammeln. Gemeinsam organisieren wir uns seit über 2Jahren gegen das rassistische Grenzregime und Kettenduldung. Wir",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327652",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Essen"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Soli-Küfa, jeden Mittwoch 19 Uhr",
-      "start": "2026-06-10T19:00:00",
-      "end": null,
-      "location": "B-Lage Mareschstr. 1 12055 Berlin Deutschland",
-      "description": "Soli- KüfaShort url: \nhttps://squ.at/r/api6",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/326947",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Essen"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Konzert",
-      "start": "2026-06-10T19:00:00",
-      "end": null,
-      "location": "Schokoladen Ackerstrasse 169 10115 Berlin Deutschland",
-      "description": "little league shows prsnts: 250CC [fuzz garage pop duo°bln] + Halfsilks [post punk indie pop°bln]",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327331",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Konzert"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Offenes Antifa Treffen",
-      "start": "2026-06-10T19:00:00",
-      "end": null,
-      "location": "Bandito Rosso Lottumstr. 10a 10119 Berlin Deutschland",
-      "description": "*English below*",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327509",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Diskussion"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Konzert",
-      "start": "2026-06-10T19:00:00",
-      "end": null,
-      "location": "Regenbogenfabrik Lausitzer Str. 21a 10999 Berlin Deutschland",
-      "description": "\"TANGO FOLK\"\nSoli-Konzert mit Quena Tapia & Carly Quiroz | Musik aus Lateinamerika\nEinlass 19:00, Beginn 19:30\nQuena Tapia: Gesang, Gitarre – Carly Quiroz: Keyboard / Klavier",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327642",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Konzert"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Soli Küfa in supporting a comrade’s right to stay",
-      "start": "2026-06-10T19:00:00",
-      "end": null,
-      "location": "Berlin Berlin Deutschland",
-      "description": "We invite you to join Soli Küfa in supporting a comrade’s right to stay by FNB",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327675",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Sonstiges"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "INFOVERANSTALTUNG: KENN DEINE RECHTE!",
-      "start": "2026-06-10T19:00:29",
-      "end": null,
-      "location": "Bunte Kuh Bernkastelerstr. 78 13088 Berlin Deutschland",
-      "description": "An diesem Mittwoch findet ab 18:00 Uhr eine Infoveranstaltung mit zwei Anwält*innen statt. Hierwird es Input zu aktuellen Gesetzeslagen im Bereich Versammlungsfreiheit, Polizeigesetzen uvm. geben,sowie Raum für Fragestellungen und Diskussion.",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327687",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Protest"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Irish Trad Session",
-      "start": "2026-06-10T20:00:00",
-      "end": null,
-      "location": "Filmrisz Filmrisz Rigaerstr. 103 10247 Berlin Deutschland",
-      "description": "Ein fester Kern und wechselnde Gäste spielen zusammen life und akustisch irische Tunes und Jigs. \nMusiker sind willkommen mitzumachen (solange sie in der Tradition spielen).\nAlle anderen sind herzlich wilkommen zu genießen.",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/323323",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Konzert"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "KüFa (Kitchen for all)",
-      "start": "2026-06-10T20:00:00",
-      "end": null,
-      "location": "Kadterschmiede Rigaer Str. 94 10245 Berlin Deutschland",
-      "description": "Vegan Fooood\nFood,Drinks,Music\npartially smokefree\nIrregular events and discussions - there is a garden and sometimes a firebin\nThe entrance is elevated but there is a ramp, the toilet is moderately accessible",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/324329",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Film"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "PöKü - Küche für Alle!",
-      "start": "2026-06-10T20:00:00",
-      "end": null,
-      "location": "Vetomat Wühlischstr. 42 10247 Berlin Deutschland",
-      "description": "Wie immer bescheidene veggie Küche (diesmal vom Full Spoon Collective) für alle und bescheidenes kaltes Bier ;-)",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327699",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Essen"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Vegane Küfa",
-      "start": "2026-06-10T20:15:00",
-      "end": null,
-      "location": "KuBiZ Bernkasteler Str. 78 13088 Berlin Deutschland",
-      "description": "Leckere Vegane Küfa im Offenen Raum!\nJeden Mittwoch ab ca. 20.15 Uhr (vor dem Film) Spende erbeten",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/323615",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Essen"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "ELLBOGEN",
-      "start": "2026-06-10T20:30:00",
-      "end": null,
-      "location": "Maxim Gorki Theater",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/aa327377e835a3977950689ff9152f47.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/ellbogen/events/365147/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "VideoKino (Open Air)",
-      "start": "2026-06-10T21:30:00",
-      "end": null,
-      "location": "KuBiZ Bernkasteler Str. 78 13088 Berlin Deutschland",
-      "description": "VOLVER – ZURÜCKKEHREN Spielfilm, Spanien 2006, 115 min, R: Pedro Almodóvar",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327510",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Film"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Thursday Jazz Jam",
-      "start": "2026-06-11T00:00:00",
-      "end": null,
-      "location": "Donau115, Donaustraße 115, Berlin",
-      "description": "FEAT. SWINGING LINEUPS EVERY WEEK\ndoors: 19:30 / opening set: 20:00 / jam: 21:00",
-      "image_url": null,
-      "source_url": "https://www.donau115.de",
-      "source_name": "Donau115",
-      "tags": [
-        "Konzert"
-      ],
-      "time_known": false
     },
     {
       "title": "Studio 9. Der Tag mit Paul Ronzheimer",
@@ -664,6 +426,20 @@
       "time_known": true
     },
     {
+      "title": "Thursday Jazz Jam",
+      "start": "2026-06-11T20:00:00",
+      "end": null,
+      "location": "Donau115, Donaustraße 115, Berlin",
+      "description": "FEAT. SWINGING LINEUPS EVERY WEEK\ndoors: 19:30 / opening set: 20:00 / jam: 21:00",
+      "image_url": null,
+      "source_url": "https://www.donau115.de",
+      "source_name": "Donau115",
+      "tags": [
+        "Konzert"
+      ],
+      "time_known": true
+    },
+    {
       "title": "Filmabend im K(P)",
       "start": "2026-06-11T21:00:00",
       "end": null,
@@ -676,20 +452,6 @@
         "Film"
       ],
       "time_known": true
-    },
-    {
-      "title": "Seth Sjöström Quintet - Album Release",
-      "start": "2026-06-12T00:00:00",
-      "end": null,
-      "location": "Donau115, Donaustraße 115, Berlin",
-      "description": "Seth Sjöström (*2000) is a bass player and composer from northern Sweden currently based Berlin. With a foundation in Jazz, free improvisation and Swedish folk music, he's constantly looking for new ways to express himself as well as communicating with others through art. He's greatly inspired by the harsh but honest nature of northern Sweden and is driven by the will to use music as a tool to build a genuine connection to himself, other people and the world around him.\nOn the 12th of June 2026, Seth releases his new album \"\"Kom Hem\"\" together with his quintet.\nDeeply personal yet widely resonant, his songwriting has connected with audiences and musicians worldwide, with his work recorded by artists from Emilia Mårtensson to the RTV Slovenian Big Band. In his own words, his music is rooted in a belief that songs can help people better understand themselves and their lives.\nThis special double bill brings together two singular voices in contemporary music, joined by acclaimed pianist Matt Robinson and saxophonist Adam Waldmann for an evening of evocative, boundary-crossing music.",
-      "image_url": null,
-      "source_url": "https://www.donau115.de",
-      "source_name": "Donau115",
-      "tags": [
-        "Konzert"
-      ],
-      "time_known": false
     },
     {
       "title": "Lila Lama Bildungsfestival (DWE & Friends)",
@@ -972,20 +734,6 @@
       "time_known": true
     },
     {
-      "title": "Goodbye Berlin",
-      "start": "2026-06-12T19:30:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/f1bd5e1d3b40185c44189ada50c98c02.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/goodbye-berlin/events/368916/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Call me Paris",
       "start": "2026-06-12T19:30:00",
       "end": null,
@@ -993,6 +741,20 @@
       "description": null,
       "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/f21ce3b69e3722af3aaa5aefa961cbc8.jpg",
       "source_url": "https://www.berlin-buehnen.de/de/spielplan/call-me-paris/events/367262/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Goodbye Berlin",
+      "start": "2026-06-12T19:30:00",
+      "end": null,
+      "location": "Volksbühne am Rosa-Luxemburg-Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/f1bd5e1d3b40185c44189ada50c98c02.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/goodbye-berlin/events/368916/",
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
@@ -1112,20 +874,6 @@
       "time_known": true
     },
     {
-      "title": "The Color Scheme",
-      "start": "2026-06-12T20:00:00",
-      "end": null,
-      "location": "Haus der Kulturen der Welt",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/1dad660c99438cfa48f39dc421d4a666.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/the-color-scheme/events/368366/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Paradiesische Zustände",
       "start": "2026-06-12T20:00:00",
       "end": null,
@@ -1164,6 +912,34 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "The Color Scheme",
+      "start": "2026-06-12T20:00:00",
+      "end": null,
+      "location": "Haus der Kulturen der Welt",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/1dad660c99438cfa48f39dc421d4a666.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/the-color-scheme/events/368366/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Seth Sjöström Quintet - Album Release",
+      "start": "2026-06-12T20:00:00",
+      "end": null,
+      "location": "Donau115, Donaustraße 115, Berlin",
+      "description": "Seth Sjöström (*2000) is a bass player and composer from northern Sweden currently based Berlin. With a foundation in Jazz, free improvisation and Swedish folk music, he's constantly looking for new ways to express himself as well as communicating with others through art. He's greatly inspired by the harsh but honest nature of northern Sweden and is driven by the will to use music as a tool to build a genuine connection to himself, other people and the world around him.\nOn the 12th of June 2026, Seth releases his new album \"\"Kom Hem\"\" together with his quintet.\nDeeply personal yet widely resonant, his songwriting has connected with audiences and musicians worldwide, with his work recorded by artists from Emilia Mårtensson to the RTV Slovenian Big Band. In his own words, his music is rooted in a belief that songs can help people better understand themselves and their lives.\nThis special double bill brings together two singular voices in contemporary music, joined by acclaimed pianist Matt Robinson and saxophonist Adam Waldmann for an evening of evocative, boundary-crossing music.",
+      "image_url": null,
+      "source_url": "https://www.donau115.de",
+      "source_name": "Donau115",
+      "tags": [
+        "Konzert"
       ],
       "time_known": true
     },
@@ -1264,20 +1040,6 @@
         "Party"
       ],
       "time_known": true
-    },
-    {
-      "title": "Kaiser Pommes",
-      "start": "2026-06-13T00:00:00",
-      "end": null,
-      "location": "Donau115, Donaustraße 115, Berlin",
-      "description": "* a note from Kaiser Pommes *\nDear all,\nWe are hitting the german roads again, coming back to Donau115, we are very excited.\nAs our members are currently spread out between NYC, Copenhagen & Berlin, it shall be interesting to hear what each of us will bring with us on to the stage; fresh improvised fire, new melodographic weaverings, further hybrid beats, whatever and/or even more.\nCome see for yourselves, we hope you will!\"",
-      "image_url": null,
-      "source_url": "https://www.donau115.de",
-      "source_name": "Donau115",
-      "tags": [
-        "Konzert"
-      ],
-      "time_known": false
     },
     {
       "title": "Dorfplatz Frühstück & Demo",
@@ -1784,6 +1546,20 @@
       "time_known": true
     },
     {
+      "title": "Kaiser Pommes",
+      "start": "2026-06-13T20:00:00",
+      "end": null,
+      "location": "Donau115, Donaustraße 115, Berlin",
+      "description": "* a note from Kaiser Pommes *\nDear all,\nWe are hitting the german roads again, coming back to Donau115, we are very excited.\nAs our members are currently spread out between NYC, Copenhagen & Berlin, it shall be interesting to hear what each of us will bring with us on to the stage; fresh improvised fire, new melodographic weaverings, further hybrid beats, whatever and/or even more.\nCome see for yourselves, we hope you will!\"",
+      "image_url": null,
+      "source_url": "https://www.donau115.de",
+      "source_name": "Donau115",
+      "tags": [
+        "Konzert"
+      ],
+      "time_known": true
+    },
+    {
       "title": "Konzert",
       "start": "2026-06-13T21:30:00",
       "end": null,
@@ -1824,20 +1600,6 @@
         "Theater"
       ],
       "time_known": true
-    },
-    {
-      "title": "Adam Winchester",
-      "start": "2026-06-14T00:00:00",
-      "end": null,
-      "location": "Donau115, Donaustraße 115, Berlin",
-      "description": "“Dubby DIY dance music with brilliant sound design\"\nResident Advisor\n”Deep, richly textured, Dub to Industrial to Clicks ’n Cuts leaning Electronics”\nHardwax\nWinchester’s industrial soundscaping suggests mainframes on the fritz and nuclear cores in meltdown, dystopian sci-fi fantasies playing out on a galactic scale.”\nPitchfork\nAdam Winchester is an electronic musician and live performer whose work applies dub mixing techniques to experimental electronic music. His live sets centre on the mixer as an instrument, using delay, echo, and spatial processing to reshape bass driven rhythms, found sounds, modular synthesis, bespoke instruments, feedback systems, and heavily manipulated samples in real time.\nWith roots in Bristol’s dubstep scene as Wedge, and a long-running practice operating between bass music and exploratory sound design, Winchester has developed a distinctive approach that prioritises space, repetition, and gradual transformation fused with tropes of Dub, IDM and the hardcore continuum. He has released on revered labels Osiris Music, Soil, and Mindwaves, with a forthcoming LP on Oval Harmonique set to drop on vinyl later this year.\nAlongside solo work, his collaborative projects include Wrecked Lightship and Dot Product, with acclaimed releases on Midnight Shift, and Peak Oil, spanning experimental performance, club contexts, and installation work. His music also involves collaborations with Renate Knaup of Amon Düül II, the BBC Radiophonic Workshop, and Japanese Noise artist KK Nüll, alongside performances at festivals including Berlin Atonal, Krake, and Boiler Room.",
-      "image_url": null,
-      "source_url": "https://www.donau115.de",
-      "source_name": "Donau115",
-      "tags": [
-        "Konzert"
-      ],
-      "time_known": false
     },
     {
       "title": "Neocypherpunk Summit",
@@ -2204,6 +1966,20 @@
       "time_known": true
     },
     {
+      "title": "Adam Winchester",
+      "start": "2026-06-14T20:00:00",
+      "end": null,
+      "location": "Donau115, Donaustraße 115, Berlin",
+      "description": "“Dubby DIY dance music with brilliant sound design\"\nResident Advisor\n”Deep, richly textured, Dub to Industrial to Clicks ’n Cuts leaning Electronics”\nHardwax\nWinchester’s industrial soundscaping suggests mainframes on the fritz and nuclear cores in meltdown, dystopian sci-fi fantasies playing out on a galactic scale.”\nPitchfork\nAdam Winchester is an electronic musician and live performer whose work applies dub mixing techniques to experimental electronic music. His live sets centre on the mixer as an instrument, using delay, echo, and spatial processing to reshape bass driven rhythms, found sounds, modular synthesis, bespoke instruments, feedback systems, and heavily manipulated samples in real time.\nWith roots in Bristol’s dubstep scene as Wedge, and a long-running practice operating between bass music and exploratory sound design, Winchester has developed a distinctive approach that prioritises space, repetition, and gradual transformation fused with tropes of Dub, IDM and the hardcore continuum. He has released on revered labels Osiris Music, Soil, and Mindwaves, with a forthcoming LP on Oval Harmonique set to drop on vinyl later this year.\nAlongside solo work, his collaborative projects include Wrecked Lightship and Dot Product, with acclaimed releases on Midnight Shift, and Peak Oil, spanning experimental performance, club contexts, and installation work. His music also involves collaborations with Renate Knaup of Amon Düül II, the BBC Radiophonic Workshop, and Japanese Noise artist KK Nüll, alongside performances at festivals including Berlin Atonal, Krake, and Boiler Room.",
+      "image_url": null,
+      "source_url": "https://www.donau115.de",
+      "source_name": "Donau115",
+      "tags": [
+        "Konzert"
+      ],
+      "time_known": true
+    },
+    {
       "title": "Messy Salon #1",
       "start": "2026-06-14T20:30:00",
       "end": null,
@@ -2456,20 +2232,6 @@
       "time_known": true
     },
     {
-      "title": "Two-Song Tuesday (MUSIC STARTS 20:00)",
-      "start": "2026-06-16T00:00:00",
-      "end": null,
-      "location": "Donau115, Donaustraße 115, Berlin",
-      "description": "/////// TWO-SONG TUESDAY ///////\n[sign up 19:30 // start 20:00]\nCALLING ALL SONGWRITERS, COMPOSERS, INSTRUMENTALISTS, POETS, WRITERS, STORYTELLERS, SYNTH WIZARDS, BAGPIPE SAVANTS, BROKEN HEARTS, TAP DANCERS, POLE DANCERS, MIND MELDERS, RACE CAR DRIVERS, AND AGNOSTIC SAINTS!\nDo you have new solo/duo/small group material to present? Join us for Donau115's regular open stage series, Two-Song Tuesday.\nSign-up: 19:30\nSet 1: 20:00\nSet 2: 21:15\nSet 3: 22:15\n\"The Same Procedure as Every Week, James.\"\n- The random-order setlists appear at 19:45 at http://donau115.de\n- First come, first booked, randomly-assigned slot, 15 slots per night + an overflow maybe list that we rarely get to.\n- The bar staff tell you how to sign up, starting at 7.30pm. It is usually a link to an online sign-up form.\n- Your set may include TWO SONGS or last TEN MINUTES, WHICHEVER IS SHORTER (e.g. two seven-minute songs = NO, three three-minute songs = NO).\n- NO SOUNDCHECKS. Be ready. Slip on, blow minds, slip off. Setup is 90 seconds.\n- Sets are no longer than 10 minutes. THERE IS A STOPWATCH TO ENSURE THIS. If your set goes beyond 10 minutes, the stopwatch goes off in the middle of your song. (The alarm sound is in the key of C#, FYI, so modulate to that key for a smooth overtime ending.)\n- For the love of God, DO NOT PLAY THE SAME SONG OVER AND OVER EVERY WEEK. THIS IS BORING. TRY NEW THINGS. WE ADORE YOU. TAKE RISKS! ❤ ❤ ❤\n- Out of respect for our neighbours:\n--- you may NOT use loud percussion or send loud bass-heavy signals into the PA.\n--- you may NOT bring your own amp\n--- you are welcome to use the following itwms from our backline: piano, two generic vocal microphones, and a guitar cable directly into our PA.\n--- DON'T COUNT ON US HAVING ANYTHING OTHER THAN THE FEW THINGS LISTED ABOVE. COME PREPARED.\nFurther questions?\ninfo@donau115.de",
-      "image_url": null,
-      "source_url": "https://www.donau115.de",
-      "source_name": "Donau115",
-      "tags": [
-        "Konzert"
-      ],
-      "time_known": false
-    },
-    {
       "title": "Flinta*only Kickern",
       "start": "2026-06-16T18:00:00",
       "end": null,
@@ -2694,6 +2456,20 @@
       "time_known": true
     },
     {
+      "title": "Two-Song Tuesday (MUSIC STARTS 20:00)",
+      "start": "2026-06-16T20:00:00",
+      "end": null,
+      "location": "Donau115, Donaustraße 115, Berlin",
+      "description": "/////// TWO-SONG TUESDAY ///////\n[sign up 19:30 // start 20:00]\nCALLING ALL SONGWRITERS, COMPOSERS, INSTRUMENTALISTS, POETS, WRITERS, STORYTELLERS, SYNTH WIZARDS, BAGPIPE SAVANTS, BROKEN HEARTS, TAP DANCERS, POLE DANCERS, MIND MELDERS, RACE CAR DRIVERS, AND AGNOSTIC SAINTS!\nDo you have new solo/duo/small group material to present? Join us for Donau115's regular open stage series, Two-Song Tuesday.\nSign-up: 19:30\nSet 1: 20:00\nSet 2: 21:15\nSet 3: 22:15\n\"The Same Procedure as Every Week, James.\"\n- The random-order setlists appear at 19:45 at http://donau115.de\n- First come, first booked, randomly-assigned slot, 15 slots per night + an overflow maybe list that we rarely get to.\n- The bar staff tell you how to sign up, starting at 7.30pm. It is usually a link to an online sign-up form.\n- Your set may include TWO SONGS or last TEN MINUTES, WHICHEVER IS SHORTER (e.g. two seven-minute songs = NO, three three-minute songs = NO).\n- NO SOUNDCHECKS. Be ready. Slip on, blow minds, slip off. Setup is 90 seconds.\n- Sets are no longer than 10 minutes. THERE IS A STOPWATCH TO ENSURE THIS. If your set goes beyond 10 minutes, the stopwatch goes off in the middle of your song. (The alarm sound is in the key of C#, FYI, so modulate to that key for a smooth overtime ending.)\n- For the love of God, DO NOT PLAY THE SAME SONG OVER AND OVER EVERY WEEK. THIS IS BORING. TRY NEW THINGS. WE ADORE YOU. TAKE RISKS! ❤ ❤ ❤\n- Out of respect for our neighbours:\n--- you may NOT use loud percussion or send loud bass-heavy signals into the PA.\n--- you may NOT bring your own amp\n--- you are welcome to use the following itwms from our backline: piano, two generic vocal microphones, and a guitar cable directly into our PA.\n--- DON'T COUNT ON US HAVING ANYTHING OTHER THAN THE FEW THINGS LISTED ABOVE. COME PREPARED.\nFurther questions?\ninfo@donau115.de",
+      "image_url": null,
+      "source_url": "https://www.donau115.de",
+      "source_name": "Donau115",
+      "tags": [
+        "Konzert"
+      ],
+      "time_known": true
+    },
+    {
       "title": "LatinoKino",
       "start": "2026-06-16T20:15:00",
       "end": null,
@@ -2706,20 +2482,6 @@
         "Film"
       ],
       "time_known": true
-    },
-    {
-      "title": "Cravo e Canela 4tet",
-      "start": "2026-06-17T00:00:00",
-      "end": null,
-      "location": "Donau115, Donaustraße 115, Berlin",
-      "description": "Brazilian folk traditions and contemporary songwriting blended with improvisation and open musical dialogue.",
-      "image_url": null,
-      "source_url": "https://www.donau115.de",
-      "source_name": "Donau115",
-      "tags": [
-        "Konzert"
-      ],
-      "time_known": false
     },
     {
       "title": "Die Welt im Umbruch: Emotionen und Solidarität",
@@ -2792,20 +2554,6 @@
       "time_known": true
     },
     {
-      "title": "Beziehungskiller Wohnungskrise – Über das Zusammenleben unter Bedingungen der Knappheit",
-      "start": "2026-06-17T18:30:00",
-      "end": null,
-      "location": "Humboldt Forum",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/93b92db01e4e32badfbe55df6e3a5eb1.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/beziehungskiller-wohnungskrise-ueber-zusammenleben-bedingungen-knappheit/events/369257/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Romani POV: Young Roma on Screen and Stage",
       "start": "2026-06-17T18:30:00",
       "end": null,
@@ -2813,6 +2561,20 @@
       "description": null,
       "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/3007a0c914514768c01528563c715ae9.jpg",
       "source_url": "https://www.berlin-buehnen.de/de/spielplan/romani-pov-young-roma-on-screen-and-stage/events/368113/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Beziehungskiller Wohnungskrise – Über das Zusammenleben unter Bedingungen der Knappheit",
+      "start": "2026-06-17T18:30:00",
+      "end": null,
+      "location": "Humboldt Forum",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/93b92db01e4e32badfbe55df6e3a5eb1.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/beziehungskiller-wohnungskrise-ueber-zusammenleben-bedingungen-knappheit/events/369257/",
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
@@ -2988,6 +2750,20 @@
       "time_known": true
     },
     {
+      "title": "Cravo e Canela 4tet",
+      "start": "2026-06-17T20:00:00",
+      "end": null,
+      "location": "Donau115, Donaustraße 115, Berlin",
+      "description": "Brazilian folk traditions and contemporary songwriting blended with improvisation and open musical dialogue.",
+      "image_url": null,
+      "source_url": "https://www.donau115.de",
+      "source_name": "Donau115",
+      "tags": [
+        "Konzert"
+      ],
+      "time_known": true
+    },
+    {
       "title": "Vegane Küfa",
       "start": "2026-06-17T20:15:00",
       "end": null,
@@ -3014,20 +2790,6 @@
         "Film"
       ],
       "time_known": true
-    },
-    {
-      "title": "Thursday Jazz Jam",
-      "start": "2026-06-18T00:00:00",
-      "end": null,
-      "location": "Donau115, Donaustraße 115, Berlin",
-      "description": "FEAT. SWINGING LINEUPS EVERY WEEK\ndoors: 19:30 / opening set: 20:00 / jam: 21:00",
-      "image_url": null,
-      "source_url": "https://www.donau115.de",
-      "source_name": "Donau115",
-      "tags": [
-        "Konzert"
-      ],
-      "time_known": false
     },
     {
       "title": "Die solidarische Jobcenter-Sozialberatung",
@@ -3268,6 +3030,20 @@
       "time_known": true
     },
     {
+      "title": "Egal",
+      "start": "2026-06-18T19:30:00",
+      "end": null,
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/76be035fcf29ecc136ddd86e7de00ba0.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/egal/events/367278/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
       "title": "This is waving salon",
       "start": "2026-06-18T19:30:00",
       "end": null,
@@ -3289,20 +3065,6 @@
       "description": null,
       "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/f1bd5e1d3b40185c44189ada50c98c02.jpg",
       "source_url": "https://www.berlin-buehnen.de/de/spielplan/goodbye-berlin/events/368917/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Egal",
-      "start": "2026-06-18T19:30:00",
-      "end": null,
-      "location": "Schaubühne am Lehniner Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/76be035fcf29ecc136ddd86e7de00ba0.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/egal/events/367278/",
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
@@ -3338,6 +3100,48 @@
       "time_known": true
     },
     {
+      "title": "Mi Madre y el Dinero",
+      "start": "2026-06-18T20:00:00",
+      "end": null,
+      "location": "HAU Hebbel am Ufer",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/976dfa6c1e74da77a545cf9cae20231b.JPG",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/mi-madre-y-el-dinero/events/367595/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "TWINK DEATH",
+      "start": "2026-06-18T20:00:00",
+      "end": null,
+      "location": "Volksbühne am Rosa-Luxemburg-Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/a037576cc985d29a688b3ae92e5c0187.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/twink-death/events/368108/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Thursday Jazz Jam",
+      "start": "2026-06-18T20:00:00",
+      "end": null,
+      "location": "Donau115, Donaustraße 115, Berlin",
+      "description": "FEAT. SWINGING LINEUPS EVERY WEEK\ndoors: 19:30 / opening set: 20:00 / jam: 21:00",
+      "image_url": null,
+      "source_url": "https://www.donau115.de",
+      "source_name": "Donau115",
+      "tags": [
+        "Konzert"
+      ],
+      "time_known": true
+    },
+    {
       "title": "Konzert",
       "start": "2026-06-18T21:00:00",
       "end": null,
@@ -3364,20 +3168,6 @@
         "Film"
       ],
       "time_known": true
-    },
-    {
-      "title": "Meinberg/Greve/Wesley",
-      "start": "2026-06-19T00:00:00",
-      "end": null,
-      "location": "Donau115, Donaustraße 115, Berlin",
-      "description": "Lajos Meinberg grew up in a family of musicians, which nurtured his love for jazz from an early age. Since 2020, he has been studying at the Jazz Institute Berlin under Wolfgang Köhler, Tino Dorado, and Bastian Stein, and has been actively involved in the Berlin jazz scene since then. He has had the opportunity to perform with musicians such as Rodney Green, Doug Weiss, Matt Wilson and Martin Wind. Lajos received the Ingolf Burkhardt Award in 2022 and won first prize at the International Jazzhaus Piano Competition in Freiburg in 2024, as well as second prize at the International Jazz Piano Competition Lausanne in 2025. In August 2023, Lajos was part of the Elbphilharmonie Jazz Academy, where he had the chance to learn from musicians like Anat Cohen, Donny McCaslin, and Sullivan Fortner.\nJohann Greve is a double bassist and composer from Lower Saxony. Since moving to Berlin in 2019, he has worked as a sideman on a wide variety of projects and established himself in the young Berlin jazz scene. He has performed with Percy Pursglove, Julius Gawlik, Charlotte Greve and Olga Reznichenko, among others. In March 2024, he recorded material for his debut album with his quartet.\nCalifornia-born drummer Genius Wesley is an emerging force on the international jazz scene, known for his electrifying energy, deep musicality, and fearless improvisation. A prodigy percussionist, he has already performed with jazz greats such as David Binney, Sean Jones, Buster Williams, Azar Lawrence, Gerald Clayton, and many more.",
-      "image_url": null,
-      "source_url": "https://www.donau115.de",
-      "source_name": "Donau115",
-      "tags": [
-        "Konzert"
-      ],
-      "time_known": false
     },
     {
       "title": "Summer.Sun.Done",
@@ -3436,6 +3226,48 @@
       "time_known": true
     },
     {
+      "title": "Ich schneide schneller",
+      "start": "2026-06-19T17:00:00",
+      "end": null,
+      "location": "Volksbühne am Rosa-Luxemburg-Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/00373c065781021bee8e2e70798b1cd1.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/ich-schneide-schneller/events/368119/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Und jetzt?",
+      "start": "2026-06-19T17:00:00",
+      "end": null,
+      "location": "Volksbühne am Rosa-Luxemburg-Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/382eadd98d3017aaaf231ab9d0a25d89.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/und-jetzt/events/368155/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Angela Alves: Never Rest (After Work Tours #2)",
+      "start": "2026-06-19T17:30:00",
+      "end": null,
+      "location": "Sophiensæle",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/6a23c2590b8712b258382ae842c96e31.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/angela-alves-never-rest-after-work-tours-2/events/367969/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
       "title": "Filmfestival - \"Aus der Nacht heraus\"",
       "start": "2026-06-19T18:00:00",
       "end": null,
@@ -3446,6 +3278,34 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Film"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "P14 – endlich endlich",
+      "start": "2026-06-19T18:00:00",
+      "end": null,
+      "location": "Volksbühne am Rosa-Luxemburg-Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/e460ca489510b3a2c7b291bffd2194c9.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/p14-endlich-endlich/events/368114/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Humboldting #10 Social Muscle Club",
+      "start": "2026-06-19T18:00:00",
+      "end": null,
+      "location": "Humboldt Forum",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/83949d596feae0f1841a39b461128a49.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/humboldting-10-social-muscle-club/events/369261/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
       ],
       "time_known": true
     },
@@ -3562,6 +3422,48 @@
       "time_known": true
     },
     {
+      "title": "Mi Madre y el Dinero",
+      "start": "2026-06-19T19:00:00",
+      "end": null,
+      "location": "HAU Hebbel am Ufer",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/976dfa6c1e74da77a545cf9cae20231b.JPG",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/mi-madre-y-el-dinero/events/367596/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Moya Michael: It’s like a Finger Pointing a Way to the Moon",
+      "start": "2026-06-19T19:00:00",
+      "end": null,
+      "location": "Sophiensæle",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/177476f103c9e27367d3115dbac6b195.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/moya-michael-its-like-a-finger-pointing-a-way-to-the-moon/events/367981/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Abschlussfest",
+      "start": "2026-06-19T19:00:00",
+      "end": null,
+      "location": "Volksbühne am Rosa-Luxemburg-Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/e460ca489510b3a2c7b291bffd2194c9.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/abschlussfest/events/368814/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
       "title": "Kneipe & Briefe an Gefangene schreiben",
       "start": "2026-06-19T20:00:00",
       "end": null,
@@ -3576,18 +3478,60 @@
       "time_known": true
     },
     {
-      "title": "MUSViT",
-      "start": "2026-06-20T00:00:00",
+      "title": "Salome",
+      "start": "2026-06-19T20:00:00",
+      "end": null,
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/360ce498e8891fe859b125efe27ee092.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/salome-605/events/367280/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Meinberg/Greve/Wesley",
+      "start": "2026-06-19T20:00:00",
       "end": null,
       "location": "Donau115, Donaustraße 115, Berlin",
-      "description": "Known for their unique and genre-defying music, the Danish-Swedish quartet MUSViT quickly established themselves both as a critically acclaimed live band and with their triple Danish Music Awards-nominated debut EP. With a unique line-up of drums, bass, tenor sax and vocals with touches of vocoder and alto sax, the band is inspired by everything from free-jazz to hip-hop. In a minimalist but powerful burst of energy they create a new sound and invite you into their playful universe, where anything can happen, as long as it serves the music. This evening they will celebrate the release of their debut album 'SUKKER' that's coming out on the 22nd of May.",
+      "description": "Lajos Meinberg grew up in a family of musicians, which nurtured his love for jazz from an early age. Since 2020, he has been studying at the Jazz Institute Berlin under Wolfgang Köhler, Tino Dorado, and Bastian Stein, and has been actively involved in the Berlin jazz scene since then. He has had the opportunity to perform with musicians such as Rodney Green, Doug Weiss, Matt Wilson and Martin Wind. Lajos received the Ingolf Burkhardt Award in 2022 and won first prize at the International Jazzhaus Piano Competition in Freiburg in 2024, as well as second prize at the International Jazz Piano Competition Lausanne in 2025. In August 2023, Lajos was part of the Elbphilharmonie Jazz Academy, where he had the chance to learn from musicians like Anat Cohen, Donny McCaslin, and Sullivan Fortner.\nJohann Greve is a double bassist and composer from Lower Saxony. Since moving to Berlin in 2019, he has worked as a sideman on a wide variety of projects and established himself in the young Berlin jazz scene. He has performed with Percy Pursglove, Julius Gawlik, Charlotte Greve and Olga Reznichenko, among others. In March 2024, he recorded material for his debut album with his quartet.\nCalifornia-born drummer Genius Wesley is an emerging force on the international jazz scene, known for his electrifying energy, deep musicality, and fearless improvisation. A prodigy percussionist, he has already performed with jazz greats such as David Binney, Sean Jones, Buster Williams, Azar Lawrence, Gerald Clayton, and many more.",
       "image_url": null,
       "source_url": "https://www.donau115.de",
       "source_name": "Donau115",
       "tags": [
         "Konzert"
       ],
-      "time_known": false
+      "time_known": true
+    },
+    {
+      "title": "Ea Torrado: Brown Madonna",
+      "start": "2026-06-19T20:30:00",
+      "end": null,
+      "location": "Sophiensæle",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/d37b7f8a7dc70bf31063b8bdc21d2400.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/ea-torrado-brown-madonna/events/367979/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Sonora Berlín",
+      "start": "2026-06-19T21:00:00",
+      "end": null,
+      "location": "Volksbühne am Rosa-Luxemburg-Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/65e7b8f3e8692e021cba9b9096f944c2.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/sonora-berlin/events/368138/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
     },
     {
       "title": "Tropenbude Bar und Garten offen",
@@ -3660,6 +3604,20 @@
       "time_known": true
     },
     {
+      "title": "Humboldting #10 Social Muscle Club",
+      "start": "2026-06-20T17:00:00",
+      "end": null,
+      "location": "Humboldt Forum",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/83949d596feae0f1841a39b461128a49.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/humboldting-10-social-muscle-club/events/369262/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
       "title": "Rundgang Ausstellung „Die Anarchie ist das Leben der Menschen, die dem Joche entronnen sind.“",
       "start": "2026-06-20T17:30:00",
       "end": null,
@@ -3670,6 +3628,20 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Diskussion"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Angela Alves: Never Rest (After Work Tours #2)",
+      "start": "2026-06-20T17:30:00",
+      "end": null,
+      "location": "Sophiensæle",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/6a23c2590b8712b258382ae842c96e31.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/angela-alves-never-rest-after-work-tours-2/events/367970/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
       ],
       "time_known": true
     },
@@ -3688,6 +3660,20 @@
       "time_known": true
     },
     {
+      "title": "Freedom of Movement",
+      "start": "2026-06-20T18:00:00",
+      "end": null,
+      "location": "Volksbühne am Rosa-Luxemburg-Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/b2234486d448820f548561705ef37392.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/freedom-of-movement/events/368121/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
       "title": "Gaybar",
       "start": "2026-06-20T19:00:00",
       "end": null,
@@ -3702,6 +3688,34 @@
       "time_known": true
     },
     {
+      "title": "Moya Michael: It’s like a Finger Pointing a Way to the Moon",
+      "start": "2026-06-20T19:00:00",
+      "end": null,
+      "location": "Sophiensæle",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/177476f103c9e27367d3115dbac6b195.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/moya-michael-its-like-a-finger-pointing-a-way-to-the-moon/events/367982/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Oratorium – Kollektive Andacht zu einem wohlgehüteten Geheimnis",
+      "start": "2026-06-20T19:00:00",
+      "end": null,
+      "location": "HAU Hebbel am Ufer",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/3f05b10dfcb4090975987669019acc53.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/oratorium-kollektive-andacht-wohlgehueteten-geheimnis/events/368350/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
       "title": "Lesung & Buchvorstellung",
       "start": "2026-06-20T19:30:00",
       "end": null,
@@ -3712,6 +3726,34 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Being Young",
+      "start": "2026-06-20T19:30:00",
+      "end": null,
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/f9fc79ec2142925fa940e1a08b0725ac.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/being-young/events/367462/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Salon Ma ما",
+      "start": "2026-06-20T19:30:00",
+      "end": null,
+      "location": "Volksbühne am Rosa-Luxemburg-Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/c51c9dfb7930bea121aa4849f79666da.jpeg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/salon-ma/events/368130/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
       ],
       "time_known": true
     },
@@ -3758,6 +3800,48 @@
       "time_known": true
     },
     {
+      "title": "Salome",
+      "start": "2026-06-20T20:00:00",
+      "end": null,
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/360ce498e8891fe859b125efe27ee092.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/salome-605/events/367281/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Love Me Tender",
+      "start": "2026-06-20T20:00:00",
+      "end": null,
+      "location": "Volksbühne am Rosa-Luxemburg-Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/182055a863bc88f0cebdb61f85b082dc.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/love-me-tender/events/368145/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "MUSViT",
+      "start": "2026-06-20T20:00:00",
+      "end": null,
+      "location": "Donau115, Donaustraße 115, Berlin",
+      "description": "Known for their unique and genre-defying music, the Danish-Swedish quartet MUSViT quickly established themselves both as a critically acclaimed live band and with their triple Danish Music Awards-nominated debut EP. With a unique line-up of drums, bass, tenor sax and vocals with touches of vocoder and alto sax, the band is inspired by everything from free-jazz to hip-hop. In a minimalist but powerful burst of energy they create a new sound and invite you into their playful universe, where anything can happen, as long as it serves the music. This evening they will celebrate the release of their debut album 'SUKKER' that's coming out on the 22nd of May.",
+      "image_url": null,
+      "source_url": "https://www.donau115.de",
+      "source_name": "Donau115",
+      "tags": [
+        "Konzert"
+      ],
+      "time_known": true
+    },
+    {
       "title": "Konzert im TRxxxTR",
       "start": "2026-06-20T20:30:00",
       "end": null,
@@ -3768,6 +3852,34 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Die Seherin",
+      "start": "2026-06-20T20:30:00",
+      "end": null,
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/f2616dcab8130514ba30cc061aeb6885.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/die-seherin/events/367259/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Ea Torrado: Brown Madonna",
+      "start": "2026-06-20T20:30:00",
+      "end": null,
+      "location": "Sophiensæle",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/d37b7f8a7dc70bf31063b8bdc21d2400.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/ea-torrado-brown-madonna/events/367980/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
       ],
       "time_known": true
     },
@@ -3800,6 +3912,20 @@
       "time_known": true
     },
     {
+      "title": "Olympia Bukkakis: Queer and Present Dangers/The Nation at Work",
+      "start": "2026-06-20T21:00:00",
+      "end": null,
+      "location": "Sophiensæle",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/491c0b63cceccb15bca8bd5be9457576.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/olympia-bukkakis-queer-and-present-dangersthe-nation-at-work/events/367977/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
       "title": "Kriminal Kitchen fuck off soundssystem",
       "start": "2026-06-21T00:00:00",
       "end": null,
@@ -3812,20 +3938,6 @@
         "Konzert"
       ],
       "time_known": true
-    },
-    {
-      "title": "Hunger",
-      "start": "2026-06-21T00:00:00",
-      "end": null,
-      "location": "Donau115, Donaustraße 115, Berlin",
-      "description": "Christoph Rothmeier: percussive and electronic stuff, theremin, vocals.\nJörg Hochapfel: keyboards, guitar, glockenspiel, vocals.\nThe band Hunger, consisting of Christoph Rothmeier and Jörg Hochapfel, has been around since 1996, initially on Lake Constance, then for a long time in Hamburg, and finally in Berlin.\nPreviously known in the music world for their \"\"abstract pop studies with a Dadaist bent\"\" (taz) and \"\"nervous disco-punk racket\"\" (Tagesspiegel), they have in recent years moved into a somewhat quieter, but no less disorienting, musical territory between stumbling exotica and out-of-tune fake folk, using synthesizers, home organs, theremin, and homemade instruments.\nThey're bringing with them their brand-new album \"\"Trikotin,\"\" consisting of eight tracks improvised and subsequently refined in a secret French studio, available in the most practical and versatile format imaginable: a 36-page, lovingly risographed sheet music book!",
-      "image_url": null,
-      "source_url": "https://www.donau115.de",
-      "source_name": "Donau115",
-      "tags": [
-        "Konzert"
-      ],
-      "time_known": false
     },
     {
       "title": "Vegan Soli Brunch",
@@ -3898,6 +4010,20 @@
       "time_known": true
     },
     {
+      "title": "Streitraum",
+      "start": "2026-06-21T12:00:00",
+      "end": null,
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/c1eeb70d20387e10a26909fe3346aee9.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/streitraum-886/events/367288/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
       "title": "📖 Infoladen Scherer 8 📖",
       "start": "2026-06-21T13:00:00",
       "end": null,
@@ -3954,6 +4080,20 @@
       "time_known": true
     },
     {
+      "title": "Historische Hausführung: Never Work",
+      "start": "2026-06-21T15:00:00",
+      "end": null,
+      "location": "Sophiensæle",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/5fa0fda6a18be9a73672c9121097ed18.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/historische-hausfuehrung-never-work/events/368241/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
       "title": "Konzert",
       "start": "2026-06-21T16:00:00",
       "end": null,
@@ -3964,6 +4104,20 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Unsere Träume zu leben /  Hayallerimizi yaşamak",
+      "start": "2026-06-21T16:00:00",
+      "end": null,
+      "location": "HAU Hebbel am Ufer",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/3fc4104ffc0baf446a6c9daedc602a2b.jpeg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/unsere-traeume-leben-hayallerimizi-yasamak/events/367598/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
       ],
       "time_known": true
     },
@@ -3982,6 +4136,20 @@
       "time_known": true
     },
     {
+      "title": "Angela Alves: Never Rest (After Work Tours #2)",
+      "start": "2026-06-21T17:30:00",
+      "end": null,
+      "location": "Sophiensæle",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/6a23c2590b8712b258382ae842c96e31.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/angela-alves-never-rest-after-work-tours-2/events/367971/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
       "title": "Chillout Jam",
       "start": "2026-06-21T18:00:00",
       "end": null,
@@ -3996,6 +4164,20 @@
       "time_known": true
     },
     {
+      "title": "Der Schnittchenkauf",
+      "start": "2026-06-21T18:00:00",
+      "end": null,
+      "location": "Volksbühne am Rosa-Luxemburg-Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/e2aab61b0f30abc1f1cb9cd84f0db0b9.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/der-schnittchenkauf/events/368147/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
       "title": "Filmscreening",
       "start": "2026-06-21T19:00:00",
       "end": null,
@@ -4006,6 +4188,90 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Film"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Love Me Tender",
+      "start": "2026-06-21T19:00:00",
+      "end": null,
+      "location": "Volksbühne am Rosa-Luxemburg-Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/182055a863bc88f0cebdb61f85b082dc.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/love-me-tender/events/368144/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Oratorium – Kollektive Andacht zu einem wohlgehüteten Geheimnis",
+      "start": "2026-06-21T19:00:00",
+      "end": null,
+      "location": "HAU Hebbel am Ufer",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/3f05b10dfcb4090975987669019acc53.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/oratorium-kollektive-andacht-wohlgehueteten-geheimnis/events/368351/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "P14 – endlich endlich",
+      "start": "2026-06-21T19:00:00",
+      "end": null,
+      "location": "Volksbühne am Rosa-Luxemburg-Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/e460ca489510b3a2c7b291bffd2194c9.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/p14-endlich-endlich/events/369879/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Die Seherin",
+      "start": "2026-06-21T19:30:00",
+      "end": null,
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/f2616dcab8130514ba30cc061aeb6885.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/die-seherin/events/367260/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Hunger",
+      "start": "2026-06-21T20:00:00",
+      "end": null,
+      "location": "Donau115, Donaustraße 115, Berlin",
+      "description": "Christoph Rothmeier: percussive and electronic stuff, theremin, vocals.\nJörg Hochapfel: keyboards, guitar, glockenspiel, vocals.\nThe band Hunger, consisting of Christoph Rothmeier and Jörg Hochapfel, has been around since 1996, initially on Lake Constance, then for a long time in Hamburg, and finally in Berlin.\nPreviously known in the music world for their \"\"abstract pop studies with a Dadaist bent\"\" (taz) and \"\"nervous disco-punk racket\"\" (Tagesspiegel), they have in recent years moved into a somewhat quieter, but no less disorienting, musical territory between stumbling exotica and out-of-tune fake folk, using synthesizers, home organs, theremin, and homemade instruments.\nThey're bringing with them their brand-new album \"\"Trikotin,\"\" consisting of eight tracks improvised and subsequently refined in a secret French studio, available in the most practical and versatile format imaginable: a 36-page, lovingly risographed sheet music book!",
+      "image_url": null,
+      "source_url": "https://www.donau115.de",
+      "source_name": "Donau115",
+      "tags": [
+        "Konzert"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Olympia Bukkakis: Queer and Present Dangers/The Nation at Work",
+      "start": "2026-06-21T21:00:00",
+      "end": null,
+      "location": "Sophiensæle",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/491c0b63cceccb15bca8bd5be9457576.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/olympia-bukkakis-queer-and-present-dangersthe-nation-at-work/events/367978/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
       ],
       "time_known": true
     },
@@ -4136,6 +4402,34 @@
       "time_known": true
     },
     {
+      "title": "Die Seherin",
+      "start": "2026-06-22T19:30:00",
+      "end": null,
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/f2616dcab8130514ba30cc061aeb6885.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/die-seherin/events/367261/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Salome",
+      "start": "2026-06-22T20:00:00",
+      "end": null,
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/360ce498e8891fe859b125efe27ee092.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/salome-605/events/367282/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
       "title": "Filmabend im K( P)",
       "start": "2026-06-22T21:00:00",
       "end": null,
@@ -4150,18 +4444,18 @@
       "time_known": true
     },
     {
-      "title": "Two-Song Tuesday (MUSIC STARTS 20:00)",
-      "start": "2026-06-23T00:00:00",
+      "title": "Historische Hausführung: Never Work",
+      "start": "2026-06-23T15:00:00",
       "end": null,
-      "location": "Donau115, Donaustraße 115, Berlin",
-      "description": "/////// TWO-SONG TUESDAY ///////\n[sign up 19:30 // start 20:00]\nCALLING ALL SONGWRITERS, COMPOSERS, INSTRUMENTALISTS, POETS, WRITERS, STORYTELLERS, SYNTH WIZARDS, BAGPIPE SAVANTS, BROKEN HEARTS, TAP DANCERS, POLE DANCERS, MIND MELDERS, RACE CAR DRIVERS, AND AGNOSTIC SAINTS!\nDo you have new solo/duo/small group material to present? Join us for Donau115's regular open stage series, Two-Song Tuesday.\nSign-up: 19:30\nSet 1: 20:00\nSet 2: 21:15\nSet 3: 22:15\n\"The Same Procedure as Every Week, James.\"\n- The random-order setlists appear at 19:45 at http://donau115.de\n- First come, first booked, randomly-assigned slot, 15 slots per night + an overflow maybe list that we rarely get to.\n- The bar staff tell you how to sign up, starting at 7.30pm. It is usually a link to an online sign-up form.\n- Your set may include TWO SONGS or last TEN MINUTES, WHICHEVER IS SHORTER (e.g. two seven-minute songs = NO, three three-minute songs = NO).\n- NO SOUNDCHECKS. Be ready. Slip on, blow minds, slip off. Setup is 90 seconds.\n- Sets are no longer than 10 minutes. THERE IS A STOPWATCH TO ENSURE THIS. If your set goes beyond 10 minutes, the stopwatch goes off in the middle of your song. (The alarm sound is in the key of C#, FYI, so modulate to that key for a smooth overtime ending.)\n- For the love of God, DO NOT PLAY THE SAME SONG OVER AND OVER EVERY WEEK. THIS IS BORING. TRY NEW THINGS. WE ADORE YOU. TAKE RISKS! ❤ ❤ ❤\n- Out of respect for our neighbours:\n--- you may NOT use loud percussion or send loud bass-heavy signals into the PA.\n--- you may NOT bring your own amp\n--- you are welcome to use the following itwms from our backline: piano, two generic vocal microphones, and a guitar cable directly into our PA.\n--- DON'T COUNT ON US HAVING ANYTHING OTHER THAN THE FEW THINGS LISTED ABOVE. COME PREPARED.\nFurther questions?\ninfo@donau115.de",
-      "image_url": null,
-      "source_url": "https://www.donau115.de",
-      "source_name": "Donau115",
+      "location": "Sophiensæle",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/5fa0fda6a18be9a73672c9121097ed18.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/historische-hausfuehrung-never-work/events/368242/",
+      "source_name": "Berlin Bühnen",
       "tags": [
-        "Konzert"
+        "Theater"
       ],
-      "time_known": false
+      "time_known": true
     },
     {
       "title": "Flinta*only Kickern",
@@ -4304,6 +4598,20 @@
       "time_known": true
     },
     {
+      "title": "Sophiensæle Forever #2 – Never Work",
+      "start": "2026-06-23T19:00:00",
+      "end": null,
+      "location": "Sophiensæle",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/a388c6b504d2021d7fde1d22296a967d.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/sophiensle-forever-2-never-work/events/369769/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
       "title": "Flinta*only Kickern",
       "start": "2026-06-23T20:00:00",
       "end": null,
@@ -4314,6 +4622,20 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Two-Song Tuesday (MUSIC STARTS 20:00)",
+      "start": "2026-06-23T20:00:00",
+      "end": null,
+      "location": "Donau115, Donaustraße 115, Berlin",
+      "description": "/////// TWO-SONG TUESDAY ///////\n[sign up 19:30 // start 20:00]\nCALLING ALL SONGWRITERS, COMPOSERS, INSTRUMENTALISTS, POETS, WRITERS, STORYTELLERS, SYNTH WIZARDS, BAGPIPE SAVANTS, BROKEN HEARTS, TAP DANCERS, POLE DANCERS, MIND MELDERS, RACE CAR DRIVERS, AND AGNOSTIC SAINTS!\nDo you have new solo/duo/small group material to present? Join us for Donau115's regular open stage series, Two-Song Tuesday.\nSign-up: 19:30\nSet 1: 20:00\nSet 2: 21:15\nSet 3: 22:15\n\"The Same Procedure as Every Week, James.\"\n- The random-order setlists appear at 19:45 at http://donau115.de\n- First come, first booked, randomly-assigned slot, 15 slots per night + an overflow maybe list that we rarely get to.\n- The bar staff tell you how to sign up, starting at 7.30pm. It is usually a link to an online sign-up form.\n- Your set may include TWO SONGS or last TEN MINUTES, WHICHEVER IS SHORTER (e.g. two seven-minute songs = NO, three three-minute songs = NO).\n- NO SOUNDCHECKS. Be ready. Slip on, blow minds, slip off. Setup is 90 seconds.\n- Sets are no longer than 10 minutes. THERE IS A STOPWATCH TO ENSURE THIS. If your set goes beyond 10 minutes, the stopwatch goes off in the middle of your song. (The alarm sound is in the key of C#, FYI, so modulate to that key for a smooth overtime ending.)\n- For the love of God, DO NOT PLAY THE SAME SONG OVER AND OVER EVERY WEEK. THIS IS BORING. TRY NEW THINGS. WE ADORE YOU. TAKE RISKS! ❤ ❤ ❤\n- Out of respect for our neighbours:\n--- you may NOT use loud percussion or send loud bass-heavy signals into the PA.\n--- you may NOT bring your own amp\n--- you are welcome to use the following itwms from our backline: piano, two generic vocal microphones, and a guitar cable directly into our PA.\n--- DON'T COUNT ON US HAVING ANYTHING OTHER THAN THE FEW THINGS LISTED ABOVE. COME PREPARED.\nFurther questions?\ninfo@donau115.de",
+      "image_url": null,
+      "source_url": "https://www.donau115.de",
+      "source_name": "Donau115",
+      "tags": [
+        "Konzert"
       ],
       "time_known": true
     },
@@ -4346,18 +4668,32 @@
       "time_known": true
     },
     {
-      "title": "Dan Nicholls &",
-      "start": "2026-06-24T00:00:00",
+      "title": "Ein Volksfeind",
+      "start": "2026-06-23T20:30:00",
       "end": null,
-      "location": "Donau115, Donaustraße 115, Berlin",
-      "description": "As a keyboardist, producer and improviser, Dan Nicholls embraces sound as a tool for liberation, healing and joyful collectivity. Intricately crafting sound worlds which invite listeners to explore both other-worldly perceptions and the grounding and embodying nature of sound and movement, Dan's work deeply considers how sonic (and other) gestures might facilitate forms of resistance, unity and deeper understanding. \n\nDan has worked as a keyboardist with Alabaster De Plume, Goldie, Shabaka, Dudù Kouate, Dali De Saint Paul, Matthew Herbert, Sarah Nicolls, Christian Marklay, Squarepusher and many more.\nThey co-curate the London event series 'Free Movements' and have created music and sound design for dance, film and installations.",
-      "image_url": null,
-      "source_url": "https://www.donau115.de",
-      "source_name": "Donau115",
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/9bd6bb7aa312d79656e80fe18855c2bd.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/ein-volksfeind/events/367220/",
+      "source_name": "Berlin Bühnen",
       "tags": [
-        "Konzert"
+        "Theater"
       ],
-      "time_known": false
+      "time_known": true
+    },
+    {
+      "title": "Studio 9. Der Tag mit Sarah Bosetti. Deutschlandfunk Kultur – live aus dem Humboldt Forum",
+      "start": "2026-06-24T11:50:00",
+      "end": null,
+      "location": "Humboldt Forum",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/b83646fdf05636760c5b71d6aeae28c0.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/studio-9-der-tag-sarah-bosetti-deutschlandfunk-kultur-live-humboldt-forum/events/369732/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
     },
     {
       "title": "mittwochskufa",
@@ -4384,6 +4720,174 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Soli-Küfa, jeden Mittwoch 19 Uhr",
+      "start": "2026-06-24T19:00:00",
+      "end": null,
+      "location": "B-Lage Mareschstr. 1 12055 Berlin Deutschland",
+      "description": "Soli- KüfaShort url: \nhttps://squ.at/r/api6",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/326943",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Konzert",
+      "start": "2026-06-24T19:00:00",
+      "end": null,
+      "location": "Schokoladen Ackerstrasse 169 10115 Berlin Deutschland",
+      "description": "annibale & little league shows prsnt: Julie's Haircut [neo psychedelic rock°it]",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327304",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Offenes Antifa Treffen",
+      "start": "2026-06-24T19:00:00",
+      "end": null,
+      "location": "Bandito Rosso Lottumstr. 10a 10119 Berlin Deutschland",
+      "description": "*English below*",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327500",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Diskussion"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Never Work Talks: Helen Hester, Anajara Amarante, Olivia Hyunsin Kim",
+      "start": "2026-06-24T19:00:00",
+      "end": null,
+      "location": "Sophiensæle",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/1e377cf740b4a2357e3f65e241095e7e.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/never-work-talks-helen-hester-anajara-amarante-olivia-hyunsin-kim/events/367964/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Lesung Henryk Gericke und Henning Rabe",
+      "start": "2026-06-24T19:30:00",
+      "end": null,
+      "location": "Baiz Schönhauser Allee 26 A 10435 Berlin Deutschland",
+      "description": "Gleich zwei ehem. Burgschreiber zu Beeskow geben sich die Ehre. Henryk Gericke (zuletzt \"Tanz den Kommunismus\") liest aus seinem aktuellen Manuskript \"Der Raum ist aus den Fugen\".",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327305",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Karaoke-Abend",
+      "start": "2026-06-24T20:00:00",
+      "end": null,
+      "location": "Filmrisz Filmrisz Rigaerstr. 103 10247 Berlin Deutschland",
+      "description": "Im Filmrisz wird gesungen! Beim Karaoke-Abend könnt Ihr Eure Lieblingssongs performen, längst vergessene Lieder wieder aus der Schublade kramen und Guilty Pleasures feiern... ooooder ihr hört den Sänger*innen bei einem Getränk einfach zu ;) Wir freuen uns auf Euch!",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/321932",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "KüFa (Kitchen for all)",
+      "start": "2026-06-24T20:00:00",
+      "end": null,
+      "location": "Kadterschmiede Rigaer Str. 94 10245 Berlin Deutschland",
+      "description": "Vegan Fooood\nFood,Drinks,Music\npartially smokefree\nIrregular events and discussions - there is a garden and sometimes a firebin\nThe entrance is elevated but there is a ramp, the toilet is moderately accessible",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/324331",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Film"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Konzert",
+      "start": "2026-06-24T20:00:00",
+      "end": null,
+      "location": "Fischladen Rigaerstr. 83 10247 Berlin Deutschland",
+      "description": "ROUGH’N’ROLL Concerts presents: BLEAKNESS (Punk/Post-Punk/Dark Punk, Paris, FR) + MUNDO EN GUERRA (Raw Punk, Berlin)",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327057",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Dan Nicholls &",
+      "start": "2026-06-24T20:00:00",
+      "end": null,
+      "location": "Donau115, Donaustraße 115, Berlin",
+      "description": "As a keyboardist, producer and improviser, Dan Nicholls embraces sound as a tool for liberation, healing and joyful collectivity. Intricately crafting sound worlds which invite listeners to explore both other-worldly perceptions and the grounding and embodying nature of sound and movement, Dan's work deeply considers how sonic (and other) gestures might facilitate forms of resistance, unity and deeper understanding. \n\nDan has worked as a keyboardist with Alabaster De Plume, Goldie, Shabaka, Dudù Kouate, Dali De Saint Paul, Matthew Herbert, Sarah Nicolls, Christian Marklay, Squarepusher and many more.\nThey co-curate the London event series 'Free Movements' and have created music and sound design for dance, film and installations.",
+      "image_url": null,
+      "source_url": "https://www.donau115.de",
+      "source_name": "Donau115",
+      "tags": [
+        "Konzert"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Vegane Küfa",
+      "start": "2026-06-24T20:15:00",
+      "end": null,
+      "location": "KuBiZ Bernkasteler Str. 78 13088 Berlin Deutschland",
+      "description": "Leckere Vegane Küfa im Offenen Raum!\nJeden Mittwoch ab ca. 20.15 Uhr (vor dem Film) Spende erbeten",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/323589",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Ein Volksfeind",
+      "start": "2026-06-24T20:30:00",
+      "end": null,
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/9bd6bb7aa312d79656e80fe18855c2bd.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/ein-volksfeind/events/367221/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "VideoKino (Open Air)",
+      "start": "2026-06-24T21:30:00",
+      "end": null,
+      "location": "KuBiZ Bernkasteler Str. 78 13088 Berlin Deutschland",
+      "description": "EIN KURZER FILM ÜBER DAS TÖTEN Spielfilm, Polen 1988, 85 min, R: Krzysztof Kieślowski",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327501",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Film"
       ],
       "time_known": true
     }

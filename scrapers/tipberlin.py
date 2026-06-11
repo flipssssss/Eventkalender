@@ -14,8 +14,10 @@ import re
 from typing import Iterable
 
 import requests
+from bs4 import BeautifulSoup
 
 from .base import BaseScraper, Event
+from .jsonld import extract_events_from_html
 
 BASE = "https://www.tip-berlin.de/event/"
 DEBUG_DIR = pathlib.Path(__file__).resolve().parents[1] / "docs" / "data" / "_debug"
@@ -60,7 +62,22 @@ class TipBerlinScraper(BaseScraper):
         r2 = session.get(BASE, timeout=25)
         report.append(f"2. Abruf: status={r2.status_code} len={len(r2.text)} "
                       f"jsonld={'application/ld+json' in r2.text}")
-        report.append("  Snippet 2. Abruf:\n" + r2.text[:1500])
+
+        events = extract_events_from_html(r2.text, BASE, self.name)
+        report.append(f"JSON-LD-Events auf /event/: {len(events)}")
+        for e in events[:5]:
+            report.append(f"   - {e.start} | {e.title[:40]} | {e.source_url}")
+
+        # Category filter links (Musik/…, Ausstellung/…).
+        soup = BeautifulSoup(r2.text, "html.parser")
+        hints = ("kategorie", "category", "musik", "konzert", "tanz", "party",
+                 "ausstellung", "galerie", "kunst", "museen", "museum", "rubrik")
+        cats = sorted({
+            a["href"] for a in soup.find_all("a", href=True)
+            if any(h in a["href"].lower() for h in hints)
+        })
+        report.append("Kategorie-Link-Kandidaten:")
+        report.extend(f"   - {c}" for c in cats[:40])
 
         if self.write_debug:
             self._dump_debug("\n".join(report))

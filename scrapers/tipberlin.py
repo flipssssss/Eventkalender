@@ -41,59 +41,61 @@ class TipBerlinScraper(BaseScraper):
         self.write_debug = write_debug
 
     def fetch_events(self) -> Iterable[Event]:
-        session = requests.Session()
-        session.headers.update(BROWSER_HEADERS)
+        session = self._primed_session()
         report: list[str] = []
 
-        r1 = session.get(BASE, timeout=25)
-        report.append(f"1. Abruf: status={r1.status_code} len={len(r1.text)} "
-                      f"jsonld={'application/ld+json' in r1.text}")
+        wanted = ["musik+konzert", "musik+tanz", "musik+party",
+                  "ausstellung+galerie", "ausstellung+kunst", "ausstellung+museen",
+                  "ausstellung", "museum", "ausstellung+andere_orte"]
+        report.append("Kategorie-Seiten:")
+        for slug in wanted:
+            try:
+                r = session.get(BASE + slug + "/", timeout=25, allow_redirects=True)
+                details = len(set(re.findall(
+                    r"https://www\.tip-berlin\.de/event/[^/\"]+/[^/\"]+/", r.text)))
+                report.append(f"  /event/{slug}/ -> {r.status_code}, "
+                              f"Detail-Links={details}")
+            except Exception as exc:  # noqa: BLE001
+                report.append(f"  /event/{slug}/ -> FEHLER {exc}")
 
-        # Set every cookie the interstitial declares via document.cookie.
-        for m in COOKIE_RE.finditer(r1.text):
-            decl = m.group(1)
-            name_value = decl.split(";", 1)[0]
-            if "=" in name_value:
-                name, value = name_value.split("=", 1)
-                session.cookies.set(name.strip(), value.strip(),
-                                    domain=".tip-berlin.de")
-                report.append(f"  Cookie gesetzt: {name.strip()}={value.strip()[:20]}…")
+        # Try WordPress RSS feeds per category (clean, no detail scraping).
+        report.append("\nRSS-Feeds:")
+        for path in ["event/musik+konzert/feed/", "event/feed/", "feed/"]:
+            try:
+                r = session.get("https://www.tip-berlin.de/" + path, timeout=25)
+                items = r.text.count("<item>")
+                report.append(f"  /{path} -> {r.status_code} "
+                              f"type={r.headers.get('content-type','?')[:30]} items={items}")
+            except Exception as exc:  # noqa: BLE001
+                report.append(f"  /{path} -> FEHLER {exc}")
 
-        r2 = session.get(BASE, timeout=25)
-        report.append(f"2. Abruf: status={r2.status_code} len={len(r2.text)} "
-                      f"jsonld={'application/ld+json' in r2.text}")
-
-        # All category pages look like /event/<slug>/ (single path segment).
-        cat_re = re.compile(r"^https://www\.tip-berlin\.de/event/([a-z0-9+_-]+)/$")
-        soup = BeautifulSoup(r2.text, "html.parser")
-        cats = sorted({
-            m.group(1) for a in soup.find_all("a", href=True)
-            if (m := cat_re.match(a["href"]))
-        })
-        report.append(f"Kategorie-Slugs ({len(cats)}):")
-        report.extend(f"   - {c}" for c in cats)
-
-        # Inspect one category listing: JSON-LD events + detail links.
+        # Inspect a detail page: does it carry JSON-LD Event data?
         try:
-            rc = session.get(BASE + "musik+konzert/", timeout=25)
-            ev = extract_events_from_html(rc.text, BASE, self.name)
-            report.append(f"\n/event/musik+konzert/: status={rc.status_code} "
-                          f"len={len(rc.text)} JSON-LD-Events={len(ev)}")
-            for e in ev[:4]:
-                report.append(f"   - {e.start} | {e.title[:40]}")
-            soup2 = BeautifulSoup(rc.text, "html.parser")
-            detail = sorted({
-                a["href"] for a in soup2.find_all("a", href=True)
-                if re.match(r"^https://www\.tip-berlin\.de/event/[^/]+/[^/]+/$", a["href"])
-            })
-            report.append("  Detail-Link-Muster:")
-            report.extend(f"     {d}" for d in detail[:6])
+            r = session.get(
+                BASE + "musik-klassik/6-tischlereikonzert-quergeister-ensemblesolistinnen-und-musikerinnen-des-orchesters-der-deutschen-oper-berlin/",
+                timeout=25)
+            ev = extract_events_from_html(r.text, BASE, self.name)
+            report.append(f"\nDetailseite: status={r.status_code} JSON-LD-Events={len(ev)}")
+            for e in ev[:2]:
+                report.append(f"   - {e.start} | {e.title[:40]} | {e.image_url}")
         except Exception as exc:  # noqa: BLE001
-            report.append(f"Kategorie-Abruf FEHLER: {exc}")
+            report.append(f"Detailseite FEHLER: {exc}")
 
         if self.write_debug:
             self._dump_debug("\n".join(report))
         return []
+
+    def _primed_session(self) -> requests.Session:
+        session = requests.Session()
+        session.headers.update(BROWSER_HEADERS)
+        r1 = session.get(BASE, timeout=25)
+        for m in COOKIE_RE.finditer(r1.text):
+            name_value = m.group(1).split(";", 1)[0]
+            if "=" in name_value:
+                name, value = name_value.split("=", 1)
+                session.cookies.set(name.strip(), value.strip(),
+                                    domain=".tip-berlin.de")
+        return session
 
     def _dump_debug(self, text: str) -> None:
         try:

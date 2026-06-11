@@ -21,8 +21,8 @@ from __future__ import annotations
 PRIORITY = [
     "Protest",
     "Konzert",
-    "Party",
     "Kink",
+    "Party",
     "Film",
     "Theater",
     "Diskussion",
@@ -34,14 +34,19 @@ DROP = "Beratung"
 
 # Keyword (substring, case-insensitive) -> target tag.
 KEYWORDS: dict[str, list[str]] = {
-    "Theater": ["theater"],
-    "Konzert": ["konzert", "musik"],
-    "Film": ["film", "kino"],
-    "Diskussion": ["diskussion", "vortrag"],
-    "Essen": ["essen", "café", "cafe", "kneipe", "küfa", "kufa", "küche", "kueche"],
-    "Protest": ["protest", "aktion", "demo", "kundgebung"],
-    "Party": ["party", "tanz", "rave"],
-    "Kink": ["kink", "fetisch", "bdsm"],
+    "Theater": ["theater", "theatre", "stage", "performance", "schauspiel"],
+    "Konzert": ["konzert", "musik", "concert", "live music", "livemusik", "gig"],
+    "Film": ["film", "kino", "cinema", "movie", "screening", "kurzfilm"],
+    "Diskussion": ["diskussion", "vortrag", "talk", "panel", "lesung",
+                   "reading", "discussion", "q&a"],
+    "Essen": ["essen", "café", "cafe", "kneipe", "küfa", "kufa", "küche",
+              "kueche", "food", "dinner", "brunch"],
+    "Protest": ["protest", "aktion", "demo", "kundgebung", "pride march"],
+    "Party": ["party", "tanz", "rave", "club", "drag", "barnight", "karaoke",
+              "gogo", "disco", "dancefloor", "ball"],
+    "Kink": ["kink", "fetisch", "fetish", "bdsm", "sexparty", "sex-positive",
+             "sexpositive", "cruising", "darkroom", "dark room", "playparty",
+             "play party", "sauna", "gangbang"],
     DROP: ["beratung", "hilfe", "sprechstunde"],
 }
 

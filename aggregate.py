@@ -28,6 +28,7 @@ from scrapers.base import Event
 from scrapers.berlin_buehnen import BerlinBuehnenScraper
 from scrapers.categories import categorize
 from scrapers.donau115 import Donau115Scraper
+from scrapers.siegessaeule import SiegessaeuleScraper
 from scrapers.ical import ICalScraper
 from scrapers.jsonld import JsonLdScraper
 from scrapers.stressfaktor import StressfaktorScraper
@@ -91,6 +92,8 @@ def get_scrapers():
         BerlinBuehnenScraper(horizon_days=HORIZON_DAYS),
         # Donau115 (Jazz-Club) -- Events aus der Firebase-DB, alle "Konzert".
         Donau115Scraper(),
+        # Siegessäule -- queerer Eventkalender, Kategorie automatisch.
+        SiegessaeuleScraper(days=HORIZON_DAYS),
         # Tipsy Bear: deaktiviert -- Cloudflare-JS-Challenge blockt jeden
         # automatisierten Zugriff (scrapers/tipsybear.py belegt das).
         # TipsyBearScraper(),

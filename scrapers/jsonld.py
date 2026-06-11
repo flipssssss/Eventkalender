@@ -245,14 +245,12 @@ class JsonLdScraper(BaseScraper):
         if not scripts:
             return "  (keine Inline-Skripte)"
         blob = max(scripts, key=len)
-        low = blob.lower()
-        idx = -1
-        for needle in ("\"events\"", "events:", "event", "__sapper__", "startdate"):
-            idx = low.find(needle)
-            if idx >= 0:
-                break
-        snippet = blob[max(0, idx - 200): idx + 2500] if idx >= 0 else blob[:2500]
-        return f"  Größtes Inline-Skript ({len(blob)} Zeichen), Auszug:\n{snippet}"
+        head = blob[:1800]
+        tail = blob[-1800:]
+        return (
+            f"  Größtes Inline-Skript ({len(blob)} Zeichen)\n"
+            f"  --- ANFANG ---\n{head}\n  --- ENDE ---\n{tail}"
+        )
 
     def _discover_scripts(self, html: str) -> str:
         """Find the data endpoint a JS-rendered page fetches its events from."""

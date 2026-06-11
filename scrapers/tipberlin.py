@@ -82,25 +82,28 @@ class TipBerlinScraper(BaseScraper):
             except Exception as exc:  # noqa: BLE001
                 report.append(f"  /{path} -> FEHLER {exc}")
 
-        # Are the REST post dates actually the event dates? List a batch.
+        # Dump full REST objects (yoast stripped) for a music + an exhibition
+        # event, to find the real event-date field.
         import json as _json
-        try:
-            r = session.get(
-                "https://www.tip-berlin.de/wp-json/wp/v2/event?per_page=12&orderby=date&order=asc",
-                timeout=25)
-            data = _json.loads(r.text)
-            report.append(f"\nREST asc (per_page=12): {len(data)} Events")
-            for it in data:
-                cats = [c for c in it.get("class_list", []) if c.startswith("event-category")]
-                report.append(f"  {it['date']} | {it['title']['rendered'][:32]} | {cats}")
-            # Compare post date vs detail JSON-LD date for the first event.
-            if data:
-                link = data[0]["link"]
-                rd = session.get(link, timeout=25)
-                ev = extract_events_from_html(rd.text, link, self.name)
-                report.append(f"  -> Detailseite {link}: JSON-LD={[str(e.start) for e in ev[:2]]}")
-        except Exception as exc:  # noqa: BLE001
-            report.append(f"REST-Listen-FEHLER: {exc}")
+        for slug in ["musik+konzert", "ausstellung+museen"]:
+            try:
+                r = session.get(
+                    "https://www.tip-berlin.de/wp-json/wp/v2/event"
+                    f"?per_page=2&event-category={slug.replace('+', '-')}",
+                    timeout=25)
+                data = _json.loads(r.text)
+                if not isinstance(data, list) or not data:
+                    # taxonomy filter may not work; fall back to plain list.
+                    data = _json.loads(session.get(
+                        "https://www.tip-berlin.de/wp-json/wp/v2/event?per_page=2",
+                        timeout=25).text)
+                report.append(f"\n=== REST-Objekt ({slug}) ===")
+                for it in data[:1]:
+                    for k in ("yoast_head", "yoast_head_json", "content", "excerpt"):
+                        it.pop(k, None)
+                    report.append(_json.dumps(it, ensure_ascii=False)[:2200])
+            except Exception as exc:  # noqa: BLE001
+                report.append(f"REST {slug} FEHLER: {exc}")
 
         if self.write_debug:
             self._dump_debug("\n".join(report))

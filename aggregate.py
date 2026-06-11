@@ -96,9 +96,8 @@ def get_scrapers():
         Donau115Scraper(),
         # Siegessäule -- queerer Eventkalender, Kategorie automatisch.
         SiegessaeuleScraper(days=HORIZON_DAYS),
-        # tip Berlin -- pausiert: REST-API hat kein Event-Datum, Ausstellungen
-        # sind ohne festen Termin; siehe scrapers/tipberlin.py.
-        # TipBerlinScraper(),
+        # tip Berlin -- Sonde aktiv (Datums-Feld der REST-API suchen).
+        TipBerlinScraper(),
         # Tipsy Bear: deaktiviert -- Cloudflare-JS-Challenge blockt jeden
         # automatisierten Zugriff (scrapers/tipsybear.py belegt das).
         # TipsyBearScraper(),

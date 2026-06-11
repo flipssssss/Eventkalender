@@ -1,14 +1,14 @@
-Tage: 14 | Events (vor Dedup): 47
-2026-06-11: 5 Events
-2026-06-12: 6 Events
+Tage: 14 | Events (vor Dedup): 43
+2026-06-11: 4 Events
+2026-06-12: 5 Events
 2026-06-13: 5 Events
 2026-06-14: 6 Events
 2026-06-15: 5 Events
 2026-06-16: 4 Events
 2026-06-17: 2 Events
 2026-06-18: 2 Events
-2026-06-19: 6 Events
-2026-06-20: 6 Events
+2026-06-19: 5 Events
+2026-06-20: 5 Events
 2026-06-21: 0 Events
 2026-06-22: 0 Events
 2026-06-23: 0 Events

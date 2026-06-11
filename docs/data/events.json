@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-11T06:00:36.982477+00:00",
-  "count": 394,
+  "generated_at": "2026-06-11T06:06:50.077611+00:00",
+  "count": 390,
   "sources": [
     {
       "source": "Stressfaktor",
@@ -19,7 +19,7 @@
     },
     {
       "source": "Siegessäule",
-      "count": 47,
+      "count": 43,
       "error": null
     }
   ],
@@ -62,7 +62,7 @@
       "source_url": "https://www.siegessaeule.de/en/events/workshop-ki-und-chatgpt/",
       "source_name": "Siegessäule",
       "tags": [
-        "Party"
+        "Sonstiges"
       ],
       "time_known": true
     },
@@ -95,20 +95,6 @@
       "time_known": true
     },
     {
-      "title": "Pasta-Tag für 4,50€, Kaffee & Kuchen",
-      "start": "2026-06-11T12:00:00",
-      "end": null,
-      "location": null,
-      "description": null,
-      "image_url": null,
-      "source_url": "https://www.siegessaeule.de/en/events/pastatag-kaffee-kuchen/",
-      "source_name": "Siegessäule",
-      "tags": [
-        "Party"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Qigong & Taiji für deine Lebensenergie!",
       "start": "2026-06-11T14:15:00",
       "end": "2026-06-11T16:15:00",
@@ -118,7 +104,7 @@
       "source_url": "https://www.siegessaeule.de/en/events/qigong-taiji-fur-deine-lebensenergie/",
       "source_name": "Siegessäule",
       "tags": [
-        "Party"
+        "Sonstiges"
       ],
       "time_known": true
     },
@@ -566,7 +552,7 @@
       "source_url": "https://www.siegessaeule.de/en/events/schwarzer-und-queerer-feminismus-in-berlin-englisch/",
       "source_name": "Siegessäule",
       "tags": [
-        "Party"
+        "Sonstiges"
       ],
       "time_known": true
     },
@@ -580,7 +566,7 @@
       "source_url": "https://www.siegessaeule.de/en/events/ukulele-workshop-bring/",
       "source_name": "Siegessäule",
       "tags": [
-        "Party"
+        "Konzert"
       ],
       "time_known": true
     },
@@ -623,20 +609,6 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Narcotics Anonymous Meeting",
-      "start": "2026-06-12T16:45:00",
-      "end": null,
-      "location": null,
-      "description": null,
-      "image_url": null,
-      "source_url": "https://www.siegessaeule.de/en/events/narcotics-anonymous-meeting-23/",
-      "source_name": "Siegessäule",
-      "tags": [
-        "Party"
       ],
       "time_known": true
     },
@@ -888,7 +860,7 @@
       "source_url": "https://www.siegessaeule.de/en/events/qriginal-recon/",
       "source_name": "Siegessäule",
       "tags": [
-        "Party"
+        "Kink"
       ],
       "time_known": true
     },
@@ -1840,7 +1812,7 @@
       "source_url": "https://www.siegessaeule.de/en/events/queer-friendly-sober-sunday-still-life-drawing-with-juancar/",
       "source_name": "Siegessäule",
       "tags": [
-        "Party"
+        "Sonstiges"
       ],
       "time_known": true
     },
@@ -1868,7 +1840,7 @@
       "source_url": "https://www.siegessaeule.de/en/events/guided-apropos-sex/",
       "source_name": "Siegessäule",
       "tags": [
-        "Party"
+        "Sonstiges"
       ],
       "time_known": true
     },
@@ -1910,7 +1882,7 @@
       "source_url": "https://www.siegessaeule.de/en/events/frührung-apropos-sex/",
       "source_name": "Siegessäule",
       "tags": [
-        "Party"
+        "Sonstiges"
       ],
       "time_known": true
     },
@@ -2330,7 +2302,7 @@
       "source_url": "https://www.siegessaeule.de/en/events/29864-montagsspieler/",
       "source_name": "Siegessäule",
       "tags": [
-        "Party"
+        "Sonstiges"
       ],
       "time_known": true
     },
@@ -2344,7 +2316,7 @@
       "source_url": "https://www.siegessaeule.de/en/events/queer-yoga-monday-fire/",
       "source_name": "Siegessäule",
       "tags": [
-        "Party"
+        "Sonstiges"
       ],
       "time_known": true
     },
@@ -2386,7 +2358,7 @@
       "source_url": "https://www.siegessaeule.de/en/events/queer-yoga-anfänger/",
       "source_name": "Siegessäule",
       "tags": [
-        "Party"
+        "Sonstiges"
       ],
       "time_known": true
     },
@@ -2582,7 +2554,7 @@
       "source_url": "https://www.siegessaeule.de/en/events/electric-monday-3-0626/",
       "source_name": "Siegessäule",
       "tags": [
-        "Kink"
+        "Party"
       ],
       "time_known": true
     },
@@ -2638,7 +2610,7 @@
       "source_url": "https://www.siegessaeule.de/en/events/runder-tisch-queeres-steglitz-zehlendorf-mittelhof/",
       "source_name": "Siegessäule",
       "tags": [
-        "Party"
+        "Sonstiges"
       ],
       "time_known": true
     },
@@ -2918,7 +2890,7 @@
       "source_url": "https://www.siegessaeule.de/en/events/",
       "source_name": "Siegessäule",
       "tags": [
-        "Party"
+        "Theater"
       ],
       "time_known": true
     },
@@ -2932,7 +2904,7 @@
       "source_url": "https://www.siegessaeule.de/en/events/frizu-lounge---23/",
       "source_name": "Siegessäule",
       "tags": [
-        "Party"
+        "Sonstiges"
       ],
       "time_known": true
     },
@@ -3268,7 +3240,7 @@
       "source_url": "https://www.siegessaeule.de/en/events/qigong-taiji-fur-deine-lebensenergie/",
       "source_name": "Siegessäule",
       "tags": [
-        "Party"
+        "Sonstiges"
       ],
       "time_known": true
     },
@@ -3688,7 +3660,7 @@
       "source_url": "https://www.siegessaeule.de/en/events/schwarzer-und-queerer-feminismus-in-berlin-englisch/",
       "source_name": "Siegessäule",
       "tags": [
-        "Party"
+        "Sonstiges"
       ],
       "time_known": true
     },
@@ -3745,20 +3717,6 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Narcotics Anonymous Meeting",
-      "start": "2026-06-19T16:45:00",
-      "end": null,
-      "location": null,
-      "description": null,
-      "image_url": null,
-      "source_url": "https://www.siegessaeule.de/en/events/narcotics-anonymous-meeting-23/",
-      "source_name": "Siegessäule",
-      "tags": [
-        "Party"
       ],
       "time_known": true
     },
@@ -4123,20 +4081,6 @@
       "source_name": "Siegessäule",
       "tags": [
         "Party"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Bratty White's Drag Brunch Divas",
-      "start": "2026-06-20T11:00:00",
-      "end": null,
-      "location": null,
-      "description": "Vegan brunch with drag entertainment, various guest performers",
-      "image_url": "https://cdn.siegessaeule.de/images/00_Drag_Brunch_Divas_c_Bratty_Whit.73c6ee6c.fill-320x320.jpg",
-      "source_url": "https://www.siegessaeule.de/en/events/prince-peach-bratty-whites-drag-brunch-divas-25/",
-      "source_name": "Siegessäule",
-      "tags": [
-        "Essen"
       ],
       "time_known": true
     },

@@ -1,25 +1,17 @@
-1. Abruf: status=200 len=113725 jsonld=True
-2. Abruf: status=200 len=113725 jsonld=True
-Kategorie-Slugs (18):
-   - ausstellung+andere_orte
-   - berlin-mit-berlinern-wildtier-tour-mit-derk-ehlert
-   - berliner-philharmoniker-ltg-franz-welser-moest
-   - buehne
-   - cassirer-und-der-durchbruch-des-impressionismus
-   - die-spur-des-falken-mit-kes-fand-ken-loach-seine-gesellschaftskritische-handschrift
-   - les-possedes
-   - lesungen+vortraege+fuehrungen
-   - lisa-bassenge-singt-wieder-auf-deutsch
-   - museum
-   - musik+konzert
-   - musik+party
-   - mythos-trauer-und-ein-neuer-kanon-beim-poesiefestival-berlin-2026
-   - paradise-must-be-nice-festival
-   - parenting-climate-ausstellung-zum-thema-elternschaft-klima-und-care
-   - pfade-der-heiterkeit-richard-pietrass-feiert-seinen-80-geburtstag
-   - schweigen-und-schwelgen-an-der-ostsee-dara-brexendorf-liest-aus-paradise-beach
-   - vor-den-wahlen-zum-abgeordnetenhaus-was-ist-berlin-die-kultur-wert
+Kategorie-Seiten:
+  /event/musik+konzert/ -> 200, Detail-Links=0
+  /event/musik+tanz/ -> 200, Detail-Links=0
+  /event/musik+party/ -> 200, Detail-Links=0
+  /event/ausstellung+galerie/ -> 200, Detail-Links=0
+  /event/ausstellung+kunst/ -> 200, Detail-Links=0
+  /event/ausstellung+museen/ -> 200, Detail-Links=0
+  /event/ausstellung/ -> 200, Detail-Links=0
+  /event/museum/ -> 200, Detail-Links=0
+  /event/ausstellung+andere_orte/ -> 200, Detail-Links=0
 
-/event/musik+konzert/: status=200 len=108431 JSON-LD-Events=0
-  Detail-Link-Muster:
-     https://www.tip-berlin.de/event/musik-klassik/6-tischlereikonzert-quergeister-ensemblesolistinnen-und-musikerinnen-des-orchesters-der-deutschen-oper-berlin/
+RSS-Feeds:
+  /event/musik+konzert/feed/ -> 200 type=text/html items=0
+  /event/feed/ -> 200 type=text/html items=0
+  /feed/ -> 200 type=text/html items=0
+
+Detailseite: status=200 JSON-LD-Events=0

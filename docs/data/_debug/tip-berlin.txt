@@ -1,0 +1,17 @@
+URL: https://www.tip-berlin.de/event/
+  HTTP-Status: 200
+  HTML-Länge: 1386 Zeichen
+  JSON-LD vorhanden: False
+  Events gefunden: 0
+  (keine Programm-/Event-Unterseiten erkannt)
+  Externe Skripte: https://clctr.ash.shared.prd.s.centinel-analytica.com/script.js?m=i&site_key=pk_live_4ht6zgimskd8kyvyos2ho5&se=lv6gY4UrErAbbHCSWcBYansyYgC-rqu9Oy9UVbUxCI72GKRSSz8c8iD90yj2VTr8ogiHSA, https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447
+  Größtes Inline-Skript (178 Zeichen)
+  --- ANFANG ---
+document.cookie="_centinel=5ed617c2-1508-4915-bd84-79119d189301; Path=/; Max-Age=86400; SameSite=Lax; Secure";window.__centinel={sessionId:"5ed617c2-1508-4915-bd84-79119d189301"}
+  --- ENDE ---
+document.cookie="_centinel=5ed617c2-1508-4915-bd84-79119d189301; Path=/; Max-Age=86400; SameSite=Lax; Secure";window.__centinel={sessionId:"5ed617c2-1508-4915-bd84-79119d189301"}
+  Body (ohne CSS/JS):
+<body>
+<meta content="default-src 'none'; script-src 'nonce-j1qrK2r/NIt74o9bZoWKng==' 'unsafe-eval' https://clctr.ash.shared.prd.s.centinel-analytica.com blob:; worker-src blob:; connect-src https://clctr.ash.shared.prd.s.centinel-analytica.com wss://clctr.ash.shared.prd.s.centinel-analytica.com; style-src 'unsafe-inline'; img-src 'self' data:; frame-src 'self' blob:" http-equiv="Content-Security-Policy"/>
+</body>
+------------------------------------------------------------

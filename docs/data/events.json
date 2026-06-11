@@ -1,7 +1,12 @@
 {
-  "generated_at": "2026-06-11T06:21:01.450383+00:00",
+  "generated_at": "2026-06-11T06:32:49.148151+00:00",
   "count": 390,
   "sources": [
+    {
+      "source": "tip Berlin",
+      "count": 0,
+      "error": null
+    },
     {
       "source": "Stressfaktor",
       "count": 300,
@@ -132,7 +137,7 @@
       "source_url": "https://stressfaktor.squat.net/node/324038",
       "source_name": "Stressfaktor",
       "tags": [
-        "Essen"
+        "Ausstellung"
       ],
       "time_known": true
     },
@@ -146,7 +151,7 @@
       "source_url": "https://stressfaktor.squat.net/node/327211",
       "source_name": "Stressfaktor",
       "tags": [
-        "Essen"
+        "Ausstellung"
       ],
       "time_known": true
     },
@@ -286,7 +291,7 @@
       "source_url": "https://stressfaktor.squat.net/node/327253",
       "source_name": "Stressfaktor",
       "tags": [
-        "Diskussion"
+        "Ausstellung"
       ],
       "time_known": true
     },
@@ -1462,7 +1467,7 @@
       "source_url": "https://stressfaktor.squat.net/node/326570",
       "source_name": "Stressfaktor",
       "tags": [
-        "Diskussion"
+        "Ausstellung"
       ],
       "time_known": true
     },
@@ -1812,7 +1817,7 @@
       "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-14",
       "source_name": "Siegessäule",
       "tags": [
-        "Sonstiges"
+        "Ausstellung"
       ],
       "time_known": true
     },
@@ -1840,7 +1845,7 @@
       "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-14",
       "source_name": "Siegessäule",
       "tags": [
-        "Sonstiges"
+        "Ausstellung"
       ],
       "time_known": true
     },
@@ -1882,7 +1887,7 @@
       "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-14",
       "source_name": "Siegessäule",
       "tags": [
-        "Sonstiges"
+        "Ausstellung"
       ],
       "time_known": true
     },
@@ -1980,7 +1985,7 @@
       "source_url": "https://stressfaktor.squat.net/node/326550",
       "source_name": "Stressfaktor",
       "tags": [
-        "Essen"
+        "Ausstellung"
       ],
       "time_known": true
     },
@@ -3268,7 +3273,7 @@
       "source_url": "https://stressfaktor.squat.net/node/324020",
       "source_name": "Stressfaktor",
       "tags": [
-        "Essen"
+        "Ausstellung"
       ],
       "time_known": true
     },
@@ -3282,7 +3287,7 @@
       "source_url": "https://stressfaktor.squat.net/node/327212",
       "source_name": "Stressfaktor",
       "tags": [
-        "Essen"
+        "Ausstellung"
       ],
       "time_known": true
     },
@@ -3940,7 +3945,7 @@
       "source_url": "https://stressfaktor.squat.net/node/327692",
       "source_name": "Stressfaktor",
       "tags": [
-        "Diskussion"
+        "Ausstellung"
       ],
       "time_known": true
     },
@@ -4206,7 +4211,7 @@
       "source_url": "https://stressfaktor.squat.net/node/326569",
       "source_name": "Stressfaktor",
       "tags": [
-        "Diskussion"
+        "Ausstellung"
       ],
       "time_known": true
     },

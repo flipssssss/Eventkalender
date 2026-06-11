@@ -71,14 +71,13 @@ class Donau115Scraper(BaseScraper):
         start = _to_datetime(date_raw)
         if not start:
             return None
-        # The Donau data has no time field; try a separate one, else mark
-        # the time as unknown so the card shows the date only.
-        time_known = not (start.hour == 0 and start.minute == 0)
-        if not time_known:
+        # The Donau data usually has no time field. Use a real time field if
+        # present, otherwise default every concert to 20:00.
+        if start.hour == 0 and start.minute == 0:
             time_raw = _first(item, TIME_KEYS)
             parsed = parse_datetime(f"{start.date().isoformat()} {time_raw}") if time_raw else None
-            if parsed and (parsed.hour or parsed.minute):
-                start, time_known = parsed, True
+            start = parsed if (parsed and (parsed.hour or parsed.minute)) else start.replace(hour=20, minute=0)
+        time_known = True
 
         # Ignore inline base64 images (they would bloat the feed); only keep
         # real http(s) image URLs.

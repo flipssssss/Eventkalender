@@ -36,7 +36,14 @@
 # Hinweis: Stressfaktor wird über einen eigenen Ausleser eingebunden
 # (scrapers/stressfaktor.py, in aggregate.py registriert), weil die
 # Originalseite einen Bot-Schutz hat.
-sources: []
+sources:
+  # Kink-Quellen -- alle Events als Kink.
+  - url: https://quaelgeist.sm/veranstaltungen/calendar/
+    name: Quälgeist
+    category: Kink
+  - url: https://karada-house.de/event/
+    name: Karada House
+    category: Kink
   # tip Berlin: eigener Ausleser (scrapers/tipberlin.py) wegen Bot-Schutz.
   # Siegessäule wird über einen eigenen Ausleser eingebunden
   # (scrapers/siegessaeule.py), weil die Events in einem Sapper-Preload

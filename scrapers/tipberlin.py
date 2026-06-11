@@ -63,21 +63,33 @@ class TipBerlinScraper(BaseScraper):
         report.append(f"2. Abruf: status={r2.status_code} len={len(r2.text)} "
                       f"jsonld={'application/ld+json' in r2.text}")
 
-        events = extract_events_from_html(r2.text, BASE, self.name)
-        report.append(f"JSON-LD-Events auf /event/: {len(events)}")
-        for e in events[:5]:
-            report.append(f"   - {e.start} | {e.title[:40]} | {e.source_url}")
-
-        # Category filter links (Musik/…, Ausstellung/…).
+        # All category pages look like /event/<slug>/ (single path segment).
+        cat_re = re.compile(r"^https://www\.tip-berlin\.de/event/([a-z0-9+_-]+)/$")
         soup = BeautifulSoup(r2.text, "html.parser")
-        hints = ("kategorie", "category", "musik", "konzert", "tanz", "party",
-                 "ausstellung", "galerie", "kunst", "museen", "museum", "rubrik")
         cats = sorted({
-            a["href"] for a in soup.find_all("a", href=True)
-            if any(h in a["href"].lower() for h in hints)
+            m.group(1) for a in soup.find_all("a", href=True)
+            if (m := cat_re.match(a["href"]))
         })
-        report.append("Kategorie-Link-Kandidaten:")
-        report.extend(f"   - {c}" for c in cats[:40])
+        report.append(f"Kategorie-Slugs ({len(cats)}):")
+        report.extend(f"   - {c}" for c in cats)
+
+        # Inspect one category listing: JSON-LD events + detail links.
+        try:
+            rc = session.get(BASE + "musik+konzert/", timeout=25)
+            ev = extract_events_from_html(rc.text, BASE, self.name)
+            report.append(f"\n/event/musik+konzert/: status={rc.status_code} "
+                          f"len={len(rc.text)} JSON-LD-Events={len(ev)}")
+            for e in ev[:4]:
+                report.append(f"   - {e.start} | {e.title[:40]}")
+            soup2 = BeautifulSoup(rc.text, "html.parser")
+            detail = sorted({
+                a["href"] for a in soup2.find_all("a", href=True)
+                if re.match(r"^https://www\.tip-berlin\.de/event/[^/]+/[^/]+/$", a["href"])
+            })
+            report.append("  Detail-Link-Muster:")
+            report.extend(f"     {d}" for d in detail[:6])
+        except Exception as exc:  # noqa: BLE001
+            report.append(f"Kategorie-Abruf FEHLER: {exc}")
 
         if self.write_debug:
             self._dump_debug("\n".join(report))

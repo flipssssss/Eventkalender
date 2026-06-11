@@ -1,29 +1,44 @@
 Kategorie-Seiten:
-  /event/musik+konzert/ -> 200, Detail-Links=2
-  /event/musik+tanz/ -> 404, Detail-Links=0
-  /event/musik+party/ -> 200, Detail-Links=1
-  /event/ausstellung+galerie/ -> 404, Detail-Links=0
-  /event/ausstellung+kunst/ -> 404, Detail-Links=0
-  /event/ausstellung+museen/ -> 200, Detail-Links=2
-  /event/ausstellung/ -> 200, Detail-Links=1
-  /event/museum/ -> 200, Detail-Links=1
-  /event/ausstellung+andere_orte/ -> 200, Detail-Links=3
+  /event/musik+konzert/ -> 200, Detail-Links=0
+  /event/musik+tanz/ -> 200, Detail-Links=0
+  /event/musik+party/ -> 200, Detail-Links=0
+  /event/ausstellung+galerie/ -> 200, Detail-Links=0
+  /event/ausstellung+kunst/ -> 200, Detail-Links=0
+  /event/ausstellung+museen/ -> 200, Detail-Links=0
+  /event/ausstellung/ -> 200, Detail-Links=0
+  /event/museum/ -> 200, Detail-Links=0
+  /event/ausstellung+andere_orte/ -> 200, Detail-Links=0
 
 RSS-Feeds:
-  /event/musik+konzert/feed/ -> 200 type=application/rss+xml; charset=U items=0
-  /event/feed/ -> 200 type=application/rss+xml; charset=U items=0
-  /feed/ -> 200 type=application/rss+xml; charset=U items=10
+  /event/musik+konzert/feed/ -> 200 type=text/html items=0
+  /event/feed/ -> 200 type=text/html items=0
+  /feed/ -> 200 type=text/html items=0
 
 WP-REST-API:
-  /wp-json/ -> 200 type=application/json; charset=UTF- len=302214 snippet={"name":"tipBerlin","description":"14 Tage Programm","url":"https:\/\/www.tip-berlin.de","home":"https:\/\/www.tip-berlin.de","gmt_offset":2,"timezone_string":"
+  /wp-json/ -> 200 type=text/html len=12347 snippet=<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <script>
+      (functi
   /wp-json/wp/v2/types -> 200 type=text/html; charset=utf-8 len=31703 snippet={"post":{"description":"","hierarchical":false,"has_archive":false,"name":"Beitr\u00e4ge","slug":"post","icon":"dashicons-admin-post","taxonomies":["category","
   /wp-json/wp/v2/event -> 200 type=text/html; charset=utf-8 len=111567 snippet=[{"id":80865,"date":"2026-06-11T03:00:25","date_gmt":"2026-06-11T01:00:25","guid":{"rendered":"https:\/\/www.tip-berlin.de\/event\/strange-feathers\/"},"modifie
   /wp-json/wp/v2/events -> 404 type=application/json; charset=UTF- len=144 snippet={"code":"rest_no_route","message":"Es wurde keine Route gefunden, die mit der URL und der Request-Methode identisch ist.","data":{"status":404}}
   /wp-json/wp/v2/tribe_events -> 404 type=application/json; charset=UTF- len=144 snippet={"code":"rest_no_route","message":"Es wurde keine Route gefunden, die mit der URL und der Request-Methode identisch ist.","data":{"status":404}}
   /wp-json/tribe/events/v1/events -> 404 type=application/json; charset=UTF- len=144 snippet={"code":"rest_no_route","message":"Es wurde keine Route gefunden, die mit der URL und der Request-Methode identisch ist.","data":{"status":404}}
 
-Event-JSON (Felder):
-{"id": 80865, "date": "2026-06-11T03:00:25", "date_gmt": "2026-06-11T01:00:25", "guid": {"rendered": "https://www.tip-berlin.de/event/strange-feathers/"}, "modified": "2026-06-11T08:30:30", "modified_gmt": "2026-06-11T06:30:30", "slug": "strange-feathers", "status": "publish", "type": "event", "link": "https://www.tip-berlin.de/event/strange-feathers/", "title": {"rendered": "Strange Feathers"}, "content": {"rendered": "<p>3. Sommerkonzert zum Sommerfest</p>\n<p>Coverversionen bekannter Songs. <br />\nBass, Gitarre, Saxophon, Ukulele,GesangsZweite Sommerkonzertreihe im sans titre</p>\n<p>Zum Abschluluss des Sommerfestes das sans titre e.V  erklingen Lieder u.a. von Cardigans, Patty Smith, Bob Marley, Jack Johnson, den White Stripes und Portugal the Men erfrischend neu interpretiert von Strange Faether und laden zum Mittanzen ein.<br />\n </p>\n", "protected": false}, "excerpt": {"rendered": "<p>Zum Abschluluss des Sommerfestes das sans titre e.V  erklingen Lieder u.a. von Cardigans, Patty Smith, Bob Marley, Jack Johnson, den White Stripes und Portugal the Men erfrischend neu interpretiert von Strange Faether und laden zum Mittanzen ein.</p>\n", "protected": false}, "featured_media": 0, "parent": 0, "template": "", "meta": {"_acf_changed": false, "rce_custom_id": "1465.2942523924", "rce_event_id": "1465.2942523924", "rce_event_meta": ""}, "class_list": ["post-80865", "event", "type-event", "status-publish", "hentry", "event-category-musik-konzert", "location-kunsthaus-sans-titre"], "acf": [], "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v27.1.1 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Strange Feathers - tipBerlin</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://www.tip-berlin.de/event/strange-feathers/\" />\n<meta property=\"og:locale\" content=\"de_DE\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Strange Feathers - tipBerlin\" />\n<meta property=\"og:description\" content=\"Zum Abschluluss des Sommerfestes das sans titre e.V  erklingen Lieder u.a. von Cardigans, Patty Smith, Bob Marley, Jack Johnson, den White Stripes und Portugal the Men erfrischend neu interpretiert von Strange Faether und laden zum Mittanzen ein.\" />\n<meta property=\"og:url\" content=\"https://www.tip-berlin.de/event/strange-feathers/\" />\n<meta property=\"og:site_name\" content=\"tipBerlin\" />\n<meta property=\"article:publisher\" content=\"https://www.facebook.com/tip.Berlin/
-
-Types/event:
-{"description":"","hierarchical":true,"has_archive":true,"name":"Event","slug":"event","icon":"dashicons-calendar","taxonomies":[],"rest_base":"event","rest_namespace":"wp\/v2","template":[],"template_lock":false,"yoast_head":"<!-- This site is optimized with the Yoast SEO plugin v27.1.1 - https:\/\/yoast.com\/product\/yoast-seo-wordpress\/ -->\n<title>Event Archive - tipBerlin<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/www.tip-berlin.de\/event\/\" \/>\n<meta property=\"og:locale\" content=\"de_DE\" \/>\n<meta property=\"og:type\" content=\"website\" \/>\n<meta property=\"og:title\" content=\"Event Archive - tipBerlin\" \/>\n<meta property=\"og:url\" content=\"https:\/\/www.tip-berlin.de\/event\/\" \/>\n<meta property=\"og:site_name\" content=\"tipBerlin\" \/>\n<meta property=\"og:image\" content=\"https:\/\/www.tip-berlin.de\/wp-content\/uploads\/2026\/03\/tipberlin-logo-2023-232x60px-rgb.png\" \/>\n\t<meta property=\"og:image:width\" content=\"232\" \/>\n\t<meta property=\"og:image:height\" content=\"60\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/png\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:site\" content=\"@tip_Berlin\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https
+REST asc (per_page=12): 12 Events
+  2026-02-15T16:24:29 | 1000x Berlin Das Online-Portal z | ['event-category-ausstellung-museen']
+  2026-02-15T16:24:29 | Die schönste Frau der Welt &#821 | ['event-category-ausstellung-museen']
+  2026-02-15T16:24:29 | Flucht-Aktionen &#8211; Dokument | ['event-category-ausstellung-museen']
+  2026-02-15T16:24:29 | Leonore Schwarzer: Facetten eine | ['event-category-ausstellung-museen']
+  2026-02-15T16:24:29 | Reminder: Das Leben hängt am sei | ['event-category-ausstellung-museen']
+  2026-02-15T16:24:29 | Rundgang durch die Dauerausstell | ['event-category-ausstellung-museen']
+  2026-02-15T16:24:29 | Currents. Spuren kolonialer Verg | ['event-category-ausstellung-andere-orte']
+  2026-02-15T16:24:29 | Fußball Route Berlin | ['event-category-ausstellung-andere-orte']
+  2026-02-15T16:24:29 | Grenz- und Geisterbahnhöfe im ge | ['event-category-ausstellung-andere-orte']
+  2026-02-15T16:24:29 | Kunst, Geschichte und Entwicklun | ['event-category-ausstellung-andere-orte']
+  2026-02-15T16:24:29 | Lager Kaulsdorfer Straße 90 | ['event-category-ausstellung-andere-orte']
+  2026-02-15T16:24:30 | Mauerwinkel | ['event-category-ausstellung-andere-orte']
+  -> Detailseite https://www.tip-berlin.de/event/1000x-berlin-das-online-portal-zur-stadtgeschichte/: JSON-LD=[]

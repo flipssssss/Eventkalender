@@ -1,17 +1,4 @@
-URL: https://www.tip-berlin.de/event/
-  HTTP-Status: 200
-  HTML-Länge: 1386 Zeichen
-  JSON-LD vorhanden: False
-  Events gefunden: 0
-  (keine Programm-/Event-Unterseiten erkannt)
-  Externe Skripte: https://clctr.ash.shared.prd.s.centinel-analytica.com/script.js?m=i&site_key=pk_live_4ht6zgimskd8kyvyos2ho5&se=lv6gY4UrErAbbHCSWcBYansyYgC-rqu9Oy9UVbUxCI72GKRSSz8c8iD90yj2VTr8ogiHSA, https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447
-  Größtes Inline-Skript (178 Zeichen)
-  --- ANFANG ---
-document.cookie="_centinel=5ed617c2-1508-4915-bd84-79119d189301; Path=/; Max-Age=86400; SameSite=Lax; Secure";window.__centinel={sessionId:"5ed617c2-1508-4915-bd84-79119d189301"}
-  --- ENDE ---
-document.cookie="_centinel=5ed617c2-1508-4915-bd84-79119d189301; Path=/; Max-Age=86400; SameSite=Lax; Secure";window.__centinel={sessionId:"5ed617c2-1508-4915-bd84-79119d189301"}
-  Body (ohne CSS/JS):
-<body>
-<meta content="default-src 'none'; script-src 'nonce-j1qrK2r/NIt74o9bZoWKng==' 'unsafe-eval' https://clctr.ash.shared.prd.s.centinel-analytica.com blob:; worker-src blob:; connect-src https://clctr.ash.shared.prd.s.centinel-analytica.com wss://clctr.ash.shared.prd.s.centinel-analytica.com; style-src 'unsafe-inline'; img-src 'self' data:; frame-src 'self' blob:" http-equiv="Content-Security-Policy"/>
-</body>
-------------------------------------------------------------
+1. Abruf: status=200 len=113725 jsonld=True
+2. Abruf: status=200 len=113725 jsonld=True
+  Snippet 2. Abruf:
+<!doctype html><html lang="de"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="profile" href="https://gmpg.org/xfn/11"><meta name="apple-mobile-web-app-title" content="TipBerlin" /><link rel="icon" type="image/png" href="https://www.tip-berlin.de/wp-content/themes/tip/assets/favicon/android-chrome-16x16.png" sizes="16x16" /><link rel="icon" type="image/png" href="https://www.tip-berlin.de/wp-content/themes/tip/assets/favicon/android-chrome-32x32.png" sizes="32x32" /><link rel="icon" type="image/png" href="https://www.tip-berlin.de/wp-content/themes/tip/assets/favicon/android-chrome-192x192.png" sizes="192x192" /><link rel="icon" type="image/png" href="https://www.tip-berlin.de/wp-content/themes/tip/assets/favicon/android-chrome-512x512.png" sizes="512x512" /><link rel="shortcut icon" href="https://www.tip-berlin.de/wp-content/themes/tip/assets/favicon/favicon.ico" /><link rel="apple-touch-icon" sizes="180x180" href="https://www.tip-berlin.de/wp-content/themes/tip/assets/favicon/apple-touch-icon.png" /><link rel="manifest" href="https://www.tip-berlin.de/wp-content/themes/tip/assets/favicon/site.webmanifest" /> <script>"use strict";function _typeof(t){return(_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(t){return typeof t}:function(t){return t&&"function"==typeof Symbol&&t.constructor===Symbol&&t!==Symbol.prototype?"symbol":typeof t})(t)}!function(){var t=function(){var t,e,o=[],n=window,

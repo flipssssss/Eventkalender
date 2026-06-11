@@ -260,12 +260,14 @@ class JsonLdScraper(BaseScraper):
             lines.append("  Externe Skripte: " + ", ".join(s for s in ext if s)[:400])
         return "\n".join(lines) if lines else "  (keine Skript-Endpunkte gefunden)"
 
-    def _body_snippet(self, html: str, limit: int = 5000) -> str:
+    def _body_snippet(self, html: str, limit: int = 6000) -> str:
         soup = BeautifulSoup(html, "html.parser")
-        for tag in soup(["style", "script", "head"]):
+        for tag in soup(["style", "script", "head", "svg", "noscript"]):
             tag.decompose()
         body = soup.body or soup
-        return body.decode()[:limit]
+        # Collapse whitespace so the event markup isn't drowned in blanks.
+        import re as _re
+        return _re.sub(r"\n\s*\n+", "\n", body.decode())[:limit]
 
     def _discover_links(self, html: str, base_url: str) -> str:
         """Surface likely programme/event subpages to read instead."""

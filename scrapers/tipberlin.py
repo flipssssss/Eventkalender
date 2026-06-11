@@ -69,6 +69,32 @@ class TipBerlinScraper(BaseScraper):
             except Exception as exc:  # noqa: BLE001
                 report.append(f"  /{path} -> FEHLER {exc}")
 
+        # WordPress REST API -- often the cleanest, un-walled data source.
+        report.append("\nWP-REST-API:")
+        for path in ["wp-json/", "wp-json/wp/v2/types", "wp-json/wp/v2/event",
+                     "wp-json/wp/v2/events", "wp-json/wp/v2/tribe_events",
+                     "wp-json/tribe/events/v1/events"]:
+            try:
+                r = session.get("https://www.tip-berlin.de/" + path, timeout=25)
+                ctype = r.headers.get("content-type", "?")[:30]
+                report.append(f"  /{path} -> {r.status_code} type={ctype} "
+                              f"len={len(r.text)} snippet={r.text[:160]}")
+            except Exception as exc:  # noqa: BLE001
+                report.append(f"  /{path} -> FEHLER {exc}")
+
+        # Dump the event region of a category page to see the markup.
+        try:
+            r = session.get(BASE + "musik+konzert/", timeout=25)
+            soup = BeautifulSoup(r.text, "html.parser")
+            for t in soup(["style", "script", "head", "svg", "noscript"]):
+                t.decompose()
+            body = (soup.body or soup).decode()
+            idx = body.lower().find("event")
+            report.append("\nKategorie-Body-Auszug:\n"
+                          + body[max(0, idx - 200): idx + 1500])
+        except Exception as exc:  # noqa: BLE001
+            report.append(f"Body-Auszug FEHLER: {exc}")
+
         # Inspect a detail page: does it carry JSON-LD Event data?
         try:
             r = session.get(

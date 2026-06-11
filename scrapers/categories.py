@@ -24,6 +24,7 @@ PRIORITY = [
     "Kink",
     "Party",
     "Film",
+    "Ausstellung",
     "Theater",
     "Diskussion",
     "Essen",
@@ -47,6 +48,8 @@ KEYWORDS: dict[str, list[str]] = {
     "Kink": ["kink", "fetisch", "fetish", "bdsm", "sexparty", "sex-positive",
              "sexpositive", "cruising", "darkroom", "dark room", "playparty",
              "play party", "sauna", "gangbang"],
+    "Ausstellung": ["ausstellung", "galerie", "gallery", "kunst", "museum",
+                    "museen", "exhibition", "vernissage"],
     DROP: ["beratung", "hilfe", "sprechstunde"],
 }
 

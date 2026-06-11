@@ -37,12 +37,16 @@
 # (scrapers/stressfaktor.py, in aggregate.py registriert), weil die
 # Originalseite einen Bot-Schutz hat.
 sources:
-  # Kink-Quellen -- alle Events als Kink.
-  - url: https://quaelgeist.sm/veranstaltungen/calendar/
+  # Kink-Quellen -- alle Events als Kink. Beide nutzen "The Events
+  # Calendar" (WordPress); der iCal-Feed ist robust und umgeht teils
+  # den Bot-Schutz der HTML-Seite.
+  - url: https://quaelgeist.sm/?post_type=tribe_events&ical=1&eventDisplay=list
     name: Quälgeist
+    type: ical
     category: Kink
-  - url: https://karada-house.de/event/
+  - url: https://karada-house.de/?post_type=tribe_events&ical=1&eventDisplay=list
     name: Karada House
+    type: ical
     category: Kink
   # tip Berlin: eigener Ausleser (scrapers/tipberlin.py) wegen Bot-Schutz.
   # Siegessäule wird über einen eigenen Ausleser eingebunden

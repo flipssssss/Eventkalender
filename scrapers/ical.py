@@ -63,10 +63,12 @@ def _image(component) -> str | None:
 class ICalScraper(BaseScraper):
     """Read events from an iCalendar (.ics) feed."""
 
-    def __init__(self, url: str, name: str | None = None, default_tags=None):
+    def __init__(self, url: str, name: str | None = None, default_tags=None,
+                 category: str | None = None):
         self.url = url
         self.name = name or url
         self.default_tags = list(default_tags or [])
+        self.category = category
 
     def fetch_events(self) -> Iterable[Event]:
         # A non-"Mozilla" user agent plus a calendar Accept header gets
@@ -89,7 +91,7 @@ class ICalScraper(BaseScraper):
                 continue
 
             source_url = _text(component.get("url")) or self.url
-            tags = self.default_tags + _tags(component)
+            tags = [self.category] if self.category else self.default_tags + _tags(component)
 
             events.append(
                 Event(

@@ -82,24 +82,25 @@ class TipBerlinScraper(BaseScraper):
             except Exception as exc:  # noqa: BLE001
                 report.append(f"  /{path} -> FEHLER {exc}")
 
-        # Schema of the REST event objects + the event taxonomies.
+        # Are the REST post dates actually the event dates? List a batch.
+        import json as _json
         try:
             r = session.get(
-                "https://www.tip-berlin.de/wp-json/wp/v2/event?per_page=1",
+                "https://www.tip-berlin.de/wp-json/wp/v2/event?per_page=12&orderby=date&order=asc",
                 timeout=25)
-            import json as _json
             data = _json.loads(r.text)
+            report.append(f"\nREST asc (per_page=12): {len(data)} Events")
+            for it in data:
+                cats = [c for c in it.get("class_list", []) if c.startswith("event-category")]
+                report.append(f"  {it['date']} | {it['title']['rendered'][:32]} | {cats}")
+            # Compare post date vs detail JSON-LD date for the first event.
             if data:
-                report.append("\nEvent-JSON (Felder):\n"
-                              + _json.dumps(data[0], ensure_ascii=False)[:2600])
+                link = data[0]["link"]
+                rd = session.get(link, timeout=25)
+                ev = extract_events_from_html(rd.text, link, self.name)
+                report.append(f"  -> Detailseite {link}: JSON-LD={[str(e.start) for e in ev[:2]]}")
         except Exception as exc:  # noqa: BLE001
-            report.append(f"Event-JSON FEHLER: {exc}")
-        try:
-            r = session.get("https://www.tip-berlin.de/wp-json/wp/v2/types/event",
-                            timeout=25)
-            report.append("\nTypes/event:\n" + r.text[:1500])
-        except Exception as exc:  # noqa: BLE001
-            report.append(f"Types FEHLER: {exc}")
+            report.append(f"REST-Listen-FEHLER: {exc}")
 
         if self.write_debug:
             self._dump_debug("\n".join(report))

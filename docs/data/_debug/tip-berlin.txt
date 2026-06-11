@@ -1,4 +1,12 @@
 1. Abruf: status=200 len=113725 jsonld=True
 2. Abruf: status=200 len=113725 jsonld=True
-  Snippet 2. Abruf:
-<!doctype html><html lang="de"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="profile" href="https://gmpg.org/xfn/11"><meta name="apple-mobile-web-app-title" content="TipBerlin" /><link rel="icon" type="image/png" href="https://www.tip-berlin.de/wp-content/themes/tip/assets/favicon/android-chrome-16x16.png" sizes="16x16" /><link rel="icon" type="image/png" href="https://www.tip-berlin.de/wp-content/themes/tip/assets/favicon/android-chrome-32x32.png" sizes="32x32" /><link rel="icon" type="image/png" href="https://www.tip-berlin.de/wp-content/themes/tip/assets/favicon/android-chrome-192x192.png" sizes="192x192" /><link rel="icon" type="image/png" href="https://www.tip-berlin.de/wp-content/themes/tip/assets/favicon/android-chrome-512x512.png" sizes="512x512" /><link rel="shortcut icon" href="https://www.tip-berlin.de/wp-content/themes/tip/assets/favicon/favicon.ico" /><link rel="apple-touch-icon" sizes="180x180" href="https://www.tip-berlin.de/wp-content/themes/tip/assets/favicon/apple-touch-icon.png" /><link rel="manifest" href="https://www.tip-berlin.de/wp-content/themes/tip/assets/favicon/site.webmanifest" /> <script>"use strict";function _typeof(t){return(_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(t){return typeof t}:function(t){return t&&"function"==typeof Symbol&&t.constructor===Symbol&&t!==Symbol.prototype?"symbol":typeof t})(t)}!function(){var t=function(){var t,e,o=[],n=window,
+JSON-LD-Events auf /event/: 0
+Kategorie-Link-Kandidaten:
+   - https://www.tip-berlin.de/event/ausstellung+andere_orte/
+   - https://www.tip-berlin.de/event/museum/
+   - https://www.tip-berlin.de/event/musik+konzert/
+   - https://www.tip-berlin.de/event/musik+party/
+   - https://www.tip-berlin.de/event/musik-klassik/6-tischlereikonzert-quergeister-ensemblesolistinnen-und-musikerinnen-des-orchesters-der-deutschen-oper-berlin/
+   - https://www.tip-berlin.de/event/parenting-climate-ausstellung-zum-thema-elternschaft-klima-und-care/
+   - https://www.tip-berlin.de/kultur/kunst/
+   - https://www.tip-berlin.de/kultur/musik/

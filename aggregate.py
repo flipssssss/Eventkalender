@@ -29,6 +29,7 @@ from scrapers.berlin_buehnen import BerlinBuehnenScraper
 from scrapers.categories import categorize
 from scrapers.donau115 import Donau115Scraper
 from scrapers.siegessaeule import SiegessaeuleScraper
+from scrapers.tipberlin import TipBerlinScraper
 from scrapers.ical import ICalScraper
 from scrapers.jsonld import JsonLdScraper
 from scrapers.stressfaktor import StressfaktorScraper
@@ -94,6 +95,8 @@ def get_scrapers():
         Donau115Scraper(),
         # Siegessäule -- queerer Eventkalender, Kategorie automatisch.
         SiegessaeuleScraper(days=HORIZON_DAYS),
+        # tip Berlin -- Sonde (Bot-Schutz; Cookie-Umgehung wird getestet).
+        TipBerlinScraper(),
         # Tipsy Bear: deaktiviert -- Cloudflare-JS-Challenge blockt jeden
         # automatisierten Zugriff (scrapers/tipsybear.py belegt das).
         # TipsyBearScraper(),

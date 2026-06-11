@@ -36,10 +36,8 @@
 # Hinweis: Stressfaktor wird über einen eigenen Ausleser eingebunden
 # (scrapers/stressfaktor.py, in aggregate.py registriert), weil die
 # Originalseite einen Bot-Schutz hat.
-sources:
-  # tip Berlin -- Erkundung (Struktur + Kategorie-Filter ermitteln).
-  - url: https://www.tip-berlin.de/event/
-    name: tip Berlin
+sources: []
+  # tip Berlin: eigener Ausleser (scrapers/tipberlin.py) wegen Bot-Schutz.
   # Siegessäule wird über einen eigenen Ausleser eingebunden
   # (scrapers/siegessaeule.py), weil die Events in einem Sapper-Preload
   # stecken; Kategorie automatisch je Event.

@@ -32,6 +32,8 @@ BROWSER_HEADERS = {
     "Accept-Language": "en;q=0.9,de;q=0.8",
 }
 
+PARAMS_RE = re.compile(r"\(function\(([\w$,]+)\)\{")
+SECTION_RE = re.compile(r"section:\{slug:([^,}]+)")
 STARTS_AT_RE = re.compile(r'startsAt:"([^"]+)"')
 TITLE_RE = re.compile(r'title:"((?:[^"\\]|\\.)*)"')
 SLUG_RE = re.compile(r'slug:"([^"]+)"')
@@ -88,12 +90,13 @@ class SiegessaeuleScraper(BaseScraper):
         script = self._sapper_script(html)
         if not script:
             return []
+        refs = _resolve_refs(script)
         region = self._events_region(script)
         events: list[Event] = []
         for obj in _top_level_objects(region):
             if "startsAt:" not in obj:
                 continue  # banner ad, not an event
-            event = self._event_from_obj(obj)
+            event = self._event_from_obj(obj, refs)
             if event:
                 events.append(event)
         return events
@@ -117,7 +120,7 @@ class SiegessaeuleScraper(BaseScraper):
         start = j + len("items:[")
         return _balanced_array(script, start)
 
-    def _event_from_obj(self, obj: str) -> Event | None:
+    def _event_from_obj(self, obj: str, refs: dict) -> Event | None:
         starts = STARTS_AT_RE.search(obj)
         start = parse_datetime(starts.group(1)) if starts else None
         if start:
@@ -141,6 +144,10 @@ class SiegessaeuleScraper(BaseScraper):
         image = _unescape(image) if image else None
         source_url = DETAIL.format(slug=slug_m.group(1)) if slug_m else BASE
 
+        category = self._category(obj, title, info, refs)
+        if category is None:
+            return None  # advice/help ("Beratung") -> drop
+
         return Event(
             title=title,
             start=start,
@@ -150,7 +157,7 @@ class SiegessaeuleScraper(BaseScraper):
             location=None,
             description=info,
             image_url=image,
-            tags=[self._category(obj, title, info)],
+            tags=[category],
         )
 
     @staticmethod
@@ -158,19 +165,22 @@ class SiegessaeuleScraper(BaseScraper):
         m = pattern.search(text)
         return m.group(1) if m else None
 
-    def _category(self, obj: str, title: str, info: str | None) -> str:
+    def _category(self, obj: str, title: str, info: str | None, refs: dict) -> str:
         parts = [title or "", info or ""]
+        # Section = Siegessäule's own bucket (party, fetisch, stage, cinema …).
+        section = SECTION_RE.search(obj)
+        if section:
+            resolved = _resolve_value(section.group(1).strip(), refs)
+            if resolved:
+                parts.append(str(resolved))
+        # Resolve the event's tags through the ref table.
         tags = TAGS_RE.search(obj)
         if tags:
             for token in tags.group(1).split(","):
-                token = token.strip()
-                if token.startswith('"') and token.endswith('"'):
-                    parts.append(_unescape(token[1:-1]))
-        category = categorize([" ".join(parts)])
-        # Siegessäule is mostly queer nightlife; unknowns lean to Party.
-        if category == "Sonstiges":
-            return "Party"
-        return category or "Party"
+                resolved = _resolve_value(token.strip(), refs)
+                if resolved:
+                    parts.append(str(resolved))
+        return categorize([" ".join(parts)])
 
     def _dump_debug(self, text: str) -> None:
         try:
@@ -178,6 +188,109 @@ class SiegessaeuleScraper(BaseScraper):
             (DEBUG_DIR / "siegessaeule.txt").write_text(text, encoding="utf-8")
         except OSError:
             pass
+
+
+def _resolve_refs(script: str) -> dict:
+    """Build the variable table from the __SAPPER__ ``function(...)(...)``.
+
+    The preload wraps its data in ``(function(a,b,...){return {...}}(v0,v1,…))``
+    where the repeated values (tags, sections, venues) are passed as the
+    arguments. This maps each parameter name to its literal value.
+    """
+    m = PARAMS_RE.search(script)
+    if not m:
+        return {}
+    params = m.group(1).split(",")
+    body_open = m.end() - 1  # index of the '{' that opens the function body
+    body = _balanced_object(script, body_open)
+    args_open = script.find("(", body_open + len(body))
+    if args_open < 0:
+        return {}
+    args = _balanced_paren(script, args_open)
+    values = [_lit(tok) for tok in _split_top(args)]
+    return dict(zip(params, values))
+
+
+def _resolve_value(token: str, refs: dict):
+    token = token.strip()
+    if not token:
+        return None
+    if token[0] in "\"'":
+        return _unescape(token[1:-1])
+    if token in refs:
+        return refs[token]
+    return None  # unknown identifier / non-literal
+
+
+def _lit(token: str):
+    token = token.strip()
+    if token in ("true", "false"):
+        return token == "true"
+    if token in ("null", "void 0", "undefined"):
+        return None
+    if token and token[0] in "\"'":
+        return _unescape(token[1:-1])
+    if re.fullmatch(r"-?\d+(?:\.\d+)?", token):
+        return token
+    return None
+
+
+def _split_top(text: str):
+    """Split a comma-separated argument list, respecting strings/brackets."""
+    parts, depth, in_str, esc, quote, buf = [], 0, False, False, "", []
+    for ch in text:
+        if in_str:
+            buf.append(ch)
+            if esc:
+                esc = False
+            elif ch == "\\":
+                esc = True
+            elif ch == quote:
+                in_str = False
+            continue
+        if ch in "\"'":
+            in_str, quote = True, ch
+            buf.append(ch)
+        elif ch in "[{(":
+            depth += 1
+            buf.append(ch)
+        elif ch in "]})":
+            depth -= 1
+            buf.append(ch)
+        elif ch == "," and depth == 0:
+            parts.append("".join(buf))
+            buf = []
+        else:
+            buf.append(ch)
+    if buf:
+        parts.append("".join(buf))
+    return parts
+
+
+def _balanced_paren(text: str, start: int) -> str:
+    """Return the content inside the parenthesis group opening at ``start``."""
+    depth, in_str, esc, quote = 0, False, False, ""
+    i = start
+    while i < len(text):
+        ch = text[i]
+        if in_str:
+            if esc:
+                esc = False
+            elif ch == "\\":
+                esc = True
+            elif ch == quote:
+                in_str = False
+        else:
+            if ch in "\"'":
+                in_str, quote = True, ch
+            elif ch == "(":
+                depth += 1
+            elif ch == ")":
+                depth -= 1
+                if depth == 0:
+                    return text[start + 1:i]
+        i += 1
+    return text[start + 1:]
 
 
 def _top_level_objects(text: str):

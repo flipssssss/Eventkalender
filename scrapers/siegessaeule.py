@@ -56,7 +56,6 @@ class SiegessaeuleScraper(BaseScraper):
     def __init__(self, days: int = 14, write_debug: bool = True):
         self.days = days
         self.write_debug = write_debug
-        self._sample_slug = None
 
     def fetch_events(self) -> Iterable[Event]:
         session = requests.Session()
@@ -79,32 +78,11 @@ class SiegessaeuleScraper(BaseScraper):
             report.append(f"{day}: {len(found)} Events")
 
         if self.write_debug:
-            probe = self._probe_detail_urls(session)
             self._dump_debug(
                 f"Tage: {self.days} | Events (vor Dedup): {len(events)}\n"
-                + "\n".join(report) + "\n\n" + probe
+                + "\n".join(report)
             )
         return events
-
-    def _probe_detail_urls(self, session) -> str:
-        """Find the real event-detail URL pattern by trying candidates."""
-        slug = self._sample_slug
-        if not slug:
-            return "Sonde: kein Slug gefunden"
-        patterns = [
-            f"/en/events/{slug}/", f"/en/event/{slug}/", f"/events/{slug}/",
-            f"/en/{slug}/", f"/termine/{slug}/", f"/en/events/{slug}",
-            f"/event/{slug}/",
-        ]
-        lines = [f"Detail-URL-Sonde für Slug '{slug}':"]
-        for p in patterns:
-            try:
-                rr = session.get("https://www.siegessaeule.de" + p, timeout=20,
-                                 allow_redirects=True)
-                lines.append(f"  {p} -> {rr.status_code} ({rr.url})")
-            except Exception as exc:  # noqa: BLE001
-                lines.append(f"  {p} -> FEHLER {exc}")
-        return "\n".join(lines)
 
     # -- parsing ---------------------------------------------------------
 
@@ -151,8 +129,6 @@ class SiegessaeuleScraper(BaseScraper):
             return None
 
         slug_m = SLUG_RE.search(obj)
-        if slug_m and not self._sample_slug:
-            self._sample_slug = slug_m.group(1)
         title_m = TITLE_RE.search(obj)
         title = _unescape(title_m.group(1)) if title_m else (
             slug_m.group(1).replace("-", " ").title() if slug_m else None

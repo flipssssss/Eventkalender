@@ -78,11 +78,39 @@ class SiegessaeuleScraper(BaseScraper):
             report.append(f"{day}: {len(found)} Events")
 
         if self.write_debug:
+            probe = self._probe_detail_urls(session)
             self._dump_debug(
                 f"Tage: {self.days} | Events (vor Dedup): {len(events)}\n"
-                + "\n".join(report)
+                + "\n".join(report) + "\n\n" + probe
             )
         return events
+
+    def _probe_detail_urls(self, session) -> str:
+        """Find the real event-detail URL pattern by trying candidates."""
+        try:
+            r = session.get(f"{BASE}?date={_dt.date.today().isoformat()}", timeout=25)
+            r.encoding = "utf-8"
+            region = self._events_region(self._sapper_script(r.text) or "")
+            slug_m = SLUG_RE.search(region)
+        except Exception as exc:  # noqa: BLE001
+            return f"Sonde-Fehler: {exc}"
+        if not slug_m:
+            return "Sonde: kein Slug gefunden"
+        slug = slug_m.group(1)
+        patterns = [
+            f"/en/events/{slug}/", f"/en/event/{slug}/", f"/events/{slug}/",
+            f"/en/{slug}/", f"/termine/{slug}/", f"/en/events/{slug}",
+            f"/event/{slug}/",
+        ]
+        lines = [f"Detail-URL-Sonde für Slug '{slug}':"]
+        for p in patterns:
+            try:
+                rr = session.get("https://www.siegessaeule.de" + p, timeout=20,
+                                 allow_redirects=True)
+                lines.append(f"  {p} -> {rr.status_code} ({rr.url})")
+            except Exception as exc:  # noqa: BLE001
+                lines.append(f"  {p} -> FEHLER {exc}")
+        return "\n".join(lines)
 
     # -- parsing ---------------------------------------------------------
 
@@ -142,7 +170,8 @@ class SiegessaeuleScraper(BaseScraper):
         end = parse_datetime(ends.group(1)).replace(tzinfo=None) if ends else None
         image = self._first(IMAGE_RE, obj)
         image = _unescape(image) if image else None
-        source_url = DETAIL.format(slug=slug_m.group(1)) if slug_m else BASE
+        # Link to the day listing (always valid); deep event links 404.
+        source_url = f"{BASE}?date={start.date().isoformat()}"
 
         category = self._category(obj, title, info, refs)
         if category is None:

@@ -261,13 +261,18 @@ class JsonLdScraper(BaseScraper):
         return "\n".join(lines) if lines else "  (keine Skript-Endpunkte gefunden)"
 
     def _body_snippet(self, html: str, limit: int = 6000) -> str:
+        import re as _re
+
         soup = BeautifulSoup(html, "html.parser")
         for tag in soup(["style", "script", "head", "svg", "noscript"]):
             tag.decompose()
         body = soup.body or soup
-        # Collapse whitespace so the event markup isn't drowned in blanks.
-        import re as _re
-        return _re.sub(r"\n\s*\n+", "\n", body.decode())[:limit]
+        decoded = _re.sub(r"\n\s*\n+", "\n", body.decode())
+        # Start at the first <time> (where event listings usually begin) so
+        # the header/nav don't eat the whole snippet.
+        idx = decoded.find("<time")
+        start = max(0, idx - 400) if idx > 0 else 0
+        return decoded[start:start + limit]
 
     def _discover_links(self, html: str, base_url: str) -> str:
         """Surface likely programme/event subpages to read instead."""

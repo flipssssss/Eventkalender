@@ -1,17 +1,29 @@
 Kategorie-Seiten:
-  /event/musik+konzert/ -> 200, Detail-Links=0
-  /event/musik+tanz/ -> 200, Detail-Links=0
-  /event/musik+party/ -> 200, Detail-Links=0
-  /event/ausstellung+galerie/ -> 200, Detail-Links=0
-  /event/ausstellung+kunst/ -> 200, Detail-Links=0
-  /event/ausstellung+museen/ -> 200, Detail-Links=0
-  /event/ausstellung/ -> 200, Detail-Links=0
-  /event/museum/ -> 200, Detail-Links=0
-  /event/ausstellung+andere_orte/ -> 200, Detail-Links=0
+  /event/musik+konzert/ -> 200, Detail-Links=2
+  /event/musik+tanz/ -> 404, Detail-Links=0
+  /event/musik+party/ -> 200, Detail-Links=1
+  /event/ausstellung+galerie/ -> 404, Detail-Links=0
+  /event/ausstellung+kunst/ -> 404, Detail-Links=0
+  /event/ausstellung+museen/ -> 200, Detail-Links=2
+  /event/ausstellung/ -> 200, Detail-Links=1
+  /event/museum/ -> 200, Detail-Links=1
+  /event/ausstellung+andere_orte/ -> 200, Detail-Links=3
 
 RSS-Feeds:
-  /event/musik+konzert/feed/ -> 200 type=text/html items=0
-  /event/feed/ -> 200 type=text/html items=0
-  /feed/ -> 200 type=text/html items=0
+  /event/musik+konzert/feed/ -> 200 type=application/rss+xml; charset=U items=0
+  /event/feed/ -> 200 type=application/rss+xml; charset=U items=0
+  /feed/ -> 200 type=application/rss+xml; charset=U items=10
 
-Detailseite: status=200 JSON-LD-Events=0
+WP-REST-API:
+  /wp-json/ -> 200 type=application/json; charset=UTF- len=302214 snippet={"name":"tipBerlin","description":"14 Tage Programm","url":"https:\/\/www.tip-berlin.de","home":"https:\/\/www.tip-berlin.de","gmt_offset":2,"timezone_string":"
+  /wp-json/wp/v2/types -> 200 type=application/json; charset=UTF- len=31703 snippet={"post":{"description":"","hierarchical":false,"has_archive":false,"name":"Beitr\u00e4ge","slug":"post","icon":"dashicons-admin-post","taxonomies":["category","
+  /wp-json/wp/v2/event -> 200 type=application/json; charset=UTF- len=111567 snippet=[{"id":80865,"date":"2026-06-11T03:00:25","date_gmt":"2026-06-11T01:00:25","guid":{"rendered":"https:\/\/www.tip-berlin.de\/event\/strange-feathers\/"},"modifie
+  /wp-json/wp/v2/events -> 404 type=application/json; charset=UTF- len=144 snippet={"code":"rest_no_route","message":"Es wurde keine Route gefunden, die mit der URL und der Request-Methode identisch ist.","data":{"status":404}}
+  /wp-json/wp/v2/tribe_events -> 404 type=application/json; charset=UTF- len=144 snippet={"code":"rest_no_route","message":"Es wurde keine Route gefunden, die mit der URL und der Request-Methode identisch ist.","data":{"status":404}}
+  /wp-json/tribe/events/v1/events -> 404 type=application/json; charset=UTF- len=144 snippet={"code":"rest_no_route","message":"Es wurde keine Route gefunden, die mit der URL und der Request-Methode identisch ist.","data":{"status":404}}
+
+Kategorie-Body-Auszug:
+nu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-52683" id="menu-item-52683"><a href="https://www.tip-berlin.de/event/"><span>Programm</span></a><span class="sub-menu-toggle"><i class="ii ii-chevron-down"></i></span><ul class="sub-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-56823" id="menu-item-56823"><a href="https://www.tip-berlin.de/event/"><span>Highlights</span></a><span class="sub-menu-toggle"><i class="ii ii-chevron-down"></i></span></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-56818" id="menu-item-56818"><a href="https://www.tip-berlin.de/kinoprogramm/"><span>Kinoprogramm</span></a><span class="sub-menu-toggle"><i class="ii ii-chevron-down"></i></span></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-59524" id="menu-item-59524"><a href="https://www.tip-berlin.de/event/buehne/"><span>Bühne</span></a><span class="sub-menu-toggle"><i class="ii ii-chevron-down"></i></span></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-51175" id="menu-item-51175"><a href="https://www.tip-berlin.de/event/ausstellung+andere_orte/"><span>Ausstellungen</span></a><span class="sub-menu-toggle"><i class="ii ii-chevron-down"></i></span></li><li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-43078 current_page_item menu-item-51173" id="menu-item-51173"><a aria-current="page" href="https://www.tip-berlin.de/event/musik+konzert/"><span>Musik</span></a><span class="sub-menu-toggle"><i class="ii ii-chevron-down"></
+
+Detailseite: status=200 JSON-LD-Events=1
+   - 2026-06-11 20:00:00+02:00 | Quergeister | https://www.berlin-buehnen.de/media/productions/6-tischlereikonzert-quergeister/gallery/202507152159090084.jpeg

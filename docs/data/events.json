@@ -1,12 +1,7 @@
 {
-  "generated_at": "2026-06-11T05:52:29.909465+00:00",
-  "count": 348,
+  "generated_at": "2026-06-11T06:00:36.982477+00:00",
+  "count": 394,
   "sources": [
-    {
-      "source": "Siegessäule",
-      "count": 0,
-      "error": null
-    },
     {
       "source": "Stressfaktor",
       "count": 300,
@@ -21,9 +16,28 @@
       "source": "Donau115",
       "count": 92,
       "error": null
+    },
+    {
+      "source": "Siegessäule",
+      "count": 47,
+      "error": null
     }
   ],
   "events": [
+    {
+      "title": "Tell Mama",
+      "start": "2026-06-10T19:00:00",
+      "end": "2026-06-10T22:00:00",
+      "location": null,
+      "description": "Drag show by Judy LaDivina with various special guests",
+      "image_url": "https://cdn.siegessaeule.de/images/Extra_GMF_with_Judy_LaDivina__prom.94e78a02.fill-320x320.jpg",
+      "source_url": "https://www.siegessaeule.de/en/events/hobby-tell-mama-25/",
+      "source_name": "Siegessäule",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true
+    },
     {
       "title": "Vollbrecht/Herzog/Akintaya",
       "start": "2026-06-10T20:00:00",
@@ -39,6 +53,34 @@
       "time_known": true
     },
     {
+      "title": "Workshop KI und ChatGPT",
+      "start": "2026-06-11T09:30:00",
+      "end": "2026-06-11T12:30:00",
+      "location": null,
+      "description": "Mit Stefanie Schaarschmidt, FrauenComputerZentrumBerlin",
+      "image_url": null,
+      "source_url": "https://www.siegessaeule.de/en/events/workshop-ki-und-chatgpt/",
+      "source_name": "Siegessäule",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Knock up @XXL",
+      "start": "2026-06-11T10:00:00",
+      "end": null,
+      "location": null,
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.siegessaeule.de/en/events/knock-upxxl/",
+      "source_name": "Siegessäule",
+      "tags": [
+        "Film"
+      ],
+      "time_known": true
+    },
+    {
       "title": "Studio 9. Der Tag mit Paul Ronzheimer",
       "start": "2026-06-11T11:45:00",
       "end": null,
@@ -49,6 +91,34 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Pasta-Tag für 4,50€, Kaffee & Kuchen",
+      "start": "2026-06-11T12:00:00",
+      "end": null,
+      "location": null,
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.siegessaeule.de/en/events/pastatag-kaffee-kuchen/",
+      "source_name": "Siegessäule",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Qigong & Taiji für deine Lebensenergie!",
+      "start": "2026-06-11T14:15:00",
+      "end": "2026-06-11T16:15:00",
+      "location": null,
+      "description": "Mit Marzena Stana",
+      "image_url": null,
+      "source_url": "https://www.siegessaeule.de/en/events/qigong-taiji-fur-deine-lebensenergie/",
+      "source_name": "Siegessäule",
+      "tags": [
+        "Party"
       ],
       "time_known": true
     },
@@ -375,20 +445,6 @@
       "time_known": true
     },
     {
-      "title": "On Justice #10: Racial (In)Justice in Authoritarian Times",
-      "start": "2026-06-11T19:30:00",
-      "end": null,
-      "location": "HAU Hebbel am Ufer",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/e632ada24aff21a6dd8978ef469a29f3.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/on-justice-10-racial-injustice-authoritarian-times/events/367597/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Albert Queens comes to town",
       "start": "2026-06-11T19:30:00",
       "end": null,
@@ -403,13 +459,13 @@
       "time_known": true
     },
     {
-      "title": "Hannah Zabrisky tritt nicht auf",
-      "start": "2026-06-11T20:00:00",
+      "title": "On Justice #10: Racial (In)Justice in Authoritarian Times",
+      "start": "2026-06-11T19:30:00",
       "end": null,
-      "location": "Schaubühne am Lehniner Platz",
+      "location": "HAU Hebbel am Ufer",
       "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/f6f0f5d2e7bb98e122028b63e09c3a61.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/hannah-zabrisky-tritt/events/367267/",
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/e632ada24aff21a6dd8978ef469a29f3.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/on-justice-10-racial-injustice-authoritarian-times/events/367597/",
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
@@ -431,6 +487,20 @@
       "time_known": true
     },
     {
+      "title": "Hannah Zabrisky tritt nicht auf",
+      "start": "2026-06-11T20:00:00",
+      "end": null,
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/f6f0f5d2e7bb98e122028b63e09c3a61.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/hannah-zabrisky-tritt/events/367267/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
       "title": "Thursday Jazz Jam",
       "start": "2026-06-11T20:00:00",
       "end": null,
@@ -441,6 +511,20 @@
       "source_name": "Donau115",
       "tags": [
         "Konzert"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Weeeirdos",
+      "start": "2026-06-11T20:00:00",
+      "end": "2026-06-11T22:00:00",
+      "location": null,
+      "description": "Line-up: Elli Acula, Lolsnake, Rakans u. a.",
+      "image_url": "https://cdn.siegessaeule.de/images/Berhain_Official_Logo_Artwork_Prom.30a6b168.fill-320x320.png",
+      "source_url": "https://www.siegessaeule.de/en/events/weeeirdos-0426/",
+      "source_name": "Siegessäule",
+      "tags": [
+        "Party"
       ],
       "time_known": true
     },
@@ -473,6 +557,48 @@
       "time_known": true
     },
     {
+      "title": "Black and queer feminism in Berlin",
+      "start": "2026-06-12T12:00:00",
+      "end": "2026-06-12T14:00:00",
+      "location": null,
+      "description": "In English, with biographical elements on May Ayim, Audre Lorde, Ika Hügel-Marshall u. a.",
+      "image_url": "https://cdn.siegessaeule.de/images/thumbnail_deSta_schoeneberg_anerke.a6c69b00.fill-320x320.jpg",
+      "source_url": "https://www.siegessaeule.de/en/events/schwarzer-und-queerer-feminismus-in-berlin-englisch/",
+      "source_name": "Siegessäule",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Ukulele-Workshop: „Bring me sunshine“",
+      "start": "2026-06-12T14:15:00",
+      "end": "2026-06-12T16:15:00",
+      "location": null,
+      "description": "Mit Marion Schmidt und Monika Saße, den „MoMaS Berlin“",
+      "image_url": null,
+      "source_url": "https://www.siegessaeule.de/en/events/ukulele-workshop-bring/",
+      "source_name": "Siegessäule",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Kinky Taboos: Berlin’s Forbidden Desires Tour",
+      "start": "2026-06-12T14:30:00",
+      "end": null,
+      "location": null,
+      "description": "Mit Jeff Mannes",
+      "image_url": "https://cdn.siegessaeule.de/images/Forbidden_desires.2e16d0ba.fill-320x320.png",
+      "source_url": "https://www.siegessaeule.de/en/events/kinky-berlin-tour-2/",
+      "source_name": "Siegessäule",
+      "tags": [
+        "Kink"
+      ],
+      "time_known": true
+    },
+    {
       "title": "CHILLGARAGE",
       "start": "2026-06-12T16:00:00",
       "end": null,
@@ -497,6 +623,20 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Narcotics Anonymous Meeting",
+      "start": "2026-06-12T16:45:00",
+      "end": null,
+      "location": null,
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.siegessaeule.de/en/events/narcotics-anonymous-meeting-23/",
+      "source_name": "Siegessäule",
+      "tags": [
+        "Party"
       ],
       "time_known": true
     },
@@ -739,16 +879,16 @@
       "time_known": true
     },
     {
-      "title": "Call me Paris",
-      "start": "2026-06-12T19:30:00",
+      "title": "Qriginal – recon Special",
+      "start": "2026-06-12T19:00:00",
       "end": null,
-      "location": "Schaubühne am Lehniner Platz",
+      "location": null,
       "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/f21ce3b69e3722af3aaa5aefa961cbc8.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/call-me-paris/events/367262/",
-      "source_name": "Berlin Bühnen",
+      "image_url": null,
+      "source_url": "https://www.siegessaeule.de/en/events/qriginal-recon/",
+      "source_name": "Siegessäule",
       "tags": [
-        "Theater"
+        "Party"
       ],
       "time_known": true
     },
@@ -763,6 +903,34 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Call me Paris",
+      "start": "2026-06-12T19:30:00",
+      "end": null,
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/f21ce3b69e3722af3aaa5aefa961cbc8.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/call-me-paris/events/367262/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Freitag in der Olfe",
+      "start": "2026-06-12T19:30:00",
+      "end": "2026-06-12T22:30:00",
+      "location": null,
+      "description": null,
+      "image_url": "https://cdn.siegessaeule.de/images/Mobel_Olfe_Aussenansicht_PR_honora.f62c4aba.fill-320x320.jpg",
+      "source_url": "https://www.siegessaeule.de/en/events/freitag-in-der-olfe-barbie-garbage/",
+      "source_name": "Siegessäule",
+      "tags": [
+        "Party"
       ],
       "time_known": true
     },
@@ -879,20 +1047,6 @@
       "time_known": true
     },
     {
-      "title": "Paradiesische Zustände",
-      "start": "2026-06-12T20:00:00",
-      "end": null,
-      "location": "Schaubühne am Lehniner Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/cf36627458d6d6267a34beb50775afae.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/paradiesische-zustaende/events/367234/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "COME OR DIE – A double bill on politics and sex",
       "start": "2026-06-12T20:00:00",
       "end": null,
@@ -928,6 +1082,20 @@
       "description": null,
       "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/1dad660c99438cfa48f39dc421d4a666.jpg",
       "source_url": "https://www.berlin-buehnen.de/de/spielplan/the-color-scheme/events/368366/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Paradiesische Zustände",
+      "start": "2026-06-12T20:00:00",
+      "end": null,
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/cf36627458d6d6267a34beb50775afae.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/paradiesische-zustaende/events/367234/",
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
@@ -1001,6 +1169,20 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Overload #3",
+      "start": "2026-06-12T21:59:00",
+      "end": "2026-06-13T02:59:00",
+      "location": null,
+      "description": "New hedonistic, sex-positive party with \"human installations & pervs\", DJs 2themax b2b Kemik, Boyca, Metaraph u. a. (Techno)",
+      "image_url": "https://cdn.siegessaeule.de/images/Promo.2f87caeb.fill-320x320.jpg",
+      "source_url": "https://www.siegessaeule.de/en/events/kreuzwerk-overload-3/",
+      "source_name": "Siegessäule",
+      "tags": [
+        "Party"
       ],
       "time_known": true
     },
@@ -1229,6 +1411,20 @@
       "time_known": true
     },
     {
+      "title": "Kinky Taboos: Berlin After Dark Tour",
+      "start": "2026-06-13T14:30:00",
+      "end": null,
+      "location": null,
+      "description": null,
+      "image_url": "https://cdn.siegessaeule.de/images/after_dark.2e16d0ba.fill-320x320.png",
+      "source_url": "https://www.siegessaeule.de/en/events/kinky-berlin-tour-4/",
+      "source_name": "Siegessäule",
+      "tags": [
+        "Kink"
+      ],
+      "time_known": true
+    },
+    {
       "title": "Bethanien Südflügel Sommerfest",
       "start": "2026-06-13T15:00:00",
       "end": null,
@@ -1267,6 +1463,20 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Protest"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Konzert: Grey Scale Festival (feat. TR/ST)",
+      "start": "2026-06-13T16:30:00",
+      "end": null,
+      "location": null,
+      "description": null,
+      "image_url": "https://cdn.siegessaeule.de/images/TRST-credit-Eliot-Lee-Hazel.2e16d0ba.fill-320x320.jpg",
+      "source_url": "https://www.siegessaeule.de/en/events/konzert-grey-scale-festival-feat-trst/",
+      "source_name": "Siegessäule",
+      "tags": [
+        "Konzert"
       ],
       "time_known": true
     },
@@ -1369,20 +1579,6 @@
       "time_known": true
     },
     {
-      "title": "Glaube, Geld, Krieg und Liebe",
-      "start": "2026-06-13T19:00:00",
-      "end": null,
-      "location": "Schaubühne am Lehniner Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/9932aee668ccaaf89bcda56c1294ae72.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/glaube-geld-krieg-liebe/events/367252/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "MEXA: Reality Show",
       "start": "2026-06-13T19:00:00",
       "end": null,
@@ -1390,6 +1586,20 @@
       "description": null,
       "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/40219a6047141537c683c63b6c26723f.jpg",
       "source_url": "https://www.berlin-buehnen.de/de/spielplan/mexa-reality-show/events/367988/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Glaube, Geld, Krieg und Liebe",
+      "start": "2026-06-13T19:00:00",
+      "end": null,
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/9932aee668ccaaf89bcda56c1294ae72.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/glaube-geld-krieg-liebe/events/367252/",
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
@@ -1425,20 +1635,6 @@
       "time_known": true
     },
     {
-      "title": "Call me Paris",
-      "start": "2026-06-13T19:30:00",
-      "end": null,
-      "location": "Schaubühne am Lehniner Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/f21ce3b69e3722af3aaa5aefa961cbc8.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/call-me-paris/events/367263/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "F*impro Berlin –  die erste feministische Improgruppe in Berlin",
       "start": "2026-06-13T19:30:00",
       "end": null,
@@ -1460,6 +1656,20 @@
       "description": null,
       "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/4cf68010faea9fcbc1d051eefd537bb9.jpg",
       "source_url": "https://www.berlin-buehnen.de/de/spielplan/nichts-ok/events/368152/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Call me Paris",
+      "start": "2026-06-13T19:30:00",
+      "end": null,
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/f21ce3b69e3722af3aaa5aefa961cbc8.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/call-me-paris/events/367263/",
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
@@ -1523,20 +1733,6 @@
       "time_known": true
     },
     {
-      "title": "Paradiesische Zustände",
-      "start": "2026-06-13T20:00:00",
-      "end": null,
-      "location": "Schaubühne am Lehniner Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/cf36627458d6d6267a34beb50775afae.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/paradiesische-zustaende/events/367235/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "JUICE",
       "start": "2026-06-13T20:00:00",
       "end": null,
@@ -1544,6 +1740,20 @@
       "description": null,
       "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/e6c70b6964d46cb3328ee754ed5070c5.jpg",
       "source_url": "https://www.berlin-buehnen.de/de/spielplan/juice/events/368149/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Paradiesische Zustände",
+      "start": "2026-06-13T20:00:00",
+      "end": null,
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/cf36627458d6d6267a34beb50775afae.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/paradiesische-zustaende/events/367235/",
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
@@ -1607,6 +1817,62 @@
       "time_known": true
     },
     {
+      "title": "SlayDay Chill",
+      "start": "2026-06-14T06:00:00",
+      "end": null,
+      "location": null,
+      "description": "All gender, DC: kinky, sexy, fetish, no FF",
+      "image_url": "https://cdn.siegessaeule.de/images/WhatsApp_Image_2025-07-01_at_23.00.bb5b9ec3.fill-320x320.jpg",
+      "source_url": "https://www.siegessaeule.de/en/events/boese-buben-slayday-26/",
+      "source_name": "Siegessäule",
+      "tags": [
+        "Kink"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Queer-Friendly Sober Sunday: Still-Life Drawing with Juancar",
+      "start": "2026-06-14T08:00:00",
+      "end": null,
+      "location": null,
+      "description": "Welcoming creative space in Charlottenburg to connect and draw together. All levels welcome, including complete beginners.",
+      "image_url": "https://cdn.siegessaeule.de/images/Still_Life_Drawing_with_Juancar_c_.0ef5de36.fill-320x320.jpg",
+      "source_url": "https://www.siegessaeule.de/en/events/queer-friendly-sober-sunday-still-life-drawing-with-juancar/",
+      "source_name": "Siegessäule",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Big Gay Market",
+      "start": "2026-06-14T09:00:00",
+      "end": null,
+      "location": null,
+      "description": "Queerer Markt mit Handwerk, Kunst, Workshops, Tattoos, Live Musik, Street Food u. a.",
+      "image_url": null,
+      "source_url": "https://www.siegessaeule.de/en/events/festsaal-kreuzberg-big-gay-market-26/",
+      "source_name": "Siegessäule",
+      "tags": [
+        "Konzert"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Guided Tour : „Speaking of Sex”",
+      "start": "2026-06-14T09:30:00",
+      "end": "2026-06-14T10:30:00",
+      "location": null,
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.siegessaeule.de/en/events/guided-apropos-sex/",
+      "source_name": "Siegessäule",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true
+    },
+    {
       "title": "Neocypherpunk Summit",
       "start": "2026-06-14T10:00:00",
       "end": null,
@@ -1631,6 +1897,20 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Führung : „Apropos Sex”",
+      "start": "2026-06-14T11:30:00",
+      "end": null,
+      "location": null,
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.siegessaeule.de/en/events/frührung-apropos-sex/",
+      "source_name": "Siegessäule",
+      "tags": [
+        "Party"
       ],
       "time_known": true
     },
@@ -1831,6 +2111,20 @@
       "time_known": true
     },
     {
+      "title": "Film & Talk: Weiße Nächte in Hellblau & Rosa",
+      "start": "2026-06-14T17:30:00",
+      "end": null,
+      "location": null,
+      "description": "Mit Mahide Lein & Aktivist Konstantin Sherstyuk",
+      "image_url": "https://cdn.siegessaeule.de/images/Weisse_Nachte_-_Insta_Format.be8d14db.fill-320x320.jpg",
+      "source_url": "https://www.siegessaeule.de/en/events/film-talk-weiße-nächte-in-hellblau-rosa/",
+      "source_name": "Siegessäule",
+      "tags": [
+        "Film"
+      ],
+      "time_known": true
+    },
+    {
       "title": "Chillout Jam",
       "start": "2026-06-14T18:00:00",
       "end": null,
@@ -1907,7 +2201,7 @@
       "location": "Volksbühne am Rosa-Luxemburg-Platz",
       "description": null,
       "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/be7c0aef9bc2e5a24d53018082778570.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/spooky-paradise/events/368918/",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/spooky-paradise/events/369284/",
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
@@ -1921,7 +2215,7 @@
       "location": "Volksbühne am Rosa-Luxemburg-Platz",
       "description": null,
       "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/be7c0aef9bc2e5a24d53018082778570.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/spooky-paradise/events/369284/",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/spooky-paradise/events/368918/",
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
@@ -1943,20 +2237,6 @@
       "time_known": true
     },
     {
-      "title": "Paradiesische Zustände",
-      "start": "2026-06-14T20:00:00",
-      "end": null,
-      "location": "Schaubühne am Lehniner Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/cf36627458d6d6267a34beb50775afae.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/paradiesische-zustaende/events/367236/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "NOT FUCKABLE",
       "start": "2026-06-14T20:00:00",
       "end": null,
@@ -1964,6 +2244,20 @@
       "description": null,
       "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/f706056034bf13a8858aba633fb5c164.jpg",
       "source_url": "https://www.berlin-buehnen.de/de/spielplan/not-fuckable/events/368127/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Paradiesische Zustände",
+      "start": "2026-06-14T20:00:00",
+      "end": null,
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/cf36627458d6d6267a34beb50775afae.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/paradiesische-zustaende/events/367236/",
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
@@ -2013,6 +2307,62 @@
       "time_known": true
     },
     {
+      "title": "Konferenz: „Verbinden statt spalten – Gemeinsam gegen Queerfeindlichkeit“",
+      "start": "2026-06-15T13:00:00",
+      "end": null,
+      "location": null,
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.siegessaeule.de/en/events/konferenz-verbinden-statt-spalten-gemeinsam-gegen-queerfeindlichkeit/",
+      "source_name": "Siegessäule",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Die Montagsspieler",
+      "start": "2026-06-15T15:30:00",
+      "end": null,
+      "location": null,
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.siegessaeule.de/en/events/29864-montagsspieler/",
+      "source_name": "Siegessäule",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Queer Yoga - Monday Fire",
+      "start": "2026-06-15T16:30:00",
+      "end": "2026-06-15T18:30:00",
+      "location": null,
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.siegessaeule.de/en/events/queer-yoga-monday-fire/",
+      "source_name": "Siegessäule",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "All-Gender-Fußball",
+      "start": "2026-06-15T17:45:00",
+      "end": "2026-06-15T19:45:00",
+      "location": null,
+      "description": null,
+      "image_url": "https://cdn.siegessaeule.de/images/Untitled_lj4GeCw.2e16d0ba.fill-320x320.png",
+      "source_url": "https://www.siegessaeule.de/en/events/all-gender-fußball/",
+      "source_name": "Siegessäule",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true
+    },
+    {
       "title": "Fahrrad-Selbsthilfe-Werkstatt",
       "start": "2026-06-15T18:00:00",
       "end": null,
@@ -2023,6 +2373,20 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Queer Yoga - Slow Flow",
+      "start": "2026-06-15T18:15:00",
+      "end": "2026-06-15T20:15:00",
+      "location": null,
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.siegessaeule.de/en/events/queer-yoga-anfänger/",
+      "source_name": "Siegessäule",
+      "tags": [
+        "Party"
       ],
       "time_known": true
     },
@@ -2209,6 +2573,20 @@
       "time_known": true
     },
     {
+      "title": "Electric Monday",
+      "start": "2026-06-15T20:00:00",
+      "end": "2026-06-16T01:00:00",
+      "location": null,
+      "description": "Line-up: Norman Weber, Annara, Frankie Flowerz u. a. (Deep House, Techno, Minimal, Grooves)",
+      "image_url": "https://cdn.siegessaeule.de/images/Frankie_Flowerz-pr.e122f8be.fill-320x320.jpg",
+      "source_url": "https://www.siegessaeule.de/en/events/electric-monday-3-0626/",
+      "source_name": "Siegessäule",
+      "tags": [
+        "Kink"
+      ],
+      "time_known": true
+    },
+    {
       "title": "Filmabend inK(P)",
       "start": "2026-06-15T21:00:00",
       "end": null,
@@ -2233,6 +2611,34 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Konferenz: „Verbinden statt spalten – Gemeinsam gegen Queerfeindlichkeit“",
+      "start": "2026-06-16T08:00:00",
+      "end": "2026-06-16T13:00:00",
+      "location": null,
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.siegessaeule.de/en/events/konferenz-verbinden-statt-spalten-gemeinsam-gegen-queerfeindlichkeit/",
+      "source_name": "Siegessäule",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Runder Tisch Queeres Steglitz-Zehlendorf",
+      "start": "2026-06-16T14:00:00",
+      "end": null,
+      "location": null,
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.siegessaeule.de/en/events/runder-tisch-queeres-steglitz-zehlendorf-mittelhof/",
+      "source_name": "Siegessäule",
+      "tags": [
+        "Party"
       ],
       "time_known": true
     },
@@ -2363,6 +2769,20 @@
       "time_known": true
     },
     {
+      "title": "Film: The History of Sound",
+      "start": "2026-06-16T19:15:00",
+      "end": "2026-06-16T20:15:00",
+      "location": null,
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.siegessaeule.de/en/events/film-the-history-of-sound-rb/",
+      "source_name": "Siegessäule",
+      "tags": [
+        "Film"
+      ],
+      "time_known": true
+    },
+    {
       "title": "Queercoustic Hangout",
       "start": "2026-06-16T19:30:00",
       "end": null,
@@ -2373,20 +2793,6 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Egal",
-      "start": "2026-06-16T19:30:00",
-      "end": null,
-      "location": "Schaubühne am Lehniner Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/76be035fcf29ecc136ddd86e7de00ba0.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/egal/events/367276/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
       ],
       "time_known": true
     },
@@ -2405,6 +2811,20 @@
       "time_known": true
     },
     {
+      "title": "Egal",
+      "start": "2026-06-16T19:30:00",
+      "end": null,
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/76be035fcf29ecc136ddd86e7de00ba0.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/egal/events/367276/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
       "title": "Flinta*only Kickern",
       "start": "2026-06-16T20:00:00",
       "end": null,
@@ -2415,6 +2835,20 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Fragezeichen am Hörizont der Tauben",
+      "start": "2026-06-16T20:00:00",
+      "end": null,
+      "location": "Volksbühne am Rosa-Luxemburg-Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/7aa8146b0ff1cc696ae43909b1d2fcc8.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/fragezeichen-hoerizont-tauben/events/368136/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
       ],
       "time_known": true
     },
@@ -2447,20 +2881,6 @@
       "time_known": true
     },
     {
-      "title": "Fragezeichen am Hörizont der Tauben",
-      "start": "2026-06-16T20:00:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/7aa8146b0ff1cc696ae43909b1d2fcc8.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/fragezeichen-hoerizont-tauben/events/368136/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Two-Song Tuesday (MUSIC STARTS 20:00)",
       "start": "2026-06-16T20:00:00",
       "end": null,
@@ -2485,6 +2905,34 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Film"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Hamsterrad",
+      "start": "2026-06-17T09:00:00",
+      "end": null,
+      "location": null,
+      "description": null,
+      "image_url": "https://cdn.siegessaeule.de/images/hamsterrad1_65896m_klein.18c2fda9.fill-320x320.jpg",
+      "source_url": "https://www.siegessaeule.de/en/events/",
+      "source_name": "Siegessäule",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Projektband für Frauen* und Queers",
+      "start": "2026-06-17T14:30:00",
+      "end": null,
+      "location": null,
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.siegessaeule.de/en/events/frizu-lounge---23/",
+      "source_name": "Siegessäule",
+      "tags": [
+        "Party"
       ],
       "time_known": true
     },
@@ -2559,16 +3007,16 @@
       "time_known": true
     },
     {
-      "title": "Romani POV: Young Roma on Screen and Stage",
-      "start": "2026-06-17T18:30:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/3007a0c914514768c01528563c715ae9.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/romani-pov-young-roma-on-screen-and-stage/events/368113/",
-      "source_name": "Berlin Bühnen",
+      "title": "Bingo mit den Wodkasisters",
+      "start": "2026-06-17T18:00:00",
+      "end": "2026-06-17T22:00:00",
+      "location": null,
+      "description": "Präsentiert von Olga Wodka und Nelly Skrothum",
+      "image_url": "https://cdn.siegessaeule.de/images/Nelly_Skrothum_c_max_nordt.ac1b9bc7.fill-320x320.jpg",
+      "source_url": "https://www.siegessaeule.de/en/events/zshobby-bingo-wodkasisters/",
+      "source_name": "Siegessäule",
       "tags": [
-        "Theater"
+        "Party"
       ],
       "time_known": true
     },
@@ -2580,6 +3028,20 @@
       "description": null,
       "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/93b92db01e4e32badfbe55df6e3a5eb1.jpg",
       "source_url": "https://www.berlin-buehnen.de/de/spielplan/beziehungskiller-wohnungskrise-ueber-zusammenleben-bedingungen-knappheit/events/369257/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Romani POV: Young Roma on Screen and Stage",
+      "start": "2026-06-17T18:30:00",
+      "end": null,
+      "location": "Volksbühne am Rosa-Luxemburg-Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/3007a0c914514768c01528563c715ae9.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/romani-pov-young-roma-on-screen-and-stage/events/368113/",
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
@@ -2643,20 +3105,6 @@
       "time_known": true
     },
     {
-      "title": "DER SOLDAT. Ein Übergangsritual",
-      "start": "2026-06-17T19:00:00",
-      "end": null,
-      "location": "HAU Hebbel am Ufer",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/8dcf14bc91c6907c94028d1dd199749d.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/der-soldat-ein-uebergangsritual/events/367581/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "P14 – endlich endlich",
       "start": "2026-06-17T19:00:00",
       "end": null,
@@ -2664,6 +3112,20 @@
       "description": null,
       "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/e460ca489510b3a2c7b291bffd2194c9.jpg",
       "source_url": "https://www.berlin-buehnen.de/de/spielplan/p14-endlich-endlich/events/368116/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "DER SOLDAT. Ein Übergangsritual",
+      "start": "2026-06-17T19:00:00",
+      "end": null,
+      "location": "HAU Hebbel am Ufer",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/8dcf14bc91c6907c94028d1dd199749d.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/der-soldat-ein-uebergangsritual/events/367581/",
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
@@ -2685,20 +3147,6 @@
       "time_known": true
     },
     {
-      "title": "Egal",
-      "start": "2026-06-17T19:30:00",
-      "end": null,
-      "location": "Schaubühne am Lehniner Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/76be035fcf29ecc136ddd86e7de00ba0.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/egal/events/367277/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Fantômas",
       "start": "2026-06-17T19:30:00",
       "end": null,
@@ -2706,6 +3154,20 @@
       "description": null,
       "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/2b7c995c673b1ac786b43f0a487de4d0.jpg",
       "source_url": "https://www.berlin-buehnen.de/de/spielplan/fantomas/events/368154/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Egal",
+      "start": "2026-06-17T19:30:00",
+      "end": null,
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/76be035fcf29ecc136ddd86e7de00ba0.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/egal/events/367277/",
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
@@ -2727,20 +3189,6 @@
       "time_known": true
     },
     {
-      "title": "Im Herzen der Gewalt",
-      "start": "2026-06-17T20:00:00",
-      "end": null,
-      "location": "Schaubühne am Lehniner Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/471ff06353b27a4d8d217663cdacad25.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/im-herzen-gewalt/events/367226/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "TWINK DEATH",
       "start": "2026-06-17T20:00:00",
       "end": null,
@@ -2748,6 +3196,20 @@
       "description": null,
       "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/a037576cc985d29a688b3ae92e5c0187.jpg",
       "source_url": "https://www.berlin-buehnen.de/de/spielplan/twink-death/events/368109/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Im Herzen der Gewalt",
+      "start": "2026-06-17T20:00:00",
+      "end": null,
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/471ff06353b27a4d8d217663cdacad25.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/im-herzen-gewalt/events/367226/",
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
@@ -2793,6 +3255,20 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Film"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Qigong & Taiji für deine Lebensenergie!",
+      "start": "2026-06-18T14:15:00",
+      "end": "2026-06-18T16:15:00",
+      "location": null,
+      "description": "Mit Marzena Stana",
+      "image_url": null,
+      "source_url": "https://www.siegessaeule.de/en/events/qigong-taiji-fur-deine-lebensenergie/",
+      "source_name": "Siegessäule",
+      "tags": [
+        "Party"
       ],
       "time_known": true
     },
@@ -3035,20 +3511,6 @@
       "time_known": true
     },
     {
-      "title": "Egal",
-      "start": "2026-06-18T19:30:00",
-      "end": null,
-      "location": "Schaubühne am Lehniner Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/76be035fcf29ecc136ddd86e7de00ba0.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/egal/events/367278/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "This is waving salon",
       "start": "2026-06-18T19:30:00",
       "end": null,
@@ -3077,6 +3539,20 @@
       "time_known": true
     },
     {
+      "title": "Egal",
+      "start": "2026-06-18T19:30:00",
+      "end": null,
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/76be035fcf29ecc136ddd86e7de00ba0.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/egal/events/367278/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
       "title": "Punkrocktresen",
       "start": "2026-06-18T20:00:00",
       "end": null,
@@ -3087,6 +3563,20 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "TWINK DEATH",
+      "start": "2026-06-18T20:00:00",
+      "end": null,
+      "location": "Volksbühne am Rosa-Luxemburg-Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/a037576cc985d29a688b3ae92e5c0187.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/twink-death/events/368108/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
       ],
       "time_known": true
     },
@@ -3112,20 +3602,6 @@
       "description": null,
       "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/976dfa6c1e74da77a545cf9cae20231b.JPG",
       "source_url": "https://www.berlin-buehnen.de/de/spielplan/mi-madre-y-el-dinero/events/367595/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "TWINK DEATH",
-      "start": "2026-06-18T20:00:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/a037576cc985d29a688b3ae92e5c0187.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/twink-death/events/368108/",
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
@@ -3175,6 +3651,62 @@
       "time_known": true
     },
     {
+      "title": "Hamsterrad",
+      "start": "2026-06-19T09:00:00",
+      "end": "2026-06-19T10:00:00",
+      "location": null,
+      "description": null,
+      "image_url": "https://cdn.siegessaeule.de/images/hamsterrad1_65896m_klein.18c2fda9.fill-320x320.jpg",
+      "source_url": "https://www.siegessaeule.de/en/events/",
+      "source_name": "Siegessäule",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Sonntags-Club: Ausflug „7-Seen/Dampferfahrt / Restaurant Loretta im Garten“",
+      "start": "2026-06-19T11:00:00",
+      "end": "2026-06-19T13:00:00",
+      "location": null,
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.siegessaeule.de/en/events/sonntags-club-ausflug-nach-köpenick/",
+      "source_name": "Siegessäule",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Black and queer feminism in Berlin",
+      "start": "2026-06-19T12:00:00",
+      "end": "2026-06-19T14:00:00",
+      "location": null,
+      "description": "In English, with biographical elements on May Ayim, Audre Lorde, Ika Hügel-Marshall u. a.",
+      "image_url": "https://cdn.siegessaeule.de/images/thumbnail_deSta_schoeneberg_anerke.a6c69b00.fill-320x320.jpg",
+      "source_url": "https://www.siegessaeule.de/en/events/schwarzer-und-queerer-feminismus-in-berlin-englisch/",
+      "source_name": "Siegessäule",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Kinky Taboos: Berlin’s Forbidden Desires Tour",
+      "start": "2026-06-19T14:30:00",
+      "end": null,
+      "location": null,
+      "description": "Mit Jeff Mannes",
+      "image_url": "https://cdn.siegessaeule.de/images/Forbidden_desires.2e16d0ba.fill-320x320.png",
+      "source_url": "https://www.siegessaeule.de/en/events/kinky-berlin-tour-2/",
+      "source_name": "Siegessäule",
+      "tags": [
+        "Kink"
+      ],
+      "time_known": true
+    },
+    {
       "title": "Summer.Sun.Done",
       "start": "2026-06-19T15:00:00",
       "end": null,
@@ -3189,6 +3721,20 @@
       "time_known": true
     },
     {
+      "title": "FLINTA* Sweat",
+      "start": "2026-06-19T15:30:00",
+      "end": null,
+      "location": null,
+      "description": "For the FLINTA* community (women, lesbians, inter, non-binary, trans, agender)",
+      "image_url": "https://cdn.siegessaeule.de/images/flinta_sweat.a065b21d.fill-320x320.jpg",
+      "source_url": "https://www.siegessaeule.de/en/events/club-sauna-flinta-sweat-25/",
+      "source_name": "Siegessäule",
+      "tags": [
+        "Kink"
+      ],
+      "time_known": true
+    },
+    {
       "title": "CHILLGARAGE",
       "start": "2026-06-19T16:00:00",
       "end": null,
@@ -3199,6 +3745,20 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Narcotics Anonymous Meeting",
+      "start": "2026-06-19T16:45:00",
+      "end": null,
+      "location": null,
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.siegessaeule.de/en/events/narcotics-anonymous-meeting-23/",
+      "source_name": "Siegessäule",
+      "tags": [
+        "Party"
       ],
       "time_known": true
     },
@@ -3287,20 +3847,6 @@
       "time_known": true
     },
     {
-      "title": "P14 – endlich endlich",
-      "start": "2026-06-19T18:00:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/e460ca489510b3a2c7b291bffd2194c9.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/p14-endlich-endlich/events/368114/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Humboldting #10 Social Muscle Club",
       "start": "2026-06-19T18:00:00",
       "end": null,
@@ -3308,6 +3854,20 @@
       "description": null,
       "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/83949d596feae0f1841a39b461128a49.jpg",
       "source_url": "https://www.berlin-buehnen.de/de/spielplan/humboldting-10-social-muscle-club/events/369261/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "P14 – endlich endlich",
+      "start": "2026-06-19T18:00:00",
+      "end": null,
+      "location": "Volksbühne am Rosa-Luxemburg-Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/e460ca489510b3a2c7b291bffd2194c9.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/p14-endlich-endlich/events/368114/",
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
@@ -3427,13 +3987,13 @@
       "time_known": true
     },
     {
-      "title": "Mi Madre y el Dinero",
+      "title": "Abschlussfest",
       "start": "2026-06-19T19:00:00",
       "end": null,
-      "location": "HAU Hebbel am Ufer",
+      "location": "Volksbühne am Rosa-Luxemburg-Platz",
       "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/976dfa6c1e74da77a545cf9cae20231b.JPG",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/mi-madre-y-el-dinero/events/367596/",
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/e460ca489510b3a2c7b291bffd2194c9.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/abschlussfest/events/368814/",
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
@@ -3455,16 +4015,30 @@
       "time_known": true
     },
     {
-      "title": "Abschlussfest",
+      "title": "Mi Madre y el Dinero",
       "start": "2026-06-19T19:00:00",
       "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
+      "location": "HAU Hebbel am Ufer",
       "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/e460ca489510b3a2c7b291bffd2194c9.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/abschlussfest/events/368814/",
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/976dfa6c1e74da77a545cf9cae20231b.JPG",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/mi-madre-y-el-dinero/events/367596/",
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Freitag in der Olfe",
+      "start": "2026-06-19T19:30:00",
+      "end": "2026-06-19T22:30:00",
+      "location": null,
+      "description": "Barnight with DJ Mx. Sür",
+      "image_url": "https://cdn.siegessaeule.de/images/Mobel_Olfe_Aussenansicht_PR_honora.f62c4aba.fill-320x320.jpg",
+      "source_url": "https://www.siegessaeule.de/en/events/freitag-in-der-olfe-dj-mx-sür/",
+      "source_name": "Siegessäule",
+      "tags": [
+        "Party"
       ],
       "time_known": true
     },
@@ -3539,6 +4113,34 @@
       "time_known": true
     },
     {
+      "title": "Ziber Berlin: The XXL Debut",
+      "start": "2026-06-19T21:00:00",
+      "end": null,
+      "location": null,
+      "description": "„A deranged grotesque queer clubnight“, DJs Dirty Daddy Don, Charlie Vaux, ilbroccolovolante u. a.",
+      "image_url": "https://cdn.siegessaeule.de/images/Dirty_Daddy_Don_c_2025_Darren_Blac.ce496af8.fill-320x320.jpg",
+      "source_url": "https://www.siegessaeule.de/en/events/ziber-berlin-the-xxl-debut/",
+      "source_name": "Siegessäule",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Bratty White's Drag Brunch Divas",
+      "start": "2026-06-20T11:00:00",
+      "end": null,
+      "location": null,
+      "description": "Vegan brunch with drag entertainment, various guest performers",
+      "image_url": "https://cdn.siegessaeule.de/images/00_Drag_Brunch_Divas_c_Bratty_Whit.73c6ee6c.fill-320x320.jpg",
+      "source_url": "https://www.siegessaeule.de/en/events/prince-peach-bratty-whites-drag-brunch-divas-25/",
+      "source_name": "Siegessäule",
+      "tags": [
+        "Essen"
+      ],
+      "time_known": true
+    },
+    {
       "title": "Tropenbude Bar und Garten offen",
       "start": "2026-06-20T14:00:00",
       "end": null,
@@ -3549,6 +4151,34 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Kinky Taboos: Berlin After Dark Tour",
+      "start": "2026-06-20T14:30:00",
+      "end": null,
+      "location": null,
+      "description": null,
+      "image_url": "https://cdn.siegessaeule.de/images/after_dark.2e16d0ba.fill-320x320.png",
+      "source_url": "https://www.siegessaeule.de/en/events/kinky-berlin-tour-4/",
+      "source_name": "Siegessäule",
+      "tags": [
+        "Kink"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Gender Mix",
+      "start": "2026-06-20T15:30:00",
+      "end": null,
+      "location": null,
+      "description": "Open for queer people of all genders",
+      "image_url": "https://cdn.siegessaeule.de/images/gender_mix.14ad47c9.fill-320x320.jpg",
+      "source_url": "https://www.siegessaeule.de/en/events/club-sauna-gender-mix-25/",
+      "source_name": "Siegessäule",
+      "tags": [
+        "Kink"
       ],
       "time_known": true
     },
@@ -3735,20 +4365,6 @@
       "time_known": true
     },
     {
-      "title": "Being Young",
-      "start": "2026-06-20T19:30:00",
-      "end": null,
-      "location": "Schaubühne am Lehniner Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/f9fc79ec2142925fa940e1a08b0725ac.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/being-young/events/367462/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Salon Ma ما",
       "start": "2026-06-20T19:30:00",
       "end": null,
@@ -3756,6 +4372,20 @@
       "description": null,
       "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/c51c9dfb7930bea121aa4849f79666da.jpeg",
       "source_url": "https://www.berlin-buehnen.de/de/spielplan/salon-ma/events/368130/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Being Young",
+      "start": "2026-06-20T19:30:00",
+      "end": null,
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/f9fc79ec2142925fa940e1a08b0725ac.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/being-young/events/367462/",
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
@@ -3805,20 +4435,6 @@
       "time_known": true
     },
     {
-      "title": "Salome",
-      "start": "2026-06-20T20:00:00",
-      "end": null,
-      "location": "Schaubühne am Lehniner Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/360ce498e8891fe859b125efe27ee092.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/salome-605/events/367281/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Love Me Tender",
       "start": "2026-06-20T20:00:00",
       "end": null,
@@ -3826,6 +4442,20 @@
       "description": null,
       "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/182055a863bc88f0cebdb61f85b082dc.jpg",
       "source_url": "https://www.berlin-buehnen.de/de/spielplan/love-me-tender/events/368145/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Salome",
+      "start": "2026-06-20T20:00:00",
+      "end": null,
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/360ce498e8891fe859b125efe27ee092.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/salome-605/events/367281/",
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
@@ -3861,20 +4491,6 @@
       "time_known": true
     },
     {
-      "title": "Die Seherin",
-      "start": "2026-06-20T20:30:00",
-      "end": null,
-      "location": "Schaubühne am Lehniner Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/f2616dcab8130514ba30cc061aeb6885.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/die-seherin/events/367259/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Ea Torrado: Brown Madonna",
       "start": "2026-06-20T20:30:00",
       "end": null,
@@ -3882,6 +4498,20 @@
       "description": null,
       "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/d37b7f8a7dc70bf31063b8bdc21d2400.jpg",
       "source_url": "https://www.berlin-buehnen.de/de/spielplan/ea-torrado-brown-madonna/events/367980/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Die Seherin",
+      "start": "2026-06-20T20:30:00",
+      "end": null,
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/f2616dcab8130514ba30cc061aeb6885.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/die-seherin/events/367259/",
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
@@ -3927,6 +4557,20 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Klubnacht",
+      "start": "2026-06-20T21:59:00",
+      "end": "2026-06-21T02:59:00",
+      "location": null,
+      "description": "Line-up: Kwartz, Nastya Vogan, Cryme u. a.",
+      "image_url": "https://cdn.siegessaeule.de/images/Berhain_Official_Logo_Artwork_Prom.30a6b168.fill-320x320.png",
+      "source_url": "https://www.siegessaeule.de/en/events/klubnacht-0626-3/",
+      "source_name": "Siegessäule",
+      "tags": [
+        "Party"
       ],
       "time_known": true
     },
@@ -4197,6 +4841,20 @@
       "time_known": true
     },
     {
+      "title": "P14 – endlich endlich",
+      "start": "2026-06-21T19:00:00",
+      "end": null,
+      "location": "Volksbühne am Rosa-Luxemburg-Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/e460ca489510b3a2c7b291bffd2194c9.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/p14-endlich-endlich/events/369879/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
       "title": "Love Me Tender",
       "start": "2026-06-21T19:00:00",
       "end": null,
@@ -4218,20 +4876,6 @@
       "description": null,
       "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/3f05b10dfcb4090975987669019acc53.jpg",
       "source_url": "https://www.berlin-buehnen.de/de/spielplan/oratorium-kollektive-andacht-wohlgehueteten-geheimnis/events/368351/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "P14 – endlich endlich",
-      "start": "2026-06-21T19:00:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/e460ca489510b3a2c7b291bffd2194c9.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/p14-endlich-endlich/events/369879/",
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"

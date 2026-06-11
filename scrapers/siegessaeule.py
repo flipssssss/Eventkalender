@@ -56,6 +56,7 @@ class SiegessaeuleScraper(BaseScraper):
     def __init__(self, days: int = 14, write_debug: bool = True):
         self.days = days
         self.write_debug = write_debug
+        self._sample_slug = None
 
     def fetch_events(self) -> Iterable[Event]:
         session = requests.Session()
@@ -87,16 +88,9 @@ class SiegessaeuleScraper(BaseScraper):
 
     def _probe_detail_urls(self, session) -> str:
         """Find the real event-detail URL pattern by trying candidates."""
-        try:
-            r = session.get(f"{BASE}?date={_dt.date.today().isoformat()}", timeout=25)
-            r.encoding = "utf-8"
-            region = self._events_region(self._sapper_script(r.text) or "")
-            slug_m = SLUG_RE.search(region)
-        except Exception as exc:  # noqa: BLE001
-            return f"Sonde-Fehler: {exc}"
-        if not slug_m:
+        slug = self._sample_slug
+        if not slug:
             return "Sonde: kein Slug gefunden"
-        slug = slug_m.group(1)
         patterns = [
             f"/en/events/{slug}/", f"/en/event/{slug}/", f"/events/{slug}/",
             f"/en/{slug}/", f"/termine/{slug}/", f"/en/events/{slug}",
@@ -157,6 +151,8 @@ class SiegessaeuleScraper(BaseScraper):
             return None
 
         slug_m = SLUG_RE.search(obj)
+        if slug_m and not self._sample_slug:
+            self._sample_slug = slug_m.group(1)
         title_m = TITLE_RE.search(obj)
         title = _unescape(title_m.group(1)) if title_m else (
             slug_m.group(1).replace("-", " ").title() if slug_m else None

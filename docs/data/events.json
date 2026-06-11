@@ -1,7 +1,17 @@
 {
-  "generated_at": "2026-06-11T06:40:15.125155+00:00",
-  "count": 390,
+  "generated_at": "2026-06-11T06:44:15.783662+00:00",
+  "count": 402,
   "sources": [
+    {
+      "source": "Quälgeist",
+      "count": 12,
+      "error": null
+    },
+    {
+      "source": "Karada House",
+      "count": 0,
+      "error": null
+    },
     {
       "source": "Stressfaktor",
       "count": 300,
@@ -180,6 +190,20 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Protest"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "TIN + Friends",
+      "start": "2026-06-11T18:00:00+02:00",
+      "end": "2026-06-11T23:00:00+02:00",
+      "location": "Quälgeist Berlin e.V., Lankwitzer Straße 42/43, 12107, Berlin",
+      "description": "&lt;p&gt;▼ ENGLISH BELOW ▼ Für Wen? Bei dieser Playparty stehen trans, inter und nicht-binäre (auch Agender) Personen im Fokus. Damit ist nicht gemeint im Zentrum der Aufmerksamkeit, sondern viel mehr [&hellip;]&lt;/p&gt;\\n",
+      "image_url": null,
+      "source_url": "https://quaelgeist.sm/event/tin-friends-27/",
+      "source_name": "Quälgeist",
+      "tags": [
+        "Kink"
       ],
       "time_known": true
     },
@@ -1122,6 +1146,20 @@
       "time_known": true
     },
     {
+      "title": "Qriginal: Recon Special",
+      "start": "2026-06-12T21:00:00+02:00",
+      "end": "2026-06-12T21:00:00+02:00",
+      "location": "Quälgeist Berlin e.V., Lankwitzer Straße 42/43, 12107, Berlin",
+      "description": "&lt;p&gt;▼ ENGLISH BELOW ▼ Qriginal, das ist 100% Quälgeist und 100% strikter BDSM! Werft euch in Schale, egal ob Leder, Gummi, Uniform oder Skin und genießt entweder Machtgewinn oder Kontrollverlust. [&hellip;]&lt;/p&gt;\\n",
+      "image_url": null,
+      "source_url": "https://quaelgeist.sm/event/qriginal-recon-special-7/",
+      "source_name": "Quälgeist",
+      "tags": [
+        "Kink"
+      ],
+      "time_known": true
+    },
+    {
       "title": "Konzert",
       "start": "2026-06-12T21:30:00",
       "end": null,
@@ -1962,6 +2000,20 @@
       "time_known": true
     },
     {
+      "title": "Honey &amp; Spice",
+      "start": "2026-06-14T15:00:00+02:00",
+      "end": "2026-06-14T22:00:00+02:00",
+      "location": "Quälgeist Berlin e.V., Lankwitzer Straße 42/43, 12107, Berlin",
+      "description": "&lt;p&gt;Einlass bis 16:00:00 Uhr / Admission until 16:00:00 ▼ ENGLISH BELOW ▼ Die Honey &amp; Spice ist eine BDSM-Playparty für Frauen, Lesben, inter, nicht-binäre, trans und agender Menschen (FLINTA) nach [&hellip;]&lt;/p&gt;\\n",
+      "image_url": null,
+      "source_url": "https://quaelgeist.sm/event/honey-spice-28/",
+      "source_name": "Quälgeist",
+      "tags": [
+        "Kink"
+      ],
+      "time_known": true
+    },
+    {
       "title": "Workshop",
       "start": "2026-06-14T15:00:00",
       "end": null,
@@ -2340,6 +2392,20 @@
       "time_known": true
     },
     {
+      "title": "Blue Monday Chillout",
+      "start": "2026-06-15T18:00:00+02:00",
+      "end": "2026-06-15T23:00:00+02:00",
+      "location": "Quälgeist Berlin e.V., Lankwitzer Straße 42/43, 12107, Berlin",
+      "description": "&lt;p&gt;▼ ENGLISH BELOW ▼ Afterwork-BDSM-Party für Frauen* und Männer*, um kinky in die Woche zu starten. Kein Dresscode - Fetisch willkommen ⏵ ENGLISH ⏴ Afterwork BDSM party for women* and [&hellip;]&lt;/p&gt;\\n",
+      "image_url": null,
+      "source_url": "https://quaelgeist.sm/event/blue-monday-chillout-58/",
+      "source_name": "Quälgeist",
+      "tags": [
+        "Kink"
+      ],
+      "time_known": true
+    },
+    {
       "title": "Fahrrad-Selbsthilfe-Werkstatt",
       "start": "2026-06-15T18:00:00",
       "end": null,
@@ -2658,6 +2724,20 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "SM am Dienstag &#8211; SM on Tuesday",
+      "start": "2026-06-16T19:00:00+02:00",
+      "end": "2026-06-16T23:00:00+02:00",
+      "location": "Quälgeist Berlin e.V., Lankwitzer Straße 42/43, 12107, Berlin",
+      "description": "&lt;p&gt;▼ ENGLISH BELOW ▼ Offener BDSM-Abend für alle Männer*, die auch unter der Woche die Sau rauslassen, sich einfach gemütlich unterhalten oder unseren Verein und seine Räumlichkeiten ganz entspannt und [&hellip;]&lt;/p&gt;\\n",
+      "image_url": null,
+      "source_url": "https://quaelgeist.sm/event/sm-am-dienstag-sm-on-tuesday-61/",
+      "source_name": "Quälgeist",
+      "tags": [
+        "Kink"
       ],
       "time_known": true
     },
@@ -3026,6 +3106,20 @@
       "time_known": true
     },
     {
+      "title": "Hypnose Stammtisch &amp; Anfänger*innen / Beginners Workshop: Was ist Hypnose und was kann das?",
+      "start": "2026-06-17T19:00:00+02:00",
+      "end": "2026-06-17T23:00:00+02:00",
+      "location": "Quälgeist Berlin e.V., Lankwitzer Straße 42/43, 12107, Berlin",
+      "description": "&lt;p&gt;Einlass bis 19:15:00 Uhr / Admission until 19:15:00 ▼ ENGLISH BELOW ▼ Hypnose und BDSM sind näher verwandt als viele annehmen, denn der Subspace ist einer Trance sehr ähnlich. Wir [&hellip;]&lt;/p&gt;\\n",
+      "image_url": null,
+      "source_url": "https://quaelgeist.sm/event/hypnose-stammtisch-workshop-thema-steht-noch-nicht-fest-template-3/",
+      "source_name": "Quälgeist",
+      "tags": [
+        "Kink"
+      ],
+      "time_known": true
+    },
+    {
       "title": "Soli-Küfa, jeden Mittwoch 19 Uhr",
       "start": "2026-06-17T19:00:00",
       "end": null,
@@ -3302,6 +3396,20 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Protest"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Fesselei &#8211; Bondage Jam",
+      "start": "2026-06-18T18:00:00+02:00",
+      "end": "2026-06-18T22:00:00+02:00",
+      "location": "Quälgeist Berlin e.V., Lankwitzer Straße 42/43, 12107, Berlin",
+      "description": "&lt;p&gt;▼ ENGLISH BELOW ▼ Ihr fesselt gerne – mit Seilen und anderen Materialien? Ihr wollt Gleichgesinnte treffen, euch mit ihnen austauschen, Neues ausprobieren und euch inspirieren lassen? Dann ist die [&hellip;]&lt;/p&gt;\\n",
+      "image_url": null,
+      "source_url": "https://quaelgeist.sm/event/fesselei-bondage-jam-7/",
+      "source_name": "Quälgeist",
+      "tags": [
+        "Kink"
       ],
       "time_known": true
     },
@@ -4062,6 +4170,20 @@
       "time_known": true
     },
     {
+      "title": "Bondage Nacht &#8211; Bondage Night",
+      "start": "2026-06-19T21:00:00+02:00",
+      "end": "2026-06-20T03:00:00+02:00",
+      "location": "Quälgeist Berlin e.V., Lankwitzer Straße 42/43, 12107, Berlin",
+      "description": "&lt;p&gt;▼ ENGLISH BELOW ▼ Bondage-Abend für Männer*, die wissen, was man mit Seilen und anderen Fesselutensilien alles anstellen kann. Bewegungsunfähigkeit ausnutzen oder genießen und liegend oder fliegend in schönster Trance [&hellip;]&lt;/p&gt;\\n",
+      "image_url": null,
+      "source_url": "https://quaelgeist.sm/event/bondage-nacht-bondage-night-16/",
+      "source_name": "Quälgeist",
+      "tags": [
+        "Kink"
+      ],
+      "time_known": true
+    },
+    {
       "title": "Sonora Berlín",
       "start": "2026-06-19T21:00:00",
       "end": null,
@@ -4086,6 +4208,20 @@
       "source_name": "Siegessäule",
       "tags": [
         "Party"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Breathplay Workshop",
+      "start": "2026-06-20T14:00:00+02:00",
+      "end": "2026-06-20T19:00:00+02:00",
+      "location": "Quälgeist Berlin e.V., Lankwitzer Straße 42/43, 12107, Berlin",
+      "description": "&lt;p&gt;Einlass bis 14:30:00 Uhr / Admission until 14:30:00 ▼ ENGLISH BELOW ▼ Atemkontrolle ist ein gefährliches Spiel, bei dem die Tops wissen sollten, was sie tun und die Bottoms, worauf [&hellip;]&lt;/p&gt;\\n",
+      "image_url": null,
+      "source_url": "https://quaelgeist.sm/event/breathplay-workshop-6/",
+      "source_name": "Quälgeist",
+      "tags": [
+        "Kink"
       ],
       "time_known": true
     },
@@ -4338,6 +4474,20 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "U35",
+      "start": "2026-06-20T20:00:00+02:00",
+      "end": "2026-06-21T02:00:00+02:00",
+      "location": "Quälgeist Berlin e.V., Lankwitzer Straße 42/43, 12107, Berlin",
+      "description": "&lt;p&gt;▼ ENGLISH BELOW ▼ Die U35-Party im Quälgeist ist DIE Adresse für alle kinkbegeisterten und neugierigen Menschen im Alter von 18 bis einschließlich 35 Jahren. Bei dieser mixed Party sind [&hellip;]&lt;/p&gt;\\n",
+      "image_url": null,
+      "source_url": "https://quaelgeist.sm/event/u35/",
+      "source_name": "Quälgeist",
+      "tags": [
+        "Kink"
       ],
       "time_known": true
     },
@@ -4622,6 +4772,20 @@
       "time_known": true
     },
     {
+      "title": "Mit uns drüber reden &#8211; Let´s talk about",
+      "start": "2026-06-21T13:00:00+02:00",
+      "end": "2026-06-21T15:00:00+02:00",
+      "location": "Quälgeist Berlin e.V., Lankwitzer Straße 42/43, 12107, Berlin",
+      "description": "&lt;p&gt;▼ ENGLISH BELOW ▼ ... über den Quälgeist und/oder Einzelberatung zu den Themen: - BDSM-Praktiken - Safer Sex, HIV und Aids sowie weitere sexuell übertragbare Krankheiten - Infos zu Testangeboten [&hellip;]&lt;/p&gt;\\n",
+      "image_url": null,
+      "source_url": "https://quaelgeist.sm/event/mit-uns-drueber-reden-lets-talk-about/",
+      "source_name": "Quälgeist",
+      "tags": [
+        "Kink"
+      ],
+      "time_known": true
+    },
+    {
       "title": "📖 Infoladen Scherer 8 📖",
       "start": "2026-06-21T13:00:00",
       "end": null,
@@ -4646,6 +4810,20 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Protest"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Kaffee, Sex und Kuchen &#8211; Coffee, Sex &amp; Cake",
+      "start": "2026-06-21T15:00:00+02:00",
+      "end": "2026-06-21T21:00:00+02:00",
+      "location": "Quälgeist Berlin e.V., Lankwitzer Straße 42/43, 12107, Berlin",
+      "description": "&lt;p&gt;▼ ENGLISH BELOW ▼ Entspannter BDSM-Chillout bei Kaffee und Kuchen für Frauen* und Männer*. Dresscode: Angemessene Garderobe ⏵ ENGLISH ⏴ Relaxed BDSM chillout with coffee and cake for women* and [&hellip;]&lt;/p&gt;\\n",
+      "image_url": null,
+      "source_url": "https://quaelgeist.sm/event/kaffee-sex-und-kuchen-coffee-sex-cake-18/",
+      "source_name": "Quälgeist",
+      "tags": [
+        "Kink"
       ],
       "time_known": true
     },

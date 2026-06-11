@@ -82,30 +82,24 @@ class TipBerlinScraper(BaseScraper):
             except Exception as exc:  # noqa: BLE001
                 report.append(f"  /{path} -> FEHLER {exc}")
 
-        # Dump the event region of a category page to see the markup.
-        try:
-            r = session.get(BASE + "musik+konzert/", timeout=25)
-            soup = BeautifulSoup(r.text, "html.parser")
-            for t in soup(["style", "script", "head", "svg", "noscript"]):
-                t.decompose()
-            body = (soup.body or soup).decode()
-            idx = body.lower().find("event")
-            report.append("\nKategorie-Body-Auszug:\n"
-                          + body[max(0, idx - 200): idx + 1500])
-        except Exception as exc:  # noqa: BLE001
-            report.append(f"Body-Auszug FEHLER: {exc}")
-
-        # Inspect a detail page: does it carry JSON-LD Event data?
+        # Schema of the REST event objects + the event taxonomies.
         try:
             r = session.get(
-                BASE + "musik-klassik/6-tischlereikonzert-quergeister-ensemblesolistinnen-und-musikerinnen-des-orchesters-der-deutschen-oper-berlin/",
+                "https://www.tip-berlin.de/wp-json/wp/v2/event?per_page=1",
                 timeout=25)
-            ev = extract_events_from_html(r.text, BASE, self.name)
-            report.append(f"\nDetailseite: status={r.status_code} JSON-LD-Events={len(ev)}")
-            for e in ev[:2]:
-                report.append(f"   - {e.start} | {e.title[:40]} | {e.image_url}")
+            import json as _json
+            data = _json.loads(r.text)
+            if data:
+                report.append("\nEvent-JSON (Felder):\n"
+                              + _json.dumps(data[0], ensure_ascii=False)[:2600])
         except Exception as exc:  # noqa: BLE001
-            report.append(f"Detailseite FEHLER: {exc}")
+            report.append(f"Event-JSON FEHLER: {exc}")
+        try:
+            r = session.get("https://www.tip-berlin.de/wp-json/wp/v2/types/event",
+                            timeout=25)
+            report.append("\nTypes/event:\n" + r.text[:1500])
+        except Exception as exc:  # noqa: BLE001
+            report.append(f"Types FEHLER: {exc}")
 
         if self.write_debug:
             self._dump_debug("\n".join(report))

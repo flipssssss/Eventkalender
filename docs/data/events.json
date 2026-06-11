@@ -1,7 +1,12 @@
 {
-  "generated_at": "2026-06-11T05:30:36.325816+00:00",
+  "generated_at": "2026-06-11T05:38:49.572587+00:00",
   "count": 348,
   "sources": [
+    {
+      "source": "Siegessäule",
+      "count": 0,
+      "error": null
+    },
     {
       "source": "Stressfaktor",
       "count": 300,

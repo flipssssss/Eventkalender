@@ -1,0 +1,62 @@
+URL: https://www.siegessaeule.de/en/events/
+  HTTP-Status: 200
+  HTML-Länge: 176201 Zeichen
+  JSON-LD vorhanden: False
+  Events gefunden: 0
+  Mögliche Programm-Unterseiten:
+    - https://www.siegessaeule.de/en/events/
+    - https://www.siegessaeule.de/en/events/?date=2026-06-01
+    - https://www.siegessaeule.de/en/events/?date=2026-06-02
+    - https://www.siegessaeule.de/en/events/?date=2026-06-03
+    - https://www.siegessaeule.de/en/events/?date=2026-06-04
+    - https://www.siegessaeule.de/en/events/?date=2026-06-05
+    - https://www.siegessaeule.de/en/events/?date=2026-06-06
+    - https://www.siegessaeule.de/en/events/?date=2026-06-07
+    - https://www.siegessaeule.de/en/events/?date=2026-06-08
+    - https://www.siegessaeule.de/en/events/?date=2026-06-09
+    - https://www.siegessaeule.de/en/events/?date=2026-06-10
+    - https://www.siegessaeule.de/en/events/?date=2026-06-11
+    - https://www.siegessaeule.de/en/events/?date=2026-06-12
+    - https://www.siegessaeule.de/en/events/?date=2026-06-13
+    - https://www.siegessaeule.de/en/events/?date=2026-06-14
+    - https://www.siegessaeule.de/en/events/?date=2026-06-15
+    - https://www.siegessaeule.de/en/events/?date=2026-06-16
+    - https://www.siegessaeule.de/en/events/?date=2026-06-17
+    - https://www.siegessaeule.de/en/events/?date=2026-06-18
+    - https://www.siegessaeule.de/en/events/?date=2026-06-19
+    - https://www.siegessaeule.de/en/events/?date=2026-06-20
+    - https://www.siegessaeule.de/en/events/?date=2026-06-21
+    - https://www.siegessaeule.de/en/events/?date=2026-06-22
+    - https://www.siegessaeule.de/en/events/?date=2026-06-23
+    - https://www.siegessaeule.de/en/events/?date=2026-06-24
+  Externe Skripte: //cs.iubenda.com/sync/3586850.js, //cdn.iubenda.com/cs/iubenda_cs.js, https://securepubads.g.doubleclick.net/tag/js/gpt.js
+  Body (ohne CSS/JS):
+<body ontouchstart=""> <div id="sapper">
+<div class="header-and-content-wrapper svelte-1s2lcvk"><header class="svelte-1s2lcvk"><div class="top svelte-1s2lcvk"><div class="left mobile-only svelte-1s2lcvk"><span class="background svelte-pfk9gr"><button aria-label="" class="svelte-pfk9gr" type="">
+<span class="svelte-1xj4fer" style="--width:24; --height:24"><svg class="fa-icon svelte-1capf4x" fill="none" height="24" role="presentation" stroke="currentColor" stroke-linecap="round" stroke-linejoint="round" stroke-width="2" style="" version="1.1" viewbox="0 0 24 24" width="24" x="0" y="0">
+<g><!-- HTML_TAG_START --><polyline points="15 18 9 12 15 6"></polyline><!-- HTML_TAG_END --></g>
+</svg>
+</span>
+</button>
+</span></div>
+<div class="center svelte-1s2lcvk"><a class="brand svelte-1s2lcvk" href="/"><div class="svelte-1k9alsc"><svg aria-labelledby="logo-description" class="svelte-1k9alsc" role="img" viewbox="0 0 1424 502"><description id="logo-description">Das SiegessÃ¤ule Logo</description><g class="logo"><path d="M149.624
+        128.495v56.965H85.4v-66.27q0-8.624-2.5-12.255t-8.17-3.631q-9.305 0-9.305
+        15.887v58.554q0 9.305 2.5 13.958t12.028 10.1l39.49 22.7q12.028 6.809
+        18.724 15.206a46.679 46.679 0 019.078 18.156 102.032 102.032 0 012.383
+        23.83v78.752q0 26.326-2.27 40.057t-9.758 21.553q-7.489 7.83-21.9
+        10.667t-40.971 2.837q-25.646
+        0-39.717-3.064t-21.787-10.671q-7.716-7.6-10.325-22.01T.29
+        360.44v-83.292h65.134v91.916q0 8.4 2.5 12.369t8.17 3.972q9.305 0
+        9.305-16.341v-79.887q0-9.532-2.5-13.958t-11.8-9.645L29.566
+        241.29q-17.021-9.986-23.149-23.83T.289 182.282v-53.788q0-24.965
+        2.837-39.717t10.44-22.351q7.6-7.6 21.787-10.44t39.83-2.837q34.27 0
+        49.476 5.674t20.085 20.993q4.88 15.316 4.88 48.679z"></path><path d="M156.986 55.416h64.455v377.422h-64.455z"></path><path d="M228.142
+        55.416h103.037v49.249h-38.582v96.228h38.582v49.7h-38.582v132.54h38.582v49.7H228.142z"></path><path d="M335.803 128.948q0-33.816 4.993-49.022t20.649-20.992q15.66-5.787
+        50.156-5.787 33.589 0 48.908 5.787t20.43 20.992q5.106 15.206 5.106
+        49.022v55.6h-64.681V119.64q0-9.078-2.043-12.709t-8.624-3.631q-6.355
+        0-8.511 3.972t-2.156 12.369v249.423q0 8.17 2.383 12.028t8.738
+        3.858q6.355 0
+        8.284-3.631t1.929-12.255v-82.157h-9.759v-49.7h74.44v195.631h-27.007l-10.667-21.788q-10.213
+        13.844-22.582 19.176t-32.794 5.335q-21.787
+        0-34.156-6.922t-17.703-20.993q-5.333-14.071-5.33
+------------------------------------------------------------

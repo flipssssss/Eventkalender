@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-11T09:04:50.220772+00:00",
-  "count": 420,
+  "generated_at": "2026-06-12T07:47:11.865686+00:00",
+  "count": 425,
   "sources": [
     {
       "source": "Quälgeist",
@@ -9,8 +9,8 @@
     },
     {
       "source": "Karada House",
-      "count": 30,
-      "error": null
+      "count": 0,
+      "error": "403 Client Error: Forbidden for url: https://karada-house.de/?post_type=tribe_events&ical=1&eventDisplay=list"
     },
     {
       "source": "Stressfaktor",
@@ -19,525 +19,21 @@
     },
     {
       "source": "Berlin Bühnen",
-      "count": 113,
+      "count": 117,
       "error": null
     },
     {
       "source": "Donau115",
-      "count": 92,
+      "count": 93,
       "error": null
     },
     {
       "source": "Siegessäule",
-      "count": 41,
+      "count": 44,
       "error": null
     }
   ],
   "events": [
-    {
-      "title": "Tell Mama",
-      "start": "2026-06-10T19:00:00",
-      "end": "2026-06-10T22:00:00",
-      "location": null,
-      "description": "Drag show by Judy LaDivina with various special guests",
-      "image_url": "https://cdn.siegessaeule.de/images/Extra_GMF_with_Judy_LaDivina__prom.94e78a02.fill-320x320.jpg",
-      "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-10",
-      "source_name": "Siegessäule",
-      "tags": [
-        "Party"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Vollbrecht/Herzog/Akintaya",
-      "start": "2026-06-10T20:00:00",
-      "end": null,
-      "location": "Donau115, Donaustraße 115, Berlin",
-      "description": "Back together after eight years: Timo Vollbrecht, Florian Herzog, and Lukas Akintaya reunite for this trio. Having first crossed paths in New York, the three now return with original music shaped by jazz, improvisation, and a strong sense of play - a reunion that looks less to the past in nostalgia than forward with curiosity.",
-      "image_url": null,
-      "source_url": "https://www.donau115.de",
-      "source_name": "Donau115",
-      "tags": [
-        "Konzert"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Workshop KI und ChatGPT",
-      "start": "2026-06-11T09:30:00",
-      "end": "2026-06-11T12:30:00",
-      "location": null,
-      "description": "Mit Stefanie Schaarschmidt, FrauenComputerZentrumBerlin",
-      "image_url": null,
-      "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-11",
-      "source_name": "Siegessäule",
-      "tags": [
-        "Sonstiges"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Knock up @XXL",
-      "start": "2026-06-11T10:00:00",
-      "end": null,
-      "location": null,
-      "description": null,
-      "image_url": null,
-      "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-11",
-      "source_name": "Siegessäule",
-      "tags": [
-        "Film"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Studio 9. Der Tag mit Paul Ronzheimer",
-      "start": "2026-06-11T11:45:00",
-      "end": null,
-      "location": "Humboldt Forum",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/b7f798d9abbf5304c463c2ea3f6dfa07.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/studio-9-der-tag-paul-ronzheimer/events/369895/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Qigong & Taiji für deine Lebensenergie!",
-      "start": "2026-06-11T14:15:00",
-      "end": "2026-06-11T16:15:00",
-      "location": null,
-      "description": "Mit Marzena Stana",
-      "image_url": null,
-      "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-11",
-      "source_name": "Siegessäule",
-      "tags": [
-        "Sonstiges"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Die solidarische Jobcenter-Sozialberatung",
-      "start": "2026-06-11T15:00:00",
-      "end": null,
-      "location": "Kiezhaus Agnes Reinhold Afrikanische Straße 74 13351 Berlin Deutschland",
-      "description": "Beratung und Solidarität:",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/321606",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Sonstiges"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Solicafé Klatsche",
-      "start": "2026-06-11T15:00:00",
-      "end": null,
-      "location": "Regenbogenfabrik Lausitzer Str. 22 10999 Berlin Deutschland",
-      "description": "CAFÉ KLATSCHE - WIR HABEN DEN TAG GEWECHSELT, JETZT IMMER DONNERSTAGS!\n(English version below)",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/324038",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Ausstellung"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Solicafé Klatsche",
-      "start": "2026-06-11T15:00:00",
-      "end": null,
-      "location": "Regenbogenfabrik Lausitzer Str. 22 10999 Berlin Deutschland",
-      "description": "Kaffee, Kuchen und KÜFA (meist ab 19:00) vegan und auf Spendenbasis! Geöffnet 15-22 Uhr. Kein Konsumzwang, kommt rum wie ihr seid. Manchmal gibts auch Veranstaltungen und andere Events, die stehen dann extra im Stressi. Alle unsere Einnahmen werden gespendet bzw.",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327211",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Ausstellung"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Weltspieletag im Vetomat! World Play Day!",
-      "start": "2026-06-11T15:00:00",
-      "end": null,
-      "location": "Vetomat Wühlischstr. 42 10247 Berlin Deutschland",
-      "description": "World play day! For all adults! We call upon you to put a stop to the doctrine of reason, to defy the dictatorship of maturity, and to recklessly fall into the game of uncertainty! There will be Riesenjenga, 3D-4gewinnt, Board- and Cardgames, Chess,  later Glücksschnapsrad..",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327701",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Sonstiges"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Gutschein-Tausch im YAAM",
-      "start": "2026-06-11T16:00:00",
-      "end": null,
-      "location": "Yaam (an der Schillingbrücke) An der Schillingbrücke 3 Berlin Deutschland",
-      "description": "Gutscheintausch im YAAM – Gemeinsam gegen die Bezahlkarte! Voucher Exchange at YAAM – Together Against the Payment Card! --- English version below  ---",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/326645",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Protest"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "TIN + Friends",
-      "start": "2026-06-11T18:00:00",
-      "end": "2026-06-11T23:00:00",
-      "location": "Quälgeist Berlin e.V., Lankwitzer Straße 42/43, Berlin, 12107, Deutschland",
-      "description": "▼ ENGLISH BELOW ▼ \nFür Wen?\nBei dieser Playparty stehen trans, inter und nicht-binäre (auch Agender) Personen im Fokus. Damit ist nicht gemeint im Zentrum der Aufmerksamkeit, sondern viel mehr geht es darum, einen Raum zu schaffen in dem Trans, inter und nicht-binäre (TIN) Personen sich sexuell und kinky ausleben können, ohne sich erklären zu müssen oder befürchten zu müssen, dass ihr(e) Geschlecht(identität) infrage gestellt wird oder sie für ihre Geschlechtsidentität fetischisiert werden. \nTrotz diesem Fokus sind nicht nur TIN Personen auf der TIN+Friends willkommen. Gerne können auch endo cis Personen kommen, egal ob sie konkret (Spiel)partner*innen, Freund*innen von TIN Personen sind oder auch nicht. Wichtig ist uns nur, dass sie verstanden haben in was für einen Raum sie sich bewegen und diesen achten. Es ist keine Party zum Spielen für endo-cis-hetero Paare. \nWas?\nDie TIN + Friends ist eine Spielparty ohne einen Fokus auf bestimmte Fetische, Kinks oder BDSM Praktiken. Die Party/Spielkultur ähnelt, neben dem oben beschrieben Fokus, dem der anderen queeren Partys im Quälgeist. Nutzt gerne unseren vielseitigen Spielbereich, egal ob ihr mit einem vereinbarten Playdate kommt oder euch grade erst an der Bar kennengelernt habt.  \nUm 19:00 Uhr machen wir ein Vorstellungsrunde, an der ihr gerne teilnehmen könnt . Das ist besonders für neue Personen zu empfehlen, die noch neu in der Community sind oder neu Leute kennenlernen wollen.\nNach der Vorstellungsrunde bieten wir meist ein Special an, um noch einfacher zu machen miteinander in Kontakt zu kommen. Was wir für die nächste Party planen, erfahrt ihr auf unserem Insta-Account  \nWann?\nDie Party findet immer am zweiten Donnerstag im Monat von 18 bis 23 Uhr statt. Vorstellungsrunde ab 19 Uhr. \nFalls ihr fragen zu der Party habt, uns Feedback geben möchtet oder aus irgendeinen anderen Grund Kontakt zum Team der TIN + Friends aufnehmen wollt, könnt ihr uns per E-Mail erreichen unter: tin@quaelgeist.sm \nHier findet ihr noch unsere [Party Regeln] \n\nKein Dresscode – Fetisch willkommen\n\n⏵ ENGLISH ⏴ \nWho is it for?\nThis playparty focuses on trans, inter, and non-binary (including agender) persons. This does not mean that they are the center of attention, but rather that the aim is to create a space where trans, inter, and non-binary (TIN) people can express themselves sexually and kinky without having to explain themselves or fear that their gender (identity) will be questioned. Or to be fetishized for their gender identity. \nDespite this focus, not only TIN persons are welcome at TIN+Friends. Endo cis persons are also welcome to attend, regardless of whether or not they are specific (play) partners or friends of TIN persons. It is only important to us that they understand the nature of the space they are entering and respect it. This is not a party for endo-cis-hetero couples to play at. \nWhat?\nTIN + Friends is a play party without a focus on specific fetishes, kinks, or BDSM practices. Apart from the focus described above, the party/play culture is similar to that of other queer parties at Quälgeist. Feel free to use our versatile play area, whether you come with a planned playdate or have just met at the bar. \nAt 7:00 p.m. there is an introduction round that you are welcome to participate in. This is especially recommended for persons who are still new to the community or want to meet new people.\nAfter the introduction round, we usually offer a ´Special´ to make it even easier to get in touch with each other. You can find out what we have planned for the next party on our Instagram account. \nWhen?\nThe party always takes place on the second Thursday of the month, 6 p.m. – 11 p.m., introduction round  start at 7 p.m. \nIf you have any questions about the party, would like to give us feedback, or want to contact the TIN + Friends team for any other reason, you can reach us by email at: tin@quaelgeist.sm \nHere are our [party rules] \n\nNo dresscode – fetishes welcome\n\nVoranmeldung möglich / Pre-registration possibleZur Anmeldung / Registration form",
-      "image_url": null,
-      "source_url": "https://quaelgeist.sm/event/tin-friends-27/",
-      "source_name": "Quälgeist",
-      "tags": [
-        "Kink"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Aperol Spritz-Night  -> 5 Euro",
-      "start": "2026-06-11T18:00:00",
-      "end": null,
-      "location": "B-Lage Mareschstr. 1 12055 Berlin Deutschland",
-      "description": "Ab jetzt gibt es jeden Donnerstag Spritz für 5 Euro in der B-Lage, kommt gern rum! Es wird spritzig.",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/326845",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Essen"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Verantwortung für Kindern als Methode des Postkapitalismus.",
-      "start": "2026-06-11T18:00:00",
-      "end": null,
-      "location": "Mariannenplatz Bethanien New York im Bethanien 10997 Berlin Deutschland",
-      "description": "Verantwortung gegenüber den Kindern als wirkmächtige Methode des Postkapitalismus. Wir behandeln das Buch, \"der KUEKeN- radikal trivial, Kinder Verantwortung Zukunft\"\nDer Autor liest aus dem Buch und beantwortet Fragen.",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327572",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Diskussion"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Soli - Sause für Bleiberechtskampf",
-      "start": "2026-06-11T18:00:00",
-      "end": null,
-      "location": "Tristeza Pannierstr. 5 12047 Berlin Deutschland",
-      "description": "Ein soli abend in der tirsse mit tombola, bingo, siebdruck und noch ganz viel mehr!",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327630",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Essen"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Stadtwanderung: Auf den Spuren des Roten Weddings",
-      "start": "2026-06-11T18:30:00",
-      "end": null,
-      "location": "Ort bei Anmeldung Ort bei Anmeldung Berlin Deutschland",
-      "description": "Zwischen den großen Fabriken und den engen Mietskasernen des Weddings lebten und organisierten sich gerade in den 1920er- und frühen 1930er-Jahren viele Arbeiter:innen. Sie diskutierten, streikten und demonstrierten für bessere Lebens- und Arbeitsbedingungen.",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/326592",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Sonstiges"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Kink is Political: Accountability",
-      "start": "2026-06-11T19:00:00",
-      "end": "2026-06-11T21:00:00",
-      "location": "https://karada-house.de/events/kink-is-political-accountability/",
-      "description": "In our last session before a short summer break, we’ll turn towards the concept of “accountability.”  In conversation with Pinko’s published volume After Accountability: A Critical Genealogy of a Concept, we’ll trace the history and limitations of a value commonly professed by kink educators and organizations. We’ll work to understand the terms widespread popularization and adoption, theoretical context, and use within policy and incident response policies within kink and sex positive spaces. We’ll ask: what does it mean to be held accountable? Who is empowered and disempowered by the concept of accountability? Who does the concept disenfranchise, and what model of human psychology and experience do popular versions of the concept of accountability propose?  \nAbout this series\nKink is Political is an online discussion with Addie Tahl, Georg Barkas, Andrea Rimon, and occasional special guests. Participants are invited to join a discussion during which we unite critique with an emphasis on the practical and day-to-day issues and challenges of kink, intimacy, and relationships. \nFocusing on concepts central to BDSM, leather, rope, and sex-positive communities, it interrogates widely adopted approaches and commonly held notions. It aims to understand the politics of kink beyond the language of sexual liberation and politics of sexual liberalism, both frames that have proven insufficient in addressing widespread harm, a rising international tide of sex-negativity and reaction, or in guaranteeing that the most marginalized can sexually flourish. \nKink is Political is an examination of the contexts and consequences of how we talk about and understand gender and sexuality. It is a forum to think about how kink spaces and practices operate, what works, what doesn’t, and what we can use to build something better.",
-      "image_url": "https://karada-house.de/wp-content/uploads/2026/03/mg_0451.jpg",
-      "source_url": "https://karada-house.de/events/kink-is-political-accountability/",
-      "source_name": "Karada House",
-      "tags": [
-        "Kink"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Desire Mapping – Understanding and Communicating Your Wants",
-      "start": "2026-06-11T19:00:00",
-      "end": "2026-06-11T21:30:00",
-      "location": "KARA, Perleberger Straße 59, Berlin, 10559, Germany",
-      "description": "Desire mapping is a guided exploration of your desires, boundaries, and how to express them confidently with others. Led by Ceci, a skilled sex therapist, this session offers a safe space to navigate common questions and challenges around sexuality, desires, and communication. \nThrough reflective exercises, group discussion, and shared insights, you’ll learn how to tune into your desires, identify your boundaries, and express them authentically. Whether you’re looking to deepen your self-awareness, improve communication in intimate relationships, or work through confusion around sexual wants, this workshop is a powerful starting point. \nThis workshop is inclusive, trauma-informed, and open to individuals of all genders, orientations, and relationship structures within LGBTQIA+ identities. You will be asked to work in small groups and pairs with other participants. \nWhat to expect from this workshop\n\nUnderstand and embrace your desires\nDefine your boundaries and learn how to recognize when they come up spontaneously\nLearn to communicate desires and boundaries both in theory and practice\n\nWho should attend\n\nAnyone curious about their own desires or feeling disconnected from them\nPeople seeking to improve communication in intimate or sexual relationships\nThose navigating consent, boundaries, or changes in desire or sexual identity\n\nPlease note that this is an LGBTQIA+ only event. Any identities and experience levels within this umbrella are very welcome and affirmed.",
-      "image_url": "https://karada-house.de/wp-content/uploads/2024/12/MG_2287-scaled-e1743779969837.jpg",
-      "source_url": "https://karada-house.de/events/desire-mapping-understanding-and-communicating-your-wants/",
-      "source_name": "Karada House",
-      "tags": [
-        "Kink"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Näh’n’Nerd Cafe / Reparaturkneipe",
-      "start": "2026-06-11T19:00:00",
-      "end": null,
-      "location": "Vetomat Wühlischstr. 42 10247 Berlin Deutschland",
-      "description": "Näh’n’Nerd CafeAb jetzt jeden zweiten Donnerstag 19-22 Uhr im Veto NerdCafe Das Nerd-Cafe in alter Tradition, gemütliches gemeinsames rumnerden und barrierefreier Tech-Support. Mit Reparaturcafe in Kneipenatmosphäre!",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/324105",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Essen"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Open Jam",
-      "start": "2026-06-11T19:00:00",
-      "end": null,
-      "location": "Café Köpenick Seelenbinderstr. 54 12555 Berlin Deutschland",
-      "description": "Komm gern allein oder mit deiner Band vorbei - Gitarren, Bass, Drums, Klavier und Mikros haben wir vor Ort.",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/325538",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Konzert"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Open Decks im Technokeller (14-27 Jahre)",
-      "start": "2026-06-11T19:00:00",
-      "end": null,
-      "location": "Café Köpenick Seelenbinderstr. 54 12555 Berlin Deutschland",
-      "description": "Ihr habt Bock auf Djing?\nEgal ob unerfahren und lernbereit oder auch erfahren sowie auf der Suche nach einem Platz zum Musik aufdrehen.",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/325586",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Sonstiges"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Soli event for the Colombian Community organisation Convivamos",
-      "start": "2026-06-11T19:00:00",
-      "end": null,
-      "location": "Regenbogenfabrik Lausitzer Str. 21a 10999 Berlin Deutschland",
-      "description": "For more than 30 years, Con-Vivamos has been working on neighbourhood organising, popular feminism, and grassroots self-organisation in the barrios of Medellín.",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327253",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Ausstellung"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Konzert",
-      "start": "2026-06-11T19:00:00",
-      "end": null,
-      "location": "Regenbogenfabrik Lausitzer Str. 21a 10999 Berlin Deutschland",
-      "description": "\"La Niña Jaguar\"\n--- Einlass 19:00, Beginn 20:00 | RegenbogenKino ---",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327255",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Konzert"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Näh’n’Nerd Cafe - Das Repaircafé im Vetomat",
-      "start": "2026-06-11T19:00:00",
-      "end": null,
-      "location": "Vetomat Wühlischstr. 42 10247 Berlin Deutschland",
-      "description": "Näh’n’Nerd CafeAb jetzt jeden zweiten Donnerstag 19-22 Uhr im Veto UPDATE: Jetzt im Sommer ist die Hilfe bei Nähprojekten nicht immer da -- Nähmaschinen und Material gibt es trotzdem, aber nicht immer Support!",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327317",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Essen"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Konzert",
-      "start": "2026-06-11T19:00:00",
-      "end": null,
-      "location": "Schokoladen Ackerstrasse 169 10115 Berlin Deutschland",
-      "description": "süper!nice! prsnts: Die Expressionisten [jangle punk] + Grateful Cat [indie pop folk]",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327332",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Konzert"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Metalküfa",
-      "start": "2026-06-11T19:00:00",
-      "end": null,
-      "location": "Zielona Góra Grünbergerstr. 73 10245 Berlin Deutschland",
-      "description": "Into The Pit präsentiert...\n\"Nie wieder Krieg!\"\nFilmscreening von \"johnny zieht in, den krieg\" \nMit Einleitung: Antimilitarismus im Metal\nAftershow w/ DJ Broken\nVegane Küfa ab 21 Uhr!",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327438",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Film"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Blaue Lippen - Aktionsprotokolle des mermaid Werdens",
-      "start": "2026-06-11T19:00:00",
-      "end": null,
-      "location": "Berlin Berlin Deutschland",
-      "description": "Blaue Lippen Aktionsprotokolle des mermaid Werdens ohneflossen.projekt 11.06.26 19 Uhr",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327485",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Offenes Treffen für eine revolutionäre Perspektive",
-      "start": "2026-06-11T19:00:00",
-      "end": null,
-      "location": "Mieterladen Kreutzigerstr. 23 10247 Berlin Deutschland",
-      "description": "Täglich prasseln schlechte Nachrichten auf uns ein: Kriege eskalieren, die Krise ist allgegenwärtig und unsere Zukunftsaussichten scheinen miserabel. Doch statt die Ursachen anzugehen, werden Milliarden in die Aufrüstung gesteckt und die Wehrpflicht wieder eingeführt.",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327559",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Sonstiges"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Outtakes Cinema: Growing up/ DIY in Germany?!",
-      "start": "2026-06-11T19:00:00",
-      "end": null,
-      "location": "Berlin Berlin Deutschland",
-      "description": "Outtakes Cinema x Frachtkante x Mangel Records lädt ein zum ersten Filmscreening in Tegel mit: „Stau – Jetzt geht’s los“ Zeit: 11.06.2026 19:00",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327580",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Film"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Velvet Rebels – leftist, feminist, queer, kinkster, friends",
-      "start": "2026-06-11T19:00:00",
-      "end": null,
-      "location": "Cocoon Exerzierstraße 14 13357 Berlin Deutschland",
-      "description": "(English version below)",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327656",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Essen"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Zukunftsbilder im Fluss",
-      "start": "2026-06-11T19:00:00",
-      "end": null,
-      "location": "Humboldt Forum",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/7ec65d4c1d24d5aa894fc86a5893efae.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/zukunftsbilder-fluss/events/367346/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Memory Distortion. M I X T A P E",
-      "start": "2026-06-11T19:00:00",
-      "end": null,
-      "location": "HAU Hebbel am Ufer",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/e1789cd2a2629b7c39442ce59701c332.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/memory-distortion-m-i-x-t-a-p-e/events/367594/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Albert Queens comes to town",
-      "start": "2026-06-11T19:30:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/0ff4d9c82e025d5872c67938cb1bc04c.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/albert-queens-comes-to-town/events/368124/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "On Justice #10: Racial (In)Justice in Authoritarian Times",
-      "start": "2026-06-11T19:30:00",
-      "end": null,
-      "location": "HAU Hebbel am Ufer",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/e632ada24aff21a6dd8978ef469a29f3.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/on-justice-10-racial-injustice-authoritarian-times/events/367597/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "SALLY – Mein Leben im Drag",
-      "start": "2026-06-11T20:00:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/7c159d8dc566548bc981f3359d5cc42a.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/sally-mein-leben-drag/events/368153/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Hannah Zabrisky tritt nicht auf",
-      "start": "2026-06-11T20:00:00",
-      "end": null,
-      "location": "Schaubühne am Lehniner Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/f6f0f5d2e7bb98e122028b63e09c3a61.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/hannah-zabrisky-tritt/events/367267/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
     {
       "title": "Thursday Jazz Jam",
       "start": "2026-06-11T20:00:00",
@@ -563,34 +59,6 @@
       "source_name": "Siegessäule",
       "tags": [
         "Party"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Filmabend im K(P)",
-      "start": "2026-06-11T21:00:00",
-      "end": null,
-      "location": "K Köpenicker Straße Berlin Deutschland",
-      "description": "\" Nightcrawler \"USA, 2014, OmU, 117 Min.R.: Dan Gilroy D.: Jake Gyllenhaal, Rene RussoA petty thief desperate for work muscles into the world of crime journalism and becomes the star of his own story as he blurs the line between observer and participant.",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327163",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Film"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "The Singles Rope Jam – with Guided Warm-Up",
-      "start": "2026-06-12T07:00:00",
-      "end": "2026-06-12T22:00:00",
-      "location": "KARA, Perleberger Straße 59, Berlin, 10559, Germany",
-      "description": "Welcome to the Singles Rope Jam, a space for you to find new rope friends and tying partners (or rekindle old ropelationships). Ceci will guide you through a collective warm up, starting with a moment of grounding self-tying and then finding a partner or a small group to tie with. Afterwards you will have plenty of time to chat, tie, and connect in our lovely big house. The garden with suspension points and hashiras will also be open for you if it’s not raining. \nWhat happens at the Singles Rope Jam?\n\nSpace introduction and intro round at 7.30pm\nGuided self-tying and tying in pairs or small groups\nFree mingling, cruising space, and tying with people\n\nAll participation is voluntary, and you get to choose who you want to partner with, or stay with self-tying for part or all of the event. Ceci is available for any support you might need around navigating the social space. Doors open at 7pm and close at 9pm. We play the gongs 30 minutes before closing so you can finish calmly and don’t need to rush. \nWho is the Singles Rope Jam for?\n\nAnyone who is curious about tying with new people\nAdventurers who want to have a new experience\nSocially anxious people who need some guidance to get warmed up\n\nThis is a sober space for people under the LGBTQIA+ umbrella, we embrace all experience levels and identities within this spectrum. We welcome all roles: people tying, people getting tied, switches, self tyers, rope sluts, nerds, and everyone in between.",
-      "image_url": "https://karada-house.de/wp-content/uploads/2026/02/mg_6187.jpg",
-      "source_url": "https://karada-house.de/events/the-singles-rope-jam-with-guided-warm-up/",
-      "source_name": "Karada House",
-      "tags": [
-        "Kink"
       ],
       "time_known": true
     },
@@ -651,6 +119,20 @@
       "time_known": true
     },
     {
+      "title": "Bum Bum Musik",
+      "start": "2026-06-12T15:00:00",
+      "end": null,
+      "location": "Volksbühne am Rosa-Luxemburg-Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/e460ca489510b3a2c7b291bffd2194c9.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/bum-bum-musik/events/370173/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
       "title": "CHILLGARAGE",
       "start": "2026-06-12T16:00:00",
       "end": null,
@@ -661,6 +143,20 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "STOP GEAS – BLEIBERECHT FÜR ALLE! Kundgebung",
+      "start": "2026-06-12T16:00:00",
+      "end": null,
+      "location": "Rotes Rathaus Rathausstr 15 10178 Berlin Deutschland",
+      "description": "STOP GEAS – BLEIBERECHT FÜR ALLE!Kundgebung12.06, 16 UhrRotes Rathaus",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327715",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Protest"
       ],
       "time_known": true
     },
@@ -805,6 +301,20 @@
       "time_known": true
     },
     {
+      "title": "Bibliothek der Freien - Anarchistische Bibliothek",
+      "start": "2026-06-12T18:00:00",
+      "end": null,
+      "location": "Bibliothek der Freien Greifswalder Str. 4 2. Hof, Raum 1102 (1. OG) 10405 Berlin Deutschland",
+      "description": "Anarchistische Bücher zum Stöbern und Ausleihen // Anarchist books to browse and borrow",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327771",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ],
+      "time_known": true
+    },
+    {
       "title": "sos – media loves you",
       "start": "2026-06-12T18:30:00",
       "end": null,
@@ -931,20 +441,6 @@
       "time_known": true
     },
     {
-      "title": "Goodbye Berlin",
-      "start": "2026-06-12T19:30:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/f1bd5e1d3b40185c44189ada50c98c02.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/goodbye-berlin/events/368916/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Call me Paris",
       "start": "2026-06-12T19:30:00",
       "end": null,
@@ -952,6 +448,20 @@
       "description": null,
       "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/f21ce3b69e3722af3aaa5aefa961cbc8.jpg",
       "source_url": "https://www.berlin-buehnen.de/de/spielplan/call-me-paris/events/367262/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Goodbye Berlin",
+      "start": "2026-06-12T19:30:00",
+      "end": null,
+      "location": "Volksbühne am Rosa-Luxemburg-Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/f1bd5e1d3b40185c44189ada50c98c02.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/goodbye-berlin/events/368916/",
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
@@ -1071,14 +581,14 @@
       "time_known": true
     },
     {
-      "title": "Songs from the last years",
+      "title": "Theater- und Performancenacht: \"Haare\"",
       "start": "2026-06-12T20:00:00",
       "end": null,
-      "location": "Maxim Gorki Theater",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/ceaa089d1cb1ae70204780a8c37f6361.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/songs-from-the-last-years/events/365186/",
-      "source_name": "Berlin Bühnen",
+      "location": "Café Cralle Hochstädterstr. 10a 13347 Berlin Deutschland",
+      "description": "[english below] Gestalte den Abend mit und spiele eine kurze Szene…",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327754",
+      "source_name": "Stressfaktor",
       "tags": [
         "Theater"
       ],
@@ -1120,6 +630,20 @@
       "description": null,
       "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/1dad660c99438cfa48f39dc421d4a666.jpg",
       "source_url": "https://www.berlin-buehnen.de/de/spielplan/the-color-scheme/events/368366/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Songs from the last years",
+      "start": "2026-06-12T20:00:00",
+      "end": null,
+      "location": "Maxim Gorki Theater",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/ceaa089d1cb1ae70204780a8c37f6361.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/songs-from-the-last-years/events/365186/",
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
@@ -1187,12 +711,26 @@
       "start": "2026-06-12T21:00:00",
       "end": "2026-06-12T21:00:00",
       "location": "Quälgeist Berlin e.V., Lankwitzer Straße 42/43, Berlin, 12107, Deutschland",
-      "description": "▼ ENGLISH BELOW ▼\nQriginal, das ist 100% Quälgeist und 100% strikter BDSM! Werft euch in Schale, egal ob Leder, Gummi, Uniform oder Skinhead und genießt entweder Machtgewinn oder Kontrollverlust. Nur für Männer*!\nDie ersten 50 Gäste bekommen ein Recon-Giveaway. \n\nDresscode: Leder, Gummi, Uniform, Skin\n\n⏵ ENGLISH ⏴\nQriginal is 100% Quälgeist and 100% strict BDSM! Dress up in leather, rubber, uniform or skinhead and enjoy your gain of power or loss of control. For men only*!\nThe first 50 people through the doors receive a Recon giveaway. \n\nDresscode: Leather, Rubber, Uniform, Skin\n\n \nAnmeldung erforderlich! / Registration mandatory!Zur Anmeldung / Registration form",
+      "description": "▼ ENGLISH BELOW ▼\nQriginal, das ist 100% Quälgeist und 100% strikter BDSM! Werft euch in Schale, egal ob Leder, Gummi, Uniform oder Skinhead und genießt entweder Machtgewinn oder Kontrollverlust. Nur für Männer*!\nDie ersten 50 Gäste bekommen ein Recon-Giveaway. \n\nDresscode: Leder, Gummi, Uniform, Skinhead\n\n⏵ ENGLISH ⏴\nQriginal is 100% Quälgeist and 100% strict BDSM! Dress up in leather, rubber, uniform or skinhead and enjoy your gain of power or loss of control. For men only*!\nThe first 50 people through the doors receive a Recon giveaway. \n\nDresscode: Leather, Rubber, Uniform, Skinhead\n\n \nAnmeldung erforderlich! / Registration mandatory!Zur Anmeldung / Registration form",
       "image_url": "https://quaelgeist.sm/wp-content/uploads/2024/04/Qriginal_Recon-Rh2H7L.tmp_.jpg",
       "source_url": "https://quaelgeist.sm/event/qriginal-recon-special-7/",
       "source_name": "Quälgeist",
       "tags": [
         "Kink"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Soli Party for Squatting Action",
+      "start": "2026-06-12T21:00:00",
+      "end": null,
+      "location": "Rote Insel Mansteinstr. 10, near S1 / U7 Yorckstrasse Deutschland",
+      "description": "⁨📷⁩ ⁨---Soli Party für  Hausbesetzungs-Aktivisti , Rote Insel (S1 Yorkstraße), 21 Uhr, 12.6.----",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327755",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
       ],
       "time_known": true
     },
@@ -1295,6 +833,20 @@
       "time_known": true
     },
     {
+      "title": "Nordkiez gegen Überwachung",
+      "start": "2026-06-13T11:00:00",
+      "end": null,
+      "location": "Dorfplatz (Fhain) Rigaerstr. Ecke Liebigstr. 10247 Berlin Deutschland",
+      "description": "am Samstag, den 13.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327756",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Protest"
+      ],
+      "time_known": true
+    },
+    {
       "title": "Abhishek Thapar: Soft Pressure (Working Title)",
       "start": "2026-06-13T11:00:00",
       "end": null,
@@ -1319,20 +871,6 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Karada House Queer Summer Party",
-      "start": "2026-06-13T14:00:00",
-      "end": "2026-06-13T21:00:00",
-      "location": "KARA, Perleberger Straße 59, Berlin, 10559, Germany",
-      "description": "Our “new” space is already turning three (!!) so we’re having a queer little summer party about it. \nCome hang out, dance, play games, eat daddy Antje’s sausages, lie in a cuddle puddle, make new friends, avoid eye contact with the new friends, and generally exist together in a nice way. It’s a sober space, but still very much a party. \nThis is for LGBTQIA+ folks – extroverts, introverts, socially anxious cuties, people who say “I’ll only stay for one hour” and then don’t leave. You can be in the middle of everything or tucked away somewhere cozy. Both are correct. \nThere’s no pressure to do anything in particular — just drift between things and see what feels good. \nWe’ll also have a clothing swap, so bring stuff you don’t wear anymore and maybe leave as a slightly different person. There will be a crafts and games room, so bring your summer crochets and art projects to work on in company. \nSpaces:\n\nkitchen + mezzanine: snacks, alcohol-free drinks for sale, soft socializing\nmain room: dancing, social games, performances, a cuddle area (!!)\ncorner room: crafty queers + board games + gentle, quiet(er) vibes\ngarden (if weather behaves): BBQ, clothing swap & freebox, lying on the grass\n(if not, we simply bring “outside energy” inside)\n\nProgram\n14.00 Doors open \n14.30 Social Games & Facilitated Dance Party with Ceci Ferox\nAwkward is today’s word, and we will embrace it. Waddle like a penguin, or let the spirit of our house octopus plushie guide your moves. The weirder, the better. Also maybe learn (and forget) some people’s names? We don’t know, but this is for all the introverts who don’t know how to people (and the extroverts who want to adopt us… eh, them). \n15.30 Trans* Choir Plänterwald (TCP’22)\n“We are Berlin’s powerful choir, featuring original arrangements for trans*, non-binary, and inter* voices. With a blend of fun retro hits and contemporary pop songs, we create a space for openness, visibility, and community. Our repertoire is as diverse as we are: at times loud and defiant, at others gentle and moving—but always authentic. Our goal: a safe space to discover one’s own voice and grow together.” \n16-18 Hanging out & Pop-up performances: \n\nCommunity Tarot Reading with Caritia\nCaritia is a Berlin-based kink activist, shibari educator, and co-founder of Karada House and OhYesPlease.org. Caritia’s art stems from a desire to advocate and support others to explore intentionally and intersectionally the boundaries around their bodies, sexuality and self-expression.\nSurprise Performance with Quentin Crisper and Peppi The Brutalist Panda\nUrban nature scout, radical faerie, playmate and adhd-prince, based in Berlin Quentin Crisper explores the world\nthrough bodywork, sex work and art. Quentin aims to be a constant invitation for people to explore the strange, the intimate, the magical and the longings and desires in the unspoken spaces in between.  — Daydreaming, awkward, and hot. Peppi is a Berlin-based performer and activist with an acute passion for seriously silly kink. Their interests include voice work, chaos and non-normative powerplay. A complete menace, they often live by the motto “that’s stupid… I’ll do it!”.\n\n18-21 Karaoke with Ceci Ferox\nCome find your voice in a traditional Finnish karaoke, where your choice of song matters more than how you sing it. Sit in a corner with the microphone, avoiding eye contact with the audience, or ask a cutie to dance while someone sings a tango. \nLogistics stuff:\n\nsober event\nLGBTQIA+ only\ndrop in whenever, but get a ticket beforehand\nnot a play space\n\nCome as you are, stay as long as you want, leave when your social battery says “ok babe that’s enough” \nContact us if you want to volunteer! We still need people for bar and door shifts: info@karada-house.de",
-      "image_url": "https://karada-house.de/wp-content/uploads/2024/04/MG_9641-scaled.jpeg",
-      "source_url": "https://karada-house.de/events/karada-house-queer-summer-party/",
-      "source_name": "Karada House",
-      "tags": [
-        "Kink"
       ],
       "time_known": true
     },
@@ -1477,6 +1015,20 @@
       "time_known": true
     },
     {
+      "title": "Space Inavders - Open air Party at Kollage Kollectiv HQ",
+      "start": "2026-06-13T14:00:00",
+      "end": null,
+      "location": "S Bahn Greifswalder Berlin Deutschland",
+      "description": "Get your space kit together for another crazy ride in our containers galaxy.You already know the coordinates: 52.541730° N, 13.433952° E aka Lili-Henoch-Straße 21, 10405 Berlin aka Kollage Kollectiv HQ.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327760",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ],
+      "time_known": true
+    },
+    {
       "title": "Kinky Taboos: Berlin After Dark Tour",
       "start": "2026-06-13T14:30:00",
       "end": null,
@@ -1515,6 +1067,48 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Diskussion"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Kundgebung: Unser Protest geht weiter - für Vorkaufsrecht und Milieuschutz",
+      "start": "2026-06-13T15:00:00",
+      "end": null,
+      "location": "Mecklenburgische Straße 89 10713 Berlin Deutschland",
+      "description": "Protestkundgebung vor unserem Haus in der Mecklenburgischen Straße 89 in Berlin-WilmersdorfUnser Haus wurde erneut verkauft und befindet sich aktuell wieder mitten in \neinem laufenden Vorkaufsrechtsverfahren.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327764",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Protest"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Bum Bum Musik",
+      "start": "2026-06-13T15:00:00",
+      "end": null,
+      "location": "Volksbühne am Rosa-Luxemburg-Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/e460ca489510b3a2c7b291bffd2194c9.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/bum-bum-musik/events/370172/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "nd Fest - 80 Jahre nd",
+      "start": "2026-06-13T15:30:00",
+      "end": null,
+      "location": "FMP1 Franz-Mehring-Platz 1, 10243 Berlin Deutschland",
+      "description": "💫 80 Jahre »nd« 💫 Wir laden ein zur Geburtstagssause am 13. Juni: Ab 15:30 Uhr bis in die Puppen wollen wir mit Euch bei uns im Haus und Hof (Franz-Mehring-Platz 1) feiern.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327732",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
       ],
       "time_known": true
     },
@@ -1631,13 +1225,13 @@
       "time_known": true
     },
     {
-      "title": "Soliparty for SOFT EDGES",
+      "title": "Konzert & BBQ",
       "start": "2026-06-13T19:00:00",
       "end": null,
-      "location": "OGH Sonnenallee Berlin Deutschland",
-      "description": "LINE UP:\nb1unt b1ade (ethereal dark ambient)\nWathutsky (experimental ambient)\nEva van Dijk (alt hyperpop)",
+      "location": "Potsdam Hbf (Babelsberger Seite) Potsdam Hbf (Babelsberger Seite) Deutschland",
+      "description": "BRIEFBOMBE (fastHC'n'punk / Hambuärch) , EARTH CRUST DISPLACEMENT (rawdbeat'n'noise / BerlIH!n) , WÜT (hartchormäddlpanx / PerlIH!n) \nLA'DXTXCXA POTSDAM, BEACH: 17:00, BBQ: 19:00, ROCK: 21:00Babelsberger Park",
       "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327599",
+      "source_url": "https://stressfaktor.squat.net/node/327729",
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
@@ -1785,20 +1379,6 @@
       "time_known": true
     },
     {
-      "title": "Songs from the last years",
-      "start": "2026-06-13T20:00:00",
-      "end": null,
-      "location": "Maxim Gorki Theater",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/ceaa089d1cb1ae70204780a8c37f6361.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/songs-from-the-last-years/events/365187/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "JUICE",
       "start": "2026-06-13T20:00:00",
       "end": null,
@@ -1806,6 +1386,20 @@
       "description": null,
       "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/e6c70b6964d46cb3328ee754ed5070c5.jpg",
       "source_url": "https://www.berlin-buehnen.de/de/spielplan/juice/events/368149/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Songs from the last years",
+      "start": "2026-06-13T20:00:00",
+      "end": null,
+      "location": "Maxim Gorki Theater",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/ceaa089d1cb1ae70204780a8c37f6361.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/songs-from-the-last-years/events/365187/",
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
@@ -1967,6 +1561,34 @@
       "time_known": true
     },
     {
+      "title": "Solidarity Brunch",
+      "start": "2026-06-14T12:00:00",
+      "end": null,
+      "location": "Bilgisaray Oranienstr. 45 Berlin Deutschland",
+      "description": "SOLIDARITY BRUNCH - FOR THE RIGHT TO STAY🕙14.06.26, 12 - 4pm📍Bilgisaray, Oranienstraße 45🥗🥐 delicious egyptian food (vegan and vegetarian)☕️🍵 coffee, tea (also coffee to go) Donations recomendation: 7€ - 10€",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327748",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Kolumbien Vereint für ein besseres Leben!",
+      "start": "2026-06-14T12:00:00",
+      "end": null,
+      "location": "Berlin Berlin Deutschland",
+      "description": "Mit dieser Veranstaltung möchten wir Solidaritätsnetzwerke in Kolumbien unterstützen. Kommt vorbei, esst und bringt etwas zum (Sieb)bedrucken mit! \nWith this event, we aim to support mutual aid networks in Colombia. Come, eat, and bring others along!",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327769",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ],
+      "time_known": true
+    },
+    {
       "title": "📖 Infoladen Scherer 8 📖",
       "start": "2026-06-14T13:00:00",
       "end": null,
@@ -2075,6 +1697,34 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "anarcha repair cafe/ sewing workshop",
+      "start": "2026-06-14T15:00:00",
+      "end": null,
+      "location": "Martha Bethaniendamm Berlin Deutschland",
+      "description": "bring your garment to repair and join us every other Sunday to sew together and enyoing the afternoon with vegan cakes, waffles and caffe! all the donations go to kurdish grassroot organisations.\nAlso if you wanna practice or improve your sewing skills, this is the place for you!",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327759",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Bum Bum Musik",
+      "start": "2026-06-14T15:00:00",
+      "end": null,
+      "location": "Volksbühne am Rosa-Luxemburg-Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/e460ca489510b3a2c7b291bffd2194c9.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/bum-bum-musik/events/370171/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
       ],
       "time_known": true
     },
@@ -2205,16 +1855,16 @@
       "time_known": true
     },
     {
-      "title": "BIPOC Utopias: Ace & Aro",
+      "title": "OffenesTreffendesprovisorischenanarchistischenAntikriegsrats",
       "start": "2026-06-14T19:00:00",
-      "end": "2026-06-14T20:30:00",
-      "location": "https://karada-house.de/events/bipoc-utopias-ace-aro/",
-      "description": "This month, we will offer space to discuss what it is to be Ace and/or Aro, as a BIPOC individual. Covering what these words/terms mean and diving into how we can support ourselves and others from a play context. \nThis is a monthly separatist space to discuss and lab about kink, intimacy, and virtual play space for black, brown and Indigenous folks. \nFor quite some time, Caritia has been musing on how to encourage and inspire more BIPOC into the realm of alternative lifestyles and ways of relating. There are many systemic barriers to this, including patriarchy, capitalism, classism and racism. In an effort to change the narrative, Caritia wishes to offer a monthly gathering for BIPOC to talk, learn about a topic or practice, and support one another through a community actively built together, with the aspiration to gather in person once a year. \nCaritia’s intention is to create a guided, active space for learning and coming together. This format has the potential to morph and change as the group sees fit.",
-      "image_url": "https://karada-house.de/wp-content/uploads/2025/04/MG_1592-scaled-e1772621619556.jpg",
-      "source_url": "https://karada-house.de/events/bipoc-utopias-ace-aro/",
-      "source_name": "Karada House",
+      "end": null,
+      "location": "New Yorck im Bethanien Mariannenplatz 2A 10997 Berlin Deutschland",
+      "description": "Offenes Treffen des provisorischen anarchistischen Antikriegsrats\nDrohnen basteln gegen Aufrüstung!\nMalen für den Veteranentag! Sie warten auf uns!\nDenn harte Zeiten benötigen herte BürgerInnen, die sich die Frage der Zukunft rückerobern wollen.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327761",
+      "source_name": "Stressfaktor",
       "tags": [
-        "Kink"
+        "Sonstiges"
       ],
       "time_known": true
     },
@@ -2267,7 +1917,7 @@
       "location": "Volksbühne am Rosa-Luxemburg-Platz",
       "description": null,
       "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/be7c0aef9bc2e5a24d53018082778570.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/spooky-paradise/events/369284/",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/spooky-paradise/events/368918/",
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
@@ -2281,7 +1931,7 @@
       "location": "Volksbühne am Rosa-Luxemburg-Platz",
       "description": null,
       "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/be7c0aef9bc2e5a24d53018082778570.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/spooky-paradise/events/368918/",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/spooky-paradise/events/369284/",
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
@@ -2527,34 +2177,6 @@
       "time_known": true
     },
     {
-      "title": "Rope for Absolute Beginners",
-      "start": "2026-06-15T19:00:00",
-      "end": "2026-06-15T22:00:00",
-      "location": "KARA, Perleberger Straße 59, Berlin, 10559, Germany",
-      "description": "Welcome to the world of Japanese style rope bondage, friend! It’s wild and fun out here and we are thrilled to be your point of entry. \nThis weekly class is designed for anyone who would like to learn about Japanese-inspired rope bondage/shibari/kinbaku whether you see yourself in the role of the person tying or being tied. We firmly believe that everyone, even if you wish to be tied, should know the absolute basics of this craft. \nWhat we do\n\nWe talk about what the heck is Japanese inspired rope bondage and why we call it “inspired”.\nWe show you the tools are we using and tell you why they are designed the way they are.\nWe talk about why people love to tie/get tied and what happens if you tie/get tied?\nWe show you the fundamental principles of shibari and first techniques you can immediately use\nWe talk about the history of shibari, give you pointers on anatomy, psychology and safety\nWe will tie ourselves, other people (if you and they want to) and actually take time to try stuff out and play, play, play\n\nThis class is suited for\n\nall kinds of bodies (abled and non-abled), all gender expressions, all kinds of sexualities (including people on the ace-spectrum), all kind of brains (neurospicy or neurotypical, affected by trauma, etc.)\npeople coming solo or bringing a partner (or group), people who only want to tie their own bodies as well as people who want to tie/get tied by others",
-      "image_url": "https://karada-house.de/wp-content/uploads/2025/12/mg_0407-scaled.jpg",
-      "source_url": "https://karada-house.de/events/rope-for-absolute-beginner-150626/",
-      "source_name": "Karada House",
-      "tags": [
-        "Kink"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Intro to Suspension",
-      "start": "2026-06-15T19:00:00",
-      "end": "2026-06-15T22:00:00",
-      "location": "https://karada-house.de/events/intro-to-suspension-part2/",
-      "description": "The goal of suspension, in Addie’s understanding, is not to do the most difficult thing or last the longest or take the most impressive picture, but to enjoy an adventure, support a partnership, stay focused on humans rather than patterns, and tailor the experience to best suit the individuals involved.\n\nThis two-part class is suitable for people who have never suspended but have a general idea of the principles, as well as those who have some suspension knowledge and want to consolidate their practice and hone their skills.\n\n\nPart I: June 8th, 2026\nPart II: June 15th, 2026\n(ticket is for the ENTIRE SERIES)\n\n\n\nThis class does NOT require a TK/arms-in harness, all ties can also be done from a chest harness. Addie will offer options to suit a variety of needs, especially any that are expressed by class participants, so bring your questions and situations!\n\nBetween the two classes we will cover:\n\n\nDiscussion of safety, ways to get out of trouble quickly and elegantly.\nBuilding a scene, interpersonal dynamics, and thoughts on communicating needs while maintaining those dynamics.\nInformation for those being tied, including nerve spotting, testing ties to find ‘hot spots’, and body mechanics tricks to help manage tension/strain.\nConsiderations when choosing suspension lines and some exercises to improve suspension line handling.\nA progressable partial suspension with option to turn into full suspension – great practice for line management, body handling, and keeping focus on the ‘big picture’ and partner interactions.\nSide suspension with options to add mini transitions – build this as complicated or straightforward as you want without making it harder to ‘exit’ smoothly.\n‘Falling with style’ – a highly modifiable partial-to-full suspension progression focusing on lowering rather than lifting through a variety of positions. This is useful for those who want to stay closer to the ground, for tying folks who have concerns about grip strength, or in pairings where the person tying is smaller/lighter than the person being tied. This suspension can be done with a variety of upper body ties, including just a ‘safety’ line.\nTime dependent, we will also learn a quick and easy suspensionable futomomo.",
-      "image_url": "https://karada-house.de/wp-content/uploads/2026/04/mg_4246-scaled.jpg",
-      "source_url": "https://karada-house.de/events/intro-to-suspension-part2/",
-      "source_name": "Karada House",
-      "tags": [
-        "Kink"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Soli-Bleiberechtsbar",
       "start": "2026-06-15T19:00:00",
       "end": null,
@@ -2625,6 +2247,20 @@
       "time_known": true
     },
     {
+      "title": "OffenesTreffendesprovisorischenanarchistischenAntikriegsrats",
+      "start": "2026-06-15T19:00:00",
+      "end": null,
+      "location": "New Yorck im Bethanien Mariannenplatz 2A 10997 Berlin Deutschland",
+      "description": "Offenes Treffen des provisorischen anarchistischen Antikriegsrats\nDrohnen basteln gegen Aufrüstung!\nMalen für den Veteranentag! Sie warten auf uns!\nDenn harte Zeiten benötigen herte BürgerInnen, die sich die Frage der Zukunft rückerobern wollen.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327762",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ],
+      "time_known": true
+    },
+    {
       "title": "Liina Magnea: What’s a Mob to a King (Plot-twist Redemption)",
       "start": "2026-06-15T19:00:00",
       "end": null,
@@ -2663,6 +2299,20 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Ulm5 Prozess-Update - Anarchist Dinner",
+      "start": "2026-06-15T20:00:00",
+      "end": null,
+      "location": "Bethanien Südflügel Berlin Deutschland",
+      "description": "Am 15. Juni wird ein weiterer der dutzenden von geplanten Prozesstagen im Fall der Ulm5 in Stammheim stattfinden. Derzeit erscheint der eindeutige Klassencharakter der Justiz, die in diesem zurecht als Schauprozess bezeichneten Verfahren fünf Menschen anklagt, sehr deutlich.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327744",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Diskussion"
       ],
       "time_known": true
     },
@@ -2801,34 +2451,6 @@
       "image_url": null,
       "source_url": "https://quaelgeist.sm/event/sm-am-dienstag-sm-on-tuesday-61/",
       "source_name": "Quälgeist",
-      "tags": [
-        "Kink"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "How To Play...",
-      "start": "2026-06-16T19:00:00",
-      "end": "2026-06-16T21:00:00",
-      "location": "https://karada-house.de/events/how-to-play/",
-      "description": "Maybe you don’t know someone very well but both want to have fun, hot, or cute times with rope… how do you actually do that? Everyone wants to play, but many of us don’t know how.\nThis session looks at practical ways to start to actually play in rope (with new partner or maybe partners we know very well but feel a bit stuck with) beyond repeating the same patterns or keeping things so ‘safe’ and familiar that you never really drop into your flow where you can express what you want or discover something new.\nFor me… play needs a mix of curiosity and fantasy, a bit of vulnerability and confidence, mixed with a big dose of fuck around and find out… so what helps cultivate that? And how do we navigate the pleasure and risk of trying tying with someone new, doing this ‘play’, building trust as you go?\nWhat will we cover\n\n\nNegotiating and upholding care in these situations – what’s important to know?\n\n\nHow can you create a sense of narrative through roles, dynamics, and intentions?\n\n\nHow do you begin a session and work with its ‘flow’? (What does this even mean?)\n\n\nWhat risks are you willing to take? What’s off limits? What consent practices actually work here?\n\n\nHow do you end things intentionally?\n\n\nLet’s unpick a bit of this language and see what it looks like in practical senses. We’ll approach this through discussion, demo, and reflection, with space for your questions, ideas, and invitations to inspire your own exploration",
-      "image_url": "https://karada-house.de/wp-content/uploads/2026/04/mg_7950.jpg",
-      "source_url": "https://karada-house.de/events/how-to-play/",
-      "source_name": "Karada House",
-      "tags": [
-        "Kink"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Rope Structures: Exploring Different Tying Styles",
-      "start": "2026-06-16T19:00:00",
-      "end": "2026-06-16T21:30:00",
-      "location": "KARA, Perleberger Straße 59, Berlin, 10559, Germany",
-      "description": "Japanese inspired rope bondage or shibari comes in many different styles, both in Japan and outside. This class is your introduction into understanding the key differences of styles like Akechi , Naka, or Yukimura Ryu. We will also continue exploring modular thinking by learning what happens after the basic blueprint. \nRope Structures\nTake your fundamentals and start building stronger, more supportive structures. We explore specific harness types, styles, body positions, and different tying styles from across rope traditions.",
-      "image_url": "https://karada-house.de/wp-content/uploads/2025/11/mg_6361-edited.jpg",
-      "source_url": "https://karada-house.de/events/exploring-shibari-styles-berlin-0626/",
-      "source_name": "Karada House",
       "tags": [
         "Kink"
       ],
@@ -2989,6 +2611,20 @@
       "time_known": true
     },
     {
+      "title": "Shipwrecked jam 16 + anarcha soli kitchen",
+      "start": "2026-06-16T20:00:00",
+      "end": null,
+      "location": "Martha Bethaniendamm Berlin Deutschland",
+      "description": "Inclusive Experimental jam.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327765",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ],
+      "time_known": true
+    },
+    {
       "title": "Fragezeichen am Hörizont der Tauben",
       "start": "2026-06-16T20:00:00",
       "end": null,
@@ -3143,6 +2779,48 @@
       "time_known": true
     },
     {
+      "title": "Political Movie Night :  \"Wildstreik\" Köln 1973",
+      "start": "2026-06-17T18:00:00",
+      "end": null,
+      "location": "Café Herman Schulz Kollektiv, Finowstraße 33, Friedrichshain 10247 Berlin Deutschland",
+      "description": "🎬 Political Movie Night @ Café Collective Herman Schulz\n📆 Mittwoch 17.Juni🕓 18:00. Soli-Food📽 19:00 \"Wildstreik\" Köln 1973\n„Gastarbeiter“: Ein wichtiger Teil der deutschen Migrationsgeschichte",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327730",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Film"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Filmvorführung \"Every Body\" und Diskussion",
+      "start": "2026-06-17T18:00:00",
+      "end": null,
+      "location": "Alice Salomon Hochschule Alice-Salomon-Platz 5 12627 Berlin Deutschland",
+      "description": "Wofür steht nochmal das „I“ in „FLINTA*“?",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327746",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Film"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Häkelhektar",
+      "start": "2026-06-17T18:00:00",
+      "end": null,
+      "location": "Regenbogenfabrik Lausitzer Str. 21a 10999 Berlin Deutschland",
+      "description": "Häkeln fürs Klima | Häkel-, Strick- & Orgatreffen18:00 – 20:00 | RegenbogenCafé …danach jeden 1. Mittwoch im Monat Deine Wollprodukte können verkauft werden, um Wälder und Moore zu schützen.\nWir freuen uns auf euch.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327758",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ],
+      "time_known": true
+    },
+    {
       "title": "#Logoskop vierundvierzig",
       "start": "2026-06-17T18:00:00",
       "end": null,
@@ -3171,20 +2849,6 @@
       "time_known": true
     },
     {
-      "title": "Beziehungskiller Wohnungskrise – Über das Zusammenleben unter Bedingungen der Knappheit",
-      "start": "2026-06-17T18:30:00",
-      "end": null,
-      "location": "Humboldt Forum",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/93b92db01e4e32badfbe55df6e3a5eb1.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/beziehungskiller-wohnungskrise-ueber-zusammenleben-bedingungen-knappheit/events/369257/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Romani POV: Young Roma on Screen and Stage",
       "start": "2026-06-17T18:30:00",
       "end": null,
@@ -3192,6 +2856,20 @@
       "description": null,
       "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/3007a0c914514768c01528563c715ae9.jpg",
       "source_url": "https://www.berlin-buehnen.de/de/spielplan/romani-pov-young-roma-on-screen-and-stage/events/368113/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Beziehungskiller Wohnungskrise – Über das Zusammenleben unter Bedingungen der Knappheit",
+      "start": "2026-06-17T18:30:00",
+      "end": null,
+      "location": "Humboldt Forum",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/93b92db01e4e32badfbe55df6e3a5eb1.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/beziehungskiller-wohnungskrise-ueber-zusammenleben-bedingungen-knappheit/events/369257/",
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
@@ -3207,34 +2885,6 @@
       "image_url": null,
       "source_url": "https://quaelgeist.sm/event/hypnose-stammtisch-workshop-thema-steht-noch-nicht-fest-template-3/",
       "source_name": "Quälgeist",
-      "tags": [
-        "Kink"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Radical Inclusion",
-      "start": "2026-06-17T19:00:00",
-      "end": "2026-06-17T21:30:00",
-      "location": "https://karada-house.de/events/radical-inclusion/",
-      "description": "The world can often feel divided and exclusionary. What would it mean to turn that on its head? This workshop explores how we can actively include ourselves and others, while acknowledging the real need for both inclusive and separatist spaces. \nTogether, we will examine the barriers that create exclusion—such as access, power dynamics, and social norms—and explore practical ways to respond to them. The focus is on finding a balance between collective needs and individual experiences, and reimagining what truly supportive spaces can look like. \nLed by Caritia, this session offers a space for reflection, discussion, and collaborative thinking. Participants will be invited to design and imagine the kinds of groups and environments they would want to be part of, while developing tools to meaningfully include difference and diversity for the benefit of all. \nWhat we’ll cover\n\n\nWhat “radical inclusion” means in practice \n\n\nThe role of exclusion: boundaries, safety, and separatist spaces \n\n\nIdentifying barriers to inclusion (access, identity, power) \n\n\nBalancing individual needs with group dynamics \n\n\nDesigning spaces you would actually want to belong to \n\n\nPractical strategies for including difference and diversity",
-      "image_url": "https://karada-house.de/wp-content/uploads/2025/11/mg_6950.jpg",
-      "source_url": "https://karada-house.de/events/radical-inclusion/",
-      "source_name": "Karada House",
-      "tags": [
-        "Kink"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Queer Rope Jam",
-      "start": "2026-06-17T19:00:00",
-      "end": "2026-06-17T23:00:00",
-      "location": "KARA, Perleberger Straße 59, Berlin, 10559, Germany",
-      "description": "It’s queer rope jam time, babes! Once in a while you gotta do ropey stuff amongst other queers and just enjoy yourself. No posing, no being cool or extra good at doing ropey things needed. Come as you are, exhale and enjoy yourselves. \nWhat is a rope jam?\nRope jams is an open space format. Part hangout, part jamming with other like-minded people who are into rope bondage/shibari/kinbaku. Come and hang out and watch others do ropey stuff or do some yourself.  The queer rope jam is where you can bring your (rope) partner(s) or meet new people who love to tie, be tied and/or self-tie. It is also a great space to have sessions in a safe(r) environment with people you do not know yet. \nWe welcome all styles, all bodies, all knowledge levels. There will be cute music, extra special lighting and snacks. In the last hour of the jam, we will lower the lights and music and make it extra cozy.",
-      "image_url": "https://karada-house.de/wp-content/uploads/2022/11/MG_1274-scaled.jpeg",
-      "source_url": "https://karada-house.de/events/queer-rope-jam-0626/",
-      "source_name": "Karada House",
       "tags": [
         "Kink"
       ],
@@ -3279,6 +2929,20 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Protest"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Fermentationsworkshop - Can you jam that?",
+      "start": "2026-06-17T19:00:00",
+      "end": null,
+      "location": "Berlin Berlin Deutschland",
+      "description": "Can You Jam That? — Mittwoch, 17.06.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327716",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
       ],
       "time_known": true
     },
@@ -3507,6 +3171,20 @@
       "time_known": true
     },
     {
+      "title": "Bum Bum Musik",
+      "start": "2026-06-18T15:00:00",
+      "end": null,
+      "location": "Volksbühne am Rosa-Luxemburg-Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/e460ca489510b3a2c7b291bffd2194c9.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/bum-bum-musik/events/370170/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
       "title": "Gutschein-Tausch im YAAM",
       "start": "2026-06-18T16:00:00",
       "end": null,
@@ -3587,20 +3265,6 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Having Sex with Vulvas",
-      "start": "2026-06-18T19:00:00",
-      "end": "2026-06-18T22:00:00",
-      "location": "https://karada-house.de/events/having-sex-with-vulvas-2/",
-      "description": "Curious about how to give (or get) better pleasure with vulvas, but not sure where to start? Think you already know it all? (You probably don’t—and that’s okay.) Whether you want to increase pleasure for your own or someone else’s vulva, this class is for you. \nIn this deep-dive, inclusive, and no-shame space, you’ll learn:\n\nThe real anatomy of vulvas and vaginas — beyond the textbook\nPleasure-focused techniques that actually work\nHow to unlearn common myths and sexual scripts that get in the way\nPractical info on common issues and how to support vulva health\n\nCeci will go beyond the basics to help you build confidence, communication skills, and a deeper understanding of what brings pleasure to vulva owners. This is a space for anyone who wants to be better at giving or receiving vulva pleasure, regardless of gender, identity, or experience level. \nWhat makes this workshop different?\n\nIt’s inclusive and welcoming to trans and non-binary people\nIt combines expert-led teaching with honest conversation and reflection\nIt’s juicy, informative, and yes, a little nerdy\n\nWhether you’re here to enhance your skills, break down stigma, or better understand your own body, you’re in the right place.",
-      "image_url": "https://karada-house.de/wp-content/uploads/2026/03/mg_3422-scaled.jpg",
-      "source_url": "https://karada-house.de/events/having-sex-with-vulvas-2/",
-      "source_name": "Karada House",
-      "tags": [
-        "Kink"
       ],
       "time_known": true
     },
@@ -3717,6 +3381,20 @@
       "time_known": true
     },
     {
+      "title": "Sortiermaschinen: Grenzen, Mauern, Zäune",
+      "start": "2026-06-18T19:00:00",
+      "end": null,
+      "location": "Regenbogencafé Lausitzer Str. 22 10999 Berlin Deutschland",
+      "description": "Die Globalisierung versprach neben freien Märkten auch grenzenlose Mobilität.Doch längst nicht für alle.Dem globalen Jetset stehen Migrationsbewegungen gegenüber, die in ihrer Bewegungsfreiheit massiv eingeschränkt werden.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327727",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Diskussion"
+      ],
+      "time_known": true
+    },
+    {
       "title": "P14 – endlich endlich",
       "start": "2026-06-18T19:00:00",
       "end": null,
@@ -3724,6 +3402,20 @@
       "description": null,
       "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/e460ca489510b3a2c7b291bffd2194c9.jpg",
       "source_url": "https://www.berlin-buehnen.de/de/spielplan/p14-endlich-endlich/events/368115/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Egal",
+      "start": "2026-06-18T19:30:00",
+      "end": null,
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/76be035fcf29ecc136ddd86e7de00ba0.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/egal/events/367278/",
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
@@ -3759,20 +3451,6 @@
       "time_known": true
     },
     {
-      "title": "Egal",
-      "start": "2026-06-18T19:30:00",
-      "end": null,
-      "location": "Schaubühne am Lehniner Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/76be035fcf29ecc136ddd86e7de00ba0.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/egal/events/367278/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Punkrocktresen",
       "start": "2026-06-18T20:00:00",
       "end": null,
@@ -3783,6 +3461,20 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Black Out - hosted by Acoustic Neuroma",
+      "start": "2026-06-18T20:00:00",
+      "end": null,
+      "location": "Neue Zukunft Alt-Strahlau 68 10245 Berlin Deutschland",
+      "description": "Witches have predicted the alignment of improvisation, experiment and curiosity to initiate the end of the world as we know it. Therefore we have invited these demons of the underworld to teach us our incantations:\nCotton Rust (electronics)",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327745",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
       ],
       "time_known": true
     },
@@ -3941,6 +3633,20 @@
       "time_known": true
     },
     {
+      "title": "Bum Bum Musik",
+      "start": "2026-06-19T15:00:00",
+      "end": null,
+      "location": "Volksbühne am Rosa-Luxemburg-Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/e460ca489510b3a2c7b291bffd2194c9.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/bum-bum-musik/events/370169/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
       "title": "FLINTA* Sweat",
       "start": "2026-06-19T15:30:00",
       "end": null,
@@ -4025,6 +3731,20 @@
       "time_known": true
     },
     {
+      "title": "Aus der Nacht heraus - Political Film Festival -Day 2",
+      "start": "2026-06-19T17:30:00",
+      "end": null,
+      "location": "Wagenburg Lohmühle Lohmühlenstr. 17 12435 Berlin Deutschland",
+      "description": "Aus der Nacht heraus - Political Film Festival - Day 2 : Resisting dehumanizing refugee policies, building grassroot alternatives (Doors open at 18:00 - Event starts at 19:00)",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327719",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Film"
+      ],
+      "time_known": true
+    },
+    {
       "title": "Angela Alves: Never Rest (After Work Tours #2)",
       "start": "2026-06-19T17:30:00",
       "end": null,
@@ -4053,20 +3773,6 @@
       "time_known": true
     },
     {
-      "title": "Humboldting #10 Social Muscle Club",
-      "start": "2026-06-19T18:00:00",
-      "end": null,
-      "location": "Humboldt Forum",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/83949d596feae0f1841a39b461128a49.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/humboldting-10-social-muscle-club/events/369261/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "P14 – endlich endlich",
       "start": "2026-06-19T18:00:00",
       "end": null,
@@ -4074,6 +3780,20 @@
       "description": null,
       "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/e460ca489510b3a2c7b291bffd2194c9.jpg",
       "source_url": "https://www.berlin-buehnen.de/de/spielplan/p14-endlich-endlich/events/368114/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Humboldting #10 Social Muscle Club",
+      "start": "2026-06-19T18:00:00",
+      "end": null,
+      "location": "Humboldt Forum",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/83949d596feae0f1841a39b461128a49.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/humboldting-10-social-muscle-club/events/369261/",
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
@@ -4091,20 +3811,6 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Tarot and Tie",
-      "start": "2026-06-19T19:00:00",
-      "end": "2026-06-19T22:00:00",
-      "location": "KARA, Perleberger Straße 59, Berlin, 10559, Germany",
-      "description": "Let tarot guide the scene. Through its rich imagery and storytelling, we’ll co-create a living, ever-changing tableau—one tie at a time. \nThis playful, collaborative space invites you to explore connection through rope, inspired by the symbols and moods of the cards. Together, we’ll build a temporary art installation that encourages communication, creativity, and care. \nLed by Caritia, this session blends rope play with the layered world of tarot. Expect collaborative tying, shared imagination, and a gentle sprinkle of kink in a space that centres curiosity, consent, and co-creation.",
-      "image_url": "https://karada-house.de/wp-content/uploads/2025/12/kh_hotelroomperformance_sophiacecirenee_252.jpg",
-      "source_url": "https://karada-house.de/events/tarot-and-tie/",
-      "source_name": "Karada House",
-      "tags": [
-        "Kink"
       ],
       "time_known": true
     },
@@ -4207,16 +3913,16 @@
       "time_known": true
     },
     {
-      "title": "Abschlussfest",
+      "title": "K19 KONZERT",
       "start": "2026-06-19T19:00:00",
       "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/e460ca489510b3a2c7b291bffd2194c9.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/abschlussfest/events/368814/",
-      "source_name": "Berlin Bühnen",
+      "location": "K19 Café Kreutzigerstr. 19 10247 Berlin Deutschland",
+      "description": "a night in hardcore appearing live: RITUAL (hardcore, recklinghausen) DOUBLE LIFE (hardcore punk, berlin) INNOCENT BLISS (hardcore punk,berlin)\ndoors. 7 / start. 8",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327750",
+      "source_name": "Stressfaktor",
       "tags": [
-        "Theater"
+        "Konzert"
       ],
       "time_known": true
     },
@@ -4242,6 +3948,20 @@
       "description": null,
       "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/976dfa6c1e74da77a545cf9cae20231b.JPG",
       "source_url": "https://www.berlin-buehnen.de/de/spielplan/mi-madre-y-el-dinero/events/367596/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Abschlussfest",
+      "start": "2026-06-19T19:00:00",
+      "end": null,
+      "location": "Volksbühne am Rosa-Luxemburg-Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/e460ca489510b3a2c7b291bffd2194c9.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/abschlussfest/events/368814/",
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
@@ -4277,13 +3997,27 @@
       "time_known": true
     },
     {
+      "title": "\"Zähneknirschen\" EP Release",
+      "start": "2026-06-19T20:00:00",
+      "end": null,
+      "location": "BLO-Ateliers Kaskelstr. 55 10317 Berlin Deutschland",
+      "description": "Es ist wieder soweit: Es gibt neue Musik von Ende September zu hören?!? Kommt und feiert das gemeinsam mit Cardboard , Lisa Uebel , Fritz Ali Hansen und Max am 19.06. in der BLO Kantine",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327749",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ],
+      "time_known": true
+    },
+    {
       "title": "Salome",
       "start": "2026-06-19T20:00:00",
       "end": null,
       "location": "Schaubühne am Lehniner Platz",
       "description": null,
       "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/360ce498e8891fe859b125efe27ee092.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/salome-605/events/367280/",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/salome-607/events/367280/",
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
@@ -4361,20 +4095,6 @@
       "time_known": true
     },
     {
-      "title": "Midsummer Moments - Reflections",
-      "start": "2026-06-20T12:00:00",
-      "end": "2026-06-20T15:00:00",
-      "location": "KARA, Perleberger Straße 59, Berlin, 10559, Germany",
-      "description": "At the midpoint of the year, we pause to take stock, reconnect, and gently turn toward what’s next. This session invites you to slow down and be present with yourself, while sharing space with others in a supportive and welcoming environment. \nGuided by Caritia, this is a held space for intentional reflection through conversation and journaling. Together, we’ll create simple rituals of acknowledgement and empowerment, honouring where you’ve been and what you’re ready to invite in. \nWhat we’ll do\n\n\nReflect on the year so far \n\n\n(Re)set intentions for the months ahead \n\n\nCreate small, personal rituals to honour your journey \n\n\nExplore what feels supportive and sustaining for you \n\n\nListen inward to what is wanted, needed, and desired \n\n\nShare gently in small groups (with choice and care)",
-      "image_url": "https://karada-house.de/wp-content/uploads/2022/07/MG_2042-scaled.jpeg",
-      "source_url": "https://karada-house.de/events/midsummer-moments-reflections/",
-      "source_name": "Karada House",
-      "tags": [
-        "Kink"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Breathplay Workshop",
       "start": "2026-06-20T14:00:00",
       "end": "2026-06-20T19:00:00",
@@ -4417,6 +4137,20 @@
       "time_known": true
     },
     {
+      "title": "Bum Bum Musik",
+      "start": "2026-06-20T15:00:00",
+      "end": null,
+      "location": "Volksbühne am Rosa-Luxemburg-Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/e460ca489510b3a2c7b291bffd2194c9.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/bum-bum-musik/events/370168/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
       "title": "Gender Mix",
       "start": "2026-06-20T15:30:00",
       "end": null,
@@ -4425,20 +4159,6 @@
       "image_url": "https://cdn.siegessaeule.de/images/gender_mix.14ad47c9.fill-320x320.jpg",
       "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-20",
       "source_name": "Siegessäule",
-      "tags": [
-        "Kink"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Midsummer Moments - Playtime",
-      "start": "2026-06-20T16:00:00",
-      "end": "2026-06-20T19:00:00",
-      "location": "KARA, Perleberger Straße 59, Berlin, 10559, Germany",
-      "description": "Celebrate the Summer Solstice through movement, connection, and play. Together, we’ll honour both light and dark, exploring how they live within us. \nCaritia invites you into a kink-inspired, body-based space where you can explore your intentions and desires—solo or with others. Whether you’re drawn to rope, sensation, SM, or something a little playful and spicy, this is a collaborative environment for creative expression, curiosity, and care. \nThe session begins with a guided opening to ground the group and spark inspiration. From there, you’ll be invited to create your own “adventure”—a personal or shared ritual that celebrates the abundance of light and the turning of the season. \nWhat we will discuss\n\nShare intentions and ideas\nCreate simple rituals (solo or in small groups)\nExplore body-based and sensory practices\nPlay, experiment, and collaborate\nCelebrate creativity and expression\nConnect with pleasure as a source of energy and resistance",
-      "image_url": "https://karada-house.de/wp-content/uploads/2024/04/MG_9641-scaled.jpeg",
-      "source_url": "https://karada-house.de/events/midsummer-moments-playtime/",
-      "source_name": "Karada House",
       "tags": [
         "Kink"
       ],
@@ -4466,6 +4186,20 @@
       "description": "Süße Getränke für bittere Zeiten Solitresen, um eine:n Genoss:in im Visumsverfahren zu unterstützen um zurück nach Deutschland zu kommen.",
       "image_url": null,
       "source_url": "https://stressfaktor.squat.net/node/327689",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Küche für Alle - Torhaus Kochkollektiv",
+      "start": "2026-06-20T16:00:00",
+      "end": null,
+      "location": "Torhaus - Columbiadamm Columbiadamm 10 12101 Berlin Deutschland",
+      "description": "KÜFA — Samstag, 20.06. ab 16:00 Torhaus, Columbiadamm 10, 12101 Berlin",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327717",
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
@@ -4567,6 +4301,20 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "BöseBuben-Nacht",
+      "start": "2026-06-20T18:00:00",
+      "end": "2026-06-20T23:00:00",
+      "location": null,
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-20",
+      "source_name": "Siegessäule",
+      "tags": [
+        "Party"
       ],
       "time_known": true
     },
@@ -4731,7 +4479,7 @@
       "location": "Schaubühne am Lehniner Platz",
       "description": null,
       "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/360ce498e8891fe859b125efe27ee092.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/salome-605/events/367281/",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/salome-607/events/367281/",
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
@@ -4865,16 +4613,44 @@
       "time_known": true
     },
     {
-      "title": "Rope Level-Up: Playing with Predicaments",
-      "start": "2026-06-21T11:30:00",
-      "end": "2026-06-21T15:30:00",
-      "location": "KARA, Perleberger Straße 59, Berlin, 10559, Germany",
-      "description": "Ready to deepen your connection through rope? This immersive workshop focuses on intentional tying: building trust, communicating clearly, and using positions and tempo to create emotional or playful experiences. Includes hands-on practice and guided scenarios. Ideal after completing the fundamentals series. \nTopic: Predicaments\nPredicaments are lose-lose situation in rope play that can be a lot of fun but also lead into a realm of psychological play that can be physically and psychologically challenging. Renée will guide you through a few easy and fun predicaments that will become more and more challenging. Choose your own adventure \nWe Will Explore:\n\nwhat are predicaments?\nsuper easy beginner predicaments\npsychological vs. physical predicaments\nplay time!",
-      "image_url": "https://karada-house.de/wp-content/uploads/2025/12/preducament_class.jpg",
-      "source_url": "https://karada-house.de/events/rope-levelup-predicaments/",
-      "source_name": "Karada House",
+      "title": "Drag Brunch",
+      "start": "2026-06-21T08:30:00",
+      "end": null,
+      "location": null,
+      "description": "Drag Brunch mit Estelle van der Rhône & Harpy Fatale, Soul Food & Music, Shows 10:30 & 13:30",
+      "image_url": "https://cdn.siegessaeule.de/images/9BEC0701-B3A6-42C5-9DA2-706469BCFE.cf4aef4f.fill-320x320.jpg",
+      "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-21",
+      "source_name": "Siegessäule",
       "tags": [
-        "Kink"
+        "Essen"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Guided Tour : „Speaking of Sex”",
+      "start": "2026-06-21T09:30:00",
+      "end": null,
+      "location": null,
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-21",
+      "source_name": "Siegessäule",
+      "tags": [
+        "Ausstellung"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Führung : „Apropos Sex”",
+      "start": "2026-06-21T11:30:00",
+      "end": null,
+      "location": null,
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-21",
+      "source_name": "Siegessäule",
+      "tags": [
+        "Ausstellung"
       ],
       "time_known": true
     },
@@ -5047,6 +4823,20 @@
       "time_known": true
     },
     {
+      "title": "Café No Pasaran",
+      "start": "2026-06-21T15:00:00",
+      "end": null,
+      "location": "Regenbogencafé Lausitzer Str. 22 10999 Berlin Deutschland",
+      "description": "Unser Café ist ein offener Treffpunkt für alle, die sich rechten Tendenzen in den Weg stellen wollen und eine Idee vom guten, solidarischen Leben für und mit Allen in Kreuzberg (und darüberhinaus) haben. Bei Kaffee und Kuchen wollen wir ein Ort des Austauschs und der Vernetzung im Kiez sein.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327726",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ],
+      "time_known": true
+    },
+    {
       "title": "Historische Hausführung: Never Work",
       "start": "2026-06-21T15:00:00",
       "end": null,
@@ -5057,6 +4847,34 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Bum Bum Musik",
+      "start": "2026-06-21T15:00:00",
+      "end": null,
+      "location": "Volksbühne am Rosa-Luxemburg-Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/e460ca489510b3a2c7b291bffd2194c9.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/bum-bum-musik/events/370167/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Naked Sex Party",
+      "start": "2026-06-21T15:30:00",
+      "end": null,
+      "location": null,
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-21",
+      "source_name": "Siegessäule",
+      "tags": [
+        "Party"
       ],
       "time_known": true
     },
@@ -5089,16 +4907,16 @@
       "time_known": true
     },
     {
-      "title": "Cuddles, Cakes and Kinks - Summer Edition (with Garden!)",
-      "start": "2026-06-21T17:00:00",
-      "end": "2026-06-21T23:00:00",
-      "location": "KARA, Perleberger Straße 59, Berlin, 10559, Germany",
-      "description": "Welcome to Cuddles, Cakes and Kinks, your monthly aftercare event to take a break from cisheteropatriarchy, capitalism, the burning world, or life in general. We’re here to rest so we can resist, to play as an antidote to pressure, and to let the people eat cake. Queer people, welcome! \nWe are opening our wonderful house for the evening so you can come by, relax, and calm down amongst other queer people. There will be hammocks and little areas for cuddling and enjoying touch. Get or give massages. Do some soft, slow kink. Or hang out in the kitchen with us and just chat. We will be baking a bunch of cakes and there will be coffee, tea, and snacks to nourish your bodies and souls. \nLight and slow kink interactions are welcome. Anything that allows you to come back to yourself and into connection with others in a soft and nice way. This is not a play party or sex club, but a playful community event. The vibe is cozy, and we don’t do genital play. \nThere is a separate cuddle room that is completely free from any kind of play, horny vibes, and nudity. It’s for cuddles, naps, quiet conversation, maybe reading a book.",
-      "image_url": "https://karada-house.de/wp-content/uploads/2025/07/MG_4545-1.jpg",
-      "source_url": "https://karada-house.de/events/cuddles-cakes-template-0626/",
-      "source_name": "Karada House",
+      "title": "„ABBA – Waterloo im Bällebad”",
+      "start": "2026-06-21T16:30:00",
+      "end": null,
+      "location": null,
+      "description": "Komödie des Kammertheaters Karlsruhe",
+      "image_url": null,
+      "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-21",
+      "source_name": "Siegessäule",
       "tags": [
-        "Kink"
+        "Theater"
       ],
       "time_known": true
     },
@@ -5173,20 +4991,6 @@
       "time_known": true
     },
     {
-      "title": "P14 – endlich endlich",
-      "start": "2026-06-21T19:00:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/e460ca489510b3a2c7b291bffd2194c9.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/p14-endlich-endlich/events/369879/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Love Me Tender",
       "start": "2026-06-21T19:00:00",
       "end": null,
@@ -5208,6 +5012,20 @@
       "description": null,
       "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/3f05b10dfcb4090975987669019acc53.jpg",
       "source_url": "https://www.berlin-buehnen.de/de/spielplan/oratorium-kollektive-andacht-wohlgehueteten-geheimnis/events/368351/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "P14 – endlich endlich",
+      "start": "2026-06-21T19:00:00",
+      "end": null,
+      "location": "Volksbühne am Rosa-Luxemburg-Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/e460ca489510b3a2c7b291bffd2194c9.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/p14-endlich-endlich/events/369879/",
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
@@ -5341,20 +5159,6 @@
       "time_known": true
     },
     {
-      "title": "Rope for Absolute Beginners",
-      "start": "2026-06-22T19:00:00",
-      "end": "2026-06-22T22:00:00",
-      "location": "KARA, Perleberger Straße 59, Berlin, 10559, Germany",
-      "description": "Welcome to the world of Japanese style rope bondage, friend! It’s wild and fun out here and we are thrilled to be your point of entry. \nThis weekly class is designed for anyone who would like to learn about Japanese-inspired rope bondage/shibari/kinbaku whether you see yourself in the role of the person tying or being tied. We firmly believe that everyone, even if you wish to be tied, should know the absolute basics of this craft. \nWhat we do\n\nWe talk about what the heck is Japanese inspired rope bondage and why we call it “inspired”.\nWe show you the tools are we using and tell you why they are designed the way they are.\nWe talk about why people love to tie/get tied and what happens if you tie/get tied?\nWe show you the fundamental principles of shibari and first techniques you can immediately use\nWe talk about the history of shibari, give you pointers on anatomy, psychology and safety\nWe will tie ourselves, other people (if you and they want to) and actually take time to try stuff out and play, play, play\n\nThis class is suited for\n\nall kinds of bodies (abled and non-abled), all gender expressions, all kinds of sexualities (including people on the ace-spectrum), all kind of brains (neurospicy or neurotypical, affected by trauma, etc.)\npeople coming solo or bringing a partner (or group), people who only want to tie their own bodies as well as people who want to tie/get tied by others",
-      "image_url": "https://karada-house.de/wp-content/uploads/2025/12/absolutebeginner10.jpg",
-      "source_url": "https://karada-house.de/events/rope-for-absolute-beginner-220626/",
-      "source_name": "Karada House",
-      "tags": [
-        "Kink"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Soli-Bleiberechtsbar",
       "start": "2026-06-22T19:00:00",
       "end": null,
@@ -5397,6 +5201,20 @@
       "time_known": true
     },
     {
+      "title": "Wem gehört der Reichtum? Vom Volksentscheid über die Fürstenenteignung vor 100 Jahren bis zu aktuellen Vergesellschaftungsdebatten",
+      "start": "2026-06-22T19:00:00",
+      "end": null,
+      "location": "FMP1, Franz-Mehring-Platz 1, Friedrichshain, Berlin, Germany 10243 Berlin Deutschland",
+      "description": "Wem gehört der Reichtum? Vom Volksentscheid über die Fürstenenteignung vor 100 Jahren bis zu aktuellen Vergesellschaftungsdebatten \n🗯 Veranstaltung am 22.06.2026, 19:00, FMP1 (Franz-Mehring-Platz 1)",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327766",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Diskussion"
+      ],
+      "time_known": true
+    },
+    {
       "title": "Die Seherin",
       "start": "2026-06-22T19:30:00",
       "end": null,
@@ -5417,7 +5235,7 @@
       "location": "Schaubühne am Lehniner Platz",
       "description": null,
       "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/360ce498e8891fe859b125efe27ee092.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/salome-605/events/367282/",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/salome-607/events/367282/",
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
@@ -5435,6 +5253,20 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Film"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Solidarische Prozessbegleitung + Kundgebung",
+      "start": "2026-06-23T13:30:00",
+      "end": null,
+      "location": "Amtsgericht Tiergarten Turmstr. 91 10559 Berlin Deutschland",
+      "description": "-- english below --📣✊🏽 Dienstag, 23.06.2026, 13:30 Uhr Sitzungssaal C106, 1.Etage Wilsnacker Straße (Eingang Turmstraße 91) / Kundgebung vor dem Gerichtsgebäude // Am 23. Juni findet vor dem Gericht die Hauptverhandlung gegen unseren Genossen statt.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327773",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Protest"
       ],
       "time_known": true
     },
@@ -5505,20 +5337,6 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Protest"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Rope Lab: Play & Connection - pain",
-      "start": "2026-06-23T19:00:00",
-      "end": "2026-06-23T21:30:00",
-      "location": "KARA, Perleberger Straße 59, Berlin, 10559, Germany",
-      "description": "This is our experimental shibari playground for all skill levels. Each month explores a new topic — from shame and semenawa to performance, advanced movement, or the mythical “3rd rope” in TKs. We rotate between two themes, always bringing new inspiration to your rope practice. Open to all levels with foundational knowledge. Bring your curiosity, your questions, and your rope. \nThis month we are focusing on: pain – weather you call it s/m or semenawa, this class is all about exploring how to use rope to create pain. We will explore both external pain and uncomfortable body positions. This class is suitable for all skill levels. \nPlay & Connection\nThese classes are dedicated to the research of the interpersonal, connective, and fun side of shibari. Forget about rope technique for a while and learn hands-on skills for actually playing with what you know. The topic varies from month to month, and can be anything from pain and predicament ties to fun games like rope fight club. Come learn the skills that take your sessions from good to fantastic!",
-      "image_url": "https://karada-house.de/wp-content/uploads/2025/12/mg_6839.jpg",
-      "source_url": "https://karada-house.de/events/pain-shibari-semenawa-0626/",
-      "source_name": "Karada House",
-      "tags": [
-        "Kink"
       ],
       "time_known": true
     },
@@ -5617,6 +5435,20 @@
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "\"Wer wird visionär?\" ~ Queeres Quiz",
+      "start": "2026-06-23T19:30:00",
+      "end": null,
+      "location": "Café Cralle Hochstädterstr. 10a 13347 Berlin Deutschland",
+      "description": "Bei „Wer wird visionär?“ erwarten euch überraschende Fragen aus der queeren Tierwelt – im Stil von Wer wird Millionär? , nur wilder.Von lesbischen Albatrossen über Hyänenklitoris-Power bis zu intergeschlechtlichen Rindern ist alles dabei.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327757",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
       ],
       "time_known": true
     },
@@ -5729,20 +5561,6 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Playfight & Rough Body Play Lab",
-      "start": "2026-06-24T19:00:00",
-      "end": "2026-06-24T21:00:00",
-      "location": null,
-      "description": "Use your body in a vastly different way. Restricted, restrained, maybe even tamed – our bodies are subdued to very strict rules and movements in our daily lives. Time to get primal and rough. Rough body play allows for more fighting, emotions, and a deeper exploration of power dynamics than play fights. \nOnce a month we open Karada House for 2 hours of randori (free fights) time to try your new skills and have fun. Our amazing instructor Montse will guide through \n\nwarm-up exercises\nconsent & safety\ndos & don’ts\n\nAfter that – fight!",
-      "image_url": "https://karada-house.de/wp-content/uploads/2025/10/mg_8399.jpg",
-      "source_url": "https://karada-house.de/events/rbp-template-240626/",
-      "source_name": "Karada House",
-      "tags": [
-        "Kink"
       ],
       "time_known": true
     },
@@ -5908,6 +5726,258 @@
       "description": "EIN KURZER FILM ÜBER DAS TÖTEN Spielfilm, Polen 1988, 85 min, R: Krzysztof Kieślowski",
       "image_url": null,
       "source_url": "https://stressfaktor.squat.net/node/327501",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Film"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Die solidarische Jobcenter-Sozialberatung",
+      "start": "2026-06-25T15:00:00",
+      "end": null,
+      "location": "Kiezhaus Agnes Reinhold Afrikanische Straße 74 13351 Berlin Deutschland",
+      "description": "Beratung und Solidarität:",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/321608",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Solicafé Klatsche",
+      "start": "2026-06-25T15:00:00",
+      "end": null,
+      "location": "Regenbogenfabrik Lausitzer Str. 22 10999 Berlin Deutschland",
+      "description": "CAFÉ KLATSCHE - WIR HABEN DEN TAG GEWECHSELT, JETZT IMMER DONNERSTAGS!\n(English version below)",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/324022",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Ausstellung"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Solicafé Klatsche",
+      "start": "2026-06-25T15:00:00",
+      "end": null,
+      "location": "Regenbogenfabrik Lausitzer Str. 22 10999 Berlin Deutschland",
+      "description": "Kaffee, Kuchen und KÜFA (meist ab 19:00) vegan und auf Spendenbasis! Geöffnet 15-22 Uhr. Kein Konsumzwang, kommt rum wie ihr seid. Manchmal gibts auch Veranstaltungen und andere Events, die stehen dann extra im Stressi. Alle unsere Einnahmen werden gespendet bzw.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327213",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Ausstellung"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Gutschein-Tausch im YAAM",
+      "start": "2026-06-25T16:00:00",
+      "end": null,
+      "location": "Yaam (an der Schillingbrücke) An der Schillingbrücke 3 Berlin Deutschland",
+      "description": "Gutscheintausch im YAAM – Gemeinsam gegen die Bezahlkarte! Voucher Exchange at YAAM – Together Against the Payment Card! --- English version below  ---",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/326647",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Protest"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Colleen Ndemeh Fitzgerald: After Work Tours #3",
+      "start": "2026-06-25T17:30:00",
+      "end": null,
+      "location": "Sophiensæle",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/6a23c2590b8712b258382ae842c96e31.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/colleen-ndemeh-fitzgerald-after-work-tours-3/events/367972/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Offener Treffpunkt Mieter:innen für Mieter:innen!",
+      "start": "2026-06-25T18:00:00",
+      "end": null,
+      "location": "Volkssolidarität \"Mehr Mitte\" Torstraße 190 10115 Berlin Deutschland",
+      "description": "Einmal im Monat treffen sich die Mitglieder des Berliner Mieterverein e.V. BMV Mitte, Tiergarten, Moabit, Wedding und Gesundbrunnen zum Austausch, diskutieren und besprechen die Probleme in Bezirk Mitte und allen seinen Ortsteilen.Mieter:innen für Mieter:innen!",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/326414",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Protest"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Aperol Spritz-Night  -> 5 Euro",
+      "start": "2026-06-25T18:00:00",
+      "end": null,
+      "location": "B-Lage Mareschstr. 1 12055 Berlin Deutschland",
+      "description": "Ab jetzt gibt es jeden Donnerstag Spritz für 5 Euro in der B-Lage, kommt gern rum! Es wird spritzig.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/326847",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Flüssige Grenzen, bewegter Grund – Wo Wasser erinnert",
+      "start": "2026-06-25T18:00:00",
+      "end": null,
+      "location": "Humboldt Forum",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/5b7000b53d25283f33984fd6bdd266cd.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/fluessige-grenzen-bewegter-grund-wo-wasser-erinnert/events/369260/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Näh’n’Nerd Cafe / Reparaturkneipe",
+      "start": "2026-06-25T19:00:00",
+      "end": null,
+      "location": "Vetomat Wühlischstr. 42 10247 Berlin Deutschland",
+      "description": "Näh’n’Nerd CafeAb jetzt jeden zweiten Donnerstag 19-22 Uhr im Veto NerdCafe Das Nerd-Cafe in alter Tradition, gemütliches gemeinsames rumnerden und barrierefreier Tech-Support. Mit Reparaturcafe in Kneipenatmosphäre!",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/324106",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Open Jam",
+      "start": "2026-06-25T19:00:00",
+      "end": null,
+      "location": "Café Köpenick Seelenbinderstr. 54 12555 Berlin Deutschland",
+      "description": "Komm gern allein oder mit deiner Band vorbei - Gitarren, Bass, Drums, Klavier und Mikros haben wir vor Ort.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/325540",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Open Decks im Technokeller (14-27 Jahre)",
+      "start": "2026-06-25T19:00:00",
+      "end": null,
+      "location": "Café Köpenick Seelenbinderstr. 54 12555 Berlin Deutschland",
+      "description": "Ihr habt Bock auf Djing?\nEgal ob unerfahren und lernbereit oder auch erfahren sowie auf der Suche nach einem Platz zum Musik aufdrehen.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/325588",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Konzert",
+      "start": "2026-06-25T19:00:00",
+      "end": null,
+      "location": "Schokoladen Ackerstrasse 169 10115 Berlin Deutschland",
+      "description": "le petit signal & little league shows prsnt: No More [post punk wave pop°kiel] + Uzimoto [lofi synth dada pop°bln]",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327306",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Näh’n’Nerd Cafe - Das Repaircafé im Vetomat",
+      "start": "2026-06-25T19:00:00",
+      "end": null,
+      "location": "Vetomat Wühlischstr. 42 10247 Berlin Deutschland",
+      "description": "Näh’n’Nerd CafeAb jetzt jeden zweiten Donnerstag 19-22 Uhr im Veto UPDATE: Jetzt im Sommer ist die Hilfe bei Nähprojekten nicht immer da -- Nähmaschinen und Material gibt es trotzdem, aber nicht immer Support!",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327307",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Velvet Rebels – leftist, feminist, queer, kinkster, friends",
+      "start": "2026-06-25T19:00:00",
+      "end": null,
+      "location": "Cocoon Exerzierstraße 14 13357 Berlin Deutschland",
+      "description": "(English version below)",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327657",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Podium \"Jüdische Identitäten und Antisemitismus im Punk\"",
+      "start": "2026-06-25T19:00:00",
+      "end": null,
+      "location": ":// about blank / Garten Markgrafendamm 24c 10245 Berlin Deutschland",
+      "description": "Lesung & Podium im Sektgarten //about blankDonnerstag, 25.06.2026 19 Uhr \nMit dabei ist einer der beiden Herausgeber Tobias Johann, sowie die zwei Autor:innen Nikolas Lelle & Annica Peter. Moderiert wird die Veranstaltung von Maria Kanitz.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327763",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Diskussion"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Never Work Talks: Amelia Horgan, Nicole Mayer-Ahuja",
+      "start": "2026-06-25T19:00:00",
+      "end": null,
+      "location": "Sophiensæle",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/5b79212e6190d2039b2ae77766bf0120.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/never-work-talks-amelia-horgan-nicole-mayer-ahuja/events/368904/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Thursday Jazz Jam",
+      "start": "2026-06-25T20:00:00",
+      "end": null,
+      "location": "Donau115, Donaustraße 115, Berlin",
+      "description": "FEAT. SWINGING LINEUPS EVERY WEEK\ndoors: 19:30 / opening set: 20:00 / jam: 21:00",
+      "image_url": null,
+      "source_url": "https://www.donau115.de",
+      "source_name": "Donau115",
+      "tags": [
+        "Konzert"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Filmabend im K(P)",
+      "start": "2026-06-25T21:00:00",
+      "end": null,
+      "location": "K Köpenicker Straße Berlin Deutschland",
+      "description": "'' GODZILLA MINUS ONE (ゴジラ-1.0) '' JPN 2023, 125 min, OmeU, Director: T. Yamazaki, D.: R.KamikiJapan is already devastated by the war when a new crisis emerges in the form of a giant monster.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327463",
       "source_name": "Stressfaktor",
       "tags": [
         "Film"

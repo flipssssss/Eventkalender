@@ -1,0 +1,12 @@
+{
+  "name": "Eventkalender",
+  "short_name": "Events",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f3e9d8",
+  "theme_color": "#f3e9d8",
+  "icons": [
+    { "src": "icons/icon-192.png", "type": "image/png", "sizes": "192x192" },
+    { "src": "icons/icon-512.png", "type": "image/png", "sizes": "512x512" }
+  ]
+}

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-12T08:49:40.582194+00:00",
-  "count": 444,
+  "generated_at": "2026-06-13T08:03:58.766861+00:00",
+  "count": 315,
   "sources": [
     {
       "source": "Quälgeist",
@@ -19,7 +19,7 @@
     },
     {
       "source": "Berlin Bühnen",
-      "count": 118,
+      "count": 0,
       "error": null
     },
     {
@@ -35,412 +35,6 @@
   ],
   "events": [
     {
-      "title": "Thursday Jazz Jam",
-      "start": "2026-06-11T20:00:00",
-      "end": null,
-      "location": "Donau115, Donaustraße 115, Berlin",
-      "description": "FEAT. SWINGING LINEUPS EVERY WEEK\ndoors: 19:30 / opening set: 20:00 / jam: 21:00",
-      "image_url": null,
-      "source_url": "https://www.donau115.de",
-      "source_name": "Donau115",
-      "tags": [
-        "Konzert"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Weeeirdos",
-      "start": "2026-06-11T20:00:00",
-      "end": "2026-06-11T22:00:00",
-      "location": null,
-      "description": "Line-up: Elli Acula, Lolsnake, Rakans u. a.",
-      "image_url": "https://cdn.siegessaeule.de/images/Berhain_Official_Logo_Artwork_Prom.30a6b168.fill-320x320.png",
-      "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-11",
-      "source_name": "Siegessäule",
-      "tags": [
-        "Party"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "The Singles Rope Jam – with Guided Warm-Up",
-      "start": "2026-06-12T07:00:00",
-      "end": "2026-06-12T22:00:00",
-      "location": "KARA, Perleberger Straße 59, Berlin, 10559, Germany",
-      "description": "Welcome to the Singles Rope Jam, a space for you to find new rope friends and tying partners (or rekindle old ropelationships). Ceci will guide you through a collective warm up, starting with a moment of grounding self-tying and then finding a partner or a small group to tie with. Afterwards you will have plenty of time to chat, tie, and connect in our lovely big house. The garden with suspension points and hashiras will also be open for you if it’s not raining. \nWhat happens at the Singles Rope Jam?\n\nSpace introduction and intro round at 7.30pm\nGuided self-tying and tying in pairs or small groups\nFree mingling, cruising space, and tying with people\n\nAll participation is voluntary, and you get to choose who you want to partner with, or stay with self-tying for part or all of the event. Ceci is available for any support you might need around navigating the social space. Doors open at 7pm and close at 9pm. We play the gongs 30 minutes before closing so you can finish calmly and don’t need to rush. \nWho is the Singles Rope Jam for?\n\nAnyone who is curious about tying with new people\nAdventurers who want to have a new experience\nSocially anxious people who need some guidance to get warmed up\n\nThis is a sober space for people under the LGBTQIA+ umbrella, we embrace all experience levels and identities within this spectrum. We welcome all roles: people tying, people getting tied, switches, self tyers, rope sluts, nerds, and everyone in between.",
-      "image_url": "https://karada-house.de/wp-content/uploads/2026/02/mg_6187.jpg",
-      "source_url": "https://karada-house.de/events/the-singles-rope-jam-with-guided-warm-up/",
-      "source_name": "Karada House",
-      "tags": [
-        "Kink"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Lila Lama Bildungsfestival (DWE & Friends)",
-      "start": "2026-06-12T12:00:00",
-      "end": null,
-      "location": "Rote Mühle Falkenberg Karl-Marx-Straße 26 16259 Falkenberg Deutschland",
-      "description": "Liebe Leute, es ist soweit: Es gibt\n🌈 Bildungsfestival-Tickets 🥳",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327151",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Protest"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Black and queer feminism in Berlin",
-      "start": "2026-06-12T12:00:00",
-      "end": "2026-06-12T14:00:00",
-      "location": null,
-      "description": "In English, with biographical elements on May Ayim, Audre Lorde, Ika Hügel-Marshall u. a.",
-      "image_url": "https://cdn.siegessaeule.de/images/thumbnail_deSta_schoeneberg_anerke.a6c69b00.fill-320x320.jpg",
-      "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-12",
-      "source_name": "Siegessäule",
-      "tags": [
-        "Sonstiges"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Ukulele-Workshop: „Bring me sunshine“",
-      "start": "2026-06-12T14:15:00",
-      "end": "2026-06-12T16:15:00",
-      "location": null,
-      "description": "Mit Marion Schmidt und Monika Saße, den „MoMaS Berlin“",
-      "image_url": null,
-      "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-12",
-      "source_name": "Siegessäule",
-      "tags": [
-        "Konzert"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Kinky Taboos: Berlin’s Forbidden Desires Tour",
-      "start": "2026-06-12T14:30:00",
-      "end": null,
-      "location": null,
-      "description": "Mit Jeff Mannes",
-      "image_url": "https://cdn.siegessaeule.de/images/Forbidden_desires.2e16d0ba.fill-320x320.png",
-      "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-12",
-      "source_name": "Siegessäule",
-      "tags": [
-        "Kink"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Bum Bum Musik",
-      "start": "2026-06-12T15:00:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/e460ca489510b3a2c7b291bffd2194c9.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/bum-bum-musik/events/370173/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "CHILLGARAGE",
-      "start": "2026-06-12T16:00:00",
-      "end": null,
-      "location": "Columbiadamm 10 Zollgarage im alten Flughafen Tempelhof 10965 Berlin Deutschland",
-      "description": "[DE]Chillgarage in der ZollgarageJeden Freitag ab 16 Uhr sind wir offen und warm, mit viel Raum zum treffen, entspannen, organisieren, basteln, spielen, Film schauen, politisieren, was trinken und auf was ihr Bock habt…Jeden FREITAG 16 Uhr bis min. 20 Uhr",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/323193",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Sonstiges"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "STOP GEAS – BLEIBERECHT FÜR ALLE! Kundgebung",
-      "start": "2026-06-12T16:00:00",
-      "end": null,
-      "location": "Rotes Rathaus Rathausstr 15 10178 Berlin Deutschland",
-      "description": "STOP GEAS – BLEIBERECHT FÜR ALLE!Kundgebung12.06, 16 UhrRotes Rathaus",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327715",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Protest"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Abhishek Thapar: Soft Pressure (Working Title)",
-      "start": "2026-06-12T16:00:00",
-      "end": null,
-      "location": "Sophiensæle",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/5dc2ebb12fe64cacb14065c98bb2af8e.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/abhishek-thapar-soft-pressure-working-title/events/368425/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Gutscheintausch Regenbogencafé",
-      "start": "2026-06-12T17:00:00",
-      "end": null,
-      "location": "Berlin Deutschland",
-      "description": "NEIN zur Bezahlkarte Berlin - Brandenburg",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/326668",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Protest"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Tropenbude Bar und Garten offen",
-      "start": "2026-06-12T17:00:00",
-      "end": null,
-      "location": "Villa Kuriosum Scheffelstr. 21 10367 Berlin Deutschland",
-      "description": "Die Tropenbude Bar und der Garten der Villa Kuriosum sind geöffnet.Freitag 17-22Uhr.\nAnsonsten gibt es Kaffee, Kuchen, Snacks, Bier, Drinks, Natur und Kultur .\nProgramm -> schaut Bitte auf unsere Website.\nKeine Hunde bitte, no dogs please - Katzengarten.",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327352",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Essen"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Aus der Nacht heraus - Political Film Festival -Day 1",
-      "start": "2026-06-12T17:30:00",
-      "end": null,
-      "location": "Wagenburg Lohmühle Lohmühlenstr. 17 12435 Berlin Deutschland",
-      "description": "Climate (In)Justice in Times of War and Neocolonialism (Doors open at 18:00 - Event starts at 19:00)",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327660",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Film"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Aus der Nacht heraus (Day 1): Panel Discussion; Film & more",
-      "start": "2026-06-12T17:30:00",
-      "end": null,
-      "location": "Wagenburg Lohmühle Lohmühlenstr. 17 12435 Berlin Deutschland",
-      "description": "𝐅𝐫𝐢𝐝𝐚𝐲, 𝟏𝟐. 𝐉𝐮𝐧𝐞 𝟐𝟎𝟐𝟔 (𝐃𝐀𝐘 𝟏)\n𝐓𝐡𝐞 𝐬𝐨𝐥𝐢𝐝𝐚𝐫𝐢𝐭𝐲 𝐠𝐫𝐨𝐮𝐩 “𝐀𝐮𝐬𝐰𝐚̈𝐫𝐭𝐬”𝐢𝐧𝐯𝐢𝐭𝐞𝐬 𝐲𝐨𝐮 𝐭𝐨 𝐭𝐡𝐞 𝐟𝐢𝐫𝐬𝐭 𝐝𝐚𝐲 𝐨𝐟 𝐭𝐡𝐞 𝐅𝐢𝐥𝐦 𝐟𝐞𝐬𝐭𝐢𝐯𝐚𝐥 “𝐀𝐮𝐬 𝐝𝐞𝐫 𝐍𝐚𝐜𝐡𝐭 𝐡𝐞𝐫𝐚𝐮𝐬 𝟖” 𝐟𝐨𝐫 𝐚𝐧 𝐞𝐯𝐞𝐧𝐢𝐧𝐠 𝐝𝐞𝐝𝐢𝐜𝐚𝐭𝐞𝐝 𝐭𝐨:\n𝐂𝐥𝐢𝐦𝐚𝐭𝐞 (𝐈𝐧)𝐉𝐮𝐬𝐭𝐢𝐜𝐞 𝐢𝐧 𝐓𝐢𝐦𝐞𝐬 𝐨𝐟 𝐖𝐚𝐫 𝐚𝐧𝐝 𝐍𝐞𝐨𝐜𝐨𝐥𝐨𝐧𝐢𝐚𝐥𝐢𝐬𝐦",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327670",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Film"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Laurie Young: After Work Tours #1",
-      "start": "2026-06-12T17:30:00",
-      "end": null,
-      "location": "Sophiensæle",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/6a23c2590b8712b258382ae842c96e31.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/laurie-young-after-work-tours-1/events/367966/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Potse Raumkampfplenum",
-      "start": "2026-06-12T18:00:00",
-      "end": null,
-      "location": "Columbiadamm 10 Zollgarage im alten Flughafen Tempelhof 10965 Berlin Deutschland",
-      "description": "[English below]\nDie Potse ist in einem Raumkampf, mal wieder! Unser Mietvertrag läuft im September aus und es gibt bisher keine Ersatzräume bis die permanente Lösung mit dem \"Haus der Jugend\" 2030 gebaut ist.",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327318",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Protest"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Das Leben neu gestalten - Von der Pariser Kommune nach Rojava",
-      "start": "2026-06-12T18:00:00",
-      "end": null,
-      "location": "Drugstore Potsdamer Str. 134 10783 Berlin Deutschland",
-      "description": "Veranstaltung zum Geburtstag von ANNA HÊLÎN CAMPBELL (12.6.1991 - 15.3.2018) mit Info + Buchvorstellung mit Christopher Wimmer",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327470",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Film"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Filmfestival - \"Aus der Nacht heraus\"",
-      "start": "2026-06-12T18:00:00",
-      "end": null,
-      "location": "Wagenburg Lohmühle Lohmühlenstr. 17 12435 Berlin Deutschland",
-      "description": "Filmfestival - \"Aus der Nacht heraus\" - Climate (In)Justice in Times of War and Neocolonialism, Start 19:00 Uhr (ab 18:00 Uhr Bar, ca. 21:30 Uhr Film),",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327618",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Film"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Short Film Fundraiser",
-      "start": "2026-06-12T18:00:00",
-      "end": null,
-      "location": "Tristeza Pannierstr. 5 12047 Berlin Deutschland",
-      "description": "✪ FUNDRAISER NIGHT ✪\nJoin us on June 12th from 18:00 onwards at @tristezakiezkneipe Pannierstraße 5, 12047 Berlin for a quinceañera core night! \nThis is a donation-based event, so come through, bring your people and help us make some movie magic happen €€€€",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327634",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Film"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Bibliothek der Freien - Anarchistische Bibliothek",
-      "start": "2026-06-12T18:00:00",
-      "end": null,
-      "location": "Bibliothek der Freien Greifswalder Str. 4 2. Hof, Raum 1102 (1. OG) 10405 Berlin Deutschland",
-      "description": "Anarchistische Bücher zum Stöbern und Ausleihen // Anarchist books to browse and borrow",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327771",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Sonstiges"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "sos – media loves you",
-      "start": "2026-06-12T18:30:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/e460ca489510b3a2c7b291bffd2194c9.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/sos-media-loves-you/events/369876/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Konzert",
-      "start": "2026-06-12T19:00:00",
-      "end": null,
-      "location": "Schokoladen Ackerstrasse 169 10115 Berlin Deutschland",
-      "description": "offbeatclub prsnts: Wood In Di Fire [rocksteady reggae jamaican jazz]",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327319",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Konzert"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Vortrag & Soliparty",
-      "start": "2026-06-12T19:00:00",
-      "end": null,
-      "location": "Schreina47 Schreinerstr. 47 10245 Berlin Deutschland",
-      "description": "Am Freitag, den 12.06., laden wir in die SchreinA 47 zur Soliparty ein – politisch, laut, solidarisch!",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327427",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Party"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Konzert: Baustelle & Bikinizone",
-      "start": "2026-06-12T19:00:00",
-      "end": null,
-      "location": "KvU Händelallee 22 10557 Berlin Deutschland",
-      "description": "Bikinizone (synth-Punk, Berlin)\nBaustelle (Nerdcore-Rap, Weimar)\nK.v.U.\nHändelallee 22, S-Tiergarten, U-Hansaplatz",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327581",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Konzert"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Filmgespräch: Zeit des Schweigens und der Dunkelheit",
-      "start": "2026-06-12T19:00:00",
-      "end": null,
-      "location": "Regenbogenfabrik Lausitzer Str. 22 10999 Berlin Deutschland",
-      "description": "Zeit des Schweigens und der Dunkelheit Doku (Nina Gladitz, 1982) 60 min. in deutscher Spracheund anschließendem Gespräch mit Petra Rosenberg\nFilm und GesprächZum 90. Jahrestag der Verschleppung der Berliner Sinti*zze und Romn*ja in das Zwangslager Marzahn",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327663",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Film"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Film-Doku",
-      "start": "2026-06-12T19:00:00",
-      "end": null,
-      "location": "Regenbogenfabrik Lausitzer Str. 21a 10999 Berlin Deutschland",
-      "description": "\"Zeit des Schweigens und der Dunkelheit\" Dokumentation (Nina Gladitz, 1982, 60 min., de) und Gespräch mit Petra Rosenberg | RegenbogenKino",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327690",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Film"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "MEXA: Reality Show",
-      "start": "2026-06-12T19:00:00",
-      "end": null,
-      "location": "Sophiensæle",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/40219a6047141537c683c63b6c26723f.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/mexa-reality-show/events/367987/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Lesung und Gespräch mit Kiran Desai",
-      "start": "2026-06-12T19:00:00",
-      "end": null,
-      "location": "Humboldt Forum",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/4f64b771403c0b848d1026cd82160898.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/lesung-gespraech-kiran-desai/events/368198/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Qriginal – recon Special",
       "start": "2026-06-12T19:00:00",
       "end": null,
@@ -451,34 +45,6 @@
       "source_name": "Siegessäule",
       "tags": [
         "Kink"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Call me Paris",
-      "start": "2026-06-12T19:30:00",
-      "end": null,
-      "location": "Schaubühne am Lehniner Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/f21ce3b69e3722af3aaa5aefa961cbc8.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/call-me-paris/events/367262/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Goodbye Berlin",
-      "start": "2026-06-12T19:30:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/f1bd5e1d3b40185c44189ada50c98c02.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/goodbye-berlin/events/368916/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
       ],
       "time_known": true
     },
@@ -497,188 +63,6 @@
       "time_known": true
     },
     {
-      "title": "Kuba Soli Abend",
-      "start": "2026-06-12T20:00:00",
-      "end": null,
-      "location": "Zielona Góra Grünbergerstr. 73 10245 Berlin Deutschland",
-      "description": "Wir stellen das Projekt \"Energie für die Revolution\" vor. Außerdem berichten Teilnehmer der Mai-Brigade über ihre Erfahrungen und die aktuelle Situation auf Kuba.\nDanach feiern wir den Geburtstag von Che Guevara.",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327551",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Diskussion"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Konzert im K (F)",
-      "start": "2026-06-12T20:00:00",
-      "end": null,
-      "location": "K Köpenicker Straße Berlin Deutschland",
-      "description": "\"Jason Kane & The Jive\" (RocknRoll, Texas US) - \"Lunacy\" (Sleaze Metal, Berlin) - \"Clean Emmie\" (HC Glam Metal, Berlin)",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327579",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Konzert"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Filmscreening „About Love on a Small Island“ - Iran",
-      "start": "2026-06-12T20:00:00",
-      "end": null,
-      "location": "Casinoooo Sonnenallee 100 12045 Berlin Deutschland",
-      "description": "Filmscreening von dis:orient.",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327597",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Film"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Kein Urlaub? Kein Problem!",
-      "start": "2026-06-12T20:00:00",
-      "end": null,
-      "location": "ZGK Scharnweberstr. 38 10247 Berlin Deutschland",
-      "description": "Im Juni ist Daiquiri Tresen!\nKommt vorbei für ein kühles Getränk, eine Runde Kicker und Musik aus der Dose.",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327691",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Essen"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Konzert im Abstand",
-      "start": "2026-06-12T20:00:00",
-      "end": null,
-      "location": "Kneipe im Gefahrengebiet Rigaer Straße 10247 Berlin Deutschland",
-      "description": "Konzert im Abstand mit 2 Bands aus Győr und einer Überraschung. \nConcert at Abstand featuring two bands and a surprise.",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327695",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Party"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Freitags Varieté - Klein aber fein!",
-      "start": "2026-06-12T20:00:00",
-      "end": null,
-      "location": "Vetomat Wühlischstr. 42 10247 Berlin Deutschland",
-      "description": "Anything to perform (up to max7min)? - be our guest and try the stage! We welcome everyone who dares to do sth crazy, boring, creative, musical, poetic, scientific, or magical our little stage - you're welcome like hell! :D (be there around 7pm for soundcheck etc.)",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327700",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Konzert"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Hardcore Friday: Rompo + Furunculus",
-      "start": "2026-06-12T20:00:00",
-      "end": null,
-      "location": "Rigaer Str. 78 10247 Berlin Deutschland",
-      "description": "Hungary Hardcore goes to Berlin",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327704",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Konzert"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Theater- und Performancenacht: \"Haare\"",
-      "start": "2026-06-12T20:00:00",
-      "end": null,
-      "location": "Café Cralle Hochstädterstr. 10a 13347 Berlin Deutschland",
-      "description": "[english below] Gestalte den Abend mit und spiele eine kurze Szene…",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327754",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "COME OR DIE – A double bill on politics and sex",
-      "start": "2026-06-12T20:00:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/c6e6ec00b0f7b3106a5ec3008ab5f1a6.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/come-or-die-a-double-bill-on-politics-and-sex/events/368123/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "JUICE",
-      "start": "2026-06-12T20:00:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/e6c70b6964d46cb3328ee754ed5070c5.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/juice/events/368150/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "The Color Scheme",
-      "start": "2026-06-12T20:00:00",
-      "end": null,
-      "location": "Haus der Kulturen der Welt",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/1dad660c99438cfa48f39dc421d4a666.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/the-color-scheme/events/368366/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Songs from the last years",
-      "start": "2026-06-12T20:00:00",
-      "end": null,
-      "location": "Maxim Gorki Theater",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/ceaa089d1cb1ae70204780a8c37f6361.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/songs-from-the-last-years/events/365186/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Paradiesische Zustände",
-      "start": "2026-06-12T20:00:00",
-      "end": null,
-      "location": "Schaubühne am Lehniner Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/cf36627458d6d6267a34beb50775afae.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/paradiesische-zustaende/events/367234/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Seth Sjöström Quintet - Album Release",
       "start": "2026-06-12T20:00:00",
       "end": null,
@@ -693,90 +77,6 @@
       "time_known": true
     },
     {
-      "title": "beav boloney freak punk shows",
-      "start": "2026-06-12T20:30:00",
-      "end": null,
-      "location": "Berlin Berlin Deutschland",
-      "description": "Eel Men (kings of modpunk,London) & Lovebomb (eggpunk,Mannheim,you will hate it)",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327451",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Konzert"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "beav boloney freak punk shows",
-      "start": "2026-06-12T20:30:00",
-      "end": null,
-      "location": "Trixxxter Kreuzberg Berlin Deutschland",
-      "description": "Eel Men (kings of modpunk,London) & Lovebomb (eggpunk,Mannheim,you`ll hate it)",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327452",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Konzert"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Qriginal: Recon Special",
-      "start": "2026-06-12T21:00:00",
-      "end": "2026-06-12T21:00:00",
-      "location": "Quälgeist Berlin e.V., Lankwitzer Straße 42/43, Berlin, 12107, Deutschland",
-      "description": "▼ ENGLISH BELOW ▼\nQriginal, das ist 100% Quälgeist und 100% strikter BDSM! Werft euch in Schale, egal ob Leder, Gummi, Uniform oder Skinhead und genießt entweder Machtgewinn oder Kontrollverlust. Nur für Männer*!\nDie ersten 50 Gäste bekommen ein Recon-Giveaway. \n\nDresscode: Leder, Gummi, Uniform, Skinhead\n\n⏵ ENGLISH ⏴\nQriginal is 100% Quälgeist and 100% strict BDSM! Dress up in leather, rubber, uniform or skinhead and enjoy your gain of power or loss of control. For men only*!\nThe first 50 people through the doors receive a Recon giveaway. \n\nDresscode: Leather, Rubber, Uniform, Skinhead\n\n \nAnmeldung erforderlich! / Registration mandatory!Zur Anmeldung / Registration form",
-      "image_url": "https://quaelgeist.sm/wp-content/uploads/2024/04/Qriginal_Recon-Rh2H7L.tmp_.jpg",
-      "source_url": "https://quaelgeist.sm/event/qriginal-recon-special-7/",
-      "source_name": "Quälgeist",
-      "tags": [
-        "Kink"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Soli Party for Squatting Action",
-      "start": "2026-06-12T21:00:00",
-      "end": null,
-      "location": "Rote Insel Mansteinstr. 10, near S1 / U7 Yorckstrasse Deutschland",
-      "description": "⁨📷⁩ ⁨---Soli Party für  Hausbesetzungs-Aktivisti , Rote Insel (S1 Yorkstraße), 21 Uhr, 12.6.----",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327755",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Konzert"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Konzert",
-      "start": "2026-06-12T21:30:00",
-      "end": null,
-      "location": "Supamolly Jessnerstr. 41 10247 Berlin Deutschland",
-      "description": "ACT!ON: ALEX WILCOX & HYPNOSIS THERAPY electro punk/techno meets electronic hiphop from South Korea",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327439",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Konzert"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Liina Magnea: What’s a Mob to a King (Plot-twist Redemption)",
-      "start": "2026-06-12T21:30:00",
-      "end": null,
-      "location": "Sophiensæle",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/730668c193e9b31324e2cf5e87d3a87c.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/liina-magnea-whats-a-mob-to-a-king-plot-twist-redemption/events/367983/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Overload #3",
       "start": "2026-06-12T21:59:00",
       "end": "2026-06-13T02:59:00",
@@ -785,48 +85,6 @@
       "image_url": "https://cdn.siegessaeule.de/images/Promo.2f87caeb.fill-320x320.jpg",
       "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-12",
       "source_name": "Siegessäule",
-      "tags": [
-        "Party"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "PASSIV AGGRESSIV SOLI HAKKÛH",
-      "start": "2026-06-12T22:00:00",
-      "end": null,
-      "location": "Rxxxhaus, Bethaniendamm Berlin Deutschland",
-      "description": "- SOLI HAKKÛH AM 12 JUNI -\nGabber - Frenchcore - Early - Terror\nÆNZØDJ ROBSENK1KO VS P. FORTELITHIUMMISTER PREXIT (VINYL)RADICALTEK",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327593",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Konzert"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Abschiedsparty Studio Я",
-      "start": "2026-06-12T22:00:00",
-      "end": null,
-      "location": "Maxim Gorki Theater",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/43673b2ad2ab31bbe499ff32e27ab3de.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/abschiedsparty-studio/events/365188/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Let the Ships Fly · Soli-Party · 12.06.2026",
-      "start": "2026-06-12T23:00:00",
-      "end": null,
-      "location": "Berlin Berlin Deutschland",
-      "description": "LET THE SHIPS FLY, 2nd Edition: 12 June 2026 📅 Date: Friday, 12 June 2026\n📍 Venue: Beate Uwe, Berlin\n🕙 Time: From 23:00",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327455",
-      "source_name": "Stressfaktor",
       "tags": [
         "Party"
       ],
@@ -857,20 +115,6 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Protest"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Abhishek Thapar: Soft Pressure (Working Title)",
-      "start": "2026-06-13T11:00:00",
-      "end": null,
-      "location": "Sophiensæle",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/5dc2ebb12fe64cacb14065c98bb2af8e.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/abhishek-thapar-soft-pressure-working-title/events/368405/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
       ],
       "time_known": true
     },
@@ -949,7 +193,7 @@
       "start": "2026-06-13T14:00:00",
       "end": null,
       "location": "Villa Kuriosum Scheffelstr. 21 10367 Berlin Deutschland",
-      "description": "Die Tropenbude Bar und der Garten der Villa Kuriosum sind wieder geöffnet.Samstag von 14-22Uhr.\nAnsonsten gibt es Kaffee, Kuchen, Snacks, Bier, Drinks, Natur und Kultur .\nProgramm -> schaut Bitte auf unsere Website.\nKeine Hunde bitte, no dogs please - Katzengarten.",
+      "description": "Die Tropenbude Bar und der Garten der Villa Kuriosum sind geöffnet.Samstag von 14-21Uhr.\nAnsonsten gibt es Kaffee, Kuchen, Snacks, Bier, Drinks, Natur und Kultur .\nProgramm -> schaut Bitte auf unsere Website.\nKeine Hunde bitte, no dogs please - Katzengarten.",
       "image_url": null,
       "source_url": "https://stressfaktor.squat.net/node/327377",
       "source_name": "Stressfaktor",
@@ -1113,20 +357,6 @@
       "time_known": true
     },
     {
-      "title": "Bum Bum Musik",
-      "start": "2026-06-13T15:00:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/e460ca489510b3a2c7b291bffd2194c9.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/bum-bum-musik/events/370172/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "nd Fest - 80 Jahre nd",
       "start": "2026-06-13T15:30:00",
       "end": null,
@@ -1179,20 +409,6 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Ausstellung"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Laurie Young: After Work Tours #1",
-      "start": "2026-06-13T17:30:00",
-      "end": null,
-      "location": "Sophiensæle",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/6a23c2590b8712b258382ae842c96e31.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/laurie-young-after-work-tours-1/events/367967/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
       ],
       "time_known": true
     },
@@ -1267,34 +483,6 @@
       "time_known": true
     },
     {
-      "title": "MEXA: Reality Show",
-      "start": "2026-06-13T19:00:00",
-      "end": null,
-      "location": "Sophiensæle",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/40219a6047141537c683c63b6c26723f.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/mexa-reality-show/events/367988/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Glaube, Geld, Krieg und Liebe",
-      "start": "2026-06-13T19:00:00",
-      "end": null,
-      "location": "Schaubühne am Lehniner Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/9932aee668ccaaf89bcda56c1294ae72.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/glaube-geld-krieg-liebe/events/367252/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Kneipenquiz: Straße der Besten",
       "start": "2026-06-13T19:30:00",
       "end": null,
@@ -1317,48 +505,6 @@
       "image_url": null,
       "source_url": "https://stressfaktor.squat.net/node/327673",
       "source_name": "Stressfaktor",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "F*impro Berlin –  die erste feministische Improgruppe in Berlin",
-      "start": "2026-06-13T19:30:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/82b153702a0f11f702f45d69860e10f4.jpeg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/fimpro-berlin-erste-feministische-improgruppe-berlin/events/368129/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "ja nichts ist ok",
-      "start": "2026-06-13T19:30:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/4cf68010faea9fcbc1d051eefd537bb9.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/nichts-ok/events/368152/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Call me Paris",
-      "start": "2026-06-13T19:30:00",
-      "end": null,
-      "location": "Schaubühne am Lehniner Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/f21ce3b69e3722af3aaa5aefa961cbc8.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/call-me-paris/events/367263/",
-      "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
       ],
@@ -1407,48 +553,6 @@
       "time_known": true
     },
     {
-      "title": "JUICE",
-      "start": "2026-06-13T20:00:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/e6c70b6964d46cb3328ee754ed5070c5.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/juice/events/368149/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Songs from the last years",
-      "start": "2026-06-13T20:00:00",
-      "end": null,
-      "location": "Maxim Gorki Theater",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/ceaa089d1cb1ae70204780a8c37f6361.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/songs-from-the-last-years/events/365187/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Paradiesische Zustände",
-      "start": "2026-06-13T20:00:00",
-      "end": null,
-      "location": "Schaubühne am Lehniner Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/cf36627458d6d6267a34beb50775afae.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/paradiesische-zustaende/events/367235/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Kaiser Pommes",
       "start": "2026-06-13T20:00:00",
       "end": null,
@@ -1473,34 +577,6 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Liina Magnea: What’s a Mob to a King (Plot-twist Redemption)",
-      "start": "2026-06-13T21:30:00",
-      "end": null,
-      "location": "Sophiensæle",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/730668c193e9b31324e2cf5e87d3a87c.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/liina-magnea-whats-a-mob-to-a-king-plot-twist-redemption/events/367984/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Abschiedsparty Bühne",
-      "start": "2026-06-13T23:00:00",
-      "end": null,
-      "location": "Maxim Gorki Theater",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/ae84f612728d13f9ac5bcb1ffdc801d2.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/abschiedsparty-buehne/events/365189/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
       ],
       "time_known": true
     },
@@ -1543,20 +619,6 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Diskussion"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Abhishek Thapar: Soft Pressure (Working Title)",
-      "start": "2026-06-14T11:00:00",
-      "end": null,
-      "location": "Sophiensæle",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/5dc2ebb12fe64cacb14065c98bb2af8e.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/abhishek-thapar-soft-pressure-working-title/events/368406/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
       ],
       "time_known": true
     },
@@ -1673,6 +735,48 @@
       "time_known": true
     },
     {
+      "title": "Soli-Sommermarkt",
+      "start": "2026-06-14T14:00:00",
+      "end": null,
+      "location": "Villa Kuriosum Scheffelstr. 21 10367 Berlin Deutschland",
+      "description": "Wir zelebrieren den Sommer und laden euch herzlich zum Soli-Markt für Selbstgemachtes, Kunst & Kurioses ein. Oben drauf gibt’s Musik, Performances und spontane Überraschungen, u.a.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327778",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Soli-Sommermarkt",
+      "start": "2026-06-14T14:00:00",
+      "end": null,
+      "location": "Villa Kuriosum Scheffelstr. 21 10367 Berlin Deutschland",
+      "description": "Wir zelebrieren den Sommer und laden euch herzlich zum Soli-Markt für Selbstgemachtes, Kunst & Kurioses ein. Oben drauf gibt’s Musik, Performances und spontane Überraschungen, u.a.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327779",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Soli-Sommermarkt",
+      "start": "2026-06-14T14:00:00",
+      "end": null,
+      "location": "Villa Kuriosum Scheffelstr. 21 10367 Berlin Deutschland",
+      "description": "Wir zelebrieren den Sommer und laden euch herzlich zum Soli-Markt für Selbstgemachtes, Kunst & Kurioses ein. Oben drauf gibt’s Musik, Performances und spontane Überraschungen, u.a.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327780",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ],
+      "time_known": true
+    },
+    {
       "title": "Honey & Spice",
       "start": "2026-06-14T15:00:00",
       "end": "2026-06-14T22:00:00",
@@ -1743,20 +847,6 @@
       "time_known": true
     },
     {
-      "title": "Bum Bum Musik",
-      "start": "2026-06-14T15:00:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/e460ca489510b3a2c7b291bffd2194c9.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/bum-bum-musik/events/370171/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Märchenstunde auf Vietnamesisch, Russisch und Deutsch",
       "start": "2026-06-14T15:30:00",
       "end": null,
@@ -1813,34 +903,6 @@
       "time_known": true
     },
     {
-      "title": "Abschiedsfest",
-      "start": "2026-06-14T17:00:00",
-      "end": null,
-      "location": "Maxim Gorki Theater",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/f71f35389a63d8c8520cc43b244050cf.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/abschiedsfest/events/365190/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Laurie Young: After Work Tours #1",
-      "start": "2026-06-14T17:30:00",
-      "end": null,
-      "location": "Sophiensæle",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/6a23c2590b8712b258382ae842c96e31.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/laurie-young-after-work-tours-1/events/367968/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Film & Talk: Weiße Nächte in Hellblau & Rosa",
       "start": "2026-06-14T17:30:00",
       "end": null,
@@ -1865,20 +927,6 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Glaube, Geld, Krieg und Liebe",
-      "start": "2026-06-14T18:00:00",
-      "end": null,
-      "location": "Schaubühne am Lehniner Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/9932aee668ccaaf89bcda56c1294ae72.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/glaube-geld-krieg-liebe/events/367253/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
       ],
       "time_known": true
     },
@@ -1911,34 +959,6 @@
       "time_known": true
     },
     {
-      "title": "Liina Magnea: What’s a Mob to a King (Plot-twist Redemption)",
-      "start": "2026-06-14T19:00:00",
-      "end": null,
-      "location": "Sophiensæle",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/730668c193e9b31324e2cf5e87d3a87c.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/liina-magnea-whats-a-mob-to-a-king-plot-twist-redemption/events/367985/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Ein Stück: Tschechien: Nachlese 2026 – Ophelia OnlyFans",
-      "start": "2026-06-14T19:00:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/80bf05f7a4b6fad9ee6795be8c8190a7.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/ein-stueck-tschechien-nachlese-2026-ophelia-onlyfans/events/368122/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Tea. thoughts and theories",
       "start": "2026-06-14T19:30:00",
       "end": null,
@@ -1953,34 +973,6 @@
       "time_known": true
     },
     {
-      "title": "Spooky Paradise",
-      "start": "2026-06-14T19:30:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/be7c0aef9bc2e5a24d53018082778570.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/spooky-paradise/events/368918/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Spooky Paradise",
-      "start": "2026-06-14T19:30:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/be7c0aef9bc2e5a24d53018082778570.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/spooky-paradise/events/369284/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Open Sunday",
       "start": "2026-06-14T20:00:00",
       "end": null,
@@ -1991,34 +983,6 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "NOT FUCKABLE",
-      "start": "2026-06-14T20:00:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/f706056034bf13a8858aba633fb5c164.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/not-fuckable/events/368127/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Paradiesische Zustände",
-      "start": "2026-06-14T20:00:00",
-      "end": null,
-      "location": "Schaubühne am Lehniner Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/cf36627458d6d6267a34beb50775afae.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/paradiesische-zustaende/events/367236/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
       ],
       "time_known": true
     },
@@ -2331,20 +1295,6 @@
       "time_known": true
     },
     {
-      "title": "Liina Magnea: What’s a Mob to a King (Plot-twist Redemption)",
-      "start": "2026-06-15T19:00:00",
-      "end": null,
-      "location": "Sophiensæle",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/730668c193e9b31324e2cf5e87d3a87c.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/liina-magnea-whats-a-mob-to-a-king-plot-twist-redemption/events/367986/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "FLINTA* LESEKREIS",
       "start": "2026-06-15T19:30:00",
       "end": null,
@@ -2359,20 +1309,6 @@
       "time_known": true
     },
     {
-      "title": "Geht es dir gut?",
-      "start": "2026-06-15T19:30:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/fbc535d5d1b2cc9a837a3695c5eecd2b.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/geht-dir-gut/events/368157/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Ulm5 Prozess-Update - Anarchist Dinner",
       "start": "2026-06-15T20:00:00",
       "end": null,
@@ -2383,20 +1319,6 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Diskussion"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Call me Paris",
-      "start": "2026-06-15T20:00:00",
-      "end": null,
-      "location": "Schaubühne am Lehniner Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/f21ce3b69e3722af3aaa5aefa961cbc8.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/call-me-paris/events/367264/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
       ],
       "time_known": true
     },
@@ -2425,20 +1347,6 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Film"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "10,000 Blinks presents: I AM STILL ALIVE",
-      "start": "2026-06-15T22:00:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/efb316f76a4c0ec6640f27470acbf1a1.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/10000-blinks-presents-i-am-still-alive/events/368126/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
       ],
       "time_known": true
     },
@@ -2667,34 +1575,6 @@
       "time_known": true
     },
     {
-      "title": "Ich weiß nicht, was ein Ort ist, ich kenne nur seinen Preis (Manzini-Studien)",
-      "start": "2026-06-16T19:30:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/3d44b368fddba766e5b4898477bbc9dd.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/ich-weiss-nicht-ort-ist-kenne-nur-seinen-preis-manzini-studien/events/368151/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Egal",
-      "start": "2026-06-16T19:30:00",
-      "end": null,
-      "location": "Schaubühne am Lehniner Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/76be035fcf29ecc136ddd86e7de00ba0.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/egal/events/367276/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Flinta*only Kickern",
       "start": "2026-06-16T20:00:00",
       "end": null,
@@ -2719,48 +1599,6 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Fragezeichen am Hörizont der Tauben",
-      "start": "2026-06-16T20:00:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/7aa8146b0ff1cc696ae43909b1d2fcc8.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/fragezeichen-hoerizont-tauben/events/368136/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Im Herzen der Gewalt",
-      "start": "2026-06-16T20:00:00",
-      "end": null,
-      "location": "Schaubühne am Lehniner Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/471ff06353b27a4d8d217663cdacad25.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/im-herzen-gewalt/events/367225/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "DER SOLDAT. Ein Übergangsritual",
-      "start": "2026-06-16T20:00:00",
-      "end": null,
-      "location": "HAU Hebbel am Ufer",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/8dcf14bc91c6907c94028d1dd199749d.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/der-soldat-ein-uebergangsritual/events/367580/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
       ],
       "time_known": true
     },
@@ -2835,20 +1673,6 @@
       "time_known": true
     },
     {
-      "title": "Theaterführung",
-      "start": "2026-06-17T17:30:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/e460ca489510b3a2c7b291bffd2194c9.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/theaterfuehrung/events/368159/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "mittwochskufa",
       "start": "2026-06-17T18:00:00",
       "end": null,
@@ -2919,20 +1743,6 @@
       "time_known": true
     },
     {
-      "title": "#Logoskop vierundvierzig",
-      "start": "2026-06-17T18:00:00",
-      "end": null,
-      "location": "Humboldt Forum",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/2e0660ece0317fbc78ff6b704b9dd0d9.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/logoskop-vierundvierzig/events/368231/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Bingo mit den Wodkasisters",
       "start": "2026-06-17T18:00:00",
       "end": "2026-06-17T22:00:00",
@@ -2943,34 +1753,6 @@
       "source_name": "Siegessäule",
       "tags": [
         "Party"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Romani POV: Young Roma on Screen and Stage",
-      "start": "2026-06-17T18:30:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/3007a0c914514768c01528563c715ae9.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/romani-pov-young-roma-on-screen-and-stage/events/368113/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Beziehungskiller Wohnungskrise – Über das Zusammenleben unter Bedingungen der Knappheit",
-      "start": "2026-06-17T18:30:00",
-      "end": null,
-      "location": "Humboldt Forum",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/93b92db01e4e32badfbe55df6e3a5eb1.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/beziehungskiller-wohnungskrise-ueber-zusammenleben-bedingungen-knappheit/events/369257/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
       ],
       "time_known": true
     },
@@ -3087,30 +1869,16 @@
       "time_known": true
     },
     {
-      "title": "P14 – endlich endlich",
+      "title": "STRESS POSITIONS - NERVE CENTER - RYTES",
       "start": "2026-06-17T19:00:00",
       "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/e460ca489510b3a2c7b291bffd2194c9.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/p14-endlich-endlich/events/368116/",
-      "source_name": "Berlin Bühnen",
+      "location": "near Bethaniendamm berlin berlin Deutschland",
+      "description": "Disaster by Design prsnt: \nSTRESS POSITIONS - Chicago - furious and chaotic Hardcore Punk with Releases on Three 1 g Records and energetic Live-Sets",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327775",
+      "source_name": "Stressfaktor",
       "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "DER SOLDAT. Ein Übergangsritual",
-      "start": "2026-06-17T19:00:00",
-      "end": null,
-      "location": "HAU Hebbel am Ufer",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/8dcf14bc91c6907c94028d1dd199749d.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/der-soldat-ein-uebergangsritual/events/367581/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
+        "Konzert"
       ],
       "time_known": true
     },
@@ -3129,34 +1897,6 @@
       "time_known": true
     },
     {
-      "title": "Fantômas",
-      "start": "2026-06-17T19:30:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/2b7c995c673b1ac786b43f0a487de4d0.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/fantomas/events/368154/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Egal",
-      "start": "2026-06-17T19:30:00",
-      "end": null,
-      "location": "Schaubühne am Lehniner Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/76be035fcf29ecc136ddd86e7de00ba0.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/egal/events/367277/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "KüFa (Kitchen for all)",
       "start": "2026-06-17T20:00:00",
       "end": null,
@@ -3167,34 +1907,6 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Film"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "TWINK DEATH",
-      "start": "2026-06-17T20:00:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/a037576cc985d29a688b3ae92e5c0187.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/twink-death/events/368109/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Im Herzen der Gewalt",
-      "start": "2026-06-17T20:00:00",
-      "end": null,
-      "location": "Schaubühne am Lehniner Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/471ff06353b27a4d8d217663cdacad25.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/im-herzen-gewalt/events/367226/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
       ],
       "time_known": true
     },
@@ -3293,20 +2005,6 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Ausstellung"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Bum Bum Musik",
-      "start": "2026-06-18T15:00:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/e460ca489510b3a2c7b291bffd2194c9.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/bum-bum-musik/events/370170/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
       ],
       "time_known": true
     },
@@ -3535,62 +2233,6 @@
       "time_known": true
     },
     {
-      "title": "P14 – endlich endlich",
-      "start": "2026-06-18T19:00:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/e460ca489510b3a2c7b291bffd2194c9.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/p14-endlich-endlich/events/368115/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Egal",
-      "start": "2026-06-18T19:30:00",
-      "end": null,
-      "location": "Schaubühne am Lehniner Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/76be035fcf29ecc136ddd86e7de00ba0.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/egal/events/367278/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "This is waving salon",
-      "start": "2026-06-18T19:30:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/c82b6bbe86d3ac2f1f18d9d081399417.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/this-is-waving-salon/events/368742/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Goodbye Berlin",
-      "start": "2026-06-18T19:30:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/f1bd5e1d3b40185c44189ada50c98c02.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/goodbye-berlin/events/368917/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Punkrocktresen",
       "start": "2026-06-18T20:00:00",
       "end": null,
@@ -3615,48 +2257,6 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "TWINK DEATH",
-      "start": "2026-06-18T20:00:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/a037576cc985d29a688b3ae92e5c0187.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/twink-death/events/368108/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Im Herzen der Gewalt",
-      "start": "2026-06-18T20:00:00",
-      "end": null,
-      "location": "Schaubühne am Lehniner Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/471ff06353b27a4d8d217663cdacad25.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/im-herzen-gewalt/events/367227/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Mi Madre y el Dinero",
-      "start": "2026-06-18T20:00:00",
-      "end": null,
-      "location": "HAU Hebbel am Ufer",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/976dfa6c1e74da77a545cf9cae20231b.JPG",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/mi-madre-y-el-dinero/events/367595/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
       ],
       "time_known": true
     },
@@ -3773,20 +2373,6 @@
       "time_known": true
     },
     {
-      "title": "Bum Bum Musik",
-      "start": "2026-06-19T15:00:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/e460ca489510b3a2c7b291bffd2194c9.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/bum-bum-musik/events/370169/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "FLINTA* Sweat",
       "start": "2026-06-19T15:30:00",
       "end": null,
@@ -3843,34 +2429,6 @@
       "time_known": true
     },
     {
-      "title": "Ich schneide schneller",
-      "start": "2026-06-19T17:00:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/00373c065781021bee8e2e70798b1cd1.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/ich-schneide-schneller/events/368119/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Und jetzt?",
-      "start": "2026-06-19T17:00:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/382eadd98d3017aaaf231ab9d0a25d89.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/und-jetzt/events/368155/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Aus der Nacht heraus - Political Film Festival -Day 2",
       "start": "2026-06-19T17:30:00",
       "end": null,
@@ -3885,20 +2443,6 @@
       "time_known": true
     },
     {
-      "title": "Angela Alves: Never Rest (After Work Tours #2)",
-      "start": "2026-06-19T17:30:00",
-      "end": null,
-      "location": "Sophiensæle",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/6a23c2590b8712b258382ae842c96e31.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/angela-alves-never-rest-after-work-tours-2/events/367969/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Filmfestival - \"Aus der Nacht heraus\"",
       "start": "2026-06-19T18:00:00",
       "end": null,
@@ -3909,34 +2453,6 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Film"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "P14 – endlich endlich",
-      "start": "2026-06-19T18:00:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/e460ca489510b3a2c7b291bffd2194c9.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/p14-endlich-endlich/events/368114/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Humboldting #10 Social Muscle Club",
-      "start": "2026-06-19T18:00:00",
-      "end": null,
-      "location": "Humboldt Forum",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/83949d596feae0f1841a39b461128a49.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/humboldting-10-social-muscle-club/events/369261/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
       ],
       "time_known": true
     },
@@ -4081,48 +2597,6 @@
       "time_known": true
     },
     {
-      "title": "Moya Michael: It’s like a Finger Pointing a Way to the Moon",
-      "start": "2026-06-19T19:00:00",
-      "end": null,
-      "location": "Sophiensæle",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/177476f103c9e27367d3115dbac6b195.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/moya-michael-its-like-a-finger-pointing-a-way-to-the-moon/events/367981/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Mi Madre y el Dinero",
-      "start": "2026-06-19T19:00:00",
-      "end": null,
-      "location": "HAU Hebbel am Ufer",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/976dfa6c1e74da77a545cf9cae20231b.JPG",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/mi-madre-y-el-dinero/events/367596/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Abschlussfest",
-      "start": "2026-06-19T19:00:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/e460ca489510b3a2c7b291bffd2194c9.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/abschlussfest/events/368814/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Freitag in der Olfe",
       "start": "2026-06-19T19:30:00",
       "end": "2026-06-19T22:30:00",
@@ -4165,20 +2639,6 @@
       "time_known": true
     },
     {
-      "title": "Salome",
-      "start": "2026-06-19T20:00:00",
-      "end": null,
-      "location": "Schaubühne am Lehniner Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/360ce498e8891fe859b125efe27ee092.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/salome-607/events/367280/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Meinberg/Greve/Wesley",
       "start": "2026-06-19T20:00:00",
       "end": null,
@@ -4193,20 +2653,6 @@
       "time_known": true
     },
     {
-      "title": "Ea Torrado: Brown Madonna",
-      "start": "2026-06-19T20:30:00",
-      "end": null,
-      "location": "Sophiensæle",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/d37b7f8a7dc70bf31063b8bdc21d2400.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/ea-torrado-brown-madonna/events/367979/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Bondage Nacht - Bondage Night",
       "start": "2026-06-19T21:00:00",
       "end": "2026-06-20T03:00:00",
@@ -4217,20 +2663,6 @@
       "source_name": "Quälgeist",
       "tags": [
         "Kink"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Sonora Berlín",
-      "start": "2026-06-19T21:00:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/65e7b8f3e8692e021cba9b9096f944c2.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/sonora-berlin/events/368138/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
       ],
       "time_known": true
     },
@@ -4301,20 +2733,6 @@
       "source_name": "Siegessäule",
       "tags": [
         "Kink"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Bum Bum Musik",
-      "start": "2026-06-20T15:00:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/e460ca489510b3a2c7b291bffd2194c9.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/bum-bum-musik/events/370168/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
       ],
       "time_known": true
     },
@@ -4417,20 +2835,6 @@
       "time_known": true
     },
     {
-      "title": "Humboldting #10 Social Muscle Club",
-      "start": "2026-06-20T17:00:00",
-      "end": null,
-      "location": "Humboldt Forum",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/83949d596feae0f1841a39b461128a49.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/humboldting-10-social-muscle-club/events/369262/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Rundgang Ausstellung „Die Anarchie ist das Leben der Menschen, die dem Joche entronnen sind.“",
       "start": "2026-06-20T17:30:00",
       "end": null,
@@ -4445,20 +2849,6 @@
       "time_known": true
     },
     {
-      "title": "Angela Alves: Never Rest (After Work Tours #2)",
-      "start": "2026-06-20T17:30:00",
-      "end": null,
-      "location": "Sophiensæle",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/6a23c2590b8712b258382ae842c96e31.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/angela-alves-never-rest-after-work-tours-2/events/367970/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Screening \"ProPal - for the global justice\" + aperitivo",
       "start": "2026-06-20T18:00:00",
       "end": null,
@@ -4469,20 +2859,6 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Freedom of Movement",
-      "start": "2026-06-20T18:00:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/b2234486d448820f548561705ef37392.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/freedom-of-movement/events/368121/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
       ],
       "time_known": true
     },
@@ -4515,34 +2891,6 @@
       "time_known": true
     },
     {
-      "title": "Moya Michael: It’s like a Finger Pointing a Way to the Moon",
-      "start": "2026-06-20T19:00:00",
-      "end": null,
-      "location": "Sophiensæle",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/177476f103c9e27367d3115dbac6b195.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/moya-michael-its-like-a-finger-pointing-a-way-to-the-moon/events/367982/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Oratorium – Kollektive Andacht zu einem wohlgehüteten Geheimnis",
-      "start": "2026-06-20T19:00:00",
-      "end": null,
-      "location": "HAU Hebbel am Ufer",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/3f05b10dfcb4090975987669019acc53.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/oratorium-kollektive-andacht-wohlgehueteten-geheimnis/events/368350/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Lesung & Buchvorstellung",
       "start": "2026-06-20T19:30:00",
       "end": null,
@@ -4553,34 +2901,6 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Salon Ma ما",
-      "start": "2026-06-20T19:30:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/c51c9dfb7930bea121aa4849f79666da.jpeg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/salon-ma/events/368130/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Being Young",
-      "start": "2026-06-20T19:30:00",
-      "end": null,
-      "location": "Schaubühne am Lehniner Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/f9fc79ec2142925fa940e1a08b0725ac.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/being-young/events/367462/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
       ],
       "time_known": true
     },
@@ -4641,34 +2961,6 @@
       "time_known": true
     },
     {
-      "title": "Love Me Tender",
-      "start": "2026-06-20T20:00:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/182055a863bc88f0cebdb61f85b082dc.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/love-me-tender/events/368145/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Salome",
-      "start": "2026-06-20T20:00:00",
-      "end": null,
-      "location": "Schaubühne am Lehniner Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/360ce498e8891fe859b125efe27ee092.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/salome-607/events/367281/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "MUSViT",
       "start": "2026-06-20T20:00:00",
       "end": null,
@@ -4697,34 +2989,6 @@
       "time_known": true
     },
     {
-      "title": "Ea Torrado: Brown Madonna",
-      "start": "2026-06-20T20:30:00",
-      "end": null,
-      "location": "Sophiensæle",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/d37b7f8a7dc70bf31063b8bdc21d2400.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/ea-torrado-brown-madonna/events/367980/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Die Seherin",
-      "start": "2026-06-20T20:30:00",
-      "end": null,
-      "location": "Schaubühne am Lehniner Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/f2616dcab8130514ba30cc061aeb6885.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/die-seherin/events/367259/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Konzert im K (A)",
       "start": "2026-06-20T21:00:00",
       "end": null,
@@ -4749,20 +3013,6 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Olympia Bukkakis: Queer and Present Dangers/The Nation at Work",
-      "start": "2026-06-20T21:00:00",
-      "end": null,
-      "location": "Sophiensæle",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/491c0b63cceccb15bca8bd5be9457576.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/olympia-bukkakis-queer-and-present-dangersthe-nation-at-work/events/367977/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
       ],
       "time_known": true
     },
@@ -4921,16 +3171,16 @@
       "time_known": true
     },
     {
-      "title": "Streitraum",
+      "title": "Vegan Soli Brunch",
       "start": "2026-06-21T12:00:00",
       "end": null,
-      "location": "Schaubühne am Lehniner Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/c1eeb70d20387e10a26909fe3346aee9.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/streitraum-886/events/367288/",
-      "source_name": "Berlin Bühnen",
+      "location": "Erreichbar Reichenberger Str. 63a HH 10999 Berlin Deutschland",
+      "description": "Vegan Soli Brunch with lots of choices: salads , sometimes pizza , often Quiché and always spreads .\nIt's all vegan and we use whatever is in season.  Lots of gluten-free options as well.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327800",
+      "source_name": "Stressfaktor",
       "tags": [
-        "Theater"
+        "Sonstiges"
       ],
       "time_known": true
     },
@@ -5033,34 +3283,6 @@
       "time_known": true
     },
     {
-      "title": "Historische Hausführung: Never Work",
-      "start": "2026-06-21T15:00:00",
-      "end": null,
-      "location": "Sophiensæle",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/5fa0fda6a18be9a73672c9121097ed18.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/historische-hausfuehrung-never-work/events/368241/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Bum Bum Musik",
-      "start": "2026-06-21T15:00:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/e460ca489510b3a2c7b291bffd2194c9.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/bum-bum-musik/events/370167/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Naked Sex Party",
       "start": "2026-06-21T15:30:00",
       "end": null,
@@ -5085,20 +3307,6 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Unsere Träume zu leben /  Hayallerimizi yaşamak",
-      "start": "2026-06-21T16:00:00",
-      "end": null,
-      "location": "HAU Hebbel am Ufer",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/3fc4104ffc0baf446a6c9daedc602a2b.jpeg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/unsere-traeume-leben-hayallerimizi-yasamak/events/367598/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
       ],
       "time_known": true
     },
@@ -5145,20 +3353,6 @@
       "time_known": true
     },
     {
-      "title": "Angela Alves: Never Rest (After Work Tours #2)",
-      "start": "2026-06-21T17:30:00",
-      "end": null,
-      "location": "Sophiensæle",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/6a23c2590b8712b258382ae842c96e31.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/angela-alves-never-rest-after-work-tours-2/events/367971/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Chillout Jam",
       "start": "2026-06-21T18:00:00",
       "end": null,
@@ -5169,20 +3363,6 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Der Schnittchenkauf",
-      "start": "2026-06-21T18:00:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/e2aab61b0f30abc1f1cb9cd84f0db0b9.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/der-schnittchenkauf/events/368147/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
       ],
       "time_known": true
     },
@@ -5201,62 +3381,6 @@
       "time_known": true
     },
     {
-      "title": "Love Me Tender",
-      "start": "2026-06-21T19:00:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/182055a863bc88f0cebdb61f85b082dc.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/love-me-tender/events/368144/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Oratorium – Kollektive Andacht zu einem wohlgehüteten Geheimnis",
-      "start": "2026-06-21T19:00:00",
-      "end": null,
-      "location": "HAU Hebbel am Ufer",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/3f05b10dfcb4090975987669019acc53.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/oratorium-kollektive-andacht-wohlgehueteten-geheimnis/events/368351/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "P14 – endlich endlich",
-      "start": "2026-06-21T19:00:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/e460ca489510b3a2c7b291bffd2194c9.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/p14-endlich-endlich/events/369879/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Die Seherin",
-      "start": "2026-06-21T19:30:00",
-      "end": null,
-      "location": "Schaubühne am Lehniner Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/f2616dcab8130514ba30cc061aeb6885.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/die-seherin/events/367260/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Hunger",
       "start": "2026-06-21T20:00:00",
       "end": null,
@@ -5267,20 +3391,6 @@
       "source_name": "Donau115",
       "tags": [
         "Konzert"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Olympia Bukkakis: Queer and Present Dangers/The Nation at Work",
-      "start": "2026-06-21T21:00:00",
-      "end": null,
-      "location": "Sophiensæle",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/491c0b63cceccb15bca8bd5be9457576.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/olympia-bukkakis-queer-and-present-dangersthe-nation-at-work/events/367978/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
       ],
       "time_known": true
     },
@@ -5299,6 +3409,48 @@
       "time_known": true
     },
     {
+      "title": "Fuckin´ Monday",
+      "start": "2026-06-22T10:00:00",
+      "end": "2026-06-22T12:00:00",
+      "location": null,
+      "description": "Gay-Cruising-Sex-Fun",
+      "image_url": null,
+      "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-22",
+      "source_name": "Siegessäule",
+      "tags": [
+        "Kink"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Die Montagsspieler",
+      "start": "2026-06-22T15:30:00",
+      "end": null,
+      "location": null,
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-22",
+      "source_name": "Siegessäule",
+      "tags": [
+        "Sonstiges"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Queer Yoga - Monday Fire",
+      "start": "2026-06-22T16:30:00",
+      "end": "2026-06-22T18:30:00",
+      "location": null,
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-22",
+      "source_name": "Siegessäule",
+      "tags": [
+        "Sonstiges"
+      ],
+      "time_known": true
+    },
+    {
       "title": "Sozialberatung  - Social counseling",
       "start": "2026-06-22T17:00:00",
       "end": null,
@@ -5313,6 +3465,20 @@
       "time_known": true
     },
     {
+      "title": "All-Gender-Fußball",
+      "start": "2026-06-22T17:45:00",
+      "end": "2026-06-22T19:45:00",
+      "location": null,
+      "description": null,
+      "image_url": "https://cdn.siegessaeule.de/images/Untitled_lj4GeCw.2e16d0ba.fill-320x320.png",
+      "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-22",
+      "source_name": "Siegessäule",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true
+    },
+    {
       "title": "Fahrrad-Selbsthilfe-Werkstatt",
       "start": "2026-06-22T18:00:00",
       "end": null,
@@ -5321,6 +3487,20 @@
       "image_url": null,
       "source_url": "https://stressfaktor.squat.net/node/324664",
       "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Queer Yoga - Slow Flow",
+      "start": "2026-06-22T18:15:00",
+      "end": "2026-06-22T20:15:00",
+      "location": null,
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-22",
+      "source_name": "Siegessäule",
       "tags": [
         "Sonstiges"
       ],
@@ -5439,34 +3619,6 @@
       "time_known": true
     },
     {
-      "title": "Die Seherin",
-      "start": "2026-06-22T19:30:00",
-      "end": null,
-      "location": "Schaubühne am Lehniner Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/f2616dcab8130514ba30cc061aeb6885.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/die-seherin/events/367261/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Salome",
-      "start": "2026-06-22T20:00:00",
-      "end": null,
-      "location": "Schaubühne am Lehniner Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/360ce498e8891fe859b125efe27ee092.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/salome-607/events/367282/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Filmabend im K( P)",
       "start": "2026-06-22T21:00:00",
       "end": null,
@@ -5491,20 +3643,6 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Protest"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Historische Hausführung: Never Work",
-      "start": "2026-06-23T15:00:00",
-      "end": null,
-      "location": "Sophiensæle",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/5fa0fda6a18be9a73672c9121097ed18.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/historische-hausfuehrung-never-work/events/368242/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
       ],
       "time_known": true
     },
@@ -5663,20 +3801,6 @@
       "time_known": true
     },
     {
-      "title": "Sophiensæle Forever #2 – Never Work",
-      "start": "2026-06-23T19:00:00",
-      "end": null,
-      "location": "Sophiensæle",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/a388c6b504d2021d7fde1d22296a967d.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/sophiensle-forever-2-never-work/events/369769/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "\"Wer wird visionär?\" ~ Queeres Quiz",
       "start": "2026-06-23T19:30:00",
       "end": null,
@@ -5743,34 +3867,6 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Film"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Ein Volksfeind",
-      "start": "2026-06-23T20:30:00",
-      "end": null,
-      "location": "Schaubühne am Lehniner Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/9bd6bb7aa312d79656e80fe18855c2bd.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/ein-volksfeind/events/367220/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Studio 9. Der Tag mit Sarah Bosetti. Deutschlandfunk Kultur – live aus dem Humboldt Forum",
-      "start": "2026-06-24T11:50:00",
-      "end": null,
-      "location": "Humboldt Forum",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/b83646fdf05636760c5b71d6aeae28c0.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/studio-9-der-tag-sarah-bosetti-deutschlandfunk-kultur-live-humboldt-forum/events/369732/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
       ],
       "time_known": true
     },
@@ -5859,20 +3955,6 @@
       "time_known": true
     },
     {
-      "title": "Never Work Talks: Helen Hester, Anajara Amarante, Olivia Hyunsin Kim",
-      "start": "2026-06-24T19:00:00",
-      "end": null,
-      "location": "Sophiensæle",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/1e377cf740b4a2357e3f65e241095e7e.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/never-work-talks-helen-hester-anajara-amarante-olivia-hyunsin-kim/events/367964/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Lesung Henryk Gericke und Henning Rabe",
       "start": "2026-06-24T19:30:00",
       "end": null,
@@ -5957,20 +4039,6 @@
       "time_known": true
     },
     {
-      "title": "Ein Volksfeind",
-      "start": "2026-06-24T20:30:00",
-      "end": null,
-      "location": "Schaubühne am Lehniner Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/9bd6bb7aa312d79656e80fe18855c2bd.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/ein-volksfeind/events/367221/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "VideoKino (Open Air)",
       "start": "2026-06-24T21:30:00",
       "end": null,
@@ -6041,20 +4109,6 @@
       "time_known": true
     },
     {
-      "title": "Colleen Ndemeh Fitzgerald: After Work Tours #3",
-      "start": "2026-06-25T17:30:00",
-      "end": null,
-      "location": "Sophiensæle",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/6a23c2590b8712b258382ae842c96e31.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/colleen-ndemeh-fitzgerald-after-work-tours-3/events/367972/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Offener Treffpunkt Mieter:innen für Mieter:innen!",
       "start": "2026-06-25T18:00:00",
       "end": null,
@@ -6079,20 +4133,6 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Flüssige Grenzen, bewegter Grund – Wo Wasser erinnert",
-      "start": "2026-06-25T18:00:00",
-      "end": null,
-      "location": "Humboldt Forum",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/5b7000b53d25283f33984fd6bdd266cd.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/fluessige-grenzen-bewegter-grund-wo-wasser-erinnert/events/369260/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
       ],
       "time_known": true
     },
@@ -6209,20 +4249,6 @@
       "time_known": true
     },
     {
-      "title": "Never Work Talks: Amelia Horgan, Nicole Mayer-Ahuja",
-      "start": "2026-06-25T19:00:00",
-      "end": null,
-      "location": "Sophiensæle",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/5b79212e6190d2039b2ae77766bf0120.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/never-work-talks-amelia-horgan-nicole-mayer-ahuja/events/368904/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Thursday Jazz Jam",
       "start": "2026-06-25T20:00:00",
       "end": null,
@@ -6247,6 +4273,174 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Film"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "CHILLGARAGE",
+      "start": "2026-06-26T16:00:00",
+      "end": null,
+      "location": "Columbiadamm 10 Zollgarage im alten Flughafen Tempelhof 10965 Berlin Deutschland",
+      "description": "[DE]Chillgarage in der ZollgarageJeden Freitag ab 16 Uhr sind wir offen und warm, mit viel Raum zum treffen, entspannen, organisieren, basteln, spielen, Film schauen, politisieren, was trinken und auf was ihr Bock habt…Jeden FREITAG 16 Uhr bis min. 20 Uhr",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/323235",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "HAU: Berlin bleibt! #5 Nachbarschaften in Bewegung",
+      "start": "2026-06-26T16:00:00",
+      "end": null,
+      "location": "HAU2 Hallesches Ufer 34 10963 Berlin Deutschland",
+      "description": "Berlin bleibt! #5Nachbarschaften in Bewegung\n26.6.–4.7.2026 / HAU2, HAU4 und im Stadtraum",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327152",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Gutscheintausch Regenbogencafé",
+      "start": "2026-06-26T17:00:00",
+      "end": null,
+      "location": "Berlin Deutschland",
+      "description": "NEIN zur Bezahlkarte Berlin - Brandenburg",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/326670",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Protest"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Tropenbude Bar und Garten offen",
+      "start": "2026-06-26T17:00:00",
+      "end": null,
+      "location": "Villa Kuriosum Scheffelstr. 21 10367 Berlin Deutschland",
+      "description": "Die Tropenbude Bar und der Garten der Villa Kuriosum sind geöffnet.Freitag 17-22Uhr.\nAnsonsten gibt es Kaffee, Kuchen, Snacks, Bier, Drinks, Natur und Kultur .\nProgramm -> schaut Bitte auf unsere Website.\nKeine Hunde bitte, no dogs please - Katzengarten.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327354",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Potse Raumkampfplenum",
+      "start": "2026-06-26T18:00:00",
+      "end": null,
+      "location": "Columbiadamm 10 Zollgarage im alten Flughafen Tempelhof 10965 Berlin Deutschland",
+      "description": "[English below]\nDie Potse ist in einem Raumkampf, mal wieder! Unser Mietvertrag läuft im September aus und es gibt bisher keine Ersatzräume bis die permanente Lösung mit dem \"Haus der Jugend\" 2030 gebaut ist.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327309",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Protest"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Filmfestival - \"Aus der Nacht heraus\"",
+      "start": "2026-06-26T18:00:00",
+      "end": null,
+      "location": "Wagenburg Lohmühle Lohmühlenstr. 17 12435 Berlin Deutschland",
+      "description": "Filmfestival - \"Aus der Nacht heraus\" - 26. Juni: To resist, to exist: Feminist liberation movements against oppression Start 19:00 Uhr (ab 18:00 Uhr Bar, ca. 21:30 Uhr Film),",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327614",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Film"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Hurt Me, Deliciously",
+      "start": "2026-06-26T19:00:00",
+      "end": "2026-06-26T22:00:00",
+      "location": "https://karada-house.de/events/hurt-me-deliciously-2/",
+      "description": "There is something extraordinarily powerful in feeling and playing with consensual and voluntary pain. Why would a person want to feel pain? Why would another love to give it to someone else? How is pain and the processing of it changed depending on the context and relation it is put into? \nIn the workshop, Mamana will go into a deep deep deep dive into all things pain and pain play. Together we will look at what pain actually is, how it is produced and interpreted in the brain and how it is influenced by personal, biological, social, and other contextual factors you can play with. We will go into the details of why people like to give and receive pain, how you can process it, which typical impact play instruments are helpful in inducing a certain kind of painful sensation. \nIn short, this class will fry your brain with nerdy knowledge and allow you to think about your interest in pain play on a whole new level. Come for the facts, stay for the soul-searching of why sadomasochism is fucking delicious. \nWhat we will discuss\n\nDefine Pain?\nGood pain, bad pain?\nWhat do consent, trust and context have to do with it?\nHow to receive and process pain\nHow to tweak your pain play to where you want it to go\nWhy the fuck are we doing this?\nmany other little info tid-bits you will not see coming",
+      "image_url": "https://karada-house.de/wp-content/uploads/2026/01/mg_5976.jpg",
+      "source_url": "https://karada-house.de/events/hurt-me-deliciously-2/",
+      "source_name": "Karada House",
+      "tags": [
+        "Kink"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Konzert",
+      "start": "2026-06-26T19:00:00",
+      "end": null,
+      "location": "Schokoladen Ackerstrasse 169 10115 Berlin Deutschland",
+      "description": "m:soundtrack prsnts: Barbara Morgenstern + Tonia Reeh",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327310",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Nappies for a Change",
+      "start": "2026-06-26T20:00:00",
+      "end": "2026-06-26T20:00:00",
+      "location": "Quälgeist Berlin e.V., Lankwitzer Straße 42/43, Berlin, 12107, Deutschland",
+      "description": "▼ ENGLISH BELOW ▼\nAuftakt-Playparty zum Windel- und Ageplay-Wochenende für Adult Babies, Windeljungs, leidenschaftliche Windelpisser sowie deren Wickler und Erzieher. Unsere Räume bieten alles, was das kleine Herz begehrt: Großer Laufstall, Malecke, Klassenraum, Jugendzimmer mit Spielekonsole und Bällebad. \nFür diese Veranstaltung ist eine Anmeldung zwingend erforderlich. \n\nNur für Männer*\nDresscode: Das Tragen einer Windel ist Pflicht. \nSpanner haben keinen Zutritt. \nEine Übernachtungsmöglichkeit können wir leider nicht anbieten.\n\nFragen? Schreib uns eine Mail: ferienlager@quaelgeist.sm\nSchau auch gerne auch auf unsere Infoseite\n⏵ ENGLISH ⏴\nKick-off playparty for the nappy and ageplay weekend for adult babies, diaper boys and passionate bedwetters as well as their diaper changers and educators. Our rooms offer everything the little heart desires: Large playpen, coloring corner, classroom, teen room with games console and ball pool.\nRegistration for this event is mandatory! \n\nMen only*\nDresscode: Wearing diapers/nappies is mandatory.\nPeeping Tom´s will not be allowed admission.\nUnfortunately, we can not offer any overnight accomodations.\n\nAny questions? Send us an email: ferienlager@quaelgeist.sm\nYou may also want to take a look at our info page. \nAnmeldung erforderlich! / Registration mandatory!Anmeldung ab 01.04.2026 18:00 Uhr / Registration starts on 2026-04-01 18:00 (Berlin local time)Zur Anmeldung / Registration form",
+      "image_url": null,
+      "source_url": "https://quaelgeist.sm/event/nappies-for-a-change-7/",
+      "source_name": "Quälgeist",
+      "tags": [
+        "Kink"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Konzert „jezevec u mraveniště“",
+      "start": "2026-06-26T20:00:00",
+      "end": null,
+      "location": "Baiz Schönhauser Allee 26 A 10435 Berlin Deutschland",
+      "description": "jezevec u mraveniště ist Tschechisch und bedeutet „Der Dachs am Ameisenhaufen“. So bildhaft, verspielt und überraschend wie der Bandname sind auch die Stücke, die Jindrich schreibt.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327291",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Peter Gall Quintet",
+      "start": "2026-06-26T20:00:00",
+      "end": null,
+      "location": "Donau115, Donaustraße 115, Berlin",
+      "description": "Winner GERMAN JAZZ AWARD “ALBUM OF THE YEAR” 2025\nWinner BMW Welt Jazz Award 2021\nPeter Gall is not only one of the most renowned and in-demand German drummers of his generation; he has also made a name for himself as an outstanding composer and a thoughtful bandleader, looking beyond the rim of the drum in a refined and deeply personal way. In 2018, he released his album Paradox Dreambox, a powerful musical statement that received euphoric international acclaim and led to successful tours and festival appearances.\nNow Peter Gall presents his second brilliant album LOVE AVATAR, which won the German Jazz Prize 2025 in the category “Album of the Year.” His new songs tell striking stories, paint dreamlike collages, and—with great atmospheric density—search for fascinating musical galaxies, emotional eruptions, and the magic and love inherent in music.\nJoining him is an absolute “dream band”: Wanja Slavin, Carl Morgan, Rainer Böhm, and Matthias Pichler are among the influential crème de la crème of the young, dynamic, and innovative European jazz scene. Perfectly attuned to one another, this tightly knit ensemble forms a powerful musical unit. Their performances are gripping, highly virtuosic, and deeply emotional at the same time, unleashing an onstage energy that is almost impossible to resist—unsurprisingly, the Peter Gall Quintet won the prestigious BMW Welt Jazz Award in 2021.\nA futuristic conglomerate of jazz, energetic fusion, anthemic indie spheres, beautiful melancholy, surprising grooves, and hypnotic beats captivates audiences and draws them into its spell.\n„Perhaps we should briefly explain why the Peter Gall Quintet is currently one of the most interesting groups in Europe. (...) in which Afrobeat, Modern Jazz and EDM remain in the subtext and thus touch the subconscious. On this evening in the Unterfahrt, this doesn’t just work on stage, it spills over into the audience.“ Sueddeutsche Zeitung, Feuilleton\n„The drummer’s second solo album has become a marvel of ‘new’ jazz. (...) [Peter Gall] and his first-class quintet weave a wide variety of jazz and non-jazz influences into an outrageously homogeneous album.“ MINT\n„The album is dazzling“ Jazzwise\n‚A new milestone from my favorite jazz drummer Peter Gall. An album of great energetic, atmospheric and playful density. Ten songs, ten stories.‘ Max Herre",
+      "image_url": null,
+      "source_url": "https://www.donau115.de",
+      "source_name": "Donau115",
+      "tags": [
+        "Konzert"
+      ],
+      "time_known": true
+    },
+    {
+      "title": "Konzert",
+      "start": "2026-06-26T21:30:00",
+      "end": null,
+      "location": "Supamolly Jessnerstr. 41 10247 Berlin Deutschland",
+      "description": "Green Milk from the Planet Orange (freaked-out astro prog heavy grind from Tokyo Japan)",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327433",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
       ],
       "time_known": true
     }

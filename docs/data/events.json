@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-14T17:29:42.343521+00:00",
-  "count": 387,
+  "generated_at": "2026-06-14T17:35:09.667486+00:00",
+  "count": 386,
   "sources": [
     {
       "source": "Quälgeist",
@@ -19,7 +19,7 @@
     },
     {
       "source": "Berlin Bühnen",
-      "count": 107,
+      "count": 106,
       "error": null
     },
     {
@@ -348,21 +348,6 @@
       ],
       "time_known": true,
       "genre": "Polit"
-    },
-    {
-      "title": "Spooky Paradise",
-      "start": "2026-06-14T19:30:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/be7c0aef9bc2e5a24d53018082778570.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/spooky-paradise/events/369284/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true,
-      "genre": "Kultur"
     },
     {
       "title": "Open Sunday",

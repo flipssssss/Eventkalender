@@ -41,6 +41,7 @@ const els = {
   sourceToggles: document.getElementById("source-toggles"),
   wishText: document.getElementById("wish-text"),
   wishSend: document.getElementById("wish-send"),
+  wishList: document.getElementById("wish-list"),
 };
 
 const DAY_FMT = new Intl.DateTimeFormat("de-DE", {
@@ -131,14 +132,50 @@ function setupSettings() {
     btn.addEventListener("click", () => setTheme(btn.dataset.theme));
   }
 
-  // Source wish -> prefilled GitHub issue.
+  // Source wishes -> simple local list, no login.
   els.wishSend.addEventListener("click", () => {
     const text = (els.wishText.value || "").trim();
     if (!text) { els.wishText.focus(); return; }
-    const url = "https://github.com/" + REPO + "/issues/new?title=" +
-      encodeURIComponent("Quellen-Wunsch") + "&body=" + encodeURIComponent(text);
-    window.open(url, "_blank", "noopener");
+    const wishes = loadWishes();
+    wishes.push(text);
+    saveWishes(wishes);
+    els.wishText.value = "";
+    renderWishes();
   });
+  renderWishes();
+}
+
+function renderWishes() {
+  const wishes = loadWishes();
+  els.wishList.innerHTML = "";
+  wishes.forEach((text, i) => {
+    const li = document.createElement("li");
+    li.className = "wish-item";
+    const span = document.createElement("span");
+    span.textContent = text;
+    const del = document.createElement("button");
+    del.className = "wish-del";
+    del.setAttribute("aria-label", "Entfernen");
+    del.textContent = "✕";
+    del.addEventListener("click", () => {
+      const list = loadWishes();
+      list.splice(i, 1);
+      saveWishes(list);
+      renderWishes();
+    });
+    li.appendChild(span);
+    li.appendChild(del);
+    els.wishList.appendChild(li);
+  });
+}
+
+function loadWishes() {
+  try { return JSON.parse(localStorage.getItem("ek_wishes") || "[]"); }
+  catch { return []; }
+}
+function saveWishes(list) {
+  try { localStorage.setItem("ek_wishes", JSON.stringify(list)); }
+  catch { /* ignore */ }
 }
 
 function setTheme(theme) {

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-14T08:33:33.704272+00:00",
-  "count": 412,
+  "generated_at": "2026-06-14T17:29:42.343521+00:00",
+  "count": 387,
   "sources": [
     {
       "source": "Quälgeist",
@@ -14,12 +14,12 @@
     },
     {
       "source": "Stressfaktor",
-      "count": 300,
+      "count": 270,
       "error": null
     },
     {
       "source": "Berlin Bühnen",
-      "count": 112,
+      "count": 107,
       "error": null
     },
     {
@@ -35,384 +35,6 @@
   ],
   "events": [
     {
-      "title": "Weberwiese Kiezfest",
-      "start": "2026-06-13T14:00:00",
-      "end": null,
-      "location": "Gubener Straße Ecke Grünberger Straße 10243 Berlin Deutschland",
-      "description": "Save the Date: Weberwiese Kiezfest 2026 Am 13. Juni 2026 feiern wir zum vierten Mal in Folge unser Weberwiese Kiezfest – und setzen erneut ein klares Zeichen für unseren Kiez!",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/326762",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Konzert"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "🛟Save Our Spree - Aktionstag💧",
-      "start": "2026-06-13T14:00:00",
-      "end": null,
-      "location": "Treptower Park Berlin Deutschland",
-      "description": "Kundgebung, Fest, Protestschwimmen und mehr! Die Spree ist bedroht. Wir werden aktiv.🚰Unser Trinkwasser stammt zu großen Teilen aus der Spree. Doch die Spree hat ein Problem:💧Sie besteht zum Großteil aus dem abgepumpten Grubenwasser der Tagebaue in der Lausitz.",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327198",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Protest"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Fayatak Festival 2026",
-      "start": "2026-06-13T14:00:00",
-      "end": null,
-      "location": "Jugendkulturzentrum M24 Mühlenstr.24, 13187 Berlin Deutschland",
-      "description": "English below Am 13. Juni verwandelt sich das Jugendkulturzentrum m24 in Berlin-Pankow wieder in den Place-to-be für alle, die Bock auf Newcomer-Acts und entspannte Festival-Vibes haben...\nDas FAYATAK (ehemals Klimatak) ist zurück 🔥",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327348",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Konzert"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Tropenbude Bar und Garten offen",
-      "start": "2026-06-13T14:00:00",
-      "end": null,
-      "location": "Villa Kuriosum Scheffelstr. 21 10367 Berlin Deutschland",
-      "description": "Die Tropenbude Bar und der Garten der Villa Kuriosum sind geöffnet.Samstag von 14-21Uhr.\nAnsonsten gibt es Kaffee, Kuchen, Snacks, Bier, Drinks, Natur und Kultur .\nProgramm -> schaut Bitte auf unsere Website.\nKeine Hunde bitte, no dogs please - Katzengarten.",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327377",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Essen"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Demo gegen die digitale Aufrüstung der Polizei",
-      "start": "2026-06-13T14:00:00",
-      "end": null,
-      "location": "Warschauer Brücke Warschauer Brücke Berlin Deutschland",
-      "description": "Keine biometrische Massenüberwachung und KI-Fahndung durch Palantir & Co\nTreffpunkt: Warschauer Str. / Marchlewskistr., Berlin, 14 Uhr\nDemoroute:",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327554",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Sonstiges"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Demo: Gegen die digitale Aufrüstung der Polizei!",
-      "start": "2026-06-13T14:00:00",
-      "end": null,
-      "location": "U-Bhf Warschauer Straße 10243 Berlin Deutschland",
-      "description": "Demo: Gegen die digitale Aufrüstung der Polizei! Keine biometrische Massenüberwachung und KI-Fahndung durch Palantir & Co\nWann? Am 13. Juni 2026, 14 Uhr\nWo? Warschauer Straße / Marchlewskistraße",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327564",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Protest"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Save our Spree - Trinkwasser retten!",
-      "start": "2026-06-13T14:00:00",
-      "end": null,
-      "location": "Treptower Park Berlin Deutschland",
-      "description": "Am Samstag, den 13. Juni, laden wir euch ein, unter dem Motto „Save our Spree“ gemeinsam mit zahlreichen Initiativen, Vereinen, Umweltverbänden, Forschungsinstituten und Kunstprojekten ein Zeichen zu setzen.",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327619",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Protest"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Soli-Sommermarkt",
-      "start": "2026-06-13T14:00:00",
-      "end": null,
-      "location": "Villa Kuriosum Scheffelstr. 21 10367 Berlin Deutschland",
-      "description": "Wir zelebrieren den Sommer und laden euch herzlich zum Soli-Markt für Selbstgemachtes, Kunst & Kurioses ein. Oben drauf gibt’s Musik, Performances und spontane Überraschungen, u.a.",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327643",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Essen"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Demo: Gegen KI-Überwachung – Für Freiheit und Selbstbestimmung!",
-      "start": "2026-06-13T14:00:00",
-      "end": null,
-      "location": "Warschauer Straße/Marchlewskistraße 10243 Berlin Deutschland",
-      "description": "STAB OUT THE EYES OF THE STATE!",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327713",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Protest"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Demo: Gegen KI-Überwachung – Für Freiheit und Selbstbestimmung!",
-      "start": "2026-06-13T14:00:00",
-      "end": null,
-      "location": "Warschauer Straße/Marchlewskistraße 10243 Berlin Deutschland",
-      "description": "STAB OUT THE EYES OF THE STATE!",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327714",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Protest"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Space Inavders - Open air Party at Kollage Kollectiv HQ",
-      "start": "2026-06-13T14:00:00",
-      "end": null,
-      "location": "S Bahn Greifswalder Berlin Deutschland",
-      "description": "Get your space kit together for another crazy ride in our containers galaxy.You already know the coordinates: 52.541730° N, 13.433952° E aka Lili-Henoch-Straße 21, 10405 Berlin aka Kollage Kollectiv HQ.",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327760",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Konzert"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Bethanien Südflügel Sommerfest",
-      "start": "2026-06-13T15:00:00",
-      "end": null,
-      "location": "Der Preis ist heiß New Yorck im Bethanien Mariannenplatz 2A 10997 Berlin Deutschland",
-      "description": "EN & FR below\n🔥 Bethanien Südflügel Sommerfest 🔥",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327576",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Konzert"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Beziehungsweise Anarchie Lesung",
-      "start": "2026-06-13T15:00:00",
-      "end": null,
-      "location": "Der Preis ist heiß New Yorck im Bethanien Mariannenplatz 2A 10997 Berlin Deutschland",
-      "description": "Anarcha-Café: Beziehungsweise Anarchie Dieses Mal ist unser Anarcha-Café Teil vom Sommerfest Südflügel Bethanien! 🎉\nWir freuen uns, BEA mit einer Lesung aus „Beziehungsweise Anarchie\" vorzustellen",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327646",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Diskussion"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Kundgebung: Unser Protest geht weiter - für Vorkaufsrecht und Milieuschutz",
-      "start": "2026-06-13T15:00:00",
-      "end": null,
-      "location": "Mecklenburgische Straße 89 10713 Berlin Deutschland",
-      "description": "Protestkundgebung vor unserem Haus in der Mecklenburgischen Straße 89 in Berlin-WilmersdorfUnser Haus wurde erneut verkauft und befindet sich aktuell wieder mitten in \neinem laufenden Vorkaufsrechtsverfahren.",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327764",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Protest"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "nd Fest - 80 Jahre nd",
-      "start": "2026-06-13T15:30:00",
-      "end": null,
-      "location": "FMP1 Franz-Mehring-Platz 1, 10243 Berlin Deutschland",
-      "description": "💫 80 Jahre »nd« 💫 Wir laden ein zur Geburtstagssause am 13. Juni: Ab 15:30 Uhr bis in die Puppen wollen wir mit Euch bei uns im Haus und Hof (Franz-Mehring-Platz 1) feiern.",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327732",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Konzert"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Monatliche Massendemonstration für Palästina in Berlin",
-      "start": "2026-06-13T16:00:00",
-      "end": null,
-      "location": "O-Platz Oranienplatz 10999 Berlin Deutschland",
-      "description": "(english below) Geht auf die Straße! Schließt euch dem Widerstand gegen die zionistische Entität an für die Freiheit aller Gefangenen, für ein Ende der Besatzung und für ein freies Palästina. Am 30.",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327728",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Protest"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Rundgang Ausstellung „Die Anarchie ist das Leben der Menschen, die dem Joche entronnen sind.“",
-      "start": "2026-06-13T17:30:00",
-      "end": null,
-      "location": "Anti-Kriegs-Museum Berlin Brüsseler Str. 21 13353 Berlin Deutschland",
-      "description": "Gustav Landauers Schrift „Die Abschaffung des Krieges durch die Selbstbestimmung des Volkes“ ist in Zeiten mannigfaltiger Kriege aktueller denn je.",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/326570",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Ausstellung"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Konzert: Elf Füsse",
-      "start": "2026-06-13T18:30:00",
-      "end": null,
-      "location": "Regenbogenfabrik Lausitzer Str. 21a 10999 Berlin Deutschland",
-      "description": "--- Einlass 18:30, Beginn 19:00 | RegenbogenKino ---",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/326817",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Konzert"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "AKaF KüfA + Chirigota Berlin - 13.06.2026",
-      "start": "2026-06-13T18:30:00",
-      "end": null,
-      "location": "Bandito Rosso Lottumstr. 10a 10119 Berlin Deutschland",
-      "description": "** English below ** Deutsch AKaF KüfA + Chirigota Berlin 13.06.2026 @ Banditorosso(Lottumstr. 10A, 10119 Berlin)\n18:30 Uhr Einlass\n19:00 Uhr Chirigota Berlin",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327685",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Konzert"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "10 Jahre nach dem rechten Anschlag am OEZ München",
-      "start": "2026-06-13T19:00:00",
-      "end": null,
-      "location": "Schreina47 Schreinerstr. 47 10245 Berlin Deutschland",
-      "description": "TOP B3rlin und Antifa NT aus München laden zum Vortrag: \n10 Jahre nach dem rechten Anschlag am OEZ München - Antifa heißt Erinnern -",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327260",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Diskussion"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Konzert",
-      "start": "2026-06-13T19:00:00",
-      "end": null,
-      "location": "Schokoladen Ackerstrasse 169 10115 Berlin Deutschland",
-      "description": "thirsty & miserable prsnts: Trainer [no wave noise rock°saarbrücken] + AACKR [instrumental post noise°köln]",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327320",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Konzert"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Konzert & BBQ",
-      "start": "2026-06-13T19:00:00",
-      "end": null,
-      "location": "Potsdam Hbf (Babelsberger Seite) Potsdam Hbf (Babelsberger Seite) Deutschland",
-      "description": "BRIEFBOMBE (fastHC'n'punk / Hambuärch) , EARTH CRUST DISPLACEMENT (rawdbeat'n'noise / BerlIH!n) , WÜT (hartchormäddlpanx / PerlIH!n) \nLA'DXTXCXA POTSDAM, BEACH: 17:00, BBQ: 19:00, ROCK: 21:00Babelsberger Park",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327729",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Konzert"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Kneipenquiz: Straße der Besten",
-      "start": "2026-06-13T19:30:00",
-      "end": null,
-      "location": "Baiz Schönhauser Allee 26 A 10435 Berlin Deutschland",
-      "description": "Quizshow für Ratekollektive von 2-5 Leuten. Es gibt wie immer keine Teilnahmegebühr, dem zweiten und letzten Team winkt jeweils Perlwein, den Gewinnern dafür viel Ruhm. Kontakt unter quiz[ät]baiz.info möglich.",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327321",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Sonstiges"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "F*impro: Feminismus meets Impro",
-      "start": "2026-06-13T19:30:00",
-      "end": null,
-      "location": "Grüner Salon, Volksbühne, Rosa-Luxemburg-Platz 2 10178 Berlin Deutschland",
-      "description": "Liebe Freund*innen, wir möchten euch herzlich zu unserer nächsten Ausgabe von \"F*impro – die Show\" einladen: Samstag, 13. Juni 2026 \nGrüner Salon in der Volksbühne",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327673",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Die Liedermacher*innenliga Thema:“Wäscheklammer“",
-      "start": "2026-06-13T20:00:00",
-      "end": null,
-      "location": "Archiv Potsdam Berlin Deutschland",
-      "description": "Die Liedermacher*innenliga ist ein musikalischer Wettstreit bei dem die Teilnehmenden ein Lied zu einem vorher ausgerufenen Thema schreiben um sich damit einer Jury zu stellen.",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327264",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Konzert"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Konzert: Low Ceiling, Maschinenbrut, Hephaestus",
-      "start": "2026-06-13T20:00:00",
-      "end": null,
-      "location": "Trixxxter Kreuzberg Berlin Deutschland",
-      "description": "Low Ceiling (indie-rock/post-punk, Aigio GR), Maschinenbrut (post/punk/rock, Berlin), Hephaestus (doom/sludge, Berlin)",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327583",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Konzert"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Punk Gig",
-      "start": "2026-06-13T20:00:00",
-      "end": null,
-      "location": "Zielona Góra Grünbergerstr. 73 10245 Berlin Deutschland",
-      "description": "Punk gig in solidarity and support for anarchist prisoners Marianna M. And Dimitra Z., accused for the Ampelokipi case in Athens, Greece. Kyriakos Xymitiris–Always present in our struggles.",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327590",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Konzert"
-      ],
-      "time_known": true
-    },
-    {
       "title": "Kaiser Pommes",
       "start": "2026-06-13T20:00:00",
       "end": null,
@@ -424,21 +46,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
-    },
-    {
-      "title": "Konzert",
-      "start": "2026-06-13T21:30:00",
-      "end": null,
-      "location": "Supamolly Jessnerstr. 41 10247 Berlin Deutschland",
-      "description": "The Berry und Snailmate (Punk Rap Gutter Poetry)",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327440",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Konzert"
-      ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Big Gay Market",
@@ -452,7 +61,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "Guided Tour : „Speaking of Sex”",
@@ -466,35 +76,8 @@
       "tags": [
         "Ausstellung"
       ],
-      "time_known": true
-    },
-    {
-      "title": "Neocypherpunk Summit",
-      "start": "2026-06-14T10:00:00",
-      "end": null,
-      "location": "Berlin Berlin Deutschland",
-      "description": "Gathering at Berlin's historic Funkhaus, the Neocypherpunk Summit brings together a global network of hacktivists, researchers, technologists, whistleblowers, philosophers, lawyers & policy-makers.",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/326110",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Diskussion"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Abhishek Thapar: Soft Pressure (Working Title)",
-      "start": "2026-06-14T11:00:00",
-      "end": null,
-      "location": "Sophiensæle",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/5dc2ebb12fe64cacb14065c98bb2af8e.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/abhishek-thapar-soft-pressure-working-title/events/368406/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "Führung : „Apropos Sex”",
@@ -508,77 +91,8 @@
       "tags": [
         "Ausstellung"
       ],
-      "time_known": true
-    },
-    {
-      "title": "Kiezversammlung44 - Selbstorganisiertes Treffen zur Wohnkrise in Nordneukölln",
-      "start": "2026-06-14T12:00:00",
-      "end": null,
-      "location": "Casinoooo Sonnenallee 100 12045 Berlin Deutschland",
-      "description": "Die Kiezversammlung ist ein monatlicher, nachbarschaftlicher Austausch zu Problemen im Kiez, mit Vermietern, Hausverwaltungen, Chefs und der kapitalistischer Stadtentwicklung.\nLasst uns vernetzen gegen den Ausverkauf der Stadt!Kommen wir zusammen zur Kiezversammlung44!",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/325428",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Protest"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Solidarity Brunch",
-      "start": "2026-06-14T12:00:00",
-      "end": null,
-      "location": "Bilgisaray Oranienstr. 45 Berlin Deutschland",
-      "description": "SOLIDARITY BRUNCH - FOR THE RIGHT TO STAY🕙14.06.26, 12 - 4pm📍Bilgisaray, Oranienstraße 45🥗🥐 delicious egyptian food (vegan and vegetarian)☕️🍵 coffee, tea (also coffee to go) Donations recomendation: 7€ - 10€",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327748",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Essen"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Kolumbien Vereint für ein besseres Leben!",
-      "start": "2026-06-14T12:00:00",
-      "end": null,
-      "location": "Berlin Berlin Deutschland",
-      "description": "Mit dieser Veranstaltung möchten wir Solidaritätsnetzwerke in Kolumbien unterstützen. Kommt vorbei, esst und bringt etwas zum (Sieb)bedrucken mit! \nWith this event, we aim to support mutual aid networks in Colombia. Come, eat, and bring others along!",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327769",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Konzert"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "📖 Infoladen Scherer 8 📖",
-      "start": "2026-06-14T13:00:00",
-      "end": null,
-      "location": "Infoladen Scherer Schererstraße 8 13347 Berlin Deutschland",
-      "description": "[EN below] Vernetzt euch im Berliner Norden! Zum Austausch über anarchistische, (queer-)feministische, antifaschistische, ökologische und stadtpolitische Themen ist der selbstorganisierte Infoladen jeden Sonntag für euch geöffnet.",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/324710",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Sonstiges"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Kiezspaziergang",
-      "start": "2026-06-14T13:00:00",
-      "end": null,
-      "location": "Regenbogenfabrik Lausitzer Str. 21a 10999 Berlin Deutschland",
-      "description": "Kiezspaziergang durch das „widerständige SO36“\nFür alle, die wissen möchten, warum Kreuzberg in den 1980er Jahren der bekannteste Bezirk Berlins war und bis heute etwas „Besonderes“ ist\n- in deutscher Sprache",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327535",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Sonstiges"
-      ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "Stadtrundgang: Obdachlos, politisiert, zu Hause in Berlin",
@@ -592,7 +106,8 @@
       "tags": [
         "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Repair Café",
@@ -604,9 +119,10 @@
       "source_url": "https://stressfaktor.squat.net/node/327688",
       "source_name": "Stressfaktor",
       "tags": [
-        "Sonstiges"
+        "Workshop"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Soli-Sommermarkt",
@@ -620,35 +136,8 @@
       "tags": [
         "Essen"
       ],
-      "time_known": true
-    },
-    {
-      "title": "Soli-Sommermarkt",
-      "start": "2026-06-14T14:00:00",
-      "end": null,
-      "location": "Villa Kuriosum Scheffelstr. 21 10367 Berlin Deutschland",
-      "description": "Wir zelebrieren den Sommer und laden euch herzlich zum Soli-Markt für Selbstgemachtes, Kunst & Kurioses ein. Oben drauf gibt’s Musik, Performances und spontane Überraschungen, u.a.",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327779",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Essen"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Soli-Sommermarkt",
-      "start": "2026-06-14T14:00:00",
-      "end": null,
-      "location": "Villa Kuriosum Scheffelstr. 21 10367 Berlin Deutschland",
-      "description": "Wir zelebrieren den Sommer und laden euch herzlich zum Soli-Markt für Selbstgemachtes, Kunst & Kurioses ein. Oben drauf gibt’s Musik, Performances und spontane Überraschungen, u.a.",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327780",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Essen"
-      ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Honey & Spice",
@@ -660,9 +149,10 @@
       "source_url": "https://quaelgeist.sm/event/honey-spice-28/",
       "source_name": "Quälgeist",
       "tags": [
-        "Kink"
+        "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kink"
     },
     {
       "title": "Workshop",
@@ -674,9 +164,10 @@
       "source_url": "https://stressfaktor.squat.net/node/325076",
       "source_name": "Stressfaktor",
       "tags": [
-        "Essen"
+        "Workshop"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Offene Bibliothek UJZ Karslhorst",
@@ -690,7 +181,8 @@
       "tags": [
         "Ausstellung"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Tropenbude Bar und Garten offen",
@@ -704,7 +196,8 @@
       "tags": [
         "Essen"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "anarcha repair cafe/ sewing workshop",
@@ -716,23 +209,10 @@
       "source_url": "https://stressfaktor.squat.net/node/327759",
       "source_name": "Stressfaktor",
       "tags": [
-        "Essen"
+        "Workshop"
       ],
-      "time_known": true
-    },
-    {
-      "title": "Bum Bum Musik",
-      "start": "2026-06-14T15:00:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/ac375b604f96807d54560c1f3a966a73.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/bum-bum-musik/events/370171/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Märchenstunde auf Vietnamesisch, Russisch und Deutsch",
@@ -746,7 +226,8 @@
       "tags": [
         "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Second Hand Market",
@@ -760,7 +241,8 @@
       "tags": [
         "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Protest the WEF: Strategien für Globale Solidarität",
@@ -772,9 +254,10 @@
       "source_url": "https://stressfaktor.squat.net/node/327626",
       "source_name": "Stressfaktor",
       "tags": [
-        "Diskussion"
+        "Workshop"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "K19 KONZERT",
@@ -788,35 +271,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
-    },
-    {
-      "title": "Abschiedsfest",
-      "start": "2026-06-14T17:00:00",
-      "end": null,
-      "location": "Maxim Gorki Theater",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/f71f35389a63d8c8520cc43b244050cf.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/abschiedsfest/events/365190/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Laurie Young: After Work Tours #1",
-      "start": "2026-06-14T17:30:00",
-      "end": null,
-      "location": "Sophiensæle",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/6a23c2590b8712b258382ae842c96e31.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/laurie-young-after-work-tours-1/events/367968/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Film & Talk: Weiße Nächte in Hellblau & Rosa",
@@ -830,7 +286,8 @@
       "tags": [
         "Film"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Chillout Jam",
@@ -844,21 +301,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
-    },
-    {
-      "title": "Glaube, Geld, Krieg und Liebe",
-      "start": "2026-06-14T18:00:00",
-      "end": null,
-      "location": "Schaubühne am Lehniner Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/9932aee668ccaaf89bcda56c1294ae72.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/glaube-geld-krieg-liebe/events/367253/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "BIPOC Utopias: Ace & Aro",
@@ -870,9 +314,10 @@
       "source_url": "https://karada-house.de/events/bipoc-utopias-ace-aro/",
       "source_name": "Karada House",
       "tags": [
-        "Kink"
+        "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kink"
     },
     {
       "title": "OffenesTreffendesprovisorischenanarchistischenAntikriegsrats",
@@ -886,35 +331,8 @@
       "tags": [
         "Sonstiges"
       ],
-      "time_known": true
-    },
-    {
-      "title": "Liina Magnea: What’s a Mob to a King (Plot-twist Redemption)",
-      "start": "2026-06-14T19:00:00",
-      "end": null,
-      "location": "Sophiensæle",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/730668c193e9b31324e2cf5e87d3a87c.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/liina-magnea-whats-a-mob-to-a-king-plot-twist-redemption/events/367985/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "Ein Stück: Tschechien: Nachlese 2026 – Ophelia OnlyFans",
-      "start": "2026-06-14T19:00:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/80bf05f7a4b6fad9ee6795be8c8190a7.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/ein-stueck-tschechien-nachlese-2026-ophelia-onlyfans/events/368122/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Tea. thoughts and theories",
@@ -928,21 +346,8 @@
       "tags": [
         "Sonstiges"
       ],
-      "time_known": true
-    },
-    {
-      "title": "Spooky Paradise",
-      "start": "2026-06-14T19:30:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/be7c0aef9bc2e5a24d53018082778570.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/spooky-paradise/events/368918/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Spooky Paradise",
@@ -956,7 +361,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Open Sunday",
@@ -970,7 +376,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Paradiesische Zustände",
@@ -984,7 +391,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "NOT FUCKABLE",
@@ -998,7 +406,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Adam Winchester",
@@ -1012,7 +421,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Messy Salon #1",
@@ -1026,7 +436,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Konzert im K (F)",
@@ -1040,7 +451,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Konferenz: „Verbinden statt spalten – Gemeinsam gegen Queerfeindlichkeit“",
@@ -1054,7 +466,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "Die Montagsspieler",
@@ -1068,7 +481,8 @@
       "tags": [
         "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "Queer Yoga - Monday Fire",
@@ -1082,7 +496,8 @@
       "tags": [
         "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "All-Gender-Fußball",
@@ -1096,7 +511,8 @@
       "tags": [
         "Party"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "Blue Monday Chillout",
@@ -1108,9 +524,10 @@
       "source_url": "https://quaelgeist.sm/event/blue-monday-chillout-58/",
       "source_name": "Quälgeist",
       "tags": [
-        "Kink"
+        "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kink"
     },
     {
       "title": "Fahrrad-Selbsthilfe-Werkstatt",
@@ -1124,7 +541,8 @@
       "tags": [
         "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Queer Yoga - Slow Flow",
@@ -1138,7 +556,8 @@
       "tags": [
         "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "Vernetzung der Mieter/innen der landeseigenen Wohnungsunternehmen (LWU Vernetzung)",
@@ -1152,7 +571,8 @@
       "tags": [
         "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "Offene Mietenberatung",
@@ -1166,21 +586,8 @@
       "tags": [
         "Sonstiges"
       ],
-      "time_known": true
-    },
-    {
-      "title": "Offene Mietenberatung",
-      "start": "2026-06-15T18:30:00",
-      "end": null,
-      "location": "Baiz Schönhauser Allee 26 A 10435 Berlin Deutschland",
-      "description": "Mietenberatung mit RA Henrik Solf und Unterstützung der Mietergemeinschaft Prenzlauer Berg",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/326445",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Sonstiges"
-      ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Offene Mieterberatung",
@@ -1194,7 +601,8 @@
       "tags": [
         "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Rope for Absolute Beginners",
@@ -1206,9 +614,10 @@
       "source_url": "https://karada-house.de/events/rope-for-absolute-beginner-150626/",
       "source_name": "Karada House",
       "tags": [
-        "Kink"
+        "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kink"
     },
     {
       "title": "Intro to Suspension",
@@ -1220,9 +629,10 @@
       "source_url": "https://karada-house.de/events/intro-to-suspension-part2/",
       "source_name": "Karada House",
       "tags": [
-        "Kink"
+        "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kink"
     },
     {
       "title": "Soli-Bleiberechtsbar",
@@ -1236,7 +646,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Konzert",
@@ -1250,7 +661,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Konzert",
@@ -1264,7 +676,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "Gesellschaft erkennen, kritisieren und verändern.",
@@ -1278,7 +691,8 @@
       "tags": [
         "Diskussion"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Anarchist Dinner: Free the Ulm 5!",
@@ -1292,7 +706,8 @@
       "tags": [
         "Diskussion"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "OffenesTreffendesprovisorischenanarchistischenAntikriegsrats",
@@ -1306,7 +721,8 @@
       "tags": [
         "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Liina Magnea: What’s a Mob to a King (Plot-twist Redemption)",
@@ -1320,7 +736,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "FLINTA* LESEKREIS",
@@ -1334,7 +751,8 @@
       "tags": [
         "Essen"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "Geht es dir gut?",
@@ -1348,7 +766,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Ulm5 Prozess-Update - Anarchist Dinner",
@@ -1362,7 +781,8 @@
       "tags": [
         "Diskussion"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Call me Paris",
@@ -1376,7 +796,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Electric Monday",
@@ -1390,7 +811,8 @@
       "tags": [
         "Party"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "Filmabend inK(P)",
@@ -1404,7 +826,8 @@
       "tags": [
         "Film"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "10,000 Blinks presents: I AM STILL ALIVE",
@@ -1418,7 +841,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Konferenz: „Verbinden statt spalten – Gemeinsam gegen Queerfeindlichkeit“",
@@ -1432,7 +856,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "Runder Tisch Queeres Steglitz-Zehlendorf",
@@ -1446,7 +871,8 @@
       "tags": [
         "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "Flinta*only Kickern",
@@ -1460,7 +886,8 @@
       "tags": [
         "Essen"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "Kiezküche im Kiezhaus Agnes Reinhold",
@@ -1474,7 +901,23 @@
       "tags": [
         "Essen"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
+    },
+    {
+      "title": "IT-Beratung für Aktivist:innen und Gruppen",
+      "start": "2026-06-16T18:00:00",
+      "end": null,
+      "location": "WikiBär Köpenicker Str. 45 10179 Berlin Deutschland",
+      "description": "Themen:\n\nSmartphone-Beratung & Hardware (GrapheneOS, iOS)\nLaptop-Beratung & Installationsservice (Fedora Linux, chromeOS Flex)\n\"Upcycling\" von älteren Geräten für Solizwecke\nFreifunk-Beratung\n\nSprachen: Deutsch, Englisch",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327526",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Workshop"
+      ],
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Queer Ageing Group",
@@ -1488,7 +931,8 @@
       "tags": [
         "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "SM am Dienstag - SM on Tuesday",
@@ -1500,9 +944,10 @@
       "source_url": "https://quaelgeist.sm/event/sm-am-dienstag-sm-on-tuesday-61/",
       "source_name": "Quälgeist",
       "tags": [
-        "Kink"
+        "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kink"
     },
     {
       "title": "How To Play...",
@@ -1514,9 +959,10 @@
       "source_url": "https://karada-house.de/events/how-to-play/",
       "source_name": "Karada House",
       "tags": [
-        "Kink"
+        "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kink"
     },
     {
       "title": "Rope Structures: Exploring Different Tying Styles",
@@ -1528,9 +974,10 @@
       "source_url": "https://karada-house.de/events/exploring-shibari-styles-berlin-0626/",
       "source_name": "Karada House",
       "tags": [
-        "Kink"
+        "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kink"
     },
     {
       "title": "anarcha solidarity kitchen",
@@ -1544,7 +991,8 @@
       "tags": [
         "Essen"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "Breaking News - offener politischer Treff (14-27 Jahre)",
@@ -1558,35 +1006,8 @@
       "tags": [
         "Sonstiges"
       ],
-      "time_known": true
-    },
-    {
-      "title": "Breaking News - offener politischer Treff (14-27 Jahre)",
-      "start": "2026-06-16T19:00:00",
-      "end": null,
-      "location": "Café Köpenick Seelenbinderstr. 54 12555 Berlin Deutschland",
-      "description": "Du hast Bock, über das aktuelle Weltgeschehen zu quatschen, Nachrichten einzuordnen und zu diskutieren? Egal, ob du schon politisch aktiv bist oder einfach neugierig – bei uns bist du willkommen!",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/325866",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Sonstiges"
-      ],
-      "time_known": true
-    },
-    {
-      "title": "anarcha solidarity kitchen",
-      "start": "2026-06-16T19:00:00",
-      "end": null,
-      "location": "Martha Bethaniendamm Berlin Deutschland",
-      "description": "dear queerfeminist worker! lets come together to mulled wine/ punch and a comfy time warm vegan meal from 8pmbethaniendamm 26 (look out for a stand up display)more infos and program in our telegram group",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/326277",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Essen"
-      ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Soli-Küfa",
@@ -1600,7 +1021,8 @@
       "tags": [
         "Essen"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Lesung",
@@ -1614,7 +1036,8 @@
       "tags": [
         "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Film: The History of Sound",
@@ -1628,7 +1051,8 @@
       "tags": [
         "Film"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "Queercoustic Hangout",
@@ -1642,7 +1066,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "Egal",
@@ -1656,7 +1081,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Ich weiß nicht, was ein Ort ist, ich kenne nur seinen Preis (Manzini-Studien)",
@@ -1670,7 +1096,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Flinta*only Kickern",
@@ -1684,7 +1111,8 @@
       "tags": [
         "Essen"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "Shipwrecked jam 16 + anarcha soli kitchen",
@@ -1698,7 +1126,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "DER SOLDAT. Ein Übergangsritual",
@@ -1712,7 +1141,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Im Herzen der Gewalt",
@@ -1726,7 +1156,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Fragezeichen am Hörizont der Tauben",
@@ -1740,7 +1171,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Two-Song Tuesday (MUSIC STARTS 20:00)",
@@ -1754,7 +1186,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "LatinoKino",
@@ -1768,7 +1201,8 @@
       "tags": [
         "Film"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Hamsterrad",
@@ -1782,7 +1216,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "Projektband für Frauen* und Queers",
@@ -1796,7 +1231,8 @@
       "tags": [
         "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "Die Welt im Umbruch: Emotionen und Solidarität",
@@ -1808,9 +1244,10 @@
       "source_url": "https://stressfaktor.squat.net/node/327682",
       "source_name": "Stressfaktor",
       "tags": [
-        "Sonstiges"
+        "Workshop"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Theaterführung",
@@ -1824,7 +1261,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "mittwochskufa",
@@ -1838,7 +1276,8 @@
       "tags": [
         "Essen"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Küfa im JUP",
@@ -1852,7 +1291,8 @@
       "tags": [
         "Essen"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Political Movie Night :  \"Wildstreik\" Köln 1973",
@@ -1866,7 +1306,8 @@
       "tags": [
         "Film"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Filmvorführung \"Every Body\" und Diskussion",
@@ -1880,7 +1321,8 @@
       "tags": [
         "Film"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "Häkelhektar",
@@ -1894,7 +1336,8 @@
       "tags": [
         "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "#Logoskop vierundvierzig",
@@ -1908,7 +1351,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Bingo mit den Wodkasisters",
@@ -1922,21 +1366,8 @@
       "tags": [
         "Party"
       ],
-      "time_known": true
-    },
-    {
-      "title": "Romani POV: Young Roma on Screen and Stage",
-      "start": "2026-06-17T18:30:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/3007a0c914514768c01528563c715ae9.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/romani-pov-young-roma-on-screen-and-stage/events/368113/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "Beziehungskiller Wohnungskrise – Über das Zusammenleben unter Bedingungen der Knappheit",
@@ -1950,7 +1381,23 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
+    },
+    {
+      "title": "Romani POV: Young Roma on Screen and Stage",
+      "start": "2026-06-17T18:30:00",
+      "end": null,
+      "location": "Volksbühne am Rosa-Luxemburg-Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/3007a0c914514768c01528563c715ae9.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/romani-pov-young-roma-on-screen-and-stage/events/368113/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Hypnose Stammtisch & Anfänger*innen / Beginners Workshop: Was ist Hypnose und was kann das?",
@@ -1962,9 +1409,10 @@
       "source_url": "https://quaelgeist.sm/event/hypnose-stammtisch-workshop-thema-steht-noch-nicht-fest-template-3/",
       "source_name": "Quälgeist",
       "tags": [
-        "Kink"
+        "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kink"
     },
     {
       "title": "Radical Inclusion",
@@ -1976,9 +1424,10 @@
       "source_url": "https://karada-house.de/events/radical-inclusion/",
       "source_name": "Karada House",
       "tags": [
-        "Kink"
+        "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kink"
     },
     {
       "title": "Queer Rope Jam",
@@ -1990,9 +1439,10 @@
       "source_url": "https://karada-house.de/events/queer-rope-jam-0626/",
       "source_name": "Karada House",
       "tags": [
-        "Kink"
+        "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kink"
     },
     {
       "title": "Soli-Küfa, jeden Mittwoch 19 Uhr",
@@ -2006,7 +1456,8 @@
       "tags": [
         "Essen"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Konzert",
@@ -2020,7 +1471,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Soli-Abend Nein zur Bezahlkarte",
@@ -2034,7 +1486,8 @@
       "tags": [
         "Protest"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Fermentationsworkshop - Can you jam that?",
@@ -2046,9 +1499,10 @@
       "source_url": "https://stressfaktor.squat.net/node/327716",
       "source_name": "Stressfaktor",
       "tags": [
-        "Sonstiges"
+        "Workshop"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Lesekreis: Die Überlegenheit der Unterlegenen. Eine Theorie der Gegengemeinschaften - Daniel Loick",
@@ -2062,7 +1516,8 @@
       "tags": [
         "Diskussion"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "STRESS POSITIONS - NERVE CENTER - RYTES",
@@ -2076,7 +1531,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "DER SOLDAT. Ein Übergangsritual",
@@ -2090,7 +1546,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "P14 – endlich endlich",
@@ -2104,7 +1561,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "90 Jahre Ken Loach: Kes (OmU)",
@@ -2118,7 +1576,8 @@
       "tags": [
         "Film"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Egal",
@@ -2132,7 +1591,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Fantômas",
@@ -2146,7 +1606,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "KüFa (Kitchen for all)",
@@ -2160,7 +1621,8 @@
       "tags": [
         "Film"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Im Herzen der Gewalt",
@@ -2174,7 +1636,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "TWINK DEATH",
@@ -2188,7 +1651,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Cravo e Canela 4tet",
@@ -2202,7 +1666,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Vegane Küfa",
@@ -2216,7 +1681,8 @@
       "tags": [
         "Essen"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "VideoKino (Open Air)",
@@ -2230,7 +1696,8 @@
       "tags": [
         "Film"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Qigong & Taiji für deine Lebensenergie!",
@@ -2244,7 +1711,8 @@
       "tags": [
         "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "Die solidarische Jobcenter-Sozialberatung",
@@ -2256,9 +1724,10 @@
       "source_url": "https://stressfaktor.squat.net/node/321607",
       "source_name": "Stressfaktor",
       "tags": [
-        "Sonstiges"
+        "Workshop"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Solicafé Klatsche",
@@ -2272,21 +1741,8 @@
       "tags": [
         "Ausstellung"
       ],
-      "time_known": true
-    },
-    {
-      "title": "Solicafé Klatsche",
-      "start": "2026-06-18T15:00:00",
-      "end": null,
-      "location": "Regenbogenfabrik Lausitzer Str. 22 10999 Berlin Deutschland",
-      "description": "Kaffee, Kuchen und KÜFA (meist ab 19:00) vegan und auf Spendenbasis! Geöffnet 15-22 Uhr. Kein Konsumzwang, kommt rum wie ihr seid. Manchmal gibts auch Veranstaltungen und andere Events, die stehen dann extra im Stressi. Alle unsere Einnahmen werden gespendet bzw.",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327212",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Ausstellung"
-      ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "Bum Bum Musik",
@@ -2300,7 +1756,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Gutschein-Tausch im YAAM",
@@ -2314,7 +1771,8 @@
       "tags": [
         "Protest"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Fesselei - Bondage Jam",
@@ -2326,9 +1784,10 @@
       "source_url": "https://quaelgeist.sm/event/fesselei-bondage-jam-7/",
       "source_name": "Quälgeist",
       "tags": [
-        "Kink"
+        "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kink"
     },
     {
       "title": "queer-feministische Fahrrad-Werkstatt | queer feminist bike workshop",
@@ -2342,7 +1801,8 @@
       "tags": [
         "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "Eddy Playground",
@@ -2356,7 +1816,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Aperol Spritz-Night  -> 5 Euro",
@@ -2370,7 +1831,8 @@
       "tags": [
         "Essen"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Verantwortung für Kindern als Methode des Postkapitalismus.",
@@ -2384,7 +1846,8 @@
       "tags": [
         "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Having Sex with Vulvas",
@@ -2396,9 +1859,10 @@
       "source_url": "https://karada-house.de/events/having-sex-with-vulvas-2/",
       "source_name": "Karada House",
       "tags": [
-        "Kink"
+        "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "KvU - VV + Tresen",
@@ -2412,7 +1876,8 @@
       "tags": [
         "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Open Jam",
@@ -2426,7 +1891,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Open Decks im Technokeller (14-27 Jahre)",
@@ -2438,9 +1904,10 @@
       "source_url": "https://stressfaktor.squat.net/node/325587",
       "source_name": "Stressfaktor",
       "tags": [
-        "Sonstiges"
+        "Workshop"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Attac Berlin lädt ein - Reiche in die Pflicht!",
@@ -2454,7 +1921,8 @@
       "tags": [
         "Diskussion"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "Konzert",
@@ -2468,7 +1936,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "beav boloney freak punk shows",
@@ -2482,7 +1951,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Land, Kultur,  Autonomie - indigener Widerstand in Kolumbien",
@@ -2496,7 +1966,8 @@
       "tags": [
         "Diskussion"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Annäherungen an meine Eltern Hans und Hilde Coppi",
@@ -2510,7 +1981,8 @@
       "tags": [
         "Diskussion"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Sortiermaschinen: Grenzen, Mauern, Zäune",
@@ -2524,7 +1996,8 @@
       "tags": [
         "Diskussion"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "P14 – endlich endlich",
@@ -2538,7 +2011,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Egal",
@@ -2552,7 +2026,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "This is waving salon",
@@ -2566,7 +2041,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Goodbye Berlin",
@@ -2580,7 +2056,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Punkrocktresen",
@@ -2594,7 +2071,8 @@
       "tags": [
         "Essen"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Black Out - hosted by Acoustic Neuroma",
@@ -2608,7 +2086,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Mi Madre y el Dinero",
@@ -2622,7 +2101,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Im Herzen der Gewalt",
@@ -2636,7 +2116,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "TWINK DEATH",
@@ -2650,7 +2131,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Thursday Jazz Jam",
@@ -2664,7 +2146,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Konzert",
@@ -2678,7 +2161,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Filmabend im K(P)",
@@ -2692,7 +2176,8 @@
       "tags": [
         "Film"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Hamsterrad",
@@ -2706,7 +2191,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "Sonntags-Club: Ausflug „7-Seen/Dampferfahrt / Restaurant Loretta im Garten“",
@@ -2720,7 +2206,8 @@
       "tags": [
         "Party"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "Black and queer feminism in Berlin",
@@ -2734,7 +2221,8 @@
       "tags": [
         "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "Kinky Taboos: Berlin’s Forbidden Desires Tour",
@@ -2746,9 +2234,10 @@
       "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-19",
       "source_name": "Siegessäule",
       "tags": [
-        "Kink"
+        "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kink"
     },
     {
       "title": "Summer.Sun.Done",
@@ -2762,7 +2251,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Bum Bum Musik",
@@ -2776,7 +2266,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "FLINTA* Sweat",
@@ -2788,9 +2279,10 @@
       "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-19",
       "source_name": "Siegessäule",
       "tags": [
-        "Kink"
+        "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "CHILLGARAGE",
@@ -2804,7 +2296,8 @@
       "tags": [
         "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Gutscheintausch Regenbogencafé",
@@ -2818,7 +2311,8 @@
       "tags": [
         "Protest"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "Tropenbude Bar und Garten offen",
@@ -2832,7 +2326,8 @@
       "tags": [
         "Essen"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Ich schneide schneller",
@@ -2846,7 +2341,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Und jetzt?",
@@ -2860,7 +2356,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Aus der Nacht heraus - Political Film Festival -Day 2",
@@ -2874,7 +2371,8 @@
       "tags": [
         "Film"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Angela Alves: Never Rest (After Work Tours #2)",
@@ -2888,7 +2386,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Filmfestival - \"Aus der Nacht heraus\"",
@@ -2902,21 +2401,8 @@
       "tags": [
         "Film"
       ],
-      "time_known": true
-    },
-    {
-      "title": "P14 – endlich endlich",
-      "start": "2026-06-19T18:00:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/e460ca489510b3a2c7b291bffd2194c9.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/p14-endlich-endlich/events/368114/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Humboldting #10 Social Muscle Club",
@@ -2930,7 +2416,23 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
+    },
+    {
+      "title": "P14 – endlich endlich",
+      "start": "2026-06-19T18:00:00",
+      "end": null,
+      "location": "Volksbühne am Rosa-Luxemburg-Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/e460ca489510b3a2c7b291bffd2194c9.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/p14-endlich-endlich/events/368114/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Queer Death Café",
@@ -2944,7 +2446,8 @@
       "tags": [
         "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "Tarot and Tie",
@@ -2956,9 +2459,10 @@
       "source_url": "https://karada-house.de/events/tarot-and-tie/",
       "source_name": "Karada House",
       "tags": [
-        "Kink"
+        "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kink"
     },
     {
       "title": "Bi+Flinta* meet up",
@@ -2972,21 +2476,8 @@
       "tags": [
         "Essen"
       ],
-      "time_known": true
-    },
-    {
-      "title": "Bi+Flinta* meet up",
-      "start": "2026-06-19T19:00:00",
-      "end": null,
-      "location": "B-Lage Mareschstr. 1 12055 Berlin Deutschland",
-      "description": "Bi+Flinta* meet up Wir wollen Bi-, Pan- und anderen nicht monosexuellen Frauen, trans*, inter*, nonbinären und agender Personen die Möglichkeit bieten mit Anderen locker ins Gespräch zu kommen, sich auszutauschen und zu vernetzen.",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/326941",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Essen"
-      ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "Input und Diskussion \"Sicherheitspaket\"",
@@ -3000,7 +2491,8 @@
       "tags": [
         "Diskussion"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Konzert",
@@ -3014,7 +2506,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Vortrag: Was ist eigentlich in Schnellroda los?",
@@ -3028,7 +2521,8 @@
       "tags": [
         "Diskussion"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Pride Dinner –Platz am Kaisersteg Für Queers only!",
@@ -3042,7 +2536,8 @@
       "tags": [
         "Protest"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "Kampf gegen den Faschismus in Spanien 1936-1939",
@@ -3056,7 +2551,8 @@
       "tags": [
         "Ausstellung"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "K19 KONZERT",
@@ -3070,7 +2566,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Mi Madre y el Dinero",
@@ -3084,21 +2581,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
-    },
-    {
-      "title": "Moya Michael: It’s like a Finger Pointing a Way to the Moon",
-      "start": "2026-06-19T19:00:00",
-      "end": null,
-      "location": "Sophiensæle",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/177476f103c9e27367d3115dbac6b195.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/moya-michael-its-like-a-finger-pointing-a-way-to-the-moon/events/367981/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Abschlussfest",
@@ -3112,7 +2596,23 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
+    },
+    {
+      "title": "Moya Michael: It’s like a Finger Pointing a Way to the Moon",
+      "start": "2026-06-19T19:00:00",
+      "end": null,
+      "location": "Sophiensæle",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/177476f103c9e27367d3115dbac6b195.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/moya-michael-its-like-a-finger-pointing-a-way-to-the-moon/events/367981/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Freitag in der Olfe",
@@ -3126,7 +2626,8 @@
       "tags": [
         "Party"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "Kneipe & Briefe an Gefangene schreiben",
@@ -3140,7 +2641,8 @@
       "tags": [
         "Essen"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "\"Zähneknirschen\" EP Release",
@@ -3154,7 +2656,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Salome",
@@ -3168,7 +2671,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Meinberg/Greve/Wesley",
@@ -3182,7 +2686,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Ea Torrado: Brown Madonna",
@@ -3196,7 +2701,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Bondage Nacht - Bondage Night",
@@ -3208,9 +2714,10 @@
       "source_url": "https://quaelgeist.sm/event/bondage-nacht-bondage-night-16/",
       "source_name": "Quälgeist",
       "tags": [
-        "Kink"
+        "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kink"
     },
     {
       "title": "Sonora Berlín",
@@ -3224,7 +2731,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Ziber Berlin: The XXL Debut",
@@ -3238,7 +2746,8 @@
       "tags": [
         "Party"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "Midsummer Moments - Reflections",
@@ -3250,9 +2759,10 @@
       "source_url": "https://karada-house.de/events/midsummer-moments-reflections/",
       "source_name": "Karada House",
       "tags": [
-        "Kink"
+        "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kink"
     },
     {
       "title": "Breathplay Workshop",
@@ -3264,9 +2774,10 @@
       "source_url": "https://quaelgeist.sm/event/breathplay-workshop-6/",
       "source_name": "Quälgeist",
       "tags": [
-        "Kink"
+        "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kink"
     },
     {
       "title": "Tropenbude Bar und Garten offen",
@@ -3280,7 +2791,8 @@
       "tags": [
         "Essen"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Kinky Taboos: Berlin After Dark Tour",
@@ -3292,9 +2804,10 @@
       "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-20",
       "source_name": "Siegessäule",
       "tags": [
-        "Kink"
+        "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kink"
     },
     {
       "title": "Bum Bum Musik",
@@ -3308,7 +2821,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Gender Mix",
@@ -3320,9 +2834,10 @@
       "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-20",
       "source_name": "Siegessäule",
       "tags": [
-        "Kink"
+        "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "Midsummer Moments - Playtime",
@@ -3334,9 +2849,10 @@
       "source_url": "https://karada-house.de/events/midsummer-moments-playtime/",
       "source_name": "Karada House",
       "tags": [
-        "Kink"
+        "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kink"
     },
     {
       "title": "Schach- und Spiele-Nachmittag",
@@ -3350,7 +2866,8 @@
       "tags": [
         "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Solitresen - Sweet drinks for bitter times",
@@ -3364,7 +2881,8 @@
       "tags": [
         "Essen"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Küche für Alle - Torhaus Kochkollektiv",
@@ -3376,9 +2894,10 @@
       "source_url": "https://stressfaktor.squat.net/node/327717",
       "source_name": "Stressfaktor",
       "tags": [
-        "Essen"
+        "Workshop"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Lesung und Punkkonzert",
@@ -3392,7 +2911,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Konzert im Garten",
@@ -3406,7 +2926,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "Humboldting #10 Social Muscle Club",
@@ -3420,7 +2941,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Rundgang Ausstellung „Die Anarchie ist das Leben der Menschen, die dem Joche entronnen sind.“",
@@ -3434,7 +2956,8 @@
       "tags": [
         "Ausstellung"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Angela Alves: Never Rest (After Work Tours #2)",
@@ -3448,7 +2971,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Screening \"ProPal - for the global justice\" + aperitivo",
@@ -3462,7 +2986,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Freedom of Movement",
@@ -3476,7 +3001,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "BöseBuben-Nacht",
@@ -3490,7 +3016,8 @@
       "tags": [
         "Party"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "Gaybar",
@@ -3504,7 +3031,8 @@
       "tags": [
         "Essen"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "Moya Michael: It’s like a Finger Pointing a Way to the Moon",
@@ -3518,7 +3046,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Oratorium – Kollektive Andacht zu einem wohlgehüteten Geheimnis",
@@ -3532,7 +3061,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Lesung & Buchvorstellung",
@@ -3546,7 +3076,8 @@
       "tags": [
         "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Being Young",
@@ -3560,7 +3091,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Salon Ma ما",
@@ -3574,7 +3106,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "U35",
@@ -3586,9 +3119,10 @@
       "source_url": "https://quaelgeist.sm/event/u35/",
       "source_name": "Quälgeist",
       "tags": [
-        "Kink"
+        "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kink"
     },
     {
       "title": "Konzert im $@#@riterviertel",
@@ -3602,7 +3136,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Riot Grrrl Tresen feat. ZOFF & RubberXhead",
@@ -3616,7 +3151,8 @@
       "tags": [
         "Essen"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "Der Mitsingabend",
@@ -3630,7 +3166,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "Salome",
@@ -3644,7 +3181,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Love Me Tender",
@@ -3658,7 +3196,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "MUSViT",
@@ -3672,7 +3211,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Konzert im TRxxxTR",
@@ -3686,7 +3226,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Die Seherin",
@@ -3700,7 +3241,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Ea Torrado: Brown Madonna",
@@ -3714,7 +3256,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Konzert im K (A)",
@@ -3728,7 +3271,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Wello Rauschs Karaoke Gala",
@@ -3742,7 +3286,8 @@
       "tags": [
         "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Olympia Bukkakis: Queer and Present Dangers/The Nation at Work",
@@ -3756,7 +3301,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "Klubnacht",
@@ -3770,7 +3316,8 @@
       "tags": [
         "Party"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "Kriminal Kitchen fuck off soundssystem",
@@ -3784,7 +3331,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Drag Brunch",
@@ -3798,7 +3346,8 @@
       "tags": [
         "Essen"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "Guided Tour : „Speaking of Sex”",
@@ -3812,7 +3361,8 @@
       "tags": [
         "Ausstellung"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "Rope Level-Up: Playing with Predicaments",
@@ -3824,9 +3374,10 @@
       "source_url": "https://karada-house.de/events/rope-levelup-predicaments/",
       "source_name": "Karada House",
       "tags": [
-        "Kink"
+        "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kink"
     },
     {
       "title": "Führung : „Apropos Sex”",
@@ -3840,7 +3391,8 @@
       "tags": [
         "Ausstellung"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "Vegan Soli Brunch",
@@ -3854,21 +3406,8 @@
       "tags": [
         "Sonstiges"
       ],
-      "time_known": true
-    },
-    {
-      "title": "Vegan Soli Brunch",
-      "start": "2026-06-21T12:00:00",
-      "end": null,
-      "location": "Erreichbar Reichenberger Str. 63a HH 10999 Berlin Deutschland",
-      "description": "Vegan Soli Brunch with lots of choices: salads , sometimes pizza , often Quiché and always spreads .\nIt's all vegan and we use whatever is in season.  Lots of gluten-free options as well.",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/325276",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Sonstiges"
-      ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Kiez-Flohmarkt",
@@ -3882,7 +3421,8 @@
       "tags": [
         "Essen"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Save Rojava Soliparty and Tattoo",
@@ -3896,7 +3436,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Squat de la Musique",
@@ -3910,21 +3451,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
-    },
-    {
-      "title": "Vegan Soli Brunch",
-      "start": "2026-06-21T12:00:00",
-      "end": null,
-      "location": "Erreichbar Reichenberger Str. 63a HH 10999 Berlin Deutschland",
-      "description": "Vegan Soli Brunch with lots of choices: salads , sometimes pizza , often Quiché and always spreads .\nIt's all vegan and we use whatever is in season.  Lots of gluten-free options as well.",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327800",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Sonstiges"
-      ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Streitraum",
@@ -3938,7 +3466,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "📖 Infoladen Scherer 8 📖",
@@ -3952,7 +3481,8 @@
       "tags": [
         "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "Squat de la Musique * Schreina47",
@@ -3966,7 +3496,8 @@
       "tags": [
         "Protest"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Kaffee, Sex und Kuchen - Coffee, Sex & Cake",
@@ -3978,9 +3509,10 @@
       "source_url": "https://quaelgeist.sm/event/kaffee-sex-und-kuchen-coffee-sex-cake-18/",
       "source_name": "Quälgeist",
       "tags": [
-        "Kink"
+        "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kink"
     },
     {
       "title": "Tropenbude Bar und Garten offen",
@@ -3994,7 +3526,8 @@
       "tags": [
         "Essen"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Squat de la Musique aufm Dorfplatz",
@@ -4008,7 +3541,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Café No Pasaran",
@@ -4022,7 +3556,8 @@
       "tags": [
         "Essen"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "Historische Hausführung: Never Work",
@@ -4036,7 +3571,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Bum Bum Musik",
@@ -4050,7 +3586,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Naked Sex Party",
@@ -4064,7 +3601,8 @@
       "tags": [
         "Party"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "Konzert",
@@ -4078,7 +3616,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Unsere Träume zu leben /  Hayallerimizi yaşamak",
@@ -4092,7 +3631,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "„ABBA – Waterloo im Bällebad”",
@@ -4106,7 +3646,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "Cuddles, Cakes and Kinks - Summer Edition (with Garden!)",
@@ -4118,9 +3659,10 @@
       "source_url": "https://karada-house.de/events/cuddles-cakes-template-0626/",
       "source_name": "Karada House",
       "tags": [
-        "Kink"
+        "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kink"
     },
     {
       "title": "Gedenkkundgebung 93 Jahre Köpenicker Blutwoche",
@@ -4134,7 +3676,8 @@
       "tags": [
         "Protest"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Angela Alves: Never Rest (After Work Tours #2)",
@@ -4148,7 +3691,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Chillout Jam",
@@ -4162,7 +3706,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Der Schnittchenkauf",
@@ -4176,7 +3721,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Filmscreening",
@@ -4190,7 +3736,8 @@
       "tags": [
         "Film"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Love Me Tender",
@@ -4204,7 +3751,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Oratorium – Kollektive Andacht zu einem wohlgehüteten Geheimnis",
@@ -4218,7 +3766,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "P14 – endlich endlich",
@@ -4232,7 +3781,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Die Seherin",
@@ -4246,7 +3796,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Hunger",
@@ -4260,7 +3811,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Olympia Bukkakis: Queer and Present Dangers/The Nation at Work",
@@ -4274,7 +3826,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "VideoKino (Open Air)",
@@ -4288,7 +3841,8 @@
       "tags": [
         "Film"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Fuckin´ Monday",
@@ -4300,9 +3854,10 @@
       "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-22",
       "source_name": "Siegessäule",
       "tags": [
-        "Kink"
+        "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kink"
     },
     {
       "title": "Die Montagsspieler",
@@ -4316,7 +3871,8 @@
       "tags": [
         "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "Queer Yoga - Monday Fire",
@@ -4330,7 +3886,8 @@
       "tags": [
         "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "Sozialberatung  - Social counseling",
@@ -4344,7 +3901,8 @@
       "tags": [
         "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "All-Gender-Fußball",
@@ -4358,7 +3916,8 @@
       "tags": [
         "Party"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "Fahrrad-Selbsthilfe-Werkstatt",
@@ -4372,7 +3931,8 @@
       "tags": [
         "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Queer Yoga - Slow Flow",
@@ -4386,7 +3946,8 @@
       "tags": [
         "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "Offene Mietenberatung",
@@ -4400,21 +3961,23 @@
       "tags": [
         "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
-      "title": "Offene Mietenberatung",
+      "title": "Offene Mieterberatung",
       "start": "2026-06-22T18:30:00",
       "end": null,
       "location": "Baiz Schönhauser Allee 26 A 10435 Berlin Deutschland",
-      "description": "Mietenberatung mit RA Henrik Solf und Unterstützung der Mietergemeinschaft Prenzlauer Berg",
+      "description": "von Rechtsanwalt Henrik Solf mit Unterstützunge der Bezirksgruppe Prenzlauer Berg der Berliner Mietergemeinschaft;",
       "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/326446",
+      "source_url": "https://stressfaktor.squat.net/node/326479",
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Rope for Absolute Beginners",
@@ -4426,9 +3989,70 @@
       "source_url": "https://karada-house.de/events/rope-for-absolute-beginner-220626/",
       "source_name": "Karada House",
       "tags": [
-        "Kink"
+        "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kink"
+    },
+    {
+      "title": "Soli-Bleiberechtsbar",
+      "start": "2026-06-22T19:00:00",
+      "end": null,
+      "location": "KuBiZ Bernkasteler Str. 78 13088 Berlin Deutschland",
+      "description": "Soli-Bleiberechtsbar",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327061",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ],
+      "time_known": true,
+      "genre": "Polit"
+    },
+    {
+      "title": "Konzert",
+      "start": "2026-06-22T19:00:00",
+      "end": null,
+      "location": "Schokoladen Ackerstrasse 169 10115 Berlin Deutschland",
+      "description": "reverberation fest & little league shows prsnt: Rolando Bruno y el Grupo Arevalo [cumbia psych°arg]",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327302",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ],
+      "time_known": true,
+      "genre": "Polit"
+    },
+    {
+      "title": "Palästina , Israel und die Deutschen.",
+      "start": "2026-06-22T19:00:00",
+      "end": null,
+      "location": "Lunte Weisestr. 53 12049 Berlin Deutschland",
+      "description": "Vom Vernichtungskrieg gegen die europäischen Juden zum Genozid in Gaza.Eine solidarisch , kritische  Auseinandersetzung mit der Palästinasolidaritätseit den 1980er Jahren. Wieso gibt es keinen gerechten Frieden seit 1948?",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327639",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Diskussion"
+      ],
+      "time_known": true,
+      "genre": "Polit"
+    },
+    {
+      "title": "Wem gehört der Reichtum? Vom Volksentscheid über die Fürstenenteignung vor 100 Jahren bis zu aktuellen Vergesellschaftungsdebatten",
+      "start": "2026-06-22T19:00:00",
+      "end": null,
+      "location": "FMP1, Franz-Mehring-Platz 1, Friedrichshain, Berlin, Germany 10243 Berlin Deutschland",
+      "description": "Wem gehört der Reichtum? Vom Volksentscheid über die Fürstenenteignung vor 100 Jahren bis zu aktuellen Vergesellschaftungsdebatten \n🗯 Veranstaltung am 22.06.2026, 19:00, FMP1 (Franz-Mehring-Platz 1)",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327766",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Diskussion"
+      ],
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Die Seherin",
@@ -4442,7 +4066,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Salome",
@@ -4456,7 +4081,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "KitKatClub",
@@ -4470,7 +4096,23 @@
       "tags": [
         "Party"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
+    },
+    {
+      "title": "Filmabend im K( P)",
+      "start": "2026-06-22T21:00:00",
+      "end": null,
+      "location": "K Köpenicker Straße Berlin Deutschland",
+      "description": "\" Bogonia \" USA, Kor, Irl 2025, 120 Min OmeU R.:Yorgos Lanthimos D.: Emma StoneTwo conspiracy obsessed young men kidnap the high-powered CEO of a major company, convinced that she is an alien intent on destroying planet Earth.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327462",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Film"
+      ],
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Hamsterrad",
@@ -4484,7 +4126,23 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
+    },
+    {
+      "title": "Solidarische Prozessbegleitung + Kundgebung",
+      "start": "2026-06-23T13:30:00",
+      "end": null,
+      "location": "Amtsgericht Tiergarten Turmstr. 91 10559 Berlin Deutschland",
+      "description": "-- english below --📣✊🏽 Dienstag, 23.06.2026, 13:30 Uhr Sitzungssaal C106, 1.Etage Wilsnacker Straße (Eingang Turmstraße 91) / Kundgebung vor dem Gerichtsgebäude // Am 23. Juni findet vor dem Gericht die Hauptverhandlung gegen unseren Genossen statt.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327773",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Protest"
+      ],
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Historische Hausführung: Never Work",
@@ -4498,7 +4156,68 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
+    },
+    {
+      "title": "Flinta*only Kickern",
+      "start": "2026-06-23T18:00:00",
+      "end": null,
+      "location": "Tristeza Pannierstr. 5 12047 Berlin Deutschland",
+      "description": "Kickern gegens Patriarchat!\nJeden Dienstag gibts den Kickerraum nur für FLINTA. Das heisst nur Frauen, Lesben, Inter, Trans*, Nicht-Binäre und Agender Personen sind im Kickerraum willkommen.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/320458",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ],
+      "time_known": true,
+      "genre": "Queer"
+    },
+    {
+      "title": "Kiezküche im Kiezhaus Agnes Reinhold",
+      "start": "2026-06-23T18:00:00",
+      "end": null,
+      "location": "Kiezhaus Agnes Reinhold Afrikanische Straße 74 13351 Berlin Deutschland",
+      "description": "Jeden Dienstag gibt es warmes Essen gegen Spende im Kiezhaus. Los gehts wie immer ab 18 Uhr, Essen gibt es so lange wie das Gekochte reicht. Alle Spenden gehen nach Abzug der Kosten für die Menüs direkt ans Kiezhaus.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/325299",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ],
+      "time_known": true,
+      "genre": "Polit"
+    },
+    {
+      "title": "IT-Beratung für Aktivist:innen und Gruppen",
+      "start": "2026-06-23T18:00:00",
+      "end": null,
+      "location": "WikiBär Köpenicker Str. 45 10179 Berlin Deutschland",
+      "description": "Themen:\n\nSmartphone-Beratung & Hardware (GrapheneOS, iOS)\nLaptop-Beratung & Installationsservice (Fedora Linux, chromeOS Flex)\n\"Upcycling\" von älteren Geräten für Solizwecke\nFreifunk-Beratung\n\nSprachen: Deutsch, Englisch",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327527",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Workshop"
+      ],
+      "time_known": true,
+      "genre": "Polit"
+    },
+    {
+      "title": "Berliner Bündnis gegen Vonovia & Co. - monatliches Vernetzungstreffen",
+      "start": "2026-06-23T18:30:00",
+      "end": null,
+      "location": "Stadtteilzentrum Schöneberg Hauptstraße 121 A 10827 Berlin Deutschland",
+      "description": "Im Berliner Bündnis organisieren sich MieterInnen berlinweit, um sich gegenseitig zu unterstützen und gemeinsam gegen Vonovia zu kämpfen.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/324595",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Protest"
+      ],
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Rope Lab: Play & Connection - pain",
@@ -4510,9 +4229,70 @@
       "source_url": "https://karada-house.de/events/pain-shibari-semenawa-0626/",
       "source_name": "Karada House",
       "tags": [
-        "Kink"
+        "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kink"
+    },
+    {
+      "title": "anarcha solidarity kitchen",
+      "start": "2026-06-23T19:00:00",
+      "end": null,
+      "location": "Martha Bethaniendamm Berlin Deutschland",
+      "description": "dear queerfeminist worker! lets come together to mulled wine/ punch and a comfy time warm vegan meal from 8pmbethaniendamm 26 (look out for a stand up display)more infos and program in our telegram group",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/323833",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ],
+      "time_known": true,
+      "genre": "Queer"
+    },
+    {
+      "title": "Breaking News - offener politischer Treff (14-27 Jahre)",
+      "start": "2026-06-23T19:00:00",
+      "end": null,
+      "location": "Café Köpenick Seelenbinderstr. 54 12555 Berlin Deutschland",
+      "description": "Du hast Bock, über das aktuelle Weltgeschehen zu quatschen, Nachrichten einzuordnen und zu diskutieren? Egal, ob du schon politisch aktiv bist oder einfach neugierig – bei uns bist du willkommen!",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/325504",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ],
+      "time_known": true,
+      "genre": "Polit"
+    },
+    {
+      "title": "Soli-Küfa",
+      "start": "2026-06-23T19:00:00",
+      "end": null,
+      "location": "B-Lage Mareschstr. 1 12055 Berlin Deutschland",
+      "description": "Soli- Küfa\nJeden Dienstag gibt es bei uns Küfa (Küche für Alle).Dabei gibt es eine Spendenempfehlung, es kann aber immer auch mehr oder weniger gezahlt werden.Die Einnahmen werden gespendet an verschiedene soziale, linke Projekte. Die Küfa ist vegan.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/326942",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ],
+      "time_known": true,
+      "genre": "Polit"
+    },
+    {
+      "title": "AfD Parteitag stoppen!",
+      "start": "2026-06-23T19:00:00",
+      "end": null,
+      "location": "Baiz Schönhauser Allee 26 A 10435 Berlin Deutschland",
+      "description": "Am 4. Juli 2026 will die AfD ihren Bundesparteitag in Erfurt abhalten. Dagegen mobilisiert das bundesweite Bündnis „Widersetzen“. Bereits in Essen, Riesa und Gießen wurde gezeigt, dass massenhafter ziviler Ungehorsam Veranstaltungen der AfD über Stunden hinweg lahmlegen kann.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327303",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Protest"
+      ],
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Sophiensæle Forever #2 – Never Work",
@@ -4526,7 +4306,38 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
+    },
+    {
+      "title": "\"Wer wird visionär?\" ~ Queeres Quiz",
+      "start": "2026-06-23T19:30:00",
+      "end": null,
+      "location": "Café Cralle Hochstädterstr. 10a 13347 Berlin Deutschland",
+      "description": "Bei „Wer wird visionär?“ erwarten euch überraschende Fragen aus der queeren Tierwelt – im Stil von Wer wird Millionär? , nur wilder.Von lesbischen Albatrossen über Hyänenklitoris-Power bis zu intergeschlechtlichen Rindern ist alles dabei.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327757",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ],
+      "time_known": true,
+      "genre": "Queer"
+    },
+    {
+      "title": "Flinta*only Kickern",
+      "start": "2026-06-23T20:00:00",
+      "end": null,
+      "location": "Tristeza Pannierstr. 5 12047 Berlin Deutschland",
+      "description": "Kickern gegens Patriarchat!\nJeden Dienstag gibts den Kickerraum nur für FLINTA. Das heisst nur Frauen, Lesben, Inter, Trans*, Nicht-Binäre und Agender Personen sind im Kickerraum willkommen.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/321813",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ],
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "Two-Song Tuesday (MUSIC STARTS 20:00)",
@@ -4540,7 +4351,38 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
+    },
+    {
+      "title": "LatinoKino",
+      "start": "2026-06-23T20:15:00",
+      "end": null,
+      "location": "KuBiZ Bernkasteler Str. 78 13088 Berlin Deutschland",
+      "description": "Offenes Filmtreffen (auf Spanisch) - Cita abierta de cine (en español)",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327499",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Film"
+      ],
+      "time_known": true,
+      "genre": "Polit"
+    },
+    {
+      "title": "Abwärts!: #2 Texte, Filme, Sensationen + Release Heft 59",
+      "start": "2026-06-23T20:30:00",
+      "end": null,
+      "location": "Berlin Berlin Deutschland",
+      "description": "Die Zeitschrift »Abwärts!« feiert das Erscheinen von Heft 59 mit dem 2. bunten Kurzfilmabend.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327145",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Film"
+      ],
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Ein Volksfeind",
@@ -4554,7 +4396,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Studio 9. Der Tag mit Sarah Bosetti. Deutschlandfunk Kultur – live aus dem Humboldt Forum",
@@ -4568,7 +4411,38 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
+    },
+    {
+      "title": "mittwochskufa",
+      "start": "2026-06-24T18:00:00",
+      "end": null,
+      "location": "Erreichbar Reichenberger Str. 63a HH 10999 Berlin Deutschland",
+      "description": "mittwochskufa  \njeden mittwoch von 18-21 uhr \nwoechetliche vegane küfa in der  erreichbar . sie ist leider nur über eine treppe zu erreichen.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/322077",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ],
+      "time_known": true,
+      "genre": "Polit"
+    },
+    {
+      "title": "Küfa im JUP",
+      "start": "2026-06-24T18:00:00",
+      "end": null,
+      "location": "JUP Florastr. 84 13187 Berlin Deutschland",
+      "description": "Mittwoch ist KüfA-Tag! Wir jede Woche gibt es eine leckere Küche für Alle am Mittwoch, 18 Uhr (am ersten Mittwoch im Monat um 19 Uhr mit der DWE-Küfa <3 !) gibts Essen - komm gerne schon früher vorbei zum Schnippeln und Kochen!",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/324021",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ],
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Playfight & Rough Body Play Lab",
@@ -4580,9 +4454,25 @@
       "source_url": "https://karada-house.de/events/rbp-template-240626/",
       "source_name": "Karada House",
       "tags": [
-        "Kink"
+        "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kink"
+    },
+    {
+      "title": "Soli-Küfa, jeden Mittwoch 19 Uhr",
+      "start": "2026-06-24T19:00:00",
+      "end": null,
+      "location": "B-Lage Mareschstr. 1 12055 Berlin Deutschland",
+      "description": "Soli- KüfaShort url: \nhttps://squ.at/r/api6",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/326943",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ],
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Konzert",
@@ -4596,7 +4486,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Offenes Antifa Treffen",
@@ -4610,7 +4501,8 @@
       "tags": [
         "Diskussion"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Never Work Talks: Helen Hester, Anajara Amarante, Olivia Hyunsin Kim",
@@ -4624,7 +4516,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Lesung Henryk Gericke und Henning Rabe",
@@ -4638,7 +4531,8 @@
       "tags": [
         "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Karaoke-Abend",
@@ -4652,7 +4546,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "KüFa (Kitchen for all)",
@@ -4666,7 +4561,8 @@
       "tags": [
         "Film"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Konzert",
@@ -4680,21 +4576,23 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
-      "title": "Dan Nicholls &",
+      "title": "Ramiro Zayas 4tet",
       "start": "2026-06-24T20:00:00",
       "end": null,
       "location": "Donau115, Donaustraße 115, Berlin",
-      "description": "As a keyboardist, producer and improviser, Dan Nicholls embraces sound as a tool for liberation, healing and joyful collectivity. Intricately crafting sound worlds which invite listeners to explore both other-worldly perceptions and the grounding and embodying nature of sound and movement, Dan's work deeply considers how sonic (and other) gestures might facilitate forms of resistance, unity and deeper understanding. \n\nDan has worked as a keyboardist with Alabaster De Plume, Goldie, Shabaka, Dudù Kouate, Dali De Saint Paul, Matthew Herbert, Sarah Nicolls, Christian Marklay, Squarepusher and many more.\nThey co-curate the London event series 'Free Movements' and have created music and sound design for dance, film and installations.",
+      "description": "New argentine music. Or argentine jazz. Or whatever those labels may happen to mean.\n\nSongs, solo piano pieces, premieres, and a few favorites from previous albums come together in a program driven less by categories than by curiosity. The music moves between composition and improvisation, familiarity and surprise.",
       "image_url": null,
       "source_url": "https://www.donau115.de",
       "source_name": "Donau115",
       "tags": [
         "Konzert"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Vegane Küfa",
@@ -4708,7 +4606,8 @@
       "tags": [
         "Essen"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Ein Volksfeind",
@@ -4722,7 +4621,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "VideoKino (Open Air)",
@@ -4736,7 +4636,8 @@
       "tags": [
         "Film"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Die solidarische Jobcenter-Sozialberatung",
@@ -4748,9 +4649,10 @@
       "source_url": "https://stressfaktor.squat.net/node/321608",
       "source_name": "Stressfaktor",
       "tags": [
-        "Sonstiges"
+        "Workshop"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Solicafé Klatsche",
@@ -4764,21 +4666,8 @@
       "tags": [
         "Ausstellung"
       ],
-      "time_known": true
-    },
-    {
-      "title": "Solicafé Klatsche",
-      "start": "2026-06-25T15:00:00",
-      "end": null,
-      "location": "Regenbogenfabrik Lausitzer Str. 22 10999 Berlin Deutschland",
-      "description": "Kaffee, Kuchen und KÜFA (meist ab 19:00) vegan und auf Spendenbasis! Geöffnet 15-22 Uhr. Kein Konsumzwang, kommt rum wie ihr seid. Manchmal gibts auch Veranstaltungen und andere Events, die stehen dann extra im Stressi. Alle unsere Einnahmen werden gespendet bzw.",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327213",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Ausstellung"
-      ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "Gutschein-Tausch im YAAM",
@@ -4792,7 +4681,8 @@
       "tags": [
         "Protest"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Colleen Ndemeh Fitzgerald: After Work Tours #3",
@@ -4806,7 +4696,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Offener Treffpunkt Mieter:innen für Mieter:innen!",
@@ -4820,7 +4711,8 @@
       "tags": [
         "Protest"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Aperol Spritz-Night  -> 5 Euro",
@@ -4834,7 +4726,8 @@
       "tags": [
         "Essen"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Flüssige Grenzen, bewegter Grund – Wo Wasser erinnert",
@@ -4848,7 +4741,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Practical Reflections on Intentional Kink Space Facilitation",
@@ -4860,9 +4754,10 @@
       "source_url": "https://karada-house.de/events/practical-reflections/",
       "source_name": "Karada House",
       "tags": [
-        "Kink"
+        "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kink"
     },
     {
       "title": "Näh’n’Nerd Cafe / Reparaturkneipe",
@@ -4876,7 +4771,8 @@
       "tags": [
         "Essen"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Open Jam",
@@ -4890,7 +4786,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Open Decks im Technokeller (14-27 Jahre)",
@@ -4902,9 +4799,10 @@
       "source_url": "https://stressfaktor.squat.net/node/325588",
       "source_name": "Stressfaktor",
       "tags": [
-        "Sonstiges"
+        "Workshop"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Konzert",
@@ -4918,7 +4816,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Näh’n’Nerd Cafe - Das Repaircafé im Vetomat",
@@ -4932,7 +4831,8 @@
       "tags": [
         "Essen"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Velvet Rebels – leftist, feminist, queer, kinkster, friends",
@@ -4946,7 +4846,8 @@
       "tags": [
         "Essen"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kink"
     },
     {
       "title": "Podium \"Jüdische Identitäten und Antisemitismus im Punk\"",
@@ -4960,7 +4861,8 @@
       "tags": [
         "Diskussion"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Never Work Talks: Amelia Horgan, Nicole Mayer-Ahuja",
@@ -4974,7 +4876,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Thursday Jazz Jam",
@@ -4988,7 +4891,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Filmabend im K(P)",
@@ -5002,7 +4906,8 @@
       "tags": [
         "Film"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "CHILLGARAGE",
@@ -5016,7 +4921,8 @@
       "tags": [
         "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "HAU: Berlin bleibt! #5 Nachbarschaften in Bewegung",
@@ -5030,7 +4936,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Gutscheintausch Regenbogencafé",
@@ -5044,7 +4951,8 @@
       "tags": [
         "Protest"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Queer"
     },
     {
       "title": "Tropenbude Bar und Garten offen",
@@ -5058,7 +4966,8 @@
       "tags": [
         "Essen"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Gnawa Parade & Konzert: Hicham Bilali & Black Koyo u. a.",
@@ -5072,7 +4981,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Aesthetics of Access: Audiodeskription",
@@ -5086,7 +4996,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Potse Raumkampfplenum",
@@ -5100,7 +5011,8 @@
       "tags": [
         "Protest"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Filmfestival - \"Aus der Nacht heraus\"",
@@ -5114,7 +5026,8 @@
       "tags": [
         "Film"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Hier sein heißt handeln",
@@ -5128,7 +5041,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Spielraum",
@@ -5142,7 +5056,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Hurt Me, Deliciously",
@@ -5154,9 +5069,10 @@
       "source_url": "https://karada-house.de/events/hurt-me-deliciously-2/",
       "source_name": "Karada House",
       "tags": [
-        "Kink"
+        "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kink"
     },
     {
       "title": "Konzert",
@@ -5170,7 +5086,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Vieux Farka Touré",
@@ -5184,7 +5101,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Colleen Ndemeh Fitzgerald: After Work Tours #3",
@@ -5198,7 +5116,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Nappies for a Change",
@@ -5210,9 +5129,10 @@
       "source_url": "https://quaelgeist.sm/event/nappies-for-a-change-7/",
       "source_name": "Quälgeist",
       "tags": [
-        "Kink"
+        "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kink"
     },
     {
       "title": "Konzert „jezevec u mraveniště“",
@@ -5226,7 +5146,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Apaches",
@@ -5240,7 +5161,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Qui a tué mon père (Wer hat meinen Vater umgebracht)",
@@ -5254,7 +5176,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Peter Gall Quintet",
@@ -5268,7 +5191,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Genesis",
@@ -5282,21 +5206,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
-    },
-    {
-      "title": "BULLYACHE: A Good Man is Hard to Find",
-      "start": "2026-06-26T21:00:00",
-      "end": null,
-      "location": "Sophiensæle",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/dcfc632c9f5ed78f4823fa99b0fe795a.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/bullyache-a-good-man-is-hard-to-find/events/367975/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "saHHar",
@@ -5310,7 +5221,23 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
+    },
+    {
+      "title": "BULLYACHE: A Good Man is Hard to Find",
+      "start": "2026-06-26T21:00:00",
+      "end": null,
+      "location": "Sophiensæle",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/dcfc632c9f5ed78f4823fa99b0fe795a.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/bullyache-a-good-man-is-hard-to-find/events/367975/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Konzert",
@@ -5324,7 +5251,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Solidarity Bake Sale",
@@ -5338,7 +5266,8 @@
       "tags": [
         "Essen"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Fünf Jahre offen",
@@ -5352,7 +5281,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Rope Fundamentals Weekend: Foundations & Fun",
@@ -5364,9 +5294,10 @@
       "source_url": "https://karada-house.de/events/rope-fundamentals-weekend-foundations-fun-2/",
       "source_name": "Karada House",
       "tags": [
-        "Kink"
+        "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kink"
     },
     {
       "title": "Rope Fundamentals: Shibari Starter Kit Weekend",
@@ -5378,9 +5309,10 @@
       "source_url": "https://karada-house.de/events/rope-fundamentals-shibari-starter-kit-weekend-2/",
       "source_name": "Karada House",
       "tags": [
-        "Kink"
+        "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kink"
     },
     {
       "title": "Festival gegen Rassismus",
@@ -5394,7 +5326,8 @@
       "tags": [
         "Party"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Kuriosum Repair Kaffee",
@@ -5408,7 +5341,8 @@
       "tags": [
         "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Tropenbude Bar und Garten offen",
@@ -5422,7 +5356,8 @@
       "tags": [
         "Essen"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Jeanne Dielman, 23, quai du Commerce, 1080 Bruxelles",
@@ -5436,7 +5371,8 @@
       "tags": [
         "Film"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Gnawa für alle",
@@ -5450,7 +5386,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Krabbelgruppe - Nappy Play Group",
@@ -5462,9 +5399,10 @@
       "source_url": "https://quaelgeist.sm/event/krabbelgruppe-nappy-play-group-8/",
       "source_name": "Quälgeist",
       "tags": [
-        "Kink"
+        "Sonstiges"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kink"
     },
     {
       "title": "BAU-PAUSE PARTY",
@@ -5478,7 +5416,8 @@
       "tags": [
         "Party"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Linkes Chorfestival: 10 Jahre \"Der KMC\" und mehr",
@@ -5492,7 +5431,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Die schwarze Krähe der Weißen Siedlung",
@@ -5506,7 +5446,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Routes & Roots: Das gemeinsame Erbe von Gnawa und transatlantischer Yoruba-Kultur",
@@ -5520,7 +5461,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Rundgang Ausstellung „Die Anarchie ist das Leben der Menschen, die dem Joche entronnen sind.“",
@@ -5534,7 +5476,8 @@
       "tags": [
         "Ausstellung"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Filmfestival - \"Aus der Nacht heraus\" - Closing Even",
@@ -5548,7 +5491,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Apaches",
@@ -5562,7 +5506,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Konzert",
@@ -5576,7 +5521,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Soliparty & Pierogi",
@@ -5590,7 +5536,8 @@
       "tags": [
         "Party"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "LEIPZIG GOES BERLIN CONCERT",
@@ -5604,7 +5551,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "Hardcore / Metalcore / OI!-Punk",
@@ -5618,7 +5566,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kink"
     },
     {
       "title": "Hier sein heißt handeln",
@@ -5632,7 +5581,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Musical Belongings VII: Bach und Balafon",
@@ -5646,7 +5596,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Justin Adams & Mauro Durante mit Alessia Tondo | Majid Bekkas & Bassekou Kouyaté",
@@ -5660,7 +5611,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Genesis",
@@ -5674,7 +5626,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Colleen Ndemeh Fitzgerald: After Work Tours #3",
@@ -5688,7 +5641,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Qui a tué mon père (Wer hat meinen Vater umgebracht)",
@@ -5702,7 +5656,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Konzert",
@@ -5716,7 +5671,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Bondarev/Downes/Ginsburg/Michel",
@@ -5730,7 +5686,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Bluets",
@@ -5744,7 +5701,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "BULLYACHE: A Good Man is Hard to Find",
@@ -5758,7 +5716,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Konzert",
@@ -5772,7 +5731,8 @@
       "tags": [
         "Konzert"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Polit"
     },
     {
       "title": "DJ-Set von Slimgirl Fat",
@@ -5786,7 +5746,8 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
     },
     {
       "title": "Zine & Siroko — Trance Ritual (B2B)",
@@ -5800,7 +5761,83 @@
       "tags": [
         "Theater"
       ],
-      "time_known": true
+      "time_known": true,
+      "genre": "Kultur"
+    },
+    {
+      "title": "Rope Fundamentals Weekend: Nerdery & Harnesses",
+      "start": "2026-06-28T13:00:00",
+      "end": "2026-06-28T19:00:00",
+      "location": "KARA, Perleberger Straße 59, Berlin, 10559, Germany",
+      "description": "This is the Sunday single ticket event. For buying a full weekend ticket, go to the weekend event. \nSunday is for the rope nerds (or for anyone ready to become one). Today we dive into the mechanics behind stable, comfortable, body-friendly tying. We’ll explore how to apply rope with intention, how to create structures that fit real bodies, and how to make your tying smoother, safer, and more efficient. \nYou’ll learn counter tensions, ladder structures, your first frictions, and how to wrap with flow and consistency. These building blocks are what allow harnesses to hold their shape. We’ll also cover ergonomics and hand techniques, like hooking and pulling rope, so you can tie for longer without soreness or strain. \nWith these tools in place, we’ll begin tying simple harnesses and, more importantly, understanding why they work. You’ll get a clear picture of the core components (anchors, stems, wraps, frictions, and cinches) and start recognizing the logic behind shibari structures. This modular thinking becomes the foundation for everything that comes after. \nTake aways: \n\nDouble column tie\nRope handling & ergonomics\nTension, counter tension & ladders\nIntro to harnesses: anchors, stems, wraps, frictions, cinches\nFrictions: Half hitch, full stop, munter hitch, in-line single column tie\nOne rope harnesses: chest harness, futomomo, box tie",
+      "image_url": "https://karada-house.de/wp-content/uploads/2026/01/mg_6117.jpg",
+      "source_url": "https://karada-house.de/events/rope-fundamentals-weekend-nerdery-harnesses-2/",
+      "source_name": "Karada House",
+      "tags": [
+        "Sonstiges"
+      ],
+      "time_known": true,
+      "genre": "Kink"
+    },
+    {
+      "title": "📖 Infoladen Scherer 8 📖",
+      "start": "2026-06-28T13:00:00",
+      "end": null,
+      "location": "Infoladen Scherer Schererstraße 8 13347 Berlin Deutschland",
+      "description": "[EN below] Vernetzt euch im Berliner Norden! Zum Austausch über anarchistische, (queer-)feministische, antifaschistische, ökologische und stadtpolitische Themen ist der selbstorganisierte Infoladen jeden Sonntag für euch geöffnet.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/324712",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ],
+      "time_known": true,
+      "genre": "Queer"
+    },
+    {
+      "title": "Offene Bibliothek UJZ Karslhorst",
+      "start": "2026-06-28T15:00:00",
+      "end": null,
+      "location": "Hönower Straße 30 10318 Berlin Deutschland",
+      "description": "Offene UJZ-BibliothekWann? Am 2. und 4. Sonntag im Monat | 15-19 UhrWo? UJZ Karlshorst, Hönower Str. 30, 10318 Berlin",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/326551",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Ausstellung"
+      ],
+      "time_known": true,
+      "genre": "Polit"
+    },
+    {
+      "title": "Tropenbude Bar und Garten offen",
+      "start": "2026-06-28T15:00:00",
+      "end": null,
+      "location": "Villa Kuriosum Scheffelstr. 21 10367 Berlin Deutschland",
+      "description": "Die Tropenbude Bar und der Garten der Villa Kuriosum sind geöffnet.Sonntag von 15-21 Uhr.\nAnsonsten gibt es Kaffee, Kuchen, Snacks, Bier, Drinks, Natur und Kultur .\nProgramm -> schaut Bitte auf unsere Website.\nKeine Hunde bitte, no dogs please - Katzengarten.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327403",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Essen"
+      ],
+      "time_known": true,
+      "genre": "Polit"
+    },
+    {
+      "title": "Sonntagsschule - Sunday School",
+      "start": "2026-06-28T16:00:00",
+      "end": "2026-06-28T23:00:00",
+      "location": "Quälgeist Berlin e.V., Lankwitzer Straße 42/43, Berlin, 12107, Deutschland",
+      "description": "▼ ENGLISH BELOW ▼\nAgeplay-Chillout und Disziplinierung von ungezogenen Mädchen und Jungs.\nWährend es sich die braven „Littles“ frisch gewickelt bei Cartoons und Kuchen gemütlich machen, können alle, die nicht brav waren, in unseren Räumlichkeiten bestraft werden. Und da am Sonntag stets nur die besten Sachen getragen werden, freuen wir uns auf Knaben in Krachledernen, Sissy-Kleidchen und allem anderen, was der Kleiderschrank hergibt.\nFür diese Veranstaltung ist eine Anmeldung zwingend erforderlich. \n\nKein Dresscode – Fetisch willkommen\nOffen für alle unabhängig von Geschlecht, Gender und sexueller Orientierung.\n\nFragen? Schreib uns eine Mail: ferienlager@quaelgeist.sm\nSchau auch gerne auch auf unsere Infoseite\n⏵ ENGLISH ⏴\nAgeplay chillout and disciplining of naughty girls and boys.\nWhile the freshly swaddled virtuous ´little ones´ make themselves comfortable with cartoons and cake, all the less well-behaved must be punished. And since one dresses at its best on Sundays, we´re looking forward to seeing knickerbocker boys and sissy dresses as well as anything else your wardrobe has to offer.\nRegistration for this event is mandatory! \n\nNo dresscode – fetish welcome\nOpen to all, regardless of sex, gender and sexual orientation.\n\nAny questions? Send us an email: ferienlager@quaelgeist.smYou may also want to take a look at our info page. \nAnmeldung erforderlich! / Registration mandatory!Anmeldung ab 01.04.2026 18:00 Uhr / Registration starts on 2026-04-01 18:00 (Berlin local time)Zur Anmeldung / Registration form",
+      "image_url": null,
+      "source_url": "https://quaelgeist.sm/event/sonntagsschule-sunday-school-7/",
+      "source_name": "Quälgeist",
+      "tags": [
+        "Sonstiges"
+      ],
+      "time_known": true,
+      "genre": "Kink"
     }
   ]
 }

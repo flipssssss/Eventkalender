@@ -55,6 +55,13 @@ const TAB_DATE_FMT = new Intl.DateTimeFormat("de-DE", { day: "numeric", month: "
 
 let dayObserver = null;
 
+// Offline-Fähigkeit (PWA).
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("sw.js").catch(() => {});
+  });
+}
+
 init();
 
 async function init() {

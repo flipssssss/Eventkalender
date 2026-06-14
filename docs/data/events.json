@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-14T17:59:34.055863+00:00",
-  "count": 386,
+  "generated_at": "2026-06-14T18:05:56.810005+00:00",
+  "count": 385,
   "sources": [
     {
       "source": "Quälgeist",
@@ -19,7 +19,7 @@
     },
     {
       "source": "Berlin Bühnen",
-      "count": 106,
+      "count": 105,
       "error": null
     },
     {
@@ -363,36 +363,6 @@
       ],
       "time_known": true,
       "genre": "Polit"
-    },
-    {
-      "title": "Paradiesische Zustände",
-      "start": "2026-06-14T20:00:00",
-      "end": null,
-      "location": "Schaubühne am Lehniner Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/cf36627458d6d6267a34beb50775afae.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/paradiesische-zustaende/events/367236/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true,
-      "genre": "Kultur"
-    },
-    {
-      "title": "NOT FUCKABLE",
-      "start": "2026-06-14T20:00:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/f706056034bf13a8858aba633fb5c164.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/not-fuckable/events/368127/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true,
-      "genre": "Kultur"
     },
     {
       "title": "Adam Winchester",
@@ -5823,6 +5793,21 @@
       ],
       "time_known": true,
       "genre": "Kink"
+    },
+    {
+      "title": "Chillout Jam",
+      "start": "2026-06-28T18:00:00",
+      "end": null,
+      "location": "Filmrisz Filmrisz Rigaerstr. 103 10247 Berlin Deutschland",
+      "description": "english below\nDer Filmrisz lädt ein zur gemütlichen halbakkustischen Jamsession. \nDie Grundausstattung ist vorhanden: Bass, Gitarre, Cajon und Keyboard.Das ganze wird leicht gewürzt mit elektronischen Verzierungen.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/323325",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ],
+      "time_known": true,
+      "genre": "Polit"
     }
   ]
 }

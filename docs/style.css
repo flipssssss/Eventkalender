@@ -14,6 +14,44 @@
     Georgia, "Times New Roman", serif;
 }
 
+/* ---- Punk-Theme: dunkel, kantig, Typewriter, Lila ---- */
+:root[data-theme="punk"] {
+  --bg: #0d0c10;
+  --surface: #16141c;
+  --surface-2: #1d1926;
+  --text: #ece8f4;
+  --muted: #8a7ea6;
+  --accent: #b572ff;      /* Lila */
+  --accent-soft: rgba(181, 114, 255, 0.16);
+  --border: #322a44;
+  --radius: 0px;          /* kantig */
+  --shadow: 0 4px 0 rgba(181, 114, 255, 0.25);
+  --serif: "Courier New", Courier, "Lucida Console", ui-monospace, monospace;
+}
+
+/* Kantig: runde Ecken in Punk hart machen */
+:root[data-theme="punk"] .genre-chip,
+:root[data-theme="punk"] .day-tab,
+:root[data-theme="punk"] .btn,
+:root[data-theme="punk"] .card-fav,
+:root[data-theme="punk"] .modal-close,
+:root[data-theme="punk"] .card-tag,
+:root[data-theme="punk"] .toast,
+:root[data-theme="punk"] .search-input {
+  border-radius: 0 !important;
+}
+
+:root[data-theme="punk"] .day-heading,
+:root[data-theme="punk"] .modal-title,
+:root[data-theme="punk"] .settings-h {
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+:root[data-theme="punk"] .card {
+  border-color: var(--border);
+}
+
 * {
   box-sizing: border-box;
 }
@@ -564,6 +602,95 @@ body {
 
 .btn:hover {
   opacity: 0.85;
+}
+
+/* ---------------- Einstellungen ---------------- */
+
+.settings-section {
+  margin-top: 22px;
+}
+
+.settings-h {
+  margin: 0 0 8px;
+  font-size: 1rem;
+  color: var(--accent);
+}
+
+.settings-hint {
+  margin: 4px 0 8px;
+  font-size: 0.82rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+.theme-options {
+  display: flex;
+  gap: 12px;
+}
+
+.theme-btn {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 14px;
+  border: 2px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface-2);
+  color: var(--text);
+  font-family: var(--serif);
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.theme-btn small {
+  font-weight: 400;
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+
+.theme-btn.active {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.source-toggles {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.source-toggle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.source-toggle input {
+  width: 18px;
+  height: 18px;
+  accent-color: var(--accent);
+}
+
+.wish-text {
+  width: 100%;
+  padding: 10px;
+  font-family: var(--serif);
+  font-size: 16px;
+  color: var(--text);
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  resize: vertical;
+  margin-bottom: 10px;
+}
+
+.wish-text:focus {
+  outline: none;
+  border-color: var(--accent);
 }
 
 @media (max-width: 520px) {

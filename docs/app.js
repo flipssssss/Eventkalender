@@ -6,6 +6,9 @@
 
 const GENRE_ORDER = ["Kultur", "Polit", "Queer", "Kink"];
 const FAV_KEY = "ek_favorites";
+const THEME_KEY = "ek_theme";
+const SOURCES_KEY = "ek_disabled_sources";
+const REPO = "flipssssss/Eventkalender";
 
 const state = {
   events: [],
@@ -14,6 +17,7 @@ const state = {
   query: "",
   onlyFav: false,
   favorites: loadFavorites(),
+  disabledSources: loadDisabledSources(),
 };
 
 const els = {
@@ -30,6 +34,13 @@ const els = {
   modal: document.getElementById("modal"),
   modalContent: document.getElementById("modal-content"),
   modalClose: document.getElementById("modal-close"),
+  settingsOpen: document.getElementById("settings-open"),
+  settingsBackdrop: document.getElementById("settings-backdrop"),
+  settingsClose: document.getElementById("settings-close"),
+  themeOptions: document.getElementById("theme-options"),
+  sourceToggles: document.getElementById("source-toggles"),
+  wishText: document.getElementById("wish-text"),
+  wishSend: document.getElementById("wish-send"),
 };
 
 const DAY_FMT = new Intl.DateTimeFormat("de-DE", {
@@ -91,8 +102,85 @@ async function init() {
     if (e.target === els.modalBackdrop) closeModal();
   });
   document.addEventListener("keydown", (e) => {
-    if (e.key === "Escape") closeModal();
+    if (e.key === "Escape") { closeModal(); closeSettings(); }
   });
+
+  setupSettings();
+}
+
+// ---------------- Settings ----------------
+
+function setupSettings() {
+  els.settingsOpen.addEventListener("click", openSettings);
+  els.settingsClose.addEventListener("click", closeSettings);
+  els.settingsBackdrop.addEventListener("click", (e) => {
+    if (e.target === els.settingsBackdrop) closeSettings();
+  });
+
+  // Theme buttons.
+  const current = localStorage.getItem(THEME_KEY) || "buergi";
+  for (const btn of els.themeOptions.querySelectorAll(".theme-btn")) {
+    btn.classList.toggle("active", btn.dataset.theme === current);
+    btn.addEventListener("click", () => setTheme(btn.dataset.theme));
+  }
+
+  // Source wish -> prefilled GitHub issue.
+  els.wishSend.addEventListener("click", () => {
+    const text = (els.wishText.value || "").trim();
+    if (!text) { els.wishText.focus(); return; }
+    const url = "https://github.com/" + REPO + "/issues/new?title=" +
+      encodeURIComponent("Quellen-Wunsch") + "&body=" + encodeURIComponent(text);
+    window.open(url, "_blank", "noopener");
+  });
+}
+
+function setTheme(theme) {
+  if (theme === "buergi") document.documentElement.removeAttribute("data-theme");
+  else document.documentElement.setAttribute("data-theme", theme);
+  try { localStorage.setItem(THEME_KEY, theme); } catch { /* ignore */ }
+  for (const btn of els.themeOptions.querySelectorAll(".theme-btn")) {
+    btn.classList.toggle("active", btn.dataset.theme === theme);
+  }
+}
+
+function buildSourceToggles() {
+  const sources = [...new Set(state.events.map((e) => e.source_name).filter(Boolean))].sort();
+  els.sourceToggles.innerHTML = "";
+  for (const src of sources) {
+    const label = document.createElement("label");
+    label.className = "source-toggle";
+    const cb = document.createElement("input");
+    cb.type = "checkbox";
+    cb.checked = !state.disabledSources.has(src);
+    cb.addEventListener("change", () => {
+      if (cb.checked) state.disabledSources.delete(src);
+      else state.disabledSources.add(src);
+      saveDisabledSources();
+      render();
+    });
+    label.appendChild(cb);
+    label.appendChild(document.createTextNode(src));
+    els.sourceToggles.appendChild(label);
+  }
+}
+
+function openSettings() {
+  buildSourceToggles();
+  els.settingsBackdrop.removeAttribute("hidden");
+  document.body.style.overflow = "hidden";
+}
+function closeSettings() {
+  els.settingsBackdrop.setAttribute("hidden", "");
+  if (els.modalBackdrop.hasAttribute("hidden")) document.body.style.overflow = "";
+}
+
+function loadDisabledSources() {
+  try { return new Set(JSON.parse(localStorage.getItem(SOURCES_KEY) || "[]")); }
+  catch { return new Set(); }
+}
+function saveDisabledSources() {
+  try { localStorage.setItem(SOURCES_KEY, JSON.stringify([...state.disabledSources])); }
+  catch { /* ignore */ }
 }
 
 function updateMeta(data) {
@@ -156,6 +244,8 @@ function matches(ev) {
   if (state.activeGenres.size > 0) {
     if (!state.activeGenres.has(ev.genre)) return false;
   }
+  // Disabled sources (Einstellungen).
+  if (state.disabledSources.has(ev.source_name)) return false;
   // Favourites only.
   if (state.onlyFav && !state.favorites.has(eventId(ev))) return false;
   // Text search.

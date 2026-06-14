@@ -14,6 +14,14 @@
   <meta name="apple-mobile-web-app-title" content="Events" />
   <link rel="manifest" href="site.webmanifest" />
 
+  <!-- Theme früh setzen, um Aufblitzen zu vermeiden -->
+  <script>
+    try {
+      var t = localStorage.getItem("ek_theme");
+      if (t) document.documentElement.setAttribute("data-theme", t);
+    } catch (e) {}
+  </script>
+
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -54,6 +62,8 @@
           <line x1="16.5" y1="16.5" x2="21" y2="21" />
         </svg>
       </button>
+      <button type="button" class="icon-toggle" id="settings-open"
+              aria-label="Einstellungen" title="Einstellungen">⚙</button>
     </div>
 
     <!-- Kategorien (immer sichtbar) -->
@@ -69,6 +79,42 @@
   <footer class="site-footer">
     <p id="footer-note"></p>
   </footer>
+
+  <!-- Einstellungen -->
+  <div class="modal-backdrop" id="settings-backdrop" hidden>
+    <div class="modal settings-panel" role="dialog" aria-modal="true" aria-label="Einstellungen">
+      <button type="button" class="modal-close" id="settings-close" aria-label="Schließen">✕</button>
+      <div class="modal-body">
+        <h2 class="modal-title">Einstellungen</h2>
+
+        <section class="settings-section">
+          <h3 class="settings-h">Design</h3>
+          <div class="theme-options" id="theme-options">
+            <button type="button" class="theme-btn" data-theme="buergi">
+              Bürgi<small>hell · Serif</small>
+            </button>
+            <button type="button" class="theme-btn" data-theme="punk">
+              Punk<small>dunkel · Typewriter</small>
+            </button>
+          </div>
+        </section>
+
+        <section class="settings-section">
+          <h3 class="settings-h">Quellen</h3>
+          <p class="settings-hint">Häkchen entfernen, um eine Quelle auszublenden.</p>
+          <div id="source-toggles" class="source-toggles"></div>
+        </section>
+
+        <section class="settings-section">
+          <h3 class="settings-h">Quelle vorschlagen</h3>
+          <textarea id="wish-text" class="wish-text" rows="3"
+            placeholder="Welche Website/Quelle fehlt dir? Adresse + kurz, was es ist."></textarea>
+          <button type="button" class="btn btn--primary" id="wish-send">Vorschlag senden</button>
+          <p class="settings-hint">Öffnet einen vorausgefüllten GitHub-Eintrag.</p>
+        </section>
+      </div>
+    </div>
+  </div>
 
   <!-- Detail-Vorschau -->
   <div class="modal-backdrop" id="modal-backdrop" hidden>

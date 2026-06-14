@@ -493,7 +493,7 @@ function openModal(ev) {
     link.href = ev.source_url;
     link.target = "_blank";
     link.rel = "noopener noreferrer";
-    link.textContent = "Zur Quelle ↗";
+    link.textContent = "Zur Veranstaltung ↗";
     actions.appendChild(link);
   }
   body.appendChild(actions);

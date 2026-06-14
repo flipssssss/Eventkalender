@@ -21,9 +21,17 @@
     <!-- Tab-artige Reiter für die Tage (springen zum jeweiligen Tag) -->
     <nav class="day-tabs" id="day-tabs" aria-label="Nach Tag springen"></nav>
 
-    <!-- Tags immer sichtbar; Suche klappt per Lupe in derselben Zeile aus -->
+    <!-- Genre (Szene) + Favoriten + Suche -->
     <div class="filter-bar">
-      <div class="tag-filter" id="tag-filter"></div>
+      <div class="genre-filter" id="genre-filter"></div>
+      <button
+        type="button"
+        class="icon-toggle"
+        id="fav-toggle"
+        aria-label="Nur Gemerkte zeigen"
+        aria-pressed="false"
+        title="Nur Gemerkte"
+      >♥</button>
       <input
         type="search"
         id="search"
@@ -47,6 +55,11 @@
         </svg>
       </button>
     </div>
+
+    <!-- Kategorien (immer sichtbar) -->
+    <div class="filter-bar filter-bar--categories">
+      <div class="tag-filter" id="tag-filter"></div>
+    </div>
   </header>
 
   <main id="feed" class="feed">
@@ -56,6 +69,14 @@
   <footer class="site-footer">
     <p id="footer-note"></p>
   </footer>
+
+  <!-- Detail-Vorschau -->
+  <div class="modal-backdrop" id="modal-backdrop" hidden>
+    <div class="modal" id="modal" role="dialog" aria-modal="true" aria-label="Veranstaltung">
+      <button type="button" class="modal-close" id="modal-close" aria-label="Schließen">✕</button>
+      <div class="modal-content" id="modal-content"></div>
+    </div>
+  </div>
 
   <script src="app.js"></script>
 </body>

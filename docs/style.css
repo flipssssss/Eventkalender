@@ -52,6 +52,61 @@
   border-color: var(--border);
 }
 
+/* ---- Hyperpop-Theme: knallig, verrückte Fonts & Farben ---- */
+:root[data-theme="hyperpop"] {
+  --bg: #ffe0fb;
+  --surface: #ffffff;
+  --surface-2: #fff0fb;
+  --text: #2a0a4a;
+  --muted: #c64bd6;
+  --accent: #ff1c8d;       /* Knall-Pink */
+  --accent-soft: rgba(255, 28, 141, 0.14);
+  --border: #ff7be0;
+  --radius: 18px;
+  --shadow: 6px 6px 0 rgba(110, 195, 255, 0.7);
+  --serif: "Fredoka", "Comic Sans MS", system-ui, sans-serif;
+}
+
+:root[data-theme="hyperpop"] body {
+  background: linear-gradient(135deg, #ffd1f5 0%, #d1f0ff 45%, #e6d1ff 100%);
+  background-attachment: fixed;
+}
+
+:root[data-theme="hyperpop"] .site-header {
+  background: linear-gradient(135deg, rgba(255,209,245,0.92), rgba(230,209,255,0.92));
+}
+
+:root[data-theme="hyperpop"] h1,
+:root[data-theme="hyperpop"] .day-heading,
+:root[data-theme="hyperpop"] .modal-title,
+:root[data-theme="hyperpop"] .card-title,
+:root[data-theme="hyperpop"] .day-tab,
+:root[data-theme="hyperpop"] .btn,
+:root[data-theme="hyperpop"] .theme-btn,
+:root[data-theme="hyperpop"] .settings-h {
+  font-family: "Bungee", "Fredoka", system-ui, sans-serif;
+}
+
+:root[data-theme="hyperpop"] .day-heading {
+  color: #ff1c8d;
+  text-shadow: 2px 2px 0 #6ec3ff;
+}
+
+:root[data-theme="hyperpop"] .card {
+  border: 3px solid var(--border);
+  box-shadow: 6px 6px 0 rgba(110, 195, 255, 0.7);
+}
+
+:root[data-theme="hyperpop"] .card:hover {
+  transform: translateY(-3px) rotate(-1deg);
+  box-shadow: 8px 8px 0 var(--accent);
+}
+
+:root[data-theme="hyperpop"] .day-tab.active,
+:root[data-theme="hyperpop"] .genre-chip.active {
+  text-shadow: 1px 1px 0 #6ec3ff;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -602,6 +657,45 @@ body {
 
 .btn:hover {
   opacity: 0.85;
+}
+
+/* ---------------- Genre-Farben ---------------- */
+
+.g-kultur { --gc: #d2691e; }  /* Orange */
+.g-polit  { --gc: #d63031; }  /* Rot */
+.g-queer  { --gc: #9b30d0; }  /* Lila */
+.g-kink   { --gc: #111111; }  /* Schwarz */
+
+/* Genre als deutlich sichtbares, farbiges Badge in der Tag-Zeile */
+.genre-badge {
+  background: var(--gc, var(--accent));
+  color: #fff;
+  border: none;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.g-kink.genre-badge {
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.4);
+}
+
+/* Genre-Filter: farbiger Punkt + farbiger Aktiv-Zustand */
+.genre-chip::before {
+  content: "";
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  border-radius: 999px;
+  background: var(--gc, var(--muted));
+  margin-right: 7px;
+  vertical-align: middle;
+}
+
+.genre-chip.active {
+  background: var(--gc, var(--accent));
+  border-color: var(--gc, var(--accent));
+  color: #fff;
 }
 
 /* ---------------- Einstellungen ---------------- */

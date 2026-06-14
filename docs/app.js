@@ -206,7 +206,7 @@ function buildGenreFilter() {
   els.genreFilter.innerHTML = "";
   for (const genre of genres) {
     const chip = document.createElement("button");
-    chip.className = "genre-chip";
+    chip.className = "genre-chip " + genreClass(genre);
     chip.textContent = genre;
     chip.addEventListener("click", () => {
       toggleSet(state.activeGenres, genre);
@@ -350,19 +350,10 @@ function renderCard(ev) {
   const body = document.createElement("div");
   body.className = "card-body";
 
-  const metaRow = document.createElement("div");
-  metaRow.className = "card-meta-row";
-  const time = document.createElement("span");
+  const time = document.createElement("div");
   time.className = "card-time";
   time.textContent = formatTime(ev);
-  metaRow.appendChild(time);
-  if (ev.genre) {
-    const genre = document.createElement("span");
-    genre.className = "card-genre";
-    genre.textContent = ev.genre;
-    metaRow.appendChild(genre);
-  }
-  body.appendChild(metaRow);
+  body.appendChild(time);
 
   const title = document.createElement("h3");
   title.className = "card-title";
@@ -381,17 +372,22 @@ function renderCard(ev) {
     desc.textContent = ev.description;
     body.appendChild(desc);
   }
-  if (ev.tags && ev.tags.length) {
-    const tagWrap = document.createElement("div");
-    tagWrap.className = "card-tags";
-    for (const tag of ev.tags) {
-      const t = document.createElement("span");
-      t.className = "card-tag";
-      t.textContent = tag;
-      tagWrap.appendChild(t);
-    }
-    body.appendChild(tagWrap);
+  const tagWrap = document.createElement("div");
+  tagWrap.className = "card-tags";
+  if (ev.genre) {
+    const g = document.createElement("span");
+    g.className = "card-tag genre-badge " + genreClass(ev.genre);
+    g.textContent = ev.genre;
+    tagWrap.appendChild(g);
   }
+  for (const tag of ev.tags || []) {
+    const t = document.createElement("span");
+    t.className = "card-tag";
+    t.textContent = tag;
+    tagWrap.appendChild(t);
+  }
+  if (tagWrap.children.length) body.appendChild(tagWrap);
+
   if (ev.source_name) {
     const src = document.createElement("div");
     src.className = "card-source";
@@ -449,7 +445,7 @@ function openModal(ev) {
   }
   if (ev.genre) {
     const g = document.createElement("span");
-    g.className = "card-tag";
+    g.className = "card-tag genre-badge " + genreClass(ev.genre);
     g.textContent = ev.genre;
     meta.appendChild(g);
   }
@@ -657,6 +653,10 @@ function setActiveTab(key) {
 
 function toggleSet(set, value) {
   if (set.has(value)) set.delete(value); else set.add(value);
+}
+
+function genreClass(genre) {
+  return "g-" + String(genre || "").toLowerCase();
 }
 
 function formatTime(ev) {

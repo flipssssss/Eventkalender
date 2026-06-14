@@ -27,6 +27,7 @@ import yaml
 from scrapers.base import Event
 from scrapers.berlin_buehnen import BerlinBuehnenScraper
 from scrapers.categories import categorize
+from scrapers.genres import genre_for
 from scrapers.donau115 import Donau115Scraper
 from scrapers.siegessaeule import SiegessaeuleScraper
 from scrapers.tipberlin import TipBerlinScraper
@@ -130,8 +131,7 @@ def filter_and_sort(events: list[Event]) -> list[Event]:
     cutoff = _dt.datetime.now() - _dt.timedelta(days=KEEP_PAST_DAYS)
     horizon = _dt.datetime.now() + _dt.timedelta(days=HORIZON_DAYS)
 
-    seen: set[str] = set()
-    kept: list[Event] = []
+    kept: dict[str, Event] = {}
     for event in events:
         if not event.start:
             continue
@@ -145,14 +145,26 @@ def filter_and_sort(events: list[Event]) -> list[Event]:
         if primary is None:
             continue
         event.tags = [primary]
-        key = event.dedupe_key()
-        if key in seen:
-            continue
-        seen.add(key)
-        kept.append(event)
+        # One genre per event: source default, overridden by keywords.
+        text = " ".join(filter(None, [
+            event.title, event.description, event.location, " ".join(event.tags),
+        ]))
+        event.genre = genre_for(event.source_name, text)
 
-    kept.sort(key=lambda e: e.start.replace(tzinfo=None))
-    return kept
+        key = event.dedupe_key()
+        existing = kept.get(key)
+        if existing is None or _richer(event, existing):
+            kept[key] = event
+
+    result = list(kept.values())
+    result.sort(key=lambda e: e.start.replace(tzinfo=None))
+    return result
+
+
+def _richer(a: Event, b: Event) -> bool:
+    """Prefer the duplicate with an image, then with a description."""
+    return (bool(a.image_url), bool(a.description)) > (
+        bool(b.image_url), bool(b.description))
 
 
 def write_output(events: list[Event], report: list[dict]) -> None:

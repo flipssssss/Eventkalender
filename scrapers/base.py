@@ -27,6 +27,14 @@ USER_AGENT = (
 
 REQUEST_TIMEOUT = 20  # seconds
 
+# Titles too generic to merge across sources (would collapse unrelated events).
+GENERIC_TITLES = {
+    "konzert", "party", "jam", "lesung", "vortrag", "film", "plenum",
+    "treffen", "küfa", "kufa", "soliküfa", "workshop", "disko", "disco",
+    "vokü", "voküe", "brunch", "tresen", "kneipe", "café", "cafe", "open mic",
+    "offenes treffen", "soli party", "soliparty",
+}
+
 
 @dataclass
 class Event:
@@ -48,12 +56,25 @@ class Event:
     tags: list[str] = field(default_factory=list)
     # False when the source only gives a date (no time) -> show date only.
     time_known: bool = True
+    # Scene/direction: Kultur, Polit, Queer or Kink (assigned in aggregate).
+    genre: str | None = None
 
     def dedupe_key(self) -> str:
-        """Identify duplicate events coming from several sources."""
+        """Identify duplicate events, also across different sources.
+
+        For a distinctive title we merge by title + day + hour, so the same
+        event listed on two sites collapses into one. For short/generic
+        titles (e.g. "Konzert", "Party") that would wrongly merge unrelated
+        events, so we fall back to a per-source key.
+        """
         day = self.start.date().isoformat() if self.start else ""
         title = re.sub(r"\s+", " ", (self.title or "").strip().lower())
-        raw = f"{title}|{day}|{self.source_url}"
+        norm = re.sub(r"[^0-9a-zäöüß ]", "", title).strip()
+        if len(norm) >= 8 and norm not in GENERIC_TITLES:
+            hour = self.start.strftime("%H") if self.start else ""
+            raw = f"x|{norm}|{day}|{hour}"
+        else:
+            raw = f"{norm}|{day}|{self.source_url}"
         return hashlib.sha1(raw.encode("utf-8")).hexdigest()
 
     def to_dict(self) -> dict:
@@ -69,6 +90,7 @@ class Event:
             "source_name": self.source_name,
             "tags": sorted({t.strip() for t in self.tags if t and t.strip()}),
             "time_known": self.time_known,
+            "genre": self.genre,
         }
 
 

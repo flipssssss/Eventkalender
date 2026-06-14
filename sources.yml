@@ -40,14 +40,14 @@ sources:
   # Kink-Quellen -- alle Events als Kink. Beide nutzen "The Events
   # Calendar" (WordPress); der iCal-Feed ist robust und umgeht teils
   # den Bot-Schutz der HTML-Seite.
+  # Kategorie kommt aus den iCal-Daten; das Genre "Kink" wird in
+  # scrapers/genres.py je Quelle gesetzt.
   - url: https://quaelgeist.sm/?post_type=tribe_events&ical=1&eventDisplay=list
     name: Quälgeist
     type: ical
-    category: Kink
   - url: https://karada-house.de/?post_type=tribe_events&ical=1&eventDisplay=list
     name: Karada House
     type: ical
-    category: Kink
   # tip Berlin: eigener Ausleser (scrapers/tipberlin.py) wegen Bot-Schutz.
   # Siegessäule wird über einen eigenen Ausleser eingebunden
   # (scrapers/siegessaeule.py), weil die Events in einem Sapper-Preload

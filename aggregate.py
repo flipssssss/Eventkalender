@@ -116,7 +116,7 @@ def get_scrapers():
         CafeCralleScraper(),
         # Demo Ticker Berlin (Mastodon) -- kommende Demos, alle Polit/Protest.
         DemoTickerScraper(),
-        # berlin.de/ausstellungen -- Diagnose-Lauf (sammelt nur Rohstruktur).
+        # berlin.de/ausstellungen -- aktuelle Ausstellungen (JSON-LD).
         BerlinAusstellungenScraper(),
         # Tipsy Bear: bleibt deaktiviert -- alle Endpunkte hängen hinter
         # Cloudflares JS-Challenge ("Just a moment...", 403), es gibt keinen

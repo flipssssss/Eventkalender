@@ -55,6 +55,7 @@ KEYWORDS = {
 # Sources whose genre is fixed regardless of keywords in the text.
 FORCE_GENRE = {
     "Demo Ticker Berlin": "Polit",
+    "Ausstellungen Berlin": "Kultur",
 }
 
 

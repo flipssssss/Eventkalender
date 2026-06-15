@@ -1,4 +1,4 @@
-Tage: 14 | Events (vor Dedup): 40 | mit Venue: 0
+Tage: 14 | Events (vor Dedup): 40 | mit Venue: 26
 2026-06-15: 5 Events
 2026-06-16: 4 Events
 2026-06-17: 2 Events
@@ -13,6 +13,3 @@ Tage: 14 | Events (vor Dedup): 40 | mit Venue: 0
 2026-06-26: 0 Events
 2026-06-27: 0 Events
 2026-06-28: 0 Events
-
---- RAW SAMPLE ---
-{__typename:d,id:"en:85772",title:"Fuckin´ Monday",siegessaeulePresents:e,startDate:c,startTime:ab,startsAt:ac,endsAt:"2026-06-15T12:00:00+00:00",teaser:h,info:"Gay-Cruising-Sex-Fun",slug:"fuckin-monday",tags:["Cruising",y,"fun",z],venue:{id:"en:2140",title:"XXL – Berlin, Pornokino & Sexshop",__typename:f},image:g,categories:[],section:{slug:I,title:y,__typename:b},banners:[]}

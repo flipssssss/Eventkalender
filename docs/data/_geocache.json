@@ -130,6 +130,12 @@
   "lat": 52.5524901,
   "lng": 13.3788571
  },
+ "Böse Buben, Berlin": {
+  "address": "Sachsendamm 76-77, 10829 Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4773354,
+  "lng": 13.3578441
+ },
  "Café Cralle Hochstädter Straße 10A, Berlin": {
   "address": "Hochstädter Straße 10a, 13347 Wedding",
   "bezirk": "Mitte",
@@ -152,6 +158,12 @@
   "lng": 13.5828604
  },
  "Café Köpenick Seelenbinderstr. 54 12555, 12555 Berlin": null,
+ "Club Sauna, Berlin": {
+  "address": "Mehringdamm 32, 10961 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4938045,
+  "lng": 13.3877873
+ },
  "Cocoon Exerzierstraße 14 13357 Berlin Deutschland": {
   "address": "Exerzierstraße 14, 13357 Gesundbrunnen",
   "bezirk": "Mitte",
@@ -172,6 +184,12 @@
   "bezirk": "Lichtenberg",
   "lat": 52.5070493,
   "lng": 13.4816684
+ },
+ "Das Hoven, Berlin": {
+  "address": "Pflügerstraße 19, 12047 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4905761,
+  "lng": 13.4315445
  },
  "Dorfplatz (Fhain) Rigaerstr. Ecke Liebigstr. 10247 Berlin Deutschland": null,
  "Drugstore im Rockhaus Buchberger Str. 6 10365 Berlin Deutschland": null,
@@ -197,6 +215,12 @@
   "lng": 13.4402215
  },
  "FMP1, Franz-Mehring-Platz 1, Friedrichshain, Berlin, Germany 10243 Berlin Deutschland": null,
+ "FSV Hansa 07, Berlin": {
+  "address": "Wrangelstraße 98, 10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5005732,
+  "lng": 13.4375821
+ },
  "Fasanenstr. 1a, 10623 Berlin": {
   "address": "Fasanenstraße 1a, 10623 Charlottenburg",
   "bezirk": "Charlottenburg-Wilmersdorf",
@@ -231,6 +255,13 @@
   "lat": 52.5128,
   "lng": 13.4402215
  },
+ "Freiluftkino Rehberge, Berlin": {
+  "address": "Windhuker Straße, 13351 Wedding",
+  "bezirk": "Mitte",
+  "lat": 52.5549024,
+  "lng": 13.3301501
+ },
+ "Frizu Lounge, Berlin": null,
  "Garten Markgrafendamm 24c, 10245 Berlin": null,
  "Gneisenaustr. 2a, 10961 Berlin": {
   "address": "Gneisenaustraße 2a, 10961 Kreuzberg",
@@ -303,6 +334,12 @@
   "lng": 13.3670511
  },
  "Infoladen Scherer Schererstraße 8 13347, 13347 Berlin": null,
+ "Insomnia, Berlin": {
+  "address": "Alt-Tempelhof 17, 12099 Tempelhof",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4655581,
+  "lng": 13.3860876
+ },
  "JUP Florastr. 84 13187 Berlin Deutschland": {
   "address": "Florastraße 84, 13187 Pankow",
   "bezirk": "Pankow",
@@ -384,6 +421,12 @@
  "Kiezraum auf dem Dragoner-Areal Berlin": null,
  "Kiezraum auf dem Dragoner-Areal Berlin Deutschland": null,
  "Kiezraum auf dem Dragonerareal Mehringdamm 20 10961 Berlin Deutschland": null,
+ "KitKatClub, Berlin": {
+  "address": "Köpenicker Straße 76, 10179 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5112074,
+  "lng": 13.4169157
+ },
  "Kneipe Kleinod Niemetzstraße 24 12055, 12055 Berlin": null,
  "Kneipe Kleinod Niemetzstraße 24, 12055 Berlin Deutschland": {
   "address": "Niemetzstraße 24, 12055 Neukölln",
@@ -420,6 +463,7 @@
   "lng": 13.4260264
  },
  "KØPI Köpenicker Straße 137 10179, 10179 Berlin": null,
+ "Königskolonnaden im Heinrich von Kleist-Park, Berlin": null,
  "Köpenicker Str. 172, 10997 Berlin": {
   "address": "Köpenicker Straße 172, 10997 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -539,8 +583,20 @@
   "lng": 13.3800755
  },
  "Mitte Museum Pankstr. 47 13357, 13357 Berlin": null,
+ "Mittelhof, Berlin": {
+  "address": "Königstraße 42-43, 14163 Zehlendorf",
+  "bezirk": "Steglitz-Zehlendorf",
+  "lat": 52.4338463,
+  "lng": 13.2543865
+ },
  "Museum des Kapitalismus Köpenicker Str. 172 10997 Berlin Deutschland": null,
  "Museum des Kapitalismus Köpenicker Str. 172 10997, 10997 Berlin": null,
+ "Möbel Olfe, Berlin": {
+  "address": "Reichenberger Straße 177, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5000581,
+  "lng": 13.4174433
+ },
  "Müßiggang Oranienstr. 14a 10999 Berlin Deutschland": null,
  "Müßiggang Oranienstr. 14a, 10999 Berlin": {
   "address": "Oranienstraße 14a, 10999 Kreuzberg",
@@ -631,6 +687,12 @@
   "lat": 52.4986606,
   "lng": 13.3022747
  },
+ "Scheune, Berlin": {
+  "address": "Motzstraße 25, 10777 Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4977185,
+  "lng": 13.3484263
+ },
  "Schlesisches Tor Berlin": {
   "address": "Skalitzer Straße, 10997 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -642,6 +704,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5008341,
   "lng": 13.4414625
+ },
+ "Schlosspark Theater, Berlin": {
+  "address": "Schloßstraße 48, 12165 Steglitz",
+  "bezirk": "Steglitz-Zehlendorf",
+  "lat": 52.4548978,
+  "lng": 13.3175925
  },
  "Schmatzkammer Eberswalde Coppistr. 1-3 Berlin Deutschland": null,
  "Schmatzkammer Eberswalde Coppistr. 1-3, Berlin": null,
@@ -688,6 +756,13 @@
   "lng": 13.4713392
  },
  "Supamolly Jessnerstr. 41 10247, 10247 Berlin": null,
+ "Theater Strahl. Halle Ostkreuz, Berlin": null,
+ "Theater an der Parkaue, Berlin": {
+  "address": "Parkaue 29, 10367 Lichtenberg",
+  "bezirk": "Lichtenberg",
+  "lat": 52.516993,
+  "lng": 13.4772031
+ },
  "Torhaus - Columbiadamm Columbiadamm 10 12101 Berlin Deutschland": {
   "address": "Columbiadamm 10, 10965 Tempelhof",
   "bezirk": "Tempelhof-Schöneberg",
@@ -739,6 +814,7 @@
   "lng": 13.4731889
  },
  "Villa Kuriosum Scheffelstr. 21 10367, 10367 Berlin": null,
+ "Void Club & Hall, Berlin": null,
  "Volksbühne am Rosa-Luxemburg-Platz, Berlin": {
   "address": "Linienstraße 227, 10178 Mitte",
   "bezirk": "Mitte",
@@ -767,6 +843,8 @@
   "lng": 13.4243386
  },
  "WikiBär Köpenicker Str. 45 10179, 10179 Berlin": null,
+ "XXL – Berlin Pornokino & Sexshop": null,
+ "XXL – Berlin, Pornokino & Sexshop": null,
  "Yaam (an der Schillingbrücke) An der Schillingbrücke 3 Berlin": {
   "address": "An der Schillingbrücke 3, 10243 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T15:39:32.323748+00:00",
+  "generated_at": "2026-06-15T15:43:43.155545+00:00",
   "count": 390,
   "sources": [
     {
@@ -24,7 +24,7 @@
     },
     {
       "source": "Donau115",
-      "count": 95,
+      "count": 96,
       "error": null
     },
     {
@@ -48,7 +48,7 @@
       "title": "Konferenz: „Verbinden statt spalten – Gemeinsam gegen Queerfeindlichkeit“",
       "start": "2026-06-15T13:00:00",
       "end": null,
-      "location": null,
+      "location": "Theater an der Parkaue",
       "description": null,
       "image_url": null,
       "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-15",
@@ -59,10 +59,10 @@
       "time_known": true,
       "genre": "Queer",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Parkaue 29, 10367 Lichtenberg",
+      "lat": 52.516993,
+      "lng": 13.4772031,
+      "bezirk": "Lichtenberg"
     },
     {
       "title": "Autonome Küchenbande auf Rädern",
@@ -128,7 +128,7 @@
       "title": "All-Gender-Fußball",
       "start": "2026-06-15T17:45:00",
       "end": "2026-06-15T19:45:00",
-      "location": null,
+      "location": "FSV Hansa 07",
       "description": null,
       "image_url": "https://cdn.siegessaeule.de/images/Untitled_lj4GeCw.2e16d0ba.fill-320x320.png",
       "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-15",
@@ -139,10 +139,10 @@
       "time_known": true,
       "genre": "Queer",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Wrangelstraße 98, 10997 Kreuzberg",
+      "lat": 52.5005732,
+      "lng": 13.4375821,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Blue Monday Chillout",
@@ -528,7 +528,7 @@
       "title": "Electric Monday",
       "start": "2026-06-15T20:00:00",
       "end": "2026-06-16T01:00:00",
-      "location": null,
+      "location": "KitKatClub",
       "description": "Line-up: Norman Weber, Annara, Frankie Flowerz u. a. (Deep House, Techno, Minimal, Grooves)",
       "image_url": "https://cdn.siegessaeule.de/images/Frankie_Flowerz-pr.e122f8be.fill-320x320.jpg",
       "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-15",
@@ -539,10 +539,10 @@
       "time_known": true,
       "genre": "Queer",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Köpenicker Straße 76, 10179 Mitte",
+      "lat": 52.5112074,
+      "lng": 13.4169157,
+      "bezirk": "Mitte"
     },
     {
       "title": "Filmabend inK(P)",
@@ -588,7 +588,7 @@
       "title": "Konferenz: „Verbinden statt spalten – Gemeinsam gegen Queerfeindlichkeit“",
       "start": "2026-06-16T08:00:00",
       "end": "2026-06-16T13:00:00",
-      "location": null,
+      "location": "Theater an der Parkaue",
       "description": null,
       "image_url": null,
       "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-16",
@@ -599,16 +599,16 @@
       "time_known": true,
       "genre": "Queer",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Parkaue 29, 10367 Lichtenberg",
+      "lat": 52.516993,
+      "lng": 13.4772031,
+      "bezirk": "Lichtenberg"
     },
     {
       "title": "Runder Tisch Queeres Steglitz-Zehlendorf",
       "start": "2026-06-16T14:00:00",
       "end": null,
-      "location": null,
+      "location": "Mittelhof",
       "description": null,
       "image_url": null,
       "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-16",
@@ -619,10 +619,10 @@
       "time_known": true,
       "genre": "Queer",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Königstraße 42-43, 14163 Zehlendorf",
+      "lat": 52.4338463,
+      "lng": 13.2543865,
+      "bezirk": "Steglitz-Zehlendorf"
     },
     {
       "title": "Flinta*only Kickern",
@@ -848,7 +848,7 @@
       "title": "Film: The History of Sound",
       "start": "2026-06-16T19:15:00",
       "end": "2026-06-16T20:15:00",
-      "location": null,
+      "location": "Freiluftkino Rehberge",
       "description": null,
       "image_url": null,
       "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-16",
@@ -859,10 +859,10 @@
       "time_known": true,
       "genre": "Queer",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Windhuker Straße, 13351 Wedding",
+      "lat": 52.5549024,
+      "lng": 13.3301501,
+      "bezirk": "Mitte"
     },
     {
       "title": "Queercoustic Hangout",
@@ -1068,7 +1068,7 @@
       "title": "Hamsterrad",
       "start": "2026-06-17T09:00:00",
       "end": null,
-      "location": null,
+      "location": "Theater Strahl. Halle Ostkreuz",
       "description": null,
       "image_url": "https://cdn.siegessaeule.de/images/hamsterrad1_65896m_klein.18c2fda9.fill-320x320.jpg",
       "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-17",
@@ -1088,7 +1088,7 @@
       "title": "Projektband für Frauen* und Queers",
       "start": "2026-06-17T14:30:00",
       "end": null,
-      "location": null,
+      "location": "Frizu Lounge",
       "description": null,
       "image_url": null,
       "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-17",
@@ -2408,7 +2408,7 @@
       "title": "Hamsterrad",
       "start": "2026-06-19T09:00:00",
       "end": "2026-06-19T10:00:00",
-      "location": null,
+      "location": "Theater Strahl. Halle Ostkreuz",
       "description": null,
       "image_url": "https://cdn.siegessaeule.de/images/hamsterrad1_65896m_klein.18c2fda9.fill-320x320.jpg",
       "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-19",
@@ -2448,7 +2448,7 @@
       "title": "Black and queer feminism in Berlin",
       "start": "2026-06-19T12:00:00",
       "end": "2026-06-19T14:00:00",
-      "location": null,
+      "location": "Königskolonnaden im Heinrich von Kleist-Park",
       "description": "In English, with biographical elements on May Ayim, Audre Lorde, Ika Hügel-Marshall u. a.",
       "image_url": "https://cdn.siegessaeule.de/images/thumbnail_deSta_schoeneberg_anerke.a6c69b00.fill-320x320.jpg",
       "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-19",
@@ -2468,7 +2468,7 @@
       "title": "Kinky Taboos: Berlin’s Forbidden Desires Tour",
       "start": "2026-06-19T14:30:00",
       "end": null,
-      "location": null,
+      "location": "Insomnia",
       "description": "Mit Jeff Mannes",
       "image_url": "https://cdn.siegessaeule.de/images/Forbidden_desires.2e16d0ba.fill-320x320.png",
       "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-19",
@@ -2479,10 +2479,10 @@
       "time_known": true,
       "genre": "Kink",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Alt-Tempelhof 17, 12099 Tempelhof",
+      "lat": 52.4655581,
+      "lng": 13.3860876,
+      "bezirk": "Tempelhof-Schöneberg"
     },
     {
       "title": "Summer.Sun.Done",
@@ -2528,7 +2528,7 @@
       "title": "FLINTA* Sweat",
       "start": "2026-06-19T15:30:00",
       "end": null,
-      "location": null,
+      "location": "Club Sauna",
       "description": "For the FLINTA* community (women, lesbians, inter, non-binary, trans, agender)",
       "image_url": "https://cdn.siegessaeule.de/images/flinta_sweat.a065b21d.fill-320x320.jpg",
       "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-19",
@@ -2539,10 +2539,10 @@
       "time_known": true,
       "genre": "Queer",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Mehringdamm 32, 10961 Kreuzberg",
+      "lat": 52.4938045,
+      "lng": 13.3877873,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "CHILLGARAGE",
@@ -3028,7 +3028,7 @@
       "title": "Freitag in der Olfe",
       "start": "2026-06-19T19:30:00",
       "end": "2026-06-19T22:30:00",
-      "location": null,
+      "location": "Möbel Olfe",
       "description": "Barnight with DJ Mx. Sür",
       "image_url": "https://cdn.siegessaeule.de/images/Mobel_Olfe_Aussenansicht_PR_honora.f62c4aba.fill-320x320.jpg",
       "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-19",
@@ -3039,10 +3039,10 @@
       "time_known": true,
       "genre": "Queer",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Reichenberger Straße 177, 10999 Kreuzberg",
+      "lat": 52.5000581,
+      "lng": 13.4174433,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Kneipe & Briefe an Gefangene schreiben",
@@ -3188,7 +3188,7 @@
       "title": "Ziber Berlin: The XXL Debut",
       "start": "2026-06-19T21:00:00",
       "end": null,
-      "location": null,
+      "location": "Void Club & Hall",
       "description": "„A deranged grotesque queer clubnight“, DJs Dirty Daddy Don, Charlie Vaux, ilbroccolovolante u. a.",
       "image_url": "https://cdn.siegessaeule.de/images/Dirty_Daddy_Don_c_2025_Darren_Blac.ce496af8.fill-320x320.jpg",
       "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-19",
@@ -3288,7 +3288,7 @@
       "title": "Kinky Taboos: Berlin After Dark Tour",
       "start": "2026-06-20T14:30:00",
       "end": null,
-      "location": null,
+      "location": "Insomnia",
       "description": null,
       "image_url": "https://cdn.siegessaeule.de/images/after_dark.2e16d0ba.fill-320x320.png",
       "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-20",
@@ -3299,10 +3299,10 @@
       "time_known": true,
       "genre": "Kink",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Alt-Tempelhof 17, 12099 Tempelhof",
+      "lat": 52.4655581,
+      "lng": 13.3860876,
+      "bezirk": "Tempelhof-Schöneberg"
     },
     {
       "title": "Bum Bum Musik",
@@ -3328,7 +3328,7 @@
       "title": "Gender Mix",
       "start": "2026-06-20T15:30:00",
       "end": null,
-      "location": null,
+      "location": "Club Sauna",
       "description": "Open for queer people of all genders",
       "image_url": "https://cdn.siegessaeule.de/images/gender_mix.14ad47c9.fill-320x320.jpg",
       "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-20",
@@ -3339,10 +3339,10 @@
       "time_known": true,
       "genre": "Queer",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Mehringdamm 32, 10961 Kreuzberg",
+      "lat": 52.4938045,
+      "lng": 13.3877873,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Midsummer Moments - Playtime",
@@ -4048,7 +4048,7 @@
       "title": "Drag Brunch",
       "start": "2026-06-21T08:30:00",
       "end": null,
-      "location": null,
+      "location": "Das Hoven",
       "description": "Drag Brunch mit Estelle van der Rhône & Harpy Fatale, Soul Food & Music, Shows 10:30 & 13:30",
       "image_url": "https://cdn.siegessaeule.de/images/9BEC0701-B3A6-42C5-9DA2-706469BCFE.cf4aef4f.fill-320x320.jpg",
       "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-21",
@@ -4059,10 +4059,10 @@
       "time_known": true,
       "genre": "Queer",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Pflügerstraße 19, 12047 Neukölln",
+      "lat": 52.4905761,
+      "lng": 13.4315445,
+      "bezirk": "Neukölln"
     },
     {
       "title": "Guided Tour : „Speaking of Sex”",
@@ -4428,7 +4428,7 @@
       "title": "Naked Sex Party",
       "start": "2026-06-21T15:30:00",
       "end": null,
-      "location": null,
+      "location": "Scheune",
       "description": null,
       "image_url": null,
       "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-21",
@@ -4439,10 +4439,10 @@
       "time_known": true,
       "genre": "Queer",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Motzstraße 25, 10777 Schöneberg",
+      "lat": 52.4977185,
+      "lng": 13.3484263,
+      "bezirk": "Tempelhof-Schöneberg"
     },
     {
       "title": "Konzert",
@@ -4488,7 +4488,7 @@
       "title": "„ABBA – Waterloo im Bällebad”",
       "start": "2026-06-21T16:30:00",
       "end": null,
-      "location": null,
+      "location": "Schlosspark Theater",
       "description": "Komödie des Kammertheaters Karlsruhe",
       "image_url": null,
       "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-21",
@@ -4499,10 +4499,10 @@
       "time_known": true,
       "genre": "Queer",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Schloßstraße 48, 12165 Steglitz",
+      "lat": 52.4548978,
+      "lng": 13.3175925,
+      "bezirk": "Steglitz-Zehlendorf"
     },
     {
       "title": "Cuddles, Cakes and Kinks - Summer Edition (with Garden!)",
@@ -4768,7 +4768,7 @@
       "title": "Fuckin´ Monday",
       "start": "2026-06-22T10:00:00",
       "end": "2026-06-22T12:00:00",
-      "location": null,
+      "location": "XXL – Berlin, Pornokino & Sexshop",
       "description": "Gay-Cruising-Sex-Fun",
       "image_url": null,
       "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-22",
@@ -4848,7 +4848,7 @@
       "title": "All-Gender-Fußball",
       "start": "2026-06-22T17:45:00",
       "end": "2026-06-22T19:45:00",
-      "location": null,
+      "location": "FSV Hansa 07",
       "description": null,
       "image_url": "https://cdn.siegessaeule.de/images/Untitled_lj4GeCw.2e16d0ba.fill-320x320.png",
       "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-22",
@@ -4859,10 +4859,10 @@
       "time_known": true,
       "genre": "Queer",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Wrangelstraße 98, 10997 Kreuzberg",
+      "lat": 52.5005732,
+      "lng": 13.4375821,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Fahrrad-Selbsthilfe-Werkstatt",
@@ -5128,7 +5128,7 @@
       "title": "KitKatClub",
       "start": "2026-06-22T20:00:00",
       "end": "2026-06-23T01:00:00",
-      "location": null,
+      "location": "KitKatClub",
       "description": "Line-up: Hollis P Monroe, Micha Stahl, Ricardo Rodriguez u. a. (Deep House, Techno, Minimal, Grooves)",
       "image_url": "https://cdn.siegessaeule.de/images/electric_monday_03__Promo_03_zdt63.ad7ca860.fill-320x320.jpg",
       "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-22",
@@ -5139,10 +5139,10 @@
       "time_known": true,
       "genre": "Queer",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Köpenicker Straße 76, 10179 Mitte",
+      "lat": 52.5112074,
+      "lng": 13.4169157,
+      "bezirk": "Mitte"
     },
     {
       "title": "Filmabend im K( P)",
@@ -5168,7 +5168,7 @@
       "title": "Hamsterrad",
       "start": "2026-06-23T09:00:00",
       "end": null,
-      "location": null,
+      "location": "Theater Strahl. Halle Ostkreuz",
       "description": null,
       "image_url": "https://cdn.siegessaeule.de/images/hamsterrad1_65896m_klein.18c2fda9.fill-320x320.jpg",
       "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-23",
@@ -5548,7 +5548,7 @@
       "title": "Hamsterrad",
       "start": "2026-06-24T09:00:00",
       "end": null,
-      "location": null,
+      "location": "Theater Strahl. Halle Ostkreuz",
       "description": null,
       "image_url": "https://cdn.siegessaeule.de/images/hamsterrad1_65896m_klein.18c2fda9.fill-320x320.jpg",
       "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-24",
@@ -5588,7 +5588,7 @@
       "title": "After Work",
       "start": "2026-06-24T14:00:00",
       "end": null,
-      "location": null,
+      "location": "Böse Buben",
       "description": "Sex, Spanking & SM – no DC",
       "image_url": null,
       "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-24",
@@ -5599,16 +5599,16 @@
       "time_known": true,
       "genre": "Kink",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Sachsendamm 76-77, 10829 Schöneberg",
+      "lat": 52.4773354,
+      "lng": 13.3578441,
+      "bezirk": "Tempelhof-Schöneberg"
     },
     {
       "title": "Projektband für Frauen* und Queers",
       "start": "2026-06-24T14:30:00",
       "end": null,
-      "location": null,
+      "location": "Frizu Lounge",
       "description": null,
       "image_url": null,
       "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-24",

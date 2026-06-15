@@ -1009,16 +1009,36 @@ html.map-active .site-footer {
   filter: hue-rotate(280deg) saturate(1.35) brightness(1.03);
 }
 
-/* Bedienelemente & Copyright ans Theme koppeln (folgen den Variablen). */
+/* Bedienelemente & Copyright im gleichen transparenten Look wie der Schalter. */
+.leaflet-bar {
+  border: 1px solid var(--border) !important;
+  border-radius: 12px !important;
+  overflow: hidden;
+  background: color-mix(in srgb, var(--surface) 60%, transparent);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.22) !important;
+}
+
 .leaflet-bar a,
 .leaflet-bar a:hover {
-  background: var(--surface);
+  background: transparent;
   color: var(--accent);
-  border-color: var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.leaflet-bar a:last-child {
+  border-bottom: none;
+}
+
+.leaflet-bar a:hover {
+  background: color-mix(in srgb, var(--accent) 14%, transparent);
 }
 
 .leaflet-control-attribution {
-  background: color-mix(in srgb, var(--surface) 82%, transparent) !important;
+  background: color-mix(in srgb, var(--surface) 60%, transparent) !important;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
   color: var(--muted) !important;
 }
 
@@ -1034,11 +1054,13 @@ html.map-active .site-footer {
   z-index: 500;
   padding: 6px 14px;
   border-radius: 999px;
-  background: var(--surface);
+  background: color-mix(in srgb, var(--surface) 60%, transparent);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
   border: 1px solid var(--border);
   color: var(--text);
   font-size: 0.85rem;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.22);
   pointer-events: none;
   white-space: nowrap;
 }

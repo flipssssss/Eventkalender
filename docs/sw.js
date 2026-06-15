@@ -2,7 +2,7 @@
 // Strategie: network-first mit Cache-Fallback -- online immer frisch,
 // offline die zuletzt geladene Version.
 
-const CACHE = "ek-v1";
+const CACHE = "ek-v2";
 const SHELL = [
   "./",
   "index.html",

@@ -7,14 +7,32 @@
 const GENRE_ORDER = ["Kultur", "Polit", "Queer", "Kink"];
 const CATEGORY_ORDER = ["Theater", "Film", "Konzert", "Party", "Vortrag",
   "Protest", "Workshop", "Ausstellung", "Essen", "Sonstiges"];
+// Die zwölf Berliner Bezirke (für die Reihenfolge im Filter).
+const BEZIRK_ORDER = [
+  "Mitte", "Friedrichshain-Kreuzberg", "Pankow",
+  "Charlottenburg-Wilmersdorf", "Spandau", "Steglitz-Zehlendorf",
+  "Tempelhof-Schöneberg", "Neukölln", "Treptow-Köpenick",
+  "Marzahn-Hellersdorf", "Lichtenberg", "Reinickendorf",
+];
+const BEZIRK_UNKNOWN = "Unbekannt";
 const FAV_KEY = "ek_favorites";
 const THEME_KEY = "ek_theme";
 const SOURCES_KEY = "ek_disabled_sources";
+const BEZIRKE_KEY = "ek_disabled_bezirke";
+const VIEW_KEY = "ek_view";
 // Formspree-Endpoint für Quellen-Vorschläge.
 const WISH_ENDPOINT = "https://formspree.io/f/xjgdlbnl";
 
+// Quellenname für Events, die Nutzer*innen selbst hinzufügen.
+const MINE_SOURCE = "Eigene Events";
+// Firebase Realtime Database. Hier die URL deines Projekts eintragen, z. B.
+// "https://eventkalender-xyz-default-rtdb.europe-west1.firebasedatabase.app".
+// Solange leer, ist das Hinzufügen eigener Events deaktiviert.
+const FIREBASE_DB_URL = "";
+
 const state = {
   events: [],
+  userEvents: [],
   activeTags: new Set(),
   activeGenres: new Set(),
   query: "",
@@ -22,6 +40,9 @@ const state = {
   favorites: loadFavorites(),
   disabledSources: loadDisabledSources(),
   disabledKdCats: loadSet("ek_disabled_kdcats"),
+  disabledBezirke: loadSet(BEZIRKE_KEY),
+  viewMode: (localStorage.getItem(VIEW_KEY) === "map") ? "map" : "list",
+  mapDay: null,
 };
 
 const KD_SOURCE = "kulturdaten.berlin";
@@ -52,10 +73,26 @@ const els = {
   sourceToggles: document.getElementById("source-toggles"),
   kdcatSection: document.getElementById("kdcat-section"),
   kdcatToggles: document.getElementById("kdcat-toggles"),
+  bezirkToggles: document.getElementById("bezirk-toggles"),
   wishText: document.getElementById("wish-text"),
   wishSend: document.getElementById("wish-send"),
   installBtn: document.getElementById("install-btn"),
   installHelp: document.getElementById("install-help"),
+  viewList: document.getElementById("view-list"),
+  viewMap: document.getElementById("view-map"),
+  mapView: document.getElementById("map-view"),
+  mineForm: document.getElementById("mine-form"),
+  mineTitle: document.getElementById("mine-title"),
+  mineDate: document.getElementById("mine-date"),
+  mineTime: document.getElementById("mine-time"),
+  mineLocation: document.getElementById("mine-location"),
+  mineAddress: document.getElementById("mine-address"),
+  mineCategory: document.getElementById("mine-category"),
+  mineGenre: document.getElementById("mine-genre"),
+  mineDesc: document.getElementById("mine-desc"),
+  mineLink: document.getElementById("mine-link"),
+  mineSend: document.getElementById("mine-send"),
+  mineHint: document.getElementById("mine-hint"),
 };
 
 const DAY_FMT = new Intl.DateTimeFormat("de-DE", {
@@ -91,11 +128,15 @@ async function init() {
     const res = await fetch("data/events.json", { cache: "no-cache" });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
-    state.events = Array.isArray(data.events) ? data.events : [];
+    state.baseEvents = Array.isArray(data.events) ? data.events : [];
     updateMeta(data);
+    await loadUserEvents();
+    mergeEvents();
+    applyViewMode();
     buildGenreFilter();
     buildTagFilter();
     render();
+    openSharedEvent();
   } catch (err) {
     els.status.textContent =
       "Konnte den Veranstaltungs-Feed nicht laden. (" + err.message + ")";
@@ -131,6 +172,15 @@ async function init() {
     els.favToggle.setAttribute("aria-pressed", String(state.onlyFav));
     render();
   });
+
+  // Ansicht umschalten: Liste <-> Karte.
+  els.viewList.addEventListener("click", () => setViewMode("list"));
+  els.viewMap.addEventListener("click", () => setViewMode("map"));
+
+  // Eigenes Event hinzufügen.
+  if (els.mineForm) {
+    els.mineForm.addEventListener("submit", submitOwnEvent);
+  }
 
   // Modal close handlers.
   els.modalClose.addEventListener("click", closeModal);
@@ -203,16 +253,29 @@ function setTheme(theme) {
 }
 
 function buildSourceToggles() {
+  // Count only events that would land in the feed given every OTHER filter,
+  // so the badge matches what's actually shown -- not the grand total.
   const counts = new Map();
   for (const e of state.events) {
     if (!e.source_name) continue;
-    counts.set(e.source_name, (counts.get(e.source_name) || 0) + 1);
+    if (!counts.has(e.source_name)) counts.set(e.source_name, 0);
+    if (matches(e, { source: true })) {
+      counts.set(e.source_name, counts.get(e.source_name) + 1);
+    }
   }
-  const sources = [...counts.keys()].sort();
+  // "Eigene Events" always exists and stays on top; the rest sort by count.
+  if (!counts.has(MINE_SOURCE)) counts.set(MINE_SOURCE, 0);
+  const sources = [...counts.keys()].sort((a, b) => {
+    if (a === MINE_SOURCE) return -1;
+    if (b === MINE_SOURCE) return 1;
+    return (counts.get(b) - counts.get(a)) || a.localeCompare(b, "de");
+  });
+
   els.sourceToggles.innerHTML = "";
   for (const src of sources) {
     const label = document.createElement("label");
     label.className = "source-toggle";
+    if (src === MINE_SOURCE) label.classList.add("source-toggle--mine");
     const cb = document.createElement("input");
     cb.type = "checkbox";
     cb.checked = !state.disabledSources.has(src);
@@ -231,6 +294,42 @@ function buildSourceToggles() {
     badge.textContent = counts.get(src);
     label.appendChild(badge);
     els.sourceToggles.appendChild(label);
+  }
+}
+
+function buildBezirkToggles() {
+  const counts = new Map();
+  for (const e of state.events) {
+    const b = bezirkOf(e);
+    if (!counts.has(b)) counts.set(b, 0);
+    if (matches(e, { bezirk: true })) counts.set(b, counts.get(b) + 1);
+  }
+  // Known boroughs in their fixed order, then "Unbekannt" last.
+  const present = BEZIRK_ORDER.filter((b) => counts.has(b));
+  if (counts.has(BEZIRK_UNKNOWN)) present.push(BEZIRK_UNKNOWN);
+
+  els.bezirkToggles.innerHTML = "";
+  for (const b of present) {
+    const label = document.createElement("label");
+    label.className = "source-toggle";
+    const cb = document.createElement("input");
+    cb.type = "checkbox";
+    cb.checked = !state.disabledBezirke.has(b);
+    cb.addEventListener("change", () => {
+      if (cb.checked) state.disabledBezirke.delete(b);
+      else state.disabledBezirke.add(b);
+      saveSet(BEZIRKE_KEY, state.disabledBezirke);
+      render();
+    });
+    label.appendChild(cb);
+    const txt = document.createElement("span");
+    txt.textContent = b;
+    label.appendChild(txt);
+    const badge = document.createElement("span");
+    badge.className = "source-count";
+    badge.textContent = counts.get(b);
+    label.appendChild(badge);
+    els.bezirkToggles.appendChild(label);
   }
 }
 
@@ -262,6 +361,7 @@ function buildKdcatToggles() {
 
 function openSettings() {
   buildSourceToggles();
+  buildBezirkToggles();
   buildKdcatToggles();
   els.settingsBackdrop.removeAttribute("hidden");
   document.body.style.overflow = "hidden";
@@ -339,7 +439,12 @@ function buildTagFilter() {
   }
 }
 
-function matches(ev) {
+function bezirkOf(ev) { return ev.bezirk || BEZIRK_UNKNOWN; }
+
+// ``ignore`` lets callers skip one dimension, so the count next to a source
+// or a Bezirk reflects "how many would land in the feed" independent of that
+// dimension's own toggle.
+function matches(ev, ignore = {}) {
   // Category (OR within categories).
   if (state.activeTags.size > 0) {
     if (!(ev.tags || []).some((t) => state.activeTags.has(t))) return false;
@@ -349,7 +454,9 @@ function matches(ev) {
     if (!state.activeGenres.has(ev.genre)) return false;
   }
   // Disabled sources (Einstellungen).
-  if (state.disabledSources.has(ev.source_name)) return false;
+  if (!ignore.source && state.disabledSources.has(ev.source_name)) return false;
+  // Bezirk filter (Einstellungen).
+  if (!ignore.bezirk && state.disabledBezirke.has(bezirkOf(ev))) return false;
   // kulturdaten: einzelne Unterkategorien abschaltbar.
   if (ev.source_name === KD_SOURCE && ev.subcategory &&
       state.disabledKdCats.has(ev.subcategory)) return false;
@@ -357,8 +464,8 @@ function matches(ev) {
   if (state.onlyFav && !state.favorites.has(eventId(ev))) return false;
   // Text search.
   if (state.query) {
-    const haystack = [ev.title, ev.location, ev.description, ev.source_name,
-      ev.genre, (ev.tags || []).join(" ")]
+    const haystack = [ev.title, ev.location, ev.address, ev.description,
+      ev.source_name, ev.genre, ev.bezirk, (ev.tags || []).join(" ")]
       .filter(Boolean).join(" ").toLowerCase();
     if (!haystack.includes(state.query)) return false;
   }
@@ -367,28 +474,42 @@ function matches(ev) {
 
 // ---------------- Rendering ----------------
 
-function render() {
-  const visible = state.events.filter(matches);
+function dayKey(d) {
+  return d.getFullYear() + "-" + pad(d.getMonth() + 1) + "-" + pad(d.getDate());
+}
 
-  if (visible.length === 0) {
-    els.feed.innerHTML = '<p class="status">Keine Veranstaltungen gefunden.</p>';
-    els.dayTabs.innerHTML = "";
-    return;
-  }
+function render() {
+  const visible = state.events.filter((e) => matches(e));
 
   const groups = new Map();
   for (const ev of visible) {
     const d = new Date(ev.start);
     // Nach LOKALEM Datum gruppieren (sonst landen 00:00-Events über UTC
     // auf einem anderen Tag -> Tag erscheint doppelt).
-    const key = d.getFullYear() + "-" + pad(d.getMonth() + 1) + "-" + pad(d.getDate());
+    const key = dayKey(d);
     if (!groups.has(key)) groups.set(key, { date: d, events: [] });
     groups.get(key).events.push(ev);
   }
-
   const sortedKeys = [...groups.keys()].sort();
-  const frag = document.createDocumentFragment();
 
+  if (visible.length === 0) {
+    els.feed.innerHTML = '<p class="status">Keine Veranstaltungen gefunden.</p>';
+    els.mapView.innerHTML = "";
+    els.dayTabs.innerHTML = "";
+    return;
+  }
+
+  buildDayTabs(sortedKeys, groups);
+
+  if (state.viewMode === "map") {
+    renderMap(sortedKeys, groups);
+  } else {
+    renderList(sortedKeys, groups);
+  }
+}
+
+function renderList(sortedKeys, groups) {
+  const frag = document.createDocumentFragment();
   for (const key of sortedKeys) {
     const { date, events } = groups.get(key);
     const group = document.createElement("section");
@@ -411,13 +532,12 @@ function render() {
   els.feed.innerHTML = "";
   els.feed.appendChild(frag);
 
-  buildDayTabs(sortedKeys, groups);
   setupScrollSpy(sortedKeys);
 }
 
 function renderCard(ev) {
   const card = document.createElement("div");
-  card.className = "card";
+  card.className = "card" + (ev.user_submitted ? " card--mine" : "");
   card.tabIndex = 0;
   card.setAttribute("role", "button");
   card.addEventListener("click", () => openModal(ev));
@@ -477,6 +597,12 @@ function renderCard(ev) {
   }
   const tagWrap = document.createElement("div");
   tagWrap.className = "card-tags";
+  if (ev.user_submitted) {
+    const mine = document.createElement("span");
+    mine.className = "card-tag mine-badge";
+    mine.textContent = "★ Eigenes Event";
+    tagWrap.appendChild(mine);
+  }
   if (ev.genre) {
     const g = document.createElement("span");
     g.className = "card-tag genre-badge " + genreClass(ev.genre);
@@ -530,10 +656,22 @@ function openModal(ev) {
   title.textContent = ev.title || "Ohne Titel";
   body.appendChild(title);
 
-  if (ev.location) {
+  if (ev.location || ev.address) {
     const loc = document.createElement("div");
     loc.className = "modal-location";
-    loc.textContent = "📍 " + ev.location;
+    const parts = [ev.location, ev.address].filter(Boolean);
+    // Avoid printing the same string twice when location == address.
+    const label = parts.filter((p, i) => parts.indexOf(p) === i).join(" · ");
+    const q = encodeURIComponent(ev.address || ev.location + ", Berlin");
+    loc.innerHTML = '📍 <a href="https://www.openstreetmap.org/search?query=' +
+      q + '" target="_blank" rel="noopener noreferrer"></a>';
+    loc.querySelector("a").textContent = label;
+    if (ev.bezirk) {
+      const b = document.createElement("span");
+      b.className = "modal-bezirk";
+      b.textContent = " (" + ev.bezirk + ")";
+      loc.appendChild(b);
+    }
     body.appendChild(loc);
   }
 
@@ -687,8 +825,14 @@ function icsEsc(s) {
 
 // ---------------- Share ----------------
 
+// Deep link back to THIS site, opening the event's detail view.
+function eventShareUrl(ev) {
+  const base = location.origin + location.pathname;
+  return base + "?event=" + encodeURIComponent(eventId(ev));
+}
+
 async function shareEvent(ev) {
-  const url = ev.source_url || location.href;
+  const url = eventShareUrl(ev);
   const text = ev.title + " · " + formatTime(ev) + (ev.location ? " · " + ev.location : "");
   if (navigator.share) {
     try { await navigator.share({ title: ev.title, text, url }); } catch { /* cancelled */ }
@@ -697,6 +841,320 @@ async function shareEvent(ev) {
     catch { prompt("Link kopieren:", url); }
   }
 }
+
+// On load: if the URL carries ?event=<id>, open that event (and search for it
+// so it's also visible in the feed behind the modal).
+function openSharedEvent() {
+  const id = new URLSearchParams(location.search).get("event");
+  if (!id) return;
+  const ev = state.events.find((e) => eventId(e) === id);
+  // Clean the URL so a reload/back doesn't keep reopening the modal.
+  history.replaceState(null, "", location.origin + location.pathname);
+  if (ev) openModal(ev);
+  else toast("Diese Veranstaltung ist nicht mehr im Kalender.");
+}
+
+// ---------------- Eigene Events (Firebase) ----------------
+
+function mergeEvents() {
+  const base = state.baseEvents || [];
+  state.events = base.concat(state.userEvents);
+}
+
+// Read user-submitted events that everyone shares (Firebase Realtime DB).
+async function loadUserEvents() {
+  state.userEvents = [];
+  if (!FIREBASE_DB_URL) return;
+  try {
+    const res = await fetch(FIREBASE_DB_URL.replace(/\/$/, "") + "/events.json",
+      { cache: "no-cache" });
+    if (!res.ok) return;
+    const data = await res.json();
+    if (!data || typeof data !== "object") return;
+    const now = new Date();
+    const horizon = new Date(now.getTime() + 60 * 86400 * 1000);
+    for (const [id, raw] of Object.entries(data)) {
+      if (!raw || !raw.title || !raw.start) continue;
+      const start = new Date(raw.start);
+      if (isNaN(start) || start > horizon) continue;
+      // Hide events that are clearly over (allow same-day until midnight).
+      const dayEnd = new Date(start); dayEnd.setHours(23, 59, 59, 999);
+      if (dayEnd < now) continue;
+      state.userEvents.push({
+        title: String(raw.title),
+        start: raw.start,
+        end: raw.end || null,
+        location: raw.location || null,
+        address: raw.address || null,
+        description: raw.description || null,
+        image_url: null,
+        source_url: raw.link || eventShareBase() + "#mine-" + id,
+        source_name: MINE_SOURCE,
+        tags: raw.category ? [raw.category] : [],
+        time_known: raw.time_known !== false,
+        genre: raw.genre || null,
+        bezirk: raw.bezirk || null,
+        lat: typeof raw.lat === "number" ? raw.lat : null,
+        lng: typeof raw.lng === "number" ? raw.lng : null,
+        user_submitted: true,
+        _id: id,
+      });
+    }
+  } catch { /* offline or not configured -> just skip */ }
+}
+
+function eventShareBase() { return location.origin + location.pathname; }
+
+async function submitOwnEvent(e) {
+  e.preventDefault();
+  if (!FIREBASE_DB_URL) {
+    toast("Eigene Events sind noch nicht eingerichtet.");
+    return;
+  }
+  const title = (els.mineTitle.value || "").trim();
+  const date = els.mineDate.value;
+  const time = els.mineTime.value;
+  if (!title || !date) { toast("Bitte Titel und Datum angeben."); return; }
+
+  const start = time ? `${date}T${time}` : `${date}T00:00`;
+  els.mineSend.disabled = true;
+  els.mineSend.textContent = "Sende …";
+
+  const payload = {
+    title: title.slice(0, 140),
+    start,
+    time_known: Boolean(time),
+    location: (els.mineLocation.value || "").trim().slice(0, 120) || null,
+    address: (els.mineAddress.value || "").trim().slice(0, 160) || null,
+    description: (els.mineDesc.value || "").trim().slice(0, 1000) || null,
+    link: (els.mineLink.value || "").trim().slice(0, 300) || null,
+    category: els.mineCategory.value || null,
+    genre: els.mineGenre.value || null,
+    created_at: new Date().toISOString(),
+  };
+
+  // Best-effort geocoding so the event also shows up on the map / Bezirk filter.
+  const geoQuery = payload.address || payload.location;
+  if (geoQuery) {
+    const geo = await geocodeClient(geoQuery);
+    if (geo) {
+      payload.lat = geo.lat; payload.lng = geo.lng;
+      payload.bezirk = geo.bezirk;
+      if (!payload.address && geo.address) payload.address = geo.address;
+    }
+  }
+
+  try {
+    const res = await fetch(FIREBASE_DB_URL.replace(/\/$/, "") + "/events.json", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload),
+    });
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    toast("Danke! Dein Event ist jetzt für alle sichtbar.");
+    els.mineForm.reset();
+    await loadUserEvents();
+    mergeEvents();
+    buildGenreFilter();
+    buildTagFilter();
+    render();
+  } catch {
+    toast("Konnte nicht senden. Bitte später erneut versuchen.");
+  }
+  els.mineSend.disabled = false;
+  els.mineSend.textContent = "Event hinzufügen";
+}
+
+// Lightweight client-side geocoder (OpenStreetMap/Nominatim) for user events.
+async function geocodeClient(query) {
+  try {
+    const url = "https://nominatim.openstreetmap.org/search?format=jsonv2" +
+      "&addressdetails=1&limit=1&countrycodes=de&q=" +
+      encodeURIComponent(query.toLowerCase().includes("berlin") ? query : query + ", Berlin");
+    const res = await fetch(url, { headers: { "Accept": "application/json" } });
+    if (!res.ok) return null;
+    const data = await res.json();
+    if (!data.length) return null;
+    const hit = data[0];
+    const a = hit.address || {};
+    const road = a.road || a.pedestrian;
+    const addrParts = [
+      road ? road + (a.house_number ? " " + a.house_number : "") : null,
+      [a.postcode, a.suburb || a.city_district || a.borough].filter(Boolean).join(" "),
+    ].filter(Boolean);
+    return {
+      lat: parseFloat(hit.lat),
+      lng: parseFloat(hit.lon),
+      address: addrParts.join(", ") || null,
+      bezirk: bezirkFromAddress(a),
+    };
+  } catch { return null; }
+}
+
+// Compact Ortsteil -> Bezirk lookup (mirror of scrapers/geocode.py for the
+// boroughs user events are most likely to fall into).
+const ORTSTEIL_TO_BEZIRK = {
+  "mitte": "Mitte", "moabit": "Mitte", "tiergarten": "Mitte",
+  "wedding": "Mitte", "gesundbrunnen": "Mitte", "hansaviertel": "Mitte",
+  "friedrichshain": "Friedrichshain-Kreuzberg", "kreuzberg": "Friedrichshain-Kreuzberg",
+  "prenzlauer berg": "Pankow", "weißensee": "Pankow", "pankow": "Pankow",
+  "niederschönhausen": "Pankow", "buch": "Pankow",
+  "charlottenburg": "Charlottenburg-Wilmersdorf", "wilmersdorf": "Charlottenburg-Wilmersdorf",
+  "westend": "Charlottenburg-Wilmersdorf", "halensee": "Charlottenburg-Wilmersdorf",
+  "grunewald": "Charlottenburg-Wilmersdorf", "schmargendorf": "Charlottenburg-Wilmersdorf",
+  "spandau": "Spandau", "haselhorst": "Spandau", "siemensstadt": "Spandau",
+  "steglitz": "Steglitz-Zehlendorf", "lichterfelde": "Steglitz-Zehlendorf",
+  "lankwitz": "Steglitz-Zehlendorf", "zehlendorf": "Steglitz-Zehlendorf", "dahlem": "Steglitz-Zehlendorf",
+  "schöneberg": "Tempelhof-Schöneberg", "friedenau": "Tempelhof-Schöneberg",
+  "tempelhof": "Tempelhof-Schöneberg", "mariendorf": "Tempelhof-Schöneberg",
+  "lichtenrade": "Tempelhof-Schöneberg",
+  "neukölln": "Neukölln", "britz": "Neukölln", "buckow": "Neukölln",
+  "rudow": "Neukölln", "gropiusstadt": "Neukölln",
+  "alt-treptow": "Treptow-Köpenick", "treptow": "Treptow-Köpenick",
+  "baumschulenweg": "Treptow-Köpenick", "johannisthal": "Treptow-Köpenick",
+  "adlershof": "Treptow-Köpenick", "köpenick": "Treptow-Köpenick",
+  "oberschöneweide": "Treptow-Köpenick", "niederschöneweide": "Treptow-Köpenick",
+  "marzahn": "Marzahn-Hellersdorf", "hellersdorf": "Marzahn-Hellersdorf",
+  "biesdorf": "Marzahn-Hellersdorf", "kaulsdorf": "Marzahn-Hellersdorf",
+  "lichtenberg": "Lichtenberg", "friedrichsfelde": "Lichtenberg",
+  "karlshorst": "Lichtenberg", "rummelsburg": "Lichtenberg", "fennpfuhl": "Lichtenberg",
+  "hohenschönhausen": "Lichtenberg", "alt-hohenschönhausen": "Lichtenberg",
+  "reinickendorf": "Reinickendorf", "tegel": "Reinickendorf", "wittenau": "Reinickendorf",
+  "frohnau": "Reinickendorf", "hermsdorf": "Reinickendorf", "märkisches viertel": "Reinickendorf",
+};
+
+function bezirkFromAddress(a) {
+  for (const key of ["borough", "city_district", "suburb", "quarter", "neighbourhood"]) {
+    const val = (a[key] || "").toLowerCase();
+    if (!val) continue;
+    if (BEZIRK_ORDER.map((b) => b.toLowerCase()).includes(val)) {
+      return BEZIRK_ORDER.find((b) => b.toLowerCase() === val);
+    }
+    if (ORTSTEIL_TO_BEZIRK[val]) return ORTSTEIL_TO_BEZIRK[val];
+  }
+  return null;
+}
+
+// ---------------- Ansicht: Liste / Karte ----------------
+
+function applyViewMode() {
+  const map = state.viewMode === "map";
+  els.viewList.classList.toggle("active", !map);
+  els.viewMap.classList.toggle("active", map);
+  els.viewList.setAttribute("aria-pressed", String(!map));
+  els.viewMap.setAttribute("aria-pressed", String(map));
+  els.feed.toggleAttribute("hidden", map);
+  els.mapView.toggleAttribute("hidden", !map);
+}
+
+function setViewMode(mode) {
+  if (mode === state.viewMode) return;
+  state.viewMode = mode;
+  try { localStorage.setItem(VIEW_KEY, mode); } catch { /* ignore */ }
+  applyViewMode();
+  render();
+}
+
+let leafletMap = null;
+let mapMarkers = [];
+
+// Fill the space between the sticky header and the viewport bottom.
+function sizeMap() {
+  const header = document.querySelector(".site-header");
+  const top = header ? header.getBoundingClientRect().bottom : 0;
+  els.mapView.style.height = Math.max(280, window.innerHeight - top) + "px";
+}
+
+window.addEventListener("resize", () => {
+  if (state.viewMode === "map" && leafletMap) {
+    sizeMap();
+    leafletMap.invalidateSize();
+  }
+});
+
+function ensureMap() {
+  if (leafletMap || typeof L === "undefined") return leafletMap;
+  leafletMap = L.map(els.mapView, { zoomControl: true, attributionControl: true })
+    .setView([52.52, 13.405], 11);
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    maxZoom: 19,
+    attribution: "© OpenStreetMap",
+  }).addTo(leafletMap);
+  return leafletMap;
+}
+
+function renderMap(sortedKeys, groups) {
+  if (typeof L === "undefined") {
+    els.mapView.innerHTML =
+      '<p class="status">Karte konnte nicht geladen werden (offline?).</p>';
+    return;
+  }
+  // Pick the day to show: keep current selection if still present, else today,
+  // else the first available day.
+  if (!groups.has(state.mapDay)) {
+    const today = dayKey(new Date());
+    state.mapDay = groups.has(today) ? today : sortedKeys[0];
+  }
+  setActiveTab(state.mapDay);
+
+  sizeMap();
+  const map = ensureMap();
+  setTimeout(() => map.invalidateSize(), 0);
+  for (const m of mapMarkers) map.removeLayer(m);
+  mapMarkers = [];
+
+  const events = (groups.get(state.mapDay) || { events: [] }).events;
+  const now = new Date();
+  const isToday = state.mapDay === dayKey(now);
+  const bounds = [];
+
+  for (const ev of events) {
+    if (typeof ev.lat !== "number" || typeof ev.lng !== "number") continue;
+    const past = isToday && ev.time_known !== false && new Date(ev.start) < now;
+    const color = past ? "#9aa0a6" : genreColor(ev.genre);
+    const marker = L.circleMarker([ev.lat, ev.lng], {
+      radius: ev.user_submitted ? 9 : 7,
+      color: ev.user_submitted ? "#ff7a00" : "#fff",
+      weight: ev.user_submitted ? 3 : 2,
+      fillColor: color,
+      fillOpacity: past ? 0.45 : 0.95,
+    });
+    marker.on("click", () => openModal(ev));
+    marker.bindTooltip(
+      (past ? "✓ " : "") + TIME_FMT.format(new Date(ev.start)) + " · " + ev.title,
+      { direction: "top" });
+    marker.addTo(map);
+    mapMarkers.push(marker);
+    bounds.push([ev.lat, ev.lng]);
+  }
+
+  const placed = mapMarkers.length;
+  const total = events.length;
+  showMapNote(placed, total);
+
+  if (bounds.length === 1) map.setView(bounds[0], 14);
+  else if (bounds.length > 1) map.fitBounds(bounds, { padding: [40, 40], maxZoom: 15 });
+}
+
+function showMapNote(placed, total) {
+  let note = document.getElementById("map-note");
+  if (!note) {
+    note = document.createElement("div");
+    note.id = "map-note";
+    note.className = "map-note";
+    els.mapView.appendChild(note);
+  }
+  if (total === 0) note.textContent = "Keine Veranstaltungen an diesem Tag.";
+  else if (placed < total) note.textContent =
+    `${placed} von ${total} verortet (für andere fehlt noch die Adresse).`;
+  else note.textContent = `${placed} Veranstaltungen`;
+}
+
+// Same palette as the genre badges in style.css (.g-kultur etc.).
+const GENRE_COLORS = {
+  Kultur: "#d2691e", Polit: "#d63031", Queer: "#9b30d0", Kink: "#111111",
+};
+function genreColor(genre) { return GENRE_COLORS[genre] || "#666"; }
 
 let toastTimer = null;
 function toast(msg) {
@@ -726,8 +1184,13 @@ function buildDayTabs(sortedKeys, groups) {
       `<span class="dow">${TAB_DOW_FMT.format(date).replace(".", "")}</span>` +
       `<span>${TAB_DATE_FMT.format(date)}</span>`;
     tab.addEventListener("click", () => {
-      const target = document.getElementById(`day-${key}`);
-      if (target) target.scrollIntoView({ behavior: "smooth", block: "start" });
+      if (state.viewMode === "map") {
+        state.mapDay = key;
+        render();
+      } else {
+        const target = document.getElementById(`day-${key}`);
+        if (target) target.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
     });
     els.dayTabs.appendChild(tab);
   }

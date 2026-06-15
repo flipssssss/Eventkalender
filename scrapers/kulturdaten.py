@@ -44,38 +44,60 @@ class KulturdatenScraper(BaseScraper):
     def __init__(self, write_debug: bool = True):
         self.write_debug = write_debug
 
+    BASE = "https://api-v2.kulturdaten.berlin"
+
     def fetch_events(self) -> Iterable[Event]:
         session = requests.Session()
         session.headers.update(HEADERS)
         report: list[str] = []
 
-        for base in BASES:
-            report.append(f"=== BASE {base} ===")
-            for path in PATHS:
-                url = base + path
-                try:
-                    r = session.get(url, timeout=20)
-                    ctype = r.headers.get("content-type", "?")[:40]
-                    snippet = r.text[:240].replace("\n", " ")
-                    report.append(f"GET {path} -> {r.status_code} {ctype}\n     {snippet}")
-                    # If JSON came back, also list its top-level keys.
-                    if "json" in ctype.lower() and r.status_code < 400:
-                        try:
-                            data = r.json()
-                            if isinstance(data, dict):
-                                report.append(f"     keys: {list(data.keys())}")
-                                if isinstance(data.get("paths"), dict):
-                                    report.append("     OpenAPI-Pfade:")
-                                    for p in list(data["paths"].keys())[:60]:
-                                        methods = list(data["paths"][p].keys())
-                                        report.append(f"        {p}  {methods}")
-                            else:
-                                report.append(f"     list[{len(data)}]")
-                        except Exception:
-                            pass
-                except Exception as exc:  # noqa: BLE001
-                    report.append(f"GET {path} -> FEHLER {exc}")
+        def get(path):
+            return session.get(self.BASE + path, timeout=25)
+
+        # 1) Full sample objects to understand the structure.
+        for res in ["events", "attractions", "locations"]:
+            try:
+                data = get(f"/api/{res}?page=1&pageSize=1").json().get("data", {})
+                items = data.get(res) or []
+                report.append(f"=== {res}: totalCount={data.get('totalCount')} ===")
+                if items:
+                    report.append(json.dumps(items[0], ensure_ascii=False)[:2200])
+            except Exception as exc:  # noqa: BLE001
+                report.append(f"{res}: FEHLER {exc}")
             report.append("")
+
+        # 2) Date-filter / include candidates on /api/events.
+        report.append("=== Query-Tests /api/events ===")
+        for q in [
+            "?page=1&pageSize=2",
+            "?anyDate=true",
+            "?startDate=2026-06-16",
+            "?filter[schedule.startDate]=2026-06-16",
+            "?include=attractions,locations",
+            "?expand=attractions",
+            "?pageSize=2&include=attractions",
+        ]:
+            try:
+                r = get("/api/events" + q)
+                snip = r.text[:200].replace("\n", " ")
+                report.append(f"{q} -> {r.status_code}: {snip}")
+            except Exception as exc:  # noqa: BLE001
+                report.append(f"{q} -> FEHLER {exc}")
+        report.append("")
+
+        # 3) Try to fetch the OpenAPI spec (documents all query params).
+        report.append("=== OpenAPI-Spec ===")
+        for p in ["/api/docs/swagger.json", "/api/docs/json", "/api/openapi.json",
+                  "/api/docs-json/", "/api/docs/?format=json"]:
+            try:
+                r = get(p)
+                report.append(f"{p} -> {r.status_code} {r.headers.get('content-type','?')[:30]}")
+                if r.status_code < 400 and "json" in r.headers.get("content-type", ""):
+                    data = r.json()
+                    if isinstance(data, dict) and isinstance(data.get("paths"), dict):
+                        report.append("  Pfade: " + ", ".join(list(data["paths"].keys())[:40]))
+            except Exception as exc:  # noqa: BLE001
+                report.append(f"{p} -> FEHLER {exc}")
 
         if self.write_debug:
             try:

@@ -24,6 +24,7 @@ SOURCE_DEFAULT = {
     "kulturdaten.berlin": "Kultur",
     "Klub Verboten": "Kink",
     "Party Dyke Berlin": "Queer",
+    "Demo Ticker Berlin": "Polit",
 }
 DEFAULT_GENRE = "Kultur"
 

@@ -41,13 +41,11 @@ INFO_RE = re.compile(r'info:"((?:[^"\\]|\\.)*)"')
 ENDS_AT_RE = re.compile(r'endsAt:"([^"]+)"')
 IMAGE_RE = re.compile(r'url:"(https?:[^"]*?cdn\.siegessaeule\.de[^"]+)"')
 TAGS_RE = re.compile(r'tags:\[([^\]]*)\]')
-# Venue is embedded as ``venue:{...name:"..."...address:"..."...}`` (or null).
-VENUE_RE = re.compile(r'venue:\{(.*?)\}(?:,[a-zA-Z]+:|\})', re.DOTALL)
-VENUE_NAME_RE = re.compile(r'(?:^|,)name:"((?:[^"\\]|\\.)*)"')
+# Venue is embedded as ``venue:{id:"…",title:"…",__typename:f}`` (or null).
+# The listing carries only the venue's name; address/coords come from the
+# geocoder downstream.
+VENUE_NAME_RE = re.compile(r'title:"((?:[^"\\]|\\.)*)"')
 ADDRESS_RE = re.compile(r'address:"((?:[^"\\]|\\.)*)"')
-STREET_RE = re.compile(r'street:"((?:[^"\\]|\\.)*)"')
-ZIP_RE = re.compile(r'(?:zip|postalCode|plz):"((?:[^"\\]|\\.)*)"')
-CITY_RE = re.compile(r'city:"((?:[^"\\]|\\.)*)"')
 LAT_RE = re.compile(r'(?:lat|latitude):(-?\d+\.\d+)')
 LNG_RE = re.compile(r'(?:lng|lon|longitude):(-?\d+\.\d+)')
 
@@ -92,8 +90,6 @@ class SiegessaeuleScraper(BaseScraper):
                 f"Tage: {self.days} | Events (vor Dedup): {len(events)} "
                 f"| mit Venue: {located}\n"
                 + "\n".join(report)
-                + "\n\n--- RAW SAMPLE ---\n"
-                + getattr(self, "_sample", "(kein Sample)")
             )
         return events
 
@@ -109,9 +105,6 @@ class SiegessaeuleScraper(BaseScraper):
         for obj in _top_level_objects(region):
             if "startsAt:" not in obj:
                 continue  # banner ad, not an event
-            # One-off: keep the first raw event object to inspect its shape.
-            if self.write_debug and not getattr(self, "_sample", None):
-                self._sample = obj[:1500]
             event = self._event_from_obj(obj, refs)
             if event:
                 events.append(event)
@@ -190,14 +183,7 @@ class SiegessaeuleScraper(BaseScraper):
         block = _balanced_object(obj, i + len("venue:"))
         name = self._first(VENUE_NAME_RE, block)
         name = _unescape(name) if name else None
-        # Address may be a single string, or split into street/zip/city parts.
         address = self._first(ADDRESS_RE, block)
-        if not address:
-            street = self._first(STREET_RE, block)
-            zipc = self._first(ZIP_RE, block)
-            city = self._first(CITY_RE, block) or "Berlin"
-            parts = [p for p in [street, " ".join(filter(None, [zipc, city]))] if p]
-            address = ", ".join(parts) if street else None
         address = _unescape(address) if address else None
         lat = self._first(LAT_RE, block)
         lng = self._first(LNG_RE, block)

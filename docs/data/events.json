@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-15T09:13:32.872359+00:00",
-  "count": 367,
+  "generated_at": "2026-06-15T10:45:37.212263+00:00",
+  "count": 371,
   "sources": [
     {
       "source": "Quälgeist",
@@ -9,12 +9,12 @@
     },
     {
       "source": "Karada House",
-      "count": 30,
-      "error": null
+      "count": 0,
+      "error": "403 Client Error: Forbidden for url: https://karada-house.de/?post_type=tribe_events&ical=1&eventDisplay=list"
     },
     {
       "source": "Stressfaktor",
-      "count": 240,
+      "count": 270,
       "error": null
     },
     {
@@ -24,7 +24,7 @@
     },
     {
       "source": "Donau115",
-      "count": 94,
+      "count": 95,
       "error": null
     },
     {
@@ -58,6 +58,22 @@
       ],
       "time_known": true,
       "genre": "Queer",
+      "subcategory": null
+    },
+    {
+      "title": "Autonome Küchenbande auf Rädern",
+      "start": "2026-06-15T14:30:00",
+      "end": null,
+      "location": "Wedding Berlin Deutschland",
+      "description": "**English below / Français ci-dessous *** ab 14 Uhr: Kochen in der Lynarstr. 38, nähe S Wedding ab 18.30 Uhr: Essen und Essensausgabe am Alexanderplatz*",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327803",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ],
+      "time_known": true,
+      "genre": "Polit",
       "subcategory": null
     },
     {
@@ -202,22 +218,6 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
-    },
-    {
-      "title": "Rope for Absolute Beginners",
-      "start": "2026-06-15T19:00:00",
-      "end": "2026-06-15T22:00:00",
-      "location": "KARA, Perleberger Straße 59, Berlin, 10559, Germany",
-      "description": "Welcome to the world of Japanese style rope bondage, friend! It’s wild and fun out here and we are thrilled to be your point of entry. \nThis weekly class is designed for anyone who would like to learn about Japanese-inspired rope bondage/shibari/kinbaku whether you see yourself in the role of the person tying or being tied. We firmly believe that everyone, even if you wish to be tied, should know the absolute basics of this craft. \nWhat we do\n\nWe talk about what the heck is Japanese inspired rope bondage and why we call it “inspired”.\nWe show you the tools are we using and tell you why they are designed the way they are.\nWe talk about why people love to tie/get tied and what happens if you tie/get tied?\nWe show you the fundamental principles of shibari and first techniques you can immediately use\nWe talk about the history of shibari, give you pointers on anatomy, psychology and safety\nWe will tie ourselves, other people (if you and they want to) and actually take time to try stuff out and play, play, play\n\nThis class is suited for\n\nall kinds of bodies (abled and non-abled), all gender expressions, all kinds of sexualities (including people on the ace-spectrum), all kind of brains (neurospicy or neurotypical, affected by trauma, etc.)\npeople coming solo or bringing a partner (or group), people who only want to tie their own bodies as well as people who want to tie/get tied by others",
-      "image_url": "https://karada-house.de/wp-content/uploads/2025/12/mg_0407-scaled.jpg",
-      "source_url": "https://karada-house.de/events/rope-for-absolute-beginner-150626/",
-      "source_name": "Karada House",
-      "tags": [
-        "Workshop"
-      ],
-      "time_known": true,
-      "genre": "Kink",
       "subcategory": null
     },
     {
@@ -375,6 +375,22 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Vortrag"
+      ],
+      "time_known": true,
+      "genre": "Polit",
+      "subcategory": null
+    },
+    {
+      "title": "Inhabit a Permaculture Perspective -  Film 2015",
+      "start": "2026-06-15T20:00:00",
+      "end": null,
+      "location": "K19 Café Kreutzigerstr. 19 10247 Berlin Deutschland",
+      "description": "Inhabit a Permaculture Perspective - Resllienz im Stadt und Land",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327791",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Film"
       ],
       "time_known": true,
       "genre": "Polit",
@@ -551,38 +567,6 @@
       "source_name": "Quälgeist",
       "tags": [
         "Party"
-      ],
-      "time_known": true,
-      "genre": "Kink",
-      "subcategory": null
-    },
-    {
-      "title": "How To Play...",
-      "start": "2026-06-16T19:00:00",
-      "end": "2026-06-16T21:00:00",
-      "location": "https://karada-house.de/events/how-to-play/",
-      "description": "Maybe you don’t know someone very well but both want to have fun, hot, or cute times with rope… how do you actually do that? Everyone wants to play, but many of us don’t know how.\nThis session looks at practical ways to start to actually play in rope (with new partner or maybe partners we know very well but feel a bit stuck with) beyond repeating the same patterns or keeping things so ‘safe’ and familiar that you never really drop into your flow where you can express what you want or discover something new.\nFor me… play needs a mix of curiosity and fantasy, a bit of vulnerability and confidence, mixed with a big dose of fuck around and find out… so what helps cultivate that? And how do we navigate the pleasure and risk of trying tying with someone new, doing this ‘play’, building trust as you go?\nWhat will we cover\n\n\nNegotiating and upholding care in these situations – what’s important to know?\n\n\nHow can you create a sense of narrative through roles, dynamics, and intentions?\n\n\nHow do you begin a session and work with its ‘flow’? (What does this even mean?)\n\n\nWhat risks are you willing to take? What’s off limits? What consent practices actually work here?\n\n\nHow do you end things intentionally?\n\n\nLet’s unpick a bit of this language and see what it looks like in practical senses. We’ll approach this through discussion, demo, and reflection, with space for your questions, ideas, and invitations to inspire your own exploration",
-      "image_url": "https://karada-house.de/wp-content/uploads/2026/04/mg_7950.jpg",
-      "source_url": "https://karada-house.de/events/how-to-play/",
-      "source_name": "Karada House",
-      "tags": [
-        "Workshop"
-      ],
-      "time_known": true,
-      "genre": "Kink",
-      "subcategory": null
-    },
-    {
-      "title": "Rope Structures: Exploring Different Tying Styles",
-      "start": "2026-06-16T19:00:00",
-      "end": "2026-06-16T21:30:00",
-      "location": "KARA, Perleberger Straße 59, Berlin, 10559, Germany",
-      "description": "Japanese inspired rope bondage or shibari comes in many different styles, both in Japan and outside. This class is your introduction into understanding the key differences of styles like Akechi , Naka, or Yukimura Ryu. We will also continue exploring modular thinking by learning what happens after the basic blueprint. \nRope Structures\nTake your fundamentals and start building stronger, more supportive structures. We explore specific harness types, styles, body positions, and different tying styles from across rope traditions.",
-      "image_url": "https://karada-house.de/wp-content/uploads/2025/11/mg_6361-edited.jpg",
-      "source_url": "https://karada-house.de/events/exploring-shibari-styles-berlin-0626/",
-      "source_name": "Karada House",
-      "tags": [
-        "Workshop"
       ],
       "time_known": true,
       "genre": "Kink",
@@ -861,6 +845,22 @@
       "subcategory": null
     },
     {
+      "title": "MADE IN BOGOTA ´STREETART EXHIBITION+FLASHTATTOOS+MUSIC+FOOD",
+      "start": "2026-06-17T16:00:00",
+      "end": null,
+      "location": "K19 Café Kreutzigerstr. 19 10247 Berlin Deutschland",
+      "description": "MADE IN BOGOTA\nBOGOTA / BERLIN - CONNECTION\nFive Street-artists  from Colombia bring their prints, artwork, tattoos, and DIY spirit to Berlin for two exhibitions celebrating independent creation and street culture.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327783",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true,
+      "genre": "Polit",
+      "subcategory": null
+    },
+    {
       "title": "Die Welt im Umbruch: Emotionen und Solidarität",
       "start": "2026-06-17T17:00:00",
       "end": null,
@@ -1053,38 +1053,6 @@
       "subcategory": null
     },
     {
-      "title": "Radical Inclusion",
-      "start": "2026-06-17T19:00:00",
-      "end": "2026-06-17T21:30:00",
-      "location": "https://karada-house.de/events/radical-inclusion/",
-      "description": "The world can often feel divided and exclusionary. What would it mean to turn that on its head? This workshop explores how we can actively include ourselves and others, while acknowledging the real need for both inclusive and separatist spaces. \nTogether, we will examine the barriers that create exclusion—such as access, power dynamics, and social norms—and explore practical ways to respond to them. The focus is on finding a balance between collective needs and individual experiences, and reimagining what truly supportive spaces can look like. \nLed by Caritia, this session offers a space for reflection, discussion, and collaborative thinking. Participants will be invited to design and imagine the kinds of groups and environments they would want to be part of, while developing tools to meaningfully include difference and diversity for the benefit of all. \nWhat we’ll cover\n\n\nWhat “radical inclusion” means in practice \n\n\nThe role of exclusion: boundaries, safety, and separatist spaces \n\n\nIdentifying barriers to inclusion (access, identity, power) \n\n\nBalancing individual needs with group dynamics \n\n\nDesigning spaces you would actually want to belong to \n\n\nPractical strategies for including difference and diversity",
-      "image_url": "https://karada-house.de/wp-content/uploads/2025/11/mg_6950.jpg",
-      "source_url": "https://karada-house.de/events/radical-inclusion/",
-      "source_name": "Karada House",
-      "tags": [
-        "Workshop"
-      ],
-      "time_known": true,
-      "genre": "Kink",
-      "subcategory": null
-    },
-    {
-      "title": "Queer Rope Jam",
-      "start": "2026-06-17T19:00:00",
-      "end": "2026-06-17T23:00:00",
-      "location": "KARA, Perleberger Straße 59, Berlin, 10559, Germany",
-      "description": "It’s queer rope jam time, babes! Once in a while you gotta do ropey stuff amongst other queers and just enjoy yourself. No posing, no being cool or extra good at doing ropey things needed. Come as you are, exhale and enjoy yourselves. \nWhat is a rope jam?\nRope jams is an open space format. Part hangout, part jamming with other like-minded people who are into rope bondage/shibari/kinbaku. Come and hang out and watch others do ropey stuff or do some yourself.  The queer rope jam is where you can bring your (rope) partner(s) or meet new people who love to tie, be tied and/or self-tie. It is also a great space to have sessions in a safe(r) environment with people you do not know yet. \nWe welcome all styles, all bodies, all knowledge levels. There will be cute music, extra special lighting and snacks. In the last hour of the jam, we will lower the lights and music and make it extra cozy.",
-      "image_url": "https://karada-house.de/wp-content/uploads/2022/11/MG_1274-scaled.jpeg",
-      "source_url": "https://karada-house.de/events/queer-rope-jam-0626/",
-      "source_name": "Karada House",
-      "tags": [
-        "Workshop"
-      ],
-      "time_known": true,
-      "genre": "Kink",
-      "subcategory": null
-    },
-    {
       "title": "Soli-Küfa, jeden Mittwoch 19 Uhr",
       "start": "2026-06-17T19:00:00",
       "end": null,
@@ -1175,6 +1143,22 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Konzert"
+      ],
+      "time_known": true,
+      "genre": "Polit",
+      "subcategory": null
+    },
+    {
+      "title": "Soziale Arbeit, Wehrdienst und Aufrüstung: Workshop",
+      "start": "2026-06-17T19:00:00",
+      "end": null,
+      "location": "Karl-Liebknecht-Haus Kleine Alexanderstr. 28 10178 Berlin Deutschland",
+      "description": "Wie verändert sich die Gesellschaft und was bedeutet das für Sozialarbeiter*Innen?",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327808",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Workshop"
       ],
       "time_known": true,
       "genre": "Polit",
@@ -1514,22 +1498,6 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
-    },
-    {
-      "title": "Having Sex with Vulvas",
-      "start": "2026-06-18T19:00:00",
-      "end": "2026-06-18T22:00:00",
-      "location": "https://karada-house.de/events/having-sex-with-vulvas-2/",
-      "description": "Curious about how to give (or get) better pleasure with vulvas, but not sure where to start? Think you already know it all? (You probably don’t—and that’s okay.) Whether you want to increase pleasure for your own or someone else’s vulva, this class is for you. \nIn this deep-dive, inclusive, and no-shame space, you’ll learn:\n\nThe real anatomy of vulvas and vaginas — beyond the textbook\nPleasure-focused techniques that actually work\nHow to unlearn common myths and sexual scripts that get in the way\nPractical info on common issues and how to support vulva health\n\nCeci will go beyond the basics to help you build confidence, communication skills, and a deeper understanding of what brings pleasure to vulva owners. This is a space for anyone who wants to be better at giving or receiving vulva pleasure, regardless of gender, identity, or experience level. \nWhat makes this workshop different?\n\nIt’s inclusive and welcoming to trans and non-binary people\nIt combines expert-led teaching with honest conversation and reflection\nIt’s juicy, informative, and yes, a little nerdy\n\nWhether you’re here to enhance your skills, break down stigma, or better understand your own body, you’re in the right place.",
-      "image_url": "https://karada-house.de/wp-content/uploads/2026/03/mg_3422-scaled.jpg",
-      "source_url": "https://karada-house.de/events/having-sex-with-vulvas-2/",
-      "source_name": "Karada House",
-      "tags": [
-        "Workshop"
-      ],
-      "time_known": true,
-      "genre": "Queer",
       "subcategory": null
     },
     {
@@ -1997,6 +1965,22 @@
       "subcategory": null
     },
     {
+      "title": "THE FUTURE IS HANDMADE ‚STREET-ART EXHIBITION + MERCH‘",
+      "start": "2026-06-19T16:00:00",
+      "end": null,
+      "location": "L5 Späti Lenaustraße 5 12047 Berlin Deutschland",
+      "description": "THE FUTURE IS HANDMADE BOGOTA / BERLIN - CONNECTION\nFive Street-artists  from Colombia bring their prints, artwork, and DIY spirit to Berlin for two exhibitions celebrating independent creation and street culture.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327785",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Ausstellung"
+      ],
+      "time_known": true,
+      "genre": "Polit",
+      "subcategory": null
+    },
+    {
       "title": "Gutscheintausch Regenbogencafé",
       "start": "2026-06-19T17:00:00",
       "end": null,
@@ -2154,22 +2138,6 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
-    },
-    {
-      "title": "Tarot and Tie",
-      "start": "2026-06-19T19:00:00",
-      "end": "2026-06-19T22:00:00",
-      "location": "KARA, Perleberger Straße 59, Berlin, 10559, Germany",
-      "description": "Let tarot guide the scene. Through its rich imagery and storytelling, we’ll co-create a living, ever-changing tableau—one tie at a time. \nThis playful, collaborative space invites you to explore connection through rope, inspired by the symbols and moods of the cards. Together, we’ll build a temporary art installation that encourages communication, creativity, and care. \nLed by Caritia, this session blends rope play with the layered world of tarot. Expect collaborative tying, shared imagination, and a gentle sprinkle of kink in a space that centres curiosity, consent, and co-creation.",
-      "image_url": "https://karada-house.de/wp-content/uploads/2025/12/kh_hotelroomperformance_sophiacecirenee_252.jpg",
-      "source_url": "https://karada-house.de/events/tarot-and-tie/",
-      "source_name": "Karada House",
-      "tags": [
-        "Workshop"
-      ],
-      "time_known": true,
-      "genre": "Kink",
       "subcategory": null
     },
     {
@@ -2333,6 +2301,22 @@
       "subcategory": null
     },
     {
+      "title": "Kurdish Stand-Up Comedy",
+      "start": "2026-06-19T19:30:00",
+      "end": null,
+      "location": "Regenbogenfabrik Lausitzer Str. 21a 10999 Berlin Deutschland",
+      "description": "--- Musik & Gesang ---\nDie Adar Schule zu Gast in der Regenbogenfabrik.\nMit kurdischer Stand-Up Comedy, Open Mic und ganz viel gemeinsamer Energie; ein besonderer Abend voller Lachen, Satire und kurdischer Comedy.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327820",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ],
+      "time_known": true,
+      "genre": "Queer",
+      "subcategory": null
+    },
+    {
       "title": "Freitag in der Olfe",
       "start": "2026-06-19T19:30:00",
       "end": "2026-06-19T22:30:00",
@@ -2477,22 +2461,6 @@
       "subcategory": null
     },
     {
-      "title": "Midsummer Moments - Reflections",
-      "start": "2026-06-20T12:00:00",
-      "end": "2026-06-20T15:00:00",
-      "location": "KARA, Perleberger Straße 59, Berlin, 10559, Germany",
-      "description": "At the midpoint of the year, we pause to take stock, reconnect, and gently turn toward what’s next. This session invites you to slow down and be present with yourself, while sharing space with others in a supportive and welcoming environment. \nGuided by Caritia, this is a held space for intentional reflection through conversation and journaling. Together, we’ll create simple rituals of acknowledgement and empowerment, honouring where you’ve been and what you’re ready to invite in. \nWhat we’ll do\n\n\nReflect on the year so far \n\n\n(Re)set intentions for the months ahead \n\n\nCreate small, personal rituals to honour your journey \n\n\nExplore what feels supportive and sustaining for you \n\n\nListen inward to what is wanted, needed, and desired \n\n\nShare gently in small groups (with choice and care)",
-      "image_url": "https://karada-house.de/wp-content/uploads/2022/07/MG_2042-scaled.jpeg",
-      "source_url": "https://karada-house.de/events/midsummer-moments-reflections/",
-      "source_name": "Karada House",
-      "tags": [
-        "Workshop"
-      ],
-      "time_known": true,
-      "genre": "Kink",
-      "subcategory": null
-    },
-    {
       "title": "Breathplay Workshop",
       "start": "2026-06-20T14:00:00",
       "end": "2026-06-20T19:00:00",
@@ -2519,6 +2487,22 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
+      ],
+      "time_known": true,
+      "genre": "Polit",
+      "subcategory": null
+    },
+    {
+      "title": "Fahrrad-Demo gegen Apollo News, Nius und neurechte Medien",
+      "start": "2026-06-20T14:00:00",
+      "end": null,
+      "location": "Berlin Berlin Deutschland",
+      "description": "Das rechte Medienportal Apollo News, das sich inhaltlich in einer ähnlichen Ecke wie Julian Reichelts „Nius“ bewegt, hat zwar bei Linken noch nicht den gleichen Bekanntheitsgrad, ist aber dabei sich in der neurechten Medienlandschaft zu etablieren.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327801",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Protest"
       ],
       "time_known": true,
       "genre": "Polit",
@@ -2573,22 +2557,6 @@
       "subcategory": null
     },
     {
-      "title": "Midsummer Moments - Playtime",
-      "start": "2026-06-20T16:00:00",
-      "end": "2026-06-20T19:00:00",
-      "location": "KARA, Perleberger Straße 59, Berlin, 10559, Germany",
-      "description": "Celebrate the Summer Solstice through movement, connection, and play. Together, we’ll honour both light and dark, exploring how they live within us. \nCaritia invites you into a kink-inspired, body-based space where you can explore your intentions and desires—solo or with others. Whether you’re drawn to rope, sensation, SM, or something a little playful and spicy, this is a collaborative environment for creative expression, curiosity, and care. \nThe session begins with a guided opening to ground the group and spark inspiration. From there, you’ll be invited to create your own “adventure”—a personal or shared ritual that celebrates the abundance of light and the turning of the season. \nWhat we will discuss\n\nShare intentions and ideas\nCreate simple rituals (solo or in small groups)\nExplore body-based and sensory practices\nPlay, experiment, and collaborate\nCelebrate creativity and expression\nConnect with pleasure as a source of energy and resistance",
-      "image_url": "https://karada-house.de/wp-content/uploads/2024/04/MG_9641-scaled.jpeg",
-      "source_url": "https://karada-house.de/events/midsummer-moments-playtime/",
-      "source_name": "Karada House",
-      "tags": [
-        "Workshop"
-      ],
-      "time_known": true,
-      "genre": "Kink",
-      "subcategory": null
-    },
-    {
       "title": "Schach- und Spiele-Nachmittag",
       "start": "2026-06-20T16:00:00",
       "end": null,
@@ -2631,6 +2599,22 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Workshop"
+      ],
+      "time_known": true,
+      "genre": "Polit",
+      "subcategory": null
+    },
+    {
+      "title": "Solitressen - sweet drinks for bitter times",
+      "start": "2026-06-20T16:00:00",
+      "end": null,
+      "location": "f.a.q. Jonasstr. 40 12053 Berlin Deutschland",
+      "description": "Süße Getränke für bittere Zeiten",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327777",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
       ],
       "time_known": true,
       "genre": "Polit",
@@ -3085,6 +3069,22 @@
       "subcategory": null
     },
     {
+      "title": "Eddy Breaks Sommersause",
+      "start": "2026-06-20T22:00:00",
+      "end": null,
+      "location": "Drugstore im Rockhaus Buchberger Str. 6 10365 Berlin Deutschland",
+      "description": "Drum & Bass / Jungle - Wir tanzen rein in den längsten Tag des Jahres.Es spielen auf:\nHNShttps://hearthis.at/hns/\nUUMMhttps://soundcloud.com/user-268930705/tracks",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327809",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ],
+      "time_known": true,
+      "genre": "Polit",
+      "subcategory": null
+    },
+    {
       "title": "Kriminal Kitchen fuck off soundssystem",
       "start": "2026-06-21T00:00:00",
       "end": null,
@@ -3130,22 +3130,6 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
-    },
-    {
-      "title": "Rope Level-Up: Playing with Predicaments",
-      "start": "2026-06-21T11:30:00",
-      "end": "2026-06-21T15:30:00",
-      "location": "KARA, Perleberger Straße 59, Berlin, 10559, Germany",
-      "description": "Ready to deepen your connection through rope? This immersive workshop focuses on intentional tying: building trust, communicating clearly, and using positions and tempo to create emotional or playful experiences. Includes hands-on practice and guided scenarios. Ideal after completing the fundamentals series. \nTopic: Predicaments\nPredicaments are lose-lose situation in rope play that can be a lot of fun but also lead into a realm of psychological play that can be physically and psychologically challenging. Renée will guide you through a few easy and fun predicaments that will become more and more challenging. Choose your own adventure \nWe Will Explore:\n\nwhat are predicaments?\nsuper easy beginner predicaments\npsychological vs. physical predicaments\nplay time!",
-      "image_url": "https://karada-house.de/wp-content/uploads/2025/12/preducament_class.jpg",
-      "source_url": "https://karada-house.de/events/rope-levelup-predicaments/",
-      "source_name": "Karada House",
-      "tags": [
-        "Workshop"
-      ],
-      "time_known": true,
-      "genre": "Kink",
       "subcategory": null
     },
     {
@@ -3261,6 +3245,22 @@
       "subcategory": null
     },
     {
+      "title": "Soli-Bücherflohmarkt",
+      "start": "2026-06-21T13:00:00",
+      "end": null,
+      "location": "Zwille Fasanenstr. 1a 10623 Berlin Deutschland",
+      "description": "Für Büchermäuse und Lesewürmer",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327811",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ],
+      "time_known": true,
+      "genre": "Polit",
+      "subcategory": null
+    },
+    {
       "title": "Squat de la Musique * Schreina47",
       "start": "2026-06-21T14:00:00",
       "end": null,
@@ -3338,6 +3338,22 @@
       ],
       "time_known": true,
       "genre": "Queer",
+      "subcategory": null
+    },
+    {
+      "title": "Kuchen KüFa @ Squat De La Musique // KAOX Türri",
+      "start": "2026-06-21T15:00:00",
+      "end": null,
+      "location": "Türrschmidtstraße 1 10317 Berlin Deutschland",
+      "description": "🎂🧁🎵 Die Kuchen Küfa Lichtenberg ist Teil des diesjährigen Squat de la Musique!Für alle, die nach den Konzerten eine Verschnaufpause brauchen, Hunger stillen oder Kaffee und Energie tanken wollen, sind wir mit entspannter Musik und Leckereien dabei.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327774",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ],
+      "time_known": true,
+      "genre": "Polit",
       "subcategory": null
     },
     {
@@ -3434,22 +3450,6 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
-    },
-    {
-      "title": "Cuddles, Cakes and Kinks - Summer Edition (with Garden!)",
-      "start": "2026-06-21T17:00:00",
-      "end": "2026-06-21T23:00:00",
-      "location": "KARA, Perleberger Straße 59, Berlin, 10559, Germany",
-      "description": "Welcome to Cuddles, Cakes and Kinks, your monthly aftercare event to take a break from cisheteropatriarchy, capitalism, the burning world, or life in general. We’re here to rest so we can resist, to play as an antidote to pressure, and to let the people eat cake. Queer people, welcome! \nWe are opening our wonderful house for the evening so you can come by, relax, and calm down amongst other queer people. There will be hammocks and little areas for cuddling and enjoying touch. Get or give massages. Do some soft, slow kink. Or hang out in the kitchen with us and just chat. We will be baking a bunch of cakes and there will be coffee, tea, and snacks to nourish your bodies and souls. \nLight and slow kink interactions are welcome. Anything that allows you to come back to yourself and into connection with others in a soft and nice way. This is not a play party or sex club, but a playful community event. The vibe is cozy, and we don’t do genital play. \nThere is a separate cuddle room that is completely free from any kind of play, horny vibes, and nudity. It’s for cuddles, naps, quiet conversation, maybe reading a book.",
-      "image_url": "https://karada-house.de/wp-content/uploads/2025/07/MG_4545-1.jpg",
-      "source_url": "https://karada-house.de/events/cuddles-cakes-template-0626/",
-      "source_name": "Karada House",
-      "tags": [
-        "Workshop"
-      ],
-      "time_known": true,
-      "genre": "Kink",
       "subcategory": null
     },
     {
@@ -3789,22 +3789,6 @@
       "subcategory": null
     },
     {
-      "title": "Rope for Absolute Beginners",
-      "start": "2026-06-22T19:00:00",
-      "end": "2026-06-22T22:00:00",
-      "location": "KARA, Perleberger Straße 59, Berlin, 10559, Germany",
-      "description": "Welcome to the world of Japanese style rope bondage, friend! It’s wild and fun out here and we are thrilled to be your point of entry. \nThis weekly class is designed for anyone who would like to learn about Japanese-inspired rope bondage/shibari/kinbaku whether you see yourself in the role of the person tying or being tied. We firmly believe that everyone, even if you wish to be tied, should know the absolute basics of this craft. \nWhat we do\n\nWe talk about what the heck is Japanese inspired rope bondage and why we call it “inspired”.\nWe show you the tools are we using and tell you why they are designed the way they are.\nWe talk about why people love to tie/get tied and what happens if you tie/get tied?\nWe show you the fundamental principles of shibari and first techniques you can immediately use\nWe talk about the history of shibari, give you pointers on anatomy, psychology and safety\nWe will tie ourselves, other people (if you and they want to) and actually take time to try stuff out and play, play, play\n\nThis class is suited for\n\nall kinds of bodies (abled and non-abled), all gender expressions, all kinds of sexualities (including people on the ace-spectrum), all kind of brains (neurospicy or neurotypical, affected by trauma, etc.)\npeople coming solo or bringing a partner (or group), people who only want to tie their own bodies as well as people who want to tie/get tied by others",
-      "image_url": "https://karada-house.de/wp-content/uploads/2025/12/absolutebeginner10.jpg",
-      "source_url": "https://karada-house.de/events/rope-for-absolute-beginner-220626/",
-      "source_name": "Karada House",
-      "tags": [
-        "Workshop"
-      ],
-      "time_known": true,
-      "genre": "Kink",
-      "subcategory": null
-    },
-    {
       "title": "Soli-Bleiberechtsbar",
       "start": "2026-06-22T19:00:00",
       "end": null,
@@ -3869,6 +3853,22 @@
       "subcategory": null
     },
     {
+      "title": "Offenes Plenum der Kritischen Medizin Berlin",
+      "start": "2026-06-22T19:00:00",
+      "end": null,
+      "location": "Bandito Rosso Lottumstr. 10a 10119 Berlin Deutschland",
+      "description": "Liebe Alle!\nWir laden euch herzlich zu unserem Offenen-Plenum ein:⏰ 22. Juni 2026 um 19 Uhr📍 Bandito Rosso, Lottumstraße 10A, Nähe U-Rosenthaler Platz",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327805",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ],
+      "time_known": true,
+      "genre": "Polit",
+      "subcategory": null
+    },
+    {
       "title": "Die Seherin",
       "start": "2026-06-22T19:30:00",
       "end": null,
@@ -3882,6 +3882,22 @@
       ],
       "time_known": true,
       "genre": "Kultur",
+      "subcategory": null
+    },
+    {
+      "title": "Anarchistisches Infocafé",
+      "start": "2026-06-22T20:00:00",
+      "end": null,
+      "location": "NewYorck im Bethanien Mariannenplatz 2A 10997 Berlin Deutschland",
+      "description": "War and Memory in Colombia Photo exhibition, film, and discussion",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327819",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Film"
+      ],
+      "time_known": true,
+      "genre": "Polit",
       "subcategory": null
     },
     {
@@ -4042,22 +4058,6 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
-    },
-    {
-      "title": "Rope Lab: Play & Connection - pain",
-      "start": "2026-06-23T19:00:00",
-      "end": "2026-06-23T21:30:00",
-      "location": "KARA, Perleberger Straße 59, Berlin, 10559, Germany",
-      "description": "This is our experimental shibari playground for all skill levels. Each month explores a new topic — from shame and semenawa to performance, advanced movement, or the mythical “3rd rope” in TKs. We rotate between two themes, always bringing new inspiration to your rope practice. Open to all levels with foundational knowledge. Bring your curiosity, your questions, and your rope. \nThis month we are focusing on: pain – weather you call it s/m or semenawa, this class is all about exploring how to use rope to create pain. We will explore both external pain and uncomfortable body positions. This class is suitable for all skill levels. \nPlay & Connection\nThese classes are dedicated to the research of the interpersonal, connective, and fun side of shibari. Forget about rope technique for a while and learn hands-on skills for actually playing with what you know. The topic varies from month to month, and can be anything from pain and predicament ties to fun games like rope fight club. Come learn the skills that take your sessions from good to fantastic!",
-      "image_url": "https://karada-house.de/wp-content/uploads/2025/12/mg_6839.jpg",
-      "source_url": "https://karada-house.de/events/pain-shibari-semenawa-0626/",
-      "source_name": "Karada House",
-      "tags": [
-        "Workshop"
-      ],
-      "time_known": true,
-      "genre": "Kink",
       "subcategory": null
     },
     {
@@ -4330,22 +4330,6 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
-    },
-    {
-      "title": "Playfight & Rough Body Play Lab",
-      "start": "2026-06-24T19:00:00",
-      "end": "2026-06-24T21:00:00",
-      "location": null,
-      "description": "Use your body in a vastly different way. Restricted, restrained, maybe even tamed – our bodies are subdued to very strict rules and movements in our daily lives. Time to get primal and rough. Rough body play allows for more fighting, emotions, and a deeper exploration of power dynamics than play fights. \nOnce a month we open Karada House for 2 hours of randori (free fights) time to try your new skills and have fun. Our amazing instructor Montse will guide through \n\nwarm-up exercises\nconsent & safety\ndos & don’ts\n\nAfter that – fight!",
-      "image_url": "https://karada-house.de/wp-content/uploads/2025/10/mg_8399.jpg",
-      "source_url": "https://karada-house.de/events/rbp-template-240626/",
-      "source_name": "Karada House",
-      "tags": [
-        "Workshop"
-      ],
-      "time_known": true,
-      "genre": "Kink",
       "subcategory": null
     },
     {
@@ -4653,22 +4637,6 @@
       "subcategory": null
     },
     {
-      "title": "Practical Reflections on Intentional Kink Space Facilitation",
-      "start": "2026-06-25T19:00:00",
-      "end": "2026-06-25T21:00:00",
-      "location": "https://karada-house.de/events/practical-reflections/",
-      "description": "As Kink Space Facilitators, we experience a wide range of impressions in our work. We plan juicy offers, trauma and queer inclusive, and hold space for experiences, uncertainties, fuck ups, desires and much more. After planning and implementation comes reflection and evaluation. The ‘how was I’ as a professional and personally. \nAlexander Hahne, gay trans man, trainer and speaker for trans-specific topics in the field of sexual health, sex educator, somatic counselor, sexuality focussed bodyworker, systemic sex therapist, dancer and pleasure activist. Leader of workshops and individual counseling on the topics of body awareness, intimacy and sexuality. He works in the field of sexuality for about 20 years with almost 15 years of facilitation in pleasure and kink spaces. With his work he directly support them in their own experience of the body as well as the possibility of uncovering and using access to their own pleasurable potential. \nWhat happens in the workshop?\nIn this workshop, we will first put on our oxygen masks and subject our work to a reality check to see how it actually was. \nFor example, we will address the following questions: \n\nWhich methods worked really well and why?\nDid the planning of your trauma-informed process have the desired effect during implementation?\nWere there situations in which you felt uncertain or overwhelmed? What did you do then? What could be different next time?\nWhich methods did you use and why? What worked, what didn’t and why?\n\nYes, there is always too little time and the physical space is different than expected… how do you deal with that? How does that affect your stress level and facilitation? \nThe approach is to separate your behaviour from you as a person. You as a person are highly valued and your behaviour is criticised. \nNote\nThis offering connects to and extends Ceci Ferox’s workshops Intentional Kink Space Facilitation and Intentional Kink Spaces: Structures and Organizing. You can purchase the recordings in our shop. If you did not have the opportunity to be part of these classes, we are offering the recordings for you to purchase as well. The recordings will be available until July 16th, 2026. This is optional, not mandatory. If you were part of one or both of these workshops, you can email us and get free access to the recordings again, if you purchase a ticket to this class.",
-      "image_url": "https://karada-house.de/wp-content/uploads/2025/12/mg_3058.jpg",
-      "source_url": "https://karada-house.de/events/practical-reflections/",
-      "source_name": "Karada House",
-      "tags": [
-        "Workshop"
-      ],
-      "time_known": true,
-      "genre": "Kink",
-      "subcategory": null
-    },
-    {
       "title": "Näh’n’Nerd Cafe / Reparaturkneipe",
       "start": "2026-06-25T19:00:00",
       "end": null,
@@ -4829,6 +4797,38 @@
       "subcategory": null
     },
     {
+      "title": "LATINO / BALKAN - PUNK DISCHORD (KONZERTE)",
+      "start": "2026-06-25T21:00:00",
+      "end": null,
+      "location": "KØPI Köpenicker Straße 137 10179 Berlin Deutschland",
+      "description": "Dirty Immigrant presenta: A LATINO – BALKAN DISCHORD\n- EDIÖNDÖ (Punk • Santiago, Chile)\nediondo.bandcamp.com\n- KRAYAT (Berlin • Local Balkans)\nkrayat.bandcamp.com\n- CRNA ŽUČ (Post-Punk • Serbia)",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327786",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ],
+      "time_known": true,
+      "genre": "Polit",
+      "subcategory": null
+    },
+    {
+      "title": "VIBRA",
+      "start": "2026-06-25T21:00:00",
+      "end": null,
+      "location": "Lauschangriff Rigaer Str. 103 10247 Berlin Deutschland",
+      "description": "IVE SETS :SABIANI (CZ)ELLY RAVEHYENAZCONTROLLERHYENAZAre sonic alchemists Mad Kate and Adrienne Teicher, who create interactive performances and audiovisual art on the nexus of bodies, power, and audibility.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327812",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ],
+      "time_known": true,
+      "genre": "Polit",
+      "subcategory": null
+    },
+    {
       "title": "CHILLGARAGE",
       "start": "2026-06-26T16:00:00",
       "end": null,
@@ -4957,6 +4957,22 @@
       "subcategory": null
     },
     {
+      "title": "Aus der Nacht heraus - Political Film Festival -Day 3",
+      "start": "2026-06-26T18:00:00",
+      "end": null,
+      "location": "Wagenburg Lohmühle Lohmühlenstr. 17 12435 Berlin Deutschland",
+      "description": "Aus der Nacht heraus - Political Film Festival - Day 3 : To resist, to exist: Feminist liberation movements against oppression (Doors, Kitchen & Bar open at 18:00 - Event starts at 19:00) Panel Discussion with:",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327782",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Film"
+      ],
+      "time_known": true,
+      "genre": "Polit",
+      "subcategory": null
+    },
+    {
       "title": "Hier sein heißt handeln",
       "start": "2026-06-26T18:00:00",
       "end": null,
@@ -4986,22 +5002,6 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
-    },
-    {
-      "title": "Hurt Me, Deliciously",
-      "start": "2026-06-26T19:00:00",
-      "end": "2026-06-26T22:00:00",
-      "location": "https://karada-house.de/events/hurt-me-deliciously-2/",
-      "description": "There is something extraordinarily powerful in feeling and playing with consensual and voluntary pain. Why would a person want to feel pain? Why would another love to give it to someone else? How is pain and the processing of it changed depending on the context and relation it is put into? \nIn the workshop, Mamana will go into a deep deep deep dive into all things pain and pain play. Together we will look at what pain actually is, how it is produced and interpreted in the brain and how it is influenced by personal, biological, social, and other contextual factors you can play with. We will go into the details of why people like to give and receive pain, how you can process it, which typical impact play instruments are helpful in inducing a certain kind of painful sensation. \nIn short, this class will fry your brain with nerdy knowledge and allow you to think about your interest in pain play on a whole new level. Come for the facts, stay for the soul-searching of why sadomasochism is fucking delicious. \nWhat we will discuss\n\nDefine Pain?\nGood pain, bad pain?\nWhat do consent, trust and context have to do with it?\nHow to receive and process pain\nHow to tweak your pain play to where you want it to go\nWhy the fuck are we doing this?\nmany other little info tid-bits you will not see coming",
-      "image_url": "https://karada-house.de/wp-content/uploads/2026/01/mg_5976.jpg",
-      "source_url": "https://karada-house.de/events/hurt-me-deliciously-2/",
-      "source_name": "Karada House",
-      "tags": [
-        "Workshop"
-      ],
-      "time_known": true,
-      "genre": "Kink",
       "subcategory": null
     },
     {
@@ -5085,6 +5085,22 @@
       "subcategory": null
     },
     {
+      "title": "Soli concert",
+      "start": "2026-06-26T20:00:00",
+      "end": null,
+      "location": "Fischladen Rigaer Straße 83 10247 Berlin Deutschland",
+      "description": "Live on stage: SEWER ALTAR (Deathgrind, Finland), EXTINCT (Powerviolence, Querfurt), DISTORTED AURA (Death Metal, Berlin).",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327790",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ],
+      "time_known": true,
+      "genre": "Polit",
+      "subcategory": null
+    },
+    {
       "title": "Apaches",
       "start": "2026-06-26T20:00:00",
       "end": null,
@@ -5130,6 +5146,22 @@
       ],
       "time_known": true,
       "genre": "Kultur",
+      "subcategory": null
+    },
+    {
+      "title": "Konzert: Shutcombo + LisaBouvier",
+      "start": "2026-06-26T20:26:00",
+      "end": null,
+      "location": "Z-Keller (Bhf Charlottenhof) Potsdam Berlin Deutschland",
+      "description": "KONZERT am Freitag, 26. Juni @ \"Fake Black\" (ask a Potsdam punk) SHUT COMBO aus Bad Dürrenberg gibt es…äh…nicht erst seit gestern...",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327781",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ],
+      "time_known": true,
+      "genre": "Polit",
       "subcategory": null
     },
     {
@@ -5197,6 +5229,38 @@
       "subcategory": null
     },
     {
+      "title": "Workshops \"Utopien & Personas\" - kreativ gg. Tech-Faschismus",
+      "start": "2026-06-27T11:00:00",
+      "end": null,
+      "location": "Lauseria Lausitzer Straße 10 10999 Berlin Deutschland",
+      "description": "Berlin hat sein Polizeigesetz auf Überwachung umgestellt. Das Bundeskabinett hofft auf Verabschiedung der neuen Überwachungsgesetze. Fünf Bundesländer nutzen (oder planen) die Palantir-Software Gotham.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327788",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Workshop"
+      ],
+      "time_known": true,
+      "genre": "Polit",
+      "subcategory": null
+    },
+    {
+      "title": "CSD Bernau Anreise",
+      "start": "2026-06-27T11:00:00",
+      "end": null,
+      "location": "JUP Florastr. 84 13187 Berlin Deutschland",
+      "description": "JUP goes CSD Bernau!",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327792",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Sonstiges"
+      ],
+      "time_known": true,
+      "genre": "Queer",
+      "subcategory": null
+    },
+    {
       "title": "Solidarity Bake Sale",
       "start": "2026-06-27T12:00:00",
       "end": null,
@@ -5226,38 +5290,6 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
-    },
-    {
-      "title": "Rope Fundamentals Weekend: Foundations & Fun",
-      "start": "2026-06-27T13:00:00",
-      "end": "2026-06-27T19:00:00",
-      "location": "KARA, Perleberger Straße 59, Berlin, 10559, Germany",
-      "description": "This is the Saturday single ticket event. For buying a full weekend ticket, go to the weekend event. \nSaturday gives you the tools that make shibari fun — or intense, or meditative, or horny, or whatever flavor of rope you want to create. Ceci will get you started with the most essential techniques: the lark’s head, the single column tie, clean wrapping, managing tension, and staying safe. Once those basics are in place, we spend the rest of the day putting them to use in playful, intuitive ways. \nWe’ll explore freestyle tying and improvisation to loosen the pressure of “doing it right.” Through one-rope exercises, wrapping, unwrapping, and re-wrapping bodies, you’ll learn to follow curiosity instead of memorizing patterns. Because rope isn’t static — people move — we’ll also practice guiding and responding to movement through levers, spirals, and simple transitions like sitting to standing or shifting limbs mid-tie. \nAlong the way, we dive into the emotional and psychological effects of rope: how body positions, pacing, tension, and proximity can shift headspace and shape intention. With just a few simple ties, you’ll learn to create sessions that feel impactful, intimate, and expressive. \nTake aways: \n\nLarkshead & single column tie\nRope safety\nOne rope tying, wrapping & unwrapping\nPlaying with different intentions and moods\nMoving bodies & tying in movement",
-      "image_url": "https://karada-house.de/wp-content/uploads/2025/12/mg_7919.jpg",
-      "source_url": "https://karada-house.de/events/rope-fundamentals-weekend-foundations-fun-2/",
-      "source_name": "Karada House",
-      "tags": [
-        "Workshop"
-      ],
-      "time_known": true,
-      "genre": "Kink",
-      "subcategory": null
-    },
-    {
-      "title": "Rope Fundamentals: Shibari Starter Kit Weekend",
-      "start": "2026-06-27T13:00:00",
-      "end": "2026-06-28T19:00:00",
-      "location": "KARA, Perleberger Straße 59, Berlin, 10559, Germany",
-      "description": "Kick off your rope journey with a weekend that bundles our entire Rope Fundamentals series into one playful, beginner-friendly shibari workshop. \nAcross two days, you’ll move from the simplest building blocks to a clear understanding of how harnesses work. Whether you’re brand new, brushing off old skills, or craving a solid base before exploring deeper techniques, this weekend is designed to set you up with confidence, creativity, and connection. \nYou can bring someone to tie with or come solo and find a partner at the workshop. \nJoin us for the full journey, or pick the day that suits you best: \nGet Your Saturday (Foundations & Fun), only ticket here.\nGet your Sunday (Nerdery & Harnesses), only ticket here. \nFoundations & Fun\nSaturday gives you the tools that make shibari fun — or intense, or meditative, or horny, or whatever flavor of rope you want to create. Ceci will get you started with the most essential techniques: the lark’s head, the single column tie, clean wrapping, managing tension, and staying safe. Once those basics are in place, we spend the rest of the day putting them to use in playful, intuitive ways. \nWe’ll explore freestyle tying and improvisation to loosen the pressure of “doing it right.” Through one-rope exercises, wrapping, unwrapping, and re-wrapping bodies, you’ll learn to follow curiosity instead of memorizing patterns. Because rope isn’t static — people move — we’ll also practice guiding and responding to movement through levers, spirals, and simple transitions like sitting to standing or shifting limbs mid-tie. \nAlong the way, we dive into the emotional and psychological effects of rope: how body positions, pacing, tension, and proximity can shift headspace and shape intention. With just a few simple ties, you’ll learn to create sessions that feel impactful, intimate, and expressive. \nTake aways:\n\nLarkshead & single column tie\nRope safety\nOne rope tying, wrapping & unwrapping\nPlaying with different intentions and moods\nMoving bodies & tying in movement\n\nNerdery & Harnesses\nSunday is for the rope nerds (or for anyone ready to become one). Today we dive into the mechanics behind stable, comfortable, body-friendly tying. We’ll explore how to apply rope with intention, how to create structures that fit real bodies, and how to make your tying smoother, safer, and more efficient. \nYou’ll learn counter tensions, ladder structures, your first frictions, and how to wrap with flow and consistency. These building blocks are what allow harnesses to hold their shape. We’ll also cover ergonomics and hand techniques, like hooking and pulling rope, so you can tie for longer without soreness or strain. \nWith these tools in place, we’ll begin tying simple harnesses and, more importantly, understanding why they work. You’ll get a clear picture of the core components (anchors, stems, wraps, frictions, and cinches) and start recognizing the logic behind shibari structures. This modular thinking becomes the foundation for everything that comes after. \nTake aways:\n\nDouble column tie\nRope handling & ergonomics\nTension, counter tension & ladders\nIntro to harnesses: anchors, stems, wraps, frictions, cinches\nFrictions: Half hitch, full stop, munter hitch, in-line single column tie\nOne rope harnesses: chest harness, futomomo, box tie",
-      "image_url": "https://karada-house.de/wp-content/uploads/2026/02/mg_1074-1.jpg",
-      "source_url": "https://karada-house.de/events/rope-fundamentals-shibari-starter-kit-weekend-2/",
-      "source_name": "Karada House",
-      "tags": [
-        "Workshop"
-      ],
-      "time_known": true,
-      "genre": "Kink",
       "subcategory": null
     },
     {
@@ -5303,6 +5335,22 @@
       "source_name": "Stressfaktor",
       "tags": [
         "Essen"
+      ],
+      "time_known": true,
+      "genre": "Polit",
+      "subcategory": null
+    },
+    {
+      "title": "Aus der Nacht heraus (Day 4): Panel Discussion & more",
+      "start": "2026-06-27T14:00:00",
+      "end": null,
+      "location": "Berlin Berlin Deutschland",
+      "description": "Aus der Nacht heraus - Political Film Festival - Day 4 : Rearmament and War Preparation from Above - Resistance and Organization from Below (Doors open at 18:00 - Event starts at 19:00) Panel Discussion with:",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327784",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Party"
       ],
       "time_known": true,
       "genre": "Polit",
@@ -5613,6 +5661,22 @@
       "subcategory": null
     },
     {
+      "title": "KONVULSISMO :6",
+      "start": "2026-06-27T20:00:00",
+      "end": null,
+      "location": "Rote Insel near S1 / U7 Yorckstrasse Berlin 10783 Berlin Deutschland",
+      "description": ":::KONVULSISMO : 6 \nFIGHT :THE :STATES ::NOT :THEIR :WARS \n:::LIVE \nOkkyung Lee (south korea) :: solo improvised cello",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327807",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Konzert"
+      ],
+      "time_known": true,
+      "genre": "Polit",
+      "subcategory": null
+    },
+    {
       "title": "Qui a tué mon père (Wer hat meinen Vater umgebracht)",
       "start": "2026-06-27T20:00:00",
       "end": null,
@@ -5741,19 +5805,19 @@
       "subcategory": null
     },
     {
-      "title": "Rope Fundamentals Weekend: Nerdery & Harnesses",
-      "start": "2026-06-28T13:00:00",
-      "end": "2026-06-28T19:00:00",
-      "location": "KARA, Perleberger Straße 59, Berlin, 10559, Germany",
-      "description": "This is the Sunday single ticket event. For buying a full weekend ticket, go to the weekend event. \nSunday is for the rope nerds (or for anyone ready to become one). Today we dive into the mechanics behind stable, comfortable, body-friendly tying. We’ll explore how to apply rope with intention, how to create structures that fit real bodies, and how to make your tying smoother, safer, and more efficient. \nYou’ll learn counter tensions, ladder structures, your first frictions, and how to wrap with flow and consistency. These building blocks are what allow harnesses to hold their shape. We’ll also cover ergonomics and hand techniques, like hooking and pulling rope, so you can tie for longer without soreness or strain. \nWith these tools in place, we’ll begin tying simple harnesses and, more importantly, understanding why they work. You’ll get a clear picture of the core components (anchors, stems, wraps, frictions, and cinches) and start recognizing the logic behind shibari structures. This modular thinking becomes the foundation for everything that comes after. \nTake aways: \n\nDouble column tie\nRope handling & ergonomics\nTension, counter tension & ladders\nIntro to harnesses: anchors, stems, wraps, frictions, cinches\nFrictions: Half hitch, full stop, munter hitch, in-line single column tie\nOne rope harnesses: chest harness, futomomo, box tie",
-      "image_url": "https://karada-house.de/wp-content/uploads/2026/01/mg_6117.jpg",
-      "source_url": "https://karada-house.de/events/rope-fundamentals-weekend-nerdery-harnesses-2/",
-      "source_name": "Karada House",
+      "title": "Workshops \"Utopien & Personas\" - kreativ gg. Tech-Faschismus",
+      "start": "2026-06-28T11:00:00",
+      "end": null,
+      "location": "Lauseria Lausitzer Straße 10 10999 Berlin Deutschland",
+      "description": "Berlin hat sein Polizeigesetz auf Überwachung umgestellt. Das Bundeskabinett hofft auf Verabschiedung der neuen Überwachungsgesetze. Fünf Bundesländer nutzen (oder planen) die Palantir-Software Gotham.",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327789",
+      "source_name": "Stressfaktor",
       "tags": [
         "Workshop"
       ],
       "time_known": true,
-      "genre": "Kink",
+      "genre": "Polit",
       "subcategory": null
     },
     {

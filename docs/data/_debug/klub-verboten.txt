@@ -1,4 +1,6 @@
-graphql POST -> 200 application/json; charset=utf-
-  {"data":{"promoter":{"id":"84128","name":"Klub Verboten"}}}
-GET https://ra.co/promoters/84128/events -> 403
-GET https://ra.co/promoters/84128 -> 403
+
+Query A -> 200:
+{"errors":[{"message":"Field \"events\" argument \"type\" of type \"EventQueryType!\" is required, but it was not provided.","extensions":{"code":"GRAPHQL_VALIDATION_FAILED"}},{"message":"Field \"events\" argument \"type\" of type \"EventQueryType!\" is required, but it was not provided.","extensions":{"code":"GRAPHQL_VALIDATION_FAILED"}}]}
+
+Query B -> 200:
+{"errors":[{"message":"Field \"events\" argument \"type\" of type \"EventQueryType!\" is required, but it was not provided.","extensions":{"code":"GRAPHQL_VALIDATION_FAILED"}},{"message":"Field \"events\" argument \"type\" of type \"EventQueryType!\" is required, but it was not provided.","extensions":{"code":"GRAPHQL_VALIDATION_FAILED"}}]}

@@ -187,9 +187,9 @@ def _format_address(addr: dict) -> str | None:
 
 _PLZ_RE = re.compile(r"\b(\d{5})\b")
 _STREET_RE = re.compile(
-    r"([A-ZÄÖÜ][\wäöüß.\-]*(?:\s+[A-ZÄÖÜ][\wäöüß.\-]*){0,3}?\s*"
+    r"([A-ZÄÖÜ][\wäöüß.\-]*\s*"
     r"(?:stra(?:ß|ss)e|str\.?|allee|damm|platz|weg|ufer|ring|chaussee|"
-    r"gasse|tor|pfad|steig|hof)\.?\s+\d{1,4}\s*[-/]?\s*\d*"
+    r"gasse|tor|pfad|steig|hof)\.?\s+\d{1,4}(?:\s*[-/]\s*\d{1,4})?"
     r"(?:\s?[a-zA-Z](?![A-Za-zäöüß]))?)",
     re.IGNORECASE,
 )

@@ -493,9 +493,17 @@ function render() {
   const sortedKeys = [...groups.keys()].sort();
 
   if (visible.length === 0) {
-    els.feed.innerHTML = '<p class="status">Keine Veranstaltungen gefunden.</p>';
-    els.mapView.innerHTML = "";
     els.dayTabs.innerHTML = "";
+    if (state.viewMode === "map") {
+      // Keep the (initialised) map alive, just clear it and show a note.
+      sizeMap();
+      const map = ensureMap();
+      if (map) setTimeout(() => map.invalidateSize(), 0);
+      clearMapMarkers();
+      showMapNote(0, 0);
+    } else {
+      els.feed.innerHTML = '<p class="status">Keine Veranstaltungen gefunden.</p>';
+    }
     return;
   }
 
@@ -1076,6 +1084,12 @@ window.addEventListener("resize", () => {
   }
 });
 
+function clearMapMarkers() {
+  if (!leafletMap) return;
+  for (const m of mapMarkers) leafletMap.removeLayer(m);
+  mapMarkers = [];
+}
+
 function ensureMap() {
   if (leafletMap || typeof L === "undefined") return leafletMap;
   leafletMap = L.map(els.mapView, { zoomControl: true, attributionControl: true })
@@ -1104,8 +1118,7 @@ function renderMap(sortedKeys, groups) {
   sizeMap();
   const map = ensureMap();
   setTimeout(() => map.invalidateSize(), 0);
-  for (const m of mapMarkers) map.removeLayer(m);
-  mapMarkers = [];
+  clearMapMarkers();
 
   const events = (groups.get(state.mapDay) || { events: [] }).events;
   const now = new Date();
@@ -1148,7 +1161,7 @@ function showMapNote(placed, total) {
     note.className = "map-note";
     els.mapView.appendChild(note);
   }
-  if (total === 0) note.textContent = "Keine Veranstaltungen an diesem Tag.";
+  if (total === 0) note.textContent = "Keine Veranstaltungen gefunden.";
   else if (placed < total) note.textContent =
     `${placed} von ${total} verortet (für andere fehlt noch die Adresse).`;
   else note.textContent = `${placed} Veranstaltungen`;

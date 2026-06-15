@@ -1138,9 +1138,13 @@ function renderMap(sortedKeys, groups) {
       fillOpacity: past ? 0.45 : 0.95,
     });
     marker.on("click", () => openModal(ev));
-    marker.bindTooltip(
-      (past ? "✓ " : "") + TIME_FMT.format(new Date(ev.start)) + " · " + ev.title,
-      { direction: "top" });
+    const tagLine = [ev.genre, ...(ev.tags || [])].filter(Boolean).join(" · ");
+    const tip =
+      `<span class="map-tip-time">${past ? "✓ " : ""}` +
+      `${escapeHtml(TIME_FMT.format(new Date(ev.start)))} Uhr</span>` +
+      `<span class="map-tip-title">${escapeHtml(ev.title || "")}</span>` +
+      (tagLine ? `<span class="map-tip-tags">${escapeHtml(tagLine)}</span>` : "");
+    marker.bindTooltip(tip, { direction: "top", opacity: 1, className: "map-tip" });
     marker.addTo(map);
     mapMarkers.push(marker);
     bounds.push([ev.lat, ev.lng]);
@@ -1163,8 +1167,7 @@ function showMapNote(placed, total) {
     els.mapView.appendChild(note);
   }
   if (total === 0) note.textContent = "Keine Veranstaltungen gefunden.";
-  else if (placed < total) note.textContent =
-    `${placed} von ${total} verortet (für andere fehlt noch die Adresse).`;
+  else if (placed < total) note.textContent = `${placed} von ${total} verortet`;
   else note.textContent = `${placed} Veranstaltungen`;
 }
 
@@ -1259,6 +1262,12 @@ function toggleSet(set, value) {
 
 function genreClass(genre) {
   return "g-" + String(genre || "").toLowerCase();
+}
+
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, (c) => ({
+    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
+  }[c]));
 }
 
 function formatTime(ev) {

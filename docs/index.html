@@ -155,13 +155,18 @@
           </div>
         </section>
 
+        <details class="settings-section settings-collapsible">
+          <summary class="settings-h">Bezirke</summary>
+          <div id="bezirk-toggles" class="source-toggles"></div>
+        </details>
+
         <section class="settings-section">
           <h3 class="settings-h">Quellen</h3>
           <div id="source-toggles" class="source-toggles"></div>
         </section>
 
-        <section class="settings-section">
-          <h3 class="settings-h">Eigenes Event hinzufügen</h3>
+        <details class="settings-section settings-collapsible">
+          <summary class="settings-h">Eigenes Event hinzufügen</summary>
           <p class="settings-note">Jede*r kann ein Event eintragen – es ist
             danach für alle sichtbar und farblich hervorgehoben.</p>
           <form id="mine-form" class="mine-form">
@@ -196,12 +201,7 @@
             <button type="submit" class="btn btn--primary" id="mine-send">Event hinzufügen</button>
             <p class="settings-note" id="mine-hint" hidden></p>
           </form>
-        </section>
-
-        <section class="settings-section">
-          <h3 class="settings-h">Bezirke</h3>
-          <div id="bezirk-toggles" class="source-toggles"></div>
-        </section>
+        </details>
 
         <section class="settings-section" id="kdcat-section" hidden>
           <h3 class="settings-h">kulturdaten.berlin – Kategorien</h3>

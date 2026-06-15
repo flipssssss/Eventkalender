@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T13:58:05.396323+00:00",
+  "generated_at": "2026-06-15T14:04:48.831491+00:00",
   "count": 390,
   "sources": [
     {
@@ -159,10 +159,10 @@
       "time_known": true,
       "genre": "Kink",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Lankwitzer Straße 42/43, 12107 Mariendorf",
+      "lat": 52.4374457,
+      "lng": 13.3754837,
+      "bezirk": "Tempelhof-Schöneberg"
     },
     {
       "title": "Fahrrad-Selbsthilfe-Werkstatt",
@@ -219,10 +219,10 @@
       "time_known": true,
       "genre": "Queer",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Mehringdamm 20-30, 10961 Kreuzberg",
+      "lat": 52.4958755,
+      "lng": 13.3885858,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Offene Mietenberatung",
@@ -239,10 +239,10 @@
       "time_known": true,
       "genre": "Polit",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Schönhauser Allee 26a, 10435 Prenzlauer Berg",
+      "lat": 52.5359511,
+      "lng": 13.4126884,
+      "bezirk": "Pankow"
     },
     {
       "title": "Offene Mieterberatung",
@@ -259,10 +259,10 @@
       "time_known": true,
       "genre": "Polit",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Schönhauser Allee 26a, 10435 Prenzlauer Berg",
+      "lat": 52.5359511,
+      "lng": 13.4126884,
+      "bezirk": "Pankow"
     },
     {
       "title": "Rope for Absolute Beginners",
@@ -379,10 +379,10 @@
       "time_known": true,
       "genre": "Polit",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Mariannenplatz 2A, 10997 Kreuzberg",
+      "lat": 52.5036305,
+      "lng": 13.423541,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "OffenesTreffendesprovisorischenanarchistischenAntikriegsrats",
@@ -399,10 +399,10 @@
       "time_known": true,
       "genre": "Polit",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Mariannenplatz 2A, 10997 Kreuzberg",
+      "lat": 52.5036305,
+      "lng": 13.423541,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Liina Magnea: What’s a Mob to a King (Plot-twist Redemption)",
@@ -499,10 +499,10 @@
       "time_known": true,
       "genre": "Polit",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Kreutzigerstraße 19, 10247 Friedrichshain",
+      "lat": 52.5131608,
+      "lng": 13.4600856,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Call me Paris",
@@ -699,10 +699,10 @@
       "time_known": true,
       "genre": "Queer",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Lützowstraße 28, 10785 Tiergarten",
+      "lat": 52.5041855,
+      "lng": 13.3625529,
+      "bezirk": "Mitte"
     },
     {
       "title": "SM am Dienstag - SM on Tuesday",
@@ -719,10 +719,10 @@
       "time_known": true,
       "genre": "Kink",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Lankwitzer Straße 42/43, 12107 Mariendorf",
+      "lat": 52.4374457,
+      "lng": 13.3754837,
+      "bezirk": "Tempelhof-Schöneberg"
     },
     {
       "title": "How To Play...",
@@ -1119,10 +1119,10 @@
       "time_known": true,
       "genre": "Polit",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Kreutzigerstraße 19, 10247 Friedrichshain",
+      "lat": 52.5131608,
+      "lng": 13.4600856,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Die Welt im Umbruch: Emotionen und Solidarität",
@@ -1139,10 +1139,10 @@
       "time_known": true,
       "genre": "Polit",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Hermannstraße, 12051 Neukölln",
+      "lat": 52.4681788,
+      "lng": 13.4309085,
+      "bezirk": "Neukölln"
     },
     {
       "title": "Theaterführung",
@@ -1180,8 +1180,8 @@
       "genre": "Polit",
       "subcategory": null,
       "address": "Reichenberger Straße 63a, 10999 Kreuzberg",
-      "lat": 52.4949179,
-      "lng": 13.4304413,
+      "lat": 52.4952361,
+      "lng": 13.4307312,
       "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
@@ -1219,10 +1219,10 @@
       "time_known": true,
       "genre": "Polit",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Finowstraße 33, 10247 Friedrichshain",
+      "lat": 52.5126458,
+      "lng": 13.4688594,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Filmvorführung \"Every Body\" und Diskussion",
@@ -1359,10 +1359,10 @@
       "time_known": true,
       "genre": "Kink",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Lankwitzer Straße 42/43, 12107 Mariendorf",
+      "lat": 52.4374457,
+      "lng": 13.3754837,
+      "bezirk": "Tempelhof-Schöneberg"
     },
     {
       "title": "Radical Inclusion",
@@ -1499,10 +1499,10 @@
       "time_known": true,
       "genre": "Polit",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Lausitzer Straße 13, 10999 Kreuzberg",
+      "lat": 52.4970089,
+      "lng": 13.428189,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "STRESS POSITIONS - NERVE CENTER - RYTES",
@@ -1539,10 +1539,10 @@
       "time_known": true,
       "genre": "Polit",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Kleine Alexanderstraße 28, 10178 Mitte",
+      "lat": 52.5264478,
+      "lng": 13.4130213,
+      "bezirk": "Mitte"
     },
     {
       "title": "DER SOLDAT. Ein Übergangsritual",
@@ -1879,10 +1879,10 @@
       "time_known": true,
       "genre": "Kink",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Lankwitzer Straße 42/43, 12107 Mariendorf",
+      "lat": 52.4374457,
+      "lng": 13.3754837,
+      "bezirk": "Tempelhof-Schöneberg"
     },
     {
       "title": "queer-feministische Fahrrad-Werkstatt | queer feminist bike workshop",
@@ -1919,10 +1919,10 @@
       "time_known": true,
       "genre": "Polit",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Buchberger Straße 6, 10365 Lichtenberg",
+      "lat": 52.5095458,
+      "lng": 13.4901817,
+      "bezirk": "Lichtenberg"
     },
     {
       "title": "Aperol Spritz-Night  -> 5 Euro",
@@ -1999,9 +1999,9 @@
       "time_known": true,
       "genre": "Polit",
       "subcategory": null,
-      "address": "Lottumstraße 10a, 10119 Prenzlauer Berg",
-      "lat": 52.5308391,
-      "lng": 13.4072585,
+      "address": "Lottumstraße 10A, 10119 Prenzlauer Berg",
+      "lat": 52.5308548,
+      "lng": 13.4072136,
       "bezirk": "Pankow"
     },
     {
@@ -2119,10 +2119,10 @@
       "time_known": true,
       "genre": "Polit",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Skalitzer Straße 6, 10999 Kreuzberg",
+      "lat": 52.4986179,
+      "lng": 13.4165594,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Annäherungen an meine Eltern Hans und Hilde Coppi",
@@ -2159,10 +2159,10 @@
       "time_known": true,
       "genre": "Queer",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Lausitzer Straße 22, 10999 Kreuzberg",
+      "lat": 52.4957041,
+      "lng": 13.4268885,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "P14 – endlich endlich",
@@ -2260,8 +2260,8 @@
       "genre": "Polit",
       "subcategory": null,
       "address": "Reichenberger Straße 63a, 10999 Kreuzberg",
-      "lat": 52.4949179,
-      "lng": 13.4304413,
+      "lat": 52.4952361,
+      "lng": 13.4307312,
       "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
@@ -2679,10 +2679,10 @@
       "time_known": true,
       "genre": "Polit",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Lohmühlenstraße, 12435 Alt-Treptow",
+      "lat": 52.489793,
+      "lng": 13.4402231,
+      "bezirk": "Treptow-Köpenick"
     },
     {
       "title": "Angela Alves: Never Rest (After Work Tours #2)",
@@ -2719,10 +2719,10 @@
       "time_known": true,
       "genre": "Polit",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Lohmühlenstraße, 12435 Alt-Treptow",
+      "lat": 52.489793,
+      "lng": 13.4402231,
+      "bezirk": "Treptow-Köpenick"
     },
     {
       "title": "P14 – endlich endlich",
@@ -2779,10 +2779,10 @@
       "time_known": true,
       "genre": "Queer",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Lützowstraße 28, 10785 Tiergarten",
+      "lat": 52.5041855,
+      "lng": 13.3625529,
+      "bezirk": "Mitte"
     },
     {
       "title": "Tarot and Tie",
@@ -2839,10 +2839,10 @@
       "time_known": true,
       "genre": "Polit",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Coppistraße, 10365 Lichtenberg",
+      "lat": 52.5070493,
+      "lng": 13.4816684,
+      "bezirk": "Lichtenberg"
     },
     {
       "title": "Konzert",
@@ -2879,10 +2879,10 @@
       "time_known": true,
       "genre": "Polit",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Schreinerstraße 47, 10247 Friedrichshain",
+      "lat": 52.5171409,
+      "lng": 13.4673202,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Pride Dinner –Platz am Kaisersteg Für Queers only!",
@@ -2919,10 +2919,10 @@
       "time_known": true,
       "genre": "Polit",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Buttmannstraße 1A, 13357 Gesundbrunnen",
+      "lat": 52.5524901,
+      "lng": 13.3788571,
+      "bezirk": "Mitte"
     },
     {
       "title": "K19 KONZERT",
@@ -2939,10 +2939,10 @@
       "time_known": true,
       "genre": "Polit",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Kreutzigerstraße 19, 10247 Friedrichshain",
+      "lat": 52.5131608,
+      "lng": 13.4600856,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Mi Madre y el Dinero",
@@ -3159,10 +3159,10 @@
       "time_known": true,
       "genre": "Kink",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Lankwitzer Straße 42/43, 12107 Mariendorf",
+      "lat": 52.4374457,
+      "lng": 13.3754837,
+      "bezirk": "Tempelhof-Schöneberg"
     },
     {
       "title": "Sonora Berlín",
@@ -3239,10 +3239,10 @@
       "time_known": true,
       "genre": "Kink",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Lankwitzer Straße 42/43, 12107 Mariendorf",
+      "lat": 52.4374457,
+      "lng": 13.3754837,
+      "bezirk": "Tempelhof-Schöneberg"
     },
     {
       "title": "Tropenbude Bar und Garten offen",
@@ -3379,10 +3379,10 @@
       "time_known": true,
       "genre": "Polit",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Schönhauser Allee 26a, 10435 Prenzlauer Berg",
+      "lat": 52.5359511,
+      "lng": 13.4126884,
+      "bezirk": "Pankow"
     },
     {
       "title": "Solitresen - Sweet drinks for bitter times",
@@ -3399,10 +3399,10 @@
       "time_known": true,
       "genre": "Polit",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Jonasstraße 40, 12053 Neukölln",
+      "lat": 52.470975,
+      "lng": 13.4309683,
+      "bezirk": "Neukölln"
     },
     {
       "title": "Küche für Alle - Torhaus Kochkollektiv",
@@ -3439,10 +3439,10 @@
       "time_known": true,
       "genre": "Polit",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Jonasstraße 40, 12053 Neukölln",
+      "lat": 52.470975,
+      "lng": 13.4309683,
+      "bezirk": "Neukölln"
     },
     {
       "title": "Lesung und Punkkonzert",
@@ -3619,10 +3619,10 @@
       "time_known": true,
       "genre": "Queer",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Karpfenteichstraße 13/14, 12435 Plänterwald",
+      "lat": 52.4816459,
+      "lng": 13.4668763,
+      "bezirk": "Treptow-Köpenick"
     },
     {
       "title": "Moya Michael: It’s like a Finger Pointing a Way to the Moon",
@@ -3679,10 +3679,10 @@
       "time_known": true,
       "genre": "Polit",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Köpenicker Straße 172, 10997 Kreuzberg",
+      "lat": 52.5043482,
+      "lng": 13.434887,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Being Young",
@@ -3739,10 +3739,10 @@
       "time_known": true,
       "genre": "Kink",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Lankwitzer Straße 42/43, 12107 Mariendorf",
+      "lat": 52.4374457,
+      "lng": 13.3754837,
+      "bezirk": "Tempelhof-Schöneberg"
     },
     {
       "title": "Konzert im $@#@riterviertel",
@@ -3959,10 +3959,10 @@
       "time_known": true,
       "genre": "Polit",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Schönhauser Allee 26a, 10435 Prenzlauer Berg",
+      "lat": 52.5359511,
+      "lng": 13.4126884,
+      "bezirk": "Pankow"
     },
     {
       "title": "Olympia Bukkakis: Queer and Present Dangers/The Nation at Work",
@@ -4019,10 +4019,10 @@
       "time_known": true,
       "genre": "Polit",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Buchberger Straße 6, 10365 Lichtenberg",
+      "lat": 52.5095458,
+      "lng": 13.4901817,
+      "bezirk": "Lichtenberg"
     },
     {
       "title": "Kriminal Kitchen fuck off soundssystem",
@@ -4039,10 +4039,10 @@
       "time_known": true,
       "genre": "Polit",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Mariannenplatz 1a, 10997 Kreuzberg",
+      "lat": 52.5048618,
+      "lng": 13.4243914,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Drag Brunch",
@@ -4140,8 +4140,8 @@
       "genre": "Polit",
       "subcategory": null,
       "address": "Reichenberger Straße 63a, 10999 Kreuzberg",
-      "lat": 52.4949179,
-      "lng": 13.4304413,
+      "lat": 52.4952361,
+      "lng": 13.4307312,
       "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
@@ -4159,10 +4159,10 @@
       "time_known": true,
       "genre": "Polit",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Lohmühlenstraße, 12435 Alt-Treptow",
+      "lat": 52.489793,
+      "lng": 13.4402231,
+      "bezirk": "Treptow-Köpenick"
     },
     {
       "title": "Save Rojava Soliparty and Tattoo",
@@ -4259,10 +4259,10 @@
       "time_known": true,
       "genre": "Polit",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Fasanenstraße 1a, 10623 Charlottenburg",
+      "lat": 52.5106031,
+      "lng": 13.3292355,
+      "bezirk": "Charlottenburg-Wilmersdorf"
     },
     {
       "title": "Squat de la Musique * Schreina47",
@@ -4279,10 +4279,10 @@
       "time_known": true,
       "genre": "Polit",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Schreinerstraße 47, 10247 Friedrichshain",
+      "lat": 52.5171409,
+      "lng": 13.4673202,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Kaffee, Sex und Kuchen - Coffee, Sex & Cake",
@@ -4299,10 +4299,10 @@
       "time_known": true,
       "genre": "Kink",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Lankwitzer Straße 42/43, 12107 Mariendorf",
+      "lat": 52.4374457,
+      "lng": 13.3754837,
+      "bezirk": "Tempelhof-Schöneberg"
     },
     {
       "title": "Tropenbude Bar und Garten offen",
@@ -4339,10 +4339,10 @@
       "time_known": true,
       "genre": "Polit",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Liebigstraße, 10247 Friedrichshain",
+      "lat": 52.5186639,
+      "lng": 13.4576357,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Café No Pasaran",
@@ -4359,10 +4359,10 @@
       "time_known": true,
       "genre": "Queer",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Lausitzer Straße 22, 10999 Kreuzberg",
+      "lat": 52.4957041,
+      "lng": 13.4268885,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Kuchen KüFa @ Squat De La Musique // KAOX Türri",
@@ -4579,10 +4579,10 @@
       "time_known": true,
       "genre": "Polit",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Rigaer Straße 103, 10247 Friedrichshain",
+      "lat": 52.5182565,
+      "lng": 13.4552573,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Der Schnittchenkauf",
@@ -4840,8 +4840,8 @@
       "genre": "Polit",
       "subcategory": null,
       "address": "Oranienstraße 14a, 10999 Kreuzberg",
-      "lat": 52.5004737,
-      "lng": 13.4234898,
+      "lat": 52.5005464,
+      "lng": 13.4234541,
       "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
@@ -4919,10 +4919,10 @@
       "time_known": true,
       "genre": "Polit",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Schönhauser Allee 26a, 10435 Prenzlauer Berg",
+      "lat": 52.5359511,
+      "lng": 13.4126884,
+      "bezirk": "Pankow"
     },
     {
       "title": "Offene Mieterberatung",
@@ -4939,10 +4939,10 @@
       "time_known": true,
       "genre": "Polit",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Schönhauser Allee 26a, 10435 Prenzlauer Berg",
+      "lat": 52.5359511,
+      "lng": 13.4126884,
+      "bezirk": "Pankow"
     },
     {
       "title": "Rope for Absolute Beginners",
@@ -5059,9 +5059,9 @@
       "time_known": true,
       "genre": "Polit",
       "subcategory": null,
-      "address": "Lottumstraße 10a, 10119 Prenzlauer Berg",
-      "lat": 52.5308391,
-      "lng": 13.4072585,
+      "address": "Lottumstraße 10A, 10119 Prenzlauer Berg",
+      "lat": 52.5308548,
+      "lng": 13.4072136,
       "bezirk": "Pankow"
     },
     {
@@ -5099,10 +5099,10 @@
       "time_known": true,
       "genre": "Polit",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Mariannenplatz 2A, 10997 Kreuzberg",
+      "lat": 52.5036305,
+      "lng": 13.423541,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Salome",
@@ -5199,10 +5199,10 @@
       "time_known": true,
       "genre": "Polit",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Turmstraße 91, 10559 Moabit",
+      "lat": 52.5254923,
+      "lng": 13.3526659,
+      "bezirk": "Mitte"
     },
     {
       "title": "Historische Hausführung: Never Work",
@@ -5299,10 +5299,10 @@
       "time_known": true,
       "genre": "Polit",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Hauptstraße 121a, 10827 Schöneberg",
+      "lat": 52.4829791,
+      "lng": 13.3507943,
+      "bezirk": "Tempelhof-Schöneberg"
     },
     {
       "title": "Rope Lab: Play & Connection - pain",
@@ -5399,10 +5399,10 @@
       "time_known": true,
       "genre": "Polit",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Schönhauser Allee 26a, 10435 Prenzlauer Berg",
+      "lat": 52.5359511,
+      "lng": 13.4126884,
+      "bezirk": "Pankow"
     },
     {
       "title": "Sophiensæle Forever #2 – Never Work",
@@ -5640,8 +5640,8 @@
       "genre": "Polit",
       "subcategory": null,
       "address": "Reichenberger Straße 63a, 10999 Kreuzberg",
-      "lat": 52.4949179,
-      "lng": 13.4304413,
+      "lat": 52.4952361,
+      "lng": 13.4307312,
       "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
@@ -5739,9 +5739,9 @@
       "time_known": true,
       "genre": "Polit",
       "subcategory": null,
-      "address": "Lottumstraße 10a, 10119 Prenzlauer Berg",
-      "lat": 52.5308391,
-      "lng": 13.4072585,
+      "address": "Lottumstraße 10A, 10119 Prenzlauer Berg",
+      "lat": 52.5308548,
+      "lng": 13.4072136,
       "bezirk": "Pankow"
     },
     {
@@ -5779,10 +5779,10 @@
       "time_known": true,
       "genre": "Polit",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Schönhauser Allee 26a, 10435 Prenzlauer Berg",
+      "lat": 52.5359511,
+      "lng": 13.4126884,
+      "bezirk": "Pankow"
     },
     {
       "title": "Karaoke-Abend",
@@ -5799,10 +5799,10 @@
       "time_known": true,
       "genre": "Polit",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Rigaer Straße 103, 10247 Friedrichshain",
+      "lat": 52.5182565,
+      "lng": 13.4552573,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "KüFa (Kitchen for all)",
@@ -6019,10 +6019,10 @@
       "time_known": true,
       "genre": "Polit",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Torstraße 190, 10115 Mitte",
+      "lat": 52.5280997,
+      "lng": 13.3928139,
+      "bezirk": "Mitte"
     },
     {
       "title": "Aperol Spritz-Night  -> 5 Euro",
@@ -6219,10 +6219,10 @@
       "time_known": true,
       "genre": "Polit",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Markgrafendamm 24c, 10245 Friedrichshain",
+      "lat": 52.5024767,
+      "lng": 13.466302,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Never Work Talks: Amelia Horgan, Nicole Mayer-Ahuja",
@@ -6319,10 +6319,10 @@
       "time_known": true,
       "genre": "Polit",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Rigaer Straße 103, 10247 Friedrichshain",
+      "lat": 52.5182565,
+      "lng": 13.4552573,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "CHILLGARAGE",
@@ -6359,10 +6359,10 @@
       "time_known": true,
       "genre": "Polit",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Hallesches Ufer 34, 10963 Kreuzberg",
+      "lat": 52.4991141,
+      "lng": 13.3858716,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Gutscheintausch Regenbogencafé",
@@ -6479,10 +6479,10 @@
       "time_known": true,
       "genre": "Polit",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Lohmühlenstraße, 12435 Alt-Treptow",
+      "lat": 52.489793,
+      "lng": 13.4402231,
+      "bezirk": "Treptow-Köpenick"
     },
     {
       "title": "Aus der Nacht heraus - Political Film Festival -Day 3",
@@ -6499,10 +6499,10 @@
       "time_known": true,
       "genre": "Polit",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Lohmühlenstraße, 12435 Alt-Treptow",
+      "lat": 52.489793,
+      "lng": 13.4402231,
+      "bezirk": "Treptow-Köpenick"
     },
     {
       "title": "Hier sein heißt handeln",
@@ -6639,10 +6639,10 @@
       "time_known": true,
       "genre": "Kink",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Lankwitzer Straße 42/43, 12107 Mariendorf",
+      "lat": 52.4374457,
+      "lng": 13.3754837,
+      "bezirk": "Tempelhof-Schöneberg"
     },
     {
       "title": "Konzert „jezevec u mraveniště“",
@@ -6659,10 +6659,10 @@
       "time_known": true,
       "genre": "Polit",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Schönhauser Allee 26a, 10435 Prenzlauer Berg",
+      "lat": 52.5359511,
+      "lng": 13.4126884,
+      "bezirk": "Pankow"
     },
     {
       "title": "Soli concert",
@@ -6859,10 +6859,10 @@
       "time_known": true,
       "genre": "Polit",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Lausitzer Straße 10, 10999 Kreuzberg",
+      "lat": 52.4975071,
+      "lng": 13.428026,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "CSD Bernau Anreise",
@@ -6979,10 +6979,10 @@
       "time_known": true,
       "genre": "Polit",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Blücherplatz 1, 10961 Kreuzberg",
+      "lat": 52.4965672,
+      "lng": 13.3924936,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Kuriosum Repair Kaffee",
@@ -7099,10 +7099,10 @@
       "time_known": true,
       "genre": "Kink",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Lankwitzer Straße 42/43, 12107 Mariendorf",
+      "lat": 52.4374457,
+      "lng": 13.3754837,
+      "bezirk": "Tempelhof-Schöneberg"
     },
     {
       "title": "BAU-PAUSE PARTY",
@@ -7120,8 +7120,8 @@
       "genre": "Polit",
       "subcategory": null,
       "address": "Gneisenaustraße 2a, 10961 Kreuzberg",
-      "lat": 52.4918919,
-      "lng": 13.3890768,
+      "lat": 52.4919487,
+      "lng": 13.3889569,
       "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
@@ -7219,10 +7219,10 @@
       "time_known": true,
       "genre": "Polit",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Lohmühlenstraße, 12435 Alt-Treptow",
+      "lat": 52.489793,
+      "lng": 13.4402231,
+      "bezirk": "Treptow-Köpenick"
     },
     {
       "title": "Apaches",
@@ -7619,10 +7619,10 @@
       "time_known": true,
       "genre": "Polit",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Lausitzer Straße 10, 10999 Kreuzberg",
+      "lat": 52.4975071,
+      "lng": 13.428026,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Rope Fundamentals Weekend: Nerdery & Harnesses",
@@ -7719,10 +7719,10 @@
       "time_known": true,
       "genre": "Kink",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Lankwitzer Straße 42/43, 12107 Mariendorf",
+      "lat": 52.4374457,
+      "lng": 13.3754837,
+      "bezirk": "Tempelhof-Schöneberg"
     },
     {
       "title": "Chillout Jam",
@@ -7739,10 +7739,10 @@
       "time_known": true,
       "genre": "Polit",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Rigaer Straße 103, 10247 Friedrichshain",
+      "lat": 52.5182565,
+      "lng": 13.4552573,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Musical Belongings VII: Bach und Balafon",

@@ -20,6 +20,12 @@
  ":// about blank / Garten Markgrafendamm 24c 10245 Berlin Deutschland": null,
  "AGB PopUp Saal Blücherplatz 1 10961 Berlin Deutschland": null,
  "AGB PopUp Saal Blücherplatz 1 10961, 10961 Berlin": null,
+ "Alexanderstr. 28, 10178 Berlin": {
+  "address": "Kleine Alexanderstraße 28, 10178 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5264478,
+  "lng": 13.4130213
+ },
  "Alice Salomon Hochschule Alice-Salomon-Platz 5 12627 Berlin Deutschland": {
   "address": "Alice-Salomon-Platz 5, 12627 Hellersdorf",
   "bezirk": "Marzahn-Hellersdorf",
@@ -99,6 +105,12 @@
  },
  "Bethanien Südflügel Berlin": null,
  "Bethanien Südflügel Berlin Deutschland": null,
+ "Blücherplatz 1, 10961 Berlin": {
+  "address": "Blücherplatz 1, 10961 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4965672,
+  "lng": 13.3924936
+ },
  "Brotfabrik Caligariplatz 1 13086 Berlin Deutschland": {
   "address": "Caligariplatz 1, 13086 Weißensee",
   "bezirk": "Pankow",
@@ -106,6 +118,18 @@
   "lng": 13.4305919
  },
  "Brotfabrik Caligariplatz 1 13086, 13086 Berlin": null,
+ "Buchberger Str. 6, 10365 Berlin": {
+  "address": "Buchberger Straße 6, 10365 Lichtenberg",
+  "bezirk": "Lichtenberg",
+  "lat": 52.5095458,
+  "lng": 13.4901817
+ },
+ "Buttmannstr. 1A, Berlin": {
+  "address": "Buttmannstraße 1A, 13357 Gesundbrunnen",
+  "bezirk": "Mitte",
+  "lat": 52.5524901,
+  "lng": 13.3788571
+ },
  "Café Cralle Hochstädter Straße 10A, Berlin": {
   "address": "Hochstädter Straße 10a, 13347 Wedding",
   "bezirk": "Mitte",
@@ -143,6 +167,12 @@
   "lng": 13.3911982
  },
  "Columbiadamm Columbiadamm 10 12101, 12101 Berlin": null,
+ "Coppistr. 1-3, Berlin": {
+  "address": "Coppistraße, 10365 Lichtenberg",
+  "bezirk": "Lichtenberg",
+  "lat": 52.5070493,
+  "lng": 13.4816684
+ },
  "Dorfplatz (Fhain) Rigaerstr. Ecke Liebigstr. 10247 Berlin Deutschland": null,
  "Drugstore im Rockhaus Buchberger Str. 6 10365 Berlin Deutschland": null,
  "Drugstore im Rockhaus Buchberger Str. 6 10365, 10365 Berlin": null,
@@ -167,8 +197,20 @@
   "lng": 13.4402215
  },
  "FMP1, Franz-Mehring-Platz 1, Friedrichshain, Berlin, Germany 10243 Berlin Deutschland": null,
+ "Fasanenstr. 1a, 10623 Berlin": {
+  "address": "Fasanenstraße 1a, 10623 Charlottenburg",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.5106031,
+  "lng": 13.3292355
+ },
  "Filmrisz Filmrisz Rigaerstr. 103 10247 Berlin Deutschland": null,
  "Filmrisz Filmrisz Rigaerstr. 103 10247, 10247 Berlin": null,
+ "Finowstraße 33, 10247 Berlin": {
+  "address": "Finowstraße 33, 10247 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5126458,
+  "lng": 13.4688594
+ },
  "Fischladen Rigaer Straße 83 10247 Berlin Deutschland": {
   "address": "Rigaer Straße 83, 10247 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -183,7 +225,19 @@
   "lng": 13.4619369
  },
  "Fischladen Rigaerstr. 83 10247, 10247 Berlin": null,
+ "Franz-Mehring-Platz 1, 10243 Berlin": {
+  "address": "Franz-Mehring-Platz 1, 10243 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5128,
+  "lng": 13.4402215
+ },
  "Garten Markgrafendamm 24c, 10245 Berlin": null,
+ "Gneisenaustr. 2a, 10961 Berlin": {
+  "address": "Gneisenaustraße 2a, 10961 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4919487,
+  "lng": 13.3889569
+ },
  "HAU Hebbel am Ufer, Berlin": {
   "address": "Stresemannstraße 29, 10963 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -192,6 +246,18 @@
  },
  "HAU2 Hallesches Ufer 34 10963 Berlin Deutschland": null,
  "HAU2 Hallesches Ufer 34 10963, 10963 Berlin": null,
+ "Hallesches Ufer 34, 10963 Berlin": {
+  "address": "Hallesches Ufer 34, 10963 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4991141,
+  "lng": 13.3858716
+ },
+ "Hauptstraße 121 A, 10827 Berlin": {
+  "address": "Hauptstraße 121a, 10827 Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4829791,
+  "lng": 13.3507943
+ },
  "Haus der Kulturen der Welt, Berlin": {
   "address": "John-Foster-Dulles-Allee 10, 10557 Tiergarten",
   "bezirk": "Mitte",
@@ -199,6 +265,24 @@
   "lng": 13.3648356
  },
  "Herman Schulz Kollektiv Finowstraße 33, 10247 Berlin": null,
+ "Hermannstraße 99-105, 12051 Berlin": {
+  "address": "Hermannstraße, 12051 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4681788,
+  "lng": 13.4309085
+ },
+ "Hochstädter Straße 10A, Berlin": {
+  "address": "Hochstädter Straße 10a, 13347 Wedding",
+  "bezirk": "Mitte",
+  "lat": 52.550607,
+  "lng": 13.363522
+ },
+ "Hochstädterstr. 10a, 13347 Berlin": {
+  "address": "Hochstädter Straße 10a, 13347 Wedding",
+  "bezirk": "Mitte",
+  "lat": 52.550607,
+  "lng": 13.363522
+ },
  "Humboldt Forum, Berlin": {
   "address": "Schloßplatz, 10178 Mitte",
   "bezirk": "Mitte",
@@ -226,6 +310,12 @@
   "lng": 13.400323
  },
  "JUP Florastr. 84 13187, 13187 Berlin": null,
+ "Jonasstr. 40, 12053 Berlin": {
+  "address": "Jonasstraße 40, 12053 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.470975,
+  "lng": 13.4309683
+ },
  "K Köpenicker Straße Berlin": {
   "address": "Köpenicker Straße, 10997 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -275,6 +365,12 @@
  "Karl-Liebknecht-Haus Kleine Alexanderstr. 28 10178 Berlin Deutschland": null,
  "Karl-Liebknecht-Haus Kleine Alexanderstr. 28 10178, 10178 Berlin": null,
  "Karpfenteichstr. 13 12435, 12435 Berlin": null,
+ "Karpfenteichstr. 13, 12435 Berlin": {
+  "address": "Karpfenteichstraße 13/14, 12435 Plänterwald",
+  "bezirk": "Treptow-Köpenick",
+  "lat": 52.4816459,
+  "lng": 13.4668763
+ },
  "Kiez Zentrum Villa Lützow Lützowstraße 28 10785 Berlin Deutschland": null,
  "Kiezhaus Agnes Reinhold Afrikanische Straße 74 13351 Berlin Deutschland": {
   "address": "Afrikanische Straße 74, 13351 Wedding",
@@ -294,6 +390,12 @@
   "bezirk": "Neukölln",
   "lat": 52.4716193,
   "lng": 13.4510314
+ },
+ "Kreutzigerstr. 19, 10247 Berlin": {
+  "address": "Kreutzigerstraße 19, 10247 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5131608,
+  "lng": 13.4600856
  },
  "Kreuzdorf Mariannenplatz 1a 10997 Berlin Deutschland": null,
  "Kreuzdorf Mariannenplatz 1a, 10997 Berlin": null,
@@ -318,6 +420,12 @@
   "lng": 13.4260264
  },
  "KØPI Köpenicker Straße 137 10179, 10179 Berlin": null,
+ "Köpenicker Str. 172, 10997 Berlin": {
+  "address": "Köpenicker Straße 172, 10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5043482,
+  "lng": 13.434887
+ },
  "L5 Späti Lenaustraße 5 12047 Berlin Deutschland": {
   "address": "Lenaustraße 5, 12047 Neukölln",
   "bezirk": "Neukölln",
@@ -325,10 +433,58 @@
   "lng": 13.425536
  },
  "L5 Späti Lenaustraße 5 12047, 12047 Berlin": null,
+ "Lankwitzer Straße 42/43, 12107 Berlin": {
+  "address": "Lankwitzer Straße 42/43, 12107 Mariendorf",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4374457,
+  "lng": 13.3754837
+ },
  "Lauschangriff Rigaer Str. 103 10247 Berlin Deutschland": null,
  "Lauschangriff Rigaer Str. 103 10247, 10247 Berlin": null,
  "Lauseria Lausitzer Straße 10 10999 Berlin Deutschland": null,
  "Lauseria Lausitzer Straße 10 10999, 10999 Berlin": null,
+ "Lausitzer Str. 21a, 10999 Berlin": {
+  "address": "Lausitzer Straße 21a, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4959646,
+  "lng": 13.4263213
+ },
+ "Lausitzer Str. 22, 10999 Berlin": {
+  "address": "Lausitzer Straße 22, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4957041,
+  "lng": 13.4268885
+ },
+ "Lausitzer Straße 10, 10999 Berlin": {
+  "address": "Lausitzer Straße 10, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4975071,
+  "lng": 13.428026
+ },
+ "Lausitzer Straße 13, 10999 Berlin": {
+  "address": "Lausitzer Straße 13, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4970089,
+  "lng": 13.428189
+ },
+ "Liebigstr. 1024, 10247 Berlin": {
+  "address": "Liebigstraße, 10247 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5186639,
+  "lng": 13.4576357
+ },
+ "Lohmühlenstr. 17, 12435 Berlin": {
+  "address": "Lohmühlenstraße, 12435 Alt-Treptow",
+  "bezirk": "Treptow-Köpenick",
+  "lat": 52.489793,
+  "lng": 13.4402231
+ },
+ "Lottumstr. 10a, 10119 Berlin": {
+  "address": "Lottumstraße 10A, 10119 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5308548,
+  "lng": 13.4072136
+ },
  "Lunte Weisestr. 53 12049 Berlin Deutschland": {
   "address": "Weisestraße 53, 12049 Neukölln",
   "bezirk": "Neukölln",
@@ -336,9 +492,39 @@
   "lng": 13.4240706
  },
  "Lunte Weisestr. 53 12049, 12049 Berlin": null,
+ "Lützowstraße 28, 10785 Berlin": {
+  "address": "Lützowstraße 28, 10785 Tiergarten",
+  "bezirk": "Mitte",
+  "lat": 52.5041855,
+  "lng": 13.3625529
+ },
+ "Mariannenplatz 1a, 10997 Berlin": {
+  "address": "Mariannenplatz 1a, 10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5048618,
+  "lng": 13.4243914
+ },
+ "Mariannenplatz 2A, 10997 Berlin": {
+  "address": "Mariannenplatz 2A, 10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5036305,
+  "lng": 13.423541
+ },
  "Mariannenplatz Bethanien New York im Bethanien 10997 Berlin Deutschland": null,
+ "Markgrafendamm 24c, 10245 Berlin": {
+  "address": "Markgrafendamm 24c, 10245 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5024767,
+  "lng": 13.466302
+ },
  "Martha Bethaniendamm Berlin": null,
  "Martha Bethaniendamm Berlin Deutschland": null,
+ "Mehringdamm 20, 10961 Berlin": {
+  "address": "Mehringdamm 20-30, 10961 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4958755,
+  "lng": 13.3885858
+ },
  "Mehringhof Gneisenaustr. 2a 10961 Berlin Deutschland": null,
  "Mehringhof Gneisenaustr. 2a, 10961 Berlin": {
   "address": "Gneisenaustraße 2a, 10961 Kreuzberg",
@@ -380,6 +566,12 @@
  "New Yorck im Bethanien Mariannenplatz 2A 10997 Berlin Deutschland": null,
  "NewYorck im Bethanien Mariannenplatz 2A 10997 Berlin Deutschland": null,
  "NewYorck im Bethanien Mariannenplatz 2A, 10997 Berlin": null,
+ "Oranienstr. 14a, 10999 Berlin": {
+  "address": "Oranienstraße 14a, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5005464,
+  "lng": 13.4234541
+ },
  "Prinzessinnengarten Neukölln Hermannstraße 99-105 12051 Berlin Deutschland": null,
  "Prinzessinnengarten Neukölln Hermannstraße 99-105, 12051 Berlin": null,
  "Quälgeist Berlin e.V. Lankwitzer Straße 42/43, 12107 Berlin": null,
@@ -400,6 +592,18 @@
   "lng": 13.4268698
  },
  "Regenbogenfabrik Lausitzer Str. 22 10999, 10999 Berlin": null,
+ "Reichenberger Str. 63a, 10999 Berlin": {
+  "address": "Reichenberger Straße 63a, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4952361,
+  "lng": 13.4307312
+ },
+ "Rigaer Str. 103, 10247 Berlin": {
+  "address": "Rigaer Straße 103, 10247 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5182565,
+  "lng": 13.4552573
+ },
  "Rigaer Str. 78 10247 Berlin Deutschland": {
   "address": "Rigaer Straße 78, 10247 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -407,6 +611,12 @@
   "lng": 13.4641926
  },
  "Rigaer Str. 78 10247, 10247 Berlin": null,
+ "Rigaerstr. 103, 10247 Berlin": {
+  "address": "Rigaer Straße 103, 10247 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5182565,
+  "lng": 13.4552573
+ },
  "Rigaerstr. Ecke Liebigstr. 10247, 10247 Berlin": null,
  "Rote Insel near S1 / U7 Yorckstrasse Berlin 10783 Berlin Deutschland": null,
  "Schaubühne am Lehniner Platz, Berlin": {
@@ -438,7 +648,25 @@
  "Schokoladen Ackerstrasse 169 10115, 10115 Berlin": null,
  "Schreina47 Schreinerstr. 47 10245 Berlin Deutschland": null,
  "Schreina47 Schreinerstr. 47 10245, 10245 Berlin": null,
+ "Schreinerstr. 47, 10245 Berlin": {
+  "address": "Schreinerstraße 47, 10247 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5171409,
+  "lng": 13.4673202
+ },
+ "Schönhauser Allee 26 A, 10435 Berlin": {
+  "address": "Schönhauser Allee 26a, 10435 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5359511,
+  "lng": 13.4126884
+ },
  "Skalitzer str. 6 10997, 10997 Berlin": null,
+ "Skalitzer str. 6, 10997 Berlin": {
+  "address": "Skalitzer Straße 6, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4986179,
+  "lng": 13.4165594
+ },
  "Sophiensæle, Berlin": {
   "address": "Sophienstraße 18, 10178 Mitte",
   "bezirk": "Mitte",
@@ -461,6 +689,12 @@
   "lng": 13.3911982
  },
  "Torstraße 190 10115, 10115 Berlin": null,
+ "Torstraße 190, 10115 Berlin": {
+  "address": "Torstraße 190, 10115 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5280997,
+  "lng": 13.3928139
+ },
  "Traumreparatur Lausitzer Straße 13 10999 Berlin Deutschland": null,
  "Traumreparatur Lausitzer Straße 13 10999, 10999 Berlin": null,
  "Tristeza Pannierstr. 5 12047 Berlin Deutschland": {
@@ -472,6 +706,12 @@
  "Tristeza Pannierstr. 5 12047, 12047 Berlin": null,
  "Trixxxter Kreuzberg Berlin": null,
  "Trixxxter Kreuzberg Berlin Deutschland": null,
+ "Turmstr. 91, 10559 Berlin": {
+  "address": "Turmstraße 91, 10559 Moabit",
+  "bezirk": "Mitte",
+  "lat": 52.5254923,
+  "lng": 13.3526659
+ },
  "Türrschmidtstraße 1 10317 Berlin Deutschland": {
   "address": "Türrschmidtstraße 1, 10317 Rummelsburg",
   "bezirk": "Lichtenberg",

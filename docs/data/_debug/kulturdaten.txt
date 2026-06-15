@@ -1,39 +1,28 @@
-=== events: totalCount=13824 ===
-{"schedule": {"startDate": "2026-06-15", "endDate": "2026-06-15", "startTime": "00:00:00", "endTime": "00:00:00"}, "attractions": [{"referenceType": "type.Attraction", "referenceId": "A_CTRKJCG7E97K", "referenceLabel": {"de": "Hochzeiten aus den Familienalben "}}], "locations": [{"referenceType": "type.Location", "referenceId": "L_A4ENFWCY3BBB", "referenceLabel": {"de": "Stadtteilzentrum Kaulsdorf"}}], "metadata": {"origin": "bezirkskalender", "originObjectID": "1433773", "editableBy": ["O_MARZAHN1HELL"], "created": "2026-03-08T05:05:54.973Z", "updated": "2026-03-08T05:05:54.973Z"}, "admission": {"ticketType": "ticketType.freeOfCharge"}, "type": "type.Event", "identifier": "E_ZFS3GMADRHSC", "status": "event.published", "scheduleStatus": "event.scheduled"}
+Events 14 Tage: 1974 | Attraktionen geladen: 21949
+Kostenlos: 1746 von 1974
 
-=== attractions: totalCount=21949 ===
-{"title": {"de": " Schach im STZ"}, "description": {"de": "Für interessierte Schachfreunde, jeden Montag von 13:00 Uhr bis 17:00 Uhr.\r\nAnmeldung erwünscht unter : 030 / 56 58 69 20\r\n\r\nZugang und WC sind behindertengerecht !\r\nWir freuen uns auf Sie !"}, "metadata": {"origin": "bezirkskalender", "originObjectID": "69992", "editableBy": ["O_MARZAHN1HELL"], "created": "2024-03-14T09:19:31.021Z", "updated": "2024-03-14T09:19:31.021Z"}, "website": "www.hvd-bb.de", "inLanguages": ["de"], "tags": ["attraction.category.Lectures"], "externalLinks": [{"url": "www.hvd-bb.de"}], "type": "type.Attraction", "identifier": "A_KPJGGWYZL5EK", "status": "attraction.published"}
+Events pro Kategorie (14 Tage):
+    425  Exhibitions          -> Ausstellung
+    262  Recreation           -> Sonstiges
+    237  Children             -> Sonstiges
+    200  Education            -> Workshop
+    186  InformationEvents    -> Vortrag
+    140  Music                -> Konzert
+    104  —                    -> Sonstiges
+     78  Lectures             -> Vortrag
+     60  Politics             -> Protest
+     49  Women                -> Sonstiges
+     47  Police               -> Sonstiges
+     42  Health               -> Sonstiges
+     39  Festivals            -> Party
+     35  Dance                -> Party
+     27  Stages               -> Theater
+     17  Walks                -> Sonstiges
+     12  Art                  -> Sonstiges
+      6  Conferences          -> Vortrag
+      5  Seniors              -> Sonstiges
+      2  ChristmasTime        -> Sonstiges
+      1  WeeklyMarkets        -> Sonstiges
 
-=== locations: totalCount=3284 ===
-{"title": {"de": "Stadtteilzentrum Pestalozzi-Treff"}, "isVirtual": false, "address": {"streetAddress": "Pestalozzistraße 1 A", "postalCode": "12623", "addressLocality": "Berlin"}, "contact": {"telephone": "(030) 565 869 20"}, "borough": "Marzahn-Hellersdorf", "metadata": {"origin": "bezirkskalender", "originObjectID": "2997", "editableBy": ["O_MARZAHN1HELL"], "created": "2024-03-14T09:19:24.003Z", "updated": "2024-03-14T09:19:24.003Z"}, "type": "type.Location", "identifier": "L_M4KPTA4ARP9L", "status": "location.published", "openingStatus": "location.opened"}
-
-=== Query-Tests /api/events ===
-?startDate=2026-06-16&endDate=2026-06-20 -> 200: {"success":true,"message":"Operation Successful","data":{"page":1,"pageSize":30,"totalCount":739,"events":[{"schedule":{"startDate":"2026-06-16","endDate":"2026
-?pageSize=200 -> 200: {"success":true,"message":"Operation Successful","data":{"page":1,"pageSize":200,"totalCount":13824,"events":[{"schedule":{"startDate":"2026-06-15","endDate":"2
-?category=Concerts -> 400: {"message":"Unknown query parameter 'category'","errors":[{"path":"/query/category","message":"Unknown query parameter 'category'"}]}
-?tags=attraction.category.Concerts -> 400: {"message":"Unknown query parameter 'tags'","errors":[{"path":"/query/tags","message":"Unknown query parameter 'tags'"}]}
-?borough=Mitte -> 400: {"message":"Unknown query parameter 'borough'","errors":[{"path":"/query/borough","message":"Unknown query parameter 'borough'"}]}
-?origin=bezirkskalender -> 400: {"message":"Unknown query parameter 'origin'","errors":[{"path":"/query/origin","message":"Unknown query parameter 'origin'"}]}
-?searchterm=jazz -> 400: {"message":"Unknown query parameter 'searchterm'","errors":[{"path":"/query/searchterm","message":"Unknown query parameter 'searchterm'"}]}
-?sort=schedule.startDate -> 400: {"message":"Unknown query parameter 'sort'","errors":[{"path":"/query/sort","message":"Unknown query parameter 'sort'"}]}
-?attractionId=A_KPJGGWYZL5EK -> 400: {"message":"Unknown query parameter 'attractionId'","errors":[{"path":"/query/attractionId","message":"Unknown query parameter 'attractionId'"}]}
-
-=== Verteilung (Stichprobe 200 Attraktionen) ===
-Kategorien: {"attraction.category.Children": 65, "attraction.category.Recreation": 49, "attraction.category.Music": 32, "attraction.category.InformationEvents": 24, "attraction.category.Education": 22, "attraction.category.Lectures": 20, "attraction.category.Exhibitions": 17, "attraction.category.Women": 16, "attraction.category.Politics": 13, "attraction.category.Police": 12, "attraction.category.Festivals": 10, "attraction.category.Dance": 6, "attraction.category.Health": 5, "attraction.category.WeeklyMarkets": 4, "attraction.category.Stages": 3, "attraction.category.Walks": 2, "attraction.category.ChristmasTime": 2, "attraction.category.Conferences": 1}
-Origins: {"bezirkskalender": 200}
-
-=== Swagger-UI-Init (Auszug) ===
-w.onload = function() {
-  // Build a system
-  var url = window.location.search.match(/url=([^&]+)/);
-  if (url && url.length > 1) {
-    url = decodeURIComponent(url[1]);
-  } else {
-    url = window.location.origin;
-  }
-  var options = {
-  "swaggerDoc": {
-    "openapi": "3.0.3",
-    "info": {
-      "title": "kulturdaten.berlin API",
-      "description": "*We make Berlin’s cultural diversity visible*\n\nThis API provides access to reading and writi
+Events pro Herkunft:
+   1974  bezirkskalender

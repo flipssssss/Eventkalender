@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T08:24:32.587470+00:00",
+  "generated_at": "2026-06-15T08:33:52.450821+00:00",
   "count": 367,
   "sources": [
     {
@@ -35,7 +35,7 @@
     {
       "source": "kulturdaten.berlin",
       "count": 0,
-      "error": ""
+      "error": null
     },
     {
       "source": "Siegessäule",

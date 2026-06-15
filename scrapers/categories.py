@@ -26,7 +26,7 @@ PRIORITY = [
     "Ausstellung",
     "Theater",
     "Workshop",
-    "Diskussion",
+    "Vortrag",
     "Essen",
 ]
 
@@ -38,8 +38,8 @@ KEYWORDS: dict[str, list[str]] = {
     "Theater": ["theater", "theatre", "stage", "performance", "schauspiel"],
     "Konzert": ["konzert", "musik", "concert", "live music", "livemusik", "gig"],
     "Film": ["film", "kino", "cinema", "movie", "screening", "kurzfilm"],
-    "Diskussion": ["diskussion", "vortrag", "talk", "panel", "lesung",
-                   "reading", "discussion", "q&a"],
+    "Vortrag": ["vortrag", "diskussion", "talk", "panel", "lesung",
+                "reading", "discussion", "q&a", "lecture"],
     "Essen": ["essen", "café", "cafe", "kneipe", "küfa", "kufa", "küche",
               "kueche", "food", "dinner", "brunch"],
     "Protest": ["protest", "aktion", "demo", "kundgebung", "pride march"],

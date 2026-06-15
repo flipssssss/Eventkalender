@@ -34,20 +34,9 @@
 </head>
 <body>
   <header class="site-header">
-    <!-- Tab-artige Reiter für die Tage (springen zum jeweiligen Tag) -->
-    <nav class="day-tabs" id="day-tabs" aria-label="Nach Tag springen"></nav>
-
-    <!-- Genre (Szene) + Favoriten + Suche -->
-    <div class="filter-bar">
-      <div class="genre-filter" id="genre-filter"></div>
-      <button
-        type="button"
-        class="icon-toggle"
-        id="fav-toggle"
-        aria-label="Nur Gemerkte zeigen"
-        aria-pressed="false"
-        title="Nur Gemerkte"
-      >♥</button>
+    <!-- Zeile 1: Tage (springen) + Suche + Einstellungen -->
+    <div class="header-row header-row--dates">
+      <nav class="day-tabs" id="day-tabs" aria-label="Nach Tag springen"></nav>
       <input
         type="search"
         id="search"
@@ -58,7 +47,7 @@
       />
       <button
         type="button"
-        class="search-toggle"
+        class="icon-toggle"
         id="search-toggle"
         aria-label="Suche ein-/ausblenden"
         aria-expanded="false"
@@ -81,9 +70,30 @@
       </button>
     </div>
 
-    <!-- Kategorien (immer sichtbar) -->
-    <div class="filter-bar filter-bar--categories">
+    <!-- Zeile 2: Genres + Favoriten -->
+    <div class="header-row header-row--genres">
+      <div class="genre-filter" id="genre-filter"></div>
+      <button
+        type="button"
+        class="icon-toggle"
+        id="fav-toggle"
+        aria-label="Nur Gemerkte zeigen"
+        aria-pressed="false"
+        title="Nur Gemerkte"
+      >♥</button>
+    </div>
+
+    <!-- Zeile 3: Kategorien (horizontal scrollbar + Aufklapp-Pfeil) -->
+    <div class="header-row header-row--categories">
       <div class="tag-filter" id="tag-filter"></div>
+      <button type="button" class="cat-expand" id="cat-expand"
+              aria-label="Kategorien aufklappen" aria-expanded="false">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none"
+             stroke="currentColor" stroke-width="2" stroke-linecap="round"
+             stroke-linejoin="round" aria-hidden="true">
+          <polyline points="6 9 12 15 18 9" />
+        </svg>
+      </button>
     </div>
   </header>
 

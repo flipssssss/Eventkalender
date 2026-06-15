@@ -5,6 +5,8 @@
 // calendar export and sharing. No build step, no framework.
 
 const GENRE_ORDER = ["Kultur", "Polit", "Queer", "Kink"];
+const CATEGORY_ORDER = ["Theater", "Film", "Konzert", "Party", "Vortrag",
+  "Protest", "Workshop", "Ausstellung", "Essen", "Sonstiges"];
 const FAV_KEY = "ek_favorites";
 const THEME_KEY = "ek_theme";
 const SOURCES_KEY = "ek_disabled_sources";
@@ -30,6 +32,7 @@ const els = {
   footer: document.getElementById("footer-note"),
   dayTabs: document.getElementById("day-tabs"),
   searchToggle: document.getElementById("search-toggle"),
+  catExpand: document.getElementById("cat-expand"),
   modalBackdrop: document.getElementById("modal-backdrop"),
   modal: document.getElementById("modal"),
   modalContent: document.getElementById("modal-content"),
@@ -88,6 +91,7 @@ async function init() {
   els.searchToggle.addEventListener("click", () => {
     const open = els.search.hasAttribute("hidden");
     els.search.toggleAttribute("hidden", !open);
+    els.dayTabs.toggleAttribute("hidden", open); // Tabs weichen der Suche
     if (open) {
       els.search.focus();
     } else {
@@ -96,6 +100,12 @@ async function init() {
       render();
     }
     els.searchToggle.setAttribute("aria-expanded", String(open));
+  });
+
+  // Kategorien auf-/zuklappen (Scroll-Zeile <-> alle anzeigen).
+  els.catExpand.addEventListener("click", () => {
+    const expanded = els.tagFilter.classList.toggle("expanded");
+    els.catExpand.setAttribute("aria-expanded", String(expanded));
   });
 
   els.favToggle.addEventListener("click", () => {
@@ -255,13 +265,12 @@ function buildGenreFilter() {
 }
 
 function allTags() {
-  const counts = new Map();
-  for (const ev of state.events) {
-    for (const tag of ev.tags || []) counts.set(tag, (counts.get(tag) || 0) + 1);
-  }
-  return [...counts.entries()]
-    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "de"))
-    .map(([tag]) => tag);
+  const present = new Set();
+  for (const ev of state.events) for (const tag of ev.tags || []) present.add(tag);
+  // Fixed order; any unknown tag goes to the end.
+  const ordered = CATEGORY_ORDER.filter((c) => present.has(c));
+  for (const t of present) if (!CATEGORY_ORDER.includes(t)) ordered.push(t);
+  return ordered;
 }
 
 function buildTagFilter() {
@@ -667,21 +676,33 @@ function buildDayTabs(sortedKeys, groups) {
   }
 }
 
+let spyHandler = null;
+let lastActiveKey = null;
+
+// Robust scroll-spy: the active day is the last heading scrolled past the
+// bottom of the sticky header.
 function setupScrollSpy(sortedKeys) {
-  if (dayObserver) dayObserver.disconnect();
-  dayObserver = new IntersectionObserver(
-    (entries) => {
-      for (const entry of entries) {
-        if (entry.isIntersecting) setActiveTab(entry.target.dataset.key);
-      }
-    },
-    { rootMargin: "-150px 0px -80% 0px", threshold: 0 }
-  );
-  for (const key of sortedKeys) {
-    const heading = document.querySelector(`#day-${key} .day-heading`);
-    if (heading) dayObserver.observe(heading);
-  }
-  if (sortedKeys.length) setActiveTab(sortedKeys[0]);
+  const sections = sortedKeys
+    .map((k) => document.getElementById(`day-${k}`))
+    .filter(Boolean);
+  if (spyHandler) window.removeEventListener("scroll", spyHandler);
+  lastActiveKey = null;
+
+  spyHandler = () => {
+    const header = document.querySelector(".site-header");
+    const offset = (header ? header.offsetHeight : 0) + 6;
+    let activeKey = sortedKeys[0];
+    for (const sec of sections) {
+      if (sec.getBoundingClientRect().top <= offset) activeKey = sec.id.slice(4);
+      else break;
+    }
+    if (activeKey !== lastActiveKey) {
+      lastActiveKey = activeKey;
+      setActiveTab(activeKey);
+    }
+  };
+  window.addEventListener("scroll", spyHandler, { passive: true });
+  spyHandler();
 }
 
 function setActiveTab(key) {

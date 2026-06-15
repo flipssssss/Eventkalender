@@ -128,7 +128,8 @@ def collect() -> tuple[list[Event], list[dict]]:
 
 
 def filter_and_sort(events: list[Event]) -> list[Event]:
-    cutoff = _dt.datetime.now() - _dt.timedelta(days=KEEP_PAST_DAYS)
+    # Drop anything before today (no "yesterday" events in the feed).
+    cutoff = _dt.datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
     horizon = _dt.datetime.now() + _dt.timedelta(days=HORIZON_DAYS)
 
     kept: dict[str, Event] = {}

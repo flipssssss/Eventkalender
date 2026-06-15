@@ -141,15 +141,19 @@ body {
 .day-tabs {
   display: flex;
   gap: 18px;
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 12px 20px 8px;
+  flex: 1 1 auto;
+  min-width: 0;
+  padding: 2px 0;
   overflow-x: auto;
   scrollbar-width: none;
   -webkit-overflow-scrolling: touch;
 }
 
 .day-tabs::-webkit-scrollbar {
+  display: none;
+}
+
+.day-tabs[hidden] {
   display: none;
 }
 
@@ -185,33 +189,47 @@ body {
   font-weight: 700;
 }
 
-/* -- Filter-Zeile: Tags immer sichtbar, Suche per Lupe ausklappbar -- */
+/* -- Header-Zeilen -- */
 
-.filter-bar {
+.header-row {
   display: flex;
   align-items: center;
   gap: 12px;
   max-width: 960px;
   margin: 0 auto;
-  padding: 6px 20px 12px;
+  padding: 5px 20px;
 }
 
-.search-toggle {
+.header-row--dates {
+  padding-top: 10px;
+}
+
+.header-row--categories {
+  padding-bottom: 12px;
+}
+
+.icon-toggle[aria-expanded="true"] {
+  color: var(--accent);
+}
+
+/* Kategorien-Aufklapp-Pfeil */
+.cat-expand {
   flex: 0 0 auto;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 4px;
-  margin-left: auto;
   background: none;
   border: none;
   color: var(--muted);
   cursor: pointer;
-  transition: color 0.15s ease;
+  padding: 2px;
+  display: inline-flex;
+  transition: transform 0.2s ease, color 0.15s ease;
 }
 
-.search-toggle:hover,
-.search-toggle[aria-expanded="true"] {
+.cat-expand:hover {
+  color: var(--accent);
+}
+
+.cat-expand[aria-expanded="true"] {
+  transform: rotate(180deg);
   color: var(--accent);
 }
 
@@ -242,11 +260,25 @@ body {
   outline: none;
 }
 
-/* Tags: reine Text-Schalter, aktiv = Akzentfarbe */
+/* Kategorien: in einer Zeile horizontal scrollbar, per Pfeil aufklappbar */
 .tag-filter {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 6px 16px;
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow-x: auto;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+.tag-filter::-webkit-scrollbar {
+  display: none;
+}
+
+.tag-filter.expanded {
+  flex-wrap: wrap;
+  overflow: visible;
 }
 
 .tag-filter[hidden] {
@@ -254,6 +286,8 @@ body {
 }
 
 .tag-chip {
+  flex: 0 0 auto;
+  white-space: nowrap;
   border: none;
   background: none;
   color: var(--muted);
@@ -290,7 +324,7 @@ body {
 
 .day-group {
   margin-bottom: 30px;
-  scroll-margin-top: 120px;
+  scroll-margin-top: 160px;
 }
 
 .day-heading {

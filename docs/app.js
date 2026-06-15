@@ -1150,22 +1150,17 @@ function renderMap(sortedKeys, groups) {
       fillColor: color,
       fillOpacity: past ? 0.45 : 0.95,
     });
-    // Tap/click -> popup with time, title and tags (visible on touch too),
-    // plus a button into the full detail view.
-    const tagChips = [ev.genre, ...(ev.tags || [])].filter(Boolean)
-      .map((t) => `<span class="map-pop-tag">${escapeHtml(t)}</span>`).join("");
-    const popup =
-      `<div class="map-pop">` +
-      `<div class="map-pop-time">${past ? "✓ " : ""}` +
-      `${escapeHtml(TIME_FMT.format(new Date(ev.start)))} Uhr</div>` +
-      `<div class="map-pop-title">${escapeHtml(ev.title || "")}</div>` +
-      (tagChips ? `<div class="map-pop-tags">${tagChips}</div>` : "") +
-      `<button type="button" class="map-pop-btn">Details ansehen</button></div>`;
-    marker.bindPopup(popup, { className: "map-pop-wrap", closeButton: true });
-    marker.on("popupopen", (e) => {
-      const btn = e.popup.getElement().querySelector(".map-pop-btn");
-      if (btn) btn.addEventListener("click", () => { marker.closePopup(); openModal(ev); });
-    });
+    marker.on("click", () => openModal(ev));
+    // Always-on label with the tags (categories; genre is already the colour).
+    const labelTags = (ev.tags || []).filter(Boolean);
+    const label = (labelTags.length ? labelTags : [ev.genre])
+      .filter(Boolean).join(" · ");
+    if (label) {
+      marker.bindTooltip(escapeHtml(label), {
+        permanent: true, direction: "top", offset: [0, -4],
+        className: "map-label" + (past ? " map-label--past" : ""),
+      });
+    }
     marker.addTo(map);
     mapMarkers.push(marker);
     bounds.push([ev.lat, ev.lng]);

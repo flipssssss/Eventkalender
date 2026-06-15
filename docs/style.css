@@ -313,6 +313,8 @@ body {
   max-width: 960px;
   margin: 0 auto;
   padding: 20px;
+  /* Platz für den schwebenden Liste/Karte-Umschalter unten. */
+  padding-bottom: calc(84px + env(safe-area-inset-bottom, 0px));
 }
 
 .status {
@@ -914,6 +916,7 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  gap: 6px;
   width: 30px;
   height: 26px;
   border: none;
@@ -923,9 +926,38 @@ body {
   cursor: pointer;
 }
 
+.view-btn > span {
+  display: none;
+}
+
 .view-btn.active {
   background: var(--accent);
   color: var(--surface);
+}
+
+/* Schwebender Umschalter unten mittig */
+.view-toggle--float {
+  position: fixed;
+  left: 50%;
+  bottom: calc(16px + env(safe-area-inset-bottom, 0px));
+  transform: translateX(-50%);
+  /* Über dem Inhalt, aber unter Modals (z-index 100). */
+  z-index: 90;
+  padding: 4px;
+  background: var(--surface);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+}
+
+.view-toggle--float .view-btn {
+  width: auto;
+  height: 34px;
+  padding: 0 16px;
+  font-family: var(--serif);
+  font-size: 0.9rem;
+}
+
+.view-toggle--float .view-btn > span {
+  display: inline;
 }
 
 /* ---------------- Kartenansicht ---------------- */
@@ -975,7 +1007,7 @@ body {
 .map-note {
   position: absolute;
   left: 50%;
-  bottom: 12px;
+  top: 12px;
   transform: translateX(-50%);
   z-index: 500;
   padding: 6px 14px;
@@ -994,67 +1026,27 @@ body {
   font-family: var(--serif);
 }
 
-/* Popup an den Kartenpunkten (zeigt Zeit, Titel, Tags + Details-Button). */
-.map-pop-wrap .leaflet-popup-content-wrapper {
-  background: var(--surface);
-  color: var(--text);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.22);
-}
-
-.map-pop-wrap .leaflet-popup-tip {
-  background: var(--surface);
-  border: 1px solid var(--border);
-}
-
-.map-pop-wrap .leaflet-popup-content {
-  margin: 10px 12px;
+/* Dauerhaftes Tag-Label an jedem Kartenpunkt. */
+.leaflet-tooltip.map-label {
+  padding: 1px 7px;
   font-family: var(--serif);
-}
-
-.map-pop {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-  max-width: 220px;
-}
-
-.map-pop-time {
-  font-size: 0.8rem;
-  color: var(--muted);
-}
-
-.map-pop-title {
-  font-weight: 700;
-  line-height: 1.25;
-  font-size: 1rem;
-}
-
-.map-pop-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 4px;
-}
-
-.map-pop-tag {
-  padding: 1px 8px;
-  border-radius: 999px;
-  background: var(--accent-soft);
+  font-size: 0.72rem;
+  font-weight: 600;
   color: var(--accent);
-  font-size: 0.75rem;
+  background: color-mix(in srgb, var(--surface) 88%, transparent);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.18);
+  white-space: nowrap;
 }
 
-.map-pop-btn {
-  margin-top: 2px;
-  padding: 6px 10px;
-  border: none;
-  border-radius: var(--radius);
-  background: var(--accent);
-  color: var(--surface);
-  font-family: var(--serif);
-  font-size: 0.85rem;
-  cursor: pointer;
+.leaflet-tooltip.map-label::before {
+  display: none; /* kein Pfeil – schlichtes Pille-Label */
+}
+
+.leaflet-tooltip.map-label--past {
+  color: var(--muted);
+  opacity: 0.8;
 }
 
 /* ---------------- Eigene Events ---------------- */

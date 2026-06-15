@@ -37,6 +37,11 @@
 # (scrapers/stressfaktor.py, in aggregate.py registriert), weil die
 # Originalseite einen Bot-Schutz hat.
 sources:
+  # Silverfuture (queere Bar, Neukölln) -- Kategorie automatisch,
+  # Genre "Queer" via scrapers/genres.py.
+  - url: https://www.silverfuture.net/events-1/
+    name: Silverfuture
+
   # Kink-Quellen -- alle Events als Kink. Beide nutzen "The Events
   # Calendar" (WordPress); der iCal-Feed ist robust und umgeht teils
   # den Bot-Schutz der HTML-Seite.

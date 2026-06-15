@@ -20,6 +20,7 @@ SOURCE_DEFAULT = {
     "Karada House": "Kink",
     "Berlin Bühnen": "Kultur",
     "Donau115": "Kultur",
+    "Silverfuture": "Queer",
 }
 DEFAULT_GENRE = "Kultur"
 

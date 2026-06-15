@@ -10,7 +10,8 @@ const CATEGORY_ORDER = ["Theater", "Film", "Konzert", "Party", "Vortrag",
 const FAV_KEY = "ek_favorites";
 const THEME_KEY = "ek_theme";
 const SOURCES_KEY = "ek_disabled_sources";
-const REPO = "flipssssss/Eventkalender";
+// Formspree-Endpoint für Quellen-Vorschläge (z.B. https://formspree.io/f/abcdwxyz).
+const WISH_ENDPOINT = "";
 
 const state = {
   events: [],
@@ -44,7 +45,6 @@ const els = {
   sourceToggles: document.getElementById("source-toggles"),
   wishText: document.getElementById("wish-text"),
   wishSend: document.getElementById("wish-send"),
-  wishList: document.getElementById("wish-list"),
 };
 
 const DAY_FMT = new Intl.DateTimeFormat("de-DE", {
@@ -142,50 +142,23 @@ function setupSettings() {
     btn.addEventListener("click", () => setTheme(btn.dataset.theme));
   }
 
-  // Source wishes -> simple local list, no login.
-  els.wishSend.addEventListener("click", () => {
+  // Source wishes -> form service (no login). Set WISH_ENDPOINT below.
+  els.wishSend.addEventListener("click", async () => {
     const text = (els.wishText.value || "").trim();
     if (!text) { els.wishText.focus(); return; }
-    const wishes = loadWishes();
-    wishes.push(text);
-    saveWishes(wishes);
-    els.wishText.value = "";
-    renderWishes();
+    if (!WISH_ENDPOINT) { toast("Versand noch nicht eingerichtet"); return; }
+    els.wishSend.disabled = true;
+    try {
+      const res = await fetch(WISH_ENDPOINT, {
+        method: "POST",
+        headers: { "Accept": "application/json", "Content-Type": "application/json" },
+        body: JSON.stringify({ vorschlag: text }),
+      });
+      if (res.ok) { els.wishText.value = ""; toast("Danke! Vorschlag gesendet."); }
+      else { toast("Konnte nicht senden."); }
+    } catch { toast("Konnte nicht senden."); }
+    els.wishSend.disabled = false;
   });
-  renderWishes();
-}
-
-function renderWishes() {
-  const wishes = loadWishes();
-  els.wishList.innerHTML = "";
-  wishes.forEach((text, i) => {
-    const li = document.createElement("li");
-    li.className = "wish-item";
-    const span = document.createElement("span");
-    span.textContent = text;
-    const del = document.createElement("button");
-    del.className = "wish-del";
-    del.setAttribute("aria-label", "Entfernen");
-    del.textContent = "✕";
-    del.addEventListener("click", () => {
-      const list = loadWishes();
-      list.splice(i, 1);
-      saveWishes(list);
-      renderWishes();
-    });
-    li.appendChild(span);
-    li.appendChild(del);
-    els.wishList.appendChild(li);
-  });
-}
-
-function loadWishes() {
-  try { return JSON.parse(localStorage.getItem("ek_wishes") || "[]"); }
-  catch { return []; }
-}
-function saveWishes(list) {
-  try { localStorage.setItem("ek_wishes", JSON.stringify(list)); }
-  catch { /* ignore */ }
 }
 
 function setTheme(theme) {

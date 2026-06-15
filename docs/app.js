@@ -344,8 +344,11 @@ function render() {
 
   const groups = new Map();
   for (const ev of visible) {
-    const key = new Date(ev.start).toISOString().slice(0, 10);
-    if (!groups.has(key)) groups.set(key, { date: new Date(ev.start), events: [] });
+    const d = new Date(ev.start);
+    // Nach LOKALEM Datum gruppieren (sonst landen 00:00-Events über UTC
+    // auf einem anderen Tag -> Tag erscheint doppelt).
+    const key = d.getFullYear() + "-" + pad(d.getMonth() + 1) + "-" + pad(d.getDate());
+    if (!groups.has(key)) groups.set(key, { date: d, events: [] });
     groups.get(key).events.push(ev);
   }
 

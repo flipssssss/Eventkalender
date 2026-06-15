@@ -28,7 +28,6 @@ DEFAULT_VENUES = {
     "Hebbel am Ufer": ["hebbel am ufer", "hau hebbel", "hau1", "hau2", "hau3"],
     "Maxim Gorki Theater": ["maxim gorki", "gorki"],
     "Volksbühne": ["volksbühne", "volksbuehne"],
-    "Humboldt Forum": ["humboldt forum", "humboldt-forum", "humboldtforum"],
     "Haus der Kulturen der Welt": ["haus der kulturen der welt", "hkw"],
     "Schaubühne": ["schaubühne", "schaubuehne"],
     "Sophiensæle": ["sophiensæle", "sophiensaele", "sophiensæ", "sophiensale"],

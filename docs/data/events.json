@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-15T20:36:06.571462+00:00",
-  "count": 401,
+  "generated_at": "2026-06-15T20:40:13.977146+00:00",
+  "count": 398,
   "sources": [
     {
       "source": "Quälgeist",
@@ -49,7 +49,7 @@
     },
     {
       "source": "Demo Ticker Berlin",
-      "count": 16,
+      "count": 6,
       "error": null
     },
     {
@@ -59,26 +59,6 @@
     }
   ],
   "events": [
-    {
-      "title": "💥Announcement! Monday 15.06.2026💥",
-      "start": "2026-06-15T00:00:00",
-      "end": null,
-      "location": "men, Race & Class” by Angela Davis",
-      "description": "💥Announcement! Monday 15.06.2026💥 ⚧️📖 FLINTA* Book Club at Café Cralle 📖⚧️ Monday, 15.06.2026 | 7.30 pm | Café Cralle, Hochstädter Straße 10a, 13347 Berlin Directions: U9 Nauener Platz | Bus 247, 327 Maxstraße 📣 Call to action: https:// asanb.noblogs.org/?p=17948 - @cafecrallekollektiv # b1506 # Flinta # BookClub On 15 June at 7.30 pm, the FLINTA* Book Club will take place again at Café Cralle. We will be discussing “In the Park of the Magnificent Sisters” by Camila Sosa Villada. We meet at Café Cralle on the third Monday of every month at 7.30 pm to discuss a book that we choose together. So ",
-      "image_url": "https://todon.eu/system/media_attachments/files/116/750/800/944/258/725/original/fa4db66718818056.jpg",
-      "source_url": "https://todon.eu/@Demo_Ticker_Berlin/116750802325063354",
-      "source_name": "Demo Ticker Berlin",
-      "tags": [
-        "Protest"
-      ],
-      "time_known": false,
-      "genre": "Queer",
-      "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
-    },
     {
       "title": "Konferenz: „Verbinden statt spalten – Gemeinsam gegen Queerfeindlichkeit“",
       "start": "2026-06-15T13:00:00",
@@ -280,26 +260,6 @@
       "bezirk": "Pankow"
     },
     {
-      "title": "💥Ankündigung! Montag 15.06.2026💥",
-      "start": "2026-06-15T18:30:00",
-      "end": null,
-      "location": "es die Möglichkeit zum Austausch und zur Vernetzung gibt",
-      "description": "💥Ankündigung! Montag 15.06.2026💥 🧡💜 Erfurt 04.07. finde deine Unterstützungs-Bezugi 🧡💜 Montag, 15.06.2026 + 18.06.2026 | 18:30 Uhr | Potse Zollgarage, Columbiadamm 10, 12101 Berlin Anreise: U6, Bus 248, M43 Platz der Luftbrücke 📣 Aufruf: https:// asanb.noblogs.org/?p=17943 - @widersetzen_berlin # b1506 # b2606 # widersetzen 🧡💜 Kennlerntreffen Unterstützungs-Bezugis 🧡💜 Beim Teilnehmen an Demos und Aktionen stoßen Menschen auf unterschiedliche Barrieren, manche mehr als andere. Manche dieser Barrieren können verkleinert werden, wenn Menschen sich im Vorhinein darüber austauschen und in Aktionen ",
-      "image_url": "https://todon.eu/system/media_attachments/files/116/750/753/271/247/707/original/1579987470659784.jpg",
-      "source_url": "https://todon.eu/@Demo_Ticker_Berlin/116750755599818310",
-      "source_name": "Demo Ticker Berlin",
-      "tags": [
-        "Protest"
-      ],
-      "time_known": true,
-      "genre": "Polit",
-      "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
-    },
-    {
       "title": "Soli-Bleiberechtsbar",
       "start": "2026-06-15T19:00:00",
       "end": null,
@@ -440,11 +400,11 @@
       "bezirk": "Mitte"
     },
     {
-      "title": "💥Ankündigung! Montag 15.06.2026💥",
+      "title": "FLINTA* Lesekreis im Café Cralle",
       "start": "2026-06-15T19:30:00",
       "end": null,
-      "location": "men, Race & Class“ von Angela Davis",
-      "description": "💥Ankündigung! Montag 15.06.2026💥 ⚧️📖FLINTA* Lesekreis im Café Cralle📖⚧️ Montag, 15.06.2026 | 19:30 Uhr | Cafe Cralle, Hochstädter Straße 10a, 13347 Berlin Anreise: U9 Nauener Platz | Bus 247, 327 Maxstraße 📣 Aufruf: https:// asanb.noblogs.org/?p=17948 - @cafecrallekollektiv # b1506 # Flinta # Lesekreis Am 15.06. um 19:30 findet wieder der FLINTA* Lesekreis im Café Cralle statt. Wir werden „Im Park der prächtigen Schwestern“ von Camila Sosa Villada besprechen. Immer am 3. Montag im Monat um 19:30 Uhr treffen wir uns im Café Cralle und besprechen ein Buch, das wir gemeinsam aussuchen. Bringt zum",
+      "location": "Cafe Cralle, Hochstädter Straße 10a, 13347 Berlin",
+      "description": "Ankündigung! Montag 15.06.2026 FLINTA* Lesekreis im Café Cralle Montag, 15.06.2026 | 19:30 Uhr | Cafe Cralle, Hochstädter Straße 10a, 13347 Berlin Anreise: U9 Nauener Platz | Bus 247, 327 Maxstraße Aufruf: https:// asanb.noblogs.org/?p=17948 - @cafecrallekollektiv # b1506 # Flinta # Lesekreis Am 15.06. um 19:30 findet wieder der FLINTA* Lesekreis im Café Cralle statt. Wir werden „Im Park der prächtigen Schwestern“ von Camila Sosa Villada besprechen. Immer am 3. Montag im Monat um 19:30 Uhr treffen wir uns im Café Cralle und besprechen ein Buch, das wir gemeinsam aussuchen. Bringt zum kommenden",
       "image_url": "https://todon.eu/system/media_attachments/files/116/750/790/657/848/241/original/d02c5b6343821529.jpg",
       "source_url": "https://todon.eu/@Demo_Ticker_Berlin/116750791101321909",
       "source_name": "Demo Ticker Berlin",
@@ -454,10 +414,10 @@
       "time_known": true,
       "genre": "Queer",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Hochstädter Straße 10A, 13347 Wedding",
+      "lat": 52.5505395,
+      "lng": 13.3634054,
+      "bezirk": "Mitte"
     },
     {
       "title": "Ulm5 Prozess-Update - Anarchist Dinner",
@@ -560,46 +520,6 @@
       "bezirk": "Mitte"
     },
     {
-      "title": "💥Announcement! Tuesday 16.06.2026💥",
-      "start": "2026-06-16T00:00:00",
-      "end": null,
-      "location": "rk and antifascism at the “Soziales Zentrum Aenne Saefkow”",
-      "description": "💥Announcement! Tuesday 16.06.2026💥 🔥✊🏾How does a neighbourhood organisation combat fascism?✊🏾🔥 Saturday, 16.06.2026 | 7.00 pm | SZ Aenne Saefkow, Alfredstraße 24, 10365 Berlin Directions: U5 Magdalenenstraße | Bus 240 Schottstraße 📣 Call to action: https:// asanb.noblogs.org/?p=17961 - @solinetzberlin # b1606 # Antifascism Next Tuesday, we’re meeting for a talk on community work and antifascism at the “Soziales Zentrum Aenne Saefkow” At the moment, we’re seeing an increasing presence of fascist forces across Germany. Whether at the upcoming AfD federal party conference in Erfurt or here in Ber",
-      "image_url": "https://todon.eu/system/media_attachments/files/116/754/175/954/144/670/original/d29038405fed9c30.jpg",
-      "source_url": "https://todon.eu/@Demo_Ticker_Berlin/116754176537288196",
-      "source_name": "Demo Ticker Berlin",
-      "tags": [
-        "Protest"
-      ],
-      "time_known": false,
-      "genre": "Polit",
-      "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
-    },
-    {
-      "title": "💥Announcement! Tuesday 16.06.2026💥",
-      "start": "2026-06-16T04:30:00",
-      "end": null,
-      "location": null,
-      "description": "💥Announcement! Tuesday 16.06.2026💥 🎬 Film Screening: The Boys Who Said No! 🎥 Tuesday, June 16, 2026 | 4:30 PM | KHSB, Café K, Köpenicker Allee 39-57, 10318 Berlin Directions: Bus 296 Köpenicker Allee | Tram 27, 37, 67, M17 Marksburgstraße 📣 Call to action: https:// asanb.noblogs.org/?p=17955 - @sozialarbeitendegegenkrieg # b1606 # VietnamWar Come to our film screening at @khsb_berlin as part of the @streikgegenwehrpflicht.ber action week. At the Catholic University of Applied Social Sciences Berlin (KHSB)",
-      "image_url": "https://todon.eu/system/media_attachments/files/116/754/105/216/891/987/original/b678832863b42e70.jpg",
-      "source_url": "https://todon.eu/@Demo_Ticker_Berlin/116754105635135786",
-      "source_name": "Demo Ticker Berlin",
-      "tags": [
-        "Protest"
-      ],
-      "time_known": true,
-      "genre": "Polit",
-      "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
-    },
-    {
       "title": "Konferenz: „Verbinden statt spalten – Gemeinsam gegen Queerfeindlichkeit“",
       "start": "2026-06-16T08:00:00",
       "end": "2026-06-16T13:00:00",
@@ -620,11 +540,11 @@
       "bezirk": "Lichtenberg"
     },
     {
-      "title": "💥Ankündigung! Dienstag 16.06.2026💥",
+      "title": "Stolpersteinverlegung für Lina Wollmann",
       "start": "2026-06-16T11:00:00",
       "end": null,
-      "location": "llmann🕯",
-      "description": "💥Ankündigung! Dienstag 16.06.2026💥 🕯Stolpersteinverlegung für Lina Wollmann🕯 Dienstag, 16.06.2026 | 11:00 Uhr | Niebuhrstraße 71, 10629 Berlin Anreise: M49, X34 Kantstraße/Leibnizstraße | Bus 101 Mommsenstraße | S3, S5, S7, S9, S75 Savignyplatz 📣 Aufruf: https:// asanb.noblogs.org/?p=17953 - @f_ajoc_berlin # b1606 # keinVergeben # keinVergessen Wir teilen die Einladung der Stolpersteininitiative Friedenau für die Verlegung des Stolpersteins und Gedenken für Lina Wollmann, die nach Theresienstadt deportiert wurde. Ihr Stolperstein wird neben den ihres Sohnes Bruno Wollmann verlegt. Die Verlegun",
+      "location": "Niebuhrstraße 71, 10629 Berlin",
+      "description": "Ankündigung! Dienstag 16.06.2026 Stolpersteinverlegung für Lina Wollmann Dienstag, 16.06.2026 | 11:00 Uhr | Niebuhrstraße 71, 10629 Berlin Anreise: M49, X34 Kantstraße/Leibnizstraße | Bus 101 Mommsenstraße | S3, S5, S7, S9, S75 Savignyplatz Aufruf: https:// asanb.noblogs.org/?p=17953 - @f_ajoc_berlin # b1606 # keinVergeben # keinVergessen Wir teilen die Einladung der Stolpersteininitiative Friedenau für die Verlegung des Stolpersteins und Gedenken für Lina Wollmann, die nach Theresienstadt deportiert wurde. Ihr Stolperstein wird neben den ihres Sohnes Bruno Wollmann verlegt. Die Verlegung find",
       "image_url": "https://todon.eu/system/media_attachments/files/116/754/064/900/459/019/original/546e6867b8c626dd.jpg",
       "source_url": "https://todon.eu/@Demo_Ticker_Berlin/116754065324093487",
       "source_name": "Demo Ticker Berlin",
@@ -634,10 +554,10 @@
       "time_known": true,
       "genre": "Polit",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Niebuhrstraße 71, 10629 Charlottenburg",
+      "lat": 52.5042807,
+      "lng": 13.3146838,
+      "bezirk": "Charlottenburg-Wilmersdorf"
     },
     {
       "title": "Runder Tisch Queeres Steglitz-Zehlendorf",
@@ -660,11 +580,11 @@
       "bezirk": "Steglitz-Zehlendorf"
     },
     {
-      "title": "💥Ankündigung! Dienstag 16.06.2026💥",
+      "title": "Filmvorführung: Die Jungs, die Nein gesagt haben!",
       "start": "2026-06-16T16:30:00",
       "end": null,
-      "location": "che",
-      "description": "💥Ankündigung! Dienstag 16.06.2026💥 🎬 Filmvorführung: Die Jungs, die Nein gesagt haben! 🎥 Dienstag, 16.06.2026 | 16:30 Uhr | KHSB, Café K, Köpenicker Allee 39-57, 10318 Berlin Anreise: Bus 296 Köpenicker Allee | Tram 27, 37, 67, M17 Marksburgstraße 📣 Aufruf: https:// asanb.noblogs.org/?p=17955 - @sozialarbeitendegegenkrieg # b1606 # VietnamWar Kommt zu unserer Filmvorführung an der @khsb_berlin im Rahmen der @streikgegenwehrpflicht.ber Aktionswoche. An der Katholische Hochschule für Sozialwesen Berlin (KHSB)",
+      "location": "KHSB, Café K, Köpenicker Allee 39-57, 10318 Berlin",
+      "description": "Ankündigung! Dienstag 16.06.2026 Filmvorführung: Die Jungs, die Nein gesagt haben! Dienstag, 16.06.2026 | 16:30 Uhr | KHSB, Café K, Köpenicker Allee 39-57, 10318 Berlin Anreise: Bus 296 Köpenicker Allee | Tram 27, 37, 67, M17 Marksburgstraße Aufruf: https:// asanb.noblogs.org/?p=17955 - @sozialarbeitendegegenkrieg # b1606 # VietnamWar Kommt zu unserer Filmvorführung an der @khsb_berlin im Rahmen der @streikgegenwehrpflicht.ber Aktionswoche. An der Katholische Hochschule für Sozialwesen Berlin (KHSB)",
       "image_url": "https://todon.eu/system/media_attachments/files/116/754/095/179/805/393/original/284c2d25290f7e22.jpg",
       "source_url": "https://todon.eu/@Demo_Ticker_Berlin/116754095814696593",
       "source_name": "Demo Ticker Berlin",
@@ -674,10 +594,10 @@
       "time_known": true,
       "genre": "Polit",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Köpenicker Allee 39-57, 10318 Karlshorst",
+      "lat": 52.4881732,
+      "lng": 13.5339889,
+      "bezirk": "Lichtenberg"
     },
     {
       "title": "Flinta*only Kickern",
@@ -740,11 +660,11 @@
       "bezirk": "Mitte"
     },
     {
-      "title": "💥Ankündigung! Dienstag 16.06.2026💥",
+      "title": "Antifaschistische Stadtversammlung im Görlitzer Park",
       "start": "2026-06-16T18:00:00",
       "end": null,
-      "location": "mit einem Infostand vertreten sein und beteiligen uns an den Diskussionen",
-      "description": "💥Ankündigung! Dienstag 16.06.2026💥 🔥✊🏾Antifaschistische Stadtversammlung im Görlitzer Park✊🏾🔥 Dienstag, 16.06.2026 | 18:00 Uhr | Görlitzer Park, Pamukkale 10999 Berlin Anreise: U1, U3 Görlitzer Bahnhof | Bus M29 Spreewaldplatz | Bus 165, 265 Schlesisches Tor 📣 Aufruf: https:// asanb.noblogs.org/?p=17958 - @goerli_zaunfrei # b1606 # widersetzen Kommt mit uns zur antifaschistischen Stadtversammlung am Dienstag ab 18 Uhr im Görli. Wir werden dort mit einem Infostand vertreten sein und beteiligen uns an den Diskussionen. Wir wollen uns vernetzen und gemeinsam klare Kante zeigen. Rassistische Hetze",
+      "location": "Görlitzer Park, Pamukkale 10999 Berlin",
+      "description": "Ankündigung! Dienstag 16.06.2026 Antifaschistische Stadtversammlung im Görlitzer Park Dienstag, 16.06.2026 | 18:00 Uhr | Görlitzer Park, Pamukkale 10999 Berlin Anreise: U1, U3 Görlitzer Bahnhof | Bus M29 Spreewaldplatz | Bus 165, 265 Schlesisches Tor Aufruf: https:// asanb.noblogs.org/?p=17958 - @goerli_zaunfrei # b1606 # widersetzen Kommt mit uns zur antifaschistischen Stadtversammlung am Dienstag ab 18 Uhr im Görli. Wir werden dort mit einem Infostand vertreten sein und beteiligen uns an den Diskussionen. Wir wollen uns vernetzen und gemeinsam klare Kante zeigen. Rassistische Hetze, Hass und",
       "image_url": "https://todon.eu/system/media_attachments/files/116/754/138/402/934/978/original/ae8086a151380121.jpg",
       "source_url": "https://todon.eu/@Demo_Ticker_Berlin/116754140003691325",
       "source_name": "Demo Ticker Berlin",
@@ -754,10 +674,30 @@
       "time_known": true,
       "genre": "Polit",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "10999 Kreuzberg",
+      "lat": 52.4969288,
+      "lng": 13.4265584,
+      "bezirk": "Friedrichshain-Kreuzberg"
+    },
+    {
+      "title": "Offenes feministisches Antifa Treffen #4",
+      "start": "2026-06-16T18:00:00",
+      "end": null,
+      "location": "Eiertanz, Admiralstraße 17, 10999 Berlin",
+      "description": "Ankündigung! Dienstag 16.06.2026 Offenes feministisches Antifa Treffen #4 Dienstag, 16.06.2026 | 18:00 Uhr | Eiertanz, Admiralstraße 17, 10999 Berlin Anreise: U1, U3, U8, Bus 140 Kottbusser Tor | M29 Adalbertstraße / Oranienstraße Aufruf: https:// asanb.noblogs.org/?p=17971 - @ofat_berlin # b1606 # OFAT Das nächste OFAT steht vor der Tür und die CSD Saison ist im vollen Gange. Tausende Menschen gehen für queere Rechte auf die Straße und gleichzeitig versuchen queerfeindliche Akteure immer wieder uns einzuschüchtern. Besonders in kleinen Städten sind queere Veranstaltungen zunehmend von rechter",
+      "image_url": "https://todon.eu/system/media_attachments/files/116/754/116/513/827/090/original/33180eff42f4fada.jpg",
+      "source_url": "https://todon.eu/@Demo_Ticker_Berlin/116754117862151244",
+      "source_name": "Demo Ticker Berlin",
+      "tags": [
+        "Protest"
+      ],
+      "time_known": true,
+      "genre": "Queer",
+      "subcategory": null,
+      "address": "Admiralstraße 17, 10999 Kreuzberg",
+      "lat": 52.4960989,
+      "lng": 13.4153663,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Queer Ageing Group",
@@ -900,11 +840,11 @@
       "bezirk": "Mitte"
     },
     {
-      "title": "💥Ankündigung! Dienstag 16.06.2026💥",
+      "title": "Wie bekämpft eine Stadtteilorga den Faschismus",
       "start": "2026-06-16T19:00:00",
       "end": null,
-      "location": "rag über Stadtteilarbeit und Antifaschismus im \"Sozialen Zentrum Aenne Saefkow\"",
-      "description": "💥Ankündigung! Dienstag 16.06.2026💥 🔥✊🏾Wie bekämpft eine Stadtteilorga den Faschismus✊🏾🔥 Dienstag, 16.06.2026 | 19:00 Uhr | SZ Aenne Saefkow, Alfredstraße 24, 10365 Berlin Anreise: U5 Magdalenenstraße | Bus 240 Schottstraße 📣 Aufruf: https:// asanb.noblogs.org/?p=17961 - @solinetzberlin # b1606 # Antifaschismus Kommenden Dienstag treffen wir uns zu einem Vortrag über Stadtteilarbeit und Antifaschismus im \"Sozialen Zentrum Aenne Saefkow\" Zur Zeit bekommt man die zunehmende Präsenz faschistischer Kräfte in ganz Deutschland mit. Ob auf dem kommenden AFD Bundes-Parteitag in Erfurt oder auch hier in",
+      "location": "SZ Aenne Saefkow, Alfredstraße 24, 10365 Berlin",
+      "description": "Ankündigung! Dienstag 16.06.2026 Wie bekämpft eine Stadtteilorga den Faschismus Dienstag, 16.06.2026 | 19:00 Uhr | SZ Aenne Saefkow, Alfredstraße 24, 10365 Berlin Anreise: U5 Magdalenenstraße | Bus 240 Schottstraße Aufruf: https:// asanb.noblogs.org/?p=17961 - @solinetzberlin # b1606 # Antifaschismus Kommenden Dienstag treffen wir uns zu einem Vortrag über Stadtteilarbeit und Antifaschismus im \"Sozialen Zentrum Aenne Saefkow\" Zur Zeit bekommt man die zunehmende Präsenz faschistischer Kräfte in ganz Deutschland mit. Ob auf dem kommenden AFD Bundes-Parteitag in Erfurt oder auch hier in Berlin-Li",
       "image_url": "https://todon.eu/system/media_attachments/files/116/754/173/809/093/489/original/d68ecbe385cf47a0.jpg",
       "source_url": "https://todon.eu/@Demo_Ticker_Berlin/116754174301927414",
       "source_name": "Demo Ticker Berlin",
@@ -914,10 +854,10 @@
       "time_known": true,
       "genre": "Polit",
       "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
+      "address": "Alfredstraße 24, 10365 Lichtenberg",
+      "lat": 52.5145899,
+      "lng": 13.4904607,
+      "bezirk": "Lichtenberg"
     },
     {
       "title": "Film: The History of Sound",

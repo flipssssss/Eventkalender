@@ -17,14 +17,32 @@
   "lat": 52.5009559,
   "lng": 13.4354965
  },
+ "10999 Berlin": {
+  "address": "10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4969288,
+  "lng": 13.4265584
+ },
  ":// about blank / Garten Markgrafendamm 24c 10245 Berlin Deutschland": null,
  "AGB PopUp Saal Blücherplatz 1 10961 Berlin Deutschland": null,
  "AGB PopUp Saal Blücherplatz 1 10961, 10961 Berlin": null,
+ "Admiralstraße 17, 10999 Berlin": {
+  "address": "Admiralstraße 17, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4960989,
+  "lng": 13.4153663
+ },
  "Alexanderstr. 28, 10178 Berlin": {
   "address": "Kleine Alexanderstraße 28, 10178 Mitte",
   "bezirk": "Mitte",
   "lat": 52.5264478,
   "lng": 13.4130213
+ },
+ "Alfredstraße 24, 10365 Berlin": {
+  "address": "Alfredstraße 24, 10365 Lichtenberg",
+  "bezirk": "Lichtenberg",
+  "lat": 52.5145899,
+  "lng": 13.4904607
  },
  "Alice Salomon Hochschule Alice-Salomon-Platz 5 12627 Berlin Deutschland": {
   "address": "Alice-Salomon-Platz 5, 12627 Hellersdorf",
@@ -136,6 +154,7 @@
   "lat": 52.4773354,
   "lng": 13.3578441
  },
+ "Cafe Cralle, Hochstädter Straße 10a, 13347 Berlin": null,
  "Café Cralle Hochstädter Straße 10A, Berlin": {
   "address": "Hochstädter Straße 10a, 13347 Wedding",
   "bezirk": "Mitte",
@@ -194,6 +213,7 @@
  "Dorfplatz (Fhain) Rigaerstr. Ecke Liebigstr. 10247 Berlin Deutschland": null,
  "Drugstore im Rockhaus Buchberger Str. 6 10365 Berlin Deutschland": null,
  "Drugstore im Rockhaus Buchberger Str. 6 10365, 10365 Berlin": null,
+ "Eiertanz, Admiralstraße 17, 10999 Berlin": null,
  "Erreichbar Reichenberger Str. 63a HH 10999 Berlin Deutschland": null,
  "Erreichbar Reichenberger Str. 63a, 10999 Berlin": {
   "address": "Reichenberger Straße 63a, 10999 Kreuzberg",
@@ -269,6 +289,7 @@
   "lat": 52.4919487,
   "lng": 13.3889569
  },
+ "Görlitzer Park, Pamukkale 10999 Berlin": null,
  "HAU Hebbel am Ufer, Berlin": {
   "address": "Stresemannstraße 29, 10963 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -307,6 +328,12 @@
   "bezirk": "Mitte",
   "lat": 52.550607,
   "lng": 13.363522
+ },
+ "Hochstädter Straße 10a, 13347 Berlin": {
+  "address": "Hochstädter Straße 10A, 13347 Wedding",
+  "bezirk": "Mitte",
+  "lat": 52.5505395,
+  "lng": 13.3634054
  },
  "Hochstädterstr. 10a, 13347 Berlin": {
   "address": "Hochstädter Straße 10a, 13347 Wedding",
@@ -397,6 +424,7 @@
   "lat": 52.5326481,
   "lng": 13.3513118
  },
+ "KHSB, Café K, Köpenicker Allee 39-57, 10318 Berlin": null,
  "KTS 13 Karpfenteichstr. 13 12435 Berlin Deutschland": null,
  "Kadterschmiede Rigaer Str. 94 10245 Berlin Deutschland": {
   "address": "Rigaer Straße 94, 10247 Friedrichshain",
@@ -470,6 +498,12 @@
  },
  "KØPI Köpenicker Straße 137 10179, 10179 Berlin": null,
  "Königskolonnaden im Heinrich von Kleist-Park, Berlin": null,
+ "Köpenicker Allee 39-57, 10318 Berlin": {
+  "address": "Köpenicker Allee 39-57, 10318 Karlshorst",
+  "bezirk": "Lichtenberg",
+  "lat": 52.4881732,
+  "lng": 13.5339889
+ },
  "Köpenicker Str. 172, 10997 Berlin": {
   "address": "Köpenicker Straße 172, 10997 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -629,6 +663,12 @@
  "New Yorck im Bethanien Mariannenplatz 2A 10997 Berlin Deutschland": null,
  "NewYorck im Bethanien Mariannenplatz 2A 10997 Berlin Deutschland": null,
  "NewYorck im Bethanien Mariannenplatz 2A, 10997 Berlin": null,
+ "Niebuhrstraße 71, 10629 Berlin": {
+  "address": "Niebuhrstraße 71, 10629 Charlottenburg",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.5042807,
+  "lng": 13.3146838
+ },
  "Oranienstr. 14a, 10999 Berlin": {
   "address": "Oranienstraße 14a, 10999 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -688,6 +728,7 @@
  },
  "Rigaerstr. Ecke Liebigstr. 10247, 10247 Berlin": null,
  "Rote Insel near S1 / U7 Yorckstrasse Berlin 10783 Berlin Deutschland": null,
+ "SZ Aenne Saefkow, Alfredstraße 24, 10365 Berlin": null,
  "Schaubühne am Lehniner Platz, Berlin": {
   "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
   "bezirk": "Charlottenburg-Wilmersdorf",

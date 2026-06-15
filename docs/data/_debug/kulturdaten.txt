@@ -8,17 +8,32 @@
 {"title": {"de": "Stadtteilzentrum Pestalozzi-Treff"}, "isVirtual": false, "address": {"streetAddress": "Pestalozzistraße 1 A", "postalCode": "12623", "addressLocality": "Berlin"}, "contact": {"telephone": "(030) 565 869 20"}, "borough": "Marzahn-Hellersdorf", "metadata": {"origin": "bezirkskalender", "originObjectID": "2997", "editableBy": ["O_MARZAHN1HELL"], "created": "2024-03-14T09:19:24.003Z", "updated": "2024-03-14T09:19:24.003Z"}, "type": "type.Location", "identifier": "L_M4KPTA4ARP9L", "status": "location.published", "openingStatus": "location.opened"}
 
 === Query-Tests /api/events ===
-?page=1&pageSize=2 -> 200: {"success":true,"message":"Operation Successful","data":{"page":1,"pageSize":2,"totalCount":13824,"events":[{"schedule":{"startDate":"2026-06-15","endDate":"2026-06-15","startTime":"00:00:00","endTime
-?anyDate=true -> 400: {"message":"Unknown query parameter 'anyDate'","errors":[{"path":"/query/anyDate","message":"Unknown query parameter 'anyDate'"}]}
-?startDate=2026-06-16 -> 200: {"success":true,"message":"Operation Successful","data":{"page":1,"pageSize":30,"totalCount":13702,"events":[{"schedule":{"startDate":"2026-06-16","endDate":"2026-06-16","startTime":"00:00:00","endTim
-?filter[schedule.startDate]=2026-06-16 -> 400: {"message":"Unknown query parameter 'filter'","errors":[{"path":"/query/filter","message":"Unknown query parameter 'filter'"}]}
-?include=attractions,locations -> 400: {"message":"Unknown query parameter 'include'","errors":[{"path":"/query/include","message":"Unknown query parameter 'include'"}]}
-?expand=attractions -> 400: {"message":"Unknown query parameter 'expand'","errors":[{"path":"/query/expand","message":"Unknown query parameter 'expand'"}]}
-?pageSize=2&include=attractions -> 400: {"message":"Unknown query parameter 'include'","errors":[{"path":"/query/include","message":"Unknown query parameter 'include'"}]}
+?startDate=2026-06-16&endDate=2026-06-20 -> 200: {"success":true,"message":"Operation Successful","data":{"page":1,"pageSize":30,"totalCount":739,"events":[{"schedule":{"startDate":"2026-06-16","endDate":"2026
+?pageSize=200 -> 200: {"success":true,"message":"Operation Successful","data":{"page":1,"pageSize":200,"totalCount":13824,"events":[{"schedule":{"startDate":"2026-06-15","endDate":"2
+?category=Concerts -> 400: {"message":"Unknown query parameter 'category'","errors":[{"path":"/query/category","message":"Unknown query parameter 'category'"}]}
+?tags=attraction.category.Concerts -> 400: {"message":"Unknown query parameter 'tags'","errors":[{"path":"/query/tags","message":"Unknown query parameter 'tags'"}]}
+?borough=Mitte -> 400: {"message":"Unknown query parameter 'borough'","errors":[{"path":"/query/borough","message":"Unknown query parameter 'borough'"}]}
+?origin=bezirkskalender -> 400: {"message":"Unknown query parameter 'origin'","errors":[{"path":"/query/origin","message":"Unknown query parameter 'origin'"}]}
+?searchterm=jazz -> 400: {"message":"Unknown query parameter 'searchterm'","errors":[{"path":"/query/searchterm","message":"Unknown query parameter 'searchterm'"}]}
+?sort=schedule.startDate -> 400: {"message":"Unknown query parameter 'sort'","errors":[{"path":"/query/sort","message":"Unknown query parameter 'sort'"}]}
+?attractionId=A_KPJGGWYZL5EK -> 400: {"message":"Unknown query parameter 'attractionId'","errors":[{"path":"/query/attractionId","message":"Unknown query parameter 'attractionId'"}]}
 
-=== OpenAPI-Spec ===
-/api/docs/swagger.json -> 200 text/html; charset=utf-8
-/api/docs/json -> 200 text/html; charset=utf-8
-/api/openapi.json -> 404 application/json; charset=utf-
-/api/docs-json/ -> 404 application/json; charset=utf-
-/api/docs/?format=json -> 200 text/html; charset=utf-8
+=== Verteilung (Stichprobe 200 Attraktionen) ===
+Kategorien: {"attraction.category.Children": 65, "attraction.category.Recreation": 49, "attraction.category.Music": 32, "attraction.category.InformationEvents": 24, "attraction.category.Education": 22, "attraction.category.Lectures": 20, "attraction.category.Exhibitions": 17, "attraction.category.Women": 16, "attraction.category.Politics": 13, "attraction.category.Police": 12, "attraction.category.Festivals": 10, "attraction.category.Dance": 6, "attraction.category.Health": 5, "attraction.category.WeeklyMarkets": 4, "attraction.category.Stages": 3, "attraction.category.Walks": 2, "attraction.category.ChristmasTime": 2, "attraction.category.Conferences": 1}
+Origins: {"bezirkskalender": 200}
+
+=== Swagger-UI-Init (Auszug) ===
+w.onload = function() {
+  // Build a system
+  var url = window.location.search.match(/url=([^&]+)/);
+  if (url && url.length > 1) {
+    url = decodeURIComponent(url[1]);
+  } else {
+    url = window.location.origin;
+  }
+  var options = {
+  "swaggerDoc": {
+    "openapi": "3.0.3",
+    "info": {
+      "title": "kulturdaten.berlin API",
+      "description": "*We make Berlin’s cultural diversity visible*\n\nThis API provides access to reading and writi

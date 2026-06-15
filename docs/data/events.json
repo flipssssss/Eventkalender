@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T07:22:03.827820+00:00",
+  "generated_at": "2026-06-15T07:25:04.413179+00:00",
   "count": 367,
   "sources": [
     {
@@ -3310,6 +3310,21 @@
       "genre": "Polit"
     },
     {
+      "title": "P14 – endlich endlich",
+      "start": "2026-06-21T19:00:00",
+      "end": null,
+      "location": "Volksbühne am Rosa-Luxemburg-Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/e460ca489510b3a2c7b291bffd2194c9.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/p14-endlich-endlich/events/369879/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true,
+      "genre": "Kultur"
+    },
+    {
       "title": "Love Me Tender",
       "start": "2026-06-21T19:00:00",
       "end": null,
@@ -3332,21 +3347,6 @@
       "description": null,
       "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/3f05b10dfcb4090975987669019acc53.jpg",
       "source_url": "https://www.berlin-buehnen.de/de/spielplan/oratorium-kollektive-andacht-wohlgehueteten-geheimnis/events/368351/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true,
-      "genre": "Kultur"
-    },
-    {
-      "title": "P14 – endlich endlich",
-      "start": "2026-06-21T19:00:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/e460ca489510b3a2c7b291bffd2194c9.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/p14-endlich-endlich/events/369879/",
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"

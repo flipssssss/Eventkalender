@@ -124,6 +124,12 @@ VENUE_OVERRIDES = {
     },
 }
 
+# Single-venue sources whose feed "location" is unusable (e.g. a URL): supply
+# the known address and let the geocoder resolve the exact coordinates/Bezirk.
+SOURCE_ADDRESS = {
+    "Karada House": "Perleberger Straße 59, 10559 Berlin",
+}
+
 
 _cache: dict | None = None
 _last_request = 0.0
@@ -281,9 +287,15 @@ def locate_event(event, *, allow_network: bool = True) -> None:
         event.bezirk = override["bezirk"]
         return
 
-    if not event.location:
+    fixed = SOURCE_ADDRESS.get(event.source_name)
+    if fixed:
+        event.address = fixed
+        if not event.location or event.location.lower().startswith("http"):
+            event.location = event.source_name
+
+    if not event.location and not event.address:
         return
-    raw = (event.address or event.location).strip()
+    raw = (fixed or event.address or event.location).strip()
     # Skip obvious non-addresses (e.g. a stray URL in the location field).
     if raw.lower().startswith("http"):
         return

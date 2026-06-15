@@ -72,7 +72,9 @@ class KlubVerbotenScraper(BaseScraper):
     def _build(self, e: dict) -> Event | None:
         venue = e.get("venue") or {}
         area = (venue.get("area") or {}).get("name") or ""
-        if area.lower() != CITY:
+        # Klub Verboten is a Berlin promoter; its locations are often secret
+        # (empty area). Keep Berlin and TBA events, drop other cities only.
+        if area and area.lower() != CITY:
             return None
         start = parse_datetime(e.get("startTime") or e.get("date"))
         if not start:

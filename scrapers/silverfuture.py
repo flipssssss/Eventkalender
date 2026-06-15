@@ -102,8 +102,12 @@ class SilverfutureScraper(BaseScraper):
             try:
                 DEBUG_DIR.mkdir(parents=True, exist_ok=True)
                 sample = "\n".join(f"{e.start} | {e.title}" for e in events[:15])
+                dates = ", ".join(m.group(0) for m in DATE_RE.finditer(text))
                 (DEBUG_DIR / "silverfuture.txt").write_text(
-                    f"Events geparst: {len(events)}\n{sample}", encoding="utf-8")
+                    f"Events geparst: {len(events)}\n{sample}\n\n"
+                    f"--- gefundene Datumsangaben ---\n{dates}\n\n"
+                    f"--- ROHTEXT (erste 2500 Zeichen) ---\n{text[:2500]}",
+                    encoding="utf-8")
             except OSError:
                 pass
         return events

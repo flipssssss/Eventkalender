@@ -96,8 +96,8 @@ def get_scrapers():
         BerlinBuehnenScraper(horizon_days=HORIZON_DAYS),
         # Donau115 (Jazz-Club) -- Events aus der Firebase-DB, alle "Konzert".
         Donau115Scraper(),
-        # kulturdaten.berlin -- Sonde (öffentliche Lese-Endpunkte testen).
-        KulturdatenScraper(),
+        # kulturdaten.berlin -- deaktiviert (zu viel Community-Kleinkram).
+        # KulturdatenScraper(),
         # Siegessäule -- queerer Eventkalender, Kategorie automatisch.
         SiegessaeuleScraper(days=HORIZON_DAYS),
         # tip Berlin -- deaktiviert: keine erreichbare Quelle für Event-Daten

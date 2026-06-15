@@ -764,6 +764,20 @@ body {
   font-style: italic;
 }
 
+.install-help {
+  margin-top: 10px;
+}
+
+.install-help[hidden] {
+  display: none;
+}
+
+.install-help p {
+  margin: 6px 0;
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+
 .theme-options {
   display: flex;
   gap: 12px;

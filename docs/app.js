@@ -54,6 +54,8 @@ const els = {
   kdcatToggles: document.getElementById("kdcat-toggles"),
   wishText: document.getElementById("wish-text"),
   wishSend: document.getElementById("wish-send"),
+  installBtn: document.getElementById("install-btn"),
+  installHelp: document.getElementById("install-help"),
 };
 
 const DAY_FMT = new Intl.DateTimeFormat("de-DE", {
@@ -67,6 +69,13 @@ const TAB_DOW_FMT = new Intl.DateTimeFormat("de-DE", { weekday: "short" });
 const TAB_DATE_FMT = new Intl.DateTimeFormat("de-DE", { day: "numeric", month: "numeric" });
 
 let dayObserver = null;
+let deferredInstallPrompt = null;
+
+// Android-Chrome: Install-Dialog für später merken.
+window.addEventListener("beforeinstallprompt", (e) => {
+  e.preventDefault();
+  deferredInstallPrompt = e;
+});
 
 // Offline-Fähigkeit (PWA).
 if ("serviceWorker" in navigator) {
@@ -150,6 +159,16 @@ function setupSettings() {
     btn.classList.toggle("active", btn.dataset.theme === current);
     btn.addEventListener("click", () => setTheme(btn.dataset.theme));
   }
+
+  // "Als App hinzufügen": Android-Chrome bietet den nativen Dialog,
+  // sonst (iPhone) zeigen wir die Anleitung.
+  els.installBtn.addEventListener("click", async () => {
+    if (deferredInstallPrompt) {
+      deferredInstallPrompt.prompt();
+      deferredInstallPrompt = null;
+    }
+    els.installHelp.toggleAttribute("hidden");
+  });
 
   // Source wishes -> form service (no login). Set WISH_ENDPOINT below.
   els.wishSend.addEventListener("click", async () => {

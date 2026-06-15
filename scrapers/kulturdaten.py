@@ -44,6 +44,24 @@ class KulturdatenScraper(BaseScraper):
     def __init__(self, write_debug: bool = True):
         self.write_debug = write_debug
 
+
+def _extract_swaggerdoc(js: str) -> dict:
+    """Pull the inline swaggerDoc JSON object out of swagger-ui-init.js."""
+    marker = '"swaggerDoc":'
+    start = js.index(marker) + len(marker)
+    while js[start] != "{":
+        start += 1
+    depth, i = 0, start
+    while i < len(js):
+        if js[i] == "{":
+            depth += 1
+        elif js[i] == "}":
+            depth -= 1
+            if depth == 0:
+                return json.loads(js[start:i + 1])
+        i += 1
+    return {}
+
     BASE = "https://api-v2.kulturdaten.berlin"
 
     def fetch_events(self) -> Iterable[Event]:
@@ -103,14 +121,22 @@ class KulturdatenScraper(BaseScraper):
         except Exception as exc:  # noqa: BLE001
             report.append(f"Verteilung FEHLER {exc}")
 
-        # 4) OpenAPI-Spec aus der Swagger-UI ziehen.
-        report.append("\n=== Swagger-UI-Init (Auszug) ===")
+        # 4) Vollständige OpenAPI-Pfade aus der Swagger-UI extrahieren.
+        report.append("\n=== OpenAPI-Pfade ===")
         try:
             js = get("/api/docs/swagger-ui-init.js").text
-            i = js.find("url")
-            report.append(js[max(0, i - 50): i + 400] if i >= 0 else js[:400])
+            spec = _extract_swaggerdoc(js)
+            paths = spec.get("paths", {})
+            for p in sorted(paths):
+                methods = ",".join(paths[p].keys())
+                report.append(f"  {p}  [{methods}]")
+            # Query-Parameter von GET /api/events.
+            ev = paths.get("/events") or paths.get("/api/events") or {}
+            params = (ev.get("get") or {}).get("parameters", [])
+            report.append("\nGET events Parameter: " + json.dumps(
+                [pp.get("name") for pp in params], ensure_ascii=False))
         except Exception as exc:  # noqa: BLE001
-            report.append(f"swagger-ui-init FEHLER {exc}")
+            report.append(f"Spec FEHLER {exc}")
 
         if self.write_debug:
             try:

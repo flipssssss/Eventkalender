@@ -15,6 +15,7 @@ Titel/Zeit/Beschreibung aus dem umgebenden Text.
 
 from __future__ import annotations
 
+import datetime as _dt
 import pathlib
 import re
 from typing import Iterable
@@ -35,9 +36,32 @@ BROWSER = {
     "Accept-Language": "de-DE,de;q=0.9,en;q=0.8",
 }
 
+# Events are headed like "Monday, 08.06 from 19pm -  Drag Support Line"
+# (often without a year), so we anchor on the weekday + DD.MM[.YYYY] + title.
+WEEKDAYS = (
+    "Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday|"
+    "Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag"
+)
+HEADING_RE = re.compile(
+    rf"(?:{WEEKDAYS})\s*,?\s*(\d{{1,2}})\.(\d{{1,2}})\.?(\d{{4}})?"
+    r"[^\n-]*?-\s*([^\n]+)",
+    re.IGNORECASE,
+)
 DATE_RE = re.compile(r"(\d{1,2})\.\s?(\d{1,2})\.\s?(\d{4})")
 TIME_RE = re.compile(r"(\d{1,2}):(\d{2})")
-THEME_RE = re.compile(r"(?:Show\s*)?Theme\s*:\s*(.+)", re.IGNORECASE)
+EMOJI_STRIP = " .!|❤️🧡💛💚💙💖✨‼️⭐️🗓️📍⏰🎟️🏳️‍🌈🏳️‍⚧️"
+
+
+def _infer_year(day: int, mon: int) -> int:
+    """Guess the year for a DD.MM date: this year, unless it's long past."""
+    today = _dt.date.today()
+    try:
+        cand = _dt.date(today.year, mon, day)
+    except ValueError:
+        return today.year
+    # Recently past (e.g. last week) stays this year -> gets filtered out as
+    # past; only a date many months back rolls over to next year.
+    return today.year + 1 if (today - cand).days > 60 else today.year
 
 
 class SilverfutureScraper(BaseScraper):
@@ -50,32 +74,29 @@ class SilverfutureScraper(BaseScraper):
     def fetch_events(self) -> Iterable[Event]:
         html = self.get(self.url, headers=BROWSER).text
         soup = BeautifulSoup(html, "html.parser")
-        for t in soup(["script", "style", "header", "footer", "nav"]):
+        for t in soup(["script", "style", "header", "footer", "nav", "title"]):
             t.decompose()
         text = re.sub(r"[ \t]+", " ", soup.get_text("\n"))
         text = re.sub(r"\n\s*\n+", "\n", text)
 
         events: list[Event] = []
         seen: set[str] = set()
-        for m in DATE_RE.finditer(text):
-            day, mon, year = m.groups()
-            before = text[max(0, m.start() - 500):m.start()]
-            after = text[m.end():m.end() + 700]
+        for m in HEADING_RE.finditer(text):
+            day, mon, year, title = m.groups()
+            day, mon = int(day), int(mon)
+            if not (1 <= mon <= 12 and 1 <= day <= 31):
+                continue
+            year = int(year) if year else _infer_year(day, mon)
 
-            # Title: nearest "Theme: X" before the date, else first line after.
-            themes = THEME_RE.findall(before)
-            if themes:
-                title = themes[-1].strip(" .!❤️🧡💛💚💙✨‼️")
-            else:
-                lines = [ln.strip(" .!❤️🧡💛💚💙✨‼️|") for ln in after.split("\n")]
-                title = next((ln for ln in lines if len(ln) > 3), "Silverfuture")
-            if not title:
+            title = title.strip(EMOJI_STRIP).strip()
+            if len(title) < 3:
                 continue
 
-            # Time: "Starts at HH:MM" or first HH:MM after the date.
+            after = text[m.end():m.end() + 700]
+            # Time: first HH:MM after the heading (e.g. "Show Starts at 19:30").
             tmatch = TIME_RE.search(after)
             hh, mm = (tmatch.groups() if tmatch else ("20", "00"))
-            start = parse_datetime(f"{year}-{int(mon):02d}-{int(day):02d} {hh}:{mm}")
+            start = parse_datetime(f"{year}-{mon:02d}-{day:02d} {hh}:{mm}")
             if not start:
                 continue
 
@@ -84,7 +105,7 @@ class SilverfutureScraper(BaseScraper):
                 continue
             seen.add(key)
 
-            # Short description: the longest line shortly after the date.
+            # Short description: the longest line shortly after the heading.
             desc_lines = [ln.strip() for ln in after.split("\n") if len(ln.strip()) > 30]
             desc = desc_lines[0][:400] if desc_lines else None
 

@@ -171,12 +171,18 @@
 
         <details class="settings-section settings-collapsible">
           <summary class="settings-h">Eigenes Event hinzufügen</summary>
+          <p class="settings-note">Füge ein Event hinzu, das dann für alle
+            sichtbar ist.</p>
           <form id="mine-form" class="mine-form">
             <input id="mine-title" type="text" maxlength="140" required
                    placeholder="Titel *" autocomplete="off" />
             <div class="mine-row">
-              <input id="mine-date" type="date" required aria-label="Datum" />
-              <input id="mine-time" type="time" aria-label="Uhrzeit" />
+              <label class="mine-field"><span>Tag</span>
+                <input id="mine-date" type="date" required />
+              </label>
+              <label class="mine-field"><span>Zeit</span>
+                <input id="mine-time" type="time" />
+              </label>
             </div>
             <input id="mine-location" type="text" maxlength="120"
                    placeholder="Ort / Location (z. B. SO36)" autocomplete="off" />

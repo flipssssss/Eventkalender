@@ -23,6 +23,7 @@ SOURCE_DEFAULT = {
     "Silverfuture": "Queer",
     "kulturdaten.berlin": "Kultur",
     "Klub Verboten": "Kink",
+    "Party Dyke Berlin": "Queer",
 }
 DEFAULT_GENRE = "Kultur"
 

@@ -1180,6 +1180,14 @@ html.map-active .site-footer {
   min-width: 0;
 }
 
+.mine-field {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
 .mine-form input,
 .mine-form select {
   width: 100%;

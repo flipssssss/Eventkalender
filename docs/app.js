@@ -33,6 +33,7 @@ const FIREBASE_DB_URL =
 const state = {
   events: [],
   userEvents: [],
+  allSources: [],
   activeTags: new Set(),
   activeGenres: new Set(),
   query: "",
@@ -129,6 +130,10 @@ async function init() {
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
     state.baseEvents = Array.isArray(data.events) ? data.events : [];
+    // All configured sources (from the report), so even sources with zero
+    // current events still show up in the Quellen list.
+    state.allSources = Array.isArray(data.sources)
+      ? data.sources.map((s) => s && s.source).filter(Boolean) : [];
     updateMeta(data);
     await loadUserEvents();
     mergeEvents();
@@ -256,6 +261,9 @@ function buildSourceToggles() {
   // Count only events that would land in the feed given every OTHER filter,
   // so the badge matches what's actually shown -- not the grand total.
   const counts = new Map();
+  // Seed with every configured source so sources with zero current events
+  // (e.g. Klub Verboten when nothing is on) still appear in the list.
+  for (const src of state.allSources) counts.set(src, 0);
   for (const e of state.events) {
     if (!e.source_name) continue;
     if (!counts.has(e.source_name)) counts.set(e.source_name, 0);

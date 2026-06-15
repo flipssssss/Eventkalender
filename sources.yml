@@ -50,9 +50,11 @@ sources:
   - url: https://quaelgeist.sm/?post_type=tribe_events&ical=1&eventDisplay=list
     name: Quälgeist
     type: ical
+    party_or_workshop: true   # je Event Party oder Workshop
   - url: https://karada-house.de/?post_type=tribe_events&ical=1&eventDisplay=list
     name: Karada House
     type: ical
+    category: Workshop        # alle Karada-Events als Workshop
   # tip Berlin: eigener Ausleser (scrapers/tipberlin.py) wegen Bot-Schutz.
   # Siegessäule wird über einen eigenen Ausleser eingebunden
   # (scrapers/siegessaeule.py), weil die Events in einem Sapper-Preload

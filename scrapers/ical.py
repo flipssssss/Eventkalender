@@ -64,11 +64,12 @@ class ICalScraper(BaseScraper):
     """Read events from an iCalendar (.ics) feed."""
 
     def __init__(self, url: str, name: str | None = None, default_tags=None,
-                 category: str | None = None):
+                 category: str | None = None, party_or_workshop: bool = False):
         self.url = url
         self.name = name or url
         self.default_tags = list(default_tags or [])
         self.category = category
+        self.party_or_workshop = party_or_workshop
 
     def fetch_events(self) -> Iterable[Event]:
         # A non-"Mozilla" user agent plus a calendar Accept header gets
@@ -91,7 +92,18 @@ class ICalScraper(BaseScraper):
                 continue
 
             source_url = _text(component.get("url")) or self.url
-            tags = [self.category] if self.category else self.default_tags + _tags(component)
+            if self.category:
+                tags = [self.category]
+            elif self.party_or_workshop:
+                text = (title + " " + (_text(component.get("description")) or "")).lower()
+                workshop = any(w in text for w in (
+                    "workshop", "rope", "shibari", "bondage", "class ", "kurs",
+                    "intro", "basics", "tutorial", "skill", "lesson", "einführung",
+                    "munch", "seminar", "practice", "übung",
+                ))
+                tags = ["Workshop"] if workshop else ["Party"]
+            else:
+                tags = self.default_tags + _tags(component)
 
             events.append(
                 Event(

@@ -189,17 +189,26 @@ function setupSettings() {
   });
 }
 
+const THEME_COLORS = { buergi: "#f3e9d8", punk: "#0d0c10", hyperpop: "#ffe0fb" };
+
 function setTheme(theme) {
   if (theme === "buergi") document.documentElement.removeAttribute("data-theme");
   else document.documentElement.setAttribute("data-theme", theme);
   try { localStorage.setItem(THEME_KEY, theme); } catch { /* ignore */ }
+  const meta = document.querySelector('meta[name="theme-color"]');
+  if (meta && THEME_COLORS[theme]) meta.setAttribute("content", THEME_COLORS[theme]);
   for (const btn of els.themeOptions.querySelectorAll(".theme-btn")) {
     btn.classList.toggle("active", btn.dataset.theme === theme);
   }
 }
 
 function buildSourceToggles() {
-  const sources = [...new Set(state.events.map((e) => e.source_name).filter(Boolean))].sort();
+  const counts = new Map();
+  for (const e of state.events) {
+    if (!e.source_name) continue;
+    counts.set(e.source_name, (counts.get(e.source_name) || 0) + 1);
+  }
+  const sources = [...counts.keys()].sort();
   els.sourceToggles.innerHTML = "";
   for (const src of sources) {
     const label = document.createElement("label");
@@ -214,7 +223,13 @@ function buildSourceToggles() {
       render();
     });
     label.appendChild(cb);
-    label.appendChild(document.createTextNode(src));
+    const txt = document.createElement("span");
+    txt.textContent = src;
+    label.appendChild(txt);
+    const badge = document.createElement("span");
+    badge.className = "source-count";
+    badge.textContent = counts.get(src);
+    label.appendChild(badge);
     els.sourceToggles.appendChild(label);
   }
 }

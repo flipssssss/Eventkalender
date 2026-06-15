@@ -830,6 +830,22 @@ body {
   accent-color: var(--accent);
 }
 
+.source-toggle span:first-of-type {
+  flex: 1 1 auto;
+}
+
+.source-count {
+  flex: 0 0 auto;
+  min-width: 1.6em;
+  text-align: center;
+  padding: 1px 8px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 0.8rem;
+  font-style: normal;
+}
+
 .wish-text {
   width: 100%;
   padding: 10px;

@@ -4,6 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="theme-color" content="#f3e9d8" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
   <title>Eventkalender</title>
 
   <!-- Favicon (Browser-Tab/URL-Leiste) & Home-Bildschirm-Icon -->
@@ -22,11 +25,14 @@
     rel="stylesheet"
   />
 
-  <!-- Theme früh setzen, um Aufblitzen zu vermeiden -->
+  <!-- Theme + Statusleisten-Farbe früh setzen, um Aufblitzen zu vermeiden -->
   <script>
     try {
-      var t = localStorage.getItem("ek_theme");
-      if (t) document.documentElement.setAttribute("data-theme", t);
+      var t = localStorage.getItem("ek_theme") || "buergi";
+      if (t !== "buergi") document.documentElement.setAttribute("data-theme", t);
+      var colors = { buergi: "#f3e9d8", punk: "#0d0c10", hyperpop: "#ffe0fb" };
+      var m = document.querySelector('meta[name="theme-color"]');
+      if (m && colors[t]) m.setAttribute("content", colors[t]);
     } catch (e) {}
   </script>
 
@@ -122,6 +128,16 @@
         </section>
 
         <section class="settings-section">
+          <h3 class="settings-h">Quellen</h3>
+          <div id="source-toggles" class="source-toggles"></div>
+        </section>
+
+        <section class="settings-section" id="kdcat-section" hidden>
+          <h3 class="settings-h">kulturdaten.berlin – Kategorien</h3>
+          <div id="kdcat-toggles" class="source-toggles"></div>
+        </section>
+
+        <section class="settings-section">
           <h3 class="settings-h">Als App hinzufügen</h3>
           <button type="button" class="btn btn--primary" id="install-btn">Als App hinzufügen</button>
           <div class="install-help" id="install-help" hidden>
@@ -131,16 +147,6 @@
               tippen und „App installieren" bzw. „Zum Startbildschirm hinzufügen".</p>
             <p>Danach öffnet sich der Eventkalender wie eine echte App.</p>
           </div>
-        </section>
-
-        <section class="settings-section">
-          <h3 class="settings-h">Quellen</h3>
-          <div id="source-toggles" class="source-toggles"></div>
-        </section>
-
-        <section class="settings-section" id="kdcat-section" hidden>
-          <h3 class="settings-h">kulturdaten.berlin – Kategorien</h3>
-          <div id="kdcat-toggles" class="source-toggles"></div>
         </section>
 
         <section class="settings-section">

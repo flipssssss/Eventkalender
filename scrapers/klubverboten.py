@@ -42,27 +42,20 @@ class KlubVerbotenScraper(BaseScraper):
         session.headers.update(HEADERS)
         report: list[str] = []
 
-        # A simple promoter query -- mainly to see if the endpoint answers.
-        query = {
-            "query": "query($id: ID!){ promoter(id: $id){ id name } }",
-            "variables": {"id": PROMOTER_ID},
+        # Probe candidate event queries -- RA returns helpful errors that
+        # reveal the valid fields.
+        queries = {
+            "A": "query($id: ID!){ promoter(id: $id){ id name events(limit: 5){ id title date startTime contentUrl venue{ id name area{ id name } } } } }",
+            "B": "query($id: ID!){ promoter(id: $id){ id name events{ id title date } } }",
         }
-        try:
-            r = session.post("https://ra.co/graphql", data=json.dumps(query), timeout=25)
-            report.append(f"graphql POST -> {r.status_code} "
-                          f"{r.headers.get('content-type','?')[:30]}")
-            report.append("  " + r.text[:600].replace("\n", " "))
-        except Exception as exc:  # noqa: BLE001
-            report.append(f"graphql FEHLER: {exc}")
-
-        # Also probe the plain pages.
-        for url in [f"https://ra.co/promoters/{PROMOTER_ID}/events",
-                    f"https://ra.co/promoters/{PROMOTER_ID}"]:
+        for label, q in queries.items():
             try:
-                rr = session.get(url, timeout=20)
-                report.append(f"GET {url} -> {rr.status_code}")
+                r = session.post("https://ra.co/graphql",
+                                 data=json.dumps({"query": q, "variables": {"id": PROMOTER_ID}}),
+                                 timeout=25)
+                report.append(f"\nQuery {label} -> {r.status_code}:\n{r.text[:1500]}")
             except Exception as exc:  # noqa: BLE001
-                report.append(f"GET {url} -> FEHLER {exc}")
+                report.append(f"Query {label} FEHLER: {exc}")
 
         if self.write_debug:
             try:

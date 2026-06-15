@@ -66,38 +66,51 @@ class KulturdatenScraper(BaseScraper):
                 report.append(f"{res}: FEHLER {exc}")
             report.append("")
 
-        # 2) Date-filter / include candidates on /api/events.
+        # 2) Filter-Parameter testen (400 = unbekannt, 200 = unterstützt).
         report.append("=== Query-Tests /api/events ===")
         for q in [
-            "?page=1&pageSize=2",
-            "?anyDate=true",
-            "?startDate=2026-06-16",
-            "?filter[schedule.startDate]=2026-06-16",
-            "?include=attractions,locations",
-            "?expand=attractions",
-            "?pageSize=2&include=attractions",
+            "?startDate=2026-06-16&endDate=2026-06-20",
+            "?pageSize=200",
+            "?category=Concerts",
+            "?tags=attraction.category.Concerts",
+            "?borough=Mitte",
+            "?origin=bezirkskalender",
+            "?searchterm=jazz",
+            "?sort=schedule.startDate",
+            "?attractionId=A_KPJGGWYZL5EK",
         ]:
             try:
                 r = get("/api/events" + q)
-                snip = r.text[:200].replace("\n", " ")
+                snip = r.text[:160].replace("\n", " ")
                 report.append(f"{q} -> {r.status_code}: {snip}")
             except Exception as exc:  # noqa: BLE001
                 report.append(f"{q} -> FEHLER {exc}")
         report.append("")
 
-        # 3) Try to fetch the OpenAPI spec (documents all query params).
-        report.append("=== OpenAPI-Spec ===")
-        for p in ["/api/docs/swagger.json", "/api/docs/json", "/api/openapi.json",
-                  "/api/docs-json/", "/api/docs/?format=json"]:
-            try:
-                r = get(p)
-                report.append(f"{p} -> {r.status_code} {r.headers.get('content-type','?')[:30]}")
-                if r.status_code < 400 and "json" in r.headers.get("content-type", ""):
-                    data = r.json()
-                    if isinstance(data, dict) and isinstance(data.get("paths"), dict):
-                        report.append("  Pfade: " + ", ".join(list(data["paths"].keys())[:40]))
-            except Exception as exc:  # noqa: BLE001
-                report.append(f"{p} -> FEHLER {exc}")
+        # 3) Welche Kategorien (tags) und Herkünfte (origins) gibt es?
+        report.append("=== Verteilung (Stichprobe 200 Attraktionen) ===")
+        try:
+            ats = get("/api/attractions?pageSize=200").json()["data"]["attractions"]
+            cats, origins = {}, {}
+            for a in ats:
+                for t in a.get("tags", []):
+                    cats[t] = cats.get(t, 0) + 1
+                o = (a.get("metadata") or {}).get("origin", "?")
+                origins[o] = origins.get(o, 0) + 1
+            report.append("Kategorien: " + json.dumps(
+                dict(sorted(cats.items(), key=lambda x: -x[1])), ensure_ascii=False))
+            report.append("Origins: " + json.dumps(origins, ensure_ascii=False))
+        except Exception as exc:  # noqa: BLE001
+            report.append(f"Verteilung FEHLER {exc}")
+
+        # 4) OpenAPI-Spec aus der Swagger-UI ziehen.
+        report.append("\n=== Swagger-UI-Init (Auszug) ===")
+        try:
+            js = get("/api/docs/swagger-ui-init.js").text
+            i = js.find("url")
+            report.append(js[max(0, i - 50): i + 400] if i >= 0 else js[:400])
+        except Exception as exc:  # noqa: BLE001
+            report.append(f"swagger-ui-init FEHLER {exc}")
 
         if self.write_debug:
             try:

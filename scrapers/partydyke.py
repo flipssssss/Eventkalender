@@ -90,6 +90,9 @@ class PartyDykeScraper(BaseScraper):
         if isinstance(loc, list):
             loc = loc[0] if loc else {}
         name = loc.get("name") if isinstance(loc, dict) else None
+        # Wix placeholder for an unset venue -> treat as no location.
+        if name and name.strip().lower() in ("location is tbd", "tbd", "tba"):
+            name = None
         address = _format_address(loc.get("address")) if isinstance(loc, dict) else None
 
         image = data.get("image")

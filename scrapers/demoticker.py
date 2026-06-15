@@ -31,19 +31,22 @@ BROWSER = {
 }
 MEDIA_NS = "http://search.yahoo.com/mrss/"
 
-DATE_RE = re.compile(r"\b(\d{1,2})\.\s?(\d{1,2})\.(?:\s?(\d{4}))?")
-TIME_RE = re.compile(r"\b(\d{1,2})(?::(\d{2}))?\s*Uhr|\b(\d{1,2}):(\d{2})\b")
-PLACE_RE = re.compile(
-    r"(?:Ort|Treffpunkt|Start|Beginn|Wo)\s*:?\s*([^\n.]{3,80})", re.IGNORECASE)
+# Posts come in English + German pairs; we keep the German ones, which carry a
+# clean structured line: "Wochentag, DD.MM.YYYY | HH:MM Uhr | Ort/Adresse".
+HEADER_RE = re.compile(r"💥.*?💥", re.DOTALL)
+DEMO_RE = re.compile(
+    r"(?:Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag),?\s*"
+    r"(\d{1,2})\.(\d{1,2})\.(\d{4})\s*\|\s*"
+    r"(\d{1,2}):(\d{2})\s*Uhr\s*\|\s*"
+    r"([^|]+?)\s*(?:Anreise\b|Aufruf\b|📣|$)",
+    re.IGNORECASE,
+)
+EMOJI_RE = re.compile(
+    "[\U0001F000-\U0001FAFF☀-➿⬀-⯿️‍]")
 
 
-def _infer_year(day: int, mon: int) -> int:
-    today = _dt.date.today()
-    try:
-        cand = _dt.date(today.year, mon, day)
-    except ValueError:
-        return today.year
-    return today.year + 1 if (today - cand).days > 60 else today.year
+def _clean(text: str) -> str:
+    return re.sub(r"\s+", " ", EMOJI_RE.sub("", text)).strip(" |•-–—#").strip()
 
 
 class DemoTickerScraper(BaseScraper):
@@ -88,31 +91,24 @@ class DemoTickerScraper(BaseScraper):
         return events
 
     def _build(self, text: str, link: str, image: str | None) -> Event | None:
-        dm = DATE_RE.search(text)
-        if not dm:
+        # Keep only the German posts (skip the English duplicate of each demo).
+        if "Ankündigung" not in text:
             return None
-        day, mon = int(dm.group(1)), int(dm.group(2))
-        if not (1 <= mon <= 12 and 1 <= day <= 31):
+        m = DEMO_RE.search(text)
+        if not m:
             return None
-        year = int(dm.group(3)) if dm.group(3) else _infer_year(day, mon)
-
-        tm = TIME_RE.search(text)
-        time_known = bool(tm)
-        if tm:
-            hh = int(tm.group(1) or tm.group(3) or 0)
-            mm = int(tm.group(2) or tm.group(4) or 0)
-        else:
-            hh, mm = 0, 0
+        day, mon, year, hh, mm = (int(m.group(i)) for i in range(1, 6))
         try:
             start = _dt.datetime(year, mon, day, hh, mm)
         except ValueError:
             return None
 
-        # Title: first meaningful line; place: from a "Ort:/Treffpunkt:" hint.
-        lines = [ln.strip(" •#-–—") for ln in text.split("\n") if ln.strip()]
-        title = next((ln for ln in lines if len(ln) > 6), "Demo")[:140]
-        place = PLACE_RE.search(text)
-        location = place.group(1).strip() if place else None
+        location = _clean(m.group(6)) or None
+        # Title: the topic between the "💥…💥" header and the demo line.
+        header = HEADER_RE.search(text)
+        body = text[header.end():] if header else text
+        title = _clean(body[:m.start() - (header.end() if header else 0)])
+        title = (title or "Demo")[:140]
 
         return Event(
             title=title,
@@ -120,9 +116,9 @@ class DemoTickerScraper(BaseScraper):
             source_url=link,
             source_name=self.name,
             location=location,
-            description=re.sub(r"\s+", " ", text).strip()[:600] or None,
+            description=_clean(text)[:600] or None,
             image_url=image,
-            time_known=time_known,
+            time_known=True,
             tags=["Protest"],
         )
 

@@ -28,6 +28,7 @@ from scrapers.base import Event
 from scrapers.berlin_buehnen import BerlinBuehnenScraper
 from scrapers.categories import categorize
 from scrapers.genres import genre_for
+from scrapers import geocode
 from scrapers.donau115 import Donau115Scraper
 from scrapers.kulturdaten import KulturdatenScraper
 from scrapers.silverfuture import SilverfutureScraper
@@ -193,10 +194,22 @@ def write_output(events: list[Event], report: list[dict]) -> None:
     print(f"\n→ {len(events)} Veranstaltungen geschrieben nach {OUTPUT}")
 
 
+def locate(events: list[Event]) -> None:
+    """Add address, coordinates and Berlin borough to every event."""
+    located = 0
+    for event in events:
+        geocode.locate_event(event)
+        if event.lat is not None:
+            located += 1
+    geocode.save_cache()
+    print(f"  ⌖ {located}/{len(events)} Veranstaltungen verortet")
+
+
 def main() -> int:
     print("Sammle Veranstaltungen ...")
     raw, report = collect()
     events = filter_and_sort(raw)
+    locate(events)
     write_output(events, report)
     return 0
 

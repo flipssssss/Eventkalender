@@ -60,6 +60,13 @@ class Event:
     genre: str | None = None
     # Source-specific fine subcategory (e.g. kulturdaten "Music"/"Exhibitions").
     subcategory: str | None = None
+    # Postal address of the venue (filled in by the geocoder when missing).
+    address: str | None = None
+    # Geo coordinates for the map view (filled in by the geocoder).
+    lat: float | None = None
+    lng: float | None = None
+    # Berlin borough (Bezirk), derived from the address by the geocoder.
+    bezirk: str | None = None
 
     def dedupe_key(self) -> str:
         """Identify duplicate events, also across different sources.
@@ -94,6 +101,10 @@ class Event:
             "time_known": self.time_known,
             "genre": self.genre,
             "subcategory": self.subcategory,
+            "address": self.address,
+            "lat": self.lat,
+            "lng": self.lng,
+            "bezirk": self.bezirk,
         }
 
 

@@ -29,6 +29,7 @@ from scrapers.berlin_buehnen import BerlinBuehnenScraper
 from scrapers.categories import categorize
 from scrapers.genres import genre_for
 from scrapers.donau115 import Donau115Scraper
+from scrapers.kulturdaten import KulturdatenScraper
 from scrapers.siegessaeule import SiegessaeuleScraper
 from scrapers.tipberlin import TipBerlinScraper
 from scrapers.ical import ICalScraper
@@ -95,6 +96,8 @@ def get_scrapers():
         BerlinBuehnenScraper(horizon_days=HORIZON_DAYS),
         # Donau115 (Jazz-Club) -- Events aus der Firebase-DB, alle "Konzert".
         Donau115Scraper(),
+        # kulturdaten.berlin -- Sonde (öffentliche Lese-Endpunkte testen).
+        KulturdatenScraper(),
         # Siegessäule -- queerer Eventkalender, Kategorie automatisch.
         SiegessaeuleScraper(days=HORIZON_DAYS),
         # tip Berlin -- deaktiviert: keine erreichbare Quelle für Event-Daten

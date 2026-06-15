@@ -40,7 +40,6 @@ from scrapers.jsonld import JsonLdScraper
 from scrapers.stressfaktor import StressfaktorScraper
 from scrapers.partydyke import PartyDykeScraper
 from scrapers.cafecralle import CafeCralleScraper
-from scrapers.tipsybear import TipsyBearScraper
 
 ROOT = pathlib.Path(__file__).parent
 OUTPUT = ROOT / "docs" / "data" / "events.json"
@@ -111,9 +110,12 @@ def get_scrapers():
         KlubVerbotenScraper(),
         # Party Dyke Berlin (Wix) -- liest die Event-Detailseiten (JSON-LD).
         PartyDykeScraper(),
-        # Diagnose-Läufe für zwei neue Quellen (sammeln nur Rohdaten):
+        # Café Cralle (Wedding) -- monatlich wiederkehrende Termine.
         CafeCralleScraper(),
-        TipsyBearScraper(),
+        # Tipsy Bear: bleibt deaktiviert -- alle Endpunkte hängen hinter
+        # Cloudflares JS-Challenge ("Just a moment...", 403), es gibt keinen
+        # erreichbaren Daten-Endpunkt (Diagnose in _debug/tipsy-bear.txt).
+        # TipsyBearScraper(),
         # Siegessäule -- queerer Eventkalender, Kategorie automatisch.
         SiegessaeuleScraper(days=HORIZON_DAYS),
         # tip Berlin -- deaktiviert: keine erreichbare Quelle für Event-Daten

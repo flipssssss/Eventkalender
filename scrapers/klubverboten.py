@@ -44,9 +44,10 @@ class KlubVerbotenScraper(BaseScraper):
 
         # Probe candidate event queries -- RA returns helpful errors that
         # reveal the valid fields.
+        ev_fields = "id title date startTime endTime contentUrl flyerFront venue{ id name area{ id name urlName } }"
         queries = {
-            "A": "query($id: ID!){ promoter(id: $id){ id name events(limit: 5){ id title date startTime contentUrl venue{ id name area{ id name } } } } }",
-            "B": "query($id: ID!){ promoter(id: $id){ id name events{ id title date } } }",
+            "LATEST": "query($id: ID!){ promoter(id: $id){ id name events(type: LATEST, limit: 12){ " + ev_fields + " } } }",
+            "UPCOMING": "query($id: ID!){ promoter(id: $id){ id name events(type: UPCOMING, limit: 12){ " + ev_fields + " } } }",
         }
         for label, q in queries.items():
             try:

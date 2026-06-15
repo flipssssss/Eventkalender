@@ -23,19 +23,18 @@ HEADERS = {
 }
 
 BASES = [
-    "https://api.kulturdaten.berlin",
-    "https://www.kulturdaten.berlin/api",
-    "https://kulturdaten.berlin/api",
+    "https://api-v2.kulturdaten.berlin",
 ]
 PATHS = [
-    "/",
+    "/api/docs-json",
+    "/api-json",
+    "/api/discover/attractions",
+    "/api/discover/events",
+    "/api/discover/locations",
     "/discover/attractions",
-    "/discover/events",
-    "/discover/locations",
-    "/attractions",
-    "/events",
-    "/locations",
-    "/discover/attractions/search",
+    "/api/attractions",
+    "/api/events",
+    "/api/locations",
 ]
 
 
@@ -63,8 +62,15 @@ class KulturdatenScraper(BaseScraper):
                     if "json" in ctype.lower() and r.status_code < 400:
                         try:
                             data = r.json()
-                            keys = list(data.keys()) if isinstance(data, dict) else f"list[{len(data)}]"
-                            report.append(f"     keys: {keys}")
+                            if isinstance(data, dict):
+                                report.append(f"     keys: {list(data.keys())}")
+                                if isinstance(data.get("paths"), dict):
+                                    report.append("     OpenAPI-Pfade:")
+                                    for p in list(data["paths"].keys())[:60]:
+                                        methods = list(data["paths"][p].keys())
+                                        report.append(f"        {p}  {methods}")
+                            else:
+                                report.append(f"     list[{len(data)}]")
                         except Exception:
                             pass
                 except Exception as exc:  # noqa: BLE001

@@ -1045,6 +1045,10 @@ function applyViewMode() {
   els.viewMap.setAttribute("aria-pressed", String(map));
   els.feed.toggleAttribute("hidden", map);
   els.mapView.toggleAttribute("hidden", !map);
+  if (map && spyHandler) {
+    window.removeEventListener("scroll", spyHandler);
+    lastActiveKey = null;
+  }
 }
 
 function setViewMode(mode) {

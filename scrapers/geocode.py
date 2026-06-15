@@ -16,6 +16,7 @@ from __future__ import annotations
 
 import json
 import pathlib
+import re
 import time
 
 import requests
@@ -184,6 +185,39 @@ def _format_address(addr: dict) -> str | None:
     return ", ".join(parts) or None
 
 
+_PLZ_RE = re.compile(r"\b(\d{5})\b")
+_STREET_RE = re.compile(
+    r"([A-ZÄÖÜ][\wäöüß.\-]*(?:\s+[A-ZÄÖÜ][\wäöüß.\-]*){0,3}?\s*"
+    r"(?:stra(?:ß|ss)e|str\.?|allee|damm|platz|weg|ufer|ring|chaussee|"
+    r"gasse|tor|pfad|steig|hof)\.?\s+\d{1,4}\s*[-/]?\s*\d*"
+    r"(?:\s?[a-zA-Z](?![A-Za-zäöüß]))?)",
+    re.IGNORECASE,
+)
+
+
+def clean_query(location: str) -> str:
+    """Turn a noisy ``location`` string into a Nominatim-friendly address.
+
+    Source feeds often give "<Venue> <Street> <No> <PLZ> Berlin Deutschland"
+    without commas, which the geocoder struggles with. We extract the
+    street+number and the postal code and rebuild a tidy "Street No, PLZ
+    Berlin" query (falling back to just "PLZ Berlin", then the raw text).
+    """
+    text = re.sub(r"\b(Deutschland|Germany)\b", "", location, flags=re.IGNORECASE)
+    text = re.sub(r"\s+", " ", text.replace(",", " ")).strip()
+    plz = _PLZ_RE.search(text)
+    street = _STREET_RE.search(text)
+    if street and plz:
+        return f"{street.group(1).strip()}, {plz.group(1)} Berlin"
+    if plz:
+        return f"{plz.group(1)} Berlin"
+    if street:
+        return f"{street.group(1).strip()}, Berlin"
+    if "berlin" not in text.lower():
+        text = f"{text}, Berlin"
+    return text
+
+
 def _nominatim(query: str) -> dict | None:
     global _last_request
     wait = RATE_LIMIT_SECONDS - (time.time() - _last_request)
@@ -198,10 +232,8 @@ def _nominatim(query: str) -> dict | None:
                 "addressdetails": 1,
                 "limit": 1,
                 "countrycodes": "de",
-                # Bound results to Greater Berlin so vague venue names resolve
-                # to the right city.
+                # Bias (not restrict) results towards Greater Berlin.
                 "viewbox": "13.05,52.70,13.80,52.30",
-                "bounded": 1,
             },
             headers={"User-Agent": USER_AGENT},
             timeout=20,
@@ -252,14 +284,16 @@ def locate_event(event, *, allow_network: bool = True) -> None:
     if not event.location:
         return
     # Prefer the richest query we have: an explicit address beats a bare name.
-    query = event.address or event.location
-    if "berlin" not in query.lower():
-        query = f"{query}, Berlin"
+    raw = event.address or event.location
+    # Skip obvious non-addresses (e.g. a stray URL in the location field).
+    if raw.lower().startswith("http"):
+        return
+    query = clean_query(raw)
     hit = geocode(query, allow_network=allow_network)
     if not hit:
         return
     event.lat = hit.get("lat")
     event.lng = hit.get("lng")
     event.bezirk = hit.get("bezirk")
-    if not event.address and hit.get("address"):
+    if hit.get("address"):
         event.address = hit["address"]

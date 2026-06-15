@@ -10,8 +10,8 @@ const CATEGORY_ORDER = ["Theater", "Film", "Konzert", "Party", "Vortrag",
 const FAV_KEY = "ek_favorites";
 const THEME_KEY = "ek_theme";
 const SOURCES_KEY = "ek_disabled_sources";
-// Formspree-Endpoint für Quellen-Vorschläge (z.B. https://formspree.io/f/abcdwxyz).
-const WISH_ENDPOINT = "";
+// Formspree-Endpoint für Quellen-Vorschläge.
+const WISH_ENDPOINT = "https://formspree.io/f/xjgdlbnl";
 
 const state = {
   events: [],

@@ -51,6 +51,18 @@
   "lng": 13.6060882
  },
  "Alice Salomon Hochschule Alice-Salomon-Platz 5 12627, 12627 Berlin": null,
+ "Alte Jakobstraße 124, 10969 Berlin": {
+  "address": "Alte Jakobstraße 124, 10969 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5037937,
+  "lng": 13.3987041
+ },
+ "Am Sudhaus 3, 12053 Berlin": {
+  "address": "Am Sudhaus 3, 12053 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4794637,
+  "lng": 13.431275
+ },
  "Amtsgericht Tiergarten Turmstr. 91 10559 Berlin Deutschland": null,
  "Amtsgericht Tiergarten Turmstr. 91 10559, 10559 Berlin": null,
  "Anti-Kriegs-Museum Berlin Brüsseler Str. 21 13353 Berlin Deutschland": {
@@ -62,6 +74,12 @@
  "Anti-Kriegs-Museum Berlin Brüsseler Str. 21 13353, 13353 Berlin": null,
  "Archiv Potsdam Berlin": null,
  "Archiv Potsdam Berlin Deutschland": null,
+ "Auguststraße 69, 10117 Berlin": {
+  "address": "Auguststraße 69, 10117 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5271636,
+  "lng": 13.3948218
+ },
  "B-Lage Mareschstr. 1 12055 Berlin Deutschland": {
   "address": "Mareschstraße 1, 12055 Neukölln",
   "bezirk": "Neukölln",
@@ -128,6 +146,18 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.4965672,
   "lng": 13.3924936
+ },
+ "Bodestraße 1, 10178 Berlin": {
+  "address": "Bodestraße 1, 10178 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5201701,
+  "lng": 13.3977174
+ },
+ "Bodestraße, 10178 Berlin": {
+  "address": "Bodestraße, 10178 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5201219,
+  "lng": 13.3993823
  },
  "Brotfabrik Caligariplatz 1 13086 Berlin Deutschland": {
   "address": "Caligariplatz 1, 13086 Weißensee",
@@ -304,6 +334,7 @@
   "lat": 52.4991141,
   "lng": 13.3858716
  },
+ "Hardenbergstraße 22, 10623 Berlin": null,
  "Hauptstraße 121 A, 10827 Berlin": {
   "address": "Hauptstraße 121a, 10827 Schöneberg",
   "bezirk": "Tempelhof-Schöneberg",
@@ -373,6 +404,12 @@
   "lat": 52.4655581,
   "lng": 13.3860876
  },
+ "Invalidenstraße 51, 10557 Berlin": {
+  "address": "Invalidenstraße 51, 10557 Moabit",
+  "bezirk": "Mitte",
+  "lat": 52.5275532,
+  "lng": 13.3723203
+ },
  "JUP Florastr. 84 13187 Berlin Deutschland": {
   "address": "Florastraße 84, 13187 Pankow",
   "bezirk": "Pankow",
@@ -380,6 +417,12 @@
   "lng": 13.400323
  },
  "JUP Florastr. 84 13187, 13187 Berlin": null,
+ "Jebensstraße 2, 10623 Berlin": {
+  "address": "Jebensstraße 2, 10623 Charlottenburg",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.5081567,
+  "lng": 13.3320921
+ },
  "Jonasstr. 40, 12053 Berlin": {
   "address": "Jonasstraße 40, 12053 Neukölln",
   "bezirk": "Neukölln",
@@ -604,6 +647,18 @@
  },
  "Martha Bethaniendamm Berlin": null,
  "Martha Bethaniendamm Berlin Deutschland": null,
+ "Matthäikirchplatz, 10785 Berlin": {
+  "address": "Matthäikirchplatz, 10785 Tiergarten",
+  "bezirk": "Mitte",
+  "lat": 52.5076797,
+  "lng": 13.3670096
+ },
+ "Mauerstraße 79, 10117 Berlin": {
+  "address": "Mauerstraße 79, 10117 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5085739,
+  "lng": 13.3871178
+ },
  "Mehringdamm 20, 10961 Berlin": {
   "address": "Mehringdamm 20-30, 10961 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -669,6 +724,24 @@
   "lat": 52.5042807,
   "lng": 13.3146838
  },
+ "Niederkirchnerstraße 7, 10117 Berlin": {
+  "address": "Niederkirchnerstraße 7, 10963 Kreuzberg",
+  "bezirk": "Mitte",
+  "lat": 52.5066209,
+  "lng": 13.3819472
+ },
+ "Oberwallstraße 32, 10117 Berlin": {
+  "address": "Oberwallstraße, 10117 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5148489,
+  "lng": 13.3968392
+ },
+ "Oranienburger Straße 54, 10117 Berlin": {
+  "address": "Oranienburger Straße 54, 10117 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5256724,
+  "lng": 13.3891203
+ },
  "Oranienstr. 14a, 10999 Berlin": {
   "address": "Oranienstraße 14a, 10999 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -681,8 +754,15 @@
   "lat": 52.5326687,
   "lng": 13.3513556
  },
+ "Potsdamer Straße 50, 10785 Berlin": {
+  "address": "Potsdamer Straße 50, 10785 Tiergarten",
+  "bezirk": "Mitte",
+  "lat": 52.5070408,
+  "lng": 13.3676212
+ },
  "Prinzessinnengarten Neukölln Hermannstraße 99-105 12051 Berlin Deutschland": null,
  "Prinzessinnengarten Neukölln Hermannstraße 99-105, 12051 Berlin": null,
+ "Prinzessinnenstraße 30, 10969 Berlin": null,
  "Quälgeist Berlin e.V. Lankwitzer Straße 42/43, 12107 Berlin": null,
  "Quälgeist Berlin e.V., Lankwitzer Straße 42/43, Berlin, 12107, Deutschland": null,
  "Regenbogencafé Lausitzer Str. 22 10999 Berlin Deutschland": null,
@@ -795,6 +875,12 @@
   "lat": 52.5258825,
   "lng": 13.4016022
  },
+ "Spreeweg 1, 10557 Berlin": {
+  "address": "Spreeweg 1, 10557 Tiergarten",
+  "bezirk": "Mitte",
+  "lat": 52.5172851,
+  "lng": 13.3524323
+ },
  "Stadtteilzentrum Schöneberg Hauptstraße 121 A 10827 Berlin Deutschland": null,
  "Stadtteilzentrum Schöneberg Hauptstraße 121 A, 10827 Berlin": null,
  "Supamolly Jessnerstr. 41 10247 Berlin Deutschland": {
@@ -848,6 +934,12 @@
   "lng": 13.4758561
  },
  "Türrschmidtstraße 1 10317, 10317 Berlin": null,
+ "Unter den Linden 5, 10117 Berlin": {
+  "address": "Unter den Linden 5, 10117 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5171465,
+  "lng": 13.3961451
+ },
  "Vetomat Wühlischstr. 42 10247 Berlin Deutschland": {
   "address": "Wühlischstraße 42, 10245 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -883,6 +975,12 @@
   "bezirk": "Mitte",
   "lat": 52.548949,
   "lng": 13.3481653
+ },
+ "Weydingerstraße 10, 10178 Berlin": {
+  "address": "Weydingerstraße 10, 10178 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5262536,
+  "lng": 13.4122498
  },
  "WikiBär Köpenicker Str. 45 10179 Berlin Deutschland": {
   "address": "Köpenicker Straße 45, 10179 Mitte",

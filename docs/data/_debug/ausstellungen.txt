@@ -1,21 +1,27 @@
-Status: 200 | Länge: 138989 | JSON-LD-Blöcke: 26
-
---- JSON-LD (gekürzt) ---
-{"@context":"http:\/\/schema.org","@type":"ExhibitionEvent","id":"https:\/\/www.berlin.de\/tickets\/ausstellungen\/brancusi-61576efe-1b9e-478e-8ea3-ca23a2285128\/#ems-main","url":"https:\/\/www.berlin.de\/tickets\/ausstellungen\/brancusi-61576efe-1b9e-478e-8ea3-ca23a2285128\/","name":"Brancusi","description":"In Kooperation mit dem Centre Pompidou in Paris zeigt die Neue Nationalgalerie die erste Werkschau des Ausnahmekünstlers Constantin Brancusi seit über 50 Jahren in Deutschland.","startDate":"2026-03-19T23:00:00.000000+00:00","endDate":"2026-08-09T21:59:59.000000+00:00","location":{"@type":"Place","url":"https:\/\/www.berlin.de\/tickets\/suche\/orte\/neue-nationalgalerie-3a80ee44-a22b-49c0-b2e0-a500641d281b\/","name":"Neue Nationalgalerie","address":{"@type":"PostalAddress","streetAddress":"Potsdamer Straße 50","postalCode":"10785","addressLocality":"Berlin","addressCountry":"DE"},"geo":{"@type":"GeoCoordinates","latitude":52.506880000000002,"longitude":13.36801},"hasMap":{"@type":"Map","mapType":{"@type":"MapCategoryType","@id":"http:\/\/schema.org\/TransitMap"},"url":"https:\/\/www.berlin.de\/stadtplan\/haltestelle\/?ADR_ZIP=10785&ADR_STREET=Potsdamer%20Stra%C3%9Fe&ADR_HOUSE=
-~~~
-{"@context":"http:\/\/schema.org","@type":"ExhibitionEvent","id":"https:\/\/www.berlin.de\/tickets\/ausstellungen\/gebaute-gemeinschaft-goebeklitepe-ta-tepeler-und-das-leben-vor-12-000-jahren-3b5cb2db-9050-4eb8-a9ec-245b18f43f5f\/#ems-main","url":"https:\/\/www.berlin.de\/tickets\/ausstellungen\/gebaute-gemeinschaft-goebeklitepe-ta-tepeler-und-das-leben-vor-12-000-jahren-3b5cb2db-9050-4eb8-a9ec-245b18f43f5f\/","name":"Gebaute Gemeinschaft: Göbeklitepe, Taş Tepeler und das Leben vor 12.000 Jahren","description":"Vor 12.000 Jahren schufen Jäger und Sammler im heutigen Türkiye monumentale Anlagen – bis heute sind Archäolog:innen damit beschäftigt, diese Bau- und Kunstwerke zu entschlüsseln.","startDate":"2026-02-05T23:00:00.000000+00:00","endDate":"2026-07-19T21:59:59.000000+00:00","location":{"@type":"Place","url":"https:\/\/www.berlin.de\/tickets\/suche\/orte\/james-simon-galerie-e7541edc-c7d5-462e-8c42-15750354f028\/","name":"James-Simon-Galerie","address":{"@type":"PostalAddress","streetAddress":"Bodestraße","postalCode":"10178","addressLocality":"Berlin","addressCountry":"DE"},"geo":{"@type":"GeoCoordinates","latitude":52.520319999999998,"longitude":13.39823},"hasMap":{"@type":"M
-~~~
-{"@context":"http:\/\/schema.org","@type":"ExhibitionEvent","id":"https:\/\/www.berlin.de\/tickets\/ausstellungen\/lina-lapelyt-we-make-years-out-of-hours-dba95155-327c-4310-907b-86f7cc7452fb\/#ems-main","url":"https:\/\/www.berlin.de\/tickets\/ausstellungen\/lina-lapelyt-we-make-years-out-of-hours-dba95155-327c-4310-907b-86f7cc7452fb\/","name":"Lina Lapelytė: We Make Years Out of Hours – Chanel Commission","description":"Für die zweite Ausgabe der Chanel Commission verwandelt Lina Lapelytė die Historische Halle des Hamburger Bahnhof in eine polyphone Bühne für eine partizipative Choreografie verwandelt.","startDate":"2026-04-30T22:00:00.000000+00:00","endDate":"2027-01-10T22:59:59.000000+00:00","location":{"@type":"Place","url":"https:\/\/www.berlin.de\/tickets\/suche\/orte\/hamburger-bahnhof-museum-fuer-gegenwart-f8340ca7-b5cb-4002-89af-1fe4abb74ae9\/","name":"Hamburger Bahnhof - Museum für Gegenwart","address":{"@type":"PostalAddress","streetAddress":"Invalidenstraße 51","postalCode":"10557","addressLocality":"Berlin","addressCountry":"DE"},"geo":{"@type":"GeoCoordinates","latitude":52.527569999999997,"longitude":13.372299999999999},"hasMap":{"@type":"Map","mapType":{"@type":"Ma
-
---- ARTICLE/TEASER-TEXTE ---
-[https://www.berlin.de/tickets/ausstellungen/brancusi-61576efe-1b9e-478e-8ea3-ca23a2285128/]
-© dpa Brancusi In Kooperation mit dem Centre Pompidou in Paris zeigt die Neue Nationalgalerie die erste Werkschau des Ausnahmekünstlers Constantin Brancusi seit über 50 Jahren in Deutschland. mehr
-
-[https://www.berlin.de/tickets/ausstellungen/gebaute-gemeinschaft-goebeklitepe-ta-tepeler-und-das-leben-vor-12-000-jahren-3b5cb2db-9050-4eb8-a9ec-245b18f43f5f/]
-© Staatliche Museen zu Berlin, Vorderasiatisches Museum / David von Becker Gebaute Gemeinschaft: Göbeklitepe, Taş Tepeler und das Leben vor 12.000 Jahren Vor 12.000 Jahren schufen Jäger und Sammler im heutigen Türkiye monumentale Anlagen – bis heute sind Archäolog:innen damit beschäftigt, diese Bau- und Kunstwerke zu entschlüsseln. mehr
-
-[https://www.berlin.de/tickets/ausstellungen/lina-lapelyt-we-make-years-out-of-hours-dba95155-327c-4310-907b-86f7cc7452fb/]
-© Lina Lapelytė. VG Bild-Kunst, Bonn 2026 Lina Lapelytė: We Make Years Out of Hours Für die zweite Ausgabe der Chanel Commission verwandelt Lina Lapelytė die Historische Halle des Hamburger Bahnhof in eine polyphone Bühne für eine partizipative Choreografie verwandelt. mehr
-
-[https://www.berlin.de/tickets/ausstellungen/marina-abramovi-balkan-erotic-epic-5b5d2635-714b-4440-aa81-e4cd48a87371/]
-© Marina Abramović. Courtesy der Marina Abramović Archives Marina Abramović: Balkan Erotic Epic Im Zentrum der Ausstellung von Marina Abramović im Berliner Gropis Bau steht ihr fortwährendes Interesse an Ritualen, Erotik, Tod und dem Körper als Ort politischen Widerstands. mehr
+ExhibitionEvents -> Events: 26
+  2026-06-15 Brancusi
+  2026-06-15 Gebaute Gemeinschaft: Göbeklitepe, Taş Tepeler und
+  2026-06-15 Lina Lapelytė: We Make Years Out of Hours – Chanel
+  2026-06-15 Marina Abramović: Balkan Erotic Epic
+  2026-06-15 Marc Brandenburg: 20th Century Debris
+  2026-06-15 Freiraum Kunst: Akademie der Künste goes Bellevue
+  2026-06-15 Ruin und Rausch: Berlin 1910–1930
+  2026-06-15 Cassirer und der Durchbruch des Impressionismus
+  2026-06-15 Giulia Andreani: Sabotage
+  2026-06-15 C.B. Evans: Reality or Not
+  2026-06-15 Neue Frau, Neues Sehen: Die Bauhaus-Fotografinnen
+  2026-06-15 Inventing Queer Cinema
+  2026-06-15 Peter Hujar und Liz Deschenes: Persistence of Visi
+  2026-06-15 Kyiv Biennial: A Bird That Cannot Land
+  2026-06-15 Shilpa Gupta: What Still Holds
+  2026-06-15 Fujiko Nakaya: Nebelskulptur im Skulpturengarten
+  2026-06-15 Iliggocene: The Age of Dizziness
+  2026-06-15 Anton Corbijn: Corbijn, Anton
+  2026-06-15 Rooms / Stages
+  2026-06-15 Intermezzo: Revisiting Helmut Newton
+  2026-06-15 Many Shades of Grès: Mode wird Kunst
+  2026-06-15 Seeing Words, Reading Images – Die Written Art Col
+  2026-06-15 Philipp Gufler: Imitations of Paul
+  2026-06-19 Walter Schels: 16° Fische – Retrospektive
+  2026-07-03 Paul Signac: Symphonie der Farben
+  2026-06-26 Erwin Olaf: Muses

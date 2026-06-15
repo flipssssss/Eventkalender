@@ -1,139 +1,167 @@
-"""kulturdaten.berlin -- probing scraper (public read, no token).
+"""kulturdaten.berlin -- öffentliche Kultur-API (Lesen ohne Token).
 
-Reading is open on this API (only writing needs an account). This scraper
-tries a few candidate base URLs and endpoints and records what comes back,
-so we can see the real structure before building the full integration.
+Wir holen die Events der nächsten Tage, lösen die Kategorie über die
+Attraktion auf und behalten nur die gewünschten Kategorien (Bühne, Musik,
+Tanz, Festivals, Ausstellungen/Kunst). Weil Ausstellungen pro Tag ein Event
+erzeugen, wird pro Attraktion nur der früheste Termin behalten.
 """
 
 from __future__ import annotations
 
-import json
-import pathlib
+import datetime as _dt
 from typing import Iterable
 
 import requests
 
-from .base import BaseScraper, Event
+from .base import BaseScraper, Event, parse_datetime
 
-DEBUG_DIR = pathlib.Path(__file__).resolve().parents[1] / "docs" / "data" / "_debug"
-
-# kulturdaten-Kategorie -> unser Tag.
-CATEGORY_MAP = {
-    "Music": "Konzert", "Stages": "Theater", "Dance": "Party",
-    "Exhibitions": "Ausstellung", "Festivals": "Party",
-    "Lectures": "Vortrag", "Conferences": "Vortrag", "InformationEvents": "Vortrag",
-    "Education": "Workshop", "Politics": "Protest",
-    "WeeklyMarkets": "Sonstiges", "Walks": "Sonstiges", "Children": "Sonstiges",
-    "Recreation": "Sonstiges", "Women": "Sonstiges", "Police": "Sonstiges",
-    "Health": "Sonstiges", "ChristmasTime": "Sonstiges",
-}
-
+BASE = "https://api-v2.kulturdaten.berlin"
 HEADERS = {
     "User-Agent": "EventkalenderBot/1.0 (+https://github.com/flipssssss/eventkalender)",
     "Accept": "application/json",
 }
 
-BASES = [
-    "https://api-v2.kulturdaten.berlin",
-]
-PATHS = [
-    "/api/docs-json",
-    "/api-json",
-    "/api/discover/attractions",
-    "/api/discover/events",
-    "/api/discover/locations",
-    "/discover/attractions",
-    "/api/attractions",
-    "/api/events",
-    "/api/locations",
-]
+# Gewählte kulturdaten-Kategorien -> unser Tag.
+INCLUDE = {
+    "Music": "Konzert",
+    "Stages": "Theater",
+    "Dance": "Party",
+    "Festivals": "Party",
+    "Exhibitions": "Ausstellung",
+    "Art": "Ausstellung",
+}
+
+
+def _de(label) -> str | None:
+    if isinstance(label, dict):
+        return (label.get("de") or label.get("en") or "").strip() or None
+    return None
 
 
 class KulturdatenScraper(BaseScraper):
     name = "kulturdaten.berlin"
 
-    def __init__(self, write_debug: bool = True):
-        self.write_debug = write_debug
-
-    BASE = "https://api-v2.kulturdaten.berlin"
+    def __init__(self, days: int = 14, include: dict | None = None):
+        self.days = days
+        self.include = include or INCLUDE
 
     def fetch_events(self) -> Iterable[Event]:
-        return self._count_categories()
-
-    def _count_categories(self) -> Iterable[Event]:
-        import collections as _c
-        import datetime as _dt
-
         session = requests.Session()
         session.headers.update(HEADERS)
-        report: list[str] = []
 
-        def get_data(path):
-            """Robust: never raise -- return {} on any error."""
-            try:
-                r = session.get(self.BASE + path, timeout=30)
-                return r.json().get("data", {}) if r.status_code == 200 else {}
-            except Exception:  # noqa: BLE001
-                return {}
+        attr = self._attraction_map(session)
+        raw = self._events_window(session)
 
+        built: list[tuple[str, Event]] = []
+        for e in raw:
+            pair = self._build(e, attr)
+            if pair:
+                built.append(pair)
+
+        # Pro Attraktion nur den frühesten Termin behalten (gegen tägliche
+        # Wiederholung von Ausstellungen/Reihen).
+        built.sort(key=lambda x: x[1].start)
+        seen: set[str] = set()
+        out: list[Event] = []
+        for aid, ev in built:
+            if aid in seen:
+                continue
+            seen.add(aid)
+            out.append(ev)
+        return out
+
+    # -- API-Helfer ------------------------------------------------------
+
+    def _get(self, session, path) -> dict:
         try:
-            today = _dt.date.today()
-            end = today + _dt.timedelta(days=14)
+            r = session.get(BASE + path, timeout=30)
+            return r.json().get("data", {}) if r.status_code == 200 else {}
+        except Exception:  # noqa: BLE001
+            return {}
 
-            # 1) Events der nächsten 14 Tage sammeln.
-            events, page = [], 1
-            while page <= 30:
-                d = get_data(f"/api/events?startDate={today}&endDate={end}&pageSize=200&page={page}")
-                batch = d.get("events") or []
-                events.extend(batch)
-                if not batch or page * 200 >= (d.get("totalCount") or 0):
+    def _attraction_map(self, session) -> dict:
+        """id -> {cat, desc, link} über alle Attraktionen."""
+        attr, page, empty = {}, 1, 0
+        while page <= 140:
+            d = self._get(session, f"/api/attractions?pageSize=200&page={page}")
+            items = d.get("attractions") or []
+            if not items:
+                empty += 1
+                if empty > 3:
                     break
                 page += 1
+                continue
+            for a in items:
+                tags = [t.replace("attraction.category.", "") for t in a.get("tags", [])]
+                link = a.get("website")
+                ext = a.get("externalLinks") or []
+                if not link and ext:
+                    link = ext[0].get("url")
+                if link and not link.startswith("http"):
+                    link = "https://" + link.lstrip("/")
+                attr[a.get("identifier")] = {
+                    "cat": tags[0] if tags else None,
+                    "desc": _de(a.get("description")),
+                    "link": link,
+                }
+            if page * 200 >= (d.get("totalCount") or 0):
+                break
+            page += 1
+        return attr
 
-            # 2) Attraktion -> Kategorie-Map (alle Attraktionen durchblättern).
-            cat_of, apage, failed = {}, 1, 0
-            while apage <= 130:
-                d = get_data(f"/api/attractions?pageSize=200&page={apage}")
-                ats = d.get("attractions") or []
-                if not ats:
-                    failed += 1
-                    if failed > 3:
-                        break
-                    apage += 1
-                    continue
-                for a in ats:
-                    tags = [t.replace("attraction.category.", "") for t in a.get("tags", [])]
-                    cat_of[a.get("identifier")] = tags[0] if tags else "—"
-                if apage * 200 >= (d.get("totalCount") or 0):
-                    break
-                apage += 1
+    def _events_window(self, session) -> list:
+        today = _dt.date.today()
+        end = today + _dt.timedelta(days=self.days)
+        events, page = [], 1
+        while page <= 40:
+            d = self._get(
+                session,
+                f"/api/events?startDate={today}&endDate={end}&pageSize=200&page={page}",
+            )
+            batch = d.get("events") or []
+            events.extend(batch)
+            if not batch or page * 200 >= (d.get("totalCount") or 0):
+                break
+            page += 1
+        return events
 
-            report.append(f"Events 14 Tage: {len(events)} | Attraktionen geladen: {len(cat_of)}")
+    # -- Bauen -----------------------------------------------------------
 
-            # 3) Events pro Kategorie + Herkunft zählen.
-            by_cat, by_origin, free = _c.Counter(), _c.Counter(), 0
-            for e in events:
-                aid = e["attractions"][0]["referenceId"] if e.get("attractions") else None
-                by_cat[cat_of.get(aid, "?ohne Kategorie")] += 1
-                by_origin[(e.get("metadata") or {}).get("origin", "?")] += 1
-                if (e.get("admission") or {}).get("ticketType") == "ticketType.freeOfCharge":
-                    free += 1
+    def _build(self, e: dict, attr: dict):
+        refs = e.get("attractions") or []
+        if not refs:
+            return None
+        aid = refs[0].get("referenceId")
+        info = attr.get(aid) or {}
+        cat = info.get("cat")
+        if cat not in self.include:
+            return None
 
-            report.append(f"Kostenlos: {free} von {len(events)}\n")
-            report.append("Events pro Kategorie (14 Tage):")
-            for cat, n in by_cat.most_common():
-                report.append(f"  {n:5d}  {cat:20s} -> {CATEGORY_MAP.get(cat, 'Sonstiges')}")
-            report.append("\nEvents pro Herkunft:")
-            for o, n in by_origin.most_common():
-                report.append(f"  {n:5d}  {o}")
-        except Exception as exc:  # noqa: BLE001
-            report.append(f"FEHLER in der Zählung: {exc}")
+        title = _de(refs[0].get("referenceLabel"))
+        if not title:
+            return None
 
-        if self.write_debug:
-            try:
-                DEBUG_DIR.mkdir(parents=True, exist_ok=True)
-                (DEBUG_DIR / "kulturdaten.txt").write_text("\n".join(report) or "leer",
-                                                           encoding="utf-8")
-            except OSError:
-                pass
-        return []
+        sch = e.get("schedule") or {}
+        time = sch.get("startTime") or "00:00:00"
+        start = parse_datetime(f"{sch.get('startDate')} {time}")
+        if not start:
+            return None
+        time_known = time not in ("00:00:00", "", None)
+
+        loc = e.get("locations") or []
+        venue = _de(loc[0].get("referenceLabel")) if loc else None
+
+        desc = info.get("desc")
+        if (e.get("admission") or {}).get("ticketType") == "ticketType.freeOfCharge":
+            desc = ("Eintritt frei. " + (desc or "")).strip()
+
+        return aid, Event(
+            title=title,
+            start=start,
+            source_url=info.get("link") or "https://www.kulturdaten.berlin",
+            source_name=self.name,
+            location=venue,
+            description=desc,
+            tags=[self.include[cat]],
+            time_known=time_known,
+        )

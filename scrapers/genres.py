@@ -21,6 +21,7 @@ SOURCE_DEFAULT = {
     "Berlin Bühnen": "Kultur",
     "Donau115": "Kultur",
     "Silverfuture": "Queer",
+    "kulturdaten.berlin": "Kultur",
 }
 DEFAULT_GENRE = "Kultur"
 

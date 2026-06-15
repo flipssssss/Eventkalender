@@ -1,0 +1,85 @@
+URL: https://www.silverfuture.net/events-1/
+  HTTP-Status: 200
+  HTML-Länge: 56376 Zeichen
+  JSON-LD vorhanden: False
+  Events gefunden: 0
+  Mögliche Programm-Unterseiten:
+    - https://www.silverfuture.net/events-1/
+  URL-Strings im Skript:  }
+        });
+    });
+}());
+
+// <![CDATA[
+
+    window.regModule(, :17559835796});
+// ]]>
+
+// <![CDATA[
+
+    window.regModule(, :18508672696});
+// ]]>
+
+// <![CDATA[
+
+    window.regModule(, :18530440196});
+// ]]>
+
+// <![CDATA[
+
+    window.regModule(, :18600756596});
+// ]]>
+
+// <![CDATA[
+
+    window.regModule(, :18618987296});
+// ]]>
+
+// <![CDATA[
+
+    window.regModule(, :18649627496});
+// ]]>
+
+// <![CDATA[
+
+    window.regModule(, :3139699396});
+// ]]>
+
+// <![CDATA[
+
+    window.regModule(, ;
+});
+// ]]>
+
+
+    //<![CDATA[
+        var jimdoData = {, ; var regBuff = window.__regModuleBuffer = []; var regModuleBuffer = function() { var args = [].slice.call(arguments); regBuff.push(args); }; if (!window.regModule) { window.regModule = regModuleBuffer; } })(window); 
+// <![CDATA[
+
+    window.regModule(, in n&&n.onloadcssdefined(o)}     /* ]]> */ 
+
+// <![CDATA[
+onloadCSS(loadCss(
+  Externe Skripte: https://assets.jimstatic.com/ckies.js.c52961c41c57a9b4f804.js, https://assets.jimstatic.com/cookieControl.js.0c7250f3957d0aebc70e.js, https://assets.jimstatic.com/web.js.c1d9079888a6ad3e83ae.js, https://assets.jimstatic.com/at.js.619d00f8aa071522cb43.js
+  Größtes Inline-Skript (5588 Zeichen)
+  --- ANFANG ---
+// <![CDATA[
+
+    window.regModule("web_individualCookieSettings", {"categories":[{"type":"NECESSARY","name":"Unbedingt erforderlich","description":"Unbedingt erforderliche Cookies erm\u00f6glichen grundlegende Funktionen und sind f\u00fcr die einwandfreie Funktion der Website erforderlich. Daher kann man sie nicht deaktivieren. Diese Art von Cookies wird ausschlie\u00dflich von dem Betreiber der Website verwendet (First-Party-Cookie) und s\u00e4mtliche Informationen, die in den Cookies gespeichert sind, werden nur an diese Website gesendet.","required":true,"cookies":[{"key":"cookielaw","name":"cookielaw","description":"Cookielaw\n\nDieses Cookie zeigt das Cookie-Banner an und speichert die Cookie-Einstellungen des Besuchers.\n\nAnbieter:\nJimdo GmbH, Stresemannstrasse 375, 22761 Hamburg, Deutschland.\n\nCookie-Name: ckies_cookielaw\nCookie-Laufzeit: 1 Jahr\n\nDatenschutzerkl\u00e4rung:\nhttps:\/\/www.jimdo.com\/de\/info\/datenschutzerklaerung\/ ","required":true},{"key":"control-cookies-wildcard","name":"ckies_*","description":"Jimdo Control Cookies\n\nSteuerungs-Cookies zur Aktivierung der vom Website-Besucher ausgew\u00e4hlten Dienste\/Cookies und zur Speicherung der entsprechenden Cookie-Einstellungen. \n\nAnbieter:\nJimdo GmbH, Stresemannstra\u00dfe 375, 22761 Hamburg, Deutschland.\n\nCookie-Namen: ckies_*, ckies_postfinance, ckies_stripe, ckies_powr, ckies_google, ckies_cookielaw, ckies_ga, ckies_jimdo_analytics, ckies_fb_analytics, ckies_fr\n\nCookie-Laufzeit: 1 Jahr\n\nDatenschutzerkl\u00e4rung:\nhttps:\/\/www.jimdo.com\/de\/info\/datenschutzerklaerung\/ ","required":true}]},{"type":"FUNCTIONAL","name":"Funktionell","description":"Funktionelle Cookies erm\u00f6glichen dieser Website, bestimmte Funktionen zur Verf\u00fcgung zu stellen und Informationen zu speich
+  --- ENDE ---
+/technologies\/cookies\nDatenschutzerkl\u00e4rung: https:\/\/policies.google.com\/privacy\n","required":false}]},{"type":"PERFORMANCE","name":"Performance","description":"Die Performance-Cookies sammeln Informationen dar\u00fcber, wie diese Website genutzt wird. Der Betreiber der Website nutzt diese Cookies um die Attraktivit\u00e4t, den Inhalt und die Funktionalit\u00e4t der Website zu verbessern.","required":false,"cookies":[]},{"type":"MARKETING","name":"Marketing \/ Third Party","description":"Marketing- \/ Third Party-Cookies stammen unter anderem von externen Werbeunternehmen und werden verwendet, um Informationen \u00fcber die vom Nutzer besuchten Websites zu sammeln, um z. B. zielgruppenorientierte Werbung f\u00fcr den Benutzer zu erstellen.","required":false,"cookies":[{"key":"powr_marketing","name":"powr_marketing","description":"POWr.io Cookies \n \nDiese Cookies sammeln zu Analysezwecken anonymisierte Informationen dar\u00fcber, wie Nutzer diese Website verwenden. \n\nAnbieter:\nPowr.io, POWr HQ, 340 Pine Street, San Francisco, California 94104, USA.  \n \nCookie-Namen und Laufzeiten: \n__Secure-3PAPISID (Domain: google.com, Laufzeit: 2 Jahre), SAPISID (Domain: google.com, Laufzeit: 2 Jahre), APISID (Domain: google.com, Laufzeit: 2 Jahre), SSID (Domain: google.com, Laufzeit: 2 Jahre), __Secure-3PSID (Domain: google.com, Laufzeit: 2 Jahre), CC (Domain:google.com, Laufzeit: 1 Jahr), ANID (Domain: google.com, Laufzeit: 10 Jahre), OTZ (Domain:google.com, Laufzeit: 1 Monat).\n \nCookie-Richtlinie: \nhttps:\/\/www.powr.io\/privacy \n \nDatenschutzerkl\u00e4rung: \nhttps:\/\/www.powr.io\/privacy \n","required":false}]}],"pagesWithoutCookieSettings":["\/about\/","\/j\/privacy"],"cookieSettingsHtmlUrl":"\/app\/module\/cookiesettings\/getcookiesettingshtml"});
+// ]]>
+
+  Body (ohne CSS/JS):
+<body class="body cc-page j-m-gallery-styles j-m-video-styles j-m-hr-styles j-m-header-styles j-m-text-styles j-m-emotionheader-styles j-m-htmlCode-styles j-m-rss-styles j-m-form-styles-disabled j-m-table-styles j-m-textWithImage-styles j-m-downloadDocument-styles j-m-imageSubtitle-styles j-m-flickr-styles j-m-googlemaps-styles j-m-blogSelection-styles-disabled j-m-comment-styles-disabled j-m-jimdo-styles j-m-profile-styles j-m-guestbook-styles j-m-promotion-styles j-m-twitter-styles j-m-hgrid-styles j-m-shoppingcart-styles j-m-catalog-styles j-m-product-styles-disabled j-m-facebook-styles j-m-sharebuttons-styles j-m-formnew-styles-disabled j-m-callToAction-styles j-m-turbo-styles j-m-spacing-styles j-m-googleplus-styles j-m-dummy-styles j-m-search-styles j-m-booking-styles j-m-socialprofiles-styles j-footer-styles cc-pagemode-default cc-content-parent" id="page-3139699396">
+<div class="cc-content-parent" id="cc-inner">
+<!-- background-area -->
+<div background-area="" class="jtpl-background-area"></div>
+<!-- END background-area -->
+<input class="jtpl-navigation__checkbox" id="jtpl-navigation__checkbox" type="checkbox"/><!-- _main.sass --><div class="jtpl-main cc-content-parent">
+<div class="jtpl-section cc-content-parent">
+<!-- _header.sass -->
+<header class="jtpl-header alignment-options"><div class="jtpl-header__topbar flex-background-options"></div>
+<section class="jtpl-logo"><div class="cc-single-module-element" id="cc-website-logo"><div class="j-module n j-imageSubtitle" id="cc-m-17559835796"><div class="cc-m-image-container"><figure class="cc-imagewrapper cc-m-image-align-1">
+<a href="https://www.silverfuture.net/" target="_self"><img alt="ufgeregt-unas Webseite!" class="" data-image-id="10196949496" data-src="https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=png/path/s2b65dc657944171c/image/ibf533acc09c6f295/version/1640239692/image.png" data-src-height="702" data-src-width="2778" id="cc-m-imagesubtitle-image-17559835796" sizes="(min-width: 700px) 700px, 100vw" src="https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=png/path/s2b65dc657944171c/image/ibf533acc09c6f295/version/1640239692/image.png" srcset="https://image.jimcdn.com/app/cms/image/transf/dimension=320x10000:format=png/path/s2b65dc657944171c/image/ibf533acc09c6f295/version/1640239692/image.png 320w, https://image.jimcdn.com/app/cms/image/transf/dimension=640x10000:format=png/path/s2b65dc657944171c/image/ibf533acc09c6f295/version/1640239692/image
+------------------------------------------------------------

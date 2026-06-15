@@ -1067,6 +1067,8 @@ function applyViewMode() {
   els.viewMap.setAttribute("aria-pressed", String(map));
   els.feed.toggleAttribute("hidden", map);
   els.mapView.toggleAttribute("hidden", !map);
+  // Map view fills the screen and locks page scrolling.
+  document.documentElement.classList.toggle("map-active", map);
   if (map && spyHandler) {
     window.removeEventListener("scroll", spyHandler);
     lastActiveKey = null;
@@ -1083,6 +1085,8 @@ function setViewMode(mode) {
 
 let leafletMap = null;
 let mapMarkers = [];
+let mapDayEvents = [];
+let mapMoveBound = false;
 
 // Fill the space between the sticky header and the viewport bottom.
 function sizeMap() {
@@ -1132,46 +1136,69 @@ function renderMap(sortedKeys, groups) {
   sizeMap();
   const map = ensureMap();
   setTimeout(() => map.invalidateSize(), 0);
-  clearMapMarkers();
 
   const events = (groups.get(state.mapDay) || { events: [] }).events;
-  const now = new Date();
-  const isToday = state.mapDay === dayKey(now);
-  const bounds = [];
+  mapDayEvents = events.filter(
+    (e) => typeof e.lat === "number" && typeof e.lng === "number");
+  showMapNote(mapDayEvents.length, events.length);
 
-  for (const ev of events) {
-    if (typeof ev.lat !== "number" || typeof ev.lng !== "number") continue;
-    const past = isToday && ev.time_known !== false && new Date(ev.start) < now;
-    const color = past ? "#9aa0a6" : genreColor(ev.genre);
-    const marker = L.circleMarker([ev.lat, ev.lng], {
-      radius: ev.user_submitted ? 9 : 7,
-      color: ev.user_submitted ? "#ff7a00" : "#fff",
-      weight: ev.user_submitted ? 3 : 2,
-      fillColor: color,
-      fillOpacity: past ? 0.45 : 0.95,
-    });
-    marker.on("click", () => openModal(ev));
-    // Always-on label with the tags (categories; genre is already the colour).
-    const labelTags = (ev.tags || []).filter(Boolean);
-    const label = (labelTags.length ? labelTags : [ev.genre])
-      .filter(Boolean).join(" · ");
-    if (label) {
-      marker.bindTooltip(escapeHtml(label), {
-        permanent: true, direction: "top", offset: [0, -4],
-        className: "map-label" + (past ? " map-label--past" : ""),
-      });
-    }
-    marker.addTo(map);
-    mapMarkers.push(marker);
-    bounds.push([ev.lat, ev.lng]);
+  // Redraw markers whenever the view changes (the ≤10 rule is bounds-based).
+  if (!mapMoveBound) {
+    map.on("moveend zoomend", drawMarkers);
+    mapMoveBound = true;
   }
 
-  const placed = mapMarkers.length;
-  const total = events.length;
-  showMapNote(placed, total);
+  const pts = mapDayEvents.map((e) => [e.lat, e.lng]);
+  if (pts.length === 1) map.setView(pts[0], 14);
+  else if (pts.length > 1) map.fitBounds(pts, { padding: [40, 40], maxZoom: 15 });
+  drawMarkers();
+}
 
-  if (bounds.length === 1) map.setView(bounds[0], 14);
-  else if (bounds.length > 1) map.fitBounds(bounds, { padding: [40, 40], maxZoom: 15 });
+// At most 10 points visible -> show each as an expanded chip containing its
+// tag, outlined in the genre colour. Otherwise plain coloured dots (no label).
+const CHIP_THRESHOLD = 10;
+
+function drawMarkers() {
+  if (!leafletMap || state.viewMode !== "map") return;
+  clearMapMarkers();
+  const bounds = leafletMap.getBounds();
+  const inBounds = mapDayEvents.filter((e) => bounds.contains([e.lat, e.lng]));
+  const asChips = inBounds.length > 0 && inBounds.length <= CHIP_THRESHOLD;
+  const now = new Date();
+  const isToday = state.mapDay === dayKey(now);
+
+  for (const ev of mapDayEvents) {
+    const past = isToday && ev.time_known !== false && new Date(ev.start) < now;
+    const here = bounds.contains([ev.lat, ev.lng]);
+    const marker = (asChips && here) ? chipMarker(ev, past) : dotMarker(ev, past);
+    marker.on("click", () => openModal(ev));
+    marker.addTo(leafletMap);
+    mapMarkers.push(marker);
+  }
+}
+
+function dotMarker(ev, past) {
+  return L.circleMarker([ev.lat, ev.lng], {
+    radius: ev.user_submitted ? 9 : 7,
+    color: ev.user_submitted ? "#ff7a00" : "#fff",
+    weight: ev.user_submitted ? 3 : 2,
+    fillColor: past ? "#9aa0a6" : genreColor(ev.genre),
+    fillOpacity: past ? 0.45 : 0.95,
+  });
+}
+
+function chipMarker(ev, past) {
+  const color = past ? "#9aa0a6" : genreColor(ev.genre);
+  const tags = (ev.tags || []).filter(Boolean);
+  const label = (tags.length ? tags : [ev.genre]).filter(Boolean).join(" · ")
+    || ev.title || "";
+  const html =
+    `<span class="map-chip${past ? " map-chip--past" : ""}" ` +
+    `style="--chip:${color}">` +
+    `<span class="map-chip-dot"></span>${escapeHtml(label)}</span>`;
+  return L.marker([ev.lat, ev.lng], {
+    icon: L.divIcon({ className: "map-chip-wrap", html, iconSize: null }),
+  });
 }
 
 function showMapNote(placed, total) {

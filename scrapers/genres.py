@@ -52,7 +52,15 @@ KEYWORDS = {
 }
 
 
+# Sources whose genre is fixed regardless of keywords in the text.
+FORCE_GENRE = {
+    "Demo Ticker Berlin": "Polit",
+}
+
+
 def genre_for(source_name: str | None, text: str) -> str:
+    if source_name in FORCE_GENRE:
+        return FORCE_GENRE[source_name]
     low = (text or "").lower()
     for genre in PRIORITY:
         for kw in KEYWORDS.get(genre, []):

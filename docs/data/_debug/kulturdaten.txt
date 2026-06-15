@@ -1,0 +1,45 @@
+=== BASE https://api.kulturdaten.berlin ===
+GET / -> FEHLER HTTPSConnectionPool(host='api.kulturdaten.berlin', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='api.kulturdaten.berlin', port=443): Failed to resolve 'api.kulturdaten.berlin' ([Errno -2] Name or service not known)"))
+GET /discover/attractions -> FEHLER HTTPSConnectionPool(host='api.kulturdaten.berlin', port=443): Max retries exceeded with url: /discover/attractions (Caused by NameResolutionError("HTTPSConnection(host='api.kulturdaten.berlin', port=443): Failed to resolve 'api.kulturdaten.berlin' ([Errno -2] Name or service not known)"))
+GET /discover/events -> FEHLER HTTPSConnectionPool(host='api.kulturdaten.berlin', port=443): Max retries exceeded with url: /discover/events (Caused by NameResolutionError("HTTPSConnection(host='api.kulturdaten.berlin', port=443): Failed to resolve 'api.kulturdaten.berlin' ([Errno -2] Name or service not known)"))
+GET /discover/locations -> FEHLER HTTPSConnectionPool(host='api.kulturdaten.berlin', port=443): Max retries exceeded with url: /discover/locations (Caused by NameResolutionError("HTTPSConnection(host='api.kulturdaten.berlin', port=443): Failed to resolve 'api.kulturdaten.berlin' ([Errno -2] Name or service not known)"))
+GET /attractions -> FEHLER HTTPSConnectionPool(host='api.kulturdaten.berlin', port=443): Max retries exceeded with url: /attractions (Caused by NameResolutionError("HTTPSConnection(host='api.kulturdaten.berlin', port=443): Failed to resolve 'api.kulturdaten.berlin' ([Errno -2] Name or service not known)"))
+GET /events -> FEHLER HTTPSConnectionPool(host='api.kulturdaten.berlin', port=443): Max retries exceeded with url: /events (Caused by NameResolutionError("HTTPSConnection(host='api.kulturdaten.berlin', port=443): Failed to resolve 'api.kulturdaten.berlin' ([Errno -2] Name or service not known)"))
+GET /locations -> FEHLER HTTPSConnectionPool(host='api.kulturdaten.berlin', port=443): Max retries exceeded with url: /locations (Caused by NameResolutionError("HTTPSConnection(host='api.kulturdaten.berlin', port=443): Failed to resolve 'api.kulturdaten.berlin' ([Errno -2] Name or service not known)"))
+GET /discover/attractions/search -> FEHLER HTTPSConnectionPool(host='api.kulturdaten.berlin', port=443): Max retries exceeded with url: /discover/attractions/search (Caused by NameResolutionError("HTTPSConnection(host='api.kulturdaten.berlin', port=443): Failed to resolve 'api.kulturdaten.berlin' ([Errno -2] Name or service not known)"))
+
+=== BASE https://www.kulturdaten.berlin/api ===
+GET / -> 404 text/html; charset=utf-8
+     <!DOCTYPE html><html lang="de"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width"/><title>404: This page could not be found</title><meta name="next-head-count" content="3"/><link rel="preload" href="/_next/stati
+GET /discover/attractions -> 404 text/html; charset=utf-8
+     <!DOCTYPE html><html lang="de"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width"/><title>404: This page could not be found</title><meta name="next-head-count" content="3"/><link rel="preload" href="/_next/stati
+GET /discover/events -> 404 text/html; charset=utf-8
+     <!DOCTYPE html><html lang="de"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width"/><title>404: This page could not be found</title><meta name="next-head-count" content="3"/><link rel="preload" href="/_next/stati
+GET /discover/locations -> 404 text/html; charset=utf-8
+     <!DOCTYPE html><html lang="de"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width"/><title>404: This page could not be found</title><meta name="next-head-count" content="3"/><link rel="preload" href="/_next/stati
+GET /attractions -> 404 text/html; charset=utf-8
+     <!DOCTYPE html><html lang="de"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width"/><title>404: This page could not be found</title><meta name="next-head-count" content="3"/><link rel="preload" href="/_next/stati
+GET /events -> 404 text/html; charset=utf-8
+     <!DOCTYPE html><html lang="de"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width"/><title>404: This page could not be found</title><meta name="next-head-count" content="3"/><link rel="preload" href="/_next/stati
+GET /locations -> 404 text/html; charset=utf-8
+     <!DOCTYPE html><html lang="de"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width"/><title>404: This page could not be found</title><meta name="next-head-count" content="3"/><link rel="preload" href="/_next/stati
+GET /discover/attractions/search -> 404 text/html; charset=utf-8
+     <!DOCTYPE html><html lang="de"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width"/><title>404: This page could not be found</title><meta name="next-head-count" content="3"/><link rel="preload" href="/_next/stati
+
+=== BASE https://kulturdaten.berlin/api ===
+GET / -> 404 text/html; charset=utf-8
+     <!DOCTYPE html><html lang="de"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width"/><title>404: This page could not be found</title><meta name="next-head-count" content="3"/><link rel="preload" href="/_next/stati
+GET /discover/attractions -> 404 text/html; charset=utf-8
+     <!DOCTYPE html><html lang="de"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width"/><title>404: This page could not be found</title><meta name="next-head-count" content="3"/><link rel="preload" href="/_next/stati
+GET /discover/events -> 404 text/html; charset=utf-8
+     <!DOCTYPE html><html lang="de"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width"/><title>404: This page could not be found</title><meta name="next-head-count" content="3"/><link rel="preload" href="/_next/stati
+GET /discover/locations -> 404 text/html; charset=utf-8
+     <!DOCTYPE html><html lang="de"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width"/><title>404: This page could not be found</title><meta name="next-head-count" content="3"/><link rel="preload" href="/_next/stati
+GET /attractions -> 404 text/html; charset=utf-8
+     <!DOCTYPE html><html lang="de"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width"/><title>404: This page could not be found</title><meta name="next-head-count" content="3"/><link rel="preload" href="/_next/stati
+GET /events -> 404 text/html; charset=utf-8
+     <!DOCTYPE html><html lang="de"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width"/><title>404: This page could not be found</title><meta name="next-head-count" content="3"/><link rel="preload" href="/_next/stati
+GET /locations -> 404 text/html; charset=utf-8
+     <!DOCTYPE html><html lang="de"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width"/><title>404: This page could not be found</title><meta name="next-head-count" content="3"/><link rel="preload" href="/_next/stati
+GET /discover/attractions/search -> 404 text/html; charset=utf-8
+     <!DOCTYPE html><html lang="de"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width"/><title>404: This page could not be found</title><meta name="next-head-count" content="3"/><link rel="preload" href="/_next/stati

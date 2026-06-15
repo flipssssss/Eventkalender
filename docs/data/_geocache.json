@@ -1,19 +1,42 @@
 {
+ "10245 Berlin": {
+  "address": "10245 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5006167,
+  "lng": 13.4648062
+ },
+ "10783 Berlin": {
+  "address": "10783 Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4964166,
+  "lng": 13.362414
+ },
+ "10997 Berlin": {
+  "address": "10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5009559,
+  "lng": 13.4354965
+ },
  ":// about blank / Garten Markgrafendamm 24c 10245 Berlin Deutschland": null,
  "AGB PopUp Saal Blücherplatz 1 10961 Berlin Deutschland": null,
+ "AGB PopUp Saal Blücherplatz 1 10961, 10961 Berlin": null,
  "Alice Salomon Hochschule Alice-Salomon-Platz 5 12627 Berlin Deutschland": {
   "address": "Alice-Salomon-Platz 5, 12627 Hellersdorf",
   "bezirk": "Marzahn-Hellersdorf",
   "lat": 52.5371991,
   "lng": 13.6060882
  },
+ "Alice Salomon Hochschule Alice-Salomon-Platz 5 12627, 12627 Berlin": null,
  "Amtsgericht Tiergarten Turmstr. 91 10559 Berlin Deutschland": null,
+ "Amtsgericht Tiergarten Turmstr. 91 10559, 10559 Berlin": null,
  "Anti-Kriegs-Museum Berlin Brüsseler Str. 21 13353 Berlin Deutschland": {
   "address": "Brüsseler Straße 21, 13353 Wedding",
   "bezirk": "Mitte",
   "lat": 52.5460206,
   "lng": 13.3479549
  },
+ "Anti-Kriegs-Museum Berlin Brüsseler Str. 21 13353, 13353 Berlin": null,
+ "Archiv Potsdam Berlin": null,
  "Archiv Potsdam Berlin Deutschland": null,
  "B-Lage Mareschstr. 1 12055 Berlin Deutschland": {
   "address": "Mareschstraße 1, 12055 Neukölln",
@@ -21,14 +44,35 @@
   "lat": 52.4736946,
   "lng": 13.451159
  },
+ "B-Lage Mareschstr. 1 12055, 12055 Berlin": null,
  "BLO-Ateliers Kaskelstr. 55 10317 Berlin Deutschland": {
   "address": "Kaskelstraße 55, 10317 Rummelsburg",
   "bezirk": "Lichtenberg",
   "lat": 52.5046039,
   "lng": 13.4832995
  },
+ "BLO-Ateliers Kaskelstr. 55 10317, 10317 Berlin": null,
  "Baiz Schönhauser Allee 26 A 10435 Berlin Deutschland": null,
+ "Baiz Schönhauser Allee 26 A, 10435 Berlin": null,
  "Bandito Rosso Lottumstr. 10a 10119 Berlin Deutschland": null,
+ "Bandito Rosso Lottumstr. 10a, 10119 Berlin": {
+  "address": "Lottumstraße 10a, 10119 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5308391,
+  "lng": 13.4072585
+ },
+ "Berlin": {
+  "address": "Berlin",
+  "bezirk": null,
+  "lat": 52.5173885,
+  "lng": 13.3951309
+ },
+ "Berlin Berlin": {
+  "address": "Tauentzienstraße, 10789 Charlottenburg",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.503379,
+  "lng": 13.3386522
+ },
  "Berlin Berlin Deutschland": {
   "address": "Tauentzienstraße, 10789 Charlottenburg",
   "bezirk": "Charlottenburg-Wilmersdorf",
@@ -41,12 +85,19 @@
   "lat": 52.5173885,
   "lng": 13.3951309
  },
+ "Berlin Friedrichshain Berlin": {
+  "address": "Mitteltunnel, 10243 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5107448,
+  "lng": 13.4351709
+ },
  "Berlin Friedrichshain Berlin Deutschland": {
   "address": "Mitteltunnel, 10243 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5107448,
   "lng": 13.4351709
  },
+ "Bethanien Südflügel Berlin": null,
  "Bethanien Südflügel Berlin Deutschland": null,
  "Brotfabrik Caligariplatz 1 13086 Berlin Deutschland": {
   "address": "Caligariplatz 1, 13086 Weißensee",
@@ -54,7 +105,20 @@
   "lat": 52.5525923,
   "lng": 13.4305919
  },
+ "Brotfabrik Caligariplatz 1 13086, 13086 Berlin": null,
+ "Café Cralle Hochstädter Straße 10A, Berlin": {
+  "address": "Hochstädter Straße 10a, 13347 Wedding",
+  "bezirk": "Mitte",
+  "lat": 52.550607,
+  "lng": 13.363522
+ },
  "Café Cralle Hochstädterstr. 10a 13347 Berlin Deutschland": null,
+ "Café Cralle Hochstädterstr. 10a, 13347 Berlin": {
+  "address": "Hochstädter Straße 10a, 13347 Wedding",
+  "bezirk": "Mitte",
+  "lat": 52.550607,
+  "lng": 13.363522
+ },
  "Café Cralle, Hochstädter Straße 10A, Wedding Berlin Deutschland": null,
  "Café Herman Schulz Kollektiv, Finowstraße 33, Friedrichshain 10247 Berlin Deutschland": null,
  "Café Köpenick Seelenbinderstr. 54 12555 Berlin Deutschland": {
@@ -63,16 +127,39 @@
   "lat": 52.4552464,
   "lng": 13.5828604
  },
+ "Café Köpenick Seelenbinderstr. 54 12555, 12555 Berlin": null,
  "Cocoon Exerzierstraße 14 13357 Berlin Deutschland": {
   "address": "Exerzierstraße 14, 13357 Gesundbrunnen",
   "bezirk": "Mitte",
   "lat": 52.5540255,
   "lng": 13.3746131
  },
+ "Cocoon Exerzierstraße 14 13357, 13357 Berlin": null,
  "Columbiadamm 10 Zollgarage im alten Flughafen Tempelhof 10965 Berlin Deutschland": null,
+ "Columbiadamm 10, 10965 Berlin": {
+  "address": "Columbiadamm 10, 10965 Tempelhof",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.484018,
+  "lng": 13.3911982
+ },
+ "Columbiadamm Columbiadamm 10 12101, 12101 Berlin": null,
  "Dorfplatz (Fhain) Rigaerstr. Ecke Liebigstr. 10247 Berlin Deutschland": null,
  "Drugstore im Rockhaus Buchberger Str. 6 10365 Berlin Deutschland": null,
+ "Drugstore im Rockhaus Buchberger Str. 6 10365, 10365 Berlin": null,
  "Erreichbar Reichenberger Str. 63a HH 10999 Berlin Deutschland": null,
+ "Erreichbar Reichenberger Str. 63a, 10999 Berlin": {
+  "address": "Reichenberger Straße 63a, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4949179,
+  "lng": 13.4304413
+ },
+ "FMP1 Franz-Mehring-Platz 1 10243, 10243 Berlin": null,
+ "FMP1 Franz-Mehring-Platz 1, 10243 Berlin": {
+  "address": "Franz-Mehring-Platz 1, 10243 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5128,
+  "lng": 13.4402215
+ },
  "FMP1 Franz-Mehring-Platz 1, 10243 Berlin Deutschland": {
   "address": "Franz-Mehring-Platz 1, 10243 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -81,18 +168,22 @@
  },
  "FMP1, Franz-Mehring-Platz 1, Friedrichshain, Berlin, Germany 10243 Berlin Deutschland": null,
  "Filmrisz Filmrisz Rigaerstr. 103 10247 Berlin Deutschland": null,
+ "Filmrisz Filmrisz Rigaerstr. 103 10247, 10247 Berlin": null,
  "Fischladen Rigaer Straße 83 10247 Berlin Deutschland": {
   "address": "Rigaer Straße 83, 10247 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5170566,
   "lng": 13.4619369
  },
+ "Fischladen Rigaer Straße 83 10247, 10247 Berlin": null,
  "Fischladen Rigaerstr. 83 10247 Berlin Deutschland": {
   "address": "Rigaer Straße 83, 10247 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5170566,
   "lng": 13.4619369
  },
+ "Fischladen Rigaerstr. 83 10247, 10247 Berlin": null,
+ "Garten Markgrafendamm 24c, 10245 Berlin": null,
  "HAU Hebbel am Ufer, Berlin": {
   "address": "Stresemannstraße 29, 10963 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -100,12 +191,14 @@
   "lng": 13.3871576
  },
  "HAU2 Hallesches Ufer 34 10963 Berlin Deutschland": null,
+ "HAU2 Hallesches Ufer 34 10963, 10963 Berlin": null,
  "Haus der Kulturen der Welt, Berlin": {
   "address": "John-Foster-Dulles-Allee 10, 10557 Tiergarten",
   "bezirk": "Mitte",
   "lat": 52.5187884,
   "lng": 13.3648356
  },
+ "Herman Schulz Kollektiv Finowstraße 33, 10247 Berlin": null,
  "Humboldt Forum, Berlin": {
   "address": "Schloßplatz, 10178 Mitte",
   "bezirk": "Mitte",
@@ -118,17 +211,26 @@
   "lat": 52.4892149,
   "lng": 13.5212776
  },
+ "Hönower Straße 30 10318, 10318 Berlin": null,
  "Infoladen Scherer Schererstraße 8 13347 Berlin Deutschland": {
   "address": "Schererstraße 8, 13347 Wedding",
   "bezirk": "Mitte",
   "lat": 52.5481641,
   "lng": 13.3670511
  },
+ "Infoladen Scherer Schererstraße 8 13347, 13347 Berlin": null,
  "JUP Florastr. 84 13187 Berlin Deutschland": {
   "address": "Florastraße 84, 13187 Pankow",
   "bezirk": "Pankow",
   "lat": 52.5658369,
   "lng": 13.400323
+ },
+ "JUP Florastr. 84 13187, 13187 Berlin": null,
+ "K Köpenicker Straße Berlin": {
+  "address": "Köpenicker Straße, 10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5063707,
+  "lng": 13.430535
  },
  "K Köpenicker Straße Berlin Deutschland": {
   "address": "Köpenicker Straße, 10179 Mitte",
@@ -137,11 +239,24 @@
   "lng": 13.4271106
  },
  "K19 Café Kreutzigerstr. 19 10247 Berlin Deutschland": null,
+ "K19 Café Kreutzigerstr. 19 10247, 10247 Berlin": null,
  "K9 Kinzigstr 9 Berlin Deutschland": {
   "address": "Kinzigstraße 9, 10247 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5136974,
   "lng": 13.4666469
+ },
+ "K9 Kinzigstr 9, Berlin": {
+  "address": "Kinzigstraße 9, 10247 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5136974,
+  "lng": 13.4666469
+ },
+ "KARA Perleberger Straße 59, 10559 Berlin": {
+  "address": "Perleberger Straße 59, 10559 Moabit",
+  "bezirk": "Mitte",
+  "lat": 52.5326481,
+  "lng": 13.3513118
  },
  "KARA, Perleberger Straße 59, Berlin, 10559, Germany": {
   "address": "Perleberger Straße 59, 10559 Moabit",
@@ -156,7 +271,10 @@
   "lat": 52.5179905,
   "lng": 13.4580211
  },
+ "Kadterschmiede Rigaer Str. 94 10245, 10245 Berlin": null,
  "Karl-Liebknecht-Haus Kleine Alexanderstr. 28 10178 Berlin Deutschland": null,
+ "Karl-Liebknecht-Haus Kleine Alexanderstr. 28 10178, 10178 Berlin": null,
+ "Karpfenteichstr. 13 12435, 12435 Berlin": null,
  "Kiez Zentrum Villa Lützow Lützowstraße 28 10785 Berlin Deutschland": null,
  "Kiezhaus Agnes Reinhold Afrikanische Straße 74 13351 Berlin Deutschland": {
   "address": "Afrikanische Straße 74, 13351 Wedding",
@@ -164,9 +282,13 @@
   "lat": 52.5517747,
   "lng": 13.3380141
  },
+ "Kiezhaus Agnes Reinhold Afrikanische Straße 74 13351, 13351 Berlin": null,
+ "Kiezladen Rote Ella Buttmannstr. 1A, Berlin": null,
  "Kiezladen Rote Ella, Buttmannstr. 1A, Berlin-Wedding Berlin Deutschland": null,
+ "Kiezraum auf dem Dragoner-Areal Berlin": null,
  "Kiezraum auf dem Dragoner-Areal Berlin Deutschland": null,
  "Kiezraum auf dem Dragonerareal Mehringdamm 20 10961 Berlin Deutschland": null,
+ "Kneipe Kleinod Niemetzstraße 24 12055, 12055 Berlin": null,
  "Kneipe Kleinod Niemetzstraße 24, 12055 Berlin Deutschland": {
   "address": "Niemetzstraße 24, 12055 Neukölln",
   "bezirk": "Neukölln",
@@ -174,81 +296,130 @@
   "lng": 13.4510314
  },
  "Kreuzdorf Mariannenplatz 1a 10997 Berlin Deutschland": null,
+ "Kreuzdorf Mariannenplatz 1a, 10997 Berlin": null,
  "KuBiZ Bernkasteler Str. 78 13088 Berlin Deutschland": {
   "address": "Bernkasteler Straße 78, 13088 Weißensee",
   "bezirk": "Pankow",
   "lat": 52.5577176,
   "lng": 13.4702725
  },
+ "KuBiZ Bernkasteler Str. 78 13088, 13088 Berlin": null,
  "Kulturfabrik Moabit Lehrter Str. 35 10557 Berlin Deutschland": {
   "address": "Lehrter Straße 35, 10557 Moabit",
   "bezirk": "Mitte",
   "lat": 52.5341991,
   "lng": 13.3592766
  },
+ "Kulturfabrik Moabit Lehrter Str. 35 10557, 10557 Berlin": null,
  "KØPI Köpenicker Straße 137 10179 Berlin Deutschland": {
   "address": "Köpenicker Straße 137, 10179 Mitte",
   "bezirk": "Mitte",
   "lat": 52.5077022,
   "lng": 13.4260264
  },
+ "KØPI Köpenicker Straße 137 10179, 10179 Berlin": null,
  "L5 Späti Lenaustraße 5 12047 Berlin Deutschland": {
   "address": "Lenaustraße 5, 12047 Neukölln",
   "bezirk": "Neukölln",
   "lat": 52.4899624,
   "lng": 13.425536
  },
+ "L5 Späti Lenaustraße 5 12047, 12047 Berlin": null,
  "Lauschangriff Rigaer Str. 103 10247 Berlin Deutschland": null,
+ "Lauschangriff Rigaer Str. 103 10247, 10247 Berlin": null,
  "Lauseria Lausitzer Straße 10 10999 Berlin Deutschland": null,
+ "Lauseria Lausitzer Straße 10 10999, 10999 Berlin": null,
  "Lunte Weisestr. 53 12049 Berlin Deutschland": {
   "address": "Weisestraße 53, 12049 Neukölln",
   "bezirk": "Neukölln",
   "lat": 52.4776993,
   "lng": 13.4240706
  },
+ "Lunte Weisestr. 53 12049, 12049 Berlin": null,
  "Mariannenplatz Bethanien New York im Bethanien 10997 Berlin Deutschland": null,
+ "Martha Bethaniendamm Berlin": null,
  "Martha Bethaniendamm Berlin Deutschland": null,
  "Mehringhof Gneisenaustr. 2a 10961 Berlin Deutschland": null,
+ "Mehringhof Gneisenaustr. 2a, 10961 Berlin": {
+  "address": "Gneisenaustraße 2a, 10961 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4918919,
+  "lng": 13.3890768
+ },
  "Mitte Museum Pankstr. 47 13357 Berlin Deutschland": {
   "address": "Pankstraße 47, 13357 Gesundbrunnen",
   "bezirk": "Mitte",
   "lat": 52.5510219,
   "lng": 13.3800755
  },
+ "Mitte Museum Pankstr. 47 13357, 13357 Berlin": null,
  "Museum des Kapitalismus Köpenicker Str. 172 10997 Berlin Deutschland": null,
+ "Museum des Kapitalismus Köpenicker Str. 172 10997, 10997 Berlin": null,
  "Müßiggang Oranienstr. 14a 10999 Berlin Deutschland": null,
+ "Müßiggang Oranienstr. 14a, 10999 Berlin": {
+  "address": "Oranienstraße 14a, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5004737,
+  "lng": 13.4234898
+ },
  "Neckarstr. 19 12053 Berlin Deutschland": {
   "address": "Neckarstraße 19, 12053 Neukölln",
   "bezirk": "Neukölln",
   "lat": 52.4801032,
   "lng": 13.4340359
  },
+ "Neckarstr. 19 12053, 12053 Berlin": null,
  "Neckarstr. 19 Souterrain im Hof/ basement in the court 12053 Berlin Deutschland": null,
+ "Neckarstr. 19, 12053 Berlin": {
+  "address": "Neckarstraße 19, 12053 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4801032,
+  "lng": 13.4340359
+ },
  "Neue Zukunft Alt-Strahlau 68 10245 Berlin Deutschland": null,
  "New Yorck im Bethanien Mariannenplatz 2A 10997 Berlin Deutschland": null,
  "NewYorck im Bethanien Mariannenplatz 2A 10997 Berlin Deutschland": null,
+ "NewYorck im Bethanien Mariannenplatz 2A, 10997 Berlin": null,
  "Prinzessinnengarten Neukölln Hermannstraße 99-105 12051 Berlin Deutschland": null,
+ "Prinzessinnengarten Neukölln Hermannstraße 99-105, 12051 Berlin": null,
+ "Quälgeist Berlin e.V. Lankwitzer Straße 42/43, 12107 Berlin": null,
  "Quälgeist Berlin e.V., Lankwitzer Straße 42/43, Berlin, 12107, Deutschland": null,
  "Regenbogencafé Lausitzer Str. 22 10999 Berlin Deutschland": null,
+ "Regenbogencafé Lausitzer Str. 22 10999, 10999 Berlin": null,
  "Regenbogenfabrik Lausitzer Str. 21a 10999 Berlin Deutschland": null,
+ "Regenbogenfabrik Lausitzer Str. 21a, 10999 Berlin": {
+  "address": "Lausitzer Straße 21a, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4959646,
+  "lng": 13.4263213
+ },
  "Regenbogenfabrik Lausitzer Str. 22 10999 Berlin Deutschland": {
   "address": "Lausitzer Straße 22, 10999 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.4955993,
   "lng": 13.4268698
  },
+ "Regenbogenfabrik Lausitzer Str. 22 10999, 10999 Berlin": null,
  "Rigaer Str. 78 10247 Berlin Deutschland": {
   "address": "Rigaer Straße 78, 10247 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5166542,
   "lng": 13.4641926
  },
+ "Rigaer Str. 78 10247, 10247 Berlin": null,
+ "Rigaerstr. Ecke Liebigstr. 10247, 10247 Berlin": null,
  "Rote Insel near S1 / U7 Yorckstrasse Berlin 10783 Berlin Deutschland": null,
  "Schaubühne am Lehniner Platz, Berlin": {
   "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
   "bezirk": "Charlottenburg-Wilmersdorf",
   "lat": 52.4986606,
   "lng": 13.3022747
+ },
+ "Schlesisches Tor Berlin": {
+  "address": "Skalitzer Straße, 10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5008341,
+  "lng": 13.4414625
  },
  "Schlesisches Tor Berlin Deutschland": {
   "address": "Skalitzer Straße, 10997 Kreuzberg",
@@ -257,13 +428,17 @@
   "lng": 13.4414625
  },
  "Schmatzkammer Eberswalde Coppistr. 1-3 Berlin Deutschland": null,
+ "Schmatzkammer Eberswalde Coppistr. 1-3, Berlin": null,
  "Schokoladen Ackerstrasse 169 10115 Berlin Deutschland": {
   "address": "Ackerstraße 169, 10115 Mitte",
   "bezirk": "Mitte",
   "lat": 52.5297369,
   "lng": 13.3971786
  },
+ "Schokoladen Ackerstrasse 169 10115, 10115 Berlin": null,
  "Schreina47 Schreinerstr. 47 10245 Berlin Deutschland": null,
+ "Schreina47 Schreinerstr. 47 10245, 10245 Berlin": null,
+ "Skalitzer str. 6 10997, 10997 Berlin": null,
  "Sophiensæle, Berlin": {
   "address": "Sophienstraße 18, 10178 Mitte",
   "bezirk": "Mitte",
@@ -271,25 +446,31 @@
   "lng": 13.4016022
  },
  "Stadtteilzentrum Schöneberg Hauptstraße 121 A 10827 Berlin Deutschland": null,
+ "Stadtteilzentrum Schöneberg Hauptstraße 121 A, 10827 Berlin": null,
  "Supamolly Jessnerstr. 41 10247 Berlin Deutschland": {
   "address": "Jessnerstraße 41, 10247 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5105248,
   "lng": 13.4713392
  },
+ "Supamolly Jessnerstr. 41 10247, 10247 Berlin": null,
  "Torhaus - Columbiadamm Columbiadamm 10 12101 Berlin Deutschland": {
   "address": "Columbiadamm 10, 10965 Tempelhof",
   "bezirk": "Tempelhof-Schöneberg",
   "lat": 52.484018,
   "lng": 13.3911982
  },
+ "Torstraße 190 10115, 10115 Berlin": null,
  "Traumreparatur Lausitzer Straße 13 10999 Berlin Deutschland": null,
+ "Traumreparatur Lausitzer Straße 13 10999, 10999 Berlin": null,
  "Tristeza Pannierstr. 5 12047 Berlin Deutschland": {
   "address": "Pannierstraße 5, 12047 Neukölln",
   "bezirk": "Neukölln",
   "lat": 52.4865618,
   "lng": 13.430953
  },
+ "Tristeza Pannierstr. 5 12047, 12047 Berlin": null,
+ "Trixxxter Kreuzberg Berlin": null,
  "Trixxxter Kreuzberg Berlin Deutschland": null,
  "Türrschmidtstraße 1 10317 Berlin Deutschland": {
   "address": "Türrschmidtstraße 1, 10317 Rummelsburg",
@@ -297,18 +478,21 @@
   "lat": 52.5026366,
   "lng": 13.4758561
  },
+ "Türrschmidtstraße 1 10317, 10317 Berlin": null,
  "Vetomat Wühlischstr. 42 10247 Berlin Deutschland": {
   "address": "Wühlischstraße 42, 10245 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5087036,
   "lng": 13.4606574
  },
+ "Vetomat Wühlischstr. 42 10247, 10247 Berlin": null,
  "Villa Kuriosum Scheffelstr. 21 10367 Berlin Deutschland": {
   "address": "Scheffelstraße 21, 10367 Lichtenberg",
   "bezirk": "Lichtenberg",
   "lat": 52.5201505,
   "lng": 13.4731889
  },
+ "Villa Kuriosum Scheffelstr. 21 10367, 10367 Berlin": null,
  "Volksbühne am Rosa-Luxemburg-Platz, Berlin": {
   "address": "Linienstraße 227, 10178 Mitte",
   "bezirk": "Mitte",
@@ -317,6 +501,13 @@
  },
  "Volkssolidarität \"Mehr Mitte\" Torstraße 190 10115 Berlin Deutschland": null,
  "Wagenburg Lohmühle Lohmühlenstr. 17 12435 Berlin Deutschland": null,
+ "Wagenburg Lohmühle Lohmühlenstr. 17 12435, 12435 Berlin": null,
+ "Wedding Berlin": {
+  "address": "Wedding",
+  "bezirk": "Mitte",
+  "lat": 52.548949,
+  "lng": 13.3481653
+ },
  "Wedding Berlin Deutschland": {
   "address": "Wedding",
   "bezirk": "Mitte",
@@ -329,18 +520,35 @@
   "lat": 52.5090676,
   "lng": 13.4243386
  },
+ "WikiBär Köpenicker Str. 45 10179, 10179 Berlin": null,
+ "Yaam (an der Schillingbrücke) An der Schillingbrücke 3 Berlin": {
+  "address": "An der Schillingbrücke 3, 10243 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5091664,
+  "lng": 13.4307181
+ },
  "Yaam (an der Schillingbrücke) An der Schillingbrücke 3 Berlin Deutschland": {
   "address": "An der Schillingbrücke 3, 10243 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5091664,
   "lng": 13.4307181
  },
+ "Yorck im Bethanien Mariannenplatz 2A, 10997 Berlin": null,
+ "Z-Keller (Bhf Charlottenhof) Potsdam Berlin": null,
  "Z-Keller (Bhf Charlottenhof) Potsdam Berlin Deutschland": null,
+ "Zentrum Villa Lützow Lützowstraße 28 10785, 10785 Berlin": null,
  "Zielona Góra Grünbergerstr. 73 10245 Berlin Deutschland": {
   "address": "Grünberger Straße 73, 10245 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5114491,
   "lng": 13.4595298
+ },
+ "Zielona Góra Grünbergerstr. 73 10245, 10245 Berlin": null,
+ "Zionskirche Zionskirchplatz Berlin": {
+  "address": "Zionskirchplatz 1, 10119 Prenzlauer Berg",
+  "bezirk": "Mitte",
+  "lat": 52.5346475,
+  "lng": 13.4037357
  },
  "Zionskirche Zionskirchplatz Berlin Deutschland": {
   "address": "Zionskirchplatz 1, 10119 Prenzlauer Berg",
@@ -349,12 +557,16 @@
   "lng": 13.4037357
  },
  "Zwille Fasanenstr. 1a 10623 Berlin Deutschland": null,
+ "Zwille Fasanenstr. 1a, 10623 Berlin": null,
  "aquarium (südblock) Skalitzer str. 6 10997 Berlin Deutschland": null,
+ "auf dem Dragonerareal Mehringdamm 20 10961, 10961 Berlin": null,
  "f.a.q. Jonasstr. 40 12053 Berlin Deutschland": null,
+ "f.a.q. Jonasstr. 40 12053, 12053 Berlin": null,
  "https://karada-house.de/events/having-sex-with-vulvas-2/, Berlin": null,
  "https://karada-house.de/events/how-to-play/, Berlin": null,
  "https://karada-house.de/events/hurt-me-deliciously-2/, Berlin": null,
  "https://karada-house.de/events/practical-reflections/, Berlin": null,
  "https://karada-house.de/events/radical-inclusion/, Berlin": null,
+ "near Bethaniendamm berlin berlin": null,
  "near Bethaniendamm berlin berlin Deutschland": null
 }

@@ -17,6 +17,17 @@ from .base import BaseScraper, Event
 
 DEBUG_DIR = pathlib.Path(__file__).resolve().parents[1] / "docs" / "data" / "_debug"
 
+# kulturdaten-Kategorie -> unser Tag.
+CATEGORY_MAP = {
+    "Music": "Konzert", "Stages": "Theater", "Dance": "Party",
+    "Exhibitions": "Ausstellung", "Festivals": "Party",
+    "Lectures": "Vortrag", "Conferences": "Vortrag", "InformationEvents": "Vortrag",
+    "Education": "Workshop", "Politics": "Protest",
+    "WeeklyMarkets": "Sonstiges", "Walks": "Sonstiges", "Children": "Sonstiges",
+    "Recreation": "Sonstiges", "Women": "Sonstiges", "Police": "Sonstiges",
+    "Health": "Sonstiges", "ChristmasTime": "Sonstiges",
+}
+
 HEADERS = {
     "User-Agent": "EventkalenderBot/1.0 (+https://github.com/flipssssss/eventkalender)",
     "Accept": "application/json",
@@ -65,6 +76,76 @@ def _extract_swaggerdoc(js: str) -> dict:
     BASE = "https://api-v2.kulturdaten.berlin"
 
     def fetch_events(self) -> Iterable[Event]:
+        return self._count_categories()
+
+    def _count_categories(self) -> Iterable[Event]:
+        import collections as _c
+        import datetime as _dt
+
+        session = requests.Session()
+        session.headers.update(HEADERS)
+        report: list[str] = []
+
+        def get_json(path):
+            return session.get(self.BASE + path, timeout=30).json().get("data", {})
+
+        today = _dt.date.today()
+        end = today + _dt.timedelta(days=14)
+
+        # 1) Events der nächsten 14 Tage sammeln.
+        events, page = [], 1
+        while page <= 30:
+            d = get_json(f"/api/events?startDate={today}&endDate={end}&pageSize=200&page={page}")
+            batch = d.get("events") or []
+            events.extend(batch)
+            if page * 200 >= (d.get("totalCount") or 0) or not batch:
+                break
+            page += 1
+        needed = {e["attractions"][0]["referenceId"]
+                  for e in events if e.get("attractions")}
+        report.append(f"Events 14 Tage: {len(events)} | referenzierte Attraktionen: {len(needed)}")
+
+        # 2) Attraktion -> Kategorie-Map aufbauen (alle Attraktionen durchblättern).
+        cat_of, apage = {}, 1
+        while apage <= 130:
+            d = get_json(f"/api/attractions?pageSize=200&page={apage}")
+            ats = d.get("attractions") or []
+            for a in ats:
+                tags = [t.replace("attraction.category.", "") for t in a.get("tags", [])]
+                cat_of[a["identifier"]] = tags[0] if tags else "—"
+            if apage * 200 >= (d.get("totalCount") or 0) or not ats:
+                break
+            apage += 1
+        report.append(f"Attraktionen geladen: {len(cat_of)} (Seiten: {apage})")
+
+        # 3) Events pro Kategorie + pro Herkunft zählen.
+        by_cat = _c.Counter()
+        by_origin = _c.Counter()
+        free = 0
+        for e in events:
+            aid = e["attractions"][0]["referenceId"] if e.get("attractions") else None
+            by_cat[cat_of.get(aid, "?unbekannt")] += 1
+            by_origin[(e.get("metadata") or {}).get("origin", "?")] += 1
+            if (e.get("admission") or {}).get("ticketType") == "ticketType.freeOfCharge":
+                free += 1
+
+        report.append(f"\nKostenlos: {free} von {len(events)}")
+        report.append("\nEvents pro Kategorie (14 Tage):")
+        for cat, n in by_cat.most_common():
+            report.append(f"  {n:5d}  {cat}  ->  {CATEGORY_MAP.get(cat, 'Sonstiges')}")
+        report.append("\nEvents pro Herkunft:")
+        for o, n in by_origin.most_common():
+            report.append(f"  {n:5d}  {o}")
+
+        if self.write_debug:
+            try:
+                DEBUG_DIR.mkdir(parents=True, exist_ok=True)
+                (DEBUG_DIR / "kulturdaten.txt").write_text("\n".join(report), encoding="utf-8")
+            except OSError:
+                pass
+        return []
+
+    def _probe(self) -> Iterable[Event]:
         session = requests.Session()
         session.headers.update(HEADERS)
         report: list[str] = []

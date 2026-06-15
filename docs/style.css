@@ -73,7 +73,7 @@
 }
 
 :root[data-theme="hyperpop"] .site-header {
-  background: linear-gradient(135deg, rgba(255,209,245,0.92), rgba(230,209,255,0.92));
+  background: linear-gradient(135deg, rgb(255,209,245), rgb(230,209,255));
 }
 
 :root[data-theme="hyperpop"] h1,
@@ -113,6 +113,7 @@
 
 html {
   -webkit-text-size-adjust: 100%;
+  background: var(--bg);
 }
 
 body {
@@ -130,8 +131,7 @@ body {
   position: sticky;
   top: 0;
   z-index: 10;
-  background: color-mix(in srgb, var(--bg) 90%, transparent);
-  backdrop-filter: saturate(150%) blur(10px);
+  background: var(--bg);
   border-bottom: 1px solid var(--border);
   padding: env(safe-area-inset-top) 0 0;
 }

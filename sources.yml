@@ -42,6 +42,10 @@ sources:
   - url: https://www.silverfuture.net/events-1/
     name: Silverfuture
 
+  # Klub Verboten (Resident Advisor) -- Erkundung; Genre Kink, nur Berlin.
+  - url: https://ra.co/promoters/84128/events
+    name: Klub Verboten
+
   # Kink-Quellen -- alle Events als Kink. Beide nutzen "The Events
   # Calendar" (WordPress); der iCal-Feed ist robust und umgeht teils
   # den Bot-Schutz der HTML-Seite.

@@ -287,9 +287,13 @@ class JsonLdScraper(BaseScraper):
             tag.decompose()
         body = soup.body or soup
         decoded = _re.sub(r"\n\s*\n+", "\n", body.decode())
-        # Start at the first <time> (where event listings usually begin) so
-        # the header/nav don't eat the whole snippet.
+        # Start at the first <time> or, failing that, the first date-like
+        # token, so the header/nav don't eat the whole snippet.
         idx = decoded.find("<time")
+        if idx < 0:
+            m = _re.search(r"\d{1,2}\.\s?\d{1,2}\.\d{0,4}|\b(Mo|Di|Mi|Do|Fr|Sa|So)\b",
+                           decoded)
+            idx = m.start() if m else -1
         start = max(0, idx - 400) if idx > 0 else 0
         return decoded[start:start + limit]
 

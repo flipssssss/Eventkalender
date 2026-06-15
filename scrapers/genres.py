@@ -22,6 +22,7 @@ SOURCE_DEFAULT = {
     "Donau115": "Kultur",
     "Silverfuture": "Queer",
     "kulturdaten.berlin": "Kultur",
+    "Klub Verboten": "Kink",
 }
 DEFAULT_GENRE = "Kultur"
 

@@ -86,61 +86,72 @@ def _extract_swaggerdoc(js: str) -> dict:
         session.headers.update(HEADERS)
         report: list[str] = []
 
-        def get_json(path):
-            return session.get(self.BASE + path, timeout=30).json().get("data", {})
+        def get_data(path):
+            """Robust: never raise -- return {} on any error."""
+            try:
+                r = session.get(self.BASE + path, timeout=30)
+                return r.json().get("data", {}) if r.status_code == 200 else {}
+            except Exception:  # noqa: BLE001
+                return {}
 
-        today = _dt.date.today()
-        end = today + _dt.timedelta(days=14)
+        try:
+            today = _dt.date.today()
+            end = today + _dt.timedelta(days=14)
 
-        # 1) Events der nächsten 14 Tage sammeln.
-        events, page = [], 1
-        while page <= 30:
-            d = get_json(f"/api/events?startDate={today}&endDate={end}&pageSize=200&page={page}")
-            batch = d.get("events") or []
-            events.extend(batch)
-            if page * 200 >= (d.get("totalCount") or 0) or not batch:
-                break
-            page += 1
-        needed = {e["attractions"][0]["referenceId"]
-                  for e in events if e.get("attractions")}
-        report.append(f"Events 14 Tage: {len(events)} | referenzierte Attraktionen: {len(needed)}")
+            # 1) Events der nächsten 14 Tage sammeln.
+            events, page = [], 1
+            while page <= 30:
+                d = get_data(f"/api/events?startDate={today}&endDate={end}&pageSize=200&page={page}")
+                batch = d.get("events") or []
+                events.extend(batch)
+                if not batch or page * 200 >= (d.get("totalCount") or 0):
+                    break
+                page += 1
 
-        # 2) Attraktion -> Kategorie-Map aufbauen (alle Attraktionen durchblättern).
-        cat_of, apage = {}, 1
-        while apage <= 130:
-            d = get_json(f"/api/attractions?pageSize=200&page={apage}")
-            ats = d.get("attractions") or []
-            for a in ats:
-                tags = [t.replace("attraction.category.", "") for t in a.get("tags", [])]
-                cat_of[a["identifier"]] = tags[0] if tags else "—"
-            if apage * 200 >= (d.get("totalCount") or 0) or not ats:
-                break
-            apage += 1
-        report.append(f"Attraktionen geladen: {len(cat_of)} (Seiten: {apage})")
+            # 2) Attraktion -> Kategorie-Map (alle Attraktionen durchblättern).
+            cat_of, apage, failed = {}, 1, 0
+            while apage <= 130:
+                d = get_data(f"/api/attractions?pageSize=200&page={apage}")
+                ats = d.get("attractions") or []
+                if not ats:
+                    failed += 1
+                    if failed > 3:
+                        break
+                    apage += 1
+                    continue
+                for a in ats:
+                    tags = [t.replace("attraction.category.", "") for t in a.get("tags", [])]
+                    cat_of[a.get("identifier")] = tags[0] if tags else "—"
+                if apage * 200 >= (d.get("totalCount") or 0):
+                    break
+                apage += 1
 
-        # 3) Events pro Kategorie + pro Herkunft zählen.
-        by_cat = _c.Counter()
-        by_origin = _c.Counter()
-        free = 0
-        for e in events:
-            aid = e["attractions"][0]["referenceId"] if e.get("attractions") else None
-            by_cat[cat_of.get(aid, "?unbekannt")] += 1
-            by_origin[(e.get("metadata") or {}).get("origin", "?")] += 1
-            if (e.get("admission") or {}).get("ticketType") == "ticketType.freeOfCharge":
-                free += 1
+            report.append(f"Events 14 Tage: {len(events)} | Attraktionen geladen: {len(cat_of)}")
 
-        report.append(f"\nKostenlos: {free} von {len(events)}")
-        report.append("\nEvents pro Kategorie (14 Tage):")
-        for cat, n in by_cat.most_common():
-            report.append(f"  {n:5d}  {cat}  ->  {CATEGORY_MAP.get(cat, 'Sonstiges')}")
-        report.append("\nEvents pro Herkunft:")
-        for o, n in by_origin.most_common():
-            report.append(f"  {n:5d}  {o}")
+            # 3) Events pro Kategorie + Herkunft zählen.
+            by_cat, by_origin, free = _c.Counter(), _c.Counter(), 0
+            for e in events:
+                aid = e["attractions"][0]["referenceId"] if e.get("attractions") else None
+                by_cat[cat_of.get(aid, "?ohne Kategorie")] += 1
+                by_origin[(e.get("metadata") or {}).get("origin", "?")] += 1
+                if (e.get("admission") or {}).get("ticketType") == "ticketType.freeOfCharge":
+                    free += 1
+
+            report.append(f"Kostenlos: {free} von {len(events)}\n")
+            report.append("Events pro Kategorie (14 Tage):")
+            for cat, n in by_cat.most_common():
+                report.append(f"  {n:5d}  {cat:20s} -> {CATEGORY_MAP.get(cat, 'Sonstiges')}")
+            report.append("\nEvents pro Herkunft:")
+            for o, n in by_origin.most_common():
+                report.append(f"  {n:5d}  {o}")
+        except Exception as exc:  # noqa: BLE001
+            report.append(f"FEHLER in der Zählung: {exc}")
 
         if self.write_debug:
             try:
                 DEBUG_DIR.mkdir(parents=True, exist_ok=True)
-                (DEBUG_DIR / "kulturdaten.txt").write_text("\n".join(report), encoding="utf-8")
+                (DEBUG_DIR / "kulturdaten.txt").write_text("\n".join(report) or "leer",
+                                                           encoding="utf-8")
             except OSError:
                 pass
         return []

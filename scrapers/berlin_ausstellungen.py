@@ -43,35 +43,26 @@ class BerlinAusstellungenScraper(BaseScraper):
         html = resp.text
         soup = BeautifulSoup(html, "html.parser")
 
-        # Count candidate containers so we can spot the repeating item element.
-        counts = {}
-        for sel in ("article", ".teaser", ".row-list", ".list", "li.list-item",
-                    "[class*=teaser]", "[class*=ausstellung]", "time",
-                    "a[href*=ausstellungen]"):
-            counts[sel] = len(soup.select(sel))
+        ld = []
+        for s in soup.find_all("script", type="application/ld+json"):
+            ld.append((s.string or "").strip()[:1200])
 
-        # Grab the markup of a likely item for inspection.
-        sample_html = ""
-        candidate = (soup.select_one("[class*=teaser]") or soup.select_one("article")
-                     or soup.select_one("li"))
-        if candidate:
-            sample_html = candidate.prettify()[:1800]
+        # Text of the first few article/teaser items (title + run dates + venue).
+        items = soup.select("article")[:4] or soup.select(".teaser")[:4]
+        item_dumps = []
+        for it in items:
+            txt = re.sub(r"\s+", " ", it.get_text(" ")).strip()
+            link = it.find("a", href=True)
+            href = link["href"] if link else "?"
+            item_dumps.append(f"[{href}]\n{txt[:400]}")
 
         self._dump(
             f"Status: {resp.status_code} | Länge: {len(html)} | "
-            f"JSON-LD: {'application/ld+json' in html}\n"
-            f"Selektor-Treffer: {counts}\n\n"
-            f"--- BEISPIEL-ELEMENT ---\n{sample_html}\n\n"
-            f"--- HTML (3000 Z. ab <main>/<body>) ---\n"
-            f"{self._slice(html)}"
+            f"JSON-LD-Blöcke: {len(ld)}\n\n"
+            f"--- JSON-LD (gekürzt) ---\n" + "\n~~~\n".join(ld[:3]) + "\n\n"
+            f"--- ARTICLE/TEASER-TEXTE ---\n" + "\n\n".join(item_dumps)
         )
         return []
-
-    @staticmethod
-    def _slice(html: str) -> str:
-        m = re.search(r"<main\b", html) or re.search(r"<body\b", html)
-        start = m.start() if m else 0
-        return html[start:start + 3000]
 
     def _dump(self, text: str) -> None:
         if not self.write_debug:

@@ -71,15 +71,47 @@ onloadCSS(loadCss(
 // ]]>
 
   Body (ohne CSS/JS):
-<body class="body cc-page j-m-gallery-styles j-m-video-styles j-m-hr-styles j-m-header-styles j-m-text-styles j-m-emotionheader-styles j-m-htmlCode-styles j-m-rss-styles j-m-form-styles-disabled j-m-table-styles j-m-textWithImage-styles j-m-downloadDocument-styles j-m-imageSubtitle-styles j-m-flickr-styles j-m-googlemaps-styles j-m-blogSelection-styles-disabled j-m-comment-styles-disabled j-m-jimdo-styles j-m-profile-styles j-m-guestbook-styles j-m-promotion-styles j-m-twitter-styles j-m-hgrid-styles j-m-shoppingcart-styles j-m-catalog-styles j-m-product-styles-disabled j-m-facebook-styles j-m-sharebuttons-styles j-m-formnew-styles-disabled j-m-callToAction-styles j-m-turbo-styles j-m-spacing-styles j-m-googleplus-styles j-m-dummy-styles j-m-search-styles j-m-booking-styles j-m-socialprofiles-styles j-footer-styles cc-pagemode-default cc-content-parent" id="page-3139699396">
-<div class="cc-content-parent" id="cc-inner">
-<!-- background-area -->
-<div background-area="" class="jtpl-background-area"></div>
-<!-- END background-area -->
-<input class="jtpl-navigation__checkbox" id="jtpl-navigation__checkbox" type="checkbox"/><!-- _main.sass --><div class="jtpl-main cc-content-parent">
-<div class="jtpl-section cc-content-parent">
-<!-- _header.sass -->
-<header class="jtpl-header alignment-options"><div class="jtpl-header__topbar flex-background-options"></div>
-<section class="jtpl-logo"><div class="cc-single-module-element" id="cc-website-logo"><div class="j-module n j-imageSubtitle" id="cc-m-17559835796"><div class="cc-m-image-container"><figure class="cc-imagewrapper cc-m-image-align-1">
-<a href="https://www.silverfuture.net/" target="_self"><img alt="ufgeregt-unas Webseite!" class="" data-image-id="10196949496" data-src="https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=png/path/s2b65dc657944171c/image/ibf533acc09c6f295/version/1640239692/image.png" data-src-height="702" data-src-width="2778" id="cc-m-imagesubtitle-image-17559835796" sizes="(min-width: 700px) 700px, 100vw" src="https://image.jimcdn.com/app/cms/image/transf/dimension=700x10000:format=png/path/s2b65dc657944171c/image/ibf533acc09c6f295/version/1640239692/image.png" srcset="https://image.jimcdn.com/app/cms/image/transf/dimension=320x10000:format=png/path/s2b65dc657944171c/image/ibf533acc09c6f295/version/1640239692/image.png 320w, https://image.jimcdn.com/app/cms/image/transf/dimension=640x10000:format=png/path/s2b65dc657944171c/image/ibf533acc09c6f295/version/1640239692/image
+ style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+</p>
+<p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+    ❤️Show Theme: LADY GAGA
+</p>
+<p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+    🧡SilverFuture | Weserstraße 206, Neukölln 12047
+</p>
+<p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+    💛01.06.2026
+</p>
+<p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+    💚Show Starts at 19:30, feel free to come early to grab a drink and save your seat!
+</p>
+<p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+    💙Free Entry! 
+</p>
+<p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+    ‼️Remember to bring cash to tip the Queens‼️
+</p>
+<p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+</p>
+<p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+    ✨Drag Roulette is equal parts drag show and improv challenge. Before each queen’s performance, a roulette wheel gets spun to randomly decide what songs they’ll have to perform to on the spot! NO
+    ONE will know what they’re performing to until they’re on stage, SECONDS before the music starts. Get ready for a night full of chaotically FIERCE performances!!✨
+</p>
+<p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+</p>
+<p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+    💖Promise you won’t wanna miss this!! Bring your friends and let’s all start pride month off the right way together!! I can’t wait to see y’all there!!💖
+</p>
+<p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+</p>
+<p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+    Flyer by: @allegra_anxiety
+</p>
+<p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+</p>
+<p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
+    #drag #dragshow #dragroulette #dragqueen #berlindrag
+</p>
+<div class="content-inner" dir="auto" style="box-sizing: border-box; min-width: 0px; color: #000000; font-family: Roboto, -apple-system, BlinkMacSystemFont, 'Apple Color Emoji', 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;">
+<div class="text-content clearfix with-meta" dir="auto" style="box-sizing: border-box; position: relative; unicode-bidi: plaintext;
 ------------------------------------------------------------

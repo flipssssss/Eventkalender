@@ -58,6 +58,8 @@ class Event:
     time_known: bool = True
     # Scene/direction: Kultur, Polit, Queer or Kink (assigned in aggregate).
     genre: str | None = None
+    # Source-specific fine subcategory (e.g. kulturdaten "Music"/"Exhibitions").
+    subcategory: str | None = None
 
     def dedupe_key(self) -> str:
         """Identify duplicate events, also across different sources.
@@ -91,6 +93,7 @@ class Event:
             "tags": sorted({t.strip() for t in self.tags if t and t.strip()}),
             "time_known": self.time_known,
             "genre": self.genre,
+            "subcategory": self.subcategory,
         }
 
 

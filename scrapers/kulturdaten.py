@@ -164,4 +164,5 @@ class KulturdatenScraper(BaseScraper):
             description=desc,
             tags=[self.include[cat]],
             time_known=time_known,
+            subcategory=cat,  # kulturdaten-Kategorie (Music/Exhibitions/…)
         )

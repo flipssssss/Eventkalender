@@ -21,6 +21,13 @@ const state = {
   onlyFav: false,
   favorites: loadFavorites(),
   disabledSources: loadDisabledSources(),
+  disabledKdCats: loadSet("ek_disabled_kdcats"),
+};
+
+const KD_SOURCE = "kulturdaten.berlin";
+const KD_LABELS = {
+  Music: "Musik", Stages: "Bühne", Dance: "Tanz", Festivals: "Festivals",
+  Exhibitions: "Ausstellungen", Art: "Kunst",
 };
 
 const els = {
@@ -43,6 +50,8 @@ const els = {
   settingsClose: document.getElementById("settings-close"),
   themeOptions: document.getElementById("theme-options"),
   sourceToggles: document.getElementById("source-toggles"),
+  kdcatSection: document.getElementById("kdcat-section"),
+  kdcatToggles: document.getElementById("kdcat-toggles"),
   wishText: document.getElementById("wish-text"),
   wishSend: document.getElementById("wish-send"),
 };
@@ -191,8 +200,35 @@ function buildSourceToggles() {
   }
 }
 
+function buildKdcatToggles() {
+  const cats = [...new Set(
+    state.events.filter((e) => e.source_name === KD_SOURCE)
+      .map((e) => e.subcategory).filter(Boolean)
+  )].sort();
+  if (!cats.length) { els.kdcatSection.setAttribute("hidden", ""); return; }
+  els.kdcatSection.removeAttribute("hidden");
+  els.kdcatToggles.innerHTML = "";
+  for (const cat of cats) {
+    const label = document.createElement("label");
+    label.className = "source-toggle";
+    const cb = document.createElement("input");
+    cb.type = "checkbox";
+    cb.checked = !state.disabledKdCats.has(cat);
+    cb.addEventListener("change", () => {
+      if (cb.checked) state.disabledKdCats.delete(cat);
+      else state.disabledKdCats.add(cat);
+      saveSet("ek_disabled_kdcats", state.disabledKdCats);
+      render();
+    });
+    label.appendChild(cb);
+    label.appendChild(document.createTextNode(KD_LABELS[cat] || cat));
+    els.kdcatToggles.appendChild(label);
+  }
+}
+
 function openSettings() {
   buildSourceToggles();
+  buildKdcatToggles();
   els.settingsBackdrop.removeAttribute("hidden");
   document.body.style.overflow = "hidden";
 }
@@ -207,6 +243,14 @@ function loadDisabledSources() {
 }
 function saveDisabledSources() {
   try { localStorage.setItem(SOURCES_KEY, JSON.stringify([...state.disabledSources])); }
+  catch { /* ignore */ }
+}
+function loadSet(key) {
+  try { return new Set(JSON.parse(localStorage.getItem(key) || "[]")); }
+  catch { return new Set(); }
+}
+function saveSet(key, set) {
+  try { localStorage.setItem(key, JSON.stringify([...set])); }
   catch { /* ignore */ }
 }
 
@@ -272,6 +316,9 @@ function matches(ev) {
   }
   // Disabled sources (Einstellungen).
   if (state.disabledSources.has(ev.source_name)) return false;
+  // kulturdaten: einzelne Unterkategorien abschaltbar.
+  if (ev.source_name === KD_SOURCE && ev.subcategory &&
+      state.disabledKdCats.has(ev.subcategory)) return false;
   // Favourites only.
   if (state.onlyFav && !state.favorites.has(eventId(ev))) return false;
   // Text search.

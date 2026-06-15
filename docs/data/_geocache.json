@@ -314,6 +314,12 @@
   "lat": 52.550607,
   "lng": 13.363522
  },
+ "Hochstädterstraße 10a, 13347 Berlin": {
+  "address": "Hochstädter Straße 10A, 13347 Wedding",
+  "bezirk": "Mitte",
+  "lat": 52.5505395,
+  "lng": 13.3634054
+ },
  "Humboldt Forum, Berlin": {
   "address": "Schloßplatz, 10178 Mitte",
   "bezirk": "Mitte",

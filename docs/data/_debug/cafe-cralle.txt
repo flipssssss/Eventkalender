@@ -1,33 +1,7 @@
-HTTP-Status: 200
-Text-Länge: 3263
-JSON-LD: False
-
---- TEXT (erste 3000 Zeichen) ---
-Lesetresen
- montags findet nicht mehr statt
-Jeden 3. Montag im Monat
-FLINTA*-Lesekreis
-Jeden 2. Dienstag im Monat
-Internationalist Night with Perspektive Selbstverwaltung
-Monthly cozy get together with: Internationalist comrades, soli-drinks and a short input with an open discussion
-Jeden 1. Mittwoch im Monat
-Tea, Thoughts and Theories
-An experiment event hosted by Vanessa Júpiter. Always on the first Wednesday of the month!
-Doors 19:00 – Show 20:00
-Bring unfinished numbers; pieces of costumes; thoughts about life, the world or art that could be translated into a new artistic vision; improvise your feelings through dance or text; read or present anything that inspires, frightens, or motivates you right now!
-Message jupitervp93[ät]gmail.com if you want more info on the conditions and what can be expected.
-https://vanessajup.wordpress.com/
-Jeden letzten Mittwoch im Monat
-FLINTA*-Stammtisch
-Dies ist ein Stammtisch für agender Personen, alle trans* Menschen, nichtbinäre Personen, Menschen, die inter sind, Lesben und Frauen. Der Stammtisch ist zum Vernetzen und für nettes Beisammensein gedacht. Egal, ob du neu in der Stadt bist und einfach neue Menschen treffen möchtest oder Bock auf politische Diskussion hast und z.B. über die nächsten Demos und Veranstaltungen reden möchtest – hier bist du willkommen! 
-This is a meet-up for agender folks, trans* people, nonbinary people, inter folks, lesbians and women. The meet-up is dedicated to connecting and socialising. Whether you just moved to Berlin and want to meet new people or you’re interested in political discussions and looking fort he next demonstrations or events – you’re welcome here! 
-Jeden dritten Donnerstag im Monat
-Queerer Kneipenabend
-Einmal im Monat laden wir zum Queeren Kneipenabend ein! Zusammenkommen, austauschen, quatschen, anstoßen und feiern. Oft bereiten wir auch ein kleines Spiel oder einen extra Drink vor. Kommt dazu einfach zu uns, in Glitzer, in Drag, in Jogginghose oder wie auch immer… Bringt falls ihr habt gerne Flyer und Plakate von euren Projekten zum weitergeben mit.
-We kindly invite you to our monthly Queer Bar Night! Come together, chat, raise our glasses and celebrate. Oftentimes we prepare some game or special drink. Just come as you are, in glitter, in drag, in your favorite trainers or whatever you fancy. Please bring your posters / Flyers / … to share.
-Sonntags: einmal im Monat
-Queeres Trauercafé
-Das Queere Trauercafé ist eine Selbsthilfegruppe, die einmal im Monat stattfindet, und sich an queere Personen richtet.
-Das Trauercafé bietet einen Ort, sich in der Gruppe mit den eigenen Trauererfahrungen und Formen des Abschieds um eine verstorbene Person auseinanderzusetzen. Hier können Geschichten von der/den verstorbenen Person(en) erzählt, Gefühle geteilt und Fragen zum Abschied nehmen gestellt werden.
-Organisatorisches: Eine regelmäßige Teilnahme an den Treffen ist nicht notwendig. Ihr könnt jederzeit dazu stoßen. Meldet Euch dazu per E-Mail an 
-queerestrauercafe@posteo.d
+Events: 12
+Regeln gefunden: 5
+  Jeden 3. Montag im Monat -> FLINTA*-Lesekreis
+  Jeden 2. Dienstag im Monat -> Internationalist Night with Perspektive Selbstverwaltung
+  Jeden 1. Mittwoch im Monat -> Tea, Thoughts and Theories
+  Jeden letzten Mittwoch im Monat -> FLINTA*-Stammtisch
+  Jeden dritten Donnerstag im Monat -> Queerer Kneipenabend

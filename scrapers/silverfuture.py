@@ -48,8 +48,25 @@ HEADING_RE = re.compile(
     re.IGNORECASE,
 )
 DATE_RE = re.compile(r"(\d{1,2})\.\s?(\d{1,2})\.\s?(\d{4})")
-TIME_RE = re.compile(r"(\d{1,2}):(\d{2})")
+# 12h times with am/pm (e.g. "7:30pm", "7pm") take priority so they aren't
+# read as 07:30; otherwise a plain 24h "19:30".
+TIME_AMPM_RE = re.compile(r"\b(\d{1,2})(?::(\d{2}))?\s*([ap])m\b", re.IGNORECASE)
+TIME_RE = re.compile(r"\b(\d{1,2}):(\d{2})\b")
 EMOJI_STRIP = " .!|❤️🧡💛💚💙💖✨‼️⭐️🗓️📍⏰🎟️🏳️‍🌈🏳️‍⚧️"
+
+
+def _parse_time(window: str) -> tuple[str, str]:
+    """Best-effort show time from the text after a heading -> (HH, MM)."""
+    m = TIME_AMPM_RE.search(window)
+    if m:
+        hh = int(m.group(1)) % 12
+        if m.group(3).lower() == "p":
+            hh += 12
+        return f"{hh:02d}", m.group(2) or "00"
+    m = TIME_RE.search(window)
+    if m:
+        return m.group(1), m.group(2)
+    return "20", "00"
 
 
 def _infer_year(day: int, mon: int) -> int:
@@ -93,9 +110,8 @@ class SilverfutureScraper(BaseScraper):
                 continue
 
             after = text[m.end():m.end() + 700]
-            # Time: first HH:MM after the heading (e.g. "Show Starts at 19:30").
-            tmatch = TIME_RE.search(after)
-            hh, mm = (tmatch.groups() if tmatch else ("20", "00"))
+            # Time: prefer "7:30pm"/"7pm" (12h) over a bare 24h "19:30".
+            hh, mm = _parse_time(after)
             start = parse_datetime(f"{year}-{mon:02d}-{day:02d} {hh}:{mm}")
             if not start:
                 continue

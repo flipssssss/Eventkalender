@@ -55,12 +55,9 @@ sources:
     name: Karada House
     type: ical
     category: Workshop        # alle Karada-Events als Workshop
-  # Party Dyke Berlin (queere/lesbische Partys) -- Wix-Events-Seite.
-  # Versuch zuerst über JSON-LD; rendert die Seite clientseitig, folgt
-  # ein eigener Ausleser.
-  - url: https://www.partydykeberlin.com/event-list
-    name: Party Dyke Berlin
-    category: Party
+  # Party Dyke Berlin -> eigener Ausleser (scrapers/partydyke.py), weil die
+  # Wix-Seite clientseitig rendert und die Daten nur auf den Detailseiten
+  # (als JSON-LD) stehen.
   # tip Berlin: eigener Ausleser (scrapers/tipberlin.py) wegen Bot-Schutz.
   # Siegessäule wird über einen eigenen Ausleser eingebunden
   # (scrapers/siegessaeule.py), weil die Events in einem Sapper-Preload

@@ -38,6 +38,7 @@ from scrapers.tipberlin import TipBerlinScraper
 from scrapers.ical import ICalScraper
 from scrapers.jsonld import JsonLdScraper
 from scrapers.stressfaktor import StressfaktorScraper
+from scrapers.partydyke import PartyDykeScraper
 
 ROOT = pathlib.Path(__file__).parent
 OUTPUT = ROOT / "docs" / "data" / "events.json"
@@ -106,6 +107,8 @@ def get_scrapers():
         SilverfutureScraper(),
         # Klub Verboten (RA) -- Sonde, ob die API erreichbar ist.
         KlubVerbotenScraper(),
+        # Party Dyke Berlin (Wix) -- liest die Event-Detailseiten (JSON-LD).
+        PartyDykeScraper(),
         # Siegessäule -- queerer Eventkalender, Kategorie automatisch.
         SiegessaeuleScraper(days=HORIZON_DAYS),
         # tip Berlin -- deaktiviert: keine erreichbare Quelle für Event-Daten

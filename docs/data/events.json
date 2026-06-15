@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-15T08:40:18.919567+00:00",
-  "count": 609,
+  "generated_at": "2026-06-15T08:46:54.040952+00:00",
+  "count": 590,
   "sources": [
     {
       "source": "Silverfuture",
@@ -14,8 +14,8 @@
     },
     {
       "source": "Karada House",
-      "count": 30,
-      "error": null
+      "count": 0,
+      "error": "403 Client Error: Forbidden for url: https://karada-house.de/?post_type=tribe_events&ical=1&eventDisplay=list"
     },
     {
       "source": "Stressfaktor",
@@ -57,7 +57,8 @@
         "Ausstellung"
       ],
       "time_known": false,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Exhibitions"
     },
     {
       "title": "Hochzeiten aus den Familienalben",
@@ -72,7 +73,8 @@
         "Ausstellung"
       ],
       "time_known": false,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Exhibitions"
     },
     {
       "title": "Fotoausstellung: Naturstadt - Berlin – Stadtnatur",
@@ -87,7 +89,8 @@
         "Ausstellung"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Exhibitions"
     },
     {
       "title": "Provenienzforschung - Objekte befragen – Antworten finden",
@@ -102,7 +105,8 @@
         "Ausstellung"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Exhibitions"
     },
     {
       "title": "Das Gotische Haus in der Spandauer Altstadt",
@@ -117,7 +121,8 @@
         "Ausstellung"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Exhibitions"
     },
     {
       "title": "Halle - Leipzig International Gruppenausstellung  ................................. Kunst am Bau - 2 Projekte",
@@ -132,7 +137,8 @@
         "Ausstellung"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Exhibitions"
     },
     {
       "title": "Aufführung: Aneinander Vorbei",
@@ -147,7 +153,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Stages"
     },
     {
       "title": "Antje Majewski & Jen Tiger – Osage Orange",
@@ -162,7 +169,8 @@
         "Ausstellung"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": "Exhibitions"
     },
     {
       "title": "DER TANZENDE SONNTAG",
@@ -177,7 +185,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Dance"
     },
     {
       "title": "Ausstellung: \"Gesichter im Licht. Gesichter im Schatten.\" - Portraitausstellung von Elke Krause",
@@ -192,7 +201,8 @@
         "Ausstellung"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Exhibitions"
     },
     {
       "title": "Die Villa Schwartz",
@@ -207,7 +217,8 @@
         "Ausstellung"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Exhibitions"
     },
     {
       "title": "…oder liebst du deine Scheuklappen?",
@@ -222,7 +233,8 @@
         "Ausstellung"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": "Exhibitions"
     },
     {
       "title": "Der Kunstverein Tiergarten e. V. mit der Ausstellung “Critical Friends”",
@@ -237,7 +249,8 @@
         "Ausstellung"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Exhibitions"
     },
     {
       "title": "Berliner Stadtmodelle",
@@ -252,7 +265,8 @@
         "Ausstellung"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Exhibitions"
     },
     {
       "title": "»Die gesiezte Tochter. My Total Deconstruction of an Armenian Family«",
@@ -267,7 +281,8 @@
         "Ausstellung"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Exhibitions"
     },
     {
       "title": "Niina Lehtonen Braun – My body is my studio",
@@ -282,7 +297,8 @@
         "Ausstellung"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Exhibitions"
     },
     {
       "title": "Architecture of Hidden Activity",
@@ -297,7 +313,8 @@
         "Ausstellung"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Exhibitions"
     },
     {
       "title": "Bedrohung / Zagrożenie / Menace ......... Gruppenausstellung",
@@ -312,7 +329,8 @@
         "Ausstellung"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Exhibitions"
     },
     {
       "title": "ZEITFELDER - TIMEFIELDS .................. Amer Akel - Pfelder - Simone Zaugg",
@@ -327,7 +345,8 @@
         "Ausstellung"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Exhibitions"
     },
     {
       "title": "Ausstellung Furore",
@@ -342,7 +361,8 @@
         "Ausstellung"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Exhibitions"
     },
     {
       "title": "Senioren Tanzen",
@@ -357,7 +377,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Dance"
     },
     {
       "title": "Missing St. Moritz - Geschichte einer verlorenen Kirche",
@@ -372,7 +393,8 @@
         "Ausstellung"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": "Exhibitions"
     },
     {
       "title": "Ausstellung „Das beste Kennenlernen“ von Jürgen Eisenacher",
@@ -387,7 +409,8 @@
         "Ausstellung"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Exhibitions"
     },
     {
       "title": "Ausstellung „Partitur - Wenn Tanz und Malerei sich begegnen“",
@@ -402,7 +425,8 @@
         "Ausstellung"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Exhibitions"
     },
     {
       "title": "Ausstellung-Wilde Schönheit Fotografien von Kai Biermann",
@@ -417,7 +441,8 @@
         "Ausstellung"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Exhibitions"
     },
     {
       "title": "„Kolonialbiografien aus Lichtenberg“ – neue Werkstattausstellung im Museum Lichtenberg",
@@ -432,7 +457,8 @@
         "Ausstellung"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Exhibitions"
     },
     {
       "title": "Konferenz: „Verbinden statt spalten – Gemeinsam gegen Queerfeindlichkeit“",
@@ -447,7 +473,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Die Montagsspieler",
@@ -462,7 +489,8 @@
         "Sonstiges"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Papiertheater mit dem Stück: „Schnurzpiepegal“",
@@ -477,7 +505,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Festivals"
     },
     {
       "title": "Queer Yoga - Monday Fire",
@@ -492,7 +521,8 @@
         "Sonstiges"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Pokémon-Tauschbörse",
@@ -507,7 +537,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Festivals"
     },
     {
       "title": "All-Gender-Fußball",
@@ -522,7 +553,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Blue Monday Chillout",
@@ -537,7 +569,8 @@
         "Sonstiges"
       ],
       "time_known": true,
-      "genre": "Kink"
+      "genre": "Kink",
+      "subcategory": null
     },
     {
       "title": "Fahrrad-Selbsthilfe-Werkstatt",
@@ -552,7 +585,8 @@
         "Sonstiges"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Tanztherapie-Workshops für Afro- und BIPoC-Communites*: Gemeinsam Wachsen - Stark und Stabil",
@@ -567,7 +601,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": "Dance"
     },
     {
       "title": "Queer Yoga - Slow Flow",
@@ -582,7 +617,8 @@
         "Sonstiges"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Vernetzung der Mieter/innen der landeseigenen Wohnungsunternehmen (LWU Vernetzung)",
@@ -597,7 +633,8 @@
         "Sonstiges"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Offene Mietenberatung",
@@ -612,7 +649,8 @@
         "Sonstiges"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Offene Mieterberatung",
@@ -627,22 +665,8 @@
         "Sonstiges"
       ],
       "time_known": true,
-      "genre": "Polit"
-    },
-    {
-      "title": "Rope for Absolute Beginners",
-      "start": "2026-06-15T19:00:00",
-      "end": "2026-06-15T22:00:00",
-      "location": "KARA, Perleberger Straße 59, Berlin, 10559, Germany",
-      "description": "Welcome to the world of Japanese style rope bondage, friend! It’s wild and fun out here and we are thrilled to be your point of entry. \nThis weekly class is designed for anyone who would like to learn about Japanese-inspired rope bondage/shibari/kinbaku whether you see yourself in the role of the person tying or being tied. We firmly believe that everyone, even if you wish to be tied, should know the absolute basics of this craft. \nWhat we do\n\nWe talk about what the heck is Japanese inspired rope bondage and why we call it “inspired”.\nWe show you the tools are we using and tell you why they are designed the way they are.\nWe talk about why people love to tie/get tied and what happens if you tie/get tied?\nWe show you the fundamental principles of shibari and first techniques you can immediately use\nWe talk about the history of shibari, give you pointers on anatomy, psychology and safety\nWe will tie ourselves, other people (if you and they want to) and actually take time to try stuff out and play, play, play\n\nThis class is suited for\n\nall kinds of bodies (abled and non-abled), all gender expressions, all kinds of sexualities (including people on the ace-spectrum), all kind of brains (neurospicy or neurotypical, affected by trauma, etc.)\npeople coming solo or bringing a partner (or group), people who only want to tie their own bodies as well as people who want to tie/get tied by others",
-      "image_url": "https://karada-house.de/wp-content/uploads/2025/12/mg_0407-scaled.jpg",
-      "source_url": "https://karada-house.de/events/rope-for-absolute-beginner-150626/",
-      "source_name": "Karada House",
-      "tags": [
-        "Sonstiges"
-      ],
-      "time_known": true,
-      "genre": "Kink"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Soli-Bleiberechtsbar",
@@ -657,7 +681,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Konzert",
@@ -672,7 +697,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Konzert",
@@ -687,7 +713,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Gesellschaft erkennen, kritisieren und verändern.",
@@ -702,7 +729,8 @@
         "Vortrag"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Anarchist Dinner: Free the Ulm 5!",
@@ -717,7 +745,8 @@
         "Vortrag"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "OffenesTreffendesprovisorischenanarchistischenAntikriegsrats",
@@ -732,7 +761,8 @@
         "Sonstiges"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Liina Magnea: What’s a Mob to a King (Plot-twist Redemption)",
@@ -747,7 +777,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "FLINTA* LESEKREIS",
@@ -762,7 +793,8 @@
         "Essen"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Geht es dir gut?",
@@ -777,7 +809,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Ulm5 Prozess-Update - Anarchist Dinner",
@@ -792,7 +825,8 @@
         "Vortrag"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Call me Paris",
@@ -807,7 +841,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Electric Monday",
@@ -822,7 +857,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Filmabend inK(P)",
@@ -837,7 +873,8 @@
         "Film"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "10,000 Blinks presents: I AM STILL ALIVE",
@@ -852,7 +889,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Konferenz: „Verbinden statt spalten – Gemeinsam gegen Queerfeindlichkeit“",
@@ -867,7 +905,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Spatzenkino: Michel und Ida aus Lönneberga",
@@ -882,7 +921,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Stages"
     },
     {
       "title": "Ausstellung \"Stories We Carry - Comics über Diaspora und Zugehörigkeit\"",
@@ -897,7 +937,8 @@
         "Ausstellung"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Exhibitions"
     },
     {
       "title": "HÉLÈNE FAURIAT | VON DER RÉSISTANCE ZUR ZWANGSARBEIT IN SCHÖNEFELD",
@@ -912,7 +953,8 @@
         "Ausstellung"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Exhibitions"
     },
     {
       "title": "Aufführung: Vier zurück",
@@ -927,7 +969,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Stages"
     },
     {
       "title": "Forced to Work – Willing to Survive | Zwangsarbeit in Vergangenheit und Gegenwart",
@@ -942,7 +985,8 @@
         "Ausstellung"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Exhibitions"
     },
     {
       "title": "Aufführung: Hase und Igel",
@@ -957,7 +1001,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Stages"
     },
     {
       "title": "„What’s going on?“ - Gruppenausstellung im Mies van der Rohe Haus",
@@ -972,7 +1017,8 @@
         "Ausstellung"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Exhibitions"
     },
     {
       "title": "»Pankow als Motiv« – Max Skladanowsky – Filmpionier und Fotograf",
@@ -987,7 +1033,8 @@
         "Ausstellung"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Exhibitions"
     },
     {
       "title": "»Constantin Hartenstein – Prototyp« – Eine Ausstellung der Galerie Parterre im Kleinen Wasserspeicher",
@@ -1002,7 +1049,8 @@
         "Ausstellung"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": "Exhibitions"
     },
     {
       "title": "Tanznachmittag",
@@ -1017,7 +1065,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Runder Tisch Queeres Steglitz-Zehlendorf",
@@ -1032,7 +1081,8 @@
         "Sonstiges"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Operndolmus - „Hadi Bakalim – Auf geht‘s“",
@@ -1047,7 +1097,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Festivals"
     },
     {
       "title": "Veranstaltung für Senior:innen: Führung durch den Kleinen Wasserspeicher",
@@ -1062,7 +1113,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Festivals"
     },
     {
       "title": "Internationalen Tag der Afrikanischen Kinder",
@@ -1077,7 +1129,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Festivals"
     },
     {
       "title": "Repair Café III der KlimaWerkstatt Spandau (Kladow)",
@@ -1092,7 +1145,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Festivals"
     },
     {
       "title": "Flinta*only Kickern",
@@ -1107,7 +1161,8 @@
         "Essen"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Kiezküche im Kiezhaus Agnes Reinhold",
@@ -1122,7 +1177,8 @@
         "Essen"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "IT-Beratung für Aktivist:innen und Gruppen",
@@ -1137,7 +1193,8 @@
         "Workshop"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Country-Linedance im STZ",
@@ -1152,7 +1209,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Queer Ageing Group",
@@ -1167,7 +1225,8 @@
         "Sonstiges"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "SM am Dienstag - SM on Tuesday",
@@ -1182,37 +1241,8 @@
         "Sonstiges"
       ],
       "time_known": true,
-      "genre": "Kink"
-    },
-    {
-      "title": "How To Play...",
-      "start": "2026-06-16T19:00:00",
-      "end": "2026-06-16T21:00:00",
-      "location": "https://karada-house.de/events/how-to-play/",
-      "description": "Maybe you don’t know someone very well but both want to have fun, hot, or cute times with rope… how do you actually do that? Everyone wants to play, but many of us don’t know how.\nThis session looks at practical ways to start to actually play in rope (with new partner or maybe partners we know very well but feel a bit stuck with) beyond repeating the same patterns or keeping things so ‘safe’ and familiar that you never really drop into your flow where you can express what you want or discover something new.\nFor me… play needs a mix of curiosity and fantasy, a bit of vulnerability and confidence, mixed with a big dose of fuck around and find out… so what helps cultivate that? And how do we navigate the pleasure and risk of trying tying with someone new, doing this ‘play’, building trust as you go?\nWhat will we cover\n\n\nNegotiating and upholding care in these situations – what’s important to know?\n\n\nHow can you create a sense of narrative through roles, dynamics, and intentions?\n\n\nHow do you begin a session and work with its ‘flow’? (What does this even mean?)\n\n\nWhat risks are you willing to take? What’s off limits? What consent practices actually work here?\n\n\nHow do you end things intentionally?\n\n\nLet’s unpick a bit of this language and see what it looks like in practical senses. We’ll approach this through discussion, demo, and reflection, with space for your questions, ideas, and invitations to inspire your own exploration",
-      "image_url": "https://karada-house.de/wp-content/uploads/2026/04/mg_7950.jpg",
-      "source_url": "https://karada-house.de/events/how-to-play/",
-      "source_name": "Karada House",
-      "tags": [
-        "Sonstiges"
-      ],
-      "time_known": true,
-      "genre": "Kink"
-    },
-    {
-      "title": "Rope Structures: Exploring Different Tying Styles",
-      "start": "2026-06-16T19:00:00",
-      "end": "2026-06-16T21:30:00",
-      "location": "KARA, Perleberger Straße 59, Berlin, 10559, Germany",
-      "description": "Japanese inspired rope bondage or shibari comes in many different styles, both in Japan and outside. This class is your introduction into understanding the key differences of styles like Akechi , Naka, or Yukimura Ryu. We will also continue exploring modular thinking by learning what happens after the basic blueprint. \nRope Structures\nTake your fundamentals and start building stronger, more supportive structures. We explore specific harness types, styles, body positions, and different tying styles from across rope traditions.",
-      "image_url": "https://karada-house.de/wp-content/uploads/2025/11/mg_6361-edited.jpg",
-      "source_url": "https://karada-house.de/events/exploring-shibari-styles-berlin-0626/",
-      "source_name": "Karada House",
-      "tags": [
-        "Sonstiges"
-      ],
-      "time_known": true,
-      "genre": "Kink"
+      "genre": "Kink",
+      "subcategory": null
     },
     {
       "title": "anarcha solidarity kitchen",
@@ -1227,7 +1257,8 @@
         "Essen"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Breaking News - offener politischer Treff (14-27 Jahre)",
@@ -1242,7 +1273,8 @@
         "Sonstiges"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Soli-Küfa",
@@ -1257,7 +1289,8 @@
         "Essen"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Lesung",
@@ -1272,7 +1305,8 @@
         "Sonstiges"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Kuratorinnenführung: umbenennen?!",
@@ -1287,7 +1321,8 @@
         "Ausstellung"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Exhibitions"
     },
     {
       "title": "Film: The History of Sound",
@@ -1302,7 +1337,8 @@
         "Film"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Queercoustic Hangout",
@@ -1317,7 +1353,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Egal",
@@ -1332,7 +1369,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Ich weiß nicht, was ein Ort ist, ich kenne nur seinen Preis (Manzini-Studien)",
@@ -1347,7 +1385,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Lesung und Gespräch mit Ulli Zelle – „Mein Berlin, mein Leben“",
@@ -1362,7 +1401,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Festivals"
     },
     {
       "title": "Resonanzen des Südens",
@@ -1377,7 +1417,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Flinta*only Kickern",
@@ -1392,7 +1433,8 @@
         "Essen"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Shipwrecked jam 16 + anarcha soli kitchen",
@@ -1407,7 +1449,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "DER SOLDAT. Ein Übergangsritual",
@@ -1422,7 +1465,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Im Herzen der Gewalt",
@@ -1437,7 +1481,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Fragezeichen am Hörizont der Tauben",
@@ -1452,7 +1497,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Two-Song Tuesday (MUSIC STARTS 20:00)",
@@ -1467,7 +1513,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "LatinoKino",
@@ -1482,7 +1529,8 @@
         "Film"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Hamsterrad",
@@ -1497,7 +1545,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Aufführung: Hase und Igel",
@@ -1512,7 +1561,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Stages"
     },
     {
       "title": "Aufführung: Vier zurück",
@@ -1527,7 +1577,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Stages"
     },
     {
       "title": "Spatzenkino: Michel und Ida aus Lönneberga",
@@ -1542,7 +1593,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Stages"
     },
     {
       "title": "Rhizomatischer Spaziergang ............ JULIEN PACCARD",
@@ -1557,7 +1609,8 @@
         "Ausstellung"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": "Exhibitions"
     },
     {
       "title": "Berlin, the Bitch and the Witch",
@@ -1572,7 +1625,8 @@
         "Ausstellung"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": "Exhibitions"
     },
     {
       "title": "\"Wir schwofen\"",
@@ -1587,7 +1641,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Kaffee & Kultur",
@@ -1602,7 +1657,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Projektband für Frauen* und Queers",
@@ -1617,7 +1673,8 @@
         "Sonstiges"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Dixieland-Jazz im Bahnhof",
@@ -1632,7 +1689,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Märchen & Magie im Wasserturm – Ein Fest zum Mitmachen",
@@ -1647,7 +1705,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Dance"
     },
     {
       "title": "Domesticity",
@@ -1662,7 +1721,8 @@
         "Ausstellung"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Exhibitions"
     },
     {
       "title": "Kleine feine TANZstunde (Mit Anmeldung!)",
@@ -1677,7 +1737,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Dance"
     },
     {
       "title": "Europa, wir Kinder. Ein Spielstraßentheater",
@@ -1692,7 +1753,8 @@
         "Ausstellung"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Art"
     },
     {
       "title": "Die Welt im Umbruch: Emotionen und Solidarität",
@@ -1707,7 +1769,8 @@
         "Workshop"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "KBB vor Ort: „Die Macht der Medien“ - Führung im Museum für Kommunikation",
@@ -1722,7 +1785,8 @@
         "Ausstellung"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Exhibitions"
     },
     {
       "title": "Theaterführung",
@@ -1737,7 +1801,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "„Länderreise: Entdecke mit uns Europa“",
@@ -1752,7 +1817,8 @@
         "Ausstellung"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Art"
     },
     {
       "title": "mittwochskufa",
@@ -1767,7 +1833,8 @@
         "Essen"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Küfa im JUP",
@@ -1782,7 +1849,8 @@
         "Essen"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Political Movie Night :  \"Wildstreik\" Köln 1973",
@@ -1797,7 +1865,8 @@
         "Film"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Filmvorführung \"Every Body\" und Diskussion",
@@ -1812,7 +1881,8 @@
         "Film"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Häkelhektar",
@@ -1827,7 +1897,8 @@
         "Sonstiges"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "#Logoskop vierundvierzig",
@@ -1842,7 +1913,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Odesa-Festtage 2026 in Lichtenberg: SCHUM: Odesa – Kultur verbindet",
@@ -1857,7 +1929,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Festivals"
     },
     {
       "title": "Bingo mit den Wodkasisters",
@@ -1872,7 +1945,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Romani POV: Young Roma on Screen and Stage",
@@ -1887,7 +1961,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Beziehungskiller Wohnungskrise – Über das Zusammenleben unter Bedingungen der Knappheit",
@@ -1902,7 +1977,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Hypnose Stammtisch & Anfänger*innen / Beginners Workshop: Was ist Hypnose und was kann das?",
@@ -1917,37 +1993,8 @@
         "Sonstiges"
       ],
       "time_known": true,
-      "genre": "Kink"
-    },
-    {
-      "title": "Radical Inclusion",
-      "start": "2026-06-17T19:00:00",
-      "end": "2026-06-17T21:30:00",
-      "location": "https://karada-house.de/events/radical-inclusion/",
-      "description": "The world can often feel divided and exclusionary. What would it mean to turn that on its head? This workshop explores how we can actively include ourselves and others, while acknowledging the real need for both inclusive and separatist spaces. \nTogether, we will examine the barriers that create exclusion—such as access, power dynamics, and social norms—and explore practical ways to respond to them. The focus is on finding a balance between collective needs and individual experiences, and reimagining what truly supportive spaces can look like. \nLed by Caritia, this session offers a space for reflection, discussion, and collaborative thinking. Participants will be invited to design and imagine the kinds of groups and environments they would want to be part of, while developing tools to meaningfully include difference and diversity for the benefit of all. \nWhat we’ll cover\n\n\nWhat “radical inclusion” means in practice \n\n\nThe role of exclusion: boundaries, safety, and separatist spaces \n\n\nIdentifying barriers to inclusion (access, identity, power) \n\n\nBalancing individual needs with group dynamics \n\n\nDesigning spaces you would actually want to belong to \n\n\nPractical strategies for including difference and diversity",
-      "image_url": "https://karada-house.de/wp-content/uploads/2025/11/mg_6950.jpg",
-      "source_url": "https://karada-house.de/events/radical-inclusion/",
-      "source_name": "Karada House",
-      "tags": [
-        "Sonstiges"
-      ],
-      "time_known": true,
-      "genre": "Kink"
-    },
-    {
-      "title": "Queer Rope Jam",
-      "start": "2026-06-17T19:00:00",
-      "end": "2026-06-17T23:00:00",
-      "location": "KARA, Perleberger Straße 59, Berlin, 10559, Germany",
-      "description": "It’s queer rope jam time, babes! Once in a while you gotta do ropey stuff amongst other queers and just enjoy yourself. No posing, no being cool or extra good at doing ropey things needed. Come as you are, exhale and enjoy yourselves. \nWhat is a rope jam?\nRope jams is an open space format. Part hangout, part jamming with other like-minded people who are into rope bondage/shibari/kinbaku. Come and hang out and watch others do ropey stuff or do some yourself.  The queer rope jam is where you can bring your (rope) partner(s) or meet new people who love to tie, be tied and/or self-tie. It is also a great space to have sessions in a safe(r) environment with people you do not know yet. \nWe welcome all styles, all bodies, all knowledge levels. There will be cute music, extra special lighting and snacks. In the last hour of the jam, we will lower the lights and music and make it extra cozy.",
-      "image_url": "https://karada-house.de/wp-content/uploads/2022/11/MG_1274-scaled.jpeg",
-      "source_url": "https://karada-house.de/events/queer-rope-jam-0626/",
-      "source_name": "Karada House",
-      "tags": [
-        "Sonstiges"
-      ],
-      "time_known": true,
-      "genre": "Kink"
+      "genre": "Kink",
+      "subcategory": null
     },
     {
       "title": "Soli-Küfa, jeden Mittwoch 19 Uhr",
@@ -1962,7 +2009,8 @@
         "Essen"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Konzert",
@@ -1977,7 +2025,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Soli-Abend Nein zur Bezahlkarte",
@@ -1992,7 +2041,8 @@
         "Protest"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Fermentationsworkshop - Can you jam that?",
@@ -2007,7 +2057,8 @@
         "Workshop"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Lesekreis: Die Überlegenheit der Unterlegenen. Eine Theorie der Gegengemeinschaften - Daniel Loick",
@@ -2022,7 +2073,8 @@
         "Vortrag"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "STRESS POSITIONS - NERVE CENTER - RYTES",
@@ -2037,7 +2089,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "DER SOLDAT. Ein Übergangsritual",
@@ -2052,7 +2105,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "P14 – endlich endlich",
@@ -2067,7 +2121,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Fachgruppenkonzert Blasinstrumente",
@@ -2082,7 +2137,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "90 Jahre Ken Loach: Kes (OmU)",
@@ -2097,7 +2153,8 @@
         "Film"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Egal",
@@ -2112,7 +2169,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Fantômas",
@@ -2127,7 +2185,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "KüFa (Kitchen for all)",
@@ -2142,7 +2201,8 @@
         "Film"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Im Herzen der Gewalt",
@@ -2157,7 +2217,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "TWINK DEATH",
@@ -2172,7 +2233,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Cravo e Canela 4tet",
@@ -2187,7 +2249,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Vegane Küfa",
@@ -2202,7 +2265,8 @@
         "Essen"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "VideoKino (Open Air)",
@@ -2217,7 +2281,8 @@
         "Film"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Spatzenkino: Michel und Ida aus Lönneberga",
@@ -2232,7 +2297,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Stages"
     },
     {
       "title": "Kiezbürgeramt schaut anlässlich des 40 jährigen Bestehens von Kotti e.V.  im Nachbarschafts- und Gemeinwesenverein am Kottbusser Tor vorbei",
@@ -2247,7 +2313,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Festivals"
     },
     {
       "title": "Archipel der Stimmen",
@@ -2262,7 +2329,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Festivals"
     },
     {
       "title": "Pop-Up Sommerbibliothek",
@@ -2277,7 +2345,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Festivals"
     },
     {
       "title": "Tanznachmittag",
@@ -2292,7 +2361,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Qigong & Taiji für deine Lebensenergie!",
@@ -2307,7 +2377,8 @@
         "Sonstiges"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Die solidarische Jobcenter-Sozialberatung",
@@ -2322,7 +2393,8 @@
         "Workshop"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Solicafé Klatsche",
@@ -2337,7 +2409,8 @@
         "Ausstellung"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Bum Bum Musik",
@@ -2352,7 +2425,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Sandmalerei-Show „Aschenputtel“ im „Kiek in“",
@@ -2367,7 +2441,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Dance"
     },
     {
       "title": "Rhythmusgruppe für Erwachsene",
@@ -2382,7 +2457,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Gutschein-Tausch im YAAM",
@@ -2397,7 +2473,8 @@
         "Protest"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Save the Date: Hoffest „Junges Europa“ 2026",
@@ -2412,7 +2489,8 @@
         "Ausstellung"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Art"
     },
     {
       "title": "Sommerkonzert in der Käthe-Kruse-Grundschule",
@@ -2427,7 +2505,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Gemeinsame Klänge",
@@ -2442,7 +2521,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Fesselei - Bondage Jam",
@@ -2457,7 +2537,8 @@
         "Sonstiges"
       ],
       "time_known": true,
-      "genre": "Kink"
+      "genre": "Kink",
+      "subcategory": null
     },
     {
       "title": "queer-feministische Fahrrad-Werkstatt | queer feminist bike workshop",
@@ -2472,7 +2553,8 @@
         "Sonstiges"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Eddy Playground",
@@ -2487,7 +2569,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Aperol Spritz-Night  -> 5 Euro",
@@ -2502,7 +2585,8 @@
         "Essen"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Verantwortung für Kindern als Methode des Postkapitalismus.",
@@ -2517,7 +2601,8 @@
         "Sonstiges"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Artist Talk: Kunst trifft Gespräch",
@@ -2532,7 +2617,8 @@
         "Ausstellung"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Exhibitions"
     },
     {
       "title": "Konzert: Lea Rahel Bader am Barockcello",
@@ -2547,7 +2633,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Tanzen für Körper & Seele",
@@ -2562,7 +2649,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Dance"
     },
     {
       "title": "Kiezchor 99",
@@ -2577,7 +2665,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Queeres ImproTheater",
@@ -2592,7 +2681,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": "Dance"
     },
     {
       "title": "TANZzeit",
@@ -2607,22 +2697,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Kultur"
-    },
-    {
-      "title": "Having Sex with Vulvas",
-      "start": "2026-06-18T19:00:00",
-      "end": "2026-06-18T22:00:00",
-      "location": "https://karada-house.de/events/having-sex-with-vulvas-2/",
-      "description": "Curious about how to give (or get) better pleasure with vulvas, but not sure where to start? Think you already know it all? (You probably don’t—and that’s okay.) Whether you want to increase pleasure for your own or someone else’s vulva, this class is for you. \nIn this deep-dive, inclusive, and no-shame space, you’ll learn:\n\nThe real anatomy of vulvas and vaginas — beyond the textbook\nPleasure-focused techniques that actually work\nHow to unlearn common myths and sexual scripts that get in the way\nPractical info on common issues and how to support vulva health\n\nCeci will go beyond the basics to help you build confidence, communication skills, and a deeper understanding of what brings pleasure to vulva owners. This is a space for anyone who wants to be better at giving or receiving vulva pleasure, regardless of gender, identity, or experience level. \nWhat makes this workshop different?\n\nIt’s inclusive and welcoming to trans and non-binary people\nIt combines expert-led teaching with honest conversation and reflection\nIt’s juicy, informative, and yes, a little nerdy\n\nWhether you’re here to enhance your skills, break down stigma, or better understand your own body, you’re in the right place.",
-      "image_url": "https://karada-house.de/wp-content/uploads/2026/03/mg_3422-scaled.jpg",
-      "source_url": "https://karada-house.de/events/having-sex-with-vulvas-2/",
-      "source_name": "Karada House",
-      "tags": [
-        "Sonstiges"
-      ],
-      "time_known": true,
-      "genre": "Queer"
+      "genre": "Kultur",
+      "subcategory": "Dance"
     },
     {
       "title": "KvU - VV + Tresen",
@@ -2637,7 +2713,8 @@
         "Sonstiges"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Open Jam",
@@ -2652,7 +2729,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Open Decks im Technokeller (14-27 Jahre)",
@@ -2667,7 +2745,8 @@
         "Workshop"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Attac Berlin lädt ein - Reiche in die Pflicht!",
@@ -2682,7 +2761,8 @@
         "Vortrag"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Konzert",
@@ -2697,7 +2777,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "beav boloney freak punk shows",
@@ -2712,7 +2793,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Land, Kultur,  Autonomie - indigener Widerstand in Kolumbien",
@@ -2727,7 +2809,8 @@
         "Vortrag"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Annäherungen an meine Eltern Hans und Hilde Coppi",
@@ -2742,7 +2825,8 @@
         "Vortrag"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Sortiermaschinen: Grenzen, Mauern, Zäune",
@@ -2757,7 +2841,8 @@
         "Vortrag"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "P14 – endlich endlich",
@@ -2772,7 +2857,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "VERFLIMMERTER DONNERSTAG-Spur der Steine",
@@ -2787,7 +2873,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Stages"
     },
     {
       "title": "Erzählperformance von Meike Rötzer: “Orlando” nach Virginia Wolf mit Geigerin Charlotte Balle",
@@ -2802,7 +2889,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Dance"
     },
     {
       "title": "Egal",
@@ -2817,7 +2905,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "This is waving salon",
@@ -2832,7 +2921,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Goodbye Berlin",
@@ -2847,7 +2937,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "JayJayBeCe Big Band – Berlin Jazz Composers Orchestra – Fachgruppenkonzert Jazz",
@@ -2862,7 +2953,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Punkrocktresen",
@@ -2877,7 +2969,8 @@
         "Essen"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Black Out - hosted by Acoustic Neuroma",
@@ -2892,7 +2985,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Mi Madre y el Dinero",
@@ -2907,7 +3001,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Im Herzen der Gewalt",
@@ -2922,7 +3017,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "TWINK DEATH",
@@ -2937,7 +3033,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Thursday Jazz Jam",
@@ -2952,7 +3049,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Konzert",
@@ -2967,7 +3065,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Filmabend im K(P)",
@@ -2982,7 +3081,8 @@
         "Film"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Hamsterrad",
@@ -2997,7 +3097,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Sonntags-Club: Ausflug „7-Seen/Dampferfahrt / Restaurant Loretta im Garten“",
@@ -3012,7 +3113,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Ausstellung „Chodowiecki 300: Zwischen Kunst und Konfession“",
@@ -3027,7 +3129,8 @@
         "Ausstellung"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Exhibitions"
     },
     {
       "title": "Black and queer feminism in Berlin",
@@ -3042,7 +3145,8 @@
         "Sonstiges"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Tanznachmittag im Selerweg",
@@ -3057,7 +3161,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Kinky Taboos: Berlin’s Forbidden Desires Tour",
@@ -3072,7 +3177,8 @@
         "Sonstiges"
       ],
       "time_known": true,
-      "genre": "Kink"
+      "genre": "Kink",
+      "subcategory": null
     },
     {
       "title": "Summer.Sun.Done",
@@ -3087,7 +3193,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Bum Bum Musik",
@@ -3102,7 +3209,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Ferienangebot: Coding mit OSMO",
@@ -3117,7 +3225,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Festivals"
     },
     {
       "title": "FLINTA* Sweat",
@@ -3132,7 +3241,8 @@
         "Sonstiges"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "CHILLGARAGE",
@@ -3147,7 +3257,8 @@
         "Sonstiges"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Gutscheintausch Regenbogencafé",
@@ -3162,7 +3273,8 @@
         "Protest"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Tropenbude Bar und Garten offen",
@@ -3177,7 +3289,8 @@
         "Essen"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Ich schneide schneller",
@@ -3192,7 +3305,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Und jetzt?",
@@ -3207,7 +3321,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Aus der Nacht heraus - Political Film Festival -Day 2",
@@ -3222,7 +3337,8 @@
         "Film"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Angela Alves: Never Rest (After Work Tours #2)",
@@ -3237,7 +3353,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Filmfestival - \"Aus der Nacht heraus\"",
@@ -3252,7 +3369,8 @@
         "Film"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "P14 – endlich endlich",
@@ -3267,7 +3385,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Humboldting #10 Social Muscle Club",
@@ -3282,7 +3401,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Klassischer Duoabend",
@@ -3297,7 +3417,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Stille Stunde",
@@ -3312,7 +3433,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Festivals"
     },
     {
       "title": "Queer Death Café",
@@ -3327,22 +3449,8 @@
         "Sonstiges"
       ],
       "time_known": true,
-      "genre": "Queer"
-    },
-    {
-      "title": "Tarot and Tie",
-      "start": "2026-06-19T19:00:00",
-      "end": "2026-06-19T22:00:00",
-      "location": "KARA, Perleberger Straße 59, Berlin, 10559, Germany",
-      "description": "Let tarot guide the scene. Through its rich imagery and storytelling, we’ll co-create a living, ever-changing tableau—one tie at a time. \nThis playful, collaborative space invites you to explore connection through rope, inspired by the symbols and moods of the cards. Together, we’ll build a temporary art installation that encourages communication, creativity, and care. \nLed by Caritia, this session blends rope play with the layered world of tarot. Expect collaborative tying, shared imagination, and a gentle sprinkle of kink in a space that centres curiosity, consent, and co-creation.",
-      "image_url": "https://karada-house.de/wp-content/uploads/2025/12/kh_hotelroomperformance_sophiacecirenee_252.jpg",
-      "source_url": "https://karada-house.de/events/tarot-and-tie/",
-      "source_name": "Karada House",
-      "tags": [
-        "Sonstiges"
-      ],
-      "time_known": true,
-      "genre": "Kink"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Bi+Flinta* meet up",
@@ -3357,7 +3465,8 @@
         "Essen"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Input und Diskussion \"Sicherheitspaket\"",
@@ -3372,7 +3481,8 @@
         "Vortrag"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Konzert",
@@ -3387,7 +3497,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Vortrag: Was ist eigentlich in Schnellroda los?",
@@ -3402,7 +3513,8 @@
         "Vortrag"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Pride Dinner –Platz am Kaisersteg Für Queers only!",
@@ -3417,7 +3529,8 @@
         "Protest"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Kampf gegen den Faschismus in Spanien 1936-1939",
@@ -3432,7 +3545,8 @@
         "Ausstellung"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "K19 KONZERT",
@@ -3447,7 +3561,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Mi Madre y el Dinero",
@@ -3462,7 +3577,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Moya Michael: It’s like a Finger Pointing a Way to the Moon",
@@ -3477,7 +3593,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Abschlussfest",
@@ -3492,7 +3609,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "DEUTSCH-ARMENISCHE KULTURTAGE – FILMVORFÜHRUNG",
@@ -3507,7 +3625,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Stages"
     },
     {
       "title": "Filmabend: DEFA-Liebling VEB Bergmann-Borsig in  Berlin-Wilhelmsruh",
@@ -3522,7 +3641,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Stages"
     },
     {
       "title": "Fachgruppenkonzert Gesang",
@@ -3537,7 +3657,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Soirée – Es musizieren fortgeschrittene Schülerinnen und Schüler",
@@ -3552,7 +3673,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Fachgruppenkonzert Tasteninstrumente",
@@ -3567,7 +3689,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Freitag in der Olfe",
@@ -3582,7 +3705,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Kneipe & Briefe an Gefangene schreiben",
@@ -3597,7 +3721,8 @@
         "Essen"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "\"Zähneknirschen\" EP Release",
@@ -3612,7 +3737,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Salome",
@@ -3627,7 +3753,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Meinberg/Greve/Wesley",
@@ -3642,7 +3769,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Party She is D.I.S.C.O. …",
@@ -3657,7 +3785,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Festivals"
     },
     {
       "title": "Ea Torrado: Brown Madonna",
@@ -3672,7 +3801,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Bondage Nacht - Bondage Night",
@@ -3687,7 +3817,8 @@
         "Sonstiges"
       ],
       "time_known": true,
-      "genre": "Kink"
+      "genre": "Kink",
+      "subcategory": null
     },
     {
       "title": "Sonora Berlín",
@@ -3702,7 +3833,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Ziber Berlin: The XXL Debut",
@@ -3717,7 +3849,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Schüler:innenvorspiel der Gitarrenklasse",
@@ -3732,7 +3865,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Großes Sommerfest am Bahnhof",
@@ -3747,22 +3881,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Kultur"
-    },
-    {
-      "title": "Midsummer Moments - Reflections",
-      "start": "2026-06-20T12:00:00",
-      "end": "2026-06-20T15:00:00",
-      "location": "KARA, Perleberger Straße 59, Berlin, 10559, Germany",
-      "description": "At the midpoint of the year, we pause to take stock, reconnect, and gently turn toward what’s next. This session invites you to slow down and be present with yourself, while sharing space with others in a supportive and welcoming environment. \nGuided by Caritia, this is a held space for intentional reflection through conversation and journaling. Together, we’ll create simple rituals of acknowledgement and empowerment, honouring where you’ve been and what you’re ready to invite in. \nWhat we’ll do\n\n\nReflect on the year so far \n\n\n(Re)set intentions for the months ahead \n\n\nCreate small, personal rituals to honour your journey \n\n\nExplore what feels supportive and sustaining for you \n\n\nListen inward to what is wanted, needed, and desired \n\n\nShare gently in small groups (with choice and care)",
-      "image_url": "https://karada-house.de/wp-content/uploads/2022/07/MG_2042-scaled.jpeg",
-      "source_url": "https://karada-house.de/events/midsummer-moments-reflections/",
-      "source_name": "Karada House",
-      "tags": [
-        "Sonstiges"
-      ],
-      "time_known": true,
-      "genre": "Kink"
+      "genre": "Kultur",
+      "subcategory": "Festivals"
     },
     {
       "title": "Pokemon Tausch Samstag",
@@ -3777,7 +3897,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Festivals"
     },
     {
       "title": "Breathplay Workshop",
@@ -3792,7 +3913,8 @@
         "Sonstiges"
       ],
       "time_known": true,
-      "genre": "Kink"
+      "genre": "Kink",
+      "subcategory": null
     },
     {
       "title": "Tropenbude Bar und Garten offen",
@@ -3807,7 +3929,8 @@
         "Essen"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Schüler:innenvorspiel der Ukulelenklasse",
@@ -3822,7 +3945,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Schüler:innenvorspiel plus der Bläserklassen",
@@ -3837,7 +3961,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Kinky Taboos: Berlin After Dark Tour",
@@ -3852,7 +3977,8 @@
         "Sonstiges"
       ],
       "time_known": true,
-      "genre": "Kink"
+      "genre": "Kink",
+      "subcategory": null
     },
     {
       "title": "Bum Bum Musik",
@@ -3867,7 +3993,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Sommerkonzert im Stadtpark Steglitz: Koop-Festival",
@@ -3882,7 +4009,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Kiezklang & Küchentisch",
@@ -3897,7 +4025,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Festivals"
     },
     {
       "title": "Alltag von Zwangsarbeiterinnen und Zwangsarbeitern im Nationalsozialismus",
@@ -3912,7 +4041,8 @@
         "Ausstellung"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Exhibitions"
     },
     {
       "title": "Gender Mix",
@@ -3927,22 +4057,8 @@
         "Sonstiges"
       ],
       "time_known": true,
-      "genre": "Queer"
-    },
-    {
-      "title": "Midsummer Moments - Playtime",
-      "start": "2026-06-20T16:00:00",
-      "end": "2026-06-20T19:00:00",
-      "location": "KARA, Perleberger Straße 59, Berlin, 10559, Germany",
-      "description": "Celebrate the Summer Solstice through movement, connection, and play. Together, we’ll honour both light and dark, exploring how they live within us. \nCaritia invites you into a kink-inspired, body-based space where you can explore your intentions and desires—solo or with others. Whether you’re drawn to rope, sensation, SM, or something a little playful and spicy, this is a collaborative environment for creative expression, curiosity, and care. \nThe session begins with a guided opening to ground the group and spark inspiration. From there, you’ll be invited to create your own “adventure”—a personal or shared ritual that celebrates the abundance of light and the turning of the season. \nWhat we will discuss\n\nShare intentions and ideas\nCreate simple rituals (solo or in small groups)\nExplore body-based and sensory practices\nPlay, experiment, and collaborate\nCelebrate creativity and expression\nConnect with pleasure as a source of energy and resistance",
-      "image_url": "https://karada-house.de/wp-content/uploads/2024/04/MG_9641-scaled.jpeg",
-      "source_url": "https://karada-house.de/events/midsummer-moments-playtime/",
-      "source_name": "Karada House",
-      "tags": [
-        "Sonstiges"
-      ],
-      "time_known": true,
-      "genre": "Kink"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Schach- und Spiele-Nachmittag",
@@ -3957,7 +4073,8 @@
         "Sonstiges"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Solitresen - Sweet drinks for bitter times",
@@ -3972,7 +4089,8 @@
         "Essen"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Küche für Alle - Torhaus Kochkollektiv",
@@ -3987,7 +4105,8 @@
         "Workshop"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Sommerkonzert – StreichPlatanen",
@@ -4002,7 +4121,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Rhapsodie in Dance 2026: Aufführung der Musikschule Reinickendorf",
@@ -4017,7 +4137,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Dance"
     },
     {
       "title": "Lesung und Punkkonzert",
@@ -4032,7 +4153,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Konzert im Garten",
@@ -4047,7 +4169,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Humboldting #10 Social Muscle Club",
@@ -4062,7 +4185,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Schüler:innenvorspiel der Violinenklasse",
@@ -4077,7 +4201,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Rundgang Ausstellung „Die Anarchie ist das Leben der Menschen, die dem Joche entronnen sind.“",
@@ -4092,7 +4217,8 @@
         "Ausstellung"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Angela Alves: Never Rest (After Work Tours #2)",
@@ -4107,7 +4233,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Screening \"ProPal - for the global justice\" + aperitivo",
@@ -4122,7 +4249,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Freedom of Movement",
@@ -4137,7 +4265,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Kissi-CHOR: All through the Night – Chormusik aus vier Jahrhunderten",
@@ -4152,7 +4281,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Virtuelle Reise: Bosnien-Herzegowina & Montenegro - Zwischen Bergen, Flüssen und Adriaküste",
@@ -4167,7 +4297,8 @@
         "Ausstellung"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Art"
     },
     {
       "title": "BöseBuben-Nacht",
@@ -4182,7 +4313,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Gaybar",
@@ -4197,7 +4329,8 @@
         "Essen"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Moya Michael: It’s like a Finger Pointing a Way to the Moon",
@@ -4212,7 +4345,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Oratorium – Kollektive Andacht zu einem wohlgehüteten Geheimnis",
@@ -4227,7 +4361,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Konzertchor des Berliner Mädchenchores – Marienlieder",
@@ -4242,7 +4377,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Dozentenkonzert – Barockmusik für Violoncello und Cembalo",
@@ -4257,7 +4393,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Konzert des Streichquartetts",
@@ -4272,7 +4409,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Lesung & Buchvorstellung",
@@ -4287,7 +4425,8 @@
         "Sonstiges"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Being Young",
@@ -4302,7 +4441,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Salon Ma ما",
@@ -4317,7 +4457,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "U35",
@@ -4332,7 +4473,8 @@
         "Sonstiges"
       ],
       "time_known": true,
-      "genre": "Kink"
+      "genre": "Kink",
+      "subcategory": null
     },
     {
       "title": "Konzert im $@#@riterviertel",
@@ -4347,7 +4489,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Riot Grrrl Tresen feat. ZOFF & RubberXhead",
@@ -4362,7 +4505,8 @@
         "Essen"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Der Mitsingabend",
@@ -4377,7 +4521,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Salome",
@@ -4392,7 +4537,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Love Me Tender",
@@ -4407,7 +4553,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "MUSViT",
@@ -4422,7 +4569,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "metzner&schüchner und Stephan Thiel – Stückentwicklung: »Erster Pankower Friedensgipfel«",
@@ -4437,7 +4585,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Stages"
     },
     {
       "title": "The Magic of Queen",
@@ -4452,7 +4601,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Konzert Die Drumline performanziert: SUITE of FIVE von Richard Jackoboice",
@@ -4467,7 +4617,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Konzert im TRxxxTR",
@@ -4482,7 +4633,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Ea Torrado: Brown Madonna",
@@ -4497,7 +4649,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Die Seherin",
@@ -4512,7 +4665,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Konzert im K (A)",
@@ -4527,7 +4681,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Wello Rauschs Karaoke Gala",
@@ -4542,7 +4697,8 @@
         "Sonstiges"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Olympia Bukkakis: Queer and Present Dangers/The Nation at Work",
@@ -4557,7 +4713,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Klubnacht",
@@ -4572,7 +4729,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Kriminal Kitchen fuck off soundssystem",
@@ -4587,7 +4745,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Save the Date: Babylon Europa 2026",
@@ -4602,7 +4761,8 @@
         "Ausstellung"
       ],
       "time_known": false,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Art"
     },
     {
       "title": "Fête de la Musique Berlin | #FETEBerlin 2026",
@@ -4617,7 +4777,8 @@
         "Ausstellung"
       ],
       "time_known": false,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Art"
     },
     {
       "title": "Sounds of Europe",
@@ -4632,7 +4793,8 @@
         "Ausstellung"
       ],
       "time_known": false,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Art"
     },
     {
       "title": "Drag Brunch",
@@ -4647,7 +4809,8 @@
         "Essen"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Guided Tour : „Speaking of Sex”",
@@ -4662,7 +4825,8 @@
         "Ausstellung"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Sommerfest mit Kreativmarkt & Fête de la Musique in der Hansabibliothek",
@@ -4677,7 +4841,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Umsonst & Draußen | Spandauer Blasorchester e.V.",
@@ -4692,7 +4857,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Fête de la Musique in der Heinrich-Schulz-Bibliothek",
@@ -4707,7 +4873,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Festivals"
     },
     {
       "title": "Schüler:innenvorspiel der Klavier- und Akkordeonklasse",
@@ -4722,22 +4889,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
-    },
-    {
-      "title": "Rope Level-Up: Playing with Predicaments",
-      "start": "2026-06-21T11:30:00",
-      "end": "2026-06-21T15:30:00",
-      "location": "KARA, Perleberger Straße 59, Berlin, 10559, Germany",
-      "description": "Ready to deepen your connection through rope? This immersive workshop focuses on intentional tying: building trust, communicating clearly, and using positions and tempo to create emotional or playful experiences. Includes hands-on practice and guided scenarios. Ideal after completing the fundamentals series. \nTopic: Predicaments\nPredicaments are lose-lose situation in rope play that can be a lot of fun but also lead into a realm of psychological play that can be physically and psychologically challenging. Renée will guide you through a few easy and fun predicaments that will become more and more challenging. Choose your own adventure \nWe Will Explore:\n\nwhat are predicaments?\nsuper easy beginner predicaments\npsychological vs. physical predicaments\nplay time!",
-      "image_url": "https://karada-house.de/wp-content/uploads/2025/12/preducament_class.jpg",
-      "source_url": "https://karada-house.de/events/rope-levelup-predicaments/",
-      "source_name": "Karada House",
-      "tags": [
-        "Sonstiges"
-      ],
-      "time_known": true,
-      "genre": "Kink"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Schüler:innenvorspiel der Violinen-, Viola- und Blockflötenklasse",
@@ -4752,7 +4905,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Führung : „Apropos Sex”",
@@ -4767,7 +4921,8 @@
         "Ausstellung"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Vegan Soli Brunch",
@@ -4782,7 +4937,8 @@
         "Sonstiges"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Kiez-Flohmarkt",
@@ -4797,7 +4953,8 @@
         "Essen"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Save Rojava Soliparty and Tattoo",
@@ -4812,7 +4969,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Squat de la Musique",
@@ -4827,7 +4985,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Streitraum",
@@ -4842,7 +5001,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "📖 Infoladen Scherer 8 📖",
@@ -4857,7 +5017,8 @@
         "Sonstiges"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Squat de la Musique * Schreina47",
@@ -4872,7 +5033,8 @@
         "Protest"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Kuratorenführung / Öffentliche Führung: Forced to Work - Willing to Survive",
@@ -4887,7 +5049,8 @@
         "Ausstellung"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Exhibitions"
     },
     {
       "title": "Schüler:innenvorspiel der Klavierklasse",
@@ -4902,7 +5065,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Fête de la Musique … Musik verbindet!",
@@ -4917,7 +5081,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Fête de la Musique im ERLEBNIS EUROPA",
@@ -4932,7 +5097,8 @@
         "Ausstellung"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Art"
     },
     {
       "title": "ERLEBNIS EUROPA wird zur Bühne – Fête de la Musique",
@@ -4947,7 +5113,8 @@
         "Ausstellung"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Art"
     },
     {
       "title": "Kaffee, Sex und Kuchen - Coffee, Sex & Cake",
@@ -4962,7 +5129,8 @@
         "Sonstiges"
       ],
       "time_known": true,
-      "genre": "Kink"
+      "genre": "Kink",
+      "subcategory": null
     },
     {
       "title": "Tropenbude Bar und Garten offen",
@@ -4977,7 +5145,8 @@
         "Essen"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Squat de la Musique aufm Dorfplatz",
@@ -4992,7 +5161,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Café No Pasaran",
@@ -5007,7 +5177,8 @@
         "Essen"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Historische Hausführung: Never Work",
@@ -5022,7 +5193,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Bum Bum Musik",
@@ -5037,7 +5209,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Fête de la Musique | Drei Neuköllner Chöre",
@@ -5052,7 +5225,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Tanzcafé: Standard & Latein",
@@ -5067,7 +5241,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Festivals"
     },
     {
       "title": "Sommerkonzert im Stadtpark Steglitz: Ensemble-Treffen",
@@ -5082,7 +5257,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Fête de la Musique 2026",
@@ -5097,7 +5273,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Fête de la Musique",
@@ -5112,7 +5289,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Stages"
     },
     {
       "title": "Konzertchor des Berliner Mädchenchores – Marienlieder",
@@ -5127,7 +5305,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Fête de la Musique im Kulturgarten",
@@ -5142,7 +5321,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Stages"
     },
     {
       "title": "Naked Sex Party",
@@ -5157,7 +5337,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Konzert",
@@ -5172,7 +5353,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Unsere Träume zu leben /  Hayallerimizi yaşamak",
@@ -5187,7 +5369,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Europa, wir Kinder. Ein Spielstraßentheater",
@@ -5202,7 +5385,8 @@
         "Ausstellung"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Art"
     },
     {
       "title": "Bläserserenade",
@@ -5217,7 +5401,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Sommerkonzert des Leo-Borchard-Orchesters",
@@ -5232,7 +5417,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "„ABBA – Waterloo im Bällebad”",
@@ -5247,22 +5433,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Queer"
-    },
-    {
-      "title": "Cuddles, Cakes and Kinks - Summer Edition (with Garden!)",
-      "start": "2026-06-21T17:00:00",
-      "end": "2026-06-21T23:00:00",
-      "location": "KARA, Perleberger Straße 59, Berlin, 10559, Germany",
-      "description": "Welcome to Cuddles, Cakes and Kinks, your monthly aftercare event to take a break from cisheteropatriarchy, capitalism, the burning world, or life in general. We’re here to rest so we can resist, to play as an antidote to pressure, and to let the people eat cake. Queer people, welcome! \nWe are opening our wonderful house for the evening so you can come by, relax, and calm down amongst other queer people. There will be hammocks and little areas for cuddling and enjoying touch. Get or give massages. Do some soft, slow kink. Or hang out in the kitchen with us and just chat. We will be baking a bunch of cakes and there will be coffee, tea, and snacks to nourish your bodies and souls. \nLight and slow kink interactions are welcome. Anything that allows you to come back to yourself and into connection with others in a soft and nice way. This is not a play party or sex club, but a playful community event. The vibe is cozy, and we don’t do genital play. \nThere is a separate cuddle room that is completely free from any kind of play, horny vibes, and nudity. It’s for cuddles, naps, quiet conversation, maybe reading a book.",
-      "image_url": "https://karada-house.de/wp-content/uploads/2025/07/MG_4545-1.jpg",
-      "source_url": "https://karada-house.de/events/cuddles-cakes-template-0626/",
-      "source_name": "Karada House",
-      "tags": [
-        "Sonstiges"
-      ],
-      "time_known": true,
-      "genre": "Kink"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Gedenkkundgebung 93 Jahre Köpenicker Blutwoche",
@@ -5277,7 +5449,8 @@
         "Protest"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Schüler:innenvorspiel der Violinen- und Violaklasse",
@@ -5292,7 +5465,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Konzert Tin'I'tus, das unglaubliche Percussion-Ensemble",
@@ -5307,7 +5481,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Angela Alves: Never Rest (After Work Tours #2)",
@@ -5322,7 +5497,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Chillout Jam",
@@ -5337,7 +5513,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Der Schnittchenkauf",
@@ -5352,7 +5529,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Stage Steps – Jazz for Kids mit Black Cat",
@@ -5367,7 +5545,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Stage Steps – Jazz for Kids",
@@ -5382,7 +5561,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "E.T.A.- Hoffmann-Kammerorchester – Sommerkonzert",
@@ -5397,7 +5577,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Kissi-CHOR: All through the Night – Chormusik aus vier Jahrhunderten",
@@ -5412,7 +5593,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Filmscreening",
@@ -5427,7 +5609,8 @@
         "Film"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "P14 – endlich endlich",
@@ -5442,7 +5625,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Love Me Tender",
@@ -5457,7 +5641,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Oratorium – Kollektive Andacht zu einem wohlgehüteten Geheimnis",
@@ -5472,7 +5657,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Stage Steps – Bands aus der StuVo – Jazz Newcomers",
@@ -5487,7 +5673,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Stage Steps – Jazz Newcomers mit Rainer Unfug, Caramel Tonic & Nachts am Alex – Bands aus der StuVo",
@@ -5502,7 +5689,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Die Seherin",
@@ -5517,7 +5705,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Hunger",
@@ -5532,7 +5721,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Music On 1st Summer’s Evening – Bigband Round Midlife",
@@ -5547,7 +5737,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Olympia Bukkakis: Queer and Present Dangers/The Nation at Work",
@@ -5562,7 +5753,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Stage Steps – Jazz Professionals",
@@ -5577,7 +5769,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Stage Steps – Jazz Professionals – Dozentenkonzert",
@@ -5592,7 +5785,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "VideoKino (Open Air)",
@@ -5607,7 +5801,8 @@
         "Film"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Fuckin´ Monday",
@@ -5622,7 +5817,8 @@
         "Sonstiges"
       ],
       "time_known": true,
-      "genre": "Kink"
+      "genre": "Kink",
+      "subcategory": null
     },
     {
       "title": "Die Montagsspieler",
@@ -5637,7 +5833,8 @@
         "Sonstiges"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Queer Yoga - Monday Fire",
@@ -5652,7 +5849,8 @@
         "Sonstiges"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Sozialberatung  - Social counseling",
@@ -5667,7 +5865,8 @@
         "Sonstiges"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Spielzeug-Tauschbörse",
@@ -5682,7 +5881,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Festivals"
     },
     {
       "title": "All-Gender-Fußball",
@@ -5697,7 +5897,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Fahrrad-Selbsthilfe-Werkstatt",
@@ -5712,7 +5913,8 @@
         "Sonstiges"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Queer Yoga - Slow Flow",
@@ -5727,7 +5929,8 @@
         "Sonstiges"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Offene Mietenberatung",
@@ -5742,7 +5945,8 @@
         "Sonstiges"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Offene Mieterberatung",
@@ -5757,22 +5961,8 @@
         "Sonstiges"
       ],
       "time_known": true,
-      "genre": "Polit"
-    },
-    {
-      "title": "Rope for Absolute Beginners",
-      "start": "2026-06-22T19:00:00",
-      "end": "2026-06-22T22:00:00",
-      "location": "KARA, Perleberger Straße 59, Berlin, 10559, Germany",
-      "description": "Welcome to the world of Japanese style rope bondage, friend! It’s wild and fun out here and we are thrilled to be your point of entry. \nThis weekly class is designed for anyone who would like to learn about Japanese-inspired rope bondage/shibari/kinbaku whether you see yourself in the role of the person tying or being tied. We firmly believe that everyone, even if you wish to be tied, should know the absolute basics of this craft. \nWhat we do\n\nWe talk about what the heck is Japanese inspired rope bondage and why we call it “inspired”.\nWe show you the tools are we using and tell you why they are designed the way they are.\nWe talk about why people love to tie/get tied and what happens if you tie/get tied?\nWe show you the fundamental principles of shibari and first techniques you can immediately use\nWe talk about the history of shibari, give you pointers on anatomy, psychology and safety\nWe will tie ourselves, other people (if you and they want to) and actually take time to try stuff out and play, play, play\n\nThis class is suited for\n\nall kinds of bodies (abled and non-abled), all gender expressions, all kinds of sexualities (including people on the ace-spectrum), all kind of brains (neurospicy or neurotypical, affected by trauma, etc.)\npeople coming solo or bringing a partner (or group), people who only want to tie their own bodies as well as people who want to tie/get tied by others",
-      "image_url": "https://karada-house.de/wp-content/uploads/2025/12/absolutebeginner10.jpg",
-      "source_url": "https://karada-house.de/events/rope-for-absolute-beginner-220626/",
-      "source_name": "Karada House",
-      "tags": [
-        "Sonstiges"
-      ],
-      "time_known": true,
-      "genre": "Kink"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Soli-Bleiberechtsbar",
@@ -5787,7 +5977,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Konzert",
@@ -5802,7 +5993,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Palästina , Israel und die Deutschen.",
@@ -5817,7 +6009,8 @@
         "Vortrag"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Wem gehört der Reichtum? Vom Volksentscheid über die Fürstenenteignung vor 100 Jahren bis zu aktuellen Vergesellschaftungsdebatten",
@@ -5832,7 +6025,8 @@
         "Vortrag"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Die Seherin",
@@ -5847,7 +6041,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Salome",
@@ -5862,7 +6057,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "KitKatClub",
@@ -5877,7 +6073,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Filmabend im K( P)",
@@ -5892,7 +6089,8 @@
         "Film"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Hamsterrad",
@@ -5907,7 +6105,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Spatzenkino: Michel und Ida aus Lönneberga",
@@ -5922,7 +6121,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Stages"
     },
     {
       "title": "Solidarische Prozessbegleitung + Kundgebung",
@@ -5937,7 +6137,8 @@
         "Protest"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Sommerfest",
@@ -5952,7 +6153,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Festivals"
     },
     {
       "title": "Historische Hausführung: Never Work",
@@ -5967,7 +6169,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Ein Musikerlebnis mit Moderation der besonderen Art!",
@@ -5982,7 +6185,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "HAPPY STRUMMING: Ukulele-Spielkreis",
@@ -5997,7 +6201,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Flinta*only Kickern",
@@ -6012,7 +6217,8 @@
         "Essen"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Kiezküche im Kiezhaus Agnes Reinhold",
@@ -6027,7 +6233,8 @@
         "Essen"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "IT-Beratung für Aktivist:innen und Gruppen",
@@ -6042,7 +6249,8 @@
         "Workshop"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Berliner Bündnis gegen Vonovia & Co. - monatliches Vernetzungstreffen",
@@ -6057,22 +6265,8 @@
         "Protest"
       ],
       "time_known": true,
-      "genre": "Polit"
-    },
-    {
-      "title": "Rope Lab: Play & Connection - pain",
-      "start": "2026-06-23T19:00:00",
-      "end": "2026-06-23T21:30:00",
-      "location": "KARA, Perleberger Straße 59, Berlin, 10559, Germany",
-      "description": "This is our experimental shibari playground for all skill levels. Each month explores a new topic — from shame and semenawa to performance, advanced movement, or the mythical “3rd rope” in TKs. We rotate between two themes, always bringing new inspiration to your rope practice. Open to all levels with foundational knowledge. Bring your curiosity, your questions, and your rope. \nThis month we are focusing on: pain – weather you call it s/m or semenawa, this class is all about exploring how to use rope to create pain. We will explore both external pain and uncomfortable body positions. This class is suitable for all skill levels. \nPlay & Connection\nThese classes are dedicated to the research of the interpersonal, connective, and fun side of shibari. Forget about rope technique for a while and learn hands-on skills for actually playing with what you know. The topic varies from month to month, and can be anything from pain and predicament ties to fun games like rope fight club. Come learn the skills that take your sessions from good to fantastic!",
-      "image_url": "https://karada-house.de/wp-content/uploads/2025/12/mg_6839.jpg",
-      "source_url": "https://karada-house.de/events/pain-shibari-semenawa-0626/",
-      "source_name": "Karada House",
-      "tags": [
-        "Sonstiges"
-      ],
-      "time_known": true,
-      "genre": "Kink"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "anarcha solidarity kitchen",
@@ -6087,7 +6281,8 @@
         "Essen"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Breaking News - offener politischer Treff (14-27 Jahre)",
@@ -6102,7 +6297,8 @@
         "Sonstiges"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Soli-Küfa",
@@ -6117,7 +6313,8 @@
         "Essen"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "AfD Parteitag stoppen!",
@@ -6132,7 +6329,8 @@
         "Protest"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Sophiensæle Forever #2 – Never Work",
@@ -6147,7 +6345,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "„Denkt! Hannah Arendt“ - Aufführung des Parktheater Edelbruch im Humboldt-Gymnasium",
@@ -6162,7 +6361,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Dance"
     },
     {
       "title": "\"Wer wird visionär?\" ~ Queeres Quiz",
@@ -6177,7 +6377,8 @@
         "Essen"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Flinta*only Kickern",
@@ -6192,7 +6393,8 @@
         "Essen"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Two-Song Tuesday (MUSIC STARTS 20:00)",
@@ -6207,7 +6409,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "LatinoKino",
@@ -6222,7 +6425,8 @@
         "Film"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Abwärts!: #2 Texte, Filme, Sensationen + Release Heft 59",
@@ -6237,7 +6441,8 @@
         "Film"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Ein Volksfeind",
@@ -6252,7 +6457,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Kiezbürgeramt schaut im Gesundheitsamt Koppenstraße (Friedrichshain) vorbei",
@@ -6267,7 +6473,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Festivals"
     },
     {
       "title": "Hamsterrad",
@@ -6282,7 +6489,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Aufführung: Robert Metcalf: Anders als du",
@@ -6297,7 +6505,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Stages"
     },
     {
       "title": "Studio 9. Der Tag mit Sarah Bosetti. Deutschlandfunk Kultur – live aus dem Humboldt Forum",
@@ -6312,7 +6521,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Kabarett",
@@ -6327,7 +6537,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Stages"
     },
     {
       "title": "After Work",
@@ -6342,7 +6553,8 @@
         "Sonstiges"
       ],
       "time_known": true,
-      "genre": "Kink"
+      "genre": "Kink",
+      "subcategory": null
     },
     {
       "title": "Projektband für Frauen* und Queers",
@@ -6357,7 +6569,8 @@
         "Sonstiges"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Himmlische Schlagerperlen",
@@ -6372,7 +6585,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Geselliger Tanz",
@@ -6387,7 +6601,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Dance"
     },
     {
       "title": "mittwochskufa",
@@ -6402,7 +6617,8 @@
         "Essen"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Küfa im JUP",
@@ -6417,22 +6633,8 @@
         "Essen"
       ],
       "time_known": true,
-      "genre": "Polit"
-    },
-    {
-      "title": "Playfight & Rough Body Play Lab",
-      "start": "2026-06-24T19:00:00",
-      "end": "2026-06-24T21:00:00",
-      "location": null,
-      "description": "Use your body in a vastly different way. Restricted, restrained, maybe even tamed – our bodies are subdued to very strict rules and movements in our daily lives. Time to get primal and rough. Rough body play allows for more fighting, emotions, and a deeper exploration of power dynamics than play fights. \nOnce a month we open Karada House for 2 hours of randori (free fights) time to try your new skills and have fun. Our amazing instructor Montse will guide through \n\nwarm-up exercises\nconsent & safety\ndos & don’ts\n\nAfter that – fight!",
-      "image_url": "https://karada-house.de/wp-content/uploads/2025/10/mg_8399.jpg",
-      "source_url": "https://karada-house.de/events/rbp-template-240626/",
-      "source_name": "Karada House",
-      "tags": [
-        "Sonstiges"
-      ],
-      "time_known": true,
-      "genre": "Kink"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Soli-Küfa, jeden Mittwoch 19 Uhr",
@@ -6447,7 +6649,8 @@
         "Essen"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Konzert",
@@ -6462,7 +6665,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Offenes Antifa Treffen",
@@ -6477,7 +6681,8 @@
         "Vortrag"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Never Work Talks: Helen Hester, Anajara Amarante, Olivia Hyunsin Kim",
@@ -6492,7 +6697,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Der Soul der chassidischen Melodien",
@@ -6507,7 +6713,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Lesung Henryk Gericke und Henning Rabe",
@@ -6522,7 +6729,8 @@
         "Sonstiges"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Karaoke-Abend",
@@ -6537,7 +6745,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "KüFa (Kitchen for all)",
@@ -6552,7 +6761,8 @@
         "Film"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Konzert",
@@ -6567,7 +6777,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Ramiro Zayas 4tet",
@@ -6582,7 +6793,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Vegane Küfa",
@@ -6597,7 +6809,8 @@
         "Essen"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Ein Volksfeind",
@@ -6612,7 +6825,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "VideoKino (Open Air)",
@@ -6627,7 +6841,8 @@
         "Film"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Ausstellung “Unlock the Future - Bildungsgerechtigkeit: Schlüssel zur Zukunft“",
@@ -6642,7 +6857,8 @@
         "Ausstellung"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Exhibitions"
     },
     {
       "title": "Sommerfest",
@@ -6657,7 +6873,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Festivals"
     },
     {
       "title": "Eine runde Stunde",
@@ -6672,7 +6889,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Die solidarische Jobcenter-Sozialberatung",
@@ -6687,7 +6905,8 @@
         "Workshop"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Solicafé Klatsche",
@@ -6702,7 +6921,8 @@
         "Ausstellung"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Das Kiezbürgeramt schaut bei Bona Peiser Sozio-kulturelle Projekträume vorbei",
@@ -6717,7 +6937,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Festivals"
     },
     {
       "title": "Country…",
@@ -6732,7 +6953,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Gutschein-Tausch im YAAM",
@@ -6747,7 +6969,8 @@
         "Protest"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Colleen Ndemeh Fitzgerald: After Work Tours #3",
@@ -6762,7 +6985,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Offener Treffpunkt Mieter:innen für Mieter:innen!",
@@ -6777,7 +7001,8 @@
         "Protest"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Aperol Spritz-Night  -> 5 Euro",
@@ -6792,7 +7017,8 @@
         "Essen"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Flüssige Grenzen, bewegter Grund – Wo Wasser erinnert",
@@ -6807,7 +7033,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Gemeinsam was auf die Ohren kriegen: Slam-Poetry vom Feinsten mit Bas Böttcher",
@@ -6822,22 +7049,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
-    },
-    {
-      "title": "Practical Reflections on Intentional Kink Space Facilitation",
-      "start": "2026-06-25T19:00:00",
-      "end": "2026-06-25T21:00:00",
-      "location": "https://karada-house.de/events/practical-reflections/",
-      "description": "As Kink Space Facilitators, we experience a wide range of impressions in our work. We plan juicy offers, trauma and queer inclusive, and hold space for experiences, uncertainties, fuck ups, desires and much more. After planning and implementation comes reflection and evaluation. The ‘how was I’ as a professional and personally. \nAlexander Hahne, gay trans man, trainer and speaker for trans-specific topics in the field of sexual health, sex educator, somatic counselor, sexuality focussed bodyworker, systemic sex therapist, dancer and pleasure activist. Leader of workshops and individual counseling on the topics of body awareness, intimacy and sexuality. He works in the field of sexuality for about 20 years with almost 15 years of facilitation in pleasure and kink spaces. With his work he directly support them in their own experience of the body as well as the possibility of uncovering and using access to their own pleasurable potential. \nWhat happens in the workshop?\nIn this workshop, we will first put on our oxygen masks and subject our work to a reality check to see how it actually was. \nFor example, we will address the following questions: \n\nWhich methods worked really well and why?\nDid the planning of your trauma-informed process have the desired effect during implementation?\nWere there situations in which you felt uncertain or overwhelmed? What did you do then? What could be different next time?\nWhich methods did you use and why? What worked, what didn’t and why?\n\nYes, there is always too little time and the physical space is different than expected… how do you deal with that? How does that affect your stress level and facilitation? \nThe approach is to separate your behaviour from you as a person. You as a person are highly valued and your behaviour is criticised. \nNote\nThis offering connects to and extends Ceci Ferox’s workshops Intentional Kink Space Facilitation and Intentional Kink Spaces: Structures and Organizing. You can purchase the recordings in our shop. If you did not have the opportunity to be part of these classes, we are offering the recordings for you to purchase as well. The recordings will be available until July 16th, 2026. This is optional, not mandatory. If you were part of one or both of these workshops, you can email us and get free access to the recordings again, if you purchase a ticket to this class.",
-      "image_url": "https://karada-house.de/wp-content/uploads/2025/12/mg_3058.jpg",
-      "source_url": "https://karada-house.de/events/practical-reflections/",
-      "source_name": "Karada House",
-      "tags": [
-        "Sonstiges"
-      ],
-      "time_known": true,
-      "genre": "Kink"
+      "genre": "Kultur",
+      "subcategory": "Stages"
     },
     {
       "title": "Näh’n’Nerd Cafe / Reparaturkneipe",
@@ -6852,7 +7065,8 @@
         "Essen"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Open Jam",
@@ -6867,7 +7081,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Open Decks im Technokeller (14-27 Jahre)",
@@ -6882,7 +7097,8 @@
         "Workshop"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Konzert",
@@ -6897,7 +7113,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Näh’n’Nerd Cafe - Das Repaircafé im Vetomat",
@@ -6912,7 +7129,8 @@
         "Essen"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Velvet Rebels – leftist, feminist, queer, kinkster, friends",
@@ -6927,7 +7145,8 @@
         "Essen"
       ],
       "time_known": true,
-      "genre": "Kink"
+      "genre": "Kink",
+      "subcategory": null
     },
     {
       "title": "Podium \"Jüdische Identitäten und Antisemitismus im Punk\"",
@@ -6942,7 +7161,8 @@
         "Vortrag"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Never Work Talks: Amelia Horgan, Nicole Mayer-Ahuja",
@@ -6957,7 +7177,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Konzert zum 10-jährigen Jubiläum des Programms Brasilianische Musik in der City West",
@@ -6972,7 +7193,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Einsamkeit muss nicht sein, es gibt doch Frau zu Kappenstein! - Kabarett mit Charlotte zu Kappenstein und Musik von Matthias Wiesenhütter",
@@ -6987,7 +7209,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Dance"
     },
     {
       "title": "Thursday Jazz Jam",
@@ -7002,7 +7225,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Filmabend im K(P)",
@@ -7017,7 +7241,8 @@
         "Film"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "KONZERT – DUO KLARINETTE UND KLAVIER",
@@ -7032,7 +7257,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Workshop: Soundtrack Arche Noah Ein musikalisches Mitmachprogramm",
@@ -7047,7 +7273,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Stages"
     },
     {
       "title": "Rosa-anna Torrisi",
@@ -7062,7 +7289,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Kiezbürgeramt schaut beim Demokratiefest 2025 vorbei",
@@ -7077,7 +7305,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Festivals"
     },
     {
       "title": "Gitarrenkurs mit JelGi - in der Ingeborg-Drewitz-Bibliothek",
@@ -7092,7 +7321,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Schüler:innenvorspiel MFE",
@@ -7107,7 +7337,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Familiencafé",
@@ -7122,7 +7353,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Festivals"
     },
     {
       "title": "CHILLGARAGE",
@@ -7137,7 +7369,8 @@
         "Sonstiges"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "HAU: Berlin bleibt! #5 Nachbarschaften in Bewegung",
@@ -7152,7 +7385,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Popcornkino in der Gottfried-Benn-Bibliothek für Kinder",
@@ -7167,7 +7401,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Stages"
     },
     {
       "title": "Kindertheater mit den Los Hobos: „The Ambiguous Vagabonds“",
@@ -7182,7 +7417,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Dance"
     },
     {
       "title": "Europa, wir Kinder. Ein Spielstraßentheater",
@@ -7197,7 +7433,8 @@
         "Ausstellung"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Art"
     },
     {
       "title": "Gutscheintausch Regenbogencafé",
@@ -7212,7 +7449,8 @@
         "Protest"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Tropenbude Bar und Garten offen",
@@ -7227,7 +7465,8 @@
         "Essen"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Gnawa Parade & Konzert: Hicham Bilali & Black Koyo u. a.",
@@ -7242,7 +7481,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Aesthetics of Access: Audiodeskription",
@@ -7257,7 +7497,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Silent Book Club Chapter Berlin-West (deutsch- und englischsprachig)",
@@ -7272,7 +7513,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Stages"
     },
     {
       "title": "Potse Raumkampfplenum",
@@ -7287,7 +7529,8 @@
         "Protest"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Filmfestival - \"Aus der Nacht heraus\"",
@@ -7302,7 +7545,8 @@
         "Film"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Hier sein heißt handeln",
@@ -7317,7 +7561,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Spielraum",
@@ -7332,7 +7577,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Fachklassenvorspiel Saxophon & Flöte (E. Stübner)",
@@ -7347,7 +7593,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Fachklassenvorspiel Violine (B. Rechenbach)",
@@ -7362,7 +7609,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Eine Seefahrt, die ist lustig ...",
@@ -7377,7 +7625,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Louder, Taller, Uglier, Weirder - Von Unkraut lernen",
@@ -7392,7 +7641,8 @@
         "Ausstellung"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Exhibitions"
     },
     {
       "title": "Schüler:innenvorspiel Plus der Percussionklasse",
@@ -7407,7 +7657,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Filmabend mit Gespräch \"Monarca - De Norte a Sur\"",
@@ -7422,7 +7673,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": "Stages"
     },
     {
       "title": "Sommerkonzert – Flitzebögen, Wilmersdorfer Streichhölzer & Bandits",
@@ -7437,22 +7689,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
-    },
-    {
-      "title": "Hurt Me, Deliciously",
-      "start": "2026-06-26T19:00:00",
-      "end": "2026-06-26T22:00:00",
-      "location": "https://karada-house.de/events/hurt-me-deliciously-2/",
-      "description": "There is something extraordinarily powerful in feeling and playing with consensual and voluntary pain. Why would a person want to feel pain? Why would another love to give it to someone else? How is pain and the processing of it changed depending on the context and relation it is put into? \nIn the workshop, Mamana will go into a deep deep deep dive into all things pain and pain play. Together we will look at what pain actually is, how it is produced and interpreted in the brain and how it is influenced by personal, biological, social, and other contextual factors you can play with. We will go into the details of why people like to give and receive pain, how you can process it, which typical impact play instruments are helpful in inducing a certain kind of painful sensation. \nIn short, this class will fry your brain with nerdy knowledge and allow you to think about your interest in pain play on a whole new level. Come for the facts, stay for the soul-searching of why sadomasochism is fucking delicious. \nWhat we will discuss\n\nDefine Pain?\nGood pain, bad pain?\nWhat do consent, trust and context have to do with it?\nHow to receive and process pain\nHow to tweak your pain play to where you want it to go\nWhy the fuck are we doing this?\nmany other little info tid-bits you will not see coming",
-      "image_url": "https://karada-house.de/wp-content/uploads/2026/01/mg_5976.jpg",
-      "source_url": "https://karada-house.de/events/hurt-me-deliciously-2/",
-      "source_name": "Karada House",
-      "tags": [
-        "Sonstiges"
-      ],
-      "time_known": true,
-      "genre": "Kink"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Konzert",
@@ -7467,7 +7705,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Podium für Erwachsene",
@@ -7482,7 +7721,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Schüler:innenvorspiel Plus der Klavierklasse",
@@ -7497,7 +7737,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Freies Orchester Berlin – Sommerkonzert",
@@ -7512,7 +7753,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Schüler:innenvorspiel der Violinenklasse",
@@ -7527,7 +7769,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Schüler:innenvorspiel der Querflötenklasse",
@@ -7542,7 +7785,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Schüler:innenvorspiel der Klavier- und Cembaloklasse",
@@ -7557,7 +7801,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Colleen Ndemeh Fitzgerald: After Work Tours #3",
@@ -7572,7 +7817,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Vieux Farka Touré",
@@ -7587,7 +7833,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Konzert mit den Friday Singers: „Zeitklänge - Ein Lied, ein Lächeln“ Eröffnung der Reinickendorfer Sprach- und Lesetage",
@@ -7602,7 +7849,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "BARE – Songs About Love, Loss & The Next Best Thing",
@@ -7617,7 +7865,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Nappies for a Change",
@@ -7632,7 +7881,8 @@
         "Sonstiges"
       ],
       "time_known": true,
-      "genre": "Kink"
+      "genre": "Kink",
+      "subcategory": null
     },
     {
       "title": "Konzert „jezevec u mraveniště“",
@@ -7647,7 +7897,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Apaches",
@@ -7662,7 +7913,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Qui a tué mon père (Wer hat meinen Vater umgebracht)",
@@ -7677,7 +7929,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Peter Gall Quintet",
@@ -7692,7 +7945,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Deutsches Filmorchester Babelsberg - Love Stories",
@@ -7707,7 +7961,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Freies Orchester Berlin – Sommerkonzert",
@@ -7722,7 +7977,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Genesis",
@@ -7737,7 +7993,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "BULLYACHE: A Good Man is Hard to Find",
@@ -7752,7 +8009,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "saHHar",
@@ -7767,7 +8025,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Konzert",
@@ -7782,7 +8041,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Europa im Kiez auf dem Kreuzberg Festival",
@@ -7797,7 +8057,8 @@
         "Party"
       ],
       "time_known": false,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Festivals"
     },
     {
       "title": "Pokémon Turnier",
@@ -7812,7 +8073,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Festivals"
     },
     {
       "title": "Familiensommerfest",
@@ -7827,7 +8089,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Festivals"
     },
     {
       "title": "Klassenvorspiel Heike Blank und Freunde",
@@ -7842,7 +8105,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Reparaturfest — für Groß und Klein",
@@ -7857,7 +8121,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Festivals"
     },
     {
       "title": "Schüler:innenvorspiel der Klarinettenklasse",
@@ -7872,7 +8137,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Schüler:innenvorspiel der Kontrabassklasse",
@@ -7887,7 +8153,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Schüler:innenvorspiel PLus der Cimbalomklasse",
@@ -7902,7 +8169,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Eröffnung der 52. Berliner Seniorenwoche 2026",
@@ -7917,7 +8185,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Festivals"
     },
     {
       "title": "Solidarity Bake Sale",
@@ -7932,7 +8201,8 @@
         "Essen"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Fünf Jahre offen",
@@ -7947,37 +8217,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
-    },
-    {
-      "title": "Rope Fundamentals Weekend: Foundations & Fun",
-      "start": "2026-06-27T13:00:00",
-      "end": "2026-06-27T19:00:00",
-      "location": "KARA, Perleberger Straße 59, Berlin, 10559, Germany",
-      "description": "This is the Saturday single ticket event. For buying a full weekend ticket, go to the weekend event. \nSaturday gives you the tools that make shibari fun — or intense, or meditative, or horny, or whatever flavor of rope you want to create. Ceci will get you started with the most essential techniques: the lark’s head, the single column tie, clean wrapping, managing tension, and staying safe. Once those basics are in place, we spend the rest of the day putting them to use in playful, intuitive ways. \nWe’ll explore freestyle tying and improvisation to loosen the pressure of “doing it right.” Through one-rope exercises, wrapping, unwrapping, and re-wrapping bodies, you’ll learn to follow curiosity instead of memorizing patterns. Because rope isn’t static — people move — we’ll also practice guiding and responding to movement through levers, spirals, and simple transitions like sitting to standing or shifting limbs mid-tie. \nAlong the way, we dive into the emotional and psychological effects of rope: how body positions, pacing, tension, and proximity can shift headspace and shape intention. With just a few simple ties, you’ll learn to create sessions that feel impactful, intimate, and expressive. \nTake aways: \n\nLarkshead & single column tie\nRope safety\nOne rope tying, wrapping & unwrapping\nPlaying with different intentions and moods\nMoving bodies & tying in movement",
-      "image_url": "https://karada-house.de/wp-content/uploads/2025/12/mg_7919.jpg",
-      "source_url": "https://karada-house.de/events/rope-fundamentals-weekend-foundations-fun-2/",
-      "source_name": "Karada House",
-      "tags": [
-        "Sonstiges"
-      ],
-      "time_known": true,
-      "genre": "Kink"
-    },
-    {
-      "title": "Rope Fundamentals: Shibari Starter Kit Weekend",
-      "start": "2026-06-27T13:00:00",
-      "end": "2026-06-28T19:00:00",
-      "location": "KARA, Perleberger Straße 59, Berlin, 10559, Germany",
-      "description": "Kick off your rope journey with a weekend that bundles our entire Rope Fundamentals series into one playful, beginner-friendly shibari workshop. \nAcross two days, you’ll move from the simplest building blocks to a clear understanding of how harnesses work. Whether you’re brand new, brushing off old skills, or craving a solid base before exploring deeper techniques, this weekend is designed to set you up with confidence, creativity, and connection. \nYou can bring someone to tie with or come solo and find a partner at the workshop. \nJoin us for the full journey, or pick the day that suits you best: \nGet Your Saturday (Foundations & Fun), only ticket here.\nGet your Sunday (Nerdery & Harnesses), only ticket here. \nFoundations & Fun\nSaturday gives you the tools that make shibari fun — or intense, or meditative, or horny, or whatever flavor of rope you want to create. Ceci will get you started with the most essential techniques: the lark’s head, the single column tie, clean wrapping, managing tension, and staying safe. Once those basics are in place, we spend the rest of the day putting them to use in playful, intuitive ways. \nWe’ll explore freestyle tying and improvisation to loosen the pressure of “doing it right.” Through one-rope exercises, wrapping, unwrapping, and re-wrapping bodies, you’ll learn to follow curiosity instead of memorizing patterns. Because rope isn’t static — people move — we’ll also practice guiding and responding to movement through levers, spirals, and simple transitions like sitting to standing or shifting limbs mid-tie. \nAlong the way, we dive into the emotional and psychological effects of rope: how body positions, pacing, tension, and proximity can shift headspace and shape intention. With just a few simple ties, you’ll learn to create sessions that feel impactful, intimate, and expressive. \nTake aways:\n\nLarkshead & single column tie\nRope safety\nOne rope tying, wrapping & unwrapping\nPlaying with different intentions and moods\nMoving bodies & tying in movement\n\nNerdery & Harnesses\nSunday is for the rope nerds (or for anyone ready to become one). Today we dive into the mechanics behind stable, comfortable, body-friendly tying. We’ll explore how to apply rope with intention, how to create structures that fit real bodies, and how to make your tying smoother, safer, and more efficient. \nYou’ll learn counter tensions, ladder structures, your first frictions, and how to wrap with flow and consistency. These building blocks are what allow harnesses to hold their shape. We’ll also cover ergonomics and hand techniques, like hooking and pulling rope, so you can tie for longer without soreness or strain. \nWith these tools in place, we’ll begin tying simple harnesses and, more importantly, understanding why they work. You’ll get a clear picture of the core components (anchors, stems, wraps, frictions, and cinches) and start recognizing the logic behind shibari structures. This modular thinking becomes the foundation for everything that comes after. \nTake aways:\n\nDouble column tie\nRope handling & ergonomics\nTension, counter tension & ladders\nIntro to harnesses: anchors, stems, wraps, frictions, cinches\nFrictions: Half hitch, full stop, munter hitch, in-line single column tie\nOne rope harnesses: chest harness, futomomo, box tie",
-      "image_url": "https://karada-house.de/wp-content/uploads/2026/02/mg_1074-1.jpg",
-      "source_url": "https://karada-house.de/events/rope-fundamentals-shibari-starter-kit-weekend-2/",
-      "source_name": "Karada House",
-      "tags": [
-        "Sonstiges"
-      ],
-      "time_known": true,
-      "genre": "Kink"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Festival gegen Rassismus",
@@ -7992,7 +8233,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Kuriosum Repair Kaffee",
@@ -8007,7 +8249,8 @@
         "Sonstiges"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Tropenbude Bar und Garten offen",
@@ -8022,7 +8265,8 @@
         "Essen"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Konzert der Fachgruppe Zupfinstrumente",
@@ -8037,7 +8281,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Schüler:innenvorspiel der Klavierklasse",
@@ -8052,7 +8297,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Jeanne Dielman, 23, quai du Commerce, 1080 Bruxelles",
@@ -8067,7 +8313,8 @@
         "Film"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Gnawa für alle",
@@ -8082,7 +8329,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Sommerkonzert im Stadtpark Steglitz: Ensemble für Musik des MIttelalters",
@@ -8097,7 +8345,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Sommerfest Familienbibliothek Else Ury",
@@ -8112,7 +8361,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Festivals"
     },
     {
       "title": "Stadtparkkonzert Ensemble für Musik des Mittelalters",
@@ -8127,7 +8377,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Krabbelgruppe - Nappy Play Group",
@@ -8142,7 +8393,8 @@
         "Sonstiges"
       ],
       "time_known": true,
-      "genre": "Kink"
+      "genre": "Kink",
+      "subcategory": null
     },
     {
       "title": "BAU-PAUSE PARTY",
@@ -8157,7 +8409,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Sommerkonzert - Rhythm & Melody BAND + Streichorchester Saitensprung",
@@ -8172,7 +8425,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Sommerkonzert – Junge Sinfonietta",
@@ -8187,7 +8441,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "‘Vorsicht! Frisch gestrichen‘ - Fachklassenvorspiel Violoncello (Ch. Kinast)",
@@ -8202,7 +8457,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Linkes Chorfestival: 10 Jahre \"Der KMC\" und mehr",
@@ -8217,7 +8473,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Die schwarze Krähe der Weißen Siedlung",
@@ -8232,7 +8489,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Routes & Roots: Das gemeinsame Erbe von Gnawa und transatlantischer Yoruba-Kultur",
@@ -8247,7 +8505,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Sommerkonzert im Stadtpark Steglitz: Midnight Blue",
@@ -8262,7 +8521,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Schüler:innenvorspiel der Klavierklasse",
@@ -8277,7 +8537,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Konzert der Fachgruppe Tasteninstrumente",
@@ -8292,7 +8553,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Stadtparkkonzert Midnight Blue",
@@ -8307,7 +8569,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Rundgang Ausstellung „Die Anarchie ist das Leben der Menschen, die dem Joche entronnen sind.“",
@@ -8322,7 +8585,8 @@
         "Ausstellung"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Filmfestival - \"Aus der Nacht heraus\" - Closing Even",
@@ -8337,7 +8601,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Apaches",
@@ -8352,7 +8617,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "\"Come again\" - englische Chormusik aus vier Jahrhunderten",
@@ -8367,7 +8633,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "24 Préludes – neu gemischt – Dozentenkonzert mit Lusia Sereina Splett",
@@ -8382,7 +8649,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Konzert des Zehlendorfer Kammerchors \"Come again\" - englische Chormusik aus vier Jahrhunderten",
@@ -8397,7 +8665,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Konzert",
@@ -8412,7 +8681,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Soliparty & Pierogi",
@@ -8427,7 +8697,8 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "LEIPZIG GOES BERLIN CONCERT",
@@ -8442,7 +8713,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Hardcore / Metalcore / OI!-Punk",
@@ -8457,7 +8729,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kink"
+      "genre": "Kink",
+      "subcategory": null
     },
     {
       "title": "Hier sein heißt handeln",
@@ -8472,7 +8745,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Justin Adams & Mauro Durante mit Alessia Tondo | Majid Bekkas & Bassekou Kouyaté",
@@ -8487,7 +8761,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Musical Belongings VII: Bach und Balafon",
@@ -8502,7 +8777,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "51. Rathauskonzert mit dem Kammerorchester Weißensee",
@@ -8517,7 +8793,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Notizen aus Steglitz – Geschichten, die das Großstadtleben schreibt",
@@ -8532,7 +8809,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Sufian Ararah Trio – Original Compositions inspired by North African Traditions and Mediterranean Culture",
@@ -8547,7 +8825,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Colleen Ndemeh Fitzgerald: After Work Tours #3",
@@ -8562,7 +8841,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Genesis",
@@ -8577,7 +8857,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Qui a tué mon père (Wer hat meinen Vater umgebracht)",
@@ -8592,7 +8873,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Konzert",
@@ -8607,7 +8889,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Bondarev/Downes/Ginsburg/Michel",
@@ -8622,7 +8905,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Dozentenkonzert mit Svetoslav Costoff – Die Welt der Konzertgitarre",
@@ -8637,7 +8921,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "More Town Soul",
@@ -8652,7 +8937,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Bluets",
@@ -8667,7 +8953,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "BULLYACHE: A Good Man is Hard to Find",
@@ -8682,7 +8969,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Konzert",
@@ -8697,7 +8985,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "DJ-Set von Slimgirl Fat",
@@ -8712,7 +9001,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Zine & Siroko — Trance Ritual (B2B)",
@@ -8727,7 +9017,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Fachklassenvorspiel Akkordeon",
@@ -8742,7 +9033,8 @@
         "Konzert"
       ],
       "time_known": false,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Schüler:innenvorspiel der Violinenklasse",
@@ -8757,7 +9049,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Umsonst & Draußen | Jugendblasorchester Spandau",
@@ -8772,7 +9065,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Schüler:innenvorspiel Plus der Violoncelloklasse",
@@ -8787,22 +9081,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
-    },
-    {
-      "title": "Rope Fundamentals Weekend: Nerdery & Harnesses",
-      "start": "2026-06-28T13:00:00",
-      "end": "2026-06-28T19:00:00",
-      "location": "KARA, Perleberger Straße 59, Berlin, 10559, Germany",
-      "description": "This is the Sunday single ticket event. For buying a full weekend ticket, go to the weekend event. \nSunday is for the rope nerds (or for anyone ready to become one). Today we dive into the mechanics behind stable, comfortable, body-friendly tying. We’ll explore how to apply rope with intention, how to create structures that fit real bodies, and how to make your tying smoother, safer, and more efficient. \nYou’ll learn counter tensions, ladder structures, your first frictions, and how to wrap with flow and consistency. These building blocks are what allow harnesses to hold their shape. We’ll also cover ergonomics and hand techniques, like hooking and pulling rope, so you can tie for longer without soreness or strain. \nWith these tools in place, we’ll begin tying simple harnesses and, more importantly, understanding why they work. You’ll get a clear picture of the core components (anchors, stems, wraps, frictions, and cinches) and start recognizing the logic behind shibari structures. This modular thinking becomes the foundation for everything that comes after. \nTake aways: \n\nDouble column tie\nRope handling & ergonomics\nTension, counter tension & ladders\nIntro to harnesses: anchors, stems, wraps, frictions, cinches\nFrictions: Half hitch, full stop, munter hitch, in-line single column tie\nOne rope harnesses: chest harness, futomomo, box tie",
-      "image_url": "https://karada-house.de/wp-content/uploads/2026/01/mg_6117.jpg",
-      "source_url": "https://karada-house.de/events/rope-fundamentals-weekend-nerdery-harnesses-2/",
-      "source_name": "Karada House",
-      "tags": [
-        "Sonstiges"
-      ],
-      "time_known": true,
-      "genre": "Kink"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "📖 Infoladen Scherer 8 📖",
@@ -8817,7 +9097,8 @@
         "Sonstiges"
       ],
       "time_known": true,
-      "genre": "Queer"
+      "genre": "Queer",
+      "subcategory": null
     },
     {
       "title": "Schüler:innenvorspiel der Querflötenklasse",
@@ -8832,7 +9113,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Schüler:innenvorspiel der Violinenklasse",
@@ -8847,7 +9129,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Offene Bibliothek UJZ Karslhorst",
@@ -8862,7 +9145,8 @@
         "Ausstellung"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Tropenbude Bar und Garten offen",
@@ -8877,7 +9161,8 @@
         "Essen"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Sommerkonzert im Stadtpark Steglitz: Steglitzer Streicherklassenfestival",
@@ -8892,7 +9177,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "10 Jahre Dauerausstellung \"ENTHÜLLT. Berlin und seine Denkmäler\" - Enthüllung der Karl-Marx-Büste",
@@ -8907,7 +9193,8 @@
         "Ausstellung"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Exhibitions"
     },
     {
       "title": "Konzert mit SingSisySing",
@@ -8922,7 +9209,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Finissage der Ausstellung \"Stories We Carry - Comics über Diaspora und Zugehörigkeit\"",
@@ -8937,7 +9225,8 @@
         "Ausstellung"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Exhibitions"
     },
     {
       "title": "Stadtparkkonzert Steglitzer Streicherklassenfestival",
@@ -8952,7 +9241,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Sonntagsschule - Sunday School",
@@ -8967,7 +9257,8 @@
         "Sonstiges"
       ],
       "time_known": true,
-      "genre": "Kink"
+      "genre": "Kink",
+      "subcategory": null
     },
     {
       "title": "Steglitzer Klaviersalon",
@@ -8982,7 +9273,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Europa, wir Kinder. Ein Spielstraßentheater",
@@ -8997,7 +9289,8 @@
         "Ausstellung"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Art"
     },
     {
       "title": "Steglitzer Klaviersalon – Werke von Frederic Chopin",
@@ -9012,7 +9305,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Stadtparkkonzert Groovetown und Play and Fly",
@@ -9027,7 +9321,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Sommerkonzert im Stadtpark Steglitz: Groovetown & Play and Fly",
@@ -9042,7 +9337,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Schüler:innenvorspiel der Harfenklasse",
@@ -9057,7 +9353,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Chillout Jam",
@@ -9072,7 +9369,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Polit"
+      "genre": "Polit",
+      "subcategory": null
     },
     {
       "title": "Schüler:innenvorspiel Plus der Klavierklasse",
@@ -9087,7 +9385,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Musical Belongings VII: Bach und Balafon",
@@ -9102,7 +9401,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Kooperation mit der UdK – Begegnungskonzert",
@@ -9117,7 +9417,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": "Music"
     },
     {
       "title": "Bluets",
@@ -9132,7 +9433,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Qui a tué mon père (Wer hat meinen Vater umgebracht)",
@@ -9147,7 +9449,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Jakob Astrup Trio",
@@ -9162,7 +9465,8 @@
         "Konzert"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     },
     {
       "title": "Genesis",
@@ -9177,7 +9481,8 @@
         "Theater"
       ],
       "time_known": true,
-      "genre": "Kultur"
+      "genre": "Kultur",
+      "subcategory": null
     }
   ]
 }

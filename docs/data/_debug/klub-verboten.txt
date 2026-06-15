@@ -1,3 +1,4 @@
-URL: https://ra.co/promoters/84128/events
-  FEHLER: 403 Client Error: Forbidden for url: https://ra.co/promoters/84128/events
-------------------------------------------------------------
+graphql POST -> 200 application/json; charset=utf-
+  {"data":{"promoter":{"id":"84128","name":"Klub Verboten"}}}
+GET https://ra.co/promoters/84128/events -> 403
+GET https://ra.co/promoters/84128 -> 403

@@ -30,6 +30,8 @@ from scrapers.categories import categorize
 from scrapers.genres import genre_for
 from scrapers.donau115 import Donau115Scraper
 from scrapers.kulturdaten import KulturdatenScraper
+from scrapers.silverfuture import SilverfutureScraper
+from scrapers.klubverboten import KlubVerbotenScraper
 from scrapers.siegessaeule import SiegessaeuleScraper
 from scrapers.tipberlin import TipBerlinScraper
 from scrapers.ical import ICalScraper
@@ -98,6 +100,10 @@ def get_scrapers():
         Donau115Scraper(),
         # kulturdaten.berlin -- deaktiviert (zu viel Community-Kleinkram).
         # KulturdatenScraper(),
+        # Silverfuture (queere Bar) -- Jimdo-Text-Parser, Genre Queer.
+        SilverfutureScraper(),
+        # Klub Verboten (RA) -- Sonde, ob die API erreichbar ist.
+        KlubVerbotenScraper(),
         # Siegessäule -- queerer Eventkalender, Kategorie automatisch.
         SiegessaeuleScraper(days=HORIZON_DAYS),
         # tip Berlin -- deaktiviert: keine erreichbare Quelle für Event-Daten

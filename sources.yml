@@ -39,12 +39,8 @@
 sources:
   # Silverfuture (queere Bar, Neukölln) -- Kategorie automatisch,
   # Genre "Queer" via scrapers/genres.py.
-  - url: https://www.silverfuture.net/events-1/
-    name: Silverfuture
-
-  # Klub Verboten (Resident Advisor) -- Erkundung; Genre Kink, nur Berlin.
-  - url: https://ra.co/promoters/84128/events
-    name: Klub Verboten
+  # Silverfuture -> eigener Ausleser (scrapers/silverfuture.py, Jimdo-Text).
+  # Klub Verboten (RA) -> eigene Sonde (scrapers/klubverboten.py, RA blockt HTML).
 
   # Kink-Quellen -- alle Events als Kink. Beide nutzen "The Events
   # Calendar" (WordPress); der iCal-Feed ist robust und umgeht teils

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T11:57:55.849679+00:00",
+  "generated_at": "2026-06-15T13:38:16.420873+00:00",
   "count": 390,
   "sources": [
     {
@@ -58,7 +58,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Autonome Küchenbande auf Rädern",
@@ -74,7 +78,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Wedding",
+      "lat": 52.548949,
+      "lng": 13.3481653,
+      "bezirk": "Mitte"
     },
     {
       "title": "Die Montagsspieler",
@@ -90,7 +98,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Queer Yoga - Monday Fire",
@@ -106,7 +118,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "All-Gender-Fußball",
@@ -122,7 +138,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Blue Monday Chillout",
@@ -138,7 +158,11 @@
       ],
       "time_known": true,
       "genre": "Kink",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Fahrrad-Selbsthilfe-Werkstatt",
@@ -154,7 +178,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Queer Yoga - Slow Flow",
@@ -170,7 +198,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Vernetzung der Mieter/innen der landeseigenen Wohnungsunternehmen (LWU Vernetzung)",
@@ -186,7 +218,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Offene Mietenberatung",
@@ -202,7 +238,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Offene Mieterberatung",
@@ -218,7 +258,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Rope for Absolute Beginners",
@@ -234,7 +278,11 @@
       ],
       "time_known": true,
       "genre": "Kink",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Perleberger Straße 59, 10559 Moabit",
+      "lat": 52.5326481,
+      "lng": 13.3513118,
+      "bezirk": "Mitte"
     },
     {
       "title": "Soli-Bleiberechtsbar",
@@ -250,7 +298,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Bernkasteler Straße 78, 13088 Weißensee",
+      "lat": 52.5577176,
+      "lng": 13.4702725,
+      "bezirk": "Pankow"
     },
     {
       "title": "Konzert",
@@ -266,7 +318,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Ackerstraße 169, 10115 Mitte",
+      "lat": 52.5297369,
+      "lng": 13.3971786,
+      "bezirk": "Mitte"
     },
     {
       "title": "Konzert",
@@ -282,7 +338,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Gesellschaft erkennen, kritisieren und verändern.",
@@ -298,7 +358,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Franz-Mehring-Platz 1, 10243 Friedrichshain",
+      "lat": 52.5128,
+      "lng": 13.4402215,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Anarchist Dinner: Free the Ulm 5!",
@@ -314,7 +378,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "OffenesTreffendesprovisorischenanarchistischenAntikriegsrats",
@@ -330,7 +398,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Liina Magnea: What’s a Mob to a King (Plot-twist Redemption)",
@@ -346,7 +418,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Sophienstraße 18, 10178 Mitte",
+      "lat": 52.5258825,
+      "lng": 13.4016022,
+      "bezirk": "Mitte"
     },
     {
       "title": "FLINTA* LESEKREIS",
@@ -362,7 +438,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Geht es dir gut?",
@@ -378,7 +458,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Linienstraße 227, 10178 Mitte",
+      "lat": 52.527024,
+      "lng": 13.4119171,
+      "bezirk": "Mitte"
     },
     {
       "title": "Ulm5 Prozess-Update - Anarchist Dinner",
@@ -394,7 +478,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Inhabit a Permaculture Perspective -  Film 2015",
@@ -410,7 +498,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Call me Paris",
@@ -426,7 +518,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
+      "lat": 52.4986606,
+      "lng": 13.3022747,
+      "bezirk": "Charlottenburg-Wilmersdorf"
     },
     {
       "title": "Electric Monday",
@@ -442,7 +538,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Filmabend inK(P)",
@@ -458,7 +558,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Köpenicker Straße, 10179 Mitte",
+      "lat": 52.507824,
+      "lng": 13.4271106,
+      "bezirk": "Mitte"
     },
     {
       "title": "10,000 Blinks presents: I AM STILL ALIVE",
@@ -474,7 +578,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Linienstraße 227, 10178 Mitte",
+      "lat": 52.527024,
+      "lng": 13.4119171,
+      "bezirk": "Mitte"
     },
     {
       "title": "Konferenz: „Verbinden statt spalten – Gemeinsam gegen Queerfeindlichkeit“",
@@ -490,7 +598,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Runder Tisch Queeres Steglitz-Zehlendorf",
@@ -506,7 +618,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Flinta*only Kickern",
@@ -522,7 +638,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Pannierstraße 5, 12047 Neukölln",
+      "lat": 52.4865618,
+      "lng": 13.430953,
+      "bezirk": "Neukölln"
     },
     {
       "title": "Kiezküche im Kiezhaus Agnes Reinhold",
@@ -538,7 +658,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Afrikanische Straße 74, 13351 Wedding",
+      "lat": 52.5517747,
+      "lng": 13.3380141,
+      "bezirk": "Mitte"
     },
     {
       "title": "IT-Beratung für Aktivist:innen und Gruppen",
@@ -554,7 +678,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Köpenicker Straße 45, 10179 Mitte",
+      "lat": 52.5090676,
+      "lng": 13.4243386,
+      "bezirk": "Mitte"
     },
     {
       "title": "Queer Ageing Group",
@@ -570,7 +698,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "SM am Dienstag - SM on Tuesday",
@@ -586,7 +718,11 @@
       ],
       "time_known": true,
       "genre": "Kink",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "How To Play...",
@@ -602,7 +738,11 @@
       ],
       "time_known": true,
       "genre": "Kink",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Rope Structures: Exploring Different Tying Styles",
@@ -618,7 +758,11 @@
       ],
       "time_known": true,
       "genre": "Kink",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Perleberger Straße 59, 10559 Moabit",
+      "lat": 52.5326481,
+      "lng": 13.3513118,
+      "bezirk": "Mitte"
     },
     {
       "title": "anarcha solidarity kitchen",
@@ -634,7 +778,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Breaking News - offener politischer Treff (14-27 Jahre)",
@@ -650,7 +798,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Seelenbinderstraße 54, 12555 Köpenick",
+      "lat": 52.4552464,
+      "lng": 13.5828604,
+      "bezirk": "Treptow-Köpenick"
     },
     {
       "title": "Soli-Küfa",
@@ -666,7 +818,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Mareschstraße 1, 12055 Neukölln",
+      "lat": 52.4736946,
+      "lng": 13.451159,
+      "bezirk": "Neukölln"
     },
     {
       "title": "Lesung",
@@ -682,7 +838,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Ackerstraße 169, 10115 Mitte",
+      "lat": 52.5297369,
+      "lng": 13.3971786,
+      "bezirk": "Mitte"
     },
     {
       "title": "Film: The History of Sound",
@@ -698,7 +858,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Queercoustic Hangout",
@@ -714,7 +878,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Grünberger Straße 73, 10245 Friedrichshain",
+      "lat": 52.5114491,
+      "lng": 13.4595298,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Egal",
@@ -730,7 +898,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
+      "lat": 52.4986606,
+      "lng": 13.3022747,
+      "bezirk": "Charlottenburg-Wilmersdorf"
     },
     {
       "title": "Ich weiß nicht, was ein Ort ist, ich kenne nur seinen Preis (Manzini-Studien)",
@@ -746,7 +918,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Linienstraße 227, 10178 Mitte",
+      "lat": 52.527024,
+      "lng": 13.4119171,
+      "bezirk": "Mitte"
     },
     {
       "title": "Flinta*only Kickern",
@@ -762,7 +938,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Pannierstraße 5, 12047 Neukölln",
+      "lat": 52.4865618,
+      "lng": 13.430953,
+      "bezirk": "Neukölln"
     },
     {
       "title": "Shipwrecked jam 16 + anarcha soli kitchen",
@@ -778,7 +958,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "DER SOLDAT. Ein Übergangsritual",
@@ -794,7 +978,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Stresemannstraße 29, 10963 Kreuzberg",
+      "lat": 52.4999566,
+      "lng": 13.3871576,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Im Herzen der Gewalt",
@@ -810,7 +998,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
+      "lat": 52.4986606,
+      "lng": 13.3022747,
+      "bezirk": "Charlottenburg-Wilmersdorf"
     },
     {
       "title": "Fragezeichen am Hörizont der Tauben",
@@ -826,7 +1018,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Linienstraße 227, 10178 Mitte",
+      "lat": 52.527024,
+      "lng": 13.4119171,
+      "bezirk": "Mitte"
     },
     {
       "title": "Two-Song Tuesday (MUSIC STARTS 20:00)",
@@ -842,7 +1038,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Donaustraße 115, 12043 Berlin",
+      "lat": 52.47567,
+      "lng": 13.43597,
+      "bezirk": "Neukölln"
     },
     {
       "title": "LatinoKino",
@@ -858,7 +1058,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Bernkasteler Straße 78, 13088 Weißensee",
+      "lat": 52.5577176,
+      "lng": 13.4702725,
+      "bezirk": "Pankow"
     },
     {
       "title": "Hamsterrad",
@@ -874,7 +1078,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Projektband für Frauen* und Queers",
@@ -890,7 +1098,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "MADE IN BOGOTA ´STREETART EXHIBITION+FLASHTATTOOS+MUSIC+FOOD",
@@ -906,7 +1118,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Die Welt im Umbruch: Emotionen und Solidarität",
@@ -922,7 +1138,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Theaterführung",
@@ -938,7 +1158,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Linienstraße 227, 10178 Mitte",
+      "lat": 52.527024,
+      "lng": 13.4119171,
+      "bezirk": "Mitte"
     },
     {
       "title": "mittwochskufa",
@@ -954,7 +1178,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Küfa im JUP",
@@ -970,7 +1198,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Florastraße 84, 13187 Pankow",
+      "lat": 52.5658369,
+      "lng": 13.400323,
+      "bezirk": "Pankow"
     },
     {
       "title": "Political Movie Night :  \"Wildstreik\" Köln 1973",
@@ -986,7 +1218,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Filmvorführung \"Every Body\" und Diskussion",
@@ -1002,7 +1238,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Alice-Salomon-Platz 5, 12627 Hellersdorf",
+      "lat": 52.5371991,
+      "lng": 13.6060882,
+      "bezirk": "Marzahn-Hellersdorf"
     },
     {
       "title": "Häkelhektar",
@@ -1018,7 +1258,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "#Logoskop vierundvierzig",
@@ -1034,7 +1278,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Schloßplatz, 10178 Mitte",
+      "lat": 52.5170316,
+      "lng": 13.4012274,
+      "bezirk": "Mitte"
     },
     {
       "title": "Bingo mit den Wodkasisters",
@@ -1050,7 +1298,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Romani POV: Young Roma on Screen and Stage",
@@ -1066,7 +1318,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Linienstraße 227, 10178 Mitte",
+      "lat": 52.527024,
+      "lng": 13.4119171,
+      "bezirk": "Mitte"
     },
     {
       "title": "Beziehungskiller Wohnungskrise – Über das Zusammenleben unter Bedingungen der Knappheit",
@@ -1082,7 +1338,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Schloßplatz, 10178 Mitte",
+      "lat": 52.5170316,
+      "lng": 13.4012274,
+      "bezirk": "Mitte"
     },
     {
       "title": "Hypnose Stammtisch & Anfänger*innen / Beginners Workshop: Was ist Hypnose und was kann das?",
@@ -1098,7 +1358,11 @@
       ],
       "time_known": true,
       "genre": "Kink",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Radical Inclusion",
@@ -1114,7 +1378,11 @@
       ],
       "time_known": true,
       "genre": "Kink",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Queer Rope Jam",
@@ -1130,7 +1398,11 @@
       ],
       "time_known": true,
       "genre": "Kink",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Perleberger Straße 59, 10559 Moabit",
+      "lat": 52.5326481,
+      "lng": 13.3513118,
+      "bezirk": "Mitte"
     },
     {
       "title": "Soli-Küfa, jeden Mittwoch 19 Uhr",
@@ -1146,7 +1418,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Mareschstraße 1, 12055 Neukölln",
+      "lat": 52.4736946,
+      "lng": 13.451159,
+      "bezirk": "Neukölln"
     },
     {
       "title": "Konzert",
@@ -1162,7 +1438,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Ackerstraße 169, 10115 Mitte",
+      "lat": 52.5297369,
+      "lng": 13.3971786,
+      "bezirk": "Mitte"
     },
     {
       "title": "Soli-Abend Nein zur Bezahlkarte",
@@ -1178,7 +1458,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Fermentationsworkshop - Can you jam that?",
@@ -1194,7 +1478,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Tauentzienstraße, 10789 Charlottenburg",
+      "lat": 52.503379,
+      "lng": 13.3386522,
+      "bezirk": "Charlottenburg-Wilmersdorf"
     },
     {
       "title": "Lesekreis: Die Überlegenheit der Unterlegenen. Eine Theorie der Gegengemeinschaften - Daniel Loick",
@@ -1210,7 +1498,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "STRESS POSITIONS - NERVE CENTER - RYTES",
@@ -1226,7 +1518,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Soziale Arbeit, Wehrdienst und Aufrüstung: Workshop",
@@ -1242,7 +1538,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "DER SOLDAT. Ein Übergangsritual",
@@ -1258,7 +1558,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Stresemannstraße 29, 10963 Kreuzberg",
+      "lat": 52.4999566,
+      "lng": 13.3871576,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "P14 – endlich endlich",
@@ -1274,7 +1578,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Linienstraße 227, 10178 Mitte",
+      "lat": 52.527024,
+      "lng": 13.4119171,
+      "bezirk": "Mitte"
     },
     {
       "title": "90 Jahre Ken Loach: Kes (OmU)",
@@ -1290,7 +1598,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Caligariplatz 1, 13086 Weißensee",
+      "lat": 52.5525923,
+      "lng": 13.4305919,
+      "bezirk": "Pankow"
     },
     {
       "title": "Egal",
@@ -1306,7 +1618,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
+      "lat": 52.4986606,
+      "lng": 13.3022747,
+      "bezirk": "Charlottenburg-Wilmersdorf"
     },
     {
       "title": "Fantômas",
@@ -1322,7 +1638,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Linienstraße 227, 10178 Mitte",
+      "lat": 52.527024,
+      "lng": 13.4119171,
+      "bezirk": "Mitte"
     },
     {
       "title": "KüFa (Kitchen for all)",
@@ -1338,7 +1658,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Rigaer Straße 94, 10247 Friedrichshain",
+      "lat": 52.5179905,
+      "lng": 13.4580211,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Im Herzen der Gewalt",
@@ -1354,7 +1678,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
+      "lat": 52.4986606,
+      "lng": 13.3022747,
+      "bezirk": "Charlottenburg-Wilmersdorf"
     },
     {
       "title": "TWINK DEATH",
@@ -1370,7 +1698,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Linienstraße 227, 10178 Mitte",
+      "lat": 52.527024,
+      "lng": 13.4119171,
+      "bezirk": "Mitte"
     },
     {
       "title": "Cravo e Canela 4tet",
@@ -1386,7 +1718,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Donaustraße 115, 12043 Berlin",
+      "lat": 52.47567,
+      "lng": 13.43597,
+      "bezirk": "Neukölln"
     },
     {
       "title": "Vegane Küfa",
@@ -1402,7 +1738,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Bernkasteler Straße 78, 13088 Weißensee",
+      "lat": 52.5577176,
+      "lng": 13.4702725,
+      "bezirk": "Pankow"
     },
     {
       "title": "VideoKino (Open Air)",
@@ -1418,7 +1758,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Bernkasteler Straße 78, 13088 Weißensee",
+      "lat": 52.5577176,
+      "lng": 13.4702725,
+      "bezirk": "Pankow"
     },
     {
       "title": "Qigong & Taiji für deine Lebensenergie!",
@@ -1434,7 +1778,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Die solidarische Jobcenter-Sozialberatung",
@@ -1450,7 +1798,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Afrikanische Straße 74, 13351 Wedding",
+      "lat": 52.5517747,
+      "lng": 13.3380141,
+      "bezirk": "Mitte"
     },
     {
       "title": "Solicafé Klatsche",
@@ -1466,7 +1818,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Lausitzer Straße 22, 10999 Kreuzberg",
+      "lat": 52.4955993,
+      "lng": 13.4268698,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Bum Bum Musik",
@@ -1482,7 +1838,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Linienstraße 227, 10178 Mitte",
+      "lat": 52.527024,
+      "lng": 13.4119171,
+      "bezirk": "Mitte"
     },
     {
       "title": "Gutschein-Tausch im YAAM",
@@ -1498,7 +1858,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "An der Schillingbrücke 3, 10243 Friedrichshain",
+      "lat": 52.5091664,
+      "lng": 13.4307181,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Fesselei - Bondage Jam",
@@ -1514,7 +1878,11 @@
       ],
       "time_known": true,
       "genre": "Kink",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "queer-feministische Fahrrad-Werkstatt | queer feminist bike workshop",
@@ -1530,7 +1898,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Neckarstraße 19, 12053 Neukölln",
+      "lat": 52.4801032,
+      "lng": 13.4340359,
+      "bezirk": "Neukölln"
     },
     {
       "title": "Eddy Playground",
@@ -1546,7 +1918,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Aperol Spritz-Night  -> 5 Euro",
@@ -1562,7 +1938,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Mareschstraße 1, 12055 Neukölln",
+      "lat": 52.4736946,
+      "lng": 13.451159,
+      "bezirk": "Neukölln"
     },
     {
       "title": "Verantwortung für Kindern als Methode des Postkapitalismus.",
@@ -1578,7 +1958,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Having Sex with Vulvas",
@@ -1594,7 +1978,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "KvU - VV + Tresen",
@@ -1610,7 +1998,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Open Jam",
@@ -1626,7 +2018,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Seelenbinderstraße 54, 12555 Köpenick",
+      "lat": 52.4552464,
+      "lng": 13.5828604,
+      "bezirk": "Treptow-Köpenick"
     },
     {
       "title": "Open Decks im Technokeller (14-27 Jahre)",
@@ -1642,7 +2038,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Seelenbinderstraße 54, 12555 Köpenick",
+      "lat": 52.4552464,
+      "lng": 13.5828604,
+      "bezirk": "Treptow-Köpenick"
     },
     {
       "title": "Attac Berlin lädt ein - Reiche in die Pflicht!",
@@ -1658,7 +2058,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Konzert",
@@ -1674,7 +2078,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Ackerstraße 169, 10115 Mitte",
+      "lat": 52.5297369,
+      "lng": 13.3971786,
+      "bezirk": "Mitte"
     },
     {
       "title": "beav boloney freak punk shows",
@@ -1690,7 +2098,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Land, Kultur,  Autonomie - indigener Widerstand in Kolumbien",
@@ -1706,7 +2118,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Annäherungen an meine Eltern Hans und Hilde Coppi",
@@ -1722,7 +2138,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Pankstraße 47, 13357 Gesundbrunnen",
+      "lat": 52.5510219,
+      "lng": 13.3800755,
+      "bezirk": "Mitte"
     },
     {
       "title": "Sortiermaschinen: Grenzen, Mauern, Zäune",
@@ -1738,7 +2158,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "P14 – endlich endlich",
@@ -1754,7 +2178,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Linienstraße 227, 10178 Mitte",
+      "lat": 52.527024,
+      "lng": 13.4119171,
+      "bezirk": "Mitte"
     },
     {
       "title": "Egal",
@@ -1770,7 +2198,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
+      "lat": 52.4986606,
+      "lng": 13.3022747,
+      "bezirk": "Charlottenburg-Wilmersdorf"
     },
     {
       "title": "This is waving salon",
@@ -1786,7 +2218,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Linienstraße 227, 10178 Mitte",
+      "lat": 52.527024,
+      "lng": 13.4119171,
+      "bezirk": "Mitte"
     },
     {
       "title": "Goodbye Berlin",
@@ -1802,7 +2238,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Linienstraße 227, 10178 Mitte",
+      "lat": 52.527024,
+      "lng": 13.4119171,
+      "bezirk": "Mitte"
     },
     {
       "title": "Punkrocktresen",
@@ -1818,7 +2258,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Black Out - hosted by Acoustic Neuroma",
@@ -1834,7 +2278,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Mi Madre y el Dinero",
@@ -1850,7 +2298,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Stresemannstraße 29, 10963 Kreuzberg",
+      "lat": 52.4999566,
+      "lng": 13.3871576,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Im Herzen der Gewalt",
@@ -1866,7 +2318,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
+      "lat": 52.4986606,
+      "lng": 13.3022747,
+      "bezirk": "Charlottenburg-Wilmersdorf"
     },
     {
       "title": "TWINK DEATH",
@@ -1882,7 +2338,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Linienstraße 227, 10178 Mitte",
+      "lat": 52.527024,
+      "lng": 13.4119171,
+      "bezirk": "Mitte"
     },
     {
       "title": "Thursday Jazz Jam",
@@ -1898,7 +2358,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Donaustraße 115, 12043 Berlin",
+      "lat": 52.47567,
+      "lng": 13.43597,
+      "bezirk": "Neukölln"
     },
     {
       "title": "Konzert",
@@ -1914,7 +2378,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Jessnerstraße 41, 10247 Friedrichshain",
+      "lat": 52.5105248,
+      "lng": 13.4713392,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Filmabend im K(P)",
@@ -1930,7 +2398,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Köpenicker Straße, 10179 Mitte",
+      "lat": 52.507824,
+      "lng": 13.4271106,
+      "bezirk": "Mitte"
     },
     {
       "title": "Hamsterrad",
@@ -1946,7 +2418,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Sonntags-Club: Ausflug „7-Seen/Dampferfahrt / Restaurant Loretta im Garten“",
@@ -1962,7 +2438,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Black and queer feminism in Berlin",
@@ -1978,7 +2458,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Kinky Taboos: Berlin’s Forbidden Desires Tour",
@@ -1994,7 +2478,11 @@
       ],
       "time_known": true,
       "genre": "Kink",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Summer.Sun.Done",
@@ -2010,7 +2498,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Bum Bum Musik",
@@ -2026,7 +2518,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Linienstraße 227, 10178 Mitte",
+      "lat": 52.527024,
+      "lng": 13.4119171,
+      "bezirk": "Mitte"
     },
     {
       "title": "FLINTA* Sweat",
@@ -2042,7 +2538,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "CHILLGARAGE",
@@ -2058,7 +2558,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "THE FUTURE IS HANDMADE ‚STREET-ART EXHIBITION + MERCH‘",
@@ -2074,7 +2578,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Lenaustraße 5, 12047 Neukölln",
+      "lat": 52.4899624,
+      "lng": 13.425536,
+      "bezirk": "Neukölln"
     },
     {
       "title": "Gutscheintausch Regenbogencafé",
@@ -2090,7 +2598,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Berlin",
+      "lat": 52.5173885,
+      "lng": 13.3951309,
+      "bezirk": null
     },
     {
       "title": "Tropenbude Bar und Garten offen",
@@ -2106,7 +2618,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Scheffelstraße 21, 10367 Lichtenberg",
+      "lat": 52.5201505,
+      "lng": 13.4731889,
+      "bezirk": "Lichtenberg"
     },
     {
       "title": "Ich schneide schneller",
@@ -2122,7 +2638,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Linienstraße 227, 10178 Mitte",
+      "lat": 52.527024,
+      "lng": 13.4119171,
+      "bezirk": "Mitte"
     },
     {
       "title": "Und jetzt?",
@@ -2138,7 +2658,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Linienstraße 227, 10178 Mitte",
+      "lat": 52.527024,
+      "lng": 13.4119171,
+      "bezirk": "Mitte"
     },
     {
       "title": "Aus der Nacht heraus - Political Film Festival -Day 2",
@@ -2154,7 +2678,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Angela Alves: Never Rest (After Work Tours #2)",
@@ -2170,7 +2698,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Sophienstraße 18, 10178 Mitte",
+      "lat": 52.5258825,
+      "lng": 13.4016022,
+      "bezirk": "Mitte"
     },
     {
       "title": "Filmfestival - \"Aus der Nacht heraus\"",
@@ -2186,7 +2718,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "P14 – endlich endlich",
@@ -2202,7 +2738,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Linienstraße 227, 10178 Mitte",
+      "lat": 52.527024,
+      "lng": 13.4119171,
+      "bezirk": "Mitte"
     },
     {
       "title": "Humboldting #10 Social Muscle Club",
@@ -2218,7 +2758,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Schloßplatz, 10178 Mitte",
+      "lat": 52.5170316,
+      "lng": 13.4012274,
+      "bezirk": "Mitte"
     },
     {
       "title": "Queer Death Café",
@@ -2234,7 +2778,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Tarot and Tie",
@@ -2250,7 +2798,11 @@
       ],
       "time_known": true,
       "genre": "Kink",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Perleberger Straße 59, 10559 Moabit",
+      "lat": 52.5326481,
+      "lng": 13.3513118,
+      "bezirk": "Mitte"
     },
     {
       "title": "Bi+Flinta* meet up",
@@ -2266,7 +2818,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Mareschstraße 1, 12055 Neukölln",
+      "lat": 52.4736946,
+      "lng": 13.451159,
+      "bezirk": "Neukölln"
     },
     {
       "title": "Input und Diskussion \"Sicherheitspaket\"",
@@ -2282,7 +2838,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Konzert",
@@ -2298,7 +2858,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Ackerstraße 169, 10115 Mitte",
+      "lat": 52.5297369,
+      "lng": 13.3971786,
+      "bezirk": "Mitte"
     },
     {
       "title": "Vortrag: Was ist eigentlich in Schnellroda los?",
@@ -2314,7 +2878,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Pride Dinner –Platz am Kaisersteg Für Queers only!",
@@ -2330,7 +2898,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Tauentzienstraße, 10789 Charlottenburg",
+      "lat": 52.503379,
+      "lng": 13.3386522,
+      "bezirk": "Charlottenburg-Wilmersdorf"
     },
     {
       "title": "Kampf gegen den Faschismus in Spanien 1936-1939",
@@ -2346,7 +2918,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "K19 KONZERT",
@@ -2362,7 +2938,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Mi Madre y el Dinero",
@@ -2378,7 +2958,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Stresemannstraße 29, 10963 Kreuzberg",
+      "lat": 52.4999566,
+      "lng": 13.3871576,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Moya Michael: It’s like a Finger Pointing a Way to the Moon",
@@ -2394,7 +2978,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Sophienstraße 18, 10178 Mitte",
+      "lat": 52.5258825,
+      "lng": 13.4016022,
+      "bezirk": "Mitte"
     },
     {
       "title": "Abschlussfest",
@@ -2410,7 +2998,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Linienstraße 227, 10178 Mitte",
+      "lat": 52.527024,
+      "lng": 13.4119171,
+      "bezirk": "Mitte"
     },
     {
       "title": "Kurdish Stand-Up Comedy",
@@ -2426,7 +3018,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Freitag in der Olfe",
@@ -2442,7 +3038,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Kneipe & Briefe an Gefangene schreiben",
@@ -2458,7 +3058,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Grünberger Straße 73, 10245 Friedrichshain",
+      "lat": 52.5114491,
+      "lng": 13.4595298,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "\"Zähneknirschen\" EP Release",
@@ -2474,7 +3078,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Kaskelstraße 55, 10317 Rummelsburg",
+      "lat": 52.5046039,
+      "lng": 13.4832995,
+      "bezirk": "Lichtenberg"
     },
     {
       "title": "Salome",
@@ -2490,7 +3098,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
+      "lat": 52.4986606,
+      "lng": 13.3022747,
+      "bezirk": "Charlottenburg-Wilmersdorf"
     },
     {
       "title": "Meinberg/Greve/Wesley",
@@ -2506,7 +3118,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Donaustraße 115, 12043 Berlin",
+      "lat": 52.47567,
+      "lng": 13.43597,
+      "bezirk": "Neukölln"
     },
     {
       "title": "Ea Torrado: Brown Madonna",
@@ -2522,7 +3138,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Sophienstraße 18, 10178 Mitte",
+      "lat": 52.5258825,
+      "lng": 13.4016022,
+      "bezirk": "Mitte"
     },
     {
       "title": "Bondage Nacht - Bondage Night",
@@ -2538,7 +3158,11 @@
       ],
       "time_known": true,
       "genre": "Kink",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Sonora Berlín",
@@ -2554,7 +3178,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Linienstraße 227, 10178 Mitte",
+      "lat": 52.527024,
+      "lng": 13.4119171,
+      "bezirk": "Mitte"
     },
     {
       "title": "Ziber Berlin: The XXL Debut",
@@ -2570,7 +3198,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Midsummer Moments - Reflections",
@@ -2586,7 +3218,11 @@
       ],
       "time_known": true,
       "genre": "Kink",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Perleberger Straße 59, 10559 Moabit",
+      "lat": 52.5326481,
+      "lng": 13.3513118,
+      "bezirk": "Mitte"
     },
     {
       "title": "Breathplay Workshop",
@@ -2602,7 +3238,11 @@
       ],
       "time_known": true,
       "genre": "Kink",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Tropenbude Bar und Garten offen",
@@ -2618,7 +3258,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Scheffelstraße 21, 10367 Lichtenberg",
+      "lat": 52.5201505,
+      "lng": 13.4731889,
+      "bezirk": "Lichtenberg"
     },
     {
       "title": "Fahrrad-Demo gegen Apollo News, Nius und neurechte Medien",
@@ -2634,7 +3278,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Tauentzienstraße, 10789 Charlottenburg",
+      "lat": 52.503379,
+      "lng": 13.3386522,
+      "bezirk": "Charlottenburg-Wilmersdorf"
     },
     {
       "title": "Kinky Taboos: Berlin After Dark Tour",
@@ -2650,7 +3298,11 @@
       ],
       "time_known": true,
       "genre": "Kink",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Bum Bum Musik",
@@ -2666,7 +3318,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Linienstraße 227, 10178 Mitte",
+      "lat": 52.527024,
+      "lng": 13.4119171,
+      "bezirk": "Mitte"
     },
     {
       "title": "Gender Mix",
@@ -2682,7 +3338,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Midsummer Moments - Playtime",
@@ -2698,7 +3358,11 @@
       ],
       "time_known": true,
       "genre": "Kink",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Perleberger Straße 59, 10559 Moabit",
+      "lat": 52.5326481,
+      "lng": 13.3513118,
+      "bezirk": "Mitte"
     },
     {
       "title": "Schach- und Spiele-Nachmittag",
@@ -2714,7 +3378,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Solitresen - Sweet drinks for bitter times",
@@ -2730,7 +3398,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Küche für Alle - Torhaus Kochkollektiv",
@@ -2746,7 +3418,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Columbiadamm 10, 10965 Tempelhof",
+      "lat": 52.484018,
+      "lng": 13.3911982,
+      "bezirk": "Tempelhof-Schöneberg"
     },
     {
       "title": "Solitressen - sweet drinks for bitter times",
@@ -2762,7 +3438,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Lesung und Punkkonzert",
@@ -2778,7 +3458,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Zionskirchplatz 1, 10119 Prenzlauer Berg",
+      "lat": 52.5346475,
+      "lng": 13.4037357,
+      "bezirk": "Mitte"
     },
     {
       "title": "Konzert im Garten",
@@ -2794,7 +3478,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Scheffelstraße 21, 10367 Lichtenberg",
+      "lat": 52.5201505,
+      "lng": 13.4731889,
+      "bezirk": "Lichtenberg"
     },
     {
       "title": "Humboldting #10 Social Muscle Club",
@@ -2810,7 +3498,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Schloßplatz, 10178 Mitte",
+      "lat": 52.5170316,
+      "lng": 13.4012274,
+      "bezirk": "Mitte"
     },
     {
       "title": "Rundgang Ausstellung „Die Anarchie ist das Leben der Menschen, die dem Joche entronnen sind.“",
@@ -2826,7 +3518,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Brüsseler Straße 21, 13353 Wedding",
+      "lat": 52.5460206,
+      "lng": 13.3479549,
+      "bezirk": "Mitte"
     },
     {
       "title": "Angela Alves: Never Rest (After Work Tours #2)",
@@ -2842,7 +3538,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Sophienstraße 18, 10178 Mitte",
+      "lat": 52.5258825,
+      "lng": 13.4016022,
+      "bezirk": "Mitte"
     },
     {
       "title": "Screening \"ProPal - for the global justice\" + aperitivo",
@@ -2858,7 +3558,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Grünberger Straße 73, 10245 Friedrichshain",
+      "lat": 52.5114491,
+      "lng": 13.4595298,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Freedom of Movement",
@@ -2874,7 +3578,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Linienstraße 227, 10178 Mitte",
+      "lat": 52.527024,
+      "lng": 13.4119171,
+      "bezirk": "Mitte"
     },
     {
       "title": "BöseBuben-Nacht",
@@ -2890,7 +3598,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Gaybar",
@@ -2906,7 +3618,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Moya Michael: It’s like a Finger Pointing a Way to the Moon",
@@ -2922,7 +3638,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Sophienstraße 18, 10178 Mitte",
+      "lat": 52.5258825,
+      "lng": 13.4016022,
+      "bezirk": "Mitte"
     },
     {
       "title": "Oratorium – Kollektive Andacht zu einem wohlgehüteten Geheimnis",
@@ -2938,7 +3658,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Stresemannstraße 29, 10963 Kreuzberg",
+      "lat": 52.4999566,
+      "lng": 13.3871576,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Lesung & Buchvorstellung",
@@ -2954,7 +3678,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Being Young",
@@ -2970,7 +3698,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
+      "lat": 52.4986606,
+      "lng": 13.3022747,
+      "bezirk": "Charlottenburg-Wilmersdorf"
     },
     {
       "title": "Salon Ma ما",
@@ -2986,7 +3718,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Linienstraße 227, 10178 Mitte",
+      "lat": 52.527024,
+      "lng": 13.4119171,
+      "bezirk": "Mitte"
     },
     {
       "title": "U35",
@@ -3002,7 +3738,11 @@
       ],
       "time_known": true,
       "genre": "Kink",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Konzert im $@#@riterviertel",
@@ -3018,7 +3758,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Riot Grrrl Tresen feat. ZOFF & RubberXhead",
@@ -3034,7 +3778,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Niemetzstraße 24, 12055 Neukölln",
+      "lat": 52.4716193,
+      "lng": 13.4510314,
+      "bezirk": "Neukölln"
     },
     {
       "title": "Der Mitsingabend",
@@ -3050,7 +3798,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Salome",
@@ -3066,7 +3818,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
+      "lat": 52.4986606,
+      "lng": 13.3022747,
+      "bezirk": "Charlottenburg-Wilmersdorf"
     },
     {
       "title": "Love Me Tender",
@@ -3082,7 +3838,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Linienstraße 227, 10178 Mitte",
+      "lat": 52.527024,
+      "lng": 13.4119171,
+      "bezirk": "Mitte"
     },
     {
       "title": "MUSViT",
@@ -3098,7 +3858,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Donaustraße 115, 12043 Berlin",
+      "lat": 52.47567,
+      "lng": 13.43597,
+      "bezirk": "Neukölln"
     },
     {
       "title": "Konzert im TRxxxTR",
@@ -3114,7 +3878,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Skalitzer Straße, 10997 Kreuzberg",
+      "lat": 52.5008341,
+      "lng": 13.4414625,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Ea Torrado: Brown Madonna",
@@ -3130,7 +3898,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Sophienstraße 18, 10178 Mitte",
+      "lat": 52.5258825,
+      "lng": 13.4016022,
+      "bezirk": "Mitte"
     },
     {
       "title": "Die Seherin",
@@ -3146,7 +3918,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
+      "lat": 52.4986606,
+      "lng": 13.3022747,
+      "bezirk": "Charlottenburg-Wilmersdorf"
     },
     {
       "title": "Konzert im K (A)",
@@ -3162,7 +3938,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Köpenicker Straße, 10179 Mitte",
+      "lat": 52.507824,
+      "lng": 13.4271106,
+      "bezirk": "Mitte"
     },
     {
       "title": "Wello Rauschs Karaoke Gala",
@@ -3178,7 +3958,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Olympia Bukkakis: Queer and Present Dangers/The Nation at Work",
@@ -3194,7 +3978,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Sophienstraße 18, 10178 Mitte",
+      "lat": 52.5258825,
+      "lng": 13.4016022,
+      "bezirk": "Mitte"
     },
     {
       "title": "Klubnacht",
@@ -3210,7 +3998,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Eddy Breaks Sommersause",
@@ -3226,7 +4018,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Kriminal Kitchen fuck off soundssystem",
@@ -3242,7 +4038,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Drag Brunch",
@@ -3258,7 +4058,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Guided Tour : „Speaking of Sex”",
@@ -3274,7 +4078,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Rope Level-Up: Playing with Predicaments",
@@ -3290,7 +4098,11 @@
       ],
       "time_known": true,
       "genre": "Kink",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Perleberger Straße 59, 10559 Moabit",
+      "lat": 52.5326481,
+      "lng": 13.3513118,
+      "bezirk": "Mitte"
     },
     {
       "title": "Führung : „Apropos Sex”",
@@ -3306,7 +4118,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Vegan Soli Brunch",
@@ -3322,7 +4138,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Kiez-Flohmarkt",
@@ -3338,7 +4158,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Save Rojava Soliparty and Tattoo",
@@ -3354,7 +4178,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Rigaer Straße 78, 10247 Friedrichshain",
+      "lat": 52.5166542,
+      "lng": 13.4641926,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Squat de la Musique",
@@ -3370,7 +4198,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Mitteltunnel, 10243 Friedrichshain",
+      "lat": 52.5107448,
+      "lng": 13.4351709,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Streitraum",
@@ -3386,7 +4218,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
+      "lat": 52.4986606,
+      "lng": 13.3022747,
+      "bezirk": "Charlottenburg-Wilmersdorf"
     },
     {
       "title": "📖 Infoladen Scherer 8 📖",
@@ -3402,7 +4238,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Schererstraße 8, 13347 Wedding",
+      "lat": 52.5481641,
+      "lng": 13.3670511,
+      "bezirk": "Mitte"
     },
     {
       "title": "Soli-Bücherflohmarkt",
@@ -3418,7 +4258,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Squat de la Musique * Schreina47",
@@ -3434,7 +4278,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Kaffee, Sex und Kuchen - Coffee, Sex & Cake",
@@ -3450,7 +4298,11 @@
       ],
       "time_known": true,
       "genre": "Kink",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Tropenbude Bar und Garten offen",
@@ -3466,7 +4318,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Scheffelstraße 21, 10367 Lichtenberg",
+      "lat": 52.5201505,
+      "lng": 13.4731889,
+      "bezirk": "Lichtenberg"
     },
     {
       "title": "Squat de la Musique aufm Dorfplatz",
@@ -3482,7 +4338,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Café No Pasaran",
@@ -3498,7 +4358,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Kuchen KüFa @ Squat De La Musique // KAOX Türri",
@@ -3514,7 +4378,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Türrschmidtstraße 1, 10317 Rummelsburg",
+      "lat": 52.5026366,
+      "lng": 13.4758561,
+      "bezirk": "Lichtenberg"
     },
     {
       "title": "Historische Hausführung: Never Work",
@@ -3530,7 +4398,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Sophienstraße 18, 10178 Mitte",
+      "lat": 52.5258825,
+      "lng": 13.4016022,
+      "bezirk": "Mitte"
     },
     {
       "title": "Bum Bum Musik",
@@ -3546,7 +4418,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Linienstraße 227, 10178 Mitte",
+      "lat": 52.527024,
+      "lng": 13.4119171,
+      "bezirk": "Mitte"
     },
     {
       "title": "Naked Sex Party",
@@ -3562,7 +4438,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Konzert",
@@ -3578,7 +4458,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Ackerstraße 169, 10115 Mitte",
+      "lat": 52.5297369,
+      "lng": 13.3971786,
+      "bezirk": "Mitte"
     },
     {
       "title": "Unsere Träume zu leben /  Hayallerimizi yaşamak",
@@ -3594,7 +4478,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Stresemannstraße 29, 10963 Kreuzberg",
+      "lat": 52.4999566,
+      "lng": 13.3871576,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "„ABBA – Waterloo im Bällebad”",
@@ -3610,7 +4498,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Cuddles, Cakes and Kinks - Summer Edition (with Garden!)",
@@ -3626,7 +4518,11 @@
       ],
       "time_known": true,
       "genre": "Kink",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Perleberger Straße 59, 10559 Moabit",
+      "lat": 52.5326481,
+      "lng": 13.3513118,
+      "bezirk": "Mitte"
     },
     {
       "title": "Gedenkkundgebung 93 Jahre Köpenicker Blutwoche",
@@ -3642,7 +4538,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Tauentzienstraße, 10789 Charlottenburg",
+      "lat": 52.503379,
+      "lng": 13.3386522,
+      "bezirk": "Charlottenburg-Wilmersdorf"
     },
     {
       "title": "Angela Alves: Never Rest (After Work Tours #2)",
@@ -3658,7 +4558,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Sophienstraße 18, 10178 Mitte",
+      "lat": 52.5258825,
+      "lng": 13.4016022,
+      "bezirk": "Mitte"
     },
     {
       "title": "Chillout Jam",
@@ -3674,7 +4578,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Der Schnittchenkauf",
@@ -3690,7 +4598,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Linienstraße 227, 10178 Mitte",
+      "lat": 52.527024,
+      "lng": 13.4119171,
+      "bezirk": "Mitte"
     },
     {
       "title": "Filmscreening",
@@ -3706,7 +4618,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Kinzigstraße 9, 10247 Friedrichshain",
+      "lat": 52.5136974,
+      "lng": 13.4666469,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "P14 – endlich endlich",
@@ -3722,7 +4638,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Linienstraße 227, 10178 Mitte",
+      "lat": 52.527024,
+      "lng": 13.4119171,
+      "bezirk": "Mitte"
     },
     {
       "title": "Love Me Tender",
@@ -3738,7 +4658,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Linienstraße 227, 10178 Mitte",
+      "lat": 52.527024,
+      "lng": 13.4119171,
+      "bezirk": "Mitte"
     },
     {
       "title": "Oratorium – Kollektive Andacht zu einem wohlgehüteten Geheimnis",
@@ -3754,7 +4678,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Stresemannstraße 29, 10963 Kreuzberg",
+      "lat": 52.4999566,
+      "lng": 13.3871576,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Die Seherin",
@@ -3770,7 +4698,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
+      "lat": 52.4986606,
+      "lng": 13.3022747,
+      "bezirk": "Charlottenburg-Wilmersdorf"
     },
     {
       "title": "Hunger",
@@ -3786,7 +4718,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Donaustraße 115, 12043 Berlin",
+      "lat": 52.47567,
+      "lng": 13.43597,
+      "bezirk": "Neukölln"
     },
     {
       "title": "Olympia Bukkakis: Queer and Present Dangers/The Nation at Work",
@@ -3802,7 +4738,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Sophienstraße 18, 10178 Mitte",
+      "lat": 52.5258825,
+      "lng": 13.4016022,
+      "bezirk": "Mitte"
     },
     {
       "title": "VideoKino (Open Air)",
@@ -3818,7 +4758,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Bernkasteler Straße 78, 13088 Weißensee",
+      "lat": 52.5577176,
+      "lng": 13.4702725,
+      "bezirk": "Pankow"
     },
     {
       "title": "Fuckin´ Monday",
@@ -3834,7 +4778,11 @@
       ],
       "time_known": true,
       "genre": "Kink",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Die Montagsspieler",
@@ -3850,7 +4798,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Queer Yoga - Monday Fire",
@@ -3866,7 +4818,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Sozialberatung  - Social counseling",
@@ -3882,7 +4838,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "All-Gender-Fußball",
@@ -3898,7 +4858,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Fahrrad-Selbsthilfe-Werkstatt",
@@ -3914,7 +4878,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Queer Yoga - Slow Flow",
@@ -3930,7 +4898,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Offene Mietenberatung",
@@ -3946,7 +4918,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Offene Mieterberatung",
@@ -3962,7 +4938,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Rope for Absolute Beginners",
@@ -3978,7 +4958,11 @@
       ],
       "time_known": true,
       "genre": "Kink",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Perleberger Straße 59, 10559 Moabit",
+      "lat": 52.5326481,
+      "lng": 13.3513118,
+      "bezirk": "Mitte"
     },
     {
       "title": "Soli-Bleiberechtsbar",
@@ -3994,7 +4978,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Bernkasteler Straße 78, 13088 Weißensee",
+      "lat": 52.5577176,
+      "lng": 13.4702725,
+      "bezirk": "Pankow"
     },
     {
       "title": "Konzert",
@@ -4010,7 +4998,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Ackerstraße 169, 10115 Mitte",
+      "lat": 52.5297369,
+      "lng": 13.3971786,
+      "bezirk": "Mitte"
     },
     {
       "title": "Palästina , Israel und die Deutschen.",
@@ -4026,7 +5018,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Weisestraße 53, 12049 Neukölln",
+      "lat": 52.4776993,
+      "lng": 13.4240706,
+      "bezirk": "Neukölln"
     },
     {
       "title": "Wem gehört der Reichtum? Vom Volksentscheid über die Fürstenenteignung vor 100 Jahren bis zu aktuellen Vergesellschaftungsdebatten",
@@ -4042,7 +5038,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Offenes Plenum der Kritischen Medizin Berlin",
@@ -4058,7 +5058,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Die Seherin",
@@ -4074,7 +5078,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
+      "lat": 52.4986606,
+      "lng": 13.3022747,
+      "bezirk": "Charlottenburg-Wilmersdorf"
     },
     {
       "title": "Anarchistisches Infocafé",
@@ -4090,7 +5098,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Salome",
@@ -4106,7 +5118,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
+      "lat": 52.4986606,
+      "lng": 13.3022747,
+      "bezirk": "Charlottenburg-Wilmersdorf"
     },
     {
       "title": "KitKatClub",
@@ -4122,7 +5138,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Filmabend im K( P)",
@@ -4138,7 +5158,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Köpenicker Straße, 10179 Mitte",
+      "lat": 52.507824,
+      "lng": 13.4271106,
+      "bezirk": "Mitte"
     },
     {
       "title": "Hamsterrad",
@@ -4154,7 +5178,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Solidarische Prozessbegleitung + Kundgebung",
@@ -4170,7 +5198,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Historische Hausführung: Never Work",
@@ -4186,7 +5218,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Sophienstraße 18, 10178 Mitte",
+      "lat": 52.5258825,
+      "lng": 13.4016022,
+      "bezirk": "Mitte"
     },
     {
       "title": "Flinta*only Kickern",
@@ -4202,7 +5238,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Pannierstraße 5, 12047 Neukölln",
+      "lat": 52.4865618,
+      "lng": 13.430953,
+      "bezirk": "Neukölln"
     },
     {
       "title": "Kiezküche im Kiezhaus Agnes Reinhold",
@@ -4218,7 +5258,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Afrikanische Straße 74, 13351 Wedding",
+      "lat": 52.5517747,
+      "lng": 13.3380141,
+      "bezirk": "Mitte"
     },
     {
       "title": "IT-Beratung für Aktivist:innen und Gruppen",
@@ -4234,7 +5278,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Köpenicker Straße 45, 10179 Mitte",
+      "lat": 52.5090676,
+      "lng": 13.4243386,
+      "bezirk": "Mitte"
     },
     {
       "title": "Berliner Bündnis gegen Vonovia & Co. - monatliches Vernetzungstreffen",
@@ -4250,7 +5298,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Rope Lab: Play & Connection - pain",
@@ -4266,7 +5318,11 @@
       ],
       "time_known": true,
       "genre": "Kink",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Perleberger Straße 59, 10559 Moabit",
+      "lat": 52.5326481,
+      "lng": 13.3513118,
+      "bezirk": "Mitte"
     },
     {
       "title": "anarcha solidarity kitchen",
@@ -4282,7 +5338,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Breaking News - offener politischer Treff (14-27 Jahre)",
@@ -4298,7 +5358,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Seelenbinderstraße 54, 12555 Köpenick",
+      "lat": 52.4552464,
+      "lng": 13.5828604,
+      "bezirk": "Treptow-Köpenick"
     },
     {
       "title": "Soli-Küfa",
@@ -4314,7 +5378,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Mareschstraße 1, 12055 Neukölln",
+      "lat": 52.4736946,
+      "lng": 13.451159,
+      "bezirk": "Neukölln"
     },
     {
       "title": "AfD Parteitag stoppen!",
@@ -4330,7 +5398,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Sophiensæle Forever #2 – Never Work",
@@ -4346,7 +5418,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Sophienstraße 18, 10178 Mitte",
+      "lat": 52.5258825,
+      "lng": 13.4016022,
+      "bezirk": "Mitte"
     },
     {
       "title": "\"Wer wird visionär?\" ~ Queeres Quiz",
@@ -4362,7 +5438,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Flinta*only Kickern",
@@ -4378,7 +5458,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Pannierstraße 5, 12047 Neukölln",
+      "lat": 52.4865618,
+      "lng": 13.430953,
+      "bezirk": "Neukölln"
     },
     {
       "title": "Two-Song Tuesday (MUSIC STARTS 20:00)",
@@ -4394,7 +5478,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Donaustraße 115, 12043 Berlin",
+      "lat": 52.47567,
+      "lng": 13.43597,
+      "bezirk": "Neukölln"
     },
     {
       "title": "LatinoKino",
@@ -4410,7 +5498,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Bernkasteler Straße 78, 13088 Weißensee",
+      "lat": 52.5577176,
+      "lng": 13.4702725,
+      "bezirk": "Pankow"
     },
     {
       "title": "Abwärts!: #2 Texte, Filme, Sensationen + Release Heft 59",
@@ -4426,7 +5518,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Tauentzienstraße, 10789 Charlottenburg",
+      "lat": 52.503379,
+      "lng": 13.3386522,
+      "bezirk": "Charlottenburg-Wilmersdorf"
     },
     {
       "title": "Ein Volksfeind",
@@ -4442,7 +5538,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
+      "lat": 52.4986606,
+      "lng": 13.3022747,
+      "bezirk": "Charlottenburg-Wilmersdorf"
     },
     {
       "title": "Hamsterrad",
@@ -4458,7 +5558,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Studio 9. Der Tag mit Sarah Bosetti. Deutschlandfunk Kultur – live aus dem Humboldt Forum",
@@ -4474,7 +5578,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Schloßplatz, 10178 Mitte",
+      "lat": 52.5170316,
+      "lng": 13.4012274,
+      "bezirk": "Mitte"
     },
     {
       "title": "After Work",
@@ -4490,7 +5598,11 @@
       ],
       "time_known": true,
       "genre": "Kink",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Projektband für Frauen* und Queers",
@@ -4506,7 +5618,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "mittwochskufa",
@@ -4522,7 +5638,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Küfa im JUP",
@@ -4538,7 +5658,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Florastraße 84, 13187 Pankow",
+      "lat": 52.5658369,
+      "lng": 13.400323,
+      "bezirk": "Pankow"
     },
     {
       "title": "Playfight & Rough Body Play Lab",
@@ -4554,7 +5678,11 @@
       ],
       "time_known": true,
       "genre": "Kink",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Soli-Küfa, jeden Mittwoch 19 Uhr",
@@ -4570,7 +5698,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Mareschstraße 1, 12055 Neukölln",
+      "lat": 52.4736946,
+      "lng": 13.451159,
+      "bezirk": "Neukölln"
     },
     {
       "title": "Konzert",
@@ -4586,7 +5718,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Ackerstraße 169, 10115 Mitte",
+      "lat": 52.5297369,
+      "lng": 13.3971786,
+      "bezirk": "Mitte"
     },
     {
       "title": "Offenes Antifa Treffen",
@@ -4602,7 +5738,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Never Work Talks: Helen Hester, Anajara Amarante, Olivia Hyunsin Kim",
@@ -4618,7 +5758,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Sophienstraße 18, 10178 Mitte",
+      "lat": 52.5258825,
+      "lng": 13.4016022,
+      "bezirk": "Mitte"
     },
     {
       "title": "Lesung Henryk Gericke und Henning Rabe",
@@ -4634,7 +5778,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Karaoke-Abend",
@@ -4650,7 +5798,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "KüFa (Kitchen for all)",
@@ -4666,7 +5818,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Rigaer Straße 94, 10247 Friedrichshain",
+      "lat": 52.5179905,
+      "lng": 13.4580211,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Konzert",
@@ -4682,7 +5838,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Rigaer Straße 83, 10247 Friedrichshain",
+      "lat": 52.5170566,
+      "lng": 13.4619369,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Ramiro Zayas 4tet",
@@ -4698,7 +5858,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Donaustraße 115, 12043 Berlin",
+      "lat": 52.47567,
+      "lng": 13.43597,
+      "bezirk": "Neukölln"
     },
     {
       "title": "Vegane Küfa",
@@ -4714,7 +5878,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Bernkasteler Straße 78, 13088 Weißensee",
+      "lat": 52.5577176,
+      "lng": 13.4702725,
+      "bezirk": "Pankow"
     },
     {
       "title": "Ein Volksfeind",
@@ -4730,7 +5898,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
+      "lat": 52.4986606,
+      "lng": 13.3022747,
+      "bezirk": "Charlottenburg-Wilmersdorf"
     },
     {
       "title": "VideoKino (Open Air)",
@@ -4746,7 +5918,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Bernkasteler Straße 78, 13088 Weißensee",
+      "lat": 52.5577176,
+      "lng": 13.4702725,
+      "bezirk": "Pankow"
     },
     {
       "title": "Die solidarische Jobcenter-Sozialberatung",
@@ -4762,7 +5938,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Afrikanische Straße 74, 13351 Wedding",
+      "lat": 52.5517747,
+      "lng": 13.3380141,
+      "bezirk": "Mitte"
     },
     {
       "title": "Solicafé Klatsche",
@@ -4778,7 +5958,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Lausitzer Straße 22, 10999 Kreuzberg",
+      "lat": 52.4955993,
+      "lng": 13.4268698,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Gutschein-Tausch im YAAM",
@@ -4794,7 +5978,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "An der Schillingbrücke 3, 10243 Friedrichshain",
+      "lat": 52.5091664,
+      "lng": 13.4307181,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Colleen Ndemeh Fitzgerald: After Work Tours #3",
@@ -4810,7 +5998,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Sophienstraße 18, 10178 Mitte",
+      "lat": 52.5258825,
+      "lng": 13.4016022,
+      "bezirk": "Mitte"
     },
     {
       "title": "Offener Treffpunkt Mieter:innen für Mieter:innen!",
@@ -4826,7 +6018,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Aperol Spritz-Night  -> 5 Euro",
@@ -4842,7 +6038,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Mareschstraße 1, 12055 Neukölln",
+      "lat": 52.4736946,
+      "lng": 13.451159,
+      "bezirk": "Neukölln"
     },
     {
       "title": "Flüssige Grenzen, bewegter Grund – Wo Wasser erinnert",
@@ -4858,7 +6058,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Schloßplatz, 10178 Mitte",
+      "lat": 52.5170316,
+      "lng": 13.4012274,
+      "bezirk": "Mitte"
     },
     {
       "title": "Practical Reflections on Intentional Kink Space Facilitation",
@@ -4874,7 +6078,11 @@
       ],
       "time_known": true,
       "genre": "Kink",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Näh’n’Nerd Cafe / Reparaturkneipe",
@@ -4890,7 +6098,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Wühlischstraße 42, 10245 Friedrichshain",
+      "lat": 52.5087036,
+      "lng": 13.4606574,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Open Jam",
@@ -4906,7 +6118,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Seelenbinderstraße 54, 12555 Köpenick",
+      "lat": 52.4552464,
+      "lng": 13.5828604,
+      "bezirk": "Treptow-Köpenick"
     },
     {
       "title": "Open Decks im Technokeller (14-27 Jahre)",
@@ -4922,7 +6138,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Seelenbinderstraße 54, 12555 Köpenick",
+      "lat": 52.4552464,
+      "lng": 13.5828604,
+      "bezirk": "Treptow-Köpenick"
     },
     {
       "title": "Konzert",
@@ -4938,7 +6158,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Ackerstraße 169, 10115 Mitte",
+      "lat": 52.5297369,
+      "lng": 13.3971786,
+      "bezirk": "Mitte"
     },
     {
       "title": "Näh’n’Nerd Cafe - Das Repaircafé im Vetomat",
@@ -4954,7 +6178,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Wühlischstraße 42, 10245 Friedrichshain",
+      "lat": 52.5087036,
+      "lng": 13.4606574,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Velvet Rebels – leftist, feminist, queer, kinkster, friends",
@@ -4970,7 +6198,11 @@
       ],
       "time_known": true,
       "genre": "Kink",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Exerzierstraße 14, 13357 Gesundbrunnen",
+      "lat": 52.5540255,
+      "lng": 13.3746131,
+      "bezirk": "Mitte"
     },
     {
       "title": "Podium \"Jüdische Identitäten und Antisemitismus im Punk\"",
@@ -4986,7 +6218,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Never Work Talks: Amelia Horgan, Nicole Mayer-Ahuja",
@@ -5002,7 +6238,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Sophienstraße 18, 10178 Mitte",
+      "lat": 52.5258825,
+      "lng": 13.4016022,
+      "bezirk": "Mitte"
     },
     {
       "title": "Thursday Jazz Jam",
@@ -5018,7 +6258,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Donaustraße 115, 12043 Berlin",
+      "lat": 52.47567,
+      "lng": 13.43597,
+      "bezirk": "Neukölln"
     },
     {
       "title": "Filmabend im K(P)",
@@ -5034,7 +6278,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Köpenicker Straße, 10179 Mitte",
+      "lat": 52.507824,
+      "lng": 13.4271106,
+      "bezirk": "Mitte"
     },
     {
       "title": "LATINO / BALKAN - PUNK DISCHORD (KONZERTE)",
@@ -5050,7 +6298,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Köpenicker Straße 137, 10179 Mitte",
+      "lat": 52.5077022,
+      "lng": 13.4260264,
+      "bezirk": "Mitte"
     },
     {
       "title": "VIBRA",
@@ -5066,7 +6318,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "CHILLGARAGE",
@@ -5082,7 +6338,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "HAU: Berlin bleibt! #5 Nachbarschaften in Bewegung",
@@ -5098,7 +6358,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Gutscheintausch Regenbogencafé",
@@ -5114,7 +6378,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Berlin",
+      "lat": 52.5173885,
+      "lng": 13.3951309,
+      "bezirk": null
     },
     {
       "title": "Tropenbude Bar und Garten offen",
@@ -5130,7 +6398,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Scheffelstraße 21, 10367 Lichtenberg",
+      "lat": 52.5201505,
+      "lng": 13.4731889,
+      "bezirk": "Lichtenberg"
     },
     {
       "title": "Gnawa Parade & Konzert: Hicham Bilali & Black Koyo u. a.",
@@ -5146,7 +6418,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "John-Foster-Dulles-Allee 10, 10557 Tiergarten",
+      "lat": 52.5187884,
+      "lng": 13.3648356,
+      "bezirk": "Mitte"
     },
     {
       "title": "Aesthetics of Access: Audiodeskription",
@@ -5162,7 +6438,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Sophienstraße 18, 10178 Mitte",
+      "lat": 52.5258825,
+      "lng": 13.4016022,
+      "bezirk": "Mitte"
     },
     {
       "title": "Potse Raumkampfplenum",
@@ -5178,7 +6458,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Filmfestival - \"Aus der Nacht heraus\"",
@@ -5194,7 +6478,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Aus der Nacht heraus - Political Film Festival -Day 3",
@@ -5210,7 +6498,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Hier sein heißt handeln",
@@ -5226,7 +6518,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Stresemannstraße 29, 10963 Kreuzberg",
+      "lat": 52.4999566,
+      "lng": 13.3871576,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Spielraum",
@@ -5242,7 +6538,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Stresemannstraße 29, 10963 Kreuzberg",
+      "lat": 52.4999566,
+      "lng": 13.3871576,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Hurt Me, Deliciously",
@@ -5258,7 +6558,11 @@
       ],
       "time_known": true,
       "genre": "Kink",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Konzert",
@@ -5274,7 +6578,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Ackerstraße 169, 10115 Mitte",
+      "lat": 52.5297369,
+      "lng": 13.3971786,
+      "bezirk": "Mitte"
     },
     {
       "title": "Colleen Ndemeh Fitzgerald: After Work Tours #3",
@@ -5290,7 +6598,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Sophienstraße 18, 10178 Mitte",
+      "lat": 52.5258825,
+      "lng": 13.4016022,
+      "bezirk": "Mitte"
     },
     {
       "title": "Vieux Farka Touré",
@@ -5306,7 +6618,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "John-Foster-Dulles-Allee 10, 10557 Tiergarten",
+      "lat": 52.5187884,
+      "lng": 13.3648356,
+      "bezirk": "Mitte"
     },
     {
       "title": "Nappies for a Change",
@@ -5322,7 +6638,11 @@
       ],
       "time_known": true,
       "genre": "Kink",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Konzert „jezevec u mraveniště“",
@@ -5338,7 +6658,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Soli concert",
@@ -5354,7 +6678,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Rigaer Straße 83, 10247 Friedrichshain",
+      "lat": 52.5170566,
+      "lng": 13.4619369,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Apaches",
@@ -5370,7 +6698,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Stresemannstraße 29, 10963 Kreuzberg",
+      "lat": 52.4999566,
+      "lng": 13.3871576,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Qui a tué mon père (Wer hat meinen Vater umgebracht)",
@@ -5386,7 +6718,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
+      "lat": 52.4986606,
+      "lng": 13.3022747,
+      "bezirk": "Charlottenburg-Wilmersdorf"
     },
     {
       "title": "Peter Gall Quintet",
@@ -5402,7 +6738,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Donaustraße 115, 12043 Berlin",
+      "lat": 52.47567,
+      "lng": 13.43597,
+      "bezirk": "Neukölln"
     },
     {
       "title": "Konzert: Shutcombo + LisaBouvier",
@@ -5418,7 +6758,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Genesis",
@@ -5434,7 +6778,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
+      "lat": 52.4986606,
+      "lng": 13.3022747,
+      "bezirk": "Charlottenburg-Wilmersdorf"
     },
     {
       "title": "BULLYACHE: A Good Man is Hard to Find",
@@ -5450,7 +6798,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Sophienstraße 18, 10178 Mitte",
+      "lat": 52.5258825,
+      "lng": 13.4016022,
+      "bezirk": "Mitte"
     },
     {
       "title": "saHHar",
@@ -5466,7 +6818,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "John-Foster-Dulles-Allee 10, 10557 Tiergarten",
+      "lat": 52.5187884,
+      "lng": 13.3648356,
+      "bezirk": "Mitte"
     },
     {
       "title": "Konzert",
@@ -5482,7 +6838,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Jessnerstraße 41, 10247 Friedrichshain",
+      "lat": 52.5105248,
+      "lng": 13.4713392,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Workshops \"Utopien & Personas\" - kreativ gg. Tech-Faschismus",
@@ -5498,7 +6858,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "CSD Bernau Anreise",
@@ -5514,7 +6878,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Florastraße 84, 13187 Pankow",
+      "lat": 52.5658369,
+      "lng": 13.400323,
+      "bezirk": "Pankow"
     },
     {
       "title": "Solidarity Bake Sale",
@@ -5530,7 +6898,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Grünberger Straße 73, 10245 Friedrichshain",
+      "lat": 52.5114491,
+      "lng": 13.4595298,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Fünf Jahre offen",
@@ -5546,7 +6918,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Schloßplatz, 10178 Mitte",
+      "lat": 52.5170316,
+      "lng": 13.4012274,
+      "bezirk": "Mitte"
     },
     {
       "title": "Rope Fundamentals Weekend: Foundations & Fun",
@@ -5562,7 +6938,11 @@
       ],
       "time_known": true,
       "genre": "Kink",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Perleberger Straße 59, 10559 Moabit",
+      "lat": 52.5326481,
+      "lng": 13.3513118,
+      "bezirk": "Mitte"
     },
     {
       "title": "Rope Fundamentals: Shibari Starter Kit Weekend",
@@ -5578,7 +6958,11 @@
       ],
       "time_known": true,
       "genre": "Kink",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Perleberger Straße 59, 10559 Moabit",
+      "lat": 52.5326481,
+      "lng": 13.3513118,
+      "bezirk": "Mitte"
     },
     {
       "title": "Festival gegen Rassismus",
@@ -5594,7 +6978,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Kuriosum Repair Kaffee",
@@ -5610,7 +6998,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Scheffelstraße 21, 10367 Lichtenberg",
+      "lat": 52.5201505,
+      "lng": 13.4731889,
+      "bezirk": "Lichtenberg"
     },
     {
       "title": "Tropenbude Bar und Garten offen",
@@ -5626,7 +7018,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Scheffelstraße 21, 10367 Lichtenberg",
+      "lat": 52.5201505,
+      "lng": 13.4731889,
+      "bezirk": "Lichtenberg"
     },
     {
       "title": "Aus der Nacht heraus (Day 4): Panel Discussion & more",
@@ -5642,7 +7038,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Tauentzienstraße, 10789 Charlottenburg",
+      "lat": 52.503379,
+      "lng": 13.3386522,
+      "bezirk": "Charlottenburg-Wilmersdorf"
     },
     {
       "title": "Jeanne Dielman, 23, quai du Commerce, 1080 Bruxelles",
@@ -5658,7 +7058,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Caligariplatz 1, 13086 Weißensee",
+      "lat": 52.5525923,
+      "lng": 13.4305919,
+      "bezirk": "Pankow"
     },
     {
       "title": "Gnawa für alle",
@@ -5674,7 +7078,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "John-Foster-Dulles-Allee 10, 10557 Tiergarten",
+      "lat": 52.5187884,
+      "lng": 13.3648356,
+      "bezirk": "Mitte"
     },
     {
       "title": "Krabbelgruppe - Nappy Play Group",
@@ -5690,7 +7098,11 @@
       ],
       "time_known": true,
       "genre": "Kink",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "BAU-PAUSE PARTY",
@@ -5706,7 +7118,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Linkes Chorfestival: 10 Jahre \"Der KMC\" und mehr",
@@ -5722,7 +7138,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Lehrter Straße 35, 10557 Moabit",
+      "lat": 52.5341991,
+      "lng": 13.3592766,
+      "bezirk": "Mitte"
     },
     {
       "title": "Die schwarze Krähe der Weißen Siedlung",
@@ -5738,7 +7158,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Stresemannstraße 29, 10963 Kreuzberg",
+      "lat": 52.4999566,
+      "lng": 13.3871576,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Routes & Roots: Das gemeinsame Erbe von Gnawa und transatlantischer Yoruba-Kultur",
@@ -5754,7 +7178,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "John-Foster-Dulles-Allee 10, 10557 Tiergarten",
+      "lat": 52.5187884,
+      "lng": 13.3648356,
+      "bezirk": "Mitte"
     },
     {
       "title": "Rundgang Ausstellung „Die Anarchie ist das Leben der Menschen, die dem Joche entronnen sind.“",
@@ -5770,7 +7198,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Brüsseler Straße 21, 13353 Wedding",
+      "lat": 52.5460206,
+      "lng": 13.3479549,
+      "bezirk": "Mitte"
     },
     {
       "title": "Filmfestival - \"Aus der Nacht heraus\" - Closing Even",
@@ -5786,7 +7218,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Apaches",
@@ -5802,7 +7238,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Stresemannstraße 29, 10963 Kreuzberg",
+      "lat": 52.4999566,
+      "lng": 13.3871576,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Konzert",
@@ -5818,7 +7258,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Ackerstraße 169, 10115 Mitte",
+      "lat": 52.5297369,
+      "lng": 13.3971786,
+      "bezirk": "Mitte"
     },
     {
       "title": "Soliparty & Pierogi",
@@ -5834,7 +7278,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Grünberger Straße 73, 10245 Friedrichshain",
+      "lat": 52.5114491,
+      "lng": 13.4595298,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "LEIPZIG GOES BERLIN CONCERT",
@@ -5850,7 +7298,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Rigaer Straße 78, 10247 Friedrichshain",
+      "lat": 52.5166542,
+      "lng": 13.4641926,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Hardcore / Metalcore / OI!-Punk",
@@ -5866,7 +7318,11 @@
       ],
       "time_known": true,
       "genre": "Kink",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Lausitzer Straße 22, 10999 Kreuzberg",
+      "lat": 52.4955993,
+      "lng": 13.4268698,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Hier sein heißt handeln",
@@ -5882,7 +7338,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Stresemannstraße 29, 10963 Kreuzberg",
+      "lat": 52.4999566,
+      "lng": 13.3871576,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Justin Adams & Mauro Durante mit Alessia Tondo | Majid Bekkas & Bassekou Kouyaté",
@@ -5898,7 +7358,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "John-Foster-Dulles-Allee 10, 10557 Tiergarten",
+      "lat": 52.5187884,
+      "lng": 13.3648356,
+      "bezirk": "Mitte"
     },
     {
       "title": "Musical Belongings VII: Bach und Balafon",
@@ -5914,7 +7378,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Schloßplatz, 10178 Mitte",
+      "lat": 52.5170316,
+      "lng": 13.4012274,
+      "bezirk": "Mitte"
     },
     {
       "title": "Colleen Ndemeh Fitzgerald: After Work Tours #3",
@@ -5930,7 +7398,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Sophienstraße 18, 10178 Mitte",
+      "lat": 52.5258825,
+      "lng": 13.4016022,
+      "bezirk": "Mitte"
     },
     {
       "title": "Genesis",
@@ -5946,7 +7418,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
+      "lat": 52.4986606,
+      "lng": 13.3022747,
+      "bezirk": "Charlottenburg-Wilmersdorf"
     },
     {
       "title": "KONVULSISMO :6",
@@ -5962,7 +7438,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Qui a tué mon père (Wer hat meinen Vater umgebracht)",
@@ -5978,7 +7458,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
+      "lat": 52.4986606,
+      "lng": 13.3022747,
+      "bezirk": "Charlottenburg-Wilmersdorf"
     },
     {
       "title": "Konzert",
@@ -5994,7 +7478,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Stresemannstraße 29, 10963 Kreuzberg",
+      "lat": 52.4999566,
+      "lng": 13.3871576,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Bondarev/Downes/Ginsburg/Michel",
@@ -6010,7 +7498,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Donaustraße 115, 12043 Berlin",
+      "lat": 52.47567,
+      "lng": 13.43597,
+      "bezirk": "Neukölln"
     },
     {
       "title": "Bluets",
@@ -6026,7 +7518,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
+      "lat": 52.4986606,
+      "lng": 13.3022747,
+      "bezirk": "Charlottenburg-Wilmersdorf"
     },
     {
       "title": "BULLYACHE: A Good Man is Hard to Find",
@@ -6042,7 +7538,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Sophienstraße 18, 10178 Mitte",
+      "lat": 52.5258825,
+      "lng": 13.4016022,
+      "bezirk": "Mitte"
     },
     {
       "title": "Konzert",
@@ -6058,7 +7558,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Jessnerstraße 41, 10247 Friedrichshain",
+      "lat": 52.5105248,
+      "lng": 13.4713392,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "DJ-Set von Slimgirl Fat",
@@ -6074,7 +7578,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Stresemannstraße 29, 10963 Kreuzberg",
+      "lat": 52.4999566,
+      "lng": 13.3871576,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Zine & Siroko — Trance Ritual (B2B)",
@@ -6090,7 +7598,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "John-Foster-Dulles-Allee 10, 10557 Tiergarten",
+      "lat": 52.5187884,
+      "lng": 13.3648356,
+      "bezirk": "Mitte"
     },
     {
       "title": "Workshops \"Utopien & Personas\" - kreativ gg. Tech-Faschismus",
@@ -6106,7 +7618,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Rope Fundamentals Weekend: Nerdery & Harnesses",
@@ -6122,7 +7638,11 @@
       ],
       "time_known": true,
       "genre": "Kink",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Perleberger Straße 59, 10559 Moabit",
+      "lat": 52.5326481,
+      "lng": 13.3513118,
+      "bezirk": "Mitte"
     },
     {
       "title": "📖 Infoladen Scherer 8 📖",
@@ -6138,7 +7658,11 @@
       ],
       "time_known": true,
       "genre": "Queer",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Schererstraße 8, 13347 Wedding",
+      "lat": 52.5481641,
+      "lng": 13.3670511,
+      "bezirk": "Mitte"
     },
     {
       "title": "Offene Bibliothek UJZ Karslhorst",
@@ -6154,7 +7678,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Hönower Straße 30, 10318 Karlshorst",
+      "lat": 52.4892149,
+      "lng": 13.5212776,
+      "bezirk": "Lichtenberg"
     },
     {
       "title": "Tropenbude Bar und Garten offen",
@@ -6170,7 +7698,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Scheffelstraße 21, 10367 Lichtenberg",
+      "lat": 52.5201505,
+      "lng": 13.4731889,
+      "bezirk": "Lichtenberg"
     },
     {
       "title": "Sonntagsschule - Sunday School",
@@ -6186,7 +7718,11 @@
       ],
       "time_known": true,
       "genre": "Kink",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Chillout Jam",
@@ -6202,7 +7738,11 @@
       ],
       "time_known": true,
       "genre": "Polit",
-      "subcategory": null
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Musical Belongings VII: Bach und Balafon",
@@ -6218,7 +7758,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Schloßplatz, 10178 Mitte",
+      "lat": 52.5170316,
+      "lng": 13.4012274,
+      "bezirk": "Mitte"
     },
     {
       "title": "Bluets",
@@ -6234,7 +7778,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
+      "lat": 52.4986606,
+      "lng": 13.3022747,
+      "bezirk": "Charlottenburg-Wilmersdorf"
     },
     {
       "title": "Qui a tué mon père (Wer hat meinen Vater umgebracht)",
@@ -6250,7 +7798,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
+      "lat": 52.4986606,
+      "lng": 13.3022747,
+      "bezirk": "Charlottenburg-Wilmersdorf"
     },
     {
       "title": "Jakob Astrup Trio",
@@ -6266,7 +7818,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Donaustraße 115, 12043 Berlin",
+      "lat": 52.47567,
+      "lng": 13.43597,
+      "bezirk": "Neukölln"
     },
     {
       "title": "Genesis",
@@ -6282,7 +7838,11 @@
       ],
       "time_known": true,
       "genre": "Kultur",
-      "subcategory": null
+      "subcategory": null,
+      "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
+      "lat": 52.4986606,
+      "lng": 13.3022747,
+      "bezirk": "Charlottenburg-Wilmersdorf"
     }
   ]
 }

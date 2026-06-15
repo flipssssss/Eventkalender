@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-15T19:38:24.260068+00:00",
-  "count": 398,
+  "generated_at": "2026-06-15T19:43:39.658343+00:00",
+  "count": 399,
   "sources": [
     {
       "source": "Quälgeist",
@@ -10,11 +10,6 @@
     {
       "source": "Karada House",
       "count": 30,
-      "error": null
-    },
-    {
-      "source": "Party Dyke Berlin",
-      "count": 0,
       "error": null
     },
     {
@@ -40,6 +35,11 @@
     {
       "source": "Klub Verboten",
       "count": 0,
+      "error": null
+    },
+    {
+      "source": "Party Dyke Berlin",
+      "count": 19,
       "error": null
     },
     {
@@ -4690,26 +4690,6 @@
       "bezirk": "Pankow"
     },
     {
-      "title": "Soli Bingo",
-      "start": "2026-06-22T07:30:00",
-      "end": null,
-      "location": "SilverFuture, Weserstraße 206, Neukölln",
-      "description": "Save the date for the third round of Queer Music",
-      "image_url": null,
-      "source_url": "https://www.silverfuture.net/events-1/",
-      "source_name": "Silverfuture",
-      "tags": [
-        "Party"
-      ],
-      "time_known": true,
-      "genre": "Queer",
-      "subcategory": null,
-      "address": "Weserstraße 206, 12047 Berlin",
-      "lat": 52.49293,
-      "lng": 13.42897,
-      "bezirk": "Neukölln"
-    },
-    {
       "title": "Fuckin´ Monday",
       "start": "2026-06-22T10:00:00",
       "end": "2026-06-22T12:00:00",
@@ -5088,6 +5068,26 @@
       "lat": 52.4986606,
       "lng": 13.3022747,
       "bezirk": "Charlottenburg-Wilmersdorf"
+    },
+    {
+      "title": "Soli Bingo",
+      "start": "2026-06-22T19:30:00",
+      "end": null,
+      "location": "SilverFuture, Weserstraße 206, Neukölln",
+      "description": "Save the date for the third round of Queer Music",
+      "image_url": null,
+      "source_url": "https://www.silverfuture.net/events-1/",
+      "source_name": "Silverfuture",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true,
+      "genre": "Queer",
+      "subcategory": null,
+      "address": "Weserstraße 206, 12047 Berlin",
+      "lat": 52.49293,
+      "lng": 13.42897,
+      "bezirk": "Neukölln"
     },
     {
       "title": "Barschulung - Erstbelehrung",
@@ -7108,6 +7108,26 @@
       "lat": 52.5187884,
       "lng": 13.3648356,
       "bezirk": "Mitte"
+    },
+    {
+      "title": "Hey Mama: A FLINTA* Fuckboi Party",
+      "start": "2026-06-27T15:00:00",
+      "end": "2026-06-27T21:30:00",
+      "location": "Location is TBD",
+      "description": "The FLINTA* Fuckboi Party returns for a third year running and mysteriously we're still not sponsored by Sterni.",
+      "image_url": "https://static.wixstatic.com/media/d1ae0e_d52f5da4b5764839ac25e695227d419d~mv2.png/v1/fill/w_1080,h_1350,al_c/d1ae0e_d52f5da4b5764839ac25e695227d419d~mv2.png",
+      "source_url": "https://www.partydykeberlin.com/event-details/hey-mama-a-flinta-fuckboi-party-2",
+      "source_name": "Party Dyke Berlin",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true,
+      "genre": "Queer",
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Krabbelgruppe - Nappy Play Group",

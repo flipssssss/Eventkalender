@@ -25,10 +25,10 @@ const WISH_ENDPOINT = "https://formspree.io/f/xjgdlbnl";
 
 // Quellenname für Events, die Nutzer*innen selbst hinzufügen.
 const MINE_SOURCE = "Eigene Events";
-// Firebase Realtime Database. Hier die URL deines Projekts eintragen, z. B.
-// "https://eventkalender-xyz-default-rtdb.europe-west1.firebasedatabase.app".
+// Firebase Realtime Database (Speicher für selbst eingetragene Events).
 // Solange leer, ist das Hinzufügen eigener Events deaktiviert.
-const FIREBASE_DB_URL = "";
+const FIREBASE_DB_URL =
+  "https://eventkalender-80e69-default-rtdb.europe-west1.firebasedatabase.app";
 
 const state = {
   events: [],
@@ -953,9 +953,10 @@ async function submitOwnEvent(e) {
   }
 
   try {
+    // No custom Content-Type header -> stays a CORS "simple request" (no
+    // preflight). Firebase parses the JSON body regardless.
     const res = await fetch(FIREBASE_DB_URL.replace(/\/$/, "") + "/events.json", {
       method: "POST",
-      headers: { "Content-Type": "application/json" },
       body: JSON.stringify(payload),
     });
     if (!res.ok) throw new Error("HTTP " + res.status);

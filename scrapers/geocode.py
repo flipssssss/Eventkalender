@@ -289,9 +289,9 @@ def locate_event(event, *, allow_network: bool = True) -> None:
 
     fixed = SOURCE_ADDRESS.get(event.source_name)
     if fixed:
+        # Single venue: a clean, consistent name + the known address.
         event.address = fixed
-        if not event.location or event.location.lower().startswith("http"):
-            event.location = event.source_name
+        event.location = event.source_name
 
     if not event.location and not event.address:
         return

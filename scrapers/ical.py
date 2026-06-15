@@ -12,7 +12,9 @@ from __future__ import annotations
 
 import datetime as _dt
 from typing import Iterable
+from urllib.parse import urlsplit
 
+import requests
 from icalendar import Calendar
 
 from .base import BaseScraper, Event
@@ -71,17 +73,44 @@ class ICalScraper(BaseScraper):
         self.category = category
         self.party_or_workshop = party_or_workshop
 
-    def fetch_events(self) -> Iterable[Event]:
-        # A non-"Mozilla" user agent plus a calendar Accept header gets
-        # past bot walls like Anubis, which only challenge browser-like
-        # requests. Plain feed fetchers are allowed through.
-        response = self.get(
-            self.url,
-            headers={
+    def _fetch(self) -> requests.Response:
+        """Fetch the feed, trying a plain feed UA then a browser UA.
+
+        A non-"Mozilla" user agent gets past bot walls like Anubis (which only
+        challenge browser-like requests). Some sites do the opposite and block
+        non-browser agents (403) -- for those we retry looking like a browser.
+        """
+        origin = "{0.scheme}://{0.netloc}/".format(urlsplit(self.url))
+        attempts = [
+            {
                 "User-Agent": "Eventkalender-Feed/1.0 (+https://github.com/flipssssss/eventkalender)",
                 "Accept": "text/calendar, application/calendar+xml, text/plain, */*",
             },
-        )
+            {
+                "User-Agent": (
+                    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                    "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 "
+                    "Safari/537.36"
+                ),
+                "Accept": "text/calendar, text/html, */*",
+                "Accept-Language": "de-DE,de;q=0.9,en;q=0.8",
+                "Referer": origin,
+            },
+        ]
+        last_error: Exception | None = None
+        for headers in attempts:
+            try:
+                return self.get(self.url, headers=headers)
+            except requests.HTTPError as exc:
+                last_error = exc
+                status = exc.response.status_code if exc.response is not None else None
+                if status in (401, 403, 406, 429):
+                    continue  # blocked for this UA -> try the next one
+                raise
+        raise last_error  # type: ignore[misc]
+
+    def fetch_events(self) -> Iterable[Event]:
+        response = self._fetch()
         calendar = Calendar.from_ical(response.content)
         events: list[Event] = []
 

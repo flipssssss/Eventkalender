@@ -150,8 +150,7 @@ class StressfaktorScraper(BaseScraper):
             txt = re.sub(r"^[\wäöüÄÖÜ ]{0,20}:\s*", "", txt)
             tags.extend(t.strip() for t in re.split(r"[,/]", txt) if t.strip())
 
-        img = row.find("img")
-        image_url = urljoin(base_url, img["src"]) if img and img.get("src") else None
+        image_url = self._row_image(row, base_url)
 
         return Event(
             title=title,
@@ -163,6 +162,21 @@ class StressfaktorScraper(BaseScraper):
             image_url=image_url,
             tags=tags,
         )
+
+    def _row_image(self, row, base_url: str) -> str | None:
+        """Pick a flyer image, including common lazy-load attributes."""
+        for img in row.find_all("img"):
+            for attr in ("src", "data-src", "data-lazy-src", "data-original"):
+                val = (img.get(attr) or "").strip()
+                if val and not val.startswith("data:") and "blank" not in val \
+                        and "placeholder" not in val and "spacer" not in val:
+                    return urljoin(base_url, val)
+            srcset = (img.get("srcset") or img.get("data-srcset") or "").strip()
+            if srcset:
+                first = srcset.split(",")[0].strip().split(" ")[0]
+                if first and not first.startswith("data:"):
+                    return urljoin(base_url, first)
+        return None
 
     def _row_date(self, row) -> _dt.datetime | None:
         # Drupal renders dates as <time datetime="2026-07-03T20:00:00Z">.

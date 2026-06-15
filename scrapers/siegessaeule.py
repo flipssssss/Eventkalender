@@ -40,6 +40,8 @@ SLUG_RE = re.compile(r'slug:"([^"]+)"')
 INFO_RE = re.compile(r'info:"((?:[^"\\]|\\.)*)"')
 ENDS_AT_RE = re.compile(r'endsAt:"([^"]+)"')
 IMAGE_RE = re.compile(r'url:"(https?:[^"]*?cdn\.siegessaeule\.de[^"]+)"')
+# The image is often a reference (e.g. ``image:g``) into the variable table.
+IMAGE_REF_RE = re.compile(r'image:([A-Za-z$_][\w$]*)\b')
 TAGS_RE = re.compile(r'tags:\[([^\]]*)\]')
 # Venue is embedded as ``venue:{id:"…",title:"…",__typename:f}`` (or null).
 # The listing carries only the venue's name; address/coords come from the
@@ -151,6 +153,13 @@ class SiegessaeuleScraper(BaseScraper):
         end = parse_datetime(ends.group(1)).replace(tzinfo=None) if ends else None
         image = self._first(IMAGE_RE, obj)
         image = _unescape(image) if image else None
+        if not image:
+            # ``image:g`` -> resolve the reference through the variable table.
+            ref = IMAGE_REF_RE.search(obj)
+            if ref:
+                value = _resolve_value(ref.group(1), refs)
+                if isinstance(value, str) and value.startswith("http"):
+                    image = value
         # Link to the day listing (always valid); deep event links 404.
         source_url = f"{BASE}?date={start.date().isoformat()}"
 
@@ -261,6 +270,11 @@ def _lit(token: str):
         return _unescape(token[1:-1])
     if re.fullmatch(r"-?\d+(?:\.\d+)?", token):
         return token
+    # An object value (e.g. an image) -> keep its URL so image refs resolve.
+    if token.startswith("{"):
+        m = re.search(r'url:"(https?:[^"\\]+)"', token)
+        if m:
+            return _unescape(m.group(1))
     return None
 
 

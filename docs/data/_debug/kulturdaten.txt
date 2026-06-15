@@ -1,22 +1,24 @@
-=== BASE https://api-v2.kulturdaten.berlin ===
-GET /api/docs-json -> 404 application/json; charset=utf-8
-     {"message":"not found","errors":[{"path":"/api/docs-json","message":"not found"}]}
-GET /api-json -> 404 text/html; charset=utf-8
-     <!DOCTYPE html> <html lang="en"> <head> <meta charset="utf-8"> <title>Error</title> </head> <body> <pre>Cannot GET /api-json</pre> </body> </html> 
-GET /api/discover/attractions -> 404 application/json; charset=utf-8
-     {"message":"not found","errors":[{"path":"/api/discover/attractions","message":"not found"}]}
-GET /api/discover/events -> 404 application/json; charset=utf-8
-     {"message":"not found","errors":[{"path":"/api/discover/events","message":"not found"}]}
-GET /api/discover/locations -> 404 application/json; charset=utf-8
-     {"message":"not found","errors":[{"path":"/api/discover/locations","message":"not found"}]}
-GET /discover/attractions -> 404 text/html; charset=utf-8
-     <!DOCTYPE html> <html lang="en"> <head> <meta charset="utf-8"> <title>Error</title> </head> <body> <pre>Cannot GET /discover/attractions</pre> </body> </html> 
-GET /api/attractions -> 200 application/json; charset=utf-8
-     {"success":true,"message":"Operation Successful","data":{"page":1,"pageSize":30,"totalCount":21949,"attractions":[{"title":{"de":" Schach im STZ"},"description":{"de":"Für interessierte Schachfreunde, jeden Montag von 13:00 Uhr bis 17:00 Uh
-     keys: ['success', 'message', 'data']
-GET /api/events -> 200 application/json; charset=utf-8
-     {"success":true,"message":"Operation Successful","data":{"page":1,"pageSize":30,"totalCount":13824,"events":[{"schedule":{"startDate":"2026-06-15","endDate":"2026-06-15","startTime":"00:00:00","endTime":"00:00:00"},"attractions":[{"referenc
-     keys: ['success', 'message', 'data']
-GET /api/locations -> 200 application/json; charset=utf-8
-     {"success":true,"message":"Operation Successful","data":{"page":1,"pageSize":30,"totalCount":3284,"locations":[{"title":{"de":"Stadtteilzentrum Pestalozzi-Treff"},"isVirtual":false,"address":{"streetAddress":"Pestalozzistraße 1 A","postalCo
-     keys: ['success', 'message', 'data']
+=== events: totalCount=13824 ===
+{"schedule": {"startDate": "2026-06-15", "endDate": "2026-06-15", "startTime": "00:00:00", "endTime": "00:00:00"}, "attractions": [{"referenceType": "type.Attraction", "referenceId": "A_CTRKJCG7E97K", "referenceLabel": {"de": "Hochzeiten aus den Familienalben "}}], "locations": [{"referenceType": "type.Location", "referenceId": "L_A4ENFWCY3BBB", "referenceLabel": {"de": "Stadtteilzentrum Kaulsdorf"}}], "metadata": {"origin": "bezirkskalender", "originObjectID": "1433773", "editableBy": ["O_MARZAHN1HELL"], "created": "2026-03-08T05:05:54.973Z", "updated": "2026-03-08T05:05:54.973Z"}, "admission": {"ticketType": "ticketType.freeOfCharge"}, "type": "type.Event", "identifier": "E_ZFS3GMADRHSC", "status": "event.published", "scheduleStatus": "event.scheduled"}
+
+=== attractions: totalCount=21949 ===
+{"title": {"de": " Schach im STZ"}, "description": {"de": "Für interessierte Schachfreunde, jeden Montag von 13:00 Uhr bis 17:00 Uhr.\r\nAnmeldung erwünscht unter : 030 / 56 58 69 20\r\n\r\nZugang und WC sind behindertengerecht !\r\nWir freuen uns auf Sie !"}, "metadata": {"origin": "bezirkskalender", "originObjectID": "69992", "editableBy": ["O_MARZAHN1HELL"], "created": "2024-03-14T09:19:31.021Z", "updated": "2024-03-14T09:19:31.021Z"}, "website": "www.hvd-bb.de", "inLanguages": ["de"], "tags": ["attraction.category.Lectures"], "externalLinks": [{"url": "www.hvd-bb.de"}], "type": "type.Attraction", "identifier": "A_KPJGGWYZL5EK", "status": "attraction.published"}
+
+=== locations: totalCount=3284 ===
+{"title": {"de": "Stadtteilzentrum Pestalozzi-Treff"}, "isVirtual": false, "address": {"streetAddress": "Pestalozzistraße 1 A", "postalCode": "12623", "addressLocality": "Berlin"}, "contact": {"telephone": "(030) 565 869 20"}, "borough": "Marzahn-Hellersdorf", "metadata": {"origin": "bezirkskalender", "originObjectID": "2997", "editableBy": ["O_MARZAHN1HELL"], "created": "2024-03-14T09:19:24.003Z", "updated": "2024-03-14T09:19:24.003Z"}, "type": "type.Location", "identifier": "L_M4KPTA4ARP9L", "status": "location.published", "openingStatus": "location.opened"}
+
+=== Query-Tests /api/events ===
+?page=1&pageSize=2 -> 200: {"success":true,"message":"Operation Successful","data":{"page":1,"pageSize":2,"totalCount":13824,"events":[{"schedule":{"startDate":"2026-06-15","endDate":"2026-06-15","startTime":"00:00:00","endTime
+?anyDate=true -> 400: {"message":"Unknown query parameter 'anyDate'","errors":[{"path":"/query/anyDate","message":"Unknown query parameter 'anyDate'"}]}
+?startDate=2026-06-16 -> 200: {"success":true,"message":"Operation Successful","data":{"page":1,"pageSize":30,"totalCount":13702,"events":[{"schedule":{"startDate":"2026-06-16","endDate":"2026-06-16","startTime":"00:00:00","endTim
+?filter[schedule.startDate]=2026-06-16 -> 400: {"message":"Unknown query parameter 'filter'","errors":[{"path":"/query/filter","message":"Unknown query parameter 'filter'"}]}
+?include=attractions,locations -> 400: {"message":"Unknown query parameter 'include'","errors":[{"path":"/query/include","message":"Unknown query parameter 'include'"}]}
+?expand=attractions -> 400: {"message":"Unknown query parameter 'expand'","errors":[{"path":"/query/expand","message":"Unknown query parameter 'expand'"}]}
+?pageSize=2&include=attractions -> 400: {"message":"Unknown query parameter 'include'","errors":[{"path":"/query/include","message":"Unknown query parameter 'include'"}]}
+
+=== OpenAPI-Spec ===
+/api/docs/swagger.json -> 200 text/html; charset=utf-8
+/api/docs/json -> 200 text/html; charset=utf-8
+/api/openapi.json -> 404 application/json; charset=utf-
+/api/docs-json/ -> 404 application/json; charset=utf-
+/api/docs/?format=json -> 200 text/html; charset=utf-8

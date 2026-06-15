@@ -7,4 +7,4 @@ https://stressfaktor.squat.net/termine/alle page 4: 30 Events (2026-06-21…2026
 https://stressfaktor.squat.net/termine/alle page 5: 30 Events (2026-06-23…2026-06-26)
 https://stressfaktor.squat.net/termine/alle page 6: 30 Events (2026-06-26…2026-06-29)
 https://stressfaktor.squat.net/termine/alle page 7: 30 Events (2026-06-29…2026-07-01)
-Anubis-Notizen: PoW: difficulty=2 nonce=78 hash=0035b8d10df3… pass-status=200 cookies=['techaro.lol-anubis-cookie-verification', 'techaro.lol-anubis-auth']
+Anubis-Notizen: PoW: difficulty=2 nonce=37 hash=002a11df2938… pass-status=200 cookies=['techaro.lol-anubis-cookie-verification', 'techaro.lol-anubis-auth']

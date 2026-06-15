@@ -283,17 +283,24 @@ def locate_event(event, *, allow_network: bool = True) -> None:
 
     if not event.location:
         return
-    # Prefer the richest query we have: an explicit address beats a bare name.
-    raw = event.address or event.location
+    raw = (event.address or event.location).strip()
     # Skip obvious non-addresses (e.g. a stray URL in the location field).
     if raw.lower().startswith("http"):
         return
-    query = clean_query(raw)
-    hit = geocode(query, allow_network=allow_network)
-    if not hit:
-        return
-    event.lat = hit.get("lat")
-    event.lng = hit.get("lng")
-    event.bezirk = hit.get("bezirk")
-    if hit.get("address"):
-        event.address = hit["address"]
+
+    # Try the full string first (works well for clean addresses), then the
+    # extracted "Street No, PLZ Berlin" as a fallback for noisy strings.
+    candidates = [raw if "berlin" in raw.lower() else f"{raw}, Berlin"]
+    cleaned = clean_query(raw)
+    if cleaned not in candidates:
+        candidates.append(cleaned)
+
+    for query in candidates:
+        hit = geocode(query, allow_network=allow_network)
+        if hit and hit.get("lat") is not None:
+            event.lat = hit.get("lat")
+            event.lng = hit.get("lng")
+            event.bezirk = hit.get("bezirk")
+            if hit.get("address"):
+                event.address = hit["address"]
+            return

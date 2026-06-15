@@ -1,0 +1,25 @@
+Status: 200 | Länge: 138801 | JSON-LD: True
+Selektor-Treffer: {'article': 30, '.teaser': 26, '.row-list': 0, '.list': 0, 'li.list-item': 0, '[class*=teaser]': 83, '[class*=ausstellung]': 0, 'time': 0, 'a[href*=ausstellungen]': 98}
+
+--- BEISPIEL-ELEMENT ---
+<div class="modul-text_bild textbildbreit mediateaser nogrid">
+ <div bis_skin_checked="1" class="image">
+  <div bis_skin_checked="1" class="image__image">
+   <a class="" data-campaign="cm.link.10273801" href="/tickets/ausstellungen/brancusi-61576efe-1b9e-478e-8ea3-ca23a2285128/" target="_self" title="Link zu: »Brancusi in der Neuen Nationalgalerie«">
+    <img alt="Brancusi in der Neuen Nationalgalerie (2)" loading="lazy" src="/binaries/asset/image_assets/10273768/ratio_2_1/1773982687/1000x500/"/>
+   </a>
+  </div>
+  <p class="image__caption">
+  </p>
+  <p class="image__copyright">
+   © dpa
+  </p>
+ </div>
+</div>
+
+
+--- HTML (3000 Z. ab <main>/<body>) ---
+<body>
+    <div id="page-wrapper" class="foxtrot">
+  <header id="header"><div class="header__row-portalbrand"><div class="logo"><a href="/"><img class="logo" title="Link zu: Startseite Berlin.de"
+               src="/css/berlin_de/foxtrot/images/logo_berlin_m_srgb.svg" alt="Berlin.de"></a></div></div><div class="header__row-pageheader"><div class="pageheader__logo"><p class="textlogo"><a href="/" title="Link zu: Startseite Berlin.de"><span class="institution">Berlin.de</span><span class="title">Das offizielle Hauptstadtportal</span></a></p></div><div class="pageheader__services"><div id="servicebuttonAccessibility" class="service-button-overlay js-service-button-overlay accessibility"><div class="service-button-overlay__button"><button type="button" class="icon-button js-button-overlay-open" aria-haspopup="true"><i class="icon bicon bicon-universal-access" aria-hidden="true"></i><span class="text">Barrierefrei</span></button></div><div class="service-button-overlay__overlay overlay js-overlay-container robots-nocontent" role="dialog" aria-modal="true" hidden="hidden"><div class="overlay__header"><h2 class="heading"><span>Barrierefreiheit</span></h2><button type="button" class="close-button js-button-overlay-close"><i class="bicon bicon-times" aria-hidden="true"></i><span class="aural">Schließen: Barrierefreiheit</span></button></div><div class="overlay__body"><h3>Wie barrierefrei ist diese Webseite?</h3><a href="/wir-ueber-uns/8100503-4219174-erklaerung-zur-barrierefreiheit.html">Erklärung zur Barrierefreiheit</a><h3>Haben Sie Anmerkungen oder Fragen zur Barrierefreiheit dieser Webseite?</h3><a href="/wir-ueber-uns/8100503-4219174-erklaerung-zur-barrierefreiheit.html#hansprechperson">Kontakt zur Ansprechperson</a><h3>Wo gibt es zusätzliche Informationen zur Barrierefreiheit im Land Berlin?</h3><a href="/moderne-verwaltung/barrierefreie-it/anlaufstellen/kompetenzstelle/artikel.988002.php">Barrierefreie Informations- und Kommunikationstechnik (IKT)</a></div></div></div><div id="servicebuttonSearch" class="service-button-overlay js-service-button-overlay fullwidth"><div class="service-button-overlay__button"><button type="button" class="icon-button js-button-overlay-open" aria-haspopup="true"><i class="icon bicon bicon-search" aria-hidden="true"></i><span class="aural">Öffnen: Suche</span><span class="text">Suche</span></button></div><div class="service-button-overlay__overlay overlay js-overlay-container robots-nocontent" role="dialog" aria-modal="true" hidden="hidden"><div class="overlay__header"><h2 class="heading"><span class="aural">Suche</span></h2><button type="button" class="close-button js-button-overlay-close"><i class="bicon bicon-times" aria-hidden="true"></i><span class="aural">Schließen: Suche</span></button></div><div class="overlay__body"><div class="search-container"><div><form action="/suche/a/" method="GET" class="cmsearch js-cmsearch fulltext" id="6a3063b381791" data-submit="on" data-search="{&quot;name&quot;:&quot;fulltext&quot;

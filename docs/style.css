@@ -972,13 +972,6 @@ body {
   color: var(--accent) !important;
 }
 
-.leaflet-tooltip.map-tip.leaflet-tooltip-top::before {
-  border-top-color: var(--surface);
-}
-.leaflet-tooltip.map-tip.leaflet-tooltip-bottom::before {
-  border-bottom-color: var(--surface);
-}
-
 .map-note {
   position: absolute;
   left: 50%;
@@ -1001,32 +994,67 @@ body {
   font-family: var(--serif);
 }
 
-.leaflet-tooltip.map-tip {
-  display: flex;
-  flex-direction: column;
-  gap: 1px;
-  max-width: 220px;
-  white-space: normal;
-  padding: 7px 10px;
-  border: 1px solid var(--border);
+/* Popup an den Kartenpunkten (zeigt Zeit, Titel, Tags + Details-Button). */
+.map-pop-wrap .leaflet-popup-content-wrapper {
   background: var(--surface);
   color: var(--text);
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.18);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.22);
 }
 
-.map-tip-time {
-  font-size: 0.78rem;
+.map-pop-wrap .leaflet-popup-tip {
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
+
+.map-pop-wrap .leaflet-popup-content {
+  margin: 10px 12px;
+  font-family: var(--serif);
+}
+
+.map-pop {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-width: 220px;
+}
+
+.map-pop-time {
+  font-size: 0.8rem;
   color: var(--muted);
 }
 
-.map-tip-title {
+.map-pop-title {
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.25;
+  font-size: 1rem;
 }
 
-.map-tip-tags {
-  font-size: 0.78rem;
+.map-pop-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.map-pop-tag {
+  padding: 1px 8px;
+  border-radius: 999px;
+  background: var(--accent-soft);
   color: var(--accent);
+  font-size: 0.75rem;
+}
+
+.map-pop-btn {
+  margin-top: 2px;
+  padding: 6px 10px;
+  border: none;
+  border-radius: var(--radius);
+  background: var(--accent);
+  color: var(--surface);
+  font-family: var(--serif);
+  font-size: 0.85rem;
+  cursor: pointer;
 }
 
 /* ---------------- Eigene Events ---------------- */

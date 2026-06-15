@@ -732,7 +732,14 @@ function openModal(ev) {
 
   const shareBtn = document.createElement("button");
   shareBtn.className = "btn";
-  shareBtn.textContent = "↗ Teilen";
+  shareBtn.innerHTML =
+    '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" ' +
+    'stroke="currentColor" stroke-width="2" stroke-linecap="round" ' +
+    'stroke-linejoin="round" aria-hidden="true">' +
+    '<circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/>' +
+    '<circle cx="18" cy="19" r="3"/>' +
+    '<line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/>' +
+    '<line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg><span>Teilen</span>';
   shareBtn.addEventListener("click", () => shareEvent(ev));
   actions.appendChild(shareBtn);
 
@@ -742,7 +749,13 @@ function openModal(ev) {
     link.href = ev.source_url;
     link.target = "_blank";
     link.rel = "noopener noreferrer";
-    link.textContent = "Zur Veranstaltung ↗";
+    link.innerHTML =
+      '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" ' +
+      'stroke="currentColor" stroke-width="2" stroke-linecap="round" ' +
+      'stroke-linejoin="round" aria-hidden="true">' +
+      '<path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>' +
+      '<polyline points="15 3 21 3 21 9"/>' +
+      '<line x1="10" y1="14" x2="21" y2="3"/></svg><span>Zur Veranstaltung</span>';
     actions.appendChild(link);
   }
   body.appendChild(actions);
@@ -1137,14 +1150,22 @@ function renderMap(sortedKeys, groups) {
       fillColor: color,
       fillOpacity: past ? 0.45 : 0.95,
     });
-    marker.on("click", () => openModal(ev));
-    const tagLine = [ev.genre, ...(ev.tags || [])].filter(Boolean).join(" · ");
-    const tip =
-      `<span class="map-tip-time">${past ? "✓ " : ""}` +
-      `${escapeHtml(TIME_FMT.format(new Date(ev.start)))} Uhr</span>` +
-      `<span class="map-tip-title">${escapeHtml(ev.title || "")}</span>` +
-      (tagLine ? `<span class="map-tip-tags">${escapeHtml(tagLine)}</span>` : "");
-    marker.bindTooltip(tip, { direction: "top", opacity: 1, className: "map-tip" });
+    // Tap/click -> popup with time, title and tags (visible on touch too),
+    // plus a button into the full detail view.
+    const tagChips = [ev.genre, ...(ev.tags || [])].filter(Boolean)
+      .map((t) => `<span class="map-pop-tag">${escapeHtml(t)}</span>`).join("");
+    const popup =
+      `<div class="map-pop">` +
+      `<div class="map-pop-time">${past ? "✓ " : ""}` +
+      `${escapeHtml(TIME_FMT.format(new Date(ev.start)))} Uhr</div>` +
+      `<div class="map-pop-title">${escapeHtml(ev.title || "")}</div>` +
+      (tagChips ? `<div class="map-pop-tags">${tagChips}</div>` : "") +
+      `<button type="button" class="map-pop-btn">Details ansehen</button></div>`;
+    marker.bindPopup(popup, { className: "map-pop-wrap", closeButton: true });
+    marker.on("popupopen", (e) => {
+      const btn = e.popup.getElement().querySelector(".map-pop-btn");
+      if (btn) btn.addEventListener("click", () => { marker.closePopup(); openModal(ev); });
+    });
     marker.addTo(map);
     mapMarkers.push(marker);
     bounds.push([ev.lat, ev.lng]);

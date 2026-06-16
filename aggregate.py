@@ -32,7 +32,7 @@ from scrapers import geocode
 from scrapers.donau115 import Donau115Scraper
 from scrapers.kulturdaten import KulturdatenScraper
 from scrapers.silverfuture import SilverfutureScraper
-from scrapers.klubverboten import KlubVerbotenScraper
+from scrapers.ra import ResidentAdvisorScraper
 from scrapers.siegessaeule import SiegessaeuleScraper
 from scrapers.tipberlin import TipBerlinScraper
 from scrapers.ical import ICalScraper
@@ -113,8 +113,8 @@ def get_scrapers():
         # KulturdatenScraper(),
         # Silverfuture (queere Bar) -- Jimdo-Text-Parser, Genre Queer.
         SilverfutureScraper(),
-        # Klub Verboten (RA) -- Sonde, ob die API erreichbar ist.
-        KlubVerbotenScraper(),
+        # Resident Advisor -- gefolgte Promoter/Clubs/Artists (inkl. Klub Verboten).
+        ResidentAdvisorScraper(),
         # Party Dyke Berlin (Wix) -- liest die Event-Detailseiten (JSON-LD).
         PartyDykeScraper(),
         # Café Cralle (Wedding) -- monatlich wiederkehrende Termine.
@@ -190,11 +190,13 @@ def filter_and_sort(events: list[Event]) -> list[Event]:
         if primary is None:
             continue
         event.tags = [primary]
-        # One genre per event: source default, overridden by keywords.
-        text = " ".join(filter(None, [
-            event.title, event.description, event.location, " ".join(event.tags),
-        ]))
-        event.genre = genre_for(event.source_name, text)
+        # One genre per event: a scraper may set it itself (e.g. RA per source),
+        # otherwise it's the source default, overridden by keywords.
+        if not event.genre:
+            text = " ".join(filter(None, [
+                event.title, event.description, event.location, " ".join(event.tags),
+            ]))
+            event.genre = genre_for(event.source_name, text)
 
         key = event.dedupe_key()
         existing = kept.get(key)

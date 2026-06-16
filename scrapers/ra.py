@@ -1,0 +1,174 @@
+"""Resident Advisor -- events from the promoters/clubs/artists you follow.
+
+RA's "following" list is login-gated, so it can't be auto-synced; instead the
+followed entities are listed in ``RA_FOLLOWS`` (add/remove a line to change
+them). All their upcoming Berlin events are pulled via RA's open GraphQL API
+and shown as one source "Resident Advisor". Category Party; genre is Kink/Queer
+(per-entity override in ``GENRE_OVERRIDE``, else inferred, else the default).
+"""
+
+from __future__ import annotations
+
+import json
+import pathlib
+import re
+from typing import Iterable
+
+import requests
+
+from .base import BaseScraper, Event, parse_datetime
+
+SOURCE = "Resident Advisor"
+DEBUG_DIR = pathlib.Path(__file__).resolve().parents[1] / "docs" / "data" / "_debug"
+
+# (type, id-or-slug) -- followed RA entities. Add a line to follow more.
+RA_FOLLOWS = [
+    ("club", "28354"), ("club", "98993"),
+    ("promoter", "82597"), ("promoter", "71007"), ("promoter", "80958"),
+    ("promoter", "79889"), ("artist", "horsemeatdisco"),
+    ("promoter", "84128"),  # Klub Verboten
+    ("promoter", "167895"), ("promoter", "137536"), ("promoter", "169756"),
+    ("promoter", "109496"), ("promoter", "112980"), ("promoter", "119317"),
+    ("promoter", "52590"), ("promoter", "68628"), ("promoter", "110626"),
+    ("promoter", "90524"),
+]
+
+# Genre per entity id/slug ("Kink" / "Queer"). To be filled in.
+GENRE_OVERRIDE = {
+    "84128": "Kink",   # Klub Verboten
+}
+DEFAULT_GENRE = "Queer"
+KINK_KW = ("kink", "fetish", "fetisch", "bdsm", "darkroom", "dark room", "cruise",
+           "cruising", "naked", "nackt", "rubber", "latex", "leather", "hard",
+           "play party", "dungeon", "pup", "bondage")
+QUEER_KW = ("queer", "gay", "schwul", "lesbian", "lesb", "trans", "flinta", "drag",
+            "homo", "dyke", "fag", "lgbt", "non-binary", "nonbinary", "sappho")
+
+HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+    ),
+    "Accept": "application/json",
+    "Content-Type": "application/json",
+    "Referer": "https://ra.co/",
+    "Origin": "https://ra.co",
+    "ra-content-language": "en",
+}
+
+_EVENT_FIELDS = ("id title date startTime endTime contentUrl flyerFront "
+                 "venue{ name area{ name } }")
+QUERIES = {
+    "promoter": "query($id:ID!){ promoter(id:$id){ name events(type:LATEST,"
+                f" limit:40){{ {_EVENT_FIELDS} }} }} }}",
+    "club": "query($id:ID!){ club(id:$id){ name events(type:LATEST,"
+            f" limit:40){{ {_EVENT_FIELDS} }} }} }}",
+    "artist": "query($id:ID!){ artist(id:$id){ name events(type:LATEST,"
+              f" limit:40){{ {_EVENT_FIELDS} }} }} }}",
+}
+
+
+def _genre(entity_id: str, text: str) -> str:
+    if entity_id in GENRE_OVERRIDE:
+        return GENRE_OVERRIDE[entity_id]
+    low = text.lower()
+    if any(k in low for k in KINK_KW):
+        return "Kink"
+    if any(k in low for k in QUEER_KW):
+        return "Queer"
+    return DEFAULT_GENRE
+
+
+class ResidentAdvisorScraper(BaseScraper):
+    name = SOURCE
+
+    def __init__(self, write_debug: bool = True):
+        self.write_debug = write_debug
+
+    def fetch_events(self) -> Iterable[Event]:
+        session = requests.Session()
+        session.headers.update(HEADERS)
+        events: list[Event] = []
+        seen: set[str] = set()
+        report: list[str] = []
+
+        for kind, ident in RA_FOLLOWS:
+            ent_id = ident
+            if kind == "artist" and not ident.isdigit():
+                ent_id = self._resolve_artist(session, ident) or ""
+                if not ent_id:
+                    report.append(f"{kind}/{ident}: ID nicht auflösbar")
+                    continue
+            name, raw, err = self._query(session, kind, ent_id)
+            if err:
+                report.append(f"{kind}/{ident} ({name}): {err}")
+                continue
+            kept = 0
+            for e in raw:
+                ev = self._build(e, ident)
+                if ev and ev._ra_id not in seen:
+                    seen.add(ev._ra_id)
+                    events.append(ev)
+                    kept += 1
+            report.append(f"{kind}/{ident} ({name}): {len(raw)} -> {kept} Berlin")
+
+        self._dump(f"Events gesamt: {len(events)}\n" + "\n".join(report))
+        return events
+
+    def _query(self, session, kind, ent_id):
+        try:
+            r = session.post("https://ra.co/graphql", timeout=25,
+                             data=json.dumps({"query": QUERIES[kind],
+                                              "variables": {"id": ent_id}}))
+            data = r.json()
+        except (requests.RequestException, ValueError) as exc:
+            return "?", [], f"FEHLER {exc}"
+        if data.get("errors"):
+            return "?", [], str(data["errors"])[:120]
+        node = (data.get("data") or {}).get(kind) or {}
+        return node.get("name", "?"), node.get("events") or [], None
+
+    def _build(self, e: dict, entity_id: str) -> Event | None:
+        venue = e.get("venue") or {}
+        area = ((venue.get("area") or {}).get("name") or "").strip()
+        if area and area.lower() != "berlin":
+            return None  # keep Berlin and TBA (empty), drop other cities
+        start = parse_datetime(e.get("startTime") or e.get("date"))
+        title = (e.get("title") or "").strip()
+        if not start or not title:
+            return None
+        flyer = e.get("flyerFront")
+        path = e.get("contentUrl") or ""
+        url = ("https://ra.co" + path) if path.startswith("/") else (path or "https://ra.co")
+        vname = venue.get("name")
+        ev = Event(
+            title=title,
+            start=start.replace(tzinfo=None),
+            source_url=url,
+            source_name=SOURCE,
+            location=(vname + ", Berlin") if vname else "Berlin",
+            image_url=flyer if isinstance(flyer, str) and flyer.startswith("http") else None,
+            tags=["Party"],
+            genre=_genre(entity_id, f"{title} {vname or ''}"),
+        )
+        ev._ra_id = str(e.get("id") or url)
+        return ev
+
+    def _resolve_artist(self, session, slug: str) -> str | None:
+        try:
+            html = requests.get(f"https://ra.co/dj/{slug}", headers={
+                "User-Agent": HEADERS["User-Agent"]}, timeout=25).text
+        except requests.RequestException:
+            return None
+        m = re.search(r'"Artist:(\d+)"', html) or re.search(
+            r'/dj/%s"[^}]*?"id":"(\d+)"' % re.escape(slug), html)
+        return m.group(1) if m else None
+
+    def _dump(self, text: str) -> None:
+        if not self.write_debug:
+            return
+        try:
+            DEBUG_DIR.mkdir(parents=True, exist_ok=True)
+            (DEBUG_DIR / "resident-advisor.txt").write_text(text, encoding="utf-8")
+        except OSError:
+            pass

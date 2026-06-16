@@ -1,1 +1,26 @@
-FEHLER: HTTPSConnectionPool(host='todon.eu', port=443): Max retries exceeded with url: /@Demo_Ticker_Berlin.rss (Caused by NewConnectionError("HTTPSConnection(host='todon.eu', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))
+Items: 20 | Events: 7
+
+--- POST-TEXTE ---
+💥Announcement! Wednesday 17.06.2026💥 🏠✊🏾Open advice session for refugees with Schlafplatzorga✊🏾🏠 Wednesday, 17.06.2026 | 8.00 pm | KuB, Oranienstraße 159, 10969 Berlin Directions: U8, bus 248 to Moritzplatz | M29 to Oranienplatz | U1, U3, U8 to Kottbusser Tor | bus 140 to Segitzd
+
+💥Ankündigung! Mittwoch 17.06.2026💥 🏠✊🏾Offene Beratung für Geflüchtete mit der Schlafplatzorga✊🏾🏠 Mittwoch, 17.06.2026 | 20:00 Uhr | KuB, Oranienstraße 159 10969 Berlin Anreise: U8, Bus 248 Moritzplatz | M29 Oranienplatz | U1, U3, U8 Kottbusser Tor | Bus 140 Segitzdamm 📣 Aufruf: h
+
+💥Announcement! Wednesday 17.06.2026💥 ☮️📖 TIN READ Book Club 📖 ☮️ Wednesday, 17.06.2026 | 7.00 pm | TrIQ e.V., 5th floor in the rear building (accessible by lift, 3 steps), Gürtelstraße 35, 10247 Berlin Directions: U5, S8, S41, S42, S85 Frankfurter Allee | Tram 16, M13 Jessnerstra
+
+💥Ankündigung! Mittwoch 17.06.2026💥 ☮️📖 TIN READ Book Club 📖 ☮️ Mittwoch, 17.06.2026 | 19:00 Uhr | TrIQ e.V., 5. Etage im Hinterhaus mit Aufzug und 3 Stufen, Gürtelstraße 35, 10247 Berlin Anreise: U5, S8, S41, S42, S85 Frankfurter Allee | Tram 16, M13 Jessnerstraße 📣 Aufruf: https
+
+💥Announcement! Wednesday 17.06.2026💥 🔥✊🏾Solidarity Meeting: Social Work✊🏾🔥 Wednesday, 17.06.2026 | 7.00 pm | Kiezhaus Agnes Reinhold, Afrikanische Straße 74, 13351 Berlin Directions: U6 Rehberge | Tram 50, M13 Seestraße/Amrumer Straße | Bus 221 Transvaalstraße 📣 Call to action: h
+
+💥Ankündigung! Mittwoch 17.06.2026💥 🔥✊🏾Solidaritätstreff Soziale Arbeit✊🏾🔥 Mittwoch, 17.06.2026 | 19:00 Uhr | Kiezhaus Agnes Reinhold, Afrikanische Straße 74, 13351 Berlin Anreise: U6 Rehberge | Tram 50, M13 Seestraße/Amrumer Straße | Bus 221 Transvaalstraße 📣 Aufruf: https:// asa
+
+💥Announcement! Wednesday 17.06.2026💥 🔥✊🏾Social Work, Military Service and Rearmament✊🏾🔥 Wednesday, 17.06.2026 | 7.00 pm | Karl Liebknecht Haus, Kleine Alexanderstraße 28, 10178 Berlin Directions: U2, tram M2, M4, M5, M8, bus 142 to Rosa-Luxemburg-Platz 📣Call to action: https:// a
+
+💥Ankündigung! Mittwoch 17.06.2026💥 🔥✊🏾Soziale Arbeit, Wehrdienst und Aufrüstung✊🏾🔥 Mittwoch, 17.06.2026 | 19:00 Uhr | Karl Liebknecht Haus, Kleine Alexanderstraße 28, 10178 Berlin Anreise: U2, Tram M2, M4, M5, M8, Bus 142 Rosa-Luxemburg-Platz 📣Aufruf: https:// asanb.noblogs.org/?
+
+💥Announcement! Wednesday 17.06.2026💥 🔥Payment card? No way! Solidarity evening at Café Cralle💜 Wednesday, 17.06.2026 | 7.00 pm | Cafe Cralle, Hochstädter Straße 10a, 13347 Berlin Directions: U9 Nauener Platz | Bus 247, 327 Maxstraße 📣 Call to action: https:// asanb.noblogs.org/?p
+
+Die Bezahlkarte lehnen wir als weiteres Instrument der Repression gegen geflüchtete Personen ab. Anstelle von Bargeld oder direkter Überweisung auf ein eigenes Konto sind Betroffene dazu gezwungen mit der Bezahlkarte zu bezahlen. Dadurch können sie nicht frei über ihr Geld verfüg
+
+💥Ankündigung! Mittwoch 17.06.2026💥 💜Bezahlkarte? NÖ! - Soli-Abend im Café Cralle🔥 Mittwoch, 17.06.2026 | 19:00 Uhr | Cafe Cralle, Hochstädter Straße 10a, 13347 Berlin Anreise: U9 Nauener Platz | Bus 247, 327 Maxstraße 📣 Aufruf: https:// asanb.noblogs.org/?p=17974 - @nobezahlkarte
+
+Following the screening, there will be a discussion where we can draw parallels to today’s Germany. We will explore questions regarding the rights of migrants and their historical and current contributions to economic, social, and political life. As always, we look forward to see

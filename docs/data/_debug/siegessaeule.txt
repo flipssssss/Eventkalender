@@ -1,5 +1,5 @@
-Tage: 14 | Events (vor Dedup): 39 | mit Venue: 24
-2026-06-16: 4 Events
+Tage: 14 | Events (vor Dedup): 38 | mit Venue: 23
+2026-06-16: 3 Events
 2026-06-17: 2 Events
 2026-06-18: 2 Events
 2026-06-19: 5 Events

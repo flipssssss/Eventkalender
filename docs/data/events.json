@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-16T05:39:29.463060+00:00",
-  "count": 406,
+  "generated_at": "2026-06-16T05:42:56.882380+00:00",
+  "count": 405,
   "sources": [
     {
       "source": "Quälgeist",
@@ -59,7 +59,7 @@
     },
     {
       "source": "Siegessäule",
-      "count": 39,
+      "count": 38,
       "error": null
     }
   ],
@@ -403,26 +403,6 @@
       "lat": 52.5145899,
       "lng": 13.4904607,
       "bezirk": "Lichtenberg"
-    },
-    {
-      "title": "Film: The History of Sound",
-      "start": "2026-06-16T19:15:00",
-      "end": "2026-06-16T20:15:00",
-      "location": "Freiluftkino Rehberge",
-      "description": null,
-      "image_url": null,
-      "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-16",
-      "source_name": "Siegessäule",
-      "tags": [
-        "Film"
-      ],
-      "time_known": true,
-      "genre": "Queer",
-      "subcategory": null,
-      "address": "Windhuker Straße, 13351 Wedding",
-      "lat": 52.5549024,
-      "lng": 13.3301501,
-      "bezirk": "Mitte"
     },
     {
       "title": "Queercoustic Hangout",

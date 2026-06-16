@@ -939,7 +939,12 @@ async function openMultiMap(panel, points, ev) {
     mapDiv.innerHTML = '<p class="status">Karte nicht verfügbar.</p>';
     return;
   }
-  const m = L.map(mapDiv, { scrollWheelZoom: false, attributionControl: true });
+  // dragging/tap off so a vertical swipe scrolls the modal instead of panning
+  // the map; the location is fixed anyway and zoom stays on the +/- buttons.
+  const m = L.map(mapDiv, {
+    scrollWheelZoom: false, dragging: false, tap: false,
+    attributionControl: true,
+  });
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
     { maxZoom: 19, attribution: "© OpenStreetMap" }).addTo(m);
   const latlngs = [];

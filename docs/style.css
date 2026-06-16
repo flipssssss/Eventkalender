@@ -90,8 +90,18 @@
 :is([data-theme="punk"], [data-theme="riot"], [data-theme="toxic"]) :is(
   .genre-chip, .day-tab, .btn, .card-fav, .modal-close, .card-tag, .tag-chip,
   .toast, .search-input, .sort-btn, .theme-btn, .cat-collapse-summary,
-  .source-count, .icon-toggle, .view-btn) {
+  .source-count, .icon-toggle, .view-btn, .view-toggle, .view-toggle--float) {
   border-radius: 0 !important;
+}
+
+/* Liste/Karte-Umschalter im Punk-Look: flach & kantig statt Glas-Pille,
+   mit hartem Offset-Schatten. */
+:is([data-theme="punk"], [data-theme="riot"], [data-theme="toxic"]) .view-toggle--float {
+  background: var(--surface);
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  border-width: 2px;
+  box-shadow: var(--shadow);
 }
 
 /* Display-Schrift + Versalien für Überschriften. */
@@ -124,9 +134,30 @@
   box-shadow: 7px 7px 0 var(--accent);
 }
 
-/* Sortier-/Kategorie-Kästen kantig mit Rand. */
+/* Sortier-/Kategorie-Kästen: Retro-Zine-Panels -- 2px Rand, harter Offset-
+   Schatten (gestapeltes Fotokopierpapier) und kräftige Akzent-Kopflinie
+   unter dem Titel. */
 :is([data-theme="punk"], [data-theme="riot"], [data-theme="toxic"]) :is(.sort-box, .cat-section) {
   border: 2px solid var(--border);
+}
+:is([data-theme="punk"], [data-theme="riot"], [data-theme="toxic"]) :is(.sort-box:not(.sort-subbox), .cat-section) {
+  box-shadow: var(--shadow);
+}
+:is([data-theme="punk"], [data-theme="riot"], [data-theme="toxic"])
+  :is(.sort-box:not(.sort-subbox), .cat-section) > :is(.sort-box-head, .cat-section-head) {
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 8px;
+}
+/* Genre-Kästen: Kopflinie in der Genre-Farbe statt im Theme-Akzent. */
+:is([data-theme="punk"], [data-theme="riot"], [data-theme="toxic"])
+  :is(.sort-box.g-kultur, .sort-box.g-polit, .sort-box.g-queer, .sort-box.g-kink)
+  > .sort-box-head {
+  border-bottom-color: var(--gc);
+}
+/* Kategorie-Kästen (ohne Genre): zarte Akzent-Tönung -- getöntes Zine-Papier. */
+:is([data-theme="punk"], [data-theme="riot"], [data-theme="toxic"])
+  :is(.cat-section, .sort-box:not(.sort-subbox):not([class*="g-"])) {
+  background: color-mix(in srgb, var(--accent) 8%, var(--surface-2));
 }
 
 /* Aktive Kategorie-Chips als satte Blöcke (Genre behält seine Farbe). */

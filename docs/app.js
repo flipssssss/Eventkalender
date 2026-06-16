@@ -112,7 +112,18 @@ const TAB_DATE_FMT = new Intl.DateTimeFormat("de-DE", { day: "numeric", month: "
 
 let dayObserver = null;
 let searchDebounce = null;
+let settingsRenderPending = false;
 let deferredInstallPrompt = null;
+
+// While the settings overlay is open the feed is hidden behind it, so a full
+// re-render on every source/Bezirk toggle is wasted work -> defer it to close.
+function scheduleRender() {
+  if (els.settingsBackdrop && !els.settingsBackdrop.hasAttribute("hidden")) {
+    settingsRenderPending = true;
+  } else {
+    render();
+  }
+}
 
 // Android-Chrome: Install-Dialog für später merken.
 window.addEventListener("beforeinstallprompt", (e) => {
@@ -344,7 +355,7 @@ function buildSourceToggles() {
       if (cb.checked) state.disabledSources.delete(src);
       else state.disabledSources.add(src);
       saveDisabledSources();
-      render();
+      scheduleRender();
     });
     label.appendChild(cb);
     const txt = document.createElement("span");
@@ -380,7 +391,7 @@ function buildBezirkToggles() {
       if (cb.checked) state.disabledBezirke.delete(b);
       else state.disabledBezirke.add(b);
       saveSet(BEZIRKE_KEY, state.disabledBezirke);
-      render();
+      scheduleRender();
     });
     label.appendChild(cb);
     const txt = document.createElement("span");
@@ -412,7 +423,7 @@ function buildKdcatToggles() {
       if (cb.checked) state.disabledKdCats.delete(cat);
       else state.disabledKdCats.add(cat);
       saveSet("ek_disabled_kdcats", state.disabledKdCats);
-      render();
+      scheduleRender();
     });
     label.appendChild(cb);
     label.appendChild(document.createTextNode(KD_LABELS[cat] || cat));
@@ -430,6 +441,10 @@ function openSettings() {
 function closeSettings() {
   els.settingsBackdrop.setAttribute("hidden", "");
   if (els.modalBackdrop.hasAttribute("hidden")) document.body.style.overflow = "";
+  if (settingsRenderPending) {
+    settingsRenderPending = false;
+    render();
+  }
 }
 
 function loadDisabledSources() {

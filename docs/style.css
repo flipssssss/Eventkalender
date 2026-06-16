@@ -269,7 +269,7 @@ body {
 .tag-filter {
   display: flex;
   flex-wrap: nowrap;
-  gap: 6px 16px;
+  gap: 6px 4px;
   flex: 1 1 auto;
   min-width: 0;
   overflow-x: auto;
@@ -296,7 +296,7 @@ body {
   border: 1px solid transparent;
   background: none;
   color: var(--muted);
-  padding: 3px 11px;
+  padding: 3px 9px;
   border-radius: 999px;
   font-family: var(--serif);
   font-size: 0.88rem;

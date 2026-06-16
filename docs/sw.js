@@ -2,7 +2,7 @@
 // Strategie: network-first mit Cache-Fallback -- online immer frisch,
 // offline die zuletzt geladene Version.
 
-const CACHE = "ek-v2";
+const CACHE = "ek-v3";
 const SHELL = [
   "./",
   "index.html",
@@ -37,8 +37,10 @@ self.addEventListener("fetch", (e) => {
   const url = new URL(req.url);
   if (url.origin !== location.origin) return; // fremde Bilder etc. nicht abfangen
 
+  // Network-first, but bypass the browser's HTTP cache so a reload always
+  // gets the freshest version online; fall back to the cache only offline.
   e.respondWith(
-    fetch(req)
+    fetch(req, { cache: "no-store" })
       .then((res) => {
         const copy = res.clone();
         caches.open(CACHE).then((c) => c.put(req, copy)).catch(() => {});

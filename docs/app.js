@@ -119,14 +119,55 @@ window.addEventListener("beforeinstallprompt", (e) => {
   deferredInstallPrompt = e;
 });
 
-// Offline-Fähigkeit (PWA).
+// Offline-Fähigkeit (PWA) + automatische Updates.
 if ("serviceWorker" in navigator) {
-  window.addEventListener("load", () => {
-    navigator.serviceWorker.register("sw.js").catch(() => {});
+  const hadController = !!navigator.serviceWorker.controller;
+  // Wenn ein neuer Service Worker übernimmt (neue Version veröffentlicht),
+  // die Seite einmal neu laden -- sonst hängt die alte Version, bis die App
+  // komplett geschlossen wird.
+  let swReloaded = false;
+  navigator.serviceWorker.addEventListener("controllerchange", () => {
+    if (hadController && !swReloaded) { swReloaded = true; location.reload(); }
+  });
+  window.addEventListener("load", async () => {
+    try {
+      const reg = await navigator.serviceWorker.register("sw.js",
+        { updateViaCache: "none" });
+      // Beim Zurückkehren in die App nach Updates suchen.
+      document.addEventListener("visibilitychange", () => {
+        if (!document.hidden) reg.update().catch(() => {});
+      });
+    } catch { /* ignore */ }
   });
 }
 
 init();
+
+// iOS-PWA & Tab-Wechsel: beim Sichtbarwerden / Online-Gehen den Feed neu laden,
+// damit man nicht erst die App komplett schließen muss.
+let lastFeedLoad = 0;
+document.addEventListener("visibilitychange", () => {
+  if (!document.hidden) refreshFeed();
+});
+window.addEventListener("online", () => refreshFeed(true));
+
+async function refreshFeed(force = false) {
+  if (!state.baseEvents) return;            // initial load not done yet
+  if (!force && Date.now() - lastFeedLoad < 30000) return;
+  try {
+    const res = await fetch("data/events.json", { cache: "no-store" });
+    if (!res.ok) return;
+    const data = await res.json();
+    state.baseEvents = Array.isArray(data.events) ? data.events : [];
+    state.allSources = Array.isArray(data.sources)
+      ? data.sources.map((s) => s && s.source).filter(Boolean) : [];
+    updateMeta(data);
+    await loadUserEvents();
+    mergeEvents();
+    render();
+    lastFeedLoad = Date.now();
+  } catch { /* offline -> keep what we have */ }
+}
 
 async function init() {
   try {
@@ -146,6 +187,7 @@ async function init() {
     buildTagFilter();
     render();
     openSharedEvent();
+    lastFeedLoad = Date.now();
   } catch (err) {
     els.status.textContent =
       "Konnte den Veranstaltungs-Feed nicht laden. (" + err.message + ")";

@@ -741,8 +741,14 @@ body {
   line-height: 1.25;
 }
 
-.modal-hours {
+.modal-runsuntil {
   margin-top: 8px;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+.modal-hours {
+  margin-top: 6px;
   font-size: 0.85rem;
   color: var(--muted);
 }

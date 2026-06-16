@@ -604,12 +604,23 @@ function hoursForDay(ev, date) {
   return oh[WEEKDAY_KEYS[date.getDay()]];
 }
 
-// Lesbare Wochenübersicht der Öffnungszeiten (für die Detailansicht).
+// Lesbare Wochenübersicht der Öffnungszeiten (für die Detailansicht):
+// aufeinanderfolgende Tage mit gleichen Zeiten zu Bereichen zusammenfassen,
+// z. B. "Mo geschlossen · Di–Mi 10–18 Uhr · Do 10–20 Uhr · Fr–So 10–18 Uhr".
 function formatOpeningHours(oh) {
   const order = [["mo", "Mo"], ["di", "Di"], ["mi", "Mi"], ["do", "Do"],
     ["fr", "Fr"], ["sa", "Sa"], ["so", "So"]];
-  return order.map(([k, lbl]) => (oh[k] ? `${lbl} ${oh[k]}` : `${lbl} zu`))
-    .join(" · ");
+  const segs = [];
+  let i = 0;
+  while (i < order.length) {
+    const val = oh[order[i][0]];
+    let j = i;
+    while (j + 1 < order.length && oh[order[j + 1][0]] === val) j++;
+    const range = i === j ? order[i][1] : `${order[i][1]}–${order[j][1]}`;
+    segs.push(val ? `${range} ${val} Uhr` : `${range} geschlossen`);
+    i = j + 1;
+  }
+  return segs.join(" · ");
 }
 
 function render() {
@@ -887,9 +898,9 @@ function renderCard(ev, day) {
   card.className = "card" + (ev.user_submitted ? " card--mine" : "");
   card.tabIndex = 0;
   card.setAttribute("role", "button");
-  card.addEventListener("click", () => openModal(ev));
+  card.addEventListener("click", () => openModal(ev, day));
   card.addEventListener("keydown", (e) => {
-    if (e.key === "Enter" || e.key === " ") { e.preventDefault(); openModal(ev); }
+    if (e.key === "Enter" || e.key === " ") { e.preventDefault(); openModal(ev, day); }
   });
 
   // Favourite heart.
@@ -922,9 +933,13 @@ function renderCard(ev, day) {
 
   const time = document.createElement("div");
   time.className = "card-time";
-  // Ausstellungen zeigen die Öffnungszeit des jeweiligen Tages als Uhrzeit.
-  const oh = hoursForDay(ev, day);
-  time.textContent = oh ? oh + " Uhr" : formatTime(ev);
+  // Ausstellungen: das jeweilige Tagesdatum + die Öffnungszeit dieses Tages.
+  if (isExhibition(ev) && day) {
+    const oh = hoursForDay(ev, day);
+    time.textContent = CARD_DATE_FMT.format(day) + (oh ? " · " + oh + " Uhr" : "");
+  } else {
+    time.textContent = formatTime(ev);
+  }
   body.appendChild(time);
 
   const title = document.createElement("h3");
@@ -986,15 +1001,19 @@ function renderCard(ev, day) {
 // (#e/<id>); the router (routeFromHash) does the actual rendering. That gives
 // every event a shareable "subpage" and lets the browser back button close it.
 let modalPushed = false;
+// The day a card was opened from, so the modal can show "jeweiliges Datum +
+// Uhrzeit" for exhibitions (which appear on many days). Null when deep-linked.
+let pendingModalDay = null;
 
-function openModal(ev) {
+function openModal(ev, day) {
+  pendingModalDay = day || null;
   const target = "#e/" + eventSlug(ev);
-  if (location.hash === target) { showModal(ev); return; }
+  if (location.hash === target) { showModal(ev, pendingModalDay); return; }
   modalPushed = true;
   location.hash = target;  // -> hashchange -> routeFromHash -> showModal
 }
 
-function showModal(ev) {
+function showModal(ev, day) {
   const c = els.modalContent;
   c.innerHTML = "";
 
@@ -1010,17 +1029,38 @@ function showModal(ev) {
   const body = document.createElement("div");
   body.className = "modal-body";
 
-  const time = document.createElement("div");
-  time.className = "modal-time";
-  time.textContent = formatTime(ev);
-  body.appendChild(time);
+  // Time line. Exhibitions show the day the card was opened from plus that
+  // day's opening hours; other events the usual date + time.
+  let timeText;
+  if (isExhibition(ev)) {
+    if (day) {
+      const oh = hoursForDay(ev, day);
+      timeText = CARD_DATE_FMT.format(day) + (oh ? " · " + oh + " Uhr" : "");
+    } else {
+      timeText = "";  // deep link without a day -> covered by the lines below
+    }
+  } else {
+    timeText = formatTime(ev);
+  }
+  if (timeText) {
+    const time = document.createElement("div");
+    time.className = "modal-time";
+    time.textContent = timeText;
+    body.appendChild(time);
+  }
 
   const title = document.createElement("h2");
   title.className = "modal-title";
   title.textContent = ev.title || "Ohne Titel";
   body.appendChild(title);
 
-  // Exhibitions: show the venue's weekly opening hours.
+  // Exhibitions: until when the show runs + the venue's weekly opening hours.
+  if (isExhibition(ev) && ev.end) {
+    const runs = document.createElement("div");
+    runs.className = "modal-runsuntil";
+    runs.textContent = "läuft bis " + END_FMT.format(new Date(ev.end));
+    body.appendChild(runs);
+  }
   if (ev.opening_hours) {
     const hours = document.createElement("div");
     hours.className = "modal-hours";
@@ -1378,7 +1418,8 @@ function routeFromHash() {
   const slug = decodeURIComponent(m[1]);
   const ev = state.events.find((e) => eventSlug(e) === slug);
   if (ev) {
-    showModal(ev);
+    showModal(ev, pendingModalDay);
+    pendingModalDay = null;  // consumed; back/forward etc. have no day
   } else {
     history.replaceState(null, "", location.pathname + location.search);
     hideModal();

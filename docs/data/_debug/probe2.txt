@@ -1,0 +1,57 @@
+### Time to Shine (https://www.timetoshinekink.com/all-events)
+Selektoren: {'.eventlist-event': 0, '.summary-item': 0, '.eventlist-title': 0, 'iframe': 0, 'a[href*=eventbrite]': 4, 'a[href*=tickettailor]': 0, 'time': 0, '[class*=event]': 1}
+iframes: []
+Externe Ticket-Links: ['https://timetoshine11.eventbrite.de', 'https://timetoshine11.eventbrite.de&quot']
+--- ITEM ---
+(keine Event-Items)
+
+### König (https://www.konigdragshow.com/dragshows)
+Lange Strings: 1332 | interessant: 42
+--- TEXTSCHNIPSEL ---
+editors.sites-viewer-frontend_20260610.02_p0
+KÃ¶nig Theater - Graduation show
+5th and 6th September 2026 at Theater im Delphi
+A unique show where the arts of Drag and Theater merge in the shape of a musical theater. 13 Drag Kings, 2 nights, 1 stage. A brand new story full of comedy, drama, burlesque, drag, circus, choreography and
+,function(a){return a?a:function(b,c){return Object.prototype.hasOwnProperty.call(b,c)}});/*
+
+ Copyright The Closure Library Authors.
+ SPDX-License-Identifier: Apache-2.0
+*/
+var v=this||self,pa=function(a){var b=typeof a;return b!=
+Event name <nDa8ic> may not contain ':' or ';'
+Event name <o07HZc> may not contain ':' or ';'
+Event name <UjQMac> may not contain ':' or ';'
+Event name <ti6hGc> may not contain ':' or ';'
+Event name <ZYIfFd> may not contain ':' or ';'
+Event name <TGB85e> may not contain ':' or ';'
+Event name <RXQi4b> may not contain ':' or ';'
+Event name <sn54Q> may not contain ':' or ';'
+Event name <eQsQB> may not contain ':' or ';'
+Event name <CGLD0d> may not contain ':' or ';'
+Event name <ZpywWb> may not contain ':' or ';'
+Event name <O1htCb> may not contain ':' or ';'
+Event name <k9KYye> may not contain ':' or ';'
+Event name <g6cJHd> may not contain ':' or ';'
+Event name <otb29e> may not contain ':' or ';'
+Event name <FNFY6c> may not contain ':' or ';'
+Event name <TvD9Pc> may not contain ':' or ';'
+Event name <AHmuwe> may not contain ':' or ';'
+Event name <O22p3e> may not contain ':' or ';'
+Event name <JIbuQc> may not contain ':' or ';'
+Event name <ih4XEb> may not contain ':' or ';'
+Event name <sPvj8e> may not contain ':' or ';'
+Event name <GvneHb> may not contain ':' or ';'
+Event name <rcuQ6b> may not contain ':' or ';'
+Event name <dyRcpb> may not contain ':' or ';'
+Event name <u0pjoe> may not contain ':' or ';'
+>: The default implementation of a wiz.atInterface may only be overridden once, and it was already overridden by <
+M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z
+M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z
+M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z
+M-4.2 0 L4.2 0
+M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z
+> Graduation show</span></div></h2><div id=
+Tickets for Saturday 5th September
+><p>Tickets for Saturday 5th September</p></div><div class=
+Tickets for Sunday 6th September
+><p>Tickets for Sunday 6th September</p></div><div class=

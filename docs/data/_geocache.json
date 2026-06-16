@@ -678,6 +678,12 @@
   "lat": 52.4958755,
   "lng": 13.3885858
  },
+ "Mehringdamm 34, 10961 Berlin": {
+  "address": "Mehringdamm 34, 10961 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4936405,
+  "lng": 13.3876998
+ },
  "Mehringhof Gneisenaustr. 2a 10961 Berlin Deutschland": null,
  "Mehringhof Gneisenaustr. 2a, 10961 Berlin": {
   "address": "Gneisenaustraße 2a, 10961 Kreuzberg",

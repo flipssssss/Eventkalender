@@ -84,13 +84,13 @@ class BoilerScraper(BaseScraper):
                 continue
             seen.add(key)
             href = link.get("href") if link.name == "a" else None
-            place = art.select_one(".mec-event-loc-place")
             events.append(Event(
                 title=title[:140],
                 start=start,
                 source_url=href or (BASE + "/en/"),
                 source_name=self.name,
-                location=(place.get_text(" ", strip=True) if place else None) or "Boiler",
+                location="Boiler",
+                address="Mehringdamm 34, 10961 Berlin",
                 description=None,
                 time_known=False,
                 tags=["Party"],

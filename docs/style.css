@@ -351,29 +351,48 @@ body {
   gap: 16px;
 }
 
-/* Kino / Ausstellungen: erste paar Karten direkt, der Rest hinter "+ N weitere". */
+/* Kino / Ausstellungen: erste paar Karten direkt, der Rest hinter "+ N weitere".
+   Die ganze Sektion liegt -- wie vorher -- in einem abgesetzten Kasten. */
 .cat-section {
   margin-top: 16px;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px;
 }
 
-.cat-section > .cards + .cat-collapse {
-  margin-top: 16px;
+.cat-section-head {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.cat-section-title {
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: var(--accent);
+}
+
+.cat-section-count {
+  color: var(--muted);
+  font-size: 0.9rem;
 }
 
 .cat-collapse {
-  border-radius: var(--radius);
+  margin-top: 12px;
 }
 
 .cat-collapse-summary {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  padding: 9px 16px;
+  padding: 8px 14px;
   cursor: pointer;
   list-style: none;
   font-weight: 600;
   color: var(--accent);
-  background: var(--surface-2);
+  background: var(--surface);
   border: 1px solid var(--border);
   border-radius: 999px;
 }
@@ -392,7 +411,7 @@ body {
 
 .cat-collapse[open] > .cat-collapse-summary::after { transform: rotate(-135deg); }
 
-.cat-collapse-cards { margin-top: 16px; }
+.cat-collapse-cards { margin-top: 14px; }
 
 .card {
   display: flex;

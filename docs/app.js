@@ -599,8 +599,8 @@ function render() {
 // bundled into a single collapsible block per day, unless the user is actively
 // looking for them (search, favourites-only, or the category chip is selected).
 const COLLAPSE_CATS = {
-  Kino: { icon: "🎬", one: "Film", many: "Filme" },
-  Ausstellung: { icon: "🖼", one: "Ausstellung", many: "Ausstellungen" },
+  Kino: { label: "🎬 Kino", one: "Film", many: "Filme" },
+  Ausstellung: { label: "🖼 Ausstellungen", one: "Ausstellung", many: "Ausstellungen" },
 };
 
 function shouldCollapse(cat) {
@@ -619,6 +619,17 @@ function renderCollapsedCategory(cat, list) {
   const section = document.createElement("section");
   section.className = "cat-section";
 
+  const head = document.createElement("div");
+  head.className = "cat-section-head";
+  const title = document.createElement("span");
+  title.className = "cat-section-title";
+  title.textContent = meta.label;
+  const count = document.createElement("span");
+  count.className = "cat-section-count";
+  count.textContent = list.length + " " + (list.length === 1 ? meta.one : meta.many);
+  head.append(title, count);
+  section.appendChild(head);
+
   const preview = list.slice(0, COLLAPSE_PREVIEW);
   const rest = list.slice(COLLAPSE_PREVIEW);
 
@@ -633,7 +644,7 @@ function renderCollapsedCategory(cat, list) {
   det.className = "cat-collapse";
   const sum = document.createElement("summary");
   sum.className = "cat-collapse-summary";
-  sum.textContent = `${meta.icon} + ${rest.length} weitere ` +
+  sum.textContent = `+ ${rest.length} weitere ` +
     (rest.length === 1 ? meta.one : meta.many);
   det.appendChild(sum);
 

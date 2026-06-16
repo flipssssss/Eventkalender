@@ -97,10 +97,7 @@ class BerlinAusstellungenScraper(BaseScraper):
         venue = loc.get("name") if isinstance(loc, dict) else None
         address = self._address(loc.get("address") if isinstance(loc, dict) else None)
 
-        desc = (obj.get("description") or "").strip()
-        if end_dt:
-            note = f"Läuft bis {end_dt:%d.%m.%Y}"
-            desc = f"{desc}  ·  {note}" if desc else note
+        desc = (obj.get("description") or "").strip() or None
 
         image = obj.get("image")
         if isinstance(image, list):
@@ -111,11 +108,12 @@ class BerlinAusstellungenScraper(BaseScraper):
         return Event(
             title=name[:140],
             start=start,
+            end=end_dt,  # run end -> shown as "bis …" in the date line
             source_url=obj.get("url") or URL,
             source_name=self.name,
             location=venue,
             address=address,
-            description=desc or None,
+            description=desc,
             image_url=image if isinstance(image, str) else None,
             time_known=False,
             tags=["Ausstellung"],

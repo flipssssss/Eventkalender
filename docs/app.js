@@ -103,6 +103,10 @@ const TIME_FMT = new Intl.DateTimeFormat("de-DE", { hour: "2-digit", minute: "2-
 const CARD_DATE_FMT = new Intl.DateTimeFormat("de-DE", {
   weekday: "short", day: "numeric", month: "numeric",
 });
+// End date of a multi-day run (e.g. exhibitions): "bis 09.08.2026".
+const END_FMT = new Intl.DateTimeFormat("de-DE", {
+  day: "2-digit", month: "2-digit", year: "numeric",
+});
 const TAB_DOW_FMT = new Intl.DateTimeFormat("de-DE", { weekday: "short" });
 const TAB_DATE_FMT = new Intl.DateTimeFormat("de-DE", { day: "numeric", month: "numeric" });
 
@@ -1323,12 +1327,20 @@ function escapeHtml(s) {
 
 function formatTime(ev) {
   const start = new Date(ev.start);
-  if (ev.time_known === false) return CARD_DATE_FMT.format(start);
+  const end = ev.end ? new Date(ev.end) : null;
+  // Multi-day run (e.g. an exhibition) -> show "… bis TT.MM.JJJJ".
+  const multiDay = end && end > start && end.toDateString() !== start.toDateString();
+  if (ev.time_known === false) {
+    let label = CARD_DATE_FMT.format(start);
+    if (multiDay) label += " · bis " + END_FMT.format(end);
+    return label;
+  }
   let label = CARD_DATE_FMT.format(start) + " · " + TIME_FMT.format(start) + " Uhr";
-  if (ev.end) {
-    const end = new Date(ev.end);
+  if (end) {
     if (start.toDateString() === end.toDateString()) {
       label += " – " + TIME_FMT.format(end) + " Uhr";
+    } else if (multiDay) {
+      label += " · bis " + END_FMT.format(end);
     }
   }
   return label;

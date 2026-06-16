@@ -13,8 +13,6 @@ import pathlib
 import re
 from typing import Iterable
 
-from bs4 import BeautifulSoup
-
 from .base import BaseScraper, Event
 
 URL = "https://www.konigdragshow.com/dragshows"
@@ -39,8 +37,9 @@ DATE_RE = re.compile(
     r"(\d{1,2})(?:st|nd|rd|th)?)?\s+"
     r"(January|February|March|April|May|June|July|August|September|October|"
     r"November|December)\s+(\d{4})"
-    r"(?:\s+at\s+([A-ZÄÖÜ][\w .,'’\-]{2,50}?)(?=[.,;]|\s{2}|$))?",
-    re.IGNORECASE)
+    r"(?:\s+at\s+([A-ZÄÖÜ][\wäöüß.'’\-]+"
+    r"(?:\s+(?:im|am|an|der|den|de|of|the|zur|zum|[A-ZÄÖÜ][\wäöüß.'’\-]+))"
+    r"{0,3}))?")
 SHOW_RE = re.compile(r"([A-ZÄÖÜ][\wäöüß'&./ \-]{2,55}?[Ss]how)\b")
 
 
@@ -56,7 +55,16 @@ class KoenigScraper(BaseScraper):
         except Exception as exc:  # noqa: BLE001
             self._dump(f"FEHLER: {exc}")
             return []
-        text = re.sub(r"\s+", " ", BeautifulSoup(html, "html.parser").get_text(" "))
+        # Google Sites keeps the visible text (incl. show dates) inside quoted
+        # JS string literals, not in the rendered DOM -- so read those.
+        parts = []
+        for s in re.findall(r'"((?:[^"\\]|\\.){8,})"', html):
+            s = re.sub(r"\\u([0-9a-fA-F]{4})",
+                       lambda m: chr(int(m.group(1), 16)), s)
+            s = s.replace("\\/", "/").replace("\\n", " ").replace('\\"', '"')
+            if re.search(r"[A-Za-zÄÖÜ]", s) and "function" not in s:
+                parts.append(s.strip())
+        text = re.sub(r"\s+", " ", " ".join(parts))
 
         shows = [(m.start(), m.group(1).strip()) for m in SHOW_RE.finditer(text)]
         events: list[Event] = []

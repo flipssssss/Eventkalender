@@ -44,9 +44,8 @@ from scrapers.demoticker import DemoTickerScraper
 from scrapers.berlin_ausstellungen import BerlinAusstellungenScraper
 from scrapers.laboratory import LaboratoryScraper
 from scrapers.timetoshine import TimeToShineScraper
-from scrapers.boiler import BoilerScraper
+from scrapers.mec import MecScraper
 from scrapers.koenig import KoenigScraper
-from scrapers.probe2 import Probe2Scraper
 
 ROOT = pathlib.Path(__file__).parent
 OUTPUT = ROOT / "docs" / "data" / "events.json"
@@ -127,11 +126,12 @@ def get_scrapers():
         LaboratoryScraper(),
         # Time to Shine (Squarespace-JSON) -- Kink/Theater.
         TimeToShineScraper(),
-        # Boiler (WordPress) -- REST-API, sonst HTML-Diagnose.
-        BoilerScraper(),
+        # Boiler & Club Sauna -- WordPress "Modern Events Calendar" (MEC).
+        MecScraper("Boiler Berlin", "https://boiler-berlin.de/en/",
+                   address="Mehringdamm 34, 10961 Berlin", fixed_hour=17),
+        MecScraper("Club Sauna Berlin", "https://clubsauna.berlin/events/"),
         # König Drag Show (Google Sites) -- Textparser, Queer/Theater.
         KoenigScraper(),
-        Probe2Scraper(),
         # Tipsy Bear: bleibt deaktiviert -- alle Endpunkte hängen hinter
         # Cloudflares JS-Challenge ("Just a moment...", 403), es gibt keinen
         # erreichbaren Daten-Endpunkt (Diagnose in _debug/tipsy-bear.txt).

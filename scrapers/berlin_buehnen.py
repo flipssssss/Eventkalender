@@ -104,12 +104,38 @@ class BerlinBuehnenScraper(BaseScraper):
                 report.append(f"Horizont ({self.horizon_days} Tage) erreicht.")
                 break
 
+        self._add_descriptions(events)
+
         if self.write_debug:
             self._dump_debug(
                 [f"Behaltene Events: {len(events)} aus {len(seen_ids)} gescannten",
+                 f"mit Beschreibung: {sum(1 for e in events if e.description)}",
                  "=" * 60, *report]
             )
         return events
+
+    def _add_descriptions(self, events) -> None:
+        """Fetch each production's detail page once for its og:description."""
+        og = re.compile(
+            r'<meta\b[^>]*\b(?:property|name)=["\']'
+            r'(?:og:description|description)["\'][^>]*>', re.I)
+        content = re.compile(r'content=["\']([^"\']+)', re.I)
+        cache: dict[str, str] = {}
+        for url in dict.fromkeys(e.source_url for e in events if e.source_url):
+            if url in cache:
+                continue
+            try:
+                html = self.get(url).text
+            except Exception:  # noqa: BLE001
+                continue
+            m = og.search(html)
+            if m:
+                c = content.search(m.group(0))
+                if c and c.group(1).strip():
+                    cache[url] = c.group(1).strip()[:500]
+        for e in events:
+            if e.source_url in cache:
+                e.description = cache[e.source_url]
 
     # -- parsing ---------------------------------------------------------
 

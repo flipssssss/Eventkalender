@@ -18,6 +18,22 @@ from bs4 import BeautifulSoup
 from .base import BaseScraper, Event
 
 DEBUG_DIR = pathlib.Path(__file__).resolve().parents[1] / "docs" / "data" / "_debug"
+OG_IMAGE = re.compile(
+    r'<meta\b[^>]*\b(?:property|name)=["\'](?:og:image|twitter:image)["\'][^>]*>', re.I)
+OG_DESC = re.compile(
+    r'<meta\b[^>]*\b(?:property|name)=["\'](?:og:description|description)["\'][^>]*>', re.I)
+CONTENT = re.compile(r'content=["\']([^"\']+)', re.I)
+
+
+def _meta(html: str, rx: re.Pattern) -> str | None:
+    m = rx.search(html)
+    if m:
+        c = CONTENT.search(m.group(0))
+        if c and c.group(1).strip():
+            return c.group(1).strip()
+    return None
+
+
 BROWSER = {
     "User-Agent": (
         "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
@@ -56,6 +72,7 @@ class MecScraper(BaseScraper):
                 if key not in seen:
                     seen.add(key)
                     events.append(ev)
+        self._add_meta(events)
         diag = ""
         if not events:
             first = arts[0] if arts else None
@@ -66,6 +83,28 @@ class MecScraper(BaseScraper):
         self._dump(f"Events: {len(events)}\n{diag}" +
                    "\n".join(f"  {e.start} | {e.title}" for e in events[:25]))
         return events
+
+    def _add_meta(self, events: list[Event]) -> None:
+        """Pull a flyer image + description from each event's detail page."""
+        cache: dict[str, tuple] = {}
+        for url in dict.fromkeys(
+                e.source_url for e in events if (e.source_url or "").startswith("http")):
+            if url == self.url:
+                continue
+            try:
+                html = self.get(url, headers=BROWSER).text
+            except Exception:  # noqa: BLE001
+                continue
+            img = _meta(html, OG_IMAGE)
+            if img and any(b in img.lower() for b in ("favicon", "logo", "placeholder")):
+                img = None
+            cache[url] = (img, _meta(html, OG_DESC))
+        for e in events:
+            img, desc = cache.get(e.source_url, (None, None))
+            if img:
+                e.image_url = img
+            if desc:
+                e.description = desc[:500]
 
     def _build(self, art) -> Event | None:
         cls = " ".join(art.get("class", []))

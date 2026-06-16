@@ -329,7 +329,7 @@ function setupSettings() {
 }
 
 const THEME_COLORS = {
-  buergi: "#f3e9d8", punk: "#e7e3d6", riot: "#0a0a0a",
+  buergi: "#f3e9d8", punk: "#e7e3d6", riot: "#0b0a0d",
   toxic: "#0a0d09", hyperpop: "#ffe0fb",
 };
 

@@ -42,13 +42,14 @@
   --grain: 0.4;
 }
 
-/* Riot -- tiefschwarz, heißes Magenta, Riot-Grrrl. */
+/* Riot -- abgestimmtes Dark-Theme (Punk im Dunkeln): neutrale Flächen/Ränder,
+   Magenta nur als Akzent (Überschriften, aktive Elemente, Hover). */
 :root[data-theme="riot"] {
-  --bg: #0a0a0a; --surface: #17111a; --surface-2: #20121c;
-  --text: #f6eef2; --muted: #d98bb6;
-  --accent: #ff1f6b; --accent-soft: rgba(255, 31, 107, 0.18);
-  --border: #ff1f6b; --radius: 0px;
-  --shadow: 5px 5px 0 #ff1f6b;
+  --bg: #0b0a0d; --surface: #16131b; --surface-2: #1e1a25;
+  --text: #ece7f0; --muted: #8e8699;
+  --accent: #ff3d7f; --accent-soft: rgba(255, 61, 127, 0.16);
+  --border: #463f52; --radius: 0px;
+  --shadow: 5px 5px 0 #2a2531;
   --serif: "Helvetica Neue", Arial, sans-serif;
   --display: "Anton", "Arial Narrow", sans-serif;
   --grain: 0.3;
@@ -128,11 +129,19 @@
   border: 2px solid var(--border);
 }
 
-/* Aktive Tag-/Tagesreiter als satte Blöcke (Genre behält seine Farbe). */
-:is([data-theme="punk"], [data-theme="riot"], [data-theme="toxic"]) :is(.tag-chip.active, .day-tab.active) {
+/* Aktive Kategorie-Chips als satte Blöcke (Genre behält seine Farbe). */
+:is([data-theme="punk"], [data-theme="riot"], [data-theme="toxic"]) .tag-chip.active {
   background: var(--accent);
   color: var(--bg);
   border-color: var(--accent);
+}
+
+/* Aktiver Tag im Header: Akzentfarbe + dicker Marker-Strich darunter
+   (kein gefüllter Block -- der wirkte auf den Text-Reitern gequetscht). */
+:is([data-theme="punk"], [data-theme="riot"], [data-theme="toxic"]) .day-tab.active {
+  color: var(--accent);
+  font-weight: 700;
+  box-shadow: inset 0 -3px 0 var(--accent);
 }
 
 /* ---- Hyperpop-Theme: knallig, verrückte Fonts & Farben ---- */

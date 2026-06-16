@@ -30,7 +30,7 @@
     try {
       var t = localStorage.getItem("ek_theme") || "buergi";
       if (t !== "buergi") document.documentElement.setAttribute("data-theme", t);
-      var colors = { buergi: "#f3e9d8", punk: "#e7e3d6", riot: "#0a0a0a",
+      var colors = { buergi: "#f3e9d8", punk: "#e7e3d6", riot: "#0b0a0d",
         toxic: "#0a0d09", hyperpop: "#ffe0fb" };
       var m = document.querySelector('meta[name="theme-color"]');
       if (m && colors[t]) m.setAttribute("content", colors[t]);

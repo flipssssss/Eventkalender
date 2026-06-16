@@ -73,7 +73,7 @@ class BoilerScraper(BaseScraper):
             try:
                 year, month = int(ym.group(1)), int(ym.group(2))
                 day = int(re.sub(r"\D", "", day_el.get_text()) or 0)
-                start = _dt.datetime(year, month, day, 0, 0)
+                start = _dt.datetime(year, month, day, 17, 0)  # immer 17:00 Uhr
             except ValueError:
                 continue
             title = re.sub(r"\s+", " ", link.get_text(" ")).strip()
@@ -92,7 +92,6 @@ class BoilerScraper(BaseScraper):
                 location="Boiler",
                 address="Mehringdamm 34, 10961 Berlin",
                 description=None,
-                time_known=False,
                 tags=["Party"],
             ))
         return events

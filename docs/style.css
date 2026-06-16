@@ -968,32 +968,22 @@ body {
 .sort-box[open] > .sort-box-head::after { transform: rotate(-135deg); }
 .sort-box[open] > .sort-box-head { margin-bottom: 14px; }
 
-/* Genre-Kasten: farbiger Akzent links + farbiger Titel. */
+/* Genre-Kasten: der ganze Kasten in der Genre-Farbe eingefärbt. */
 .sort-box.g-kultur, .sort-box.g-polit,
-.sort-box.g-queer, .sort-box.g-kink { border-left: 4px solid var(--gc); }
+.sort-box.g-queer, .sort-box.g-kink {
+  background: color-mix(in srgb, var(--gc) 18%, var(--surface-2));
+  border-color: color-mix(in srgb, var(--gc) 45%, var(--border));
+}
 
 .sort-box.g-kultur > .sort-box-head > .sort-box-title,
 .sort-box.g-polit  > .sort-box-head > .sort-box-title,
 .sort-box.g-queer  > .sort-box-head > .sort-box-title,
 .sort-box.g-kink   > .sort-box-head > .sort-box-title { color: var(--gc); }
 
-/* Kategorie-Unterkästchen im Genre-Modus: schlichter, eingerückt. */
-.sort-subbox {
-  margin-top: 14px;
-  background: transparent;
-  border: 0;
-  border-radius: 0;
-  padding: 0;
-}
-
-.sort-subbox > .sort-box-head > .sort-box-title {
-  font-size: 0.85rem;
-  color: var(--muted);
-  text-transform: uppercase;
-  letter-spacing: 0.03em;
-}
-
-.sort-subbox[open] > .sort-box-head { margin-bottom: 10px; }
+/* Kategorie-Unterkästchen im Genre-Modus: eigene Kästen (surface-2-Look des
+   .sort-box bleibt), nur etwas enger und mit kleinerem Titel. */
+.sort-subbox { margin-top: 12px; }
+.sort-subbox > .sort-box-head > .sort-box-title { font-size: 0.95rem; }
 
 .source-toggles {
   display: flex;

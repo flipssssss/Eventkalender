@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T11:39:56.506180+00:00",
+  "generated_at": "2026-06-16T12:24:27.166439+00:00",
   "count": 590,
   "sources": [
     {
@@ -9,8 +9,8 @@
     },
     {
       "source": "Karada House",
-      "count": 30,
-      "error": null
+      "count": 0,
+      "error": "403 Client Error: Forbidden for url: https://karada-house.de/?post_type=tribe_events&ical=1&eventDisplay=list"
     },
     {
       "source": "Stressfaktor",
@@ -141,8 +141,8 @@
       "start": "2026-06-16T11:00:00",
       "end": null,
       "location": "2 Kinos",
-      "description": null,
-      "image_url": null,
+      "description": "Derya und Aziz sind beide in der Theaterszene von Ankara aktiv und führen, gemeinsam mit ihrer 13-jährigen Tochter Ezgi, ein glückliches Leben. Doch ein Zwischenfall bei der Premiere ihres neuen St...",
+      "image_url": "https://www.berlin.de/kino/_img/filmbilder/p_312336_Print2.jpg",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/312336/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -307,8 +307,8 @@
       "start": "2026-06-16T13:20:00",
       "end": null,
       "location": "Ladenkino",
-      "description": "Nach dem Ende des Zweiten Weltkriegs sollen in Nürnberg die Prozesse gegen ranghohe Vertreter des NS-Regimes beginnen. Unmittelbar zuvor werden sie von dem amerikanischen Militärpsychologe Dr. ...",
-      "image_url": "https://www.berlin.de/kino/_img/filmbilder/p_312472_Print2.jpg",
+      "description": null,
+      "image_url": null,
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/312472/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -357,8 +357,8 @@
       "start": "2026-06-16T14:45:00",
       "end": null,
       "location": "Ladenkino",
-      "description": "Emma und Charlie führen schon seit einiger Zeit eine glückliche Beziehung. Ihre Hochzeit steht unmittelbar bevor. Doch vor dem Ja-Wort werden sie von der Vergangenheit eingeholt, was für Spannungen...",
-      "image_url": "https://www.berlin.de/kino/_img/filmbilder/p_312866_Print2.jpg",
+      "description": null,
+      "image_url": null,
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/312866/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -588,7 +588,7 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Queer",
+      "genre": "Kultur",
       "subcategory": null,
       "address": "Markgrafendamm 24c, 10245 Friedrichshain",
       "lat": 52.5024767,
@@ -857,8 +857,8 @@
       "start": "2026-06-16T18:00:00",
       "end": null,
       "location": "Kino Zukunft",
-      "description": "Zu Beginn der 1970er Jahre entwickelte sich im Berliner Stadtteil Kreuzberg eine Gegenkultur, die bestehende Normen und Werte infrage stellte. Mit ihren sozialkritischen Texten wurde die Band &quot;Ton, ...",
-      "image_url": "https://www.berlin.de/kino/_img/filmbilder/p_313866_Print2.jpg",
+      "description": null,
+      "image_url": null,
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313866/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -950,27 +950,6 @@
       "lat": 52.4374457,
       "lng": 13.3754837,
       "bezirk": "Tempelhof-Schöneberg",
-      "showings": null
-    },
-    {
-      "title": "Rope Structures: Exploring Different Tying Styles",
-      "start": "2026-06-16T19:00:00",
-      "end": "2026-06-16T21:30:00",
-      "location": "Karada House",
-      "description": "Japanese inspired rope bondage or shibari comes in many different styles, both in Japan and outside. This class is your introduction into understanding the key differences of styles like Akechi , Naka, or Yukimura Ryu. We will also continue exploring modular thinking by learning what happens after the basic blueprint. \nRope Structures\nTake your fundamentals and start building stronger, more supportive structures. We explore specific harness types, styles, body positions, and different tying styles from across rope traditions.",
-      "image_url": "https://karada-house.de/wp-content/uploads/2025/11/mg_6361-edited.jpg",
-      "source_url": "https://karada-house.de/events/exploring-shibari-styles-berlin-0626/",
-      "source_name": "Karada House",
-      "tags": [
-        "Workshop"
-      ],
-      "time_known": true,
-      "genre": "Kink",
-      "subcategory": null,
-      "address": "Perleberger Straße 59, 10559 Moabit",
-      "lat": 52.5326687,
-      "lng": 13.3513556,
-      "bezirk": "Mitte",
       "showings": null
     },
     {
@@ -1076,6 +1055,27 @@
       "lat": 52.5145899,
       "lng": 13.4904607,
       "bezirk": "Lichtenberg",
+      "showings": null
+    },
+    {
+      "title": "Rope Structures: Exploring Different Tying Styles",
+      "start": "2026-06-16T19:00:00",
+      "end": "2026-06-16T21:30:00",
+      "location": "Karada House",
+      "description": "Japanese inspired rope bondage or shibari comes in many different styles, both in Japan and outside. This class is your introduction into understanding the key differences of styles like Akechi , Naka, or Yukimura Ryu. We will also continue exploring modular thinking by learning what happens after the basic blueprint. \nRope Structures\nTake your fundamentals and start building stronger, more supportive structures. We explore specific harness types, styles, body positions, and different tying styles from across rope traditions.",
+      "image_url": "https://karada-house.de/wp-content/uploads/2025/11/mg_6361-edited.jpg",
+      "source_url": "https://karada-house.de/events/exploring-shibari-styles-berlin-0626/",
+      "source_name": "Karada House",
+      "tags": [
+        "Workshop"
+      ],
+      "time_known": true,
+      "genre": "Kink",
+      "subcategory": null,
+      "address": "Perleberger Straße 59, 10559 Moabit",
+      "lat": 52.5326687,
+      "lng": 13.3513556,
+      "bezirk": "Mitte",
       "showings": null
     },
     {
@@ -1337,8 +1337,8 @@
       "start": "2026-06-16T20:00:00",
       "end": null,
       "location": "Ladenkino",
-      "description": "Obwohl Bear und Nikki schon seit Ewigkeiten beste Freunde sind, hat Bear nie den Mut gefunden, Nikki seine wahren Gefühle zu gestehen. Als er eines Tages den &quot;One-Wish-Willow&quot; entdeckt, ein mysteriö...",
-      "image_url": "https://www.berlin.de/kino/_img/filmbilder/p_313721_Print2.jpg",
+      "description": null,
+      "image_url": null,
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313721/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -1474,8 +1474,8 @@
       "start": "2026-06-16T22:20:00",
       "end": null,
       "location": "Ladenkino",
-      "description": "Ryland Grace erwacht an Bord eines Raumschiffs und kann sich an nichts mehr erinnern. Als er beginnt, seine Umgebung zu erkunden, kehrt sein Gedächtnis langsam zurück. Auf der Erde war er ...",
-      "image_url": "https://www.berlin.de/kino/_img/filmbilder/p_312627_Print2.jpg",
+      "description": null,
+      "image_url": null,
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/312627/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -1562,7 +1562,7 @@
       "end": "2026-08-09T21:59:59",
       "location": "Neue Nationalgalerie",
       "description": "In Kooperation mit dem Centre Pompidou in Paris zeigt die Neue Nationalgalerie die erste Werkschau des Ausnahmekünstlers Constantin Brancusi seit über 50 Jahren in Deutschland.",
-      "image_url": "https://imgproxy.berlinonline.net/c4jOOPVEjcrR6KyAwzjmz4dz4XWrAdK9ldcDnJkVOf0/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061613/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JkZS1jbXMvYm8udGIuZXZlbnQvaW1hZ2VzLzE5NS83MDExODY5My0yMzk4LTRiODMtOWRjMy03YmYxN2RmMDE3OGEuanBn.jpg",
+      "image_url": "https://imgproxy.berlinonline.net/-rxMjbEjmCGZKi7TE17oaYMTNpCD4KNvIbklYqv_fKw/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061614/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JkZS1jbXMvYm8udGIuZXZlbnQvaW1hZ2VzLzE5NS83MDExODY5My0yMzk4LTRiODMtOWRjMy03YmYxN2RmMDE3OGEuanBn.jpg",
       "source_url": "https://www.berlin.de/tickets/ausstellungen/brancusi-61576efe-1b9e-478e-8ea3-ca23a2285128/",
       "source_name": "Ausstellungen Berlin",
       "tags": [
@@ -1583,7 +1583,7 @@
       "end": "2026-07-19T21:59:59",
       "location": "James-Simon-Galerie",
       "description": "Vor 12.000 Jahren schufen Jäger und Sammler im heutigen Türkiye monumentale Anlagen – bis heute sind Archäolog:innen damit beschäftigt, diese Bau- und Kunstwerke zu entschlüsseln.",
-      "image_url": "https://imgproxy.berlinonline.net/ogQVVneRPkXN87XC81h0YK8KDyVY0wn2U9M6N_F_dag/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061613/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JvLW1pZGRsZXdhcmUvYm8uYmRlX2NoYW5uZWwuZXZlbnQvaW1hZ2VzLzEzLzRjMTUwNzQ1LTBhYTUtYjViMS0wODBkLTNlOWMxNTk3YzJhOC5qcGc.jpg",
+      "image_url": "https://imgproxy.berlinonline.net/BmCvQ4JnG5SHnjb9zZr9igCUIgxxujfWS4Mo0gx8n3o/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061614/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JvLW1pZGRsZXdhcmUvYm8uYmRlX2NoYW5uZWwuZXZlbnQvaW1hZ2VzLzEzLzRjMTUwNzQ1LTBhYTUtYjViMS0wODBkLTNlOWMxNTk3YzJhOC5qcGc.jpg",
       "source_url": "https://www.berlin.de/tickets/ausstellungen/gebaute-gemeinschaft-goebeklitepe-ta-tepeler-und-das-leben-vor-12-000-jahren-3b5cb2db-9050-4eb8-a9ec-245b18f43f5f/",
       "source_name": "Ausstellungen Berlin",
       "tags": [
@@ -1604,7 +1604,7 @@
       "end": "2027-01-10T22:59:59",
       "location": "Hamburger Bahnhof - Museum für Gegenwart",
       "description": "Für die zweite Ausgabe der Chanel Commission verwandelt Lina Lapelytė die Historische Halle des Hamburger Bahnhof in eine polyphone Bühne für eine partizipative Choreografie verwandelt.",
-      "image_url": "https://imgproxy.berlinonline.net/UUwtGNNR8FZcQXmy-67E7eAafqG1xo6DhF8cBgbaPMw/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061613/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JkZS1jbXMvYm8udGIuZXZlbnQvaW1hZ2VzLzE0MC8zY2ZjNDJkZC1lZmVkLTQ5NmQtOTg4Yy0yZDIyMjdmZjdiODYuanBn.jpg",
+      "image_url": "https://imgproxy.berlinonline.net/L7nXHhCMhq6gEKfXorxpjWF6L6K0BoV2DcMSY3ZDB6U/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061614/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JkZS1jbXMvYm8udGIuZXZlbnQvaW1hZ2VzLzE0MC8zY2ZjNDJkZC1lZmVkLTQ5NmQtOTg4Yy0yZDIyMjdmZjdiODYuanBn.jpg",
       "source_url": "https://www.berlin.de/tickets/ausstellungen/lina-lapelyt-we-make-years-out-of-hours-dba95155-327c-4310-907b-86f7cc7452fb/",
       "source_name": "Ausstellungen Berlin",
       "tags": [
@@ -1625,7 +1625,7 @@
       "end": "2026-08-22T22:00:00",
       "location": "Gropius Bau",
       "description": "Im Zentrum der Ausstellung von Marina Abramović im Berliner Gropis Bau steht ihr fortwährendes Interesse an Ritualen, Erotik, Tod und dem Körper als Ort politischen Widerstands.",
-      "image_url": "https://imgproxy.berlinonline.net/T89pw9HtMJ1U9fY6W4WuaaRLIsXpww6S5D-HC2--RvM/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061613/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JkZS1jbXMvYm8udGIuZXZlbnQvaW1hZ2VzLzIzMy9lY2VkOTZjOS03YTYxLTRjNzMtODJlOS1mNzAwNDlkNGZiMTMuanBn.jpg",
+      "image_url": "https://imgproxy.berlinonline.net/F1zUbkyWY7iOsCqW5qry2FpaI9A_VyoNhVhMZDXWx1M/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061614/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JkZS1jbXMvYm8udGIuZXZlbnQvaW1hZ2VzLzIzMy9lY2VkOTZjOS03YTYxLTRjNzMtODJlOS1mNzAwNDlkNGZiMTMuanBn.jpg",
       "source_url": "https://www.berlin.de/tickets/ausstellungen/marina-abramovi-balkan-erotic-epic-5b5d2635-714b-4440-aa81-e4cd48a87371/",
       "source_name": "Ausstellungen Berlin",
       "tags": [
@@ -1646,7 +1646,7 @@
       "end": "2026-09-13T22:00:00",
       "location": "Berlinische Galerie",
       "description": "Die Ausstellung in der Berlinischen Galerie widmet sich dem vielschichtigen Werk von Marc Brandenburg, der das Bild der Berliner Kunstszene seit Jahrzehnten mitprägt.",
-      "image_url": "https://imgproxy.berlinonline.net/9Kp_9rJfR3_NerYrpDmDMRmEMvDrUDibHfYMI0itxCc/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061613/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JkZS1jbXMvYm8udGIuZXZlbnQvaW1hZ2VzLzc3LzZmMGYyMWNiLWQ2M2EtNDdkZS04NTRkLWU5YjYyYTdhMDc4Yi5wbmc.jpg",
+      "image_url": "https://imgproxy.berlinonline.net/l0s0ldPQ1hVkfpQmooDT-E5xD7Dzh90lU8UedW4b7ys/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061614/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JkZS1jbXMvYm8udGIuZXZlbnQvaW1hZ2VzLzc3LzZmMGYyMWNiLWQ2M2EtNDdkZS04NTRkLWU5YjYyYTdhMDc4Yi5wbmc.jpg",
       "source_url": "https://www.berlin.de/tickets/ausstellungen/marc-brandenburg-20th-century-debris-41950c71-4de3-4d84-b270-39d1583f699c/",
       "source_name": "Ausstellungen Berlin",
       "tags": [
@@ -1667,7 +1667,7 @@
       "end": "2026-06-27T22:00:00",
       "location": "Schloss Bellevue",
       "description": "Ab Mitte Juni realisiert die Akademie der Künste eine zweiwöchige Pop-Up-Galerie im Schloss Bellevue und überführt den Amtssitz des Bundespräsidenten in einen temporären Ort der Künste.",
-      "image_url": "https://imgproxy.berlinonline.net/sd6LZyQND5s_NqE2mwTTPDxsUAg1DLH1gc4DSkS03Ko/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061613/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JkZS1jbXMvYm8udGIuZXZlbnQvaW1hZ2VzLzE5MC83NjdiYmEyZS1kMjRhLTQ0ZTItOGJiZS01YzM1ZjkxYjQzMTcuanBn.jpg",
+      "image_url": "https://imgproxy.berlinonline.net/ay36_J8e5xZ8upVJ2oOlGSEKY-x_XYazdk6dIpqB8o4/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061614/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JkZS1jbXMvYm8udGIuZXZlbnQvaW1hZ2VzLzE5MC83NjdiYmEyZS1kMjRhLTQ0ZTItOGJiZS01YzM1ZjkxYjQzMTcuanBn.jpg",
       "source_url": "https://www.berlin.de/tickets/ausstellungen/freiraum-kunst-akademie-der-kuenste-goes-bellevue-5e6628e0-0ff0-454a-a56c-40979dd99478/",
       "source_name": "Ausstellungen Berlin",
       "tags": [
@@ -1688,7 +1688,7 @@
       "end": "2027-01-03T22:59:59",
       "location": "Neue Nationalgalerie",
       "description": "Mit „Ruin und Rausch“ nimmt die Neue Nationalgalerie ausgewählte Werke aus ihrer Sammlung der Klassischen Moderne in den Blick, die das Berlin der 1910er- und 1920er-Jahre thematisieren.",
-      "image_url": "https://imgproxy.berlinonline.net/q4NUm993scjnEhzghsh8sGeY1CR0Q8r3tLNAUs4jY3U/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061613/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JvLW1pZGRsZXdhcmUvYm8uYmRlX2NoYW5uZWwuZXZlbnQvaW1hZ2VzLzEwNy9lMmY1MmMyZi0yZDJhLTNiOTgtYzU2Yi02ODRiYjczZjA3YTkuanBn.jpg",
+      "image_url": "https://imgproxy.berlinonline.net/QgUhgKep4DSXnjN3Eer4M2nU4IVbxALluZNuGfCLrOU/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061614/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JvLW1pZGRsZXdhcmUvYm8uYmRlX2NoYW5uZWwuZXZlbnQvaW1hZ2VzLzEwNy9lMmY1MmMyZi0yZDJhLTNiOTgtYzU2Yi02ODRiYjczZjA3YTkuanBn.jpg",
       "source_url": "https://www.berlin.de/tickets/ausstellungen/ruin-und-rausch-berlin-1910-1930-41669289-2895-461d-ae9e-4d4264ab495d/",
       "source_name": "Ausstellungen Berlin",
       "tags": [
@@ -1709,7 +1709,7 @@
       "end": "2026-09-27T21:59:59",
       "location": "Alte Nationalgalerie",
       "description": "Die Alte Nationalgalerie würdigt im Jahr 2026 mit Paul Cassirer (1871–1926) einen der wichtigsten Kunsthändler seiner Zeit.",
-      "image_url": "https://imgproxy.berlinonline.net/nJio0p4eV2iWaO4gEiTPSUqPTQlaBPRs7xxyaPS1XG0/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061613/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JvLW1pZGRsZXdhcmUvYm8uYmRlX2NoYW5uZWwuZXZlbnQvaW1hZ2VzLzEwNS8yYzFlOTA3NS01NDlmLWJjMzQtZGQ2OS01NWZkMWJkYzU0NDQuanBn.jpg",
+      "image_url": "https://imgproxy.berlinonline.net/Q4Fyb-DVWSNA7lPDIQSZRSf3VIM7dh9wm6YcFjll3CE/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061614/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JvLW1pZGRsZXdhcmUvYm8uYmRlX2NoYW5uZWwuZXZlbnQvaW1hZ2VzLzEwNS8yYzFlOTA3NS01NDlmLWJjMzQtZGQ2OS01NWZkMWJkYzU0NDQuanBn.jpg",
       "source_url": "https://www.berlin.de/tickets/ausstellungen/cassirer-und-der-durchbruch-des-impressionismus-462d1914-63f3-4f32-bb09-353d60c1ca92/",
       "source_name": "Ausstellungen Berlin",
       "tags": [
@@ -1730,7 +1730,7 @@
       "end": "2026-09-13T21:59:59",
       "location": "Hamburger Bahnhof - Museum für Gegenwart",
       "description": "Giulia Andreani eröffnet das Jubiläumsprogramm des Hamburger Bahnhof mit Gemälden, die Brüche in offiziellen Geschichtsschreibungen sichtbar machen.",
-      "image_url": "https://imgproxy.berlinonline.net/hJHBPqc_mIUGh7YenRHF0MTONNb283ndg4Wx6tLdofU/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061613/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JvLW1pZGRsZXdhcmUvYm8uYmRlX2NoYW5uZWwuZXZlbnQvaW1hZ2VzLzE3MS9lYTY1NDRlZi0zMGM0LTc1ODItNzBhYi00YmQ3ZGM0ODU3ZjMuanBn.jpg",
+      "image_url": "https://imgproxy.berlinonline.net/vOM3VhAsGcL6IKBOokjrUEV71-BsLVYceggUpoylaaM/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061614/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JvLW1pZGRsZXdhcmUvYm8uYmRlX2NoYW5uZWwuZXZlbnQvaW1hZ2VzLzE3MS9lYTY1NDRlZi0zMGM0LTc1ODItNzBhYi00YmQ3ZGM0ODU3ZjMuanBn.jpg",
       "source_url": "https://www.berlin.de/tickets/ausstellungen/giulia-andreani-sabotage-fc9ae686-9d41-48d6-8b90-a20446dcff52/",
       "source_name": "Ausstellungen Berlin",
       "tags": [
@@ -1751,7 +1751,7 @@
       "end": "2026-08-15T22:00:00",
       "location": "Schinkel Pavillon",
       "description": "Die künstlerische Praxis von C.B. Evans beschäftigt sich mit den Strukturen der digitalen Welt und ihren Auswirkungen auf unsere Gegenwart.",
-      "image_url": "https://imgproxy.berlinonline.net/gHdMCh3TunDwtz9kAOzD1WKu1GJMBiOBdSwdQVBMunY/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061613/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JkZS1jbXMvYm8udGIuZXZlbnQvaW1hZ2VzLzI1NS82ZDg2Nzc5Yi0zNWJiLTQ2YzUtYmZmZi1kMWE5NTkyMjUyODguanBn.jpg",
+      "image_url": "https://imgproxy.berlinonline.net/6pEj2OnN8_7A4sFSeBT_lcTY6-4KN8tyfRpwLoqALyU/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061614/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JkZS1jbXMvYm8udGIuZXZlbnQvaW1hZ2VzLzI1NS82ZDg2Nzc5Yi0zNWJiLTQ2YzUtYmZmZi1kMWE5NTkyMjUyODguanBn.jpg",
       "source_url": "https://www.berlin.de/tickets/ausstellungen/c-b-evans-reality-or-not-3e8e7d73-c0fa-4cb6-8366-62be7e0c95de/",
       "source_name": "Ausstellungen Berlin",
       "tags": [
@@ -1772,7 +1772,7 @@
       "end": "2026-10-04T21:59:59",
       "location": "Museum für Fotografie - Helmut Newton Stiftung",
       "description": "Die Fotografinnen am Bauhaus experimentierten mit fotografischen und gestalterischen Techniken und loteten dabei die Grenzen ihres Mediums aus.",
-      "image_url": "https://imgproxy.berlinonline.net/vpYm_MNzhrf4rEdU3f2OMAta0jpeA_E3JVuiAZtS0FM/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061613/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JvLW1pZGRsZXdhcmUvYm8uYmRlX2NoYW5uZWwuZXZlbnQvaW1hZ2VzLzEwNy84YzNjMjllOC0yYzE5LTc1NzYtOGI2Yi05NjZhNTUwYjY0MjAuanBn.jpg",
+      "image_url": "https://imgproxy.berlinonline.net/AGrUXJ_BcmRifIjmm86qMGF6DSxaO3G1X-t0QAKLYJU/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061614/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JvLW1pZGRsZXdhcmUvYm8uYmRlX2NoYW5uZWwuZXZlbnQvaW1hZ2VzLzEwNy84YzNjMjllOC0yYzE5LTc1NzYtOGI2Yi05NjZhNTUwYjY0MjAuanBn.jpg",
       "source_url": "https://www.berlin.de/tickets/ausstellungen/neue-frau-neues-sehen-die-bauhaus-fotografinnen-720227d9-1526-47f3-953b-f92a982f1b88/",
       "source_name": "Ausstellungen Berlin",
       "tags": [
@@ -1793,7 +1793,7 @@
       "end": "2026-09-13T21:59:59",
       "location": "Deutsche Kinemathek",
       "description": "Queeres Kino erzählt von den Geschichten, Erfahrungen und Lebensrealitäten queerer Menschen – meist abseits normativer Erwartungen und gesellschaftlicher Ordnungen.",
-      "image_url": "https://imgproxy.berlinonline.net/9Ozq1qCj2c6KSn40rKc_-OgDRaHCL1KwDbTYJb8pmNE/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061613/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JvLW1pZGRsZXdhcmUvYm8uYmRlX2NoYW5uZWwuZXZlbnQvaW1hZ2VzLzYwL2FhYmY1NzkzLTQzMGUtOTQzZi02MjNjLTU3NjMzZmI2YzQ5OC5qcGc.jpg",
+      "image_url": "https://imgproxy.berlinonline.net/5vkKgHh0L8Eoo0NPA-U7sC-BTR2046Z_8AuBZYPRRRo/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061614/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JvLW1pZGRsZXdhcmUvYm8uYmRlX2NoYW5uZWwuZXZlbnQvaW1hZ2VzLzYwL2FhYmY1NzkzLTQzMGUtOTQzZi02MjNjLTU3NjMzZmI2YzQ5OC5qcGc.jpg",
       "source_url": "https://www.berlin.de/tickets/ausstellungen/inventing-queer-cinema-4875f127-13d1-4d49-836e-1a022ee42aea/",
       "source_name": "Ausstellungen Berlin",
       "tags": [
@@ -1814,7 +1814,7 @@
       "end": "2026-06-27T22:00:00",
       "location": "Gropius Bau",
       "description": "Die Ausstellung Persistence of Vision vereint die Arbeiten von Peter Hujar und Liz Deschenes und bringt diese in einen generationsübergreifenden Dialog über Fotografie.",
-      "image_url": "https://imgproxy.berlinonline.net/K0Mzcn032sR2rzlsnxGja3m3Y3-2m2PtRH53ljKt_7A/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061613/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JkZS1jbXMvYm8udGIuZXZlbnQvaW1hZ2VzLzIxNS8xMzNjMzM1ZC0xYjZhLTQwNjgtYWJkNy0zYzAyN2VjZmE4NWIucG5n.jpg",
+      "image_url": "https://imgproxy.berlinonline.net/wLp_0uIX_fNlv6m--TM-2r3-QMsqvTTS3DvRrZnzW5I/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061614/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JkZS1jbXMvYm8udGIuZXZlbnQvaW1hZ2VzLzIxNS8xMzNjMzM1ZC0xYjZhLTQwNjgtYWJkNy0zYzAyN2VjZmE4NWIucG5n.jpg",
       "source_url": "https://www.berlin.de/tickets/ausstellungen/peter-hujar-und-liz-deschenes-persistence-of-vision-95251eb6-7cc9-48ca-8a3e-17b3513c0eae/",
       "source_name": "Ausstellungen Berlin",
       "tags": [
@@ -1835,7 +1835,7 @@
       "end": "2026-09-13T21:59:59",
       "location": "KW - Institute for Contemporary Art",
       "description": "Vor dem Hintergrund zunehmender Konflikte und sich wandelnder politischer Realitäten konzentriert sich „A Bird That Cannot Land“ auf den Begriff „Nahost-Europa“ und dessen Geschichte der Kolonialisierung und des Imperialismus.",
-      "image_url": "https://imgproxy.berlinonline.net/d_iF5vx43yj44e0wO82w_wOuNtEdubJ-KjCOosHR6oI/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061613/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JkZS1jbXMvYm8udGIuZXZlbnQvaW1hZ2VzLzE4Mi80M2RmZTc2My0xODZhLTRhZmYtODNiNi0xMWY4Nzk2YWYzNjYucG5n.jpg",
+      "image_url": "https://imgproxy.berlinonline.net/PGOBBFLJyR2J4CclubCDTR0dmo1aQv9EOkrRArIGuhE/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061614/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JkZS1jbXMvYm8udGIuZXZlbnQvaW1hZ2VzLzE4Mi80M2RmZTc2My0xODZhLTRhZmYtODNiNi0xMWY4Nzk2YWYzNjYucG5n.jpg",
       "source_url": "https://www.berlin.de/tickets/ausstellungen/kyiv-biennial-a-bird-that-cannot-land-b8b1285f-34c1-4b67-991d-1cf7cfa95955/",
       "source_name": "Ausstellungen Berlin",
       "tags": [
@@ -1856,7 +1856,7 @@
       "end": "2027-01-03T22:59:59",
       "location": "Hamburger Bahnhof - Museum für Gegenwart",
       "description": "Ausgangspunkt von Shilpa Guptas Einzelausstellung im Hamburger Bahnhof ist das monumentale Werk Truth an der Schnittstelle von Sprache, Macht und Kontrolle.",
-      "image_url": "https://imgproxy.berlinonline.net/h6GUTKsMAhRoh_yWij9-22FMVZXe7izXVRKxxyk0GLs/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061613/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JvLW1pZGRsZXdhcmUvYm8uYmRlX2NoYW5uZWwuZXZlbnQvaW1hZ2VzLzc1L2YwZDNkYmI3LWQxMTAtYjAyNi01YTRiLWVmZDMwMjcwZTEyMy5qcGc.jpg",
+      "image_url": "https://imgproxy.berlinonline.net/MiSsuuHBUiNZ-3QLjpKs0y5q78b2DfGJn7Z-MDtYFaI/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061614/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JvLW1pZGRsZXdhcmUvYm8uYmRlX2NoYW5uZWwuZXZlbnQvaW1hZ2VzLzc1L2YwZDNkYmI3LWQxMTAtYjAyNi01YTRiLWVmZDMwMjcwZTEyMy5qcGc.jpg",
       "source_url": "https://www.berlin.de/tickets/ausstellungen/shilpa-gupta-what-still-holds-c11e71c7-2bbd-40f5-8d78-31f4ea6c77c1/",
       "source_name": "Ausstellungen Berlin",
       "tags": [
@@ -1877,7 +1877,7 @@
       "end": "2026-10-25T22:59:59",
       "location": "Neue Nationalgalerie",
       "description": "Wegen des großen Publikumsinteresses präsentiert die Neue Nationalgalerie auch im Jahr 2026 die ortsspezifische Nebelskulptur der japanischen Künstlerin Fujiko Nakaya in ihrem Skulpturengarten.",
-      "image_url": "https://imgproxy.berlinonline.net/P1zEY-AeIPPV2CWTEYGtNTgfOKgzBYdKwVCbTADhNLo/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061613/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JkZS1jbXMvYm8udGIuZXZlbnQvaW1hZ2VzLzIyMy9mNmIxM2JjMC1mNzVkLTQ1OWMtYmRkZi04YWRmNWQwYTFhYzIuanBn.jpg",
+      "image_url": "https://imgproxy.berlinonline.net/cC7foFr7b-877mfcPAYkvN3CNWo2AlXrjO2k-Vrdp8s/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061614/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JkZS1jbXMvYm8udGIuZXZlbnQvaW1hZ2VzLzIyMy9mNmIxM2JjMC1mNzVkLTQ1OWMtYmRkZi04YWRmNWQwYTFhYzIuanBn.jpg",
       "source_url": "https://www.berlin.de/tickets/ausstellungen/fujiko-nakaya-nebelskulptur-im-skulpturengarten-ce3799be-708b-4889-9a49-f216d464ec01/",
       "source_name": "Ausstellungen Berlin",
       "tags": [
@@ -1898,7 +1898,7 @@
       "end": "2026-07-26T21:59:59",
       "location": "Kindl - Zentrum für zeitgenössische Kunst",
       "description": "\"Iliggocene: The Age of Dizziness\" im Kindl schlägt Künstler:innenpositionen vor, die neue Vokabulare für diese Taumelzustände suchen.",
-      "image_url": "https://imgproxy.berlinonline.net/CtJxX9iwi25mSAK6hatdBYr4FGjvddFiX55E_WtWHek/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061613/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JvLW1pZGRsZXdhcmUvYm8uYmRlX2NoYW5uZWwuZXZlbnQvaW1hZ2VzLzIyOS81ZTk5MGFmYi1jZDQ5LWMyM2YtZDFlNS05N2M2OWM4NDMxN2EuanBn.jpg",
+      "image_url": "https://imgproxy.berlinonline.net/Nzr6ZCQTEx-ASfq1c0imTOIHiiT8iD_sJWHB7wDOE7c/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061614/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JvLW1pZGRsZXdhcmUvYm8uYmRlX2NoYW5uZWwuZXZlbnQvaW1hZ2VzLzIyOS81ZTk5MGFmYi1jZDQ5LWMyM2YtZDFlNS05N2M2OWM4NDMxN2EuanBn.jpg",
       "source_url": "https://www.berlin.de/tickets/ausstellungen/iliggocene-the-age-of-dizziness-aa9fede7-db71-4d43-964e-4eb0894b361c/",
       "source_name": "Ausstellungen Berlin",
       "tags": [
@@ -1919,7 +1919,7 @@
       "end": "2026-09-19T22:00:00",
       "location": "Fotografiska Berlin",
       "description": "Die Porträts des Fotografen Anton Corbijn, der seit Jahrzehnten prägende Künstlerinnen und Künstler der internationalen Musik- und Kulturszene begleitet, sind weltweit bekannt.",
-      "image_url": "https://imgproxy.berlinonline.net/mXjYsdYFfgW2TMtR18Wa7iYmPukUuMaVdcDMGFznd8U/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061613/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JkZS1jbXMvYm8udGIuZXZlbnQvaW1hZ2VzLzIyNi8yZTQ5NmYzMi05ZmUyLTQ1NDctOTFlMi1mMTE0ODMyMTkxZjAuanBn.jpg",
+      "image_url": "https://imgproxy.berlinonline.net/SmEthCb8YBFN9QDx3lbC8ZGalnFioLK94DRtw5cEjsA/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061614/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JkZS1jbXMvYm8udGIuZXZlbnQvaW1hZ2VzLzIyNi8yZTQ5NmYzMi05ZmUyLTQ1NDctOTFlMi1mMTE0ODMyMTkxZjAuanBn.jpg",
       "source_url": "https://www.berlin.de/tickets/ausstellungen/anton-corbijn-corbijn-anton-b179d50c-82d7-4c0d-9b74-259bc3f509bb/",
       "source_name": "Ausstellungen Berlin",
       "tags": [
@@ -1940,7 +1940,7 @@
       "end": "2026-11-15T22:59:59",
       "location": "Museum für Fotografie - Helmut Newton Stiftung",
       "description": "Die Ausstellung „Rooms / Stages“ verzichtet auf künstlerische Dokumentationen, sondern verschiebt vielmehr den Kontext und den Blick vom performativen Akt auf den Bühnenraum selbst.",
-      "image_url": "https://imgproxy.berlinonline.net/4HM--tzUrC48xGKqUblX8By5Jd-W2Z1FkX55sp0ZV3g/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061613/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JvLW1pZGRsZXdhcmUvYm8uYmRlX2NoYW5uZWwuZXZlbnQvaW1hZ2VzLzE4My83YTEzYzZmOS03ZmI1LTY3ZmYtMTZiNy03ZWMxMjA0MzNhMWEuanBn.jpg",
+      "image_url": "https://imgproxy.berlinonline.net/vshRngLACMOkjp7X4ANawU-mD2W0kK1K1Nybjv43Sm4/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061614/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JvLW1pZGRsZXdhcmUvYm8uYmRlX2NoYW5uZWwuZXZlbnQvaW1hZ2VzLzE4My83YTEzYzZmOS03ZmI1LTY3ZmYtMTZiNy03ZWMxMjA0MzNhMWEuanBn.jpg",
       "source_url": "https://www.berlin.de/tickets/ausstellungen/rooms-stages-a4943bcf-5277-438c-8d4e-2d7679ca99e8/",
       "source_name": "Ausstellungen Berlin",
       "tags": [
@@ -1961,7 +1961,7 @@
       "end": "2030-04-23T22:00:00",
       "location": "Museum für Fotografie - Helmut Newton Stiftung",
       "description": "Die neue Dauerausstellung im Museum für Fotografie wird noch dynamischer auf die unterschiedlichen Aspekte fotografischer Werke von Helmut und June Newton reagieren.",
-      "image_url": "https://imgproxy.berlinonline.net/l4MJUfwCX0X9aN1eKuhdlGOvYIqf6ZvBY3NG-Ab1u2Y/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061613/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JkZS1jbXMvYm8udGIuZXZlbnQvaW1hZ2VzLzI1MS8zMjE0YTQzYy0xYjJhLTRkMDAtYmVmYi05Nzc3YjQ1ZDllYTMuanBn.jpg",
+      "image_url": "https://imgproxy.berlinonline.net/vTjt5isnTzJz6rrI1GKywYMx5iqcJS4P0-UAsZebVjc/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061614/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JkZS1jbXMvYm8udGIuZXZlbnQvaW1hZ2VzLzI1MS8zMjE0YTQzYy0xYjJhLTRkMDAtYmVmYi05Nzc3YjQ1ZDllYTMuanBn.jpg",
       "source_url": "https://www.berlin.de/tickets/ausstellungen/intermezzo-revisiting-helmut-newton-5ff73038-390b-48dc-85a2-801c3ff747e6/",
       "source_name": "Ausstellungen Berlin",
       "tags": [
@@ -1982,7 +1982,7 @@
       "end": "2026-10-11T21:59:59",
       "location": "Kulturforum",
       "description": "Die französische Modedesignerin Madame Grès gilt als eine der wichtigsten Wegbereiterinnen der Haute Couture im 20. Jahrhundert.",
-      "image_url": "https://imgproxy.berlinonline.net/2vi4C4b-PZCy55l1vzoH05UeA5s23pTgL4q2rsmQJEo/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061613/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JkZS1jbXMvYm8udGIuZXZlbnQvaW1hZ2VzLzE1OS9kN2NjYzNkYS00NGFkLTQyN2ItYmI5Zi04ZTk3Y2Y0ODU5YjkuanBn.jpg",
+      "image_url": "https://imgproxy.berlinonline.net/6LQaprOLqz1WQwPn_TLCpt0ePoU6GnCecs2ttPdpyBs/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061614/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JkZS1jbXMvYm8udGIuZXZlbnQvaW1hZ2VzLzE1OS9kN2NjYzNkYS00NGFkLTQyN2ItYmI5Zi04ZTk3Y2Y0ODU5YjkuanBn.jpg",
       "source_url": "https://www.berlin.de/tickets/ausstellungen/many-shades-of-grs-mode-wird-kunst-15c3012c-56e4-4da3-a6b1-63bf46124267/",
       "source_name": "Ausstellungen Berlin",
       "tags": [
@@ -2003,7 +2003,7 @@
       "end": "2026-08-17T21:59:59",
       "location": "PalaisPopulaire",
       "description": "Der Fokus der Ausstellung liegt auf der zeitgenössischen Perspektive, quasi einer Worldwide Written Art, die den globalen Dialog heutiger künstlerischer Positionen in den Mittelpunkt stellt.",
-      "image_url": "https://imgproxy.berlinonline.net/yO3_BEmrGRmatcC4PJHFPSGjqWugBtCNzQTTCek-ItE/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061613/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JvLW1pZGRsZXdhcmUvYm8uYmRlX2NoYW5uZWwuZXZlbnQvaW1hZ2VzLzE2Mi82YmJmMjRmYS03NTVlLWM1YjQtMWJhMi02YzY3NDdiYzIxYWQuanBn.jpg",
+      "image_url": "https://imgproxy.berlinonline.net/JOQCg74ciIPiQiWO9HvMDltb_nsgNWWs0d7gNd03TWU/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061614/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JvLW1pZGRsZXdhcmUvYm8uYmRlX2NoYW5uZWwuZXZlbnQvaW1hZ2VzLzE2Mi82YmJmMjRmYS03NTVlLWM1YjQtMWJhMi02YzY3NDdiYzIxYWQuanBn.jpg",
       "source_url": "https://www.berlin.de/tickets/ausstellungen/seeing-words-reading-images-bf4513bc-4814-4aa2-a8a7-50c02baa4c83/",
       "source_name": "Ausstellungen Berlin",
       "tags": [
@@ -2024,7 +2024,7 @@
       "end": "2026-07-03T22:00:00",
       "location": "Galerie BQ",
       "description": "Für die Ausstellung „Imitationen von Paul“ tritt Philipp Gufler in einen Dialog mit dem Maler Paul Hoecker, dessen Leben und Werk lange marginalisiert wurden und dessen umfangreiches Œuvre bis heute nicht vollständig katalogisiert ist.",
-      "image_url": "https://imgproxy.berlinonline.net/EUiJn43MidcO22JCOD6RmbBvTakGPh7y1ppbhcbQ8Kw/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061613/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JkZS1jbXMvYm8udGIuZXZlbnQvaW1hZ2VzLzU2Lzc4NjZiNTE4LTYwYWEtNGRlZi04NDM4LTE2NTk1MGFjYTRjZS5wbmc.jpg",
+      "image_url": "https://imgproxy.berlinonline.net/jPriMt_MAgudd6_UqYhSSRBvLXcgJq0qzLcj8X45-SY/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061614/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JkZS1jbXMvYm8udGIuZXZlbnQvaW1hZ2VzLzU2Lzc4NjZiNTE4LTYwYWEtNGRlZi04NDM4LTE2NTk1MGFjYTRjZS5wbmc.jpg",
       "source_url": "https://www.berlin.de/tickets/ausstellungen/philipp-gufler-imitations-of-paul-b49a6057-5536-4c68-b7bf-09f9f266d108/",
       "source_name": "Ausstellungen Berlin",
       "tags": [
@@ -2065,8 +2065,8 @@
       "start": "2026-06-17T11:00:00",
       "end": null,
       "location": "Ladenkino",
-      "description": "Emma und Charlie führen schon seit einiger Zeit eine glückliche Beziehung. Ihre Hochzeit steht unmittelbar bevor. Doch vor dem Ja-Wort werden sie von der Vergangenheit eingeholt, was für Spannungen...",
-      "image_url": "https://www.berlin.de/kino/_img/filmbilder/p_312866_Print2.jpg",
+      "description": null,
+      "image_url": null,
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/312866/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -2195,8 +2195,8 @@
       "start": "2026-06-17T13:20:00",
       "end": null,
       "location": "Ladenkino",
-      "description": "Nach dem Ende des Zweiten Weltkriegs sollen in Nürnberg die Prozesse gegen ranghohe Vertreter des NS-Regimes beginnen. Unmittelbar zuvor werden sie von dem amerikanischen Militärpsychologe Dr. ...",
-      "image_url": "https://www.berlin.de/kino/_img/filmbilder/p_312472_Print2.jpg",
+      "description": null,
+      "image_url": null,
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/312472/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -2310,8 +2310,8 @@
       "start": "2026-06-17T15:15:00",
       "end": null,
       "location": "Ladenkino",
-      "description": "Als Conni und ihre besten Freunde Anna und Simon einen verletzten Kranich in Connis Garten finden, beschließen sie, den Vogel bei sich aufzunehmen und gesundzupflegen. Leichter gesagt als getan, denn...",
-      "image_url": "https://www.berlin.de/kino/_img/filmbilder/p_313724_Print2.jpg",
+      "description": null,
+      "image_url": null,
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313724/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -2512,7 +2512,7 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Queer",
+      "genre": "Kultur",
       "subcategory": null,
       "address": "Markgrafendamm 24c, 10245 Friedrichshain",
       "lat": 52.5024767,
@@ -2757,8 +2757,8 @@
       "start": "2026-06-17T18:00:00",
       "end": null,
       "location": "Kino Zukunft",
-      "description": "Zu Beginn der 1970er Jahre entwickelte sich im Berliner Stadtteil Kreuzberg eine Gegenkultur, die bestehende Normen und Werte infrage stellte. Mit ihren sozialkritischen Texten wurde die Band &quot;Ton, ...",
-      "image_url": "https://www.berlin.de/kino/_img/filmbilder/p_313866_Print2.jpg",
+      "description": null,
+      "image_url": null,
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313866/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -2954,48 +2954,6 @@
       "showings": null
     },
     {
-      "title": "Radical Inclusion",
-      "start": "2026-06-17T19:00:00",
-      "end": "2026-06-17T21:30:00",
-      "location": "Karada House",
-      "description": "The world can often feel divided and exclusionary. What would it mean to turn that on its head? This workshop explores how we can actively include ourselves and others, while acknowledging the real need for both inclusive and separatist spaces. \nTogether, we will examine the barriers that create exclusion—such as access, power dynamics, and social norms—and explore practical ways to respond to them. The focus is on finding a balance between collective needs and individual experiences, and reimagining what truly supportive spaces can look like. \nLed by Caritia, this session offers a space for reflection, discussion, and collaborative thinking. Participants will be invited to design and imagine the kinds of groups and environments they would want to be part of, while developing tools to meaningfully include difference and diversity for the benefit of all. \nWhat we’ll cover\n\n\nWhat “radical inclusion” means in practice \n\n\nThe role of exclusion: boundaries, safety, and separatist spaces \n\n\nIdentifying barriers to inclusion (access, identity, power) \n\n\nBalancing individual needs with group dynamics \n\n\nDesigning spaces you would actually want to belong to \n\n\nPractical strategies for including difference and diversity",
-      "image_url": "https://karada-house.de/wp-content/uploads/2025/11/mg_6950.jpg",
-      "source_url": "https://karada-house.de/events/radical-inclusion/",
-      "source_name": "Karada House",
-      "tags": [
-        "Workshop"
-      ],
-      "time_known": true,
-      "genre": "Kink",
-      "subcategory": null,
-      "address": "Perleberger Straße 59, 10559 Moabit",
-      "lat": 52.5326687,
-      "lng": 13.3513556,
-      "bezirk": "Mitte",
-      "showings": null
-    },
-    {
-      "title": "Queer Rope Jam",
-      "start": "2026-06-17T19:00:00",
-      "end": "2026-06-17T23:00:00",
-      "location": "Karada House",
-      "description": "It’s queer rope jam time, babes! Once in a while you gotta do ropey stuff amongst other queers and just enjoy yourself. No posing, no being cool or extra good at doing ropey things needed. Come as you are, exhale and enjoy yourselves. \nWhat is a rope jam?\nRope jams is an open space format. Part hangout, part jamming with other like-minded people who are into rope bondage/shibari/kinbaku. Come and hang out and watch others do ropey stuff or do some yourself.  The queer rope jam is where you can bring your (rope) partner(s) or meet new people who love to tie, be tied and/or self-tie. It is also a great space to have sessions in a safe(r) environment with people you do not know yet. \nWe welcome all styles, all bodies, all knowledge levels. There will be cute music, extra special lighting and snacks. In the last hour of the jam, we will lower the lights and music and make it extra cozy.",
-      "image_url": "https://karada-house.de/wp-content/uploads/2022/11/MG_1274-scaled.jpeg",
-      "source_url": "https://karada-house.de/events/queer-rope-jam-0626/",
-      "source_name": "Karada House",
-      "tags": [
-        "Workshop"
-      ],
-      "time_known": true,
-      "genre": "Kink",
-      "subcategory": null,
-      "address": "Perleberger Straße 59, 10559 Moabit",
-      "lat": 52.5326687,
-      "lng": 13.3513556,
-      "bezirk": "Mitte",
-      "showings": null
-    },
-    {
       "title": "Soli-Küfa, jeden Mittwoch 19 Uhr",
       "start": "2026-06-17T19:00:00",
       "end": null,
@@ -3181,6 +3139,48 @@
       "address": "Linienstraße 227, 10178 Mitte",
       "lat": 52.527024,
       "lng": 13.4119171,
+      "bezirk": "Mitte",
+      "showings": null
+    },
+    {
+      "title": "Radical Inclusion",
+      "start": "2026-06-17T19:00:00",
+      "end": "2026-06-17T21:30:00",
+      "location": "Karada House",
+      "description": "The world can often feel divided and exclusionary. What would it mean to turn that on its head? This workshop explores how we can actively include ourselves and others, while acknowledging the real need for both inclusive and separatist spaces. \nTogether, we will examine the barriers that create exclusion—such as access, power dynamics, and social norms—and explore practical ways to respond to them. The focus is on finding a balance between collective needs and individual experiences, and reimagining what truly supportive spaces can look like. \nLed by Caritia, this session offers a space for reflection, discussion, and collaborative thinking. Participants will be invited to design and imagine the kinds of groups and environments they would want to be part of, while developing tools to meaningfully include difference and diversity for the benefit of all. \nWhat we’ll cover\n\n\nWhat “radical inclusion” means in practice \n\n\nThe role of exclusion: boundaries, safety, and separatist spaces \n\n\nIdentifying barriers to inclusion (access, identity, power) \n\n\nBalancing individual needs with group dynamics \n\n\nDesigning spaces you would actually want to belong to \n\n\nPractical strategies for including difference and diversity",
+      "image_url": "https://karada-house.de/wp-content/uploads/2025/11/mg_6950.jpg",
+      "source_url": "https://karada-house.de/events/radical-inclusion/",
+      "source_name": "Karada House",
+      "tags": [
+        "Workshop"
+      ],
+      "time_known": true,
+      "genre": "Kink",
+      "subcategory": null,
+      "address": "Perleberger Straße 59, 10559 Moabit",
+      "lat": 52.5326687,
+      "lng": 13.3513556,
+      "bezirk": "Mitte",
+      "showings": null
+    },
+    {
+      "title": "Queer Rope Jam",
+      "start": "2026-06-17T19:00:00",
+      "end": "2026-06-17T23:00:00",
+      "location": "Karada House",
+      "description": "It’s queer rope jam time, babes! Once in a while you gotta do ropey stuff amongst other queers and just enjoy yourself. No posing, no being cool or extra good at doing ropey things needed. Come as you are, exhale and enjoy yourselves. \nWhat is a rope jam?\nRope jams is an open space format. Part hangout, part jamming with other like-minded people who are into rope bondage/shibari/kinbaku. Come and hang out and watch others do ropey stuff or do some yourself.  The queer rope jam is where you can bring your (rope) partner(s) or meet new people who love to tie, be tied and/or self-tie. It is also a great space to have sessions in a safe(r) environment with people you do not know yet. \nWe welcome all styles, all bodies, all knowledge levels. There will be cute music, extra special lighting and snacks. In the last hour of the jam, we will lower the lights and music and make it extra cozy.",
+      "image_url": "https://karada-house.de/wp-content/uploads/2022/11/MG_1274-scaled.jpeg",
+      "source_url": "https://karada-house.de/events/queer-rope-jam-0626/",
+      "source_name": "Karada House",
+      "tags": [
+        "Workshop"
+      ],
+      "time_known": true,
+      "genre": "Kink",
+      "subcategory": null,
+      "address": "Perleberger Straße 59, 10559 Moabit",
+      "lat": 52.5326687,
+      "lng": 13.3513556,
       "bezirk": "Mitte",
       "showings": null
     },
@@ -3595,8 +3595,8 @@
       "start": "2026-06-17T21:00:00",
       "end": null,
       "location": "Sputnik",
-      "description": null,
-      "image_url": null,
+      "description": "Derya und Aziz sind beide in der Theaterszene von Ankara aktiv und führen, gemeinsam mit ihrer 13-jährigen Tochter Ezgi, ein glückliches Leben. Doch ein Zwischenfall bei der Premiere ihres neuen St...",
+      "image_url": "https://www.berlin.de/kino/_img/filmbilder/p_312336_Print2.jpg",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/312336/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -4154,27 +4154,6 @@
       ]
     },
     {
-      "title": "Having Sex with Vulvas",
-      "start": "2026-06-18T19:00:00",
-      "end": "2026-06-18T22:00:00",
-      "location": "Karada House",
-      "description": "Curious about how to give (or get) better pleasure with vulvas, but not sure where to start? Think you already know it all? (You probably don’t—and that’s okay.) Whether you want to increase pleasure for your own or someone else’s vulva, this class is for you. \nIn this deep-dive, inclusive, and no-shame space, you’ll learn:\n\nThe real anatomy of vulvas and vaginas — beyond the textbook\nPleasure-focused techniques that actually work\nHow to unlearn common myths and sexual scripts that get in the way\nPractical info on common issues and how to support vulva health\n\nCeci will go beyond the basics to help you build confidence, communication skills, and a deeper understanding of what brings pleasure to vulva owners. This is a space for anyone who wants to be better at giving or receiving vulva pleasure, regardless of gender, identity, or experience level. \nWhat makes this workshop different?\n\nIt’s inclusive and welcoming to trans and non-binary people\nIt combines expert-led teaching with honest conversation and reflection\nIt’s juicy, informative, and yes, a little nerdy\n\nWhether you’re here to enhance your skills, break down stigma, or better understand your own body, you’re in the right place.",
-      "image_url": "https://karada-house.de/wp-content/uploads/2026/03/mg_3422-scaled.jpg",
-      "source_url": "https://karada-house.de/events/having-sex-with-vulvas-2/",
-      "source_name": "Karada House",
-      "tags": [
-        "Workshop"
-      ],
-      "time_known": true,
-      "genre": "Queer",
-      "subcategory": null,
-      "address": "Perleberger Straße 59, 10559 Moabit",
-      "lat": 52.5326687,
-      "lng": 13.3513556,
-      "bezirk": "Mitte",
-      "showings": null
-    },
-    {
       "title": "KvU - VV + Tresen",
       "start": "2026-06-18T19:00:00",
       "end": null,
@@ -4381,6 +4360,27 @@
       "address": "Linienstraße 227, 10178 Mitte",
       "lat": 52.527024,
       "lng": 13.4119171,
+      "bezirk": "Mitte",
+      "showings": null
+    },
+    {
+      "title": "Having Sex with Vulvas",
+      "start": "2026-06-18T19:00:00",
+      "end": "2026-06-18T22:00:00",
+      "location": "Karada House",
+      "description": "Curious about how to give (or get) better pleasure with vulvas, but not sure where to start? Think you already know it all? (You probably don’t—and that’s okay.) Whether you want to increase pleasure for your own or someone else’s vulva, this class is for you. \nIn this deep-dive, inclusive, and no-shame space, you’ll learn:\n\nThe real anatomy of vulvas and vaginas — beyond the textbook\nPleasure-focused techniques that actually work\nHow to unlearn common myths and sexual scripts that get in the way\nPractical info on common issues and how to support vulva health\n\nCeci will go beyond the basics to help you build confidence, communication skills, and a deeper understanding of what brings pleasure to vulva owners. This is a space for anyone who wants to be better at giving or receiving vulva pleasure, regardless of gender, identity, or experience level. \nWhat makes this workshop different?\n\nIt’s inclusive and welcoming to trans and non-binary people\nIt combines expert-led teaching with honest conversation and reflection\nIt’s juicy, informative, and yes, a little nerdy\n\nWhether you’re here to enhance your skills, break down stigma, or better understand your own body, you’re in the right place.",
+      "image_url": "https://karada-house.de/wp-content/uploads/2026/03/mg_3422-scaled.jpg",
+      "source_url": "https://karada-house.de/events/having-sex-with-vulvas-2/",
+      "source_name": "Karada House",
+      "tags": [
+        "Workshop"
+      ],
+      "time_known": true,
+      "genre": "Queer",
+      "subcategory": null,
+      "address": "Perleberger Straße 59, 10559 Moabit",
+      "lat": 52.5326687,
+      "lng": 13.3513556,
       "bezirk": "Mitte",
       "showings": null
     },
@@ -5116,7 +5116,7 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Queer",
+      "genre": "Kultur",
       "subcategory": null,
       "address": "Markgrafendamm 24c, 10245 Friedrichshain",
       "lat": 52.5024767,
@@ -5337,27 +5337,6 @@
       ]
     },
     {
-      "title": "Tarot and Tie",
-      "start": "2026-06-19T19:00:00",
-      "end": "2026-06-19T22:00:00",
-      "location": "Karada House",
-      "description": "Let tarot guide the scene. Through its rich imagery and storytelling, we’ll co-create a living, ever-changing tableau—one tie at a time. \nThis playful, collaborative space invites you to explore connection through rope, inspired by the symbols and moods of the cards. Together, we’ll build a temporary art installation that encourages communication, creativity, and care. \nLed by Caritia, this session blends rope play with the layered world of tarot. Expect collaborative tying, shared imagination, and a gentle sprinkle of kink in a space that centres curiosity, consent, and co-creation.",
-      "image_url": "https://karada-house.de/wp-content/uploads/2025/12/kh_hotelroomperformance_sophiacecirenee_252.jpg",
-      "source_url": "https://karada-house.de/events/tarot-and-tie/",
-      "source_name": "Karada House",
-      "tags": [
-        "Workshop"
-      ],
-      "time_known": true,
-      "genre": "Kink",
-      "subcategory": null,
-      "address": "Perleberger Straße 59, 10559 Moabit",
-      "lat": 52.5326687,
-      "lng": 13.3513556,
-      "bezirk": "Mitte",
-      "showings": null
-    },
-    {
       "title": "Bi+Flinta* meet up",
       "start": "2026-06-19T19:00:00",
       "end": null,
@@ -5564,6 +5543,27 @@
       "address": "Linienstraße 227, 10178 Mitte",
       "lat": 52.527024,
       "lng": 13.4119171,
+      "bezirk": "Mitte",
+      "showings": null
+    },
+    {
+      "title": "Tarot and Tie",
+      "start": "2026-06-19T19:00:00",
+      "end": "2026-06-19T22:00:00",
+      "location": "Karada House",
+      "description": "Let tarot guide the scene. Through its rich imagery and storytelling, we’ll co-create a living, ever-changing tableau—one tie at a time. \nThis playful, collaborative space invites you to explore connection through rope, inspired by the symbols and moods of the cards. Together, we’ll build a temporary art installation that encourages communication, creativity, and care. \nLed by Caritia, this session blends rope play with the layered world of tarot. Expect collaborative tying, shared imagination, and a gentle sprinkle of kink in a space that centres curiosity, consent, and co-creation.",
+      "image_url": "https://karada-house.de/wp-content/uploads/2025/12/kh_hotelroomperformance_sophiacecirenee_252.jpg",
+      "source_url": "https://karada-house.de/events/tarot-and-tie/",
+      "source_name": "Karada House",
+      "tags": [
+        "Workshop"
+      ],
+      "time_known": true,
+      "genre": "Kink",
+      "subcategory": null,
+      "address": "Perleberger Straße 59, 10559 Moabit",
+      "lat": 52.5326687,
+      "lng": 13.3513556,
       "bezirk": "Mitte",
       "showings": null
     },
@@ -5956,7 +5956,7 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Queer",
+      "genre": "Kultur",
       "subcategory": null,
       "address": "Schillingstraße 31, 10179 Mitte",
       "lat": 52.5174812,
@@ -5998,7 +5998,7 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Queer",
+      "genre": "Kultur",
       "subcategory": null,
       "address": "Markgrafendamm 24c, 10245 Friedrichshain",
       "lat": 52.5024767,
@@ -6012,7 +6012,7 @@
       "end": "2026-09-02T21:59:59",
       "location": "C/O Berlin (im Amerika-Haus)",
       "description": "Neugeborene und Hundertjährige, berühmte und unbekannte Gesichter, Tiere und Pflanzen – stets kreist der Blick Walter Schels' um grundlegende Fragen menschlicher Existenz.",
-      "image_url": "https://imgproxy.berlinonline.net/T6LX-kfpIfZ24ENEHQIl_ZfyfDEu4xsNhS-YPCkLJzI/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061613/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JvLW1pZGRsZXdhcmUvYm8uYmRlX2NoYW5uZWwuZXZlbnQvaW1hZ2VzLzE0MS9lZDY1YzMzNy1mNzBlLWZiMzktNTI4ZC1mY2VhMzEwMzRmMTIuanBn.jpg",
+      "image_url": "https://imgproxy.berlinonline.net/kAjC0-EhJryvd-E1BvKR2XD94E8pfnZRSQmuFztRfPM/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061614/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JvLW1pZGRsZXdhcmUvYm8uYmRlX2NoYW5uZWwuZXZlbnQvaW1hZ2VzLzE0MS9lZDY1YzMzNy1mNzBlLWZiMzktNTI4ZC1mY2VhMzEwMzRmMTIuanBn.jpg",
       "source_url": "https://www.berlin.de/tickets/ausstellungen/walter-schels-16-fische-b7887524-e4af-4ded-bc85-5de855b48865/",
       "source_name": "Ausstellungen Berlin",
       "tags": [
@@ -6291,27 +6291,6 @@
       ]
     },
     {
-      "title": "Midsummer Moments - Playtime",
-      "start": "2026-06-20T16:00:00",
-      "end": "2026-06-20T19:00:00",
-      "location": "Karada House",
-      "description": "Celebrate the Summer Solstice through movement, connection, and play. Together, we’ll honour both light and dark, exploring how they live within us. \nCaritia invites you into a kink-inspired, body-based space where you can explore your intentions and desires—solo or with others. Whether you’re drawn to rope, sensation, SM, or something a little playful and spicy, this is a collaborative environment for creative expression, curiosity, and care. \nThe session begins with a guided opening to ground the group and spark inspiration. From there, you’ll be invited to create your own “adventure”—a personal or shared ritual that celebrates the abundance of light and the turning of the season. \nWhat we will discuss\n\nShare intentions and ideas\nCreate simple rituals (solo or in small groups)\nExplore body-based and sensory practices\nPlay, experiment, and collaborate\nCelebrate creativity and expression\nConnect with pleasure as a source of energy and resistance",
-      "image_url": "https://karada-house.de/wp-content/uploads/2024/04/MG_9641-scaled.jpeg",
-      "source_url": "https://karada-house.de/events/midsummer-moments-playtime/",
-      "source_name": "Karada House",
-      "tags": [
-        "Workshop"
-      ],
-      "time_known": true,
-      "genre": "Kink",
-      "subcategory": null,
-      "address": "Perleberger Straße 59, 10559 Moabit",
-      "lat": 52.5326687,
-      "lng": 13.3513556,
-      "bezirk": "Mitte",
-      "showings": null
-    },
-    {
       "title": "Schach- und Spiele-Nachmittag",
       "start": "2026-06-20T16:00:00",
       "end": null,
@@ -6408,12 +6387,33 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Queer",
+      "genre": "Kultur",
       "subcategory": null,
       "address": "Markgrafendamm 24c, 10245 Friedrichshain",
       "lat": 52.5024767,
       "lng": 13.466302,
       "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
+    },
+    {
+      "title": "Midsummer Moments - Playtime",
+      "start": "2026-06-20T16:00:00",
+      "end": "2026-06-20T19:00:00",
+      "location": "Karada House",
+      "description": "Celebrate the Summer Solstice through movement, connection, and play. Together, we’ll honour both light and dark, exploring how they live within us. \nCaritia invites you into a kink-inspired, body-based space where you can explore your intentions and desires—solo or with others. Whether you’re drawn to rope, sensation, SM, or something a little playful and spicy, this is a collaborative environment for creative expression, curiosity, and care. \nThe session begins with a guided opening to ground the group and spark inspiration. From there, you’ll be invited to create your own “adventure”—a personal or shared ritual that celebrates the abundance of light and the turning of the season. \nWhat we will discuss\n\nShare intentions and ideas\nCreate simple rituals (solo or in small groups)\nExplore body-based and sensory practices\nPlay, experiment, and collaborate\nCelebrate creativity and expression\nConnect with pleasure as a source of energy and resistance",
+      "image_url": "https://karada-house.de/wp-content/uploads/2024/04/MG_9641-scaled.jpeg",
+      "source_url": "https://karada-house.de/events/midsummer-moments-playtime/",
+      "source_name": "Karada House",
+      "tags": [
+        "Workshop"
+      ],
+      "time_known": true,
+      "genre": "Kink",
+      "subcategory": null,
+      "address": "Perleberger Straße 59, 10559 Moabit",
+      "lat": 52.5326687,
+      "lng": 13.3513556,
+      "bezirk": "Mitte",
       "showings": null
     },
     {
@@ -6641,8 +6641,8 @@
       "start": "2026-06-20T17:40:00",
       "end": null,
       "location": "Kino Zukunft",
-      "description": "Zu Beginn der 1970er Jahre entwickelte sich im Berliner Stadtteil Kreuzberg eine Gegenkultur, die bestehende Normen und Werte infrage stellte. Mit ihren sozialkritischen Texten wurde die Band &quot;Ton, ...",
-      "image_url": "https://www.berlin.de/kino/_img/filmbilder/p_313866_Print2.jpg",
+      "description": null,
+      "image_url": null,
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313866/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -7327,7 +7327,7 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Queer",
+      "genre": "Kultur",
       "subcategory": null,
       "address": "Schillingstraße 31, 10179 Mitte",
       "lat": 52.5174812,
@@ -7441,27 +7441,6 @@
       "showings": null
     },
     {
-      "title": "Rope Level-Up: Playing with Predicaments",
-      "start": "2026-06-21T11:30:00",
-      "end": "2026-06-21T15:30:00",
-      "location": "Karada House",
-      "description": "Ready to deepen your connection through rope? This immersive workshop focuses on intentional tying: building trust, communicating clearly, and using positions and tempo to create emotional or playful experiences. Includes hands-on practice and guided scenarios. Ideal after completing the fundamentals series. \nTopic: Predicaments\nPredicaments are lose-lose situation in rope play that can be a lot of fun but also lead into a realm of psychological play that can be physically and psychologically challenging. Renée will guide you through a few easy and fun predicaments that will become more and more challenging. Choose your own adventure \nWe Will Explore:\n\nwhat are predicaments?\nsuper easy beginner predicaments\npsychological vs. physical predicaments\nplay time!",
-      "image_url": "https://karada-house.de/wp-content/uploads/2025/12/preducament_class.jpg",
-      "source_url": "https://karada-house.de/events/rope-levelup-predicaments/",
-      "source_name": "Karada House",
-      "tags": [
-        "Workshop"
-      ],
-      "time_known": true,
-      "genre": "Kink",
-      "subcategory": null,
-      "address": "Perleberger Straße 59, 10559 Moabit",
-      "lat": 52.5326687,
-      "lng": 13.3513556,
-      "bezirk": "Mitte",
-      "showings": null
-    },
-    {
       "title": "Führung : „Apropos Sex”",
       "start": "2026-06-21T11:30:00",
       "end": null,
@@ -7480,6 +7459,27 @@
       "lat": null,
       "lng": null,
       "bezirk": null,
+      "showings": null
+    },
+    {
+      "title": "Rope Level-Up: Playing with Predicaments",
+      "start": "2026-06-21T11:30:00",
+      "end": "2026-06-21T15:30:00",
+      "location": "Karada House",
+      "description": "Ready to deepen your connection through rope? This immersive workshop focuses on intentional tying: building trust, communicating clearly, and using positions and tempo to create emotional or playful experiences. Includes hands-on practice and guided scenarios. Ideal after completing the fundamentals series. \nTopic: Predicaments\nPredicaments are lose-lose situation in rope play that can be a lot of fun but also lead into a realm of psychological play that can be physically and psychologically challenging. Renée will guide you through a few easy and fun predicaments that will become more and more challenging. Choose your own adventure \nWe Will Explore:\n\nwhat are predicaments?\nsuper easy beginner predicaments\npsychological vs. physical predicaments\nplay time!",
+      "image_url": "https://karada-house.de/wp-content/uploads/2025/12/preducament_class.jpg",
+      "source_url": "https://karada-house.de/events/rope-levelup-predicaments/",
+      "source_name": "Karada House",
+      "tags": [
+        "Workshop"
+      ],
+      "time_known": true,
+      "genre": "Kink",
+      "subcategory": null,
+      "address": "Perleberger Straße 59, 10559 Moabit",
+      "lat": 52.5326687,
+      "lng": 13.3513556,
+      "bezirk": "Mitte",
       "showings": null
     },
     {
@@ -7600,7 +7600,7 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Queer",
+      "genre": "Kink",
       "subcategory": null,
       "address": "Revaler Straße 99, 10245 Friedrichshain",
       "lat": 52.5072971,
@@ -7742,7 +7742,7 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Queer",
+      "genre": "Kultur",
       "subcategory": null,
       "address": "Markgrafendamm 24c, 10245 Friedrichshain",
       "lat": 52.5024767,
@@ -8155,27 +8155,6 @@
       ]
     },
     {
-      "title": "Cuddles, Cakes and Kinks - Summer Edition (with Garden!)",
-      "start": "2026-06-21T17:00:00",
-      "end": "2026-06-21T23:00:00",
-      "location": "Karada House",
-      "description": "Welcome to Cuddles, Cakes and Kinks, your monthly aftercare event to take a break from cisheteropatriarchy, capitalism, the burning world, or life in general. We’re here to rest so we can resist, to play as an antidote to pressure, and to let the people eat cake. Queer people, welcome! \nWe are opening our wonderful house for the evening so you can come by, relax, and calm down amongst other queer people. There will be hammocks and little areas for cuddling and enjoying touch. Get or give massages. Do some soft, slow kink. Or hang out in the kitchen with us and just chat. We will be baking a bunch of cakes and there will be coffee, tea, and snacks to nourish your bodies and souls. \nLight and slow kink interactions are welcome. Anything that allows you to come back to yourself and into connection with others in a soft and nice way. This is not a play party or sex club, but a playful community event. The vibe is cozy, and we don’t do genital play. \nThere is a separate cuddle room that is completely free from any kind of play, horny vibes, and nudity. It’s for cuddles, naps, quiet conversation, maybe reading a book.",
-      "image_url": "https://karada-house.de/wp-content/uploads/2025/07/MG_4545-1.jpg",
-      "source_url": "https://karada-house.de/events/cuddles-cakes-template-0626/",
-      "source_name": "Karada House",
-      "tags": [
-        "Workshop"
-      ],
-      "time_known": true,
-      "genre": "Kink",
-      "subcategory": null,
-      "address": "Perleberger Straße 59, 10559 Moabit",
-      "lat": 52.5326687,
-      "lng": 13.3513556,
-      "bezirk": "Mitte",
-      "showings": null
-    },
-    {
       "title": "Gedenkkundgebung 93 Jahre Köpenicker Blutwoche",
       "start": "2026-06-21T17:00:00",
       "end": null,
@@ -8215,6 +8194,27 @@
       "lat": 52.4936405,
       "lng": 13.3876998,
       "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
+    },
+    {
+      "title": "Cuddles, Cakes and Kinks - Summer Edition (with Garden!)",
+      "start": "2026-06-21T17:00:00",
+      "end": "2026-06-21T23:00:00",
+      "location": "Karada House",
+      "description": "Welcome to Cuddles, Cakes and Kinks, your monthly aftercare event to take a break from cisheteropatriarchy, capitalism, the burning world, or life in general. We’re here to rest so we can resist, to play as an antidote to pressure, and to let the people eat cake. Queer people, welcome! \nWe are opening our wonderful house for the evening so you can come by, relax, and calm down amongst other queer people. There will be hammocks and little areas for cuddling and enjoying touch. Get or give massages. Do some soft, slow kink. Or hang out in the kitchen with us and just chat. We will be baking a bunch of cakes and there will be coffee, tea, and snacks to nourish your bodies and souls. \nLight and slow kink interactions are welcome. Anything that allows you to come back to yourself and into connection with others in a soft and nice way. This is not a play party or sex club, but a playful community event. The vibe is cozy, and we don’t do genital play. \nThere is a separate cuddle room that is completely free from any kind of play, horny vibes, and nudity. It’s for cuddles, naps, quiet conversation, maybe reading a book.",
+      "image_url": "https://karada-house.de/wp-content/uploads/2025/07/MG_4545-1.jpg",
+      "source_url": "https://karada-house.de/events/cuddles-cakes-template-0626/",
+      "source_name": "Karada House",
+      "tags": [
+        "Workshop"
+      ],
+      "time_known": true,
+      "genre": "Kink",
+      "subcategory": null,
+      "address": "Perleberger Straße 59, 10559 Moabit",
+      "lat": 52.5326687,
+      "lng": 13.3513556,
+      "bezirk": "Mitte",
       "showings": null
     },
     {
@@ -8272,8 +8272,8 @@
       "start": "2026-06-21T17:40:00",
       "end": null,
       "location": "Kino Zukunft",
-      "description": "Zu Beginn der 1970er Jahre entwickelte sich im Berliner Stadtteil Kreuzberg eine Gegenkultur, die bestehende Normen und Werte infrage stellte. Mit ihren sozialkritischen Texten wurde die Band &quot;Ton, ...",
-      "image_url": "https://www.berlin.de/kino/_img/filmbilder/p_313866_Print2.jpg",
+      "description": null,
+      "image_url": null,
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313866/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -9120,27 +9120,6 @@
       "showings": null
     },
     {
-      "title": "Rope for Absolute Beginners",
-      "start": "2026-06-22T19:00:00",
-      "end": "2026-06-22T22:00:00",
-      "location": "Karada House",
-      "description": "Welcome to the world of Japanese style rope bondage, friend! It’s wild and fun out here and we are thrilled to be your point of entry. \nThis weekly class is designed for anyone who would like to learn about Japanese-inspired rope bondage/shibari/kinbaku whether you see yourself in the role of the person tying or being tied. We firmly believe that everyone, even if you wish to be tied, should know the absolute basics of this craft. \nWhat we do\n\nWe talk about what the heck is Japanese inspired rope bondage and why we call it “inspired”.\nWe show you the tools are we using and tell you why they are designed the way they are.\nWe talk about why people love to tie/get tied and what happens if you tie/get tied?\nWe show you the fundamental principles of shibari and first techniques you can immediately use\nWe talk about the history of shibari, give you pointers on anatomy, psychology and safety\nWe will tie ourselves, other people (if you and they want to) and actually take time to try stuff out and play, play, play\n\nThis class is suited for\n\nall kinds of bodies (abled and non-abled), all gender expressions, all kinds of sexualities (including people on the ace-spectrum), all kind of brains (neurospicy or neurotypical, affected by trauma, etc.)\npeople coming solo or bringing a partner (or group), people who only want to tie their own bodies as well as people who want to tie/get tied by others",
-      "image_url": "https://karada-house.de/wp-content/uploads/2025/12/absolutebeginner10.jpg",
-      "source_url": "https://karada-house.de/events/rope-for-absolute-beginner-220626/",
-      "source_name": "Karada House",
-      "tags": [
-        "Workshop"
-      ],
-      "time_known": true,
-      "genre": "Kink",
-      "subcategory": null,
-      "address": "Perleberger Straße 59, 10559 Moabit",
-      "lat": 52.5326687,
-      "lng": 13.3513556,
-      "bezirk": "Mitte",
-      "showings": null
-    },
-    {
       "title": "Soli-Bleiberechtsbar",
       "start": "2026-06-22T19:00:00",
       "end": null,
@@ -9243,6 +9222,27 @@
       "lat": 52.5308548,
       "lng": 13.4072136,
       "bezirk": "Pankow",
+      "showings": null
+    },
+    {
+      "title": "Rope for Absolute Beginners",
+      "start": "2026-06-22T19:00:00",
+      "end": "2026-06-22T22:00:00",
+      "location": "Karada House",
+      "description": "Welcome to the world of Japanese style rope bondage, friend! It’s wild and fun out here and we are thrilled to be your point of entry. \nThis weekly class is designed for anyone who would like to learn about Japanese-inspired rope bondage/shibari/kinbaku whether you see yourself in the role of the person tying or being tied. We firmly believe that everyone, even if you wish to be tied, should know the absolute basics of this craft. \nWhat we do\n\nWe talk about what the heck is Japanese inspired rope bondage and why we call it “inspired”.\nWe show you the tools are we using and tell you why they are designed the way they are.\nWe talk about why people love to tie/get tied and what happens if you tie/get tied?\nWe show you the fundamental principles of shibari and first techniques you can immediately use\nWe talk about the history of shibari, give you pointers on anatomy, psychology and safety\nWe will tie ourselves, other people (if you and they want to) and actually take time to try stuff out and play, play, play\n\nThis class is suited for\n\nall kinds of bodies (abled and non-abled), all gender expressions, all kinds of sexualities (including people on the ace-spectrum), all kind of brains (neurospicy or neurotypical, affected by trauma, etc.)\npeople coming solo or bringing a partner (or group), people who only want to tie their own bodies as well as people who want to tie/get tied by others",
+      "image_url": "https://karada-house.de/wp-content/uploads/2025/12/absolutebeginner10.jpg",
+      "source_url": "https://karada-house.de/events/rope-for-absolute-beginner-220626/",
+      "source_name": "Karada House",
+      "tags": [
+        "Workshop"
+      ],
+      "time_known": true,
+      "genre": "Kink",
+      "subcategory": null,
+      "address": "Perleberger Straße 59, 10559 Moabit",
+      "lat": 52.5326687,
+      "lng": 13.3513556,
+      "bezirk": "Mitte",
       "showings": null
     },
     {
@@ -9671,7 +9671,7 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Queer",
+      "genre": "Kultur",
       "subcategory": null,
       "address": "Markgrafendamm 24c, 10245 Friedrichshain",
       "lat": 52.5024767,
@@ -9908,27 +9908,6 @@
       "showings": null
     },
     {
-      "title": "Rope Lab: Play & Connection - pain",
-      "start": "2026-06-23T19:00:00",
-      "end": "2026-06-23T21:30:00",
-      "location": "Karada House",
-      "description": "This is our experimental shibari playground for all skill levels. Each month explores a new topic — from shame and semenawa to performance, advanced movement, or the mythical “3rd rope” in TKs. We rotate between two themes, always bringing new inspiration to your rope practice. Open to all levels with foundational knowledge. Bring your curiosity, your questions, and your rope. \nThis month we are focusing on: pain – weather you call it s/m or semenawa, this class is all about exploring how to use rope to create pain. We will explore both external pain and uncomfortable body positions. This class is suitable for all skill levels. \nPlay & Connection\nThese classes are dedicated to the research of the interpersonal, connective, and fun side of shibari. Forget about rope technique for a while and learn hands-on skills for actually playing with what you know. The topic varies from month to month, and can be anything from pain and predicament ties to fun games like rope fight club. Come learn the skills that take your sessions from good to fantastic!",
-      "image_url": "https://karada-house.de/wp-content/uploads/2025/12/mg_6839.jpg",
-      "source_url": "https://karada-house.de/events/pain-shibari-semenawa-0626/",
-      "source_name": "Karada House",
-      "tags": [
-        "Workshop"
-      ],
-      "time_known": true,
-      "genre": "Kink",
-      "subcategory": null,
-      "address": "Perleberger Straße 59, 10559 Moabit",
-      "lat": 52.5326687,
-      "lng": 13.3513556,
-      "bezirk": "Mitte",
-      "showings": null
-    },
-    {
       "title": "anarcha solidarity kitchen",
       "start": "2026-06-23T19:00:00",
       "end": null,
@@ -10030,6 +10009,27 @@
       "address": "Sophienstraße 18, 10178 Mitte",
       "lat": 52.5258825,
       "lng": 13.4016022,
+      "bezirk": "Mitte",
+      "showings": null
+    },
+    {
+      "title": "Rope Lab: Play & Connection - pain",
+      "start": "2026-06-23T19:00:00",
+      "end": "2026-06-23T21:30:00",
+      "location": "Karada House",
+      "description": "This is our experimental shibari playground for all skill levels. Each month explores a new topic — from shame and semenawa to performance, advanced movement, or the mythical “3rd rope” in TKs. We rotate between two themes, always bringing new inspiration to your rope practice. Open to all levels with foundational knowledge. Bring your curiosity, your questions, and your rope. \nThis month we are focusing on: pain – weather you call it s/m or semenawa, this class is all about exploring how to use rope to create pain. We will explore both external pain and uncomfortable body positions. This class is suitable for all skill levels. \nPlay & Connection\nThese classes are dedicated to the research of the interpersonal, connective, and fun side of shibari. Forget about rope technique for a while and learn hands-on skills for actually playing with what you know. The topic varies from month to month, and can be anything from pain and predicament ties to fun games like rope fight club. Come learn the skills that take your sessions from good to fantastic!",
+      "image_url": "https://karada-house.de/wp-content/uploads/2025/12/mg_6839.jpg",
+      "source_url": "https://karada-house.de/events/pain-shibari-semenawa-0626/",
+      "source_name": "Karada House",
+      "tags": [
+        "Workshop"
+      ],
+      "time_known": true,
+      "genre": "Kink",
+      "subcategory": null,
+      "address": "Perleberger Straße 59, 10559 Moabit",
+      "lat": 52.5326687,
+      "lng": 13.3513556,
       "bezirk": "Mitte",
       "showings": null
     },
@@ -10438,7 +10438,7 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Queer",
+      "genre": "Kultur",
       "subcategory": null,
       "address": "Markgrafendamm 24c, 10245 Friedrichshain",
       "lat": 52.5024767,
@@ -10625,27 +10625,6 @@
       ]
     },
     {
-      "title": "Playfight & Rough Body Play Lab",
-      "start": "2026-06-24T19:00:00",
-      "end": "2026-06-24T21:00:00",
-      "location": "Karada House",
-      "description": "Use your body in a vastly different way. Restricted, restrained, maybe even tamed – our bodies are subdued to very strict rules and movements in our daily lives. Time to get primal and rough. Rough body play allows for more fighting, emotions, and a deeper exploration of power dynamics than play fights. \nOnce a month we open Karada House for 2 hours of randori (free fights) time to try your new skills and have fun. Our amazing instructor Montse will guide through \n\nwarm-up exercises\nconsent & safety\ndos & don’ts\n\nAfter that – fight!",
-      "image_url": "https://karada-house.de/wp-content/uploads/2025/10/mg_8399.jpg",
-      "source_url": "https://karada-house.de/events/rbp-template-240626/",
-      "source_name": "Karada House",
-      "tags": [
-        "Workshop"
-      ],
-      "time_known": true,
-      "genre": "Kink",
-      "subcategory": null,
-      "address": "Perleberger Straße 59, 10559 Moabit",
-      "lat": 52.5326687,
-      "lng": 13.3513556,
-      "bezirk": "Mitte",
-      "showings": null
-    },
-    {
       "title": "Soli-Küfa, jeden Mittwoch 19 Uhr",
       "start": "2026-06-24T19:00:00",
       "end": null,
@@ -10748,6 +10727,27 @@
       "lat": null,
       "lng": null,
       "bezirk": null,
+      "showings": null
+    },
+    {
+      "title": "Playfight & Rough Body Play Lab",
+      "start": "2026-06-24T19:00:00",
+      "end": "2026-06-24T21:00:00",
+      "location": "Karada House",
+      "description": "Use your body in a vastly different way. Restricted, restrained, maybe even tamed – our bodies are subdued to very strict rules and movements in our daily lives. Time to get primal and rough. Rough body play allows for more fighting, emotions, and a deeper exploration of power dynamics than play fights. \nOnce a month we open Karada House for 2 hours of randori (free fights) time to try your new skills and have fun. Our amazing instructor Montse will guide through \n\nwarm-up exercises\nconsent & safety\ndos & don’ts\n\nAfter that – fight!",
+      "image_url": "https://karada-house.de/wp-content/uploads/2025/10/mg_8399.jpg",
+      "source_url": "https://karada-house.de/events/rbp-template-240626/",
+      "source_name": "Karada House",
+      "tags": [
+        "Workshop"
+      ],
+      "time_known": true,
+      "genre": "Kink",
+      "subcategory": null,
+      "address": "Perleberger Straße 59, 10559 Moabit",
+      "lat": 52.5326687,
+      "lng": 13.3513556,
+      "bezirk": "Mitte",
       "showings": null
     },
     {
@@ -11281,7 +11281,7 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Queer",
+      "genre": "Kultur",
       "subcategory": null,
       "address": "Markgrafendamm 24c, 10245 Friedrichshain",
       "lat": 52.5024767,
@@ -11392,27 +11392,6 @@
       "lat": 52.4736946,
       "lng": 13.451159,
       "bezirk": "Neukölln",
-      "showings": null
-    },
-    {
-      "title": "Practical Reflections on Intentional Kink Space Facilitation",
-      "start": "2026-06-25T19:00:00",
-      "end": "2026-06-25T21:00:00",
-      "location": "Karada House",
-      "description": "As Kink Space Facilitators, we experience a wide range of impressions in our work. We plan juicy offers, trauma and queer inclusive, and hold space for experiences, uncertainties, fuck ups, desires and much more. After planning and implementation comes reflection and evaluation. The ‘how was I’ as a professional and personally. \nAlexander Hahne, gay trans man, trainer and speaker for trans-specific topics in the field of sexual health, sex educator, somatic counselor, sexuality focussed bodyworker, systemic sex therapist, dancer and pleasure activist. Leader of workshops and individual counseling on the topics of body awareness, intimacy and sexuality. He works in the field of sexuality for about 20 years with almost 15 years of facilitation in pleasure and kink spaces. With his work he directly support them in their own experience of the body as well as the possibility of uncovering and using access to their own pleasurable potential. \nWhat happens in the workshop?\nIn this workshop, we will first put on our oxygen masks and subject our work to a reality check to see how it actually was. \nFor example, we will address the following questions: \n\nWhich methods worked really well and why?\nDid the planning of your trauma-informed process have the desired effect during implementation?\nWere there situations in which you felt uncertain or overwhelmed? What did you do then? What could be different next time?\nWhich methods did you use and why? What worked, what didn’t and why?\n\nYes, there is always too little time and the physical space is different than expected… how do you deal with that? How does that affect your stress level and facilitation? \nThe approach is to separate your behaviour from you as a person. You as a person are highly valued and your behaviour is criticised. \nNote\nThis offering connects to and extends Ceci Ferox’s workshops Intentional Kink Space Facilitation and Intentional Kink Spaces: Structures and Organizing. You can purchase the recordings in our shop. If you did not have the opportunity to be part of these classes, we are offering the recordings for you to purchase as well. The recordings will be available until July 16th, 2026. This is optional, not mandatory. If you were part of one or both of these workshops, you can email us and get free access to the recordings again, if you purchase a ticket to this class.",
-      "image_url": "https://karada-house.de/wp-content/uploads/2025/12/mg_3058.jpg",
-      "source_url": "https://karada-house.de/events/practical-reflections/",
-      "source_name": "Karada House",
-      "tags": [
-        "Workshop"
-      ],
-      "time_known": true,
-      "genre": "Kink",
-      "subcategory": null,
-      "address": "Perleberger Straße 59, 10559 Moabit",
-      "lat": 52.5326687,
-      "lng": 13.3513556,
-      "bezirk": "Mitte",
       "showings": null
     },
     {
@@ -11580,6 +11559,27 @@
       "address": "Sophienstraße 18, 10178 Mitte",
       "lat": 52.5258825,
       "lng": 13.4016022,
+      "bezirk": "Mitte",
+      "showings": null
+    },
+    {
+      "title": "Practical Reflections on Intentional Kink Space Facilitation",
+      "start": "2026-06-25T19:00:00",
+      "end": "2026-06-25T21:00:00",
+      "location": "Karada House",
+      "description": "As Kink Space Facilitators, we experience a wide range of impressions in our work. We plan juicy offers, trauma and queer inclusive, and hold space for experiences, uncertainties, fuck ups, desires and much more. After planning and implementation comes reflection and evaluation. The ‘how was I’ as a professional and personally. \nAlexander Hahne, gay trans man, trainer and speaker for trans-specific topics in the field of sexual health, sex educator, somatic counselor, sexuality focussed bodyworker, systemic sex therapist, dancer and pleasure activist. Leader of workshops and individual counseling on the topics of body awareness, intimacy and sexuality. He works in the field of sexuality for about 20 years with almost 15 years of facilitation in pleasure and kink spaces. With his work he directly support them in their own experience of the body as well as the possibility of uncovering and using access to their own pleasurable potential. \nWhat happens in the workshop?\nIn this workshop, we will first put on our oxygen masks and subject our work to a reality check to see how it actually was. \nFor example, we will address the following questions: \n\nWhich methods worked really well and why?\nDid the planning of your trauma-informed process have the desired effect during implementation?\nWere there situations in which you felt uncertain or overwhelmed? What did you do then? What could be different next time?\nWhich methods did you use and why? What worked, what didn’t and why?\n\nYes, there is always too little time and the physical space is different than expected… how do you deal with that? How does that affect your stress level and facilitation? \nThe approach is to separate your behaviour from you as a person. You as a person are highly valued and your behaviour is criticised. \nNote\nThis offering connects to and extends Ceci Ferox’s workshops Intentional Kink Space Facilitation and Intentional Kink Spaces: Structures and Organizing. You can purchase the recordings in our shop. If you did not have the opportunity to be part of these classes, we are offering the recordings for you to purchase as well. The recordings will be available until July 16th, 2026. This is optional, not mandatory. If you were part of one or both of these workshops, you can email us and get free access to the recordings again, if you purchase a ticket to this class.",
+      "image_url": "https://karada-house.de/wp-content/uploads/2025/12/mg_3058.jpg",
+      "source_url": "https://karada-house.de/events/practical-reflections/",
+      "source_name": "Karada House",
+      "tags": [
+        "Workshop"
+      ],
+      "time_known": true,
+      "genre": "Kink",
+      "subcategory": null,
+      "address": "Perleberger Straße 59, 10559 Moabit",
+      "lat": 52.5326687,
+      "lng": 13.3513556,
       "bezirk": "Mitte",
       "showings": null
     },
@@ -11962,27 +11962,6 @@
       "showings": null
     },
     {
-      "title": "Hurt Me, Deliciously",
-      "start": "2026-06-26T19:00:00",
-      "end": "2026-06-26T22:00:00",
-      "location": "Karada House",
-      "description": "There is something extraordinarily powerful in feeling and playing with consensual and voluntary pain. Why would a person want to feel pain? Why would another love to give it to someone else? How is pain and the processing of it changed depending on the context and relation it is put into? \nIn the workshop, Mamana will go into a deep deep deep dive into all things pain and pain play. Together we will look at what pain actually is, how it is produced and interpreted in the brain and how it is influenced by personal, biological, social, and other contextual factors you can play with. We will go into the details of why people like to give and receive pain, how you can process it, which typical impact play instruments are helpful in inducing a certain kind of painful sensation. \nIn short, this class will fry your brain with nerdy knowledge and allow you to think about your interest in pain play on a whole new level. Come for the facts, stay for the soul-searching of why sadomasochism is fucking delicious. \nWhat we will discuss\n\nDefine Pain?\nGood pain, bad pain?\nWhat do consent, trust and context have to do with it?\nHow to receive and process pain\nHow to tweak your pain play to where you want it to go\nWhy the fuck are we doing this?\nmany other little info tid-bits you will not see coming",
-      "image_url": "https://karada-house.de/wp-content/uploads/2026/01/mg_5976.jpg",
-      "source_url": "https://karada-house.de/events/hurt-me-deliciously-2/",
-      "source_name": "Karada House",
-      "tags": [
-        "Workshop"
-      ],
-      "time_known": true,
-      "genre": "Kink",
-      "subcategory": null,
-      "address": "Perleberger Straße 59, 10559 Moabit",
-      "lat": 52.5326687,
-      "lng": 13.3513556,
-      "bezirk": "Mitte",
-      "showings": null
-    },
-    {
       "title": "Konzert",
       "start": "2026-06-26T19:00:00",
       "end": null,
@@ -12000,6 +11979,27 @@
       "address": "Ackerstraße 169, 10115 Mitte",
       "lat": 52.5297369,
       "lng": 13.3971786,
+      "bezirk": "Mitte",
+      "showings": null
+    },
+    {
+      "title": "Hurt Me, Deliciously",
+      "start": "2026-06-26T19:00:00",
+      "end": "2026-06-26T22:00:00",
+      "location": "Karada House",
+      "description": "There is something extraordinarily powerful in feeling and playing with consensual and voluntary pain. Why would a person want to feel pain? Why would another love to give it to someone else? How is pain and the processing of it changed depending on the context and relation it is put into? \nIn the workshop, Mamana will go into a deep deep deep dive into all things pain and pain play. Together we will look at what pain actually is, how it is produced and interpreted in the brain and how it is influenced by personal, biological, social, and other contextual factors you can play with. We will go into the details of why people like to give and receive pain, how you can process it, which typical impact play instruments are helpful in inducing a certain kind of painful sensation. \nIn short, this class will fry your brain with nerdy knowledge and allow you to think about your interest in pain play on a whole new level. Come for the facts, stay for the soul-searching of why sadomasochism is fucking delicious. \nWhat we will discuss\n\nDefine Pain?\nGood pain, bad pain?\nWhat do consent, trust and context have to do with it?\nHow to receive and process pain\nHow to tweak your pain play to where you want it to go\nWhy the fuck are we doing this?\nmany other little info tid-bits you will not see coming",
+      "image_url": "https://karada-house.de/wp-content/uploads/2026/01/mg_5976.jpg",
+      "source_url": "https://karada-house.de/events/hurt-me-deliciously-2/",
+      "source_name": "Karada House",
+      "tags": [
+        "Workshop"
+      ],
+      "time_known": true,
+      "genre": "Kink",
+      "subcategory": null,
+      "address": "Perleberger Straße 59, 10559 Moabit",
+      "lat": 52.5326687,
+      "lng": 13.3513556,
       "bezirk": "Mitte",
       "showings": null
     },
@@ -12331,7 +12331,7 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Queer",
+      "genre": "Kultur",
       "subcategory": null,
       "address": "Markgrafendamm 24c, 10245 Friedrichshain",
       "lat": 52.5024767,
@@ -12352,7 +12352,7 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Queer",
+      "genre": "Kultur",
       "subcategory": null,
       "address": "Schillingstraße 31, 10179 Mitte",
       "lat": 52.5174812,
@@ -12366,7 +12366,7 @@
       "end": "2026-09-06T21:59:59",
       "location": "f³ – Freiraum für Fotografie",
       "description": "Eine zentrale Rolle in der Ausstellung nehmen Erwin Olafs frühe Schwarzweiß-Porträts ein – roh, direkt und von subversiver Energie.",
-      "image_url": "https://imgproxy.berlinonline.net/bORpEojToWZA4ADJW8zmx81zdwUGqyBwZi5KBAk0BX4/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061613/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JvLW1pZGRsZXdhcmUvYm8uYmRlX2NoYW5uZWwuZXZlbnQvaW1hZ2VzLzEyMi85NjVlZTY5YS1mMWE4LTEwZDMtNTI3YS03YTA0MjQxMzg4NzYuanBn.jpg",
+      "image_url": "https://imgproxy.berlinonline.net/ePY7XPNohqwyjlHbJAQWzyBY4wssXjtavE9FaI7StY0/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061614/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JvLW1pZGRsZXdhcmUvYm8uYmRlX2NoYW5uZWwuZXZlbnQvaW1hZ2VzLzEyMi85NjVlZTY5YS1mMWE4LTEwZDMtNTI3YS03YTA0MjQxMzg4NzYuanBn.jpg",
       "source_url": "https://www.berlin.de/tickets/ausstellungen/erwin-olaf-muses-2bb6c3ec-1f91-49d1-ac1a-efc7c681bb0b/",
       "source_name": "Ausstellungen Berlin",
       "tags": [
@@ -12445,6 +12445,27 @@
       "showings": null
     },
     {
+      "title": "Festival gegen Rassismus",
+      "start": "2026-06-27T13:00:00",
+      "end": null,
+      "location": "AGB PopUp Saal Blücherplatz 1 10961 Berlin Deutschland",
+      "description": "Festival gegen Rassismus: Für eine Gesellschaft ohne Rassismus Sa, 27. Juni 2026, Blücherplatz, Berlin-Kreuzberg",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327475",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true,
+      "genre": "Polit",
+      "subcategory": null,
+      "address": "Blücherplatz 1, 10961 Kreuzberg",
+      "lat": 52.4965672,
+      "lng": 13.3924936,
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
+    },
+    {
       "title": "Rope Fundamentals Weekend: Foundations & Fun",
       "start": "2026-06-27T13:00:00",
       "end": "2026-06-27T19:00:00",
@@ -12484,27 +12505,6 @@
       "lat": 52.5326687,
       "lng": 13.3513556,
       "bezirk": "Mitte",
-      "showings": null
-    },
-    {
-      "title": "Festival gegen Rassismus",
-      "start": "2026-06-27T13:00:00",
-      "end": null,
-      "location": "AGB PopUp Saal Blücherplatz 1 10961 Berlin Deutschland",
-      "description": "Festival gegen Rassismus: Für eine Gesellschaft ohne Rassismus Sa, 27. Juni 2026, Blücherplatz, Berlin-Kreuzberg",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327475",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Party"
-      ],
-      "time_known": true,
-      "genre": "Polit",
-      "subcategory": null,
-      "address": "Blücherplatz 1, 10961 Kreuzberg",
-      "lat": 52.4965672,
-      "lng": 13.3924936,
-      "bezirk": "Friedrichshain-Kreuzberg",
       "showings": null
     },
     {
@@ -13213,7 +13213,7 @@
         "Party"
       ],
       "time_known": true,
-      "genre": "Queer",
+      "genre": "Kultur",
       "subcategory": null,
       "address": "Schillingstraße 31, 10179 Mitte",
       "lat": 52.5174812,
@@ -13264,27 +13264,6 @@
       "showings": null
     },
     {
-      "title": "Rope Fundamentals Weekend: Nerdery & Harnesses",
-      "start": "2026-06-28T13:00:00",
-      "end": "2026-06-28T19:00:00",
-      "location": "Karada House",
-      "description": "This is the Sunday single ticket event. For buying a full weekend ticket, go to the weekend event. \nSunday is for the rope nerds (or for anyone ready to become one). Today we dive into the mechanics behind stable, comfortable, body-friendly tying. We’ll explore how to apply rope with intention, how to create structures that fit real bodies, and how to make your tying smoother, safer, and more efficient. \nYou’ll learn counter tensions, ladder structures, your first frictions, and how to wrap with flow and consistency. These building blocks are what allow harnesses to hold their shape. We’ll also cover ergonomics and hand techniques, like hooking and pulling rope, so you can tie for longer without soreness or strain. \nWith these tools in place, we’ll begin tying simple harnesses and, more importantly, understanding why they work. You’ll get a clear picture of the core components (anchors, stems, wraps, frictions, and cinches) and start recognizing the logic behind shibari structures. This modular thinking becomes the foundation for everything that comes after. \nTake aways: \n\nDouble column tie\nRope handling & ergonomics\nTension, counter tension & ladders\nIntro to harnesses: anchors, stems, wraps, frictions, cinches\nFrictions: Half hitch, full stop, munter hitch, in-line single column tie\nOne rope harnesses: chest harness, futomomo, box tie",
-      "image_url": "https://karada-house.de/wp-content/uploads/2026/01/mg_6117.jpg",
-      "source_url": "https://karada-house.de/events/rope-fundamentals-weekend-nerdery-harnesses-2/",
-      "source_name": "Karada House",
-      "tags": [
-        "Workshop"
-      ],
-      "time_known": true,
-      "genre": "Kink",
-      "subcategory": null,
-      "address": "Perleberger Straße 59, 10559 Moabit",
-      "lat": 52.5326687,
-      "lng": 13.3513556,
-      "bezirk": "Mitte",
-      "showings": null
-    },
-    {
       "title": "📖 Infoladen Scherer 8 📖",
       "start": "2026-06-28T13:00:00",
       "end": null,
@@ -13302,6 +13281,27 @@
       "address": "Schererstraße 8, 13347 Wedding",
       "lat": 52.5481641,
       "lng": 13.3670511,
+      "bezirk": "Mitte",
+      "showings": null
+    },
+    {
+      "title": "Rope Fundamentals Weekend: Nerdery & Harnesses",
+      "start": "2026-06-28T13:00:00",
+      "end": "2026-06-28T19:00:00",
+      "location": "Karada House",
+      "description": "This is the Sunday single ticket event. For buying a full weekend ticket, go to the weekend event. \nSunday is for the rope nerds (or for anyone ready to become one). Today we dive into the mechanics behind stable, comfortable, body-friendly tying. We’ll explore how to apply rope with intention, how to create structures that fit real bodies, and how to make your tying smoother, safer, and more efficient. \nYou’ll learn counter tensions, ladder structures, your first frictions, and how to wrap with flow and consistency. These building blocks are what allow harnesses to hold their shape. We’ll also cover ergonomics and hand techniques, like hooking and pulling rope, so you can tie for longer without soreness or strain. \nWith these tools in place, we’ll begin tying simple harnesses and, more importantly, understanding why they work. You’ll get a clear picture of the core components (anchors, stems, wraps, frictions, and cinches) and start recognizing the logic behind shibari structures. This modular thinking becomes the foundation for everything that comes after. \nTake aways: \n\nDouble column tie\nRope handling & ergonomics\nTension, counter tension & ladders\nIntro to harnesses: anchors, stems, wraps, frictions, cinches\nFrictions: Half hitch, full stop, munter hitch, in-line single column tie\nOne rope harnesses: chest harness, futomomo, box tie",
+      "image_url": "https://karada-house.de/wp-content/uploads/2026/01/mg_6117.jpg",
+      "source_url": "https://karada-house.de/events/rope-fundamentals-weekend-nerdery-harnesses-2/",
+      "source_name": "Karada House",
+      "tags": [
+        "Workshop"
+      ],
+      "time_known": true,
+      "genre": "Kink",
+      "subcategory": null,
+      "address": "Perleberger Straße 59, 10559 Moabit",
+      "lat": 52.5326687,
+      "lng": 13.3513556,
       "bezirk": "Mitte",
       "showings": null
     },
@@ -13537,27 +13537,6 @@
       "showings": null
     },
     {
-      "title": "Guided Self-Tying Session",
-      "start": "2026-06-29T18:00:00",
-      "end": "2026-06-29T19:30:00",
-      "location": "Karada House",
-      "description": "In this guided self-tying session, Ceci Ferox will guide you through a gentle self-tying experience, helping you reconnect with your body and sense of presence. he session will start with an emotional check-in and end in collective aftercare and sharing to give your solo practice some community support. \nIn this session, you have the freedom to choose how you want to tie, with Ceci offering guidance to help focus your mind and inspire your process. Whether you’re new to self-tying or have experience, the aim is to create a calm space where you can explore at your own pace. If you’re just starting out, Ceci will demonstrate an easy way to get going, so you’ll feel supported no matter your skill level. \nSession structure\n\nCheck-in together in the chat or on microphone\nCeci shows you how to get started with tying in a very simple way\nRope meditation, including a body scan, intention setting, and sensory connection to the rope\nGuided session with free tying and input from Ceci\nCheck-out and aftercare plans",
-      "image_url": "https://karada-house.de/wp-content/uploads/2025/12/mg_5721-1.jpg",
-      "source_url": "https://karada-house.de/events/guided-self-tying-session-4/",
-      "source_name": "Karada House",
-      "tags": [
-        "Workshop"
-      ],
-      "time_known": true,
-      "genre": "Kink",
-      "subcategory": null,
-      "address": "Perleberger Straße 59, 10559 Moabit",
-      "lat": 52.5326687,
-      "lng": 13.3513556,
-      "bezirk": "Mitte",
-      "showings": null
-    },
-    {
       "title": "Fahrrad-Selbsthilfe-Werkstatt",
       "start": "2026-06-29T18:00:00",
       "end": null,
@@ -13576,6 +13555,27 @@
       "lat": 52.4801032,
       "lng": 13.4340359,
       "bezirk": "Neukölln",
+      "showings": null
+    },
+    {
+      "title": "Guided Self-Tying Session",
+      "start": "2026-06-29T18:00:00",
+      "end": "2026-06-29T19:30:00",
+      "location": "Karada House",
+      "description": "In this guided self-tying session, Ceci Ferox will guide you through a gentle self-tying experience, helping you reconnect with your body and sense of presence. he session will start with an emotional check-in and end in collective aftercare and sharing to give your solo practice some community support. \nIn this session, you have the freedom to choose how you want to tie, with Ceci offering guidance to help focus your mind and inspire your process. Whether you’re new to self-tying or have experience, the aim is to create a calm space where you can explore at your own pace. If you’re just starting out, Ceci will demonstrate an easy way to get going, so you’ll feel supported no matter your skill level. \nSession structure\n\nCheck-in together in the chat or on microphone\nCeci shows you how to get started with tying in a very simple way\nRope meditation, including a body scan, intention setting, and sensory connection to the rope\nGuided session with free tying and input from Ceci\nCheck-out and aftercare plans",
+      "image_url": "https://karada-house.de/wp-content/uploads/2025/12/mg_5721-1.jpg",
+      "source_url": "https://karada-house.de/events/guided-self-tying-session-4/",
+      "source_name": "Karada House",
+      "tags": [
+        "Workshop"
+      ],
+      "time_known": true,
+      "genre": "Kink",
+      "subcategory": null,
+      "address": "Perleberger Straße 59, 10559 Moabit",
+      "lat": 52.5326687,
+      "lng": 13.3513556,
+      "bezirk": "Mitte",
       "showings": null
     },
     {
@@ -13621,27 +13621,6 @@
       "showings": null
     },
     {
-      "title": "Rope for Absolute Beginners",
-      "start": "2026-06-29T19:00:00",
-      "end": "2026-06-29T22:00:00",
-      "location": "Karada House",
-      "description": "Welcome to the world of Japanese style rope bondage, friend! It’s wild and fun out here and we are thrilled to be your point of entry. \nThis weekly class is designed for anyone who would like to learn about Japanese-inspired rope bondage/shibari/kinbaku whether you see yourself in the role of the person tying or being tied. We firmly believe that everyone, even if you wish to be tied, should know the absolute basics of this craft. \nWhat we do\n\nWe talk about what the heck is Japanese inspired rope bondage and why we call it “inspired”.\nWe show you the tools are we using and tell you why they are designed the way they are.\nWe talk about why people love to tie/get tied and what happens if you tie/get tied?\nWe show you the fundamental principles of shibari and first techniques you can immediately use\nWe talk about the history of shibari, give you pointers on anatomy, psychology and safety\nWe will tie ourselves, other people (if you and they want to) and actually take time to try stuff out and play, play, play\n\nThis class is suited for\n\nall kinds of bodies (abled and non-abled), all gender expressions, all kinds of sexualities (including people on the ace-spectrum), all kind of brains (neurospicy or neurotypical, affected by trauma, etc.)\npeople coming solo or bringing a partner (or group), people who only want to tie their own bodies as well as people who want to tie/get tied by others",
-      "image_url": "https://karada-house.de/wp-content/uploads/2025/12/absolutebeginner6.jpg",
-      "source_url": "https://karada-house.de/events/rope-for-absolute-beginner-290626/",
-      "source_name": "Karada House",
-      "tags": [
-        "Workshop"
-      ],
-      "time_known": true,
-      "genre": "Kink",
-      "subcategory": null,
-      "address": "Perleberger Straße 59, 10559 Moabit",
-      "lat": 52.5326687,
-      "lng": 13.3513556,
-      "bezirk": "Mitte",
-      "showings": null
-    },
-    {
       "title": "Soli-Bleiberechtsbar",
       "start": "2026-06-29T19:00:00",
       "end": null,
@@ -13660,6 +13639,27 @@
       "lat": 52.5577176,
       "lng": 13.4702725,
       "bezirk": "Pankow",
+      "showings": null
+    },
+    {
+      "title": "Rope for Absolute Beginners",
+      "start": "2026-06-29T19:00:00",
+      "end": "2026-06-29T22:00:00",
+      "location": "Karada House",
+      "description": "Welcome to the world of Japanese style rope bondage, friend! It’s wild and fun out here and we are thrilled to be your point of entry. \nThis weekly class is designed for anyone who would like to learn about Japanese-inspired rope bondage/shibari/kinbaku whether you see yourself in the role of the person tying or being tied. We firmly believe that everyone, even if you wish to be tied, should know the absolute basics of this craft. \nWhat we do\n\nWe talk about what the heck is Japanese inspired rope bondage and why we call it “inspired”.\nWe show you the tools are we using and tell you why they are designed the way they are.\nWe talk about why people love to tie/get tied and what happens if you tie/get tied?\nWe show you the fundamental principles of shibari and first techniques you can immediately use\nWe talk about the history of shibari, give you pointers on anatomy, psychology and safety\nWe will tie ourselves, other people (if you and they want to) and actually take time to try stuff out and play, play, play\n\nThis class is suited for\n\nall kinds of bodies (abled and non-abled), all gender expressions, all kinds of sexualities (including people on the ace-spectrum), all kind of brains (neurospicy or neurotypical, affected by trauma, etc.)\npeople coming solo or bringing a partner (or group), people who only want to tie their own bodies as well as people who want to tie/get tied by others",
+      "image_url": "https://karada-house.de/wp-content/uploads/2025/12/absolutebeginner6.jpg",
+      "source_url": "https://karada-house.de/events/rope-for-absolute-beginner-290626/",
+      "source_name": "Karada House",
+      "tags": [
+        "Workshop"
+      ],
+      "time_known": true,
+      "genre": "Kink",
+      "subcategory": null,
+      "address": "Perleberger Straße 59, 10559 Moabit",
+      "lat": 52.5326687,
+      "lng": 13.3513556,
+      "bezirk": "Mitte",
       "showings": null
     },
     {

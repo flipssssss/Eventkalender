@@ -1,32 +1,9 @@
-### Kino-IDs
-  gefunden: {}
-  (Verzeichnis-Seiten brachten zu wenig — IDs ggf. manuell)
+Kinos gesamt: 108
+Wunschkinos: {'B-ware! Ladenkino': '35211', 'Freiluftkino Neue Zukunft': '35920', 'Kino Zukunft': '35972', 'Lichtblick': '30219', 'Sputnik Südstern': '31975', 'Wolf Kino': '38197'}
 
-### Ladenkino-Layout (https://www.berlin.de/kino/_bin/kinodetail.php/35211)
-Film-Tabellen: 24 | Film-Links (erste): ['Backrooms (OmU)', 'Das deutsche Volk (OmU)', 'Das Drama - Noch mal auf Anfang (OmU)', 'Der Astronaut - Project Hail Mary (OmU)', 'Die kleine Amélie oder Der Charakter des Regens', 'Disclosure Day - Der Tag der Wahrheit (OmU)', 'Do You Love Me (OmU)', 'Father Mother Sister Brother (OmU)']
---- ERSTER BLOCK ---
-<div class="table-responsive-wrapper">
- <table class="table--compact">
-  <thead>
-   <tr>
-    <th>
-     Tag
-    </th>
-    <th>
-     Zeit
-    </th>
-   </tr>
-  </thead>
-  <tbody>
-   <tr>
-    <td>
-     Mi, 17.06.26
-    </td>
-    <td>
-     18:15 (OmU), 20:10 (OmU), 22:10 (OmU)
-    </td>
-   </tr>
-   <!--ende: trefferlistekino_erstezeile-->
-  </tbody>
- </table>
-</div>
+<option>-Beispiele: [('Acud Kino', '30151'), ('Adria Filmtheater', '30152'), ('Arsenal', '38567'), ('ARTE Sommerkino Kulturforum', '34000'), ('Astra-Filmpalast', '30157'), ('B-ware! Ladenkino', '35211')]
+
+Film<->Tabelle:
+  Backrooms (OmU) :: Mi, 17.06.26 | 18:15 (OmU), 20:10 (OmU), 22:10 (OmU)
+  Das deutsche Volk (OmU) :: Mi, 17.06.26 | 18:00 (OmU)
+  Das Drama - Noch mal auf Anfang (OmU) :: Di, 16.06.26 | 14:45 (OmU), 21:15 (OmU)

@@ -45,6 +45,7 @@ from scrapers.berlin_ausstellungen import BerlinAusstellungenScraper
 from scrapers.laboratory import LaboratoryScraper
 from scrapers.timetoshine import TimeToShineScraper
 from scrapers.boiler import BoilerScraper
+from scrapers.probe2 import Probe2Scraper
 
 ROOT = pathlib.Path(__file__).parent
 OUTPUT = ROOT / "docs" / "data" / "events.json"
@@ -127,6 +128,7 @@ def get_scrapers():
         TimeToShineScraper(),
         # Boiler (WordPress) -- REST-API, sonst HTML-Diagnose.
         BoilerScraper(),
+        Probe2Scraper(),
         # Tipsy Bear: bleibt deaktiviert -- alle Endpunkte hängen hinter
         # Cloudflares JS-Challenge ("Just a moment...", 403), es gibt keinen
         # erreichbaren Daten-Endpunkt (Diagnose in _debug/tipsy-bear.txt).

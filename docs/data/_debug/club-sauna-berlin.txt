@@ -1,1 +1,35 @@
 Events: 0
+len(html)=281025 | .mec-event-article=23 | 'mec-toggle' im html=True
+erste Klasse: ['mec-past-event', 'mec-event-article', 'mec-clear', 'mec-divider-toggle', 'mec-toggle-202606-mec1']
+erstes Element: <article class="mec-past-event mec-event-article mec-clear mec-divider-toggle mec-toggle-202606-mec1" itemscope="">
+ <!-- toggles wrap start -->
+ <div class="mec-events-toggle">
+  <!-- toggle item start -->
+  <div class="mec-toggle-item">
+   <div class="mec-toggle-item-inner" tabindex="0">
+    <div class="mec-toggle-item-col">
+     <div class="mec-event-date">
+      Mi.
+     </div>
+     <div class="mec-event-month">
+      17.Juni
+     </div>
+     <div class="mec-time-details">
+      <span class="mec-start-time">
+       17:30
+      </span>
+      -
+      <span class="mec-end-time">
+       00:30
+      </span>
+     </div>
+    </div>
+    <h3 class="mec-toggle-title">
+     gender mix
+    </h3>
+    <i class="mec-sl-arrow-down">
+    </i>
+   </div>
+   <div aria-hidden="true" class="mec-content-toggle" style="display: none;">
+    <div class="mec-toggle-content">
+     <div class="mec-wrap colorskin

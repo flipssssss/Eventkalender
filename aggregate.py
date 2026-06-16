@@ -46,6 +46,7 @@ from scrapers.laboratory import LaboratoryScraper
 from scrapers.timetoshine import TimeToShineScraper
 from scrapers.mec import MecScraper
 from scrapers.koenig import KoenigScraper
+from scrapers.probe_kino import ProbeKinoScraper
 
 ROOT = pathlib.Path(__file__).parent
 OUTPUT = ROOT / "docs" / "data" / "events.json"
@@ -132,6 +133,7 @@ def get_scrapers():
         MecScraper("Club Sauna Berlin", "https://clubsauna.berlin/events/"),
         # König Drag Show (Google Sites) -- Textparser, Queer/Theater.
         KoenigScraper(),
+        ProbeKinoScraper(),
         # Tipsy Bear: bleibt deaktiviert -- alle Endpunkte hängen hinter
         # Cloudflares JS-Challenge ("Just a moment...", 403), es gibt keinen
         # erreichbaren Daten-Endpunkt (Diagnose in _debug/tipsy-bear.txt).

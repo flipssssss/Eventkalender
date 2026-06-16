@@ -2,7 +2,7 @@
 
 Every event ends up with exactly ONE tag from this list:
 
-    Theater, Konzert, Party, Kink, Film, Diskussion, Essen, Protest,
+    Theater, Konzert, Party, Kink, Kino, Diskussion, Essen, Protest,
     Sonstiges
 
 Events categorised as advice/help ("Beratung") are dropped entirely.
@@ -22,7 +22,7 @@ PRIORITY = [
     "Protest",
     "Konzert",
     "Party",
-    "Film",
+    "Kino",
     "Ausstellung",
     "Theater",
     "Workshop",
@@ -37,7 +37,7 @@ DROP = "Beratung"
 KEYWORDS: dict[str, list[str]] = {
     "Theater": ["theater", "theatre", "stage", "performance", "schauspiel"],
     "Konzert": ["konzert", "musik", "concert", "live music", "livemusik", "gig"],
-    "Film": ["film", "kino", "cinema", "movie", "screening", "kurzfilm"],
+    "Kino": ["film", "kino", "cinema", "movie", "screening", "kurzfilm"],
     "Vortrag": ["vortrag", "diskussion", "talk", "panel", "lesung",
                 "reading", "discussion", "q&a", "lecture"],
     "Essen": ["essen", "café", "cafe", "kneipe", "küfa", "kufa", "küche",

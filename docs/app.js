@@ -5,7 +5,7 @@
 // calendar export and sharing. No build step, no framework.
 
 const GENRE_ORDER = ["Kultur", "Polit", "Queer", "Kink"];
-const CATEGORY_ORDER = ["Theater", "Film", "Konzert", "Party", "Vortrag",
+const CATEGORY_ORDER = ["Theater", "Kino", "Konzert", "Party", "Vortrag",
   "Protest", "Workshop", "Ausstellung", "Essen", "Sonstiges"];
 // Die zwölf Berliner Bezirke (für die Reihenfolge im Filter).
 const BEZIRK_ORDER = [

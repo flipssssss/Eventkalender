@@ -67,6 +67,9 @@ class Event:
     lng: float | None = None
     # Berlin borough (Bezirk), derived from the address by the geocoder.
     bezirk: str | None = None
+    # Cinema events: all screenings of this film on this day, as a list of
+    # {"time": "HH:MM", "cinema": str, "url": str}. None for non-film events.
+    showings: list[dict] | None = None
 
     def dedupe_key(self) -> str:
         """Identify duplicate events, also across different sources.
@@ -105,6 +108,7 @@ class Event:
             "lat": self.lat,
             "lng": self.lng,
             "bezirk": self.bezirk,
+            "showings": self.showings,
         }
 
 

@@ -56,6 +56,11 @@ KEYWORDS = {
 FORCE_GENRE = {
     "Demo Ticker Berlin": "Polit",
     "Ausstellungen Berlin": "Kultur",
+    "König Drag Show": "Queer",
+    "Boiler Berlin": "Queer",
+    "Time to Shine Kink": "Kink",
+    "Lab.oratory": "Kink",
+    "Zum schmutzigen Hobby": "Queer",
 }
 
 

@@ -42,6 +42,7 @@ from scrapers.partydyke import PartyDykeScraper
 from scrapers.cafecralle import CafeCralleScraper
 from scrapers.demoticker import DemoTickerScraper
 from scrapers.berlin_ausstellungen import BerlinAusstellungenScraper
+from scrapers.probe_new import ProbeNewScraper
 
 ROOT = pathlib.Path(__file__).parent
 OUTPUT = ROOT / "docs" / "data" / "events.json"
@@ -118,6 +119,8 @@ def get_scrapers():
         DemoTickerScraper(),
         # berlin.de/ausstellungen -- aktuelle Ausstellungen (JSON-LD).
         BerlinAusstellungenScraper(),
+        # Einmalige Diagnose für fünf neue Quellen (sammelt nur Rohdaten).
+        ProbeNewScraper(),
         # Tipsy Bear: bleibt deaktiviert -- alle Endpunkte hängen hinter
         # Cloudflares JS-Challenge ("Just a moment...", 403), es gibt keinen
         # erreichbaren Daten-Endpunkt (Diagnose in _debug/tipsy-bear.txt).

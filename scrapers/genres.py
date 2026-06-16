@@ -62,6 +62,7 @@ FORCE_GENRE = {
     "Lab.oratory": "Kink",
     "Zum schmutzigen Hobby": "Queer",
     "Club Sauna Berlin": "Queer",
+    "Kinoprogramm": "Kultur",
 }
 
 

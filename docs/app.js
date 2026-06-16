@@ -651,6 +651,8 @@ function renderCard(ev) {
     loc.textContent = "📍 " + ev.location;
     body.appendChild(loc);
   }
+  const cardShowings = renderShowings(ev);
+  if (cardShowings) body.appendChild(cardShowings);
   if (ev.description) {
     const desc = document.createElement("p");
     desc.className = "card-desc";
@@ -746,6 +748,9 @@ function openModal(ev) {
     toggle.addEventListener("click", () => toggleAddressPanel(ev, toggle, panel, label));
     body.appendChild(loc);
   }
+
+  const modalShowings = renderShowings(ev);
+  if (modalShowings) body.appendChild(modalShowings);
 
   // Genre first, then categories -- same order as on the cards.
   const meta = document.createElement("div");
@@ -1419,6 +1424,43 @@ function toggleSet(set, value) {
 
 function genreClass(genre) {
   return "g-" + String(genre || "").toLowerCase();
+}
+
+// Cinema events: list all screenings, grouped by cinema (time chips).
+function renderShowings(ev) {
+  if (!ev.showings || !ev.showings.length) return null;
+  const wrap = document.createElement("div");
+  wrap.className = "showings";
+  const byCinema = new Map();
+  for (const s of ev.showings) {
+    if (!byCinema.has(s.cinema)) byCinema.set(s.cinema, []);
+    byCinema.get(s.cinema).push(s);
+  }
+  for (const [cinema, list] of byCinema) {
+    const row = document.createElement("div");
+    row.className = "showing-row";
+    const name = document.createElement("span");
+    name.className = "showing-cinema";
+    name.textContent = cinema;
+    row.appendChild(name);
+    const times = document.createElement("span");
+    times.className = "showing-times";
+    for (const s of list) {
+      const t = document.createElement(s.url ? "a" : "span");
+      t.className = "showing-time";
+      t.textContent = s.time + (s.note ? " " + s.note : "");
+      if (s.url) {
+        t.href = s.url;
+        t.target = "_blank";
+        t.rel = "noopener noreferrer";
+        t.addEventListener("click", (e) => e.stopPropagation());
+      }
+      times.appendChild(t);
+    }
+    row.appendChild(times);
+    wrap.appendChild(row);
+  }
+  return wrap;
 }
 
 function escapeHtml(s) {

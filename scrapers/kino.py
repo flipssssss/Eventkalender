@@ -51,11 +51,29 @@ OG_DESC_RE = re.compile(
     re.I)
 
 
+_IMG_SRC_RE = re.compile(r'<img\b[^>]*>', re.I)
+_SRC_ATTR_RE = re.compile(r'\b(?:data-src|data-original|src)=["\']([^"\']+)', re.I)
+_SKIP_IMG = ("favicon", "logo", "icon", "sprite", ".svg", "spinner",
+             "placeholder", "social", "pixel", "blank")
+
+
+def _img_srcs(html: str) -> list[str]:
+    out = []
+    for m in _IMG_SRC_RE.finditer(html):
+        s = _SRC_ATTR_RE.search(m.group(0))
+        if s:
+            out.append(s.group(1))
+    return out
+
+
 def _poster(html: str) -> str | None:
-    # The real poster <img> first -- berlin.de's og:image is just the site logo.
-    m = POSTER_IMG_RE.search(html)
-    if m:
-        return m.group(1)
+    for src in _img_srcs(html):
+        low = src.lower()
+        if any(b in low for b in _SKIP_IMG):
+            continue
+        if re.search(r"\.(jpe?g|png|webp)(?:$|[?&])", low) or \
+                "binaries" in low or "image_assets" in low or "/imgproxy/" in low:
+            return src
     m = OG_META_RE.search(html)
     if m:
         c = CONTENT_RE.search(m.group(0))
@@ -124,10 +142,9 @@ class BerlinKinoScraper(BaseScraper):
                 continue
             poster, desc = _poster(html), _description(html)
             if i == 0:
-                srcs = re.findall(
-                    r'src=["\']([^"\']*(?:binaries|image_assets)[^"\']*)', html)[:3]
                 self._img_diag = (f"\n1. Film {url}\n  poster={poster}\n"
-                                  f"  img-srcs={srcs}\n  desc={(desc or '')[:120]}")
+                                  f"  alle img-srcs={_img_srcs(html)[:8]}\n"
+                                  f"  desc={(desc or '')[:120]}")
             if poster:
                 poster = poster if poster.startswith("http") else (BASE + poster)
             cache[url] = {"img": poster, "desc": desc}

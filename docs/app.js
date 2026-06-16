@@ -747,20 +747,20 @@ function openModal(ev) {
     body.appendChild(loc);
   }
 
-  // Tags + genre.
+  // Genre first, then categories -- same order as on the cards.
   const meta = document.createElement("div");
   meta.className = "card-tags";
-  for (const tag of ev.tags || []) {
-    const t = document.createElement("span");
-    t.className = "card-tag";
-    t.textContent = tag;
-    meta.appendChild(t);
-  }
   if (ev.genre) {
     const g = document.createElement("span");
     g.className = "card-tag genre-badge " + genreClass(ev.genre);
     g.textContent = ev.genre;
     meta.appendChild(g);
+  }
+  for (const tag of ev.tags || []) {
+    const t = document.createElement("span");
+    t.className = "card-tag";
+    t.textContent = tag;
+    meta.appendChild(t);
   }
   body.appendChild(meta);
 

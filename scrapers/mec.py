@@ -70,8 +70,10 @@ class MecScraper(BaseScraper):
     def _build(self, art) -> Event | None:
         cls = " ".join(art.get("class", []))
         ym = re.search(r"mec-toggle-(\d{4})(\d{2})", cls)
-        link = (art.select_one(".mec-event-title a") or art.select_one("h3 a")
-                or art.select_one("h4 a") or art.select_one(".mec-event-title"))
+        link = (art.select_one(".mec-event-title a") or art.select_one(".mec-toggle-title")
+                or art.select_one("h3 a") or art.select_one("h4 a")
+                or art.select_one(".mec-event-title") or art.select_one("h3")
+                or art.select_one("h4"))
         if not (ym and link):
             return None
         year, month = int(ym.group(1)), int(ym.group(2))

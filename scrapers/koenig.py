@@ -36,11 +36,20 @@ DATE_RE = re.compile(
     r"\b(\d{1,2})(?:st|nd|rd|th)?(?:\s*(?:and|&|,|-|–|to|\+)\s*"
     r"(\d{1,2})(?:st|nd|rd|th)?)?\s+"
     r"(January|February|March|April|May|June|July|August|September|October|"
-    r"November|December)\s+(\d{4})"
+    r"November|December)(?:\s+(\d{4}))?"
     r"(?:\s+at\s+([A-ZÄÖÜ][\wäöüß.'’\-]+"
     r"(?:\s+(?:im|am|an|der|den|de|of|the|zur|zum|[A-ZÄÖÜ][\wäöüß.'’\-]+))"
     r"{0,3}))?")
 SHOW_RE = re.compile(r"([A-ZÄÖÜ][\wäöüß'&./ \-]{2,55}?[Ss]how)\b")
+
+
+def _infer_year(month: int, day: int) -> int:
+    today = _dt.date.today()
+    try:
+        cand = _dt.date(today.year, month, day)
+    except ValueError:
+        return today.year
+    return today.year + 1 if (today - cand).days > 60 else today.year
 
 
 class KoenigScraper(BaseScraper):
@@ -71,10 +80,10 @@ class KoenigScraper(BaseScraper):
         seen: set[str] = set()
         for dm in DATE_RE.finditer(text):
             month = MONTHS[dm.group(3).lower()]
-            year = int(dm.group(4))
             days = [int(dm.group(1))]
             if dm.group(2):
                 days.append(int(dm.group(2)))
+            year = int(dm.group(4)) if dm.group(4) else _infer_year(month, days[0])
             venue = (dm.group(5) or "").strip(" .,") or None
             title = next((t for pos, t in reversed(shows) if pos < dm.start()),
                          "König Drag Show")

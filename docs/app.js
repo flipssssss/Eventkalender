@@ -308,7 +308,7 @@ function setupSettings() {
   });
 }
 
-const THEME_COLORS = { buergi: "#f3e9d8", punk: "#0d0c10", hyperpop: "#ffe0fb" };
+const THEME_COLORS = { buergi: "#f3e9d8", clean: "#eef3fb", punk: "#0d0c10", hyperpop: "#ffe0fb" };
 
 function setTheme(theme) {
   if (theme === "buergi") document.documentElement.removeAttribute("data-theme");

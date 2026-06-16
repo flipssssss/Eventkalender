@@ -20,6 +20,7 @@ const THEME_KEY = "ek_theme";
 const SOURCES_KEY = "ek_disabled_sources";
 const BEZIRKE_KEY = "ek_disabled_bezirke";
 const VIEW_KEY = "ek_view";
+const SORT_KEY = "ek_sort";  // "time" | "category" | "genre"
 // Formspree-Endpoint für Quellen-Vorschläge.
 const WISH_ENDPOINT = "https://formspree.io/f/xjgdlbnl";
 
@@ -43,6 +44,8 @@ const state = {
   disabledKdCats: loadSet("ek_disabled_kdcats"),
   disabledBezirke: loadSet(BEZIRKE_KEY),
   viewMode: (localStorage.getItem(VIEW_KEY) === "map") ? "map" : "list",
+  sortMode: (["category", "genre"].includes(localStorage.getItem(SORT_KEY)))
+    ? localStorage.getItem(SORT_KEY) : "time",
   mapDay: null,
 };
 
@@ -71,6 +74,7 @@ const els = {
   settingsBackdrop: document.getElementById("settings-backdrop"),
   settingsClose: document.getElementById("settings-close"),
   themeOptions: document.getElementById("theme-options"),
+  sortOptions: document.getElementById("sort-options"),
   sourceToggles: document.getElementById("source-toggles"),
   kdcatSection: document.getElementById("kdcat-section"),
   kdcatToggles: document.getElementById("kdcat-toggles"),
@@ -282,6 +286,12 @@ function setupSettings() {
     btn.addEventListener("click", () => setTheme(btn.dataset.theme));
   }
 
+  // Sort buttons (Uhrzeit / Kategorie / Genre).
+  for (const btn of els.sortOptions.querySelectorAll(".sort-btn")) {
+    btn.classList.toggle("active", btn.dataset.sort === state.sortMode);
+    btn.addEventListener("click", () => setSortMode(btn.dataset.sort));
+  }
+
   // "Als App hinzufügen": Android-Chrome bietet den nativen Dialog,
   // sonst (iPhone) zeigen wir die Anleitung.
   els.installBtn.addEventListener("click", async () => {
@@ -312,6 +322,15 @@ function setupSettings() {
 }
 
 const THEME_COLORS = { buergi: "#f3e9d8", punk: "#0d0c10", hyperpop: "#ffe0fb" };
+
+function setSortMode(mode) {
+  state.sortMode = mode;
+  try { localStorage.setItem(SORT_KEY, mode); } catch { /* ignore */ }
+  for (const btn of els.sortOptions.querySelectorAll(".sort-btn")) {
+    btn.classList.toggle("active", btn.dataset.sort === mode);
+  }
+  render();
+}
 
 function setTheme(theme) {
   if (theme === "buergi") document.documentElement.removeAttribute("data-theme");
@@ -599,8 +618,8 @@ function render() {
 // bundled into a single collapsible block per day, unless the user is actively
 // looking for them (search, favourites-only, or the category chip is selected).
 const COLLAPSE_CATS = {
-  Kino: { label: "🎬 Kino", one: "Film", many: "Filme" },
-  Ausstellung: { label: "🖼 Ausstellungen", one: "Ausstellung", many: "Ausstellungen" },
+  Kino: { label: "Kino", one: "Film", many: "Filme" },
+  Ausstellung: { label: "Ausstellungen", one: "Ausstellung", many: "Ausstellungen" },
 };
 
 function shouldCollapse(cat) {
@@ -678,29 +697,10 @@ function renderList(sortedKeys, groups) {
     heading.textContent = DAY_FMT.format(date);
     group.appendChild(heading);
 
-    // Split off the collapsible categories; everything else stays a card.
-    const normal = [];
-    const collapsed = new Map();
-    for (const ev of events) {
-      const cat = (ev.tags || [])[0];
-      if (cat && shouldCollapse(cat)) {
-        if (!collapsed.has(cat)) collapsed.set(cat, []);
-        collapsed.get(cat).push(ev);
-      } else {
-        normal.push(ev);
-      }
-    }
+    if (state.sortMode === "category") renderDayByCategory(events, group);
+    else if (state.sortMode === "genre") renderDayByGenre(events, group);
+    else renderDayByTime(events, group);
 
-    const cards = document.createElement("div");
-    cards.className = "cards";
-    for (const ev of normal) cards.appendChild(renderCard(ev));
-    group.appendChild(cards);
-
-    // Collapsible blocks (Kino, Ausstellungen) go at the end of the day.
-    for (const cat of Object.keys(COLLAPSE_CATS)) {
-      const list = collapsed.get(cat);
-      if (list && list.length) group.appendChild(renderCollapsedCategory(cat, list));
-    }
     frag.appendChild(group);
   }
 
@@ -708,6 +708,109 @@ function renderList(sortedKeys, groups) {
   els.feed.appendChild(frag);
 
   setupScrollSpy(sortedKeys);
+}
+
+// Sort "Uhrzeit": cards in time order; Kino/Ausstellungen bundled per day.
+function renderDayByTime(events, group) {
+  // Split off the collapsible categories; everything else stays a card.
+  const normal = [];
+  const collapsed = new Map();
+  for (const ev of events) {
+    const cat = (ev.tags || [])[0];
+    if (cat && shouldCollapse(cat)) {
+      if (!collapsed.has(cat)) collapsed.set(cat, []);
+      collapsed.get(cat).push(ev);
+    } else {
+      normal.push(ev);
+    }
+  }
+
+  const cards = document.createElement("div");
+  cards.className = "cards";
+  for (const ev of normal) cards.appendChild(renderCard(ev));
+  group.appendChild(cards);
+
+  // Collapsible blocks (Kino, Ausstellungen) go at the end of the day.
+  for (const cat of Object.keys(COLLAPSE_CATS)) {
+    const list = collapsed.get(cat);
+    if (list && list.length) group.appendChild(renderCollapsedCategory(cat, list));
+  }
+}
+
+// Sort "Kategorie": one open (collapsible) box per category, cards by time.
+function renderDayByCategory(events, group) {
+  const byCat = groupBy(events, (ev) => (ev.tags || [])[0] || "Sonstiges");
+  for (const cat of orderedKeys(byCat.keys(), CATEGORY_ORDER)) {
+    const list = byCat.get(cat).sort(byStart);
+    const box = buildSortBox(cat, list.length);
+    const grid = document.createElement("div");
+    grid.className = "cards sort-box-cards";
+    for (const ev of list) grid.appendChild(renderCard(ev));
+    box.appendChild(grid);
+    group.appendChild(box);
+  }
+}
+
+// Sort "Genre": one open box per genre, inside it a sub-box per category.
+function renderDayByGenre(events, group) {
+  const byGenre = groupBy(events, (ev) => ev.genre || "Ohne Genre");
+  for (const genre of orderedKeys(byGenre.keys(), GENRE_ORDER)) {
+    const gEvents = byGenre.get(genre);
+    const box = buildSortBox(genre, gEvents.length, genreClass(genre));
+    const byCat = groupBy(gEvents, (ev) => (ev.tags || [])[0] || "Sonstiges");
+    for (const cat of orderedKeys(byCat.keys(), CATEGORY_ORDER)) {
+      const list = byCat.get(cat).sort(byStart);
+      const sub = buildSortBox(cat, list.length, "sort-subbox");
+      const grid = document.createElement("div");
+      grid.className = "cards sort-box-cards";
+      for (const ev of list) grid.appendChild(renderCard(ev));
+      sub.appendChild(grid);
+      box.appendChild(sub);
+    }
+    group.appendChild(box);
+  }
+}
+
+// An open-by-default, collapsible box (<details open>) with a title + count.
+function buildSortBox(label, count, cls) {
+  const det = document.createElement("details");
+  det.className = "sort-box" + (cls ? " " + cls : "");
+  det.open = true;
+  const sum = document.createElement("summary");
+  sum.className = "sort-box-head";
+  const t = document.createElement("span");
+  t.className = "sort-box-title";
+  t.textContent = label;
+  const c = document.createElement("span");
+  c.className = "sort-box-count";
+  c.textContent = count;
+  sum.append(t, c);
+  det.appendChild(sum);
+  return det;
+}
+
+function groupBy(items, keyFn) {
+  const map = new Map();
+  for (const it of items) {
+    const k = keyFn(it);
+    if (!map.has(k)) map.set(k, []);
+    map.get(k).push(it);
+  }
+  return map;
+}
+
+// Keys in the given fixed order first, then any leftover keys alphabetically.
+function orderedKeys(keys, order) {
+  const present = new Set(keys);
+  const out = order.filter((k) => present.has(k));
+  for (const k of [...present].sort((a, b) => a.localeCompare(b, "de"))) {
+    if (!order.includes(k)) out.push(k);
+  }
+  return out;
+}
+
+function byStart(a, b) {
+  return new Date(a.start) - new Date(b.start);
 }
 
 function renderCard(ev) {

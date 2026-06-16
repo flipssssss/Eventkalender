@@ -893,6 +893,108 @@ body {
   color: var(--accent);
 }
 
+.settings-subh {
+  margin: 16px 0 8px;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.sort-options {
+  display: flex;
+  gap: 8px;
+}
+
+.sort-btn {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface-2);
+  color: var(--text);
+  font-family: var(--serif);
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.sort-btn.active {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+/* Sortier-Kästen (Modus Kategorie/Genre): aufgeklappt, aber zuklappbar. */
+.sort-box {
+  margin-top: 16px;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px;
+}
+
+.day-group > .sort-box:first-of-type { margin-top: 0; }
+
+.sort-box-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.sort-box-head::-webkit-details-marker { display: none; }
+
+.sort-box-title {
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: var(--accent);
+}
+
+.sort-box-count {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.sort-box-head::after {
+  content: "";
+  margin-left: auto;
+  width: 9px;
+  height: 9px;
+  border-right: 2px solid var(--muted);
+  border-bottom: 2px solid var(--muted);
+  transform: rotate(45deg);
+  transition: transform 0.2s ease;
+}
+
+.sort-box[open] > .sort-box-head::after { transform: rotate(-135deg); }
+.sort-box[open] > .sort-box-head { margin-bottom: 14px; }
+
+/* Genre-Kasten: farbiger Akzent links + farbiger Titel. */
+.sort-box.g-kultur, .sort-box.g-polit,
+.sort-box.g-queer, .sort-box.g-kink { border-left: 4px solid var(--gc); }
+
+.sort-box.g-kultur > .sort-box-head > .sort-box-title,
+.sort-box.g-polit  > .sort-box-head > .sort-box-title,
+.sort-box.g-queer  > .sort-box-head > .sort-box-title,
+.sort-box.g-kink   > .sort-box-head > .sort-box-title { color: var(--gc); }
+
+/* Kategorie-Unterkästchen im Genre-Modus: schlichter, eingerückt. */
+.sort-subbox {
+  margin-top: 14px;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+}
+
+.sort-subbox > .sort-box-head > .sort-box-title {
+  font-size: 0.85rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.sort-subbox[open] > .sort-box-head { margin-bottom: 10px; }
+
 .source-toggles {
   display: flex;
   flex-direction: column;

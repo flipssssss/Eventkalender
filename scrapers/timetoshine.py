@@ -52,8 +52,13 @@ class TimeToShineScraper(BaseScraper):
             ev = self._build(it)
             if ev:
                 events.append(ev)
-        self._dump(f"items: {len(items)} | Events: {len(events)}\n" +
-                   "\n".join(f"  {e.start} | {e.title}" for e in events[:20]))
+        if not events:
+            keys = list(data.keys()) if isinstance(data, dict) else type(data)
+            sample = json.dumps(data, ensure_ascii=False)[:1500]
+            self._dump(f"items: {len(items)} | Events: 0\nTop-Keys: {keys}\n\n{sample}")
+        else:
+            self._dump(f"items: {len(items)} | Events: {len(events)}\n" +
+                       "\n".join(f"  {e.start} | {e.title}" for e in events[:20]))
         return events
 
     def _build(self, it: dict) -> Event | None:

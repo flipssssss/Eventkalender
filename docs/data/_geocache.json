@@ -172,6 +172,12 @@
   "lng": 13.3993823
  },
  "Boiler, Berlin": null,
+ "Boxhagener Straße 18, 10245 Berlin, Berlin": {
+  "address": "Boxhagener Straße 18, 10245 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5133426,
+  "lng": 13.4555767
+ },
  "Brotfabrik Caligariplatz 1 13086 Berlin Deutschland": {
   "address": "Caligariplatz 1, 13086 Weißensee",
   "bezirk": "Pankow",

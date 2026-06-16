@@ -1,4 +1,5 @@
-Event-Links: 1 | Events: 1
+Event-Links: 1 | Events: 2
 https://www.eventbrite.de/e/time-to-shine-xi-tickets-1982627968625
 JSON-LD: True | Felder: ['@context', '@type', 'description', 'endDate', 'eventAttendanceMode', 'eventStatus', 'image', 'inLanguage', 'location', 'name', 'offers', 'organizer', 'performer', 'startDate', 'url']
   2026-06-18 20:00:00 | Time to Shine XI
+  2026-06-19 20:00:00 | Time to Shine XI

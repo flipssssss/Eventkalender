@@ -595,6 +595,52 @@ function render() {
   }
 }
 
+// Categories that flood the feed (one card per film/exhibition per day) are
+// bundled into a single collapsible block per day, unless the user is actively
+// looking for them (search, favourites-only, or the category chip is selected).
+const COLLAPSE_CATS = {
+  Kino: { label: "🎬 Kino", one: "Film", many: "Filme" },
+  Ausstellung: { label: "🖼 Ausstellungen", one: "Ausstellung", many: "Ausstellungen" },
+};
+
+function shouldCollapse(cat) {
+  if (!COLLAPSE_CATS[cat]) return false;
+  if (state.query || state.onlyFav) return false;
+  if (state.activeTags.has(cat)) return false;  // chip selected -> show them all
+  return true;
+}
+
+function renderCollapsedCategory(cat, list) {
+  const meta = COLLAPSE_CATS[cat];
+  const det = document.createElement("details");
+  det.className = "cat-collapse";
+
+  const sum = document.createElement("summary");
+  sum.className = "cat-collapse-summary";
+  const title = document.createElement("span");
+  title.className = "cat-collapse-title";
+  title.textContent = meta.label;
+  const count = document.createElement("span");
+  count.className = "cat-collapse-count";
+  count.textContent = list.length + " " + (list.length === 1 ? meta.one : meta.many);
+  sum.append(title, count);
+  det.appendChild(sum);
+
+  const inner = document.createElement("div");
+  inner.className = "cards cat-collapse-cards";
+  det.appendChild(inner);
+
+  // Build the (potentially many) cards only when the block is first opened.
+  let built = false;
+  det.addEventListener("toggle", () => {
+    if (det.open && !built) {
+      built = true;
+      for (const ev of list) inner.appendChild(renderCard(ev));
+    }
+  });
+  return det;
+}
+
 function renderList(sortedKeys, groups) {
   const frag = document.createDocumentFragment();
   for (const key of sortedKeys) {
@@ -609,10 +655,29 @@ function renderList(sortedKeys, groups) {
     heading.textContent = DAY_FMT.format(date);
     group.appendChild(heading);
 
+    // Split off the collapsible categories; everything else stays a card.
+    const normal = [];
+    const collapsed = new Map();
+    for (const ev of events) {
+      const cat = (ev.tags || [])[0];
+      if (cat && shouldCollapse(cat)) {
+        if (!collapsed.has(cat)) collapsed.set(cat, []);
+        collapsed.get(cat).push(ev);
+      } else {
+        normal.push(ev);
+      }
+    }
+
     const cards = document.createElement("div");
     cards.className = "cards";
-    for (const ev of events) cards.appendChild(renderCard(ev));
+    for (const ev of normal) cards.appendChild(renderCard(ev));
     group.appendChild(cards);
+
+    // Collapsible blocks (Kino, Ausstellungen) go at the end of the day.
+    for (const cat of Object.keys(COLLAPSE_CATS)) {
+      const list = collapsed.get(cat);
+      if (list && list.length) group.appendChild(renderCollapsedCategory(cat, list));
+    }
     frag.appendChild(group);
   }
 

@@ -5,8 +5,12 @@
 // calendar export and sharing. No build step, no framework.
 
 const GENRE_ORDER = ["Kultur", "Polit", "Queer", "Kink"];
+// Reihenfolge der Kategorie-Chips im Header (überall gleich).
 const CATEGORY_ORDER = ["Theater", "Kino", "Konzert", "Party", "Vortrag",
-  "Protest", "Workshop", "Ausstellung", "Essen", "Sonstiges"];
+  "Ausstellung", "Workshop", "Protest", "Essen", "Sonstiges"];
+// Reihenfolge der Kategorie-Kästen, wenn nach Kategorie/Genre sortiert wird.
+const SORT_CATEGORY_ORDER = ["Vortrag", "Ausstellung", "Workshop", "Protest",
+  "Essen", "Theater", "Kino", "Konzert", "Party", "Sonstiges"];
 // Die zwölf Berliner Bezirke (für die Reihenfolge im Filter).
 const BEZIRK_ORDER = [
   "Mitte", "Friedrichshain-Kreuzberg", "Pankow",
@@ -618,8 +622,8 @@ function render() {
 // bundled into a single collapsible block per day, unless the user is actively
 // looking for them (search, favourites-only, or the category chip is selected).
 const COLLAPSE_CATS = {
-  Kino: { label: "Kino", one: "Film", many: "Filme" },
   Ausstellung: { label: "Ausstellungen", one: "Ausstellung", many: "Ausstellungen" },
+  Kino: { label: "Kino", one: "Film", many: "Filme" },
 };
 
 function shouldCollapse(cat) {
@@ -740,7 +744,7 @@ function renderDayByTime(events, group) {
 // Sort "Kategorie": one open (collapsible) box per category, cards by time.
 function renderDayByCategory(events, group) {
   const byCat = groupBy(events, (ev) => (ev.tags || [])[0] || "Sonstiges");
-  for (const cat of orderedKeys(byCat.keys(), CATEGORY_ORDER)) {
+  for (const cat of orderedKeys(byCat.keys(), SORT_CATEGORY_ORDER)) {
     const list = byCat.get(cat).sort(byStart);
     const box = buildSortBox(cat, list.length);
     const grid = document.createElement("div");
@@ -758,7 +762,7 @@ function renderDayByGenre(events, group) {
     const gEvents = byGenre.get(genre);
     const box = buildSortBox(genre, gEvents.length, genreClass(genre));
     const byCat = groupBy(gEvents, (ev) => (ev.tags || [])[0] || "Sonstiges");
-    for (const cat of orderedKeys(byCat.keys(), CATEGORY_ORDER)) {
+    for (const cat of orderedKeys(byCat.keys(), SORT_CATEGORY_ORDER)) {
       const list = byCat.get(cat).sort(byStart);
       const sub = buildSortBox(cat, list.length, "sort-subbox");
       const grid = document.createElement("div");

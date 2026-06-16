@@ -45,6 +45,7 @@ from scrapers.berlin_ausstellungen import BerlinAusstellungenScraper
 from scrapers.laboratory import LaboratoryScraper
 from scrapers.timetoshine import TimeToShineScraper
 from scrapers.boiler import BoilerScraper
+from scrapers.koenig import KoenigScraper
 from scrapers.probe2 import Probe2Scraper
 
 ROOT = pathlib.Path(__file__).parent
@@ -128,6 +129,8 @@ def get_scrapers():
         TimeToShineScraper(),
         # Boiler (WordPress) -- REST-API, sonst HTML-Diagnose.
         BoilerScraper(),
+        # König Drag Show (Google Sites) -- Textparser, Queer/Theater.
+        KoenigScraper(),
         Probe2Scraper(),
         # Tipsy Bear: bleibt deaktiviert -- alle Endpunkte hängen hinter
         # Cloudflares JS-Challenge ("Just a moment...", 403), es gibt keinen

@@ -1,8 +1,10 @@
-"""Time to Shine (Kink/Fetish comedy shows) -- Squarespace events.
+"""Time to Shine (Kink/Queer/Fetish comedy shows) -- via Eventbrite.
 
-Squarespace exposes any collection as JSON via ``?format=json``. The events
-collection returns ``items`` with epoch-millisecond start/end dates, a title,
-a location block and an image. Category Theater, genre Kink (forced).
+Their Squarespace site only links out to an Eventbrite organizer
+(``timetoshine11.eventbrite.de``). Eventbrite event pages carry a clean
+schema.org ``Event`` as JSON-LD, so we collect the event links from the
+organizer page and read each event's structured data. Category Theater, genre
+Kink (forced in genres.py).
 """
 
 from __future__ import annotations
@@ -10,29 +12,26 @@ from __future__ import annotations
 import datetime as _dt
 import json
 import pathlib
+import re
 from typing import Iterable
 
-from .base import BaseScraper, Event
+import requests
 
-BASE = "https://www.timetoshinekink.com"
-# /all-events turned out to be a page, not the events collection. Try the
-# common Squarespace events-collection slugs and use whichever has events.
-CANDIDATES = ["/all-events", "/events"]
+from .base import BaseScraper, Event, parse_datetime
+
+ORGANIZER = "https://timetoshine11.eventbrite.de/"
 DEBUG_DIR = pathlib.Path(__file__).resolve().parents[1] / "docs" / "data" / "_debug"
+MAX_EVENTS = 20
 
 BROWSER = {
     "User-Agent": (
         "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
         "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
     ),
-    "Accept": "application/json, text/javascript, */*",
+    "Accept": "text/html,application/xhtml+xml,*/*;q=0.8",
+    "Accept-Language": "de-DE,de;q=0.9,en;q=0.8",
 }
-
-
-def _ms(value) -> _dt.datetime | None:
-    if not isinstance(value, (int, float)):
-        return None
-    return _dt.datetime.fromtimestamp(value / 1000)
+EVENT_URL_RE = re.compile(r"https?://www\.eventbrite\.[a-z.]+/e/[A-Za-z0-9%\-]+")
 
 
 class TimeToShineScraper(BaseScraper):
@@ -42,51 +41,68 @@ class TimeToShineScraper(BaseScraper):
         self.write_debug = write_debug
 
     def fetch_events(self) -> Iterable[Event]:
-        notes = []
-        for path in CANDIDATES:
-            url = BASE + path + "?format=json"
+        session = requests.Session()
+        session.headers.update(BROWSER)
+        try:
+            html = session.get(ORGANIZER, timeout=25).text
+        except requests.RequestException as exc:
+            self._dump(f"Organizer FEHLER: {exc}")
+            return []
+
+        urls = []
+        for u in EVENT_URL_RE.findall(html):
+            u = u.split("?")[0]
+            if u not in urls:
+                urls.append(u)
+        urls = urls[:MAX_EVENTS]
+
+        events: list[Event] = []
+        sample = ""
+        for url in urls:
             try:
-                r = self.get(url, headers=BROWSER)
-                data = json.loads(r.content)
-            except Exception as exc:  # noqa: BLE001
-                notes.append(f"{path}: FEHLER {str(exc)[:50]}")
+                page = session.get(url, timeout=25).text
+            except requests.RequestException:
                 continue
-            items = (data.get("items") or []) + (data.get("upcoming") or []) \
-                + (data.get("past") or [])
-            events = [ev for it in items if (ev := self._build(it))]
-            coll = (data.get("collection") or {})
-            notes.append(f"{path}: type={coll.get('typeName')} items={len(items)} "
-                         f"events={len(events)}")
-            if events:
-                self._dump(f"Quelle: {path}\n" + "\n".join(notes) + "\n\n" +
-                           "\n".join(f"  {e.start} | {e.title}" for e in events[:20]))
-                return events
-        self._dump("Keine Events gefunden:\n" + "\n".join(notes))
-        return []
+            obj = _event_jsonld(page)
+            if not sample:
+                sample = f"{url}\nJSON-LD: {bool(obj)} | Felder: " \
+                         f"{sorted(obj) if obj else '-'}"
+            ev = self._build(obj, url)
+            if ev:
+                events.append(ev)
 
-    def _build(self, it: dict) -> Event | None:
-        start = _ms(it.get("startDate"))
-        title = (it.get("title") or "").strip()
-        if not start or not title:
+        self._dump(f"Event-Links: {len(urls)} | Events: {len(events)}\n{sample}\n" +
+                   "\n".join(f"  {e.start} | {e.title}" for e in events[:20]))
+        return events
+
+    def _build(self, obj: dict | None, url: str) -> Event | None:
+        if not obj:
             return None
-        loc = it.get("location") or {}
-        venue = loc.get("addressTitle")
-        address = ", ".join(p for p in [loc.get("addressLine1"),
-                                        loc.get("addressLine2")] if p) or None
-        path = it.get("fullUrl") or ""
-        url = (BASE + path) if path.startswith("/") else (path or BASE)
-        image = it.get("assetUrl") if isinstance(it.get("assetUrl"), str) else None
-
+        start = parse_datetime(obj.get("startDate"))
+        name = (obj.get("name") or "").strip()
+        if not start or not name:
+            return None
+        loc = obj.get("location") or {}
+        if isinstance(loc, list):
+            loc = loc[0] if loc else {}
+        venue = loc.get("name") if isinstance(loc, dict) else None
+        address = _address(loc.get("address")) if isinstance(loc, dict) else None
+        image = obj.get("image")
+        if isinstance(image, list):
+            image = image[0] if image else None
+        if isinstance(image, dict):
+            image = image.get("url")
+        end = parse_datetime(obj.get("endDate"))
         return Event(
-            title=title[:140],
-            start=start,
-            end=_ms(it.get("endDate")),
-            source_url=url,
+            title=name[:140],
+            start=start.replace(tzinfo=None),
+            end=end.replace(tzinfo=None) if end else None,
+            source_url=obj.get("url") or url,
             source_name=self.name,
             location=venue,
             address=address,
-            description=(it.get("excerpt") or "").strip() or None,
-            image_url=image,
+            description=(obj.get("description") or "").strip()[:400] or None,
+            image_url=image if isinstance(image, str) else None,
             tags=["Theater"],
         )
 
@@ -98,3 +114,33 @@ class TimeToShineScraper(BaseScraper):
             (DEBUG_DIR / "time-to-shine.txt").write_text(text, encoding="utf-8")
         except OSError:
             pass
+
+
+def _event_jsonld(html: str) -> dict | None:
+    for m in re.finditer(
+        r'<script[^>]*type="application/ld\+json"[^>]*>(.*?)</script>',
+        html, re.DOTALL,
+    ):
+        try:
+            data = json.loads(m.group(1).strip())
+        except ValueError:
+            continue
+        for obj in (data if isinstance(data, list) else [data]):
+            if not isinstance(obj, dict):
+                continue
+            t = obj.get("@type")
+            types = t if isinstance(t, list) else [t]
+            if any(isinstance(x, str) and "Event" in x for x in types):
+                return obj
+    return None
+
+
+def _address(addr) -> str | None:
+    if isinstance(addr, str):
+        return addr or None
+    if not isinstance(addr, dict):
+        return None
+    parts = [addr.get("streetAddress"),
+             " ".join(filter(None, [addr.get("postalCode"),
+                                    addr.get("addressLocality")]))]
+    return ", ".join(p for p in parts if p) or None

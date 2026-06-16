@@ -72,8 +72,8 @@ HEADERS = {
     "ra-content-language": "en",
 }
 
-_EVENT_FIELDS = ("id title date startTime endTime contentUrl flyerFront "
-                 "venue{ name area{ name } }")
+_EVENT_FIELDS = ("id title date startTime endTime contentUrl flyerFront content "
+                 "images{ filename } venue{ name area{ name } }")
 QUERIES = {
     "promoter": "query($id:ID!){ promoter(id:$id){ name events(type:LATEST,"
                 f" limit:40){{ {_EVENT_FIELDS} }} }} }}",
@@ -94,6 +94,25 @@ def _genre(entity_id: str, text: str) -> str:
     if any(k in low for k in QUEER_KW):
         return "Queer"
     return DEFAULT_GENRE
+
+
+def _ra_image(e: dict) -> str | None:
+    flyer = e.get("flyerFront")
+    if isinstance(flyer, str) and flyer.startswith("http"):
+        return flyer
+    for img in (e.get("images") or []):
+        fn = (img or {}).get("filename")
+        if isinstance(fn, str) and fn:
+            return fn if fn.startswith("http") else ("https://images.ra.co/" + fn.lstrip("/"))
+    return None
+
+
+def _ra_text(content) -> str | None:
+    if not isinstance(content, str) or not content.strip():
+        return None
+    text = re.sub(r"<[^>]+>", " ", content)
+    text = re.sub(r"\s+", " ", text).strip()
+    return text[:500] or None
 
 
 class ResidentAdvisorScraper(BaseScraper):
@@ -127,9 +146,16 @@ class ResidentAdvisorScraper(BaseScraper):
                     seen.add(ev._ra_id)
                     events.append(ev)
                     kept += 1
-            report.append(f"{kind}/{ident} ({name}): {len(raw)} -> {kept} Berlin")
+            flyers = sum(1 for e in raw if e.get("flyerFront"))
+            imgs = sum(1 for e in raw if e.get("images"))
+            conts = sum(1 for e in raw if e.get("content"))
+            report.append(f"{kind}/{ident} ({name}): {len(raw)} -> {kept} Berlin "
+                          f"| flyer={flyers} images={imgs} content={conts}")
 
-        self._dump(f"Events gesamt: {len(events)}\n" + "\n".join(report) +
+        with_img = sum(1 for e in events if e.image_url)
+        with_desc = sum(1 for e in events if e.description)
+        self._dump(f"Events gesamt: {len(events)} | mit Bild: {with_img} | "
+                   f"mit Beschreibung: {with_desc}\n" + "\n".join(report) +
                    f"\nArtist-Auflösung: {getattr(self, '_artist_diag', '-')}")
         return events
 
@@ -155,7 +181,6 @@ class ResidentAdvisorScraper(BaseScraper):
         title = (e.get("title") or "").strip()
         if not start or not title:
             return None
-        flyer = e.get("flyerFront")
         path = e.get("contentUrl") or ""
         url = ("https://ra.co" + path) if path.startswith("/") else (path or "https://ra.co")
         vname = venue.get("name")
@@ -165,7 +190,8 @@ class ResidentAdvisorScraper(BaseScraper):
             source_url=url,
             source_name=SOURCE,
             location=(vname + ", Berlin") if vname else "Berlin",
-            image_url=flyer if isinstance(flyer, str) and flyer.startswith("http") else None,
+            image_url=_ra_image(e),
+            description=_ra_text(e.get("content")),
             tags=["Party"],
             genre=_genre(entity_id, f"{title} {vname or ''}"),
         )

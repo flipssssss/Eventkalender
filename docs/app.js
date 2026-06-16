@@ -328,10 +328,7 @@ function setupSettings() {
   });
 }
 
-const THEME_COLORS = {
-  buergi: "#f3e9d8", punk: "#e7e3d6", riot: "#0b0a0d",
-  toxic: "#0a0d09", hyperpop: "#ffe0fb",
-};
+const THEME_COLORS = { buergi: "#f3e9d8", punk: "#0b0a0d", hyperpop: "#ffe0fb" };
 
 function setSortMode(mode) {
   state.sortMode = mode;

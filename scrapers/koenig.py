@@ -101,9 +101,15 @@ class KoenigScraper(BaseScraper):
 
         diag = ""
         if not events:
+            ctx = []
+            for kw in ("September", "October", "November", "Delphi", "Theater",
+                       "2026", "Tickets"):
+                i = text.find(kw)
+                if i >= 0:
+                    ctx.append(f"[{kw}@{i}] …{text[max(0, i-40):i+60]}…")
             dates = [m.group(0) for m in DATE_RE.finditer(text)][:8]
             diag = (f"len(text)={len(text)} | DATE-Treffer={dates}\n"
-                    f"TEXT[:1500]: {text[:1500]}\n")
+                    + "\n".join(ctx) + "\n")
         self._dump(f"Events: {len(events)} | Shows erkannt: {len(shows)}\n{diag}" +
                    "\n".join(f"  {e.start.date()} | {e.title} @ {e.location}"
                              for e in events[:20]))

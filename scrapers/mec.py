@@ -70,14 +70,22 @@ class MecScraper(BaseScraper):
     def _build(self, art) -> Event | None:
         cls = " ".join(art.get("class", []))
         ym = re.search(r"mec-toggle-(\d{4})(\d{2})", cls)
-        day_el = art.select_one(".event-d")
-        link = art.select_one(".mec-event-title a") or art.select_one(".mec-event-title")
-        if not (ym and day_el and link):
+        link = (art.select_one(".mec-event-title a") or art.select_one("h3 a")
+                or art.select_one("h4 a") or art.select_one(".mec-event-title"))
+        if not (ym and link):
             return None
-        try:
-            year, month = int(ym.group(1)), int(ym.group(2))
-            day = int(re.sub(r"\D", "", day_el.get_text()) or 0)
-        except ValueError:
+        year, month = int(ym.group(1)), int(ym.group(2))
+        # Day lives in .event-d ("16") or in .mec-event-month ("16. Juni").
+        day = None
+        for sel in (".event-d", ".mec-event-month", ".mec-event-date",
+                    ".mec-start-date-label", ".mec-start-date"):
+            el = art.select_one(sel)
+            if el:
+                dm = re.search(r"\b(\d{1,2})\b", el.get_text())
+                if dm:
+                    day = int(dm.group(1))
+                    break
+        if not day:
             return None
         title = re.sub(r"\s+", " ", link.get_text(" ")).strip()
         if not title:
@@ -106,7 +114,8 @@ class MecScraper(BaseScraper):
     def _time(self, art):
         if self.fixed_hour is not None:
             return self.fixed_hour, 0, True
-        el = art.select_one("[class*=mec-time], [class*=mec-event-time]")
+        el = art.select_one(".mec-start-time, [class*=mec-start-time], "
+                            "[class*=mec-time], .mec-time-details")
         text = el.get_text(" ") if el else art.get_text(" ")
         m = re.search(r"\b(\d{1,2}):(\d{2})\b", text)
         if m:

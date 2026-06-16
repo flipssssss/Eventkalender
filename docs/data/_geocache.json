@@ -226,6 +226,12 @@
   "lng": 13.5828604
  },
  "Café Köpenick Seelenbinderstr. 54 12555, 12555 Berlin": null,
+ "Club Sauna Berlin": {
+  "address": "Mehringdamm 32, 10961 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4938045,
+  "lng": 13.3877873
+ },
  "Club Sauna, Berlin": {
   "address": "Mehringdamm 32, 10961 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",

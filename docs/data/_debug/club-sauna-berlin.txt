@@ -1,35 +1,24 @@
-Events: 0
-len(html)=281025 | .mec-event-article=23 | 'mec-toggle' im html=True
-erste Klasse: ['mec-past-event', 'mec-event-article', 'mec-clear', 'mec-divider-toggle', 'mec-toggle-202606-mec1']
-erstes Element: <article class="mec-past-event mec-event-article mec-clear mec-divider-toggle mec-toggle-202606-mec1" itemscope="">
- <!-- toggles wrap start -->
- <div class="mec-events-toggle">
-  <!-- toggle item start -->
-  <div class="mec-toggle-item">
-   <div class="mec-toggle-item-inner" tabindex="0">
-    <div class="mec-toggle-item-col">
-     <div class="mec-event-date">
-      Mi.
-     </div>
-     <div class="mec-event-month">
-      17.Juni
-     </div>
-     <div class="mec-time-details">
-      <span class="mec-start-time">
-       17:30
-      </span>
-      -
-      <span class="mec-end-time">
-       00:30
-      </span>
-     </div>
-    </div>
-    <h3 class="mec-toggle-title">
-     gender mix
-    </h3>
-    <i class="mec-sl-arrow-down">
-    </i>
-   </div>
-   <div aria-hidden="true" class="mec-content-toggle" style="display: none;">
-    <div class="mec-toggle-content">
-     <div class="mec-wrap colorskin
+Events: 23
+  2026-06-17 17:30:00 | gender mix
+  2026-06-18 18:00:00 | Naughty! by Bearhood Berlin
+  2026-06-19 17:30:00 | flinta sweat
+  2026-06-20 17:30:00 | gender mix
+  2026-06-24 17:30:00 | gender mix
+  2026-06-25 17:30:00 | puppy sweat
+  2026-06-26 17:30:00 | flinta sweat
+  2026-07-01 17:30:00 | gender mix
+  2026-07-02 17:30:00 | tin* sweat
+  2026-07-03 17:30:00 | flinta sweat
+  2026-07-04 17:30:00 | gender mix
+  2026-07-08 17:30:00 | gender mix
+  2026-07-09 17:30:00 | foam sweat
+  2026-07-10 17:30:00 | flinta sweat
+  2026-07-15 17:30:00 | gender mix
+  2026-07-16 17:30:00 | tin* sweat
+  2026-07-17 17:30:00 | flinta sweat
+  2026-07-18 17:30:00 | gender mix
+  2026-07-22 17:30:00 | gender mix
+  2026-07-23 17:30:00 | puppy sweat *CSD spezial*
+  2026-07-24 17:30:00 | flinta sweat
+  2026-07-30 17:30:00 | TIN* & Friends
+  2026-07-31 17:30:00 | flinta sweat

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-16T06:36:07.638517+00:00",
-  "count": 415,
+  "generated_at": "2026-06-16T06:38:38.539652+00:00",
+  "count": 436,
   "sources": [
     {
       "source": "Quälgeist",
@@ -69,17 +69,17 @@
     },
     {
       "source": "Boiler Berlin",
-      "count": 0,
+      "count": 30,
       "error": null
     },
     {
       "source": "Club Sauna Berlin",
-      "count": 0,
+      "count": 23,
       "error": null
     },
     {
       "source": "König Drag Show",
-      "count": 0,
+      "count": 2,
       "error": null
     },
     {
@@ -168,6 +168,26 @@
       "lat": 52.4881732,
       "lng": 13.5339889,
       "bezirk": "Lichtenberg"
+    },
+    {
+      "title": "Themenabend",
+      "start": "2026-06-16T17:00:00",
+      "end": null,
+      "location": "Boiler Berlin",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://boiler-berlin.de/en/",
+      "source_name": "Boiler Berlin",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true,
+      "genre": "Queer",
+      "subcategory": null,
+      "address": "Mehringdamm 34, 10961 Kreuzberg",
+      "lat": 52.4936405,
+      "lng": 13.3876998,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Flinta*only Kickern",
@@ -1170,6 +1190,26 @@
       "bezirk": "Neukölln"
     },
     {
+      "title": "youngStars",
+      "start": "2026-06-17T17:00:00",
+      "end": null,
+      "location": "Boiler Berlin",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://boiler-berlin.de/en/",
+      "source_name": "Boiler Berlin",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true,
+      "genre": "Queer",
+      "subcategory": null,
+      "address": "Mehringdamm 34, 10961 Kreuzberg",
+      "lat": 52.4936405,
+      "lng": 13.3876998,
+      "bezirk": "Friedrichshain-Kreuzberg"
+    },
+    {
       "title": "Theaterführung",
       "start": "2026-06-17T17:30:00",
       "end": null,
@@ -1188,6 +1228,26 @@
       "lat": 52.527024,
       "lng": 13.4119171,
       "bezirk": "Mitte"
+    },
+    {
+      "title": "gender mix",
+      "start": "2026-06-17T17:30:00",
+      "end": null,
+      "location": "Club Sauna Berlin",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://clubsauna.berlin/events/",
+      "source_name": "Club Sauna Berlin",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true,
+      "genre": "Queer",
+      "subcategory": null,
+      "address": "Mehringdamm 32, 10961 Kreuzberg",
+      "lat": 52.4938045,
+      "lng": 13.3877873,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "mittwochskufa",
@@ -1870,6 +1930,26 @@
       "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
+      "title": "‘Grüner Donnerstag’",
+      "start": "2026-06-18T17:00:00",
+      "end": null,
+      "location": "Boiler Berlin",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://boiler-berlin.de/en/",
+      "source_name": "Boiler Berlin",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true,
+      "genre": "Queer",
+      "subcategory": null,
+      "address": "Mehringdamm 34, 10961 Kreuzberg",
+      "lat": 52.4936405,
+      "lng": 13.3876998,
+      "bezirk": "Friedrichshain-Kreuzberg"
+    },
+    {
       "title": "Fesselei - Bondage Jam",
       "start": "2026-06-18T18:00:00",
       "end": "2026-06-18T22:00:00",
@@ -1967,6 +2047,26 @@
       "address": "10997 Kreuzberg",
       "lat": 52.5009559,
       "lng": 13.4354965,
+      "bezirk": "Friedrichshain-Kreuzberg"
+    },
+    {
+      "title": "Naughty! by Bearhood Berlin",
+      "start": "2026-06-18T18:00:00",
+      "end": null,
+      "location": "Club Sauna Berlin",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://clubsauna.berlin/events/",
+      "source_name": "Club Sauna Berlin",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true,
+      "genre": "Queer",
+      "subcategory": null,
+      "address": "Mehringdamm 32, 10961 Kreuzberg",
+      "lat": 52.4938045,
+      "lng": 13.3877873,
       "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
@@ -2730,6 +2830,26 @@
       "bezirk": "Mitte"
     },
     {
+      "title": "Aufgüsse am Freitag",
+      "start": "2026-06-19T17:00:00",
+      "end": null,
+      "location": "Boiler Berlin",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://boiler-berlin.de/en/",
+      "source_name": "Boiler Berlin",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true,
+      "genre": "Queer",
+      "subcategory": null,
+      "address": "Mehringdamm 34, 10961 Kreuzberg",
+      "lat": 52.4936405,
+      "lng": 13.3876998,
+      "bezirk": "Friedrichshain-Kreuzberg"
+    },
+    {
       "title": "Aus der Nacht heraus - Political Film Festival -Day 2",
       "start": "2026-06-19T17:30:00",
       "end": null,
@@ -2768,6 +2888,26 @@
       "lat": 52.5258825,
       "lng": 13.4016022,
       "bezirk": "Mitte"
+    },
+    {
+      "title": "flinta sweat",
+      "start": "2026-06-19T17:30:00",
+      "end": null,
+      "location": "Club Sauna Berlin",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://clubsauna.berlin/events/",
+      "source_name": "Club Sauna Berlin",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true,
+      "genre": "Queer",
+      "subcategory": null,
+      "address": "Mehringdamm 32, 10961 Kreuzberg",
+      "lat": 52.4938045,
+      "lng": 13.3877873,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Filmfestival - \"Aus der Nacht heraus\"",
@@ -3590,6 +3730,26 @@
       "bezirk": "Lichtenberg"
     },
     {
+      "title": "Aufgüsse am Samstag",
+      "start": "2026-06-20T17:00:00",
+      "end": null,
+      "location": "Boiler Berlin",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://boiler-berlin.de/en/",
+      "source_name": "Boiler Berlin",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true,
+      "genre": "Queer",
+      "subcategory": null,
+      "address": "Mehringdamm 34, 10961 Kreuzberg",
+      "lat": 52.4936405,
+      "lng": 13.3876998,
+      "bezirk": "Friedrichshain-Kreuzberg"
+    },
+    {
       "title": "Rundgang Ausstellung „Die Anarchie ist das Leben der Menschen, die dem Joche entronnen sind.“",
       "start": "2026-06-20T17:30:00",
       "end": null,
@@ -3628,6 +3788,26 @@
       "lat": 52.5258825,
       "lng": 13.4016022,
       "bezirk": "Mitte"
+    },
+    {
+      "title": "gender mix",
+      "start": "2026-06-20T17:30:00",
+      "end": null,
+      "location": "Club Sauna Berlin",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://clubsauna.berlin/events/",
+      "source_name": "Club Sauna Berlin",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true,
+      "genre": "Queer",
+      "subcategory": null,
+      "address": "Mehringdamm 32, 10961 Kreuzberg",
+      "lat": 52.4938045,
+      "lng": 13.3877873,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Screening \"ProPal - for the global justice\" + aperitivo",
@@ -4670,6 +4850,26 @@
       "bezirk": "Charlottenburg-Wilmersdorf"
     },
     {
+      "title": "Aufgüsse am Sonntag",
+      "start": "2026-06-21T17:00:00",
+      "end": null,
+      "location": "Boiler Berlin",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://boiler-berlin.de/en/",
+      "source_name": "Boiler Berlin",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true,
+      "genre": "Queer",
+      "subcategory": null,
+      "address": "Mehringdamm 34, 10961 Kreuzberg",
+      "lat": 52.4936405,
+      "lng": 13.3876998,
+      "bezirk": "Friedrichshain-Kreuzberg"
+    },
+    {
       "title": "Angela Alves: Never Rest (After Work Tours #2)",
       "start": "2026-06-21T17:30:00",
       "end": null,
@@ -4987,6 +5187,26 @@
       "address": "Oranienstraße 14a, 10999 Kreuzberg",
       "lat": 52.5005464,
       "lng": 13.4234541,
+      "bezirk": "Friedrichshain-Kreuzberg"
+    },
+    {
+      "title": "Aufgüsse am Montag",
+      "start": "2026-06-22T17:00:00",
+      "end": null,
+      "location": "Boiler Berlin",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://boiler-berlin.de/en/",
+      "source_name": "Boiler Berlin",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true,
+      "genre": "Queer",
+      "subcategory": null,
+      "address": "Mehringdamm 34, 10961 Kreuzberg",
+      "lat": 52.4936405,
+      "lng": 13.3876998,
       "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
@@ -5430,6 +5650,26 @@
       "bezirk": "Mitte"
     },
     {
+      "title": "Themenabend",
+      "start": "2026-06-23T17:00:00",
+      "end": null,
+      "location": "Boiler Berlin",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://boiler-berlin.de/en/",
+      "source_name": "Boiler Berlin",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true,
+      "genre": "Queer",
+      "subcategory": null,
+      "address": "Mehringdamm 34, 10961 Kreuzberg",
+      "lat": 52.4936405,
+      "lng": 13.3876998,
+      "bezirk": "Friedrichshain-Kreuzberg"
+    },
+    {
       "title": "Flinta*only Kickern",
       "start": "2026-06-23T18:00:00",
       "end": null,
@@ -5808,6 +6048,46 @@
       "lat": null,
       "lng": null,
       "bezirk": null
+    },
+    {
+      "title": "Aufgüsse am Mittwoch",
+      "start": "2026-06-24T17:00:00",
+      "end": null,
+      "location": "Boiler Berlin",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://boiler-berlin.de/en/",
+      "source_name": "Boiler Berlin",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true,
+      "genre": "Queer",
+      "subcategory": null,
+      "address": "Mehringdamm 34, 10961 Kreuzberg",
+      "lat": 52.4936405,
+      "lng": 13.3876998,
+      "bezirk": "Friedrichshain-Kreuzberg"
+    },
+    {
+      "title": "gender mix",
+      "start": "2026-06-24T17:30:00",
+      "end": null,
+      "location": "Club Sauna Berlin",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://clubsauna.berlin/events/",
+      "source_name": "Club Sauna Berlin",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true,
+      "genre": "Queer",
+      "subcategory": null,
+      "address": "Mehringdamm 32, 10961 Kreuzberg",
+      "lat": 52.4938045,
+      "lng": 13.3877873,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "mittwochskufa",
@@ -6270,6 +6550,26 @@
       "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
+      "title": "Bäriger Saunaabend",
+      "start": "2026-06-25T17:00:00",
+      "end": null,
+      "location": "Boiler Berlin",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://boiler-berlin.de/en/",
+      "source_name": "Boiler Berlin",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true,
+      "genre": "Queer",
+      "subcategory": null,
+      "address": "Mehringdamm 34, 10961 Kreuzberg",
+      "lat": 52.4936405,
+      "lng": 13.3876998,
+      "bezirk": "Friedrichshain-Kreuzberg"
+    },
+    {
       "title": "Colleen Ndemeh Fitzgerald: After Work Tours #3",
       "start": "2026-06-25T17:30:00",
       "end": null,
@@ -6288,6 +6588,26 @@
       "lat": 52.5258825,
       "lng": 13.4016022,
       "bezirk": "Mitte"
+    },
+    {
+      "title": "puppy sweat",
+      "start": "2026-06-25T17:30:00",
+      "end": null,
+      "location": "Club Sauna Berlin",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://clubsauna.berlin/events/",
+      "source_name": "Club Sauna Berlin",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true,
+      "genre": "Queer",
+      "subcategory": null,
+      "address": "Mehringdamm 32, 10961 Kreuzberg",
+      "lat": 52.4938045,
+      "lng": 13.3877873,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Offener Treffpunkt Mieter:innen für Mieter:innen!",
@@ -6728,6 +7048,46 @@
       "lat": 52.5258825,
       "lng": 13.4016022,
       "bezirk": "Mitte"
+    },
+    {
+      "title": "Aufgüsse am Freitag",
+      "start": "2026-06-26T17:00:00",
+      "end": null,
+      "location": "Boiler Berlin",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://boiler-berlin.de/en/",
+      "source_name": "Boiler Berlin",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true,
+      "genre": "Queer",
+      "subcategory": null,
+      "address": "Mehringdamm 34, 10961 Kreuzberg",
+      "lat": 52.4936405,
+      "lng": 13.3876998,
+      "bezirk": "Friedrichshain-Kreuzberg"
+    },
+    {
+      "title": "flinta sweat",
+      "start": "2026-06-26T17:30:00",
+      "end": null,
+      "location": "Club Sauna Berlin",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://clubsauna.berlin/events/",
+      "source_name": "Club Sauna Berlin",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true,
+      "genre": "Queer",
+      "subcategory": null,
+      "address": "Mehringdamm 32, 10961 Kreuzberg",
+      "lat": 52.4938045,
+      "lng": 13.3877873,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Potse Raumkampfplenum",
@@ -7510,6 +7870,26 @@
       "bezirk": "Mitte"
     },
     {
+      "title": "Aufgüsse am Samstag",
+      "start": "2026-06-27T17:00:00",
+      "end": null,
+      "location": "Boiler Berlin",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://boiler-berlin.de/en/",
+      "source_name": "Boiler Berlin",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true,
+      "genre": "Queer",
+      "subcategory": null,
+      "address": "Mehringdamm 34, 10961 Kreuzberg",
+      "lat": 52.4936405,
+      "lng": 13.3876998,
+      "bezirk": "Friedrichshain-Kreuzberg"
+    },
+    {
       "title": "Rundgang Ausstellung „Die Anarchie ist das Leben der Menschen, die dem Joche entronnen sind.“",
       "start": "2026-06-27T17:30:00",
       "end": null,
@@ -8070,6 +8450,26 @@
       "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
+      "title": "Aufgüsse am Sonntag",
+      "start": "2026-06-28T17:00:00",
+      "end": null,
+      "location": "Boiler Berlin",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://boiler-berlin.de/en/",
+      "source_name": "Boiler Berlin",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true,
+      "genre": "Queer",
+      "subcategory": null,
+      "address": "Mehringdamm 34, 10961 Kreuzberg",
+      "lat": 52.4936405,
+      "lng": 13.3876998,
+      "bezirk": "Friedrichshain-Kreuzberg"
+    },
+    {
       "title": "Chillout Jam",
       "start": "2026-06-28T18:00:00",
       "end": null,
@@ -8168,6 +8568,26 @@
       "lat": 52.4986606,
       "lng": 13.3022747,
       "bezirk": "Charlottenburg-Wilmersdorf"
+    },
+    {
+      "title": "Aufgüsse am Montag",
+      "start": "2026-06-29T17:00:00",
+      "end": null,
+      "location": "Boiler Berlin",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://boiler-berlin.de/en/",
+      "source_name": "Boiler Berlin",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true,
+      "genre": "Queer",
+      "subcategory": null,
+      "address": "Mehringdamm 34, 10961 Kreuzberg",
+      "lat": 52.4936405,
+      "lng": 13.3876998,
+      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Guided Self-Tying Session",

@@ -1,35 +1,26 @@
-Events: 0
-len(html)=348902 | .mec-event-article=30 | 'mec-toggle' im html=True
-erste Klasse: ['mec-past-event', 'mec-event-article', 'mec-clear', 'mec-divider-toggle', 'mec-toggle-202606-mec1']
-erstes Element: <article class="mec-past-event mec-event-article mec-clear mec-divider-toggle mec-toggle-202606-mec1" itemscope="">
- <!-- toggles wrap start -->
- <div class="mec-events-toggle">
-  <!-- toggle item start -->
-  <div class="mec-toggle-item">
-   <div class="mec-toggle-item-inner" tabindex="0">
-    <div class="mec-toggle-item-col">
-     <div class="mec-event-date">
-      Di.
-     </div>
-     <div class="mec-event-month">
-      16. Juni
-     </div>
-     <div class="mec-time-details">
-      <span class="mec-start-time">
-       17:00
-      </span>
-      -
-      <span class="mec-end-time">
-       21:00
-      </span>
-     </div>
-    </div>
-    <h3 class="mec-toggle-title">
-     Themenabend
-     <span class="event-color" style="background: #e14d43">
-     </span>
-    </h3>
-    <i class="mec-sl-arrow-down">
-    </i>
-   </div>
-   <div aria-hidden="true" class="mec-content-toggle" style="display: none;
+Events: 30
+  2026-06-16 17:00:00 | Themenabend
+  2026-06-17 17:00:00 | youngStars
+  2026-06-18 17:00:00 | ‘Grüner Donnerstag’
+  2026-06-19 17:00:00 | Aufgüsse am Freitag
+  2026-06-20 17:00:00 | Aufgüsse am Samstag
+  2026-06-21 17:00:00 | Aufgüsse am Sonntag
+  2026-06-22 17:00:00 | Aufgüsse am Montag
+  2026-06-23 17:00:00 | Themenabend
+  2026-06-24 17:00:00 | Aufgüsse am Mittwoch
+  2026-06-25 17:00:00 | Bäriger Saunaabend
+  2026-06-26 17:00:00 | Aufgüsse am Freitag
+  2026-06-27 17:00:00 | Aufgüsse am Samstag
+  2026-06-28 17:00:00 | Aufgüsse am Sonntag
+  2026-06-29 17:00:00 | Aufgüsse am Montag
+  2026-06-30 17:00:00 | Themenabend
+  2026-07-01 17:00:00 | youngStars
+  2026-07-02 17:00:00 | Wohlfühlabend
+  2026-07-03 17:00:00 | Aufgüsse am Freitag
+  2026-07-04 17:00:00 | Aufgüsse am Samstag
+  2026-07-05 17:00:00 | Aufgüsse am Sonntag
+  2026-07-06 17:00:00 | Aufgüsse am Montag
+  2026-07-07 17:00:00 | Themenabend
+  2026-07-08 17:00:00 | Aufgüsse am Mittwoch
+  2026-07-09 17:00:00 | Wohlfühlabend
+  2026-07-10 17:00:00 | Aufgüsse am Freitag

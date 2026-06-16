@@ -724,16 +724,26 @@ function openModal(ev) {
     const parts = [ev.location, ev.address].filter(Boolean);
     // Avoid printing the same string twice when location == address.
     const label = parts.filter((p, i) => parts.indexOf(p) === i).join(" · ");
-    const q = encodeURIComponent(ev.address || ev.location + ", Berlin");
-    loc.innerHTML = '📍 <a href="https://www.openstreetmap.org/search?query=' +
-      q + '" target="_blank" rel="noopener noreferrer"></a>';
-    loc.querySelector("a").textContent = label;
+
+    const toggle = document.createElement("button");
+    toggle.type = "button";
+    toggle.className = "modal-loc-toggle";
+    const txt = document.createElement("span");
+    txt.textContent = "📍 " + label;
+    toggle.appendChild(txt);
     if (ev.bezirk) {
       const b = document.createElement("span");
       b.className = "modal-bezirk";
       b.textContent = " (" + ev.bezirk + ")";
-      loc.appendChild(b);
+      toggle.appendChild(b);
     }
+    loc.appendChild(toggle);
+
+    const panel = document.createElement("div");
+    panel.className = "modal-map-panel";
+    panel.hidden = true;
+    loc.appendChild(panel);
+    toggle.addEventListener("click", () => toggleAddressPanel(ev, toggle, panel, label));
     body.appendChild(loc);
   }
 
@@ -827,9 +837,58 @@ function openModal(ev) {
   document.body.style.overflow = "hidden";
 }
 
+let modalMap = null;
+
+// Click on the address -> expand an embedded map with a "copy address" button.
+async function toggleAddressPanel(ev, toggle, panel, label) {
+  const opening = panel.hidden;
+  panel.hidden = !opening;
+  toggle.classList.toggle("open", opening);
+  if (!opening || panel.dataset.built) return;
+  panel.dataset.built = "1";
+
+  const copy = document.createElement("button");
+  copy.type = "button";
+  copy.className = "btn map-copy-btn";
+  copy.textContent = "📋 Adresse kopieren";
+  const toCopy = ev.address || ev.location || label;
+  copy.addEventListener("click", async (e) => {
+    e.stopPropagation();
+    try { await navigator.clipboard.writeText(toCopy); toast("Adresse kopiert"); }
+    catch { toast("Konnte nicht kopieren"); }
+  });
+  panel.appendChild(copy);
+
+  const mapDiv = document.createElement("div");
+  mapDiv.className = "modal-map";
+  panel.appendChild(mapDiv);
+
+  let lat = ev.lat, lng = ev.lng;
+  if (typeof lat !== "number" || typeof lng !== "number") {
+    const q = ev.address || (ev.location ? ev.location + ", Berlin" : label);
+    const geo = await geocodeClient(q);
+    if (geo) { lat = geo.lat; lng = geo.lng; }
+  }
+  if (typeof L === "undefined" || typeof lat !== "number" || typeof lng !== "number") {
+    mapDiv.innerHTML = '<p class="status">Karte für diese Adresse nicht verfügbar.</p>';
+    return;
+  }
+  if (modalMap) { modalMap.remove(); modalMap = null; }
+  modalMap = L.map(mapDiv, { scrollWheelZoom: false, attributionControl: true })
+    .setView([lat, lng], 15);
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+    { maxZoom: 19, attribution: "© OpenStreetMap" }).addTo(modalMap);
+  L.circleMarker([lat, lng], {
+    radius: 9, color: "#fff", weight: 2,
+    fillColor: genreColor(ev.genre), fillOpacity: 0.95,
+  }).addTo(modalMap);
+  setTimeout(() => modalMap && modalMap.invalidateSize(), 60);
+}
+
 function closeModal() {
   els.modalBackdrop.setAttribute("hidden", "");
   document.body.style.overflow = "";
+  if (modalMap) { modalMap.remove(); modalMap = null; }
 }
 
 // ---------------- Favourites ----------------

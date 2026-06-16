@@ -99,7 +99,12 @@ class KoenigScraper(BaseScraper):
                     tags=["Theater"],
                 ))
 
-        self._dump(f"Events: {len(events)} | Shows erkannt: {len(shows)}\n" +
+        diag = ""
+        if not events:
+            dates = [m.group(0) for m in DATE_RE.finditer(text)][:8]
+            diag = (f"len(text)={len(text)} | DATE-Treffer={dates}\n"
+                    f"TEXT[:1500]: {text[:1500]}\n")
+        self._dump(f"Events: {len(events)} | Shows erkannt: {len(shows)}\n{diag}" +
                    "\n".join(f"  {e.start.date()} | {e.title} @ {e.location}"
                              for e in events[:20]))
         return events

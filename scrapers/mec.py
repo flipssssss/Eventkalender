@@ -46,16 +46,24 @@ class MecScraper(BaseScraper):
             self._dump(f"FEHLER: {exc}")
             return []
         soup = BeautifulSoup(html, "html.parser")
+        arts = soup.select(".mec-event-article")
         events: list[Event] = []
         seen: set[str] = set()
-        for art in soup.select(".mec-event-article"):
+        for art in arts:
             ev = self._build(art)
             if ev:
                 key = f"{ev.title.lower()}|{ev.start.date()}"
                 if key not in seen:
                     seen.add(key)
                     events.append(ev)
-        self._dump(f"Events: {len(events)}\n" +
+        diag = ""
+        if not events:
+            first = arts[0] if arts else None
+            diag = (f"len(html)={len(html)} | .mec-event-article={len(arts)} | "
+                    f"'mec-toggle' im html={'mec-toggle' in html}\n"
+                    f"erste Klasse: {first.get('class') if first else '-'}\n"
+                    f"erstes Element: {first.prettify()[:900] if first else '-'}\n")
+        self._dump(f"Events: {len(events)}\n{diag}" +
                    "\n".join(f"  {e.start} | {e.title}" for e in events[:25]))
         return events
 

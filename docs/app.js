@@ -25,6 +25,9 @@ const SOURCES_KEY = "ek_disabled_sources";
 const BEZIRKE_KEY = "ek_disabled_bezirke";
 const VIEW_KEY = "ek_view";
 const SORT_KEY = "ek_sort";  // "time" | "category" | "genre"
+// Tage in die Zukunft, die der Feed zeigt (muss zu aggregate.py passen).
+// Wird gebraucht, um laufende Ausstellungen an jedem Tag einzublenden.
+const HORIZON_DAYS = 14;
 // Formspree-Endpoint für Quellen-Vorschläge.
 const WISH_ENDPOINT = "https://formspree.io/f/xjgdlbnl";
 
@@ -580,17 +583,46 @@ function dayKey(d) {
   return d.getFullYear() + "-" + pad(d.getMonth() + 1) + "-" + pad(d.getDate());
 }
 
+function dayStart(d) {
+  const x = new Date(d);
+  x.setHours(0, 0, 0, 0);
+  return x;
+}
+
+function isExhibition(ev) {
+  return (ev.tags || []).includes("Ausstellung");
+}
+
 function render() {
   const visible = state.events.filter((e) => matches(e));
 
+  const today = dayStart(new Date());
+  const horizon = dayStart(new Date());
+  horizon.setDate(horizon.getDate() + HORIZON_DAYS);
+
   const groups = new Map();
+  const ensureDay = (key, date) => {
+    if (!groups.has(key)) groups.set(key, { date: new Date(date), events: [] });
+    return groups.get(key);
+  };
+
   for (const ev of visible) {
-    const d = new Date(ev.start);
+    // Ausstellungen laufen über einen Zeitraum -> an jedem Tag ihres Laufs
+    // (von start bis end, begrenzt auf [heute, Horizont]) einblenden.
+    if (isExhibition(ev)) {
+      let cur = dayStart(new Date(ev.start));
+      if (cur < today) cur = new Date(today);
+      let last = ev.end ? dayStart(new Date(ev.end)) : new Date(horizon);
+      if (last > horizon) last = new Date(horizon);
+      for (; cur <= last; cur.setDate(cur.getDate() + 1)) {
+        ensureDay(dayKey(cur), cur).events.push(ev);
+      }
+      continue;
+    }
     // Nach LOKALEM Datum gruppieren (sonst landen 00:00-Events über UTC
     // auf einem anderen Tag -> Tag erscheint doppelt).
-    const key = dayKey(d);
-    if (!groups.has(key)) groups.set(key, { date: d, events: [] });
-    groups.get(key).events.push(ev);
+    const d = new Date(ev.start);
+    ensureDay(dayKey(d), d).events.push(ev);
   }
   const sortedKeys = [...groups.keys()].sort();
 
@@ -637,6 +669,48 @@ function shouldCollapse(cat) {
 // hide behind a "+ N weitere …" toggle.
 const COLLAPSE_PREVIEW = 3;
 
+// Append a category's cards into `container`. For the flood categories
+// (Kino/Ausstellung) only the first few show; the rest hide behind a
+// "+ N weitere …" toggle (built lazily on first open). Used in every sort mode.
+function appendCategoryCards(container, cat, list) {
+  const grid = document.createElement("div");
+  grid.className = "cards";
+  container.appendChild(grid);
+
+  if (!shouldCollapse(cat)) {
+    for (const ev of list) grid.appendChild(renderCard(ev));
+    return;
+  }
+
+  const meta = COLLAPSE_CATS[cat];
+  const preview = list.slice(0, COLLAPSE_PREVIEW);
+  const rest = list.slice(COLLAPSE_PREVIEW);
+  for (const ev of preview) grid.appendChild(renderCard(ev));
+  if (!rest.length) return;
+
+  const det = document.createElement("details");
+  det.className = "cat-collapse";
+  const sum = document.createElement("summary");
+  sum.className = "cat-collapse-summary";
+  sum.textContent = `+ ${rest.length} weitere ` +
+    (rest.length === 1 ? meta.one : meta.many);
+  det.appendChild(sum);
+
+  const inner = document.createElement("div");
+  inner.className = "cards cat-collapse-cards";
+  det.appendChild(inner);
+
+  let built = false;
+  det.addEventListener("toggle", () => {
+    if (det.open && !built) {
+      built = true;
+      for (const ev of rest) inner.appendChild(renderCard(ev));
+    }
+  });
+  container.appendChild(det);
+}
+
+// Time mode: a labelled box (Kino/Ausstellungen) at the end of the day.
 function renderCollapsedCategory(cat, list) {
   const meta = COLLAPSE_CATS[cat];
   const section = document.createElement("section");
@@ -653,37 +727,7 @@ function renderCollapsedCategory(cat, list) {
   head.append(title, count);
   section.appendChild(head);
 
-  const preview = list.slice(0, COLLAPSE_PREVIEW);
-  const rest = list.slice(COLLAPSE_PREVIEW);
-
-  const grid = document.createElement("div");
-  grid.className = "cards";
-  for (const ev of preview) grid.appendChild(renderCard(ev));
-  section.appendChild(grid);
-
-  if (!rest.length) return section;
-
-  const det = document.createElement("details");
-  det.className = "cat-collapse";
-  const sum = document.createElement("summary");
-  sum.className = "cat-collapse-summary";
-  sum.textContent = `+ ${rest.length} weitere ` +
-    (rest.length === 1 ? meta.one : meta.many);
-  det.appendChild(sum);
-
-  const inner = document.createElement("div");
-  inner.className = "cards cat-collapse-cards";
-  det.appendChild(inner);
-
-  // Build the remaining cards only when the toggle is first opened.
-  let built = false;
-  det.addEventListener("toggle", () => {
-    if (det.open && !built) {
-      built = true;
-      for (const ev of rest) inner.appendChild(renderCard(ev));
-    }
-  });
-  section.appendChild(det);
+  appendCategoryCards(section, cat, list);
   return section;
 }
 
@@ -747,10 +791,7 @@ function renderDayByCategory(events, group) {
   for (const cat of orderedKeys(byCat.keys(), SORT_CATEGORY_ORDER)) {
     const list = byCat.get(cat).sort(byStart);
     const box = buildSortBox(cat, list.length);
-    const grid = document.createElement("div");
-    grid.className = "cards sort-box-cards";
-    for (const ev of list) grid.appendChild(renderCard(ev));
-    box.appendChild(grid);
+    appendCategoryCards(box, cat, list);
     group.appendChild(box);
   }
 }
@@ -765,10 +806,7 @@ function renderDayByGenre(events, group) {
     for (const cat of orderedKeys(byCat.keys(), SORT_CATEGORY_ORDER)) {
       const list = byCat.get(cat).sort(byStart);
       const sub = buildSortBox(cat, list.length, "sort-subbox");
-      const grid = document.createElement("div");
-      grid.className = "cards sort-box-cards";
-      for (const ev of list) grid.appendChild(renderCard(ev));
-      sub.appendChild(grid);
+      appendCategoryCards(sub, cat, list);
       box.appendChild(sub);
     }
     group.appendChild(box);

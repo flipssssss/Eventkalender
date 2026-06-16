@@ -21,43 +21,110 @@
     Georgia, "Times New Roman", serif;
 }
 
-/* ---- Punk-Theme: dunkel, kantig, Typewriter, Lila ---- */
+/* ============================================================
+   PUNK-FAMILIE (3 Varianten): DIY-Zine-Ästhetik -- harte Kanten, fette
+   Versalien (Anton), Offset-Schatten, schief geklebte Karten, Fotokopier-
+   Grain. Jede Variante mit eigener Farbwelt.
+   ============================================================ */
+
+/* Punk -- Schwarz/Weiß-Fotokopie, Blutrot. */
 :root[data-theme="punk"] {
-  --bg: #0d0c10;
-  --surface: #16141c;
-  --surface-2: #1d1926;
-  --text: #ece8f4;
-  --muted: #8a7ea6;
-  --accent: #b572ff;      /* Lila */
-  --accent-soft: rgba(181, 114, 255, 0.16);
-  --border: #322a44;
-  --radius: 0px;          /* kantig */
-  --shadow: 0 4px 0 rgba(181, 114, 255, 0.25);
-  --serif: "Courier New", Courier, "Lucida Console", ui-monospace, monospace;
+  --bg: #e7e3d6; --surface: #f3f0e7; --surface-2: #e1dac9;
+  --text: #0a0a0a; --muted: #4d4a44;
+  --accent: #d61f00; --accent-soft: rgba(214, 31, 0, 0.14);
+  --border: #0a0a0a; --radius: 0px;
+  --shadow: 5px 5px 0 #0a0a0a;
+  --serif: "Helvetica Neue", Arial, sans-serif;
+  --display: "Anton", "Arial Narrow", sans-serif;
+  --grain: 0.4;
 }
 
-/* Kantig: runde Ecken in Punk hart machen */
-:root[data-theme="punk"] .genre-chip,
-:root[data-theme="punk"] .day-tab,
-:root[data-theme="punk"] .btn,
-:root[data-theme="punk"] .card-fav,
-:root[data-theme="punk"] .modal-close,
-:root[data-theme="punk"] .card-tag,
-:root[data-theme="punk"] .toast,
-:root[data-theme="punk"] .search-input {
+/* Riot -- tiefschwarz, heißes Magenta, Riot-Grrrl. */
+:root[data-theme="riot"] {
+  --bg: #0a0a0a; --surface: #17111a; --surface-2: #20121c;
+  --text: #f6eef2; --muted: #d98bb6;
+  --accent: #ff1f6b; --accent-soft: rgba(255, 31, 107, 0.18);
+  --border: #ff1f6b; --radius: 0px;
+  --shadow: 5px 5px 0 #ff1f6b;
+  --serif: "Helvetica Neue", Arial, sans-serif;
+  --display: "Anton", "Arial Narrow", sans-serif;
+  --grain: 0.3;
+}
+
+/* Toxic -- Crust-Punk, Säuregrün auf Schwarz, Schreibmaschine. */
+:root[data-theme="toxic"] {
+  --bg: #0a0d09; --surface: #11160f; --surface-2: #161d12;
+  --text: #e6fbe0; --muted: #84b079;
+  --accent: #5cff2e; --accent-soft: rgba(92, 255, 46, 0.16);
+  --border: #5cff2e; --radius: 0px;
+  --shadow: 5px 5px 0 #5cff2e;
+  --serif: "Special Elite", "Courier New", monospace;
+  --display: "Anton", "Arial Narrow", sans-serif;
+  --grain: 0.3;
+}
+
+/* ---- Gemeinsame Punk-Struktur ---- */
+/* Fotokopier-Grain über der Seite (Header/Modals liegen darüber). */
+:is([data-theme="punk"], [data-theme="riot"], [data-theme="toxic"]) body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  opacity: var(--grain);
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 150px 150px;
+}
+
+/* Harte Kanten auf den sonst runden Bauteilen erzwingen. */
+:is([data-theme="punk"], [data-theme="riot"], [data-theme="toxic"]) :is(
+  .genre-chip, .day-tab, .btn, .card-fav, .modal-close, .card-tag, .tag-chip,
+  .toast, .search-input, .sort-btn, .theme-btn, .cat-collapse-summary,
+  .source-count, .icon-toggle, .view-btn) {
   border-radius: 0 !important;
 }
 
-:root[data-theme="punk"] .day-heading,
-:root[data-theme="punk"] .modal-title,
-:root[data-theme="punk"] .settings-h,
-:root[data-theme="punk"] .settings-subh {
+/* Display-Schrift + Versalien für Überschriften. */
+:is([data-theme="punk"], [data-theme="riot"], [data-theme="toxic"]) :is(
+  .day-heading, .modal-title, .settings-h, .settings-subh, .sort-box-title,
+  .cat-section-title, .modal-runsuntil) {
+  font-family: var(--display);
+  font-weight: 400;
   text-transform: uppercase;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.03em;
 }
 
-:root[data-theme="punk"] .card {
-  border-color: var(--border);
+:is([data-theme="punk"], [data-theme="riot"], [data-theme="toxic"]) .day-heading {
+  border-bottom: 4px solid var(--border);
+}
+
+/* Karten: fetter Rand, harter Offset-Schatten, leicht schief geklebt. */
+:is([data-theme="punk"], [data-theme="riot"], [data-theme="toxic"]) .card {
+  border: 3px solid var(--border);
+  box-shadow: var(--shadow);
+}
+:is([data-theme="punk"], [data-theme="riot"], [data-theme="toxic"]) .cards > .card:nth-child(3n) {
+  transform: rotate(-0.8deg);
+}
+:is([data-theme="punk"], [data-theme="riot"], [data-theme="toxic"]) .cards > .card:nth-child(3n + 2) {
+  transform: rotate(0.6deg);
+}
+:is([data-theme="punk"], [data-theme="riot"], [data-theme="toxic"]) .card:hover {
+  transform: rotate(0) translateY(-3px);
+  box-shadow: 7px 7px 0 var(--accent);
+}
+
+/* Sortier-/Kategorie-Kästen kantig mit Rand. */
+:is([data-theme="punk"], [data-theme="riot"], [data-theme="toxic"]) :is(.sort-box, .cat-section) {
+  border: 2px solid var(--border);
+}
+
+/* Aktive Tag-/Tagesreiter als satte Blöcke (Genre behält seine Farbe). */
+:is([data-theme="punk"], [data-theme="riot"], [data-theme="toxic"]) :is(.tag-chip.active, .day-tab.active) {
+  background: var(--accent);
+  color: var(--bg);
+  border-color: var(--accent);
 }
 
 /* ---- Hyperpop-Theme: knallig, verrückte Fonts & Farben ---- */
@@ -815,13 +882,13 @@ body {
   box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.4);
 }
 
-/* Punk: Kink (Schwarz) ist auf dunklem Hintergrund unsichtbar -> aufhellen. */
-:root[data-theme="punk"] .g-kink {
-  --gc: #b9a9e0;
+/* Dunkle Themes: Kink (Schwarz) ist auf dunklem Grund unsichtbar -> aufhellen. */
+:is([data-theme="riot"], [data-theme="toxic"]) .g-kink {
+  --gc: #e7dcff;
 }
-:root[data-theme="punk"] .g-kink.genre-badge,
-:root[data-theme="punk"] .genre-chip.g-kink.active {
-  color: #16141c;
+:is([data-theme="riot"], [data-theme="toxic"]) .g-kink.genre-badge,
+:is([data-theme="riot"], [data-theme="toxic"]) .genre-chip.g-kink.active {
+  color: #0a0a0a;
 }
 
 /* Genre-Filter: farbiger Punkt + farbiger Aktiv-Zustand */
@@ -877,11 +944,13 @@ body {
 
 .theme-options {
   display: flex;
-  gap: 12px;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .theme-btn {
-  flex: 1;
+  flex: 1 1 28%;
+  min-width: 90px;
   display: flex;
   flex-direction: column;
   gap: 4px;
@@ -1189,9 +1258,13 @@ html.map-active .site-footer {
 }
 
 [data-theme="punk"] .leaflet-tile {
-  /* Dunkle Karte: invertieren + Farbton zurückdrehen, leicht ins Lila. */
-  filter: invert(1) hue-rotate(180deg) brightness(0.85) contrast(0.95)
-    saturate(0.8);
+  /* Schwarz/Weiß-Fotokopie: entsättigt + hart. */
+  filter: grayscale(1) contrast(1.3) brightness(1.05);
+}
+
+:is([data-theme="riot"], [data-theme="toxic"]) .leaflet-tile {
+  /* Dunkle Karte: invertieren, entsättigt, hart. */
+  filter: invert(1) grayscale(0.6) contrast(1.1) brightness(0.85);
 }
 
 [data-theme="hyperpop"] .leaflet-tile {

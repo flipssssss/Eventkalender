@@ -17,11 +17,11 @@
   <meta name="apple-mobile-web-app-title" content="Events" />
   <link rel="manifest" href="site.webmanifest" />
 
-  <!-- Schriften für das Hyperpop-Theme -->
+  <!-- Schriften für die Hyperpop- und Punk-Themes -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
-    href="https://fonts.googleapis.com/css2?family=Bungee&family=Fredoka:wght@400;600;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Bungee&family=Fredoka:wght@400;600;700&family=Anton&family=Special+Elite&display=swap"
     rel="stylesheet"
   />
 
@@ -30,7 +30,8 @@
     try {
       var t = localStorage.getItem("ek_theme") || "buergi";
       if (t !== "buergi") document.documentElement.setAttribute("data-theme", t);
-      var colors = { buergi: "#f3e9d8", punk: "#0d0c10", hyperpop: "#ffe0fb" };
+      var colors = { buergi: "#f3e9d8", punk: "#e7e3d6", riot: "#0a0a0a",
+        toxic: "#0a0d09", hyperpop: "#ffe0fb" };
       var m = document.querySelector('meta[name="theme-color"]');
       if (m && colors[t]) m.setAttribute("content", colors[t]);
     } catch (e) {}
@@ -155,6 +156,8 @@
           <div class="theme-options" id="theme-options">
             <button type="button" class="theme-btn" data-theme="buergi">Bürgi</button>
             <button type="button" class="theme-btn" data-theme="punk">Punk</button>
+            <button type="button" class="theme-btn" data-theme="riot">Riot</button>
+            <button type="button" class="theme-btn" data-theme="toxic">Toxic</button>
             <button type="button" class="theme-btn" data-theme="hyperpop">Hyperpop</button>
           </div>
           <h4 class="settings-subh">Sortieren nach</h4>

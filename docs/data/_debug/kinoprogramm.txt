@@ -1,10 +1,6 @@
-Vorstellungen gesamt: 295 | Filmbilder: 56
-Sputnik: 52 Vorstellungen
-Lichtblick: 17 Vorstellungen
-Kino Zukunft: 29 Vorstellungen
-Ladenkino: 140 Vorstellungen
+Vorstellungen gesamt: 319 | Filmbilder: 286
+Sputnik: 49 Vorstellungen
+Lichtblick: 16 Vorstellungen
+Kino Zukunft: 26 Vorstellungen
+Ladenkino: 171 Vorstellungen
 Wolf Kino: 57 Vorstellungen
-1. Film https://www.berlin.de/kino/_bin/filmdetail.php/312448/
-  poster=/kino/_img/filmbilder/p_312448_Print2.jpg
-  alle img-srcs=['https://www.berlin.de/css/berlin_de/foxtrot/images/logo_berlin_m_srgb.svg', '/kino/_img/filmbilder/p_312448_Print2.jpg', '/kino/_img/filmbilder/p_312448_Print3.jpg', '/kino/_img/filmbilder/p_312448_Print4.jpg', '/kino/_img/filmbilder/p_312448_Print5.jpg', '/kino/_img/filmbilder/p_312448_Print6.jpg', '/kino/_img/filmbilder/p_312448_Print7.jpg', '/kino/_img/filmbilder/p_312448_Print8.jpg']
-  desc=Azza hat in ihrem Leben bereits einige Hürden gemeistert. Mit 16 Jahren wurde sie in Saudi-Arabien verheiratet. Aus der 

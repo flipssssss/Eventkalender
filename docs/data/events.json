@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-16T11:31:29.376732+00:00",
-  "count": 576,
+  "generated_at": "2026-06-16T11:39:56.506180+00:00",
+  "count": 590,
   "sources": [
     {
       "source": "Quälgeist",
@@ -34,7 +34,7 @@
     },
     {
       "source": "Resident Advisor",
-      "count": 24,
+      "count": 76,
       "error": null
     },
     {
@@ -141,8 +141,8 @@
       "start": "2026-06-16T11:00:00",
       "end": null,
       "location": "2 Kinos",
-      "description": "Derya und Aziz sind beide in der Theaterszene von Ankara aktiv und führen, gemeinsam mit ihrer 13-jährigen Tochter Ezgi, ein glückliches Leben. Doch ein Zwischenfall bei der Premiere ihres neuen St...",
-      "image_url": "https://www.berlin.de/kino/_img/filmbilder/p_312336_Print2.jpg",
+      "description": null,
+      "image_url": null,
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/312336/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -574,6 +574,27 @@
           "note": "OV"
         }
       ]
+    },
+    {
+      "title": "://sektgarten  x Elektrosekt [free entry & open air]",
+      "start": "2026-06-16T17:00:00",
+      "end": null,
+      "location": "://about blank, Berlin",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://ra.co/events/2455067",
+      "source_name": "Resident Advisor",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true,
+      "genre": "Queer",
+      "subcategory": null,
+      "address": "Markgrafendamm 24c, 10245 Friedrichshain",
+      "lat": 52.5024767,
+      "lng": 13.466302,
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Themenabend",
@@ -1316,8 +1337,8 @@
       "start": "2026-06-16T20:00:00",
       "end": null,
       "location": "Ladenkino",
-      "description": null,
-      "image_url": null,
+      "description": "Obwohl Bear und Nikki schon seit Ewigkeiten beste Freunde sind, hat Bear nie den Mut gefunden, Nikki seine wahren Gefühle zu gestehen. Als er eines Tages den &quot;One-Wish-Willow&quot; entdeckt, ein mysteriö...",
+      "image_url": "https://www.berlin.de/kino/_img/filmbilder/p_313721_Print2.jpg",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313721/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -2479,6 +2500,27 @@
       "showings": null
     },
     {
+      "title": "://sektgarten x Deviant Sound Studies [free entry & open air]",
+      "start": "2026-06-17T17:00:00",
+      "end": null,
+      "location": "://about blank, Berlin",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://ra.co/events/2462608",
+      "source_name": "Resident Advisor",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true,
+      "genre": "Queer",
+      "subcategory": null,
+      "address": "Markgrafendamm 24c, 10245 Friedrichshain",
+      "lat": 52.5024767,
+      "lng": 13.466302,
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
+    },
+    {
       "title": "youngStars",
       "start": "2026-06-17T17:00:00",
       "end": null,
@@ -3553,8 +3595,8 @@
       "start": "2026-06-17T21:00:00",
       "end": null,
       "location": "Sputnik",
-      "description": "Derya und Aziz sind beide in der Theaterszene von Ankara aktiv und führen, gemeinsam mit ihrer 13-jährigen Tochter Ezgi, ein glückliches Leben. Doch ein Zwischenfall bei der Premiere ihres neuen St...",
-      "image_url": "https://www.berlin.de/kino/_img/filmbilder/p_312336_Print2.jpg",
+      "description": null,
+      "image_url": null,
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/312336/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -5062,6 +5104,27 @@
       "showings": null
     },
     {
+      "title": "://sektgarten x Tag der offenen LETZTEN WIESE [free entry & open air]",
+      "start": "2026-06-19T17:00:00",
+      "end": null,
+      "location": "://about blank, Berlin",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://ra.co/events/2455070",
+      "source_name": "Resident Advisor",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true,
+      "genre": "Queer",
+      "subcategory": null,
+      "address": "Markgrafendamm 24c, 10245 Friedrichshain",
+      "lat": 52.5024767,
+      "lng": 13.466302,
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
+    },
+    {
       "title": "Aufgüsse am Freitag",
       "start": "2026-06-19T17:00:00",
       "end": null,
@@ -5881,6 +5944,27 @@
       ]
     },
     {
+      "title": "ZWISCHENZEIT",
+      "start": "2026-06-19T22:00:00",
+      "end": null,
+      "location": "Beate Uwe, Berlin",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://ra.co/events/2422139",
+      "source_name": "Resident Advisor",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true,
+      "genre": "Queer",
+      "subcategory": null,
+      "address": "Schillingstraße 31, 10179 Mitte",
+      "lat": 52.5174812,
+      "lng": 13.419024,
+      "bezirk": "Mitte",
+      "showings": null
+    },
+    {
       "title": "DADDY MEETS TWINK",
       "start": "2026-06-19T22:00:00",
       "end": null,
@@ -5898,6 +5982,27 @@
       "address": "Am Wriezener Bahnhof, 10243 Friedrichshain",
       "lat": 52.5114484,
       "lng": 13.4407738,
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
+    },
+    {
+      "title": "PUDDING ∞ LETZTE WIESE _ Parteeyyy nach'm ://sektgarten_",
+      "start": "2026-06-19T23:00:00",
+      "end": null,
+      "location": "://about blank, Berlin",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://ra.co/events/2381946",
+      "source_name": "Resident Advisor",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true,
+      "genre": "Queer",
+      "subcategory": null,
+      "address": "Markgrafendamm 24c, 10245 Friedrichshain",
+      "lat": 52.5024767,
+      "lng": 13.466302,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": null
     },
@@ -6288,6 +6393,27 @@
       "lat": 52.470975,
       "lng": 13.4309683,
       "bezirk": "Neukölln",
+      "showings": null
+    },
+    {
+      "title": "Killekill & Krake Festival present: ALLE ODER KEINE:R",
+      "start": "2026-06-20T16:00:00",
+      "end": null,
+      "location": "://about blank, Berlin",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://ra.co/events/2438479",
+      "source_name": "Resident Advisor",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true,
+      "genre": "Queer",
+      "subcategory": null,
+      "address": "Markgrafendamm 24c, 10245 Friedrichshain",
+      "lat": 52.5024767,
+      "lng": 13.466302,
+      "bezirk": "Friedrichshain-Kreuzberg",
       "showings": null
     },
     {
@@ -7189,6 +7315,27 @@
       "showings": null
     },
     {
+      "title": "Beate Invites /// L.U.V. YOUR HOUSE",
+      "start": "2026-06-20T22:00:00",
+      "end": null,
+      "location": "Beate Uwe, Berlin",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://ra.co/events/2453198",
+      "source_name": "Resident Advisor",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true,
+      "genre": "Queer",
+      "subcategory": null,
+      "address": "Schillingstraße 31, 10179 Mitte",
+      "lat": 52.5174812,
+      "lng": 13.419024,
+      "bezirk": "Mitte",
+      "showings": null
+    },
+    {
       "title": "MUD PARTY",
       "start": "2026-06-20T22:00:00",
       "end": null,
@@ -7579,6 +7726,27 @@
       "address": "Schreinerstraße 47, 10247 Friedrichshain",
       "lat": 52.5171409,
       "lng": 13.4673202,
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
+    },
+    {
+      "title": "://sektgarten x sekt De La Musique [free entry & open air]",
+      "start": "2026-06-21T14:00:00",
+      "end": null,
+      "location": "://about blank, Berlin",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://ra.co/events/2455072",
+      "source_name": "Resident Advisor",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true,
+      "genre": "Queer",
+      "subcategory": null,
+      "address": "Markgrafendamm 24c, 10245 Friedrichshain",
+      "lat": 52.5024767,
+      "lng": 13.466302,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": null
     },
@@ -9491,6 +9659,27 @@
       "showings": null
     },
     {
+      "title": "://sektgarten x Eva invites Gleisi [free entry & open air]",
+      "start": "2026-06-23T17:00:00",
+      "end": null,
+      "location": "://about blank, Berlin",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://ra.co/events/2458245",
+      "source_name": "Resident Advisor",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true,
+      "genre": "Queer",
+      "subcategory": null,
+      "address": "Markgrafendamm 24c, 10245 Friedrichshain",
+      "lat": 52.5024767,
+      "lng": 13.466302,
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
+    },
+    {
       "title": "Themenabend",
       "start": "2026-06-23T17:00:00",
       "end": null,
@@ -10235,6 +10424,27 @@
           "note": null
         }
       ]
+    },
+    {
+      "title": "://sektgarten x kotti cabana [free entry & open air]",
+      "start": "2026-06-24T17:00:00",
+      "end": null,
+      "location": "://about blank, Berlin",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://ra.co/events/2455075",
+      "source_name": "Resident Advisor",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true,
+      "genre": "Queer",
+      "subcategory": null,
+      "address": "Markgrafendamm 24c, 10245 Friedrichshain",
+      "lat": 52.5024767,
+      "lng": 13.466302,
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Aufgüsse am Mittwoch",
@@ -11055,6 +11265,27 @@
       "address": "An der Schillingbrücke 3, 10243 Friedrichshain",
       "lat": 52.5091664,
       "lng": 13.4307181,
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
+    },
+    {
+      "title": "Sektgarten x Sweet Gourmet mit Lesung [free entry & open air]",
+      "start": "2026-06-25T17:00:00",
+      "end": null,
+      "location": "://about blank, Berlin",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://ra.co/events/2458257",
+      "source_name": "Resident Advisor",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true,
+      "genre": "Queer",
+      "subcategory": null,
+      "address": "Markgrafendamm 24c, 10245 Friedrichshain",
+      "lat": 52.5024767,
+      "lng": 13.466302,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": null
     },
@@ -12088,6 +12319,48 @@
       "showings": null
     },
     {
+      "title": "★ LOWKEY STARS WEEKENDER ☆",
+      "start": "2026-06-26T23:00:00",
+      "end": null,
+      "location": "://about blank, Berlin",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://ra.co/events/2326919",
+      "source_name": "Resident Advisor",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true,
+      "genre": "Queer",
+      "subcategory": null,
+      "address": "Markgrafendamm 24c, 10245 Friedrichshain",
+      "lat": 52.5024767,
+      "lng": 13.466302,
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
+    },
+    {
+      "title": "klein+FEIN",
+      "start": "2026-06-26T23:00:00",
+      "end": null,
+      "location": "Beate Uwe, Berlin",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://ra.co/events/2450914",
+      "source_name": "Resident Advisor",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true,
+      "genre": "Queer",
+      "subcategory": null,
+      "address": "Schillingstraße 31, 10179 Mitte",
+      "lat": 52.5174812,
+      "lng": 13.419024,
+      "bezirk": "Mitte",
+      "showings": null
+    },
+    {
       "title": "Erwin Olaf: Muses",
       "start": "2026-06-26T23:59:00",
       "end": "2026-09-06T21:59:59",
@@ -12925,6 +13198,27 @@
       "lat": 52.5114484,
       "lng": 13.4407738,
       "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
+    },
+    {
+      "title": "BUBBLEGUM",
+      "start": "2026-06-27T23:00:00",
+      "end": null,
+      "location": "Beate Uwe, Berlin",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://ra.co/events/2461576",
+      "source_name": "Resident Advisor",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true,
+      "genre": "Queer",
+      "subcategory": null,
+      "address": "Schillingstraße 31, 10179 Mitte",
+      "lat": 52.5174812,
+      "lng": 13.419024,
+      "bezirk": "Mitte",
       "showings": null
     },
     {

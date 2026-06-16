@@ -1,6 +1,6 @@
-Events gesamt: 24
-club/28354 (?): [{'message': 'Cannot query field "club" on type "Query".', 'extensions': {'code': 'GRAPHQL_VALIDATION_FAILED'}}, {'messa
-club/98993 (?): [{'message': 'Cannot query field "club" on type "Query".', 'extensions': {'code': 'GRAPHQL_VALIDATION_FAILED'}}, {'messa
+Events gesamt: 76
+club/28354 (://about blank): 40 -> 40 Berlin
+club/98993 (Beate Uwe): 12 -> 12 Berlin
 promoter/82597 (BOAR Berlin): 0 -> 0 Berlin
 promoter/71007 (Buttons): 1 -> 1 Berlin
 promoter/80958 (Gegen): 8 -> 5 Berlin
@@ -17,3 +17,4 @@ promoter/52590 (Pornceptual): 5 -> 2 Berlin
 promoter/68628 (Room 4 Resistance): 0 -> 0 Berlin
 promoter/110626 (Supernature): 0 -> 0 Berlin
 promoter/90524 (¡MASH-UP! Multigender / Multiworld): 0 -> 0 Berlin
+Artist-Auflösung: status=403 len=768 keine ID

@@ -37,6 +37,12 @@
  },
  "3 Kinos, Berlin": null,
  ":// about blank / Garten Markgrafendamm 24c 10245 Berlin Deutschland": null,
+ "://about blank, Berlin": {
+  "address": "Markgrafendamm 24c, 10245 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5024767,
+  "lng": 13.466302
+ },
  "AGB PopUp Saal Blücherplatz 1 10961 Berlin Deutschland": null,
  "AGB PopUp Saal Blücherplatz 1 10961, 10961 Berlin": null,
  "Admiralstraße 17, 10999 Berlin": {
@@ -121,6 +127,12 @@
   "bezirk": "Pankow",
   "lat": 52.5308391,
   "lng": 13.4072585
+ },
+ "Beate Uwe, Berlin": {
+  "address": "Schillingstraße 31, 10179 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5174812,
+  "lng": 13.419024
  },
  "Berlin": {
   "address": "Berlin",

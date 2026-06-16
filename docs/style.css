@@ -107,55 +107,6 @@
   box-shadow: 8px 8px 0 var(--accent);
 }
 
-/* ---- Clean-Theme: "Liquid Glass" -- milchiges Frosted-Glass, iOS-Akzent ---- */
-:root[data-theme="clean"] {
-  --bg: rgba(255, 255, 255, 0.55);      /* frosted Header/Flächen-Tönung */
-  --surface: rgba(255, 255, 255, 0.5);
-  --surface-2: rgba(255, 255, 255, 0.38);
-  --text: #15171e;
-  --muted: #5b6170;
-  --accent: #0a84ff;                     /* iOS-Blau */
-  --accent-soft: rgba(10, 132, 255, 0.14);
-  --border: rgba(255, 255, 255, 0.7);
-  --radius: 20px;
-  --shadow: 0 10px 34px rgba(30, 40, 90, 0.13);
-  --serif: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Inter",
-    system-ui, sans-serif;
-}
-
-:root[data-theme="clean"] body {
-  background: linear-gradient(155deg, #e8f1ff 0%, #f0e9ff 46%, #e6fbff 100%);
-}
-
-/* Die großen Flächen werden zu Milchglas (Blur nur auf sichtbaren Karten dank
-   content-visibility -> performant). */
-:root[data-theme="clean"] .site-header,
-:root[data-theme="clean"] .card,
-:root[data-theme="clean"] .modal,
-:root[data-theme="clean"] .settings-panel,
-:root[data-theme="clean"] .toast,
-:root[data-theme="clean"] .view-toggle--float,
-:root[data-theme="clean"] .copy-menu,
-:root[data-theme="clean"] .map-note {
-  -webkit-backdrop-filter: blur(22px) saturate(180%);
-  backdrop-filter: blur(22px) saturate(180%);
-}
-
-:root[data-theme="clean"] .card {
-  box-shadow: 0 8px 28px rgba(30, 40, 90, 0.12),
-    inset 0 1px 0 rgba(255, 255, 255, 0.6);
-}
-
-:root[data-theme="clean"] .card:hover {
-  box-shadow: 0 14px 38px rgba(30, 40, 90, 0.18),
-    inset 0 1px 0 rgba(255, 255, 255, 0.7);
-}
-
-/* Akzent-Buttons bekommen einen weichen blauen Glow. */
-:root[data-theme="clean"] .btn--primary {
-  box-shadow: 0 6px 18px rgba(10, 132, 255, 0.35);
-}
-
 :root[data-theme="hyperpop"] .day-tab.active,
 :root[data-theme="hyperpop"] .genre-chip.active {
   text-shadow: 1px 1px 0 #6ec3ff;

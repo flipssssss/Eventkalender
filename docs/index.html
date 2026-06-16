@@ -30,7 +30,7 @@
     try {
       var t = localStorage.getItem("ek_theme") || "buergi";
       if (t !== "buergi") document.documentElement.setAttribute("data-theme", t);
-      var colors = { buergi: "#f3e9d8", clean: "#eef3fb", punk: "#0d0c10", hyperpop: "#ffe0fb" };
+      var colors = { buergi: "#f3e9d8", punk: "#0d0c10", hyperpop: "#ffe0fb" };
       var m = document.querySelector('meta[name="theme-color"]');
       if (m && colors[t]) m.setAttribute("content", colors[t]);
     } catch (e) {}
@@ -154,7 +154,6 @@
           <h3 class="settings-h">Design</h3>
           <div class="theme-options" id="theme-options">
             <button type="button" class="theme-btn" data-theme="buergi">Bürgi</button>
-            <button type="button" class="theme-btn" data-theme="clean">Clean</button>
             <button type="button" class="theme-btn" data-theme="punk">Punk</button>
             <button type="button" class="theme-btn" data-theme="hyperpop">Hyperpop</button>
           </div>

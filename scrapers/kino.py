@@ -18,6 +18,7 @@ from typing import Iterable
 from bs4 import BeautifulSoup
 
 from .base import BaseScraper, Event
+from . import metacache
 
 KINO_SOURCE = "Kinoprogramm"
 BASE = "https://www.berlin.de"
@@ -130,32 +131,33 @@ class BerlinKinoScraper(BaseScraper):
         return events
 
     def _add_film_meta(self, events: list[Event]) -> int:
-        """Fetch each unique film page once for its poster image + description."""
-        cache: dict[str, dict] = {}
+        """Poster + description per film -- cached, so each page is fetched once."""
         urls = [u for u in dict.fromkeys(
             e.source_url for e in events if (e.source_url or "").startswith("http"))]
-        self._img_diag = ""
-        for i, url in enumerate(urls[:150]):
+        fetched = 0
+        for url in urls[:200]:
+            if metacache.get(url) is not None:
+                continue  # already known -> skip the fetch
             try:
                 html = self.get(url, headers=BROWSER).text
             except Exception:  # noqa: BLE001
                 continue
             poster, desc = _poster(html), _description(html)
-            if i == 0:
-                self._img_diag = (f"\n1. Film {url}\n  poster={poster}\n"
-                                  f"  alle img-srcs={_img_srcs(html)[:8]}\n"
-                                  f"  desc={(desc or '')[:120]}")
             if poster:
                 poster = poster if poster.startswith("http") else (BASE + poster)
-            cache[url] = {"img": poster, "desc": desc}
+            metacache.put(url, poster, desc)
+            fetched += 1
+        metacache.save()
+        imgs = 0
         for e in events:
-            c = cache.get(e.source_url)
+            c = metacache.get(e.source_url)
             if c:
                 if c["img"]:
                     e.image_url = c["img"]
+                    imgs += 1
                 if c["desc"]:
                     e.description = c["desc"]
-        return sum(1 for c in cache.values() if c["img"])
+        return imgs
 
     def _parse_cinema(self, html, cinema, today, horizon, out) -> int:
         soup = BeautifulSoup(html, "html.parser")

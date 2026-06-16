@@ -22,6 +22,7 @@ from urllib.parse import urljoin
 from bs4 import BeautifulSoup
 
 from .base import BaseScraper, Event, parse_datetime
+from . import metacache
 
 # Aliases so we catch the various ways a venue name can appear.
 DEFAULT_VENUES = {
@@ -115,27 +116,30 @@ class BerlinBuehnenScraper(BaseScraper):
         return events
 
     def _add_descriptions(self, events) -> None:
-        """Fetch each production's detail page once for its og:description."""
+        """og:description per production page -- cached, fetched once each."""
         og = re.compile(
             r'<meta\b[^>]*\b(?:property|name)=["\']'
             r'(?:og:description|description)["\'][^>]*>', re.I)
         content = re.compile(r'content=["\']([^"\']+)', re.I)
-        cache: dict[str, str] = {}
         for url in dict.fromkeys(e.source_url for e in events if e.source_url):
-            if url in cache:
+            if metacache.get(url) is not None:
                 continue
+            desc = None
             try:
                 html = self.get(url).text
+                m = og.search(html)
+                if m:
+                    c = content.search(m.group(0))
+                    if c and c.group(1).strip():
+                        desc = c.group(1).strip()[:500]
             except Exception:  # noqa: BLE001
                 continue
-            m = og.search(html)
-            if m:
-                c = content.search(m.group(0))
-                if c and c.group(1).strip():
-                    cache[url] = c.group(1).strip()[:500]
+            metacache.put(url, None, desc)
+        metacache.save()
         for e in events:
-            if e.source_url in cache:
-                e.description = cache[e.source_url]
+            c = metacache.get(e.source_url)
+            if c and c["desc"]:
+                e.description = c["desc"]
 
     # -- parsing ---------------------------------------------------------
 

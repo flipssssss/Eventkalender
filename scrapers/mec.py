@@ -16,6 +16,7 @@ from typing import Iterable
 from bs4 import BeautifulSoup
 
 from .base import BaseScraper, Event
+from . import metacache
 
 DEBUG_DIR = pathlib.Path(__file__).resolve().parents[1] / "docs" / "data" / "_debug"
 OG_IMAGE = re.compile(
@@ -85,11 +86,10 @@ class MecScraper(BaseScraper):
         return events
 
     def _add_meta(self, events: list[Event]) -> None:
-        """Pull a flyer image + description from each event's detail page."""
-        cache: dict[str, tuple] = {}
+        """Flyer image + description per event detail page -- cached."""
         for url in dict.fromkeys(
                 e.source_url for e in events if (e.source_url or "").startswith("http")):
-            if url == self.url:
+            if url == self.url or metacache.get(url) is not None:
                 continue
             try:
                 html = self.get(url, headers=BROWSER).text
@@ -98,13 +98,15 @@ class MecScraper(BaseScraper):
             img = _meta(html, OG_IMAGE)
             if img and any(b in img.lower() for b in ("favicon", "logo", "placeholder")):
                 img = None
-            cache[url] = (img, _meta(html, OG_DESC))
+            metacache.put(url, img, (_meta(html, OG_DESC) or None))
+        metacache.save()
         for e in events:
-            img, desc = cache.get(e.source_url, (None, None))
-            if img:
-                e.image_url = img
-            if desc:
-                e.description = desc[:500]
+            c = metacache.get(e.source_url)
+            if c:
+                if c["img"]:
+                    e.image_url = c["img"]
+                if c["desc"]:
+                    e.description = c["desc"][:500]
 
     def _build(self, art) -> Event | None:
         cls = " ".join(art.get("class", []))

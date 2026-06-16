@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-15T20:53:11.591266+00:00",
-  "count": 404,
+  "generated_at": "2026-06-16T05:39:29.463060+00:00",
+  "count": 406,
   "sources": [
     {
       "source": "Quälgeist",
@@ -9,8 +9,8 @@
     },
     {
       "source": "Karada House",
-      "count": 0,
-      "error": "403 Client Error: Forbidden for url: https://karada-house.de/?post_type=tribe_events&ical=1&eventDisplay=list"
+      "count": 30,
+      "error": null
     },
     {
       "source": "Stressfaktor",
@@ -44,7 +44,7 @@
     },
     {
       "source": "Café Cralle",
-      "count": 12,
+      "count": 11,
       "error": null
     },
     {
@@ -59,931 +59,11 @@
     },
     {
       "source": "Siegessäule",
-      "count": 40,
+      "count": 39,
       "error": null
     }
   ],
   "events": [
-    {
-      "title": "Konferenz: „Verbinden statt spalten – Gemeinsam gegen Queerfeindlichkeit“",
-      "start": "2026-06-15T13:00:00",
-      "end": null,
-      "location": "Theater an der Parkaue",
-      "description": null,
-      "image_url": null,
-      "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-15",
-      "source_name": "Siegessäule",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true,
-      "genre": "Queer",
-      "subcategory": null,
-      "address": "Parkaue 29, 10367 Lichtenberg",
-      "lat": 52.516993,
-      "lng": 13.4772031,
-      "bezirk": "Lichtenberg"
-    },
-    {
-      "title": "Die Montagsspieler",
-      "start": "2026-06-15T15:30:00",
-      "end": null,
-      "location": null,
-      "description": null,
-      "image_url": null,
-      "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-15",
-      "source_name": "Siegessäule",
-      "tags": [
-        "Sonstiges"
-      ],
-      "time_known": true,
-      "genre": "Queer",
-      "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
-    },
-    {
-      "title": "Queer Yoga - Monday Fire",
-      "start": "2026-06-15T16:30:00",
-      "end": "2026-06-15T18:30:00",
-      "location": null,
-      "description": null,
-      "image_url": null,
-      "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-15",
-      "source_name": "Siegessäule",
-      "tags": [
-        "Sonstiges"
-      ],
-      "time_known": true,
-      "genre": "Queer",
-      "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
-    },
-    {
-      "title": "All-Gender-Fußball",
-      "start": "2026-06-15T17:45:00",
-      "end": "2026-06-15T19:45:00",
-      "location": "FSV Hansa 07",
-      "description": null,
-      "image_url": "https://cdn.siegessaeule.de/images/Untitled_lj4GeCw.2e16d0ba.fill-320x320.png",
-      "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-15",
-      "source_name": "Siegessäule",
-      "tags": [
-        "Party"
-      ],
-      "time_known": true,
-      "genre": "Queer",
-      "subcategory": null,
-      "address": "Wrangelstraße 98, 10997 Kreuzberg",
-      "lat": 52.5005732,
-      "lng": 13.4375821,
-      "bezirk": "Friedrichshain-Kreuzberg"
-    },
-    {
-      "title": "Blue Monday Chillout",
-      "start": "2026-06-15T18:00:00",
-      "end": "2026-06-15T23:00:00",
-      "location": "Quälgeist Berlin e.V., Lankwitzer Straße 42/43, Berlin, 12107, Deutschland",
-      "description": "▼ ENGLISH BELOW ▼\nAfterwork-BDSM-Party für Frauen* und Männer*, um kinky in die Woche zu starten.  \n\nKein Dresscode – Fetisch willkommen\n\n⏵ ENGLISH ⏴\nAfterwork BDSM party for women* and men* to start of a kinky week. \n\nNo dresscode – fetish welcome\n\n \nVoranmeldung möglich / Pre-registration possibleZur Anmeldung / Registration form",
-      "image_url": null,
-      "source_url": "https://quaelgeist.sm/event/blue-monday-chillout-58/",
-      "source_name": "Quälgeist",
-      "tags": [
-        "Party"
-      ],
-      "time_known": true,
-      "genre": "Kink",
-      "subcategory": null,
-      "address": "Lankwitzer Straße 42/43, 12107 Mariendorf",
-      "lat": 52.4374457,
-      "lng": 13.3754837,
-      "bezirk": "Tempelhof-Schöneberg"
-    },
-    {
-      "title": "Fahrrad-Selbsthilfe-Werkstatt",
-      "start": "2026-06-15T18:00:00",
-      "end": null,
-      "location": "Neckarstr. 19 Souterrain im Hof/ basement in the court 12053 Berlin Deutschland",
-      "description": "Jeden Montag kannst du bei uns dein Fahrrad reparieren. Vorkenntnisse sind nicht nötig, wir können dich unterstützen. Komm einfach vorbei.",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/324663",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Sonstiges"
-      ],
-      "time_known": true,
-      "genre": "Polit",
-      "subcategory": null,
-      "address": "Neckarstraße 19, 12053 Neukölln",
-      "lat": 52.4801032,
-      "lng": 13.4340359,
-      "bezirk": "Neukölln"
-    },
-    {
-      "title": "Queer Yoga - Slow Flow",
-      "start": "2026-06-15T18:15:00",
-      "end": "2026-06-15T20:15:00",
-      "location": null,
-      "description": null,
-      "image_url": null,
-      "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-15",
-      "source_name": "Siegessäule",
-      "tags": [
-        "Sonstiges"
-      ],
-      "time_known": true,
-      "genre": "Queer",
-      "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
-    },
-    {
-      "title": "Vernetzung der Mieter/innen der landeseigenen Wohnungsunternehmen (LWU Vernetzung)",
-      "start": "2026-06-15T18:30:00",
-      "end": null,
-      "location": "Kiezraum auf dem Dragonerareal Mehringdamm 20 10961 Berlin Deutschland",
-      "description": "Wir sind Mieterinnen und Mieter bei den landeseigenen Wohnungsunternehmen (LWU) sowie stadtpolitisch aktive Menschen und engagieren uns in unseren Kiezen und in den Gremien der Wohnungsunternehmen für ein besseres und bezahlbares Wohnen. Wir treffen uns am 3. Montag jeden Monats.",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/323405",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Sonstiges"
-      ],
-      "time_known": true,
-      "genre": "Queer",
-      "subcategory": null,
-      "address": "Mehringdamm 20-30, 10961 Kreuzberg",
-      "lat": 52.4958755,
-      "lng": 13.3885858,
-      "bezirk": "Friedrichshain-Kreuzberg"
-    },
-    {
-      "title": "Offene Mietenberatung",
-      "start": "2026-06-15T18:30:00",
-      "end": null,
-      "location": "Baiz Schönhauser Allee 26 A 10435 Berlin Deutschland",
-      "description": "Mietenberatung mit RA Henrik Solf und Unterstützung der Mietergemeinschaft Prenzlauer Berg",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/323505",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Sonstiges"
-      ],
-      "time_known": true,
-      "genre": "Polit",
-      "subcategory": null,
-      "address": "Schönhauser Allee 26a, 10435 Prenzlauer Berg",
-      "lat": 52.5359511,
-      "lng": 13.4126884,
-      "bezirk": "Pankow"
-    },
-    {
-      "title": "Offene Mieterberatung",
-      "start": "2026-06-15T18:30:00",
-      "end": null,
-      "location": "Baiz Schönhauser Allee 26 A 10435 Berlin Deutschland",
-      "description": "von Rechtsanwalt Henrik Solf mit Unterstützunge der Bezirksgruppe Prenzlauer Berg der Berliner Mietergemeinschaft;",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/326478",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Sonstiges"
-      ],
-      "time_known": true,
-      "genre": "Polit",
-      "subcategory": null,
-      "address": "Schönhauser Allee 26a, 10435 Prenzlauer Berg",
-      "lat": 52.5359511,
-      "lng": 13.4126884,
-      "bezirk": "Pankow"
-    },
-    {
-      "title": "Soli-Bleiberechtsbar",
-      "start": "2026-06-15T19:00:00",
-      "end": null,
-      "location": "KuBiZ Bernkasteler Str. 78 13088 Berlin Deutschland",
-      "description": "Soli-Bleiberechtsbar",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327060",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Konzert"
-      ],
-      "time_known": true,
-      "genre": "Polit",
-      "subcategory": null,
-      "address": "Bernkasteler Straße 78, 13088 Weißensee",
-      "lat": 52.5577176,
-      "lng": 13.4702725,
-      "bezirk": "Pankow"
-    },
-    {
-      "title": "Konzert",
-      "start": "2026-06-15T19:00:00",
-      "end": null,
-      "location": "Schokoladen Ackerstrasse 169 10115 Berlin Deutschland",
-      "description": "porcupine records & little league shows prsnt: Telephonist [shoegaze alt rock°drtmnd] + Efka Mott [kraut pop freak folk°bln]",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327322",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Konzert"
-      ],
-      "time_known": true,
-      "genre": "Polit",
-      "subcategory": null,
-      "address": "Ackerstraße 169, 10115 Mitte",
-      "lat": 52.5297369,
-      "lng": 13.3971786,
-      "bezirk": "Mitte"
-    },
-    {
-      "title": "Konzert",
-      "start": "2026-06-15T19:00:00",
-      "end": null,
-      "location": "Regenbogenfabrik Lausitzer Str. 21a 10999 Berlin Deutschland",
-      "description": "--- Einlass 19:00, Beginn 19:30 | RegenbogenKino\n\"The Durgas\"",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327611",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Konzert"
-      ],
-      "time_known": true,
-      "genre": "Queer",
-      "subcategory": null,
-      "address": "Lausitzer Straße 21a, 10999 Kreuzberg",
-      "lat": 52.4959646,
-      "lng": 13.4263213,
-      "bezirk": "Friedrichshain-Kreuzberg"
-    },
-    {
-      "title": "Gesellschaft erkennen, kritisieren und verändern.",
-      "start": "2026-06-15T19:00:00",
-      "end": null,
-      "location": "FMP1 Franz-Mehring-Platz 1, 10243 Berlin Deutschland",
-      "description": "Zum Ideologieproblem bei der Bestimmung von „Gesellschaft“ als Gesamtzusammenhang Klaus Lederer im Gespräch mit Alex Struwe",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327671",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Vortrag"
-      ],
-      "time_known": true,
-      "genre": "Polit",
-      "subcategory": null,
-      "address": "Franz-Mehring-Platz 1, 10243 Friedrichshain",
-      "lat": 52.5128,
-      "lng": 13.4402215,
-      "bezirk": "Friedrichshain-Kreuzberg"
-    },
-    {
-      "title": "Anarchist Dinner: Free the Ulm 5!",
-      "start": "2026-06-15T19:00:00",
-      "end": null,
-      "location": "New Yorck im Bethanien Mariannenplatz 2A 10997 Berlin Deutschland",
-      "description": "—english below— Prozessupdate, Soli-Abend, Diskussion zu den Ulm 5 // Dazu gibt es wie immer vegane mediterrane Meze. Die Einnahmen aus den Spenden gehen an die Ulm 5.",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327747",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Vortrag"
-      ],
-      "time_known": true,
-      "genre": "Polit",
-      "subcategory": null,
-      "address": "Mariannenplatz 2A, 10997 Kreuzberg",
-      "lat": 52.5036305,
-      "lng": 13.423541,
-      "bezirk": "Friedrichshain-Kreuzberg"
-    },
-    {
-      "title": "OffenesTreffendesprovisorischenanarchistischenAntikriegsrats",
-      "start": "2026-06-15T19:00:00",
-      "end": null,
-      "location": "New Yorck im Bethanien Mariannenplatz 2A 10997 Berlin Deutschland",
-      "description": "Offenes Treffen des provisorischen anarchistischen Antikriegsrats\nDrohnen basteln gegen Aufrüstung!\nMalen für den Veteranentag! Sie warten auf uns!\nDenn harte Zeiten benötigen herte BürgerInnen, die sich die Frage der Zukunft rückerobern wollen.",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327762",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Sonstiges"
-      ],
-      "time_known": true,
-      "genre": "Polit",
-      "subcategory": null,
-      "address": "Mariannenplatz 2A, 10997 Kreuzberg",
-      "lat": 52.5036305,
-      "lng": 13.423541,
-      "bezirk": "Friedrichshain-Kreuzberg"
-    },
-    {
-      "title": "FLINTA* LESEKREIS",
-      "start": "2026-06-15T19:30:00",
-      "end": null,
-      "location": "Café Cralle Hochstädterstr. 10a 13347 Berlin Deutschland",
-      "description": "Am 15.06. um 19:30 findet wieder der FLINTA* Lesekreis im Café Cralle statt. Wir werden \"Im Park der prächtigen Schwestern\" von Camila Sosa Villada besprechen.",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327612",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Essen"
-      ],
-      "time_known": true,
-      "genre": "Queer",
-      "subcategory": null,
-      "address": "Hochstädter Straße 10a, 13347 Wedding",
-      "lat": 52.550607,
-      "lng": 13.363522,
-      "bezirk": "Mitte"
-    },
-    {
-      "title": "FLINTA* Lesekreis im Café Cralle",
-      "start": "2026-06-15T19:30:00",
-      "end": null,
-      "location": "Cafe Cralle, Hochstädter Straße 10a, 13347 Berlin",
-      "description": "Ankündigung! Montag 15.06.2026 FLINTA* Lesekreis im Café Cralle Montag, 15.06.2026 | 19:30 Uhr | Cafe Cralle, Hochstädter Straße 10a, 13347 Berlin Anreise: U9 Nauener Platz | Bus 247, 327 Maxstraße Aufruf: https:// asanb.noblogs.org/?p=17948 - @cafecrallekollektiv # b1506 # Flinta # Lesekreis Am 15.06. um 19:30 findet wieder der FLINTA* Lesekreis im Café Cralle statt. Wir werden „Im Park der prächtigen Schwestern“ von Camila Sosa Villada besprechen. Immer am 3. Montag im Monat um 19:30 Uhr treffen wir uns im Café Cralle und besprechen ein Buch, das wir gemeinsam aussuchen. Bringt zum kommenden",
-      "image_url": "https://todon.eu/system/media_attachments/files/116/750/790/657/848/241/original/d02c5b6343821529.jpg",
-      "source_url": "https://todon.eu/@Demo_Ticker_Berlin/116750791101321909",
-      "source_name": "Demo Ticker Berlin",
-      "tags": [
-        "Protest"
-      ],
-      "time_known": true,
-      "genre": "Polit",
-      "subcategory": null,
-      "address": "Hochstädter Straße 10A, 13347 Wedding",
-      "lat": 52.5505395,
-      "lng": 13.3634054,
-      "bezirk": "Mitte"
-    },
-    {
-      "title": "Ulm5 Prozess-Update - Anarchist Dinner",
-      "start": "2026-06-15T20:00:00",
-      "end": null,
-      "location": "Bethanien Südflügel Berlin Deutschland",
-      "description": "Am 15. Juni wird ein weiterer der dutzenden von geplanten Prozesstagen im Fall der Ulm5 in Stammheim stattfinden. Derzeit erscheint der eindeutige Klassencharakter der Justiz, die in diesem zurecht als Schauprozess bezeichneten Verfahren fünf Menschen anklagt, sehr deutlich.",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327744",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Vortrag"
-      ],
-      "time_known": true,
-      "genre": "Polit",
-      "subcategory": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "bezirk": null
-    },
-    {
-      "title": "Inhabit a Permaculture Perspective -  Film 2015",
-      "start": "2026-06-15T20:00:00",
-      "end": null,
-      "location": "K19 Café Kreutzigerstr. 19 10247 Berlin Deutschland",
-      "description": "Inhabit a Permaculture Perspective - Resllienz im Stadt und Land",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327791",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Film"
-      ],
-      "time_known": true,
-      "genre": "Polit",
-      "subcategory": null,
-      "address": "Kreutzigerstraße 19, 10247 Friedrichshain",
-      "lat": 52.5131608,
-      "lng": 13.4600856,
-      "bezirk": "Friedrichshain-Kreuzberg"
-    },
-    {
-      "title": "FLINTA*-Lesekreis",
-      "start": "2026-06-15T20:00:00",
-      "end": null,
-      "location": "Café Cralle",
-      "description": null,
-      "image_url": null,
-      "source_url": "https://cafecralle.wordpress.com/regelmasige-veranstaltungen/",
-      "source_name": "Café Cralle",
-      "tags": [
-        "Sonstiges"
-      ],
-      "time_known": false,
-      "genre": "Queer",
-      "subcategory": null,
-      "address": "Hochstädter Straße 10A, 13347 Wedding",
-      "lat": 52.5505395,
-      "lng": 13.3634054,
-      "bezirk": "Mitte"
-    },
-    {
-      "title": "Electric Monday",
-      "start": "2026-06-15T20:00:00",
-      "end": "2026-06-16T01:00:00",
-      "location": "KitKatClub",
-      "description": "Line-up: Norman Weber, Annara, Frankie Flowerz u. a. (Deep House, Techno, Minimal, Grooves)",
-      "image_url": "https://cdn.siegessaeule.de/images/Frankie_Flowerz-pr.e122f8be.fill-320x320.jpg",
-      "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-15",
-      "source_name": "Siegessäule",
-      "tags": [
-        "Party"
-      ],
-      "time_known": true,
-      "genre": "Queer",
-      "subcategory": null,
-      "address": "Köpenicker Straße 76, 10179 Mitte",
-      "lat": 52.5112074,
-      "lng": 13.4169157,
-      "bezirk": "Mitte"
-    },
-    {
-      "title": "Filmabend inK(P)",
-      "start": "2026-06-15T21:00:00",
-      "end": null,
-      "location": "K Köpenicker Straße Berlin Deutschland",
-      "description": "\" La Piscine \" Fr 1969, OmeU R .:Jacques Deray D.: Romy Schneider, Alsin Delon\nWhen a journalist's (Romy Schneider) boyfriend (Alain Delon) allows her former lover (Maurice Ronet) to drown, the couple must answer questions from an inspector.\n.",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/327460",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Film"
-      ],
-      "time_known": true,
-      "genre": "Polit",
-      "subcategory": null,
-      "address": "Köpenicker Straße, 10179 Mitte",
-      "lat": 52.507824,
-      "lng": 13.4271106,
-      "bezirk": "Mitte"
-    },
-    {
-      "title": "Brancusi",
-      "start": "2026-06-15T23:59:00",
-      "end": null,
-      "location": "Neue Nationalgalerie",
-      "description": "In Kooperation mit dem Centre Pompidou in Paris zeigt die Neue Nationalgalerie die erste Werkschau des Ausnahmekünstlers Constantin Brancusi seit über 50 Jahren in Deutschland.  ·  Läuft bis 09.08.2026",
-      "image_url": "https://imgproxy.berlinonline.net/wgVicY0z8mOWOaOQRSg0A-6xyXxNhVXIY5iliE-bPE0/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061522/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JkZS1jbXMvYm8udGIuZXZlbnQvaW1hZ2VzLzE5NS83MDExODY5My0yMzk4LTRiODMtOWRjMy03YmYxN2RmMDE3OGEuanBn.jpg",
-      "source_url": "https://www.berlin.de/tickets/ausstellungen/brancusi-61576efe-1b9e-478e-8ea3-ca23a2285128/",
-      "source_name": "Ausstellungen Berlin",
-      "tags": [
-        "Ausstellung"
-      ],
-      "time_known": false,
-      "genre": "Kultur",
-      "subcategory": null,
-      "address": "Potsdamer Straße 50, 10785 Tiergarten",
-      "lat": 52.5070408,
-      "lng": 13.3676212,
-      "bezirk": "Mitte"
-    },
-    {
-      "title": "Gebaute Gemeinschaft: Göbeklitepe, Taş Tepeler und das Leben vor 12.000 Jahren",
-      "start": "2026-06-15T23:59:00",
-      "end": null,
-      "location": "James-Simon-Galerie",
-      "description": "Vor 12.000 Jahren schufen Jäger und Sammler im heutigen Türkiye monumentale Anlagen – bis heute sind Archäolog:innen damit beschäftigt, diese Bau- und Kunstwerke zu entschlüsseln.  ·  Läuft bis 19.07.2026",
-      "image_url": "https://imgproxy.berlinonline.net/ugjdBFY31KbBLSIckyXxj_v6GHDxfVjGjlXvEhYDKoE/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061522/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JvLW1pZGRsZXdhcmUvYm8uYmRlX2NoYW5uZWwuZXZlbnQvaW1hZ2VzLzEzLzRjMTUwNzQ1LTBhYTUtYjViMS0wODBkLTNlOWMxNTk3YzJhOC5qcGc.jpg",
-      "source_url": "https://www.berlin.de/tickets/ausstellungen/gebaute-gemeinschaft-goebeklitepe-ta-tepeler-und-das-leben-vor-12-000-jahren-3b5cb2db-9050-4eb8-a9ec-245b18f43f5f/",
-      "source_name": "Ausstellungen Berlin",
-      "tags": [
-        "Ausstellung"
-      ],
-      "time_known": false,
-      "genre": "Kultur",
-      "subcategory": null,
-      "address": "Bodestraße, 10178 Mitte",
-      "lat": 52.5201219,
-      "lng": 13.3993823,
-      "bezirk": "Mitte"
-    },
-    {
-      "title": "Lina Lapelytė: We Make Years Out of Hours – Chanel Commission",
-      "start": "2026-06-15T23:59:00",
-      "end": null,
-      "location": "Hamburger Bahnhof - Museum für Gegenwart",
-      "description": "Für die zweite Ausgabe der Chanel Commission verwandelt Lina Lapelytė die Historische Halle des Hamburger Bahnhof in eine polyphone Bühne für eine partizipative Choreografie verwandelt.  ·  Läuft bis 10.01.2027",
-      "image_url": "https://imgproxy.berlinonline.net/FaXEY8IG-Rt61zJWlMeM5j9hU4Jt8x-zpXvHebXkpDA/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061522/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JkZS1jbXMvYm8udGIuZXZlbnQvaW1hZ2VzLzE0MC8zY2ZjNDJkZC1lZmVkLTQ5NmQtOTg4Yy0yZDIyMjdmZjdiODYuanBn.jpg",
-      "source_url": "https://www.berlin.de/tickets/ausstellungen/lina-lapelyt-we-make-years-out-of-hours-dba95155-327c-4310-907b-86f7cc7452fb/",
-      "source_name": "Ausstellungen Berlin",
-      "tags": [
-        "Ausstellung"
-      ],
-      "time_known": false,
-      "genre": "Kultur",
-      "subcategory": null,
-      "address": "Invalidenstraße 51, 10557 Moabit",
-      "lat": 52.5275532,
-      "lng": 13.3723203,
-      "bezirk": "Mitte"
-    },
-    {
-      "title": "Marina Abramović: Balkan Erotic Epic",
-      "start": "2026-06-15T23:59:00",
-      "end": null,
-      "location": "Gropius Bau",
-      "description": "Im Zentrum der Ausstellung von Marina Abramović im Berliner Gropis Bau steht ihr fortwährendes Interesse an Ritualen, Erotik, Tod und dem Körper als Ort politischen Widerstands.  ·  Läuft bis 22.08.2026",
-      "image_url": "https://imgproxy.berlinonline.net/1wdi0-qEdccQaEmKO0yBOVSsG2ilL138PUoI0biA34s/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061522/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JkZS1jbXMvYm8udGIuZXZlbnQvaW1hZ2VzLzIzMy9lY2VkOTZjOS03YTYxLTRjNzMtODJlOS1mNzAwNDlkNGZiMTMuanBn.jpg",
-      "source_url": "https://www.berlin.de/tickets/ausstellungen/marina-abramovi-balkan-erotic-epic-5b5d2635-714b-4440-aa81-e4cd48a87371/",
-      "source_name": "Ausstellungen Berlin",
-      "tags": [
-        "Ausstellung"
-      ],
-      "time_known": false,
-      "genre": "Kultur",
-      "subcategory": null,
-      "address": "Niederkirchnerstraße 7, 10963 Kreuzberg",
-      "lat": 52.5066209,
-      "lng": 13.3819472,
-      "bezirk": "Mitte"
-    },
-    {
-      "title": "Marc Brandenburg: 20th Century Debris",
-      "start": "2026-06-15T23:59:00",
-      "end": null,
-      "location": "Berlinische Galerie",
-      "description": "Die Ausstellung in der Berlinischen Galerie widmet sich dem vielschichtigen Werk von Marc Brandenburg, der das Bild der Berliner Kunstszene seit Jahrzehnten mitprägt.  ·  Läuft bis 13.09.2026",
-      "image_url": "https://imgproxy.berlinonline.net/exS6J3KZ7T_CJNx9-eDs0ZUxWAT0ht8-07h5HYzqqmU/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061522/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JkZS1jbXMvYm8udGIuZXZlbnQvaW1hZ2VzLzc3LzZmMGYyMWNiLWQ2M2EtNDdkZS04NTRkLWU5YjYyYTdhMDc4Yi5wbmc.jpg",
-      "source_url": "https://www.berlin.de/tickets/ausstellungen/marc-brandenburg-20th-century-debris-41950c71-4de3-4d84-b270-39d1583f699c/",
-      "source_name": "Ausstellungen Berlin",
-      "tags": [
-        "Ausstellung"
-      ],
-      "time_known": false,
-      "genre": "Kultur",
-      "subcategory": null,
-      "address": "Alte Jakobstraße 124, 10969 Kreuzberg",
-      "lat": 52.5037937,
-      "lng": 13.3987041,
-      "bezirk": "Friedrichshain-Kreuzberg"
-    },
-    {
-      "title": "Freiraum Kunst: Akademie der Künste goes Bellevue",
-      "start": "2026-06-15T23:59:00",
-      "end": null,
-      "location": "Schloss Bellevue",
-      "description": "Ab Mitte Juni realisiert die Akademie der Künste eine zweiwöchige Pop-Up-Galerie im Schloss Bellevue und überführt den Amtssitz des Bundespräsidenten in einen temporären Ort der Künste.  ·  Läuft bis 27.06.2026",
-      "image_url": "https://imgproxy.berlinonline.net/Ct-lqLUAvUwz4cvKxjF-lTFHwyl59uHRDzWQUXuPaRs/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061522/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JkZS1jbXMvYm8udGIuZXZlbnQvaW1hZ2VzLzE5MC83NjdiYmEyZS1kMjRhLTQ0ZTItOGJiZS01YzM1ZjkxYjQzMTcuanBn.jpg",
-      "source_url": "https://www.berlin.de/tickets/ausstellungen/freiraum-kunst-akademie-der-kuenste-goes-bellevue-5e6628e0-0ff0-454a-a56c-40979dd99478/",
-      "source_name": "Ausstellungen Berlin",
-      "tags": [
-        "Ausstellung"
-      ],
-      "time_known": false,
-      "genre": "Kultur",
-      "subcategory": null,
-      "address": "Spreeweg 1, 10557 Tiergarten",
-      "lat": 52.5172851,
-      "lng": 13.3524323,
-      "bezirk": "Mitte"
-    },
-    {
-      "title": "Ruin und Rausch: Berlin 1910–1930",
-      "start": "2026-06-15T23:59:00",
-      "end": null,
-      "location": "Neue Nationalgalerie",
-      "description": "Mit „Ruin und Rausch“ nimmt die Neue Nationalgalerie ausgewählte Werke aus ihrer Sammlung der Klassischen Moderne in den Blick, die das Berlin der 1910er- und 1920er-Jahre thematisieren.  ·  Läuft bis 03.01.2027",
-      "image_url": "https://imgproxy.berlinonline.net/5EsPujjsKD43DwZBwwCPGPSCl_fnp0CqcnHhDsJLylI/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061522/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JvLW1pZGRsZXdhcmUvYm8uYmRlX2NoYW5uZWwuZXZlbnQvaW1hZ2VzLzEwNy9lMmY1MmMyZi0yZDJhLTNiOTgtYzU2Yi02ODRiYjczZjA3YTkuanBn.jpg",
-      "source_url": "https://www.berlin.de/tickets/ausstellungen/ruin-und-rausch-berlin-1910-1930-41669289-2895-461d-ae9e-4d4264ab495d/",
-      "source_name": "Ausstellungen Berlin",
-      "tags": [
-        "Ausstellung"
-      ],
-      "time_known": false,
-      "genre": "Kultur",
-      "subcategory": null,
-      "address": "Potsdamer Straße 50, 10785 Tiergarten",
-      "lat": 52.5070408,
-      "lng": 13.3676212,
-      "bezirk": "Mitte"
-    },
-    {
-      "title": "Cassirer und der Durchbruch des Impressionismus",
-      "start": "2026-06-15T23:59:00",
-      "end": null,
-      "location": "Alte Nationalgalerie",
-      "description": "Die Alte Nationalgalerie würdigt im Jahr 2026 mit Paul Cassirer (1871–1926) einen der wichtigsten Kunsthändler seiner Zeit.  ·  Läuft bis 27.09.2026",
-      "image_url": "https://imgproxy.berlinonline.net/Xah-zuAxotMPf26DVyFwnxBS0QjGAgsCp-UuSBPOW80/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061522/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JvLW1pZGRsZXdhcmUvYm8uYmRlX2NoYW5uZWwuZXZlbnQvaW1hZ2VzLzEwNS8yYzFlOTA3NS01NDlmLWJjMzQtZGQ2OS01NWZkMWJkYzU0NDQuanBn.jpg",
-      "source_url": "https://www.berlin.de/tickets/ausstellungen/cassirer-und-der-durchbruch-des-impressionismus-462d1914-63f3-4f32-bb09-353d60c1ca92/",
-      "source_name": "Ausstellungen Berlin",
-      "tags": [
-        "Ausstellung"
-      ],
-      "time_known": false,
-      "genre": "Kultur",
-      "subcategory": null,
-      "address": "Bodestraße 1, 10178 Mitte",
-      "lat": 52.5201701,
-      "lng": 13.3977174,
-      "bezirk": "Mitte"
-    },
-    {
-      "title": "Giulia Andreani: Sabotage",
-      "start": "2026-06-15T23:59:00",
-      "end": null,
-      "location": "Hamburger Bahnhof - Museum für Gegenwart",
-      "description": "Giulia Andreani eröffnet das Jubiläumsprogramm des Hamburger Bahnhof mit Gemälden, die Brüche in offiziellen Geschichtsschreibungen sichtbar machen.  ·  Läuft bis 13.09.2026",
-      "image_url": "https://imgproxy.berlinonline.net/sZ7JExGen-Vz6WGMJs4CtaQgXNIf5bMbWMXhwR6QdeU/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061522/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JvLW1pZGRsZXdhcmUvYm8uYmRlX2NoYW5uZWwuZXZlbnQvaW1hZ2VzLzE3MS9lYTY1NDRlZi0zMGM0LTc1ODItNzBhYi00YmQ3ZGM0ODU3ZjMuanBn.jpg",
-      "source_url": "https://www.berlin.de/tickets/ausstellungen/giulia-andreani-sabotage-fc9ae686-9d41-48d6-8b90-a20446dcff52/",
-      "source_name": "Ausstellungen Berlin",
-      "tags": [
-        "Ausstellung"
-      ],
-      "time_known": false,
-      "genre": "Kultur",
-      "subcategory": null,
-      "address": "Invalidenstraße 51, 10557 Moabit",
-      "lat": 52.5275532,
-      "lng": 13.3723203,
-      "bezirk": "Mitte"
-    },
-    {
-      "title": "C.B. Evans: Reality or Not",
-      "start": "2026-06-15T23:59:00",
-      "end": null,
-      "location": "Schinkel Pavillon",
-      "description": "Die künstlerische Praxis von C.B. Evans beschäftigt sich mit den Strukturen der digitalen Welt und ihren Auswirkungen auf unsere Gegenwart.  ·  Läuft bis 15.08.2026",
-      "image_url": "https://imgproxy.berlinonline.net/gkSQrnpFGc_v0cUKmbIzwJ31uDBkKr-hMEdedekPMvg/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061522/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JkZS1jbXMvYm8udGIuZXZlbnQvaW1hZ2VzLzI1NS82ZDg2Nzc5Yi0zNWJiLTQ2YzUtYmZmZi1kMWE5NTkyMjUyODguanBn.jpg",
-      "source_url": "https://www.berlin.de/tickets/ausstellungen/c-b-evans-reality-or-not-3e8e7d73-c0fa-4cb6-8366-62be7e0c95de/",
-      "source_name": "Ausstellungen Berlin",
-      "tags": [
-        "Ausstellung"
-      ],
-      "time_known": false,
-      "genre": "Kultur",
-      "subcategory": null,
-      "address": "Oberwallstraße, 10117 Mitte",
-      "lat": 52.5148489,
-      "lng": 13.3968392,
-      "bezirk": "Mitte"
-    },
-    {
-      "title": "Neue Frau, Neues Sehen: Die Bauhaus-Fotografinnen",
-      "start": "2026-06-15T23:59:00",
-      "end": null,
-      "location": "Museum für Fotografie - Helmut Newton Stiftung",
-      "description": "Die Fotografinnen am Bauhaus experimentierten mit fotografischen und gestalterischen Techniken und loteten dabei die Grenzen ihres Mediums aus.  ·  Läuft bis 04.10.2026",
-      "image_url": "https://imgproxy.berlinonline.net/bsTikCGXyrgcGYFYIWG1lNPpevwW4pvD01Grb4sRn7Y/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061522/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JvLW1pZGRsZXdhcmUvYm8uYmRlX2NoYW5uZWwuZXZlbnQvaW1hZ2VzLzEwNy84YzNjMjllOC0yYzE5LTc1NzYtOGI2Yi05NjZhNTUwYjY0MjAuanBn.jpg",
-      "source_url": "https://www.berlin.de/tickets/ausstellungen/neue-frau-neues-sehen-die-bauhaus-fotografinnen-720227d9-1526-47f3-953b-f92a982f1b88/",
-      "source_name": "Ausstellungen Berlin",
-      "tags": [
-        "Ausstellung"
-      ],
-      "time_known": false,
-      "genre": "Kultur",
-      "subcategory": null,
-      "address": "Jebensstraße 2, 10623 Charlottenburg",
-      "lat": 52.5081567,
-      "lng": 13.3320921,
-      "bezirk": "Charlottenburg-Wilmersdorf"
-    },
-    {
-      "title": "Inventing Queer Cinema",
-      "start": "2026-06-15T23:59:00",
-      "end": null,
-      "location": "Deutsche Kinemathek",
-      "description": "Queeres Kino erzählt von den Geschichten, Erfahrungen und Lebensrealitäten queerer Menschen – meist abseits normativer Erwartungen und gesellschaftlicher Ordnungen.  ·  Läuft bis 13.09.2026",
-      "image_url": "https://imgproxy.berlinonline.net/FPMQZtNaCMdOSiqHwVsvPwmk6mq_5g-z9rSdo2W9mCw/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061522/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JvLW1pZGRsZXdhcmUvYm8uYmRlX2NoYW5uZWwuZXZlbnQvaW1hZ2VzLzYwL2FhYmY1NzkzLTQzMGUtOTQzZi02MjNjLTU3NjMzZmI2YzQ5OC5qcGc.jpg",
-      "source_url": "https://www.berlin.de/tickets/ausstellungen/inventing-queer-cinema-4875f127-13d1-4d49-836e-1a022ee42aea/",
-      "source_name": "Ausstellungen Berlin",
-      "tags": [
-        "Ausstellung"
-      ],
-      "time_known": false,
-      "genre": "Kultur",
-      "subcategory": null,
-      "address": "Mauerstraße 79, 10117 Mitte",
-      "lat": 52.5085739,
-      "lng": 13.3871178,
-      "bezirk": "Mitte"
-    },
-    {
-      "title": "Peter Hujar und Liz Deschenes: Persistence of Vision",
-      "start": "2026-06-15T23:59:00",
-      "end": null,
-      "location": "Gropius Bau",
-      "description": "Die Ausstellung Persistence of Vision vereint die Arbeiten von Peter Hujar und Liz Deschenes und bringt diese in einen generationsübergreifenden Dialog über Fotografie.  ·  Läuft bis 27.06.2026",
-      "image_url": "https://imgproxy.berlinonline.net/jbUMFqzllRevLdmgm0fHwl7NhY3zdeesJsE4PwBkKT0/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061522/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JkZS1jbXMvYm8udGIuZXZlbnQvaW1hZ2VzLzIxNS8xMzNjMzM1ZC0xYjZhLTQwNjgtYWJkNy0zYzAyN2VjZmE4NWIucG5n.jpg",
-      "source_url": "https://www.berlin.de/tickets/ausstellungen/peter-hujar-und-liz-deschenes-persistence-of-vision-95251eb6-7cc9-48ca-8a3e-17b3513c0eae/",
-      "source_name": "Ausstellungen Berlin",
-      "tags": [
-        "Ausstellung"
-      ],
-      "time_known": false,
-      "genre": "Kultur",
-      "subcategory": null,
-      "address": "Niederkirchnerstraße 7, 10963 Kreuzberg",
-      "lat": 52.5066209,
-      "lng": 13.3819472,
-      "bezirk": "Mitte"
-    },
-    {
-      "title": "Kyiv Biennial: A Bird That Cannot Land",
-      "start": "2026-06-15T23:59:00",
-      "end": null,
-      "location": "KW - Institute for Contemporary Art",
-      "description": "Vor dem Hintergrund zunehmender Konflikte und sich wandelnder politischer Realitäten konzentriert sich „A Bird That Cannot Land“ auf den Begriff „Nahost-Europa“ und dessen Geschichte der Kolonialisierung und des Imperialismus.  ·  Läuft bis 13.09.2026",
-      "image_url": "https://imgproxy.berlinonline.net/WWDvi4HpRfdQowDvK4zgYJiaBfIQJzLI-CsLMN5DS5w/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061522/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JkZS1jbXMvYm8udGIuZXZlbnQvaW1hZ2VzLzE4Mi80M2RmZTc2My0xODZhLTRhZmYtODNiNi0xMWY4Nzk2YWYzNjYucG5n.jpg",
-      "source_url": "https://www.berlin.de/tickets/ausstellungen/kyiv-biennial-a-bird-that-cannot-land-b8b1285f-34c1-4b67-991d-1cf7cfa95955/",
-      "source_name": "Ausstellungen Berlin",
-      "tags": [
-        "Ausstellung"
-      ],
-      "time_known": false,
-      "genre": "Kultur",
-      "subcategory": null,
-      "address": "Auguststraße 69, 10117 Mitte",
-      "lat": 52.5271636,
-      "lng": 13.3948218,
-      "bezirk": "Mitte"
-    },
-    {
-      "title": "Shilpa Gupta: What Still Holds",
-      "start": "2026-06-15T23:59:00",
-      "end": null,
-      "location": "Hamburger Bahnhof - Museum für Gegenwart",
-      "description": "Ausgangspunkt von Shilpa Guptas Einzelausstellung im Hamburger Bahnhof ist das monumentale Werk Truth an der Schnittstelle von Sprache, Macht und Kontrolle.  ·  Läuft bis 03.01.2027",
-      "image_url": "https://imgproxy.berlinonline.net/HGeFknyYSlrdknQIlhEmy2vvVBBLGMq_8eDpodMLiLI/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061522/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JvLW1pZGRsZXdhcmUvYm8uYmRlX2NoYW5uZWwuZXZlbnQvaW1hZ2VzLzc1L2YwZDNkYmI3LWQxMTAtYjAyNi01YTRiLWVmZDMwMjcwZTEyMy5qcGc.jpg",
-      "source_url": "https://www.berlin.de/tickets/ausstellungen/shilpa-gupta-what-still-holds-c11e71c7-2bbd-40f5-8d78-31f4ea6c77c1/",
-      "source_name": "Ausstellungen Berlin",
-      "tags": [
-        "Ausstellung"
-      ],
-      "time_known": false,
-      "genre": "Kultur",
-      "subcategory": null,
-      "address": "Invalidenstraße 51, 10557 Moabit",
-      "lat": 52.5275532,
-      "lng": 13.3723203,
-      "bezirk": "Mitte"
-    },
-    {
-      "title": "Fujiko Nakaya: Nebelskulptur im Skulpturengarten",
-      "start": "2026-06-15T23:59:00",
-      "end": null,
-      "location": "Neue Nationalgalerie",
-      "description": "Wegen des großen Publikumsinteresses präsentiert die Neue Nationalgalerie auch im Jahr 2026 die ortsspezifische Nebelskulptur der japanischen Künstlerin Fujiko Nakaya in ihrem Skulpturengarten.  ·  Läuft bis 25.10.2026",
-      "image_url": "https://imgproxy.berlinonline.net/NRGrHnrGk8lm0wPfb00U4MRovhfKzCEmabm8vWh2qbg/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061522/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JkZS1jbXMvYm8udGIuZXZlbnQvaW1hZ2VzLzIyMy9mNmIxM2JjMC1mNzVkLTQ1OWMtYmRkZi04YWRmNWQwYTFhYzIuanBn.jpg",
-      "source_url": "https://www.berlin.de/tickets/ausstellungen/fujiko-nakaya-nebelskulptur-im-skulpturengarten-ce3799be-708b-4889-9a49-f216d464ec01/",
-      "source_name": "Ausstellungen Berlin",
-      "tags": [
-        "Ausstellung"
-      ],
-      "time_known": false,
-      "genre": "Kultur",
-      "subcategory": null,
-      "address": "Potsdamer Straße 50, 10785 Tiergarten",
-      "lat": 52.5070408,
-      "lng": 13.3676212,
-      "bezirk": "Mitte"
-    },
-    {
-      "title": "Iliggocene: The Age of Dizziness",
-      "start": "2026-06-15T23:59:00",
-      "end": null,
-      "location": "Kindl - Zentrum für zeitgenössische Kunst",
-      "description": "\"Iliggocene: The Age of Dizziness\" im Kindl schlägt Künstler:innenpositionen vor, die neue Vokabulare für diese Taumelzustände suchen.  ·  Läuft bis 26.07.2026",
-      "image_url": "https://imgproxy.berlinonline.net/SHHEEtgkFeVpLwtE917FnocF6ADTjz7ON9WI2hI5TT4/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061522/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JvLW1pZGRsZXdhcmUvYm8uYmRlX2NoYW5uZWwuZXZlbnQvaW1hZ2VzLzIyOS81ZTk5MGFmYi1jZDQ5LWMyM2YtZDFlNS05N2M2OWM4NDMxN2EuanBn.jpg",
-      "source_url": "https://www.berlin.de/tickets/ausstellungen/iliggocene-the-age-of-dizziness-aa9fede7-db71-4d43-964e-4eb0894b361c/",
-      "source_name": "Ausstellungen Berlin",
-      "tags": [
-        "Ausstellung"
-      ],
-      "time_known": false,
-      "genre": "Kultur",
-      "subcategory": null,
-      "address": "Am Sudhaus 3, 12053 Neukölln",
-      "lat": 52.4794637,
-      "lng": 13.431275,
-      "bezirk": "Neukölln"
-    },
-    {
-      "title": "Anton Corbijn: Corbijn, Anton",
-      "start": "2026-06-15T23:59:00",
-      "end": null,
-      "location": "Fotografiska Berlin",
-      "description": "Die Porträts des Fotografen Anton Corbijn, der seit Jahrzehnten prägende Künstlerinnen und Künstler der internationalen Musik- und Kulturszene begleitet, sind weltweit bekannt.  ·  Läuft bis 19.09.2026",
-      "image_url": "https://imgproxy.berlinonline.net/5wYHIzSmJFw8w2TBb5cxp95BQJsXLaHtoKfMqZRar1w/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061522/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JkZS1jbXMvYm8udGIuZXZlbnQvaW1hZ2VzLzIyNi8yZTQ5NmYzMi05ZmUyLTQ1NDctOTFlMi1mMTE0ODMyMTkxZjAuanBn.jpg",
-      "source_url": "https://www.berlin.de/tickets/ausstellungen/anton-corbijn-corbijn-anton-b179d50c-82d7-4c0d-9b74-259bc3f509bb/",
-      "source_name": "Ausstellungen Berlin",
-      "tags": [
-        "Ausstellung"
-      ],
-      "time_known": false,
-      "genre": "Kultur",
-      "subcategory": null,
-      "address": "Oranienburger Straße 54, 10117 Mitte",
-      "lat": 52.5256724,
-      "lng": 13.3891203,
-      "bezirk": "Mitte"
-    },
-    {
-      "title": "Rooms / Stages",
-      "start": "2026-06-15T23:59:00",
-      "end": null,
-      "location": "Museum für Fotografie - Helmut Newton Stiftung",
-      "description": "Die Ausstellung „Rooms / Stages“ verzichtet auf künstlerische Dokumentationen, sondern verschiebt vielmehr den Kontext und den Blick vom performativen Akt auf den Bühnenraum selbst.  ·  Läuft bis 15.11.2026",
-      "image_url": "https://imgproxy.berlinonline.net/j0ctIOCrqLMovn_Y6FFYtdPFW1O34Qy7TQ4eP9xZ4xI/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061522/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JvLW1pZGRsZXdhcmUvYm8uYmRlX2NoYW5uZWwuZXZlbnQvaW1hZ2VzLzE4My83YTEzYzZmOS03ZmI1LTY3ZmYtMTZiNy03ZWMxMjA0MzNhMWEuanBn.jpg",
-      "source_url": "https://www.berlin.de/tickets/ausstellungen/rooms-stages-a4943bcf-5277-438c-8d4e-2d7679ca99e8/",
-      "source_name": "Ausstellungen Berlin",
-      "tags": [
-        "Ausstellung"
-      ],
-      "time_known": false,
-      "genre": "Kultur",
-      "subcategory": null,
-      "address": "Jebensstraße 2, 10623 Charlottenburg",
-      "lat": 52.5081567,
-      "lng": 13.3320921,
-      "bezirk": "Charlottenburg-Wilmersdorf"
-    },
-    {
-      "title": "Intermezzo: Revisiting Helmut Newton",
-      "start": "2026-06-15T23:59:00",
-      "end": null,
-      "location": "Museum für Fotografie - Helmut Newton Stiftung",
-      "description": "Die neue Dauerausstellung im Museum für Fotografie wird noch dynamischer auf die unterschiedlichen Aspekte fotografischer Werke von Helmut und June Newton reagieren.  ·  Läuft bis 23.04.2030",
-      "image_url": "https://imgproxy.berlinonline.net/1Ej497e2gXOW4jqz4otMOrFXPlH8wscKX9-v6wshYRY/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061522/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JkZS1jbXMvYm8udGIuZXZlbnQvaW1hZ2VzLzI1MS8zMjE0YTQzYy0xYjJhLTRkMDAtYmVmYi05Nzc3YjQ1ZDllYTMuanBn.jpg",
-      "source_url": "https://www.berlin.de/tickets/ausstellungen/intermezzo-revisiting-helmut-newton-5ff73038-390b-48dc-85a2-801c3ff747e6/",
-      "source_name": "Ausstellungen Berlin",
-      "tags": [
-        "Ausstellung"
-      ],
-      "time_known": false,
-      "genre": "Kultur",
-      "subcategory": null,
-      "address": "Jebensstraße 2, 10623 Charlottenburg",
-      "lat": 52.5081567,
-      "lng": 13.3320921,
-      "bezirk": "Charlottenburg-Wilmersdorf"
-    },
-    {
-      "title": "Many Shades of Grès: Mode wird Kunst",
-      "start": "2026-06-15T23:59:00",
-      "end": null,
-      "location": "Kulturforum",
-      "description": "Die französische Modedesignerin Madame Grès gilt als eine der wichtigsten Wegbereiterinnen der Haute Couture im 20. Jahrhundert.  ·  Läuft bis 11.10.2026",
-      "image_url": "https://imgproxy.berlinonline.net/Iiww8kD26epjO6NDbZajE8YBI0W0UcKPtmdXo44I6xY/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061522/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JkZS1jbXMvYm8udGIuZXZlbnQvaW1hZ2VzLzE1OS9kN2NjYzNkYS00NGFkLTQyN2ItYmI5Zi04ZTk3Y2Y0ODU5YjkuanBn.jpg",
-      "source_url": "https://www.berlin.de/tickets/ausstellungen/many-shades-of-grs-mode-wird-kunst-15c3012c-56e4-4da3-a6b1-63bf46124267/",
-      "source_name": "Ausstellungen Berlin",
-      "tags": [
-        "Ausstellung"
-      ],
-      "time_known": false,
-      "genre": "Kultur",
-      "subcategory": null,
-      "address": "Matthäikirchplatz, 10785 Tiergarten",
-      "lat": 52.5076797,
-      "lng": 13.3670096,
-      "bezirk": "Mitte"
-    },
-    {
-      "title": "Seeing Words, Reading Images – Die Written Art Collection im Dialog mit der Sammlung Deutsche Bank",
-      "start": "2026-06-15T23:59:00",
-      "end": null,
-      "location": "PalaisPopulaire",
-      "description": "Der Fokus der Ausstellung liegt auf der zeitgenössischen Perspektive, quasi einer Worldwide Written Art, die den globalen Dialog heutiger künstlerischer Positionen in den Mittelpunkt stellt.  ·  Läuft bis 17.08.2026",
-      "image_url": "https://imgproxy.berlinonline.net/fL8bEetfIOhWVD-Y4vQiHqN3TuM_Ha_VDcKEj4M-zh8/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061522/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JvLW1pZGRsZXdhcmUvYm8uYmRlX2NoYW5uZWwuZXZlbnQvaW1hZ2VzLzE2Mi82YmJmMjRmYS03NTVlLWM1YjQtMWJhMi02YzY3NDdiYzIxYWQuanBn.jpg",
-      "source_url": "https://www.berlin.de/tickets/ausstellungen/seeing-words-reading-images-bf4513bc-4814-4aa2-a8a7-50c02baa4c83/",
-      "source_name": "Ausstellungen Berlin",
-      "tags": [
-        "Ausstellung"
-      ],
-      "time_known": false,
-      "genre": "Kultur",
-      "subcategory": null,
-      "address": "Unter den Linden 5, 10117 Mitte",
-      "lat": 52.5171465,
-      "lng": 13.3961451,
-      "bezirk": "Mitte"
-    },
-    {
-      "title": "Philipp Gufler: Imitations of Paul",
-      "start": "2026-06-15T23:59:00",
-      "end": null,
-      "location": "Galerie BQ",
-      "description": "Für die Ausstellung „Imitationen von Paul“ tritt Philipp Gufler in einen Dialog mit dem Maler Paul Hoecker, dessen Leben und Werk lange marginalisiert wurden und dessen umfangreiches Œuvre bis heute nicht vollständig katalogisiert ist.  ·  Läuft bis 03.07.2026",
-      "image_url": "https://imgproxy.berlinonline.net/LBxEmjjwLeQUWpyGOSUAlCC_qdUlF_dcCHU5T1saWpU/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061522/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JkZS1jbXMvYm8udGIuZXZlbnQvaW1hZ2VzLzU2Lzc4NjZiNTE4LTYwYWEtNGRlZi04NDM4LTE2NTk1MGFjYTRjZS5wbmc.jpg",
-      "source_url": "https://www.berlin.de/tickets/ausstellungen/philipp-gufler-imitations-of-paul-b49a6057-5536-4c68-b7bf-09f9f266d108/",
-      "source_name": "Ausstellungen Berlin",
-      "tags": [
-        "Ausstellung"
-      ],
-      "time_known": false,
-      "genre": "Kultur",
-      "subcategory": null,
-      "address": "Weydingerstraße 10, 10178 Mitte",
-      "lat": 52.5262536,
-      "lng": 13.4122498,
-      "bezirk": "Mitte"
-    },
     {
       "title": "Konferenz: „Verbinden statt spalten – Gemeinsam gegen Queerfeindlichkeit“",
       "start": "2026-06-16T08:00:00",
@@ -1205,6 +285,26 @@
       "bezirk": "Tempelhof-Schöneberg"
     },
     {
+      "title": "Rope Structures: Exploring Different Tying Styles",
+      "start": "2026-06-16T19:00:00",
+      "end": "2026-06-16T21:30:00",
+      "location": "Karada House",
+      "description": "Japanese inspired rope bondage or shibari comes in many different styles, both in Japan and outside. This class is your introduction into understanding the key differences of styles like Akechi , Naka, or Yukimura Ryu. We will also continue exploring modular thinking by learning what happens after the basic blueprint. \nRope Structures\nTake your fundamentals and start building stronger, more supportive structures. We explore specific harness types, styles, body positions, and different tying styles from across rope traditions.",
+      "image_url": "https://karada-house.de/wp-content/uploads/2025/11/mg_6361-edited.jpg",
+      "source_url": "https://karada-house.de/events/exploring-shibari-styles-berlin-0626/",
+      "source_name": "Karada House",
+      "tags": [
+        "Workshop"
+      ],
+      "time_known": true,
+      "genre": "Kink",
+      "subcategory": null,
+      "address": "Perleberger Straße 59, 10559 Moabit",
+      "lat": 52.5326687,
+      "lng": 13.3513556,
+      "bezirk": "Mitte"
+    },
+    {
       "title": "anarcha solidarity kitchen",
       "start": "2026-06-16T19:00:00",
       "end": null,
@@ -1345,26 +445,6 @@
       "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
-      "title": "Egal",
-      "start": "2026-06-16T19:30:00",
-      "end": null,
-      "location": "Schaubühne am Lehniner Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/76be035fcf29ecc136ddd86e7de00ba0.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/egal/events/367276/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true,
-      "genre": "Kultur",
-      "subcategory": null,
-      "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
-      "lat": 52.4986606,
-      "lng": 13.3022747,
-      "bezirk": "Charlottenburg-Wilmersdorf"
-    },
-    {
       "title": "Ich weiß nicht, was ein Ort ist, ich kenne nur seinen Preis (Manzini-Studien)",
       "start": "2026-06-16T19:30:00",
       "end": null,
@@ -1383,6 +463,26 @@
       "lat": 52.527024,
       "lng": 13.4119171,
       "bezirk": "Mitte"
+    },
+    {
+      "title": "Egal",
+      "start": "2026-06-16T19:30:00",
+      "end": null,
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/76be035fcf29ecc136ddd86e7de00ba0.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/egal/events/367276/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
+      "lat": 52.4986606,
+      "lng": 13.3022747,
+      "bezirk": "Charlottenburg-Wilmersdorf"
     },
     {
       "title": "Flinta*only Kickern",
@@ -1445,26 +545,6 @@
       "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
-      "title": "Im Herzen der Gewalt",
-      "start": "2026-06-16T20:00:00",
-      "end": null,
-      "location": "Schaubühne am Lehniner Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/471ff06353b27a4d8d217663cdacad25.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/im-herzen-gewalt/events/367225/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true,
-      "genre": "Kultur",
-      "subcategory": null,
-      "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
-      "lat": 52.4986606,
-      "lng": 13.3022747,
-      "bezirk": "Charlottenburg-Wilmersdorf"
-    },
-    {
       "title": "Fragezeichen am Hörizont der Tauben",
       "start": "2026-06-16T20:00:00",
       "end": null,
@@ -1483,6 +563,26 @@
       "lat": 52.527024,
       "lng": 13.4119171,
       "bezirk": "Mitte"
+    },
+    {
+      "title": "Im Herzen der Gewalt",
+      "start": "2026-06-16T20:00:00",
+      "end": null,
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/471ff06353b27a4d8d217663cdacad25.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/im-herzen-gewalt/events/367225/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
+      "lat": 52.4986606,
+      "lng": 13.3022747,
+      "bezirk": "Charlottenburg-Wilmersdorf"
     },
     {
       "title": "Two-Song Tuesday (MUSIC STARTS 20:00)",
@@ -1508,7 +608,7 @@
       "title": "LatinoKino",
       "start": "2026-06-16T20:15:00",
       "end": null,
-      "location": "KuBiZ Bernkasteler Str. 78 13088 Berlin Deutschland",
+      "location": "Zorrow Grüntalerstr.38 13359 Berlin Deutschland",
       "description": "Offenes Filmtreffen (auf Spanisch) - Cita abierta de cine (en español)",
       "image_url": null,
       "source_url": "https://stressfaktor.squat.net/node/327496",
@@ -1519,10 +619,470 @@
       "time_known": true,
       "genre": "Polit",
       "subcategory": null,
-      "address": "Bernkasteler Straße 78, 13088 Weißensee",
-      "lat": 52.5577176,
-      "lng": 13.4702725,
-      "bezirk": "Pankow"
+      "address": "13359 Gesundbrunnen",
+      "lat": 52.5598732,
+      "lng": 13.3850984,
+      "bezirk": "Mitte"
+    },
+    {
+      "title": "Brancusi",
+      "start": "2026-06-16T23:59:00",
+      "end": "2026-08-09T21:59:59",
+      "location": "Neue Nationalgalerie",
+      "description": "In Kooperation mit dem Centre Pompidou in Paris zeigt die Neue Nationalgalerie die erste Werkschau des Ausnahmekünstlers Constantin Brancusi seit über 50 Jahren in Deutschland.",
+      "image_url": "https://imgproxy.berlinonline.net/QeyLk2KzBclHsNfa5ET66GLrWq5Y0O1JrDQwoMxff64/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061607/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JkZS1jbXMvYm8udGIuZXZlbnQvaW1hZ2VzLzE5NS83MDExODY5My0yMzk4LTRiODMtOWRjMy03YmYxN2RmMDE3OGEuanBn.jpg",
+      "source_url": "https://www.berlin.de/tickets/ausstellungen/brancusi-61576efe-1b9e-478e-8ea3-ca23a2285128/",
+      "source_name": "Ausstellungen Berlin",
+      "tags": [
+        "Ausstellung"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Potsdamer Straße 50, 10785 Tiergarten",
+      "lat": 52.5070408,
+      "lng": 13.3676212,
+      "bezirk": "Mitte"
+    },
+    {
+      "title": "Gebaute Gemeinschaft: Göbeklitepe, Taş Tepeler und das Leben vor 12.000 Jahren",
+      "start": "2026-06-16T23:59:00",
+      "end": "2026-07-19T21:59:59",
+      "location": "James-Simon-Galerie",
+      "description": "Vor 12.000 Jahren schufen Jäger und Sammler im heutigen Türkiye monumentale Anlagen – bis heute sind Archäolog:innen damit beschäftigt, diese Bau- und Kunstwerke zu entschlüsseln.",
+      "image_url": "https://imgproxy.berlinonline.net/gbbNrTLAlNQI7NZ66rUUTMbMey-OKRYS5DWWlhifUN0/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061607/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JvLW1pZGRsZXdhcmUvYm8uYmRlX2NoYW5uZWwuZXZlbnQvaW1hZ2VzLzEzLzRjMTUwNzQ1LTBhYTUtYjViMS0wODBkLTNlOWMxNTk3YzJhOC5qcGc.jpg",
+      "source_url": "https://www.berlin.de/tickets/ausstellungen/gebaute-gemeinschaft-goebeklitepe-ta-tepeler-und-das-leben-vor-12-000-jahren-3b5cb2db-9050-4eb8-a9ec-245b18f43f5f/",
+      "source_name": "Ausstellungen Berlin",
+      "tags": [
+        "Ausstellung"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Bodestraße, 10178 Mitte",
+      "lat": 52.5201219,
+      "lng": 13.3993823,
+      "bezirk": "Mitte"
+    },
+    {
+      "title": "Lina Lapelytė: We Make Years Out of Hours – Chanel Commission",
+      "start": "2026-06-16T23:59:00",
+      "end": "2027-01-10T22:59:59",
+      "location": "Hamburger Bahnhof - Museum für Gegenwart",
+      "description": "Für die zweite Ausgabe der Chanel Commission verwandelt Lina Lapelytė die Historische Halle des Hamburger Bahnhof in eine polyphone Bühne für eine partizipative Choreografie verwandelt.",
+      "image_url": "https://imgproxy.berlinonline.net/K4chW2L3TFkulepETx4fx_x6BITcG85sl9iVVLS3fgA/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061607/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JkZS1jbXMvYm8udGIuZXZlbnQvaW1hZ2VzLzE0MC8zY2ZjNDJkZC1lZmVkLTQ5NmQtOTg4Yy0yZDIyMjdmZjdiODYuanBn.jpg",
+      "source_url": "https://www.berlin.de/tickets/ausstellungen/lina-lapelyt-we-make-years-out-of-hours-dba95155-327c-4310-907b-86f7cc7452fb/",
+      "source_name": "Ausstellungen Berlin",
+      "tags": [
+        "Ausstellung"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Invalidenstraße 51, 10557 Moabit",
+      "lat": 52.5275532,
+      "lng": 13.3723203,
+      "bezirk": "Mitte"
+    },
+    {
+      "title": "Marina Abramović: Balkan Erotic Epic",
+      "start": "2026-06-16T23:59:00",
+      "end": "2026-08-22T22:00:00",
+      "location": "Gropius Bau",
+      "description": "Im Zentrum der Ausstellung von Marina Abramović im Berliner Gropis Bau steht ihr fortwährendes Interesse an Ritualen, Erotik, Tod und dem Körper als Ort politischen Widerstands.",
+      "image_url": "https://imgproxy.berlinonline.net/OK5iTYOjBhcYQ_iHqy-0BET_56EppPkiEa1NbvWDN8c/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061607/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JkZS1jbXMvYm8udGIuZXZlbnQvaW1hZ2VzLzIzMy9lY2VkOTZjOS03YTYxLTRjNzMtODJlOS1mNzAwNDlkNGZiMTMuanBn.jpg",
+      "source_url": "https://www.berlin.de/tickets/ausstellungen/marina-abramovi-balkan-erotic-epic-5b5d2635-714b-4440-aa81-e4cd48a87371/",
+      "source_name": "Ausstellungen Berlin",
+      "tags": [
+        "Ausstellung"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Niederkirchnerstraße 7, 10963 Kreuzberg",
+      "lat": 52.5066209,
+      "lng": 13.3819472,
+      "bezirk": "Mitte"
+    },
+    {
+      "title": "Marc Brandenburg: 20th Century Debris",
+      "start": "2026-06-16T23:59:00",
+      "end": "2026-09-13T22:00:00",
+      "location": "Berlinische Galerie",
+      "description": "Die Ausstellung in der Berlinischen Galerie widmet sich dem vielschichtigen Werk von Marc Brandenburg, der das Bild der Berliner Kunstszene seit Jahrzehnten mitprägt.",
+      "image_url": "https://imgproxy.berlinonline.net/ZWzHjA43kItN7iHEWLeHWwWNV2gyxgyfzJnPdnJvVsE/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061607/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JkZS1jbXMvYm8udGIuZXZlbnQvaW1hZ2VzLzc3LzZmMGYyMWNiLWQ2M2EtNDdkZS04NTRkLWU5YjYyYTdhMDc4Yi5wbmc.jpg",
+      "source_url": "https://www.berlin.de/tickets/ausstellungen/marc-brandenburg-20th-century-debris-41950c71-4de3-4d84-b270-39d1583f699c/",
+      "source_name": "Ausstellungen Berlin",
+      "tags": [
+        "Ausstellung"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Alte Jakobstraße 124, 10969 Kreuzberg",
+      "lat": 52.5037937,
+      "lng": 13.3987041,
+      "bezirk": "Friedrichshain-Kreuzberg"
+    },
+    {
+      "title": "Freiraum Kunst: Akademie der Künste goes Bellevue",
+      "start": "2026-06-16T23:59:00",
+      "end": "2026-06-27T22:00:00",
+      "location": "Schloss Bellevue",
+      "description": "Ab Mitte Juni realisiert die Akademie der Künste eine zweiwöchige Pop-Up-Galerie im Schloss Bellevue und überführt den Amtssitz des Bundespräsidenten in einen temporären Ort der Künste.",
+      "image_url": "https://imgproxy.berlinonline.net/ND7NIlHP6H1ajoLGZIIDb_4n3oAr8ffUB4hmRjfEnuk/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061607/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JkZS1jbXMvYm8udGIuZXZlbnQvaW1hZ2VzLzE5MC83NjdiYmEyZS1kMjRhLTQ0ZTItOGJiZS01YzM1ZjkxYjQzMTcuanBn.jpg",
+      "source_url": "https://www.berlin.de/tickets/ausstellungen/freiraum-kunst-akademie-der-kuenste-goes-bellevue-5e6628e0-0ff0-454a-a56c-40979dd99478/",
+      "source_name": "Ausstellungen Berlin",
+      "tags": [
+        "Ausstellung"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Spreeweg 1, 10557 Tiergarten",
+      "lat": 52.5172851,
+      "lng": 13.3524323,
+      "bezirk": "Mitte"
+    },
+    {
+      "title": "Ruin und Rausch: Berlin 1910–1930",
+      "start": "2026-06-16T23:59:00",
+      "end": "2027-01-03T22:59:59",
+      "location": "Neue Nationalgalerie",
+      "description": "Mit „Ruin und Rausch“ nimmt die Neue Nationalgalerie ausgewählte Werke aus ihrer Sammlung der Klassischen Moderne in den Blick, die das Berlin der 1910er- und 1920er-Jahre thematisieren.",
+      "image_url": "https://imgproxy.berlinonline.net/0ibIMt39o4dB80rpZ7Iu8Cck-sy0Gh8tUipq3SlpbyU/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061607/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JvLW1pZGRsZXdhcmUvYm8uYmRlX2NoYW5uZWwuZXZlbnQvaW1hZ2VzLzEwNy9lMmY1MmMyZi0yZDJhLTNiOTgtYzU2Yi02ODRiYjczZjA3YTkuanBn.jpg",
+      "source_url": "https://www.berlin.de/tickets/ausstellungen/ruin-und-rausch-berlin-1910-1930-41669289-2895-461d-ae9e-4d4264ab495d/",
+      "source_name": "Ausstellungen Berlin",
+      "tags": [
+        "Ausstellung"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Potsdamer Straße 50, 10785 Tiergarten",
+      "lat": 52.5070408,
+      "lng": 13.3676212,
+      "bezirk": "Mitte"
+    },
+    {
+      "title": "Cassirer und der Durchbruch des Impressionismus",
+      "start": "2026-06-16T23:59:00",
+      "end": "2026-09-27T21:59:59",
+      "location": "Alte Nationalgalerie",
+      "description": "Die Alte Nationalgalerie würdigt im Jahr 2026 mit Paul Cassirer (1871–1926) einen der wichtigsten Kunsthändler seiner Zeit.",
+      "image_url": "https://imgproxy.berlinonline.net/wuk-UH_qYEmNyjrbXKkLmjYNTlLpT34nZx5BFF1ltCo/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061607/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JvLW1pZGRsZXdhcmUvYm8uYmRlX2NoYW5uZWwuZXZlbnQvaW1hZ2VzLzEwNS8yYzFlOTA3NS01NDlmLWJjMzQtZGQ2OS01NWZkMWJkYzU0NDQuanBn.jpg",
+      "source_url": "https://www.berlin.de/tickets/ausstellungen/cassirer-und-der-durchbruch-des-impressionismus-462d1914-63f3-4f32-bb09-353d60c1ca92/",
+      "source_name": "Ausstellungen Berlin",
+      "tags": [
+        "Ausstellung"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Bodestraße 1, 10178 Mitte",
+      "lat": 52.5201701,
+      "lng": 13.3977174,
+      "bezirk": "Mitte"
+    },
+    {
+      "title": "Giulia Andreani: Sabotage",
+      "start": "2026-06-16T23:59:00",
+      "end": "2026-09-13T21:59:59",
+      "location": "Hamburger Bahnhof - Museum für Gegenwart",
+      "description": "Giulia Andreani eröffnet das Jubiläumsprogramm des Hamburger Bahnhof mit Gemälden, die Brüche in offiziellen Geschichtsschreibungen sichtbar machen.",
+      "image_url": "https://imgproxy.berlinonline.net/IgyUFsYA0dD44GyA0H16RD5Km4StGeX9drxltVljl_M/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061607/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JvLW1pZGRsZXdhcmUvYm8uYmRlX2NoYW5uZWwuZXZlbnQvaW1hZ2VzLzE3MS9lYTY1NDRlZi0zMGM0LTc1ODItNzBhYi00YmQ3ZGM0ODU3ZjMuanBn.jpg",
+      "source_url": "https://www.berlin.de/tickets/ausstellungen/giulia-andreani-sabotage-fc9ae686-9d41-48d6-8b90-a20446dcff52/",
+      "source_name": "Ausstellungen Berlin",
+      "tags": [
+        "Ausstellung"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Invalidenstraße 51, 10557 Moabit",
+      "lat": 52.5275532,
+      "lng": 13.3723203,
+      "bezirk": "Mitte"
+    },
+    {
+      "title": "C.B. Evans: Reality or Not",
+      "start": "2026-06-16T23:59:00",
+      "end": "2026-08-15T22:00:00",
+      "location": "Schinkel Pavillon",
+      "description": "Die künstlerische Praxis von C.B. Evans beschäftigt sich mit den Strukturen der digitalen Welt und ihren Auswirkungen auf unsere Gegenwart.",
+      "image_url": "https://imgproxy.berlinonline.net/IN04gWVRRyF-tnKGP4NmcC0YLNJEYFykEV1sQzM4EEw/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061607/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JkZS1jbXMvYm8udGIuZXZlbnQvaW1hZ2VzLzI1NS82ZDg2Nzc5Yi0zNWJiLTQ2YzUtYmZmZi1kMWE5NTkyMjUyODguanBn.jpg",
+      "source_url": "https://www.berlin.de/tickets/ausstellungen/c-b-evans-reality-or-not-3e8e7d73-c0fa-4cb6-8366-62be7e0c95de/",
+      "source_name": "Ausstellungen Berlin",
+      "tags": [
+        "Ausstellung"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Oberwallstraße, 10117 Mitte",
+      "lat": 52.5148489,
+      "lng": 13.3968392,
+      "bezirk": "Mitte"
+    },
+    {
+      "title": "Neue Frau, Neues Sehen: Die Bauhaus-Fotografinnen",
+      "start": "2026-06-16T23:59:00",
+      "end": "2026-10-04T21:59:59",
+      "location": "Museum für Fotografie - Helmut Newton Stiftung",
+      "description": "Die Fotografinnen am Bauhaus experimentierten mit fotografischen und gestalterischen Techniken und loteten dabei die Grenzen ihres Mediums aus.",
+      "image_url": "https://imgproxy.berlinonline.net/LyBibrMfEF2tUkHDmiE3Fe8ymE-jX70x-FhHi3Xnk0o/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061607/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JvLW1pZGRsZXdhcmUvYm8uYmRlX2NoYW5uZWwuZXZlbnQvaW1hZ2VzLzEwNy84YzNjMjllOC0yYzE5LTc1NzYtOGI2Yi05NjZhNTUwYjY0MjAuanBn.jpg",
+      "source_url": "https://www.berlin.de/tickets/ausstellungen/neue-frau-neues-sehen-die-bauhaus-fotografinnen-720227d9-1526-47f3-953b-f92a982f1b88/",
+      "source_name": "Ausstellungen Berlin",
+      "tags": [
+        "Ausstellung"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Jebensstraße 2, 10623 Charlottenburg",
+      "lat": 52.5081567,
+      "lng": 13.3320921,
+      "bezirk": "Charlottenburg-Wilmersdorf"
+    },
+    {
+      "title": "Inventing Queer Cinema",
+      "start": "2026-06-16T23:59:00",
+      "end": "2026-09-13T21:59:59",
+      "location": "Deutsche Kinemathek",
+      "description": "Queeres Kino erzählt von den Geschichten, Erfahrungen und Lebensrealitäten queerer Menschen – meist abseits normativer Erwartungen und gesellschaftlicher Ordnungen.",
+      "image_url": "https://imgproxy.berlinonline.net/AmALncbYCYpnoh8-F3OKCBsDsXliyiUHiYCqKmL6Ers/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061607/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JvLW1pZGRsZXdhcmUvYm8uYmRlX2NoYW5uZWwuZXZlbnQvaW1hZ2VzLzYwL2FhYmY1NzkzLTQzMGUtOTQzZi02MjNjLTU3NjMzZmI2YzQ5OC5qcGc.jpg",
+      "source_url": "https://www.berlin.de/tickets/ausstellungen/inventing-queer-cinema-4875f127-13d1-4d49-836e-1a022ee42aea/",
+      "source_name": "Ausstellungen Berlin",
+      "tags": [
+        "Ausstellung"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Mauerstraße 79, 10117 Mitte",
+      "lat": 52.5085739,
+      "lng": 13.3871178,
+      "bezirk": "Mitte"
+    },
+    {
+      "title": "Peter Hujar und Liz Deschenes: Persistence of Vision",
+      "start": "2026-06-16T23:59:00",
+      "end": "2026-06-27T22:00:00",
+      "location": "Gropius Bau",
+      "description": "Die Ausstellung Persistence of Vision vereint die Arbeiten von Peter Hujar und Liz Deschenes und bringt diese in einen generationsübergreifenden Dialog über Fotografie.",
+      "image_url": "https://imgproxy.berlinonline.net/8MYyKssa86u1evbKN2D3xVpbu10j4pjWpGLVo7ROcEU/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061607/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JkZS1jbXMvYm8udGIuZXZlbnQvaW1hZ2VzLzIxNS8xMzNjMzM1ZC0xYjZhLTQwNjgtYWJkNy0zYzAyN2VjZmE4NWIucG5n.jpg",
+      "source_url": "https://www.berlin.de/tickets/ausstellungen/peter-hujar-und-liz-deschenes-persistence-of-vision-95251eb6-7cc9-48ca-8a3e-17b3513c0eae/",
+      "source_name": "Ausstellungen Berlin",
+      "tags": [
+        "Ausstellung"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Niederkirchnerstraße 7, 10963 Kreuzberg",
+      "lat": 52.5066209,
+      "lng": 13.3819472,
+      "bezirk": "Mitte"
+    },
+    {
+      "title": "Kyiv Biennial: A Bird That Cannot Land",
+      "start": "2026-06-16T23:59:00",
+      "end": "2026-09-13T21:59:59",
+      "location": "KW - Institute for Contemporary Art",
+      "description": "Vor dem Hintergrund zunehmender Konflikte und sich wandelnder politischer Realitäten konzentriert sich „A Bird That Cannot Land“ auf den Begriff „Nahost-Europa“ und dessen Geschichte der Kolonialisierung und des Imperialismus.",
+      "image_url": "https://imgproxy.berlinonline.net/W1ZQGCtUuI-9DUnlLKY0Im7mM8NCmIEUcK1mhKY9TjE/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061607/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JkZS1jbXMvYm8udGIuZXZlbnQvaW1hZ2VzLzE4Mi80M2RmZTc2My0xODZhLTRhZmYtODNiNi0xMWY4Nzk2YWYzNjYucG5n.jpg",
+      "source_url": "https://www.berlin.de/tickets/ausstellungen/kyiv-biennial-a-bird-that-cannot-land-b8b1285f-34c1-4b67-991d-1cf7cfa95955/",
+      "source_name": "Ausstellungen Berlin",
+      "tags": [
+        "Ausstellung"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Auguststraße 69, 10117 Mitte",
+      "lat": 52.5271636,
+      "lng": 13.3948218,
+      "bezirk": "Mitte"
+    },
+    {
+      "title": "Shilpa Gupta: What Still Holds",
+      "start": "2026-06-16T23:59:00",
+      "end": "2027-01-03T22:59:59",
+      "location": "Hamburger Bahnhof - Museum für Gegenwart",
+      "description": "Ausgangspunkt von Shilpa Guptas Einzelausstellung im Hamburger Bahnhof ist das monumentale Werk Truth an der Schnittstelle von Sprache, Macht und Kontrolle.",
+      "image_url": "https://imgproxy.berlinonline.net/qYiEYSrUdUmbS5C7meGrjDFJwyb4eC_nKDjbqk5CJrs/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061607/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JvLW1pZGRsZXdhcmUvYm8uYmRlX2NoYW5uZWwuZXZlbnQvaW1hZ2VzLzc1L2YwZDNkYmI3LWQxMTAtYjAyNi01YTRiLWVmZDMwMjcwZTEyMy5qcGc.jpg",
+      "source_url": "https://www.berlin.de/tickets/ausstellungen/shilpa-gupta-what-still-holds-c11e71c7-2bbd-40f5-8d78-31f4ea6c77c1/",
+      "source_name": "Ausstellungen Berlin",
+      "tags": [
+        "Ausstellung"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Invalidenstraße 51, 10557 Moabit",
+      "lat": 52.5275532,
+      "lng": 13.3723203,
+      "bezirk": "Mitte"
+    },
+    {
+      "title": "Fujiko Nakaya: Nebelskulptur im Skulpturengarten",
+      "start": "2026-06-16T23:59:00",
+      "end": "2026-10-25T22:59:59",
+      "location": "Neue Nationalgalerie",
+      "description": "Wegen des großen Publikumsinteresses präsentiert die Neue Nationalgalerie auch im Jahr 2026 die ortsspezifische Nebelskulptur der japanischen Künstlerin Fujiko Nakaya in ihrem Skulpturengarten.",
+      "image_url": "https://imgproxy.berlinonline.net/IYzmogm4WK6CDW9XGvnCpK2HKxMHZH5Tm1H2MsUQWf0/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061607/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JkZS1jbXMvYm8udGIuZXZlbnQvaW1hZ2VzLzIyMy9mNmIxM2JjMC1mNzVkLTQ1OWMtYmRkZi04YWRmNWQwYTFhYzIuanBn.jpg",
+      "source_url": "https://www.berlin.de/tickets/ausstellungen/fujiko-nakaya-nebelskulptur-im-skulpturengarten-ce3799be-708b-4889-9a49-f216d464ec01/",
+      "source_name": "Ausstellungen Berlin",
+      "tags": [
+        "Ausstellung"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Potsdamer Straße 50, 10785 Tiergarten",
+      "lat": 52.5070408,
+      "lng": 13.3676212,
+      "bezirk": "Mitte"
+    },
+    {
+      "title": "Iliggocene: The Age of Dizziness",
+      "start": "2026-06-16T23:59:00",
+      "end": "2026-07-26T21:59:59",
+      "location": "Kindl - Zentrum für zeitgenössische Kunst",
+      "description": "\"Iliggocene: The Age of Dizziness\" im Kindl schlägt Künstler:innenpositionen vor, die neue Vokabulare für diese Taumelzustände suchen.",
+      "image_url": "https://imgproxy.berlinonline.net/ARPtY6AU_ZwzptYbo6Ac7Lz4lRA4bEm64qK5KQmgTgk/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061607/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JvLW1pZGRsZXdhcmUvYm8uYmRlX2NoYW5uZWwuZXZlbnQvaW1hZ2VzLzIyOS81ZTk5MGFmYi1jZDQ5LWMyM2YtZDFlNS05N2M2OWM4NDMxN2EuanBn.jpg",
+      "source_url": "https://www.berlin.de/tickets/ausstellungen/iliggocene-the-age-of-dizziness-aa9fede7-db71-4d43-964e-4eb0894b361c/",
+      "source_name": "Ausstellungen Berlin",
+      "tags": [
+        "Ausstellung"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Am Sudhaus 3, 12053 Neukölln",
+      "lat": 52.4794637,
+      "lng": 13.431275,
+      "bezirk": "Neukölln"
+    },
+    {
+      "title": "Anton Corbijn: Corbijn, Anton",
+      "start": "2026-06-16T23:59:00",
+      "end": "2026-09-19T22:00:00",
+      "location": "Fotografiska Berlin",
+      "description": "Die Porträts des Fotografen Anton Corbijn, der seit Jahrzehnten prägende Künstlerinnen und Künstler der internationalen Musik- und Kulturszene begleitet, sind weltweit bekannt.",
+      "image_url": "https://imgproxy.berlinonline.net/Vq5P7jYqdyDgF_REZZjsv6bJkP1Y4s27ptoaA1pm_LI/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061607/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JkZS1jbXMvYm8udGIuZXZlbnQvaW1hZ2VzLzIyNi8yZTQ5NmYzMi05ZmUyLTQ1NDctOTFlMi1mMTE0ODMyMTkxZjAuanBn.jpg",
+      "source_url": "https://www.berlin.de/tickets/ausstellungen/anton-corbijn-corbijn-anton-b179d50c-82d7-4c0d-9b74-259bc3f509bb/",
+      "source_name": "Ausstellungen Berlin",
+      "tags": [
+        "Ausstellung"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Oranienburger Straße 54, 10117 Mitte",
+      "lat": 52.5256724,
+      "lng": 13.3891203,
+      "bezirk": "Mitte"
+    },
+    {
+      "title": "Rooms / Stages",
+      "start": "2026-06-16T23:59:00",
+      "end": "2026-11-15T22:59:59",
+      "location": "Museum für Fotografie - Helmut Newton Stiftung",
+      "description": "Die Ausstellung „Rooms / Stages“ verzichtet auf künstlerische Dokumentationen, sondern verschiebt vielmehr den Kontext und den Blick vom performativen Akt auf den Bühnenraum selbst.",
+      "image_url": "https://imgproxy.berlinonline.net/4uQ-as4dt1awpULdWjgpyHdFyAX4KRK6NEQGwj0jtSQ/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061607/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JvLW1pZGRsZXdhcmUvYm8uYmRlX2NoYW5uZWwuZXZlbnQvaW1hZ2VzLzE4My83YTEzYzZmOS03ZmI1LTY3ZmYtMTZiNy03ZWMxMjA0MzNhMWEuanBn.jpg",
+      "source_url": "https://www.berlin.de/tickets/ausstellungen/rooms-stages-a4943bcf-5277-438c-8d4e-2d7679ca99e8/",
+      "source_name": "Ausstellungen Berlin",
+      "tags": [
+        "Ausstellung"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Jebensstraße 2, 10623 Charlottenburg",
+      "lat": 52.5081567,
+      "lng": 13.3320921,
+      "bezirk": "Charlottenburg-Wilmersdorf"
+    },
+    {
+      "title": "Intermezzo: Revisiting Helmut Newton",
+      "start": "2026-06-16T23:59:00",
+      "end": "2030-04-23T22:00:00",
+      "location": "Museum für Fotografie - Helmut Newton Stiftung",
+      "description": "Die neue Dauerausstellung im Museum für Fotografie wird noch dynamischer auf die unterschiedlichen Aspekte fotografischer Werke von Helmut und June Newton reagieren.",
+      "image_url": "https://imgproxy.berlinonline.net/ltQQYiVJYSwaIEBZvGBFDvHwYXyPHoOu5Z5fjWYiyRw/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061607/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JkZS1jbXMvYm8udGIuZXZlbnQvaW1hZ2VzLzI1MS8zMjE0YTQzYy0xYjJhLTRkMDAtYmVmYi05Nzc3YjQ1ZDllYTMuanBn.jpg",
+      "source_url": "https://www.berlin.de/tickets/ausstellungen/intermezzo-revisiting-helmut-newton-5ff73038-390b-48dc-85a2-801c3ff747e6/",
+      "source_name": "Ausstellungen Berlin",
+      "tags": [
+        "Ausstellung"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Jebensstraße 2, 10623 Charlottenburg",
+      "lat": 52.5081567,
+      "lng": 13.3320921,
+      "bezirk": "Charlottenburg-Wilmersdorf"
+    },
+    {
+      "title": "Many Shades of Grès: Mode wird Kunst",
+      "start": "2026-06-16T23:59:00",
+      "end": "2026-10-11T21:59:59",
+      "location": "Kulturforum",
+      "description": "Die französische Modedesignerin Madame Grès gilt als eine der wichtigsten Wegbereiterinnen der Haute Couture im 20. Jahrhundert.",
+      "image_url": "https://imgproxy.berlinonline.net/yZMjYwqeMrz7AxKXyYG_GWwPoaXP6Eu06UBMedGHM98/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061607/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JkZS1jbXMvYm8udGIuZXZlbnQvaW1hZ2VzLzE1OS9kN2NjYzNkYS00NGFkLTQyN2ItYmI5Zi04ZTk3Y2Y0ODU5YjkuanBn.jpg",
+      "source_url": "https://www.berlin.de/tickets/ausstellungen/many-shades-of-grs-mode-wird-kunst-15c3012c-56e4-4da3-a6b1-63bf46124267/",
+      "source_name": "Ausstellungen Berlin",
+      "tags": [
+        "Ausstellung"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Matthäikirchplatz, 10785 Tiergarten",
+      "lat": 52.5076797,
+      "lng": 13.3670096,
+      "bezirk": "Mitte"
+    },
+    {
+      "title": "Seeing Words, Reading Images – Die Written Art Collection im Dialog mit der Sammlung Deutsche Bank",
+      "start": "2026-06-16T23:59:00",
+      "end": "2026-08-17T21:59:59",
+      "location": "PalaisPopulaire",
+      "description": "Der Fokus der Ausstellung liegt auf der zeitgenössischen Perspektive, quasi einer Worldwide Written Art, die den globalen Dialog heutiger künstlerischer Positionen in den Mittelpunkt stellt.",
+      "image_url": "https://imgproxy.berlinonline.net/s3Wiw_RsuHIkBEe-Y5uyFT8YnuVjaNcGiJAmPJi6TUI/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061607/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JvLW1pZGRsZXdhcmUvYm8uYmRlX2NoYW5uZWwuZXZlbnQvaW1hZ2VzLzE2Mi82YmJmMjRmYS03NTVlLWM1YjQtMWJhMi02YzY3NDdiYzIxYWQuanBn.jpg",
+      "source_url": "https://www.berlin.de/tickets/ausstellungen/seeing-words-reading-images-bf4513bc-4814-4aa2-a8a7-50c02baa4c83/",
+      "source_name": "Ausstellungen Berlin",
+      "tags": [
+        "Ausstellung"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Unter den Linden 5, 10117 Mitte",
+      "lat": 52.5171465,
+      "lng": 13.3961451,
+      "bezirk": "Mitte"
+    },
+    {
+      "title": "Philipp Gufler: Imitations of Paul",
+      "start": "2026-06-16T23:59:00",
+      "end": "2026-07-03T22:00:00",
+      "location": "Galerie BQ",
+      "description": "Für die Ausstellung „Imitationen von Paul“ tritt Philipp Gufler in einen Dialog mit dem Maler Paul Hoecker, dessen Leben und Werk lange marginalisiert wurden und dessen umfangreiches Œuvre bis heute nicht vollständig katalogisiert ist.",
+      "image_url": "https://imgproxy.berlinonline.net/b9Kvavp9lX5iqjjw2TK5bh_BgjtmBXV8W9dI6co8pL0/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061607/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JkZS1jbXMvYm8udGIuZXZlbnQvaW1hZ2VzLzU2Lzc4NjZiNTE4LTYwYWEtNGRlZi04NDM4LTE2NTk1MGFjYTRjZS5wbmc.jpg",
+      "source_url": "https://www.berlin.de/tickets/ausstellungen/philipp-gufler-imitations-of-paul-b49a6057-5536-4c68-b7bf-09f9f266d108/",
+      "source_name": "Ausstellungen Berlin",
+      "tags": [
+        "Ausstellung"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Weydingerstraße 10, 10178 Mitte",
+      "lat": 52.5262536,
+      "lng": 13.4122498,
+      "bezirk": "Mitte"
     },
     {
       "title": "Hamsterrad",
@@ -1785,6 +1345,46 @@
       "bezirk": "Tempelhof-Schöneberg"
     },
     {
+      "title": "Radical Inclusion",
+      "start": "2026-06-17T19:00:00",
+      "end": "2026-06-17T21:30:00",
+      "location": "Karada House",
+      "description": "The world can often feel divided and exclusionary. What would it mean to turn that on its head? This workshop explores how we can actively include ourselves and others, while acknowledging the real need for both inclusive and separatist spaces. \nTogether, we will examine the barriers that create exclusion—such as access, power dynamics, and social norms—and explore practical ways to respond to them. The focus is on finding a balance between collective needs and individual experiences, and reimagining what truly supportive spaces can look like. \nLed by Caritia, this session offers a space for reflection, discussion, and collaborative thinking. Participants will be invited to design and imagine the kinds of groups and environments they would want to be part of, while developing tools to meaningfully include difference and diversity for the benefit of all. \nWhat we’ll cover\n\n\nWhat “radical inclusion” means in practice \n\n\nThe role of exclusion: boundaries, safety, and separatist spaces \n\n\nIdentifying barriers to inclusion (access, identity, power) \n\n\nBalancing individual needs with group dynamics \n\n\nDesigning spaces you would actually want to belong to \n\n\nPractical strategies for including difference and diversity",
+      "image_url": "https://karada-house.de/wp-content/uploads/2025/11/mg_6950.jpg",
+      "source_url": "https://karada-house.de/events/radical-inclusion/",
+      "source_name": "Karada House",
+      "tags": [
+        "Workshop"
+      ],
+      "time_known": true,
+      "genre": "Kink",
+      "subcategory": null,
+      "address": "Perleberger Straße 59, 10559 Moabit",
+      "lat": 52.5326687,
+      "lng": 13.3513556,
+      "bezirk": "Mitte"
+    },
+    {
+      "title": "Queer Rope Jam",
+      "start": "2026-06-17T19:00:00",
+      "end": "2026-06-17T23:00:00",
+      "location": "Karada House",
+      "description": "It’s queer rope jam time, babes! Once in a while you gotta do ropey stuff amongst other queers and just enjoy yourself. No posing, no being cool or extra good at doing ropey things needed. Come as you are, exhale and enjoy yourselves. \nWhat is a rope jam?\nRope jams is an open space format. Part hangout, part jamming with other like-minded people who are into rope bondage/shibari/kinbaku. Come and hang out and watch others do ropey stuff or do some yourself.  The queer rope jam is where you can bring your (rope) partner(s) or meet new people who love to tie, be tied and/or self-tie. It is also a great space to have sessions in a safe(r) environment with people you do not know yet. \nWe welcome all styles, all bodies, all knowledge levels. There will be cute music, extra special lighting and snacks. In the last hour of the jam, we will lower the lights and music and make it extra cozy.",
+      "image_url": "https://karada-house.de/wp-content/uploads/2022/11/MG_1274-scaled.jpeg",
+      "source_url": "https://karada-house.de/events/queer-rope-jam-0626/",
+      "source_name": "Karada House",
+      "tags": [
+        "Workshop"
+      ],
+      "time_known": true,
+      "genre": "Kink",
+      "subcategory": null,
+      "address": "Perleberger Straße 59, 10559 Moabit",
+      "lat": 52.5326687,
+      "lng": 13.3513556,
+      "bezirk": "Mitte"
+    },
+    {
       "title": "Soli-Küfa, jeden Mittwoch 19 Uhr",
       "start": "2026-06-17T19:00:00",
       "end": null,
@@ -1985,26 +1585,6 @@
       "bezirk": "Pankow"
     },
     {
-      "title": "Egal",
-      "start": "2026-06-17T19:30:00",
-      "end": null,
-      "location": "Schaubühne am Lehniner Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/76be035fcf29ecc136ddd86e7de00ba0.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/egal/events/367277/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true,
-      "genre": "Kultur",
-      "subcategory": null,
-      "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
-      "lat": 52.4986606,
-      "lng": 13.3022747,
-      "bezirk": "Charlottenburg-Wilmersdorf"
-    },
-    {
       "title": "Fantômas",
       "start": "2026-06-17T19:30:00",
       "end": null,
@@ -2023,6 +1603,26 @@
       "lat": 52.527024,
       "lng": 13.4119171,
       "bezirk": "Mitte"
+    },
+    {
+      "title": "Egal",
+      "start": "2026-06-17T19:30:00",
+      "end": null,
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/76be035fcf29ecc136ddd86e7de00ba0.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/egal/events/367277/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
+      "lat": 52.4986606,
+      "lng": 13.3022747,
+      "bezirk": "Charlottenburg-Wilmersdorf"
     },
     {
       "title": "KüFa (Kitchen for all)",
@@ -2045,26 +1645,6 @@
       "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
-      "title": "Im Herzen der Gewalt",
-      "start": "2026-06-17T20:00:00",
-      "end": null,
-      "location": "Schaubühne am Lehniner Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/471ff06353b27a4d8d217663cdacad25.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/im-herzen-gewalt/events/367226/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true,
-      "genre": "Kultur",
-      "subcategory": null,
-      "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
-      "lat": 52.4986606,
-      "lng": 13.3022747,
-      "bezirk": "Charlottenburg-Wilmersdorf"
-    },
-    {
       "title": "TWINK DEATH",
       "start": "2026-06-17T20:00:00",
       "end": null,
@@ -2083,6 +1663,26 @@
       "lat": 52.527024,
       "lng": 13.4119171,
       "bezirk": "Mitte"
+    },
+    {
+      "title": "Im Herzen der Gewalt",
+      "start": "2026-06-17T20:00:00",
+      "end": null,
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/471ff06353b27a4d8d217663cdacad25.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/im-herzen-gewalt/events/367226/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
+      "lat": 52.4986606,
+      "lng": 13.3022747,
+      "bezirk": "Charlottenburg-Wilmersdorf"
     },
     {
       "title": "Cravo e Canela 4tet",
@@ -2363,6 +1963,26 @@
       "lat": 52.5009559,
       "lng": 13.4354965,
       "bezirk": "Friedrichshain-Kreuzberg"
+    },
+    {
+      "title": "Having Sex with Vulvas",
+      "start": "2026-06-18T19:00:00",
+      "end": "2026-06-18T22:00:00",
+      "location": "Karada House",
+      "description": "Curious about how to give (or get) better pleasure with vulvas, but not sure where to start? Think you already know it all? (You probably don’t—and that’s okay.) Whether you want to increase pleasure for your own or someone else’s vulva, this class is for you. \nIn this deep-dive, inclusive, and no-shame space, you’ll learn:\n\nThe real anatomy of vulvas and vaginas — beyond the textbook\nPleasure-focused techniques that actually work\nHow to unlearn common myths and sexual scripts that get in the way\nPractical info on common issues and how to support vulva health\n\nCeci will go beyond the basics to help you build confidence, communication skills, and a deeper understanding of what brings pleasure to vulva owners. This is a space for anyone who wants to be better at giving or receiving vulva pleasure, regardless of gender, identity, or experience level. \nWhat makes this workshop different?\n\nIt’s inclusive and welcoming to trans and non-binary people\nIt combines expert-led teaching with honest conversation and reflection\nIt’s juicy, informative, and yes, a little nerdy\n\nWhether you’re here to enhance your skills, break down stigma, or better understand your own body, you’re in the right place.",
+      "image_url": "https://karada-house.de/wp-content/uploads/2026/03/mg_3422-scaled.jpg",
+      "source_url": "https://karada-house.de/events/having-sex-with-vulvas-2/",
+      "source_name": "Karada House",
+      "tags": [
+        "Workshop"
+      ],
+      "time_known": true,
+      "genre": "Queer",
+      "subcategory": null,
+      "address": "Perleberger Straße 59, 10559 Moabit",
+      "lat": 52.5326687,
+      "lng": 13.3513556,
+      "bezirk": "Mitte"
     },
     {
       "title": "KvU - VV + Tresen",
@@ -2685,26 +2305,6 @@
       "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
-      "title": "Im Herzen der Gewalt",
-      "start": "2026-06-18T20:00:00",
-      "end": null,
-      "location": "Schaubühne am Lehniner Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/471ff06353b27a4d8d217663cdacad25.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/im-herzen-gewalt/events/367227/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true,
-      "genre": "Kultur",
-      "subcategory": null,
-      "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
-      "lat": 52.4986606,
-      "lng": 13.3022747,
-      "bezirk": "Charlottenburg-Wilmersdorf"
-    },
-    {
       "title": "TWINK DEATH",
       "start": "2026-06-18T20:00:00",
       "end": null,
@@ -2723,6 +2323,26 @@
       "lat": 52.527024,
       "lng": 13.4119171,
       "bezirk": "Mitte"
+    },
+    {
+      "title": "Im Herzen der Gewalt",
+      "start": "2026-06-18T20:00:00",
+      "end": null,
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/471ff06353b27a4d8d217663cdacad25.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/im-herzen-gewalt/events/367227/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
+      "lat": 52.4986606,
+      "lng": 13.3022747,
+      "bezirk": "Charlottenburg-Wilmersdorf"
     },
     {
       "title": "Thursday Jazz Jam",
@@ -3165,6 +2785,26 @@
       "bezirk": "Mitte"
     },
     {
+      "title": "Tarot and Tie",
+      "start": "2026-06-19T19:00:00",
+      "end": "2026-06-19T22:00:00",
+      "location": "Karada House",
+      "description": "Let tarot guide the scene. Through its rich imagery and storytelling, we’ll co-create a living, ever-changing tableau—one tie at a time. \nThis playful, collaborative space invites you to explore connection through rope, inspired by the symbols and moods of the cards. Together, we’ll build a temporary art installation that encourages communication, creativity, and care. \nLed by Caritia, this session blends rope play with the layered world of tarot. Expect collaborative tying, shared imagination, and a gentle sprinkle of kink in a space that centres curiosity, consent, and co-creation.",
+      "image_url": "https://karada-house.de/wp-content/uploads/2025/12/kh_hotelroomperformance_sophiacecirenee_252.jpg",
+      "source_url": "https://karada-house.de/events/tarot-and-tie/",
+      "source_name": "Karada House",
+      "tags": [
+        "Workshop"
+      ],
+      "time_known": true,
+      "genre": "Kink",
+      "subcategory": null,
+      "address": "Perleberger Straße 59, 10559 Moabit",
+      "lat": 52.5326687,
+      "lng": 13.3513556,
+      "bezirk": "Mitte"
+    },
+    {
       "title": "Bi+Flinta* meet up",
       "start": "2026-06-19T19:00:00",
       "end": null,
@@ -3451,7 +3091,7 @@
       "location": "Schaubühne am Lehniner Platz",
       "description": null,
       "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/360ce498e8891fe859b125efe27ee092.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/salome-613/events/367280/",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/salome-615/events/367280/",
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
@@ -3567,10 +3207,10 @@
     {
       "title": "Walter Schels: 16° Fische – Retrospektive",
       "start": "2026-06-19T23:59:00",
-      "end": null,
+      "end": "2026-09-02T21:59:59",
       "location": "C/O Berlin (im Amerika-Haus)",
-      "description": "Neugeborene und Hundertjährige, berühmte und unbekannte Gesichter, Tiere und Pflanzen – stets kreist der Blick Walter Schels' um grundlegende Fragen menschlicher Existenz.  ·  Läuft bis 02.09.2026",
-      "image_url": "https://imgproxy.berlinonline.net/eH35FIznrtAS1gavohGel_rOP5jCizD4W7EdLKTKZDA/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061522/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JvLW1pZGRsZXdhcmUvYm8uYmRlX2NoYW5uZWwuZXZlbnQvaW1hZ2VzLzE0MS9lZDY1YzMzNy1mNzBlLWZiMzktNTI4ZC1mY2VhMzEwMzRmMTIuanBn.jpg",
+      "description": "Neugeborene und Hundertjährige, berühmte und unbekannte Gesichter, Tiere und Pflanzen – stets kreist der Blick Walter Schels' um grundlegende Fragen menschlicher Existenz.",
+      "image_url": "https://imgproxy.berlinonline.net/MZBPnGuLV3GSjSu41_C7PWSV3MbF94zP9nkOHOTymJQ/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061607/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JvLW1pZGRsZXdhcmUvYm8uYmRlX2NoYW5uZWwuZXZlbnQvaW1hZ2VzLzE0MS9lZDY1YzMzNy1mNzBlLWZiMzktNTI4ZC1mY2VhMzEwMzRmMTIuanBn.jpg",
       "source_url": "https://www.berlin.de/tickets/ausstellungen/walter-schels-16-fische-b7887524-e4af-4ded-bc85-5de855b48865/",
       "source_name": "Ausstellungen Berlin",
       "tags": [
@@ -3583,6 +3223,26 @@
       "lat": null,
       "lng": null,
       "bezirk": null
+    },
+    {
+      "title": "Midsummer Moments - Reflections",
+      "start": "2026-06-20T12:00:00",
+      "end": "2026-06-20T15:00:00",
+      "location": "Karada House",
+      "description": "At the midpoint of the year, we pause to take stock, reconnect, and gently turn toward what’s next. This session invites you to slow down and be present with yourself, while sharing space with others in a supportive and welcoming environment. \nGuided by Caritia, this is a held space for intentional reflection through conversation and journaling. Together, we’ll create simple rituals of acknowledgement and empowerment, honouring where you’ve been and what you’re ready to invite in. \nWhat we’ll do\n\n\nReflect on the year so far \n\n\n(Re)set intentions for the months ahead \n\n\nCreate small, personal rituals to honour your journey \n\n\nExplore what feels supportive and sustaining for you \n\n\nListen inward to what is wanted, needed, and desired \n\n\nShare gently in small groups (with choice and care)",
+      "image_url": "https://karada-house.de/wp-content/uploads/2022/07/MG_2042-scaled.jpeg",
+      "source_url": "https://karada-house.de/events/midsummer-moments-reflections/",
+      "source_name": "Karada House",
+      "tags": [
+        "Workshop"
+      ],
+      "time_known": true,
+      "genre": "Kink",
+      "subcategory": null,
+      "address": "Perleberger Straße 59, 10559 Moabit",
+      "lat": 52.5326687,
+      "lng": 13.3513556,
+      "bezirk": "Mitte"
     },
     {
       "title": "Breathplay Workshop",
@@ -3703,6 +3363,26 @@
       "lat": 52.4938045,
       "lng": 13.3877873,
       "bezirk": "Friedrichshain-Kreuzberg"
+    },
+    {
+      "title": "Midsummer Moments - Playtime",
+      "start": "2026-06-20T16:00:00",
+      "end": "2026-06-20T19:00:00",
+      "location": "Karada House",
+      "description": "Celebrate the Summer Solstice through movement, connection, and play. Together, we’ll honour both light and dark, exploring how they live within us. \nCaritia invites you into a kink-inspired, body-based space where you can explore your intentions and desires—solo or with others. Whether you’re drawn to rope, sensation, SM, or something a little playful and spicy, this is a collaborative environment for creative expression, curiosity, and care. \nThe session begins with a guided opening to ground the group and spark inspiration. From there, you’ll be invited to create your own “adventure”—a personal or shared ritual that celebrates the abundance of light and the turning of the season. \nWhat we will discuss\n\nShare intentions and ideas\nCreate simple rituals (solo or in small groups)\nExplore body-based and sensory practices\nPlay, experiment, and collaborate\nCelebrate creativity and expression\nConnect with pleasure as a source of energy and resistance",
+      "image_url": "https://karada-house.de/wp-content/uploads/2024/04/MG_9641-scaled.jpeg",
+      "source_url": "https://karada-house.de/events/midsummer-moments-playtime/",
+      "source_name": "Karada House",
+      "tags": [
+        "Workshop"
+      ],
+      "time_known": true,
+      "genre": "Kink",
+      "subcategory": null,
+      "address": "Perleberger Straße 59, 10559 Moabit",
+      "lat": 52.5326687,
+      "lng": 13.3513556,
+      "bezirk": "Mitte"
     },
     {
       "title": "Schach- und Spiele-Nachmittag",
@@ -4005,26 +3685,6 @@
       "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
-      "title": "Being Young",
-      "start": "2026-06-20T19:30:00",
-      "end": null,
-      "location": "Schaubühne am Lehniner Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/f9fc79ec2142925fa940e1a08b0725ac.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/being-young/events/367462/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true,
-      "genre": "Kultur",
-      "subcategory": null,
-      "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
-      "lat": 52.4986606,
-      "lng": 13.3022747,
-      "bezirk": "Charlottenburg-Wilmersdorf"
-    },
-    {
       "title": "Salon Ma ما",
       "start": "2026-06-20T19:30:00",
       "end": null,
@@ -4043,6 +3703,26 @@
       "lat": 52.527024,
       "lng": 13.4119171,
       "bezirk": "Mitte"
+    },
+    {
+      "title": "Being Young",
+      "start": "2026-06-20T19:30:00",
+      "end": null,
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/f9fc79ec2142925fa940e1a08b0725ac.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/being-young/events/367462/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
+      "lat": 52.4986606,
+      "lng": 13.3022747,
+      "bezirk": "Charlottenburg-Wilmersdorf"
     },
     {
       "title": "U35",
@@ -4125,26 +3805,6 @@
       "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
-      "title": "Salome",
-      "start": "2026-06-20T20:00:00",
-      "end": null,
-      "location": "Schaubühne am Lehniner Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/360ce498e8891fe859b125efe27ee092.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/salome-613/events/367281/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true,
-      "genre": "Kultur",
-      "subcategory": null,
-      "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
-      "lat": 52.4986606,
-      "lng": 13.3022747,
-      "bezirk": "Charlottenburg-Wilmersdorf"
-    },
-    {
       "title": "Love Me Tender",
       "start": "2026-06-20T20:00:00",
       "end": null,
@@ -4163,6 +3823,26 @@
       "lat": 52.527024,
       "lng": 13.4119171,
       "bezirk": "Mitte"
+    },
+    {
+      "title": "Salome",
+      "start": "2026-06-20T20:00:00",
+      "end": null,
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/360ce498e8891fe859b125efe27ee092.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/salome-615/events/367281/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
+      "lat": 52.4986606,
+      "lng": 13.3022747,
+      "bezirk": "Charlottenburg-Wilmersdorf"
     },
     {
       "title": "MUSViT",
@@ -4403,6 +4083,26 @@
       "lat": null,
       "lng": null,
       "bezirk": null
+    },
+    {
+      "title": "Rope Level-Up: Playing with Predicaments",
+      "start": "2026-06-21T11:30:00",
+      "end": "2026-06-21T15:30:00",
+      "location": "Karada House",
+      "description": "Ready to deepen your connection through rope? This immersive workshop focuses on intentional tying: building trust, communicating clearly, and using positions and tempo to create emotional or playful experiences. Includes hands-on practice and guided scenarios. Ideal after completing the fundamentals series. \nTopic: Predicaments\nPredicaments are lose-lose situation in rope play that can be a lot of fun but also lead into a realm of psychological play that can be physically and psychologically challenging. Renée will guide you through a few easy and fun predicaments that will become more and more challenging. Choose your own adventure \nWe Will Explore:\n\nwhat are predicaments?\nsuper easy beginner predicaments\npsychological vs. physical predicaments\nplay time!",
+      "image_url": "https://karada-house.de/wp-content/uploads/2025/12/preducament_class.jpg",
+      "source_url": "https://karada-house.de/events/rope-levelup-predicaments/",
+      "source_name": "Karada House",
+      "tags": [
+        "Workshop"
+      ],
+      "time_known": true,
+      "genre": "Kink",
+      "subcategory": null,
+      "address": "Perleberger Straße 59, 10559 Moabit",
+      "lat": 52.5326687,
+      "lng": 13.3513556,
+      "bezirk": "Mitte"
     },
     {
       "title": "Führung : „Apropos Sex”",
@@ -4805,6 +4505,26 @@
       "bezirk": "Steglitz-Zehlendorf"
     },
     {
+      "title": "Cuddles, Cakes and Kinks - Summer Edition (with Garden!)",
+      "start": "2026-06-21T17:00:00",
+      "end": "2026-06-21T23:00:00",
+      "location": "Karada House",
+      "description": "Welcome to Cuddles, Cakes and Kinks, your monthly aftercare event to take a break from cisheteropatriarchy, capitalism, the burning world, or life in general. We’re here to rest so we can resist, to play as an antidote to pressure, and to let the people eat cake. Queer people, welcome! \nWe are opening our wonderful house for the evening so you can come by, relax, and calm down amongst other queer people. There will be hammocks and little areas for cuddling and enjoying touch. Get or give massages. Do some soft, slow kink. Or hang out in the kitchen with us and just chat. We will be baking a bunch of cakes and there will be coffee, tea, and snacks to nourish your bodies and souls. \nLight and slow kink interactions are welcome. Anything that allows you to come back to yourself and into connection with others in a soft and nice way. This is not a play party or sex club, but a playful community event. The vibe is cozy, and we don’t do genital play. \nThere is a separate cuddle room that is completely free from any kind of play, horny vibes, and nudity. It’s for cuddles, naps, quiet conversation, maybe reading a book.",
+      "image_url": "https://karada-house.de/wp-content/uploads/2025/07/MG_4545-1.jpg",
+      "source_url": "https://karada-house.de/events/cuddles-cakes-template-0626/",
+      "source_name": "Karada House",
+      "tags": [
+        "Workshop"
+      ],
+      "time_known": true,
+      "genre": "Kink",
+      "subcategory": null,
+      "address": "Perleberger Straße 59, 10559 Moabit",
+      "lat": 52.5326687,
+      "lng": 13.3513556,
+      "bezirk": "Mitte"
+    },
+    {
       "title": "Gedenkkundgebung 93 Jahre Köpenicker Blutwoche",
       "start": "2026-06-21T17:00:00",
       "end": null,
@@ -4905,26 +4625,6 @@
       "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
-      "title": "P14 – endlich endlich",
-      "start": "2026-06-21T19:00:00",
-      "end": null,
-      "location": "Volksbühne am Rosa-Luxemburg-Platz",
-      "description": null,
-      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/e460ca489510b3a2c7b291bffd2194c9.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/p14-endlich-endlich/events/369879/",
-      "source_name": "Berlin Bühnen",
-      "tags": [
-        "Theater"
-      ],
-      "time_known": true,
-      "genre": "Kultur",
-      "subcategory": null,
-      "address": "Linienstraße 227, 10178 Mitte",
-      "lat": 52.527024,
-      "lng": 13.4119171,
-      "bezirk": "Mitte"
-    },
-    {
       "title": "Love Me Tender",
       "start": "2026-06-21T19:00:00",
       "end": null,
@@ -4963,6 +4663,26 @@
       "lat": 52.4999566,
       "lng": 13.3871576,
       "bezirk": "Friedrichshain-Kreuzberg"
+    },
+    {
+      "title": "P14 – endlich endlich",
+      "start": "2026-06-21T19:00:00",
+      "end": null,
+      "location": "Volksbühne am Rosa-Luxemburg-Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/e460ca489510b3a2c7b291bffd2194c9.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/p14-endlich-endlich/events/369879/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Linienstraße 227, 10178 Mitte",
+      "lat": 52.527024,
+      "lng": 13.4119171,
+      "bezirk": "Mitte"
     },
     {
       "title": "Die Seherin",
@@ -5185,26 +4905,6 @@
       "bezirk": "Tempelhof-Schöneberg"
     },
     {
-      "title": "Fahrrad-Selbsthilfe-Werkstatt",
-      "start": "2026-06-22T18:00:00",
-      "end": null,
-      "location": "Neckarstr. 19 Souterrain im Hof/ basement in the court 12053 Berlin Deutschland",
-      "description": "Jeden Montag kannst du bei uns dein Fahrrad reparieren. Vorkenntnisse sind nicht nötig, wir können dich unterstützen. Komm einfach vorbei.",
-      "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/324664",
-      "source_name": "Stressfaktor",
-      "tags": [
-        "Sonstiges"
-      ],
-      "time_known": true,
-      "genre": "Polit",
-      "subcategory": null,
-      "address": "Neckarstraße 19, 12053 Neukölln",
-      "lat": 52.4801032,
-      "lng": 13.4340359,
-      "bezirk": "Neukölln"
-    },
-    {
       "title": "Queer Yoga - Slow Flow",
       "start": "2026-06-22T18:15:00",
       "end": "2026-06-22T20:15:00",
@@ -5231,7 +4931,7 @@
       "location": "Baiz Schönhauser Allee 26 A 10435 Berlin Deutschland",
       "description": "Mietenberatung mit RA Henrik Solf und Unterstützung der Mietergemeinschaft Prenzlauer Berg",
       "image_url": null,
-      "source_url": "https://stressfaktor.squat.net/node/323506",
+      "source_url": "https://stressfaktor.squat.net/node/326446",
       "source_name": "Stressfaktor",
       "tags": [
         "Sonstiges"
@@ -5283,6 +4983,26 @@
       "lat": 52.4374457,
       "lng": 13.3754837,
       "bezirk": "Tempelhof-Schöneberg"
+    },
+    {
+      "title": "Rope for Absolute Beginners",
+      "start": "2026-06-22T19:00:00",
+      "end": "2026-06-22T22:00:00",
+      "location": "Karada House",
+      "description": "Welcome to the world of Japanese style rope bondage, friend! It’s wild and fun out here and we are thrilled to be your point of entry. \nThis weekly class is designed for anyone who would like to learn about Japanese-inspired rope bondage/shibari/kinbaku whether you see yourself in the role of the person tying or being tied. We firmly believe that everyone, even if you wish to be tied, should know the absolute basics of this craft. \nWhat we do\n\nWe talk about what the heck is Japanese inspired rope bondage and why we call it “inspired”.\nWe show you the tools are we using and tell you why they are designed the way they are.\nWe talk about why people love to tie/get tied and what happens if you tie/get tied?\nWe show you the fundamental principles of shibari and first techniques you can immediately use\nWe talk about the history of shibari, give you pointers on anatomy, psychology and safety\nWe will tie ourselves, other people (if you and they want to) and actually take time to try stuff out and play, play, play\n\nThis class is suited for\n\nall kinds of bodies (abled and non-abled), all gender expressions, all kinds of sexualities (including people on the ace-spectrum), all kind of brains (neurospicy or neurotypical, affected by trauma, etc.)\npeople coming solo or bringing a partner (or group), people who only want to tie their own bodies as well as people who want to tie/get tied by others",
+      "image_url": "https://karada-house.de/wp-content/uploads/2025/12/absolutebeginner10.jpg",
+      "source_url": "https://karada-house.de/events/rope-for-absolute-beginner-220626/",
+      "source_name": "Karada House",
+      "tags": [
+        "Workshop"
+      ],
+      "time_known": true,
+      "genre": "Kink",
+      "subcategory": null,
+      "address": "Perleberger Straße 59, 10559 Moabit",
+      "lat": 52.5326687,
+      "lng": 13.3513556,
+      "bezirk": "Mitte"
     },
     {
       "title": "Soli-Bleiberechtsbar",
@@ -5471,7 +5191,7 @@
       "location": "Schaubühne am Lehniner Platz",
       "description": null,
       "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/360ce498e8891fe859b125efe27ee092.jpg",
-      "source_url": "https://www.berlin-buehnen.de/de/spielplan/salome-613/events/367282/",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/salome-615/events/367282/",
       "source_name": "Berlin Bühnen",
       "tags": [
         "Theater"
@@ -5663,6 +5383,26 @@
       "lat": 52.4829791,
       "lng": 13.3507943,
       "bezirk": "Tempelhof-Schöneberg"
+    },
+    {
+      "title": "Rope Lab: Play & Connection - pain",
+      "start": "2026-06-23T19:00:00",
+      "end": "2026-06-23T21:30:00",
+      "location": "Karada House",
+      "description": "This is our experimental shibari playground for all skill levels. Each month explores a new topic — from shame and semenawa to performance, advanced movement, or the mythical “3rd rope” in TKs. We rotate between two themes, always bringing new inspiration to your rope practice. Open to all levels with foundational knowledge. Bring your curiosity, your questions, and your rope. \nThis month we are focusing on: pain – weather you call it s/m or semenawa, this class is all about exploring how to use rope to create pain. We will explore both external pain and uncomfortable body positions. This class is suitable for all skill levels. \nPlay & Connection\nThese classes are dedicated to the research of the interpersonal, connective, and fun side of shibari. Forget about rope technique for a while and learn hands-on skills for actually playing with what you know. The topic varies from month to month, and can be anything from pain and predicament ties to fun games like rope fight club. Come learn the skills that take your sessions from good to fantastic!",
+      "image_url": "https://karada-house.de/wp-content/uploads/2025/12/mg_6839.jpg",
+      "source_url": "https://karada-house.de/events/pain-shibari-semenawa-0626/",
+      "source_name": "Karada House",
+      "tags": [
+        "Workshop"
+      ],
+      "time_known": true,
+      "genre": "Kink",
+      "subcategory": null,
+      "address": "Perleberger Straße 59, 10559 Moabit",
+      "lat": 52.5326687,
+      "lng": 13.3513556,
+      "bezirk": "Mitte"
     },
     {
       "title": "anarcha solidarity kitchen",
@@ -5985,6 +5725,26 @@
       "bezirk": "Pankow"
     },
     {
+      "title": "Playfight & Rough Body Play Lab",
+      "start": "2026-06-24T19:00:00",
+      "end": "2026-06-24T21:00:00",
+      "location": "Karada House",
+      "description": "Use your body in a vastly different way. Restricted, restrained, maybe even tamed – our bodies are subdued to very strict rules and movements in our daily lives. Time to get primal and rough. Rough body play allows for more fighting, emotions, and a deeper exploration of power dynamics than play fights. \nOnce a month we open Karada House for 2 hours of randori (free fights) time to try your new skills and have fun. Our amazing instructor Montse will guide through \n\nwarm-up exercises\nconsent & safety\ndos & don’ts\n\nAfter that – fight!",
+      "image_url": "https://karada-house.de/wp-content/uploads/2025/10/mg_8399.jpg",
+      "source_url": "https://karada-house.de/events/rbp-template-240626/",
+      "source_name": "Karada House",
+      "tags": [
+        "Workshop"
+      ],
+      "time_known": true,
+      "genre": "Kink",
+      "subcategory": null,
+      "address": "Perleberger Straße 59, 10559 Moabit",
+      "lat": 52.5326687,
+      "lng": 13.3513556,
+      "bezirk": "Mitte"
+    },
+    {
       "title": "Soli-Küfa, jeden Mittwoch 19 Uhr",
       "start": "2026-06-24T19:00:00",
       "end": null,
@@ -6063,6 +5823,26 @@
       "lat": 52.5258825,
       "lng": 13.4016022,
       "bezirk": "Mitte"
+    },
+    {
+      "title": "Tell Mama",
+      "start": "2026-06-24T19:00:00",
+      "end": null,
+      "location": null,
+      "description": "Drag show by Judy LaDivina with various special guests",
+      "image_url": "https://cdn.siegessaeule.de/images/Extra_GMF_with_Judy_LaDivina__prom.94e78a02.fill-320x320.jpg",
+      "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-24",
+      "source_name": "Siegessäule",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true,
+      "genre": "Queer",
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Lesung Henryk Gericke und Henning Rabe",
@@ -6225,6 +6005,26 @@
       "bezirk": "Charlottenburg-Wilmersdorf"
     },
     {
+      "title": "GOAT Box Live",
+      "start": "2026-06-24T21:00:00",
+      "end": null,
+      "location": null,
+      "description": "Line-up: Cobb Douglas (Trance, Techno)",
+      "image_url": "https://cdn.siegessaeule.de/images/18_GOAT_Ball__GOAT_Ball_Promo_c_GO.2e16d0ba.fill-320x320.png",
+      "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-24",
+      "source_name": "Siegessäule",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true,
+      "genre": "Queer",
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
+    },
+    {
       "title": "VideoKino (Open Air)",
       "start": "2026-06-24T21:30:00",
       "end": null,
@@ -6243,6 +6043,46 @@
       "lat": 52.5577176,
       "lng": 13.4702725,
       "bezirk": "Pankow"
+    },
+    {
+      "title": "Knock up @XXL",
+      "start": "2026-06-25T10:00:00",
+      "end": null,
+      "location": null,
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-25",
+      "source_name": "Siegessäule",
+      "tags": [
+        "Film"
+      ],
+      "time_known": true,
+      "genre": "Queer",
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
+    },
+    {
+      "title": "Qigong & Taiji für deine Lebensenergie!",
+      "start": "2026-06-25T14:15:00",
+      "end": "2026-06-25T16:15:00",
+      "location": null,
+      "description": "Mit Marzena Stana",
+      "image_url": null,
+      "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-25",
+      "source_name": "Siegessäule",
+      "tags": [
+        "Sonstiges"
+      ],
+      "time_known": true,
+      "genre": "Queer",
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null
     },
     {
       "title": "Die solidarische Jobcenter-Sozialberatung",
@@ -6363,6 +6203,26 @@
       "lat": 52.4736946,
       "lng": 13.451159,
       "bezirk": "Neukölln"
+    },
+    {
+      "title": "Practical Reflections on Intentional Kink Space Facilitation",
+      "start": "2026-06-25T19:00:00",
+      "end": "2026-06-25T21:00:00",
+      "location": "Karada House",
+      "description": "As Kink Space Facilitators, we experience a wide range of impressions in our work. We plan juicy offers, trauma and queer inclusive, and hold space for experiences, uncertainties, fuck ups, desires and much more. After planning and implementation comes reflection and evaluation. The ‘how was I’ as a professional and personally. \nAlexander Hahne, gay trans man, trainer and speaker for trans-specific topics in the field of sexual health, sex educator, somatic counselor, sexuality focussed bodyworker, systemic sex therapist, dancer and pleasure activist. Leader of workshops and individual counseling on the topics of body awareness, intimacy and sexuality. He works in the field of sexuality for about 20 years with almost 15 years of facilitation in pleasure and kink spaces. With his work he directly support them in their own experience of the body as well as the possibility of uncovering and using access to their own pleasurable potential. \nWhat happens in the workshop?\nIn this workshop, we will first put on our oxygen masks and subject our work to a reality check to see how it actually was. \nFor example, we will address the following questions: \n\nWhich methods worked really well and why?\nDid the planning of your trauma-informed process have the desired effect during implementation?\nWere there situations in which you felt uncertain or overwhelmed? What did you do then? What could be different next time?\nWhich methods did you use and why? What worked, what didn’t and why?\n\nYes, there is always too little time and the physical space is different than expected… how do you deal with that? How does that affect your stress level and facilitation? \nThe approach is to separate your behaviour from you as a person. You as a person are highly valued and your behaviour is criticised. \nNote\nThis offering connects to and extends Ceci Ferox’s workshops Intentional Kink Space Facilitation and Intentional Kink Spaces: Structures and Organizing. You can purchase the recordings in our shop. If you did not have the opportunity to be part of these classes, we are offering the recordings for you to purchase as well. The recordings will be available until July 16th, 2026. This is optional, not mandatory. If you were part of one or both of these workshops, you can email us and get free access to the recordings again, if you purchase a ticket to this class.",
+      "image_url": "https://karada-house.de/wp-content/uploads/2025/12/mg_3058.jpg",
+      "source_url": "https://karada-house.de/events/practical-reflections/",
+      "source_name": "Karada House",
+      "tags": [
+        "Workshop"
+      ],
+      "time_known": true,
+      "genre": "Kink",
+      "subcategory": null,
+      "address": "Perleberger Straße 59, 10559 Moabit",
+      "lat": 52.5326687,
+      "lng": 13.3513556,
+      "bezirk": "Mitte"
     },
     {
       "title": "Näh’n’Nerd Cafe / Reparaturkneipe",
@@ -6825,6 +6685,26 @@
       "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
+      "title": "Hurt Me, Deliciously",
+      "start": "2026-06-26T19:00:00",
+      "end": "2026-06-26T22:00:00",
+      "location": "Karada House",
+      "description": "There is something extraordinarily powerful in feeling and playing with consensual and voluntary pain. Why would a person want to feel pain? Why would another love to give it to someone else? How is pain and the processing of it changed depending on the context and relation it is put into? \nIn the workshop, Mamana will go into a deep deep deep dive into all things pain and pain play. Together we will look at what pain actually is, how it is produced and interpreted in the brain and how it is influenced by personal, biological, social, and other contextual factors you can play with. We will go into the details of why people like to give and receive pain, how you can process it, which typical impact play instruments are helpful in inducing a certain kind of painful sensation. \nIn short, this class will fry your brain with nerdy knowledge and allow you to think about your interest in pain play on a whole new level. Come for the facts, stay for the soul-searching of why sadomasochism is fucking delicious. \nWhat we will discuss\n\nDefine Pain?\nGood pain, bad pain?\nWhat do consent, trust and context have to do with it?\nHow to receive and process pain\nHow to tweak your pain play to where you want it to go\nWhy the fuck are we doing this?\nmany other little info tid-bits you will not see coming",
+      "image_url": "https://karada-house.de/wp-content/uploads/2026/01/mg_5976.jpg",
+      "source_url": "https://karada-house.de/events/hurt-me-deliciously-2/",
+      "source_name": "Karada House",
+      "tags": [
+        "Workshop"
+      ],
+      "time_known": true,
+      "genre": "Kink",
+      "subcategory": null,
+      "address": "Perleberger Straße 59, 10559 Moabit",
+      "lat": 52.5326687,
+      "lng": 13.3513556,
+      "bezirk": "Mitte"
+    },
+    {
       "title": "Konzert",
       "start": "2026-06-26T19:00:00",
       "end": null,
@@ -7107,10 +6987,10 @@
     {
       "title": "Erwin Olaf: Muses",
       "start": "2026-06-26T23:59:00",
-      "end": null,
+      "end": "2026-09-06T21:59:59",
       "location": "f³ – Freiraum für Fotografie",
-      "description": "Eine zentrale Rolle in der Ausstellung nehmen Erwin Olafs frühe Schwarzweiß-Porträts ein – roh, direkt und von subversiver Energie.  ·  Läuft bis 06.09.2026",
-      "image_url": "https://imgproxy.berlinonline.net/bbyiwVB8XSx17rCr1Qalxrw2LJ-XvVBUunlwXav0lQA/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061522/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JvLW1pZGRsZXdhcmUvYm8uYmRlX2NoYW5uZWwuZXZlbnQvaW1hZ2VzLzEyMi85NjVlZTY5YS1mMWE4LTEwZDMtNTI3YS03YTA0MjQxMzg4NzYuanBn.jpg",
+      "description": "Eine zentrale Rolle in der Ausstellung nehmen Erwin Olafs frühe Schwarzweiß-Porträts ein – roh, direkt und von subversiver Energie.",
+      "image_url": "https://imgproxy.berlinonline.net/f9Yy8MH4DqIiQoCwyKaQ3490WEhkWVHB82MVVCyPBgc/resizing_type:fit/width:1200/height:1200/gravity:ce/enlarge:0/q:70/cb:2026061607/aHR0cHM6Ly9wb3B1bGEtbWlkZGxld2FyZS5zMy5hbWF6b25hd3MuY29tL2JvLW1pZGRsZXdhcmUvYm8uYmRlX2NoYW5uZWwuZXZlbnQvaW1hZ2VzLzEyMi85NjVlZTY5YS1mMWE4LTEwZDMtNTI3YS03YTA0MjQxMzg4NzYuanBn.jpg",
       "source_url": "https://www.berlin.de/tickets/ausstellungen/erwin-olaf-muses-2bb6c3ec-1f91-49d1-ac1a-efc7c681bb0b/",
       "source_name": "Ausstellungen Berlin",
       "tags": [
@@ -7183,6 +7063,46 @@
       "lat": 52.5114491,
       "lng": 13.4595298,
       "bezirk": "Friedrichshain-Kreuzberg"
+    },
+    {
+      "title": "Rope Fundamentals Weekend: Foundations & Fun",
+      "start": "2026-06-27T13:00:00",
+      "end": "2026-06-27T19:00:00",
+      "location": "Karada House",
+      "description": "This is the Saturday single ticket event. For buying a full weekend ticket, go to the weekend event. \nSaturday gives you the tools that make shibari fun — or intense, or meditative, or horny, or whatever flavor of rope you want to create. Ceci will get you started with the most essential techniques: the lark’s head, the single column tie, clean wrapping, managing tension, and staying safe. Once those basics are in place, we spend the rest of the day putting them to use in playful, intuitive ways. \nWe’ll explore freestyle tying and improvisation to loosen the pressure of “doing it right.” Through one-rope exercises, wrapping, unwrapping, and re-wrapping bodies, you’ll learn to follow curiosity instead of memorizing patterns. Because rope isn’t static — people move — we’ll also practice guiding and responding to movement through levers, spirals, and simple transitions like sitting to standing or shifting limbs mid-tie. \nAlong the way, we dive into the emotional and psychological effects of rope: how body positions, pacing, tension, and proximity can shift headspace and shape intention. With just a few simple ties, you’ll learn to create sessions that feel impactful, intimate, and expressive. \nTake aways: \n\nLarkshead & single column tie\nRope safety\nOne rope tying, wrapping & unwrapping\nPlaying with different intentions and moods\nMoving bodies & tying in movement",
+      "image_url": "https://karada-house.de/wp-content/uploads/2025/12/mg_7919.jpg",
+      "source_url": "https://karada-house.de/events/rope-fundamentals-weekend-foundations-fun-2/",
+      "source_name": "Karada House",
+      "tags": [
+        "Workshop"
+      ],
+      "time_known": true,
+      "genre": "Kink",
+      "subcategory": null,
+      "address": "Perleberger Straße 59, 10559 Moabit",
+      "lat": 52.5326687,
+      "lng": 13.3513556,
+      "bezirk": "Mitte"
+    },
+    {
+      "title": "Rope Fundamentals: Shibari Starter Kit Weekend",
+      "start": "2026-06-27T13:00:00",
+      "end": "2026-06-28T19:00:00",
+      "location": "Karada House",
+      "description": "Kick off your rope journey with a weekend that bundles our entire Rope Fundamentals series into one playful, beginner-friendly shibari workshop. \nAcross two days, you’ll move from the simplest building blocks to a clear understanding of how harnesses work. Whether you’re brand new, brushing off old skills, or craving a solid base before exploring deeper techniques, this weekend is designed to set you up with confidence, creativity, and connection. \nYou can bring someone to tie with or come solo and find a partner at the workshop. \nJoin us for the full journey, or pick the day that suits you best: \nGet Your Saturday (Foundations & Fun), only ticket here.\nGet your Sunday (Nerdery & Harnesses), only ticket here. \nFoundations & Fun\nSaturday gives you the tools that make shibari fun — or intense, or meditative, or horny, or whatever flavor of rope you want to create. Ceci will get you started with the most essential techniques: the lark’s head, the single column tie, clean wrapping, managing tension, and staying safe. Once those basics are in place, we spend the rest of the day putting them to use in playful, intuitive ways. \nWe’ll explore freestyle tying and improvisation to loosen the pressure of “doing it right.” Through one-rope exercises, wrapping, unwrapping, and re-wrapping bodies, you’ll learn to follow curiosity instead of memorizing patterns. Because rope isn’t static — people move — we’ll also practice guiding and responding to movement through levers, spirals, and simple transitions like sitting to standing or shifting limbs mid-tie. \nAlong the way, we dive into the emotional and psychological effects of rope: how body positions, pacing, tension, and proximity can shift headspace and shape intention. With just a few simple ties, you’ll learn to create sessions that feel impactful, intimate, and expressive. \nTake aways:\n\nLarkshead & single column tie\nRope safety\nOne rope tying, wrapping & unwrapping\nPlaying with different intentions and moods\nMoving bodies & tying in movement\n\nNerdery & Harnesses\nSunday is for the rope nerds (or for anyone ready to become one). Today we dive into the mechanics behind stable, comfortable, body-friendly tying. We’ll explore how to apply rope with intention, how to create structures that fit real bodies, and how to make your tying smoother, safer, and more efficient. \nYou’ll learn counter tensions, ladder structures, your first frictions, and how to wrap with flow and consistency. These building blocks are what allow harnesses to hold their shape. We’ll also cover ergonomics and hand techniques, like hooking and pulling rope, so you can tie for longer without soreness or strain. \nWith these tools in place, we’ll begin tying simple harnesses and, more importantly, understanding why they work. You’ll get a clear picture of the core components (anchors, stems, wraps, frictions, and cinches) and start recognizing the logic behind shibari structures. This modular thinking becomes the foundation for everything that comes after. \nTake aways:\n\nDouble column tie\nRope handling & ergonomics\nTension, counter tension & ladders\nIntro to harnesses: anchors, stems, wraps, frictions, cinches\nFrictions: Half hitch, full stop, munter hitch, in-line single column tie\nOne rope harnesses: chest harness, futomomo, box tie",
+      "image_url": "https://karada-house.de/wp-content/uploads/2026/02/mg_1074-1.jpg",
+      "source_url": "https://karada-house.de/events/rope-fundamentals-shibari-starter-kit-weekend-2/",
+      "source_name": "Karada House",
+      "tags": [
+        "Workshop"
+      ],
+      "time_known": true,
+      "genre": "Kink",
+      "subcategory": null,
+      "address": "Perleberger Straße 59, 10559 Moabit",
+      "lat": 52.5326687,
+      "lng": 13.3513556,
+      "bezirk": "Mitte"
     },
     {
       "title": "Festival gegen Rassismus",
@@ -7845,6 +7765,26 @@
       "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
+      "title": "Rope Fundamentals Weekend: Nerdery & Harnesses",
+      "start": "2026-06-28T13:00:00",
+      "end": "2026-06-28T19:00:00",
+      "location": "Karada House",
+      "description": "This is the Sunday single ticket event. For buying a full weekend ticket, go to the weekend event. \nSunday is for the rope nerds (or for anyone ready to become one). Today we dive into the mechanics behind stable, comfortable, body-friendly tying. We’ll explore how to apply rope with intention, how to create structures that fit real bodies, and how to make your tying smoother, safer, and more efficient. \nYou’ll learn counter tensions, ladder structures, your first frictions, and how to wrap with flow and consistency. These building blocks are what allow harnesses to hold their shape. We’ll also cover ergonomics and hand techniques, like hooking and pulling rope, so you can tie for longer without soreness or strain. \nWith these tools in place, we’ll begin tying simple harnesses and, more importantly, understanding why they work. You’ll get a clear picture of the core components (anchors, stems, wraps, frictions, and cinches) and start recognizing the logic behind shibari structures. This modular thinking becomes the foundation for everything that comes after. \nTake aways: \n\nDouble column tie\nRope handling & ergonomics\nTension, counter tension & ladders\nIntro to harnesses: anchors, stems, wraps, frictions, cinches\nFrictions: Half hitch, full stop, munter hitch, in-line single column tie\nOne rope harnesses: chest harness, futomomo, box tie",
+      "image_url": "https://karada-house.de/wp-content/uploads/2026/01/mg_6117.jpg",
+      "source_url": "https://karada-house.de/events/rope-fundamentals-weekend-nerdery-harnesses-2/",
+      "source_name": "Karada House",
+      "tags": [
+        "Workshop"
+      ],
+      "time_known": true,
+      "genre": "Kink",
+      "subcategory": null,
+      "address": "Perleberger Straße 59, 10559 Moabit",
+      "lat": 52.5326687,
+      "lng": 13.3513556,
+      "bezirk": "Mitte"
+    },
+    {
       "title": "📖 Infoladen Scherer 8 📖",
       "start": "2026-06-28T13:00:00",
       "end": null,
@@ -8025,6 +7965,26 @@
       "bezirk": "Charlottenburg-Wilmersdorf"
     },
     {
+      "title": "Guided Self-Tying Session",
+      "start": "2026-06-29T18:00:00",
+      "end": "2026-06-29T19:30:00",
+      "location": "Karada House",
+      "description": "In this guided self-tying session, Ceci Ferox will guide you through a gentle self-tying experience, helping you reconnect with your body and sense of presence. he session will start with an emotional check-in and end in collective aftercare and sharing to give your solo practice some community support. \nIn this session, you have the freedom to choose how you want to tie, with Ceci offering guidance to help focus your mind and inspire your process. Whether you’re new to self-tying or have experience, the aim is to create a calm space where you can explore at your own pace. If you’re just starting out, Ceci will demonstrate an easy way to get going, so you’ll feel supported no matter your skill level. \nSession structure\n\nCheck-in together in the chat or on microphone\nCeci shows you how to get started with tying in a very simple way\nRope meditation, including a body scan, intention setting, and sensory connection to the rope\nGuided session with free tying and input from Ceci\nCheck-out and aftercare plans",
+      "image_url": "https://karada-house.de/wp-content/uploads/2025/12/mg_5721-1.jpg",
+      "source_url": "https://karada-house.de/events/guided-self-tying-session-4/",
+      "source_name": "Karada House",
+      "tags": [
+        "Workshop"
+      ],
+      "time_known": true,
+      "genre": "Kink",
+      "subcategory": null,
+      "address": "Perleberger Straße 59, 10559 Moabit",
+      "lat": 52.5326687,
+      "lng": 13.3513556,
+      "bezirk": "Mitte"
+    },
+    {
       "title": "Fahrrad-Selbsthilfe-Werkstatt",
       "start": "2026-06-29T18:00:00",
       "end": null,
@@ -8085,6 +8045,26 @@
       "bezirk": "Pankow"
     },
     {
+      "title": "Rope for Absolute Beginners",
+      "start": "2026-06-29T19:00:00",
+      "end": "2026-06-29T22:00:00",
+      "location": "Karada House",
+      "description": "Welcome to the world of Japanese style rope bondage, friend! It’s wild and fun out here and we are thrilled to be your point of entry. \nThis weekly class is designed for anyone who would like to learn about Japanese-inspired rope bondage/shibari/kinbaku whether you see yourself in the role of the person tying or being tied. We firmly believe that everyone, even if you wish to be tied, should know the absolute basics of this craft. \nWhat we do\n\nWe talk about what the heck is Japanese inspired rope bondage and why we call it “inspired”.\nWe show you the tools are we using and tell you why they are designed the way they are.\nWe talk about why people love to tie/get tied and what happens if you tie/get tied?\nWe show you the fundamental principles of shibari and first techniques you can immediately use\nWe talk about the history of shibari, give you pointers on anatomy, psychology and safety\nWe will tie ourselves, other people (if you and they want to) and actually take time to try stuff out and play, play, play\n\nThis class is suited for\n\nall kinds of bodies (abled and non-abled), all gender expressions, all kinds of sexualities (including people on the ace-spectrum), all kind of brains (neurospicy or neurotypical, affected by trauma, etc.)\npeople coming solo or bringing a partner (or group), people who only want to tie their own bodies as well as people who want to tie/get tied by others",
+      "image_url": "https://karada-house.de/wp-content/uploads/2025/12/absolutebeginner6.jpg",
+      "source_url": "https://karada-house.de/events/rope-for-absolute-beginner-290626/",
+      "source_name": "Karada House",
+      "tags": [
+        "Workshop"
+      ],
+      "time_known": true,
+      "genre": "Kink",
+      "subcategory": null,
+      "address": "Perleberger Straße 59, 10559 Moabit",
+      "lat": 52.5326687,
+      "lng": 13.3513556,
+      "bezirk": "Mitte"
+    },
+    {
       "title": "Soli-Bleiberechtsbar",
       "start": "2026-06-29T19:00:00",
       "end": null,
@@ -8143,6 +8123,66 @@
       "lat": 52.47567,
       "lng": 13.43597,
       "bezirk": "Neukölln"
+    },
+    {
+      "title": "Filmabend (P)",
+      "start": "2026-06-29T21:00:00",
+      "end": null,
+      "location": "K Köpenicker Straße Berlin Deutschland",
+      "description": "\" Los Lunes Al Sol\" Esp, Fr, It 2002 OmU 113 Min. R: Fernando León de Aranoa D.:Javier Bardem, Luis Tosar",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327464",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Film"
+      ],
+      "time_known": true,
+      "genre": "Polit",
+      "subcategory": null,
+      "address": "Köpenicker Straße, 10179 Mitte",
+      "lat": 52.507824,
+      "lng": 13.4271106,
+      "bezirk": "Mitte"
+    },
+    {
+      "title": "Bluets",
+      "start": "2026-06-29T21:00:00",
+      "end": null,
+      "location": "Schaubühne am Lehniner Platz",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/97210e35864857f5093fed4d2ab5aca7.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/bluets/events/367285/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
+      "lat": 52.4986606,
+      "lng": 13.3022747,
+      "bezirk": "Charlottenburg-Wilmersdorf"
+    },
+    {
+      "title": "Filmabend im (P)",
+      "start": "2026-06-29T23:00:00",
+      "end": null,
+      "location": "K Köpenicker Straße Berlin Deutschland",
+      "description": "\" El Buon Patron \" Esp 2021, 116 Min. OmU R.: Fernando León de Aranoa D.:Javier Bardem,Almudena Amor",
+      "image_url": null,
+      "source_url": "https://stressfaktor.squat.net/node/327465",
+      "source_name": "Stressfaktor",
+      "tags": [
+        "Film"
+      ],
+      "time_known": true,
+      "genre": "Polit",
+      "subcategory": null,
+      "address": "Köpenicker Straße, 10179 Mitte",
+      "lat": 52.507824,
+      "lng": 13.4271106,
+      "bezirk": "Mitte"
     }
   ]
 }

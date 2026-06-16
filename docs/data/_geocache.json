@@ -23,6 +23,12 @@
   "lat": 52.4969288,
   "lng": 13.4265584
  },
+ "13359 Berlin": {
+  "address": "13359 Gesundbrunnen",
+  "bezirk": "Mitte",
+  "lat": 52.5598732,
+  "lng": 13.3850984
+ },
  ":// about blank / Garten Markgrafendamm 24c 10245 Berlin Deutschland": null,
  "AGB PopUp Saal Blücherplatz 1 10961 Berlin Deutschland": null,
  "AGB PopUp Saal Blücherplatz 1 10961, 10961 Berlin": null,
@@ -1026,6 +1032,7 @@
   "lat": 52.5346475,
   "lng": 13.4037357
  },
+ "Zorrow Grüntalerstr.38 13359 Berlin Deutschland": null,
  "Zwille Fasanenstr. 1a 10623 Berlin Deutschland": null,
  "Zwille Fasanenstr. 1a, 10623 Berlin": null,
  "aquarium (südblock) Skalitzer str. 6 10997 Berlin Deutschland": null,

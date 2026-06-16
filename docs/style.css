@@ -362,6 +362,9 @@ body {
   color: inherit;
   box-shadow: var(--shadow);
   transition: transform 0.15s ease, box-shadow 0.15s ease;
+  /* Nur sichtbare Karten voll rendern (große Listen flüssiger), unsichtbar. */
+  content-visibility: auto;
+  contain-intrinsic-size: auto 280px;
 }
 
 .card {
@@ -1233,27 +1236,6 @@ html.map-active .site-footer {
   text-underline-offset: 2px;
 }
 
-/* Adresse anklickbar -> eingebettete Karte */
-.modal-loc-toggle {
-  display: inline;
-  padding: 0;
-  border: none;
-  background: none;
-  color: inherit;
-  font: inherit;
-  cursor: pointer;
-  text-align: left;
-}
-
-.modal-loc-toggle > span:first-child {
-  text-decoration: underline;
-  text-underline-offset: 2px;
-}
-
-.modal-loc-toggle.open > span:first-child {
-  color: var(--accent);
-}
-
 .loc-map {
   margin: 12px 0 2px;
 }
@@ -1326,17 +1308,6 @@ html.map-active .site-footer {
   flex-direction: column;
   gap: 6px;
   margin: 8px 0 2px;
-}
-
-.showing-block {
-  display: flex;
-  flex-direction: column;
-  gap: 3px;
-}
-
-.showing-addr {
-  font-size: 0.82rem;
-  color: var(--muted);
 }
 
 .showing-row {

@@ -222,8 +222,9 @@ def write_output(events: list[Event], report: list[dict]) -> None:
         "sources": report,
         "events": [e.to_dict() for e in events],
     }
+    # Minified (no indentation) -- smaller download + faster parse on phones.
     OUTPUT.write_text(
-        json.dumps(payload, ensure_ascii=False, indent=2),
+        json.dumps(payload, ensure_ascii=False, separators=(",", ":")),
         encoding="utf-8",
     )
     print(f"\n→ {len(events)} Veranstaltungen geschrieben nach {OUTPUT}")

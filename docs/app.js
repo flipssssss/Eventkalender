@@ -111,6 +111,7 @@ const TAB_DOW_FMT = new Intl.DateTimeFormat("de-DE", { weekday: "short" });
 const TAB_DATE_FMT = new Intl.DateTimeFormat("de-DE", { day: "numeric", month: "numeric" });
 
 let dayObserver = null;
+let searchDebounce = null;
 let deferredInstallPrompt = null;
 
 // Android-Chrome: Install-Dialog für später merken.
@@ -194,8 +195,14 @@ async function init() {
   }
 
   els.search.addEventListener("input", (e) => {
-    state.query = e.target.value.trim().toLowerCase();
-    render();
+    const q = e.target.value.trim().toLowerCase();
+    // Debounce: re-render at most ~every 160ms while typing (590 cards).
+    clearTimeout(searchDebounce);
+    searchDebounce = setTimeout(() => {
+      if (q === state.query) return;
+      state.query = q;
+      render();
+    }, 160);
   });
 
   els.searchToggle.addEventListener("click", () => {
@@ -1232,8 +1239,8 @@ function applyViewMode() {
   els.mapView.toggleAttribute("hidden", !map);
   // Map view fills the screen and locks page scrolling.
   document.documentElement.classList.toggle("map-active", map);
-  if (map && spyHandler) {
-    window.removeEventListener("scroll", spyHandler);
+  if (map && dayIO) {
+    dayIO.disconnect();
     lastActiveKey = null;
   }
 }
@@ -1423,24 +1430,26 @@ function buildDayTabs(sortedKeys, groups) {
   }
 }
 
-let spyHandler = null;
+let dayIO = null;
 let lastActiveKey = null;
 
-// Robust scroll-spy: the active day is the last heading scrolled past the
-// bottom of the sticky header.
+// Scroll-spy via IntersectionObserver: only recompute the active day when a day
+// heading actually crosses the header line (not on every scroll frame).
 function setupScrollSpy(sortedKeys) {
+  if (dayIO) dayIO.disconnect();
   const sections = sortedKeys
     .map((k) => document.getElementById(`day-${k}`))
     .filter(Boolean);
-  if (spyHandler) window.removeEventListener("scroll", spyHandler);
   lastActiveKey = null;
+  if (!sections.length) return;
 
-  spyHandler = () => {
-    const header = document.querySelector(".site-header");
-    const offset = (header ? header.offsetHeight : 0) + 6;
+  const header = document.querySelector(".site-header");
+  const offset = () => (header ? header.offsetHeight : 0) + 6;
+  const recompute = () => {
+    const top = offset();
     let activeKey = sortedKeys[0];
     for (const sec of sections) {
-      if (sec.getBoundingClientRect().top <= offset) activeKey = sec.id.slice(4);
+      if (sec.getBoundingClientRect().top <= top) activeKey = sec.id.slice(4);
       else break;
     }
     if (activeKey !== lastActiveKey) {
@@ -1448,8 +1457,12 @@ function setupScrollSpy(sortedKeys) {
       setActiveTab(activeKey);
     }
   };
-  window.addEventListener("scroll", spyHandler, { passive: true });
-  spyHandler();
+  dayIO = new IntersectionObserver(recompute, {
+    rootMargin: `-${offset()}px 0px 0px 0px`,
+    threshold: 0,
+  });
+  for (const sec of sections) dayIO.observe(sec);
+  recompute();
 }
 
 function setActiveTab(key) {

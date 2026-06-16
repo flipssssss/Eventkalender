@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-16T07:00:32.759557+00:00",
-  "count": 435,
+  "generated_at": "2026-06-16T07:03:29.729348+00:00",
+  "count": 436,
   "sources": [
     {
       "source": "Quälgeist",
@@ -19,7 +19,7 @@
     },
     {
       "source": "Berlin Bühnen",
-      "count": 93,
+      "count": 94,
       "error": null
     },
     {
@@ -8428,6 +8428,27 @@
       "address": "Lausitzer Straße 22, 10999 Kreuzberg",
       "lat": 52.4955993,
       "lng": 13.4268698,
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
+    },
+    {
+      "title": "Hier sein heißt handeln",
+      "start": "2026-06-27T19:00:00",
+      "end": null,
+      "location": "HAU Hebbel am Ufer",
+      "description": null,
+      "image_url": "https://www.berlin-buehnen.de/media/CACHE/images/cd7bbf85912c5f7721067e4900cf5062.jpg",
+      "source_url": "https://www.berlin-buehnen.de/de/spielplan/hier-heisst-handeln/events/367592/",
+      "source_name": "Berlin Bühnen",
+      "tags": [
+        "Theater"
+      ],
+      "time_known": true,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Stresemannstraße 29, 10963 Kreuzberg",
+      "lat": 52.4999566,
+      "lng": 13.3871576,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": null
     },

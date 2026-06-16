@@ -1,196 +1,32 @@
-URL: https://www.berlin.de/kino/_bin/filmdetail.php/314075/
-Wunschkino-Links:
-  B-ware! Ladenkino -> /kino/_bin/kinodetail.php/35211
+### Kino-IDs
+  gefunden: {}
+  (Verzeichnis-Seiten brachten zu wenig — IDs ggf. manuell)
 
---- DICHTESTER SHOWTIME-BLOCK (37 Zeiten) ---
-<table class="table--compact">
- <thead>
-  <tr>
-   <th>
-    Tag
-   </th>
-   <th>
-    Zeit
-   </th>
-  </tr>
- </thead>
- <tbody>
-  <tr>
-   <td>
-    Di, 16.06.26
-   </td>
-   <td>
-    14:15, 16:45, 20:00
-   </td>
-  </tr>
-  <!--ende: trefferlistefilm_erstezeile-->
-  <tr>
-   <td>
-    Di, 16.06.26
-   </td>
-   <td>
-    17:00 (OV), 19:50 (OV)
-   </td>
-  </tr>
-  <tr>
-   <td>
-    Mi, 17.06.26
-   </td>
-   <td>
-    14:15, 16:50, 20:00
-   </td>
-  </tr>
-  <tr>
-   <td>
-    Mi, 17.06.26
-   </td>
-   <td>
-    17:00 (OV)
-   </td>
-  </tr>
-  <tr>
-   <td>
-    Mi, 17.06.26
-   </td>
-   <td>
-    19:50 (OmU)
-   </td>
-  </tr>
-  <tr>
-   <td>
-    Do, 18.06.26
-   </td>
-   <td>
-    16:30, 20:00
-   </td>
-  </tr>
-  <tr>
-   <td>
-    Do, 18.06.26
-   </td>
-   <td>
-    16:50 (OV)
-   </td>
-  </tr>
-  <tr>
-   <td>
-    Do, 18.06.26
-   </td>
-   <td>
-    19:45 (OmU)
-   </td>
-  </tr>
-  <tr>
-   <td>
-    Fr, 19.06.26
-   </td>
-   <td>
-    16:30, 20:00
-   </td>
-  </tr>
-  <tr>
-   <td>
-    Fr, 19.06.26
-   </td>
-   <td>
-    16:50 (OV), 19:45 (OV)
-   </td>
-  </tr>
-  <tr>
-   <td>
-    Sa, 20.06.26
-   </td>
-   <td>
-    17:00, 19:50
-   </td>
-  </tr>
-  <tr>
-   <td>
-    Sa, 20.06.26
-   </td>
-   <td>
-    16:45 (OV)
-   </td>
-  </tr>
-  <tr>
-   <td>
-    Sa, 20.06.26
-   </td>
-   <td>
-    20:10 (OmU)
-   </td>
-  </tr>
-  <tr>
-   <td>
-    So, 21.06.26
-   </td>
-   <td>
-    12:00, 16:45, 19:50
-   </td>
-  </tr>
-  <tr>
-   <td>
-    So, 21.06.26
-   </td>
-   <td>
-    20:00 (OV)
-   </td>
-  </tr>
-  <tr>
-   <td>
-    Mo, 22.06.26
-   </td>
-   <td>
-    16:45, 20:00
-   </td>
-  </tr>
-  <tr>
-   <td>
-    Mo, 22.06.26
-   </td>
-   <td>
-    16:50 (OV)
-   </td>
-  </tr>
-  <tr>
-   <td>
-    Di, 23.06.26
-   </td>
-   <td>
-    16:45, 20:00
-   </td>
-  </tr>
-  <tr>
-   <td>
-    Di, 23.06.26
-   </td>
-   <td>
-    16:50 (OV), 19:50 (OV)
-   </td>
-  </tr>
-  <tr>
-   <td>
-    Mi, 24.06.26
-   </td>
-   <td>
-    16:50, 19:50
-   </td>
-  </tr>
-  <tr>
-   <td>
-    Mi, 24.06.26
-   </td>
-   <td>
-    16:50 (OV)
-   </td>
-  </tr>
-  <tr>
-   <td>
-    Mi, 24.06.26
-   </td>
-   <td>
-    20:00 (OmU)
-   </td>
-  </tr>
- </tbody>
-</table>
+### Ladenkino-Layout (https://www.berlin.de/kino/_bin/kinodetail.php/35211)
+Film-Tabellen: 24 | Film-Links (erste): ['Backrooms (OmU)', 'Das deutsche Volk (OmU)', 'Das Drama - Noch mal auf Anfang (OmU)', 'Der Astronaut - Project Hail Mary (OmU)', 'Die kleine Amélie oder Der Charakter des Regens', 'Disclosure Day - Der Tag der Wahrheit (OmU)', 'Do You Love Me (OmU)', 'Father Mother Sister Brother (OmU)']
+--- ERSTER BLOCK ---
+<div class="table-responsive-wrapper">
+ <table class="table--compact">
+  <thead>
+   <tr>
+    <th>
+     Tag
+    </th>
+    <th>
+     Zeit
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td>
+     Mi, 17.06.26
+    </td>
+    <td>
+     18:15 (OmU), 20:10 (OmU), 22:10 (OmU)
+    </td>
+   </tr>
+   <!--ende: trefferlistekino_erstezeile-->
+  </tbody>
+ </table>
+</div>

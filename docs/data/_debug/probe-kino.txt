@@ -1,6 +1,196 @@
-### index: keine Kino-Treffer gefunden
+URL: https://www.berlin.de/kino/_bin/filmdetail.php/314075/
+Wunschkino-Links:
+  B-ware! Ladenkino -> /kino/_bin/kinodetail.php/35211
 
-### filmdetail (https://www.berlin.de/kino/_bin/filmdetail.php/314075/)
-relevante Klassen: ['bicon bicon-times']
-HH:MM=574
-TEXT: Disclosure Day - Der Tag der Wahrheit - Filmbeschreibung und Termine - Kinoprogramm für Berlin und Umland - Berlin.de Berlin.de Das offizielle Hauptstadtportal Barrierefrei Barrierefreiheit Schließen: Barrierefreiheit Wie barrierefrei ist diese Webseite? Erklärung zur Barrierefreiheit Haben Sie Anmerkungen oder Fragen zur Barrierefreiheit dieser Webseite? Kontakt zur Ansprechperson Wo gibt es zusätzliche Informationen zur Barrierefreiheit im Land Berlin? Barrierefreie Informations- und Kommunikationstechnik (IKT) Öffnen: Suche Suche Suche Schließen: Suche Wo soll gesucht werden? Kultur, Tourismus und Stadtleben Komplette Webseite von Berlin.de Suchbegriff Suchen Öffnen: Menü Menü Menü Schließen: Menü Sprache der Webseite ändern Deutsch English Weitere Links Stadtplan Berlin.de Mail Berlin.de auf Facebook Berlin.de auf Instagram Berlin.de auf Bluesky Startseite Kino Disclosure Day - Der Tag der Wahrheit Die Meteorologin Margaret Fairchild will gerade das Wetter präsentieren, als sie von einem unerklärlichen Phänomen überrascht wird. Aus ihrem Mund kommt nur noch unverständliches Kauderwelsch. Das sorgt für Verwunderung und Entsetzen. Der Einzige, der sie verstehen kann, ist der Aktivist Daniel Keller. Er versucht schon seit einiger Zeit zu beweisen, dass die Regierung geheimzuhalten versucht, dass die Menschheit nicht allein im Universum ist. Filmdaten Filmstart: 10.06.26 Genre:
+--- DICHTESTER SHOWTIME-BLOCK (37 Zeiten) ---
+<table class="table--compact">
+ <thead>
+  <tr>
+   <th>
+    Tag
+   </th>
+   <th>
+    Zeit
+   </th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td>
+    Di, 16.06.26
+   </td>
+   <td>
+    14:15, 16:45, 20:00
+   </td>
+  </tr>
+  <!--ende: trefferlistefilm_erstezeile-->
+  <tr>
+   <td>
+    Di, 16.06.26
+   </td>
+   <td>
+    17:00 (OV), 19:50 (OV)
+   </td>
+  </tr>
+  <tr>
+   <td>
+    Mi, 17.06.26
+   </td>
+   <td>
+    14:15, 16:50, 20:00
+   </td>
+  </tr>
+  <tr>
+   <td>
+    Mi, 17.06.26
+   </td>
+   <td>
+    17:00 (OV)
+   </td>
+  </tr>
+  <tr>
+   <td>
+    Mi, 17.06.26
+   </td>
+   <td>
+    19:50 (OmU)
+   </td>
+  </tr>
+  <tr>
+   <td>
+    Do, 18.06.26
+   </td>
+   <td>
+    16:30, 20:00
+   </td>
+  </tr>
+  <tr>
+   <td>
+    Do, 18.06.26
+   </td>
+   <td>
+    16:50 (OV)
+   </td>
+  </tr>
+  <tr>
+   <td>
+    Do, 18.06.26
+   </td>
+   <td>
+    19:45 (OmU)
+   </td>
+  </tr>
+  <tr>
+   <td>
+    Fr, 19.06.26
+   </td>
+   <td>
+    16:30, 20:00
+   </td>
+  </tr>
+  <tr>
+   <td>
+    Fr, 19.06.26
+   </td>
+   <td>
+    16:50 (OV), 19:45 (OV)
+   </td>
+  </tr>
+  <tr>
+   <td>
+    Sa, 20.06.26
+   </td>
+   <td>
+    17:00, 19:50
+   </td>
+  </tr>
+  <tr>
+   <td>
+    Sa, 20.06.26
+   </td>
+   <td>
+    16:45 (OV)
+   </td>
+  </tr>
+  <tr>
+   <td>
+    Sa, 20.06.26
+   </td>
+   <td>
+    20:10 (OmU)
+   </td>
+  </tr>
+  <tr>
+   <td>
+    So, 21.06.26
+   </td>
+   <td>
+    12:00, 16:45, 19:50
+   </td>
+  </tr>
+  <tr>
+   <td>
+    So, 21.06.26
+   </td>
+   <td>
+    20:00 (OV)
+   </td>
+  </tr>
+  <tr>
+   <td>
+    Mo, 22.06.26
+   </td>
+   <td>
+    16:45, 20:00
+   </td>
+  </tr>
+  <tr>
+   <td>
+    Mo, 22.06.26
+   </td>
+   <td>
+    16:50 (OV)
+   </td>
+  </tr>
+  <tr>
+   <td>
+    Di, 23.06.26
+   </td>
+   <td>
+    16:45, 20:00
+   </td>
+  </tr>
+  <tr>
+   <td>
+    Di, 23.06.26
+   </td>
+   <td>
+    16:50 (OV), 19:50 (OV)
+   </td>
+  </tr>
+  <tr>
+   <td>
+    Mi, 24.06.26
+   </td>
+   <td>
+    16:50, 19:50
+   </td>
+  </tr>
+  <tr>
+   <td>
+    Mi, 24.06.26
+   </td>
+   <td>
+    16:50 (OV)
+   </td>
+  </tr>
+  <tr>
+   <td>
+    Mi, 24.06.26
+   </td>
+   <td>
+    20:00 (OmU)
+   </td>
+  </tr>
+ </tbody>
+</table>

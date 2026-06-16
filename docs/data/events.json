@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T06:44:39.182334+00:00",
+  "generated_at": "2026-06-16T06:50:35.677456+00:00",
   "count": 436,
   "sources": [
     {
@@ -83,6 +83,11 @@
       "error": null
     },
     {
+      "source": "Probe Kino",
+      "count": 0,
+      "error": null
+    },
+    {
       "source": "Siegessäule",
       "count": 38,
       "error": null
@@ -107,7 +112,8 @@
       "address": "Parkaue 29, 10367 Lichtenberg",
       "lat": 52.516993,
       "lng": 13.4772031,
-      "bezirk": "Lichtenberg"
+      "bezirk": "Lichtenberg",
+      "showings": null
     },
     {
       "title": "Stolpersteinverlegung für Lina Wollmann",
@@ -127,7 +133,8 @@
       "address": "Niebuhrstraße 71, 10629 Charlottenburg",
       "lat": 52.5042807,
       "lng": 13.3146838,
-      "bezirk": "Charlottenburg-Wilmersdorf"
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "showings": null
     },
     {
       "title": "Runder Tisch Queeres Steglitz-Zehlendorf",
@@ -147,7 +154,8 @@
       "address": "Königstraße 42-43, 14163 Zehlendorf",
       "lat": 52.4338463,
       "lng": 13.2543865,
-      "bezirk": "Steglitz-Zehlendorf"
+      "bezirk": "Steglitz-Zehlendorf",
+      "showings": null
     },
     {
       "title": "Filmvorführung: Die Jungs, die Nein gesagt haben!",
@@ -167,7 +175,8 @@
       "address": "Köpenicker Allee 39-57, 10318 Karlshorst",
       "lat": 52.4881732,
       "lng": 13.5339889,
-      "bezirk": "Lichtenberg"
+      "bezirk": "Lichtenberg",
+      "showings": null
     },
     {
       "title": "Themenabend",
@@ -187,7 +196,8 @@
       "address": "Mehringdamm 34, 10961 Kreuzberg",
       "lat": 52.4936405,
       "lng": 13.3876998,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Flinta*only Kickern",
@@ -207,7 +217,8 @@
       "address": "Pannierstraße 5, 12047 Neukölln",
       "lat": 52.4865618,
       "lng": 13.430953,
-      "bezirk": "Neukölln"
+      "bezirk": "Neukölln",
+      "showings": null
     },
     {
       "title": "Kiezküche im Kiezhaus Agnes Reinhold",
@@ -227,7 +238,8 @@
       "address": "Afrikanische Straße 74, 13351 Wedding",
       "lat": 52.5517747,
       "lng": 13.3380141,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "IT-Beratung für Aktivist:innen und Gruppen",
@@ -247,7 +259,8 @@
       "address": "Köpenicker Straße 45, 10179 Mitte",
       "lat": 52.5090676,
       "lng": 13.4243386,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Antifaschistische Stadtversammlung im Görlitzer Park",
@@ -267,7 +280,8 @@
       "address": "10999 Kreuzberg",
       "lat": 52.4969288,
       "lng": 13.4265584,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Offenes feministisches Antifa Treffen #4",
@@ -287,7 +301,8 @@
       "address": "Admiralstraße 17, 10999 Kreuzberg",
       "lat": 52.4960989,
       "lng": 13.4153663,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Queer Ageing Group",
@@ -307,7 +322,8 @@
       "address": "Lützowstraße 28, 10785 Tiergarten",
       "lat": 52.5041855,
       "lng": 13.3625529,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "SM am Dienstag - SM on Tuesday",
@@ -327,7 +343,8 @@
       "address": "Lankwitzer Straße 42/43, 12107 Mariendorf",
       "lat": 52.4374457,
       "lng": 13.3754837,
-      "bezirk": "Tempelhof-Schöneberg"
+      "bezirk": "Tempelhof-Schöneberg",
+      "showings": null
     },
     {
       "title": "anarcha solidarity kitchen",
@@ -347,7 +364,8 @@
       "address": null,
       "lat": null,
       "lng": null,
-      "bezirk": null
+      "bezirk": null,
+      "showings": null
     },
     {
       "title": "Breaking News - offener politischer Treff (14-27 Jahre)",
@@ -367,7 +385,8 @@
       "address": "Seelenbinderstraße 54, 12555 Köpenick",
       "lat": 52.4552464,
       "lng": 13.5828604,
-      "bezirk": "Treptow-Köpenick"
+      "bezirk": "Treptow-Köpenick",
+      "showings": null
     },
     {
       "title": "Soli-Küfa",
@@ -387,7 +406,8 @@
       "address": "Mareschstraße 1, 12055 Neukölln",
       "lat": 52.4736946,
       "lng": 13.451159,
-      "bezirk": "Neukölln"
+      "bezirk": "Neukölln",
+      "showings": null
     },
     {
       "title": "Lesung",
@@ -407,7 +427,8 @@
       "address": "Ackerstraße 169, 10115 Mitte",
       "lat": 52.5297369,
       "lng": 13.3971786,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Wie bekämpft eine Stadtteilorga den Faschismus",
@@ -427,7 +448,8 @@
       "address": "Alfredstraße 24, 10365 Lichtenberg",
       "lat": 52.5145899,
       "lng": 13.4904607,
-      "bezirk": "Lichtenberg"
+      "bezirk": "Lichtenberg",
+      "showings": null
     },
     {
       "title": "Rope Structures: Exploring Different Tying Styles",
@@ -447,7 +469,8 @@
       "address": "Perleberger Straße 59, 10559 Moabit",
       "lat": 52.5326687,
       "lng": 13.3513556,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Queercoustic Hangout",
@@ -467,7 +490,8 @@
       "address": "Grünberger Straße 73, 10245 Friedrichshain",
       "lat": 52.5114491,
       "lng": 13.4595298,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Ich weiß nicht, was ein Ort ist, ich kenne nur seinen Preis (Manzini-Studien)",
@@ -487,7 +511,8 @@
       "address": "Linienstraße 227, 10178 Mitte",
       "lat": 52.527024,
       "lng": 13.4119171,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Egal",
@@ -507,7 +532,8 @@
       "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
       "lat": 52.4986606,
       "lng": 13.3022747,
-      "bezirk": "Charlottenburg-Wilmersdorf"
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "showings": null
     },
     {
       "title": "Flinta*only Kickern",
@@ -527,7 +553,8 @@
       "address": "Pannierstraße 5, 12047 Neukölln",
       "lat": 52.4865618,
       "lng": 13.430953,
-      "bezirk": "Neukölln"
+      "bezirk": "Neukölln",
+      "showings": null
     },
     {
       "title": "Shipwrecked jam 16 + anarcha soli kitchen",
@@ -547,7 +574,8 @@
       "address": null,
       "lat": null,
       "lng": null,
-      "bezirk": null
+      "bezirk": null,
+      "showings": null
     },
     {
       "title": "DER SOLDAT. Ein Übergangsritual",
@@ -567,7 +595,8 @@
       "address": "Stresemannstraße 29, 10963 Kreuzberg",
       "lat": 52.4999566,
       "lng": 13.3871576,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Fragezeichen am Hörizont der Tauben",
@@ -587,7 +616,8 @@
       "address": "Linienstraße 227, 10178 Mitte",
       "lat": 52.527024,
       "lng": 13.4119171,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Im Herzen der Gewalt",
@@ -607,7 +637,8 @@
       "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
       "lat": 52.4986606,
       "lng": 13.3022747,
-      "bezirk": "Charlottenburg-Wilmersdorf"
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "showings": null
     },
     {
       "title": "Two-Song Tuesday (MUSIC STARTS 20:00)",
@@ -627,7 +658,8 @@
       "address": "Donaustraße 115, 12043 Berlin",
       "lat": 52.47567,
       "lng": 13.43597,
-      "bezirk": "Neukölln"
+      "bezirk": "Neukölln",
+      "showings": null
     },
     {
       "title": "LatinoKino",
@@ -639,7 +671,7 @@
       "source_url": "https://stressfaktor.squat.net/node/327496",
       "source_name": "Stressfaktor",
       "tags": [
-        "Film"
+        "Kino"
       ],
       "time_known": true,
       "genre": "Polit",
@@ -647,7 +679,8 @@
       "address": "13359 Gesundbrunnen",
       "lat": 52.5598732,
       "lng": 13.3850984,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Brancusi",
@@ -667,7 +700,8 @@
       "address": "Potsdamer Straße 50, 10785 Tiergarten",
       "lat": 52.5070408,
       "lng": 13.3676212,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Gebaute Gemeinschaft: Göbeklitepe, Taş Tepeler und das Leben vor 12.000 Jahren",
@@ -687,7 +721,8 @@
       "address": "Bodestraße, 10178 Mitte",
       "lat": 52.5201219,
       "lng": 13.3993823,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Lina Lapelytė: We Make Years Out of Hours – Chanel Commission",
@@ -707,7 +742,8 @@
       "address": "Invalidenstraße 51, 10557 Moabit",
       "lat": 52.5275532,
       "lng": 13.3723203,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Marina Abramović: Balkan Erotic Epic",
@@ -727,7 +763,8 @@
       "address": "Niederkirchnerstraße 7, 10963 Kreuzberg",
       "lat": 52.5066209,
       "lng": 13.3819472,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Marc Brandenburg: 20th Century Debris",
@@ -747,7 +784,8 @@
       "address": "Alte Jakobstraße 124, 10969 Kreuzberg",
       "lat": 52.5037937,
       "lng": 13.3987041,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Freiraum Kunst: Akademie der Künste goes Bellevue",
@@ -767,7 +805,8 @@
       "address": "Spreeweg 1, 10557 Tiergarten",
       "lat": 52.5172851,
       "lng": 13.3524323,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Ruin und Rausch: Berlin 1910–1930",
@@ -787,7 +826,8 @@
       "address": "Potsdamer Straße 50, 10785 Tiergarten",
       "lat": 52.5070408,
       "lng": 13.3676212,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Cassirer und der Durchbruch des Impressionismus",
@@ -807,7 +847,8 @@
       "address": "Bodestraße 1, 10178 Mitte",
       "lat": 52.5201701,
       "lng": 13.3977174,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Giulia Andreani: Sabotage",
@@ -827,7 +868,8 @@
       "address": "Invalidenstraße 51, 10557 Moabit",
       "lat": 52.5275532,
       "lng": 13.3723203,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "C.B. Evans: Reality or Not",
@@ -847,7 +889,8 @@
       "address": "Oberwallstraße, 10117 Mitte",
       "lat": 52.5148489,
       "lng": 13.3968392,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Neue Frau, Neues Sehen: Die Bauhaus-Fotografinnen",
@@ -867,7 +910,8 @@
       "address": "Jebensstraße 2, 10623 Charlottenburg",
       "lat": 52.5081567,
       "lng": 13.3320921,
-      "bezirk": "Charlottenburg-Wilmersdorf"
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "showings": null
     },
     {
       "title": "Inventing Queer Cinema",
@@ -887,7 +931,8 @@
       "address": "Mauerstraße 79, 10117 Mitte",
       "lat": 52.5085739,
       "lng": 13.3871178,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Peter Hujar und Liz Deschenes: Persistence of Vision",
@@ -907,7 +952,8 @@
       "address": "Niederkirchnerstraße 7, 10963 Kreuzberg",
       "lat": 52.5066209,
       "lng": 13.3819472,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Kyiv Biennial: A Bird That Cannot Land",
@@ -927,7 +973,8 @@
       "address": "Auguststraße 69, 10117 Mitte",
       "lat": 52.5271636,
       "lng": 13.3948218,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Shilpa Gupta: What Still Holds",
@@ -947,7 +994,8 @@
       "address": "Invalidenstraße 51, 10557 Moabit",
       "lat": 52.5275532,
       "lng": 13.3723203,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Fujiko Nakaya: Nebelskulptur im Skulpturengarten",
@@ -967,7 +1015,8 @@
       "address": "Potsdamer Straße 50, 10785 Tiergarten",
       "lat": 52.5070408,
       "lng": 13.3676212,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Iliggocene: The Age of Dizziness",
@@ -987,7 +1036,8 @@
       "address": "Am Sudhaus 3, 12053 Neukölln",
       "lat": 52.4794637,
       "lng": 13.431275,
-      "bezirk": "Neukölln"
+      "bezirk": "Neukölln",
+      "showings": null
     },
     {
       "title": "Anton Corbijn: Corbijn, Anton",
@@ -1007,7 +1057,8 @@
       "address": "Oranienburger Straße 54, 10117 Mitte",
       "lat": 52.5256724,
       "lng": 13.3891203,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Rooms / Stages",
@@ -1027,7 +1078,8 @@
       "address": "Jebensstraße 2, 10623 Charlottenburg",
       "lat": 52.5081567,
       "lng": 13.3320921,
-      "bezirk": "Charlottenburg-Wilmersdorf"
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "showings": null
     },
     {
       "title": "Intermezzo: Revisiting Helmut Newton",
@@ -1047,7 +1099,8 @@
       "address": "Jebensstraße 2, 10623 Charlottenburg",
       "lat": 52.5081567,
       "lng": 13.3320921,
-      "bezirk": "Charlottenburg-Wilmersdorf"
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "showings": null
     },
     {
       "title": "Many Shades of Grès: Mode wird Kunst",
@@ -1067,7 +1120,8 @@
       "address": "Matthäikirchplatz, 10785 Tiergarten",
       "lat": 52.5076797,
       "lng": 13.3670096,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Seeing Words, Reading Images – Die Written Art Collection im Dialog mit der Sammlung Deutsche Bank",
@@ -1087,7 +1141,8 @@
       "address": "Unter den Linden 5, 10117 Mitte",
       "lat": 52.5171465,
       "lng": 13.3961451,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Philipp Gufler: Imitations of Paul",
@@ -1107,7 +1162,8 @@
       "address": "Weydingerstraße 10, 10178 Mitte",
       "lat": 52.5262536,
       "lng": 13.4122498,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Hamsterrad",
@@ -1127,7 +1183,8 @@
       "address": null,
       "lat": null,
       "lng": null,
-      "bezirk": null
+      "bezirk": null,
+      "showings": null
     },
     {
       "title": "Projektband für Frauen* und Queers",
@@ -1147,7 +1204,8 @@
       "address": null,
       "lat": null,
       "lng": null,
-      "bezirk": null
+      "bezirk": null,
+      "showings": null
     },
     {
       "title": "MADE IN BOGOTA ´STREETART EXHIBITION+FLASHTATTOOS+MUSIC+FOOD",
@@ -1167,7 +1225,8 @@
       "address": "Kreutzigerstraße 19, 10247 Friedrichshain",
       "lat": 52.5131608,
       "lng": 13.4600856,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Die Welt im Umbruch: Emotionen und Solidarität",
@@ -1187,7 +1246,8 @@
       "address": "Hermannstraße, 12051 Neukölln",
       "lat": 52.4681788,
       "lng": 13.4309085,
-      "bezirk": "Neukölln"
+      "bezirk": "Neukölln",
+      "showings": null
     },
     {
       "title": "youngStars",
@@ -1207,7 +1267,8 @@
       "address": "Mehringdamm 34, 10961 Kreuzberg",
       "lat": 52.4936405,
       "lng": 13.3876998,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Theaterführung",
@@ -1227,7 +1288,8 @@
       "address": "Linienstraße 227, 10178 Mitte",
       "lat": 52.527024,
       "lng": 13.4119171,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "gender mix",
@@ -1247,7 +1309,8 @@
       "address": "Mehringdamm 32, 10961 Kreuzberg",
       "lat": 52.4938045,
       "lng": 13.3877873,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "mittwochskufa",
@@ -1267,7 +1330,8 @@
       "address": "Reichenberger Straße 63a, 10999 Kreuzberg",
       "lat": 52.4952361,
       "lng": 13.4307312,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Küfa im JUP",
@@ -1287,7 +1351,8 @@
       "address": "Florastraße 84, 13187 Pankow",
       "lat": 52.5658369,
       "lng": 13.400323,
-      "bezirk": "Pankow"
+      "bezirk": "Pankow",
+      "showings": null
     },
     {
       "title": "Political Movie Night :  \"Wildstreik\" Köln 1973",
@@ -1299,7 +1364,7 @@
       "source_url": "https://stressfaktor.squat.net/node/327730",
       "source_name": "Stressfaktor",
       "tags": [
-        "Film"
+        "Kino"
       ],
       "time_known": true,
       "genre": "Polit",
@@ -1307,7 +1372,8 @@
       "address": "Finowstraße 33, 10247 Friedrichshain",
       "lat": 52.5126458,
       "lng": 13.4688594,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Filmvorführung \"Every Body\" und Diskussion",
@@ -1319,7 +1385,7 @@
       "source_url": "https://stressfaktor.squat.net/node/327746",
       "source_name": "Stressfaktor",
       "tags": [
-        "Film"
+        "Kino"
       ],
       "time_known": true,
       "genre": "Queer",
@@ -1327,7 +1393,8 @@
       "address": "Alice-Salomon-Platz 5, 12627 Hellersdorf",
       "lat": 52.5371991,
       "lng": 13.6060882,
-      "bezirk": "Marzahn-Hellersdorf"
+      "bezirk": "Marzahn-Hellersdorf",
+      "showings": null
     },
     {
       "title": "Häkelhektar",
@@ -1347,7 +1414,8 @@
       "address": "Lausitzer Straße 21a, 10999 Kreuzberg",
       "lat": 52.4959646,
       "lng": 13.4263213,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Bingo mit den Wodkasisters",
@@ -1367,7 +1435,8 @@
       "address": null,
       "lat": null,
       "lng": null,
-      "bezirk": null
+      "bezirk": null,
+      "showings": null
     },
     {
       "title": "Romani POV: Young Roma on Screen and Stage",
@@ -1387,7 +1456,8 @@
       "address": "Linienstraße 227, 10178 Mitte",
       "lat": 52.527024,
       "lng": 13.4119171,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Hypnose Stammtisch & Anfänger*innen / Beginners Workshop: Was ist Hypnose und was kann das?",
@@ -1407,7 +1477,8 @@
       "address": "Lankwitzer Straße 42/43, 12107 Mariendorf",
       "lat": 52.4374457,
       "lng": 13.3754837,
-      "bezirk": "Tempelhof-Schöneberg"
+      "bezirk": "Tempelhof-Schöneberg",
+      "showings": null
     },
     {
       "title": "Soli-Küfa, jeden Mittwoch 19 Uhr",
@@ -1427,7 +1498,8 @@
       "address": "Mareschstraße 1, 12055 Neukölln",
       "lat": 52.4736946,
       "lng": 13.451159,
-      "bezirk": "Neukölln"
+      "bezirk": "Neukölln",
+      "showings": null
     },
     {
       "title": "Konzert",
@@ -1447,7 +1519,8 @@
       "address": "Ackerstraße 169, 10115 Mitte",
       "lat": 52.5297369,
       "lng": 13.3971786,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Soli-Abend Nein zur Bezahlkarte",
@@ -1467,7 +1540,8 @@
       "address": "Hochstädter Straße 10a, 13347 Wedding",
       "lat": 52.550607,
       "lng": 13.363522,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Fermentationsworkshop - Can you jam that?",
@@ -1487,7 +1561,8 @@
       "address": "Tauentzienstraße, 10789 Charlottenburg",
       "lat": 52.503379,
       "lng": 13.3386522,
-      "bezirk": "Charlottenburg-Wilmersdorf"
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "showings": null
     },
     {
       "title": "Lesekreis: Die Überlegenheit der Unterlegenen. Eine Theorie der Gegengemeinschaften - Daniel Loick",
@@ -1507,7 +1582,8 @@
       "address": "Lausitzer Straße 13, 10999 Kreuzberg",
       "lat": 52.4970089,
       "lng": 13.428189,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "STRESS POSITIONS - NERVE CENTER - RYTES",
@@ -1527,7 +1603,8 @@
       "address": null,
       "lat": null,
       "lng": null,
-      "bezirk": null
+      "bezirk": null,
+      "showings": null
     },
     {
       "title": "Soziale Arbeit, Wehrdienst und Aufrüstung: Workshop",
@@ -1547,7 +1624,8 @@
       "address": "Kleine Alexanderstraße 28, 10178 Mitte",
       "lat": 52.5264478,
       "lng": 13.4130213,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "DER SOLDAT. Ein Übergangsritual",
@@ -1567,7 +1645,8 @@
       "address": "Stresemannstraße 29, 10963 Kreuzberg",
       "lat": 52.4999566,
       "lng": 13.3871576,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "P14 – endlich endlich",
@@ -1587,7 +1666,8 @@
       "address": "Linienstraße 227, 10178 Mitte",
       "lat": 52.527024,
       "lng": 13.4119171,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Radical Inclusion",
@@ -1607,7 +1687,8 @@
       "address": "Perleberger Straße 59, 10559 Moabit",
       "lat": 52.5326687,
       "lng": 13.3513556,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Queer Rope Jam",
@@ -1627,7 +1708,8 @@
       "address": "Perleberger Straße 59, 10559 Moabit",
       "lat": 52.5326687,
       "lng": 13.3513556,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "90 Jahre Ken Loach: Kes (OmU)",
@@ -1639,7 +1721,7 @@
       "source_url": "https://stressfaktor.squat.net/node/327147",
       "source_name": "Stressfaktor",
       "tags": [
-        "Film"
+        "Kino"
       ],
       "time_known": true,
       "genre": "Polit",
@@ -1647,7 +1729,8 @@
       "address": "Caligariplatz 1, 13086 Weißensee",
       "lat": 52.5525923,
       "lng": 13.4305919,
-      "bezirk": "Pankow"
+      "bezirk": "Pankow",
+      "showings": null
     },
     {
       "title": "Fantômas",
@@ -1667,7 +1750,8 @@
       "address": "Linienstraße 227, 10178 Mitte",
       "lat": 52.527024,
       "lng": 13.4119171,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Egal",
@@ -1687,7 +1771,8 @@
       "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
       "lat": 52.4986606,
       "lng": 13.3022747,
-      "bezirk": "Charlottenburg-Wilmersdorf"
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "showings": null
     },
     {
       "title": "KüFa (Kitchen for all)",
@@ -1699,7 +1784,7 @@
       "source_url": "https://stressfaktor.squat.net/node/324330",
       "source_name": "Stressfaktor",
       "tags": [
-        "Film"
+        "Kino"
       ],
       "time_known": true,
       "genre": "Polit",
@@ -1707,7 +1792,8 @@
       "address": "Rigaer Straße 94, 10247 Friedrichshain",
       "lat": 52.5179905,
       "lng": 13.4580211,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "TWINK DEATH",
@@ -1727,7 +1813,8 @@
       "address": "Linienstraße 227, 10178 Mitte",
       "lat": 52.527024,
       "lng": 13.4119171,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Im Herzen der Gewalt",
@@ -1747,7 +1834,8 @@
       "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
       "lat": 52.4986606,
       "lng": 13.3022747,
-      "bezirk": "Charlottenburg-Wilmersdorf"
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "showings": null
     },
     {
       "title": "Cravo e Canela 4tet",
@@ -1767,7 +1855,8 @@
       "address": "Donaustraße 115, 12043 Berlin",
       "lat": 52.47567,
       "lng": 13.43597,
-      "bezirk": "Neukölln"
+      "bezirk": "Neukölln",
+      "showings": null
     },
     {
       "title": "Love is in the Air",
@@ -1787,7 +1876,8 @@
       "address": "Weserstraße 206, 12047 Berlin",
       "lat": 52.49293,
       "lng": 13.42897,
-      "bezirk": "Neukölln"
+      "bezirk": "Neukölln",
+      "showings": null
     },
     {
       "title": "Vegane Küfa",
@@ -1807,7 +1897,8 @@
       "address": "Bernkasteler Straße 78, 13088 Weißensee",
       "lat": 52.5577176,
       "lng": 13.4702725,
-      "bezirk": "Pankow"
+      "bezirk": "Pankow",
+      "showings": null
     },
     {
       "title": "VideoKino (Open Air)",
@@ -1819,7 +1910,7 @@
       "source_url": "https://stressfaktor.squat.net/node/327497",
       "source_name": "Stressfaktor",
       "tags": [
-        "Film"
+        "Kino"
       ],
       "time_known": true,
       "genre": "Polit",
@@ -1827,7 +1918,8 @@
       "address": "Bernkasteler Straße 78, 13088 Weißensee",
       "lat": 52.5577176,
       "lng": 13.4702725,
-      "bezirk": "Pankow"
+      "bezirk": "Pankow",
+      "showings": null
     },
     {
       "title": "Qigong & Taiji für deine Lebensenergie!",
@@ -1847,7 +1939,8 @@
       "address": null,
       "lat": null,
       "lng": null,
-      "bezirk": null
+      "bezirk": null,
+      "showings": null
     },
     {
       "title": "Die solidarische Jobcenter-Sozialberatung",
@@ -1867,7 +1960,8 @@
       "address": "Afrikanische Straße 74, 13351 Wedding",
       "lat": 52.5517747,
       "lng": 13.3380141,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Solicafé Klatsche",
@@ -1887,7 +1981,8 @@
       "address": "Lausitzer Straße 22, 10999 Kreuzberg",
       "lat": 52.4955993,
       "lng": 13.4268698,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Bum Bum Musik",
@@ -1907,7 +2002,8 @@
       "address": "Linienstraße 227, 10178 Mitte",
       "lat": 52.527024,
       "lng": 13.4119171,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Gutschein-Tausch im YAAM",
@@ -1927,7 +2023,8 @@
       "address": "An der Schillingbrücke 3, 10243 Friedrichshain",
       "lat": 52.5091664,
       "lng": 13.4307181,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "‘Grüner Donnerstag’",
@@ -1947,7 +2044,8 @@
       "address": "Mehringdamm 34, 10961 Kreuzberg",
       "lat": 52.4936405,
       "lng": 13.3876998,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Fesselei - Bondage Jam",
@@ -1967,7 +2065,8 @@
       "address": "Lankwitzer Straße 42/43, 12107 Mariendorf",
       "lat": 52.4374457,
       "lng": 13.3754837,
-      "bezirk": "Tempelhof-Schöneberg"
+      "bezirk": "Tempelhof-Schöneberg",
+      "showings": null
     },
     {
       "title": "queer-feministische Fahrrad-Werkstatt | queer feminist bike workshop",
@@ -1987,7 +2086,8 @@
       "address": "Neckarstraße 19, 12053 Neukölln",
       "lat": 52.4801032,
       "lng": 13.4340359,
-      "bezirk": "Neukölln"
+      "bezirk": "Neukölln",
+      "showings": null
     },
     {
       "title": "Eddy Playground",
@@ -2007,7 +2107,8 @@
       "address": "Buchberger Straße 6, 10365 Lichtenberg",
       "lat": 52.5095458,
       "lng": 13.4901817,
-      "bezirk": "Lichtenberg"
+      "bezirk": "Lichtenberg",
+      "showings": null
     },
     {
       "title": "Aperol Spritz-Night  -> 5 Euro",
@@ -2027,7 +2128,8 @@
       "address": "Mareschstraße 1, 12055 Neukölln",
       "lat": 52.4736946,
       "lng": 13.451159,
-      "bezirk": "Neukölln"
+      "bezirk": "Neukölln",
+      "showings": null
     },
     {
       "title": "Verantwortung für Kindern als Methode des Postkapitalismus.",
@@ -2047,7 +2149,8 @@
       "address": "10997 Kreuzberg",
       "lat": 52.5009559,
       "lng": 13.4354965,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Naughty! by Bearhood Berlin",
@@ -2067,7 +2170,8 @@
       "address": "Mehringdamm 32, 10961 Kreuzberg",
       "lat": 52.4938045,
       "lng": 13.3877873,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "KvU - VV + Tresen",
@@ -2087,7 +2191,8 @@
       "address": "Lottumstraße 10A, 10119 Prenzlauer Berg",
       "lat": 52.5308548,
       "lng": 13.4072136,
-      "bezirk": "Pankow"
+      "bezirk": "Pankow",
+      "showings": null
     },
     {
       "title": "Open Jam",
@@ -2107,7 +2212,8 @@
       "address": "Seelenbinderstraße 54, 12555 Köpenick",
       "lat": 52.4552464,
       "lng": 13.5828604,
-      "bezirk": "Treptow-Köpenick"
+      "bezirk": "Treptow-Köpenick",
+      "showings": null
     },
     {
       "title": "Open Decks im Technokeller (14-27 Jahre)",
@@ -2127,7 +2233,8 @@
       "address": "Seelenbinderstraße 54, 12555 Köpenick",
       "lat": 52.4552464,
       "lng": 13.5828604,
-      "bezirk": "Treptow-Köpenick"
+      "bezirk": "Treptow-Köpenick",
+      "showings": null
     },
     {
       "title": "Attac Berlin lädt ein - Reiche in die Pflicht!",
@@ -2147,7 +2254,8 @@
       "address": null,
       "lat": null,
       "lng": null,
-      "bezirk": null
+      "bezirk": null,
+      "showings": null
     },
     {
       "title": "Konzert",
@@ -2167,7 +2275,8 @@
       "address": "Ackerstraße 169, 10115 Mitte",
       "lat": 52.5297369,
       "lng": 13.3971786,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "beav boloney freak punk shows",
@@ -2187,7 +2296,8 @@
       "address": null,
       "lat": null,
       "lng": null,
-      "bezirk": null
+      "bezirk": null,
+      "showings": null
     },
     {
       "title": "Land, Kultur,  Autonomie - indigener Widerstand in Kolumbien",
@@ -2207,7 +2317,8 @@
       "address": "Skalitzer Straße 6, 10999 Kreuzberg",
       "lat": 52.4986179,
       "lng": 13.4165594,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Annäherungen an meine Eltern Hans und Hilde Coppi",
@@ -2227,7 +2338,8 @@
       "address": "Pankstraße 47, 13357 Gesundbrunnen",
       "lat": 52.5510219,
       "lng": 13.3800755,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Sortiermaschinen: Grenzen, Mauern, Zäune",
@@ -2247,7 +2359,8 @@
       "address": "Lausitzer Straße 22, 10999 Kreuzberg",
       "lat": 52.4957041,
       "lng": 13.4268885,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "P14 – endlich endlich",
@@ -2267,7 +2380,8 @@
       "address": "Linienstraße 227, 10178 Mitte",
       "lat": 52.527024,
       "lng": 13.4119171,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Having Sex with Vulvas",
@@ -2287,7 +2401,8 @@
       "address": "Perleberger Straße 59, 10559 Moabit",
       "lat": 52.5326687,
       "lng": 13.3513556,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Egal",
@@ -2307,7 +2422,8 @@
       "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
       "lat": 52.4986606,
       "lng": 13.3022747,
-      "bezirk": "Charlottenburg-Wilmersdorf"
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "showings": null
     },
     {
       "title": "This is waving salon",
@@ -2327,7 +2443,8 @@
       "address": "Linienstraße 227, 10178 Mitte",
       "lat": 52.527024,
       "lng": 13.4119171,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Goodbye Berlin",
@@ -2347,7 +2464,8 @@
       "address": "Linienstraße 227, 10178 Mitte",
       "lat": 52.527024,
       "lng": 13.4119171,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Punkrocktresen",
@@ -2367,7 +2485,8 @@
       "address": "Reichenberger Straße 63a, 10999 Kreuzberg",
       "lat": 52.4952361,
       "lng": 13.4307312,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Black Out - hosted by Acoustic Neuroma",
@@ -2387,7 +2506,8 @@
       "address": "10245 Friedrichshain",
       "lat": 52.5006167,
       "lng": 13.4648062,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Mi Madre y el Dinero",
@@ -2407,7 +2527,8 @@
       "address": "Stresemannstraße 29, 10963 Kreuzberg",
       "lat": 52.4999566,
       "lng": 13.3871576,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "TWINK DEATH",
@@ -2427,7 +2548,8 @@
       "address": "Linienstraße 227, 10178 Mitte",
       "lat": 52.527024,
       "lng": 13.4119171,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Im Herzen der Gewalt",
@@ -2447,7 +2569,8 @@
       "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
       "lat": 52.4986606,
       "lng": 13.3022747,
-      "bezirk": "Charlottenburg-Wilmersdorf"
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "showings": null
     },
     {
       "title": "Thursday Jazz Jam",
@@ -2467,7 +2590,8 @@
       "address": "Donaustraße 115, 12043 Berlin",
       "lat": 52.47567,
       "lng": 13.43597,
-      "bezirk": "Neukölln"
+      "bezirk": "Neukölln",
+      "showings": null
     },
     {
       "title": "Queerer Kneipenabend",
@@ -2487,7 +2611,8 @@
       "address": "Hochstädter Straße 10A, 13347 Wedding",
       "lat": 52.5505395,
       "lng": 13.3634054,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Time to Shine XI",
@@ -2507,7 +2632,8 @@
       "address": "Boxhagener Straße 18, 10245 Friedrichshain",
       "lat": 52.5133426,
       "lng": 13.4555767,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Konzert",
@@ -2527,7 +2653,8 @@
       "address": "Jessnerstraße 41, 10247 Friedrichshain",
       "lat": 52.5105248,
       "lng": 13.4713392,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Filmabend im K(P)",
@@ -2539,7 +2666,7 @@
       "source_url": "https://stressfaktor.squat.net/node/327461",
       "source_name": "Stressfaktor",
       "tags": [
-        "Film"
+        "Kino"
       ],
       "time_known": true,
       "genre": "Polit",
@@ -2547,7 +2674,8 @@
       "address": "Köpenicker Straße, 10179 Mitte",
       "lat": 52.507824,
       "lng": 13.4271106,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "NAKED SEX PARTY",
@@ -2567,7 +2695,8 @@
       "address": "Am Wriezener Bahnhof, 10243 Friedrichshain",
       "lat": 52.5114484,
       "lng": 13.4407738,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Hamsterrad",
@@ -2587,7 +2716,8 @@
       "address": null,
       "lat": null,
       "lng": null,
-      "bezirk": null
+      "bezirk": null,
+      "showings": null
     },
     {
       "title": "Sonntags-Club: Ausflug „7-Seen/Dampferfahrt / Restaurant Loretta im Garten“",
@@ -2607,7 +2737,8 @@
       "address": null,
       "lat": null,
       "lng": null,
-      "bezirk": null
+      "bezirk": null,
+      "showings": null
     },
     {
       "title": "Black and queer feminism in Berlin",
@@ -2627,7 +2758,8 @@
       "address": null,
       "lat": null,
       "lng": null,
-      "bezirk": null
+      "bezirk": null,
+      "showings": null
     },
     {
       "title": "Kinky Taboos: Berlin’s Forbidden Desires Tour",
@@ -2647,7 +2779,8 @@
       "address": "Alt-Tempelhof 17, 12099 Tempelhof",
       "lat": 52.4655581,
       "lng": 13.3860876,
-      "bezirk": "Tempelhof-Schöneberg"
+      "bezirk": "Tempelhof-Schöneberg",
+      "showings": null
     },
     {
       "title": "Summer.Sun.Done",
@@ -2667,7 +2800,8 @@
       "address": null,
       "lat": null,
       "lng": null,
-      "bezirk": null
+      "bezirk": null,
+      "showings": null
     },
     {
       "title": "Bum Bum Musik",
@@ -2687,7 +2821,8 @@
       "address": "Linienstraße 227, 10178 Mitte",
       "lat": 52.527024,
       "lng": 13.4119171,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "FLINTA* Sweat",
@@ -2707,7 +2842,8 @@
       "address": "Mehringdamm 32, 10961 Kreuzberg",
       "lat": 52.4938045,
       "lng": 13.3877873,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "CHILLGARAGE",
@@ -2727,7 +2863,8 @@
       "address": "Columbiadamm 10, 10965 Tempelhof",
       "lat": 52.484018,
       "lng": 13.3911982,
-      "bezirk": "Tempelhof-Schöneberg"
+      "bezirk": "Tempelhof-Schöneberg",
+      "showings": null
     },
     {
       "title": "THE FUTURE IS HANDMADE ‚STREET-ART EXHIBITION + MERCH‘",
@@ -2747,7 +2884,8 @@
       "address": "Lenaustraße 5, 12047 Neukölln",
       "lat": 52.4899624,
       "lng": 13.425536,
-      "bezirk": "Neukölln"
+      "bezirk": "Neukölln",
+      "showings": null
     },
     {
       "title": "Gutscheintausch Regenbogencafé",
@@ -2767,7 +2905,8 @@
       "address": "Berlin",
       "lat": 52.5173885,
       "lng": 13.3951309,
-      "bezirk": null
+      "bezirk": null,
+      "showings": null
     },
     {
       "title": "Tropenbude Bar und Garten offen",
@@ -2787,7 +2926,8 @@
       "address": "Scheffelstraße 21, 10367 Lichtenberg",
       "lat": 52.5201505,
       "lng": 13.4731889,
-      "bezirk": "Lichtenberg"
+      "bezirk": "Lichtenberg",
+      "showings": null
     },
     {
       "title": "Ich schneide schneller",
@@ -2807,7 +2947,8 @@
       "address": "Linienstraße 227, 10178 Mitte",
       "lat": 52.527024,
       "lng": 13.4119171,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Und jetzt?",
@@ -2827,7 +2968,8 @@
       "address": "Linienstraße 227, 10178 Mitte",
       "lat": 52.527024,
       "lng": 13.4119171,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Aufgüsse am Freitag",
@@ -2847,7 +2989,8 @@
       "address": "Mehringdamm 34, 10961 Kreuzberg",
       "lat": 52.4936405,
       "lng": 13.3876998,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Aus der Nacht heraus - Political Film Festival -Day 2",
@@ -2859,7 +3002,7 @@
       "source_url": "https://stressfaktor.squat.net/node/327719",
       "source_name": "Stressfaktor",
       "tags": [
-        "Film"
+        "Kino"
       ],
       "time_known": true,
       "genre": "Polit",
@@ -2867,7 +3010,8 @@
       "address": "Lohmühlenstraße, 12435 Alt-Treptow",
       "lat": 52.489793,
       "lng": 13.4402231,
-      "bezirk": "Treptow-Köpenick"
+      "bezirk": "Treptow-Köpenick",
+      "showings": null
     },
     {
       "title": "Angela Alves: Never Rest (After Work Tours #2)",
@@ -2887,7 +3031,8 @@
       "address": "Sophienstraße 18, 10178 Mitte",
       "lat": 52.5258825,
       "lng": 13.4016022,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "flinta sweat",
@@ -2907,7 +3052,8 @@
       "address": "Mehringdamm 32, 10961 Kreuzberg",
       "lat": 52.4938045,
       "lng": 13.3877873,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Filmfestival - \"Aus der Nacht heraus\"",
@@ -2919,7 +3065,7 @@
       "source_url": "https://stressfaktor.squat.net/node/327613",
       "source_name": "Stressfaktor",
       "tags": [
-        "Film"
+        "Kino"
       ],
       "time_known": true,
       "genre": "Polit",
@@ -2927,7 +3073,8 @@
       "address": "Lohmühlenstraße, 12435 Alt-Treptow",
       "lat": 52.489793,
       "lng": 13.4402231,
-      "bezirk": "Treptow-Köpenick"
+      "bezirk": "Treptow-Köpenick",
+      "showings": null
     },
     {
       "title": "P14 – endlich endlich",
@@ -2947,7 +3094,8 @@
       "address": "Linienstraße 227, 10178 Mitte",
       "lat": 52.527024,
       "lng": 13.4119171,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Queer Death Café",
@@ -2967,7 +3115,8 @@
       "address": "Lützowstraße 28, 10785 Tiergarten",
       "lat": 52.5041855,
       "lng": 13.3625529,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Bi+Flinta* meet up",
@@ -2987,7 +3136,8 @@
       "address": "Mareschstraße 1, 12055 Neukölln",
       "lat": 52.4736946,
       "lng": 13.451159,
-      "bezirk": "Neukölln"
+      "bezirk": "Neukölln",
+      "showings": null
     },
     {
       "title": "Input und Diskussion \"Sicherheitspaket\"",
@@ -3007,7 +3157,8 @@
       "address": "Coppistraße, 10365 Lichtenberg",
       "lat": 52.5070493,
       "lng": 13.4816684,
-      "bezirk": "Lichtenberg"
+      "bezirk": "Lichtenberg",
+      "showings": null
     },
     {
       "title": "Konzert",
@@ -3027,7 +3178,8 @@
       "address": "Ackerstraße 169, 10115 Mitte",
       "lat": 52.5297369,
       "lng": 13.3971786,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Vortrag: Was ist eigentlich in Schnellroda los?",
@@ -3047,7 +3199,8 @@
       "address": "Schreinerstraße 47, 10247 Friedrichshain",
       "lat": 52.5171409,
       "lng": 13.4673202,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Pride Dinner –Platz am Kaisersteg Für Queers only!",
@@ -3067,7 +3220,8 @@
       "address": "Tauentzienstraße, 10789 Charlottenburg",
       "lat": 52.503379,
       "lng": 13.3386522,
-      "bezirk": "Charlottenburg-Wilmersdorf"
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "showings": null
     },
     {
       "title": "Kampf gegen den Faschismus in Spanien 1936-1939",
@@ -3087,7 +3241,8 @@
       "address": "Buttmannstraße 1A, 13357 Gesundbrunnen",
       "lat": 52.5524901,
       "lng": 13.3788571,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "K19 KONZERT",
@@ -3107,7 +3262,8 @@
       "address": "Kreutzigerstraße 19, 10247 Friedrichshain",
       "lat": 52.5131608,
       "lng": 13.4600856,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Mi Madre y el Dinero",
@@ -3127,7 +3283,8 @@
       "address": "Stresemannstraße 29, 10963 Kreuzberg",
       "lat": 52.4999566,
       "lng": 13.3871576,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Moya Michael: It’s like a Finger Pointing a Way to the Moon",
@@ -3147,7 +3304,8 @@
       "address": "Sophienstraße 18, 10178 Mitte",
       "lat": 52.5258825,
       "lng": 13.4016022,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Abschlussfest",
@@ -3167,7 +3325,8 @@
       "address": "Linienstraße 227, 10178 Mitte",
       "lat": 52.527024,
       "lng": 13.4119171,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Tarot and Tie",
@@ -3187,7 +3346,8 @@
       "address": "Perleberger Straße 59, 10559 Moabit",
       "lat": 52.5326687,
       "lng": 13.3513556,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Kurdish Stand-Up Comedy",
@@ -3207,7 +3367,8 @@
       "address": "Lausitzer Straße 21a, 10999 Kreuzberg",
       "lat": 52.4959646,
       "lng": 13.4263213,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Freitag in der Olfe",
@@ -3227,7 +3388,8 @@
       "address": "Reichenberger Straße 177, 10999 Kreuzberg",
       "lat": 52.5000581,
       "lng": 13.4174433,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Kneipe & Briefe an Gefangene schreiben",
@@ -3247,7 +3409,8 @@
       "address": "Grünberger Straße 73, 10245 Friedrichshain",
       "lat": 52.5114491,
       "lng": 13.4595298,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "\"Zähneknirschen\" EP Release",
@@ -3267,7 +3430,8 @@
       "address": "Kaskelstraße 55, 10317 Rummelsburg",
       "lat": 52.5046039,
       "lng": 13.4832995,
-      "bezirk": "Lichtenberg"
+      "bezirk": "Lichtenberg",
+      "showings": null
     },
     {
       "title": "Salome",
@@ -3287,7 +3451,8 @@
       "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
       "lat": 52.4986606,
       "lng": 13.3022747,
-      "bezirk": "Charlottenburg-Wilmersdorf"
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "showings": null
     },
     {
       "title": "Meinberg/Greve/Wesley",
@@ -3307,7 +3472,8 @@
       "address": "Donaustraße 115, 12043 Berlin",
       "lat": 52.47567,
       "lng": 13.43597,
-      "bezirk": "Neukölln"
+      "bezirk": "Neukölln",
+      "showings": null
     },
     {
       "title": "Time to Shine XI",
@@ -3327,7 +3493,8 @@
       "address": "Boxhagener Straße 18, 10245 Friedrichshain",
       "lat": 52.5133426,
       "lng": 13.4555767,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Ea Torrado: Brown Madonna",
@@ -3347,7 +3514,8 @@
       "address": "Sophienstraße 18, 10178 Mitte",
       "lat": 52.5258825,
       "lng": 13.4016022,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Bondage Nacht - Bondage Night",
@@ -3367,7 +3535,8 @@
       "address": "Lankwitzer Straße 42/43, 12107 Mariendorf",
       "lat": 52.4374457,
       "lng": 13.3754837,
-      "bezirk": "Tempelhof-Schöneberg"
+      "bezirk": "Tempelhof-Schöneberg",
+      "showings": null
     },
     {
       "title": "Sonora Berlín",
@@ -3387,7 +3556,8 @@
       "address": "Linienstraße 227, 10178 Mitte",
       "lat": 52.527024,
       "lng": 13.4119171,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Ziber Berlin: The XXL Debut",
@@ -3407,7 +3577,8 @@
       "address": null,
       "lat": null,
       "lng": null,
-      "bezirk": null
+      "bezirk": null,
+      "showings": null
     },
     {
       "title": "DADDY MEETS TWINK",
@@ -3427,7 +3598,8 @@
       "address": "Am Wriezener Bahnhof, 10243 Friedrichshain",
       "lat": 52.5114484,
       "lng": 13.4407738,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Walter Schels: 16° Fische – Retrospektive",
@@ -3447,7 +3619,8 @@
       "address": "Hardenbergstraße 22, 10623 Berlin",
       "lat": null,
       "lng": null,
-      "bezirk": null
+      "bezirk": null,
+      "showings": null
     },
     {
       "title": "Midsummer Moments - Reflections",
@@ -3467,7 +3640,8 @@
       "address": "Perleberger Straße 59, 10559 Moabit",
       "lat": 52.5326687,
       "lng": 13.3513556,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Breathplay Workshop",
@@ -3487,7 +3661,8 @@
       "address": "Lankwitzer Straße 42/43, 12107 Mariendorf",
       "lat": 52.4374457,
       "lng": 13.3754837,
-      "bezirk": "Tempelhof-Schöneberg"
+      "bezirk": "Tempelhof-Schöneberg",
+      "showings": null
     },
     {
       "title": "Tropenbude Bar und Garten offen",
@@ -3507,7 +3682,8 @@
       "address": "Scheffelstraße 21, 10367 Lichtenberg",
       "lat": 52.5201505,
       "lng": 13.4731889,
-      "bezirk": "Lichtenberg"
+      "bezirk": "Lichtenberg",
+      "showings": null
     },
     {
       "title": "Fahrrad-Demo gegen Apollo News, Nius und neurechte Medien",
@@ -3527,7 +3703,8 @@
       "address": "Tauentzienstraße, 10789 Charlottenburg",
       "lat": 52.503379,
       "lng": 13.3386522,
-      "bezirk": "Charlottenburg-Wilmersdorf"
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "showings": null
     },
     {
       "title": "Kinky Taboos: Berlin After Dark Tour",
@@ -3547,7 +3724,8 @@
       "address": "Alt-Tempelhof 17, 12099 Tempelhof",
       "lat": 52.4655581,
       "lng": 13.3860876,
-      "bezirk": "Tempelhof-Schöneberg"
+      "bezirk": "Tempelhof-Schöneberg",
+      "showings": null
     },
     {
       "title": "Bum Bum Musik",
@@ -3567,7 +3745,8 @@
       "address": "Linienstraße 227, 10178 Mitte",
       "lat": 52.527024,
       "lng": 13.4119171,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Gender Mix",
@@ -3587,7 +3766,8 @@
       "address": "Mehringdamm 32, 10961 Kreuzberg",
       "lat": 52.4938045,
       "lng": 13.3877873,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Schach- und Spiele-Nachmittag",
@@ -3607,7 +3787,8 @@
       "address": "Schönhauser Allee 26a, 10435 Prenzlauer Berg",
       "lat": 52.5359511,
       "lng": 13.4126884,
-      "bezirk": "Pankow"
+      "bezirk": "Pankow",
+      "showings": null
     },
     {
       "title": "Solitresen - Sweet drinks for bitter times",
@@ -3627,7 +3808,8 @@
       "address": "Jonasstraße 40, 12053 Neukölln",
       "lat": 52.470975,
       "lng": 13.4309683,
-      "bezirk": "Neukölln"
+      "bezirk": "Neukölln",
+      "showings": null
     },
     {
       "title": "Küche für Alle - Torhaus Kochkollektiv",
@@ -3647,7 +3829,8 @@
       "address": "Columbiadamm 10, 10965 Tempelhof",
       "lat": 52.484018,
       "lng": 13.3911982,
-      "bezirk": "Tempelhof-Schöneberg"
+      "bezirk": "Tempelhof-Schöneberg",
+      "showings": null
     },
     {
       "title": "Solitressen - sweet drinks for bitter times",
@@ -3667,7 +3850,8 @@
       "address": "Jonasstraße 40, 12053 Neukölln",
       "lat": 52.470975,
       "lng": 13.4309683,
-      "bezirk": "Neukölln"
+      "bezirk": "Neukölln",
+      "showings": null
     },
     {
       "title": "Midsummer Moments - Playtime",
@@ -3687,7 +3871,8 @@
       "address": "Perleberger Straße 59, 10559 Moabit",
       "lat": 52.5326687,
       "lng": 13.3513556,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Lesung und Punkkonzert",
@@ -3707,7 +3892,8 @@
       "address": "Zionskirchplatz 1, 10119 Prenzlauer Berg",
       "lat": 52.5346475,
       "lng": 13.4037357,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Konzert im Garten",
@@ -3727,7 +3913,8 @@
       "address": "Scheffelstraße 21, 10367 Lichtenberg",
       "lat": 52.5201505,
       "lng": 13.4731889,
-      "bezirk": "Lichtenberg"
+      "bezirk": "Lichtenberg",
+      "showings": null
     },
     {
       "title": "Aufgüsse am Samstag",
@@ -3747,7 +3934,8 @@
       "address": "Mehringdamm 34, 10961 Kreuzberg",
       "lat": 52.4936405,
       "lng": 13.3876998,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Rundgang Ausstellung „Die Anarchie ist das Leben der Menschen, die dem Joche entronnen sind.“",
@@ -3767,7 +3955,8 @@
       "address": "Brüsseler Straße 21, 13353 Wedding",
       "lat": 52.5460206,
       "lng": 13.3479549,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Angela Alves: Never Rest (After Work Tours #2)",
@@ -3787,7 +3976,8 @@
       "address": "Sophienstraße 18, 10178 Mitte",
       "lat": 52.5258825,
       "lng": 13.4016022,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "gender mix",
@@ -3807,7 +3997,8 @@
       "address": "Mehringdamm 32, 10961 Kreuzberg",
       "lat": 52.4938045,
       "lng": 13.3877873,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Screening \"ProPal - for the global justice\" + aperitivo",
@@ -3827,7 +4018,8 @@
       "address": "Grünberger Straße 73, 10245 Friedrichshain",
       "lat": 52.5114491,
       "lng": 13.4595298,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Freedom of Movement",
@@ -3847,7 +4039,8 @@
       "address": "Linienstraße 227, 10178 Mitte",
       "lat": 52.527024,
       "lng": 13.4119171,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "BöseBuben-Nacht",
@@ -3867,7 +4060,8 @@
       "address": null,
       "lat": null,
       "lng": null,
-      "bezirk": null
+      "bezirk": null,
+      "showings": null
     },
     {
       "title": "Gaybar",
@@ -3887,7 +4081,8 @@
       "address": "Karpfenteichstraße 13/14, 12435 Plänterwald",
       "lat": 52.4816459,
       "lng": 13.4668763,
-      "bezirk": "Treptow-Köpenick"
+      "bezirk": "Treptow-Köpenick",
+      "showings": null
     },
     {
       "title": "Moya Michael: It’s like a Finger Pointing a Way to the Moon",
@@ -3907,7 +4102,8 @@
       "address": "Sophienstraße 18, 10178 Mitte",
       "lat": 52.5258825,
       "lng": 13.4016022,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Oratorium – Kollektive Andacht zu einem wohlgehüteten Geheimnis",
@@ -3927,7 +4123,8 @@
       "address": "Stresemannstraße 29, 10963 Kreuzberg",
       "lat": 52.4999566,
       "lng": 13.3871576,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Lesung & Buchvorstellung",
@@ -3947,7 +4144,8 @@
       "address": "Köpenicker Straße 172, 10997 Kreuzberg",
       "lat": 52.5043482,
       "lng": 13.434887,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Salon Ma ما",
@@ -3967,7 +4165,8 @@
       "address": "Linienstraße 227, 10178 Mitte",
       "lat": 52.527024,
       "lng": 13.4119171,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Being Young",
@@ -3987,7 +4186,8 @@
       "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
       "lat": 52.4986606,
       "lng": 13.3022747,
-      "bezirk": "Charlottenburg-Wilmersdorf"
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "showings": null
     },
     {
       "title": "U35",
@@ -4007,7 +4207,8 @@
       "address": "Lankwitzer Straße 42/43, 12107 Mariendorf",
       "lat": 52.4374457,
       "lng": 13.3754837,
-      "bezirk": "Tempelhof-Schöneberg"
+      "bezirk": "Tempelhof-Schöneberg",
+      "showings": null
     },
     {
       "title": "Konzert im $@#@riterviertel",
@@ -4027,7 +4228,8 @@
       "address": null,
       "lat": null,
       "lng": null,
-      "bezirk": null
+      "bezirk": null,
+      "showings": null
     },
     {
       "title": "Riot Grrrl Tresen feat. ZOFF & RubberXhead",
@@ -4047,7 +4249,8 @@
       "address": "Niemetzstraße 24, 12055 Neukölln",
       "lat": 52.4716193,
       "lng": 13.4510314,
-      "bezirk": "Neukölln"
+      "bezirk": "Neukölln",
+      "showings": null
     },
     {
       "title": "Der Mitsingabend",
@@ -4067,7 +4270,8 @@
       "address": "Lausitzer Straße 21a, 10999 Kreuzberg",
       "lat": 52.4959646,
       "lng": 13.4263213,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Love Me Tender",
@@ -4087,7 +4291,8 @@
       "address": "Linienstraße 227, 10178 Mitte",
       "lat": 52.527024,
       "lng": 13.4119171,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Salome",
@@ -4107,7 +4312,8 @@
       "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
       "lat": 52.4986606,
       "lng": 13.3022747,
-      "bezirk": "Charlottenburg-Wilmersdorf"
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "showings": null
     },
     {
       "title": "MUSViT",
@@ -4127,7 +4333,8 @@
       "address": "Donaustraße 115, 12043 Berlin",
       "lat": 52.47567,
       "lng": 13.43597,
-      "bezirk": "Neukölln"
+      "bezirk": "Neukölln",
+      "showings": null
     },
     {
       "title": "Konzert im TRxxxTR",
@@ -4147,7 +4354,8 @@
       "address": "Skalitzer Straße, 10997 Kreuzberg",
       "lat": 52.5008341,
       "lng": 13.4414625,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Ea Torrado: Brown Madonna",
@@ -4167,7 +4375,8 @@
       "address": "Sophienstraße 18, 10178 Mitte",
       "lat": 52.5258825,
       "lng": 13.4016022,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Die Seherin",
@@ -4187,7 +4396,8 @@
       "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
       "lat": 52.4986606,
       "lng": 13.3022747,
-      "bezirk": "Charlottenburg-Wilmersdorf"
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "showings": null
     },
     {
       "title": "Konzert im K (A)",
@@ -4207,7 +4417,8 @@
       "address": "Köpenicker Straße, 10179 Mitte",
       "lat": 52.507824,
       "lng": 13.4271106,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Wello Rauschs Karaoke Gala",
@@ -4227,7 +4438,8 @@
       "address": "Schönhauser Allee 26a, 10435 Prenzlauer Berg",
       "lat": 52.5359511,
       "lng": 13.4126884,
-      "bezirk": "Pankow"
+      "bezirk": "Pankow",
+      "showings": null
     },
     {
       "title": "Olympia Bukkakis: Queer and Present Dangers/The Nation at Work",
@@ -4247,7 +4459,8 @@
       "address": "Sophienstraße 18, 10178 Mitte",
       "lat": 52.5258825,
       "lng": 13.4016022,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Klubnacht",
@@ -4267,7 +4480,8 @@
       "address": null,
       "lat": null,
       "lng": null,
-      "bezirk": null
+      "bezirk": null,
+      "showings": null
     },
     {
       "title": "Eddy Breaks Sommersause",
@@ -4287,7 +4501,8 @@
       "address": "Buchberger Straße 6, 10365 Lichtenberg",
       "lat": 52.5095458,
       "lng": 13.4901817,
-      "bezirk": "Lichtenberg"
+      "bezirk": "Lichtenberg",
+      "showings": null
     },
     {
       "title": "MUD PARTY",
@@ -4307,7 +4522,8 @@
       "address": "Am Wriezener Bahnhof, 10243 Friedrichshain",
       "lat": 52.5114484,
       "lng": 13.4407738,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Kriminal Kitchen fuck off soundssystem",
@@ -4327,7 +4543,8 @@
       "address": "Mariannenplatz 1a, 10997 Kreuzberg",
       "lat": 52.5048618,
       "lng": 13.4243914,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Drag Brunch",
@@ -4347,7 +4564,8 @@
       "address": "Pflügerstraße 19, 12047 Neukölln",
       "lat": 52.4905761,
       "lng": 13.4315445,
-      "bezirk": "Neukölln"
+      "bezirk": "Neukölln",
+      "showings": null
     },
     {
       "title": "Guided Tour : „Speaking of Sex”",
@@ -4367,7 +4585,8 @@
       "address": null,
       "lat": null,
       "lng": null,
-      "bezirk": null
+      "bezirk": null,
+      "showings": null
     },
     {
       "title": "Führung : „Apropos Sex”",
@@ -4387,7 +4606,8 @@
       "address": null,
       "lat": null,
       "lng": null,
-      "bezirk": null
+      "bezirk": null,
+      "showings": null
     },
     {
       "title": "Rope Level-Up: Playing with Predicaments",
@@ -4407,7 +4627,8 @@
       "address": "Perleberger Straße 59, 10559 Moabit",
       "lat": 52.5326687,
       "lng": 13.3513556,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Vegan Soli Brunch",
@@ -4427,7 +4648,8 @@
       "address": "Reichenberger Straße 63a, 10999 Kreuzberg",
       "lat": 52.4952361,
       "lng": 13.4307312,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Kiez-Flohmarkt",
@@ -4447,7 +4669,8 @@
       "address": "Lohmühlenstraße, 12435 Alt-Treptow",
       "lat": 52.489793,
       "lng": 13.4402231,
-      "bezirk": "Treptow-Köpenick"
+      "bezirk": "Treptow-Köpenick",
+      "showings": null
     },
     {
       "title": "Save Rojava Soliparty and Tattoo",
@@ -4467,7 +4690,8 @@
       "address": "Rigaer Straße 78, 10247 Friedrichshain",
       "lat": 52.5166542,
       "lng": 13.4641926,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Squat de la Musique",
@@ -4487,7 +4711,8 @@
       "address": "Mitteltunnel, 10243 Friedrichshain",
       "lat": 52.5107448,
       "lng": 13.4351709,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Streitraum",
@@ -4507,7 +4732,8 @@
       "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
       "lat": 52.4986606,
       "lng": 13.3022747,
-      "bezirk": "Charlottenburg-Wilmersdorf"
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "showings": null
     },
     {
       "title": "📖 Infoladen Scherer 8 📖",
@@ -4527,7 +4753,8 @@
       "address": "Schererstraße 8, 13347 Wedding",
       "lat": 52.5481641,
       "lng": 13.3670511,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Soli-Bücherflohmarkt",
@@ -4547,7 +4774,8 @@
       "address": "Fasanenstraße 1a, 10623 Charlottenburg",
       "lat": 52.5106031,
       "lng": 13.3292355,
-      "bezirk": "Charlottenburg-Wilmersdorf"
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "showings": null
     },
     {
       "title": "Squat de la Musique * Schreina47",
@@ -4567,7 +4795,8 @@
       "address": "Schreinerstraße 47, 10247 Friedrichshain",
       "lat": 52.5171409,
       "lng": 13.4673202,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Kaffee, Sex und Kuchen - Coffee, Sex & Cake",
@@ -4587,7 +4816,8 @@
       "address": "Lankwitzer Straße 42/43, 12107 Mariendorf",
       "lat": 52.4374457,
       "lng": 13.3754837,
-      "bezirk": "Tempelhof-Schöneberg"
+      "bezirk": "Tempelhof-Schöneberg",
+      "showings": null
     },
     {
       "title": "Tropenbude Bar und Garten offen",
@@ -4607,7 +4837,8 @@
       "address": "Scheffelstraße 21, 10367 Lichtenberg",
       "lat": 52.5201505,
       "lng": 13.4731889,
-      "bezirk": "Lichtenberg"
+      "bezirk": "Lichtenberg",
+      "showings": null
     },
     {
       "title": "Squat de la Musique aufm Dorfplatz",
@@ -4627,7 +4858,8 @@
       "address": "Liebigstraße, 10247 Friedrichshain",
       "lat": 52.5186639,
       "lng": 13.4576357,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Café No Pasaran",
@@ -4647,7 +4879,8 @@
       "address": "Lausitzer Straße 22, 10999 Kreuzberg",
       "lat": 52.4957041,
       "lng": 13.4268885,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Kuchen KüFa @ Squat De La Musique // KAOX Türri",
@@ -4667,7 +4900,8 @@
       "address": "Türrschmidtstraße 1, 10317 Rummelsburg",
       "lat": 52.5026366,
       "lng": 13.4758561,
-      "bezirk": "Lichtenberg"
+      "bezirk": "Lichtenberg",
+      "showings": null
     },
     {
       "title": "Historische Hausführung: Never Work",
@@ -4687,7 +4921,8 @@
       "address": "Sophienstraße 18, 10178 Mitte",
       "lat": 52.5258825,
       "lng": 13.4016022,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Bum Bum Musik",
@@ -4707,7 +4942,8 @@
       "address": "Linienstraße 227, 10178 Mitte",
       "lat": 52.527024,
       "lng": 13.4119171,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Naked Sex Party",
@@ -4727,7 +4963,8 @@
       "address": "Motzstraße 25, 10777 Schöneberg",
       "lat": 52.4977185,
       "lng": 13.3484263,
-      "bezirk": "Tempelhof-Schöneberg"
+      "bezirk": "Tempelhof-Schöneberg",
+      "showings": null
     },
     {
       "title": "Konzert",
@@ -4747,7 +4984,8 @@
       "address": "Ackerstraße 169, 10115 Mitte",
       "lat": 52.5297369,
       "lng": 13.3971786,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Unsere Träume zu leben /  Hayallerimizi yaşamak",
@@ -4767,7 +5005,8 @@
       "address": "Stresemannstraße 29, 10963 Kreuzberg",
       "lat": 52.4999566,
       "lng": 13.3871576,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "DRECKSLOCH",
@@ -4787,7 +5026,8 @@
       "address": "Am Wriezener Bahnhof, 10243 Friedrichshain",
       "lat": 52.5114484,
       "lng": 13.4407738,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "„ABBA – Waterloo im Bällebad”",
@@ -4807,7 +5047,8 @@
       "address": "Schloßstraße 48, 12165 Steglitz",
       "lat": 52.4548978,
       "lng": 13.3175925,
-      "bezirk": "Steglitz-Zehlendorf"
+      "bezirk": "Steglitz-Zehlendorf",
+      "showings": null
     },
     {
       "title": "Gedenkkundgebung 93 Jahre Köpenicker Blutwoche",
@@ -4827,7 +5068,8 @@
       "address": "Tauentzienstraße, 10789 Charlottenburg",
       "lat": 52.503379,
       "lng": 13.3386522,
-      "bezirk": "Charlottenburg-Wilmersdorf"
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "showings": null
     },
     {
       "title": "Aufgüsse am Sonntag",
@@ -4847,7 +5089,8 @@
       "address": "Mehringdamm 34, 10961 Kreuzberg",
       "lat": 52.4936405,
       "lng": 13.3876998,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Cuddles, Cakes and Kinks - Summer Edition (with Garden!)",
@@ -4867,7 +5110,8 @@
       "address": "Perleberger Straße 59, 10559 Moabit",
       "lat": 52.5326687,
       "lng": 13.3513556,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Angela Alves: Never Rest (After Work Tours #2)",
@@ -4887,7 +5131,8 @@
       "address": "Sophienstraße 18, 10178 Mitte",
       "lat": 52.5258825,
       "lng": 13.4016022,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Chillout Jam",
@@ -4907,7 +5152,8 @@
       "address": "Rigaer Straße 103, 10247 Friedrichshain",
       "lat": 52.5182565,
       "lng": 13.4552573,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Der Schnittchenkauf",
@@ -4927,7 +5173,8 @@
       "address": "Linienstraße 227, 10178 Mitte",
       "lat": 52.527024,
       "lng": 13.4119171,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Filmscreening",
@@ -4939,7 +5186,7 @@
       "source_url": "https://stressfaktor.squat.net/node/326546",
       "source_name": "Stressfaktor",
       "tags": [
-        "Film"
+        "Kino"
       ],
       "time_known": true,
       "genre": "Polit",
@@ -4947,7 +5194,8 @@
       "address": "Kinzigstraße 9, 10247 Friedrichshain",
       "lat": 52.5136974,
       "lng": 13.4666469,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Love Me Tender",
@@ -4967,7 +5215,8 @@
       "address": "Linienstraße 227, 10178 Mitte",
       "lat": 52.527024,
       "lng": 13.4119171,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Oratorium – Kollektive Andacht zu einem wohlgehüteten Geheimnis",
@@ -4987,7 +5236,8 @@
       "address": "Stresemannstraße 29, 10963 Kreuzberg",
       "lat": 52.4999566,
       "lng": 13.3871576,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "P14 – endlich endlich",
@@ -5007,7 +5257,8 @@
       "address": "Linienstraße 227, 10178 Mitte",
       "lat": 52.527024,
       "lng": 13.4119171,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Die Seherin",
@@ -5027,7 +5278,8 @@
       "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
       "lat": 52.4986606,
       "lng": 13.3022747,
-      "bezirk": "Charlottenburg-Wilmersdorf"
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "showings": null
     },
     {
       "title": "Hunger",
@@ -5047,7 +5299,8 @@
       "address": "Donaustraße 115, 12043 Berlin",
       "lat": 52.47567,
       "lng": 13.43597,
-      "bezirk": "Neukölln"
+      "bezirk": "Neukölln",
+      "showings": null
     },
     {
       "title": "Olympia Bukkakis: Queer and Present Dangers/The Nation at Work",
@@ -5067,7 +5320,8 @@
       "address": "Sophienstraße 18, 10178 Mitte",
       "lat": 52.5258825,
       "lng": 13.4016022,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "VideoKino (Open Air)",
@@ -5079,7 +5333,7 @@
       "source_url": "https://stressfaktor.squat.net/node/327498",
       "source_name": "Stressfaktor",
       "tags": [
-        "Film"
+        "Kino"
       ],
       "time_known": true,
       "genre": "Polit",
@@ -5087,7 +5341,8 @@
       "address": "Bernkasteler Straße 78, 13088 Weißensee",
       "lat": 52.5577176,
       "lng": 13.4702725,
-      "bezirk": "Pankow"
+      "bezirk": "Pankow",
+      "showings": null
     },
     {
       "title": "Fuckin´ Monday",
@@ -5107,7 +5362,8 @@
       "address": null,
       "lat": null,
       "lng": null,
-      "bezirk": null
+      "bezirk": null,
+      "showings": null
     },
     {
       "title": "Die Montagsspieler",
@@ -5127,7 +5383,8 @@
       "address": null,
       "lat": null,
       "lng": null,
-      "bezirk": null
+      "bezirk": null,
+      "showings": null
     },
     {
       "title": "Barschulung - Erstbelehrung",
@@ -5147,7 +5404,8 @@
       "address": "Lankwitzer Straße 42/43, 12107 Mariendorf",
       "lat": 52.4374457,
       "lng": 13.3754837,
-      "bezirk": "Tempelhof-Schöneberg"
+      "bezirk": "Tempelhof-Schöneberg",
+      "showings": null
     },
     {
       "title": "Queer Yoga - Monday Fire",
@@ -5167,7 +5425,8 @@
       "address": null,
       "lat": null,
       "lng": null,
-      "bezirk": null
+      "bezirk": null,
+      "showings": null
     },
     {
       "title": "Sozialberatung  - Social counseling",
@@ -5187,7 +5446,8 @@
       "address": "Oranienstraße 14a, 10999 Kreuzberg",
       "lat": 52.5005464,
       "lng": 13.4234541,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Aufgüsse am Montag",
@@ -5207,7 +5467,8 @@
       "address": "Mehringdamm 34, 10961 Kreuzberg",
       "lat": 52.4936405,
       "lng": 13.3876998,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "All-Gender-Fußball",
@@ -5227,7 +5488,8 @@
       "address": "Wrangelstraße 98, 10997 Kreuzberg",
       "lat": 52.5005732,
       "lng": 13.4375821,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Barschulung - Folgebelehrung",
@@ -5247,7 +5509,8 @@
       "address": "Lankwitzer Straße 42/43, 12107 Mariendorf",
       "lat": 52.4374457,
       "lng": 13.3754837,
-      "bezirk": "Tempelhof-Schöneberg"
+      "bezirk": "Tempelhof-Schöneberg",
+      "showings": null
     },
     {
       "title": "Queer Yoga - Slow Flow",
@@ -5267,7 +5530,8 @@
       "address": null,
       "lat": null,
       "lng": null,
-      "bezirk": null
+      "bezirk": null,
+      "showings": null
     },
     {
       "title": "Offene Mietenberatung",
@@ -5287,7 +5551,8 @@
       "address": "Schönhauser Allee 26a, 10435 Prenzlauer Berg",
       "lat": 52.5359511,
       "lng": 13.4126884,
-      "bezirk": "Pankow"
+      "bezirk": "Pankow",
+      "showings": null
     },
     {
       "title": "Offene Mieterberatung",
@@ -5307,7 +5572,8 @@
       "address": "Schönhauser Allee 26a, 10435 Prenzlauer Berg",
       "lat": 52.5359511,
       "lng": 13.4126884,
-      "bezirk": "Pankow"
+      "bezirk": "Pankow",
+      "showings": null
     },
     {
       "title": "Barschulung - Folgebelehrung",
@@ -5327,7 +5593,8 @@
       "address": "Lankwitzer Straße 42/43, 12107 Mariendorf",
       "lat": 52.4374457,
       "lng": 13.3754837,
-      "bezirk": "Tempelhof-Schöneberg"
+      "bezirk": "Tempelhof-Schöneberg",
+      "showings": null
     },
     {
       "title": "Soli-Bleiberechtsbar",
@@ -5347,7 +5614,8 @@
       "address": "Bernkasteler Straße 78, 13088 Weißensee",
       "lat": 52.5577176,
       "lng": 13.4702725,
-      "bezirk": "Pankow"
+      "bezirk": "Pankow",
+      "showings": null
     },
     {
       "title": "Konzert",
@@ -5367,7 +5635,8 @@
       "address": "Ackerstraße 169, 10115 Mitte",
       "lat": 52.5297369,
       "lng": 13.3971786,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Palästina , Israel und die Deutschen.",
@@ -5387,7 +5656,8 @@
       "address": "Weisestraße 53, 12049 Neukölln",
       "lat": 52.4776993,
       "lng": 13.4240706,
-      "bezirk": "Neukölln"
+      "bezirk": "Neukölln",
+      "showings": null
     },
     {
       "title": "Wem gehört der Reichtum? Vom Volksentscheid über die Fürstenenteignung vor 100 Jahren bis zu aktuellen Vergesellschaftungsdebatten",
@@ -5407,7 +5677,8 @@
       "address": "Franz-Mehring-Platz 1, 10243 Friedrichshain",
       "lat": 52.5128,
       "lng": 13.4402215,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Offenes Plenum der Kritischen Medizin Berlin",
@@ -5427,7 +5698,8 @@
       "address": "Lottumstraße 10A, 10119 Prenzlauer Berg",
       "lat": 52.5308548,
       "lng": 13.4072136,
-      "bezirk": "Pankow"
+      "bezirk": "Pankow",
+      "showings": null
     },
     {
       "title": "Rope for Absolute Beginners",
@@ -5447,7 +5719,8 @@
       "address": "Perleberger Straße 59, 10559 Moabit",
       "lat": 52.5326687,
       "lng": 13.3513556,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Die Seherin",
@@ -5467,7 +5740,8 @@
       "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
       "lat": 52.4986606,
       "lng": 13.3022747,
-      "bezirk": "Charlottenburg-Wilmersdorf"
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "showings": null
     },
     {
       "title": "Soli Bingo",
@@ -5487,7 +5761,8 @@
       "address": "Weserstraße 206, 12047 Berlin",
       "lat": 52.49293,
       "lng": 13.42897,
-      "bezirk": "Neukölln"
+      "bezirk": "Neukölln",
+      "showings": null
     },
     {
       "title": "Barschulung - Erstbelehrung",
@@ -5507,7 +5782,8 @@
       "address": "Lankwitzer Straße 42/43, 12107 Mariendorf",
       "lat": 52.4374457,
       "lng": 13.3754837,
-      "bezirk": "Tempelhof-Schöneberg"
+      "bezirk": "Tempelhof-Schöneberg",
+      "showings": null
     },
     {
       "title": "Anarchistisches Infocafé",
@@ -5519,7 +5795,7 @@
       "source_url": "https://stressfaktor.squat.net/node/327819",
       "source_name": "Stressfaktor",
       "tags": [
-        "Film"
+        "Kino"
       ],
       "time_known": true,
       "genre": "Polit",
@@ -5527,7 +5803,8 @@
       "address": "Mariannenplatz 2A, 10997 Kreuzberg",
       "lat": 52.5036305,
       "lng": 13.423541,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Salome",
@@ -5547,7 +5824,8 @@
       "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
       "lat": 52.4986606,
       "lng": 13.3022747,
-      "bezirk": "Charlottenburg-Wilmersdorf"
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "showings": null
     },
     {
       "title": "KitKatClub",
@@ -5567,7 +5845,8 @@
       "address": "Köpenicker Straße 76, 10179 Mitte",
       "lat": 52.5112074,
       "lng": 13.4169157,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Filmabend im K( P)",
@@ -5579,7 +5858,7 @@
       "source_url": "https://stressfaktor.squat.net/node/327462",
       "source_name": "Stressfaktor",
       "tags": [
-        "Film"
+        "Kino"
       ],
       "time_known": true,
       "genre": "Polit",
@@ -5587,7 +5866,8 @@
       "address": "Köpenicker Straße, 10179 Mitte",
       "lat": 52.507824,
       "lng": 13.4271106,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Hamsterrad",
@@ -5607,7 +5887,8 @@
       "address": null,
       "lat": null,
       "lng": null,
-      "bezirk": null
+      "bezirk": null,
+      "showings": null
     },
     {
       "title": "Solidarische Prozessbegleitung + Kundgebung",
@@ -5627,7 +5908,8 @@
       "address": "Turmstraße 91, 10559 Moabit",
       "lat": 52.5254923,
       "lng": 13.3526659,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Historische Hausführung: Never Work",
@@ -5647,7 +5929,8 @@
       "address": "Sophienstraße 18, 10178 Mitte",
       "lat": 52.5258825,
       "lng": 13.4016022,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Themenabend",
@@ -5667,7 +5950,8 @@
       "address": "Mehringdamm 34, 10961 Kreuzberg",
       "lat": 52.4936405,
       "lng": 13.3876998,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Flinta*only Kickern",
@@ -5687,7 +5971,8 @@
       "address": "Pannierstraße 5, 12047 Neukölln",
       "lat": 52.4865618,
       "lng": 13.430953,
-      "bezirk": "Neukölln"
+      "bezirk": "Neukölln",
+      "showings": null
     },
     {
       "title": "Kiezküche im Kiezhaus Agnes Reinhold",
@@ -5707,7 +5992,8 @@
       "address": "Afrikanische Straße 74, 13351 Wedding",
       "lat": 52.5517747,
       "lng": 13.3380141,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "IT-Beratung für Aktivist:innen und Gruppen",
@@ -5727,7 +6013,8 @@
       "address": "Köpenicker Straße 45, 10179 Mitte",
       "lat": 52.5090676,
       "lng": 13.4243386,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Berliner Bündnis gegen Vonovia & Co. - monatliches Vernetzungstreffen",
@@ -5747,7 +6034,8 @@
       "address": "Hauptstraße 121a, 10827 Schöneberg",
       "lat": 52.4829791,
       "lng": 13.3507943,
-      "bezirk": "Tempelhof-Schöneberg"
+      "bezirk": "Tempelhof-Schöneberg",
+      "showings": null
     },
     {
       "title": "anarcha solidarity kitchen",
@@ -5767,7 +6055,8 @@
       "address": null,
       "lat": null,
       "lng": null,
-      "bezirk": null
+      "bezirk": null,
+      "showings": null
     },
     {
       "title": "Breaking News - offener politischer Treff (14-27 Jahre)",
@@ -5787,7 +6076,8 @@
       "address": "Seelenbinderstraße 54, 12555 Köpenick",
       "lat": 52.4552464,
       "lng": 13.5828604,
-      "bezirk": "Treptow-Köpenick"
+      "bezirk": "Treptow-Köpenick",
+      "showings": null
     },
     {
       "title": "Soli-Küfa",
@@ -5807,7 +6097,8 @@
       "address": "Mareschstraße 1, 12055 Neukölln",
       "lat": 52.4736946,
       "lng": 13.451159,
-      "bezirk": "Neukölln"
+      "bezirk": "Neukölln",
+      "showings": null
     },
     {
       "title": "AfD Parteitag stoppen!",
@@ -5827,7 +6118,8 @@
       "address": "Schönhauser Allee 26a, 10435 Prenzlauer Berg",
       "lat": 52.5359511,
       "lng": 13.4126884,
-      "bezirk": "Pankow"
+      "bezirk": "Pankow",
+      "showings": null
     },
     {
       "title": "Sophiensæle Forever #2 – Never Work",
@@ -5847,7 +6139,8 @@
       "address": "Sophienstraße 18, 10178 Mitte",
       "lat": 52.5258825,
       "lng": 13.4016022,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Rope Lab: Play & Connection - pain",
@@ -5867,7 +6160,8 @@
       "address": "Perleberger Straße 59, 10559 Moabit",
       "lat": 52.5326687,
       "lng": 13.3513556,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "\"Wer wird visionär?\" ~ Queeres Quiz",
@@ -5887,7 +6181,8 @@
       "address": "Hochstädter Straße 10a, 13347 Wedding",
       "lat": 52.550607,
       "lng": 13.363522,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Flinta*only Kickern",
@@ -5907,7 +6202,8 @@
       "address": "Pannierstraße 5, 12047 Neukölln",
       "lat": 52.4865618,
       "lng": 13.430953,
-      "bezirk": "Neukölln"
+      "bezirk": "Neukölln",
+      "showings": null
     },
     {
       "title": "Two-Song Tuesday (MUSIC STARTS 20:00)",
@@ -5927,7 +6223,8 @@
       "address": "Donaustraße 115, 12043 Berlin",
       "lat": 52.47567,
       "lng": 13.43597,
-      "bezirk": "Neukölln"
+      "bezirk": "Neukölln",
+      "showings": null
     },
     {
       "title": "LatinoKino",
@@ -5939,7 +6236,7 @@
       "source_url": "https://stressfaktor.squat.net/node/327499",
       "source_name": "Stressfaktor",
       "tags": [
-        "Film"
+        "Kino"
       ],
       "time_known": true,
       "genre": "Polit",
@@ -5947,7 +6244,8 @@
       "address": "Bernkasteler Straße 78, 13088 Weißensee",
       "lat": 52.5577176,
       "lng": 13.4702725,
-      "bezirk": "Pankow"
+      "bezirk": "Pankow",
+      "showings": null
     },
     {
       "title": "Abwärts!: #2 Texte, Filme, Sensationen + Release Heft 59",
@@ -5959,7 +6257,7 @@
       "source_url": "https://stressfaktor.squat.net/node/327145",
       "source_name": "Stressfaktor",
       "tags": [
-        "Film"
+        "Kino"
       ],
       "time_known": true,
       "genre": "Polit",
@@ -5967,7 +6265,8 @@
       "address": "Tauentzienstraße, 10789 Charlottenburg",
       "lat": 52.503379,
       "lng": 13.3386522,
-      "bezirk": "Charlottenburg-Wilmersdorf"
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "showings": null
     },
     {
       "title": "Ein Volksfeind",
@@ -5987,7 +6286,8 @@
       "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
       "lat": 52.4986606,
       "lng": 13.3022747,
-      "bezirk": "Charlottenburg-Wilmersdorf"
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "showings": null
     },
     {
       "title": "Hamsterrad",
@@ -6007,7 +6307,8 @@
       "address": null,
       "lat": null,
       "lng": null,
-      "bezirk": null
+      "bezirk": null,
+      "showings": null
     },
     {
       "title": "After Work",
@@ -6027,7 +6328,8 @@
       "address": "Sachsendamm 76-77, 10829 Schöneberg",
       "lat": 52.4773354,
       "lng": 13.3578441,
-      "bezirk": "Tempelhof-Schöneberg"
+      "bezirk": "Tempelhof-Schöneberg",
+      "showings": null
     },
     {
       "title": "Projektband für Frauen* und Queers",
@@ -6047,7 +6349,8 @@
       "address": null,
       "lat": null,
       "lng": null,
-      "bezirk": null
+      "bezirk": null,
+      "showings": null
     },
     {
       "title": "Aufgüsse am Mittwoch",
@@ -6067,7 +6370,8 @@
       "address": "Mehringdamm 34, 10961 Kreuzberg",
       "lat": 52.4936405,
       "lng": 13.3876998,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "gender mix",
@@ -6087,7 +6391,8 @@
       "address": "Mehringdamm 32, 10961 Kreuzberg",
       "lat": 52.4938045,
       "lng": 13.3877873,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "mittwochskufa",
@@ -6107,7 +6412,8 @@
       "address": "Reichenberger Straße 63a, 10999 Kreuzberg",
       "lat": 52.4952361,
       "lng": 13.4307312,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Küfa im JUP",
@@ -6127,7 +6433,8 @@
       "address": "Florastraße 84, 13187 Pankow",
       "lat": 52.5658369,
       "lng": 13.400323,
-      "bezirk": "Pankow"
+      "bezirk": "Pankow",
+      "showings": null
     },
     {
       "title": "Soli-Küfa, jeden Mittwoch 19 Uhr",
@@ -6147,7 +6454,8 @@
       "address": "Mareschstraße 1, 12055 Neukölln",
       "lat": 52.4736946,
       "lng": 13.451159,
-      "bezirk": "Neukölln"
+      "bezirk": "Neukölln",
+      "showings": null
     },
     {
       "title": "Konzert",
@@ -6167,7 +6475,8 @@
       "address": "Ackerstraße 169, 10115 Mitte",
       "lat": 52.5297369,
       "lng": 13.3971786,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Offenes Antifa Treffen",
@@ -6187,7 +6496,8 @@
       "address": "Lottumstraße 10A, 10119 Prenzlauer Berg",
       "lat": 52.5308548,
       "lng": 13.4072136,
-      "bezirk": "Pankow"
+      "bezirk": "Pankow",
+      "showings": null
     },
     {
       "title": "Never Work Talks: Helen Hester, Anajara Amarante, Olivia Hyunsin Kim",
@@ -6207,7 +6517,8 @@
       "address": "Sophienstraße 18, 10178 Mitte",
       "lat": 52.5258825,
       "lng": 13.4016022,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Tell Mama",
@@ -6227,7 +6538,8 @@
       "address": null,
       "lat": null,
       "lng": null,
-      "bezirk": null
+      "bezirk": null,
+      "showings": null
     },
     {
       "title": "Playfight & Rough Body Play Lab",
@@ -6247,7 +6559,8 @@
       "address": "Perleberger Straße 59, 10559 Moabit",
       "lat": 52.5326687,
       "lng": 13.3513556,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Lesung Henryk Gericke und Henning Rabe",
@@ -6267,7 +6580,8 @@
       "address": "Schönhauser Allee 26a, 10435 Prenzlauer Berg",
       "lat": 52.5359511,
       "lng": 13.4126884,
-      "bezirk": "Pankow"
+      "bezirk": "Pankow",
+      "showings": null
     },
     {
       "title": "Karaoke-Abend",
@@ -6287,7 +6601,8 @@
       "address": "Rigaer Straße 103, 10247 Friedrichshain",
       "lat": 52.5182565,
       "lng": 13.4552573,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "KüFa (Kitchen for all)",
@@ -6299,7 +6614,7 @@
       "source_url": "https://stressfaktor.squat.net/node/324331",
       "source_name": "Stressfaktor",
       "tags": [
-        "Film"
+        "Kino"
       ],
       "time_known": true,
       "genre": "Polit",
@@ -6307,7 +6622,8 @@
       "address": "Rigaer Straße 94, 10247 Friedrichshain",
       "lat": 52.5179905,
       "lng": 13.4580211,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Konzert",
@@ -6327,7 +6643,8 @@
       "address": "Rigaer Straße 83, 10247 Friedrichshain",
       "lat": 52.5170566,
       "lng": 13.4619369,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Ramiro Zayas 4tet",
@@ -6347,7 +6664,8 @@
       "address": "Donaustraße 115, 12043 Berlin",
       "lat": 52.47567,
       "lng": 13.43597,
-      "bezirk": "Neukölln"
+      "bezirk": "Neukölln",
+      "showings": null
     },
     {
       "title": "FLINTA*-Stammtisch",
@@ -6367,7 +6685,8 @@
       "address": "Hochstädter Straße 10A, 13347 Wedding",
       "lat": 52.5505395,
       "lng": 13.3634054,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Vegane Küfa",
@@ -6387,7 +6706,8 @@
       "address": "Bernkasteler Straße 78, 13088 Weißensee",
       "lat": 52.5577176,
       "lng": 13.4702725,
-      "bezirk": "Pankow"
+      "bezirk": "Pankow",
+      "showings": null
     },
     {
       "title": "Ein Volksfeind",
@@ -6407,7 +6727,8 @@
       "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
       "lat": 52.4986606,
       "lng": 13.3022747,
-      "bezirk": "Charlottenburg-Wilmersdorf"
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "showings": null
     },
     {
       "title": "GOAT Box Live",
@@ -6427,7 +6748,8 @@
       "address": null,
       "lat": null,
       "lng": null,
-      "bezirk": null
+      "bezirk": null,
+      "showings": null
     },
     {
       "title": "VideoKino (Open Air)",
@@ -6439,7 +6761,7 @@
       "source_url": "https://stressfaktor.squat.net/node/327501",
       "source_name": "Stressfaktor",
       "tags": [
-        "Film"
+        "Kino"
       ],
       "time_known": true,
       "genre": "Polit",
@@ -6447,7 +6769,8 @@
       "address": "Bernkasteler Straße 78, 13088 Weißensee",
       "lat": 52.5577176,
       "lng": 13.4702725,
-      "bezirk": "Pankow"
+      "bezirk": "Pankow",
+      "showings": null
     },
     {
       "title": "Knock up @XXL",
@@ -6459,7 +6782,7 @@
       "source_url": "https://www.siegessaeule.de/en/events/?date=2026-06-25",
       "source_name": "Siegessäule",
       "tags": [
-        "Film"
+        "Kino"
       ],
       "time_known": true,
       "genre": "Queer",
@@ -6467,7 +6790,8 @@
       "address": null,
       "lat": null,
       "lng": null,
-      "bezirk": null
+      "bezirk": null,
+      "showings": null
     },
     {
       "title": "Qigong & Taiji für deine Lebensenergie!",
@@ -6487,7 +6811,8 @@
       "address": null,
       "lat": null,
       "lng": null,
-      "bezirk": null
+      "bezirk": null,
+      "showings": null
     },
     {
       "title": "Die solidarische Jobcenter-Sozialberatung",
@@ -6507,7 +6832,8 @@
       "address": "Afrikanische Straße 74, 13351 Wedding",
       "lat": 52.5517747,
       "lng": 13.3380141,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Solicafé Klatsche",
@@ -6527,7 +6853,8 @@
       "address": "Lausitzer Straße 22, 10999 Kreuzberg",
       "lat": 52.4955993,
       "lng": 13.4268698,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Gutschein-Tausch im YAAM",
@@ -6547,7 +6874,8 @@
       "address": "An der Schillingbrücke 3, 10243 Friedrichshain",
       "lat": 52.5091664,
       "lng": 13.4307181,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Bäriger Saunaabend",
@@ -6567,7 +6895,8 @@
       "address": "Mehringdamm 34, 10961 Kreuzberg",
       "lat": 52.4936405,
       "lng": 13.3876998,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Colleen Ndemeh Fitzgerald: After Work Tours #3",
@@ -6587,7 +6916,8 @@
       "address": "Sophienstraße 18, 10178 Mitte",
       "lat": 52.5258825,
       "lng": 13.4016022,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "puppy sweat",
@@ -6607,7 +6937,8 @@
       "address": "Mehringdamm 32, 10961 Kreuzberg",
       "lat": 52.4938045,
       "lng": 13.3877873,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Offener Treffpunkt Mieter:innen für Mieter:innen!",
@@ -6627,7 +6958,8 @@
       "address": "Torstraße 190, 10115 Mitte",
       "lat": 52.5280997,
       "lng": 13.3928139,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Aperol Spritz-Night  -> 5 Euro",
@@ -6647,7 +6979,8 @@
       "address": "Mareschstraße 1, 12055 Neukölln",
       "lat": 52.4736946,
       "lng": 13.451159,
-      "bezirk": "Neukölln"
+      "bezirk": "Neukölln",
+      "showings": null
     },
     {
       "title": "Näh’n’Nerd Cafe / Reparaturkneipe",
@@ -6667,7 +7000,8 @@
       "address": "Wühlischstraße 42, 10245 Friedrichshain",
       "lat": 52.5087036,
       "lng": 13.4606574,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Open Jam",
@@ -6687,7 +7021,8 @@
       "address": "Seelenbinderstraße 54, 12555 Köpenick",
       "lat": 52.4552464,
       "lng": 13.5828604,
-      "bezirk": "Treptow-Köpenick"
+      "bezirk": "Treptow-Köpenick",
+      "showings": null
     },
     {
       "title": "Open Decks im Technokeller (14-27 Jahre)",
@@ -6707,7 +7042,8 @@
       "address": "Seelenbinderstraße 54, 12555 Köpenick",
       "lat": 52.4552464,
       "lng": 13.5828604,
-      "bezirk": "Treptow-Köpenick"
+      "bezirk": "Treptow-Köpenick",
+      "showings": null
     },
     {
       "title": "Konzert",
@@ -6727,7 +7063,8 @@
       "address": "Ackerstraße 169, 10115 Mitte",
       "lat": 52.5297369,
       "lng": 13.3971786,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Näh’n’Nerd Cafe - Das Repaircafé im Vetomat",
@@ -6747,7 +7084,8 @@
       "address": "Wühlischstraße 42, 10245 Friedrichshain",
       "lat": 52.5087036,
       "lng": 13.4606574,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Velvet Rebels – leftist, feminist, queer, kinkster, friends",
@@ -6767,7 +7105,8 @@
       "address": "Exerzierstraße 14, 13357 Gesundbrunnen",
       "lat": 52.5540255,
       "lng": 13.3746131,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Podium \"Jüdische Identitäten und Antisemitismus im Punk\"",
@@ -6787,7 +7126,8 @@
       "address": "Markgrafendamm 24c, 10245 Friedrichshain",
       "lat": 52.5024767,
       "lng": 13.466302,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Never Work Talks: Amelia Horgan, Nicole Mayer-Ahuja",
@@ -6807,7 +7147,8 @@
       "address": "Sophienstraße 18, 10178 Mitte",
       "lat": 52.5258825,
       "lng": 13.4016022,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Practical Reflections on Intentional Kink Space Facilitation",
@@ -6827,7 +7168,8 @@
       "address": "Perleberger Straße 59, 10559 Moabit",
       "lat": 52.5326687,
       "lng": 13.3513556,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Thursday Jazz Jam",
@@ -6847,7 +7189,8 @@
       "address": "Donaustraße 115, 12043 Berlin",
       "lat": 52.47567,
       "lng": 13.43597,
-      "bezirk": "Neukölln"
+      "bezirk": "Neukölln",
+      "showings": null
     },
     {
       "title": "Filmabend im K(P)",
@@ -6859,7 +7202,7 @@
       "source_url": "https://stressfaktor.squat.net/node/327463",
       "source_name": "Stressfaktor",
       "tags": [
-        "Film"
+        "Kino"
       ],
       "time_known": true,
       "genre": "Polit",
@@ -6867,7 +7210,8 @@
       "address": "Köpenicker Straße, 10179 Mitte",
       "lat": 52.507824,
       "lng": 13.4271106,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "LATINO / BALKAN - PUNK DISCHORD (KONZERTE)",
@@ -6887,7 +7231,8 @@
       "address": "Köpenicker Straße 137, 10179 Mitte",
       "lat": 52.5077022,
       "lng": 13.4260264,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "VIBRA",
@@ -6907,7 +7252,8 @@
       "address": "Rigaer Straße 103, 10247 Friedrichshain",
       "lat": 52.5182565,
       "lng": 13.4552573,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "NAKED SEX PARTY",
@@ -6927,7 +7273,8 @@
       "address": "Am Wriezener Bahnhof, 10243 Friedrichshain",
       "lat": 52.5114484,
       "lng": 13.4407738,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "CHILLGARAGE",
@@ -6947,7 +7294,8 @@
       "address": "Columbiadamm 10, 10965 Tempelhof",
       "lat": 52.484018,
       "lng": 13.3911982,
-      "bezirk": "Tempelhof-Schöneberg"
+      "bezirk": "Tempelhof-Schöneberg",
+      "showings": null
     },
     {
       "title": "HAU: Berlin bleibt! #5 Nachbarschaften in Bewegung",
@@ -6967,7 +7315,8 @@
       "address": "Hallesches Ufer 34, 10963 Kreuzberg",
       "lat": 52.4991141,
       "lng": 13.3858716,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Gutscheintausch Regenbogencafé",
@@ -6987,7 +7336,8 @@
       "address": "Berlin",
       "lat": 52.5173885,
       "lng": 13.3951309,
-      "bezirk": null
+      "bezirk": null,
+      "showings": null
     },
     {
       "title": "Tropenbude Bar und Garten offen",
@@ -7007,7 +7357,8 @@
       "address": "Scheffelstraße 21, 10367 Lichtenberg",
       "lat": 52.5201505,
       "lng": 13.4731889,
-      "bezirk": "Lichtenberg"
+      "bezirk": "Lichtenberg",
+      "showings": null
     },
     {
       "title": "Gnawa Parade & Konzert: Hicham Bilali & Black Koyo u. a.",
@@ -7027,7 +7378,8 @@
       "address": "John-Foster-Dulles-Allee 10, 10557 Tiergarten",
       "lat": 52.5187884,
       "lng": 13.3648356,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Aesthetics of Access: Audiodeskription",
@@ -7047,7 +7399,8 @@
       "address": "Sophienstraße 18, 10178 Mitte",
       "lat": 52.5258825,
       "lng": 13.4016022,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Aufgüsse am Freitag",
@@ -7067,7 +7420,8 @@
       "address": "Mehringdamm 34, 10961 Kreuzberg",
       "lat": 52.4936405,
       "lng": 13.3876998,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "flinta sweat",
@@ -7087,7 +7441,8 @@
       "address": "Mehringdamm 32, 10961 Kreuzberg",
       "lat": 52.4938045,
       "lng": 13.3877873,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Potse Raumkampfplenum",
@@ -7107,7 +7462,8 @@
       "address": "Columbiadamm 10, 10965 Tempelhof",
       "lat": 52.484018,
       "lng": 13.3911982,
-      "bezirk": "Tempelhof-Schöneberg"
+      "bezirk": "Tempelhof-Schöneberg",
+      "showings": null
     },
     {
       "title": "Filmfestival - \"Aus der Nacht heraus\"",
@@ -7119,7 +7475,7 @@
       "source_url": "https://stressfaktor.squat.net/node/327614",
       "source_name": "Stressfaktor",
       "tags": [
-        "Film"
+        "Kino"
       ],
       "time_known": true,
       "genre": "Polit",
@@ -7127,7 +7483,8 @@
       "address": "Lohmühlenstraße, 12435 Alt-Treptow",
       "lat": 52.489793,
       "lng": 13.4402231,
-      "bezirk": "Treptow-Köpenick"
+      "bezirk": "Treptow-Köpenick",
+      "showings": null
     },
     {
       "title": "Aus der Nacht heraus - Political Film Festival -Day 3",
@@ -7139,7 +7496,7 @@
       "source_url": "https://stressfaktor.squat.net/node/327782",
       "source_name": "Stressfaktor",
       "tags": [
-        "Film"
+        "Kino"
       ],
       "time_known": true,
       "genre": "Polit",
@@ -7147,7 +7504,8 @@
       "address": "Lohmühlenstraße, 12435 Alt-Treptow",
       "lat": 52.489793,
       "lng": 13.4402231,
-      "bezirk": "Treptow-Köpenick"
+      "bezirk": "Treptow-Köpenick",
+      "showings": null
     },
     {
       "title": "Hier sein heißt handeln",
@@ -7167,7 +7525,8 @@
       "address": "Stresemannstraße 29, 10963 Kreuzberg",
       "lat": 52.4999566,
       "lng": 13.3871576,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Spielraum",
@@ -7187,7 +7546,8 @@
       "address": "Stresemannstraße 29, 10963 Kreuzberg",
       "lat": 52.4999566,
       "lng": 13.3871576,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Konzert",
@@ -7207,7 +7567,8 @@
       "address": "Ackerstraße 169, 10115 Mitte",
       "lat": 52.5297369,
       "lng": 13.3971786,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Hurt Me, Deliciously",
@@ -7227,7 +7588,8 @@
       "address": "Perleberger Straße 59, 10559 Moabit",
       "lat": 52.5326687,
       "lng": 13.3513556,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Colleen Ndemeh Fitzgerald: After Work Tours #3",
@@ -7247,7 +7609,8 @@
       "address": "Sophienstraße 18, 10178 Mitte",
       "lat": 52.5258825,
       "lng": 13.4016022,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Vieux Farka Touré",
@@ -7267,7 +7630,8 @@
       "address": "John-Foster-Dulles-Allee 10, 10557 Tiergarten",
       "lat": 52.5187884,
       "lng": 13.3648356,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Nappies for a Change",
@@ -7287,7 +7651,8 @@
       "address": "Lankwitzer Straße 42/43, 12107 Mariendorf",
       "lat": 52.4374457,
       "lng": 13.3754837,
-      "bezirk": "Tempelhof-Schöneberg"
+      "bezirk": "Tempelhof-Schöneberg",
+      "showings": null
     },
     {
       "title": "Konzert „jezevec u mraveniště“",
@@ -7307,7 +7672,8 @@
       "address": "Schönhauser Allee 26a, 10435 Prenzlauer Berg",
       "lat": 52.5359511,
       "lng": 13.4126884,
-      "bezirk": "Pankow"
+      "bezirk": "Pankow",
+      "showings": null
     },
     {
       "title": "Soli concert",
@@ -7327,7 +7693,8 @@
       "address": "Rigaer Straße 83, 10247 Friedrichshain",
       "lat": 52.5170566,
       "lng": 13.4619369,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Apaches",
@@ -7347,7 +7714,8 @@
       "address": "Stresemannstraße 29, 10963 Kreuzberg",
       "lat": 52.4999566,
       "lng": 13.3871576,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Qui a tué mon père (Wer hat meinen Vater umgebracht)",
@@ -7367,7 +7735,8 @@
       "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
       "lat": 52.4986606,
       "lng": 13.3022747,
-      "bezirk": "Charlottenburg-Wilmersdorf"
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "showings": null
     },
     {
       "title": "Peter Gall Quintet",
@@ -7387,7 +7756,8 @@
       "address": "Donaustraße 115, 12043 Berlin",
       "lat": 52.47567,
       "lng": 13.43597,
-      "bezirk": "Neukölln"
+      "bezirk": "Neukölln",
+      "showings": null
     },
     {
       "title": "Konzert: Shutcombo + LisaBouvier",
@@ -7407,7 +7777,8 @@
       "address": null,
       "lat": null,
       "lng": null,
-      "bezirk": null
+      "bezirk": null,
+      "showings": null
     },
     {
       "title": "Genesis",
@@ -7427,7 +7798,8 @@
       "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
       "lat": 52.4986606,
       "lng": 13.3022747,
-      "bezirk": "Charlottenburg-Wilmersdorf"
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "showings": null
     },
     {
       "title": "BULLYACHE: A Good Man is Hard to Find",
@@ -7447,7 +7819,8 @@
       "address": "Sophienstraße 18, 10178 Mitte",
       "lat": 52.5258825,
       "lng": 13.4016022,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "saHHar",
@@ -7467,7 +7840,8 @@
       "address": "John-Foster-Dulles-Allee 10, 10557 Tiergarten",
       "lat": 52.5187884,
       "lng": 13.3648356,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Konzert",
@@ -7487,7 +7861,8 @@
       "address": "Jessnerstraße 41, 10247 Friedrichshain",
       "lat": 52.5105248,
       "lng": 13.4713392,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "FRIDAY FUCK 2-4-1",
@@ -7507,7 +7882,8 @@
       "address": "Am Wriezener Bahnhof, 10243 Friedrichshain",
       "lat": 52.5114484,
       "lng": 13.4407738,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Erwin Olaf: Muses",
@@ -7527,7 +7903,8 @@
       "address": "Prinzessinnenstraße 30, 10969 Berlin",
       "lat": null,
       "lng": null,
-      "bezirk": null
+      "bezirk": null,
+      "showings": null
     },
     {
       "title": "Workshops \"Utopien & Personas\" - kreativ gg. Tech-Faschismus",
@@ -7547,7 +7924,8 @@
       "address": "Lausitzer Straße 10, 10999 Kreuzberg",
       "lat": 52.4975071,
       "lng": 13.428026,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "CSD Bernau Anreise",
@@ -7567,7 +7945,8 @@
       "address": "Florastraße 84, 13187 Pankow",
       "lat": 52.5658369,
       "lng": 13.400323,
-      "bezirk": "Pankow"
+      "bezirk": "Pankow",
+      "showings": null
     },
     {
       "title": "Solidarity Bake Sale",
@@ -7587,7 +7966,8 @@
       "address": "Grünberger Straße 73, 10245 Friedrichshain",
       "lat": 52.5114491,
       "lng": 13.4595298,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Festival gegen Rassismus",
@@ -7607,7 +7987,8 @@
       "address": "Blücherplatz 1, 10961 Kreuzberg",
       "lat": 52.4965672,
       "lng": 13.3924936,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Rope Fundamentals Weekend: Foundations & Fun",
@@ -7627,7 +8008,8 @@
       "address": "Perleberger Straße 59, 10559 Moabit",
       "lat": 52.5326687,
       "lng": 13.3513556,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Rope Fundamentals: Shibari Starter Kit Weekend",
@@ -7647,7 +8029,8 @@
       "address": "Perleberger Straße 59, 10559 Moabit",
       "lat": 52.5326687,
       "lng": 13.3513556,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Kuriosum Repair Kaffee",
@@ -7667,7 +8050,8 @@
       "address": "Scheffelstraße 21, 10367 Lichtenberg",
       "lat": 52.5201505,
       "lng": 13.4731889,
-      "bezirk": "Lichtenberg"
+      "bezirk": "Lichtenberg",
+      "showings": null
     },
     {
       "title": "Tropenbude Bar und Garten offen",
@@ -7687,7 +8071,8 @@
       "address": "Scheffelstraße 21, 10367 Lichtenberg",
       "lat": 52.5201505,
       "lng": 13.4731889,
-      "bezirk": "Lichtenberg"
+      "bezirk": "Lichtenberg",
+      "showings": null
     },
     {
       "title": "Aus der Nacht heraus (Day 4): Panel Discussion & more",
@@ -7707,7 +8092,8 @@
       "address": "Tauentzienstraße, 10789 Charlottenburg",
       "lat": 52.503379,
       "lng": 13.3386522,
-      "bezirk": "Charlottenburg-Wilmersdorf"
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "showings": null
     },
     {
       "title": "Jeanne Dielman, 23, quai du Commerce, 1080 Bruxelles",
@@ -7719,7 +8105,7 @@
       "source_url": "https://stressfaktor.squat.net/node/327146",
       "source_name": "Stressfaktor",
       "tags": [
-        "Film"
+        "Kino"
       ],
       "time_known": true,
       "genre": "Polit",
@@ -7727,7 +8113,8 @@
       "address": "Caligariplatz 1, 13086 Weißensee",
       "lat": 52.5525923,
       "lng": 13.4305919,
-      "bezirk": "Pankow"
+      "bezirk": "Pankow",
+      "showings": null
     },
     {
       "title": "Gnawa für alle",
@@ -7747,7 +8134,8 @@
       "address": "John-Foster-Dulles-Allee 10, 10557 Tiergarten",
       "lat": 52.5187884,
       "lng": 13.3648356,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Hey Mama: A FLINTA* Fuckboi Party",
@@ -7767,7 +8155,8 @@
       "address": null,
       "lat": null,
       "lng": null,
-      "bezirk": null
+      "bezirk": null,
+      "showings": null
     },
     {
       "title": "Krabbelgruppe - Nappy Play Group",
@@ -7787,7 +8176,8 @@
       "address": "Lankwitzer Straße 42/43, 12107 Mariendorf",
       "lat": 52.4374457,
       "lng": 13.3754837,
-      "bezirk": "Tempelhof-Schöneberg"
+      "bezirk": "Tempelhof-Schöneberg",
+      "showings": null
     },
     {
       "title": "BAU-PAUSE PARTY",
@@ -7807,7 +8197,8 @@
       "address": "Gneisenaustraße 2a, 10961 Kreuzberg",
       "lat": 52.4919487,
       "lng": 13.3889569,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Linkes Chorfestival: 10 Jahre \"Der KMC\" und mehr",
@@ -7827,7 +8218,8 @@
       "address": "Lehrter Straße 35, 10557 Moabit",
       "lat": 52.5341991,
       "lng": 13.3592766,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Die schwarze Krähe der Weißen Siedlung",
@@ -7847,7 +8239,8 @@
       "address": "Stresemannstraße 29, 10963 Kreuzberg",
       "lat": 52.4999566,
       "lng": 13.3871576,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Routes & Roots: Das gemeinsame Erbe von Gnawa und transatlantischer Yoruba-Kultur",
@@ -7867,7 +8260,8 @@
       "address": "John-Foster-Dulles-Allee 10, 10557 Tiergarten",
       "lat": 52.5187884,
       "lng": 13.3648356,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Aufgüsse am Samstag",
@@ -7887,7 +8281,8 @@
       "address": "Mehringdamm 34, 10961 Kreuzberg",
       "lat": 52.4936405,
       "lng": 13.3876998,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Rundgang Ausstellung „Die Anarchie ist das Leben der Menschen, die dem Joche entronnen sind.“",
@@ -7907,7 +8302,8 @@
       "address": "Brüsseler Straße 21, 13353 Wedding",
       "lat": 52.5460206,
       "lng": 13.3479549,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Filmfestival - \"Aus der Nacht heraus\" - Closing Even",
@@ -7927,7 +8323,8 @@
       "address": "Lohmühlenstraße, 12435 Alt-Treptow",
       "lat": 52.489793,
       "lng": 13.4402231,
-      "bezirk": "Treptow-Köpenick"
+      "bezirk": "Treptow-Köpenick",
+      "showings": null
     },
     {
       "title": "Apaches",
@@ -7947,7 +8344,8 @@
       "address": "Stresemannstraße 29, 10963 Kreuzberg",
       "lat": 52.4999566,
       "lng": 13.3871576,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Konzert",
@@ -7967,7 +8365,8 @@
       "address": "Ackerstraße 169, 10115 Mitte",
       "lat": 52.5297369,
       "lng": 13.3971786,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Soliparty & Pierogi",
@@ -7987,7 +8386,8 @@
       "address": "Grünberger Straße 73, 10245 Friedrichshain",
       "lat": 52.5114491,
       "lng": 13.4595298,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "LEIPZIG GOES BERLIN CONCERT",
@@ -8007,7 +8407,8 @@
       "address": "Rigaer Straße 78, 10247 Friedrichshain",
       "lat": 52.5166542,
       "lng": 13.4641926,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Hardcore / Metalcore / OI!-Punk",
@@ -8027,7 +8428,8 @@
       "address": "Lausitzer Straße 22, 10999 Kreuzberg",
       "lat": 52.4955993,
       "lng": 13.4268698,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Hier sein heißt handeln",
@@ -8047,7 +8449,8 @@
       "address": "Stresemannstraße 29, 10963 Kreuzberg",
       "lat": 52.4999566,
       "lng": 13.3871576,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Justin Adams & Mauro Durante mit Alessia Tondo | Majid Bekkas & Bassekou Kouyaté",
@@ -8067,7 +8470,8 @@
       "address": "John-Foster-Dulles-Allee 10, 10557 Tiergarten",
       "lat": 52.5187884,
       "lng": 13.3648356,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Colleen Ndemeh Fitzgerald: After Work Tours #3",
@@ -8087,7 +8491,8 @@
       "address": "Sophienstraße 18, 10178 Mitte",
       "lat": 52.5258825,
       "lng": 13.4016022,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Genesis",
@@ -8107,7 +8512,8 @@
       "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
       "lat": 52.4986606,
       "lng": 13.3022747,
-      "bezirk": "Charlottenburg-Wilmersdorf"
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "showings": null
     },
     {
       "title": "KONVULSISMO :6",
@@ -8127,7 +8533,8 @@
       "address": "10783 Schöneberg",
       "lat": 52.4964166,
       "lng": 13.362414,
-      "bezirk": "Tempelhof-Schöneberg"
+      "bezirk": "Tempelhof-Schöneberg",
+      "showings": null
     },
     {
       "title": "Qui a tué mon père (Wer hat meinen Vater umgebracht)",
@@ -8147,7 +8554,8 @@
       "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
       "lat": 52.4986606,
       "lng": 13.3022747,
-      "bezirk": "Charlottenburg-Wilmersdorf"
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "showings": null
     },
     {
       "title": "Konzert",
@@ -8167,7 +8575,8 @@
       "address": "Stresemannstraße 29, 10963 Kreuzberg",
       "lat": 52.4999566,
       "lng": 13.3871576,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Bondarev/Downes/Ginsburg/Michel",
@@ -8187,7 +8596,8 @@
       "address": "Donaustraße 115, 12043 Berlin",
       "lat": 52.47567,
       "lng": 13.43597,
-      "bezirk": "Neukölln"
+      "bezirk": "Neukölln",
+      "showings": null
     },
     {
       "title": "Bluets",
@@ -8207,7 +8617,8 @@
       "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
       "lat": 52.4986606,
       "lng": 13.3022747,
-      "bezirk": "Charlottenburg-Wilmersdorf"
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "showings": null
     },
     {
       "title": "BULLYACHE: A Good Man is Hard to Find",
@@ -8227,7 +8638,8 @@
       "address": "Sophienstraße 18, 10178 Mitte",
       "lat": 52.5258825,
       "lng": 13.4016022,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Konzert",
@@ -8247,7 +8659,8 @@
       "address": "Jessnerstraße 41, 10247 Friedrichshain",
       "lat": 52.5105248,
       "lng": 13.4713392,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "DJ-Set von Slimgirl Fat",
@@ -8267,7 +8680,8 @@
       "address": "Stresemannstraße 29, 10963 Kreuzberg",
       "lat": 52.4999566,
       "lng": 13.3871576,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Zine & Siroko — Trance Ritual (B2B)",
@@ -8287,7 +8701,8 @@
       "address": "John-Foster-Dulles-Allee 10, 10557 Tiergarten",
       "lat": 52.5187884,
       "lng": 13.3648356,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "GUMMI",
@@ -8307,7 +8722,8 @@
       "address": "Am Wriezener Bahnhof, 10243 Friedrichshain",
       "lat": 52.5114484,
       "lng": 13.4407738,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Workshops \"Utopien & Personas\" - kreativ gg. Tech-Faschismus",
@@ -8327,7 +8743,8 @@
       "address": "Lausitzer Straße 10, 10999 Kreuzberg",
       "lat": 52.4975071,
       "lng": 13.428026,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "📖 Infoladen Scherer 8 📖",
@@ -8347,7 +8764,8 @@
       "address": "Schererstraße 8, 13347 Wedding",
       "lat": 52.5481641,
       "lng": 13.3670511,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Rope Fundamentals Weekend: Nerdery & Harnesses",
@@ -8367,7 +8785,8 @@
       "address": "Perleberger Straße 59, 10559 Moabit",
       "lat": 52.5326687,
       "lng": 13.3513556,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Offene Bibliothek UJZ Karslhorst",
@@ -8387,7 +8806,8 @@
       "address": "Hönower Straße 30, 10318 Karlshorst",
       "lat": 52.4892149,
       "lng": 13.5212776,
-      "bezirk": "Lichtenberg"
+      "bezirk": "Lichtenberg",
+      "showings": null
     },
     {
       "title": "Tropenbude Bar und Garten offen",
@@ -8407,7 +8827,8 @@
       "address": "Scheffelstraße 21, 10367 Lichtenberg",
       "lat": 52.5201505,
       "lng": 13.4731889,
-      "bezirk": "Lichtenberg"
+      "bezirk": "Lichtenberg",
+      "showings": null
     },
     {
       "title": "Sonntagsschule - Sunday School",
@@ -8427,7 +8848,8 @@
       "address": "Lankwitzer Straße 42/43, 12107 Mariendorf",
       "lat": 52.4374457,
       "lng": 13.3754837,
-      "bezirk": "Tempelhof-Schöneberg"
+      "bezirk": "Tempelhof-Schöneberg",
+      "showings": null
     },
     {
       "title": "YELLOW FACTS",
@@ -8447,7 +8869,8 @@
       "address": "Am Wriezener Bahnhof, 10243 Friedrichshain",
       "lat": 52.5114484,
       "lng": 13.4407738,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Aufgüsse am Sonntag",
@@ -8467,7 +8890,8 @@
       "address": "Mehringdamm 34, 10961 Kreuzberg",
       "lat": 52.4936405,
       "lng": 13.3876998,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Chillout Jam",
@@ -8487,7 +8911,8 @@
       "address": "Rigaer Straße 103, 10247 Friedrichshain",
       "lat": 52.5182565,
       "lng": 13.4552573,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Bluets",
@@ -8507,7 +8932,8 @@
       "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
       "lat": 52.4986606,
       "lng": 13.3022747,
-      "bezirk": "Charlottenburg-Wilmersdorf"
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "showings": null
     },
     {
       "title": "Qui a tué mon père (Wer hat meinen Vater umgebracht)",
@@ -8527,7 +8953,8 @@
       "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
       "lat": 52.4986606,
       "lng": 13.3022747,
-      "bezirk": "Charlottenburg-Wilmersdorf"
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "showings": null
     },
     {
       "title": "Jakob Astrup Trio",
@@ -8547,7 +8974,8 @@
       "address": "Donaustraße 115, 12043 Berlin",
       "lat": 52.47567,
       "lng": 13.43597,
-      "bezirk": "Neukölln"
+      "bezirk": "Neukölln",
+      "showings": null
     },
     {
       "title": "Genesis",
@@ -8567,7 +8995,8 @@
       "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
       "lat": 52.4986606,
       "lng": 13.3022747,
-      "bezirk": "Charlottenburg-Wilmersdorf"
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "showings": null
     },
     {
       "title": "Aufgüsse am Montag",
@@ -8587,7 +9016,8 @@
       "address": "Mehringdamm 34, 10961 Kreuzberg",
       "lat": 52.4936405,
       "lng": 13.3876998,
-      "bezirk": "Friedrichshain-Kreuzberg"
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
     },
     {
       "title": "Fahrrad-Selbsthilfe-Werkstatt",
@@ -8607,7 +9037,8 @@
       "address": "Neckarstraße 19, 12053 Neukölln",
       "lat": 52.4801032,
       "lng": 13.4340359,
-      "bezirk": "Neukölln"
+      "bezirk": "Neukölln",
+      "showings": null
     },
     {
       "title": "Guided Self-Tying Session",
@@ -8627,7 +9058,8 @@
       "address": "Perleberger Straße 59, 10559 Moabit",
       "lat": 52.5326687,
       "lng": 13.3513556,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Offene Mietenberatung",
@@ -8647,7 +9079,8 @@
       "address": "Schönhauser Allee 26a, 10435 Prenzlauer Berg",
       "lat": 52.5359511,
       "lng": 13.4126884,
-      "bezirk": "Pankow"
+      "bezirk": "Pankow",
+      "showings": null
     },
     {
       "title": "Offene Mieterberatung",
@@ -8667,7 +9100,8 @@
       "address": "Schönhauser Allee 26a, 10435 Prenzlauer Berg",
       "lat": 52.5359511,
       "lng": 13.4126884,
-      "bezirk": "Pankow"
+      "bezirk": "Pankow",
+      "showings": null
     },
     {
       "title": "Soli-Bleiberechtsbar",
@@ -8687,7 +9121,8 @@
       "address": "Bernkasteler Straße 78, 13088 Weißensee",
       "lat": 52.5577176,
       "lng": 13.4702725,
-      "bezirk": "Pankow"
+      "bezirk": "Pankow",
+      "showings": null
     },
     {
       "title": "Rope for Absolute Beginners",
@@ -8707,7 +9142,8 @@
       "address": "Perleberger Straße 59, 10559 Moabit",
       "lat": 52.5326687,
       "lng": 13.3513556,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Egal",
@@ -8727,7 +9163,8 @@
       "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
       "lat": 52.4986606,
       "lng": 13.3022747,
-      "bezirk": "Charlottenburg-Wilmersdorf"
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "showings": null
     },
     {
       "title": "Bliss (Beirut Shoegaze!)",
@@ -8747,7 +9184,8 @@
       "address": "Donaustraße 115, 12043 Berlin",
       "lat": 52.47567,
       "lng": 13.43597,
-      "bezirk": "Neukölln"
+      "bezirk": "Neukölln",
+      "showings": null
     },
     {
       "title": "Filmabend (P)",
@@ -8759,7 +9197,7 @@
       "source_url": "https://stressfaktor.squat.net/node/327464",
       "source_name": "Stressfaktor",
       "tags": [
-        "Film"
+        "Kino"
       ],
       "time_known": true,
       "genre": "Polit",
@@ -8767,7 +9205,8 @@
       "address": "Köpenicker Straße, 10179 Mitte",
       "lat": 52.507824,
       "lng": 13.4271106,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     },
     {
       "title": "Bluets",
@@ -8787,7 +9226,8 @@
       "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
       "lat": 52.4986606,
       "lng": 13.3022747,
-      "bezirk": "Charlottenburg-Wilmersdorf"
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "showings": null
     },
     {
       "title": "Filmabend im (P)",
@@ -8799,7 +9239,7 @@
       "source_url": "https://stressfaktor.squat.net/node/327465",
       "source_name": "Stressfaktor",
       "tags": [
-        "Film"
+        "Kino"
       ],
       "time_known": true,
       "genre": "Polit",
@@ -8807,7 +9247,8 @@
       "address": "Köpenicker Straße, 10179 Mitte",
       "lat": 52.507824,
       "lng": 13.4271106,
-      "bezirk": "Mitte"
+      "bezirk": "Mitte",
+      "showings": null
     }
   ]
 }

@@ -1,0 +1,29 @@
+### Sputnik (https://www.sputnik-kino.com/)
+status=200 len=19258 builder=WordPress ld+json=1 HH:MM-Treffer=18
+@type: ['MovieTheater', 'PostalAddress']
+Link-Muster: ['/events', '/film/19316', '/film/19611', '/film/19803', '/film/28180', '/film/28185', '/film/820', '/filme']
+TEXT: Sputnik Kino Berlin â Kino in Kreuzberg { "@context": "https://schema.org", "@type": "MovieTheater", "name": "Sputnik Kino", "url": "https://www.sputnik-kino.com", "address": { "@type": "PostalAddress", "streetAddress": "Hasenheide 54", "addressLocality": "Berlin", "postalCode": "10967", "addressCountry": "DE" }, "telephone": "+4930 694 11 47", "email": "post@sputnik-kino.com", "sameAs": [ "http
+
+### Lichtblick (https://lichtblick-kino.org/)
+status=200 len=32712 builder=WordPress ld+json=0 HH:MM-Treffer=3
+@type: []
+Link-Muster: ['/film/dokumentarfilm/berlinized_02b', '/film/dokumentarfilm/berlinized_02b-350x193', '/film/dokumentarfilm/berlinized_02b-700x386', '/film/dokumentarfilm/gestern_mitte_morgen_05', '/film/dokumentarfilm/gestern_mitte_morgen_05-', '/film/spielfilm/kes_03', '/film/spielfilm/kes_03-350x225', '/film/spielfilm/kes_03-700x450']
+TEXT: :root { --farbe_1: 0, 153, 102; --farbe_2: 119, 34, 136; } html { margin-top: 0px!important; } --> let omu_def = [ ["OmU", "Original mit deutschen Untertiteln original version with German subtitles"], ["OmeU", "Original mit englischen Untertiteln original version with English subtitles"], ["engl. OV", "englische Originalversion English original version"], ["OV", "Originalversion ohne Untertitel or
+
+### Zukunft (https://kino-zukunft.de/programm.html)
+status=200 len=12985 builder=unbekannt ld+json=0 HH:MM-Treffer=2
+@type: []
+Link-Muster: ['/vorstellungen']
+TEXT: Kino Zukunft - Kinoprogramm &amp; Tickets | Berlin Friedrichshain Skip to navigation (Press Enter). Kino Zukunft Kinoprogramm &amp; Tickets die kinoachse. Lichtspiele in Friedrichshain die anderen: Tilsiter Lichtspiele &#8226; Kino Intimes Kino Zukunft Kinoprogramm Open Air Kino Neue Zukunft Jetzt im Kino Zukunft: ROSE mit Sandra Hüller, Caro Braun. Historiendrama von Markus Schleinzer &#9733; SCH
+
+### Ladenkino (https://ladenkino.de/)
+status=200 len=93417 builder=WordPress ld+json=0 HH:MM-Treffer=6
+@type: []
+Link-Muster: ['/filmkunst/', '/filmreihe-auch-deutsche-unter-den-opfern/', '/programm/gesamtprogramm/', '/programm/kinder-und-jugendkino/', '/programm/kinderwagenkino/', '/programm/kino-fuer-nicht-deutschsprachige/', '/programm/open-air/']
+TEXT: b-ware!ladenkino Berlin var edgtCoreAjaxUrl = "https://ladenkino.de/wp-admin/admin-ajax.php" var EdgefAjaxUrl = "https://ladenkino.de/wp-admin/admin-ajax.php" img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px} /*# sourceURL=wp-img-auto-sizes-contain-inline-css */ img.wp-smiley, img.emoji { display: inline !important; border: none !important; box-shadow: none !important
+
+### Wolf (https://wolfberlin.org/de/programm)
+status=200 len=22196 builder=unbekannt ld+json=0 HH:MM-Treffer=0
+@type: []
+Link-Muster: ['/programm', '/programm/angebote-fuer-kitas-und-schulen', '/programm/babywolfgang', '/programm/events', '/programm/filme', '/programm/kinderkino', '/programme']
+TEXT: Wolf Kino Berlin - Programm 16 16 de en .st0 { fill: #FFFFFF; } --> Programm Filme Events Kinderkino Babywolfgang Kitas und Schulen Kino Plus &Uuml;ber Wolf Steppenwolf Verleih Postproduktion Podcasts Journal Service Tickets Vermietung Essen &amp; Trinken Shop &amp; Support Kontakt / Zugang Wolf Team English please Weserstraße 59 12045 Berlin Deutschland Tel: +49 30 921 039 333 Mo-Fr ab 16 Uhr, Sa

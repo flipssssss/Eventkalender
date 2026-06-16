@@ -1,20 +1,20 @@
-Events gesamt: 76
-club/28354 (://about blank): 40 -> 40 Berlin
-club/98993 (Beate Uwe): 12 -> 12 Berlin
-promoter/82597 (BOAR Berlin): 0 -> 0 Berlin
-promoter/71007 (Buttons): 1 -> 1 Berlin
-promoter/80958 (Gegen): 8 -> 5 Berlin
-promoter/79889 (HE.SHE.THEY.): 5 -> 1 Berlin
+Events gesamt: 76 | mit Bild: 69 | mit Beschreibung: 69
+club/28354 (://about blank): 40 -> 40 Berlin | flyer=0 images=38 content=39
+club/98993 (Beate Uwe): 12 -> 12 Berlin | flyer=0 images=8 content=11
+promoter/82597 (BOAR Berlin): 0 -> 0 Berlin | flyer=0 images=0 content=0
+promoter/71007 (Buttons): 1 -> 1 Berlin | flyer=0 images=1 content=1
+promoter/80958 (Gegen): 8 -> 5 Berlin | flyer=0 images=8 content=8
+promoter/79889 (HE.SHE.THEY.): 5 -> 1 Berlin | flyer=0 images=4 content=4
 artist/horsemeatdisco: ID nicht auflösbar
-promoter/84128 (Klub Verboten): 4 -> 0 Berlin
-promoter/167895 (Lecken3000): 0 -> 0 Berlin
-promoter/137536 (Magic Dyke*): 0 -> 0 Berlin
-promoter/169756 (Mala Junta): 2 -> 1 Berlin
-promoter/109496 (PiepShow Berlin): 7 -> 7 Berlin
-promoter/112980 (Pinky Promise): 0 -> 0 Berlin
-promoter/119317 (Polyamor): 8 -> 7 Berlin
-promoter/52590 (Pornceptual): 5 -> 2 Berlin
-promoter/68628 (Room 4 Resistance): 0 -> 0 Berlin
-promoter/110626 (Supernature): 0 -> 0 Berlin
-promoter/90524 (¡MASH-UP! Multigender / Multiworld): 0 -> 0 Berlin
+promoter/84128 (Klub Verboten): 4 -> 0 Berlin | flyer=0 images=4 content=4
+promoter/167895 (Lecken3000): 0 -> 0 Berlin | flyer=0 images=0 content=0
+promoter/137536 (Magic Dyke*): 0 -> 0 Berlin | flyer=0 images=0 content=0
+promoter/169756 (Mala Junta): 2 -> 1 Berlin | flyer=0 images=2 content=2
+promoter/109496 (PiepShow Berlin): 7 -> 7 Berlin | flyer=0 images=7 content=7
+promoter/112980 (Pinky Promise): 0 -> 0 Berlin | flyer=0 images=0 content=0
+promoter/119317 (Polyamor): 8 -> 7 Berlin | flyer=0 images=7 content=4
+promoter/52590 (Pornceptual): 5 -> 2 Berlin | flyer=0 images=5 content=5
+promoter/68628 (Room 4 Resistance): 0 -> 0 Berlin | flyer=0 images=0 content=0
+promoter/110626 (Supernature): 0 -> 0 Berlin | flyer=0 images=0 content=0
+promoter/90524 (¡MASH-UP! Multigender / Multiworld): 0 -> 0 Berlin | flyer=0 images=0 content=0
 Artist-Auflösung: status=403 len=768 keine ID

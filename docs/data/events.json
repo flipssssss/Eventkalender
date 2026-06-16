@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-16T11:10:55.760731+00:00",
-  "count": 572,
+  "generated_at": "2026-06-16T11:31:29.376732+00:00",
+  "count": 576,
   "sources": [
     {
       "source": "Quälgeist",
@@ -33,8 +33,8 @@
       "error": null
     },
     {
-      "source": "Klub Verboten",
-      "count": 0,
+      "source": "Resident Advisor",
+      "count": 24,
       "error": null
     },
     {
@@ -85,11 +85,6 @@
     {
       "source": "Kinoprogramm",
       "count": 164,
-      "error": null
-    },
-    {
-      "source": "Probe RA",
-      "count": 0,
       "error": null
     },
     {
@@ -1321,8 +1316,8 @@
       "start": "2026-06-16T20:00:00",
       "end": null,
       "location": "Ladenkino",
-      "description": "Obwohl Bear und Nikki schon seit Ewigkeiten beste Freunde sind, hat Bear nie den Mut gefunden, Nikki seine wahren Gefühle zu gestehen. Als er eines Tages den &quot;One-Wish-Willow&quot; entdeckt, ein mysteriö...",
-      "image_url": "https://www.berlin.de/kino/_img/filmbilder/p_313721_Print2.jpg",
+      "description": null,
+      "image_url": null,
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313721/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -7215,6 +7210,27 @@
       "showings": null
     },
     {
+      "title": "MIXED MESSAGES",
+      "start": "2026-06-20T23:00:00",
+      "end": null,
+      "location": "Ficken 3000, Berlin",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://ra.co/events/2449468",
+      "source_name": "Resident Advisor",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true,
+      "genre": "Queer",
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null,
+      "showings": null
+    },
+    {
       "title": "Kriminal Kitchen fuck off soundssystem",
       "start": "2026-06-21T00:00:00",
       "end": null,
@@ -7422,6 +7438,27 @@
       "lat": 52.4986606,
       "lng": 13.3022747,
       "bezirk": "Charlottenburg-Wilmersdorf",
+      "showings": null
+    },
+    {
+      "title": "PRNCPTL POOL PARTY w/ CUDDLES, HOE__MIES, MISS DREAMZ & TANGA",
+      "start": "2026-06-21T12:00:00",
+      "end": null,
+      "location": "Maaya, Berlin",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://ra.co/events/2367206",
+      "source_name": "Resident Advisor",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true,
+      "genre": "Queer",
+      "subcategory": null,
+      "address": "Revaler Straße 99, 10245 Friedrichshain",
+      "lat": 52.5072971,
+      "lng": 13.4527414,
+      "bezirk": "Friedrichshain-Kreuzberg",
       "showings": null
     },
     {
@@ -11904,6 +11941,27 @@
       "showings": null
     },
     {
+      "title": "PiepShow - JunePiep",
+      "start": "2026-06-26T20:00:00",
+      "end": null,
+      "location": "KitKatClub, Berlin",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://ra.co/events/2276982",
+      "source_name": "Resident Advisor",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true,
+      "genre": "Queer",
+      "subcategory": null,
+      "address": "Köpenicker Straße 76, 10179 Mitte",
+      "lat": 52.5112074,
+      "lng": 13.4169157,
+      "bezirk": "Mitte",
+      "showings": null
+    },
+    {
       "title": "Konzert: Shutcombo + LisaBouvier",
       "start": "2026-06-26T20:26:00",
       "end": null,
@@ -12867,6 +12925,27 @@
       "lat": 52.5114484,
       "lng": 13.4407738,
       "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": null
+    },
+    {
+      "title": "Mala Junta 8th Anniversary",
+      "start": "2026-06-27T23:59:00",
+      "end": null,
+      "location": "RSO.BERLIN, Berlin",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://ra.co/events/2460008",
+      "source_name": "Resident Advisor",
+      "tags": [
+        "Party"
+      ],
+      "time_known": true,
+      "genre": "Queer",
+      "subcategory": null,
+      "address": "Schnellerstraße, 12439 Niederschöneweide",
+      "lat": 52.459911,
+      "lng": 13.5053346,
+      "bezirk": "Treptow-Köpenick",
       "showings": null
     },
     {

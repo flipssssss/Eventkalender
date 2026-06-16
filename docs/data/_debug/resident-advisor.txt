@@ -1,0 +1,19 @@
+Events gesamt: 24
+club/28354 (?): [{'message': 'Cannot query field "club" on type "Query".', 'extensions': {'code': 'GRAPHQL_VALIDATION_FAILED'}}, {'messa
+club/98993 (?): [{'message': 'Cannot query field "club" on type "Query".', 'extensions': {'code': 'GRAPHQL_VALIDATION_FAILED'}}, {'messa
+promoter/82597 (BOAR Berlin): 0 -> 0 Berlin
+promoter/71007 (Buttons): 1 -> 1 Berlin
+promoter/80958 (Gegen): 8 -> 5 Berlin
+promoter/79889 (HE.SHE.THEY.): 5 -> 1 Berlin
+artist/horsemeatdisco: ID nicht auflösbar
+promoter/84128 (Klub Verboten): 4 -> 0 Berlin
+promoter/167895 (Lecken3000): 0 -> 0 Berlin
+promoter/137536 (Magic Dyke*): 0 -> 0 Berlin
+promoter/169756 (Mala Junta): 2 -> 1 Berlin
+promoter/109496 (PiepShow Berlin): 7 -> 7 Berlin
+promoter/112980 (Pinky Promise): 0 -> 0 Berlin
+promoter/119317 (Polyamor): 8 -> 7 Berlin
+promoter/52590 (Pornceptual): 5 -> 2 Berlin
+promoter/68628 (Room 4 Resistance): 0 -> 0 Berlin
+promoter/110626 (Supernature): 0 -> 0 Berlin
+promoter/90524 (¡MASH-UP! Multigender / Multiworld): 0 -> 0 Berlin

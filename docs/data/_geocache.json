@@ -309,6 +309,8 @@
   "lat": 52.5106031,
   "lng": 13.3292355
  },
+ "Ficken 3000 Berlin": null,
+ "Ficken 3000, Berlin": null,
  "Filmrisz Filmrisz Rigaerstr. 103 10247 Berlin Deutschland": null,
  "Filmrisz Filmrisz Rigaerstr. 103 10247, 10247 Berlin": null,
  "Finowstraße 33, 10247 Berlin": {
@@ -700,6 +702,12 @@
   "lat": 52.5041855,
   "lng": 13.3625529
  },
+ "Maaya, Berlin": {
+  "address": "Revaler Straße 99, 10245 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5072971,
+  "lng": 13.4527414
+ },
  "Mariannenplatz 1a, 10997 Berlin": {
   "address": "Mariannenplatz 1a, 10997 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -845,6 +853,12 @@
  "Prinzessinnenstraße 30, 10969 Berlin": null,
  "Quälgeist Berlin e.V. Lankwitzer Straße 42/43, 12107 Berlin": null,
  "Quälgeist Berlin e.V., Lankwitzer Straße 42/43, Berlin, 12107, Deutschland": null,
+ "RSO.BERLIN, Berlin": {
+  "address": "Schnellerstraße, 12439 Niederschöneweide",
+  "bezirk": "Treptow-Köpenick",
+  "lat": 52.459911,
+  "lng": 13.5053346
+ },
  "Regenbogencafé Lausitzer Str. 22 10999 Berlin Deutschland": null,
  "Regenbogencafé Lausitzer Str. 22 10999, 10999 Berlin": null,
  "Regenbogenfabrik Lausitzer Str. 21a 10999 Berlin Deutschland": null,

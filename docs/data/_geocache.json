@@ -389,12 +389,19 @@
   "lng": 13.3903814
  },
  "Frizu Lounge, Berlin": null,
+ "Gambino’s by AMANO, Berlin": null,
  "Garten Markgrafendamm 24c, 10245 Berlin": null,
  "Gneisenaustr. 2a, 10961 Berlin": {
   "address": "Gneisenaustraße 2a, 10961 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.4919487,
   "lng": 13.3889569
+ },
+ "Gretchen, Berlin": {
+  "address": "Zachertstraße, 10315 Friedrichsfelde",
+  "bezirk": "Lichtenberg",
+  "lat": 52.5056689,
+  "lng": 13.5080026
  },
  "Gärtnerstraße 19, 10245 Berlin": {
   "address": "Gärtnerstraße 19, 10245 Friedrichshain",
@@ -838,6 +845,7 @@
   "lat": 52.4918919,
   "lng": 13.3890768
  },
+ "Metis Books and Café, Berlin": null,
  "Mitte Museum Pankstr. 47 13357 Berlin Deutschland": {
   "address": "Pankstraße 47, 13357 Gesundbrunnen",
   "bezirk": "Mitte",
@@ -895,6 +903,12 @@
   "bezirk": "Mitte",
   "lat": 52.5066209,
   "lng": 13.3819472
+ },
+ "Nirgendwo, Berlin": {
+  "address": "Rüdersdorfer Straße 67, 10243 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5105125,
+  "lng": 13.4445032
  },
  "Oberwallstraße 32, 10117 Berlin": {
   "address": "Oberwallstraße, 10117 Mitte",
@@ -1068,6 +1082,7 @@
   "lng": 13.4713392
  },
  "Supamolly Jessnerstr. 41 10247, 10247 Berlin": null,
+ "TBA - Info durch Veranstalter*in, Berlin": null,
  "Theater Strahl. Halle Ostkreuz, Berlin": null,
  "Theater an der Parkaue, Berlin": {
   "address": "Parkaue 29, 10367 Lichtenberg",

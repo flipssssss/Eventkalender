@@ -33,9 +33,25 @@ RA_FOLLOWS = [
     ("promoter", "90524"),
 ]
 
-# Genre per entity id/slug ("Kink" / "Queer"). To be filled in.
+# Genre per entity id/slug ("Kink"/"Queer"/"Kultur"/"Polit").
 GENRE_OVERRIDE = {
-    "84128": "Kink",   # Klub Verboten
+    "28354": "Kultur",   # ://about blank
+    "98993": "Kultur",   # Beate Uwe
+    "82597": "Kink",     # BOAR Berlin
+    "71007": "Queer",    # Buttons
+    "80958": "Kink",     # Gegen
+    "79889": "Queer",    # HE.SHE.THEY.
+    "167895": "Queer",   # Lecken3000
+    "137536": "Queer",   # Magic Dyke*
+    "169756": "Queer",   # Mala Junta
+    "109496": "Queer",   # PiepShow Berlin
+    "112980": "Queer",   # Pinky Promise
+    "119317": "Queer",   # Polyamor
+    "52590": "Kink",     # Pornceptual
+    "68628": "Polit",    # Room 4 Resistance
+    "110626": "Queer",   # Supernature
+    "90524": "Queer",    # ¡MASH-UP! Multigender
+    "84128": "Kink",     # Klub Verboten
 }
 DEFAULT_GENRE = "Queer"
 KINK_KW = ("kink", "fetish", "fetisch", "bdsm", "darkroom", "dark room", "cruise",

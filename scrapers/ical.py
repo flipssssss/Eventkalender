@@ -92,9 +92,19 @@ class ICalScraper(BaseScraper):
                     "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 "
                     "Safari/537.36"
                 ),
-                "Accept": "text/calendar, text/html, */*",
+                "Accept": ("text/html,application/xhtml+xml,application/xml;"
+                           "q=0.9,text/calendar,*/*;q=0.8"),
                 "Accept-Language": "de-DE,de;q=0.9,en;q=0.8",
+                "Accept-Encoding": "gzip, deflate, br",
                 "Referer": origin,
+                "Sec-Fetch-Dest": "document",
+                "Sec-Fetch-Mode": "navigate",
+                "Sec-Fetch-Site": "none",
+                "Sec-Fetch-User": "?1",
+                "Upgrade-Insecure-Requests": "1",
+                "sec-ch-ua": '"Chromium";v="124", "Not-A.Brand";v="99"',
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": '"macOS"',
             },
         ]
         last_error: Exception | None = None

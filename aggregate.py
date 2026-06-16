@@ -24,7 +24,7 @@ import sys
 
 import yaml
 
-from scrapers.base import Event
+from scrapers.base import Event, parse_datetime
 from scrapers.berlin_buehnen import BerlinBuehnenScraper
 from scrapers.categories import categorize
 from scrapers.genres import genre_for
@@ -221,9 +221,65 @@ def locate(events: list[Event]) -> None:
     print(f"  ⌖ {located}/{len(events)} Veranstaltungen verortet")
 
 
+def _event_from_dict(d: dict) -> Event | None:
+    """Rebuild an Event from a previously written feed entry."""
+    start = parse_datetime(d.get("start"))
+    if not start or not d.get("title"):
+        return None
+    end = parse_datetime(d.get("end")) if d.get("end") else None
+    event = Event(
+        title=d["title"],
+        start=start.replace(tzinfo=None),
+        source_url=d.get("source_url") or "",
+        source_name=d.get("source_name") or "",
+        end=end.replace(tzinfo=None) if end else None,
+        location=d.get("location"),
+        description=d.get("description"),
+        image_url=d.get("image_url"),
+        tags=list(d.get("tags") or []),
+        time_known=d.get("time_known", True),
+        genre=d.get("genre"),
+        subcategory=d.get("subcategory"),
+        address=d.get("address"),
+        lat=d.get("lat"),
+        lng=d.get("lng"),
+        bezirk=d.get("bezirk"),
+    )
+    return event
+
+
+def carry_over_failed(raw: list[Event], report: list[dict]) -> list[Event]:
+    """Keep a source's last-good events when this run failed to fetch it.
+
+    Some sites block intermittently (e.g. a 403 from an IP-based bot wall).
+    Instead of dropping all of that source's events on a failed run, re-use the
+    ones from the previously written feed (still-future events age out on their
+    own). Only sources whose report carries an error are carried over.
+    """
+    failed = {r["source"] for r in report if r.get("error")}
+    if not failed:
+        return raw
+    try:
+        old = json.loads(OUTPUT.read_text(encoding="utf-8")).get("events", [])
+    except (OSError, ValueError):
+        return raw
+    added = 0
+    for d in old:
+        if d.get("source_name") in failed:
+            event = _event_from_dict(d)
+            if event:
+                raw.append(event)
+                added += 1
+    if added:
+        print(f"  ↻ {added} Events aus letztem Lauf übernommen "
+              f"(Quellen mit Fehler: {', '.join(sorted(failed))})")
+    return raw
+
+
 def main() -> int:
     print("Sammle Veranstaltungen ...")
     raw, report = collect()
+    raw = carry_over_failed(raw, report)
     events = filter_and_sort(raw)
     locate(events)
     write_output(events, report)

@@ -1,5 +1,5 @@
-"""Dump the cinema + showtime markup of a berlin.de film-detail page, and find
-how the 5 wanted cinemas are linked, so the real parser can be written.
+"""Confirm the berlin.de cinema-detail page layout (kinodetail.php) and find
+the kinodetail IDs of the 5 wanted cinemas from the cinema directory.
 """
 
 from __future__ import annotations
@@ -23,49 +23,65 @@ BROWSER = {
     "Accept-Language": "de-DE,de;q=0.9,en;q=0.8",
 }
 WANTED = ["sputnik", "lichtblick", "zukunft", "ladenkino", "wolf"]
-TIME_RE = re.compile(r"\b[0-2]?\d:[0-5]\d\b")
+DIRS = [
+    "https://www.berlin.de/kino/kinos/",
+    "https://www.berlin.de/kino/_bin/kinoauswahl.php",
+    "https://www.berlin.de/kino/adressen/",
+    "https://www.berlin.de/kino/_bin/index.php?kino=1",
+]
 
 
 class ProbeKinoScraper(BaseScraper):
     name = "Probe Kino"
 
+    def _get(self, url):
+        return requests.get(url, headers=BROWSER, timeout=25).text
+
     def fetch_events(self) -> Iterable[Event]:
-        out = self._dump_filmdetail()
+        out = [self._cinema_ids(), self._cinema_layout()]
         try:
             DEBUG_DIR.mkdir(parents=True, exist_ok=True)
-            (DEBUG_DIR / "probe-kino.txt").write_text(out, encoding="utf-8")
+            (DEBUG_DIR / "probe-kino.txt").write_text("\n\n".join(out), encoding="utf-8")
         except OSError:
             pass
         return []
 
-    def _dump_filmdetail(self) -> str:
+    def _cinema_ids(self) -> str:
+        found = {}
+        for url in DIRS:
+            try:
+                soup = BeautifulSoup(self._get(url), "html.parser")
+            except requests.RequestException:
+                continue
+            for a in soup.find_all("a", href=True):
+                m = re.search(r"kinodetail\.php/(\d+)", a["href"])
+                if not m:
+                    continue
+                name = a.get_text(" ", strip=True)
+                low = name.lower()
+                for w in WANTED:
+                    if w in low:
+                        found[w] = f"{name} -> {m.group(1)}"
+            if len(found) >= 4:
+                return f"### Kino-IDs (von {url})\n  " + "\n  ".join(found.values())
+        return ("### Kino-IDs\n  gefunden: " + str(found) +
+                "\n  (Verzeichnis-Seiten brachten zu wenig — IDs ggf. manuell)")
+
+    def _cinema_layout(self) -> str:
+        url = "https://www.berlin.de/kino/_bin/kinodetail.php/35211"  # Ladenkino
         try:
-            home = requests.get("https://www.berlin.de/kino/", headers=BROWSER,
-                                timeout=25).text
-            m = re.search(r'(/kino/_bin/filmdetail\.php/\d+/?)', home)
-            url = "https://www.berlin.de" + m.group(1)
-            html = requests.get(url, headers=BROWSER, timeout=25).text
-        except (requests.RequestException, AttributeError) as exc:
-            return f"FEHLER {exc}"
-        soup = BeautifulSoup(html, "html.parser")
+            soup = BeautifulSoup(self._get(url), "html.parser")
+        except requests.RequestException as exc:
+            return f"### Ladenkino-Layout\nFEHLER {exc}"
         for t in soup(["script", "style"]):
             t.decompose()
-
-        # Cinema links + which match the wanted cinemas.
-        cinema_links = []
-        for a in soup.find_all("a", href=True):
-            txt = a.get_text(" ", strip=True)
-            href = a["href"]
-            if "kino" in href and txt and any(w in txt.lower() for w in WANTED):
-                cinema_links.append(f"{txt} -> {href}")
-
-        # The element whose subtree holds the most showtimes -> the programme.
-        best, best_n = None, 0
-        for el in soup.find_all(["table", "div", "ul", "section"]):
-            n = len(TIME_RE.findall(el.get_text(" ")))
-            if 3 <= n and n >= best_n and len(el.find_all(True)) < 400:
-                best, best_n = el, n
-        sample = best.prettify()[:2600] if best else "(kein Showtime-Block)"
-        return (f"URL: {url}\nWunschkino-Links:\n  " +
-                "\n  ".join(cinema_links[:15] or ["(keine)"]) +
-                f"\n\n--- DICHTESTER SHOWTIME-BLOCK ({best_n} Zeiten) ---\n{sample}")
+        # First film block: a heading/link to filmdetail + a Tag|Zeit table.
+        tables = soup.select("table.table--compact")
+        sample = ""
+        if tables:
+            block = tables[0].find_parent(["div", "section", "li", "article"]) or tables[0]
+            sample = block.prettify()[:2200]
+        film_links = [a.get_text(" ", strip=True) for a in soup.find_all("a", href=True)
+                      if "filmdetail" in a["href"]][:8]
+        return (f"### Ladenkino-Layout ({url})\nFilm-Tabellen: {len(tables)} | "
+                f"Film-Links (erste): {film_links}\n--- ERSTER BLOCK ---\n{sample}")

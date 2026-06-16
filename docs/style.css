@@ -50,7 +50,8 @@
 
 :root[data-theme="punk"] .day-heading,
 :root[data-theme="punk"] .modal-title,
-:root[data-theme="punk"] .settings-h {
+:root[data-theme="punk"] .settings-h,
+:root[data-theme="punk"] .settings-subh {
   text-transform: uppercase;
   letter-spacing: 0.04em;
 }
@@ -88,7 +89,8 @@
 /* Bungee nur für echte Überschriften (sonst schlecht lesbar). */
 :root[data-theme="hyperpop"] .modal-title,
 :root[data-theme="hyperpop"] .day-heading,
-:root[data-theme="hyperpop"] .settings-h {
+:root[data-theme="hyperpop"] .settings-h,
+:root[data-theme="hyperpop"] .settings-subh {
   font-family: "Bungee", "Fredoka", system-ui, sans-serif;
 }
 
@@ -894,9 +896,10 @@ body {
 }
 
 .settings-subh {
-  margin: 16px 0 8px;
-  font-size: 0.9rem;
-  color: var(--muted);
+  margin: 18px 0 8px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--accent);
 }
 
 .sort-options {

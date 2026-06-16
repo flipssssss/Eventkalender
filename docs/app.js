@@ -44,8 +44,8 @@ const state = {
   disabledKdCats: loadSet("ek_disabled_kdcats"),
   disabledBezirke: loadSet(BEZIRKE_KEY),
   viewMode: (localStorage.getItem(VIEW_KEY) === "map") ? "map" : "list",
-  sortMode: (["category", "genre"].includes(localStorage.getItem(SORT_KEY)))
-    ? localStorage.getItem(SORT_KEY) : "time",
+  sortMode: (["time", "category", "genre"].includes(localStorage.getItem(SORT_KEY)))
+    ? localStorage.getItem(SORT_KEY) : "category",
   mapDay: null,
 };
 

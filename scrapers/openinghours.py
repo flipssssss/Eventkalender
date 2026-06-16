@@ -55,6 +55,37 @@ HOURS = {
     "Schinkel Pavillon": sched("12–18", closed=["mo", "di"]),
     "Anti-Kriegs-Museum": sched("16–20"),
     "Capitain Petzel": sched("11–18", closed=["so", "mo"]),
+
+    # --- Weitere wichtige Häuser (für künftige Ausstellungen, best effort;
+    #     bei Bedarf hier korrigieren). ---
+    # Museumsinsel / Staatliche Museen (Di–So, Mo zu).
+    "Neues Museum": sched("10–18", closed=["mo"]),
+    "Altes Museum": sched("10–18", closed=["mo"]),
+    "Bode-Museum": sched("10–18", closed=["mo"]),
+    "Gemäldegalerie": sched("10–18", closed=["mo"], sa="11–18", so="11–18"),
+    "Kupferstichkabinett": sched("10–18", closed=["mo"], sa="11–18", so="11–18"),
+    "Scharf-Gerstenberg": sched("10–18", closed=["mo"], sa="11–18", so="11–18"),
+    "Bröhan": sched("10–18", closed=["mo"]),
+    # Große Häuser.
+    "Deutsches Historisches Museum": sched("10–18"),
+    "Jüdisches Museum": sched("10–19"),
+    "Haus der Kulturen der Welt": sched("11–19", closed=["di"]),
+    "Akademie der Künste": sched("11–19", closed=["mo"]),
+    "Futurium": sched("10–18", closed=["di"], do="10–20"),
+    "Museum für Naturkunde": sched("9:30–18", closed=["mo"], sa="10–18", so="10–18"),
+    "Naturkundemuseum": sched("9:30–18", closed=["mo"], sa="10–18", so="10–18"),
+    "Technikmuseum": sched("9–17:30", closed=["mo"], sa="10–18", so="10–18"),
+    "DDR Museum": sched("9–21"),
+    "Stasi-Museum": sched("10–18", sa="11–18", so="11–18"),
+    # Kunst / kleinere Häuser.
+    "Brücke-Museum": sched("11–17", closed=["di"]),
+    "Georg Kolbe Museum": sched("11–18", closed=["mo"]),
+    "Fotografiska": sched("10–23"),
+    "Neuer Berliner Kunstverein": sched("12–18"),
+    "n.b.k.": sched("12–18"),
+    "Künstlerhaus Bethanien": sched("14–19", closed=["mo"]),
+    "Schwules Museum": sched("14–18", closed=["di"], sa="14–19"),
+    "Daimler Contemporary": sched("11–18"),
 }
 
 # Venue keys longest-first so e.g. a very generic key can't shadow a specific one.

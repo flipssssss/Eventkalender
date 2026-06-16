@@ -41,8 +41,21 @@ CINEMA_ADDR = {
     "Ladenkino": "Gärtnerstraße 19, 10245 Berlin",
     "Wolf Kino": "Weserstraße 59, 12045 Berlin",
 }
-OG_IMAGE_RE = re.compile(
-    r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)', re.I)
+OG_META_RE = re.compile(
+    r'<meta\b[^>]*\b(?:property|name)=["\'](?:og:image|twitter:image)["\'][^>]*>', re.I)
+CONTENT_RE = re.compile(r'content=["\']([^"\']+)', re.I)
+POSTER_IMG_RE = re.compile(
+    r'<img\b[^>]*\bsrc=["\']([^"\']*(?:image_assets|/binaries/)[^"\']*)', re.I)
+
+
+def _poster(html: str) -> str | None:
+    m = OG_META_RE.search(html)
+    if m:
+        c = CONTENT_RE.search(m.group(0))
+        if c:
+            return c.group(1)
+    m = POSTER_IMG_RE.search(html)
+    return m.group(1) if m else None
 
 BROWSER = {
     "User-Agent": (
@@ -80,22 +93,28 @@ class BerlinKinoScraper(BaseScraper):
 
         imgs = self._add_images(events)
         self._dump(f"Vorstellungen gesamt: {len(events)} | Filmbilder: {imgs}\n"
-                   + "\n".join(report))
+                   + "\n".join(report) + getattr(self, "_img_diag", ""))
         return events
 
     def _add_images(self, events: list[Event]) -> int:
-        """Fetch each unique film page once and read its og:image poster."""
+        """Fetch each unique film page once and read its poster image."""
         cache: dict[str, str] = {}
         urls = [u for u in dict.fromkeys(
             e.source_url for e in events if (e.source_url or "").startswith("http"))]
-        for url in urls[:150]:
+        self._img_diag = ""
+        for i, url in enumerate(urls[:150]):
             try:
                 html = self.get(url, headers=BROWSER).text
             except Exception:  # noqa: BLE001
                 continue
-            m = OG_IMAGE_RE.search(html)
-            if m:
-                cache[url] = m.group(1)
+            if i == 0:
+                tag = OG_META_RE.search(html)
+                self._img_diag = (f"\n1. Film {url}\n  'og:image' im html: "
+                                  f"{'og:image' in html} | meta: "
+                                  f"{tag.group(0)[:140] if tag else '-'}")
+            img = _poster(html)
+            if img:
+                cache[url] = img if img.startswith("http") else (BASE + img)
         for e in events:
             if e.source_url in cache:
                 e.image_url = cache[e.source_url]

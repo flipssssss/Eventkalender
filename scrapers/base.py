@@ -70,6 +70,9 @@ class Event:
     # Cinema events: all screenings of this film on this day, as a list of
     # {"time": "HH:MM", "cinema": str, "url": str}. None for non-film events.
     showings: list[dict] | None = None
+    # Exhibitions: weekly opening hours of the venue ({"mo": "10–18"|None, ...}).
+    # Lets the feed hide closed days and show the day's hours. None when unknown.
+    opening_hours: dict | None = None
 
     def dedupe_key(self) -> str:
         """Identify duplicate events, also across different sources.
@@ -109,6 +112,7 @@ class Event:
             "lng": self.lng,
             "bezirk": self.bezirk,
             "showings": self.showings,
+            "opening_hours": self.opening_hours,
         }
 
 

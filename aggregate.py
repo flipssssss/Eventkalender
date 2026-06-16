@@ -47,6 +47,7 @@ from scrapers.timetoshine import TimeToShineScraper
 from scrapers.mec import MecScraper
 from scrapers.koenig import KoenigScraper
 from scrapers.kino import BerlinKinoScraper, group_screenings
+from scrapers import openinghours
 
 ROOT = pathlib.Path(__file__).parent
 OUTPUT = ROOT / "docs" / "data" / "events.json"
@@ -230,6 +231,35 @@ def write_output(events: list[Event], report: list[dict]) -> None:
     print(f"\n→ {len(events)} Veranstaltungen geschrieben nach {OUTPUT}")
 
 
+def attach_opening_hours(events: list[Event]) -> None:
+    """Give every exhibition its venue's weekly opening hours (curated cache).
+
+    Looked up once per venue; venues we don't know yet are written to a debug
+    file so they can be added to scrapers/openinghours.py later.
+    """
+    n = 0
+    for event in events:
+        if "Ausstellung" not in (event.tags or []):
+            continue
+        hours = openinghours.lookup(event.location)
+        if hours:
+            event.opening_hours = hours
+            n += 1
+    print(f"  ◷ {n} Ausstellungen mit Öffnungszeiten "
+          f"({len(openinghours.unknown)} Häuser ohne)")
+    if openinghours.unknown:
+        try:
+            path = ROOT / "docs" / "data" / "_debug" / "ausstellungshaeuser-todo.txt"
+            path.parent.mkdir(parents=True, exist_ok=True)
+            path.write_text(
+                "Häuser ohne kuratierte Öffnungszeiten (in scrapers/"
+                "openinghours.py ergänzen):\n\n" +
+                "\n".join(sorted(openinghours.unknown)) + "\n",
+                encoding="utf-8")
+        except OSError:
+            pass
+
+
 def locate(events: list[Event]) -> None:
     """Add address, coordinates and Berlin borough to every event."""
     located = 0
@@ -302,6 +332,7 @@ def main() -> int:
     raw = carry_over_failed(raw, report)
     raw = group_screenings(raw)
     events = filter_and_sort(raw)
+    attach_opening_hours(events)
     locate(events)
     write_output(events, report)
     return 0

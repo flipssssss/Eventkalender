@@ -593,6 +593,25 @@ function isExhibition(ev) {
   return (ev.tags || []).includes("Ausstellung");
 }
 
+// JS getDay() (0=Sonntag) -> Schlüssel in event.opening_hours.
+const WEEKDAY_KEYS = ["so", "mo", "di", "mi", "do", "fr", "sa"];
+
+// Öffnungszeit eines Hauses an einem Tag: String ("10–18"), null (geschlossen)
+// oder undefined (keine Öffnungszeiten bekannt).
+function hoursForDay(ev, date) {
+  const oh = ev.opening_hours;
+  if (!oh || !date) return undefined;
+  return oh[WEEKDAY_KEYS[date.getDay()]];
+}
+
+// Lesbare Wochenübersicht der Öffnungszeiten (für die Detailansicht).
+function formatOpeningHours(oh) {
+  const order = [["mo", "Mo"], ["di", "Di"], ["mi", "Mi"], ["do", "Do"],
+    ["fr", "Fr"], ["sa", "Sa"], ["so", "So"]];
+  return order.map(([k, lbl]) => (oh[k] ? `${lbl} ${oh[k]}` : `${lbl} zu`))
+    .join(" · ");
+}
+
 function render() {
   const visible = state.events.filter((e) => matches(e));
 
@@ -610,11 +629,14 @@ function render() {
     // Ausstellungen laufen über einen Zeitraum -> an jedem Tag ihres Laufs
     // (von start bis end, begrenzt auf [heute, Horizont]) einblenden.
     if (isExhibition(ev)) {
+      const oh = ev.opening_hours;
       let cur = dayStart(new Date(ev.start));
       if (cur < today) cur = new Date(today);
       let last = ev.end ? dayStart(new Date(ev.end)) : new Date(horizon);
       if (last > horizon) last = new Date(horizon);
       for (; cur <= last; cur.setDate(cur.getDate() + 1)) {
+        // Geschlossene Wochentage auslassen (nur wenn Öffnungszeiten bekannt).
+        if (oh && !oh[WEEKDAY_KEYS[cur.getDay()]]) continue;
         ensureDay(dayKey(cur), cur).events.push(ev);
       }
       continue;
@@ -672,20 +694,20 @@ const COLLAPSE_PREVIEW = 3;
 // Append a category's cards into `container`. For the flood categories
 // (Kino/Ausstellung) only the first few show; the rest hide behind a
 // "+ N weitere …" toggle (built lazily on first open). Used in every sort mode.
-function appendCategoryCards(container, cat, list) {
+function appendCategoryCards(container, cat, list, day) {
   const grid = document.createElement("div");
   grid.className = "cards";
   container.appendChild(grid);
 
   if (!shouldCollapse(cat)) {
-    for (const ev of list) grid.appendChild(renderCard(ev));
+    for (const ev of list) grid.appendChild(renderCard(ev, day));
     return;
   }
 
   const meta = COLLAPSE_CATS[cat];
   const preview = list.slice(0, COLLAPSE_PREVIEW);
   const rest = list.slice(COLLAPSE_PREVIEW);
-  for (const ev of preview) grid.appendChild(renderCard(ev));
+  for (const ev of preview) grid.appendChild(renderCard(ev, day));
   if (!rest.length) return;
 
   const det = document.createElement("details");
@@ -704,14 +726,14 @@ function appendCategoryCards(container, cat, list) {
   det.addEventListener("toggle", () => {
     if (det.open && !built) {
       built = true;
-      for (const ev of rest) inner.appendChild(renderCard(ev));
+      for (const ev of rest) inner.appendChild(renderCard(ev, day));
     }
   });
   container.appendChild(det);
 }
 
 // Time mode: a labelled box (Kino/Ausstellungen) at the end of the day.
-function renderCollapsedCategory(cat, list) {
+function renderCollapsedCategory(cat, list, day) {
   const meta = COLLAPSE_CATS[cat];
   const section = document.createElement("section");
   section.className = "cat-section";
@@ -727,7 +749,7 @@ function renderCollapsedCategory(cat, list) {
   head.append(title, count);
   section.appendChild(head);
 
-  appendCategoryCards(section, cat, list);
+  appendCategoryCards(section, cat, list, day);
   return section;
 }
 
@@ -745,9 +767,9 @@ function renderList(sortedKeys, groups) {
     heading.textContent = DAY_FMT.format(date);
     group.appendChild(heading);
 
-    if (state.sortMode === "category") renderDayByCategory(events, group);
-    else if (state.sortMode === "genre") renderDayByGenre(events, group);
-    else renderDayByTime(events, group);
+    if (state.sortMode === "category") renderDayByCategory(events, group, date);
+    else if (state.sortMode === "genre") renderDayByGenre(events, group, date);
+    else renderDayByTime(events, group, date);
 
     frag.appendChild(group);
   }
@@ -759,7 +781,7 @@ function renderList(sortedKeys, groups) {
 }
 
 // Sort "Uhrzeit": cards in time order; Kino/Ausstellungen bundled per day.
-function renderDayByTime(events, group) {
+function renderDayByTime(events, group, day) {
   // Split off the collapsible categories; everything else stays a card.
   const normal = [];
   const collapsed = new Map();
@@ -775,38 +797,43 @@ function renderDayByTime(events, group) {
 
   const cards = document.createElement("div");
   cards.className = "cards";
-  for (const ev of normal) cards.appendChild(renderCard(ev));
+  for (const ev of normal) cards.appendChild(renderCard(ev, day));
   group.appendChild(cards);
 
   // Collapsible blocks (Kino, Ausstellungen) go at the end of the day.
   for (const cat of Object.keys(COLLAPSE_CATS)) {
     const list = collapsed.get(cat);
-    if (list && list.length) group.appendChild(renderCollapsedCategory(cat, list));
+    if (list && list.length) group.appendChild(renderCollapsedCategory(cat, list, day));
   }
 }
 
+// Ausstellungen behalten die Reihenfolge der Quelle; alles andere nach Uhrzeit.
+function orderForCat(cat, list) {
+  return cat === "Ausstellung" ? list.slice() : list.slice().sort(byStart);
+}
+
 // Sort "Kategorie": one open (collapsible) box per category, cards by time.
-function renderDayByCategory(events, group) {
+function renderDayByCategory(events, group, day) {
   const byCat = groupBy(events, (ev) => (ev.tags || [])[0] || "Sonstiges");
   for (const cat of orderedKeys(byCat.keys(), SORT_CATEGORY_ORDER)) {
-    const list = byCat.get(cat).sort(byStart);
+    const list = orderForCat(cat, byCat.get(cat));
     const box = buildSortBox(cat, list.length);
-    appendCategoryCards(box, cat, list);
+    appendCategoryCards(box, cat, list, day);
     group.appendChild(box);
   }
 }
 
 // Sort "Genre": one open box per genre, inside it a sub-box per category.
-function renderDayByGenre(events, group) {
+function renderDayByGenre(events, group, day) {
   const byGenre = groupBy(events, (ev) => ev.genre || "Ohne Genre");
   for (const genre of orderedKeys(byGenre.keys(), GENRE_ORDER)) {
     const gEvents = byGenre.get(genre);
     const box = buildSortBox(genre, gEvents.length, genreClass(genre));
     const byCat = groupBy(gEvents, (ev) => (ev.tags || [])[0] || "Sonstiges");
     for (const cat of orderedKeys(byCat.keys(), SORT_CATEGORY_ORDER)) {
-      const list = byCat.get(cat).sort(byStart);
+      const list = orderForCat(cat, byCat.get(cat));
       const sub = buildSortBox(cat, list.length, "sort-subbox");
-      appendCategoryCards(sub, cat, list);
+      appendCategoryCards(sub, cat, list, day);
       box.appendChild(sub);
     }
     group.appendChild(box);
@@ -855,7 +882,7 @@ function byStart(a, b) {
   return new Date(a.start) - new Date(b.start);
 }
 
-function renderCard(ev) {
+function renderCard(ev, day) {
   const card = document.createElement("div");
   card.className = "card" + (ev.user_submitted ? " card--mine" : "");
   card.tabIndex = 0;
@@ -895,7 +922,9 @@ function renderCard(ev) {
 
   const time = document.createElement("div");
   time.className = "card-time";
-  time.textContent = formatTime(ev);
+  // Ausstellungen zeigen die Öffnungszeit des jeweiligen Tages als Uhrzeit.
+  const oh = hoursForDay(ev, day);
+  time.textContent = oh ? oh + " Uhr" : formatTime(ev);
   body.appendChild(time);
 
   const title = document.createElement("h3");
@@ -990,6 +1019,14 @@ function showModal(ev) {
   title.className = "modal-title";
   title.textContent = ev.title || "Ohne Titel";
   body.appendChild(title);
+
+  // Exhibitions: show the venue's weekly opening hours.
+  if (ev.opening_hours) {
+    const hours = document.createElement("div");
+    hours.className = "modal-hours";
+    hours.textContent = "Öffnungszeiten: " + formatOpeningHours(ev.opening_hours);
+    body.appendChild(hours);
+  }
 
   // Cinema events list the screenings first, then the (always-open) map of all
   // involved cinemas; other events just get the location map.

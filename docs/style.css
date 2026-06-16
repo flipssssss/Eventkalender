@@ -741,6 +741,12 @@ body {
   line-height: 1.25;
 }
 
+.modal-hours {
+  margin-top: 8px;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
 .modal-location {
   color: var(--muted);
 }

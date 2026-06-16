@@ -1,38 +1,14 @@
 iCal: kein iCal-Feed gefunden
-REST: status=404 type=application/json; charset=UTF-8
-
-Selektoren: {'.mec-event-article': 12, '[class*=mec-event]': 73, '.mec-event-title': 12, '[class*=mec-date]': 0, '[class*=mec-start]': 0}
---- MEC-BEISPIEL ---
-<article class="mec-past-event mec-event-article mec-clear mec-divider-toggle mec-toggle-202606-mec1" itemscope="">
- <div class="col-md-2 col-sm-2">
-  <div class="mec-event-date">
-   <div class="event-d mec-color">
-    16
-   </div>
-   <div class="event-f">
-    June
-   </div>
-   <div class="event-da">
-    Tuesday
-   </div>
-  </div>
- </div>
- <div class="col-md-6 col-sm-6">
-  <h4 class="mec-event-title">
-   <a class="mec-color-hover" data-event-id="2364" href="https://boiler-berlin.de/en/mec-events/themenabend/" rel="noopener" target="_self">
-    Theme Night
-   </a>
-  </h4>
-  <div class="mec-event-detail">
-   <div class="mec-event-loc-place">
-   </div>
-  </div>
-  <ul class="mec-event-sharing">
-  </ul>
- </div>
- <div class="col-md-4 col-sm-4 mec-btn-wrapper">
-  <a class="mec-booking-button" data-event-id="2364" href="https://boiler-berlin.de/en/mec-events/themenabend/" rel="noopener" target="_self">
-   View Detail
-  </a>
- </div>
-</article>
+MEC-HTML -> 12 Events
+  2026-06-16 00:00:00 | Theme Night
+  2026-06-17 00:00:00 | youngStars
+  2026-06-18 00:00:00 | ‘Green’ Thursday
+  2026-06-19 00:00:00 | Infusions@Friday
+  2026-06-20 00:00:00 | Infusions@Saturday
+  2026-06-21 00:00:00 | Infusions@Sunday
+  2026-06-22 00:00:00 | Infusions@Monday
+  2026-06-23 00:00:00 | Theme Night
+  2026-06-24 00:00:00 | Infusions@Wednesday
+  2026-06-25 00:00:00 | Bears Sweat
+  2026-06-26 00:00:00 | Infusions@Friday
+  2026-06-27 00:00:00 | Infusions@Saturday

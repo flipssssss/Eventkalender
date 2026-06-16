@@ -63,6 +63,12 @@
   "lat": 52.5264478,
   "lng": 13.4130213
  },
+ "Alexanderstraße 28, 10178 Berlin": {
+  "address": "Kleine Alexanderstraße 28, 10178 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5264045,
+  "lng": 13.4129027
+ },
  "Alfredstraße 24, 10365 Berlin": {
   "address": "Alfredstraße 24, 10365 Lichtenberg",
   "bezirk": "Lichtenberg",
@@ -397,6 +403,12 @@
   "lng": 13.4615491
  },
  "Görlitzer Park, Pamukkale 10999 Berlin": null,
+ "Gürtelstraße 35, 10247 Berlin": {
+  "address": "Gürtelstraße 35, 10247 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5101544,
+  "lng": 13.4748641
+ },
  "HAU Hebbel am Ufer, Berlin": {
   "address": "Stresemannstraße 29, 10963 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -430,6 +442,7 @@
   "lat": 52.5187884,
   "lng": 13.3648356
  },
+ "Herman Schulz Kollektiv Café & Bar, Finowstraße 33, 10247 Berlin": null,
  "Herman Schulz Kollektiv Finowstraße 33, 10247 Berlin": null,
  "Hermannstraße 99-105, 12051 Berlin": {
   "address": "Hermannstraße, 12051 Neukölln",
@@ -566,6 +579,7 @@
   "lng": 13.4580211
  },
  "Kadterschmiede Rigaer Str. 94 10245, 10245 Berlin": null,
+ "Karl Liebknecht Haus, Kleine Alexanderstraße 28, 10178 Berlin": null,
  "Karl-Liebknecht-Haus Kleine Alexanderstr. 28 10178 Berlin Deutschland": null,
  "Karl-Liebknecht-Haus Kleine Alexanderstr. 28 10178, 10178 Berlin": null,
  "Karl-Marx-Allee 45, 10178, Berlin": {
@@ -596,6 +610,12 @@
   "lng": 13.3380141
  },
  "Kiezhaus Agnes Reinhold Afrikanische Straße 74 13351, 13351 Berlin": null,
+ "Kiezhaus Agnes Reinhold, Afrikanische Straße 74, 13351 Berlin": {
+  "address": "Afrikanische Straße 74, 13351 Wedding",
+  "bezirk": "Mitte",
+  "lat": 52.5517747,
+  "lng": 13.3380141
+ },
  "Kiezladen Rote Ella Buttmannstr. 1A, Berlin": null,
  "Kiezladen Rote Ella, Buttmannstr. 1A, Berlin-Wedding Berlin Deutschland": null,
  "Kiezraum auf dem Dragoner-Areal Berlin": null,
@@ -628,6 +648,12 @@
  },
  "Kreuzdorf Mariannenplatz 1a 10997 Berlin Deutschland": null,
  "Kreuzdorf Mariannenplatz 1a, 10997 Berlin": null,
+ "KuB, Oranienstraße 159 10969 Berlin": {
+  "address": "Oranienstraße 159, 10969 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5027717,
+  "lng": 13.4134328
+ },
  "KuBiZ Bernkasteler Str. 78 13088 Berlin Deutschland": {
   "address": "Bernkasteler Straße 78, 13088 Weißensee",
   "bezirk": "Pankow",
@@ -805,6 +831,7 @@
   "lng": 13.3876998
  },
  "Mehringhof Gneisenaustr. 2a 10961 Berlin Deutschland": null,
+ "Mehringhof Gneisenaustr. 2a Versammlungsraum (1. Etage) 10961 Berlin Deutschland": null,
  "Mehringhof Gneisenaustr. 2a, 10961 Berlin": {
   "address": "Gneisenaustraße 2a, 10961 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -1061,6 +1088,7 @@
   "lat": 52.5280997,
   "lng": 13.3928139
  },
+ "TrIQ e.V., 5. Etage im Hinterhaus mit Aufzug und 3 Stufen, Gürtelstraße 35, 10247 Berlin": null,
  "Traumreparatur Lausitzer Straße 13 10999 Berlin Deutschland": null,
  "Traumreparatur Lausitzer Straße 13 10999, 10999 Berlin": null,
  "Tristeza Pannierstr. 5 12047 Berlin Deutschland": {
@@ -1126,6 +1154,12 @@
   "bezirk": "Mitte",
   "lat": 52.548949,
   "lng": 13.3481653
+ },
+ "Weserstr. 206, 12047 Berlin, Germany": {
+  "address": "Weserstraße 206, 12047 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4880026,
+  "lng": 13.4302972
  },
  "Weserstraße 59, 12045 Berlin": {
   "address": "Weserstraße 59, 12045 Neukölln",

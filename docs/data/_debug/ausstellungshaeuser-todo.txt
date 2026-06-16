@@ -1,0 +1,10 @@
+Häuser ohne kuratierte Öffnungszeiten (in scrapers/openinghours.py ergänzen):
+
+Fotografiska Berlin
+Galerie BQ
+Hönower Straße 30 10318 Berlin Deutschland
+Kiezladen Rote Ella, Buttmannstr. 1A, Berlin-Wedding Berlin Deutschland
+L5 Späti Lenaustraße 5 12047 Berlin Deutschland
+Regenbogenfabrik Lausitzer Str. 22 10999 Berlin Deutschland
+Schloss Bellevue
+f³ – Freiraum für Fotografie

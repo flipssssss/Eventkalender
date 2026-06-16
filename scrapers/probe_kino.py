@@ -1,5 +1,5 @@
-"""Confirm the berlin.de cinema-detail page layout (kinodetail.php) and find
-the kinodetail IDs of the 5 wanted cinemas from the cinema directory.
+"""Get all cinema IDs (from the cinema switcher on a kinodetail page) and
+confirm the film-title <-> showtime-table association.
 """
 
 from __future__ import annotations
@@ -23,65 +23,55 @@ BROWSER = {
     "Accept-Language": "de-DE,de;q=0.9,en;q=0.8",
 }
 WANTED = ["sputnik", "lichtblick", "zukunft", "ladenkino", "wolf"]
-DIRS = [
-    "https://www.berlin.de/kino/kinos/",
-    "https://www.berlin.de/kino/_bin/kinoauswahl.php",
-    "https://www.berlin.de/kino/adressen/",
-    "https://www.berlin.de/kino/_bin/index.php?kino=1",
-]
 
 
 class ProbeKinoScraper(BaseScraper):
     name = "Probe Kino"
 
-    def _get(self, url):
-        return requests.get(url, headers=BROWSER, timeout=25).text
-
     def fetch_events(self) -> Iterable[Event]:
-        out = [self._cinema_ids(), self._cinema_layout()]
+        url = "https://www.berlin.de/kino/_bin/kinodetail.php/35211"
         try:
-            DEBUG_DIR.mkdir(parents=True, exist_ok=True)
-            (DEBUG_DIR / "probe-kino.txt").write_text("\n\n".join(out), encoding="utf-8")
-        except OSError:
-            pass
+            html = requests.get(url, headers=BROWSER, timeout=25).text
+        except requests.RequestException as exc:
+            self._dump(f"FEHLER {exc}")
+            return []
+        soup = BeautifulSoup(html, "html.parser")
+
+        # All cinema names + ids from <option> and kinodetail links.
+        cinemas = {}
+        for opt in soup.find_all("option"):
+            val = (opt.get("value") or "").strip()
+            name = opt.get_text(" ", strip=True)
+            if val and re.fullmatch(r"\d+", val) and name:
+                cinemas[name] = val
+        for a in soup.find_all("a", href=True):
+            m = re.search(r"kinodetail\.php/(\d+)", a["href"])
+            if m:
+                cinemas[a.get_text(" ", strip=True)] = m.group(1)
+        wanted = {n: i for n, i in cinemas.items()
+                  if any(w in n.lower() for w in WANTED)}
+
+        # Film title <-> table association: for each compact table, the nearest
+        # preceding filmdetail link.
+        assoc = []
+        for tbl in soup.select("table.table--compact")[:3]:
+            title = "?"
+            prev = tbl.find_previous(lambda t: t.name == "a" and
+                                     "filmdetail" in (t.get("href") or ""))
+            if prev:
+                title = prev.get_text(" ", strip=True)
+            row = tbl.select_one("tbody tr")
+            assoc.append(f"{title} :: {row.get_text(' | ', strip=True) if row else '-'}")
+
+        self._dump(
+            f"Kinos gesamt: {len(cinemas)}\nWunschkinos: {wanted}\n\n"
+            f"<option>-Beispiele: {list(cinemas.items())[:6]}\n\n"
+            f"Film<->Tabelle:\n  " + "\n  ".join(assoc))
         return []
 
-    def _cinema_ids(self) -> str:
-        found = {}
-        for url in DIRS:
-            try:
-                soup = BeautifulSoup(self._get(url), "html.parser")
-            except requests.RequestException:
-                continue
-            for a in soup.find_all("a", href=True):
-                m = re.search(r"kinodetail\.php/(\d+)", a["href"])
-                if not m:
-                    continue
-                name = a.get_text(" ", strip=True)
-                low = name.lower()
-                for w in WANTED:
-                    if w in low:
-                        found[w] = f"{name} -> {m.group(1)}"
-            if len(found) >= 4:
-                return f"### Kino-IDs (von {url})\n  " + "\n  ".join(found.values())
-        return ("### Kino-IDs\n  gefunden: " + str(found) +
-                "\n  (Verzeichnis-Seiten brachten zu wenig — IDs ggf. manuell)")
-
-    def _cinema_layout(self) -> str:
-        url = "https://www.berlin.de/kino/_bin/kinodetail.php/35211"  # Ladenkino
+    def _dump(self, text):
         try:
-            soup = BeautifulSoup(self._get(url), "html.parser")
-        except requests.RequestException as exc:
-            return f"### Ladenkino-Layout\nFEHLER {exc}"
-        for t in soup(["script", "style"]):
-            t.decompose()
-        # First film block: a heading/link to filmdetail + a Tag|Zeit table.
-        tables = soup.select("table.table--compact")
-        sample = ""
-        if tables:
-            block = tables[0].find_parent(["div", "section", "li", "article"]) or tables[0]
-            sample = block.prettify()[:2200]
-        film_links = [a.get_text(" ", strip=True) for a in soup.find_all("a", href=True)
-                      if "filmdetail" in a["href"]][:8]
-        return (f"### Ladenkino-Layout ({url})\nFilm-Tabellen: {len(tables)} | "
-                f"Film-Links (erste): {film_links}\n--- ERSTER BLOCK ---\n{sample}")
+            DEBUG_DIR.mkdir(parents=True, exist_ok=True)
+            (DEBUG_DIR / "probe-kino.txt").write_text(text, encoding="utf-8")
+        except OSError:
+            pass

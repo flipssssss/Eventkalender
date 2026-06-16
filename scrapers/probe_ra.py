@@ -37,47 +37,76 @@ class ProbeRaScraper(BaseScraper):
     name = "Probe RA"
 
     def fetch_events(self) -> Iterable[Event]:
-        out = [self._html(), self._graphql()]
+        out = self._dump_following()
         try:
             DEBUG_DIR.mkdir(parents=True, exist_ok=True)
-            (DEBUG_DIR / "probe-ra.txt").write_text("\n\n".join(out), encoding="utf-8")
+            (DEBUG_DIR / "probe-ra.txt").write_text(out, encoding="utf-8")
         except OSError:
             pass
         return []
 
-    def _html(self) -> str:
-        res = []
-        for path in (f"/profile/{SLUG}", f"/profile/{SLUG}/following",
-                     f"/u/{SLUG}"):
-            url = "https://ra.co" + path
-            try:
-                r = requests.get(url, headers=BROWSER, timeout=25)
-            except requests.RequestException as exc:
-                res.append(f"{path}: FEHLER {exc}")
-                continue
-            note = f"{path}: status={r.status_code} len={len(r.text)}"
-            if r.status_code == 200:
-                m = re.search(r'id="__NEXT_DATA__"[^>]*>(.*?)</script>', r.text, re.S)
-                if m:
-                    try:
-                        data = json.loads(m.group(1))
-                        flat = json.dumps(data)
-                        note += (f"\n  __NEXT_DATA__: ja | 'following' enthalten: "
-                                 f"{'ollowing' in flat}\n  promoter/club/dj-Slugs: "
-                                 + str(sorted(set(re.findall(
-                                     r'/(?:promoters|clubs|dj|labels)/[\w\-]+', flat)))[:15]))
-                    except ValueError:
-                        note += "\n  __NEXT_DATA__: nicht parsebar"
-            res.append(note)
-        return "### HTML\n" + "\n".join(res)
-
-    def _graphql(self) -> str:
-        q = ('query($slug:String!){ user(slug:$slug){ id username '
-             'followingCount } }')
+    def _dump_following(self) -> str:
+        url = f"https://ra.co/profile/{SLUG}"
         try:
-            r = requests.post("https://ra.co/graphql",
-                              data=json.dumps({"query": q, "variables": {"slug": SLUG}}),
-                              headers=GQL_HEADERS, timeout=25)
-            return f"### GraphQL user(slug)\nstatus={r.status_code}\n{r.text[:400]}"
+            html = requests.get(url, headers=BROWSER, timeout=25).text
         except requests.RequestException as exc:
-            return f"### GraphQL\nFEHLER {exc}"
+            return f"FEHLER {exc}"
+        m = re.search(r'id="__NEXT_DATA__"[^>]*>(.*?)</script>', html, re.S)
+        if not m:
+            return "kein __NEXT_DATA__"
+        try:
+            data = json.loads(m.group(1))
+        except ValueError:
+            return "NEXT_DATA nicht parsebar"
+
+        # RA uses Apollo; followed entities are objects like "Artist:123",
+        # "Promoter:456", "Club:789", "Label:...". Collect those + anything with
+        # a "following" connection.
+        apollo = _find_key(data, "apolloState") or {}
+        if not isinstance(apollo, dict):
+            apollo = {}
+        types = {}
+        entities = []
+        for key, val in apollo.items():
+            t = key.split(":")[0]
+            types[t] = types.get(t, 0) + 1
+            if isinstance(val, dict) and t in (
+                    "Artist", "Promoter", "Club", "Label", "Venue"):
+                name = val.get("name") or val.get("title") or ""
+                slug = val.get("contentUrl") or val.get("slug") or ""
+                if name:
+                    entities.append(f"{t}: {name}  [{slug}]")
+
+        foll = [k for k in _flat_keys(data) if "follow" in k.lower()][:20]
+        return (f"profile {url} | apollo-objekte: {sum(types.values())}\n"
+                f"Typen: {types}\n"
+                f"following-Felder im NEXT_DATA: {foll}\n\n"
+                f"--- Entitäten (max 60) ---\n" + "\n".join(sorted(set(entities))[:60]))
+
+
+def _find_key(obj, key):
+    if isinstance(obj, dict):
+        if key in obj:
+            return obj[key]
+        for v in obj.values():
+            r = _find_key(v, key)
+            if r is not None:
+                return r
+    elif isinstance(obj, list):
+        for v in obj:
+            r = _find_key(v, key)
+            if r is not None:
+                return r
+    return None
+
+
+def _flat_keys(obj, prefix=""):
+    out = []
+    if isinstance(obj, dict):
+        for k, v in obj.items():
+            out.append(k)
+            out += _flat_keys(v, k)
+    elif isinstance(obj, list):
+        for v in obj[:3]:
+            out += _flat_keys(v, prefix)
+    return out

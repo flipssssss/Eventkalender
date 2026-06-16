@@ -138,7 +138,11 @@ class MecScraper(BaseScraper):
         except ValueError:
             return None
 
+        # Detail URL: the title link, or any event link in the article.
         href = link.get("href") if link.name == "a" else None
+        if not href:
+            a = art.find("a", href=re.compile(r"mec-events|/event"))
+            href = a["href"] if a else None
         place = art.select_one(".mec-event-loc-place")
         location = (place.get_text(" ", strip=True) if place else None) or self.name
         return Event(

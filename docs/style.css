@@ -351,41 +351,39 @@ body {
   gap: 16px;
 }
 
-/* Eingeklappte Kategorie (Kino / Ausstellungen) -- ein Block pro Tag. */
-.cat-collapse {
+/* Kino / Ausstellungen: erste paar Karten direkt, der Rest hinter "+ N weitere". */
+.cat-section {
   margin-top: 16px;
-  border: 1px solid var(--border);
+}
+
+.cat-section > .cards + .cat-collapse {
+  margin-top: 16px;
+}
+
+.cat-collapse {
   border-radius: var(--radius);
-  background: var(--surface-2);
-  overflow: hidden;
 }
 
 .cat-collapse-summary {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  gap: 10px;
-  padding: 13px 16px;
+  gap: 8px;
+  padding: 9px 16px;
   cursor: pointer;
   list-style: none;
   font-weight: 600;
   color: var(--accent);
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 999px;
 }
 
 .cat-collapse-summary::-webkit-details-marker { display: none; }
 
-.cat-collapse-title { font-size: 1.02rem; }
-
-.cat-collapse-count {
-  color: var(--muted);
-  font-weight: 500;
-  font-size: 0.9rem;
-}
-
 .cat-collapse-summary::after {
   content: "";
-  margin-left: auto;
-  width: 9px;
-  height: 9px;
+  width: 8px;
+  height: 8px;
   border-right: 2px solid var(--muted);
   border-bottom: 2px solid var(--muted);
   transform: rotate(45deg);
@@ -394,7 +392,7 @@ body {
 
 .cat-collapse[open] > .cat-collapse-summary::after { transform: rotate(-135deg); }
 
-.cat-collapse-cards { padding: 0 14px 16px; }
+.cat-collapse-cards { margin-top: 16px; }
 
 .card {
   display: flex;

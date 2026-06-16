@@ -599,8 +599,8 @@ function render() {
 // bundled into a single collapsible block per day, unless the user is actively
 // looking for them (search, favourites-only, or the category chip is selected).
 const COLLAPSE_CATS = {
-  Kino: { label: "🎬 Kino", one: "Film", many: "Filme" },
-  Ausstellung: { label: "🖼 Ausstellungen", one: "Ausstellung", many: "Ausstellungen" },
+  Kino: { icon: "🎬", one: "Film", many: "Filme" },
+  Ausstellung: { icon: "🖼", one: "Ausstellung", many: "Ausstellungen" },
 };
 
 function shouldCollapse(cat) {
@@ -610,35 +610,47 @@ function shouldCollapse(cat) {
   return true;
 }
 
+// How many cards of a collapsible category are shown straight away; the rest
+// hide behind a "+ N weitere …" toggle.
+const COLLAPSE_PREVIEW = 3;
+
 function renderCollapsedCategory(cat, list) {
   const meta = COLLAPSE_CATS[cat];
+  const section = document.createElement("section");
+  section.className = "cat-section";
+
+  const preview = list.slice(0, COLLAPSE_PREVIEW);
+  const rest = list.slice(COLLAPSE_PREVIEW);
+
+  const grid = document.createElement("div");
+  grid.className = "cards";
+  for (const ev of preview) grid.appendChild(renderCard(ev));
+  section.appendChild(grid);
+
+  if (!rest.length) return section;
+
   const det = document.createElement("details");
   det.className = "cat-collapse";
-
   const sum = document.createElement("summary");
   sum.className = "cat-collapse-summary";
-  const title = document.createElement("span");
-  title.className = "cat-collapse-title";
-  title.textContent = meta.label;
-  const count = document.createElement("span");
-  count.className = "cat-collapse-count";
-  count.textContent = list.length + " " + (list.length === 1 ? meta.one : meta.many);
-  sum.append(title, count);
+  sum.textContent = `${meta.icon} + ${rest.length} weitere ` +
+    (rest.length === 1 ? meta.one : meta.many);
   det.appendChild(sum);
 
   const inner = document.createElement("div");
   inner.className = "cards cat-collapse-cards";
   det.appendChild(inner);
 
-  // Build the (potentially many) cards only when the block is first opened.
+  // Build the remaining cards only when the toggle is first opened.
   let built = false;
   det.addEventListener("toggle", () => {
     if (det.open && !built) {
       built = true;
-      for (const ev of list) inner.appendChild(renderCard(ev));
+      for (const ev of rest) inner.appendChild(renderCard(ev));
     }
   });
-  return det;
+  section.appendChild(det);
+  return section;
 }
 
 function renderList(sortedKeys, groups) {

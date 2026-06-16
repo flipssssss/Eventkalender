@@ -20,7 +20,6 @@ from bs4 import BeautifulSoup
 from .base import BaseScraper, Event, parse_datetime
 
 BASE = "https://boiler-berlin.de"
-REST = BASE + "/wp-json/tribe/events/v1/events?per_page=50&start_date=now"
 DEBUG_DIR = pathlib.Path(__file__).resolve().parents[1] / "docs" / "data" / "_debug"
 
 BROWSER = {
@@ -50,9 +49,52 @@ class BoilerScraper(BaseScraper):
                        "\n".join(f"  {e.start} | {e.title}" for e in events[:20]))
             return events
 
-        _, rest_note = self._from_rest(session)
-        html_note = self._diagnose_html(session)
-        self._dump(f"iCal: {ical_note}\nREST: {rest_note}\n\n{html_note}")
+        # Modern Events Calendar list markup.
+        events = self._from_mec(session)
+        self._dump(f"iCal: {ical_note}\nMEC-HTML -> {len(events)} Events\n" +
+                   "\n".join(f"  {e.start} | {e.title}" for e in events[:25]))
+        return events
+
+    def _from_mec(self, session) -> list[Event]:
+        try:
+            html = session.get(BASE + "/en/", timeout=25).text
+        except requests.RequestException:
+            return []
+        soup = BeautifulSoup(html, "html.parser")
+        events: list[Event] = []
+        seen: set[str] = set()
+        for art in soup.select(".mec-event-article"):
+            cls = " ".join(art.get("class", []))
+            ym = re.search(r"mec-toggle-(\d{4})(\d{2})", cls)
+            day_el = art.select_one(".event-d")
+            link = art.select_one(".mec-event-title a") or art.select_one(".mec-event-title")
+            if not (ym and day_el and link):
+                continue
+            try:
+                year, month = int(ym.group(1)), int(ym.group(2))
+                day = int(re.sub(r"\D", "", day_el.get_text()) or 0)
+                start = _dt.datetime(year, month, day, 0, 0)
+            except ValueError:
+                continue
+            title = re.sub(r"\s+", " ", link.get_text(" ")).strip()
+            if not title:
+                continue
+            key = f"{title.lower()}|{start.date()}"
+            if key in seen:
+                continue
+            seen.add(key)
+            href = link.get("href") if link.name == "a" else None
+            place = art.select_one(".mec-event-loc-place")
+            events.append(Event(
+                title=title[:140],
+                start=start,
+                source_url=href or (BASE + "/en/"),
+                source_name=self.name,
+                location=(place.get_text(" ", strip=True) if place else None) or "Boiler",
+                description=None,
+                time_known=False,
+                tags=["Party"],
+            ))
         return events
 
     def _from_ical(self, session) -> tuple[list[Event], str]:
@@ -83,56 +125,6 @@ class BoilerScraper(BaseScraper):
                 ))
             return events, f"{url} -> {len(events)}"
         return [], "kein iCal-Feed gefunden"
-
-    def _from_rest(self, session) -> tuple[list[Event], str]:
-        try:
-            r = session.get(REST, timeout=25)
-        except requests.RequestException as exc:
-            return [], f"FEHLER {exc}"
-        if r.status_code != 200 or "application/json" not in r.headers.get("content-type", ""):
-            return [], f"status={r.status_code} type={r.headers.get('content-type')}"
-        try:
-            data = r.json()
-        except ValueError:
-            return [], "kein JSON"
-        events = []
-        for e in data.get("events") or []:
-            start = parse_datetime(e.get("start_date"))
-            title = (e.get("title") or "").strip()
-            if not start or not title:
-                continue
-            venue = e.get("venue") or {}
-            addr = ", ".join(str(venue[k]).strip() for k in ("address", "zip", "city")
-                             if venue.get(k))
-            img = e.get("image") or {}
-            events.append(Event(
-                title=re.sub(r"\s+", " ", title)[:140],
-                start=start.replace(tzinfo=None),
-                end=(parse_datetime(e.get("end_date")) or start).replace(tzinfo=None),
-                source_url=e.get("url") or BASE,
-                source_name=self.name,
-                location=venue.get("venue"),
-                address=addr or None,
-                description=BeautifulSoup(e.get("description") or "", "html.parser")
-                .get_text(" ").strip()[:400] or None,
-                image_url=img.get("url") if isinstance(img, dict) else None,
-                tags=["Party"],
-            ))
-        return events, f"{len(events)} Events"
-
-    def _diagnose_html(self, session) -> str:
-        try:
-            html = session.get(BASE + "/en/", timeout=25).text
-        except requests.RequestException as exc:
-            return f"HTML FEHLER {exc}"
-        soup = BeautifulSoup(html, "html.parser")
-        counts = {sel: len(soup.select(sel)) for sel in (
-            ".mec-event-article", "[class*=mec-event]", ".mec-event-title",
-            "[class*=mec-date]", "[class*=mec-start]")}
-        node = (soup.select_one(".mec-event-article")
-                or soup.select_one("[class*=mec-event]"))
-        sample = node.prettify()[:1800] if node else "(kein mec-event gefunden)"
-        return f"Selektoren: {counts}\n--- MEC-BEISPIEL ---\n{sample}"
 
     def _dump(self, text: str) -> None:
         if not self.write_debug:

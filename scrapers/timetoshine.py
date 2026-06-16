@@ -15,7 +15,10 @@ from typing import Iterable
 from .base import BaseScraper, Event
 
 BASE = "https://www.timetoshinekink.com"
-URL = BASE + "/all-events?format=json"
+# /all-events turned out to be a page, not the events collection. Try the
+# common Squarespace events-collection slugs and use whichever has events.
+CANDIDATES = ["/all-events", "/events", "/shows", "/calendar",
+              "/upcoming-events", "/upcoming"]
 DEBUG_DIR = pathlib.Path(__file__).resolve().parents[1] / "docs" / "data" / "_debug"
 
 BROWSER = {
@@ -40,26 +43,27 @@ class TimeToShineScraper(BaseScraper):
         self.write_debug = write_debug
 
     def fetch_events(self) -> Iterable[Event]:
-        try:
-            data = json.loads(self.get(URL, headers=BROWSER).content)
-        except Exception as exc:  # noqa: BLE001
-            self._dump(f"FEHLER: {exc}")
-            return []
-
-        items = data.get("items") or data.get("upcoming") or []
-        events: list[Event] = []
-        for it in items:
-            ev = self._build(it)
-            if ev:
-                events.append(ev)
-        if not events:
-            keys = list(data.keys()) if isinstance(data, dict) else type(data)
-            sample = json.dumps(data, ensure_ascii=False)[:1500]
-            self._dump(f"items: {len(items)} | Events: 0\nTop-Keys: {keys}\n\n{sample}")
-        else:
-            self._dump(f"items: {len(items)} | Events: {len(events)}\n" +
-                       "\n".join(f"  {e.start} | {e.title}" for e in events[:20]))
-        return events
+        notes = []
+        for path in CANDIDATES:
+            url = BASE + path + "?format=json"
+            try:
+                r = self.get(url, headers=BROWSER)
+                data = json.loads(r.content)
+            except Exception as exc:  # noqa: BLE001
+                notes.append(f"{path}: FEHLER {str(exc)[:50]}")
+                continue
+            items = (data.get("items") or []) + (data.get("upcoming") or []) \
+                + (data.get("past") or [])
+            events = [ev for it in items if (ev := self._build(it))]
+            coll = (data.get("collection") or {})
+            notes.append(f"{path}: type={coll.get('typeName')} items={len(items)} "
+                         f"events={len(events)}")
+            if events:
+                self._dump(f"Quelle: {path}\n" + "\n".join(notes) + "\n\n" +
+                           "\n".join(f"  {e.start} | {e.title}" for e in events[:20]))
+                return events
+        self._dump("Keine Events gefunden:\n" + "\n".join(notes))
+        return []
 
     def _build(self, it: dict) -> Event | None:
         start = _ms(it.get("startDate"))

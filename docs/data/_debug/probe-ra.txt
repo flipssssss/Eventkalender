@@ -1,0 +1,10 @@
+### HTML
+/profile/flipss: status=200 len=199824
+  __NEXT_DATA__: ja | 'following' enthalten: True
+  promoter/club/dj-Slugs: []
+/profile/flipss/following: status=404 len=101551
+/u/flipss: status=404 len=101375
+
+### GraphQL user(slug)
+status=200
+{"errors":[{"message":"Unknown argument \"slug\" on field \"Query.user\".","extensions":{"code":"GRAPHQL_VALIDATION_FAILED"}},{"message":"Unknown argument \"slug\" on field \"Query.user\".","extensions":{"code":"GRAPHQL_VALIDATION_FAILED"}},{"message":"Cannot query field \"followingCount\" on type \"User\".","extensions":{"code":"GRAPHQL_VALIDATION_FAILED"}},{"message":"Cannot query field \"follow

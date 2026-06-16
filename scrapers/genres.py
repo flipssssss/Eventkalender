@@ -61,7 +61,7 @@ FORCE_GENRE = {
     "Time to Shine Kink": "Kink",
     "Lab.oratory": "Kink",
     "Zum schmutzigen Hobby": "Queer",
-    "Club Sauna Berlin": "Kink",
+    "Club Sauna Berlin": "Queer",
 }
 
 

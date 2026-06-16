@@ -61,11 +61,12 @@ _EVENT_FIELDS = ("id title date startTime endTime contentUrl flyerFront "
 QUERIES = {
     "promoter": "query($id:ID!){ promoter(id:$id){ name events(type:LATEST,"
                 f" limit:40){{ {_EVENT_FIELDS} }} }} }}",
-    "club": "query($id:ID!){ club(id:$id){ name events(type:LATEST,"
+    "club": "query($id:ID!){ venue(id:$id){ name events(type:LATEST,"
             f" limit:40){{ {_EVENT_FIELDS} }} }} }}",
     "artist": "query($id:ID!){ artist(id:$id){ name events(type:LATEST,"
               f" limit:40){{ {_EVENT_FIELDS} }} }} }}",
 }
+NODE_KEY = {"club": "venue"}  # GraphQL field name differs from our label
 
 
 def _genre(entity_id: str, text: str) -> str:
@@ -112,7 +113,8 @@ class ResidentAdvisorScraper(BaseScraper):
                     kept += 1
             report.append(f"{kind}/{ident} ({name}): {len(raw)} -> {kept} Berlin")
 
-        self._dump(f"Events gesamt: {len(events)}\n" + "\n".join(report))
+        self._dump(f"Events gesamt: {len(events)}\n" + "\n".join(report) +
+                   f"\nArtist-Auflösung: {getattr(self, '_artist_diag', '-')}")
         return events
 
     def _query(self, session, kind, ent_id):
@@ -125,13 +127,13 @@ class ResidentAdvisorScraper(BaseScraper):
             return "?", [], f"FEHLER {exc}"
         if data.get("errors"):
             return "?", [], str(data["errors"])[:120]
-        node = (data.get("data") or {}).get(kind) or {}
+        node = (data.get("data") or {}).get(NODE_KEY.get(kind, kind)) or {}
         return node.get("name", "?"), node.get("events") or [], None
 
     def _build(self, e: dict, entity_id: str) -> Event | None:
         venue = e.get("venue") or {}
         area = ((venue.get("area") or {}).get("name") or "").strip()
-        if area and area.lower() != "berlin":
+        if area and "berlin" not in area.lower():
             return None  # keep Berlin and TBA (empty), drop other cities
         start = parse_datetime(e.get("startTime") or e.get("date"))
         title = (e.get("title") or "").strip()
@@ -156,13 +158,20 @@ class ResidentAdvisorScraper(BaseScraper):
 
     def _resolve_artist(self, session, slug: str) -> str | None:
         try:
-            html = requests.get(f"https://ra.co/dj/{slug}", headers={
-                "User-Agent": HEADERS["User-Agent"]}, timeout=25).text
-        except requests.RequestException:
+            r = requests.get(f"https://ra.co/dj/{slug}", headers={
+                "User-Agent": HEADERS["User-Agent"],
+                "Accept": "text/html"}, timeout=25)
+            html = r.text
+        except requests.RequestException as exc:
+            self._artist_diag = f"FEHLER {exc}"
             return None
-        m = re.search(r'"Artist:(\d+)"', html) or re.search(
-            r'/dj/%s"[^}]*?"id":"(\d+)"' % re.escape(slug), html)
-        return m.group(1) if m else None
+        for pat in (r'"Artist:(\d+)"', r'\\"Artist:(\d+)\\"',
+                    r'"artist".{0,40}?"id":"(\d+)"', r'/dj/[^"]*"\s*,\s*"id":"(\d+)"'):
+            m = re.search(pat, html)
+            if m:
+                return m.group(1)
+        self._artist_diag = f"status={r.status_code} len={len(html)} keine ID"
+        return None
 
     def _dump(self, text: str) -> None:
         if not self.write_debug:

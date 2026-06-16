@@ -1138,6 +1138,23 @@ function showModal(ev, day) {
   shareBtn.addEventListener("click", () => shareEvent(ev));
   actions.appendChild(shareBtn);
 
+  // Eigene Events lassen sich (für alle) wieder löschen.
+  if (ev.user_submitted && ev._id && FIREBASE_DB_URL) {
+    const del = document.createElement("button");
+    del.className = "btn btn--danger";
+    del.innerHTML =
+      '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" ' +
+      'stroke="currentColor" stroke-width="2" stroke-linecap="round" ' +
+      'stroke-linejoin="round" aria-hidden="true">' +
+      '<polyline points="3 6 5 6 21 6"/>' +
+      '<path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"/>' +
+      '<path d="M10 11v6"/><path d="M14 11v6"/>' +
+      '<path d="M9 6V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2"/></svg>' +
+      '<span>Event löschen</span>';
+    del.addEventListener("click", () => deleteOwnEvent(ev));
+    actions.appendChild(del);
+  }
+
   if (ev.source_url) {
     const link = document.createElement("a");
     link.className = "btn btn--primary";
@@ -1552,6 +1569,27 @@ async function submitOwnEvent(e) {
   }
   els.mineSend.disabled = false;
   els.mineSend.textContent = "Event hinzufügen";
+}
+
+// Delete a user-submitted event for everyone (removes it from Firebase).
+async function deleteOwnEvent(ev) {
+  if (!FIREBASE_DB_URL || !ev._id) return;
+  if (!confirm("Dieses Event wirklich für alle löschen?")) return;
+  try {
+    const res = await fetch(
+      FIREBASE_DB_URL.replace(/\/$/, "") + "/events/" +
+      encodeURIComponent(ev._id) + ".json", { method: "DELETE" });
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    closeModal();
+    state.userEvents = state.userEvents.filter((e) => e._id !== ev._id);
+    mergeEvents();
+    buildGenreFilter();
+    buildTagFilter();
+    render();
+    toast("Event gelöscht.");
+  } catch {
+    toast("Konnte nicht löschen. Bitte später erneut versuchen.");
+  }
 }
 
 // Lightweight client-side geocoder (OpenStreetMap/Nominatim) for user events.

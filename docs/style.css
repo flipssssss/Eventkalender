@@ -6,6 +6,9 @@
 }
 
 :root {
+  /* Native Steuerelemente (Datum/Zeit-Picker, Scrollbars) hell rendern,
+     unabhängig vom Betriebssystem-Modus. */
+  color-scheme: light;
   /* Helle, gemütliche Creme-Braun-Palette */
   --bg: #f3e9d8;          /* warmes Creme */
   --surface: #fbf5ea;     /* Karten */
@@ -49,6 +52,11 @@
   --serif: "Helvetica Neue", Arial, sans-serif;
   --display: "Anton", "Arial Narrow", sans-serif;
   --grain: 0.3;
+}
+
+/* Dunkle Themes: native Steuerelemente (Datum/Zeit-Picker) dunkel rendern. */
+:root[data-theme="riot"], :root[data-theme="toxic"] {
+  color-scheme: dark;
 }
 
 /* Toxic -- Crust-Punk, Säuregrün auf Schwarz, Schreibmaschine. */
@@ -857,6 +865,16 @@ body {
   color: var(--surface);
 }
 
+.btn--danger {
+  border-color: #d23b2e;
+  color: #d23b2e;
+}
+.btn--danger:hover {
+  opacity: 1;
+  background: #d23b2e;
+  color: #fff;
+}
+
 .btn:hover {
   opacity: 0.85;
 }
@@ -1453,6 +1471,7 @@ html.map-active .site-footer {
 .mine-form input,
 .mine-form select {
   width: 100%;
+  min-height: 42px;
   padding: 9px 10px;
   font-family: var(--serif);
   font-size: 16px;
@@ -1460,6 +1479,13 @@ html.map-active .site-footer {
   background: var(--surface-2);
   border: 1px solid var(--border);
   border-radius: var(--radius);
+  accent-color: var(--accent);
+}
+
+/* Datum/Zeit: Wert linksbündig und vertikal mittig (statt oben verankert). */
+.mine-form input[type="date"]::-webkit-date-and-time-value,
+.mine-form input[type="time"]::-webkit-date-and-time-value {
+  text-align: left;
 }
 
 .mine-form input:focus,

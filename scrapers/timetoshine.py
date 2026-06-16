@@ -17,8 +17,7 @@ from .base import BaseScraper, Event
 BASE = "https://www.timetoshinekink.com"
 # /all-events turned out to be a page, not the events collection. Try the
 # common Squarespace events-collection slugs and use whichever has events.
-CANDIDATES = ["/all-events", "/events", "/shows", "/calendar",
-              "/upcoming-events", "/upcoming"]
+CANDIDATES = ["/all-events", "/events"]
 DEBUG_DIR = pathlib.Path(__file__).resolve().parents[1] / "docs" / "data" / "_debug"
 
 BROWSER = {

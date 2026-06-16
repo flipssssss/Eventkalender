@@ -259,6 +259,9 @@ async function init() {
   document.addEventListener("keydown", (e) => {
     if (e.key === "Escape") { closeModal(); closeSettings(); }
   });
+  // Browser back/forward and externally opened #e/<id> links open/close the
+  // matching event without a page reload.
+  window.addEventListener("hashchange", routeFromHash);
 
   setupSettings();
 }
@@ -717,7 +720,19 @@ function renderCard(ev) {
 
 // ---------------- Detail modal ----------------
 
+// Opening an event is a navigation: openModal only sets the URL hash
+// (#e/<id>); the router (routeFromHash) does the actual rendering. That gives
+// every event a shareable "subpage" and lets the browser back button close it.
+let modalPushed = false;
+
 function openModal(ev) {
+  const target = "#e/" + eventSlug(ev);
+  if (location.hash === target) { showModal(ev); return; }
+  modalPushed = true;
+  location.hash = target;  // -> hashchange -> routeFromHash -> showModal
+}
+
+function showModal(ev) {
   const c = els.modalContent;
   c.innerHTML = "";
 
@@ -961,9 +976,24 @@ async function openMultiMap(panel, points, ev) {
   setTimeout(() => m.invalidateSize(), 60);
 }
 
+// Triggered by the ✕ button, the backdrop and Escape: leave the event route.
+// When we navigated here in-app we go back (so we don't pile up history
+// entries); a directly opened/shared link just gets its hash stripped.
 function closeModal() {
+  if (!location.hash.startsWith("#e/")) { hideModal(); return; }
+  if (modalPushed) {
+    modalPushed = false;
+    history.back();  // -> hashchange -> routeFromHash -> hideModal
+  } else {
+    history.replaceState(null, "", location.pathname + location.search);
+    hideModal();
+  }
+}
+
+// Actually hide the modal UI and tear down its maps. Driven by the router.
+function hideModal() {
   els.modalBackdrop.setAttribute("hidden", "");
-  document.body.style.overflow = "";
+  if (els.settingsBackdrop.hasAttribute("hidden")) document.body.style.overflow = "";
   for (const m of modalMaps) m.remove();
   modalMaps = [];
 }
@@ -1034,12 +1064,29 @@ function icsEsc(s) {
     .replace(/,/g, "\\,").replace(/\r?\n/g, "\\n");
 }
 
-// ---------------- Share ----------------
+// ---------------- Share / deep links ----------------
+
+// Short, stable id for an event's shareable URL (a hash of its full id, so it
+// stays readable and doesn't leak the whole source URL into the link).
+function eventSlug(ev) {
+  return shortHash(eventId(ev));
+}
+
+function shortHash(str) {
+  let h1 = 0xdeadbeef, h2 = 0x41c6ce57;
+  for (let i = 0; i < str.length; i++) {
+    const ch = str.charCodeAt(i);
+    h1 = Math.imul(h1 ^ ch, 2654435761);
+    h2 = Math.imul(h2 ^ ch, 1597334677);
+  }
+  h1 = Math.imul(h1 ^ (h1 >>> 16), 2246822507) ^ Math.imul(h2 ^ (h2 >>> 13), 3266489909);
+  h2 = Math.imul(h2 ^ (h2 >>> 16), 2246822507) ^ Math.imul(h1 ^ (h1 >>> 13), 3266489909);
+  return (h2 >>> 0).toString(36) + (h1 >>> 0).toString(36);
+}
 
 // Deep link back to THIS site, opening the event's detail view.
 function eventShareUrl(ev) {
-  const base = location.origin + location.pathname;
-  return base + "?event=" + encodeURIComponent(eventId(ev));
+  return location.origin + location.pathname + "#e/" + eventSlug(ev);
 }
 
 async function shareEvent(ev) {
@@ -1053,16 +1100,32 @@ async function shareEvent(ev) {
   }
 }
 
-// On load: if the URL carries ?event=<id>, open that event (and search for it
-// so it's also visible in the feed behind the modal).
+// Open/close the modal to match the current URL hash (#e/<slug>). Called on
+// load, on hashchange and when the browser back/forward button is used.
+function routeFromHash() {
+  const m = location.hash.match(/^#e\/(.+)$/);
+  if (!m) { hideModal(); return; }
+  const slug = decodeURIComponent(m[1]);
+  const ev = state.events.find((e) => eventSlug(e) === slug);
+  if (ev) {
+    showModal(ev);
+  } else {
+    history.replaceState(null, "", location.pathname + location.search);
+    hideModal();
+    toast("Diese Veranstaltung ist nicht mehr im Kalender.");
+  }
+}
+
+// On load: honour an #e/<slug> hash, and translate legacy ?event=<id> links.
 function openSharedEvent() {
-  const id = new URLSearchParams(location.search).get("event");
-  if (!id) return;
-  const ev = state.events.find((e) => eventId(e) === id);
-  // Clean the URL so a reload/back doesn't keep reopening the modal.
-  history.replaceState(null, "", location.origin + location.pathname);
-  if (ev) openModal(ev);
-  else toast("Diese Veranstaltung ist nicht mehr im Kalender.");
+  const legacy = new URLSearchParams(location.search).get("event");
+  if (legacy) {
+    const ev = state.events.find((e) => eventId(e) === legacy);
+    history.replaceState(
+      null, "", location.pathname + (ev ? "#e/" + eventSlug(ev) : ""));
+    if (!ev) toast("Diese Veranstaltung ist nicht mehr im Kalender.");
+  }
+  routeFromHash();
 }
 
 // ---------------- Eigene Events (Firebase) ----------------

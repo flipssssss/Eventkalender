@@ -93,6 +93,7 @@ def load_yaml_scrapers() -> list[JsonLdScraper]:
                     default_tags=entry.get("tags"),
                     category=entry.get("category"),
                     extra_urls=entry.get("extra_urls"),
+                    city=entry.get("city"),
                 )
             )
     return scrapers

@@ -61,6 +61,7 @@ FORCE_GENRE = {
     "Time to Shine Kink": "Kink",
     "Lab.oratory": "Kink",
     "Rosa-Luxemburg-Stiftung": "Polit",
+    "FunFacts": "Kultur",
     "Zum schmutzigen Hobby": "Queer",
     "Club Sauna Berlin": "Queer",
     "Kinoprogramm": "Kultur",

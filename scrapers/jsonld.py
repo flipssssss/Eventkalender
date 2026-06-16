@@ -174,6 +174,7 @@ class JsonLdScraper(BaseScraper):
         default_tags=None,
         category: str | None = None,
         extra_urls=None,
+        city: str | None = None,
         write_debug: bool = True,
     ):
         self.url = url
@@ -181,6 +182,9 @@ class JsonLdScraper(BaseScraper):
         self.default_tags = list(default_tags or [])
         self.category = category
         self.extra_urls = list(extra_urls or [])
+        # When set, keep only events whose location/title/URL mentions this city
+        # (for multi-city ticket sources that should stay Berlin-only).
+        self.city = city
         self.write_debug = write_debug
 
     # Full browser-like headers so WAFs (Cloudflare etc.) don't return 403.
@@ -229,6 +233,15 @@ class JsonLdScraper(BaseScraper):
         if self.category:
             for event in events:
                 event.tags = [self.category]
+
+        if self.city:
+            city = self.city.lower()
+            events = [
+                e for e in events
+                if city in " ".join(
+                    filter(None, [e.location, e.title, e.source_url])).lower()
+            ]
+            debug_lines.append(f"Stadt-Filter '{self.city}': {len(events)} übrig")
 
         if self.write_debug:
             self._dump_debug(debug_lines)

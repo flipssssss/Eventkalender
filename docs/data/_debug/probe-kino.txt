@@ -1,9 +1,6 @@
-### berlin.de/kino (https://www.berlin.de/kino/)
-len=35265 ld+json=0
-@type: []
-Film-Links: ['/kino/1748107-2961173-kinolandschaft-berlin.html', '/kino/1785869-2961173-filmisch-durch-die-stadt.html', '/kino/_bin/filmdetail.php/314071/', '/kino/_bin/filmdetail.php/314073/', '/kino/_bin/filmdetail.php/314075/', '/kino/_bin/index.php', '/kino/filmfestivals/', '/kino/filmfestivals/2626340-2020379-ufa-filmnaechte.html', '/kino/filmfestivals/7505586-2020379-berlinale-open-air.html', '/kino/filmfestivals/8434119-2020379-kinofest.html']
-INDEX-TEXT: Kino und Film in Berlin – Berlin.de _tiConfig = {"tiId":null}; _ti_cm = {"portal":{"layout":"Corporate","path_id":"Corporate"},"pagetype":"cm.rubric","subtype":"","non_interaction":true}; try { _ti = Object.assign(_ti_cm, _ti); } catch (e) { _ti = _ti_cm; } Berlin.de Das offizielle Hauptstadtportal 
+### index: keine Kino-Treffer gefunden
 
-### kino.de Berlin (https://www.kino.de/kinoprogramm/stadt/berlin/)
-status=200 len=375917 ld+json=2
-@type: ['BreadcrumbList', 'ListItem', 'VideoObject']
+### filmdetail (https://www.berlin.de/kino/_bin/filmdetail.php/314075/)
+relevante Klassen: ['bicon bicon-times']
+HH:MM=574
+TEXT: Disclosure Day - Der Tag der Wahrheit - Filmbeschreibung und Termine - Kinoprogramm für Berlin und Umland - Berlin.de Berlin.de Das offizielle Hauptstadtportal Barrierefrei Barrierefreiheit Schließen: Barrierefreiheit Wie barrierefrei ist diese Webseite? Erklärung zur Barrierefreiheit Haben Sie Anmerkungen oder Fragen zur Barrierefreiheit dieser Webseite? Kontakt zur Ansprechperson Wo gibt es zusätzliche Informationen zur Barrierefreiheit im Land Berlin? Barrierefreie Informations- und Kommunikationstechnik (IKT) Öffnen: Suche Suche Suche Schließen: Suche Wo soll gesucht werden? Kultur, Tourismus und Stadtleben Komplette Webseite von Berlin.de Suchbegriff Suchen Öffnen: Menü Menü Menü Schließen: Menü Sprache der Webseite ändern Deutsch English Weitere Links Stadtplan Berlin.de Mail Berlin.de auf Facebook Berlin.de auf Instagram Berlin.de auf Bluesky Startseite Kino Disclosure Day - Der Tag der Wahrheit Die Meteorologin Margaret Fairchild will gerade das Wetter präsentieren, als sie von einem unerklärlichen Phänomen überrascht wird. Aus ihrem Mund kommt nur noch unverständliches Kauderwelsch. Das sorgt für Verwunderung und Entsetzen. Der Einzige, der sie verstehen kann, ist der Aktivist Daniel Keller. Er versucht schon seit einiger Zeit zu beweisen, dass die Regierung geheimzuhalten versucht, dass die Menschheit nicht allein im Universum ist. Filmdaten Filmstart: 10.06.26 Genre:

@@ -55,16 +55,8 @@ sources:
     name: Karada House
     type: ical
     category: Workshop        # alle Karada-Events als Workshop
-  # Boiler (queere Party-Location) -- WordPress "The Events Calendar", iCal.
-  - url: https://boiler-berlin.de/?post_type=tribe_events&ical=1&eventDisplay=list
-    name: Boiler Berlin
-    type: ical
-    category: Party
-  # Time to Shine (Kink/Fetish Comedy) -- Squarespace, iCal-Export.
-  - url: https://www.timetoshinekink.com/all-events?format=ical
-    name: Time to Shine Kink
-    type: ical
-    category: Theater
+  # Boiler -> eigener Ausleser (scrapers/boiler.py), HTML-Liste.
+  # Time to Shine -> eigener Ausleser (scrapers/timetoshine.py), Squarespace-JSON.
   # Party Dyke Berlin -> eigener Ausleser (scrapers/partydyke.py), weil die
   # Wix-Seite clientseitig rendert und die Daten nur auf den Detailseiten
   # (als JSON-LD) stehen.

@@ -1242,11 +1242,12 @@ html.map-active .site-footer {
   margin-top: 10px;
 }
 
-/* Schwebt transparent über der Karte (oben rechts). */
+/* Schwebt transparent über der Karte (unten mittig). */
 .map-copy-btn {
   position: absolute;
-  top: 10px;
-  right: 10px;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 1000;
   padding: 6px 12px;
   border: 1px solid var(--border);

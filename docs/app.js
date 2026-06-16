@@ -847,9 +847,14 @@ async function toggleAddressPanel(ev, toggle, panel, label) {
   if (!opening || panel.dataset.built) return;
   panel.dataset.built = "1";
 
+  const mapDiv = document.createElement("div");
+  mapDiv.className = "modal-map";
+  panel.appendChild(mapDiv);
+
+  // Floats transparently over the map (top-right).
   const copy = document.createElement("button");
   copy.type = "button";
-  copy.className = "btn map-copy-btn";
+  copy.className = "map-copy-btn";
   copy.textContent = "📋 Adresse kopieren";
   const toCopy = ev.address || ev.location || label;
   copy.addEventListener("click", async (e) => {
@@ -858,10 +863,6 @@ async function toggleAddressPanel(ev, toggle, panel, label) {
     catch { toast("Konnte nicht kopieren"); }
   });
   panel.appendChild(copy);
-
-  const mapDiv = document.createElement("div");
-  mapDiv.className = "modal-map";
-  panel.appendChild(mapDiv);
 
   let lat = ev.lat, lng = ev.lng;
   if (typeof lat !== "number" || typeof lng !== "number") {

@@ -1,4 +1,4 @@
-ExhibitionEvents -> Events: 27
+ExhibitionEvents -> Events: 28
   2026-06-16 Brancusi
   2026-06-16 Gebaute Gemeinschaft: Göbeklitepe, Taş Tepeler und
   2026-06-16 Lina Lapelytė: We Make Years Out of Hours – Chanel
@@ -26,3 +26,4 @@ ExhibitionEvents -> Events: 27
   2026-07-03 Paul Signac: Symphonie der Farben
   2026-06-26 Erwin Olaf: Muses
   2026-07-04 Iván Argote: A Place To Stay
+  2026-06-24 Mikołaj Sobczak: Ancora

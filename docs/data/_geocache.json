@@ -23,6 +23,12 @@
   "lat": 52.4969288,
   "lng": 13.4265584
  },
+ "12557 Berlin": {
+  "address": "12557 Köpenick",
+  "bezirk": "Treptow-Köpenick",
+  "lat": 52.4289185,
+  "lng": 13.5885525
+ },
  "13359 Berlin": {
   "address": "13359 Gesundbrunnen",
   "bezirk": "Mitte",
@@ -97,6 +103,12 @@
   "lng": 13.3479549
  },
  "Anti-Kriegs-Museum Berlin Brüsseler Str. 21 13353, 13353 Berlin": null,
+ "Anton-Wilhelm-Amo-Straße 40-41, 10117 Berlin": {
+  "address": "Anton-Wilhelm-Amo-Straße 40/41, 10117 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5126159,
+  "lng": 13.3954281
+ },
  "Archiv Potsdam Berlin": null,
  "Archiv Potsdam Berlin Deutschland": null,
  "Auguststraße 69, 10117 Berlin": {
@@ -245,6 +257,7 @@
   "lng": 13.5828604
  },
  "Café Köpenick Seelenbinderstr. 54 12555, 12555 Berlin": null,
+ "Checkpoint Charlie, Friedrichstraße 43-45, 10117 Berlin": null,
  "Club Sauna Berlin": {
   "address": "Mehringdamm 32, 10961 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -321,6 +334,12 @@
   "lat": 52.5106031,
   "lng": 13.3292355
  },
+ "Fasanenstraße 1A, 10623 Berlin": {
+  "address": "Fasanenstraße 1a, 10623 Charlottenburg",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.5106031,
+  "lng": 13.3292355
+ },
  "Ficken 3000 Berlin": null,
  "Ficken 3000, Berlin": null,
  "Filmrisz Filmrisz Rigaerstr. 103 10247 Berlin Deutschland": null,
@@ -356,6 +375,12 @@
   "bezirk": "Mitte",
   "lat": 52.5549024,
   "lng": 13.3301501
+ },
+ "Friedrichstraße 43-45, 10117 Berlin": {
+  "address": "Friedrichstraße 43-45, 10969 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5074321,
+  "lng": 13.3903814
  },
  "Frizu Lounge, Berlin": null,
  "Garten Markgrafendamm 24c, 10245 Berlin": null,
@@ -462,6 +487,7 @@
   "lat": 52.4655581,
   "lng": 13.3860876
  },
+ "Institut für Europäische Ethnologie der HU, Raum 408, Anton-Wilhelm-Amo-Straße 40-41, 10117 Berlin": null,
  "Invalidenstraße 51, 10557 Berlin": {
   "address": "Invalidenstraße 51, 10557 Moabit",
   "bezirk": "Mitte",
@@ -501,6 +527,12 @@
  },
  "K19 Café Kreutzigerstr. 19 10247 Berlin Deutschland": null,
  "K19 Café Kreutzigerstr. 19 10247, 10247 Berlin": null,
+ "K19, Kreutzigerstraße 19, 10247 Berlin": {
+  "address": "Kreutzigerstraße 19, 10247 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5131608,
+  "lng": 13.4600856
+ },
  "K9 Kinzigstr 9 Berlin Deutschland": {
   "address": "Kinzigstraße 9, 10247 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -536,6 +568,12 @@
  "Kadterschmiede Rigaer Str. 94 10245, 10245 Berlin": null,
  "Karl-Liebknecht-Haus Kleine Alexanderstr. 28 10178 Berlin Deutschland": null,
  "Karl-Liebknecht-Haus Kleine Alexanderstr. 28 10178, 10178 Berlin": null,
+ "Karl-Marx-Allee 45, 10178, Berlin": {
+  "address": "Karl-Marx-Allee 45, 10178 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5198483,
+  "lng": 13.4251493
+ },
  "Karpfenteichstr. 13 12435, 12435 Berlin": null,
  "Karpfenteichstr. 13, 12435 Berlin": {
   "address": "Karpfenteichstraße 13/14, 12435 Plänterwald",
@@ -549,6 +587,7 @@
   "lat": 52.5364741,
   "lng": 13.4078031
  },
+ "Kietz-Klub Köpenick, Köpenzeile 117, 12557 Berlin": null,
  "Kiez Zentrum Villa Lützow Lützowstraße 28 10785 Berlin Deutschland": null,
  "Kiezhaus Agnes Reinhold Afrikanische Straße 74 13351 Berlin Deutschland": {
   "address": "Afrikanische Straße 74, 13351 Wedding",
@@ -1153,6 +1192,7 @@
  "Zorrow Grüntalerstr.38 13359 Berlin Deutschland": null,
  "Zwille Fasanenstr. 1a 10623 Berlin Deutschland": null,
  "Zwille Fasanenstr. 1a, 10623 Berlin": null,
+ "Zwille Reuleaux-Haus, Fasanenstraße 1A, 10623 Berlin": null,
  "aquarium (südblock) Skalitzer str. 6 10997 Berlin Deutschland": null,
  "auf dem Dragonerareal Mehringdamm 20 10961, 10961 Berlin": null,
  "che, Berlin": null,

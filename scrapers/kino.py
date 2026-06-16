@@ -46,16 +46,31 @@ OG_META_RE = re.compile(
 CONTENT_RE = re.compile(r'content=["\']([^"\']+)', re.I)
 POSTER_IMG_RE = re.compile(
     r'<img\b[^>]*\bsrc=["\']([^"\']*(?:image_assets|/binaries/)[^"\']*)', re.I)
+OG_DESC_RE = re.compile(
+    r'<meta\b[^>]*\b(?:property|name)=["\'](?:og:description|description)["\'][^>]*>',
+    re.I)
 
 
 def _poster(html: str) -> str | None:
+    # The real poster <img> first -- berlin.de's og:image is just the site logo.
+    m = POSTER_IMG_RE.search(html)
+    if m:
+        return m.group(1)
     m = OG_META_RE.search(html)
     if m:
         c = CONTENT_RE.search(m.group(0))
-        if c:
+        if c and "favicon" not in c.group(1).lower():
             return c.group(1)
-    m = POSTER_IMG_RE.search(html)
-    return m.group(1) if m else None
+    return None
+
+
+def _description(html: str) -> str | None:
+    m = OG_DESC_RE.search(html)
+    if m:
+        c = CONTENT_RE.search(m.group(0))
+        if c and c.group(1).strip():
+            return c.group(1).strip()[:500]
+    return None
 
 BROWSER = {
     "User-Agent": (
@@ -91,14 +106,14 @@ class BerlinKinoScraper(BaseScraper):
             n = self._parse_cinema(html, cinema, today, horizon, events)
             report.append(f"{cinema}: {n} Vorstellungen")
 
-        imgs = self._add_images(events)
+        imgs = self._add_film_meta(events)
         self._dump(f"Vorstellungen gesamt: {len(events)} | Filmbilder: {imgs}\n"
                    + "\n".join(report) + getattr(self, "_img_diag", ""))
         return events
 
-    def _add_images(self, events: list[Event]) -> int:
-        """Fetch each unique film page once and read its poster image."""
-        cache: dict[str, str] = {}
+    def _add_film_meta(self, events: list[Event]) -> int:
+        """Fetch each unique film page once for its poster image + description."""
+        cache: dict[str, dict] = {}
         urls = [u for u in dict.fromkeys(
             e.source_url for e in events if (e.source_url or "").startswith("http"))]
         self._img_diag = ""
@@ -107,18 +122,23 @@ class BerlinKinoScraper(BaseScraper):
                 html = self.get(url, headers=BROWSER).text
             except Exception:  # noqa: BLE001
                 continue
+            poster, desc = _poster(html), _description(html)
             if i == 0:
-                tag = OG_META_RE.search(html)
-                self._img_diag = (f"\n1. Film {url}\n  'og:image' im html: "
-                                  f"{'og:image' in html} | meta: "
-                                  f"{tag.group(0)[:140] if tag else '-'}")
-            img = _poster(html)
-            if img:
-                cache[url] = img if img.startswith("http") else (BASE + img)
+                srcs = re.findall(
+                    r'src=["\']([^"\']*(?:binaries|image_assets)[^"\']*)', html)[:3]
+                self._img_diag = (f"\n1. Film {url}\n  poster={poster}\n"
+                                  f"  img-srcs={srcs}\n  desc={(desc or '')[:120]}")
+            if poster:
+                poster = poster if poster.startswith("http") else (BASE + poster)
+            cache[url] = {"img": poster, "desc": desc}
         for e in events:
-            if e.source_url in cache:
-                e.image_url = cache[e.source_url]
-        return len(cache)
+            c = cache.get(e.source_url)
+            if c:
+                if c["img"]:
+                    e.image_url = c["img"]
+                if c["desc"]:
+                    e.description = c["desc"]
+        return sum(1 for c in cache.values() if c["img"])
 
     def _parse_cinema(self, html, cinema, today, horizon, out) -> int:
         soup = BeautifulSoup(html, "html.parser")
@@ -216,6 +236,7 @@ def group_screenings(events: list[Event]) -> list[Event]:
             # carry their addresses per screening instead.
             address=CINEMA_ADDR.get(cinemas[0]) if single else None,
             image_url=next((s.image_url for s in showings if s.image_url), None),
+            description=next((s.description for s in showings if s.description), None),
             time_known=False,             # date line shows the date only
             tags=["Kino"],
         )

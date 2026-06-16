@@ -645,7 +645,8 @@ function renderCard(ev) {
   title.textContent = ev.title || "Ohne Titel";
   body.appendChild(title);
 
-  if (ev.location) {
+  // Cinema cards list the cinemas in the screenings block instead.
+  if (ev.location && !(ev.showings && ev.showings.length)) {
     const loc = document.createElement("div");
     loc.className = "card-location";
     loc.textContent = "📍 " + ev.location;
@@ -720,43 +721,12 @@ function openModal(ev) {
   title.textContent = ev.title || "Ohne Titel";
   body.appendChild(title);
 
-  // For cinema events the per-cinema addresses live in the screenings list, so
-  // skip the single location toggle there.
-  const isCinema = ev.showings && ev.showings.length;
-  if (!isCinema && (ev.location || ev.address)) {
-    const loc = document.createElement("div");
-    loc.className = "modal-location";
-    const parts = [ev.location, ev.address].filter(Boolean);
-    // Avoid printing the same string twice when location == address.
-    const label = parts.filter((p, i) => parts.indexOf(p) === i).join(" · ");
-
-    const toggle = document.createElement("button");
-    toggle.type = "button";
-    toggle.className = "modal-loc-toggle";
-    const txt = document.createElement("span");
-    txt.textContent = "📍 " + label;
-    toggle.appendChild(txt);
-    if (ev.bezirk) {
-      const b = document.createElement("span");
-      b.className = "modal-bezirk";
-      b.textContent = " (" + ev.bezirk + ")";
-      toggle.appendChild(b);
-    }
-    loc.appendChild(toggle);
-
-    const panel = document.createElement("div");
-    panel.className = "modal-map-panel";
-    panel.hidden = true;
-    loc.appendChild(panel);
-    attachMapToggle(toggle, panel, {
-      address: ev.address || (ev.location ? ev.location + ", Berlin" : label),
-      lat: ev.lat, lng: ev.lng, genre: ev.genre,
-    });
-    body.appendChild(loc);
-  }
-
-  const modalShowings = renderShowings(ev, { withAddress: true });
+  // Cinema events list the screenings first, then the (always-open) map of all
+  // involved cinemas; other events just get the location map.
+  const modalShowings = renderShowings(ev);
   if (modalShowings) body.appendChild(modalShowings);
+  const locMap = renderLocationMap(ev);
+  if (locMap) body.appendChild(locMap);
 
   // Genre first, then categories -- same order as on the cards.
   const meta = document.createElement("div");
@@ -850,21 +820,74 @@ function openModal(ev) {
 
 let modalMaps = [];
 
-// Toggle a panel that shows an embedded map + a floating "copy address" button.
-// opts: { address, lat, lng, genre }.
-function attachMapToggle(toggle, panel, opts) {
-  toggle.addEventListener("click", () => {
-    const opening = panel.hidden;
-    panel.hidden = !opening;
-    toggle.classList.toggle("open", opening);
-    if (opening) openMapPanel(panel, opts);
-  });
+// The location block in the detail view: the location name(s) and an always-open
+// embedded map (all cinemas for a multi-cinema film), with a "copy address"
+// button (a choice menu when there's more than one address).
+function renderLocationMap(ev) {
+  const points = [];
+  if (ev.showings && ev.showings.length) {
+    const seen = new Set();
+    for (const s of ev.showings) {
+      if (s.address && !seen.has(s.cinema)) {
+        seen.add(s.cinema);
+        points.push({ name: s.cinema, address: s.address });
+      }
+    }
+  } else if (ev.location || ev.address) {
+    points.push({
+      name: ev.location || ev.address,
+      address: ev.address || (ev.location ? ev.location + ", Berlin" : ""),
+      lat: ev.lat, lng: ev.lng,
+    });
+  }
+  if (!points.length) return null;
+
+  const box = document.createElement("div");
+  box.className = "loc-map";
+  const head = document.createElement("div");
+  head.className = "loc-map-head";
+  head.textContent = "📍 " + points.map((p) => p.name).filter(Boolean).join(" · ");
+  if (points.length === 1 && ev.bezirk) {
+    const b = document.createElement("span");
+    b.className = "modal-bezirk";
+    b.textContent = " (" + ev.bezirk + ")";
+    head.appendChild(b);
+  }
+  box.appendChild(head);
+
+  const panel = document.createElement("div");
+  panel.className = "modal-map-panel";
+  box.appendChild(panel);
+  openMultiMap(panel, points, ev);
+  return box;
 }
 
-async function openMapPanel(panel, opts) {
-  if (panel.dataset.built) return;
-  panel.dataset.built = "1";
+async function copyAddress(addr) {
+  try { await navigator.clipboard.writeText(addr || ""); toast("Adresse kopiert"); }
+  catch { toast("Konnte nicht kopieren"); }
+}
 
+function showCopyMenu(anchor, points) {
+  const existing = anchor.parentElement.querySelector(".copy-menu");
+  if (existing) { existing.remove(); return; }
+  const menu = document.createElement("div");
+  menu.className = "copy-menu";
+  for (const p of points) {
+    const item = document.createElement("button");
+    item.type = "button";
+    item.className = "copy-menu-item";
+    item.textContent = p.name;
+    item.addEventListener("click", (e) => {
+      e.stopPropagation();
+      copyAddress(p.address);
+      menu.remove();
+    });
+    menu.appendChild(item);
+  }
+  anchor.parentElement.appendChild(menu);
+}
+
+async function openMultiMap(panel, points, ev) {
   const mapDiv = document.createElement("div");
   mapDiv.className = "modal-map";
   panel.appendChild(mapDiv);
@@ -872,31 +895,41 @@ async function openMapPanel(panel, opts) {
   const copy = document.createElement("button");
   copy.type = "button";
   copy.className = "map-copy-btn";
-  copy.textContent = "📋 Adresse kopieren";
-  copy.addEventListener("click", async (e) => {
-    e.stopPropagation();
-    try { await navigator.clipboard.writeText(opts.address || ""); toast("Adresse kopiert"); }
-    catch { toast("Konnte nicht kopieren"); }
-  });
+  if (points.length > 1) {
+    copy.textContent = "Adresse kopieren ▾";
+    copy.addEventListener("click", (e) => { e.stopPropagation(); showCopyMenu(copy, points); });
+  } else {
+    copy.textContent = "Adresse kopieren";
+    copy.addEventListener("click", (e) => { e.stopPropagation(); copyAddress(points[0].address); });
+  }
   panel.appendChild(copy);
 
-  let lat = opts.lat, lng = opts.lng;
-  if (typeof lat !== "number" || typeof lng !== "number") {
-    const geo = await geocodeClient(opts.address || "");
-    if (geo) { lat = geo.lat; lng = geo.lng; }
+  const resolved = [];
+  for (const p of points) {
+    let lat = p.lat, lng = p.lng;
+    if (typeof lat !== "number" || typeof lng !== "number") {
+      const geo = await geocodeClient(p.address || "");
+      if (geo) { lat = geo.lat; lng = geo.lng; }
+    }
+    if (typeof lat === "number" && typeof lng === "number") resolved.push({ ...p, lat, lng });
   }
-  if (typeof L === "undefined" || typeof lat !== "number" || typeof lng !== "number") {
-    mapDiv.innerHTML = '<p class="status">Karte für diese Adresse nicht verfügbar.</p>';
+  if (typeof L === "undefined" || !resolved.length) {
+    mapDiv.innerHTML = '<p class="status">Karte nicht verfügbar.</p>';
     return;
   }
-  const m = L.map(mapDiv, { scrollWheelZoom: false, attributionControl: true })
-    .setView([lat, lng], 15);
+  const m = L.map(mapDiv, { scrollWheelZoom: false, attributionControl: true });
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
     { maxZoom: 19, attribution: "© OpenStreetMap" }).addTo(m);
-  L.circleMarker([lat, lng], {
-    radius: 9, color: "#fff", weight: 2,
-    fillColor: genreColor(opts.genre), fillOpacity: 0.95,
-  }).addTo(m);
+  const latlngs = [];
+  for (const r of resolved) {
+    L.circleMarker([r.lat, r.lng], {
+      radius: 9, color: "#fff", weight: 2,
+      fillColor: genreColor(ev.genre), fillOpacity: 0.95,
+    }).addTo(m).bindTooltip(r.name || r.address, { direction: "top" });
+    latlngs.push([r.lat, r.lng]);
+  }
+  if (latlngs.length === 1) m.setView(latlngs[0], 15);
+  else m.fitBounds(latlngs, { padding: [34, 34], maxZoom: 15 });
   modalMaps.push(m);
   setTimeout(() => m.invalidateSize(), 60);
 }
@@ -1437,9 +1470,8 @@ function genreClass(genre) {
   return "g-" + String(genre || "").toLowerCase();
 }
 
-// Cinema events: list all screenings, grouped by cinema (time chips). With
-// withAddress (modal) each cinema also shows its clickable address + map.
-function renderShowings(ev, opts = {}) {
+// Cinema events: list all screenings, grouped by cinema (time chips).
+function renderShowings(ev) {
   if (!ev.showings || !ev.showings.length) return null;
   const wrap = document.createElement("div");
   wrap.className = "showings";
@@ -1448,11 +1480,7 @@ function renderShowings(ev, opts = {}) {
     if (!byCinema.has(s.cinema)) byCinema.set(s.cinema, []);
     byCinema.get(s.cinema).push(s);
   }
-  const single = byCinema.size === 1;
   for (const [cinema, list] of byCinema) {
-    const block = document.createElement("div");
-    block.className = "showing-block";
-
     const row = document.createElement("div");
     row.className = "showing-row";
     const name = document.createElement("span");
@@ -1474,29 +1502,7 @@ function renderShowings(ev, opts = {}) {
       times.appendChild(t);
     }
     row.appendChild(times);
-    block.appendChild(row);
-
-    const address = list[0].address;
-    if (opts.withAddress && address) {
-      const addr = document.createElement("button");
-      addr.type = "button";
-      addr.className = "modal-loc-toggle showing-addr";
-      const sp = document.createElement("span");
-      sp.textContent = "📍 " + address;
-      addr.appendChild(sp);
-      const panel = document.createElement("div");
-      panel.className = "modal-map-panel";
-      panel.hidden = true;
-      attachMapToggle(addr, panel, {
-        address,
-        lat: single ? ev.lat : undefined,
-        lng: single ? ev.lng : undefined,
-        genre: ev.genre,
-      });
-      block.appendChild(addr);
-      block.appendChild(panel);
-    }
-    wrap.appendChild(block);
+    wrap.appendChild(row);
   }
   return wrap;
 }

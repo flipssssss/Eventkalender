@@ -351,6 +351,12 @@
   "lat": 52.4919487,
   "lng": 13.3889569
  },
+ "Gärtnerstraße 19, 10245 Berlin": {
+  "address": "Gärtnerstraße 19, 10245 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5117587,
+  "lng": 13.4615491
+ },
  "Görlitzer Park, Pamukkale 10999 Berlin": null,
  "HAU Hebbel am Ufer, Berlin": {
   "address": "Stresemannstraße 29, 10963 Kreuzberg",
@@ -367,6 +373,12 @@
   "lng": 13.3858716
  },
  "Hardenbergstraße 22, 10623 Berlin": null,
+ "Hasenheide 54, 10967 Berlin": {
+  "address": "Hasenheide 54, 10967 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4894942,
+  "lng": 13.4100369
+ },
  "Hauptstraße 121 A, 10827 Berlin": {
   "address": "Hauptstraße 121a, 10827 Schöneberg",
   "bezirk": "Tempelhof-Schöneberg",
@@ -517,6 +529,12 @@
   "lat": 52.4816459,
   "lng": 13.4668763
  },
+ "Kastanienallee 77, 10435 Berlin": {
+  "address": "Kastanienallee 77, 10435 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5364741,
+  "lng": 13.4078031
+ },
  "Kiez Zentrum Villa Lützow Lützowstraße 28 10785 Berlin Deutschland": null,
  "Kiezhaus Agnes Reinhold Afrikanische Straße 74 13351 Berlin Deutschland": {
   "address": "Afrikanische Straße 74, 13351 Wedding",
@@ -609,6 +627,12 @@
   "bezirk": "Tempelhof-Schöneberg",
   "lat": 52.4374457,
   "lng": 13.3754837
+ },
+ "Laskerstraße 5, 10245 Berlin": {
+  "address": "Laskerstraße 5, 10245 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5017433,
+  "lng": 13.4654291
  },
  "Lauschangriff Rigaer Str. 103 10247 Berlin Deutschland": null,
  "Lauschangriff Rigaer Str. 103 10247, 10247 Berlin": null,
@@ -1037,6 +1061,12 @@
   "bezirk": "Mitte",
   "lat": 52.548949,
   "lng": 13.3481653
+ },
+ "Weserstraße 59, 12045 Berlin": {
+  "address": "Weserstraße 59, 12045 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4827454,
+  "lng": 13.44178
  },
  "Weydingerstraße 10, 10178 Berlin": {
   "address": "Weydingerstraße 10, 10178 Mitte",

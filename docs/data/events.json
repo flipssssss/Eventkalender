@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T07:13:00.057638+00:00",
+  "generated_at": "2026-06-16T07:26:39.548855+00:00",
   "count": 571,
   "sources": [
     {
@@ -151,20 +151,22 @@
       "time_known": false,
       "genre": "Kultur",
       "subcategory": null,
-      "address": "Straße des 17. Juni 136, 10623 Charlottenburg",
-      "lat": 52.5134702,
-      "lng": 13.3262548,
-      "bezirk": "Charlottenburg-Wilmersdorf",
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null,
       "showings": [
         {
           "time": "11:00",
           "cinema": "Ladenkino",
+          "address": "Gärtnerstraße 19, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/312336/",
           "note": "OmU"
         },
         {
           "time": "21:15",
           "cinema": "Sputnik",
+          "address": "Hasenheide 54, 10967 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/312336/",
           "note": "OmU"
         }
@@ -185,20 +187,22 @@
       "time_known": false,
       "genre": "Kultur",
       "subcategory": null,
-      "address": "Straße des 17. Juni 136, 10623 Charlottenburg",
-      "lat": 52.5134702,
-      "lng": 13.3262548,
-      "bezirk": "Charlottenburg-Wilmersdorf",
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null,
       "showings": [
         {
           "time": "11:00",
           "cinema": "Ladenkino",
+          "address": "Gärtnerstraße 19, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/56125/",
           "note": "OmU"
         },
         {
           "time": "18:15",
           "cinema": "Lichtblick",
+          "address": "Kastanienallee 77, 10435 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/56125/",
           "note": "OmenglU"
         }
@@ -220,13 +224,14 @@
       "genre": "Kultur",
       "subcategory": null,
       "address": "Gärtnerstraße 19, 10245 Friedrichshain",
-      "lat": 52.5118751,
-      "lng": 13.4616485,
+      "lat": 52.5117587,
+      "lng": 13.4615491,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": [
         {
           "time": "11:00",
           "cinema": "Ladenkino",
+          "address": "Gärtnerstraße 19, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313630/",
           "note": "OmU"
         }
@@ -247,20 +252,22 @@
       "time_known": false,
       "genre": "Kultur",
       "subcategory": null,
-      "address": "Straße des 17. Juni 136, 10623 Charlottenburg",
-      "lat": 52.5134702,
-      "lng": 13.3262548,
-      "bezirk": "Charlottenburg-Wilmersdorf",
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null,
       "showings": [
         {
           "time": "13:00",
           "cinema": "Ladenkino",
+          "address": "Gärtnerstraße 19, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313735/",
           "note": "OmU"
         },
         {
           "time": "17:30",
           "cinema": "Sputnik",
+          "address": "Hasenheide 54, 10967 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313735/",
           "note": "OmU"
         }
@@ -282,13 +289,14 @@
       "genre": "Kultur",
       "subcategory": null,
       "address": "Gärtnerstraße 19, 10245 Friedrichshain",
-      "lat": 52.5118751,
-      "lng": 13.4616485,
+      "lat": 52.5117587,
+      "lng": 13.4615491,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": [
         {
           "time": "13:10",
           "cinema": "Ladenkino",
+          "address": "Gärtnerstraße 19, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313180/",
           "note": "OmU"
         }
@@ -310,13 +318,14 @@
       "genre": "Kultur",
       "subcategory": null,
       "address": "Gärtnerstraße 19, 10245 Friedrichshain",
-      "lat": 52.5118751,
-      "lng": 13.4616485,
+      "lat": 52.5117587,
+      "lng": 13.4615491,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": [
         {
           "time": "13:20",
           "cinema": "Ladenkino",
+          "address": "Gärtnerstraße 19, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/312472/",
           "note": "OmU"
         }
@@ -359,19 +368,21 @@
       "genre": "Kultur",
       "subcategory": null,
       "address": "Gärtnerstraße 19, 10245 Friedrichshain",
-      "lat": 52.5118751,
-      "lng": 13.4616485,
+      "lat": 52.5117587,
+      "lng": 13.4615491,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": [
         {
           "time": "14:45",
           "cinema": "Ladenkino",
+          "address": "Gärtnerstraße 19, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/312866/",
           "note": "OmU"
         },
         {
           "time": "21:15",
           "cinema": "Ladenkino",
+          "address": "Gärtnerstraße 19, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/312866/",
           "note": "OmU"
         }
@@ -400,18 +411,21 @@
         {
           "time": "15:00",
           "cinema": "Ladenkino",
+          "address": "Gärtnerstraße 19, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313625/",
           "note": "OmU"
         },
         {
           "time": "18:40",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313625/",
           "note": "OmU"
         },
         {
           "time": "21:45",
           "cinema": "Sputnik",
+          "address": "Hasenheide 54, 10967 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313625/",
           "note": "OmU"
         }
@@ -433,13 +447,14 @@
       "genre": "Kultur",
       "subcategory": null,
       "address": "Gärtnerstraße 19, 10245 Friedrichshain",
-      "lat": 52.5118751,
-      "lng": 13.4616485,
+      "lat": 52.5117587,
+      "lng": 13.4615491,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": [
         {
           "time": "15:50",
           "cinema": "Ladenkino",
+          "address": "Gärtnerstraße 19, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/311442/",
           "note": "OmU"
         }
@@ -461,13 +476,14 @@
       "genre": "Kultur",
       "subcategory": null,
       "address": "Gärtnerstraße 19, 10245 Friedrichshain",
-      "lat": 52.5118751,
-      "lng": 13.4616485,
+      "lat": 52.5117587,
+      "lng": 13.4615491,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": [
         {
           "time": "16:20",
           "cinema": "Ladenkino",
+          "address": "Gärtnerstraße 19, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314223/",
           "note": null
         }
@@ -509,20 +525,22 @@
       "time_known": false,
       "genre": "Kultur",
       "subcategory": null,
-      "address": "Straße des 17. Juni 136, 10623 Charlottenburg",
-      "lat": 52.5134702,
-      "lng": 13.3262548,
-      "bezirk": "Charlottenburg-Wilmersdorf",
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null,
       "showings": [
         {
           "time": "16:30",
           "cinema": "Ladenkino",
+          "address": "Gärtnerstraße 19, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314220/",
           "note": null
         },
         {
           "time": "16:50",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314220/",
           "note": null
         }
@@ -551,6 +569,7 @@
         {
           "time": "16:45",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314955/",
           "note": "OV"
         }
@@ -592,14 +611,15 @@
       "time_known": false,
       "genre": "Kultur",
       "subcategory": null,
-      "address": "Straße des 17. Juni 145, 10623 Charlottenburg",
-      "lat": 52.5120816,
-      "lng": 13.3240122,
-      "bezirk": "Charlottenburg-Wilmersdorf",
+      "address": "Hasenheide 54, 10967 Kreuzberg",
+      "lat": 52.4894942,
+      "lng": 13.4100369,
+      "bezirk": "Friedrichshain-Kreuzberg",
       "showings": [
         {
           "time": "17:30",
           "cinema": "Sputnik",
+          "address": "Hasenheide 54, 10967 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/312879/",
           "note": "OmU"
         }
@@ -620,20 +640,22 @@
       "time_known": false,
       "genre": "Kultur",
       "subcategory": null,
-      "address": "Straße des 17. Juni 136, 10623 Charlottenburg",
-      "lat": 52.5134702,
-      "lng": 13.3262548,
-      "bezirk": "Charlottenburg-Wilmersdorf",
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null,
       "showings": [
         {
           "time": "17:40",
           "cinema": "Ladenkino",
+          "address": "Gärtnerstraße 19, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313760/",
           "note": "OmU"
         },
         {
           "time": "19:30",
           "cinema": "Sputnik",
+          "address": "Hasenheide 54, 10967 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313760/",
           "note": "OmU"
         }
@@ -655,19 +677,21 @@
       "genre": "Kultur",
       "subcategory": null,
       "address": "Gärtnerstraße 19, 10245 Friedrichshain",
-      "lat": 52.5118751,
-      "lng": 13.4616485,
+      "lat": 52.5117587,
+      "lng": 13.4615491,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": [
         {
           "time": "17:45",
           "cinema": "Ladenkino",
+          "address": "Gärtnerstraße 19, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314075/",
           "note": "OmU"
         },
         {
           "time": "20:10",
           "cinema": "Ladenkino",
+          "address": "Gärtnerstraße 19, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314075/",
           "note": "OmU"
         }
@@ -689,13 +713,14 @@
       "genre": "Kultur",
       "subcategory": null,
       "address": "Gärtnerstraße 19, 10245 Friedrichshain",
-      "lat": 52.5118751,
-      "lng": 13.4616485,
+      "lat": 52.5117587,
+      "lng": 13.4615491,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": [
         {
           "time": "17:50",
           "cinema": "Ladenkino",
+          "address": "Gärtnerstraße 19, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313980/",
           "note": "OmU"
         }
@@ -821,14 +846,15 @@
       "time_known": false,
       "genre": "Kultur",
       "subcategory": null,
-      "address": "Kynaststraße, 10245 Friedrichshain",
-      "lat": 52.4979656,
-      "lng": 13.4661487,
+      "address": "Laskerstraße 5, 10245 Friedrichshain",
+      "lat": 52.5017433,
+      "lng": 13.4654291,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": [
         {
           "time": "18:00",
           "cinema": "Kino Zukunft",
+          "address": "Laskerstraße 5, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313866/",
           "note": null
         }
@@ -878,6 +904,7 @@
         {
           "time": "18:30",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/301859/",
           "note": "OmU"
         }
@@ -1108,20 +1135,22 @@
       "time_known": false,
       "genre": "Kultur",
       "subcategory": null,
-      "address": "Straße des 17. Juni 136, 10623 Charlottenburg",
-      "lat": 52.5134702,
-      "lng": 13.3262548,
-      "bezirk": "Charlottenburg-Wilmersdorf",
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null,
       "showings": [
         {
           "time": "19:40",
           "cinema": "Ladenkino",
+          "address": "Gärtnerstraße 19, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/201394/",
           "note": "OmU"
         },
         {
           "time": "20:00",
           "cinema": "Kino Zukunft",
+          "address": "Laskerstraße 5, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/201394/",
           "note": "OmU"
         }
@@ -1142,14 +1171,15 @@
       "time_known": false,
       "genre": "Kultur",
       "subcategory": null,
-      "address": "Straße des 17. Juni 145, 10623 Charlottenburg",
-      "lat": 52.5120816,
-      "lng": 13.3240122,
-      "bezirk": "Charlottenburg-Wilmersdorf",
+      "address": "Hasenheide 54, 10967 Kreuzberg",
+      "lat": 52.4894942,
+      "lng": 13.4100369,
+      "bezirk": "Friedrichshain-Kreuzberg",
       "showings": [
         {
           "time": "19:45",
           "cinema": "Sputnik",
+          "address": "Hasenheide 54, 10967 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314070/",
           "note": null
         }
@@ -1297,13 +1327,14 @@
       "genre": "Kultur",
       "subcategory": null,
       "address": "Gärtnerstraße 19, 10245 Friedrichshain",
-      "lat": 52.5118751,
-      "lng": 13.4616485,
+      "lat": 52.5117587,
+      "lng": 13.4615491,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": [
         {
           "time": "20:00",
           "cinema": "Ladenkino",
+          "address": "Gärtnerstraße 19, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313721/",
           "note": "OmU"
         }
@@ -1353,6 +1384,7 @@
         {
           "time": "20:20",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314068/",
           "note": "OmU"
         }
@@ -1381,6 +1413,7 @@
         {
           "time": "21:00",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314222/",
           "note": "OmU"
         }
@@ -1401,14 +1434,15 @@
       "time_known": false,
       "genre": "Kultur",
       "subcategory": null,
-      "address": "Kynaststraße, 10245 Friedrichshain",
-      "lat": 52.4979656,
-      "lng": 13.4661487,
+      "address": "Laskerstraße 5, 10245 Friedrichshain",
+      "lat": 52.5017433,
+      "lng": 13.4654291,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": [
         {
           "time": "22:00",
           "cinema": "Kino Zukunft",
+          "address": "Laskerstraße 5, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/311863/",
           "note": "OmU"
         }
@@ -1430,13 +1464,14 @@
       "genre": "Kultur",
       "subcategory": null,
       "address": "Gärtnerstraße 19, 10245 Friedrichshain",
-      "lat": 52.5118751,
-      "lng": 13.4616485,
+      "lat": 52.5117587,
+      "lng": 13.4615491,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": [
         {
           "time": "22:20",
           "cinema": "Ladenkino",
+          "address": "Gärtnerstraße 19, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/312627/",
           "note": "OmU"
         }
@@ -1458,13 +1493,14 @@
       "genre": "Kultur",
       "subcategory": null,
       "address": "Gärtnerstraße 19, 10245 Friedrichshain",
-      "lat": 52.5118751,
-      "lng": 13.4616485,
+      "lat": 52.5117587,
+      "lng": 13.4615491,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": [
         {
           "time": "22:35",
           "cinema": "Ladenkino",
+          "address": "Gärtnerstraße 19, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313874/",
           "note": "OmU"
         }
@@ -1486,13 +1522,14 @@
       "genre": "Kultur",
       "subcategory": null,
       "address": "Gärtnerstraße 19, 10245 Friedrichshain",
-      "lat": 52.5118751,
-      "lng": 13.4616485,
+      "lat": 52.5117587,
+      "lng": 13.4615491,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": [
         {
           "time": "23:00",
           "cinema": "Ladenkino",
+          "address": "Gärtnerstraße 19, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314225/",
           "note": "OmU"
         }
@@ -2018,19 +2055,21 @@
       "genre": "Kultur",
       "subcategory": null,
       "address": "Gärtnerstraße 19, 10245 Friedrichshain",
-      "lat": 52.5118751,
-      "lng": 13.4616485,
+      "lat": 52.5117587,
+      "lng": 13.4615491,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": [
         {
           "time": "11:00",
           "cinema": "Ladenkino",
+          "address": "Gärtnerstraße 19, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/312866/",
           "note": "OmU"
         },
         {
           "time": "21:35",
           "cinema": "Ladenkino",
+          "address": "Gärtnerstraße 19, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/312866/",
           "note": "OmU"
         }
@@ -2052,19 +2091,21 @@
       "genre": "Kultur",
       "subcategory": null,
       "address": "Gärtnerstraße 19, 10245 Friedrichshain",
-      "lat": 52.5118751,
-      "lng": 13.4616485,
+      "lat": 52.5117587,
+      "lng": 13.4615491,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": [
         {
           "time": "11:00",
           "cinema": "Ladenkino",
+          "address": "Gärtnerstraße 19, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314075/",
           "note": "OmU"
         },
         {
           "time": "20:40",
           "cinema": "Ladenkino",
+          "address": "Gärtnerstraße 19, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314075/",
           "note": "OmU"
         }
@@ -2086,13 +2127,14 @@
       "genre": "Kultur",
       "subcategory": null,
       "address": "Gärtnerstraße 19, 10245 Friedrichshain",
-      "lat": 52.5118751,
-      "lng": 13.4616485,
+      "lat": 52.5117587,
+      "lng": 13.4615491,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": [
         {
           "time": "11:00",
           "cinema": "Ladenkino",
+          "address": "Gärtnerstraße 19, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313630/",
           "note": "OmU"
         }
@@ -2114,13 +2156,14 @@
       "genre": "Kultur",
       "subcategory": null,
       "address": "Gärtnerstraße 19, 10245 Friedrichshain",
-      "lat": 52.5118751,
-      "lng": 13.4616485,
+      "lat": 52.5117587,
+      "lng": 13.4615491,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": [
         {
           "time": "12:55",
           "cinema": "Ladenkino",
+          "address": "Gärtnerstraße 19, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313628/",
           "note": "OmU"
         }
@@ -2142,13 +2185,14 @@
       "genre": "Kultur",
       "subcategory": null,
       "address": "Gärtnerstraße 19, 10245 Friedrichshain",
-      "lat": 52.5118751,
-      "lng": 13.4616485,
+      "lat": 52.5117587,
+      "lng": 13.4615491,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": [
         {
           "time": "13:20",
           "cinema": "Ladenkino",
+          "address": "Gärtnerstraße 19, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/312472/",
           "note": "OmU"
         }
@@ -2170,13 +2214,14 @@
       "genre": "Kultur",
       "subcategory": null,
       "address": "Gärtnerstraße 19, 10245 Friedrichshain",
-      "lat": 52.5118751,
-      "lng": 13.4616485,
+      "lat": 52.5117587,
+      "lng": 13.4615491,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": [
         {
           "time": "13:25",
           "cinema": "Ladenkino",
+          "address": "Gärtnerstraße 19, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/311442/",
           "note": "OmU"
         }
@@ -2218,20 +2263,22 @@
       "time_known": false,
       "genre": "Kultur",
       "subcategory": null,
-      "address": "Straße des 17. Juni 136, 10623 Charlottenburg",
-      "lat": 52.5134702,
-      "lng": 13.3262548,
-      "bezirk": "Charlottenburg-Wilmersdorf",
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null,
       "showings": [
         {
           "time": "14:35",
           "cinema": "Ladenkino",
+          "address": "Gärtnerstraße 19, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313760/",
           "note": "OmU"
         },
         {
           "time": "17:00",
           "cinema": "Sputnik",
+          "address": "Hasenheide 54, 10967 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313760/",
           "note": "OmU"
         }
@@ -2253,13 +2300,14 @@
       "genre": "Kultur",
       "subcategory": null,
       "address": "Gärtnerstraße 19, 10245 Friedrichshain",
-      "lat": 52.5118751,
-      "lng": 13.4616485,
+      "lat": 52.5117587,
+      "lng": 13.4615491,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": [
         {
           "time": "15:15",
           "cinema": "Ladenkino",
+          "address": "Gärtnerstraße 19, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313724/",
           "note": null
         }
@@ -2281,13 +2329,14 @@
       "genre": "Kultur",
       "subcategory": null,
       "address": "Gärtnerstraße 19, 10245 Friedrichshain",
-      "lat": 52.5118751,
-      "lng": 13.4616485,
+      "lat": 52.5117587,
+      "lng": 13.4615491,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": [
         {
           "time": "15:50",
           "cinema": "Ladenkino",
+          "address": "Gärtnerstraße 19, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/312340/",
           "note": "OmU"
         }
@@ -2329,20 +2378,22 @@
       "time_known": false,
       "genre": "Kultur",
       "subcategory": null,
-      "address": "Straße des 17. Juni 136, 10623 Charlottenburg",
-      "lat": 52.5134702,
-      "lng": 13.3262548,
-      "bezirk": "Charlottenburg-Wilmersdorf",
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null,
       "showings": [
         {
           "time": "16:40",
           "cinema": "Ladenkino",
+          "address": "Gärtnerstraße 19, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314220/",
           "note": null
         },
         {
           "time": "17:00",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314220/",
           "note": null
         }
@@ -2364,13 +2415,14 @@
       "genre": "Kultur",
       "subcategory": null,
       "address": "Gärtnerstraße 19, 10245 Friedrichshain",
-      "lat": 52.5118751,
-      "lng": 13.4616485,
+      "lat": 52.5117587,
+      "lng": 13.4615491,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": [
         {
           "time": "16:40",
           "cinema": "Ladenkino",
+          "address": "Gärtnerstraße 19, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314223/",
           "note": null
         }
@@ -2399,6 +2451,7 @@
         {
           "time": "16:45",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314955/",
           "note": "OV"
         }
@@ -2469,18 +2522,21 @@
         {
           "time": "17:00",
           "cinema": "Sputnik",
+          "address": "Hasenheide 54, 10967 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313625/",
           "note": "OmU"
         },
         {
           "time": "18:40",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313625/",
           "note": "OmU"
         },
         {
           "time": "23:20",
           "cinema": "Ladenkino",
+          "address": "Gärtnerstraße 19, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313625/",
           "note": "OmU"
         }
@@ -2669,14 +2725,15 @@
       "time_known": false,
       "genre": "Kultur",
       "subcategory": null,
-      "address": "Kynaststraße, 10245 Friedrichshain",
-      "lat": 52.4979656,
-      "lng": 13.4661487,
+      "address": "Laskerstraße 5, 10245 Friedrichshain",
+      "lat": 52.5017433,
+      "lng": 13.4654291,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": [
         {
           "time": "18:00",
           "cinema": "Kino Zukunft",
+          "address": "Laskerstraße 5, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313866/",
           "note": null
         }
@@ -2698,13 +2755,14 @@
       "genre": "Kultur",
       "subcategory": null,
       "address": "Gärtnerstraße 19, 10245 Friedrichshain",
-      "lat": 52.5118751,
-      "lng": 13.4616485,
+      "lat": 52.5117587,
+      "lng": 13.4615491,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": [
         {
           "time": "18:00",
           "cinema": "Ladenkino",
+          "address": "Gärtnerstraße 19, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/308498/",
           "note": "OmU"
         }
@@ -2726,13 +2784,14 @@
       "genre": "Kultur",
       "subcategory": null,
       "address": "Gärtnerstraße 19, 10245 Friedrichshain",
-      "lat": 52.5118751,
-      "lng": 13.4616485,
+      "lat": 52.5117587,
+      "lng": 13.4615491,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": [
         {
           "time": "18:00",
           "cinema": "Ladenkino",
+          "address": "Gärtnerstraße 19, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313735/",
           "note": "OmU"
         }
@@ -2754,25 +2813,28 @@
       "genre": "Kultur",
       "subcategory": null,
       "address": "Gärtnerstraße 19, 10245 Friedrichshain",
-      "lat": 52.5118751,
-      "lng": 13.4616485,
+      "lat": 52.5117587,
+      "lng": 13.4615491,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": [
         {
           "time": "18:15",
           "cinema": "Ladenkino",
+          "address": "Gärtnerstraße 19, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314067/",
           "note": "OmU"
         },
         {
           "time": "20:10",
           "cinema": "Ladenkino",
+          "address": "Gärtnerstraße 19, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314067/",
           "note": "OmU"
         },
         {
           "time": "22:10",
           "cinema": "Ladenkino",
+          "address": "Gärtnerstraße 19, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314067/",
           "note": "OmU"
         }
@@ -2814,14 +2876,15 @@
       "time_known": false,
       "genre": "Kultur",
       "subcategory": null,
-      "address": "Straße des 17. Juni 145, 10623 Charlottenburg",
-      "lat": 52.5120816,
-      "lng": 13.3240122,
-      "bezirk": "Charlottenburg-Wilmersdorf",
+      "address": "Hasenheide 54, 10967 Kreuzberg",
+      "lat": 52.4894942,
+      "lng": 13.4100369,
+      "bezirk": "Friedrichshain-Kreuzberg",
       "showings": [
         {
           "time": "18:30",
           "cinema": "Sputnik",
+          "address": "Hasenheide 54, 10967 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/306386/",
           "note": null
         }
@@ -3102,6 +3165,7 @@
         {
           "time": "19:00",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314222/",
           "note": "OmU"
         }
@@ -3143,14 +3207,15 @@
       "time_known": false,
       "genre": "Kultur",
       "subcategory": null,
-      "address": "Straße des 17. Juni 145, 10623 Charlottenburg",
-      "lat": 52.5120816,
-      "lng": 13.3240122,
-      "bezirk": "Charlottenburg-Wilmersdorf",
+      "address": "Hasenheide 54, 10967 Kreuzberg",
+      "lat": 52.4894942,
+      "lng": 13.4100369,
+      "bezirk": "Friedrichshain-Kreuzberg",
       "showings": [
         {
           "time": "19:15",
           "cinema": "Sputnik",
+          "address": "Hasenheide 54, 10967 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314070/",
           "note": null
         }
@@ -3318,14 +3383,15 @@
       "time_known": false,
       "genre": "Kultur",
       "subcategory": null,
-      "address": "Straße des 17. Juni 145, 10623 Charlottenburg",
-      "lat": 52.5120816,
-      "lng": 13.3240122,
-      "bezirk": "Charlottenburg-Wilmersdorf",
+      "address": "Hasenheide 54, 10967 Kreuzberg",
+      "lat": 52.4894942,
+      "lng": 13.4100369,
+      "bezirk": "Friedrichshain-Kreuzberg",
       "showings": [
         {
           "time": "20:00",
           "cinema": "Sputnik",
+          "address": "Hasenheide 54, 10967 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/232583/",
           "note": null
         }
@@ -3354,18 +3420,21 @@
         {
           "time": "20:00",
           "cinema": "Kino Zukunft",
+          "address": "Laskerstraße 5, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/201394/",
           "note": "OmU"
         },
         {
           "time": "20:00",
           "cinema": "Ladenkino",
+          "address": "Gärtnerstraße 19, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/201394/",
           "note": "OmU"
         },
         {
           "time": "21:00",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/201394/",
           "note": "OmU"
         }
@@ -3394,6 +3463,7 @@
         {
           "time": "20:00",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/315145/",
           "note": null
         }
@@ -3443,6 +3513,7 @@
         {
           "time": "20:20",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314068/",
           "note": "OmU"
         }
@@ -3463,14 +3534,15 @@
       "time_known": false,
       "genre": "Kultur",
       "subcategory": null,
-      "address": "Straße des 17. Juni 145, 10623 Charlottenburg",
-      "lat": 52.5120816,
-      "lng": 13.3240122,
-      "bezirk": "Charlottenburg-Wilmersdorf",
+      "address": "Hasenheide 54, 10967 Kreuzberg",
+      "lat": 52.4894942,
+      "lng": 13.4100369,
+      "bezirk": "Friedrichshain-Kreuzberg",
       "showings": [
         {
           "time": "20:30",
           "cinema": "Sputnik",
+          "address": "Hasenheide 54, 10967 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/311201/",
           "note": "OmU"
         }
@@ -3491,14 +3563,15 @@
       "time_known": false,
       "genre": "Kultur",
       "subcategory": null,
-      "address": "Straße des 17. Juni 145, 10623 Charlottenburg",
-      "lat": 52.5120816,
-      "lng": 13.3240122,
-      "bezirk": "Charlottenburg-Wilmersdorf",
+      "address": "Hasenheide 54, 10967 Kreuzberg",
+      "lat": 52.4894942,
+      "lng": 13.4100369,
+      "bezirk": "Friedrichshain-Kreuzberg",
       "showings": [
         {
           "time": "21:00",
           "cinema": "Sputnik",
+          "address": "Hasenheide 54, 10967 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/312336/",
           "note": "OmU"
         }
@@ -3540,14 +3613,15 @@
       "time_known": false,
       "genre": "Kultur",
       "subcategory": null,
-      "address": "Birkenstraße 33, 10551 Moabit",
-      "lat": 52.5325483,
-      "lng": 13.3411312,
-      "bezirk": "Mitte",
+      "address": "Kastanienallee 77, 10435 Prenzlauer Berg",
+      "lat": 52.5364741,
+      "lng": 13.4078031,
+      "bezirk": "Pankow",
       "showings": [
         {
           "time": "21:30",
           "cinema": "Lichtblick",
+          "address": "Kastanienallee 77, 10435 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/56125/",
           "note": "OmenglU"
         }
@@ -3568,14 +3642,15 @@
       "time_known": false,
       "genre": "Kultur",
       "subcategory": null,
-      "address": "Kynaststraße, 10245 Friedrichshain",
-      "lat": 52.4979656,
-      "lng": 13.4661487,
+      "address": "Laskerstraße 5, 10245 Friedrichshain",
+      "lat": 52.5017433,
+      "lng": 13.4654291,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": [
         {
           "time": "22:00",
           "cinema": "Kino Zukunft",
+          "address": "Laskerstraße 5, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/311863/",
           "note": "OmU"
         }
@@ -3597,13 +3672,14 @@
       "genre": "Kultur",
       "subcategory": null,
       "address": "Gärtnerstraße 19, 10245 Friedrichshain",
-      "lat": 52.5118751,
-      "lng": 13.4616485,
+      "lat": 52.5117587,
+      "lng": 13.4615491,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": [
         {
           "time": "23:05",
           "cinema": "Ladenkino",
+          "address": "Gärtnerstraße 19, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313874/",
           "note": "OmU"
         }
@@ -3737,6 +3813,7 @@
         {
           "time": "16:30",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314220/",
           "note": null
         }
@@ -3765,6 +3842,7 @@
         {
           "time": "16:40",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313625/",
           "note": "OmU"
         }
@@ -3806,14 +3884,15 @@
       "time_known": false,
       "genre": "Kultur",
       "subcategory": null,
-      "address": "Kynaststraße, 10245 Friedrichshain",
-      "lat": 52.4979656,
-      "lng": 13.4661487,
+      "address": "Laskerstraße 5, 10245 Friedrichshain",
+      "lat": 52.5017433,
+      "lng": 13.4654291,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": [
         {
           "time": "17:50",
           "cinema": "Kino Zukunft",
+          "address": "Laskerstraße 5, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/201394/",
           "note": "OmU"
         }
@@ -3960,14 +4039,15 @@
       "time_known": false,
       "genre": "Kultur",
       "subcategory": null,
-      "address": "Birkenstraße 33, 10551 Moabit",
-      "lat": 52.5325483,
-      "lng": 13.3411312,
-      "bezirk": "Mitte",
+      "address": "Kastanienallee 77, 10435 Prenzlauer Berg",
+      "lat": 52.5364741,
+      "lng": 13.4078031,
+      "bezirk": "Pankow",
       "showings": [
         {
           "time": "18:00",
           "cinema": "Lichtblick",
+          "address": "Kastanienallee 77, 10435 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/310677/",
           "note": "OmenglU"
         }
@@ -3996,6 +4076,7 @@
         {
           "time": "18:20",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314222/",
           "note": "OmU"
         }
@@ -4024,6 +4105,7 @@
         {
           "time": "18:30",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314905/",
           "note": "OmU"
         }
@@ -4338,14 +4420,15 @@
       "time_known": false,
       "genre": "Kultur",
       "subcategory": null,
-      "address": "Kynaststraße, 10245 Friedrichshain",
-      "lat": 52.4979656,
-      "lng": 13.4661487,
+      "address": "Laskerstraße 5, 10245 Friedrichshain",
+      "lat": 52.5017433,
+      "lng": 13.4654291,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": [
         {
           "time": "19:45",
           "cinema": "Kino Zukunft",
+          "address": "Laskerstraße 5, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/306386/",
           "note": null
         }
@@ -4534,20 +4617,22 @@
       "time_known": false,
       "genre": "Kultur",
       "subcategory": null,
-      "address": "Straße des 17. Juni 136, 10623 Charlottenburg",
-      "lat": 52.5134702,
-      "lng": 13.3262548,
-      "bezirk": "Charlottenburg-Wilmersdorf",
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null,
       "showings": [
         {
           "time": "20:15",
           "cinema": "Lichtblick",
+          "address": "Kastanienallee 77, 10435 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314068/",
           "note": "OmU"
         },
         {
           "time": "20:20",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314068/",
           "note": "OmU"
         }
@@ -4576,6 +4661,7 @@
         {
           "time": "20:30",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/310206/",
           "note": "OmU"
         }
@@ -4659,14 +4745,15 @@
       "time_known": false,
       "genre": "Kultur",
       "subcategory": null,
-      "address": "Kynaststraße, 10245 Friedrichshain",
-      "lat": 52.4979656,
-      "lng": 13.4661487,
+      "address": "Laskerstraße 5, 10245 Friedrichshain",
+      "lat": 52.5017433,
+      "lng": 13.4654291,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": [
         {
           "time": "21:25",
           "cinema": "Kino Zukunft",
+          "address": "Laskerstraße 5, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/312873/",
           "note": "OmU"
         }
@@ -4884,6 +4971,7 @@
         {
           "time": "16:40",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314220/",
           "note": null
         }
@@ -5009,20 +5097,22 @@
       "time_known": false,
       "genre": "Kultur",
       "subcategory": null,
-      "address": "Straße des 17. Juni 136, 10623 Charlottenburg",
-      "lat": 52.5134702,
-      "lng": 13.3262548,
-      "bezirk": "Charlottenburg-Wilmersdorf",
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null,
       "showings": [
         {
           "time": "17:00",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/201394/",
           "note": "OmU"
         },
         {
           "time": "17:50",
           "cinema": "Kino Zukunft",
+          "address": "Laskerstraße 5, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/201394/",
           "note": "OmU"
         }
@@ -5177,6 +5267,7 @@
         {
           "time": "18:30",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313625/",
           "note": "OmU"
         }
@@ -5436,6 +5527,7 @@
         {
           "time": "19:00",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314222/",
           "note": "OmU"
         }
@@ -5498,14 +5590,15 @@
       "time_known": false,
       "genre": "Kultur",
       "subcategory": null,
-      "address": "Kynaststraße, 10245 Friedrichshain",
-      "lat": 52.4979656,
-      "lng": 13.4661487,
+      "address": "Laskerstraße 5, 10245 Friedrichshain",
+      "lat": 52.5017433,
+      "lng": 13.4654291,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": [
         {
           "time": "19:45",
           "cinema": "Kino Zukunft",
+          "address": "Laskerstraße 5, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/306386/",
           "note": null
         }
@@ -5639,6 +5732,7 @@
         {
           "time": "20:10",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314068/",
           "note": "OmU"
         }
@@ -5751,6 +5845,7 @@
         {
           "time": "21:00",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/310206/",
           "note": "OmU"
         }
@@ -5771,14 +5866,15 @@
       "time_known": false,
       "genre": "Kultur",
       "subcategory": null,
-      "address": "Kynaststraße, 10245 Friedrichshain",
-      "lat": 52.4979656,
-      "lng": 13.4661487,
+      "address": "Laskerstraße 5, 10245 Friedrichshain",
+      "lat": 52.5017433,
+      "lng": 13.4654291,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": [
         {
           "time": "21:25",
           "cinema": "Kino Zukunft",
+          "address": "Laskerstraße 5, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/308235/",
           "note": "OmU"
         }
@@ -5870,6 +5966,7 @@
         {
           "time": "13:20",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/310923/",
           "note": null
         }
@@ -5961,6 +6058,7 @@
         {
           "time": "14:00",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/309748/",
           "note": null
         }
@@ -6031,6 +6129,7 @@
         {
           "time": "15:20",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314220/",
           "note": null
         }
@@ -6080,6 +6179,7 @@
         {
           "time": "15:40",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/310883/",
           "note": "OmU"
         }
@@ -6205,20 +6305,22 @@
       "time_known": false,
       "genre": "Kultur",
       "subcategory": null,
-      "address": "Kynaststraße, 10245 Friedrichshain",
-      "lat": 52.4979656,
-      "lng": 13.4661487,
+      "address": "Laskerstraße 5, 10245 Friedrichshain",
+      "lat": 52.5017433,
+      "lng": 13.4654291,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": [
         {
           "time": "16:00",
           "cinema": "Kino Zukunft",
+          "address": "Laskerstraße 5, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/306386/",
           "note": null
         },
         {
           "time": "19:45",
           "cinema": "Kino Zukunft",
+          "address": "Laskerstraße 5, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/306386/",
           "note": null
         }
@@ -6310,6 +6412,7 @@
         {
           "time": "17:00",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/201394/",
           "note": "OmU"
         }
@@ -6401,6 +6504,7 @@
         {
           "time": "17:30",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314905/",
           "note": "OmU"
         }
@@ -6421,14 +6525,15 @@
       "time_known": false,
       "genre": "Kultur",
       "subcategory": null,
-      "address": "Kynaststraße, 10245 Friedrichshain",
-      "lat": 52.4979656,
-      "lng": 13.4661487,
+      "address": "Laskerstraße 5, 10245 Friedrichshain",
+      "lat": 52.5017433,
+      "lng": 13.4654291,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": [
         {
           "time": "17:40",
           "cinema": "Kino Zukunft",
+          "address": "Laskerstraße 5, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313866/",
           "note": null
         }
@@ -6583,6 +6688,7 @@
         {
           "time": "19:00",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313625/",
           "note": "OmU"
         }
@@ -6611,6 +6717,7 @@
         {
           "time": "19:10",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314222/",
           "note": "OmU"
         }
@@ -6912,6 +7019,7 @@
         {
           "time": "20:40",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314068/",
           "note": "OmU"
         }
@@ -7003,6 +7111,7 @@
         {
           "time": "21:10",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/310206/",
           "note": "OmU"
         }
@@ -7023,14 +7132,15 @@
       "time_known": false,
       "genre": "Kultur",
       "subcategory": null,
-      "address": "Kynaststraße, 10245 Friedrichshain",
-      "lat": 52.4979656,
-      "lng": 13.4661487,
+      "address": "Laskerstraße 5, 10245 Friedrichshain",
+      "lat": 52.5017433,
+      "lng": 13.4654291,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": [
         {
           "time": "21:25",
           "cinema": "Kino Zukunft",
+          "address": "Laskerstraße 5, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/312873/",
           "note": "OmU"
         }
@@ -7374,6 +7484,7 @@
         {
           "time": "13:00",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/310923/",
           "note": null
         }
@@ -7402,6 +7513,7 @@
         {
           "time": "13:30",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/309748/",
           "note": null
         }
@@ -7598,6 +7710,7 @@
         {
           "time": "15:00",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314220/",
           "note": null
         }
@@ -7626,6 +7739,7 @@
         {
           "time": "15:10",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/310883/",
           "note": "OmU"
         }
@@ -7667,14 +7781,15 @@
       "time_known": false,
       "genre": "Kultur",
       "subcategory": null,
-      "address": "Birkenstraße 33, 10551 Moabit",
-      "lat": 52.5325483,
-      "lng": 13.3411312,
-      "bezirk": "Mitte",
+      "address": "Kastanienallee 77, 10435 Prenzlauer Berg",
+      "lat": 52.5364741,
+      "lng": 13.4078031,
+      "bezirk": "Pankow",
       "showings": [
         {
           "time": "15:30",
           "cinema": "Lichtblick",
+          "address": "Kastanienallee 77, 10435 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/10895/",
           "note": "OmenglU"
         }
@@ -7758,20 +7873,22 @@
       "time_known": false,
       "genre": "Kultur",
       "subcategory": null,
-      "address": "Kynaststraße, 10245 Friedrichshain",
-      "lat": 52.4979656,
-      "lng": 13.4661487,
+      "address": "Laskerstraße 5, 10245 Friedrichshain",
+      "lat": 52.5017433,
+      "lng": 13.4654291,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": [
         {
           "time": "16:00",
           "cinema": "Kino Zukunft",
+          "address": "Laskerstraße 5, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/306386/",
           "note": null
         },
         {
           "time": "19:45",
           "cinema": "Kino Zukunft",
+          "address": "Laskerstraße 5, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/306386/",
           "note": null
         }
@@ -7821,6 +7938,7 @@
         {
           "time": "16:40",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/201394/",
           "note": "OmU"
         }
@@ -7912,6 +8030,7 @@
         {
           "time": "17:00",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314222/",
           "note": "OmU"
         }
@@ -7953,14 +8072,15 @@
       "time_known": false,
       "genre": "Kultur",
       "subcategory": null,
-      "address": "Kynaststraße, 10245 Friedrichshain",
-      "lat": 52.4979656,
-      "lng": 13.4661487,
+      "address": "Laskerstraße 5, 10245 Friedrichshain",
+      "lat": 52.5017433,
+      "lng": 13.4654291,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": [
         {
           "time": "17:40",
           "cinema": "Kino Zukunft",
+          "address": "Laskerstraße 5, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313866/",
           "note": null
         }
@@ -7981,20 +8101,22 @@
       "time_known": false,
       "genre": "Kultur",
       "subcategory": null,
-      "address": "Straße des 17. Juni 136, 10623 Charlottenburg",
-      "lat": 52.5134702,
-      "lng": 13.3262548,
-      "bezirk": "Charlottenburg-Wilmersdorf",
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null,
       "showings": [
         {
           "time": "17:45",
           "cinema": "Lichtblick",
+          "address": "Kastanienallee 77, 10435 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314068/",
           "note": "OmU"
         },
         {
           "time": "20:20",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314068/",
           "note": "OmU"
         }
@@ -8015,14 +8137,15 @@
       "time_known": false,
       "genre": "Kultur",
       "subcategory": null,
-      "address": "Birkenstraße 33, 10551 Moabit",
-      "lat": 52.5325483,
-      "lng": 13.3411312,
-      "bezirk": "Mitte",
+      "address": "Kastanienallee 77, 10435 Prenzlauer Berg",
+      "lat": 52.5364741,
+      "lng": 13.4078031,
+      "bezirk": "Pankow",
       "showings": [
         {
           "time": "17:45",
           "cinema": "Lichtblick",
+          "address": "Kastanienallee 77, 10435 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314078/",
           "note": "OmU"
         }
@@ -8093,6 +8216,7 @@
         {
           "time": "18:40",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313625/",
           "note": "OmU"
         }
@@ -8205,6 +8329,7 @@
         {
           "time": "19:00",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/310206/",
           "note": "OmU"
         }
@@ -8296,12 +8421,14 @@
         {
           "time": "21:10",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314905/",
           "note": "OmU"
         },
         {
           "time": "21:20",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314905/",
           "note": "OmU"
         }
@@ -8322,14 +8449,15 @@
       "time_known": false,
       "genre": "Kultur",
       "subcategory": null,
-      "address": "Birkenstraße 33, 10551 Moabit",
-      "lat": 52.5325483,
-      "lng": 13.3411312,
-      "bezirk": "Mitte",
+      "address": "Kastanienallee 77, 10435 Prenzlauer Berg",
+      "lat": 52.5364741,
+      "lng": 13.4078031,
+      "bezirk": "Pankow",
       "showings": [
         {
           "time": "21:15",
           "cinema": "Lichtblick",
+          "address": "Kastanienallee 77, 10435 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/308330/",
           "note": "OmenglU"
         }
@@ -8350,14 +8478,15 @@
       "time_known": false,
       "genre": "Kultur",
       "subcategory": null,
-      "address": "Kynaststraße, 10245 Friedrichshain",
-      "lat": 52.4979656,
-      "lng": 13.4661487,
+      "address": "Laskerstraße 5, 10245 Friedrichshain",
+      "lat": 52.5017433,
+      "lng": 13.4654291,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": [
         {
           "time": "21:25",
           "cinema": "Kino Zukunft",
+          "address": "Laskerstraße 5, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/308235/",
           "note": "OmU"
         }
@@ -8491,6 +8620,7 @@
         {
           "time": "16:40",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314220/",
           "note": null
         }
@@ -8553,20 +8683,22 @@
       "time_known": false,
       "genre": "Kultur",
       "subcategory": null,
-      "address": "Straße des 17. Juni 136, 10623 Charlottenburg",
-      "lat": 52.5134702,
-      "lng": 13.3262548,
-      "bezirk": "Charlottenburg-Wilmersdorf",
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null,
       "showings": [
         {
           "time": "17:00",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/201394/",
           "note": "OmU"
         },
         {
           "time": "17:50",
           "cinema": "Kino Zukunft",
+          "address": "Laskerstraße 5, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/201394/",
           "note": "OmU"
         }
@@ -8650,14 +8782,15 @@
       "time_known": false,
       "genre": "Kultur",
       "subcategory": null,
-      "address": "Birkenstraße 33, 10551 Moabit",
-      "lat": 52.5325483,
-      "lng": 13.3411312,
-      "bezirk": "Mitte",
+      "address": "Kastanienallee 77, 10435 Prenzlauer Berg",
+      "lat": 52.5364741,
+      "lng": 13.4078031,
+      "bezirk": "Pankow",
       "showings": [
         {
           "time": "18:15",
           "cinema": "Lichtblick",
+          "address": "Kastanienallee 77, 10435 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313625/",
           "note": "OmenglU"
         }
@@ -8728,6 +8861,7 @@
         {
           "time": "18:30",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/310883/",
           "note": "OmU"
         }
@@ -8903,6 +9037,7 @@
         {
           "time": "19:00",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314222/",
           "note": "OmU"
         }
@@ -8965,14 +9100,15 @@
       "time_known": false,
       "genre": "Kultur",
       "subcategory": null,
-      "address": "Birkenstraße 33, 10551 Moabit",
-      "lat": 52.5325483,
-      "lng": 13.3411312,
-      "bezirk": "Mitte",
+      "address": "Kastanienallee 77, 10435 Prenzlauer Berg",
+      "lat": 52.5364741,
+      "lng": 13.4078031,
+      "bezirk": "Pankow",
       "showings": [
         {
           "time": "19:30",
           "cinema": "Lichtblick",
+          "address": "Kastanienallee 77, 10435 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313735/",
           "note": "OmenglU"
         }
@@ -8993,14 +9129,15 @@
       "time_known": false,
       "genre": "Kultur",
       "subcategory": null,
-      "address": "Kynaststraße, 10245 Friedrichshain",
-      "lat": 52.4979656,
-      "lng": 13.4661487,
+      "address": "Laskerstraße 5, 10245 Friedrichshain",
+      "lat": 52.5017433,
+      "lng": 13.4654291,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": [
         {
           "time": "19:45",
           "cinema": "Kino Zukunft",
+          "address": "Laskerstraße 5, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/306386/",
           "note": null
         }
@@ -9113,6 +9250,7 @@
         {
           "time": "20:20",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314068/",
           "note": "OmU"
         }
@@ -9162,6 +9300,7 @@
         {
           "time": "21:00",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/310206/",
           "note": "OmU"
         }
@@ -9182,14 +9321,15 @@
       "time_known": false,
       "genre": "Kultur",
       "subcategory": null,
-      "address": "Kynaststraße, 10245 Friedrichshain",
-      "lat": 52.4979656,
-      "lng": 13.4661487,
+      "address": "Laskerstraße 5, 10245 Friedrichshain",
+      "lat": 52.5017433,
+      "lng": 13.4654291,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": [
         {
           "time": "21:25",
           "cinema": "Kino Zukunft",
+          "address": "Laskerstraße 5, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/312873/",
           "note": "OmU"
         }
@@ -9210,14 +9350,15 @@
       "time_known": false,
       "genre": "Kultur",
       "subcategory": null,
-      "address": "Birkenstraße 33, 10551 Moabit",
-      "lat": 52.5325483,
-      "lng": 13.3411312,
-      "bezirk": "Mitte",
+      "address": "Kastanienallee 77, 10435 Prenzlauer Berg",
+      "lat": 52.5364741,
+      "lng": 13.4078031,
+      "bezirk": "Pankow",
       "showings": [
         {
           "time": "21:30",
           "cinema": "Lichtblick",
+          "address": "Kastanienallee 77, 10435 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/56125/",
           "note": "OmenglU"
         }
@@ -9330,6 +9471,7 @@
         {
           "time": "17:00",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314220/",
           "note": null
         }
@@ -9350,20 +9492,22 @@
       "time_known": false,
       "genre": "Kultur",
       "subcategory": null,
-      "address": "Straße des 17. Juni 136, 10623 Charlottenburg",
-      "lat": 52.5134702,
-      "lng": 13.3262548,
-      "bezirk": "Charlottenburg-Wilmersdorf",
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null,
       "showings": [
         {
           "time": "17:20",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313625/",
           "note": "OmU"
         },
         {
           "time": "22:30",
           "cinema": "Lichtblick",
+          "address": "Kastanienallee 77, 10435 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313625/",
           "note": "OmenglU"
         }
@@ -9384,14 +9528,15 @@
       "time_known": false,
       "genre": "Kultur",
       "subcategory": null,
-      "address": "Kynaststraße, 10245 Friedrichshain",
-      "lat": 52.4979656,
-      "lng": 13.4661487,
+      "address": "Laskerstraße 5, 10245 Friedrichshain",
+      "lat": 52.5017433,
+      "lng": 13.4654291,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": [
         {
           "time": "17:50",
           "cinema": "Kino Zukunft",
+          "address": "Laskerstraße 5, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/201394/",
           "note": "OmU"
         }
@@ -9475,14 +9620,15 @@
       "time_known": false,
       "genre": "Kultur",
       "subcategory": null,
-      "address": "Birkenstraße 33, 10551 Moabit",
-      "lat": 52.5325483,
-      "lng": 13.3411312,
-      "bezirk": "Mitte",
+      "address": "Kastanienallee 77, 10435 Prenzlauer Berg",
+      "lat": 52.5364741,
+      "lng": 13.4078031,
+      "bezirk": "Pankow",
       "showings": [
         {
           "time": "18:00",
           "cinema": "Lichtblick",
+          "address": "Kastanienallee 77, 10435 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/308330/",
           "note": "OmenglU"
         }
@@ -9658,6 +9804,7 @@
         {
           "time": "19:00",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314222/",
           "note": "OmU"
         }
@@ -9686,6 +9833,7 @@
         {
           "time": "19:10",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314078/",
           "note": "OmU"
         }
@@ -9727,14 +9875,15 @@
       "time_known": false,
       "genre": "Kultur",
       "subcategory": null,
-      "address": "Kynaststraße, 10245 Friedrichshain",
-      "lat": 52.4979656,
-      "lng": 13.4661487,
+      "address": "Laskerstraße 5, 10245 Friedrichshain",
+      "lat": 52.5017433,
+      "lng": 13.4654291,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": [
         {
           "time": "19:45",
           "cinema": "Kino Zukunft",
+          "address": "Laskerstraße 5, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/306386/",
           "note": null
         }
@@ -9860,14 +10009,15 @@
       "time_known": false,
       "genre": "Kultur",
       "subcategory": null,
-      "address": "Birkenstraße 33, 10551 Moabit",
-      "lat": 52.5325483,
-      "lng": 13.3411312,
-      "bezirk": "Mitte",
+      "address": "Kastanienallee 77, 10435 Prenzlauer Berg",
+      "lat": 52.5364741,
+      "lng": 13.4078031,
+      "bezirk": "Pankow",
       "showings": [
         {
           "time": "20:30",
           "cinema": "Lichtblick",
+          "address": "Kastanienallee 77, 10435 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313735/",
           "note": "OmenglU"
         }
@@ -9896,6 +10046,7 @@
         {
           "time": "21:00",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/310206/",
           "note": "OmU"
         }
@@ -9916,14 +10067,15 @@
       "time_known": false,
       "genre": "Kultur",
       "subcategory": null,
-      "address": "Kynaststraße, 10245 Friedrichshain",
-      "lat": 52.4979656,
-      "lng": 13.4661487,
+      "address": "Laskerstraße 5, 10245 Friedrichshain",
+      "lat": 52.5017433,
+      "lng": 13.4654291,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": [
         {
           "time": "21:25",
           "cinema": "Kino Zukunft",
+          "address": "Laskerstraße 5, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/308235/",
           "note": "OmU"
         }
@@ -10015,6 +10167,7 @@
         {
           "time": "16:40",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314220/",
           "note": null
         }
@@ -10056,20 +10209,22 @@
       "time_known": false,
       "genre": "Kultur",
       "subcategory": null,
-      "address": "Straße des 17. Juni 136, 10623 Charlottenburg",
-      "lat": 52.5134702,
-      "lng": 13.3262548,
-      "bezirk": "Charlottenburg-Wilmersdorf",
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null,
       "showings": [
         {
           "time": "17:00",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/201394/",
           "note": "OmU"
         },
         {
           "time": "17:50",
           "cinema": "Kino Zukunft",
+          "address": "Laskerstraße 5, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/201394/",
           "note": "OmU"
         }
@@ -10153,14 +10308,15 @@
       "time_known": false,
       "genre": "Kultur",
       "subcategory": null,
-      "address": "Birkenstraße 33, 10551 Moabit",
-      "lat": 52.5325483,
-      "lng": 13.3411312,
-      "bezirk": "Mitte",
+      "address": "Kastanienallee 77, 10435 Prenzlauer Berg",
+      "lat": 52.5364741,
+      "lng": 13.4078031,
+      "bezirk": "Pankow",
       "showings": [
         {
           "time": "18:15",
           "cinema": "Lichtblick",
+          "address": "Kastanienallee 77, 10435 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/11692/",
           "note": "OmenglU"
         }
@@ -10189,6 +10345,7 @@
         {
           "time": "18:30",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313625/",
           "note": "OmU"
         }
@@ -10343,6 +10500,7 @@
         {
           "time": "19:00",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314222/",
           "note": "OmU"
         }
@@ -10384,14 +10542,15 @@
       "time_known": false,
       "genre": "Kultur",
       "subcategory": null,
-      "address": "Kynaststraße, 10245 Friedrichshain",
-      "lat": 52.4979656,
-      "lng": 13.4661487,
+      "address": "Laskerstraße 5, 10245 Friedrichshain",
+      "lat": 52.5017433,
+      "lng": 13.4654291,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": [
         {
           "time": "19:45",
           "cinema": "Kino Zukunft",
+          "address": "Laskerstraße 5, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/306386/",
           "note": null
         }
@@ -10517,14 +10676,15 @@
       "time_known": false,
       "genre": "Kultur",
       "subcategory": null,
-      "address": "Birkenstraße 33, 10551 Moabit",
-      "lat": 52.5325483,
-      "lng": 13.3411312,
-      "bezirk": "Mitte",
+      "address": "Kastanienallee 77, 10435 Prenzlauer Berg",
+      "lat": 52.5364741,
+      "lng": 13.4078031,
+      "bezirk": "Pankow",
       "showings": [
         {
           "time": "20:00",
           "cinema": "Lichtblick",
+          "address": "Kastanienallee 77, 10435 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313635/",
           "note": "OmenglU"
         }
@@ -10553,6 +10713,7 @@
         {
           "time": "20:10",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314068/",
           "note": "OmU"
         }
@@ -10644,6 +10805,7 @@
         {
           "time": "21:00",
           "cinema": "Wolf Kino",
+          "address": "Weserstraße 59, 12045 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/310206/",
           "note": "OmU"
         }
@@ -10664,14 +10826,15 @@
       "time_known": false,
       "genre": "Kultur",
       "subcategory": null,
-      "address": "Kynaststraße, 10245 Friedrichshain",
-      "lat": 52.4979656,
-      "lng": 13.4661487,
+      "address": "Laskerstraße 5, 10245 Friedrichshain",
+      "lat": 52.5017433,
+      "lng": 13.4654291,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": [
         {
           "time": "21:25",
           "cinema": "Kino Zukunft",
+          "address": "Laskerstraße 5, 10245 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/312873/",
           "note": "OmU"
         }
@@ -10713,14 +10876,15 @@
       "time_known": false,
       "genre": "Kultur",
       "subcategory": null,
-      "address": "Birkenstraße 33, 10551 Moabit",
-      "lat": 52.5325483,
-      "lng": 13.3411312,
-      "bezirk": "Mitte",
+      "address": "Kastanienallee 77, 10435 Prenzlauer Berg",
+      "lat": 52.5364741,
+      "lng": 13.4078031,
+      "bezirk": "Pankow",
       "showings": [
         {
           "time": "21:45",
           "cinema": "Lichtblick",
+          "address": "Kastanienallee 77, 10435 Berlin",
           "url": "https://www.berlin.de/kino/_bin/filmdetail.php/56125/",
           "note": "OmenglU"
         }

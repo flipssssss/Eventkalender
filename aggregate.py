@@ -47,6 +47,7 @@ from scrapers.timetoshine import TimeToShineScraper
 from scrapers.mec import MecScraper
 from scrapers.koenig import KoenigScraper
 from scrapers.kino import BerlinKinoScraper, group_screenings
+from scrapers.probe_ra import ProbeRaScraper
 
 ROOT = pathlib.Path(__file__).parent
 OUTPUT = ROOT / "docs" / "data" / "events.json"
@@ -135,6 +136,7 @@ def get_scrapers():
         KoenigScraper(),
         # Arthouse-Kinos via berlin.de (gruppiert nach Film/Tag).
         BerlinKinoScraper(horizon_days=HORIZON_DAYS),
+        ProbeRaScraper(),
         # Tipsy Bear: bleibt deaktiviert -- alle Endpunkte hängen hinter
         # Cloudflares JS-Challenge ("Just a moment...", 403), es gibt keinen
         # erreichbaren Daten-Endpunkt (Diagnose in _debug/tipsy-bear.txt).

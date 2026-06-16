@@ -33,6 +33,17 @@ CINEMAS = {
     "Wolf Kino": "38197",
 }
 
+# Fixed addresses (for the map + Bezirk and the detail view).
+CINEMA_ADDR = {
+    "Sputnik": "Hasenheide 54, 10967 Berlin",
+    "Lichtblick": "Kastanienallee 77, 10435 Berlin",
+    "Kino Zukunft": "Laskerstraße 5, 10245 Berlin",
+    "Ladenkino": "Gärtnerstraße 19, 10245 Berlin",
+    "Wolf Kino": "Weserstraße 59, 12045 Berlin",
+}
+OG_IMAGE_RE = re.compile(
+    r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)', re.I)
+
 BROWSER = {
     "User-Agent": (
         "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
@@ -67,8 +78,28 @@ class BerlinKinoScraper(BaseScraper):
             n = self._parse_cinema(html, cinema, today, horizon, events)
             report.append(f"{cinema}: {n} Vorstellungen")
 
-        self._dump(f"Vorstellungen gesamt: {len(events)}\n" + "\n".join(report))
+        imgs = self._add_images(events)
+        self._dump(f"Vorstellungen gesamt: {len(events)} | Filmbilder: {imgs}\n"
+                   + "\n".join(report))
         return events
+
+    def _add_images(self, events: list[Event]) -> int:
+        """Fetch each unique film page once and read its og:image poster."""
+        cache: dict[str, str] = {}
+        urls = [u for u in dict.fromkeys(
+            e.source_url for e in events if (e.source_url or "").startswith("http"))]
+        for url in urls[:150]:
+            try:
+                html = self.get(url, headers=BROWSER).text
+            except Exception:  # noqa: BLE001
+                continue
+            m = OG_IMAGE_RE.search(html)
+            if m:
+                cache[url] = m.group(1)
+        for e in events:
+            if e.source_url in cache:
+                e.image_url = cache[e.source_url]
+        return len(cache)
 
     def _parse_cinema(self, html, cinema, today, horizon, out) -> int:
         soup = BeautifulSoup(html, "html.parser")
@@ -155,18 +186,24 @@ def group_screenings(events: list[Event]) -> list[Event]:
         showings.sort(key=lambda e: e.start)
         first = showings[0]
         cinemas = sorted({s.location for s in showings})
+        single = len(cinemas) == 1
         ev = Event(
             title=_display_title(first.title)[:140] or first.title[:140],
             start=first.start,            # earliest screening -> sort position
             source_url=first.source_url,
             source_name=KINO_SOURCE,
-            location=cinemas[0] if len(cinemas) == 1 else f"{len(cinemas)} Kinos",
+            location=cinemas[0] if single else f"{len(cinemas)} Kinos",
+            # Single cinema -> address so it lands on the map; several cinemas
+            # carry their addresses per screening instead.
+            address=CINEMA_ADDR.get(cinemas[0]) if single else None,
+            image_url=next((s.image_url for s in showings if s.image_url), None),
             time_known=False,             # date line shows the date only
             tags=["Kino"],
         )
         ev.showings = [{
             "time": s.start.strftime("%H:%M"),
             "cinema": s.location,
+            "address": CINEMA_ADDR.get(s.location),
             "url": s.source_url,
             "note": s.subcategory,
         } for s in showings]

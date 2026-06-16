@@ -720,7 +720,10 @@ function openModal(ev) {
   title.textContent = ev.title || "Ohne Titel";
   body.appendChild(title);
 
-  if (ev.location || ev.address) {
+  // For cinema events the per-cinema addresses live in the screenings list, so
+  // skip the single location toggle there.
+  const isCinema = ev.showings && ev.showings.length;
+  if (!isCinema && (ev.location || ev.address)) {
     const loc = document.createElement("div");
     loc.className = "modal-location";
     const parts = [ev.location, ev.address].filter(Boolean);
@@ -745,11 +748,14 @@ function openModal(ev) {
     panel.className = "modal-map-panel";
     panel.hidden = true;
     loc.appendChild(panel);
-    toggle.addEventListener("click", () => toggleAddressPanel(ev, toggle, panel, label));
+    attachMapToggle(toggle, panel, {
+      address: ev.address || (ev.location ? ev.location + ", Berlin" : label),
+      lat: ev.lat, lng: ev.lng, genre: ev.genre,
+    });
     body.appendChild(loc);
   }
 
-  const modalShowings = renderShowings(ev);
+  const modalShowings = renderShowings(ev, { withAddress: true });
   if (modalShowings) body.appendChild(modalShowings);
 
   // Genre first, then categories -- same order as on the cards.
@@ -842,59 +848,64 @@ function openModal(ev) {
   document.body.style.overflow = "hidden";
 }
 
-let modalMap = null;
+let modalMaps = [];
 
-// Click on the address -> expand an embedded map with a "copy address" button.
-async function toggleAddressPanel(ev, toggle, panel, label) {
-  const opening = panel.hidden;
-  panel.hidden = !opening;
-  toggle.classList.toggle("open", opening);
-  if (!opening || panel.dataset.built) return;
+// Toggle a panel that shows an embedded map + a floating "copy address" button.
+// opts: { address, lat, lng, genre }.
+function attachMapToggle(toggle, panel, opts) {
+  toggle.addEventListener("click", () => {
+    const opening = panel.hidden;
+    panel.hidden = !opening;
+    toggle.classList.toggle("open", opening);
+    if (opening) openMapPanel(panel, opts);
+  });
+}
+
+async function openMapPanel(panel, opts) {
+  if (panel.dataset.built) return;
   panel.dataset.built = "1";
 
   const mapDiv = document.createElement("div");
   mapDiv.className = "modal-map";
   panel.appendChild(mapDiv);
 
-  // Floats transparently over the map (top-right).
   const copy = document.createElement("button");
   copy.type = "button";
   copy.className = "map-copy-btn";
   copy.textContent = "📋 Adresse kopieren";
-  const toCopy = ev.address || ev.location || label;
   copy.addEventListener("click", async (e) => {
     e.stopPropagation();
-    try { await navigator.clipboard.writeText(toCopy); toast("Adresse kopiert"); }
+    try { await navigator.clipboard.writeText(opts.address || ""); toast("Adresse kopiert"); }
     catch { toast("Konnte nicht kopieren"); }
   });
   panel.appendChild(copy);
 
-  let lat = ev.lat, lng = ev.lng;
+  let lat = opts.lat, lng = opts.lng;
   if (typeof lat !== "number" || typeof lng !== "number") {
-    const q = ev.address || (ev.location ? ev.location + ", Berlin" : label);
-    const geo = await geocodeClient(q);
+    const geo = await geocodeClient(opts.address || "");
     if (geo) { lat = geo.lat; lng = geo.lng; }
   }
   if (typeof L === "undefined" || typeof lat !== "number" || typeof lng !== "number") {
     mapDiv.innerHTML = '<p class="status">Karte für diese Adresse nicht verfügbar.</p>';
     return;
   }
-  if (modalMap) { modalMap.remove(); modalMap = null; }
-  modalMap = L.map(mapDiv, { scrollWheelZoom: false, attributionControl: true })
+  const m = L.map(mapDiv, { scrollWheelZoom: false, attributionControl: true })
     .setView([lat, lng], 15);
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
-    { maxZoom: 19, attribution: "© OpenStreetMap" }).addTo(modalMap);
+    { maxZoom: 19, attribution: "© OpenStreetMap" }).addTo(m);
   L.circleMarker([lat, lng], {
     radius: 9, color: "#fff", weight: 2,
-    fillColor: genreColor(ev.genre), fillOpacity: 0.95,
-  }).addTo(modalMap);
-  setTimeout(() => modalMap && modalMap.invalidateSize(), 60);
+    fillColor: genreColor(opts.genre), fillOpacity: 0.95,
+  }).addTo(m);
+  modalMaps.push(m);
+  setTimeout(() => m.invalidateSize(), 60);
 }
 
 function closeModal() {
   els.modalBackdrop.setAttribute("hidden", "");
   document.body.style.overflow = "";
-  if (modalMap) { modalMap.remove(); modalMap = null; }
+  for (const m of modalMaps) m.remove();
+  modalMaps = [];
 }
 
 // ---------------- Favourites ----------------
@@ -1426,8 +1437,9 @@ function genreClass(genre) {
   return "g-" + String(genre || "").toLowerCase();
 }
 
-// Cinema events: list all screenings, grouped by cinema (time chips).
-function renderShowings(ev) {
+// Cinema events: list all screenings, grouped by cinema (time chips). With
+// withAddress (modal) each cinema also shows its clickable address + map.
+function renderShowings(ev, opts = {}) {
   if (!ev.showings || !ev.showings.length) return null;
   const wrap = document.createElement("div");
   wrap.className = "showings";
@@ -1436,7 +1448,11 @@ function renderShowings(ev) {
     if (!byCinema.has(s.cinema)) byCinema.set(s.cinema, []);
     byCinema.get(s.cinema).push(s);
   }
+  const single = byCinema.size === 1;
   for (const [cinema, list] of byCinema) {
+    const block = document.createElement("div");
+    block.className = "showing-block";
+
     const row = document.createElement("div");
     row.className = "showing-row";
     const name = document.createElement("span");
@@ -1458,7 +1474,29 @@ function renderShowings(ev) {
       times.appendChild(t);
     }
     row.appendChild(times);
-    wrap.appendChild(row);
+    block.appendChild(row);
+
+    const address = list[0].address;
+    if (opts.withAddress && address) {
+      const addr = document.createElement("button");
+      addr.type = "button";
+      addr.className = "modal-loc-toggle showing-addr";
+      const sp = document.createElement("span");
+      sp.textContent = "📍 " + address;
+      addr.appendChild(sp);
+      const panel = document.createElement("div");
+      panel.className = "modal-map-panel";
+      panel.hidden = true;
+      attachMapToggle(addr, panel, {
+        address,
+        lat: single ? ev.lat : undefined,
+        lng: single ? ev.lng : undefined,
+        genre: ev.genre,
+      });
+      block.appendChild(addr);
+      block.appendChild(panel);
+    }
+    wrap.appendChild(block);
   }
   return wrap;
 }

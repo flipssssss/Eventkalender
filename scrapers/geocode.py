@@ -296,6 +296,9 @@ def locate_event(event, *, allow_network: bool = True) -> None:
     if not event.location and not event.address:
         return
     raw = (fixed or event.address or event.location).strip()
+    # "2 Kinos" etc. is a summary, not a place -> don't geocode it.
+    if not event.address and re.fullmatch(r"\d+ Kinos", raw):
+        return
     # Skip obvious non-addresses (e.g. a stray URL in the location field).
     if raw.lower().startswith("http"):
         return

@@ -1270,6 +1270,17 @@ html.map-active .site-footer {
   margin: 8px 0 2px;
 }
 
+.showing-block {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.showing-addr {
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+
 .showing-row {
   display: flex;
   flex-wrap: wrap;

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T07:26:39.548855+00:00",
+  "generated_at": "2026-06-16T07:31:24.076559+00:00",
   "count": 571,
   "sources": [
     {
@@ -142,7 +142,7 @@
       "end": null,
       "location": "2 Kinos",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/312336/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -178,7 +178,7 @@
       "end": null,
       "location": "2 Kinos",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/56125/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -243,7 +243,7 @@
       "end": null,
       "location": "2 Kinos",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313735/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -394,7 +394,7 @@
       "end": null,
       "location": "3 Kinos",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313625/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -602,7 +602,7 @@
       "end": null,
       "location": "Sputnik",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/312879/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -631,7 +631,7 @@
       "end": null,
       "location": "2 Kinos",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313760/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -667,7 +667,7 @@
       "end": null,
       "location": "Ladenkino",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314075/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -703,7 +703,7 @@
       "end": null,
       "location": "Ladenkino",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313980/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -837,7 +837,7 @@
       "end": null,
       "location": "Kino Zukunft",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313866/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -887,7 +887,7 @@
       "end": null,
       "location": "Wolf Kino",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/301859/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -1126,7 +1126,7 @@
       "end": null,
       "location": "2 Kinos",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/201394/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -1162,7 +1162,7 @@
       "end": null,
       "location": "Sputnik",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314070/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -1317,7 +1317,7 @@
       "end": null,
       "location": "Ladenkino",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313721/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -1367,7 +1367,7 @@
       "end": null,
       "location": "Wolf Kino",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314068/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -1396,7 +1396,7 @@
       "end": null,
       "location": "Wolf Kino",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314222/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -1425,7 +1425,7 @@
       "end": null,
       "location": "Kino Zukunft",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/311863/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -2081,7 +2081,7 @@
       "end": null,
       "location": "Ladenkino",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314075/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -2146,7 +2146,7 @@
       "end": null,
       "location": "Ladenkino",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313628/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -2254,7 +2254,7 @@
       "end": null,
       "location": "2 Kinos",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313760/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -2505,7 +2505,7 @@
       "end": null,
       "location": "3 Kinos",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313625/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -2716,7 +2716,7 @@
       "end": null,
       "location": "Kino Zukunft",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313866/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -2774,7 +2774,7 @@
       "end": null,
       "location": "Ladenkino",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313735/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -2803,7 +2803,7 @@
       "end": null,
       "location": "Ladenkino",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314067/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -2867,7 +2867,7 @@
       "end": null,
       "location": "Sputnik",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/306386/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -3148,7 +3148,7 @@
       "end": null,
       "location": "Wolf Kino",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314222/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -3198,7 +3198,7 @@
       "end": null,
       "location": "Sputnik",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314070/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -3374,7 +3374,7 @@
       "end": null,
       "location": "Sputnik",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/232583/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -3403,7 +3403,7 @@
       "end": null,
       "location": "3 Kinos",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/201394/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -3496,7 +3496,7 @@
       "end": null,
       "location": "Wolf Kino",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314068/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -3525,7 +3525,7 @@
       "end": null,
       "location": "Sputnik",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/311201/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -3554,7 +3554,7 @@
       "end": null,
       "location": "Sputnik",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/312336/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -3604,7 +3604,7 @@
       "end": null,
       "location": "Lichtblick",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/56125/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -3633,7 +3633,7 @@
       "end": null,
       "location": "Kino Zukunft",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/311863/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -3825,7 +3825,7 @@
       "end": null,
       "location": "Wolf Kino",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313625/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -3875,7 +3875,7 @@
       "end": null,
       "location": "Kino Zukunft",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/201394/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -4030,7 +4030,7 @@
       "end": null,
       "location": "Lichtblick",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/310677/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -4059,7 +4059,7 @@
       "end": null,
       "location": "Wolf Kino",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314222/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -4411,7 +4411,7 @@
       "end": null,
       "location": "Kino Zukunft",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/306386/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -4608,7 +4608,7 @@
       "end": null,
       "location": "2 Kinos",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314068/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -4736,7 +4736,7 @@
       "end": null,
       "location": "Kino Zukunft",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/312873/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -5088,7 +5088,7 @@
       "end": null,
       "location": "2 Kinos",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/201394/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -5250,7 +5250,7 @@
       "end": null,
       "location": "Wolf Kino",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313625/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -5510,7 +5510,7 @@
       "end": null,
       "location": "Wolf Kino",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314222/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -5581,7 +5581,7 @@
       "end": null,
       "location": "Kino Zukunft",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/306386/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -5715,7 +5715,7 @@
       "end": null,
       "location": "Wolf Kino",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314068/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -6296,7 +6296,7 @@
       "end": null,
       "location": "Kino Zukunft",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/306386/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -6395,7 +6395,7 @@
       "end": null,
       "location": "Wolf Kino",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/201394/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -6516,7 +6516,7 @@
       "end": null,
       "location": "Kino Zukunft",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313866/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -6671,7 +6671,7 @@
       "end": null,
       "location": "Wolf Kino",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313625/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -6700,7 +6700,7 @@
       "end": null,
       "location": "Wolf Kino",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314222/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -7002,7 +7002,7 @@
       "end": null,
       "location": "Wolf Kino",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314068/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -7123,7 +7123,7 @@
       "end": null,
       "location": "Kino Zukunft",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/312873/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -7772,7 +7772,7 @@
       "end": null,
       "location": "Lichtblick",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/10895/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -7864,7 +7864,7 @@
       "end": null,
       "location": "Kino Zukunft",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/306386/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -7921,7 +7921,7 @@
       "end": null,
       "location": "Wolf Kino",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/201394/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -8013,7 +8013,7 @@
       "end": null,
       "location": "Wolf Kino",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314222/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -8063,7 +8063,7 @@
       "end": null,
       "location": "Kino Zukunft",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313866/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -8092,7 +8092,7 @@
       "end": null,
       "location": "2 Kinos",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314068/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -8128,7 +8128,7 @@
       "end": null,
       "location": "Lichtblick",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314078/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -8199,7 +8199,7 @@
       "end": null,
       "location": "Wolf Kino",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313625/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -8440,7 +8440,7 @@
       "end": null,
       "location": "Lichtblick",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/308330/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -8674,7 +8674,7 @@
       "end": null,
       "location": "2 Kinos",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/201394/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -8773,7 +8773,7 @@
       "end": null,
       "location": "Lichtblick",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313625/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -9020,7 +9020,7 @@
       "end": null,
       "location": "Wolf Kino",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314222/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -9091,7 +9091,7 @@
       "end": null,
       "location": "Lichtblick",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313735/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -9120,7 +9120,7 @@
       "end": null,
       "location": "Kino Zukunft",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/306386/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -9233,7 +9233,7 @@
       "end": null,
       "location": "Wolf Kino",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314068/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -9312,7 +9312,7 @@
       "end": null,
       "location": "Kino Zukunft",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/312873/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -9341,7 +9341,7 @@
       "end": null,
       "location": "Lichtblick",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/56125/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -9483,7 +9483,7 @@
       "end": null,
       "location": "2 Kinos",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313625/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -9519,7 +9519,7 @@
       "end": null,
       "location": "Kino Zukunft",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/201394/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -9611,7 +9611,7 @@
       "end": null,
       "location": "Lichtblick",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/308330/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -9787,7 +9787,7 @@
       "end": null,
       "location": "Wolf Kino",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314222/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -9816,7 +9816,7 @@
       "end": null,
       "location": "Wolf Kino",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314078/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -9866,7 +9866,7 @@
       "end": null,
       "location": "Kino Zukunft",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/306386/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -10000,7 +10000,7 @@
       "end": null,
       "location": "Lichtblick",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313735/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -10200,7 +10200,7 @@
       "end": null,
       "location": "2 Kinos",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/201394/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -10299,7 +10299,7 @@
       "end": null,
       "location": "Lichtblick",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/11692/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -10328,7 +10328,7 @@
       "end": null,
       "location": "Wolf Kino",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313625/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -10483,7 +10483,7 @@
       "end": null,
       "location": "Wolf Kino",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314222/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -10533,7 +10533,7 @@
       "end": null,
       "location": "Kino Zukunft",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/306386/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -10667,7 +10667,7 @@
       "end": null,
       "location": "Lichtblick",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313635/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -10696,7 +10696,7 @@
       "end": null,
       "location": "Wolf Kino",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314068/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -10817,7 +10817,7 @@
       "end": null,
       "location": "Kino Zukunft",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/312873/",
       "source_name": "Kinoprogramm",
       "tags": [
@@ -10867,7 +10867,7 @@
       "end": null,
       "location": "Lichtblick",
       "description": null,
-      "image_url": null,
+      "image_url": "https://www.berlin.de/images/favicon/Berlin_de_FB_Social.png",
       "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/56125/",
       "source_name": "Kinoprogramm",
       "tags": [

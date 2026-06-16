@@ -1,6 +1,8 @@
-Vorstellungen gesamt: 164 | Filmbilder: 0
+Vorstellungen gesamt: 164 | Filmbilder: 28
 Sputnik: 13 Vorstellungen
 Lichtblick: 17 Vorstellungen
 Kino Zukunft: 29 Vorstellungen
 Ladenkino: 42 Vorstellungen
 Wolf Kino: 63 Vorstellungen
+1. Film https://www.berlin.de/kino/_bin/filmdetail.php/313625/
+  'og:image' im html: True | meta: <meta name="og:image" content="/images/favicon/Berlin_de_FB_Social.png">

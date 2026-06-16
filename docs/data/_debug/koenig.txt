@@ -1,1 +1,1 @@
-Events: 0 | Shows erkannt: 7
+Events: 0 | Shows erkannt: 5

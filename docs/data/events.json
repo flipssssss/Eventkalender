@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-16T06:21:37.739662+00:00",
-  "count": 426,
+  "generated_at": "2026-06-16T06:25:29.285587+00:00",
+  "count": 414,
   "sources": [
     {
       "source": "Quälgeist",
@@ -69,16 +69,16 @@
     },
     {
       "source": "Boiler Berlin",
-      "count": 12,
-      "error": null
-    },
-    {
-      "source": "König Drag Show",
       "count": 0,
       "error": null
     },
     {
-      "source": "Probe2",
+      "source": "Club Sauna Berlin",
+      "count": 0,
+      "error": null
+    },
+    {
+      "source": "König Drag Show",
       "count": 0,
       "error": null
     },
@@ -168,26 +168,6 @@
       "lat": 52.4881732,
       "lng": 13.5339889,
       "bezirk": "Lichtenberg"
-    },
-    {
-      "title": "Theme Night",
-      "start": "2026-06-16T17:00:00",
-      "end": null,
-      "location": "Boiler",
-      "description": null,
-      "image_url": null,
-      "source_url": "https://boiler-berlin.de/en/mec-events/themenabend/",
-      "source_name": "Boiler Berlin",
-      "tags": [
-        "Party"
-      ],
-      "time_known": true,
-      "genre": "Queer",
-      "subcategory": null,
-      "address": "Mehringdamm 34, 10961 Kreuzberg",
-      "lat": 52.4936405,
-      "lng": 13.3876998,
-      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Flinta*only Kickern",
@@ -1190,26 +1170,6 @@
       "bezirk": "Neukölln"
     },
     {
-      "title": "youngStars",
-      "start": "2026-06-17T17:00:00",
-      "end": null,
-      "location": "Boiler",
-      "description": null,
-      "image_url": null,
-      "source_url": "https://boiler-berlin.de/en/mec-events/youngstars/",
-      "source_name": "Boiler Berlin",
-      "tags": [
-        "Party"
-      ],
-      "time_known": true,
-      "genre": "Queer",
-      "subcategory": null,
-      "address": "Mehringdamm 34, 10961 Kreuzberg",
-      "lat": 52.4936405,
-      "lng": 13.3876998,
-      "bezirk": "Friedrichshain-Kreuzberg"
-    },
-    {
       "title": "Theaterführung",
       "start": "2026-06-17T17:30:00",
       "end": null,
@@ -1907,26 +1867,6 @@
       "address": "An der Schillingbrücke 3, 10243 Friedrichshain",
       "lat": 52.5091664,
       "lng": 13.4307181,
-      "bezirk": "Friedrichshain-Kreuzberg"
-    },
-    {
-      "title": "‘Green’ Thursday",
-      "start": "2026-06-18T17:00:00",
-      "end": null,
-      "location": "Boiler",
-      "description": null,
-      "image_url": null,
-      "source_url": "https://boiler-berlin.de/en/mec-events/gruener-donnerstag-2/",
-      "source_name": "Boiler Berlin",
-      "tags": [
-        "Party"
-      ],
-      "time_known": true,
-      "genre": "Queer",
-      "subcategory": null,
-      "address": "Mehringdamm 34, 10961 Kreuzberg",
-      "lat": 52.4936405,
-      "lng": 13.3876998,
       "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
@@ -2790,26 +2730,6 @@
       "bezirk": "Mitte"
     },
     {
-      "title": "Infusions@Friday",
-      "start": "2026-06-19T17:00:00",
-      "end": null,
-      "location": "Boiler",
-      "description": null,
-      "image_url": null,
-      "source_url": "https://boiler-berlin.de/en/mec-events/aufguesse-am-freitag/",
-      "source_name": "Boiler Berlin",
-      "tags": [
-        "Party"
-      ],
-      "time_known": true,
-      "genre": "Queer",
-      "subcategory": null,
-      "address": "Mehringdamm 34, 10961 Kreuzberg",
-      "lat": 52.4936405,
-      "lng": 13.3876998,
-      "bezirk": "Friedrichshain-Kreuzberg"
-    },
-    {
       "title": "Aus der Nacht heraus - Political Film Festival -Day 2",
       "start": "2026-06-19T17:30:00",
       "end": null,
@@ -3648,26 +3568,6 @@
       "lat": 52.5201505,
       "lng": 13.4731889,
       "bezirk": "Lichtenberg"
-    },
-    {
-      "title": "Infusions@Saturday",
-      "start": "2026-06-20T17:00:00",
-      "end": null,
-      "location": "Boiler",
-      "description": null,
-      "image_url": null,
-      "source_url": "https://boiler-berlin.de/en/mec-events/aufguesse-am-samstag/",
-      "source_name": "Boiler Berlin",
-      "tags": [
-        "Party"
-      ],
-      "time_known": true,
-      "genre": "Queer",
-      "subcategory": null,
-      "address": "Mehringdamm 34, 10961 Kreuzberg",
-      "lat": 52.4936405,
-      "lng": 13.3876998,
-      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Rundgang Ausstellung „Die Anarchie ist das Leben der Menschen, die dem Joche entronnen sind.“",
@@ -4730,26 +4630,6 @@
       "bezirk": "Charlottenburg-Wilmersdorf"
     },
     {
-      "title": "Infusions@Sunday",
-      "start": "2026-06-21T17:00:00",
-      "end": null,
-      "location": "Boiler",
-      "description": null,
-      "image_url": null,
-      "source_url": "https://boiler-berlin.de/en/mec-events/aufguesse-am-sonntag/",
-      "source_name": "Boiler Berlin",
-      "tags": [
-        "Party"
-      ],
-      "time_known": true,
-      "genre": "Queer",
-      "subcategory": null,
-      "address": "Mehringdamm 34, 10961 Kreuzberg",
-      "lat": 52.4936405,
-      "lng": 13.3876998,
-      "bezirk": "Friedrichshain-Kreuzberg"
-    },
-    {
       "title": "Cuddles, Cakes and Kinks - Summer Edition (with Garden!)",
       "start": "2026-06-21T17:00:00",
       "end": "2026-06-21T23:00:00",
@@ -5087,26 +4967,6 @@
       "address": "Oranienstraße 14a, 10999 Kreuzberg",
       "lat": 52.5005464,
       "lng": 13.4234541,
-      "bezirk": "Friedrichshain-Kreuzberg"
-    },
-    {
-      "title": "Infusions@Monday",
-      "start": "2026-06-22T17:00:00",
-      "end": null,
-      "location": "Boiler",
-      "description": null,
-      "image_url": null,
-      "source_url": "https://boiler-berlin.de/en/mec-events/aufgussabend-270/",
-      "source_name": "Boiler Berlin",
-      "tags": [
-        "Party"
-      ],
-      "time_known": true,
-      "genre": "Queer",
-      "subcategory": null,
-      "address": "Mehringdamm 34, 10961 Kreuzberg",
-      "lat": 52.4936405,
-      "lng": 13.3876998,
       "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
@@ -5550,26 +5410,6 @@
       "bezirk": "Mitte"
     },
     {
-      "title": "Theme Night",
-      "start": "2026-06-23T17:00:00",
-      "end": null,
-      "location": "Boiler",
-      "description": null,
-      "image_url": null,
-      "source_url": "https://boiler-berlin.de/en/mec-events/themenabend/",
-      "source_name": "Boiler Berlin",
-      "tags": [
-        "Party"
-      ],
-      "time_known": true,
-      "genre": "Queer",
-      "subcategory": null,
-      "address": "Mehringdamm 34, 10961 Kreuzberg",
-      "lat": 52.4936405,
-      "lng": 13.3876998,
-      "bezirk": "Friedrichshain-Kreuzberg"
-    },
-    {
       "title": "Flinta*only Kickern",
       "start": "2026-06-23T18:00:00",
       "end": null,
@@ -5948,26 +5788,6 @@
       "lat": null,
       "lng": null,
       "bezirk": null
-    },
-    {
-      "title": "Infusions@Wednesday",
-      "start": "2026-06-24T17:00:00",
-      "end": null,
-      "location": "Boiler",
-      "description": null,
-      "image_url": null,
-      "source_url": "https://boiler-berlin.de/en/mec-events/aufgussabend-270-739/",
-      "source_name": "Boiler Berlin",
-      "tags": [
-        "Party"
-      ],
-      "time_known": true,
-      "genre": "Queer",
-      "subcategory": null,
-      "address": "Mehringdamm 34, 10961 Kreuzberg",
-      "lat": 52.4936405,
-      "lng": 13.3876998,
-      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "mittwochskufa",
@@ -6430,26 +6250,6 @@
       "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
-      "title": "Bears Sweat",
-      "start": "2026-06-25T17:00:00",
-      "end": null,
-      "location": "Boiler",
-      "description": null,
-      "image_url": null,
-      "source_url": "https://boiler-berlin.de/en/mec-events/baeriger-saunaabend/",
-      "source_name": "Boiler Berlin",
-      "tags": [
-        "Party"
-      ],
-      "time_known": true,
-      "genre": "Queer",
-      "subcategory": null,
-      "address": "Mehringdamm 34, 10961 Kreuzberg",
-      "lat": 52.4936405,
-      "lng": 13.3876998,
-      "bezirk": "Friedrichshain-Kreuzberg"
-    },
-    {
       "title": "Colleen Ndemeh Fitzgerald: After Work Tours #3",
       "start": "2026-06-25T17:30:00",
       "end": null,
@@ -6908,26 +6708,6 @@
       "lat": 52.5258825,
       "lng": 13.4016022,
       "bezirk": "Mitte"
-    },
-    {
-      "title": "Infusions@Friday",
-      "start": "2026-06-26T17:00:00",
-      "end": null,
-      "location": "Boiler",
-      "description": null,
-      "image_url": null,
-      "source_url": "https://boiler-berlin.de/en/mec-events/aufguesse-am-freitag/",
-      "source_name": "Boiler Berlin",
-      "tags": [
-        "Party"
-      ],
-      "time_known": true,
-      "genre": "Queer",
-      "subcategory": null,
-      "address": "Mehringdamm 34, 10961 Kreuzberg",
-      "lat": 52.4936405,
-      "lng": 13.3876998,
-      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Potse Raumkampfplenum",
@@ -7708,26 +7488,6 @@
       "lat": 52.5187884,
       "lng": 13.3648356,
       "bezirk": "Mitte"
-    },
-    {
-      "title": "Infusions@Saturday",
-      "start": "2026-06-27T17:00:00",
-      "end": null,
-      "location": "Boiler",
-      "description": null,
-      "image_url": null,
-      "source_url": "https://boiler-berlin.de/en/mec-events/aufguesse-am-samstag/",
-      "source_name": "Boiler Berlin",
-      "tags": [
-        "Party"
-      ],
-      "time_known": true,
-      "genre": "Queer",
-      "subcategory": null,
-      "address": "Mehringdamm 34, 10961 Kreuzberg",
-      "lat": 52.4936405,
-      "lng": 13.3876998,
-      "bezirk": "Friedrichshain-Kreuzberg"
     },
     {
       "title": "Rundgang Ausstellung „Die Anarchie ist das Leben der Menschen, die dem Joche entronnen sind.“",

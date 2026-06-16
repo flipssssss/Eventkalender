@@ -67,21 +67,23 @@ class TimeToShineScraper(BaseScraper):
             if not sample:
                 sample = f"{url}\nJSON-LD: {bool(obj)} | Felder: " \
                          f"{sorted(obj) if obj else '-'}"
-            ev = self._build(obj, url)
-            if ev:
-                events.append(ev)
+            events.extend(self._build(obj, url))
 
         self._dump(f"Event-Links: {len(urls)} | Events: {len(events)}\n{sample}\n" +
                    "\n".join(f"  {e.start} | {e.title}" for e in events[:20]))
         return events
 
-    def _build(self, obj: dict | None, url: str) -> Event | None:
+    def _build(self, obj: dict | None, url: str) -> list[Event]:
         if not obj:
-            return None
+            return []
         start = parse_datetime(obj.get("startDate"))
         name = (obj.get("name") or "").strip()
         if not start or not name:
-            return None
+            return []
+        start = start.replace(tzinfo=None)
+        end = parse_datetime(obj.get("endDate"))
+        end = end.replace(tzinfo=None) if end else None
+
         loc = obj.get("location") or {}
         if isinstance(loc, list):
             loc = loc[0] if loc else {}
@@ -92,19 +94,32 @@ class TimeToShineScraper(BaseScraper):
             image = image[0] if image else None
         if isinstance(image, dict):
             image = image.get("url")
-        end = parse_datetime(obj.get("endDate"))
-        return Event(
+        image = image if isinstance(image, str) else None
+        desc = (obj.get("description") or "").strip()[:400] or None
+        src = obj.get("url") or url
+
+        # A run across several calendar days (e.g. shows on the 18th + 19th) is
+        # split into one event per day. A late night ending after midnight
+        # (end hour < 12) stays a single event.
+        starts = [start]
+        if end and end.date() > start.date() and end.hour >= 12:
+            starts = []
+            day = start.date()
+            while day <= end.date():
+                starts.append(_dt.datetime.combine(day, start.time()))
+                day += _dt.timedelta(days=1)
+
+        return [Event(
             title=name[:140],
-            start=start.replace(tzinfo=None),
-            end=end.replace(tzinfo=None) if end else None,
-            source_url=obj.get("url") or url,
+            start=s,
+            source_url=src,
             source_name=self.name,
             location=venue,
             address=address,
-            description=(obj.get("description") or "").strip()[:400] or None,
-            image_url=image if isinstance(image, str) else None,
+            description=desc,
+            image_url=image,
             tags=["Theater"],
-        )
+        ) for s in starts]
 
     def _dump(self, text: str) -> None:
         if not self.write_debug:

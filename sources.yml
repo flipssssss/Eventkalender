@@ -55,6 +55,11 @@ sources:
     name: Karada House
     type: ical
     category: Workshop        # alle Karada-Events als Workshop
+  # Rosa-Luxemburg-Stiftung -- politische Vorträge/Diskussionen.
+  # Alle Events als Vortrag; Genre "Polit" via scrapers/genres.py (FORCE_GENRE).
+  - url: https://www.rosalux.de/veranstaltungen
+    name: Rosa-Luxemburg-Stiftung
+    category: Vortrag
   # Boiler -> eigener Ausleser (scrapers/boiler.py), HTML-Liste.
   # Time to Shine -> eigener Ausleser (scrapers/timetoshine.py), Squarespace-JSON.
   # Party Dyke Berlin -> eigener Ausleser (scrapers/partydyke.py), weil die

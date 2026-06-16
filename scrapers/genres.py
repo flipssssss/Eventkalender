@@ -60,6 +60,7 @@ FORCE_GENRE = {
     "Boiler Berlin": "Queer",
     "Time to Shine Kink": "Kink",
     "Lab.oratory": "Kink",
+    "Rosa-Luxemburg-Stiftung": "Polit",
     "Zum schmutzigen Hobby": "Queer",
     "Club Sauna Berlin": "Queer",
     "Kinoprogramm": "Kultur",

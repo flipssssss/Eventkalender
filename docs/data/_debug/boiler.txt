@@ -1,0 +1,17 @@
+REST: status=404 type=application/json; charset=UTF-8
+
+Selektoren: {'article': 13, '.tribe-events-calendar-list__event': 0, '.tribe_events': 0, '[class*=event]': 113, 'time': 0, 'a[href*=event]': 24}
+--- BEISPIEL ---
+<body class="home wp-singular page-template-default page page-id-1804 wp-custom-logo wp-embed-responsive wp-theme-twentyseventeen mec-theme-twentyseventeen mec-dark-mode ehf-footer ehf-template-twentyseventeen ehf-stylesheet-twentyseventeen twentyseventeen-front-page has-header-image page-one-column title-tagline-hidden colors-dark elementor-default elementor-kit-317">
+ <div class="site" id="page">
+  <a class="skip-link screen-reader-text" href="#content">
+   Zum Inhalt springen
+  </a>
+  <header class="site-header" id="masthead">
+   <div class="custom-header">
+    <div class="custom-header-media">
+     <div class="wp-custom-header" id="wp-custom-header">
+      <img alt="" decoding="async" height="1333" sizes="(max-width: 767px) 200vw, 100vw" src="https://boiler-berlin.de/wp-content/uploads/2020/05/cropped-vvg17067103_1-scaled-1.jpg" srcset="https://boiler-berlin.de/wp-content/uploads/2020/05/cropped-vvg17067103_1-scaled-1.jpg 2000w, https://boiler-berlin.de/wp-content/uploads/2020/05/cropped-vvg17067103_1-scaled-1-350x233.jpg 350w, https://boiler-berlin.de/wp-content/uploads/2020/05/cropped-vvg17067103_1-scaled-1-300x200.jpg 300w, https://boiler-berlin.de/wp-content/uploads/2020/05/cropped-vvg17067103_1-scaled-1-1024x682.jpg 1024w, https://boiler-berlin.de/wp-content/uploads/2020/05/cropped-vvg17067103_1-scaled-1-768x512.jpg 768w, https://boiler-berlin.de/wp-content/uploads/2020/05/cropped-vvg17067103_1-scaled-1-1536x1024.jpg 1536w" width="2000"/>
+     </div>
+    </div>
+    <

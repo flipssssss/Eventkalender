@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T05:54:31.389773+00:00",
+  "generated_at": "2026-06-16T05:58:06.019285+00:00",
   "count": 413,
   "sources": [
     {
@@ -11,16 +11,6 @@
       "source": "Karada House",
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://karada-house.de/?post_type=tribe_events&ical=1&eventDisplay=list"
-    },
-    {
-      "source": "Boiler Berlin",
-      "count": 0,
-      "error": "Content line could not be parsed into parts: '<!DOCTYPE html>': <!DOCTYPEhtml>"
-    },
-    {
-      "source": "Time to Shine Kink",
-      "count": 0,
-      "error": "Content line could not be parsed into parts: '<!doctype html>': <!doctypehtml>"
     },
     {
       "source": "Stressfaktor",
@@ -70,6 +60,16 @@
     {
       "source": "Lab.oratory",
       "count": 110,
+      "error": null
+    },
+    {
+      "source": "Time to Shine Kink",
+      "count": 0,
+      "error": null
+    },
+    {
+      "source": "Boiler Berlin",
+      "count": 0,
       "error": null
     },
     {

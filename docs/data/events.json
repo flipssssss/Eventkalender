@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-16T07:07:28.881806+00:00",
-  "count": 436,
+  "generated_at": "2026-06-16T07:13:00.057638+00:00",
+  "count": 571,
   "sources": [
     {
       "source": "Quälgeist",
@@ -83,8 +83,8 @@
       "error": null
     },
     {
-      "source": "Probe Kino",
-      "count": 0,
+      "source": "Kinoprogramm",
+      "count": 164,
       "error": null
     },
     {
@@ -137,6 +137,192 @@
       "showings": null
     },
     {
+      "title": "Gelbe Briefe",
+      "start": "2026-06-16T11:00:00",
+      "end": null,
+      "location": "2 Kinos",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/312336/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Straße des 17. Juni 136, 10623 Charlottenburg",
+      "lat": 52.5134702,
+      "lng": 13.3262548,
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "showings": [
+        {
+          "time": "11:00",
+          "cinema": "Ladenkino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/312336/",
+          "note": "OmU"
+        },
+        {
+          "time": "21:15",
+          "cinema": "Sputnik",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/312336/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
+      "title": "Im Reich der Sinne",
+      "start": "2026-06-16T11:00:00",
+      "end": null,
+      "location": "2 Kinos",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/56125/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Straße des 17. Juni 136, 10623 Charlottenburg",
+      "lat": 52.5134702,
+      "lng": 13.3262548,
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "showings": [
+        {
+          "time": "11:00",
+          "cinema": "Ladenkino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/56125/",
+          "note": "OmU"
+        },
+        {
+          "time": "18:15",
+          "cinema": "Lichtblick",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/56125/",
+          "note": "OmenglU"
+        }
+      ]
+    },
+    {
+      "title": "The North",
+      "start": "2026-06-16T11:00:00",
+      "end": null,
+      "location": "Ladenkino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313630/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Gärtnerstraße 19, 10245 Friedrichshain",
+      "lat": 52.5118751,
+      "lng": 13.4616485,
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": [
+        {
+          "time": "11:00",
+          "cinema": "Ladenkino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313630/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
+      "title": "Palästina 36",
+      "start": "2026-06-16T13:00:00",
+      "end": null,
+      "location": "2 Kinos",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313735/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Straße des 17. Juni 136, 10623 Charlottenburg",
+      "lat": 52.5134702,
+      "lng": 13.3262548,
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "showings": [
+        {
+          "time": "13:00",
+          "cinema": "Ladenkino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313735/",
+          "note": "OmU"
+        },
+        {
+          "time": "17:30",
+          "cinema": "Sputnik",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313735/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
+      "title": "Rosebush Pruning",
+      "start": "2026-06-16T13:10:00",
+      "end": null,
+      "location": "Ladenkino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313180/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Gärtnerstraße 19, 10245 Friedrichshain",
+      "lat": 52.5118751,
+      "lng": 13.4616485,
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": [
+        {
+          "time": "13:10",
+          "cinema": "Ladenkino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313180/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
+      "title": "Nürnberg",
+      "start": "2026-06-16T13:20:00",
+      "end": null,
+      "location": "Ladenkino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/312472/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Gärtnerstraße 19, 10245 Friedrichshain",
+      "lat": 52.5118751,
+      "lng": 13.4616485,
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": [
+        {
+          "time": "13:20",
+          "cinema": "Ladenkino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/312472/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
       "title": "Runder Tisch Queeres Steglitz-Zehlendorf",
       "start": "2026-06-16T14:00:00",
       "end": null,
@@ -156,6 +342,136 @@
       "lng": 13.2543865,
       "bezirk": "Steglitz-Zehlendorf",
       "showings": null
+    },
+    {
+      "title": "Das Drama - Noch mal auf Anfang",
+      "start": "2026-06-16T14:45:00",
+      "end": null,
+      "location": "Ladenkino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/312866/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Gärtnerstraße 19, 10245 Friedrichshain",
+      "lat": 52.5118751,
+      "lng": 13.4616485,
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": [
+        {
+          "time": "14:45",
+          "cinema": "Ladenkino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/312866/",
+          "note": "OmU"
+        },
+        {
+          "time": "21:15",
+          "cinema": "Ladenkino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/312866/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
+      "title": "Do You Love Me",
+      "start": "2026-06-16T15:00:00",
+      "end": null,
+      "location": "3 Kinos",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313625/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null,
+      "showings": [
+        {
+          "time": "15:00",
+          "cinema": "Ladenkino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313625/",
+          "note": "OmU"
+        },
+        {
+          "time": "18:40",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313625/",
+          "note": "OmU"
+        },
+        {
+          "time": "21:45",
+          "cinema": "Sputnik",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313625/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
+      "title": "Father Mother Sister Brother",
+      "start": "2026-06-16T15:50:00",
+      "end": null,
+      "location": "Ladenkino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/311442/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Gärtnerstraße 19, 10245 Friedrichshain",
+      "lat": 52.5118751,
+      "lng": 13.4616485,
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": [
+        {
+          "time": "15:50",
+          "cinema": "Ladenkino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/311442/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
+      "title": "Zombies im Zoo",
+      "start": "2026-06-16T16:20:00",
+      "end": null,
+      "location": "Ladenkino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314223/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Gärtnerstraße 19, 10245 Friedrichshain",
+      "lat": 52.5118751,
+      "lng": 13.4616485,
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": [
+        {
+          "time": "16:20",
+          "cinema": "Ladenkino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314223/",
+          "note": null
+        }
+      ]
     },
     {
       "title": "Filmvorführung: Die Jungs, die Nein gesagt haben!",
@@ -179,6 +495,68 @@
       "showings": null
     },
     {
+      "title": "Die kleine Amélie oder Der Charakter des Regens",
+      "start": "2026-06-16T16:30:00",
+      "end": null,
+      "location": "2 Kinos",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314220/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Straße des 17. Juni 136, 10623 Charlottenburg",
+      "lat": 52.5134702,
+      "lng": 13.3262548,
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "showings": [
+        {
+          "time": "16:30",
+          "cinema": "Ladenkino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314220/",
+          "note": null
+        },
+        {
+          "time": "16:50",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314220/",
+          "note": null
+        }
+      ]
+    },
+    {
+      "title": "Afterlives",
+      "start": "2026-06-16T16:45:00",
+      "end": null,
+      "location": "Wolf Kino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314955/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Weserstraße 59, 12045 Neukölln",
+      "lat": 52.4827454,
+      "lng": 13.44178,
+      "bezirk": "Neukölln",
+      "showings": [
+        {
+          "time": "16:45",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314955/",
+          "note": "OV"
+        }
+      ]
+    },
+    {
       "title": "Themenabend",
       "start": "2026-06-16T17:00:00",
       "end": null,
@@ -198,6 +576,130 @@
       "lng": 13.3876998,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": null
+    },
+    {
+      "title": "Siri Hustvedt - Dance Around the Self",
+      "start": "2026-06-16T17:30:00",
+      "end": null,
+      "location": "Sputnik",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/312879/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Straße des 17. Juni 145, 10623 Charlottenburg",
+      "lat": 52.5120816,
+      "lng": 13.3240122,
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "showings": [
+        {
+          "time": "17:30",
+          "cinema": "Sputnik",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/312879/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
+      "title": "Verflucht Normal",
+      "start": "2026-06-16T17:40:00",
+      "end": null,
+      "location": "2 Kinos",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313760/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Straße des 17. Juni 136, 10623 Charlottenburg",
+      "lat": 52.5134702,
+      "lng": 13.3262548,
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "showings": [
+        {
+          "time": "17:40",
+          "cinema": "Ladenkino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313760/",
+          "note": "OmU"
+        },
+        {
+          "time": "19:30",
+          "cinema": "Sputnik",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313760/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
+      "title": "Disclosure Day - Der Tag der Wahrheit",
+      "start": "2026-06-16T17:45:00",
+      "end": null,
+      "location": "Ladenkino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314075/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Gärtnerstraße 19, 10245 Friedrichshain",
+      "lat": 52.5118751,
+      "lng": 13.4616485,
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": [
+        {
+          "time": "17:45",
+          "cinema": "Ladenkino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314075/",
+          "note": "OmU"
+        },
+        {
+          "time": "20:10",
+          "cinema": "Ladenkino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314075/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
+      "title": "Good Boy - Wir wollen nur dein Bestes",
+      "start": "2026-06-16T17:50:00",
+      "end": null,
+      "location": "Ladenkino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313980/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Gärtnerstraße 19, 10245 Friedrichshain",
+      "lat": 52.5118751,
+      "lng": 13.4616485,
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": [
+        {
+          "time": "17:50",
+          "cinema": "Ladenkino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313980/",
+          "note": "OmU"
+        }
+      ]
     },
     {
       "title": "Flinta*only Kickern",
@@ -305,6 +807,34 @@
       "showings": null
     },
     {
+      "title": "Scherbenland",
+      "start": "2026-06-16T18:00:00",
+      "end": null,
+      "location": "Kino Zukunft",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313866/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Kynaststraße, 10245 Friedrichshain",
+      "lat": 52.4979656,
+      "lng": 13.4661487,
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": [
+        {
+          "time": "18:00",
+          "cinema": "Kino Zukunft",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313866/",
+          "note": null
+        }
+      ]
+    },
+    {
       "title": "Queer Ageing Group",
       "start": "2026-06-16T18:30:00",
       "end": null,
@@ -324,6 +854,34 @@
       "lng": 13.3625529,
       "bezirk": "Mitte",
       "showings": null
+    },
+    {
+      "title": "Dieses Gefühl, dass die Zeit, etwas zu tun, vorbei ist",
+      "start": "2026-06-16T18:30:00",
+      "end": null,
+      "location": "Wolf Kino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/301859/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Weserstraße 59, 12045 Neukölln",
+      "lat": 52.4827454,
+      "lng": 13.44178,
+      "bezirk": "Neukölln",
+      "showings": [
+        {
+          "time": "18:30",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/301859/",
+          "note": "OmU"
+        }
+      ]
     },
     {
       "title": "SM am Dienstag - SM on Tuesday",
@@ -536,6 +1094,68 @@
       "showings": null
     },
     {
+      "title": "Rose",
+      "start": "2026-06-16T19:40:00",
+      "end": null,
+      "location": "2 Kinos",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/201394/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Straße des 17. Juni 136, 10623 Charlottenburg",
+      "lat": 52.5134702,
+      "lng": 13.3262548,
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "showings": [
+        {
+          "time": "19:40",
+          "cinema": "Ladenkino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/201394/",
+          "note": "OmU"
+        },
+        {
+          "time": "20:00",
+          "cinema": "Kino Zukunft",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/201394/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
+      "title": "Ich verstehe Ihren Unmut",
+      "start": "2026-06-16T19:45:00",
+      "end": null,
+      "location": "Sputnik",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314070/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Straße des 17. Juni 145, 10623 Charlottenburg",
+      "lat": 52.5120816,
+      "lng": 13.3240122,
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "showings": [
+        {
+          "time": "19:45",
+          "cinema": "Sputnik",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314070/",
+          "note": null
+        }
+      ]
+    },
+    {
       "title": "Flinta*only Kickern",
       "start": "2026-06-16T20:00:00",
       "end": null,
@@ -662,6 +1282,34 @@
       "showings": null
     },
     {
+      "title": "Obsession - Du sollst mich lieben",
+      "start": "2026-06-16T20:00:00",
+      "end": null,
+      "location": "Ladenkino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313721/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Gärtnerstraße 19, 10245 Friedrichshain",
+      "lat": 52.5118751,
+      "lng": 13.4616485,
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": [
+        {
+          "time": "20:00",
+          "cinema": "Ladenkino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313721/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
       "title": "LatinoKino",
       "start": "2026-06-16T20:15:00",
       "end": null,
@@ -681,6 +1329,174 @@
       "lng": 13.3850984,
       "bezirk": "Mitte",
       "showings": null
+    },
+    {
+      "title": "Dao",
+      "start": "2026-06-16T20:20:00",
+      "end": null,
+      "location": "Wolf Kino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314068/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Weserstraße 59, 12045 Neukölln",
+      "lat": 52.4827454,
+      "lng": 13.44178,
+      "bezirk": "Neukölln",
+      "showings": [
+        {
+          "time": "20:20",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314068/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
+      "title": "Meine Frau weint",
+      "start": "2026-06-16T21:00:00",
+      "end": null,
+      "location": "Wolf Kino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314222/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Weserstraße 59, 12045 Neukölln",
+      "lat": 52.4827454,
+      "lng": 13.44178,
+      "bezirk": "Neukölln",
+      "showings": [
+        {
+          "time": "21:00",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314222/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
+      "title": "No Other Choice",
+      "start": "2026-06-16T22:00:00",
+      "end": null,
+      "location": "Kino Zukunft",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/311863/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Kynaststraße, 10245 Friedrichshain",
+      "lat": 52.4979656,
+      "lng": 13.4661487,
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": [
+        {
+          "time": "22:00",
+          "cinema": "Kino Zukunft",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/311863/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
+      "title": "Der Astronaut - Project Hail Mary",
+      "start": "2026-06-16T22:20:00",
+      "end": null,
+      "location": "Ladenkino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/312627/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Gärtnerstraße 19, 10245 Friedrichshain",
+      "lat": 52.5118751,
+      "lng": 13.4616485,
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": [
+        {
+          "time": "22:20",
+          "cinema": "Ladenkino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/312627/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
+      "title": "Mother Mary",
+      "start": "2026-06-16T22:35:00",
+      "end": null,
+      "location": "Ladenkino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313874/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Gärtnerstraße 19, 10245 Friedrichshain",
+      "lat": 52.5118751,
+      "lng": 13.4616485,
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": [
+        {
+          "time": "22:35",
+          "cinema": "Ladenkino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313874/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
+      "title": "Truly Naked",
+      "start": "2026-06-16T23:00:00",
+      "end": null,
+      "location": "Ladenkino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314225/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Gärtnerstraße 19, 10245 Friedrichshain",
+      "lat": 52.5118751,
+      "lng": 13.4616485,
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": [
+        {
+          "time": "23:00",
+          "cinema": "Ladenkino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314225/",
+          "note": "OmU"
+        }
+      ]
     },
     {
       "title": "Brancusi",
@@ -1187,6 +2003,186 @@
       "showings": null
     },
     {
+      "title": "Das Drama - Noch mal auf Anfang",
+      "start": "2026-06-17T11:00:00",
+      "end": null,
+      "location": "Ladenkino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/312866/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Gärtnerstraße 19, 10245 Friedrichshain",
+      "lat": 52.5118751,
+      "lng": 13.4616485,
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": [
+        {
+          "time": "11:00",
+          "cinema": "Ladenkino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/312866/",
+          "note": "OmU"
+        },
+        {
+          "time": "21:35",
+          "cinema": "Ladenkino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/312866/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
+      "title": "Disclosure Day - Der Tag der Wahrheit",
+      "start": "2026-06-17T11:00:00",
+      "end": null,
+      "location": "Ladenkino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314075/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Gärtnerstraße 19, 10245 Friedrichshain",
+      "lat": 52.5118751,
+      "lng": 13.4616485,
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": [
+        {
+          "time": "11:00",
+          "cinema": "Ladenkino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314075/",
+          "note": "OmU"
+        },
+        {
+          "time": "20:40",
+          "cinema": "Ladenkino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314075/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
+      "title": "The North",
+      "start": "2026-06-17T11:00:00",
+      "end": null,
+      "location": "Ladenkino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313630/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Gärtnerstraße 19, 10245 Friedrichshain",
+      "lat": 52.5118751,
+      "lng": 13.4616485,
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": [
+        {
+          "time": "11:00",
+          "cinema": "Ladenkino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313630/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
+      "title": "Roya",
+      "start": "2026-06-17T12:55:00",
+      "end": null,
+      "location": "Ladenkino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313628/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Gärtnerstraße 19, 10245 Friedrichshain",
+      "lat": 52.5118751,
+      "lng": 13.4616485,
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": [
+        {
+          "time": "12:55",
+          "cinema": "Ladenkino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313628/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
+      "title": "Nürnberg",
+      "start": "2026-06-17T13:20:00",
+      "end": null,
+      "location": "Ladenkino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/312472/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Gärtnerstraße 19, 10245 Friedrichshain",
+      "lat": 52.5118751,
+      "lng": 13.4616485,
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": [
+        {
+          "time": "13:20",
+          "cinema": "Ladenkino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/312472/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
+      "title": "Father Mother Sister Brother",
+      "start": "2026-06-17T13:25:00",
+      "end": null,
+      "location": "Ladenkino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/311442/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Gärtnerstraße 19, 10245 Friedrichshain",
+      "lat": 52.5118751,
+      "lng": 13.4616485,
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": [
+        {
+          "time": "13:25",
+          "cinema": "Ladenkino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/311442/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
       "title": "Projektband für Frauen* und Queers",
       "start": "2026-06-17T14:30:00",
       "end": null,
@@ -1208,6 +2204,96 @@
       "showings": null
     },
     {
+      "title": "Verflucht Normal",
+      "start": "2026-06-17T14:35:00",
+      "end": null,
+      "location": "2 Kinos",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313760/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Straße des 17. Juni 136, 10623 Charlottenburg",
+      "lat": 52.5134702,
+      "lng": 13.3262548,
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "showings": [
+        {
+          "time": "14:35",
+          "cinema": "Ladenkino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313760/",
+          "note": "OmU"
+        },
+        {
+          "time": "17:00",
+          "cinema": "Sputnik",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313760/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
+      "title": "Meine Freundin Conni - Abenteuer mit Kranich Klaus",
+      "start": "2026-06-17T15:15:00",
+      "end": null,
+      "location": "Ladenkino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313724/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Gärtnerstraße 19, 10245 Friedrichshain",
+      "lat": 52.5118751,
+      "lng": 13.4616485,
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": [
+        {
+          "time": "15:15",
+          "cinema": "Ladenkino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313724/",
+          "note": null
+        }
+      ]
+    },
+    {
+      "title": "The Bride! - Es lebe die Braut",
+      "start": "2026-06-17T15:50:00",
+      "end": null,
+      "location": "Ladenkino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/312340/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Gärtnerstraße 19, 10245 Friedrichshain",
+      "lat": 52.5118751,
+      "lng": 13.4616485,
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": [
+        {
+          "time": "15:50",
+          "cinema": "Ladenkino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/312340/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
       "title": "MADE IN BOGOTA ´STREETART EXHIBITION+FLASHTATTOOS+MUSIC+FOOD",
       "start": "2026-06-17T16:00:00",
       "end": null,
@@ -1227,6 +2313,96 @@
       "lng": 13.4600856,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": null
+    },
+    {
+      "title": "Die kleine Amélie oder Der Charakter des Regens",
+      "start": "2026-06-17T16:40:00",
+      "end": null,
+      "location": "2 Kinos",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314220/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Straße des 17. Juni 136, 10623 Charlottenburg",
+      "lat": 52.5134702,
+      "lng": 13.3262548,
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "showings": [
+        {
+          "time": "16:40",
+          "cinema": "Ladenkino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314220/",
+          "note": null
+        },
+        {
+          "time": "17:00",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314220/",
+          "note": null
+        }
+      ]
+    },
+    {
+      "title": "Zombies im Zoo",
+      "start": "2026-06-17T16:40:00",
+      "end": null,
+      "location": "Ladenkino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314223/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Gärtnerstraße 19, 10245 Friedrichshain",
+      "lat": 52.5118751,
+      "lng": 13.4616485,
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": [
+        {
+          "time": "16:40",
+          "cinema": "Ladenkino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314223/",
+          "note": null
+        }
+      ]
+    },
+    {
+      "title": "Afterlives",
+      "start": "2026-06-17T16:45:00",
+      "end": null,
+      "location": "Wolf Kino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314955/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Weserstraße 59, 12045 Neukölln",
+      "lat": 52.4827454,
+      "lng": 13.44178,
+      "bezirk": "Neukölln",
+      "showings": [
+        {
+          "time": "16:45",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314955/",
+          "note": "OV"
+        }
+      ]
     },
     {
       "title": "Die Welt im Umbruch: Emotionen und Solidarität",
@@ -1269,6 +2445,46 @@
       "lng": 13.3876998,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": null
+    },
+    {
+      "title": "Do You Love Me",
+      "start": "2026-06-17T17:00:00",
+      "end": null,
+      "location": "3 Kinos",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313625/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null,
+      "showings": [
+        {
+          "time": "17:00",
+          "cinema": "Sputnik",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313625/",
+          "note": "OmU"
+        },
+        {
+          "time": "18:40",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313625/",
+          "note": "OmU"
+        },
+        {
+          "time": "23:20",
+          "cinema": "Ladenkino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313625/",
+          "note": "OmU"
+        }
+      ]
     },
     {
       "title": "Theaterführung",
@@ -1439,6 +2655,130 @@
       "showings": null
     },
     {
+      "title": "Scherbenland",
+      "start": "2026-06-17T18:00:00",
+      "end": null,
+      "location": "Kino Zukunft",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313866/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Kynaststraße, 10245 Friedrichshain",
+      "lat": 52.4979656,
+      "lng": 13.4661487,
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": [
+        {
+          "time": "18:00",
+          "cinema": "Kino Zukunft",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313866/",
+          "note": null
+        }
+      ]
+    },
+    {
+      "title": "Das deutsche Volk",
+      "start": "2026-06-17T18:00:00",
+      "end": null,
+      "location": "Ladenkino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/308498/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Gärtnerstraße 19, 10245 Friedrichshain",
+      "lat": 52.5118751,
+      "lng": 13.4616485,
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": [
+        {
+          "time": "18:00",
+          "cinema": "Ladenkino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/308498/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
+      "title": "Palästina 36",
+      "start": "2026-06-17T18:00:00",
+      "end": null,
+      "location": "Ladenkino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313735/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Gärtnerstraße 19, 10245 Friedrichshain",
+      "lat": 52.5118751,
+      "lng": 13.4616485,
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": [
+        {
+          "time": "18:00",
+          "cinema": "Ladenkino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313735/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
+      "title": "Backrooms",
+      "start": "2026-06-17T18:15:00",
+      "end": null,
+      "location": "Ladenkino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314067/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Gärtnerstraße 19, 10245 Friedrichshain",
+      "lat": 52.5118751,
+      "lng": 13.4616485,
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": [
+        {
+          "time": "18:15",
+          "cinema": "Ladenkino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314067/",
+          "note": "OmU"
+        },
+        {
+          "time": "20:10",
+          "cinema": "Ladenkino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314067/",
+          "note": "OmU"
+        },
+        {
+          "time": "22:10",
+          "cinema": "Ladenkino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314067/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
       "title": "Romani POV: Young Roma on Screen and Stage",
       "start": "2026-06-17T18:30:00",
       "end": null,
@@ -1458,6 +2798,34 @@
       "lng": 13.4119171,
       "bezirk": "Mitte",
       "showings": null
+    },
+    {
+      "title": "Nulpen",
+      "start": "2026-06-17T18:30:00",
+      "end": null,
+      "location": "Sputnik",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/306386/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Straße des 17. Juni 145, 10623 Charlottenburg",
+      "lat": 52.5120816,
+      "lng": 13.3240122,
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "showings": [
+        {
+          "time": "18:30",
+          "cinema": "Sputnik",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/306386/",
+          "note": null
+        }
+      ]
     },
     {
       "title": "Hypnose Stammtisch & Anfänger*innen / Beginners Workshop: Was ist Hypnose und was kann das?",
@@ -1712,6 +3080,34 @@
       "showings": null
     },
     {
+      "title": "Meine Frau weint",
+      "start": "2026-06-17T19:00:00",
+      "end": null,
+      "location": "Wolf Kino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314222/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Weserstraße 59, 12045 Neukölln",
+      "lat": 52.4827454,
+      "lng": 13.44178,
+      "bezirk": "Neukölln",
+      "showings": [
+        {
+          "time": "19:00",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314222/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
       "title": "90 Jahre Ken Loach: Kes (OmU)",
       "start": "2026-06-17T19:15:00",
       "end": null,
@@ -1731,6 +3127,34 @@
       "lng": 13.4305919,
       "bezirk": "Pankow",
       "showings": null
+    },
+    {
+      "title": "Ich verstehe Ihren Unmut",
+      "start": "2026-06-17T19:15:00",
+      "end": null,
+      "location": "Sputnik",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314070/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Straße des 17. Juni 145, 10623 Charlottenburg",
+      "lat": 52.5120816,
+      "lng": 13.3240122,
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "showings": [
+        {
+          "time": "19:15",
+          "cinema": "Sputnik",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314070/",
+          "note": null
+        }
+      ]
     },
     {
       "title": "Fantômas",
@@ -1880,6 +3304,102 @@
       "showings": null
     },
     {
+      "title": "Open Screening",
+      "start": "2026-06-17T20:00:00",
+      "end": null,
+      "location": "Sputnik",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/232583/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Straße des 17. Juni 145, 10623 Charlottenburg",
+      "lat": 52.5120816,
+      "lng": 13.3240122,
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "showings": [
+        {
+          "time": "20:00",
+          "cinema": "Sputnik",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/232583/",
+          "note": null
+        }
+      ]
+    },
+    {
+      "title": "Rose",
+      "start": "2026-06-17T20:00:00",
+      "end": null,
+      "location": "3 Kinos",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/201394/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "bezirk": null,
+      "showings": [
+        {
+          "time": "20:00",
+          "cinema": "Kino Zukunft",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/201394/",
+          "note": "OmU"
+        },
+        {
+          "time": "20:00",
+          "cinema": "Ladenkino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/201394/",
+          "note": "OmU"
+        },
+        {
+          "time": "21:00",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/201394/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
+      "title": "Late Night with the Wolf",
+      "start": "2026-06-17T20:00:00",
+      "end": null,
+      "location": "Wolf Kino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/315145/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Weserstraße 59, 12045 Neukölln",
+      "lat": 52.4827454,
+      "lng": 13.44178,
+      "bezirk": "Neukölln",
+      "showings": [
+        {
+          "time": "20:00",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/315145/",
+          "note": null
+        }
+      ]
+    },
+    {
       "title": "Vegane Küfa",
       "start": "2026-06-17T20:15:00",
       "end": null,
@@ -1901,6 +3421,90 @@
       "showings": null
     },
     {
+      "title": "Dao",
+      "start": "2026-06-17T20:20:00",
+      "end": null,
+      "location": "Wolf Kino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314068/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Weserstraße 59, 12045 Neukölln",
+      "lat": 52.4827454,
+      "lng": 13.44178,
+      "bezirk": "Neukölln",
+      "showings": [
+        {
+          "time": "20:20",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314068/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
+      "title": "Marty Supreme",
+      "start": "2026-06-17T20:30:00",
+      "end": null,
+      "location": "Sputnik",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/311201/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Straße des 17. Juni 145, 10623 Charlottenburg",
+      "lat": 52.5120816,
+      "lng": 13.3240122,
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "showings": [
+        {
+          "time": "20:30",
+          "cinema": "Sputnik",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/311201/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
+      "title": "Gelbe Briefe",
+      "start": "2026-06-17T21:00:00",
+      "end": null,
+      "location": "Sputnik",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/312336/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Straße des 17. Juni 145, 10623 Charlottenburg",
+      "lat": 52.5120816,
+      "lng": 13.3240122,
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "showings": [
+        {
+          "time": "21:00",
+          "cinema": "Sputnik",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/312336/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
       "title": "VideoKino (Open Air)",
       "start": "2026-06-17T21:30:00",
       "end": null,
@@ -1920,6 +3524,90 @@
       "lng": 13.4702725,
       "bezirk": "Pankow",
       "showings": null
+    },
+    {
+      "title": "Im Reich der Sinne (OmenglU)",
+      "start": "2026-06-17T21:30:00",
+      "end": null,
+      "location": "Lichtblick",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/56125/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Birkenstraße 33, 10551 Moabit",
+      "lat": 52.5325483,
+      "lng": 13.3411312,
+      "bezirk": "Mitte",
+      "showings": [
+        {
+          "time": "21:30",
+          "cinema": "Lichtblick",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/56125/",
+          "note": "OmenglU"
+        }
+      ]
+    },
+    {
+      "title": "No Other Choice",
+      "start": "2026-06-17T22:00:00",
+      "end": null,
+      "location": "Kino Zukunft",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/311863/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Kynaststraße, 10245 Friedrichshain",
+      "lat": 52.4979656,
+      "lng": 13.4661487,
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": [
+        {
+          "time": "22:00",
+          "cinema": "Kino Zukunft",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/311863/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
+      "title": "Mother Mary",
+      "start": "2026-06-17T23:05:00",
+      "end": null,
+      "location": "Ladenkino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313874/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Gärtnerstraße 19, 10245 Friedrichshain",
+      "lat": 52.5118751,
+      "lng": 13.4616485,
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": [
+        {
+          "time": "23:05",
+          "cinema": "Ladenkino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313874/",
+          "note": "OmU"
+        }
+      ]
     },
     {
       "title": "Qigong & Taiji für deine Lebensenergie!",
@@ -2027,6 +3715,62 @@
       "showings": null
     },
     {
+      "title": "Die kleine Amélie oder Der Charakter des Regens",
+      "start": "2026-06-18T16:30:00",
+      "end": null,
+      "location": "Wolf Kino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314220/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Weserstraße 59, 12045 Neukölln",
+      "lat": 52.4827454,
+      "lng": 13.44178,
+      "bezirk": "Neukölln",
+      "showings": [
+        {
+          "time": "16:30",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314220/",
+          "note": null
+        }
+      ]
+    },
+    {
+      "title": "Do You Love Me",
+      "start": "2026-06-18T16:40:00",
+      "end": null,
+      "location": "Wolf Kino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313625/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Weserstraße 59, 12045 Neukölln",
+      "lat": 52.4827454,
+      "lng": 13.44178,
+      "bezirk": "Neukölln",
+      "showings": [
+        {
+          "time": "16:40",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313625/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
       "title": "‘Grüner Donnerstag’",
       "start": "2026-06-18T17:00:00",
       "end": null,
@@ -2046,6 +3790,34 @@
       "lng": 13.3876998,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": null
+    },
+    {
+      "title": "Rose",
+      "start": "2026-06-18T17:50:00",
+      "end": null,
+      "location": "Kino Zukunft",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/201394/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Kynaststraße, 10245 Friedrichshain",
+      "lat": 52.4979656,
+      "lng": 13.4661487,
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": [
+        {
+          "time": "17:50",
+          "cinema": "Kino Zukunft",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/201394/",
+          "note": "OmU"
+        }
+      ]
     },
     {
       "title": "Fesselei - Bondage Jam",
@@ -2172,6 +3944,90 @@
       "lng": 13.3877873,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": null
+    },
+    {
+      "title": "Punku (OmenglU)",
+      "start": "2026-06-18T18:00:00",
+      "end": null,
+      "location": "Lichtblick",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/310677/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Birkenstraße 33, 10551 Moabit",
+      "lat": 52.5325483,
+      "lng": 13.3411312,
+      "bezirk": "Mitte",
+      "showings": [
+        {
+          "time": "18:00",
+          "cinema": "Lichtblick",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/310677/",
+          "note": "OmenglU"
+        }
+      ]
+    },
+    {
+      "title": "Meine Frau weint",
+      "start": "2026-06-18T18:20:00",
+      "end": null,
+      "location": "Wolf Kino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314222/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Weserstraße 59, 12045 Neukölln",
+      "lat": 52.4827454,
+      "lng": 13.44178,
+      "bezirk": "Neukölln",
+      "showings": [
+        {
+          "time": "18:20",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314222/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
+      "title": "Why do I see you in Everything?",
+      "start": "2026-06-18T18:30:00",
+      "end": null,
+      "location": "Wolf Kino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314905/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Weserstraße 59, 12045 Neukölln",
+      "lat": 52.4827454,
+      "lng": 13.44178,
+      "bezirk": "Neukölln",
+      "showings": [
+        {
+          "time": "18:30",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314905/",
+          "note": "OmU"
+        }
+      ]
     },
     {
       "title": "Having Sex with Vulvas",
@@ -2468,6 +4324,34 @@
       "showings": null
     },
     {
+      "title": "Nulpen",
+      "start": "2026-06-18T19:45:00",
+      "end": null,
+      "location": "Kino Zukunft",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/306386/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Kynaststraße, 10245 Friedrichshain",
+      "lat": 52.4979656,
+      "lng": 13.4661487,
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": [
+        {
+          "time": "19:45",
+          "cinema": "Kino Zukunft",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/306386/",
+          "note": null
+        }
+      ]
+    },
+    {
       "title": "Punkrocktresen",
       "start": "2026-06-18T20:00:00",
       "end": null,
@@ -2636,6 +4520,68 @@
       "showings": null
     },
     {
+      "title": "Dao",
+      "start": "2026-06-18T20:15:00",
+      "end": null,
+      "location": "2 Kinos",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314068/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Straße des 17. Juni 136, 10623 Charlottenburg",
+      "lat": 52.5134702,
+      "lng": 13.3262548,
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "showings": [
+        {
+          "time": "20:15",
+          "cinema": "Lichtblick",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314068/",
+          "note": "OmU"
+        },
+        {
+          "time": "20:20",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314068/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
+      "title": "The Love That Remains",
+      "start": "2026-06-18T20:30:00",
+      "end": null,
+      "location": "Wolf Kino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/310206/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Weserstraße 59, 12045 Neukölln",
+      "lat": 52.4827454,
+      "lng": 13.44178,
+      "bezirk": "Neukölln",
+      "showings": [
+        {
+          "time": "20:30",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/310206/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
       "title": "Konzert",
       "start": "2026-06-18T21:00:00",
       "end": null,
@@ -2697,6 +4643,34 @@
       "lng": 13.4407738,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": null
+    },
+    {
+      "title": "It's Never Over, Jeff Buckley",
+      "start": "2026-06-18T21:25:00",
+      "end": null,
+      "location": "Kino Zukunft",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/312873/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Kynaststraße, 10245 Friedrichshain",
+      "lat": 52.4979656,
+      "lng": 13.4661487,
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": [
+        {
+          "time": "21:25",
+          "cinema": "Kino Zukunft",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/312873/",
+          "note": "OmU"
+        }
+      ]
     },
     {
       "title": "Hamsterrad",
@@ -2888,6 +4862,34 @@
       "showings": null
     },
     {
+      "title": "Die kleine Amélie oder Der Charakter des Regens",
+      "start": "2026-06-19T16:40:00",
+      "end": null,
+      "location": "Wolf Kino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314220/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Weserstraße 59, 12045 Neukölln",
+      "lat": 52.4827454,
+      "lng": 13.44178,
+      "bezirk": "Neukölln",
+      "showings": [
+        {
+          "time": "16:40",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314220/",
+          "note": null
+        }
+      ]
+    },
+    {
       "title": "Gutscheintausch Regenbogencafé",
       "start": "2026-06-19T17:00:00",
       "end": null,
@@ -2991,6 +4993,40 @@
       "lng": 13.3876998,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": null
+    },
+    {
+      "title": "Rose",
+      "start": "2026-06-19T17:00:00",
+      "end": null,
+      "location": "2 Kinos",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/201394/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Straße des 17. Juni 136, 10623 Charlottenburg",
+      "lat": 52.5134702,
+      "lng": 13.3262548,
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "showings": [
+        {
+          "time": "17:00",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/201394/",
+          "note": "OmU"
+        },
+        {
+          "time": "17:50",
+          "cinema": "Kino Zukunft",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/201394/",
+          "note": "OmU"
+        }
+      ]
     },
     {
       "title": "Aus der Nacht heraus - Political Film Festival -Day 2",
@@ -3117,6 +5153,34 @@
       "lng": 13.3625529,
       "bezirk": "Mitte",
       "showings": null
+    },
+    {
+      "title": "Do You Love Me",
+      "start": "2026-06-19T18:30:00",
+      "end": null,
+      "location": "Wolf Kino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313625/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Weserstraße 59, 12045 Neukölln",
+      "lat": 52.4827454,
+      "lng": 13.44178,
+      "bezirk": "Neukölln",
+      "showings": [
+        {
+          "time": "18:30",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313625/",
+          "note": "OmU"
+        }
+      ]
     },
     {
       "title": "Tarot and Tie",
@@ -3350,6 +5414,34 @@
       "showings": null
     },
     {
+      "title": "Meine Frau weint",
+      "start": "2026-06-19T19:00:00",
+      "end": null,
+      "location": "Wolf Kino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314222/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Weserstraße 59, 12045 Neukölln",
+      "lat": 52.4827454,
+      "lng": 13.44178,
+      "bezirk": "Neukölln",
+      "showings": [
+        {
+          "time": "19:00",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314222/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
       "title": "Kurdish Stand-Up Comedy",
       "start": "2026-06-19T19:30:00",
       "end": null,
@@ -3390,6 +5482,34 @@
       "lng": 13.4174433,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": null
+    },
+    {
+      "title": "Nulpen",
+      "start": "2026-06-19T19:45:00",
+      "end": null,
+      "location": "Kino Zukunft",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/306386/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Kynaststraße, 10245 Friedrichshain",
+      "lat": 52.4979656,
+      "lng": 13.4661487,
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": [
+        {
+          "time": "19:45",
+          "cinema": "Kino Zukunft",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/306386/",
+          "note": null
+        }
+      ]
     },
     {
       "title": "Kneipe & Briefe an Gefangene schreiben",
@@ -3497,6 +5617,34 @@
       "showings": null
     },
     {
+      "title": "Dao",
+      "start": "2026-06-19T20:10:00",
+      "end": null,
+      "location": "Wolf Kino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314068/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Weserstraße 59, 12045 Neukölln",
+      "lat": 52.4827454,
+      "lng": 13.44178,
+      "bezirk": "Neukölln",
+      "showings": [
+        {
+          "time": "20:10",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314068/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
       "title": "Ea Torrado: Brown Madonna",
       "start": "2026-06-19T20:30:00",
       "end": null,
@@ -3581,6 +5729,62 @@
       "showings": null
     },
     {
+      "title": "The Love That Remains",
+      "start": "2026-06-19T21:00:00",
+      "end": null,
+      "location": "Wolf Kino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/310206/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Weserstraße 59, 12045 Neukölln",
+      "lat": 52.4827454,
+      "lng": 13.44178,
+      "bezirk": "Neukölln",
+      "showings": [
+        {
+          "time": "21:00",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/310206/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
+      "title": "Sirât",
+      "start": "2026-06-19T21:25:00",
+      "end": null,
+      "location": "Kino Zukunft",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/308235/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Kynaststraße, 10245 Friedrichshain",
+      "lat": 52.4979656,
+      "lng": 13.4661487,
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": [
+        {
+          "time": "21:25",
+          "cinema": "Kino Zukunft",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/308235/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
       "title": "DADDY MEETS TWINK",
       "start": "2026-06-19T22:00:00",
       "end": null,
@@ -3642,6 +5846,34 @@
       "lng": 13.3513556,
       "bezirk": "Mitte",
       "showings": null
+    },
+    {
+      "title": "Arco - Eine fantastische Reise durch die Zeit",
+      "start": "2026-06-20T13:20:00",
+      "end": null,
+      "location": "Wolf Kino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/310923/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Weserstraße 59, 12045 Neukölln",
+      "lat": 52.4827454,
+      "lng": 13.44178,
+      "bezirk": "Neukölln",
+      "showings": [
+        {
+          "time": "13:20",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/310923/",
+          "note": null
+        }
+      ]
     },
     {
       "title": "Breathplay Workshop",
@@ -3707,6 +5939,34 @@
       "showings": null
     },
     {
+      "title": "Die Schatzsuche im Blaumeisental",
+      "start": "2026-06-20T14:00:00",
+      "end": null,
+      "location": "Wolf Kino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/309748/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Weserstraße 59, 12045 Neukölln",
+      "lat": 52.4827454,
+      "lng": 13.44178,
+      "bezirk": "Neukölln",
+      "showings": [
+        {
+          "time": "14:00",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/309748/",
+          "note": null
+        }
+      ]
+    },
+    {
       "title": "Kinky Taboos: Berlin After Dark Tour",
       "start": "2026-06-20T14:30:00",
       "end": null,
@@ -3749,6 +6009,34 @@
       "showings": null
     },
     {
+      "title": "Die kleine Amélie oder Der Charakter des Regens",
+      "start": "2026-06-20T15:20:00",
+      "end": null,
+      "location": "Wolf Kino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314220/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Weserstraße 59, 12045 Neukölln",
+      "lat": 52.4827454,
+      "lng": 13.44178,
+      "bezirk": "Neukölln",
+      "showings": [
+        {
+          "time": "15:20",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314220/",
+          "note": null
+        }
+      ]
+    },
+    {
       "title": "Gender Mix",
       "start": "2026-06-20T15:30:00",
       "end": null,
@@ -3768,6 +6056,34 @@
       "lng": 13.3877873,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": null
+    },
+    {
+      "title": "Ein Sommer in Paris",
+      "start": "2026-06-20T15:40:00",
+      "end": null,
+      "location": "Wolf Kino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/310883/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Weserstraße 59, 12045 Neukölln",
+      "lat": 52.4827454,
+      "lng": 13.44178,
+      "bezirk": "Neukölln",
+      "showings": [
+        {
+          "time": "15:40",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/310883/",
+          "note": "OmU"
+        }
+      ]
     },
     {
       "title": "Midsummer Moments - Playtime",
@@ -3875,6 +6191,40 @@
       "showings": null
     },
     {
+      "title": "Nulpen",
+      "start": "2026-06-20T16:00:00",
+      "end": null,
+      "location": "Kino Zukunft",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/306386/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Kynaststraße, 10245 Friedrichshain",
+      "lat": 52.4979656,
+      "lng": 13.4661487,
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": [
+        {
+          "time": "16:00",
+          "cinema": "Kino Zukunft",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/306386/",
+          "note": null
+        },
+        {
+          "time": "19:45",
+          "cinema": "Kino Zukunft",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/306386/",
+          "note": null
+        }
+      ]
+    },
+    {
       "title": "Lesung und Punkkonzert",
       "start": "2026-06-20T17:00:00",
       "end": null,
@@ -3938,6 +6288,34 @@
       "showings": null
     },
     {
+      "title": "Rose",
+      "start": "2026-06-20T17:00:00",
+      "end": null,
+      "location": "Wolf Kino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/201394/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Weserstraße 59, 12045 Neukölln",
+      "lat": 52.4827454,
+      "lng": 13.44178,
+      "bezirk": "Neukölln",
+      "showings": [
+        {
+          "time": "17:00",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/201394/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
       "title": "Rundgang Ausstellung „Die Anarchie ist das Leben der Menschen, die dem Joche entronnen sind.“",
       "start": "2026-06-20T17:30:00",
       "end": null,
@@ -3999,6 +6377,62 @@
       "lng": 13.3877873,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": null
+    },
+    {
+      "title": "Why do I see you in Everything?",
+      "start": "2026-06-20T17:30:00",
+      "end": null,
+      "location": "Wolf Kino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314905/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Weserstraße 59, 12045 Neukölln",
+      "lat": 52.4827454,
+      "lng": 13.44178,
+      "bezirk": "Neukölln",
+      "showings": [
+        {
+          "time": "17:30",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314905/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
+      "title": "Scherbenland",
+      "start": "2026-06-20T17:40:00",
+      "end": null,
+      "location": "Kino Zukunft",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313866/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Kynaststraße, 10245 Friedrichshain",
+      "lat": 52.4979656,
+      "lng": 13.4661487,
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": [
+        {
+          "time": "17:40",
+          "cinema": "Kino Zukunft",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313866/",
+          "note": null
+        }
+      ]
     },
     {
       "title": "Screening \"ProPal - for the global justice\" + aperitivo",
@@ -4125,6 +6559,62 @@
       "lng": 13.3871576,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": null
+    },
+    {
+      "title": "Do You Love Me",
+      "start": "2026-06-20T19:00:00",
+      "end": null,
+      "location": "Wolf Kino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313625/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Weserstraße 59, 12045 Neukölln",
+      "lat": 52.4827454,
+      "lng": 13.44178,
+      "bezirk": "Neukölln",
+      "showings": [
+        {
+          "time": "19:00",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313625/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
+      "title": "Meine Frau weint",
+      "start": "2026-06-20T19:10:00",
+      "end": null,
+      "location": "Wolf Kino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314222/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Weserstraße 59, 12045 Neukölln",
+      "lat": 52.4827454,
+      "lng": 13.44178,
+      "bezirk": "Neukölln",
+      "showings": [
+        {
+          "time": "19:10",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314222/",
+          "note": "OmU"
+        }
+      ]
     },
     {
       "title": "Lesung & Buchvorstellung",
@@ -4400,6 +6890,34 @@
       "showings": null
     },
     {
+      "title": "Dao",
+      "start": "2026-06-20T20:40:00",
+      "end": null,
+      "location": "Wolf Kino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314068/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Weserstraße 59, 12045 Neukölln",
+      "lat": 52.4827454,
+      "lng": 13.44178,
+      "bezirk": "Neukölln",
+      "showings": [
+        {
+          "time": "20:40",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314068/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
       "title": "Konzert im K (A)",
       "start": "2026-06-20T21:00:00",
       "end": null,
@@ -4461,6 +6979,62 @@
       "lng": 13.4016022,
       "bezirk": "Mitte",
       "showings": null
+    },
+    {
+      "title": "The Love That Remains",
+      "start": "2026-06-20T21:10:00",
+      "end": null,
+      "location": "Wolf Kino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/310206/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Weserstraße 59, 12045 Neukölln",
+      "lat": 52.4827454,
+      "lng": 13.44178,
+      "bezirk": "Neukölln",
+      "showings": [
+        {
+          "time": "21:10",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/310206/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
+      "title": "It's Never Over, Jeff Buckley",
+      "start": "2026-06-20T21:25:00",
+      "end": null,
+      "location": "Kino Zukunft",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/312873/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Kynaststraße, 10245 Friedrichshain",
+      "lat": 52.4979656,
+      "lng": 13.4661487,
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": [
+        {
+          "time": "21:25",
+          "cinema": "Kino Zukunft",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/312873/",
+          "note": "OmU"
+        }
+      ]
     },
     {
       "title": "Klubnacht",
@@ -4778,6 +7352,62 @@
       "showings": null
     },
     {
+      "title": "Arco - Eine fantastische Reise durch die Zeit",
+      "start": "2026-06-21T13:00:00",
+      "end": null,
+      "location": "Wolf Kino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/310923/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Weserstraße 59, 12045 Neukölln",
+      "lat": 52.4827454,
+      "lng": 13.44178,
+      "bezirk": "Neukölln",
+      "showings": [
+        {
+          "time": "13:00",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/310923/",
+          "note": null
+        }
+      ]
+    },
+    {
+      "title": "Die Schatzsuche im Blaumeisental",
+      "start": "2026-06-21T13:30:00",
+      "end": null,
+      "location": "Wolf Kino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/309748/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Weserstraße 59, 12045 Neukölln",
+      "lat": 52.4827454,
+      "lng": 13.44178,
+      "bezirk": "Neukölln",
+      "showings": [
+        {
+          "time": "13:30",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/309748/",
+          "note": null
+        }
+      ]
+    },
+    {
       "title": "Squat de la Musique * Schreina47",
       "start": "2026-06-21T14:00:00",
       "end": null,
@@ -4946,6 +7576,62 @@
       "showings": null
     },
     {
+      "title": "Die kleine Amélie oder Der Charakter des Regens",
+      "start": "2026-06-21T15:00:00",
+      "end": null,
+      "location": "Wolf Kino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314220/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Weserstraße 59, 12045 Neukölln",
+      "lat": 52.4827454,
+      "lng": 13.44178,
+      "bezirk": "Neukölln",
+      "showings": [
+        {
+          "time": "15:00",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314220/",
+          "note": null
+        }
+      ]
+    },
+    {
+      "title": "Ein Sommer in Paris",
+      "start": "2026-06-21T15:10:00",
+      "end": null,
+      "location": "Wolf Kino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/310883/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Weserstraße 59, 12045 Neukölln",
+      "lat": 52.4827454,
+      "lng": 13.44178,
+      "bezirk": "Neukölln",
+      "showings": [
+        {
+          "time": "15:10",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/310883/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
       "title": "Naked Sex Party",
       "start": "2026-06-21T15:30:00",
       "end": null,
@@ -4965,6 +7651,34 @@
       "lng": 13.3484263,
       "bezirk": "Tempelhof-Schöneberg",
       "showings": null
+    },
+    {
+      "title": "Der Himmel über Berlin (OmenglU)",
+      "start": "2026-06-21T15:30:00",
+      "end": null,
+      "location": "Lichtblick",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/10895/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Birkenstraße 33, 10551 Moabit",
+      "lat": 52.5325483,
+      "lng": 13.3411312,
+      "bezirk": "Mitte",
+      "showings": [
+        {
+          "time": "15:30",
+          "cinema": "Lichtblick",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/10895/",
+          "note": "OmenglU"
+        }
+      ]
     },
     {
       "title": "Konzert",
@@ -5030,6 +7744,40 @@
       "showings": null
     },
     {
+      "title": "Nulpen",
+      "start": "2026-06-21T16:00:00",
+      "end": null,
+      "location": "Kino Zukunft",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/306386/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Kynaststraße, 10245 Friedrichshain",
+      "lat": 52.4979656,
+      "lng": 13.4661487,
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": [
+        {
+          "time": "16:00",
+          "cinema": "Kino Zukunft",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/306386/",
+          "note": null
+        },
+        {
+          "time": "19:45",
+          "cinema": "Kino Zukunft",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/306386/",
+          "note": null
+        }
+      ]
+    },
+    {
       "title": "„ABBA – Waterloo im Bällebad”",
       "start": "2026-06-21T16:30:00",
       "end": null,
@@ -5049,6 +7797,34 @@
       "lng": 13.3175925,
       "bezirk": "Steglitz-Zehlendorf",
       "showings": null
+    },
+    {
+      "title": "Rose",
+      "start": "2026-06-21T16:40:00",
+      "end": null,
+      "location": "Wolf Kino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/201394/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Weserstraße 59, 12045 Neukölln",
+      "lat": 52.4827454,
+      "lng": 13.44178,
+      "bezirk": "Neukölln",
+      "showings": [
+        {
+          "time": "16:40",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/201394/",
+          "note": "OmU"
+        }
+      ]
     },
     {
       "title": "Cuddles, Cakes and Kinks - Summer Edition (with Garden!)",
@@ -5114,6 +7890,34 @@
       "showings": null
     },
     {
+      "title": "Meine Frau weint",
+      "start": "2026-06-21T17:00:00",
+      "end": null,
+      "location": "Wolf Kino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314222/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Weserstraße 59, 12045 Neukölln",
+      "lat": 52.4827454,
+      "lng": 13.44178,
+      "bezirk": "Neukölln",
+      "showings": [
+        {
+          "time": "17:00",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314222/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
       "title": "Angela Alves: Never Rest (After Work Tours #2)",
       "start": "2026-06-21T17:30:00",
       "end": null,
@@ -5133,6 +7937,96 @@
       "lng": 13.4016022,
       "bezirk": "Mitte",
       "showings": null
+    },
+    {
+      "title": "Scherbenland",
+      "start": "2026-06-21T17:40:00",
+      "end": null,
+      "location": "Kino Zukunft",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313866/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Kynaststraße, 10245 Friedrichshain",
+      "lat": 52.4979656,
+      "lng": 13.4661487,
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": [
+        {
+          "time": "17:40",
+          "cinema": "Kino Zukunft",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313866/",
+          "note": null
+        }
+      ]
+    },
+    {
+      "title": "Dao",
+      "start": "2026-06-21T17:45:00",
+      "end": null,
+      "location": "2 Kinos",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314068/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Straße des 17. Juni 136, 10623 Charlottenburg",
+      "lat": 52.5134702,
+      "lng": 13.3262548,
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "showings": [
+        {
+          "time": "17:45",
+          "cinema": "Lichtblick",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314068/",
+          "note": "OmU"
+        },
+        {
+          "time": "20:20",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314068/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
+      "title": "I Only Rest in the Storm",
+      "start": "2026-06-21T17:45:00",
+      "end": null,
+      "location": "Lichtblick",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314078/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Birkenstraße 33, 10551 Moabit",
+      "lat": 52.5325483,
+      "lng": 13.3411312,
+      "bezirk": "Mitte",
+      "showings": [
+        {
+          "time": "17:45",
+          "cinema": "Lichtblick",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314078/",
+          "note": "OmU"
+        }
+      ]
     },
     {
       "title": "Chillout Jam",
@@ -5175,6 +8069,34 @@
       "lng": 13.4119171,
       "bezirk": "Mitte",
       "showings": null
+    },
+    {
+      "title": "Do You Love Me",
+      "start": "2026-06-21T18:40:00",
+      "end": null,
+      "location": "Wolf Kino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313625/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Weserstraße 59, 12045 Neukölln",
+      "lat": 52.4827454,
+      "lng": 13.44178,
+      "bezirk": "Neukölln",
+      "showings": [
+        {
+          "time": "18:40",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313625/",
+          "note": "OmU"
+        }
+      ]
     },
     {
       "title": "Filmscreening",
@@ -5261,6 +8183,34 @@
       "showings": null
     },
     {
+      "title": "The Love That Remains",
+      "start": "2026-06-21T19:00:00",
+      "end": null,
+      "location": "Wolf Kino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/310206/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Weserstraße 59, 12045 Neukölln",
+      "lat": 52.4827454,
+      "lng": 13.44178,
+      "bezirk": "Neukölln",
+      "showings": [
+        {
+          "time": "19:00",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/310206/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
       "title": "Die Seherin",
       "start": "2026-06-21T19:30:00",
       "end": null,
@@ -5322,6 +8272,96 @@
       "lng": 13.4016022,
       "bezirk": "Mitte",
       "showings": null
+    },
+    {
+      "title": "Why do I see you in Everything?",
+      "start": "2026-06-21T21:10:00",
+      "end": null,
+      "location": "Wolf Kino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314905/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Weserstraße 59, 12045 Neukölln",
+      "lat": 52.4827454,
+      "lng": 13.44178,
+      "bezirk": "Neukölln",
+      "showings": [
+        {
+          "time": "21:10",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314905/",
+          "note": "OmU"
+        },
+        {
+          "time": "21:20",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314905/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
+      "title": "In die Sonne schauen (OmenglU)",
+      "start": "2026-06-21T21:15:00",
+      "end": null,
+      "location": "Lichtblick",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/308330/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Birkenstraße 33, 10551 Moabit",
+      "lat": 52.5325483,
+      "lng": 13.3411312,
+      "bezirk": "Mitte",
+      "showings": [
+        {
+          "time": "21:15",
+          "cinema": "Lichtblick",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/308330/",
+          "note": "OmenglU"
+        }
+      ]
+    },
+    {
+      "title": "Sirât",
+      "start": "2026-06-21T21:25:00",
+      "end": null,
+      "location": "Kino Zukunft",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/308235/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Kynaststraße, 10245 Friedrichshain",
+      "lat": 52.4979656,
+      "lng": 13.4661487,
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": [
+        {
+          "time": "21:25",
+          "cinema": "Kino Zukunft",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/308235/",
+          "note": "OmU"
+        }
+      ]
     },
     {
       "title": "VideoKino (Open Air)",
@@ -5429,6 +8469,34 @@
       "showings": null
     },
     {
+      "title": "Die kleine Amélie oder Der Charakter des Regens",
+      "start": "2026-06-22T16:40:00",
+      "end": null,
+      "location": "Wolf Kino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314220/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Weserstraße 59, 12045 Neukölln",
+      "lat": 52.4827454,
+      "lng": 13.44178,
+      "bezirk": "Neukölln",
+      "showings": [
+        {
+          "time": "16:40",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314220/",
+          "note": null
+        }
+      ]
+    },
+    {
       "title": "Sozialberatung  - Social counseling",
       "start": "2026-06-22T17:00:00",
       "end": null,
@@ -5469,6 +8537,40 @@
       "lng": 13.3876998,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": null
+    },
+    {
+      "title": "Rose",
+      "start": "2026-06-22T17:00:00",
+      "end": null,
+      "location": "2 Kinos",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/201394/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Straße des 17. Juni 136, 10623 Charlottenburg",
+      "lat": 52.5134702,
+      "lng": 13.3262548,
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "showings": [
+        {
+          "time": "17:00",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/201394/",
+          "note": "OmU"
+        },
+        {
+          "time": "17:50",
+          "cinema": "Kino Zukunft",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/201394/",
+          "note": "OmU"
+        }
+      ]
     },
     {
       "title": "All-Gender-Fußball",
@@ -5534,6 +8636,34 @@
       "showings": null
     },
     {
+      "title": "Do You Love Me (OmenglU)",
+      "start": "2026-06-22T18:15:00",
+      "end": null,
+      "location": "Lichtblick",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313625/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Birkenstraße 33, 10551 Moabit",
+      "lat": 52.5325483,
+      "lng": 13.3411312,
+      "bezirk": "Mitte",
+      "showings": [
+        {
+          "time": "18:15",
+          "cinema": "Lichtblick",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313625/",
+          "note": "OmenglU"
+        }
+      ]
+    },
+    {
       "title": "Offene Mietenberatung",
       "start": "2026-06-22T18:30:00",
       "end": null,
@@ -5574,6 +8704,34 @@
       "lng": 13.4126884,
       "bezirk": "Pankow",
       "showings": null
+    },
+    {
+      "title": "Ein Sommer in Paris",
+      "start": "2026-06-22T18:30:00",
+      "end": null,
+      "location": "Wolf Kino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/310883/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Weserstraße 59, 12045 Neukölln",
+      "lat": 52.4827454,
+      "lng": 13.44178,
+      "bezirk": "Neukölln",
+      "showings": [
+        {
+          "time": "18:30",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/310883/",
+          "note": "OmU"
+        }
+      ]
     },
     {
       "title": "Barschulung - Folgebelehrung",
@@ -5723,6 +8881,34 @@
       "showings": null
     },
     {
+      "title": "Meine Frau weint",
+      "start": "2026-06-22T19:00:00",
+      "end": null,
+      "location": "Wolf Kino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314222/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Weserstraße 59, 12045 Neukölln",
+      "lat": 52.4827454,
+      "lng": 13.44178,
+      "bezirk": "Neukölln",
+      "showings": [
+        {
+          "time": "19:00",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314222/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
       "title": "Die Seherin",
       "start": "2026-06-22T19:30:00",
       "end": null,
@@ -5763,6 +8949,62 @@
       "lng": 13.42897,
       "bezirk": "Neukölln",
       "showings": null
+    },
+    {
+      "title": "Palästina 36 (OmenglU)",
+      "start": "2026-06-22T19:30:00",
+      "end": null,
+      "location": "Lichtblick",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313735/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Birkenstraße 33, 10551 Moabit",
+      "lat": 52.5325483,
+      "lng": 13.3411312,
+      "bezirk": "Mitte",
+      "showings": [
+        {
+          "time": "19:30",
+          "cinema": "Lichtblick",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313735/",
+          "note": "OmenglU"
+        }
+      ]
+    },
+    {
+      "title": "Nulpen",
+      "start": "2026-06-22T19:45:00",
+      "end": null,
+      "location": "Kino Zukunft",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/306386/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Kynaststraße, 10245 Friedrichshain",
+      "lat": 52.4979656,
+      "lng": 13.4661487,
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": [
+        {
+          "time": "19:45",
+          "cinema": "Kino Zukunft",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/306386/",
+          "note": null
+        }
+      ]
     },
     {
       "title": "Barschulung - Erstbelehrung",
@@ -5849,6 +9091,34 @@
       "showings": null
     },
     {
+      "title": "Dao",
+      "start": "2026-06-22T20:20:00",
+      "end": null,
+      "location": "Wolf Kino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314068/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Weserstraße 59, 12045 Neukölln",
+      "lat": 52.4827454,
+      "lng": 13.44178,
+      "bezirk": "Neukölln",
+      "showings": [
+        {
+          "time": "20:20",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314068/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
       "title": "Filmabend im K( P)",
       "start": "2026-06-22T21:00:00",
       "end": null,
@@ -5868,6 +9138,90 @@
       "lng": 13.4271106,
       "bezirk": "Mitte",
       "showings": null
+    },
+    {
+      "title": "The Love That Remains",
+      "start": "2026-06-22T21:00:00",
+      "end": null,
+      "location": "Wolf Kino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/310206/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Weserstraße 59, 12045 Neukölln",
+      "lat": 52.4827454,
+      "lng": 13.44178,
+      "bezirk": "Neukölln",
+      "showings": [
+        {
+          "time": "21:00",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/310206/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
+      "title": "It's Never Over, Jeff Buckley",
+      "start": "2026-06-22T21:25:00",
+      "end": null,
+      "location": "Kino Zukunft",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/312873/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Kynaststraße, 10245 Friedrichshain",
+      "lat": 52.4979656,
+      "lng": 13.4661487,
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": [
+        {
+          "time": "21:25",
+          "cinema": "Kino Zukunft",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/312873/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
+      "title": "Im Reich der Sinne (OmenglU)",
+      "start": "2026-06-22T21:30:00",
+      "end": null,
+      "location": "Lichtblick",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/56125/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Birkenstraße 33, 10551 Moabit",
+      "lat": 52.5325483,
+      "lng": 13.3411312,
+      "bezirk": "Mitte",
+      "showings": [
+        {
+          "time": "21:30",
+          "cinema": "Lichtblick",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/56125/",
+          "note": "OmenglU"
+        }
+      ]
     },
     {
       "title": "Hamsterrad",
@@ -5954,6 +9308,96 @@
       "showings": null
     },
     {
+      "title": "Die kleine Amélie oder Der Charakter des Regens",
+      "start": "2026-06-23T17:00:00",
+      "end": null,
+      "location": "Wolf Kino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314220/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Weserstraße 59, 12045 Neukölln",
+      "lat": 52.4827454,
+      "lng": 13.44178,
+      "bezirk": "Neukölln",
+      "showings": [
+        {
+          "time": "17:00",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314220/",
+          "note": null
+        }
+      ]
+    },
+    {
+      "title": "Do You Love Me",
+      "start": "2026-06-23T17:20:00",
+      "end": null,
+      "location": "2 Kinos",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313625/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Straße des 17. Juni 136, 10623 Charlottenburg",
+      "lat": 52.5134702,
+      "lng": 13.3262548,
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "showings": [
+        {
+          "time": "17:20",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313625/",
+          "note": "OmU"
+        },
+        {
+          "time": "22:30",
+          "cinema": "Lichtblick",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313625/",
+          "note": "OmenglU"
+        }
+      ]
+    },
+    {
+      "title": "Rose",
+      "start": "2026-06-23T17:50:00",
+      "end": null,
+      "location": "Kino Zukunft",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/201394/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Kynaststraße, 10245 Friedrichshain",
+      "lat": 52.4979656,
+      "lng": 13.4661487,
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": [
+        {
+          "time": "17:50",
+          "cinema": "Kino Zukunft",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/201394/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
       "title": "Flinta*only Kickern",
       "start": "2026-06-23T18:00:00",
       "end": null,
@@ -6015,6 +9459,34 @@
       "lng": 13.4243386,
       "bezirk": "Mitte",
       "showings": null
+    },
+    {
+      "title": "In die Sonne schauen (OmenglU)",
+      "start": "2026-06-23T18:00:00",
+      "end": null,
+      "location": "Lichtblick",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/308330/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Birkenstraße 33, 10551 Moabit",
+      "lat": 52.5325483,
+      "lng": 13.3411312,
+      "bezirk": "Mitte",
+      "showings": [
+        {
+          "time": "18:00",
+          "cinema": "Lichtblick",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/308330/",
+          "note": "OmenglU"
+        }
+      ]
     },
     {
       "title": "Berliner Bündnis gegen Vonovia & Co. - monatliches Vernetzungstreffen",
@@ -6164,6 +9636,62 @@
       "showings": null
     },
     {
+      "title": "Meine Frau weint",
+      "start": "2026-06-23T19:00:00",
+      "end": null,
+      "location": "Wolf Kino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314222/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Weserstraße 59, 12045 Neukölln",
+      "lat": 52.4827454,
+      "lng": 13.44178,
+      "bezirk": "Neukölln",
+      "showings": [
+        {
+          "time": "19:00",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314222/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
+      "title": "I Only Rest in the Storm",
+      "start": "2026-06-23T19:10:00",
+      "end": null,
+      "location": "Wolf Kino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314078/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Weserstraße 59, 12045 Neukölln",
+      "lat": 52.4827454,
+      "lng": 13.44178,
+      "bezirk": "Neukölln",
+      "showings": [
+        {
+          "time": "19:10",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314078/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
       "title": "\"Wer wird visionär?\" ~ Queeres Quiz",
       "start": "2026-06-23T19:30:00",
       "end": null,
@@ -6183,6 +9711,34 @@
       "lng": 13.363522,
       "bezirk": "Mitte",
       "showings": null
+    },
+    {
+      "title": "Nulpen",
+      "start": "2026-06-23T19:45:00",
+      "end": null,
+      "location": "Kino Zukunft",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/306386/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Kynaststraße, 10245 Friedrichshain",
+      "lat": 52.4979656,
+      "lng": 13.4661487,
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": [
+        {
+          "time": "19:45",
+          "cinema": "Kino Zukunft",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/306386/",
+          "note": null
+        }
+      ]
     },
     {
       "title": "Flinta*only Kickern",
@@ -6290,6 +9846,90 @@
       "showings": null
     },
     {
+      "title": "Palästina 36 (OmenglU)",
+      "start": "2026-06-23T20:30:00",
+      "end": null,
+      "location": "Lichtblick",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313735/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Birkenstraße 33, 10551 Moabit",
+      "lat": 52.5325483,
+      "lng": 13.3411312,
+      "bezirk": "Mitte",
+      "showings": [
+        {
+          "time": "20:30",
+          "cinema": "Lichtblick",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313735/",
+          "note": "OmenglU"
+        }
+      ]
+    },
+    {
+      "title": "The Love That Remains",
+      "start": "2026-06-23T21:00:00",
+      "end": null,
+      "location": "Wolf Kino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/310206/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Weserstraße 59, 12045 Neukölln",
+      "lat": 52.4827454,
+      "lng": 13.44178,
+      "bezirk": "Neukölln",
+      "showings": [
+        {
+          "time": "21:00",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/310206/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
+      "title": "Sirât",
+      "start": "2026-06-23T21:25:00",
+      "end": null,
+      "location": "Kino Zukunft",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/308235/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Kynaststraße, 10245 Friedrichshain",
+      "lat": 52.4979656,
+      "lng": 13.4661487,
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": [
+        {
+          "time": "21:25",
+          "cinema": "Kino Zukunft",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/308235/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
       "title": "Hamsterrad",
       "start": "2026-06-24T09:00:00",
       "end": null,
@@ -6353,6 +9993,34 @@
       "showings": null
     },
     {
+      "title": "Die kleine Amélie oder Der Charakter des Regens",
+      "start": "2026-06-24T16:40:00",
+      "end": null,
+      "location": "Wolf Kino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314220/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Weserstraße 59, 12045 Neukölln",
+      "lat": 52.4827454,
+      "lng": 13.44178,
+      "bezirk": "Neukölln",
+      "showings": [
+        {
+          "time": "16:40",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314220/",
+          "note": null
+        }
+      ]
+    },
+    {
       "title": "Aufgüsse am Mittwoch",
       "start": "2026-06-24T17:00:00",
       "end": null,
@@ -6372,6 +10040,40 @@
       "lng": 13.3876998,
       "bezirk": "Friedrichshain-Kreuzberg",
       "showings": null
+    },
+    {
+      "title": "Rose",
+      "start": "2026-06-24T17:00:00",
+      "end": null,
+      "location": "2 Kinos",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/201394/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Straße des 17. Juni 136, 10623 Charlottenburg",
+      "lat": 52.5134702,
+      "lng": 13.3262548,
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "showings": [
+        {
+          "time": "17:00",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/201394/",
+          "note": "OmU"
+        },
+        {
+          "time": "17:50",
+          "cinema": "Kino Zukunft",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/201394/",
+          "note": "OmU"
+        }
+      ]
     },
     {
       "title": "gender mix",
@@ -6435,6 +10137,62 @@
       "lng": 13.400323,
       "bezirk": "Pankow",
       "showings": null
+    },
+    {
+      "title": "Hass - La Haine (OmenglU)",
+      "start": "2026-06-24T18:15:00",
+      "end": null,
+      "location": "Lichtblick",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/11692/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Birkenstraße 33, 10551 Moabit",
+      "lat": 52.5325483,
+      "lng": 13.3411312,
+      "bezirk": "Mitte",
+      "showings": [
+        {
+          "time": "18:15",
+          "cinema": "Lichtblick",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/11692/",
+          "note": "OmenglU"
+        }
+      ]
+    },
+    {
+      "title": "Do You Love Me",
+      "start": "2026-06-24T18:30:00",
+      "end": null,
+      "location": "Wolf Kino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313625/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Weserstraße 59, 12045 Neukölln",
+      "lat": 52.4827454,
+      "lng": 13.44178,
+      "bezirk": "Neukölln",
+      "showings": [
+        {
+          "time": "18:30",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313625/",
+          "note": "OmU"
+        }
+      ]
     },
     {
       "title": "Playfight & Rough Body Play Lab",
@@ -6563,6 +10321,34 @@
       "showings": null
     },
     {
+      "title": "Meine Frau weint",
+      "start": "2026-06-24T19:00:00",
+      "end": null,
+      "location": "Wolf Kino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314222/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Weserstraße 59, 12045 Neukölln",
+      "lat": 52.4827454,
+      "lng": 13.44178,
+      "bezirk": "Neukölln",
+      "showings": [
+        {
+          "time": "19:00",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314222/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
       "title": "Lesung Henryk Gericke und Henning Rabe",
       "start": "2026-06-24T19:30:00",
       "end": null,
@@ -6582,6 +10368,34 @@
       "lng": 13.4126884,
       "bezirk": "Pankow",
       "showings": null
+    },
+    {
+      "title": "Nulpen",
+      "start": "2026-06-24T19:45:00",
+      "end": null,
+      "location": "Kino Zukunft",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/306386/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Kynaststraße, 10245 Friedrichshain",
+      "lat": 52.4979656,
+      "lng": 13.4661487,
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": [
+        {
+          "time": "19:45",
+          "cinema": "Kino Zukunft",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/306386/",
+          "note": null
+        }
+      ]
     },
     {
       "title": "Karaoke-Abend",
@@ -6689,6 +10503,62 @@
       "showings": null
     },
     {
+      "title": "Gestern Mitte Morgen (OmenglU)",
+      "start": "2026-06-24T20:00:00",
+      "end": null,
+      "location": "Lichtblick",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/313635/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Birkenstraße 33, 10551 Moabit",
+      "lat": 52.5325483,
+      "lng": 13.3411312,
+      "bezirk": "Mitte",
+      "showings": [
+        {
+          "time": "20:00",
+          "cinema": "Lichtblick",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/313635/",
+          "note": "OmenglU"
+        }
+      ]
+    },
+    {
+      "title": "Dao",
+      "start": "2026-06-24T20:10:00",
+      "end": null,
+      "location": "Wolf Kino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/314068/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Weserstraße 59, 12045 Neukölln",
+      "lat": 52.4827454,
+      "lng": 13.44178,
+      "bezirk": "Neukölln",
+      "showings": [
+        {
+          "time": "20:10",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/314068/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
       "title": "Vegane Küfa",
       "start": "2026-06-24T20:15:00",
       "end": null,
@@ -6752,6 +10622,62 @@
       "showings": null
     },
     {
+      "title": "The Love That Remains",
+      "start": "2026-06-24T21:00:00",
+      "end": null,
+      "location": "Wolf Kino",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/310206/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Weserstraße 59, 12045 Neukölln",
+      "lat": 52.4827454,
+      "lng": 13.44178,
+      "bezirk": "Neukölln",
+      "showings": [
+        {
+          "time": "21:00",
+          "cinema": "Wolf Kino",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/310206/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
+      "title": "It's Never Over, Jeff Buckley",
+      "start": "2026-06-24T21:25:00",
+      "end": null,
+      "location": "Kino Zukunft",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/312873/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Kynaststraße, 10245 Friedrichshain",
+      "lat": 52.4979656,
+      "lng": 13.4661487,
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "showings": [
+        {
+          "time": "21:25",
+          "cinema": "Kino Zukunft",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/312873/",
+          "note": "OmU"
+        }
+      ]
+    },
+    {
       "title": "VideoKino (Open Air)",
       "start": "2026-06-24T21:30:00",
       "end": null,
@@ -6771,6 +10697,34 @@
       "lng": 13.4702725,
       "bezirk": "Pankow",
       "showings": null
+    },
+    {
+      "title": "Im Reich der Sinne (OmenglU)",
+      "start": "2026-06-24T21:45:00",
+      "end": null,
+      "location": "Lichtblick",
+      "description": null,
+      "image_url": null,
+      "source_url": "https://www.berlin.de/kino/_bin/filmdetail.php/56125/",
+      "source_name": "Kinoprogramm",
+      "tags": [
+        "Kino"
+      ],
+      "time_known": false,
+      "genre": "Kultur",
+      "subcategory": null,
+      "address": "Birkenstraße 33, 10551 Moabit",
+      "lat": 52.5325483,
+      "lng": 13.3411312,
+      "bezirk": "Mitte",
+      "showings": [
+        {
+          "time": "21:45",
+          "cinema": "Lichtblick",
+          "url": "https://www.berlin.de/kino/_bin/filmdetail.php/56125/",
+          "note": "OmenglU"
+        }
+      ]
     },
     {
       "title": "Knock up @XXL",

@@ -29,6 +29,13 @@
   "lat": 52.5598732,
   "lng": 13.3850984
  },
+ "2 Kinos, Berlin": {
+  "address": "Straße des 17. Juni 136, 10623 Charlottenburg",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.5134702,
+  "lng": 13.3262548
+ },
+ "3 Kinos, Berlin": null,
  ":// about blank / Garten Markgrafendamm 24c 10245 Berlin Deutschland": null,
  "AGB PopUp Saal Blücherplatz 1 10961 Berlin Deutschland": null,
  "AGB PopUp Saal Blücherplatz 1 10961, 10961 Berlin": null,
@@ -523,6 +530,12 @@
  "Kiezraum auf dem Dragoner-Areal Berlin": null,
  "Kiezraum auf dem Dragoner-Areal Berlin Deutschland": null,
  "Kiezraum auf dem Dragonerareal Mehringdamm 20 10961 Berlin Deutschland": null,
+ "Kino Zukunft, Berlin": {
+  "address": "Kynaststraße, 10245 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4979656,
+  "lng": 13.4661487
+ },
  "KitKatClub, Berlin": {
   "address": "Köpenicker Straße 76, 10179 Mitte",
   "bezirk": "Mitte",
@@ -585,6 +598,12 @@
   "lng": 13.425536
  },
  "L5 Späti Lenaustraße 5 12047, 12047 Berlin": null,
+ "Ladenkino, Berlin": {
+  "address": "Gärtnerstraße 19, 10245 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5118751,
+  "lng": 13.4616485
+ },
  "Lankwitzer Straße 42/43, 12107 Berlin": {
   "address": "Lankwitzer Straße 42/43, 12107 Mariendorf",
   "bezirk": "Tempelhof-Schöneberg",
@@ -618,6 +637,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.4970089,
   "lng": 13.428189
+ },
+ "Lichtblick, Berlin": {
+  "address": "Birkenstraße 33, 10551 Moabit",
+  "bezirk": "Mitte",
+  "lat": 52.5325483,
+  "lng": 13.3411312
  },
  "Liebigstr. 1024, 10247 Berlin": {
   "address": "Liebigstraße, 10247 Friedrichshain",
@@ -912,6 +937,12 @@
   "lat": 52.5172851,
   "lng": 13.3524323
  },
+ "Sputnik, Berlin": {
+  "address": "Straße des 17. Juni 145, 10623 Charlottenburg",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.5120816,
+  "lng": 13.3240122
+ },
  "Stadtteilzentrum Schöneberg Hauptstraße 121 A 10827 Berlin Deutschland": null,
  "Stadtteilzentrum Schöneberg Hauptstraße 121 A, 10827 Berlin": null,
  "Supamolly Jessnerstr. 41 10247 Berlin Deutschland": {
@@ -1020,6 +1051,12 @@
   "lng": 13.4243386
  },
  "WikiBär Köpenicker Str. 45 10179, 10179 Berlin": null,
+ "Wolf Kino, Berlin": {
+  "address": "Weserstraße 59, 12045 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4827454,
+  "lng": 13.44178
+ },
  "XXL – Berlin Pornokino & Sexshop": null,
  "XXL – Berlin, Pornokino & Sexshop": null,
  "Yaam (an der Schillingbrücke) An der Schillingbrücke 3 Berlin": {

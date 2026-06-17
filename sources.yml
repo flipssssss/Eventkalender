@@ -69,8 +69,10 @@ sources:
     name: Berlin Kink Calendar
   - url: https://bdsm-berlin.de/kalender/
     name: BDSM Berlin
-  # Folsom Europe nutzt "The Events Calendar" -> robuster iCal-Feed.
-  - url: https://folsomeurope.berlin/?post_type=tribe_events&ical=1&eventDisplay=list
+  # Folsom Europe nutzt "The Events Calendar" -> iCal-Feed der Event-Liste.
+  # (Festival im September; erscheint erst, wenn die Termine ins Zeitfenster
+  # rutschen.)
+  - url: https://folsomeurope.berlin/events/?ical=1
     name: Folsom Europe
     type: ical
   - url: https://www.iksk-berlin.de/Program

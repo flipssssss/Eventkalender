@@ -18,8 +18,14 @@ from .base import BaseScraper, Event
 
 URL = "https://www.moebel-olfe.de/programm.php"
 DEBUG_DIR = pathlib.Path(__file__).resolve().parents[1] / "docs" / "data" / "_debug"
-DATE_RE = re.compile(r"\b(\d{1,2})\.(\d{1,2})\.")
-TIME_RE = re.compile(r"\b(\d{1,2})[:.](\d{2})\b")
+MONTHS = {
+    "januar": 1, "februar": 2, "märz": 3, "maerz": 3, "april": 4, "mai": 5,
+    "juni": 6, "juli": 7, "august": 8, "september": 9, "oktober": 10,
+    "november": 11, "dezember": 12,
+}
+# "Donnerstag, 18. Juni 21:30" -> Tag, Monatsname, (optional) HH:MM
+DATETIME_RE = re.compile(
+    r"(\d{1,2})\.\s*([A-Za-zäöüÄÖÜ]+)(?:\s+(\d{1,2}):(\d{2}))?")
 
 BROWSER = {
     "User-Agent": (
@@ -56,28 +62,29 @@ class MoebelOlfeScraper(BaseScraper):
         return events
 
     def _build(self, block, today) -> Event | None:
-        text = block.get_text(" ", strip=True)
-        dm = DATE_RE.search(text)
-        if not dm:
+        t_el = block.select_one(".event-time")
+        title_el = block.select_one(".event-title")
+        if not t_el or not title_el:
             return None
-        day, mon = int(dm.group(1)), int(dm.group(2))
-        year = today.year + (1 if (mon, day) < (today.month, today.day) else 0)
-        # Time: first HH:MM after the date (skip the date match span).
-        rest = text[dm.end():]
-        tm = TIME_RE.search(rest)
-        hour, minute = (int(tm.group(1)), int(tm.group(2))) if tm else (20, 0)
+        m = DATETIME_RE.search(t_el.get_text(" ", strip=True))
+        if not m:
+            return None
+        day = int(m.group(1))
+        month = MONTHS.get(m.group(2).lower())
+        if not month:
+            return None
+        has_time = m.group(3) is not None
+        hour, minute = (int(m.group(3)), int(m.group(4))) if has_time else (20, 0)
+        year = today.year + (1 if (month, day) < (today.month, today.day) else 0)
         try:
-            start = _dt.datetime(year, mon, day, hour, minute)
+            start = _dt.datetime(year, month, day, hour, minute)
         except ValueError:
             return None
-        # Title: a heading inside the block, else the text after date/time.
-        head = block.select_one("h1,h2,h3,h4,.event-title,strong,b")
-        title = (head.get_text(" ", strip=True) if head else "").strip()
-        if not title:
-            tail = rest[tm.end():] if tm else rest
-            title = re.sub(r"\s+", " ", tail).strip()
+        title = title_el.get_text(" ", strip=True)
         if not title:
             return None
+        desc_el = block.select_one(".event-description")
+        desc = desc_el.get_text(" ", strip=True) if desc_el else None
         return Event(
             title=title[:160],
             start=start,
@@ -85,7 +92,8 @@ class MoebelOlfeScraper(BaseScraper):
             source_name=self.name,
             location="Möbel Olfe",
             address="Reichenberger Str. 177, 10999 Berlin",
-            time_known=bool(tm),
+            description=desc or None,
+            time_known=has_time,
             tags=["Party"],
         )
 

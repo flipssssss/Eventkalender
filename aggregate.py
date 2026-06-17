@@ -248,6 +248,10 @@ def filter_and_sort(events: list[Event]) -> list[Event]:
         event.tags = [primary]
         # Compare naively to avoid tz-aware/naive mix-ups.
         start_naive = event.start.replace(tzinfo=None)
+        # Drop only once an event has fully ended (so still-running multi-day
+        # events stay); the frontend moves today's finished ones to "Schon
+        # vorbei" and removes the whole day at midnight.
+        end_naive = event.end.replace(tzinfo=None) if event.end else start_naive
         # Window = the largest that applies: default, category, source, and a
         # bonus for sparse sources.
         sparse = SPARSE_HORIZON if base_counts.get(event.source_name, 0) < SPARSE_MIN else 0
@@ -258,7 +262,7 @@ def filter_and_sort(events: list[Event]) -> list[Event]:
             sparse,
         )
         horizon = now + _dt.timedelta(days=days)
-        if start_naive < cutoff or start_naive > horizon:
+        if end_naive < cutoff or start_naive > horizon:
             continue
         # One genre per event: a scraper may set it itself (e.g. RA per source),
         # otherwise it's the source default, overridden by keywords.

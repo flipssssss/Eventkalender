@@ -1711,3 +1711,17 @@ a.showing-time:hover {
   .splash-inner { animation: none; }
   .splash { transition: none; }
 }
+
+/* ---------------- "Schon vorbei" (vergangene Events heute) ---------------- */
+.card--past {
+  opacity: 0.5;
+  filter: grayscale(0.7);
+  box-shadow: none;
+}
+.card--past:hover {
+  opacity: 0.8;
+}
+/* Box im gleichen Stil wie die Sortier-Kästen, nur dezenter beschriftet. */
+.past-box > .sort-box-head > .sort-box-title {
+  color: var(--muted);
+}

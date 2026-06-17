@@ -634,6 +634,15 @@ function isExhibition(ev) {
   return (ev.tags || []).includes("Ausstellung");
 }
 
+// Ist das Event (am heutigen Tag) schon vorbei? Endzeit vorbei -> vorbei;
+// nur Startzeit -> 1 Stunde nach Start; ohne Uhrzeit (ganztägig) nie.
+function isPast(ev, now) {
+  if (ev.time_known === false) return false;
+  const start = new Date(ev.start);
+  if (ev.end) return now > new Date(ev.end);
+  return now > new Date(start.getTime() + 60 * 60 * 1000);
+}
+
 // JS getDay() (0=Sonntag) -> Schlüssel in event.opening_hours.
 const WEEKDAY_KEYS = ["so", "mo", "di", "mi", "do", "fr", "sa"];
 
@@ -698,9 +707,11 @@ function render() {
     const d = new Date(ev.start);
     ensureDay(dayKey(d), d).events.push(ev);
   }
-  const sortedKeys = [...groups.keys()].sort();
+  // Vergangene Tage ausblenden (um Mitternacht fällt der ganze Tag weg).
+  const todayKey = dayKey(new Date());
+  const sortedKeys = [...groups.keys()].filter((k) => k >= todayKey).sort();
 
-  if (visible.length === 0) {
+  if (sortedKeys.length === 0) {
     els.dayTabs.innerHTML = "";
     if (state.viewMode === "map") {
       // Keep the (initialised) map alive, just clear it and show a note.
@@ -829,6 +840,8 @@ function renderCollapsedCategory(cat, list, day, preview) {
 function renderList(sortedKeys, groups) {
   const frag = document.createDocumentFragment();
   const preview = previewCount();
+  const now = new Date();
+  const todayKey = dayKey(now);
   for (const key of sortedKeys) {
     const { date, events } = groups.get(key);
     const group = document.createElement("section");
@@ -841,9 +854,20 @@ function renderList(sortedKeys, groups) {
     heading.textContent = DAY_FMT.format(date);
     group.appendChild(heading);
 
-    if (state.sortMode === "category") renderDayByCategory(events, group, date, preview);
-    else if (state.sortMode === "genre") renderDayByGenre(events, group, date, preview);
-    else renderDayByTime(events, group, date, preview);
+    // Heute: schon vorbei -> ausgegraut in eine zugeklappte Box ganz oben.
+    let dayEvents = events;
+    if (key === todayKey) {
+      const past = events.filter((e) => isPast(e, now));
+      if (past.length) {
+        const passed = new Set(past);
+        dayEvents = events.filter((e) => !passed.has(e));
+        group.appendChild(renderPastBox(past, date));
+      }
+    }
+
+    if (state.sortMode === "category") renderDayByCategory(dayEvents, group, date, preview);
+    else if (state.sortMode === "genre") renderDayByGenre(dayEvents, group, date, preview);
+    else renderDayByTime(dayEvents, group, date, preview);
 
     frag.appendChild(group);
   }
@@ -929,6 +953,28 @@ function buildSortBox(label, count, cls) {
   c.textContent = count;
   sum.append(t, c);
   det.appendChild(sum);
+  return det;
+}
+
+// "Schon vorbei": zugeklappte Box (gleicher Stil wie die Sortier-Kästen) ganz
+// oben am heutigen Tag; die Karten darin sind ausgegraut, lazy gebaut.
+function renderPastBox(past, day) {
+  const det = buildSortBox("Schon vorbei", past.length, "past-box");
+  det.open = false;
+  const grid = document.createElement("div");
+  grid.className = "cards";
+  det.appendChild(grid);
+  let built = false;
+  det.addEventListener("toggle", () => {
+    if (det.open && !built) {
+      built = true;
+      for (const ev of past) {
+        const c = renderCard(ev, day);
+        c.classList.add("card--past");
+        grid.appendChild(c);
+      }
+    }
+  });
   return det;
 }
 

@@ -1,14 +1,25 @@
-URL: https://www.planetarium.berlin/tickets
+URL: https://www.planetarium.berlin/veranstaltungen
   HTTP-Status: 200
-  HTML-Länge: 59159 Zeichen
+  HTML-Länge: 85866 Zeichen
   JSON-LD vorhanden: False
   Events gefunden: 0
   Mögliche Programm-Unterseiten:
-    - https://www.planetarium.berlin/en/tickets
+    - https://www.planetarium.berlin/en/veranstaltungen
     - https://www.planetarium.berlin/tickets
     - https://www.planetarium.berlin/veranstaltungen
+    - https://www.planetarium.berlin/veranstaltungsart/highlights-konzerte
+    - https://www.planetarium.berlin/veranstaltungsart/hoerspiele-lesungen
+    - https://www.planetarium.berlin/veranstaltungsart/kinder-familie
+    - https://www.planetarium.berlin/veranstaltungsart/kino
+    - https://www.planetarium.berlin/veranstaltungsart/kita-schule
+    - https://www.planetarium.berlin/veranstaltungsart/musik
+    - https://www.planetarium.berlin/veranstaltungsart/planetarium
+    - https://www.planetarium.berlin/veranstaltungsart/sternwarte
+    - https://www.planetarium.berlin/veranstaltungsart/vortraege
+    - https://www.planetarium.berlin/veranstaltungsart/wissenschaftstheater
+    - https://www.planetarium.berlin/veranstaltungsart/workshops-kurse
   URL-Strings im Skript: https://connect.facebook.net/en_US/fbevents.js, https://webanalytik.planetarium.berlin/
-  Externe Skripte: /sites/default/files/js/js_F7pK4Jex4vq79VsGAQURhatCweW93Fqr8uDK1BEzW4E.js?scope=footer&delta=0&language=de&theme=spb&include=eJwrLkjSTy1LzSsp1k0sKNApBnLTc_KTEnN0i0sqczLz0gHWhgzA
+  Externe Skripte: /sites/default/files/js/js_XPSzbUlPF-5DIj5kK8sAF7V8i-FSmKoB2nQ0eOszFZI.js?scope=footer&delta=0&language=de&theme=spb&include=eJwrLkjST8_JT0rM0S0uqczJzEsHAEJnBx0
   Größtes Inline-Skript (727 Zeichen)
   --- ANFANG ---
 
@@ -83,5 +94,5 @@ URL: https://www.planetarium.berlin/tickets
 <div class="d-none d-lg-flex">
 <div class="language-switcher-language-url block block-language block-language-blocklanguage-interface" role="navigation">
 <div class="content">
-<ul class="links language-switcher nav justify-content-end"><li aria-current="page" class="de nav-item line-after is-active" data-drupal-language="de" data-drupal-link-system-path="node/841304"><a aria-current="page" class="language-link nav-link is-active" data-drupal-link-system-path="node/841304" href="/tickets" hreflang="de">De</a></li><li class="en nav-item line-after" data-drupal-language="en" data-drupal-link-syst
+<ul class="links language-switcher nav justify-content-end"><li aria-current="page" class="de nav-item line-after is-active" data-drupal-language="de" data-drupal-link-system-path="veranstaltungen"><a aria-current="page" class="language-link nav-link is-active" data-drupal-link-system-path="veranstaltungen" href="/veranstaltungen" hreflang="de">De</a></li><li class="en nav-item line-after" data-drupal-language="en" data-
 ------------------------------------------------------------

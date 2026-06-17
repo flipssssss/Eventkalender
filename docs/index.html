@@ -52,7 +52,7 @@
 <body>
   <!-- Ladebildschirm: zufällig zusammengesetzt (Titel + 2 Münder), sofort
        sichtbar, blendet aus sobald der Feed steht (min. 2s). -->
-  <div id="splash" class="splash" role="status" aria-label="Mund zu Mund Kalender lädt">
+  <div id="splash" class="splash" role="status" aria-label="Mund zu Mund lädt">
     <div class="splash-inner" id="splash-inner"></div>
   </div>
   <script>
@@ -64,13 +64,14 @@
         var a = Math.floor(Math.random() * MOUTHS);
         var b = Math.floor(Math.random() * MOUTHS);
         if (b === a) b = (b + 1) % MOUTHS;
+        var hide = ' onerror="this.style.display=&quot;none&quot;"';
         document.getElementById("splash-inner").innerHTML =
-          '<img class="splash-title-top" src="splash/title' + t + '-top.webp" alt="Mund zu Mund" />' +
+          '<img class="splash-title-top" src="splash/title' + t + '-top.webp" alt="Mund"' + hide + ' />' +
           '<div class="splash-mouths">' +
-            '<img class="splash-mouth" src="splash/mouth' + a + '.webp" alt="" />' +
-            '<img class="splash-mouth" src="splash/mouth' + b + '.webp" alt="" />' +
+            '<img class="splash-mouth" src="splash/mouth' + a + '.webp" alt=""' + hide + ' />' +
+            '<img class="splash-mouth" src="splash/mouth' + b + '.webp" alt=""' + hide + ' />' +
           '</div>' +
-          '<img class="splash-title-bottom" src="splash/title' + t + '-bottom.webp" alt="Kalender" />';
+          '<img class="splash-title-bottom" src="splash/title' + t + '-bottom.webp" alt="zu Mund"' + hide + ' />';
       } catch (e) {}
     })();
   </script>

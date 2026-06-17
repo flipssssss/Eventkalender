@@ -2,7 +2,7 @@
 // Strategie: network-first mit Cache-Fallback -- online immer frisch,
 // offline die zuletzt geladene Version.
 
-const CACHE = "ek-v5";
+const CACHE = "ek-v6";
 const SHELL = [
   "./",
   "index.html",
@@ -13,6 +13,17 @@ const SHELL = [
   "icons/favicon-32.png",
   "icons/apple-touch-icon.png",
   "icons/icon-192.png",
+  // Splash-Assets vorab cachen, damit der Ladescreen zuverlässig erscheint.
+  "splash/title0-top.webp", "splash/title0-bottom.webp",
+  "splash/title1-top.webp", "splash/title1-bottom.webp",
+  "splash/title2-top.webp", "splash/title2-bottom.webp",
+  "splash/title3-top.webp", "splash/title3-bottom.webp",
+  "splash/mouth0.webp", "splash/mouth1.webp", "splash/mouth2.webp",
+  "splash/mouth3.webp", "splash/mouth4.webp", "splash/mouth5.webp",
+  "splash/mouth6.webp", "splash/mouth7.webp", "splash/mouth8.webp",
+  "splash/mouth9.webp", "splash/mouth10.webp", "splash/mouth11.webp",
+  "splash/mouth12.webp", "splash/mouth13.webp", "splash/mouth14.webp",
+  "splash/mouth15.webp", "splash/mouth16.webp",
 ];
 
 self.addEventListener("install", (e) => {

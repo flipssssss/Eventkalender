@@ -348,7 +348,9 @@ function setupSettings() {
   });
 }
 
-const THEME_COLORS = { buergi: "#f3e9d8", punk: "#0b0a0d", hyperpop: "#ffe0fb" };
+const THEME_COLORS = {
+  buergi: "#f3e9d8", punk: "#0b0a0d", diy: "#d8d3c6", hyperpop: "#ffe0fb",
+};
 
 function setSortMode(mode) {
   state.sortMode = mode;

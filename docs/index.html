@@ -35,7 +35,8 @@
         try { localStorage.setItem("ek_theme", "punk"); } catch (e) {}
       }
       if (t !== "buergi") document.documentElement.setAttribute("data-theme", t);
-      var colors = { buergi: "#f3e9d8", punk: "#0b0a0d", hyperpop: "#ffe0fb" };
+      var colors = { buergi: "#f3e9d8", punk: "#0b0a0d", diy: "#d8d3c6",
+        hyperpop: "#ffe0fb" };
       var m = document.querySelector('meta[name="theme-color"]');
       if (m && colors[t]) m.setAttribute("content", colors[t]);
     } catch (e) {}
@@ -186,6 +187,7 @@
           <div class="theme-options" id="theme-options">
             <button type="button" class="theme-btn" data-theme="buergi">Bürgi</button>
             <button type="button" class="theme-btn" data-theme="punk">Punk</button>
+            <button type="button" class="theme-btn" data-theme="diy">DIY</button>
             <button type="button" class="theme-btn" data-theme="hyperpop">Hyperpop</button>
           </div>
           <h4 class="settings-subh">Sortieren nach</h4>

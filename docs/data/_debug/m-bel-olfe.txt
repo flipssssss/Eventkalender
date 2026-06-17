@@ -1,2 +1,88 @@
-event-blocks: 0 | Events: 0
+event-blocks: 12 | Events: 12
 
+<div class="event-block">
+ <!-- Zeile 1: Datum + Titel -->
+ <div class="event-row-1">
+  <div class="event-time">
+   Donnerstag, 18. Juni 21:30
+  </div>
+  <div class="event-title">
+   Schwulenschubsen
+  </div>
+ </div>
+ <!-- Zeile 2: Bild + Beschreibung -->
+ <div class="event-row-2">
+  <div class="event-image event-image--empty">
+  </div>
+  <div class="event-description">
+   Tam Tam
+  </div>
+ </div>
+</div>
+
+
+----
+<div class="event-block">
+ <!-- Zeile 1: Datum + Titel -->
+ <div class="event-row-1">
+  <div class="event-time">
+   Freitag, 19. Juni 22:00
+  </div>
+  <div class="event-title">
+   Mx Sür
+  </div>
+ </div>
+ <!-- Zeile 2: Bild + Beschreibung -->
+ <div class="event-row-2">
+  <div class="event-image">
+   <img alt="" src="ProgrammFotos/Max_S_r_2026_06_19.jpg"/>
+  </div>
+  <div class="event-description">
+   [Kim] is an audio &amp; video collage artist working with personal narratives and underground collective experiences. Since 2007; they have contributed to the unifying power of music and dance through eclectic mixes that celebrate rebellion, inclusivity, liberation, and sharing.
+
+
+
+Drawing on the transformative energy of music and visuals, their work explores themes of resistance, freedom and intimacy, with influences ranging from the allure of chaos to the mystery of the void.
+  </div>
+ <
+
+----
+<div class="event-block">
+ <!-- Zeile 1: Datum + Titel -->
+ <div class="event-row-1">
+  <div class="event-time">
+   Samstag, 20. Juni 21:30
+  </div>
+  <div class="event-title">
+   Jane D.
+  </div>
+ </div>
+ <!-- Zeile 2: Bild + Beschreibung -->
+ <div class="event-row-2">
+  <div class="event-image event-image--empty">
+  </div>
+ </div>
+</div>
+
+
+----
+<div class="event-block">
+ <!-- Zeile 1: Datum + Titel -->
+ <div class="event-row-1">
+  <div class="event-time">
+   Dienstag, 23. Juni 21:00
+  </div>
+  <div class="event-title">
+   FLINTA*-Abend
+  </div>
+ </div>
+ <!-- Zeile 2: Bild + Beschreibung -->
+ <div class="event-row-2">
+  <div class="event-image">
+   <img alt="" src="ProgrammFotos/FLINTA_ast_Abend_2026_06_23.jpg"/>
+  </div>
+  <div class="event-description">
+   mma Kgosi
+  </div>
+ </div>
+</div>

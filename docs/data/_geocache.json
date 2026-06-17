@@ -379,6 +379,7 @@
   "lng": 13.363522
  },
  "Café Cralle, Hochstädter Straße 10A, Wedding Berlin Deutschland": null,
+ "Café Engels, Herrfurthstr. 21, 12049, Berlin": null,
  "Café Fincan Altenbraker Str. 26 Berlin Deutschland": {
   "address": "Altenbraker Straße 26, 12051 Neukölln",
   "bezirk": "Neukölln",
@@ -397,6 +398,12 @@
  "Café en passant, Schönhauser Allee 58 10437 Berlin - Prenzlauer Berg": null,
  "Capoeira Akademie Berlin, Hasenheide 9 (im 2. Hinterhof 1.Stock), 10967 Berlin": null,
  "Checkpoint Charlie, Friedrichstraße 43-45, 10117 Berlin": null,
+ "Christstr. 8, 14059 Berlin": {
+  "address": "Christstraße 8, 14059 Charlottenburg",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.5168428,
+  "lng": 13.2917601
+ },
  "Club Sauna Berlin": {
   "address": "Mehringdamm 32, 10961 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -647,6 +654,12 @@
   "bezirk": "Neukölln",
   "lat": 52.4681788,
   "lng": 13.4309085
+ },
+ "Herrfurthstr. 21, 12049 Berlin": {
+  "address": "Herrfurthstraße 21, 12049 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4767265,
+  "lng": 13.4200344
  },
  "Hinterhof 1, 10967 Berlin": null,
  "Hochstädter Straße 10A, Berlin": {
@@ -925,6 +938,12 @@
   "lat": 52.4922171,
   "lng": 13.3636102
  },
+ "KulturMarktHalle, Hanns-Eisler-Straße 93, 10409, Berlin": {
+  "address": "Hanns-Eisler-Straße 93, 10409 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.539777,
+  "lng": 13.4523792
+ },
  "Kulturfabrik Moabit Lehrter Str. 35 10557 Berlin Deutschland": {
   "address": "Lehrter Straße 35, 10557 Moabit",
   "bezirk": "Mitte",
@@ -1074,6 +1093,7 @@
   "lng": 13.4072136
  },
  "Luftschloss Tempelhofer Feld, Tempelhofer Feld, 12101, Berlin": null,
+ "Lumen D'arc, Berlin": null,
  "Lunte Weisestr. 53 12049 Berlin Deutschland": {
   "address": "Weisestraße 53, 12049 Neukölln",
   "bezirk": "Neukölln",
@@ -1177,6 +1197,7 @@
   "lng": 13.3890768
  },
  "Metis Books and Café, Berlin": null,
+ "MieterClub Neue Christstr. 8 14059 Berlin Deutschland": null,
  "Mitte Museum Pankstr. 47 13357 Berlin Deutschland": {
   "address": "Pankstraße 47, 13357 Gesundbrunnen",
   "bezirk": "Mitte",
@@ -1193,6 +1214,12 @@
  "Museum des Kapitalismus Köpenicker Str. 172 10997 Berlin Deutschland": null,
  "Museum des Kapitalismus Köpenicker Str. 172 10997, 10997 Berlin": null,
  "Musikbrauerei, Greifswalder Straße 23A, 10405, Berlin": null,
+ "Musikinstrumenten-Museum, Tiergartenstraße, 10785, Berlin": {
+  "address": "Tiergartenstraße 1, 10785 Tiergarten",
+  "bezirk": "Mitte",
+  "lat": 52.5104782,
+  "lng": 13.3708207
+ },
  "Möbel Olfe, Berlin": {
   "address": "Reichenberger Straße 177, 10999 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",

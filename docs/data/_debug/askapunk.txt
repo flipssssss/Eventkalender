@@ -1,21 +1,19 @@
-API-Events: 67 | übernommen: 67
-  2026-06-17 16:00:00 | None | MADE IN BOGOTA ´STREET ART EXHIBITION + FLASH TATTOOS + MUSIC + FOOD’
-  2026-06-17 19:00:00 | Punk | Deafdeafdeaf • Tristesse at Neue Zukunft Garage
+API-Events: 65 | übernommen: 65
   2026-06-18 19:00:00 | Punk | TEO WISE (Ita) & DIE ANTEILE (Bln)
   2026-06-18 19:00:00 | Punk | Jared Hart (New Jersey | US) + Oli Ng (Crewe | England) im Schokoladen
   2026-06-18 19:30:00 | Punk | PSICO GALERA + ZWANG + TBA
   2026-06-18 20:30:00 | None | ALVARO INSIDE OUT (3D) Kino im Zeiss-Großplanetarium Berlin
   2026-06-19 02:45:00 | None | Radical Prenzlauer Berg
   2026-06-19 16:00:00 | None | THE FUTURE IS HANDMADE ‘STREET-ART EXHIBITION + MERCH’
+  2026-06-19 19:00:00 | Punk | RITUAL + DOUBLE LIFE + INNOCENT BLISS
   2026-06-19 19:00:00 | Punk | Kooperation Rost presents: Soft Spot | GUM | Sweetspot @loge
   2026-06-19 19:00:00 | Punk | GOOD FLYING BIRDS + INESSA ANXIOUS
-  2026-06-19 19:00:00 | Punk | RITUAL + DOUBLE LIFE + INNOCENT BLISS
   2026-06-19 20:00:00 | Punk | DOSSER + SALTFALLS + D'CO
   2026-06-19 20:00:00 | Punk | "Zähneknirschen" Ende September EP Release
   2026-06-19 21:00:00 | Punk | Siluett + Noj
   2026-06-20 19:00:00 | Punk | Pulsar Mod Club (shoegaze/kraut, bln) & Stay In Nothing (shoegaze/dream-pop, ldn)
-  2026-06-20 19:00:00 | Punk | The Flatliners, Dune Rats, Hippie Trim
   2026-06-20 19:00:00 | None | Resatans Live
+  2026-06-20 19:00:00 | Punk | The Flatliners, Dune Rats, Hippie Trim
   2026-06-20 20:00:00 | Punk | NIGHT FULL OF TENSION
   2026-06-20 20:00:00 | Punk | In Bloom featuring Magnolia, Vibrant & The Bridesgown
   2026-06-20 20:30:00 | Punk | Spandau (Indie, HH) + Blaue Flecken (Indie, Bln)
@@ -29,3 +27,5 @@ API-Events: 67 | übernommen: 67
   2026-06-25 19:00:00 | Punk | NO MORE (post-punk wave pop, kiel) + Uzimoto (lofi synth dada-pop, bln)
   2026-06-25 20:00:00 | Punk | S.O.H. + HEKTIKS + RISKERA
   2026-06-25 21:00:00 | Punk | LATINO – BALKAN ‘PUNK DISCHORD’
+  2026-06-26 17:45:00 | None | Ecology in Plänterwald
+  2026-06-26 19:00:00 | Punk | Urban Sprawl + Blockage + Nerve Center

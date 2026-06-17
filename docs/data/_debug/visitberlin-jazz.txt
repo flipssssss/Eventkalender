@@ -1,107 +1,23 @@
-URL: https://www.visitberlin.de/de/kategorie/blues-jazz
-  HTTP-Status: 200
-  HTML-Länge: 317381 Zeichen
-  JSON-LD vorhanden: False
-  Events gefunden: 0
-  Mögliche Programm-Unterseiten:
-    - https://www.eventbrite.de/e/ilona-damiecka-berlin-trio-prasentiert-von-jazz-am-helmholzplatz-tickets-1989084752038?aff=oddtdtcreator&fbclid=Iwb21leASAQi1jbGNrBIBCJ2V4dG4DYWVtAjExAHNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHnmI87mbIQenVgaED_-8G877PFGZdOHGjL_BoTNzjUgusM52RCjBarUIieDP_aem_vDGUvsFrmThIL8GE4nwH9g
-    - https://www.eventim.de/eventseries/jako-trio-everything-in-between-4159299/?affiliate=VB1
-    - https://www.facebook.com/events/525230321149854/
-    - https://www.thf-berlin.de/aktuelles/veranstaltungen/veranstaltung/jacotene-live-sommer-am-thf#/
-    - https://www.visitberlin.de/de/event/big-band-kameleon
-    - https://www.visitberlin.de/de/event/blue-moonday-jazzsession
-    - https://www.visitberlin.de/de/event/composers-orchestra-berlin
-    - https://www.visitberlin.de/de/event/fbjr-female-bandleaders-jazz
-    - https://www.visitberlin.de/de/event/festival-brassens-basdorf
-    - https://www.visitberlin.de/de/event/five-flying-elephants-0
-    - https://www.visitberlin.de/de/event/framed-92-summer-special
-    - https://www.visitberlin.de/de/event/ilona-damiecka-berlin-trio
-    - https://www.visitberlin.de/de/event/jacotene-live-sommer-am-thf
-    - https://www.visitberlin.de/de/event/jako-trio-everything-between
-    - https://www.visitberlin.de/de/event/jazz-am-helmholtzplatz
-    - https://www.visitberlin.de/de/event/jazz-am-kaisersteg-draussen-gratis
-    - https://www.visitberlin.de/de/event/jazz-im-mim
-    - https://www.visitberlin.de/de/event/jazzwoche-berlin-8-collective-improvement
-    - https://www.visitberlin.de/de/event/original-compositions-inspired-north-african-traditions-and-mediterranean-culture
-    - https://www.visitberlin.de/de/event/patricio-boettcher-quartett
-    - https://www.visitberlin.de/de/event/prince-gabriel-presents-drag-music-3
-    - https://www.visitberlin.de/de/event/radio3-listening-lounge
-    - https://www.visitberlin.de/de/event/rehmrodermahall
-    - https://www.visitberlin.de/de/event/sebastian-wittstock-trio
-    - https://www.visitberlin.de/de/event/zerbrechliche-schoenheit-marita-czepa
-  URL-Strings im Skript: );
-
-
-      /* <![CDATA[ */
-      var drupal_env = {, https://analytics.tiktok.com/i18n/pixel/events.js, https://piwik.visitberlin.de/, https://www.googletagmanager.com/gtm.js?id=
-  Externe Skripte: /sites/default/files/js/js_BQrobxfGYZ3VBbsBZi2zPGirdrOKuW5txt3gjCC-q20.js?scope=footer&delta=0&language=de&theme=visitberlin&include=eJx1kGFuwzAIhS8Ux9ouZBGbOrS2sYAk7e0XL5qmTtoPhHifxHsQH5jIWALEyJKImy-0CAihzlqpFBCbDyB3SuA6mKE0ddCSOyhlNJ0yNX_WWIHNpgrGlf3VJoEcIreGcbhs5Dv3rU-KIHEN0CnAZhy59oKG_h992knJFpQyvAovUJza65zyG7rrXLFt7jL5SzhBeRN1z89NcTo-P0ZIPeNXaJBRfKw94NOwpW-6L2FcQs0wC9j4U1zBwsLPH24C8XEG8rfCnAr
-  Größtes Inline-Skript (7538 Zeichen)
-  --- ANFANG ---
-window.gdprAppliesGlobally=true;if(!("cmp_id" in window)||window.cmp_id<1){window.cmp_id=0}if(!("cmp_cdid" in window)){window.cmp_cdid="d1a25a3a9125"}if(!("cmp_params" in window)){window.cmp_params=""}if(!("cmp_host" in window)){window.cmp_host="delivery.consentmanager.net"}if(!("cmp_cdn" in window)){window.cmp_cdn="cdn.consentmanager.net"}if(!("cmp_proto" in window)){window.cmp_proto="https:"}if(!("cmp_codesrc" in window)){window.cmp_codesrc="1"}window.cmp_getsupportedLangs=function(){var b=["DE","EN","FR","IT","NO","DA","FI","ES","PT","RO","BG","ET","EL","GA","HR","LV","LT","MT","NL","PL","SV","SK","SL","CS","HU","RU","SR","ZH","TR","UK","AR","BS"];if("cmp_customlanguages" in window){for(var a=0;a<window.cmp_customlanguages.length;a++){b.push(window.cmp_customlanguages[a].l.toUpperCase())}}return b};window.cmp_getRTLLangs=function(){var a=["AR"];if("cmp_customlanguages" in window){for(var b=0;b<window.cmp_customlanguages.length;b++){if("r" in window.cmp_customlanguages[b]&&window.cmp_customlanguages[b].r){a.push(window.cmp_customlanguages[b].l)}}}return a};window.cmp_getlang=function(j){if(typeof(j)!="boolean"){j=true}if(j&&typeof(cmp_getlang.usedlang)=="string"&&cmp_getlang.usedlang!==""){return cmp_getlang.usedlang}var g=window.cmp_getsupportedLangs();var c=[];var f=location.hash;var e=location.search;var a="languages" in navigator?navigator.languages:[];if(f.indexOf("cmplang=")!=-1){c.push(f.substr(f.indexOf("cmplang=")+8,2).toUpperCase())}else{if(e.indexOf("cmplang=")!=-1){c.push(e.substr(e.indexOf("cmplang=")+8,2).toUpperCase())}else{if("cmp_setlang" in window&&window.cmp_setlang!=""){c.push(window.cmp_setlang.toUpperCase())}else{if(a.length>0){for(var d=0;d<a.length;d++){c.push(a[d])}}}}}if("language" in navigator){c.push(navigator.language)}if("userLanguage" in
-  --- ENDE ---
-].slice.apply(a))}else{if(a[0]==="addEventListener"||a[0]==="removeEventListener"){__cmp.a.push([].slice.apply(a))}else{if(a.length==4&&a[3]===false){a[2]({},false)}else{__cmp.a.push([].slice.apply(a))}}}}}}};window.cmp_msghandler=function(d){var a=typeof d.data==="string";try{var c=a?JSON.parse(d.data):d.data}catch(f){var c=null}if(typeof(c)==="object"&&c!==null&&"__cmpCall" in c){var b=c.__cmpCall;window.__cmp(b.command,b.parameter,function(h,g){var e={__cmpReturn:{returnValue:h,success:g,callId:b.callId}};d.source.postMessage(a?JSON.stringify(e):e,"*")})}if(typeof(c)==="object"&&c!==null&&"__uspapiCall" in c){var b=c.__uspapiCall;window.__uspapi(b.command,b.version,function(h,g){var e={__uspapiReturn:{returnValue:h,success:g,callId:b.callId}};d.source.postMessage(a?JSON.stringify(e):e,"*")})}if(typeof(c)==="object"&&c!==null&&"__tcfapiCall" in c){var b=c.__tcfapiCall;window.__tcfapi(b.command,b.version,function(h,g){var e={__tcfapiReturn:{returnValue:h,success:g,callId:b.callId}};d.source.postMessage(a?JSON.stringify(e):e,"*")},b.parameter)}};window.cmp_setStub=function(a){if(!(a in window)||(typeof(window[a])!=="function"&&typeof(window[a])!=="object"&&(typeof(window[a])==="undefined"||window[a]!==null))){window[a]=window.cmp_stub;window[a].msgHandler=window.cmp_msghandler;window.addEventListener("message",window.cmp_msghandler,false)}};window.cmp_addFrame("__cmpLocator");if(!("cmp_disableusp" in window)||!window.cmp_disableusp){window.cmp_addFrame("__uspapiLocator")}if(!("cmp_disabletcf" in window)||!window.cmp_disabletcf){window.cmp_addFrame("__tcfapiLocator")}window.cmp_setStub("__cmp");if(!("cmp_disabletcf" in window)||!window.cmp_disabletcf){window.cmp_setStub("__tcfapi")}if(!("cmp_disableusp" in window)||!window.cmp_disableusp){window.cmp_setStub("__uspapi")};
-  Body (ohne CSS/JS):
-/>
-</picture>
-<figcaption class="teaser__copyright copyright">
-      ©  Daniella Feijoo
-    </figcaption>
-</figure>
-<div class="teaser-search__header-content">
-<div class="teaser-search__print-category teaser-search__print-info">
-      Blues &amp; Jazz
-    </div>
-<p class="teaser-search__date">
-<span class="heading-highlight heading-highlight--transparent">
-<span class="heading-highlight__inner">
-<time datetime="2026-06-18 19:00:00 Europe/Berlin">18.06.2026</time>
-<span class="teaser-search__date-add">
-                                + 1 zusätzlicher Termin              </span>
-</span>
-</span>
-</p>
-</div>
-</div>
-<div class="teaser-search__content">
-<h2 class="teaser-search__heading heading-highlight heading-highlight--align">
-<span class="heading-highlight__inner">FRAMED #92 SUMMER SPECIAL</span>
-</h2>
-<div class="teaser-search__print-header teaser-search__print-info"> <div class="teaser-search__print-category teaser-search__print-info">
-      Blues &amp; Jazz
-    </div>
-<p class="teaser-search__date">
-<span class="heading-highlight heading-highlight--transparent">
-<span class="heading-highlight__inner">
-<time datetime="2026-06-18 19:00:00 Europe/Berlin">18.06.2026</time>
-<span class="teaser-search__date-add">
-                                + 1 zusätzlicher Termin              </span>
-</span>
-</span>
-</p>
-</div>
-<div class="teaser-search__text">
-<div>  FRAMED kehrt diesen Sommer mit einer Special Edition in der Musikbrauerei zurück und widmet sich erneut zeitgenössischem Sound in sorgfältig kuratierten Begegnungen. FRAMED #92 bringt zwei Duos zusammen, die auf Kollaboration, Improvisation und musikalische…
-</div>
-<p class="nopr"> <span class="icon-link icon-link--arrow"><b class="icon-link__label">Weiterlesen</b></span> </p>
-</div>
-</div>
-</a>
-<div class="teaser-search__meta">
-<ul class="teaser-search__tags list-inline">
-<li class="list-tags__item">
-<a class="tag" href="/de/events-experimentell-zeitgen%C3%B6ssisch-musik-berlin" title="Tag: Experimentelle und zeitgenössische Musik">Experimentelle und zeitgenössische Musik</a>
-</li>
-<li class="list-tags__item">
-<a class="tag" href="/de/events-international-berlin" title="Tag: International">International</a>
-</li>
-<li class="list-tags__item">
-<a class="tag" href="/de/events-musikstadt-berlin" title="Tag: Musikstadt">Musikstadt</a>
-</li>
-</ul>
-<p class="teaser-search__location me">
-<span class="me__img">
-</span>
-<span class="me__content">
-<span class="nopr">Musikbrauerei</span>
-<span class="teaser-search__pr
-------------------------------------------------------------
+Event-Links: 21 | Events: 21
+  2026-06-18 19:00:00 | Musikbrauerei, Greifswalder Straße 23A, 10405, Berlin | FRAMED #92 SUMMER SPECIAL
+  2026-06-18 20:00:00 | Alte Feuerwache Friedrichshain, Marchlewskistraße 6, 10243, Berlin | Sebastian Wittstock Trio
+  2026-06-19 19:00:00 | verschiedene Veranstaltungsorte, Berlin | Jazzwoche Berlin #8 - Collective improv(e)ment
+  2026-06-20 20:00:00 | Peppi Guggenheim, Weichselstraße 7, 12043, Berlin | FBJR Female Bandleaders Jazz
+  2026-03-09 20:00:00 | Café Engels, Herrfurthstr. 21, 12049, Berlin | Blue Moonday Jazzsession
+  2026-03-26 19:00:00 | Musikinstrumenten-Museum, Tiergartenstraße, 10785, Berlin | Jazz im MIM
+  2026-06-25 20:00:00 | Brotfabrik, Caligariplatz 1, 13086, Berlin | Ilona Damięcka Berlin Trio
+  2026-06-25 20:00:00 | THF Tower Flughafen Tempelhof in Berlin, Tempelhofer Damm 45, 12101, Berlin | Jacoténe live - Sommer am THF
+  2026-06-25 20:00:00 | verschiedene Veranstaltungsorte, Berlin | Jazz am Helmholtzplatz
+  2026-06-26 19:30:00 | Kulturhaus Centre Bagatelle, Zeltinger Str. 6, 13465, Berlin-Frohnau | Festival Brassens in Basdorf
+  2026-06-26 20:00:00 | Kubiz Raoul Wallenberg, Bernkasteler Str 78, 13088, Berlin | Five Flying Elephants
+  2026-06-26 20:00:00 | Peppi Guggenheim, Weichselstrasse 7, 12043, Berlin | Rehm/Roder/Mahall
+  2026-06-27 16:00:00 | Alte Kita, Hasselwerderstr. 22A, 12439, Berlin | Jazz am Kaisersteg - draußen & gratis
+  2026-06-27 19:00:00 | Interkulturelles Haus - Theater unterm Dach, Schönfließer Straße 7, 10439, Berlin | Original Compositions inspired by North African Traditions and Mediterranean Culture
+  2026-06-27 19:30:00 | Das Jüdische Kulturschiff MS Goldberg, Schifffahrtsufer 2
+an der Dischinger Brücke, 13581, Berlin-Spandau | Jako Trio - Everything In Between
+  2026-06-27 20:00:00 | Peppi Guggenheim, Weichselstrasse 7, 12043, Berlin | Prince Gabriel Presents: Drag & Music
+  2026-06-29 19:30:00 | Bredouille Bar, Georgenstraße 199, 10117, Berlin | radio3 Listening Lounge:
+  2026-03-18 21:00:00 | KulturMarktHalle, Hanns-Eisler-Straße 93, 10409, Berlin | The Composers' Orchestra Berlin
+  2026-07-02 20:00:00 | Alte Feuerwache Friedrichshain, Marchlewskistraße 6, 10243, Berlin | Patricio Böttcher Quartett
+  2026-07-03 20:00:00 | Luftschloss Tempelhofer Feld, Tempelhofer Feld, 12101, Berlin | Big Band Kameleon
+  2026-07-04 17:00:00 | Krankenhauskirche im Wuhlgarten, Brebacher Weg 15, 12683, Berlin | ZERBRECHLICHE SCHÖNHEIT - Marita Czepa

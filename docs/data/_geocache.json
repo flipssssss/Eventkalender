@@ -23,6 +23,12 @@
   "lat": 52.4969288,
   "lng": 13.4265584
  },
+ "12101 Berlin": {
+  "address": "12101 Tempelhof",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4781332,
+  "lng": 13.381726
+ },
  "12557 Berlin": {
   "address": "12557 Köpenick",
   "bezirk": "Treptow-Köpenick",
@@ -83,12 +89,14 @@
   "lng": 13.6060882
  },
  "Alice Salomon Hochschule Alice-Salomon-Platz 5 12627, 12627 Berlin": null,
+ "Alte Feuerwache Friedrichshain, Marchlewskistraße 6, 10243, Berlin": null,
  "Alte Jakobstraße 124, 10969 Berlin": {
   "address": "Alte Jakobstraße 124, 10969 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5037937,
   "lng": 13.3987041
  },
+ "Alte Kita, Hasselwerderstr. 22A, 12439, Berlin": null,
  "Am Sudhaus 3, 12053 Berlin": {
   "address": "Am Sudhaus 3, 12053 Neukölln",
   "bezirk": "Neukölln",
@@ -195,6 +203,12 @@
   "lat": 52.5107448,
   "lng": 13.4351709
  },
+ "Bernkasteler Str 78, 13088 Berlin": {
+  "address": "Bernkasteler Straße 78, 13088 Weißensee",
+  "bezirk": "Pankow",
+  "lat": 52.5577176,
+  "lng": 13.4702725
+ },
  "Bethanien Südflügel Berlin": null,
  "Bethanien Südflügel Berlin Deutschland": null,
  "Bleibtreustrasse 1, 10623 Berlin": {
@@ -228,6 +242,18 @@
   "lat": 52.5133426,
   "lng": 13.4555767
  },
+ "Brebacher Weg 15, 12683 Berlin": {
+  "address": "Brebacher Weg 15, 12683 Biesdorf",
+  "bezirk": "Marzahn-Hellersdorf",
+  "lat": 52.5178342,
+  "lng": 13.5693025
+ },
+ "Bredouille Bar, Georgenstraße 199, 10117, Berlin": {
+  "address": "Georgenstraße 199, 10117 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5200011,
+  "lng": 13.3898465
+ },
  "Brotfabrik Caligariplatz 1 13086 Berlin Deutschland": {
   "address": "Caligariplatz 1, 13086 Weißensee",
   "bezirk": "Pankow",
@@ -235,6 +261,12 @@
   "lng": 13.4305919
  },
  "Brotfabrik Caligariplatz 1 13086, 13086 Berlin": null,
+ "Brotfabrik, Caligariplatz 1, 13086, Berlin": {
+  "address": "Caligariplatz 1, 13086 Weißensee",
+  "bezirk": "Pankow",
+  "lat": 52.5525923,
+  "lng": 13.4305919
+ },
  "Brunnenstr. 7, 10119 Berlin": {
   "address": "Brunnenstraße 7, 10119 Mitte",
   "bezirk": "Mitte",
@@ -322,6 +354,7 @@
   "lat": 52.4905761,
   "lng": 13.4315445
  },
+ "Das Jüdische Kulturschiff MS Goldberg, Schifffahrtsufer 2\nan der Dischinger Brücke, 13581, Berlin-Spandau": null,
  "Dorfplatz (Fhain) Rigaerstr. Ecke Liebigstr. 10247 Berlin Deutschland": null,
  "Drugstore im Rockhaus Buchberger Str. 6 10365 Berlin Deutschland": null,
  "Drugstore im Rockhaus Buchberger Str. 6 10365, 10365 Berlin": null,
@@ -422,6 +455,12 @@
   "lat": 52.4919487,
   "lng": 13.3889569
  },
+ "Greifswalder Straße 23A, 10405 Berlin": {
+  "address": "Greifswalder Straße 23A, 10405 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5306542,
+  "lng": 13.4286665
+ },
  "Gretchen, Berlin": {
   "address": "Zachertstraße, 10315 Friedrichsfelde",
   "bezirk": "Lichtenberg",
@@ -461,6 +500,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.4894942,
   "lng": 13.4100369
+ },
+ "Hasselwerderstr. 22A, 12439 Berlin": {
+  "address": "Hasselwerderstraße 22A, 12439 Niederschöneweide",
+  "bezirk": "Treptow-Köpenick",
+  "lat": 52.4575155,
+  "lng": 13.5167596
  },
  "Hauptstraße 121 A, 10827 Berlin": {
   "address": "Hauptstraße 121a, 10827 Schöneberg",
@@ -534,6 +579,7 @@
   "lng": 13.3860876
  },
  "Institut für Europäische Ethnologie der HU, Raum 408, Anton-Wilhelm-Amo-Straße 40-41, 10117 Berlin": null,
+ "Interkulturelles Haus - Theater unterm Dach, Schönfließer Straße 7, 10439, Berlin": null,
  "Invalidenstraße 51, 10557 Berlin": {
   "address": "Invalidenstraße 51, 10557 Moabit",
   "bezirk": "Mitte",
@@ -673,6 +719,7 @@
   "lat": 52.4716193,
   "lng": 13.4510314
  },
+ "Krankenhauskirche im Wuhlgarten, Brebacher Weg 15, 12683, Berlin": null,
  "Kreutzigerstr. 19, 10247 Berlin": {
   "address": "Kreutzigerstraße 19, 10247 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -694,6 +741,7 @@
   "lng": 13.4702725
  },
  "KuBiZ Bernkasteler Str. 78 13088, 13088 Berlin": null,
+ "Kubiz Raoul Wallenberg, Bernkasteler Str 78, 13088, Berlin": null,
  "Kulturfabrik Moabit Lehrter Str. 35 10557 Berlin Deutschland": {
   "address": "Lehrter Straße 35, 10557 Moabit",
   "bezirk": "Mitte",
@@ -701,6 +749,7 @@
   "lng": 13.3592766
  },
  "Kulturfabrik Moabit Lehrter Str. 35 10557, 10557 Berlin": null,
+ "Kulturhaus Centre Bagatelle, Zeltinger Str. 6, 13465, Berlin-Frohnau": null,
  "KØPI Köpenicker Straße 137 10179 Berlin Deutschland": {
   "address": "Köpenicker Straße 137, 10179 Mitte",
   "bezirk": "Mitte",
@@ -805,6 +854,7 @@
   "lat": 52.5308548,
   "lng": 13.4072136
  },
+ "Luftschloss Tempelhofer Feld, Tempelhofer Feld, 12101, Berlin": null,
  "Lunte Weisestr. 53 12049 Berlin Deutschland": {
   "address": "Weisestraße 53, 12049 Neukölln",
   "bezirk": "Neukölln",
@@ -823,6 +873,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5072971,
   "lng": 13.4527414
+ },
+ "Marchlewskistraße 6, 10243 Berlin": {
+  "address": "Marchlewskistraße 6, 10243 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5162846,
+  "lng": 13.4422906
  },
  "Mariannenplatz 1a, 10997 Berlin": {
   "address": "Mariannenplatz 1a, 10997 Kreuzberg",
@@ -893,6 +949,7 @@
  },
  "Museum des Kapitalismus Köpenicker Str. 172 10997 Berlin Deutschland": null,
  "Museum des Kapitalismus Köpenicker Str. 172 10997, 10997 Berlin": null,
+ "Musikbrauerei, Greifswalder Straße 23A, 10405, Berlin": null,
  "Möbel Olfe, Berlin": {
   "address": "Reichenberger Straße 177, 10999 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -961,6 +1018,18 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5005464,
   "lng": 13.4234541
+ },
+ "Peppi Guggenheim, Weichselstrasse 7, 12043, Berlin": {
+  "address": "Weichselstraße 7, 12043 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4842307,
+  "lng": 13.4331894
+ },
+ "Peppi Guggenheim, Weichselstraße 7, 12043, Berlin": {
+  "address": "Weichselstraße 7, 12043 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4842307,
+  "lng": 13.4331894
  },
  "Perleberger Straße 59, 10559 Berlin": {
   "address": "Perleberger Straße 59, 10559 Moabit",
@@ -1053,6 +1122,12 @@
   "lat": 52.4977185,
   "lng": 13.3484263
  },
+ "Schifffahrtsufer 2, 13581 Berlin": {
+  "address": "Hermann-Oxfort-Promenade, 13581 Spandau",
+  "bezirk": "Spandau",
+  "lat": 52.528163,
+  "lng": 13.2004551
+ },
  "Schlesisches Tor Berlin": {
   "address": "Skalitzer Straße, 10997 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -1087,6 +1162,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5171409,
   "lng": 13.4673202
+ },
+ "Schönfließer Straße 7, 10439 Berlin": {
+  "address": "Schönfließer Straße 7, 10439 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5531262,
+  "lng": 13.4097182
  },
  "Schönhauser Allee 26 A, 10435 Berlin": {
   "address": "Schönhauser Allee 26a, 10435 Prenzlauer Berg",
@@ -1136,6 +1217,13 @@
  },
  "Supamolly Jessnerstr. 41 10247, 10247 Berlin": null,
  "TBA - Info durch Veranstalter*in, Berlin": null,
+ "THF Tower Flughafen Tempelhof in Berlin, Tempelhofer Damm 45, 12101, Berlin": null,
+ "Tempelhofer Damm 45, 12101 Berlin": {
+  "address": "Tempelhofer Damm 45, 12101 Tempelhof",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4768251,
+  "lng": 13.3876685
+ },
  "Theater Strahl. Halle Ostkreuz, Berlin": null,
  "Theater an der Parkaue, Berlin": {
   "address": "Parkaue 29, 10367 Lichtenberg",
@@ -1272,6 +1360,12 @@
  "Yorck im Bethanien Mariannenplatz 2A, 10997 Berlin": null,
  "Z-Keller (Bhf Charlottenhof) Potsdam Berlin": null,
  "Z-Keller (Bhf Charlottenhof) Potsdam Berlin Deutschland": null,
+ "Zeltinger Str. 6, 13465 Berlin": {
+  "address": "Zeltinger Straße 6, 13465 Frohnau",
+  "bezirk": "Reinickendorf",
+  "lat": 52.6347482,
+  "lng": 13.2928997
+ },
  "Zentrum Villa Lützow Lützowstraße 28 10785, 10785 Berlin": null,
  "Zielona Góra Grünbergerstr. 73 10245 Berlin Deutschland": {
   "address": "Grünberger Straße 73, 10245 Friedrichshain",
@@ -1316,5 +1410,7 @@
  "near Bethaniendamm berlin berlin": null,
  "near Bethaniendamm berlin berlin Deutschland": null,
  "rag über Stadtteilarbeit und Antifaschismus im \"Sozialen Zentrum Aenne Saefkow\", Berlin": null,
- "rk and antifascism at the “Soziales Zentrum Aenne Saefkow”, Berlin": null
+ "rk and antifascism at the “Soziales Zentrum Aenne Saefkow”, Berlin": null,
+ "verschiedene Veranstaltungsorte Berlin": null,
+ "verschiedene Veranstaltungsorte, Berlin": null
 }

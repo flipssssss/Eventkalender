@@ -1109,6 +1109,12 @@
  },
  "OGH Sonnenallee Berlin": null,
  "OGH Sonnenallee Berlin Deutschland": null,
+ "OXI, Berlin": {
+  "address": "Wiesenweg 1-4, 10365 Lichtenberg",
+  "bezirk": "Lichtenberg",
+  "lat": 52.5076121,
+  "lng": 13.4749435
+ },
  "Oberwallstraße 32, 10117 Berlin": {
   "address": "Oberwallstraße, 10117 Mitte",
   "bezirk": "Mitte",

@@ -65,6 +65,7 @@ const KD_LABELS = {
 const els = {
   feed: document.getElementById("feed"),
   status: document.getElementById("status"),
+  splash: document.getElementById("splash"),
   search: document.getElementById("search"),
   tagFilter: document.getElementById("tag-filter"),
   genreFilter: document.getElementById("genre-filter"),
@@ -164,6 +165,16 @@ if ("serviceWorker" in navigator) {
   });
 }
 
+// Ladebildschirm ausblenden (sanft) -- aufgerufen sobald der Feed steht.
+function hideSplash() {
+  const s = els.splash;
+  if (!s || s.classList.contains("hide")) return;
+  s.classList.add("hide");
+  setTimeout(() => s.remove(), 600);
+}
+// Notbremse: nie länger als 9s hängen bleiben, falls etwas klemmt.
+setTimeout(hideSplash, 9000);
+
 init();
 
 // iOS-PWA & Tab-Wechsel: beim Sichtbarwerden / Online-Gehen den Feed neu laden,
@@ -214,6 +225,8 @@ async function init() {
   } catch (err) {
     els.status.textContent =
       "Konnte den Veranstaltungs-Feed nicht laden. (" + err.message + ")";
+  } finally {
+    hideSplash();
   }
 
   els.search.addEventListener("input", (e) => {

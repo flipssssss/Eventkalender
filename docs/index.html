@@ -50,6 +50,15 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <!-- Ladebildschirm: sofort sichtbar, blendet aus sobald der Feed steht. -->
+  <div id="splash" class="splash" role="status" aria-label="Lädt">
+    <div class="splash-inner">
+      <div class="splash-title">Eventkalender</div>
+      <div class="splash-spinner" aria-hidden="true"></div>
+      <div class="splash-note">Lade Veranstaltungen …</div>
+    </div>
+  </div>
+
   <header class="site-header">
     <!-- Zeile 1: Tage (springen) + Suche + Einstellungen -->
     <div class="header-row header-row--dates">

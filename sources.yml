@@ -63,10 +63,11 @@ sources:
   # JSON-LD, server-gerenderte data-hooks; nur Berlin (Mehringhof-Theater).
 
   # Möbel Olfe -> eigener Ausleser (scrapers/moebelolfe.py): statische Tabelle.
-  # Kink-Quellen -- Genre Kink (scrapers/genres.py). Erst per JSON-LD versucht;
-  # liefert eine Seite nichts, zeigt ihre Debug-Datei die Struktur.
-  - url: https://www.berlinkinkcalendar.com/all-events/
-    name: Berlin Kink Calendar
+  # Other Nature -> eigener Ausleser (scrapers/othernature.py): Shopify-Atom.
+  # IKSK Berlin -> eigener Ausleser (scrapers/iksk.py): server-gerendert.
+  # Berlin Kink Calendar: weggelassen -- Events werden client-seitig (Ghost/
+  # Airtable) gerendert, ohne JS nicht erreichbar; BDSM Berlin deckt Ähnliches.
+  # Kink-Quellen mit JSON-LD bzw. iCal:
   - url: https://bdsm-berlin.de/kalender/
     name: BDSM Berlin
   # Folsom Europe nutzt "The Events Calendar" -> iCal-Feed der Event-Liste.
@@ -75,10 +76,6 @@ sources:
   - url: https://folsomeurope.berlin/events/?ical=1
     name: Folsom Europe
     type: ical
-  - url: https://www.iksk-berlin.de/Program
-    name: IKSK Berlin
-  - url: https://other-nature.de/blogs/events
-    name: Other Nature
 
   # Jazz-Clubs -- alle Events als Konzert (Genre Kultur per Default).
   # A-Trane liefert sauberes JSON-LD; B-flat (Squarespace) und visitBerlin

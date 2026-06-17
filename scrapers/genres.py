@@ -63,7 +63,6 @@ FORCE_GENRE = {
     "Rosa-Luxemburg-Stiftung": "Polit",
     "FunFacts": "Kultur",
     "Möbel Olfe": "Queer",
-    "Berlin Kink Calendar": "Kink",
     "BDSM Berlin": "Kink",
     "Folsom Europe": "Kink",
     "IKSK Berlin": "Kink",

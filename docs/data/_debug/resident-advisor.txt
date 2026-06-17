@@ -1,4 +1,4 @@
-Events gesamt: 77 | mit Bild: 70 | mit Beschreibung: 70
+Events gesamt: 78 | mit Bild: 71 | mit Beschreibung: 71
 club/28354 (://about blank): 40 -> 40 Berlin | flyer=0 images=37 content=39
 club/98993 (Beate Uwe): 12 -> 12 Berlin | flyer=0 images=9 content=11
 promoter/82597 (BOAR Berlin): 0 -> 0 Berlin | flyer=0 images=0 content=0
@@ -17,4 +17,5 @@ promoter/52590 (Pornceptual): 5 -> 2 Berlin | flyer=0 images=5 content=5
 promoter/68628 (Room 4 Resistance): 0 -> 0 Berlin | flyer=0 images=0 content=0
 promoter/110626 (Supernature): 0 -> 0 Berlin | flyer=0 images=0 content=0
 promoter/90524 (¡MASH-UP! Multigender / Multiworld): 0 -> 0 Berlin | flyer=0 images=0 content=0
+promoter/111118 (Body Language): 1 -> 1 Berlin | flyer=0 images=1 content=1
 Artist-Auflösung: status=403 len=768 keine ID

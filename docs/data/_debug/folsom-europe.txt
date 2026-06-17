@@ -1,0 +1,190 @@
+URL: https://folsomeurope.berlin/program/
+  HTTP-Status: 200
+  HTML-Länge: 127988 Zeichen
+  JSON-LD vorhanden: False
+  Events gefunden: 0
+  Mögliche Programm-Unterseiten:
+    - https://folsomeurope.berlin/category/events/
+    - https://folsomeurope.berlin/events/list
+  URL-Strings im Skript: 
+			onload: function (items) {
+				//make somthing with items
+			} 
+		}
+	);
+});
+
+ /* <![CDATA[ */var tribe_l10n_datatables = {, 
+    }
+};
+//# sourceURL=contact-form-7-js-before
+/* ]]> */
+
+
+/* <![CDATA[ */
+var rtec = {, 
+    }
+};
+//# sourceURL=wpcf7-recaptcha-js-before
+/* ]]> */
+
+
+/* <![CDATA[ */
+var localize = {,  ] } );
+//# sourceURL=wp-i18n-js-after
+/* ]]> */
+
+
+/* <![CDATA[ */
+var wpcf7 = {
+    , ,
+				];
+				events.forEach( ( event ) => {
+					document.addEventListener( event, lazyloadRunObserver );
+				} );
+			
+
+/* <![CDATA[ */
+var eb_conditional_localize = [];
+var EssentialBlocksLocalize = {, :false}}};
+//# sourceURL=eael-general-js-extra
+/* ]]> */
+
+
+/* <![CDATA[ */
+var complianz = {, https://ems.switchedapp.com, https://essential-blocks.com/upgrade, https://folsomeurope.berlin, https://folsomeurope.berlin/cookie-richtlinie-eu/, https://folsomeurope.berlin/data-protection/, https://folsomeurope.berlin/impessum/, https://folsomeurope.berlin/program/, https://folsomeurope.berlin/wp-admin/, https://folsomeurope.berlin/wp-admin/admin-ajax.php
+  Externe Skripte: https://folsomeurope.berlin/wp-includes/js/jquery/jquery.min.js?ver=3.7.1, https://folsomeurope.berlin/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1, https://folsomeurope.berlin/wp-content/themes/spicepress-pro/js/bootstrap.min.js?ver=6.9.4, https://folsomeurope.berlin/wp-content/themes/spicepress-pro/js/menu/menu.js?ver=6.9.4, https://folsomeurope.berlin/wp-content/themes/spicepress-pro/j
+  Größtes Inline-Skript (4367 Zeichen)
+  --- ANFANG ---
+
+/* <![CDATA[ */
+    
+		if ('undefined' != typeof window.jQuery) {
+			jQuery(document).ready(function ($) {
+				$(document).on('elementor/popup/show', () => {
+					let rev_cats = cmplz_categories.reverse();
+					for (let key in rev_cats) {
+						if (rev_cats.hasOwnProperty(key)) {
+							let category = cmplz_categories[key];
+							if (cmplz_has_consent(category)) {
+								document.querySelectorAll('[data-category="' + category + '"]').forEach(obj => {
+									cmplz_remove_placeholder(obj);
+								});
+							}
+						}
+					}
+
+					let services = cmplz_get_services_on_page();
+					for (let key in services) {
+						if (services.hasOwnProperty(key)) {
+							let service = services[key].service;
+							let category = services[key].category;
+							if (cmplz_has_service_consent(service, category)) {
+								document.querySelectorAll('[data-service="' + service + '"]').forEach(obj => {
+									cmplz_remove_placeholder(obj);
+								});
+							}
+						}
+					}
+				});
+			});
+		}
+    
+    
+		
+			document.addEventListener("cmplz_enable_category", function(consentData) {
+				var category = consentData.detail.category;
+				var services = consentData.detail.services;
+				var blockedContentContainers = [];
+				let selectorVideo = '.cmplz-elementor-widget-video-playlist[data-category="'+category+'"],.elementor-widget-video[data-category="'+category+'"]';
+				let selectorGeneric = '[data-cmplz-elementor-href][data-category="'+category+'"]';
+				for (var skey in services) {
+					if (services.hasOwnProperty(skey)) {
+						let service = skey;
+						selectorVideo +=',.cmplz-elementor-widget-video-playlist[data-service="'+service+'"],.elementor-widget-video[data-service="'+service+'"]';
+						selectorGeneric +=',[data-cmplz-elementor-href][data-service="'+service+'"]';
+					}
+				}
+			
+  --- ENDE ---
+ementor-widget-video-playlist');
+					}
+					obj.setAttribute('data-settings', obj.getAttribute('data-cmplz-elementor-settings'));
+					blockedContentContainers.push(obj);
+				});
+
+				document.querySelectorAll(selectorGeneric).forEach(obj => {
+					let elementService = obj.getAttribute('data-service');
+					if ( cmplz_is_service_denied(elementService) ) {
+						return;
+					}
+					if (obj.classList.contains('cmplz-elementor-activated')) return;
+
+					if (obj.classList.contains('cmplz-fb-video')) {
+						obj.classList.remove('cmplz-fb-video');
+						obj.classList.add('fb-video');
+					}
+
+					obj.classList.add('cmplz-elementor-activated');
+					obj.setAttribute('data-href', obj.getAttribute('data-cmplz-elementor-href'));
+					blockedContentContainers.push(obj.closest('.elementor-widget'));
+				});
+
+				/**
+				 * Trigger the widgets in Elementor
+				 */
+				for (var key in blockedContentContainers) {
+					if (blockedContentContainers.hasOwnProperty(key) && blockedContentContainers[key] !== undefined) {
+						let blockedContentContainer = blockedContentContainers[key];
+						if (elementorFrontend.elementsHandler) {
+							elementorFrontend.elementsHandler.runReadyTrigger(blockedContentContainer)
+						}
+						var cssIndex = blockedContentContainer.getAttribute('data-placeholder_class_index');
+						blockedContentContainer.classList.remove('cmplz-blocked-content-container');
+						blockedContentContainer.classList.remove('cmplz-placeholder-' + cssIndex);
+					}
+				}
+
+			});
+		
+		
+
+	let cmplzBlockedContent = document.querySelector('.cmplz-blocked-content-notice');
+	if ( cmplzBlockedContent) {
+	        cmplzBlockedContent.addEventListener('click', function(event) {
+            event.stopPropagation();
+        });
+	}
+    
+//# sourceURL=cmplz-cookiebanner-js-after
+/* ]]> */
+
+  Body (ohne CSS/JS):
+<body class="wp-singular page-template-default page page-id-5380 custom-background wp-custom-logo wp-theme-spicepress-pro wide tribe-no-js elementor-default elementor-kit-2287" data-cmplz="1">
+<div id="wrapper">
+<!--Logo & Menu Section-->
+<header class="header-overlapped">
+<nav class="navbar-overlapped navbar navbar-custom navigation header-sticky" role="navigation">
+<div class="container-fluid fullwidth p-l-r-0">
+<!-- Brand and toggle get grouped for better mobile display -->
+<div class="navbar-header">
+<a class="navbar-brand custom-logo" href="https://folsomeurope.berlin/" rel="home"><img alt="FOLSOM Europe e.V." class="custom-logo" decoding="async" height="94" src="https://folsomeurope.berlin/wp-content/uploads/2024/06/cropped-Logo_Website_512px.png" width="210"/></a> <a class="navbar-brand sticky-logo" href="https://folsomeurope.berlin/" style="display: none;">
+<img class="custom-logo" src="https://folsomeurope.berlin/wp-content/uploads/2023/07/pixel.png"/></a>
+<button class="navbar-toggle" data-target="#custom-collapse" data-toggle="collapse" type="button">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+</div>
+<!-- Collect the nav links, forms, and other content for toggling -->
+<!-- Collect the nav links, forms, and other content for toggling -->
+<div class="collapse navbar-collapse" id="custom-collapse">
+<ul class="nav navbar-nav navbar-right"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2693" id="menu-item-2693"><a href="/">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8505" id="menu-item-8505"><a href="https://folsomeurope.berlin/app/">📲 App</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-2527 dropdown active" id="menu-item-2527"><a href="#">2026<i class="fa fa-angle-down"></i></a>
+<ul class="dropdown-menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-5380 current_page_item menu-item-5573 active" id="menu-item-5573"><a href="https://folsomeurope.berlin/program/">Program</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10479" id="menu-item-10479"><a href="https://folsomeurope.berlin/location/">Street Fair Location</a></li>
+<li class="menu-item menu-item-type-post_type men
+------------------------------------------------------------

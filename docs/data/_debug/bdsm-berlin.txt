@@ -1,0 +1,156 @@
+URL: https://bdsm-berlin.de/kalender/
+  HTTP-Status: 200
+  HTML-Länge: 425604 Zeichen
+  JSON-LD vorhanden: True
+  Events gefunden: 45
+  Mögliche Programm-Unterseiten:
+    - https://bdsm-berlin.de/en/calendar/
+    - https://bdsm-berlin.de/events/bdsm-stammtisch-potsdam-142-633-532/?occurrence=2026-06-04
+    - https://bdsm-berlin.de/events/beginners-rope-kara/?occurrence=2026-06-01
+    - https://bdsm-berlin.de/events/beginners-rope-kara/?occurrence=2026-06-08
+    - https://bdsm-berlin.de/events/beginners-rope-kara/?occurrence=2026-06-15
+    - https://bdsm-berlin.de/events/beginners-rope-kara/?occurrence=2026-06-22
+    - https://bdsm-berlin.de/events/beginners-rope-kara/?occurrence=2026-06-29
+    - https://bdsm-berlin.de/events/bondage-fuer-anfaengerinnen-737-949/?occurrence=2026-06-02
+    - https://bdsm-berlin.de/events/bondage-fuer-anfaengerinnen-737-949/?occurrence=2026-06-09
+    - https://bdsm-berlin.de/events/bondage-fuer-anfaengerinnen-737-949/?occurrence=2026-06-16
+    - https://bdsm-berlin.de/events/bondage-fuer-anfaengerinnen-737-949/?occurrence=2026-06-23
+    - https://bdsm-berlin.de/events/bondage-fuer-anfaengerinnen-737-949/?occurrence=2026-06-30
+    - https://bdsm-berlin.de/events/bondage-picknick-2026/?occurrence=2026-06-07
+    - https://bdsm-berlin.de/events/bondage-picknick-2026/?occurrence=2026-06-14
+    - https://bdsm-berlin.de/events/bondage-picknick-2026/?occurrence=2026-06-21
+    - https://bdsm-berlin.de/events/bondage-picknick-2026/?occurrence=2026-06-28
+    - https://bdsm-berlin.de/events/brettspiele-am-sonntag-2-482/?occurrence=2026-06-21
+    - https://bdsm-berlin.de/events/einsteigerinnen-treffen-494/?occurrence=2026-06-04
+    - https://bdsm-berlin.de/events/frauen-stammtisch/?occurrence=2026-06-30
+    - https://bdsm-berlin.de/events/friday-english-munch-tba/?occurrence=2026-06-26
+    - https://bdsm-berlin.de/events/friday-english-munch-volksbar-940/?occurrence=2026-06-05&time=1780686000
+    - https://bdsm-berlin.de/events/friday-english-munch-volksbar-940/?occurrence=2026-06-12&time=1781290800
+    - https://bdsm-berlin.de/events/friday-english-munch-volksbar-940/?occurrence=2026-06-19&time=1781895600
+    - https://bdsm-berlin.de/events/international-wednesday-munch-castle-522-918/?occurrence=2026-06-03
+    - https://bdsm-berlin.de/events/international-wednesday-munch-castle-522-918/?occurrence=2026-06-10
+  URL-Strings im Skript: &lt;strong&gt;Bondage-Picknick auf der Thomashöhe: Treffen, quatschen, essen und fesseln im Park.&lt;/strong&gt;    Bei Fragen, Anregungen oder Anliegen das Picknick betreffend: Besuch das Picknick und sprich mit jemandem vor Ort.    &lt;strong&gt;WAS?&lt;/strong&gt;  Das Picknick ist ein ständig wachsendes und sich veränderndes Event, das von Keinem und von Allen organisiert wird; reguliert durch einen sich stets weiterentwickelnden sozialen Verhaltenskodex. Jede*r ist eingeladen so viel oder so wenig Energie und Zeit in das Event zu investieren, wie Mensch mag. Die Veranstaltung ist kein Raum für explizit organisiertes/ geleitetes Lernen, sondern ein Ort des Austauschs und des Zusammenseins.    &lt;strong&gt;WANN?&lt;/strong&gt;  Im Frühling und Sommer treffen sich jeden Sonntagnachmittag bei gutem Wetter Menschen zum Seilpicknick auf der Thomashöhe in Neukölln am Hartung-Baum.    &lt;strong&gt;WO?&lt;/strong&gt;  &lt;a href=&quot;https://goo.gl/maps/6JLbTpfeVPef7zdo9&quot; target=&quot;_blank&quot; rel=&quot;noreferrer noopener&quot;&gt;https://goo.gl/maps/6JLbTpfeVPef7zdo9&lt;/a&gt;  Park: “Thomashöhe”  Baum: “Hartung-Baum” (oder jeder andere Baum, der gefällt)    &lt;strong&gt;WER?&lt;/strong&gt;  Es gibt keine (Mindest-) Anforderungen - keine Spezialtricks, kein Expertenwissen und keine Erfahrungen sind notwendig, um an dem Event teilnehmen zu können. Komm vorbei, wenn du dich danach fühlst und finde heraus, ob du und die Gruppe auf einer Wellenlänge miteinander seid. Jede Person ist für sich und ihr Umfeld verantwortlich.    &lt;strong&gt;WER NOCH?&lt;/strong&gt;  Die Thomashöhe ist ein öffentlicher Park, der Platz für verschiedene Gruppen von Menschen bietet, inklusive Familien mit Kindern. &lt;strong&gt;Bitte verhalte dich dementsprechend.&lt;/strong&gt;    Sei dir bewusst, dass Menschen, die weder vertraut mit Seilen sind und dem Thema eventuell abweisend gegenüberstehen, dich ansprechen könnten. Auch neugierige Kinder und Erwachsene könnten sich an dich wenden. Es kann vorkommen, dass Bilder ohne Erlaubnis gemacht werden oder dass eine Szene unterbrochen wird, weil die Personen es nicht besser wissen. Manchmal möchten Kinder an den Hängepunkten spielen und viele Leute möchten gerne erklärt haben, was am Hartung-Baum passiert.    &lt;strong&gt;WAS IST MITZUBRINGEN?&lt;/strong&gt;  Das ist dir überlassen: Eine Decke, ein Handtuch, Essen und etwas zu trinken. Wenn du genügend hast: Teilen ist sehr willkommen. Bring deine Seile und eventuell Equipment für einen Hängepunkt mit, falls du welche/s besitzt.    &lt;strong&gt;HÄNGEPUNKTE?&lt;/strong&gt;  Der Hartung-Baum wurde bereits mit 6 Hängepunkten “geprüft”. Es ist dir überlassen, ob du einen eigenen Punkt konstruierst oder, nach Nachfrage, einen schon vorhandenen Punkt mit nutzt.Du bist selbst für deine Sicherheit verantwortlich, auch wenn du einen Punkt einer anderen Person nutzt. Überprüfe den Hängepunkt, bevor du ihn verwendest.    &lt;strong&gt;(ganz normale Umgangs-)REGELN&lt;/strong&gt;  Es gelten die gleichen sozialen und grundlegenden Regeln und Gesetze wie in jedem anderen öffentlichen Bereich.    Behandle dich selbst und Andere mit Respekt, sei höflich und respektiere deine eigenen und die Grenzen der Anderen. Die Würde und Gleichheit, die körperliche sowie geistige Freiheit und Unversehrtheit, die freie Entfaltung der Persönlichkeit, die Freiheit zur Meinungsäußerung ebenso wie die freie Wahl des Geschlechts und der Religion sind für jeden Menschen in diesem Park, der an der Veranstaltung teilnimmt und auch nicht teilnimmt, unantastbar - vorausgesetzt natürlich, die Rechte Anderer werden dadurch nicht eingeschränkt.  Das Event ist unmoderiert und unterliegt ständiger Veränderung, abhängig von den aktuell Anwesenden. Deshalb liegt es in der Verantwortung jedes Teilnehmenden, die aktuelle soziale Situation zu beobachten und das eigene sowie das Verhalten Anderer zu reflektieren und ggf. das eigene Verhalten entsprechend anzupassen sowie gruppendynamisch zu intervenieren, wenn die Situation dies erfordert.  Fotografiere niemanden ohne ausdrückliche Erlaubnis und stelle keine Fotos online ohne die explizite Erlaubnis aller Personen auf diesen Bildern. Gehe nicht davon aus, dass jede Person bereit ist, persönliche und/ oder kink-relevante Informationen mit jedem zu teilen, nur weil sie an dem Picknick teilnimmt. Respektiere ihre Entscheidung.    RACK, SSC oder &quot;be excellent to each other&quot;, &lt;strong&gt;For Tickets see the &lt;a href=&quot;https://karada-house.de/event/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Karada-Calendar&lt;/a&gt;, scroll to your preferred date and order accordingly.&lt;/strong&gt;    Welcome to the world of rope bondage, friend! It’s wild and fun out here and we are thrilled to be your point of entry.    This weekly class is designed for anyone who would like to learn about Japanese-inspired rope bondage/ shibari/ kinbaku whether you see yourself in the role of the person tying or being tied. We firmly believe that everyone, even if you wish to purely be tied, should know the absolute basics of this craft. You can come alone or with a partner. Everyone will learn and tie. You can either tie yourself or another person, switching will also be a part of this class.    You do not need to bring any ropes as we will provide workshop ropes for you.    You can also spontaneously come by on the day and purchase a ticket online right up to the beginning of the class if there is space left.    Note:    The class starts at 7 pm sharp. Please arrive 15 minutes earlier so we can process your ticket and welcome you. Once the class has started we do not allow entry. You cannot transfer your ticket to another week. If you are not sure you can come, please purchase your ticket on the day as soon as you are absolutely sure you can make it.    &lt;strong&gt;Event Details&lt;/strong&gt;    Date &amp; Time: every Monday, 7 pm - 10 pm CET (Berlin)  Format: hands-on workshop  Audience: LGBTQIA+ &amp; FRIENDS  Language: English  Minimum Knowledge Level: –  What to Bring: comfortable clothes that are more tight fitting if possible  Solo or Partnered: solo, partnered, in a group (everyone needs a ticket)    Price: 25-35 Euros    &lt;strong&gt;What we teach&lt;/strong&gt;    – single column tie  – tension  – wrapping  – double column tie  – history of Japanese (inspired) rope bondage  - little bits of safety, anatomy and psychological care  - we will tie and play, yippie    &lt;strong&gt;What happens next?&lt;/strong&gt;    If you like what you are being taught, we recommend repeating this class one or two more times so that you can develop muscle memory and a firmer understanding. Every last Monday of the month we also offer an adjacent class for absolute beginners that will go into the depth of learning about consent, boundaries, and negotiation as well as physical and psychological safety in ropes. Once you feel solid in your absolute basic skills and have joined the consent &amp; safety class once, you are very welcome to move on to our Open Training for Beginners (also weekly on Monday).    &lt;strong&gt;Accessibility Note&lt;/strong&gt;    The workshop is held in spoken English. German can also be provided. The space, KARA, is on the ground floor but has three steps to enter the house. A ramp for wheelchairs is available at all times. There is also a parking space available right in front of the door if needed. KARA has an accessible bathroom available. There are no thresholds in the entire house. The garden is only partially accessible at the moment. During the workshop, we will sit on the floor. Sitting in a chair can also be provided. Adaptations for physical needs will be shown and can also be provided upon request. If you participate in this workshop and need more assistance please message us at &lt;a class=&quot;underline color-inherit hover-color-inherit&quot; href=&quot;mailto:info@karada-house.de&quot; target=&quot;_blank&quot; rel=&quot;noreferrer noopener&quot;&gt;info@karada-house.de&lt;/a&gt; beforehand.    &lt;strong&gt;Who is this event for?&lt;/strong&gt;    LGBTQIA+ describes the full spectrum of non-mainstream sexual orientation and/or gender identity, meaning: lesbian, gay, bisexual, pansexual, transgender, non-binary, genderqueer/fluid,    Friends describe people of any and all kinds of gender and sexual identities who are aware and respectful of the necessity, needs, and boundaries of a queer safe(r) space and its marginalized community.    When you consider yourself a friend you show acknowledgment to and are respectful of everyone’s self-expression and do not assume presume or project non-consensual ideas onto others. You actively request and use people’s chosen pronouns. You remain mindful of the fact that Karada House is first and foremost a space for queer people that you are also invited to attend. You have a genuine concern for the well-being of LGBTQIA+ people and remain in awareness of heterosexual and gender-straight privileges.    Friends don’t have to be perfect. None of us are. We request that we all proactively work and strive to be good friends and allies to marginalized people.    &lt;strong&gt;What else to know&lt;/strong&gt;    If you cannot afford this event, please check the ticket option “solidarity” for reduced ticket prices. If that is still too much or they are out of stock, feel free to send us a message via &lt;a class=&quot;underline text-inherit hover:text-inherit&quot; href=&quot;mailto:info@karada-house.de&quot; target=&quot;_blank&quot; rel=&quot;noreferrer noopener&quot;&gt;info@karada-house.de&lt;/a&gt;    Before purchasing a &lt;strong&gt;solidarity ticket&lt;/strong&gt;, please &lt;a href=&quot;https://karada-house.de/faq/#solidarity&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;check here if you are eligible for one&lt;/a&gt;., &lt;strong&gt;International English-Language Meet-up&lt;/strong&gt;  &lt;em&gt;Chat with and get to know other kinksters over drinks in a relaxed, welcoming setting.&lt;/em&gt;    &lt;strong&gt;How to stay informed?&lt;/strong&gt;    You can join our&lt;a href=&quot;https://t.me/+Evx962MzsjgwYjMy&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt; telegram group&lt;/a&gt; for our events.    &lt;strong&gt;Please speak English&lt;/strong&gt;    We ask that you please speak English at the munch. This is so that if someone overhears you and wants to join your conversation, they can easily understand and participate. It helps avoid anyone feeling left out.    &lt;strong&gt;This is not a play event&lt;/strong&gt;    We are meeting in a vanilla location to make this event inclusive as possible. Please avoid anything that might seem sexual or abusive to bystanders. That includes BDSM gear, protocol, or behaviors that might alarm vanilla guests. Think &quot;friendly pub night,&quot; not &quot;dungeon social.&quot;    &lt;strong&gt;If you feel uncomfortable...&lt;/strong&gt;    There’s no heavy protocol or formal structure at this munch. That said, if you feel uncomfortable or something doesn’t sit right with you, please talk to one of the organizers. We want to make sure everyone feels safe and seen, and we’ll do our best to assess the situation and respond appropriately., &lt;strong&gt;Meet like minded kinky people&lt;/strong&gt;    Join us for a friendly meet up, have a drink, relax, meet and chat with like minded people, every Wednesday evening.  We will meet at the Vagabund Brauerei Kesselhaus which has both outdoors &amp; indoors places.    You will be greeted by the Unicorns. The bar staff can also direct you to the right place    &lt;strong&gt;We want all kinksters to feel welcome, comfortable, and safe at our munches.  Please keep the following things in mind:&lt;/strong&gt;  - Be friendly and respectful to other munch attendees.  - The Unicorns are there to make sure you feel welcome, comfortable, and safe. Feel free to ask them for any help you need!  - Harassment of any kind will NOT be tolerated.  - This is not a play party, please dress casually.    Payment for Drinks in cash / card.    Your hosts (unicorns) will be there to welcome you and make sure you feel at home. Feel free to contact us about any question you have regarding the munch.    &lt;strong&gt;To find us, look for the unicorns.&lt;/strong&gt;    Stay updated on our Telegram channel: &lt;a href=&quot;https://t.me/bdsmunch&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://t.me/bdsmunch&lt;/a&gt;, &lt;strong&gt;Meet like minded kinky people&lt;/strong&gt;    Join us for a friendly meet up, have a drink, relax, meet and chat with like minded people, every Wednesday evening.  We will meet at the cozy Castle Berlin Mitte which has both outdoors &amp; indoors places &amp; a pool table.    You will be greeted by the Unicorns. The bar staff can also direct you to the right place    &lt;strong&gt;We want all kinksters to feel welcome, comfortable, and safe at our munches.  Please keep the following things in mind:&lt;/strong&gt;  - Be friendly and respectful to other munch attendees.  - The Unicorns are there to make sure you feel welcome, comfortable, and safe. Feel free to ask them for any help you need!  - Harassment of any kind will NOT be tolerated.  - This is not a play party, please dress casually.    Payment for Drinks in cash / card.    Your hosts (unicorns) will be there to welcome you and make sure you feel at home. Feel free to contact us about any question you have regarding the munch.    &lt;strong&gt;To find us, look for the unicorns.&lt;/strong&gt;    Stay updated on our Telegram channel: &lt;a href=&quot;https://t.me/bdsmunch&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://t.me/bdsmunch&lt;/a&gt;, ></div>
+	</div>
+
+
+
+
+	{{{ data.beforeForm }}}
+
+
+	{{{ data.afterForm }}}
+
+
+    <div class=, ></div>
+
+
+    {{{ data.beforeField }}}
+
+
+    {{{ data.afterField }}}
+
+
+	<form>
+		<div>
+			<div class=, ></div>
+    <#
+    /*
+     * Render any custom HTML after our field.
+     */
+    #>
+    {{{ data.afterField }}}
+
+
+	<div id=, ></div>
+    </div>
+
+
+
+        {{{ data.renderElement() }}}
+
+        <div class=, ></div>
+    </div>
+
+
+    {{{ data.beforeField }}}
+
+
+    <#
+    /*
+     * Render our input limit section if that setting exists.
+     */
+    #>
+    <div class=, >{{{ data.msg }}}</div>
+
+
+    {{{ data.currentCount() }}} {{{ nfi18n.of }}} {{{ data.input_limit }}} {{{ data.input_limit_msg }}}
+
+
+
+
+    {{{ data.value }}}
+
+
+    <input id=, >{{{ data.renderElement() }}}</div>
+		<#
+		/*
+		 * Render our Description Text.
+		 */
+        #>
+		{{{ data.renderDescText() }}}
+	</div>
+
+
+    <div id=, >{{{ data.renderFieldsMarkedRequired() }}}</div>
+    {{{ data.beforeFields }}}
+
+
+    {{{ data.afterFields }}}
+    <div id=, Der BDSM Stammtisch Potsdam seit 2014.    Feste Stammtischgruppe. Ziel ist es, BDSM-Interessierte aus Potsdam und Umgebung zu versammeln und damit Kontaktmöglichkeiten für BDSM zu verbessern. Neulinge und erfahrene BDSMler können sich kennenlernen, austauschen und / oder einfach einen netten Abend zusammen haben.    Das Treffen findet einmal im Monat am ersten Donnerstag des Monats statt.    Als Treffpunkt haben wir derzeit das „Tomasa&quot; gewählt. Eingang ins Tomasa die halbe Treppe rauf gerade zu (links die Tür wäre Happy Hour). Im Tomasa im hinteren raum rechts. Weitere Termine und Infos findet ihr dann auf unserer Homepage.    Wir haben keine Kleiderordnung! Kommt einfach ganz locker – wer mag, kann aber in Fetischkleidung erscheinen. Die Betreiber sehen darin kein Problem. Auch wer Spielzeug zum Zeigen mitbringen will kein Problem. Eine Spielmöglichkeit ist nicht vorhanden!    Weitere Termine findet ihr auf der Webseite &lt;a href=&quot;https://bdsm-potsdam.de/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://bdsm-potsdam.de/&lt;/a&gt;., Der Junge BDSM Treff Berlin ist ein regelmäßiger Treffpunkt für &lt;strong&gt;alle von 18 bis einschließlich 34 Jahren&lt;/strong&gt;, die sich in der BDSM-Szene austauschen, Gleichgesinnte kennenlernen oder einfach in entspannter Atmosphäre quatschen möchten. Der Treff richtet sich besonders an junge Menschen, die neue Kontakte knüpfen, Erfahrungen austauschen oder einfach in einer freundlichen Community entspannen möchten.    Wer: Menschen von 18 bis einschließlich 34 Jahren (Du bist unter 18? Wende dich an die SMJG – &lt;a href=&quot;https://www.smjg.org/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;www.smjg.org&lt;/a&gt;)  Sprache: Der Treff ist in deutscher Sprache  Was: Treff zum Austausch über BDSM, Quatschen, Connecten mit Gleichgesinnten, Kartenspiele spielen, etc. &amp; in Kombination freiwillig und auf Spendenbasis parallel ein Workshop (unterschiedliche Themen) mit BDSM Thematik zum Weiterbilden oder ein Event  Wann: jeden 2. Donnerstag im Monat (mit seltenen Abweichungen), jeweils ab 18 Uhr, Workshop/Event 19 Uhr  Wo: Lovelite (Haasestraße 1, 10245 Berlin)  Kosten: Keine (ABER Spenden für das Lovelite und Workshopgebende sehr erwünscht!) und natürlich Getränkekosten (nur Barzahlung möglich)    Neben dem gemütlichen Austausch gibt es parallel jedes Mal einen freiwilligen Workshop oder ein kleines Event zu BDSM-Themen. Die Inhalte variieren von Treffen zu Treffen und bieten allen Interessierten die Möglichkeit, neue Skills zu erlernen, Fragen zu stellen und Wissen auszutauschen. Die Teilnahme ist freiwillig und auf Spendenbasis.    Unser Ziel ist es, die junge Berliner BDSM-Szene besser zu vernetzen, niedrigschwellige Zugänge zu Bildung und Austausch zu schaffen und Räume zu eröffnen, in denen Menschen unabhängig von Einkommen und Erfahrung willkommen sind.    Hinweis: Respekt, Konsens und Achtsamkeit stehen im Mittelpunkt. Kein Spielen auf dem Treff, keine sexuellen Handlungen, kein Alkohol oder Drogen. In seltenen Fällen können Personen über 34 (z. B. Workshopleitende oder die Locationverwaltung) anwesend sein; diese Personen nehmen jedoch nicht am eigentlichen Treff teil.    Wir freuen uns darauf, dich willkommen zu heißen und gemeinsam einen offenen, sicheren Raum für junge Menschen in der Berliner BDSM-Szene zu gestalten.
+  Externe Skripte: https://bdsm-berlin.de/wp-includes/js/jquery/jquery.min.js?ver=3.7.1, https://bdsm-berlin.de/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1, https://bdsm-berlin.de/wp-content/plugins/modern-events-calendar-lite/assets/js/mec-general-calendar.js?ver=6.2.0, https://bdsm-berlin.de/wp-content/plugins/modern-events-calendar-lite/assets/js/frontend.js?ver=6.2.0, https://bdsm-berlin.de/wp-content/
+  Größtes Inline-Skript (23527 Zeichen)
+  --- ANFANG ---
+
+jQuery(document).ready(function()
+{
+    jQuery("#mec_monthly_view_month_26_202606").mecMonthlyView(
+    {
+        id: "26",
+        today: "20260617",
+        display_all: "0",
+        month_id: "202606",
+        active_month: {year: "2026", month: "06"},
+        next_month: {year: "2026", month: "07"},
+        events_label: "Veranstaltungen",
+        event_label: "Veranstaltung",
+        month_navigator: 1,
+        atts: "atts%5Blabel%5D=&atts%5Bcategory%5D=&atts%5Blocation%5D=&atts%5Borganizer%5D=&atts%5Btag%5D=&atts%5Bauthor%5D=&atts%5Bskin%5D=monthly_view&atts%5Bshow_past_events%5D=1&atts%5Bsk-options%5D%5Blist%5D%5Bstyle%5D=classic&atts%5Bsk-options%5D%5Blist%5D%5Bstart_date_type%5D=today&atts%5Bsk-options%5D%5Blist%5D%5Bstart_date%5D=&atts%5Bsk-options%5D%5Blist%5D%5Bmaximum_date_range%5D=&atts%5Bsk-options%5D%5Blist%5D%5Bclassic_date_format1%5D=M+d+Y&atts%5Bsk-options%5D%5Blist%5D%5Bminimal_date_format1%5D=d&atts%5Bsk-options%5D%5Blist%5D%5Bminimal_date_format2%5D=M&atts%5Bsk-options%5D%5Blist%5D%5Bminimal_date_format3%5D=l&atts%5Bsk-options%5D%5Blist%5D%5Bmodern_date_format1%5D=d&atts%5Bsk-options%5D%5Blist%5D%5Bmodern_date_format2%5D=F&atts%5Bsk-options%5D%5Blist%5D%5Bmodern_date_format3%5D=l&atts%5Bsk-options%5D%5Blist%5D%5Bstandard_date_format1%5D=d+M&atts%5Bsk-options%5D%5Blist%5D%5Baccordion_date_format1%5D=d&atts%5Bsk-options%5D%5Blist%5D%5Baccordion_date_format2%5D=F&atts%5Bsk-options%5D%5Blist%5D%5Blimit%5D=&atts%5Bsk-options%5D%5Blist%5D%5Binclude_local_time%5D=0&atts%5Bsk-options%5D%5Blist%5D%5Binclude_events_times%5D=0&atts%5Bsk-options%5D%5Blist%5D%5Bload_more_button%5D=1&atts%5Bsk-options%5D%5Blist%5D%5Bmonth_divider%5D=1&atts%5Bsk-options%5D%5Blist%5D%5Bdisplay_label%5D=0&atts%5Bsk-options%5D%5Blist%5D%5Breason_for_cancellation%5D=0&
+  --- ENDE ---
+ts%5Bsf-options%5D%5Bweekly_view%5D%5Bmonth_filter%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Bweekly_view%5D%5Btext_search%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Btimetable%5D%5Bcategory%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Btimetable%5D%5Blocation%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Btimetable%5D%5Borganizer%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Btimetable%5D%5Bspeaker%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Btimetable%5D%5Btag%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Btimetable%5D%5Blabel%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Btimetable%5D%5Baddress_search%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Btimetable%5D%5Bevent_cost%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Btimetable%5D%5Bmonth_filter%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Btimetable%5D%5Btext_search%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Btile%5D%5Bcategory%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Btile%5D%5Blocation%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Btile%5D%5Borganizer%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Btile%5D%5Bspeaker%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Btile%5D%5Btag%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Btile%5D%5Blabel%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Btile%5D%5Baddress_search%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Btile%5D%5Bevent_cost%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Btile%5D%5Bmonth_filter%5D%5Btype%5D=0&atts%5Bsf-options%5D%5Btile%5D%5Btext_search%5D%5Btype%5D=0&atts%5Bsf_status%5D=1&atts%5B_edit_lock%5D=1611537663%3A2&atts%5B_edit_last%5D=2&atts%5Bshow_only_past_events%5D=0&atts%5Bshow_only_ongoing_events%5D=0&atts%5Bid%5D=26",
+        style: "novel",
+        ajax_url: "https://bdsm-berlin.de/wp-admin/admin-ajax.php",
+        sed_method: "m1",
+        image_popup: "0",
+        sf:
+        {
+            container: "#mec_search_form_26",
+            reset: 0,
+            refine: 0,
+        },
+    });
+});
+
+  Body (ohne CSS/JS):
+<body class="wp-singular page-template-default page page-id-40 wp-custom-logo wp-embed-responsive wp-theme-astra wp-child-theme-astra-child fl-builder fl-builder-2-9-4-2 fl-no-js ast-desktop ast-separate-container ast-two-container ast-no-sidebar astra-4.12.0 ast-header-custom-item-inside group-blog ast-single-post ast-inherit-site-logo-transparent ast-default-menu-enable ast-default-above-menu-enable ast-default-below-menu-enable ast-sticky-main-shrink ast-sticky-header-shrink ast-inherit-site-logo-sticky ast-primary-sticky-enabled astra-addon-4.12.0" itemscope="itemscope" itemtype="https://schema.org/WebPage">
+<a class="skip-link screen-reader-text" href="#content">
+		Zum Inhalt springen</a>
+<div class="hfeed site" id="page">
+<header class="site-header ast-primary-submenu-animation-fade header-main-layout-1 ast-primary-menu-enabled ast-has-mobile-header-logo ast-logo-title-inline ast-hide-custom-menu-mobile ast-menu-toggle-link ast-mobile-header-inline" id="masthead" itemid="#masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
+<div class="main-header-bar-wrap">
+<div class="main-header-bar">
+<div class="ast-container">
+<div class="ast-flex main-header-container">
+<div class="site-branding">
+<div class="ast-site-identity" itemscope="itemscope" itemtype="https://schema.org/Organization">
+<span class="site-logo-img"><a class="custom-logo-link" href="https://bdsm-berlin.de/" rel="home"><img alt="Logo BDSM Berlin e.V." class="custom-logo" decoding="async" height="72" sizes="(max-width: 150px) 100vw, 150px" src="https://bdsm-berlin.de/wp-content/uploads/bdsm-berlin-logo-transparent-150x72.png" srcset="https://bdsm-berlin.de/wp-content/uploads/bdsm-berlin-logo-transparent-150x72.png 150w, https://bdsm-berlin.de/wp-content/uploads/bdsm-berlin-logo-transparent.png 161w" width="150"/></a><a class="custom-mobile-logo-link" href="https://bdsm-berlin.de/" itemprop="url" rel="home"><img alt="Logo BDSM Berlin e.V." class="ast-mobile-header-logo" decoding="async" fetchpriority="high" height="160" sizes="(max-width: 800px) 100vw, 800px" src="https://bdsm-berlin.de/wp-content/uploads/bdsm-berlin-logo-lang-2.png" srcset="https://bdsm-berlin.de/wp-content/uploads/bdsm-berlin-logo-lang-2.png 800w, https://bdsm-berlin.de/wp-content/uploads/bdsm-berlin-logo-lang-2-500x100.png 500w, https://bdsm-berlin.de/wp-content/uploads/bdsm-berlin-logo-lang-2-768x154.png 768w, https://bdsm-berlin.de/wp-content/uploads/bdsm-berlin-logo-lang-2-160x32.png 160w" width="800"/
+------------------------------------------------------------

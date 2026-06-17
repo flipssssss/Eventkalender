@@ -1,0 +1,142 @@
+URL: https://www.berlinkinkcalendar.com/all-events/
+  HTTP-Status: 200
+  HTML-Länge: 67931 Zeichen
+  JSON-LD vorhanden: True
+  Events gefunden: 0
+  Mögliche Programm-Unterseiten:
+    - https://www.berlinkinkcalendar.com
+    - https://www.berlinkinkcalendar.com/
+    - https://www.berlinkinkcalendar.com/about/
+    - https://www.berlinkinkcalendar.com/all-events/
+    - https://www.berlinkinkcalendar.com/category/performance-and-shows/
+    - https://www.berlinkinkcalendar.com/magazine/
+    - https://www.berlinkinkcalendar.com/signin/
+    - https://www.berlinkinkcalendar.com/subscribe
+  URL-Strings im Skript: https://airtable.com/app9whU1O6YwELpq1/pag9H1nfe7K5pV4Ng/form, https://schema.org, https://storage.ghost.io/c/0c/df/0cdf95f8-3532-497d-ac4e-d5fe430720c6/content/images/size/w256h256/2026/05/Berlin-Kink-Calendar-ICON.png, https://www.berlinkinkcalendar.com/, https://www.berlinkinkcalendar.com/all-events/, https://www.berlinkinkcalendar.com/author/berlinable/, https://www.instagram.com/berlinable
+  Externe Skripte: https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js, https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js, https://www.berlinkinkcalendar.com/assets/js/global.js?v=42433dc013, https://www.berlinkinkcalendar.com/assets/js/custom-elements.js?v=42433dc013, https://unpkg.com/lenis@1.1.5/dist/lenis.min.js, https://cdn.jsdelivr.net/ghost/portal@~2.69/umd/portal.min.js, https://cdn.js
+  Größtes Inline-Skript (991 Zeichen)
+  --- ANFANG ---
+
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Berlin-Kink-Calendar",
+        "url": "https://www.berlinkinkcalendar.com/",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://storage.ghost.io/c/0c/df/0cdf95f8-3532-497d-ac4e-d5fe430720c6/content/images/size/w256h256/2026/05/Berlin-Kink-Calendar-ICON.png",
+            "width": 60,
+            "height": 60
+        }
+    },
+    "author": {
+        "@type": "Person",
+        "name": "BERLINABLE",
+        "url": "https://www.berlinkinkcalendar.com/author/berlinable/",
+        "sameAs": [
+            "https://www.instagram.com/berlinable"
+        ]
+    },
+    "headline": "All Events",
+    "url": "https://www.berlinkinkcalendar.com/all-events/",
+    "datePublished": "2026-04-28T14:10:24.000Z",
+    "dateModified": "2026-05-20T12:14:22.000Z",
+    "mainEntityOfPage": "https://www.berlinkinkcalendar.com/all-events/"
+}
+    
+  --- ENDE ---
+
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Berlin-Kink-Calendar",
+        "url": "https://www.berlinkinkcalendar.com/",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://storage.ghost.io/c/0c/df/0cdf95f8-3532-497d-ac4e-d5fe430720c6/content/images/size/w256h256/2026/05/Berlin-Kink-Calendar-ICON.png",
+            "width": 60,
+            "height": 60
+        }
+    },
+    "author": {
+        "@type": "Person",
+        "name": "BERLINABLE",
+        "url": "https://www.berlinkinkcalendar.com/author/berlinable/",
+        "sameAs": [
+            "https://www.instagram.com/berlinable"
+        ]
+    },
+    "headline": "All Events",
+    "url": "https://www.berlinkinkcalendar.com/all-events/",
+    "datePublished": "2026-04-28T14:10:24.000Z",
+    "dateModified": "2026-05-20T12:14:22.000Z",
+    "mainEntityOfPage": "https://www.berlinkinkcalendar.com/all-events/"
+}
+    
+  Body (ohne CSS/JS):
+<body>
+<div class="site-name">Snook by KUSA Projects</div>
+<div class="viewport">
+<div class="site-content">
+<link href="https://www.berlinkinkcalendar.com/assets/css/newsletter-popup.css?v=42433dc013" rel="stylesheet" type="text/css"/>
+<newsletter-popup>
+<div class="newsletter-popup-container">
+<div class="newsletter-popup-container-inner">
+<h2>
+                    Miss nothing. Win Tickets.
+                    Subscribe.
+                </h2>
+<p class="paragraph">
+                    A curated guide to Berlin's kink, fetish, and queer events. From club nights to workshops, from dark rooms to soft spaces. Updated weekly.
+                </p>
+<form class="subscribe-form" data-members-form="subscribe">
+<div class="subscribe-with-alerts">
+<div class="subscribe-wrapper">
+<div class="subscribe-inner">
+<input class="subscribe-input" data-members-email="" placeholder="Your email" required="true" type="email"/>
+<button aria-label="Submit button" class="unstyled-button submit-button flex-center" type="submit">
+<div class="submit-button-inner flex-center">
+</div>
+</button>
+</div>
+</div>
+<div class="form-alerts">
+<small class="form-alert loading-alert">Processing your request...</small>
+<small class="form-alert success-alert">Please check your inbox and click the link to confirm your subscription.</small>
+<small class="form-alert error-alert" data-members-error=""></small>
+</div>
+</div>
+</form>
+<small class="form-small-text">
+                    No spam. Unsubscribe anytime.
+                </small>
+</div>
+<button aria-label="Close newsletter popup" class="unstyled-button newsletter-popup-close">
+</button>
+</div>
+</newsletter-popup>
+<link href="https://www.berlinkinkcalendar.com/assets/css/navbar.css?v=42433dc013" rel="stylesheet" type="text/css"/>
+<custom-header class="navbar-outer opacity-animation">
+<div class="navbar">
+<div class="wide-container">
+<div class="navbar-inner">
+<a class="logo-wrapper flex-center" href="https://www.berlinkinkcalendar.com">
+<div class="medium-text navbar-logo-text">
+                    Berlin-Kink-Calendar
+                </div>
+</a>
+<a aria-label="Search button" class="hide-on-desktop mobile-search flex-center" data-ghost-search="" href="javascript:">
+<div class="search-icon flex-center">
+</div>
+</a>
+<button aria-label="Menu button" class="unstyled-button menu-button">
+<div class="menu-line first-line"></div>
+<div class="menu-line mobile-line"></div>
+<div class="menu-line second-line"></div>
+</button>
+<div class="navbar-link
+------------------------------------------------------------

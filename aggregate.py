@@ -63,11 +63,15 @@ KEEP_PAST_DAYS = 1
 # and the scrapers use the same horizon so they don't fetch needlessly.
 HORIZON_DAYS = 14
 
-# Per-source override for sparse sources whose events are planned far ahead
-# (ticketed shows etc.), so they aren't always invisible. Kept to a tiny
-# allowlist so the feed volume -- and thus performance -- barely changes.
+# Further-future windows for events that are planned well ahead. Both levers
+# are optional; the effective window is the LARGEST that applies (default,
+# category, source). Use sparingly -- a category covers many sources at once,
+# so it adds more events (and load) than a single source.
 SOURCE_HORIZON = {
     "FunFacts": 90,
+}
+CATEGORY_HORIZON: dict[str, int] = {
+    # e.g. "Konzert": 30, "Vortrag": 30, "Theater": 21,
 }
 
 
@@ -195,19 +199,24 @@ def filter_and_sort(events: list[Event]) -> list[Event]:
     for event in events:
         if not event.start:
             continue
-        # Compare naively to avoid tz-aware/naive mix-ups.
-        start_naive = event.start.replace(tzinfo=None)
-        # Sparse sources may reach further into the future than the default.
-        horizon = now + _dt.timedelta(
-            days=SOURCE_HORIZON.get(event.source_name, HORIZON_DAYS))
-        if start_naive < cutoff or start_naive > horizon:
-            continue
         # Map the source's raw categories onto the fixed tag set; drop
         # advice/help ("Beratung") events entirely.
         primary = categorize(event.tags)
         if primary is None:
             continue
         event.tags = [primary]
+        # Compare naively to avoid tz-aware/naive mix-ups.
+        start_naive = event.start.replace(tzinfo=None)
+        # Window: default, but a category or source on the allowlist may reach
+        # further into the future (whichever is largest wins).
+        days = max(
+            HORIZON_DAYS,
+            CATEGORY_HORIZON.get(primary, 0),
+            SOURCE_HORIZON.get(event.source_name, 0),
+        )
+        horizon = now + _dt.timedelta(days=days)
+        if start_naive < cutoff or start_naive > horizon:
+            continue
         # One genre per event: a scraper may set it itself (e.g. RA per source),
         # otherwise it's the source default, overridden by keywords.
         if not event.genre:

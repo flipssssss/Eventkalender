@@ -754,24 +754,26 @@ function shouldCollapse(cat) {
 }
 
 // How many cards to show before "+ N weitere": two full rows for the current
-// column count (min. 4), aber höchstens 6 -- mehr als 6 wird eingeklappt.
+// column count, mindestens 4 (1 Spalte->4, 2->4, 3->6, 4->8 ...). Eingeklappt
+// wird erst, wenn dadurch mindestens 2 Events verborgen werden (kein "+1").
 function gridColumns() {
   const w = (els.feed.clientWidth || window.innerWidth || 360) - 32;
   return Math.max(1, Math.floor((w + 16) / (280 + 16)));  // matcht CSS minmax+gap
 }
 function previewCount() {
-  return Math.min(6, Math.max(4, gridColumns() * 2));
+  return Math.max(4, gridColumns() * 2);
 }
 
 // Append a category's cards into `container`. With `preview` set, only that
 // many cards show; the rest hide behind a "+ N weitere …" toggle (built lazily
-// on first open). `preview` falsy (0) => show all.
+// on first open). Only collapses when it would hide at least 2 events -- a
+// single extra card is just shown. `preview` falsy (0) => show all.
 function appendCategoryCards(container, cat, list, day, preview) {
   const grid = document.createElement("div");
   grid.className = "cards";
   container.appendChild(grid);
 
-  if (!preview || list.length <= preview) {
+  if (!preview || list.length <= preview + 1) {
     for (const ev of list) grid.appendChild(renderCard(ev, day));
     return;
   }
@@ -820,7 +822,7 @@ function renderCollapsedCategory(cat, list, day, preview) {
   head.append(title, count);
   section.appendChild(head);
 
-  appendCategoryCards(section, cat, list, day, list.length > preview ? preview : 0);
+  appendCategoryCards(section, cat, list, day, preview);
   return section;
 }
 
@@ -890,7 +892,7 @@ function renderDayByCategory(events, group, day, preview) {
   for (const cat of orderedKeys(byCat.keys(), SORT_CATEGORY_ORDER)) {
     const list = orderForCat(cat, byCat.get(cat));
     const box = buildSortBox(cat, list.length);
-    appendCategoryCards(box, cat, list, day, list.length > preview ? preview : 0);
+    appendCategoryCards(box, cat, list, day, preview);
     group.appendChild(box);
   }
 }
@@ -905,7 +907,7 @@ function renderDayByGenre(events, group, day, preview) {
     for (const cat of orderedKeys(byCat.keys(), SORT_CATEGORY_ORDER)) {
       const list = orderForCat(cat, byCat.get(cat));
       const sub = buildSortBox(cat, list.length, "sort-subbox");
-      appendCategoryCards(sub, cat, list, day, list.length > preview ? preview : 0);
+      appendCategoryCards(sub, cat, list, day, preview);
       box.appendChild(sub);
     }
     group.appendChild(box);

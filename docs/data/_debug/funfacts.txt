@@ -1,6 +1,6 @@
 URL: https://www.funfacts.de/tickets-kaufen
   HTTP-Status: 200
-  HTML-Länge: 1013043 Zeichen
+  HTML-Länge: 1012983 Zeichen
   JSON-LD vorhanden: False
   Events gefunden: 0
   Mögliche Programm-Unterseiten:
@@ -57,7 +57,7 @@ URL: https://www.funfacts.de/tickets-kaufen
 //# sourceMappingURL=https://static.parastorage.com/services/wix-thunderbolt/dist/createPlatformWorker.inline.cef181d9.bundle.min.js.map
 , ,userDomainMediaPrefixes:e.userDomainMediaPrefixes??[],experiments:p,isViewerMode:!0,devicePixelRatio:/iemobile/i.test(navigator.userAgent)?Math.round(window.screen.availWidth/(window.screen.width||window.document.documentElement.clientWidth)):window.devicePixelRatio,...s},b={getMediaDimensionsByEffect:m,..._={mutationService:n(),isExperimentOpen:g,siteService:u()},...o},{...e,wixCustomElements:a||(T=u(),h({resizeService:{init:e=>new ResizeObserver(e)},windowResizeService:{init:e=>window.addEventListener(, /_api/one-app-session-web/v3/businesses, /_api/v1/access-tokens, /_api/v2/dynamicmodel, /api/
   Externe Skripte: https://static.parastorage.com/unpkg/core-js-bundle@3.2.1/minified.js, https://static.parastorage.com/unpkg/focus-within-polyfill@5.0.9/dist/focus-within-polyfill.js, https://static.parastorage.com/services/events-viewer/1.4228.0/client-viewer/271.chunk.min.js, https://static.parastorage.com/services/events-viewer/1.4228.0/client-viewer/181.chunk.min.js, https://static.parastorage.com/services/eve
-  Größtes Inline-Skript (167831 Zeichen)
+  Größtes Inline-Skript (167739 Zeichen)
   --- ANFANG ---
 {"siteFeaturesConfigs":{"accessibilityBrowserZoom":{"isBuilder":false,"isStudio":false},"appMonitoring":{"appsWithMonitoring":[{"appId":"d90652a2-f5a1-4c7c-84c4-d4cdcc41f130","isWixTPA":true,"monitoringComponent":{"monitoring":{"type":"PANORAMA","panoramaOptions":{"project":{"groupId":"com.wixpress","artifactId":"portfolio-cli-app","fingerprint":"e79cdc2805da50548fedc5e1bc961681131f2ab67b11bd469a04c1df"}}}}}]},"assetsLoader":{"isStylableComponentInStructure":true,"hasBuilderComponents":false},"businessLoggerService":{},"businessLogger":{"isBuilderComponentModel":false},"componentsRegistry":{"librariesTopology":[{"artifactId":"editor-elements","namespace":"wixui","url":"https:\/\/static.parastorage.com\/services\/editor-elements\/1.15186.0"},{"artifactId":"editor-elements","namespace":"dsgnsys","url":"https:\/\/static.parastorage.com\/services\/editor-elements\/1.15186.0"}]},"consentPolicy":{"siteConsentPolicy":{"essential":true,"functional":true,"analytics":true,"advertising":true,"dataToThirdParty":true},"isWixSite":false,"isBuilderComponentModel":false},"cyclicTabbing":{"isBuilderComponentModel":false},"dataWixCodeSdk":{"gridAppId":"be469b7a-ce6b-4f1d-bc7f-15fc5e270db8","environment":"LIVE","cloudDataUrlWithExternalBase":"https:\/\/www.funfacts.de\/_api\/cloud-data"},"dynamicPages":{"prefixToRouterFetchData":{"hosts":{"urlData":{"basePath":"https:\/\/www.funfacts.de\/_api\/dynamic-pages-router\/v1","queryParams":"gridAppId=be469b7a-ce6b-4f1d-bc7f-15fc5e270db8&viewMode=site","fetchUsingGet":true,"compressPayload":true,"appDefinitionId":"e593b0bd-b783-45b8-97c2-873d42aacaf4","encodeURI":false},"optionsData":{"bodyData":{"pageRoles":{"0884f8bc-9d46-4e4d-9c61-dfe701748fef":{"id":"nc9sm","title":"Hosts","pageUriSEO":"hosts-1"},"ae5a9f6a-c581-4bba-8865-c2e36a0cde3f":{"id":"
   --- ENDE ---

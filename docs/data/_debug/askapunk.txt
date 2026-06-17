@@ -1,14 +1,14 @@
 API-Events: 69 | übernommen: 69
-  2026-06-17 16:00:00 | Punk | MADE IN BOGOTA ´STREET ART EXHIBITION + FLASH TATTOOS + MUSIC + FOOD’
+  2026-06-17 16:00:00 | None | MADE IN BOGOTA ´STREET ART EXHIBITION + FLASH TATTOOS + MUSIC + FOOD’
   2026-06-17 16:45:00 | None | Königsheide - forest tour
   2026-06-17 19:00:00 | Punk | Deafdeafdeaf • Tristesse at Neue Zukunft Garage
   2026-06-17 19:00:00 | Punk | STRESS POSITIONS - NERVE CENTER - RYTES
   2026-06-18 19:00:00 | Punk | Jared Hart (New Jersey | US) + Oli Ng (Crewe | England) im Schokoladen
   2026-06-18 19:00:00 | Punk | TEO WISE (Ita) & DIE ANTEILE (Bln)
   2026-06-18 19:30:00 | Punk | PSICO GALERA + ZWANG + TBA
-  2026-06-18 20:30:00 | Punk | ALVARO INSIDE OUT (3D) Kino im Zeiss-Großplanetarium Berlin
+  2026-06-18 20:30:00 | None | ALVARO INSIDE OUT (3D) Kino im Zeiss-Großplanetarium Berlin
   2026-06-19 02:45:00 | None | Radical Prenzlauer Berg
-  2026-06-19 16:00:00 | Punk | THE FUTURE IS HANDMADE ‘STREET-ART EXHIBITION + MERCH’
+  2026-06-19 16:00:00 | None | THE FUTURE IS HANDMADE ‘STREET-ART EXHIBITION + MERCH’
   2026-06-19 19:00:00 | Punk | GOOD FLYING BIRDS + INESSA ANXIOUS
   2026-06-19 19:00:00 | Punk | Kooperation Rost presents: Soft Spot | GUM | Sweetspot @loge
   2026-06-19 19:00:00 | Punk | RITUAL + DOUBLE LIFE + INNOCENT BLISS

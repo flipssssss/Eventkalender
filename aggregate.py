@@ -174,7 +174,7 @@ def get_scrapers():
         FunFactsScraper(city="Berlin"),
         # Jazz: B-flat (Squarespace-JSON) und visitBerlin (Detailseiten-JSON-LD).
         SquarespaceEventsScraper(
-            "B-flat", "https://b-flat-berlin.de/programm", category="Konzert",
+            "B-flat", "https://b-flat-berlin.de/events", category="Konzert",
             address="Rosenthaler Str. 13, 10119 Berlin"),
         VisitBerlinJazzScraper(category="Konzert"),
         # tip Berlin -- deaktiviert: keine erreichbare Quelle für Event-Daten

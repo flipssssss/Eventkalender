@@ -70,11 +70,8 @@ sources:
   - url: https://www.a-trane.de/
     name: A-Trane
     category: Konzert
-  # Punk-Konzerte (berlin.askapunk.de) -- Musikgenre Punk (scrapers/musicgenre.py).
-  # Erst per JSON-LD versucht; sonst zeigt die Debug-Datei die Struktur.
-  - url: https://berlin.askapunk.de/
-    name: askapunk
-    category: Konzert
+  # askapunk -> eigener Ausleser (scrapers/gancio.py): Gancio-Kalender mit
+  # JSON-API (/api/events), inkl. Bilder. In aggregate.py registriert.
   # Boiler -> eigener Ausleser (scrapers/boiler.py), HTML-Liste.
   # Time to Shine -> eigener Ausleser (scrapers/timetoshine.py), Squarespace-JSON.
   # Party Dyke Berlin -> eigener Ausleser (scrapers/partydyke.py), weil die

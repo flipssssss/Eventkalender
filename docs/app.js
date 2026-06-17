@@ -723,9 +723,16 @@ function render() {
       let last = ev.end ? dayStart(new Date(ev.end)) : new Date(horizon);
       if (last > horizon) last = new Date(horizon);
       for (; cur <= last; cur.setDate(cur.getDate() + 1)) {
+        const closed = oh && !oh[WEEKDAY_KEYS[cur.getDay()]];
+        if (state.onlyFav) {
+          // In den Favoriten nur EINMAL zeigen -- an der ersten offenen
+          // Gelegenheit (nicht ausgegraut), statt an jedem offenen Tag.
+          if (closed) continue;
+          ensureDay(dayKey(cur), cur).events.push(ev);
+          break;
+        }
         // Geschlossene Wochentage künftig auslassen; heute behalten (wird
         // ausgegraut in "Schon vorbei" gezeigt).
-        const closed = oh && !oh[WEEKDAY_KEYS[cur.getDay()]];
         if (closed && dayKey(cur) !== todayK) continue;
         ensureDay(dayKey(cur), cur).events.push(ev);
       }
@@ -1477,6 +1484,9 @@ function hideModal() {
 // ---------------- Favourites ----------------
 
 function eventId(ev) {
+  // Ausstellungen ohne Datum identifizieren -- so bleibt ein Favorit stabil,
+  // auch wenn sich das Start-Datum von Lauf zu Lauf ändert.
+  if (isExhibition(ev)) return (ev.source_url || "") + "|ausstellung|" + (ev.title || "");
   return (ev.source_url || "") + "|" + (ev.start || "") + "|" + (ev.title || "");
 }
 function isFav(ev) { return state.favorites.has(eventId(ev)); }

@@ -1658,37 +1658,39 @@ a.showing-time:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 18px;
+  gap: clamp(14px, 4vw, 26px);
   padding: 24px;
+  max-width: 94vw;
+  animation: splash-pop 0.4s ease both;
 }
 
-.splash-title {
-  font-family: var(--display, var(--serif));
-  font-size: 1.7rem;
-  font-weight: 700;
-  letter-spacing: 0.01em;
-  color: var(--accent);
+/* Ransom-Titel oben ("Mund zu Mund", zweizeilig) + unten ("Kalender"). */
+.splash-title-top {
+  width: min(80vw, 380px);
+  height: auto;
+}
+.splash-title-bottom {
+  width: min(62vw, 300px);
+  height: auto;
 }
 
-.splash-spinner {
-  width: 38px;
-  height: 38px;
-  border: 4px solid var(--border);
-  border-top-color: var(--accent);
-  border-radius: 50%;
-  animation: splash-spin 0.8s linear infinite;
+/* Zwei zufällige Münder nebeneinander, dazwischen. */
+.splash-mouths {
+  display: flex;
+  align-items: center;
+  gap: clamp(10px, 4vw, 22px);
+}
+.splash-mouth {
+  height: clamp(58px, 17vw, 104px);
+  width: auto;
 }
 
-.splash-note {
-  font-size: 0.9rem;
-  color: var(--muted);
-}
-
-@keyframes splash-spin {
-  to { transform: rotate(360deg); }
+@keyframes splash-pop {
+  from { opacity: 0; transform: scale(0.94); }
+  to { opacity: 1; transform: scale(1); }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .splash-spinner { animation-duration: 2.4s; }
+  .splash-inner { animation: none; }
   .splash { transition: none; }
 }

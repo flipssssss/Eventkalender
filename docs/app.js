@@ -165,12 +165,19 @@ if ("serviceWorker" in navigator) {
   });
 }
 
-// Ladebildschirm ausblenden (sanft) -- aufgerufen sobald der Feed steht.
+// Ladebildschirm ausblenden (sanft) -- aufgerufen sobald der Feed steht,
+// aber immer erst nach mindestens 2 Sekunden Anzeigedauer.
+let splashHiding = false;
+const SPLASH_MIN_MS = 2000;
 function hideSplash() {
   const s = els.splash;
-  if (!s || s.classList.contains("hide")) return;
-  s.classList.add("hide");
-  setTimeout(() => s.remove(), 600);
+  if (!s || splashHiding) return;
+  splashHiding = true;
+  const elapsed = Date.now() - (window.__splashStart || Date.now());
+  setTimeout(() => {
+    s.classList.add("hide");
+    setTimeout(() => s.remove(), 600);
+  }, Math.max(0, SPLASH_MIN_MS - elapsed));
 }
 // Notbremse: nie länger als 9s hängen bleiben, falls etwas klemmt.
 setTimeout(hideSplash, 9000);
@@ -510,7 +517,7 @@ function updateMeta(data) {
   if (data.generated_at) {
     const when = new Date(data.generated_at);
     els.footer.textContent =
-      "Zuletzt aktualisiert: " + when.toLocaleString("de-DE") + " · Eventkalender";
+      "Zuletzt aktualisiert: " + when.toLocaleString("de-DE") + " · Mund zu Mund Kalender";
   }
 }
 
@@ -1364,7 +1371,7 @@ function saveFavorites() {
 function downloadICS(ev) {
   const start = new Date(ev.start);
   const lines = [
-    "BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Eventkalender//DE",
+    "BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Mund zu Mund Kalender//DE",
     "BEGIN:VEVENT",
     "UID:" + icsEsc(eventId(ev)),
     "DTSTAMP:" + icsStamp(new Date()),

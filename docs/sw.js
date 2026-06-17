@@ -1,8 +1,8 @@
-// Service Worker: macht den Eventkalender offline-fähig (PWA).
+// Service Worker: macht den Mund zu Mund Kalender offline-fähig (PWA).
 // Strategie: network-first mit Cache-Fallback -- online immer frisch,
 // offline die zuletzt geladene Version.
 
-const CACHE = "ek-v4";
+const CACHE = "ek-v5";
 const SHELL = [
   "./",
   "index.html",

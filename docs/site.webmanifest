@@ -1,6 +1,6 @@
 {
-  "name": "Eventkalender",
-  "short_name": "Events",
+  "name": "Mund zu Mund Kalender",
+  "short_name": "Mund zu Mund",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#f3e9d8",

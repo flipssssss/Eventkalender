@@ -7,14 +7,14 @@
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-  <title>Eventkalender</title>
+  <title>Mund zu Mund Kalender</title>
 
   <!-- Favicon (Browser-Tab/URL-Leiste) & Home-Bildschirm-Icon -->
   <link rel="icon" href="favicon.ico" sizes="any" />
   <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16.png" />
   <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
-  <meta name="apple-mobile-web-app-title" content="Events" />
+  <meta name="apple-mobile-web-app-title" content="Mund zu Mund" />
   <link rel="manifest" href="site.webmanifest" />
 
   <!-- Schriften für die Hyperpop- und Punk-Themes -->
@@ -50,14 +50,30 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <!-- Ladebildschirm: sofort sichtbar, blendet aus sobald der Feed steht. -->
-  <div id="splash" class="splash" role="status" aria-label="Lädt">
-    <div class="splash-inner">
-      <div class="splash-title">Eventkalender</div>
-      <div class="splash-spinner" aria-hidden="true"></div>
-      <div class="splash-note">Lade Veranstaltungen …</div>
-    </div>
+  <!-- Ladebildschirm: zufällig zusammengesetzt (Titel + 2 Münder), sofort
+       sichtbar, blendet aus sobald der Feed steht (min. 2s). -->
+  <div id="splash" class="splash" role="status" aria-label="Mund zu Mund Kalender lädt">
+    <div class="splash-inner" id="splash-inner"></div>
   </div>
+  <script>
+    (function () {
+      window.__splashStart = Date.now();
+      try {
+        var TITLES = 4, MOUTHS = 17;
+        var t = Math.floor(Math.random() * TITLES);
+        var a = Math.floor(Math.random() * MOUTHS);
+        var b = Math.floor(Math.random() * MOUTHS);
+        if (b === a) b = (b + 1) % MOUTHS;
+        document.getElementById("splash-inner").innerHTML =
+          '<img class="splash-title-top" src="splash/title' + t + '-top.webp" alt="Mund zu Mund" />' +
+          '<div class="splash-mouths">' +
+            '<img class="splash-mouth" src="splash/mouth' + a + '.webp" alt="" />' +
+            '<img class="splash-mouth" src="splash/mouth' + b + '.webp" alt="" />' +
+          '</div>' +
+          '<img class="splash-title-bottom" src="splash/title' + t + '-bottom.webp" alt="Kalender" />';
+      } catch (e) {}
+    })();
+  </script>
 
   <header class="site-header">
     <!-- Zeile 1: Tage (springen) + Suche + Einstellungen -->
@@ -244,7 +260,7 @@
               tippen und „Zum Home-Bildschirm" wählen.</p>
             <p><strong>Android (Chrome):</strong> oben rechts auf das Menü (⋮)
               tippen und „App installieren" bzw. „Zum Startbildschirm hinzufügen".</p>
-            <p>Danach öffnet sich der Eventkalender wie eine echte App.</p>
+            <p>Danach öffnet sich der Mund zu Mund Kalender wie eine echte App.</p>
           </div>
         </section>
 

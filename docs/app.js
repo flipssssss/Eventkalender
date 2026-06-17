@@ -384,12 +384,30 @@ function buildSourceToggles() {
       counts.set(e.source_name, counts.get(e.source_name) + 1);
     }
   }
-  // "Eigene Events" always exists and stays on top; the rest sort by count.
+  // Dominant genre per source (for grouping + colouring the counter).
+  const tally = new Map();
+  for (const e of state.events) {
+    if (!e.source_name || !e.genre) continue;
+    let g = tally.get(e.source_name);
+    if (!g) { g = {}; tally.set(e.source_name, g); }
+    g[e.genre] = (g[e.genre] || 0) + 1;
+  }
+  const srcGenre = new Map();
+  for (const [src, g] of tally) {
+    srcGenre.set(src, Object.entries(g).sort((a, b) => b[1] - a[1])[0][0]);
+  }
+  const genreRank = (src) => {
+    const i = GENRE_ORDER.indexOf(srcGenre.get(src));
+    return i < 0 ? GENRE_ORDER.length : i;
+  };
+
+  // "Eigene Events" stays on top; rest grouped by genre, then by count.
   if (!counts.has(MINE_SOURCE)) counts.set(MINE_SOURCE, 0);
   const sources = [...counts.keys()].sort((a, b) => {
     if (a === MINE_SOURCE) return -1;
     if (b === MINE_SOURCE) return 1;
-    return (counts.get(b) - counts.get(a)) || a.localeCompare(b, "de");
+    return genreRank(a) - genreRank(b) ||
+      (counts.get(b) - counts.get(a)) || a.localeCompare(b, "de");
   });
 
   els.sourceToggles.innerHTML = "";
@@ -411,7 +429,8 @@ function buildSourceToggles() {
     txt.textContent = src;
     label.appendChild(txt);
     const badge = document.createElement("span");
-    badge.className = "source-count";
+    const g = srcGenre.get(src);
+    badge.className = "source-count" + (g ? " " + genreClass(g) : "");
     badge.textContent = counts.get(src);
     label.appendChild(badge);
     els.sourceToggles.appendChild(label);
@@ -718,35 +737,37 @@ function shouldCollapse(cat) {
   return true;
 }
 
-// How many cards of a collapsible category are shown straight away; the rest
-// hide behind a "+ N weitere …" toggle.
+// Time mode: how many Kino/Ausstellung cards show before the "+ N weitere".
 const COLLAPSE_PREVIEW = 3;
+// Kategorie-/Genre-Sortierung: ab mehr als 8 Events in einer Kategorie nur
+// 4 zeigen, Rest einklappen (gilt dort jetzt für ALLE Kategorien).
+const SORT_COLLAPSE_OVER = 8;
+const SORT_COLLAPSE_SHOW = 4;
 
-// Append a category's cards into `container`. For the flood categories
-// (Kino/Ausstellung) only the first few show; the rest hide behind a
-// "+ N weitere …" toggle (built lazily on first open). Used in every sort mode.
-function appendCategoryCards(container, cat, list, day) {
+// Append a category's cards into `container`. With `preview` set, only that
+// many cards show; the rest hide behind a "+ N weitere …" toggle (built lazily
+// on first open). `preview` falsy (0) => show all.
+function appendCategoryCards(container, cat, list, day, preview) {
   const grid = document.createElement("div");
   grid.className = "cards";
   container.appendChild(grid);
 
-  if (!shouldCollapse(cat)) {
+  if (!preview || list.length <= preview) {
     for (const ev of list) grid.appendChild(renderCard(ev, day));
     return;
   }
 
-  const meta = COLLAPSE_CATS[cat];
-  const preview = list.slice(0, COLLAPSE_PREVIEW);
-  const rest = list.slice(COLLAPSE_PREVIEW);
-  for (const ev of preview) grid.appendChild(renderCard(ev, day));
-  if (!rest.length) return;
+  const head = list.slice(0, preview);
+  const rest = list.slice(preview);
+  for (const ev of head) grid.appendChild(renderCard(ev, day));
 
+  const meta = COLLAPSE_CATS[cat];
+  const noun = meta ? " " + (rest.length === 1 ? meta.one : meta.many) : "";
   const det = document.createElement("details");
   det.className = "cat-collapse";
   const sum = document.createElement("summary");
   sum.className = "cat-collapse-summary";
-  sum.textContent = `+ ${rest.length} weitere ` +
-    (rest.length === 1 ? meta.one : meta.many);
+  sum.textContent = `+ ${rest.length} weitere${noun}`;
   det.appendChild(sum);
 
   const inner = document.createElement("div");
@@ -780,7 +801,7 @@ function renderCollapsedCategory(cat, list, day) {
   head.append(title, count);
   section.appendChild(head);
 
-  appendCategoryCards(section, cat, list, day);
+  appendCategoryCards(section, cat, list, day, COLLAPSE_PREVIEW);
   return section;
 }
 
@@ -849,7 +870,8 @@ function renderDayByCategory(events, group, day) {
   for (const cat of orderedKeys(byCat.keys(), SORT_CATEGORY_ORDER)) {
     const list = orderForCat(cat, byCat.get(cat));
     const box = buildSortBox(cat, list.length);
-    appendCategoryCards(box, cat, list, day);
+    appendCategoryCards(box, cat, list, day,
+      list.length > SORT_COLLAPSE_OVER ? SORT_COLLAPSE_SHOW : 0);
     group.appendChild(box);
   }
 }
@@ -864,7 +886,8 @@ function renderDayByGenre(events, group, day) {
     for (const cat of orderedKeys(byCat.keys(), SORT_CATEGORY_ORDER)) {
       const list = orderForCat(cat, byCat.get(cat));
       const sub = buildSortBox(cat, list.length, "sort-subbox");
-      appendCategoryCards(sub, cat, list, day);
+      appendCategoryCards(sub, cat, list, day,
+        list.length > SORT_COLLAPSE_OVER ? SORT_COLLAPSE_SHOW : 0);
       box.appendChild(sub);
     }
     group.appendChild(box);
@@ -1001,6 +1024,13 @@ function renderCard(ev, day) {
     t.className = "card-tag";
     t.textContent = tag;
     tagWrap.appendChild(t);
+    // Music genre right behind the "Konzert" tag (e.g. Konzert · Jazz).
+    if (tag === "Konzert" && ev.music_genre) {
+      const mg = document.createElement("span");
+      mg.className = "card-tag music-tag";
+      mg.textContent = ev.music_genre;
+      tagWrap.appendChild(mg);
+    }
   }
   if (tagWrap.children.length) body.appendChild(tagWrap);
 
@@ -1109,6 +1139,12 @@ function showModal(ev, day) {
     t.className = "card-tag";
     t.textContent = tag;
     meta.appendChild(t);
+    if (tag === "Konzert" && ev.music_genre) {
+      const mg = document.createElement("span");
+      mg.className = "card-tag music-tag";
+      mg.textContent = ev.music_genre;
+      meta.appendChild(mg);
+    }
   }
   body.appendChild(meta);
 

@@ -617,6 +617,16 @@ body {
   color: var(--accent);
 }
 
+/* Musikgenre hinter "Konzert" -- dezent, mit Notensymbol. */
+.music-tag {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--muted);
+}
+.music-tag::before {
+  content: "♪ ";
+}
+
 .card-source {
   font-size: 0.78rem;
   color: var(--muted);
@@ -1132,6 +1142,13 @@ body {
   color: var(--accent);
   font-size: 0.8rem;
   font-style: normal;
+}
+
+/* Counter in der Genre-Farbe der Quelle (g-* setzt --gc). */
+.source-count.g-kultur, .source-count.g-polit,
+.source-count.g-queer, .source-count.g-kink {
+  background: var(--gc);
+  color: #fff;
 }
 
 .wish-text {

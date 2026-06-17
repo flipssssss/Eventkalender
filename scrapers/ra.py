@@ -30,7 +30,7 @@ RA_FOLLOWS = [
     ("promoter", "167895"), ("promoter", "137536"), ("promoter", "169756"),
     ("promoter", "109496"), ("promoter", "112980"), ("promoter", "119317"),
     ("promoter", "52590"), ("promoter", "68628"), ("promoter", "110626"),
-    ("promoter", "90524"),
+    ("promoter", "90524"), ("promoter", "111118"),
 ]
 
 # Genre per entity id/slug ("Kink"/"Queer"/"Kultur"/"Polit").

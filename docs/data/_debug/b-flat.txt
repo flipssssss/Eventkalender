@@ -1,1 +1,33 @@
-items: 0 | Events: 0
+top-keys: ['website', 'websiteSettings', 'collection', 'shoppingCart', 'shareButtons', 'showCart', 'localizedStrings', 'userAccountsContext', 'template', 'uiextensions', 'empty', 'emptyFolder', 'calendarView', 'pagination', 'upcoming']
+items: 50 | Events: 50
+erstes item keys: ['id', 'collectionId', 'recordType', 'addedOn', 'updatedOn', 'starred', 'passthrough', 'tags', 'categories', 'workflowState', 'publishOn', 'authorId', 'systemDataId', 'systemDataVariants', 'systemDataSourceType', 'filename', 'mediaFocalPoint', 'colorData', 'urlId', 'title', 'sourceUrl', 'body', 'excerpt', 'location', 'customContent']
+  2026-06-17 09:00:00.936000 | „VANDOJAM MEETS ROBINS NEST
+  2026-06-18 09:00:00.506000 | Finn Seemann Quintett
+  2026-06-19 09:00:00.506000 | FUASI “Journey To The Source” Gewinner des Deutschen Jazzpreises 2026
+  2026-06-20 09:00:00.506000 | FUASI “Journey To The Source” Gewinner des Deutschen Jazzpreises 2026 (Kopie)
+  2026-06-21 09:00:00.506000 | Amadeo Bonaiuto Quartet presents Dirk Strakhof
+  2026-06-23 09:00:00.506000 | AFROPITUCO
+  2026-06-24 09:00:00.936000 | Robins Nest - Jamsession
+  2026-06-25 09:00:00.506000 | RIDDLE
+  2026-06-26 09:00:00.506000 | Sebastian Schunke / Noslen Ortega "Sisetan”
+  2026-06-27 09:00:00.506000 | Humboldt Bigband LATIN NIGHT
+  2026-06-28 09:00:00.506000 | Alessandro Bianchini | Jazz Vibraphonist &amp; New Album Release
+  2026-06-30 09:00:00.506000 | Prädikat
+  2026-07-01 09:00:00.936000 | Robins Nest - Jamsession
+  2026-07-02 09:00:00.506000 | Magnetic Ghost Orchestra
+  2026-07-03 09:00:00.506000 | The „B-flat All-Stars“present&nbsp;Martina Barta
+  2026-07-04 09:00:00.506000 | CONEXÃO BERLIN
+  2026-07-05 09:00:00.506000 | Alejandro Muhech Quartet
+  2026-07-08 09:00:00.936000 | Robins Nest - Jamsession
+  2026-07-09 09:00:00.506000 | Matej Korbelič Band
+  2026-07-10 09:00:00.506000 | Ali N. Askin &amp; Band
+  2026-07-11 09:00:00.506000 | Tunde Alibaba &amp; Band
+  2026-07-12 09:00:00.506000 | CRUCES
+  2026-07-15 09:00:00.936000 | Robins Nest - Jamsession
+  2026-07-16 09:00:00.506000 | Kelvin Sholar Trio
+  2026-07-17 09:00:00.506000 | Tudo Azul
+  2026-07-18 09:00:00.506000 | Olya Lukachova Band
+  2026-07-19 09:00:00.506000 | Les Colorés Jazz Kréol
+  2026-07-22 09:00:00.936000 | Robins Nest - Jamsession
+  2026-07-23 09:00:00.506000 | Crème Brüllée
+  2026-07-24 09:00:00.506000 | Hugo Fernandez Quartett&nbsp;plays&nbsp;«Rivermind»&nbsp;&nbsp;

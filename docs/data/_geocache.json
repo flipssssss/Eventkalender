@@ -1102,6 +1102,12 @@
   "lng": 13.4552573
  },
  "Rigaerstr. Ecke Liebigstr. 10247, 10247 Berlin": null,
+ "Rosenthaler Str. 13, 10119 Berlin": {
+  "address": "Rosenthaler Straße 13, 10119 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5274215,
+  "lng": 13.4023675
+ },
  "Rosenthalerstraße 39, 10178 Berlin": {
   "address": "Rosenthaler Straße 39, 10178 Mitte",
   "bezirk": "Mitte",

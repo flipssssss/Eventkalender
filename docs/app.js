@@ -753,15 +753,14 @@ function shouldCollapse(cat) {
   return true;
 }
 
-// How many cards to show before "+ N weitere": always at least 4 and always
-// full rows -- two complete rows for the current column count, so the preview
-// never leaves a half-empty row. 1 Spalte->4, 2->4, 3->6, 4->8 ...
+// How many cards to show before "+ N weitere": two full rows for the current
+// column count (min. 4), aber höchstens 6 -- mehr als 6 wird eingeklappt.
 function gridColumns() {
   const w = (els.feed.clientWidth || window.innerWidth || 360) - 32;
-  return Math.max(1, Math.floor((w + 16) / (280 + 16)));  // matgt CSS minmax+gap
+  return Math.max(1, Math.floor((w + 16) / (280 + 16)));  // matcht CSS minmax+gap
 }
 function previewCount() {
-  return Math.max(4, gridColumns() * 2);
+  return Math.min(6, Math.max(4, gridColumns() * 2));
 }
 
 // Append a category's cards into `container`. With `preview` set, only that

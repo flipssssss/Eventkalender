@@ -49,6 +49,7 @@
   "lat": 52.5024767,
   "lng": 13.466302
  },
+ "A-Trane Berlin, Bleibtreustrasse 1 10623": null,
  "AGB PopUp Saal Blücherplatz 1 10961 Berlin Deutschland": null,
  "AGB PopUp Saal Blücherplatz 1 10961, 10961 Berlin": null,
  "Admiralstraße 17, 10999 Berlin": {
@@ -196,6 +197,12 @@
  },
  "Bethanien Südflügel Berlin": null,
  "Bethanien Südflügel Berlin Deutschland": null,
+ "Bleibtreustrasse 1, 10623 Berlin": {
+  "address": "Bleibtreustraße 1, 10625 Charlottenburg",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.5073394,
+  "lng": 13.3200854
+ },
  "Blücherplatz 1, 10961 Berlin": {
   "address": "Blücherplatz 1, 10961 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",

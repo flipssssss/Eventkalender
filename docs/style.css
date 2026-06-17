@@ -37,7 +37,7 @@
   --text: #ece7f0; --muted: #8e8699;
   --accent: #ff3d7f; --accent-soft: rgba(255, 61, 127, 0.16);
   --border: #463f52; --radius: 0px;
-  --shadow: 5px 5px 0 #2a2531;
+  --shadow: 6px 6px 0 #322b3b;
   --serif: "Helvetica Neue", Arial, sans-serif;
   --display: "Anton", "Arial Narrow", sans-serif;
   --grain: 0.3;
@@ -57,11 +57,12 @@
   background-size: 150px 150px;
 }
 
-/* Harte Kanten auf den sonst runden Bauteilen erzwingen. */
+/* Harte Kanten auf den Inhalts-Bauteilen -- der Header bleibt bewusst weich
+   (genre-chip, day-tab, tag-chip, search, icon-toggle NICHT kastig). */
 :root[data-theme="punk"] :is(
-  .genre-chip, .day-tab, .btn, .card-fav, .modal-close, .card-tag, .tag-chip,
-  .toast, .search-input, .sort-btn, .theme-btn, .cat-collapse-summary,
-  .source-count, .icon-toggle, .view-btn, .view-toggle, .view-toggle--float) {
+  .btn, .card-fav, .modal-close, .card-tag,
+  .toast, .sort-btn, .theme-btn, .cat-collapse-summary,
+  .source-count, .view-btn, .view-toggle, .view-toggle--float) {
   border-radius: 0 !important;
 }
 
@@ -94,12 +95,10 @@
   border: 3px solid var(--border);
   box-shadow: var(--shadow);
 }
-:root[data-theme="punk"] .cards > .card:nth-child(3n) {
-  transform: rotate(-0.8deg);
-}
-:root[data-theme="punk"] .cards > .card:nth-child(3n + 2) {
-  transform: rotate(0.6deg);
-}
+:root[data-theme="punk"] .cards > .card:nth-child(4n + 1) { transform: rotate(-1.4deg); }
+:root[data-theme="punk"] .cards > .card:nth-child(4n + 2) { transform: rotate(1deg); }
+:root[data-theme="punk"] .cards > .card:nth-child(4n + 3) { transform: rotate(-0.7deg); }
+:root[data-theme="punk"] .cards > .card:nth-child(4n) { transform: rotate(1.5deg); }
 :root[data-theme="punk"] .card:hover {
   transform: rotate(0) translateY(-3px);
   box-shadow: 7px 7px 0 var(--accent);
@@ -200,124 +199,6 @@
   text-shadow: 1px 1px 0 #6ec3ff;
 }
 
-/* ============================================================
-   DIY-Theme: wilde Magazin-/Zeitungs-Collage -- bunte ausgeschnittene
-   Schnipsel, krumm aufgeklebt, harte Klebeschatten, fette Schlagzeilen.
-   ============================================================ */
-:root[data-theme="diy"] {
-  color-scheme: light;
-  --bg: #ece3cf;               /* angegilbtes Papier */
-  --surface: #ffffff;
-  --surface-2: #fff6e0;
-  --text: #141210;
-  --muted: #5e564b;
-  --accent: #e01b1b;           /* Marker-Rot */
-  --accent-soft: rgba(224, 27, 27, 0.16);
-  --border: #141210;           /* schwarze Schnittkante */
-  --radius: 2px;
-  --shadow: 5px 5px 0 #141210; /* harter Klebeschatten */
-  --serif: Georgia, "Times New Roman", serif;
-  --display: "Anton", "Arial Narrow", sans-serif;
-  --grain: 0.55;
-}
-
-/* Papier-Grain über der Seite. */
-:root[data-theme="diy"] body::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  z-index: 1;
-  pointer-events: none;
-  opacity: var(--grain);
-  mix-blend-mode: multiply;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
-  background-size: 150px 150px;
-}
-
-/* Schlagzeilen: fette Display-Schrift, leicht schräg. */
-:root[data-theme="diy"] :is(
-  .day-heading, .sort-box-title, .cat-section-title, .settings-h,
-  .settings-subh, .modal-title) {
-  font-family: var(--display);
-  text-transform: uppercase;
-  letter-spacing: 0.01em;
-  font-weight: 400;
-}
-
-/* Tages-Überschrift = knalliger Highlight-Sticker, schräg aufgeklebt. */
-:root[data-theme="diy"] .day-heading {
-  display: inline-block;
-  background: #ffe14d;
-  color: #141210;
-  padding: 2px 14px;
-  border: 3px solid var(--border);
-  box-shadow: 4px 4px 0 var(--border);
-  transform: rotate(-1.8deg);
-}
-:root[data-theme="diy"] .day-group:nth-child(even) .day-heading {
-  background: #6fe0ff;
-  transform: rotate(1.4deg);
-}
-:root[data-theme="diy"] .day-group:nth-child(3n) .day-heading {
-  background: #ff9ecb;
-  transform: rotate(-1deg);
-}
-
-/* Karten = bunte Schnipsel: dicker schwarzer Rand, harter Schatten, krumm. */
-:root[data-theme="diy"] .card {
-  border: 3px solid var(--border);
-  box-shadow: var(--shadow);
-}
-:root[data-theme="diy"] .cards > .card:nth-child(8n + 1) { background: #ffe14d; }
-:root[data-theme="diy"] .cards > .card:nth-child(8n + 2) { background: #8eecff; }
-:root[data-theme="diy"] .cards > .card:nth-child(8n + 3) { background: #ff9ecb; }
-:root[data-theme="diy"] .cards > .card:nth-child(8n + 4) { background: #ffbf66; }
-:root[data-theme="diy"] .cards > .card:nth-child(8n + 5) { background: #b7f5a8; }
-:root[data-theme="diy"] .cards > .card:nth-child(8n + 6) { background: #d9b8ff; }
-:root[data-theme="diy"] .cards > .card:nth-child(8n + 7) { background: #ffffff; }
-:root[data-theme="diy"] .cards > .card:nth-child(8n) { background: #ff8f8f; }
-:root[data-theme="diy"] .cards > .card:nth-child(7n + 1) { transform: rotate(-2.6deg); }
-:root[data-theme="diy"] .cards > .card:nth-child(7n + 2) { transform: rotate(1.8deg); }
-:root[data-theme="diy"] .cards > .card:nth-child(7n + 3) { transform: rotate(-1.1deg); }
-:root[data-theme="diy"] .cards > .card:nth-child(7n + 4) { transform: rotate(2.7deg); }
-:root[data-theme="diy"] .cards > .card:nth-child(7n + 5) { transform: rotate(-2deg); }
-:root[data-theme="diy"] .cards > .card:nth-child(7n + 6) { transform: rotate(1.2deg); }
-:root[data-theme="diy"] .cards > .card:nth-child(7n) { transform: rotate(-2.9deg); }
-:root[data-theme="diy"] .card:hover {
-  transform: rotate(0) translateY(-4px) scale(1.02);
-  box-shadow: 8px 8px 0 var(--accent);
-  z-index: 2;
-}
-
-/* Chips/Buttons = ausgeschnittene Papierstücke, schwarz umrandet, schräg. */
-:root[data-theme="diy"] :is(
-  .card-tag, .tag-chip, .genre-chip, .day-tab, .btn, .sort-btn, .theme-btn,
-  .cat-collapse-summary, .source-count, .view-toggle--float) {
-  border-radius: 2px;
-  border: 2px solid var(--border);
-}
-:root[data-theme="diy"] .card-tag { background: #fff; color: var(--text); }
-:root[data-theme="diy"] .card-tag:nth-child(2n) { transform: rotate(-2.5deg); }
-:root[data-theme="diy"] .card-tag:nth-child(2n + 1) { transform: rotate(2deg); }
-:root[data-theme="diy"] .tag-chip.active { box-shadow: 3px 3px 0 var(--border); }
-
-/* Sortier-/Kategorie-Kästen = bunte Klebeflächen mit hartem Schatten. */
-:root[data-theme="diy"] :is(.sort-box, .cat-section) {
-  border: 3px solid var(--border);
-  box-shadow: var(--shadow);
-}
-:root[data-theme="diy"] .sort-box:nth-of-type(3n + 1) { background: #fff3b0; }
-:root[data-theme="diy"] .sort-box:nth-of-type(3n + 2) { background: #d6f6ff; }
-:root[data-theme="diy"] .sort-box:nth-of-type(3n) { background: #ffe0ee; }
-:root[data-theme="diy"] :is(.sort-box:not(.sort-subbox), .cat-section)
-  > :is(.sort-box-head, .cat-section-head) {
-  border-bottom: 4px solid var(--accent);
-  padding-bottom: 8px;
-}
-
-[data-theme="diy"] .leaflet-tile {
-  filter: grayscale(1) contrast(1.2) brightness(1.03);
-}
 
 * {
   box-sizing: border-box;
@@ -1790,15 +1671,15 @@ a.showing-time:hover {
   pointer-events: none;
 }
 
+/* Ganze Komposition (oben "Mund", Münder, unten "zu Mund") mittig gestapelt. */
 .splash-inner {
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: clamp(16px, 5vw, 28px);
   width: min(94vw, 420px);
   animation: splash-pop 0.4s ease both;
 }
-
-/* Münder sind der Anker und sitzen exakt in der Bildschirmmitte; die
-   Ransom-Titel hängen absolut darüber ("Mund zu Mund") und darunter
-   ("Kalender"), damit die Münder mittig bleiben. */
 .splash-mouths {
   display: flex;
   align-items: center;
@@ -1809,23 +1690,11 @@ a.showing-time:hover {
   height: clamp(58px, 17vw, 104px);
   width: auto;
 }
-
-/* "Mund" (oben, kurzes Wort) + "zu Mund" (unten, breiter). */
 .splash-title-top {
-  position: absolute;
-  left: 50%;
-  bottom: 100%;
-  transform: translateX(-50%);
-  margin-bottom: clamp(16px, 5vw, 30px);
   width: min(42vw, 200px);
   height: auto;
 }
 .splash-title-bottom {
-  position: absolute;
-  left: 50%;
-  top: 100%;
-  transform: translateX(-50%);
-  margin-top: clamp(16px, 5vw, 30px);
   width: min(80vw, 360px);
   height: auto;
 }

@@ -349,7 +349,7 @@ function setupSettings() {
 }
 
 const THEME_COLORS = {
-  buergi: "#f3e9d8", punk: "#0b0a0d", diy: "#d8d3c6", hyperpop: "#ffe0fb",
+  buergi: "#f3e9d8", punk: "#0b0a0d", hyperpop: "#ffe0fb",
 };
 
 function setSortMode(mode) {
@@ -753,12 +753,16 @@ function shouldCollapse(cat) {
   return true;
 }
 
-// Time mode: how many Kino/Ausstellung cards show before the "+ N weitere".
-const COLLAPSE_PREVIEW = 3;
-// Kategorie-/Genre-Sortierung: ab mehr als 8 Events in einer Kategorie nur
-// 4 zeigen, Rest einklappen (gilt dort jetzt für ALLE Kategorien).
-const SORT_COLLAPSE_OVER = 8;
-const SORT_COLLAPSE_SHOW = 4;
+// How many cards to show before "+ N weitere": always at least 4 and always
+// full rows -- two complete rows for the current column count, so the preview
+// never leaves a half-empty row. 1 Spalte->4, 2->4, 3->6, 4->8 ...
+function gridColumns() {
+  const w = (els.feed.clientWidth || window.innerWidth || 360) - 32;
+  return Math.max(1, Math.floor((w + 16) / (280 + 16)));  // matgt CSS minmax+gap
+}
+function previewCount() {
+  return Math.max(4, gridColumns() * 2);
+}
 
 // Append a category's cards into `container`. With `preview` set, only that
 // many cards show; the rest hide behind a "+ N weitere …" toggle (built lazily
@@ -801,7 +805,7 @@ function appendCategoryCards(container, cat, list, day, preview) {
 }
 
 // Time mode: a labelled box (Kino/Ausstellungen) at the end of the day.
-function renderCollapsedCategory(cat, list, day) {
+function renderCollapsedCategory(cat, list, day, preview) {
   const meta = COLLAPSE_CATS[cat];
   const section = document.createElement("section");
   section.className = "cat-section";
@@ -817,12 +821,13 @@ function renderCollapsedCategory(cat, list, day) {
   head.append(title, count);
   section.appendChild(head);
 
-  appendCategoryCards(section, cat, list, day, COLLAPSE_PREVIEW);
+  appendCategoryCards(section, cat, list, day, list.length > preview ? preview : 0);
   return section;
 }
 
 function renderList(sortedKeys, groups) {
   const frag = document.createDocumentFragment();
+  const preview = previewCount();
   for (const key of sortedKeys) {
     const { date, events } = groups.get(key);
     const group = document.createElement("section");
@@ -835,9 +840,9 @@ function renderList(sortedKeys, groups) {
     heading.textContent = DAY_FMT.format(date);
     group.appendChild(heading);
 
-    if (state.sortMode === "category") renderDayByCategory(events, group, date);
-    else if (state.sortMode === "genre") renderDayByGenre(events, group, date);
-    else renderDayByTime(events, group, date);
+    if (state.sortMode === "category") renderDayByCategory(events, group, date, preview);
+    else if (state.sortMode === "genre") renderDayByGenre(events, group, date, preview);
+    else renderDayByTime(events, group, date, preview);
 
     frag.appendChild(group);
   }
@@ -849,7 +854,7 @@ function renderList(sortedKeys, groups) {
 }
 
 // Sort "Uhrzeit": cards in time order; Kino/Ausstellungen bundled per day.
-function renderDayByTime(events, group, day) {
+function renderDayByTime(events, group, day, preview) {
   // Split off the collapsible categories; everything else stays a card.
   const normal = [];
   const collapsed = new Map();
@@ -871,7 +876,7 @@ function renderDayByTime(events, group, day) {
   // Collapsible blocks (Kino, Ausstellungen) go at the end of the day.
   for (const cat of Object.keys(COLLAPSE_CATS)) {
     const list = collapsed.get(cat);
-    if (list && list.length) group.appendChild(renderCollapsedCategory(cat, list, day));
+    if (list && list.length) group.appendChild(renderCollapsedCategory(cat, list, day, preview));
   }
 }
 
@@ -881,19 +886,18 @@ function orderForCat(cat, list) {
 }
 
 // Sort "Kategorie": one open (collapsible) box per category, cards by time.
-function renderDayByCategory(events, group, day) {
+function renderDayByCategory(events, group, day, preview) {
   const byCat = groupBy(events, (ev) => (ev.tags || [])[0] || "Sonstiges");
   for (const cat of orderedKeys(byCat.keys(), SORT_CATEGORY_ORDER)) {
     const list = orderForCat(cat, byCat.get(cat));
     const box = buildSortBox(cat, list.length);
-    appendCategoryCards(box, cat, list, day,
-      list.length > SORT_COLLAPSE_OVER ? SORT_COLLAPSE_SHOW : 0);
+    appendCategoryCards(box, cat, list, day, list.length > preview ? preview : 0);
     group.appendChild(box);
   }
 }
 
 // Sort "Genre": one open box per genre, inside it a sub-box per category.
-function renderDayByGenre(events, group, day) {
+function renderDayByGenre(events, group, day, preview) {
   const byGenre = groupBy(events, (ev) => ev.genre || "Ohne Genre");
   for (const genre of orderedKeys(byGenre.keys(), GENRE_ORDER)) {
     const gEvents = byGenre.get(genre);
@@ -902,8 +906,7 @@ function renderDayByGenre(events, group, day) {
     for (const cat of orderedKeys(byCat.keys(), SORT_CATEGORY_ORDER)) {
       const list = orderForCat(cat, byCat.get(cat));
       const sub = buildSortBox(cat, list.length, "sort-subbox");
-      appendCategoryCards(sub, cat, list, day,
-        list.length > SORT_COLLAPSE_OVER ? SORT_COLLAPSE_SHOW : 0);
+      appendCategoryCards(sub, cat, list, day, list.length > preview ? preview : 0);
       box.appendChild(sub);
     }
     group.appendChild(box);
@@ -1490,11 +1493,10 @@ function eventShareUrl(ev) {
 
 async function shareEvent(ev) {
   const url = eventShareUrl(ev);
-  const text = ev.title + " · " + formatTime(ev) + (ev.location ? " · " + ev.location : "");
   if (navigator.share) {
-    try { await navigator.share({ title: ev.title, text, url }); } catch { /* cancelled */ }
+    try { await navigator.share({ url }); } catch { /* cancelled */ }
   } else {
-    try { await navigator.clipboard.writeText(text + " — " + url); toast("Link kopiert"); }
+    try { await navigator.clipboard.writeText(url); toast("Link kopiert"); }
     catch { prompt("Link kopieren:", url); }
   }
 }

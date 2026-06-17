@@ -63,16 +63,26 @@ KEEP_PAST_DAYS = 1
 # and the scrapers use the same horizon so they don't fetch needlessly.
 HORIZON_DAYS = 14
 
-# Further-future windows for events that are planned well ahead. Both levers
-# are optional; the effective window is the LARGEST that applies (default,
-# category, source). Use sparingly -- a category covers many sources at once,
-# so it adds more events (and load) than a single source.
+# Further-future windows for events that are planned well ahead. The effective
+# window per event is the LARGEST that applies: default, its category, its
+# source, and -- for sparse sources (< SPARSE_MIN events in the default
+# window) -- SPARSE_HORIZON. Sparse sources stay small even when extended, so
+# the load barely changes; dense categories add more, by design.
 SOURCE_HORIZON = {
     "FunFacts": 90,
 }
 CATEGORY_HORIZON: dict[str, int] = {
-    # e.g. "Konzert": 30, "Vortrag": 30, "Theater": 21,
+    "Theater": 30,
+    "Konzert": 30,
+    "Party": 30,
 }
+SPARSE_MIN = 10      # fewer than this in the default window -> "sparse"
+SPARSE_HORIZON = 30  # how far sparse sources may then reach
+
+# Scrapers that cap their own fetch window must reach at least as far as the
+# widest category window, else extended categories have no data to keep.
+# (Kino stays at HORIZON_DAYS on purpose -- it is not extended and dense.)
+FETCH_HORIZON_DAYS = max([HORIZON_DAYS, *CATEGORY_HORIZON.values()])
 
 
 def load_yaml_scrapers() -> list[JsonLdScraper]:
@@ -118,10 +128,10 @@ def get_scrapers():
     Add custom scrapers (for sites without JSON-LD) to ``custom`` below.
     """
     custom = [
-        # Stressfaktor (Berlin) -- nächste HORIZON_DAYS Tage via Datums-Facet.
-        StressfaktorScraper(days=HORIZON_DAYS),
-        # berlin-buehnen.de, gefiltert auf die gewünschten Bühnen.
-        BerlinBuehnenScraper(horizon_days=HORIZON_DAYS),
+        # Stressfaktor (Berlin) -- weiter gefasst, damit Party/Konzert bis 30 Tage da sind.
+        StressfaktorScraper(days=FETCH_HORIZON_DAYS),
+        # berlin-buehnen.de, gefiltert auf die gewünschten Bühnen (Theater bis 30 Tage).
+        BerlinBuehnenScraper(horizon_days=FETCH_HORIZON_DAYS),
         # Donau115 (Jazz-Club) -- Events aus der Firebase-DB, alle "Konzert".
         Donau115Scraper(),
         # kulturdaten.berlin -- deaktiviert (zu viel Community-Kleinkram).
@@ -154,8 +164,8 @@ def get_scrapers():
         # Cloudflares JS-Challenge ("Just a moment...", 403), es gibt keinen
         # erreichbaren Daten-Endpunkt (Diagnose in _debug/tipsy-bear.txt).
         # TipsyBearScraper(),
-        # Siegessäule -- queerer Eventkalender, Kategorie automatisch.
-        SiegessaeuleScraper(days=HORIZON_DAYS),
+        # Siegessäule -- queerer Eventkalender, Kategorie automatisch (bis 30 Tage).
+        SiegessaeuleScraper(days=FETCH_HORIZON_DAYS),
         # Rosa-Luxemburg-Stiftung -- politische Vorträge, nur Berlin (HTML-Teaser).
         RosaLuxScraper(city="Berlin"),
         # FunFacts (Comedy/Talk) -- Wix-Events, nur Berlin (Mehringhof-Theater).
@@ -194,6 +204,17 @@ def filter_and_sort(events: list[Event]) -> list[Event]:
     # Drop anything before today (no "yesterday" events in the feed).
     now = _dt.datetime.now()
     cutoff = now.replace(hour=0, minute=0, second=0, microsecond=0)
+    default_horizon = now + _dt.timedelta(days=HORIZON_DAYS)
+
+    # First pass: how many events each source has in the default window, so
+    # "sparse" sources (< SPARSE_MIN) can be extended automatically.
+    base_counts: dict[str, int] = {}
+    for event in events:
+        if not event.start or categorize(event.tags) is None:
+            continue
+        sn = event.start.replace(tzinfo=None)
+        if cutoff <= sn <= default_horizon:
+            base_counts[event.source_name] = base_counts.get(event.source_name, 0) + 1
 
     kept: dict[str, Event] = {}
     for event in events:
@@ -207,12 +228,14 @@ def filter_and_sort(events: list[Event]) -> list[Event]:
         event.tags = [primary]
         # Compare naively to avoid tz-aware/naive mix-ups.
         start_naive = event.start.replace(tzinfo=None)
-        # Window: default, but a category or source on the allowlist may reach
-        # further into the future (whichever is largest wins).
+        # Window = the largest that applies: default, category, source, and a
+        # bonus for sparse sources.
+        sparse = SPARSE_HORIZON if base_counts.get(event.source_name, 0) < SPARSE_MIN else 0
         days = max(
             HORIZON_DAYS,
             CATEGORY_HORIZON.get(primary, 0),
             SOURCE_HORIZON.get(event.source_name, 0),
+            sparse,
         )
         horizon = now + _dt.timedelta(days=days)
         if start_naive < cutoff or start_naive > horizon:

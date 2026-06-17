@@ -62,17 +62,17 @@ sources:
   # FunFacts -> eigener Ausleser (scrapers/funfacts.py): Wix-Events ohne
   # JSON-LD, server-gerenderte data-hooks; nur Berlin (Mehringhof-Theater).
 
-  # Möbel Olfe (queere Bar, Kreuzberg) -- Genre Queer (scrapers/genres.py).
-  - url: https://www.moebel-olfe.de/programm.php
-    name: Möbel Olfe
+  # Möbel Olfe -> eigener Ausleser (scrapers/moebelolfe.py): statische Tabelle.
   # Kink-Quellen -- Genre Kink (scrapers/genres.py). Erst per JSON-LD versucht;
   # liefert eine Seite nichts, zeigt ihre Debug-Datei die Struktur.
   - url: https://www.berlinkinkcalendar.com/all-events/
     name: Berlin Kink Calendar
   - url: https://bdsm-berlin.de/kalender/
     name: BDSM Berlin
-  - url: https://folsomeurope.berlin/program/
+  # Folsom Europe nutzt "The Events Calendar" -> robuster iCal-Feed.
+  - url: https://folsomeurope.berlin/?post_type=tribe_events&ical=1&eventDisplay=list
     name: Folsom Europe
+    type: ical
   - url: https://www.iksk-berlin.de/Program
     name: IKSK Berlin
   - url: https://other-nature.de/blogs/events

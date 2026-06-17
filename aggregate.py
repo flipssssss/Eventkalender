@@ -54,6 +54,7 @@ from scrapers.funfacts import FunFactsScraper
 from scrapers.squarespace import SquarespaceEventsScraper
 from scrapers.visitberlin import VisitBerlinJazzScraper
 from scrapers.gancio import GancioScraper
+from scrapers.moebelolfe import MoebelOlfeScraper
 
 ROOT = pathlib.Path(__file__).parent
 OUTPUT = ROOT / "docs" / "data" / "events.json"
@@ -181,6 +182,8 @@ def get_scrapers():
         VisitBerlinJazzScraper(category="Konzert"),
         # askapunk (Gancio-DIY-Kalender) -- Punk-Konzerte über die JSON-API.
         GancioScraper("askapunk", "https://berlin.askapunk.de", category="Konzert"),
+        # Möbel Olfe (queere Bar) -- statische Tabelle.
+        MoebelOlfeScraper(),
         # tip Berlin -- deaktiviert: keine erreichbare Quelle für Event-Daten
         # (proprietäres "rce"-Plugin, Bot-Schutz, Ausstellungen ohne Termin).
         # TipBerlinScraper(),

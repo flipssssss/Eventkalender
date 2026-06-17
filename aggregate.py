@@ -364,15 +364,16 @@ def _event_from_dict(d: dict) -> Event | None:
 
 
 def carry_over_failed(raw: list[Event], report: list[dict]) -> list[Event]:
-    """Keep a source's last-good events when this run failed to fetch it.
+    """Keep a source's last-good events when this run brought nothing.
 
-    Some sites block intermittently (e.g. a 403 from an IP-based bot wall).
-    Instead of dropping all of that source's events on a failed run, re-use the
-    ones from the previously written feed (still-future events age out on their
-    own). Only sources whose report carries an error are carried over.
+    Some sites block intermittently (403 bot wall) or briefly return an empty
+    list even though they usually deliver. Instead of dropping all of that
+    source's events, re-use the ones from the previously written feed
+    (still-future events stay, past ones age out on their own). Triggered for
+    any source whose run errored OR returned zero events this time.
     """
-    failed = {r["source"] for r in report if r.get("error")}
-    if not failed:
+    missing = {r["source"] for r in report if r.get("error") or not r.get("count")}
+    if not missing:
         return raw
     try:
         old = json.loads(OUTPUT.read_text(encoding="utf-8")).get("events", [])
@@ -380,14 +381,14 @@ def carry_over_failed(raw: list[Event], report: list[dict]) -> list[Event]:
         return raw
     added = 0
     for d in old:
-        if d.get("source_name") in failed:
+        if d.get("source_name") in missing:
             event = _event_from_dict(d)
             if event:
                 raw.append(event)
                 added += 1
     if added:
         print(f"  ↻ {added} Events aus letztem Lauf übernommen "
-              f"(Quellen mit Fehler: {', '.join(sorted(failed))})")
+              f"(Quellen ohne neue Events: {', '.join(sorted(missing))})")
     return raw
 
 

@@ -102,6 +102,12 @@
  },
  "Amtsgericht Tiergarten Turmstr. 91 10559 Berlin Deutschland": null,
  "Amtsgericht Tiergarten Turmstr. 91 10559, 10559 Berlin": null,
+ "Anna Landsberger Prötzeler Ring 13 12685 Berlin Deutschland": {
+  "address": "Prötzeler Ring 13, 12685 Marzahn",
+  "bezirk": "Marzahn-Hellersdorf",
+  "lat": 52.5447527,
+  "lng": 13.5775261
+ },
  "Anti-Kriegs-Museum Berlin Brüsseler Str. 21 13353 Berlin Deutschland": {
   "address": "Brüsseler Straße 21, 13353 Wedding",
   "bezirk": "Mitte",
@@ -222,6 +228,12 @@
   "lng": 13.4305919
  },
  "Brotfabrik Caligariplatz 1 13086, 13086 Berlin": null,
+ "Brunnenstr. 7, 10119 Berlin": {
+  "address": "Brunnenstraße 7, 10119 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5308688,
+  "lng": 13.400486
+ },
  "Buchberger Str. 6, 10365 Berlin": {
   "address": "Buchberger Straße 6, 10365 Lichtenberg",
   "bezirk": "Lichtenberg",
@@ -307,6 +319,12 @@
  "Drugstore im Rockhaus Buchberger Str. 6 10365 Berlin Deutschland": null,
  "Drugstore im Rockhaus Buchberger Str. 6 10365, 10365 Berlin": null,
  "Eiertanz, Admiralstraße 17, 10999 Berlin": null,
+ "Else, Berlin": {
+  "address": "An den Treptowers 10, 12435 Alt-Treptow",
+  "bezirk": "Treptow-Köpenick",
+  "lat": 52.4952481,
+  "lng": 13.4627777
+ },
  "Erreichbar Reichenberger Str. 63a HH 10999 Berlin Deutschland": null,
  "Erreichbar Reichenberger Str. 63a, 10999 Berlin": {
   "address": "Reichenberger Straße 63a, 10999 Kreuzberg",
@@ -443,6 +461,7 @@
   "lat": 52.4829791,
   "lng": 13.3507943
  },
+ "Haus Schwarzenberg Rosenthalerstraße 39 10178 Berlin Deutschland": null,
  "Haus der Kulturen der Welt, Berlin": {
   "address": "John-Foster-Dulles-Allee 10, 10557 Tiergarten",
   "bezirk": "Mitte",
@@ -916,6 +935,8 @@
   "lat": 52.5105125,
   "lng": 13.4445032
  },
+ "OGH Sonnenallee Berlin": null,
+ "OGH Sonnenallee Berlin Deutschland": null,
  "Oberwallstraße 32, 10117 Berlin": {
   "address": "Oberwallstraße, 10117 Mitte",
   "bezirk": "Mitte",
@@ -979,6 +1000,12 @@
   "lat": 52.4952361,
   "lng": 13.4307312
  },
+ "Rigaer 94 Berlin Deutschland": {
+  "address": "Rigaer Straße 94, 10247 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.517933,
+  "lng": 13.4580095
+ },
  "Rigaer Str. 103, 10247 Berlin": {
   "address": "Rigaer Straße 103, 10247 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -999,6 +1026,12 @@
   "lng": 13.4552573
  },
  "Rigaerstr. Ecke Liebigstr. 10247, 10247 Berlin": null,
+ "Rosenthalerstraße 39, 10178 Berlin": {
+  "address": "Rosenthaler Straße 39, 10178 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5244928,
+  "lng": 13.4019195
+ },
  "Rote Insel near S1 / U7 Yorckstrasse Berlin 10783 Berlin Deutschland": null,
  "SZ Aenne Saefkow, Alfredstraße 24, 10365 Berlin": null,
  "Schaubühne am Lehniner Platz, Berlin": {
@@ -1061,6 +1094,12 @@
   "lat": 52.4986179,
   "lng": 13.4165594
  },
+ "Skalitzerstr. 133, 10999 Berlin": {
+  "address": "Skalitzer Straße 133, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4997903,
+  "lng": 13.4201248
+ },
  "Sophiensæle, Berlin": {
   "address": "Sophienstraße 18, 10178 Mitte",
   "bezirk": "Mitte",
@@ -1081,6 +1120,7 @@
  },
  "Stadtteilzentrum Schöneberg Hauptstraße 121 A 10827 Berlin Deutschland": null,
  "Stadtteilzentrum Schöneberg Hauptstraße 121 A, 10827 Berlin": null,
+ "Subversiv Brunnenstr. 7 HH 10119 Berlin Deutschland": null,
  "Supamolly Jessnerstr. 41 10247 Berlin Deutschland": {
   "address": "Jessnerstraße 41, 10247 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -1188,6 +1228,7 @@
   "lat": 52.4827454,
   "lng": 13.44178
  },
+ "West Germany West Germany Skalitzerstr. 133 10999 Berlin Deutschland": null,
  "Weydingerstraße 10, 10178 Berlin": {
   "address": "Weydingerstraße 10, 10178 Mitte",
   "bezirk": "Mitte",

@@ -62,10 +62,9 @@ sources:
   # FunFacts -> eigener Ausleser (scrapers/funfacts.py): Wix-Events ohne
   # JSON-LD, server-gerenderte data-hooks; nur Berlin (Mehringhof-Theater).
 
-  # Planetarium Berlin (Konzerte / Hörspiele & Lesungen). /tickets ist eine
-  # SPA; /veranstaltungen ist die server-gerenderte Drupal-Liste.
-  - url: https://www.planetarium.berlin/veranstaltungen
-    name: Planetarium Berlin
+  # Planetarium Berlin -> eigener Ausleser (scrapers/planetarium.py): /tickets
+  # ist eine SPA; gelesen werden die server-gerenderten Drupal-Taxonomie-Seiten
+  # /veranstaltungsart/highlights-konzerte und /hoerspiele-lesungen.
 
   # Möbel Olfe -> eigener Ausleser (scrapers/moebelolfe.py): statische Tabelle.
   # Other Nature -> eigener Ausleser (scrapers/othernature.py): Shopify-Atom.

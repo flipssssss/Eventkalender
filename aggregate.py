@@ -57,6 +57,7 @@ from scrapers.gancio import GancioScraper
 from scrapers.moebelolfe import MoebelOlfeScraper
 from scrapers.othernature import OtherNatureScraper
 from scrapers.iksk import IkskScraper
+from scrapers.planetarium import PlanetariumScraper
 
 ROOT = pathlib.Path(__file__).parent
 OUTPUT = ROOT / "docs" / "data" / "events.json"
@@ -190,6 +191,8 @@ def get_scrapers():
         OtherNatureScraper(),
         # IKSK Berlin -- kuratierte Kink-Specials (server-gerendert).
         IkskScraper(),
+        # Planetarium Berlin -- Drupal-Taxonomie-Seiten (Konzerte, Hörspiele).
+        PlanetariumScraper(),
         # tip Berlin -- deaktiviert: keine erreichbare Quelle für Event-Daten
         # (proprietäres "rce"-Plugin, Bot-Schutz, Ausstellungen ohne Termin).
         # TipBerlinScraper(),

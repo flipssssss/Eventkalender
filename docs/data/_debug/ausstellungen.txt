@@ -1,27 +1,27 @@
 ExhibitionEvents -> Events: 28
-  2026-06-16 Brancusi
-  2026-06-16 Gebaute Gemeinschaft: Göbeklitepe, Taş Tepeler und
-  2026-06-16 Lina Lapelytė: We Make Years Out of Hours – Chanel
-  2026-06-16 Marina Abramović: Balkan Erotic Epic
-  2026-06-16 Marc Brandenburg: 20th Century Debris
-  2026-06-16 Freiraum Kunst: Akademie der Künste goes Bellevue
-  2026-06-16 Ruin und Rausch: Berlin 1910–1930
-  2026-06-16 Cassirer und der Durchbruch des Impressionismus
-  2026-06-16 Giulia Andreani: Sabotage
-  2026-06-16 C.B. Evans: Reality or Not
-  2026-06-16 Neue Frau, Neues Sehen: Die Bauhaus-Fotografinnen
-  2026-06-16 Inventing Queer Cinema
-  2026-06-16 Peter Hujar und Liz Deschenes: Persistence of Visi
-  2026-06-16 Kyiv Biennial: A Bird That Cannot Land
-  2026-06-16 Shilpa Gupta: What Still Holds
-  2026-06-16 Fujiko Nakaya: Nebelskulptur im Skulpturengarten
-  2026-06-16 Iliggocene: The Age of Dizziness
-  2026-06-16 Anton Corbijn: Corbijn, Anton
-  2026-06-16 Rooms / Stages
-  2026-06-16 Intermezzo: Revisiting Helmut Newton
-  2026-06-16 Many Shades of Grès: Mode wird Kunst
-  2026-06-16 Seeing Words, Reading Images – Die Written Art Col
-  2026-06-16 Philipp Gufler: Imitations of Paul
+  2026-06-17 Brancusi
+  2026-06-17 Gebaute Gemeinschaft: Göbeklitepe, Taş Tepeler und
+  2026-06-17 Lina Lapelytė: We Make Years Out of Hours – Chanel
+  2026-06-17 Marina Abramović: Balkan Erotic Epic
+  2026-06-17 Marc Brandenburg: 20th Century Debris
+  2026-06-17 Freiraum Kunst: Akademie der Künste goes Bellevue
+  2026-06-17 Ruin und Rausch: Berlin 1910–1930
+  2026-06-17 Cassirer und der Durchbruch des Impressionismus
+  2026-06-17 Giulia Andreani: Sabotage
+  2026-06-17 C.B. Evans: Reality or Not
+  2026-06-17 Neue Frau, Neues Sehen: Die Bauhaus-Fotografinnen
+  2026-06-17 Inventing Queer Cinema
+  2026-06-17 Peter Hujar und Liz Deschenes: Persistence of Visi
+  2026-06-17 Kyiv Biennial: A Bird That Cannot Land
+  2026-06-17 Shilpa Gupta: What Still Holds
+  2026-06-17 Fujiko Nakaya: Nebelskulptur im Skulpturengarten
+  2026-06-17 Iliggocene: The Age of Dizziness
+  2026-06-17 Anton Corbijn: Corbijn, Anton
+  2026-06-17 Rooms / Stages
+  2026-06-17 Intermezzo: Revisiting Helmut Newton
+  2026-06-17 Many Shades of Grès: Mode wird Kunst
+  2026-06-17 Seeing Words, Reading Images – Die Written Art Col
+  2026-06-17 Philipp Gufler: Imitations of Paul
   2026-06-19 Walter Schels: 16° Fische – Retrospektive
   2026-07-03 Paul Signac: Symphonie der Farben
   2026-06-26 Erwin Olaf: Muses

@@ -1,62 +1,29 @@
-URL: https://www.rosalux.de/veranstaltungen
-  HTTP-Status: 200
-  HTML-Länge: 328104 Zeichen
-  JSON-LD vorhanden: False
-  Events gefunden: 0
-  Mögliche Programm-Unterseiten:
-    - https://www.rosalux.de/en/event-calendar
-    - https://www.rosalux.de/veranstaltung/es_detail/18W2L/klima--%26-demokratie?cHash=23e1f649f4521ed441945a9cd9eaee7f
-    - https://www.rosalux.de/veranstaltung/es_detail/1BBW9/handwerks-workshop-fuer-flinta-grundlagen-und-basics?cHash=439cd1f32247916acd7dfb6b7c9d301b
-    - https://www.rosalux.de/veranstaltung/es_detail/1HHIB/progressiver-journalismus-als-akt-des-widerstands-in-autoritaeren-zeiten?cHash=a7fd30f55ec0e5716074fe269d1afbfc
-    - https://www.rosalux.de/veranstaltung/es_detail/1PKCU/der-gaza-krieg-seine-vorgeschichte-und-seine-bewertung-in-deutschland?cHash=dfac9e80974f69f82764096deaa0ba2a
-    - https://www.rosalux.de/veranstaltung/es_detail/1S3PQ/mein-rechter-rechter-platz-war-leer?cHash=70312640c5783808d377b13fcb071ffc
-    - https://www.rosalux.de/veranstaltung/es_detail/271MT/voelkische-siedler-und-rechte-esoterik?cHash=383b298402641cd087eec4e9259afa28
-    - https://www.rosalux.de/veranstaltung/es_detail/29TMZ/progressiver-journalismus-als-akt-des-widerstands-in-autoritaeren-zeiten?cHash=b8ce5f11e7d97edfce032ca5f0cfa550
-    - https://www.rosalux.de/veranstaltung/es_detail/2DFZ9/schicksal-treuhand--treuhand-schicksale?cHash=313a2ffafe800e9f8cede80ac860cc1e
-    - https://www.rosalux.de/veranstaltung/es_detail/2F34R/wie-die-afd-den-kulturkampf-in-die-schulen-traegt?cHash=f8e43a8570e3497e00158a85ad274666
-    - https://www.rosalux.de/veranstaltung/es_detail/2LJWT/welches-zuhause?cHash=d298b6d2e6108cc9988059723fe492f4
-    - https://www.rosalux.de/veranstaltung/es_detail/2NVAS/voelkische-siedler-und-rechte-esoterik?cHash=f759b1fe12ea25227ddc86ebb040f7bc
-    - https://www.rosalux.de/veranstaltung/es_detail/2YLTR/rechenzentrenausbau-%E2%80%93-die-gefahr-hinter-dem-ki-hype?cHash=29516c84cb648a3e580f2561d662ad03
-    - https://www.rosalux.de/veranstaltung/es_detail/385FL/how-to-politische-bildung-von-der-theorie-in-die-praxis?cHash=5da2a350941018dc52c8d41dcf953f8c
-    - https://www.rosalux.de/veranstaltung/es_detail/39QBK/bleiberecht-im-angriff?cHash=86463ddca180b27982dfd8eb5b7cac46
-    - https://www.rosalux.de/veranstaltung/es_detail/3RE2T/%C3%96konomie-des-hasses?cHash=6a3c0dcd1040ceeb037e92a2e981b1c5
-    - https://www.rosalux.de/veranstaltung/es_detail/3T6ZR/das-spiel-der-starken-maenner-%E2%80%93-wie-die-fussball-wm-den-nationalismus-staerkt?cHash=115c2e6fc8ac5afbc26ccf903ab2ae7d
-    - https://www.rosalux.de/veranstaltung/es_detail/4JY9L/sichtbarkeit-und-sicherheit?cHash=1e374dacdbf90ae9bd76b4e6628758db
-    - https://www.rosalux.de/veranstaltung/es_detail/4TQ2G/wir-sind-die-staerkste-der-partein-geschichte-der-k-gruppen?cHash=c156ba0d81371f50c574920f888557e2
-    - https://www.rosalux.de/veranstaltung/es_detail/51CJX/kybernetik-und-kritik?cHash=49698628d01b5ed03de8f78baa1135da
-    - https://www.rosalux.de/veranstaltung/es_detail/5ERR3/am-ende-des-fortschritts-%C3%9Cberleben-in-den-ruinen-des-kapitalismus?cHash=72ec19e81336d1e69b9d65c25514dfb3
-    - https://www.rosalux.de/veranstaltung/es_detail/5GC2C/uebermorgen?cHash=0c03c57c521d47e76fb84720dfb35e48
-    - https://www.rosalux.de/veranstaltung/es_detail/5GLU7/kritisch-psychologischer-donnerstag?cHash=679e7bd8c647ae9b45853dadea16585f
-    - https://www.rosalux.de/veranstaltung/es_detail/5IE38/matchplan-meuterei-%E2%80%93-fussballfans-zwischen-kommerz-und-widerstand?cHash=18dab6b210090a19a24910fd7b2e5bb4
-    - https://www.rosalux.de/veranstaltung/es_detail/5N3OU/antifeminismus-digitale-gewalt-und-strafverfolgung?cHash=d3fc729ff015cda91fa25f3c57b6473e
-  Externe Skripte: /_assets/bcaf2df31b3031c02e4bdc5e5aed5a50/Js/dist/scripts.1776847930.js
-  Größtes Inline-Skript (944 Zeichen)
-  --- ANFANG ---
-
-    (function (w) {
-        'use strict';
-        var x = function () {
-            w.CB.demandLoad(['flatpickr.min.js','demand.filter-tabs.js', 'demand.filter-form.js', 'demand.calendar.js'], function () {
-                w.CB.demandModules.filterForm.initForm({formId:'elasticsearch-form',eventTypeToggleId:'elastic-search-type-event-toggler',eventTypeInputId:'elastic-search-type-event',locationCheckbox:'elastic-search-my-location',lat:'elastic-search-my-lat',lng:'elastic-search-my-lng',sortingId:'elastic-search-sorting',dateFieldId:'elastic-search-timeframe'});w.CB.demandModules.filterTabs.initTabs('elasticsearch-form');
-w.CB.demandModules.calendar.initCalendar({calendar: 'elasticsearch-calendar', form: 'elasticsearch-form', inputMonth: 'elastic-search-current-month', inputYear: 'elastic-search-current-year'});
-            }, false);
-        };
-        void 0!==w.CB?x():(w.CBQueue=w.CBQueue||[],w.CBQueue.push(x));
-    }(this));
-
-  --- ENDE ---
-
-    (function (w) {
-        'use strict';
-        var x = function () {
-            w.CB.demandLoad(['flatpickr.min.js','demand.filter-tabs.js', 'demand.filter-form.js', 'demand.calendar.js'], function () {
-                w.CB.demandModules.filterForm.initForm({formId:'elasticsearch-form',eventTypeToggleId:'elastic-search-type-event-toggler',eventTypeInputId:'elastic-search-type-event',locationCheckbox:'elastic-search-my-location',lat:'elastic-search-my-lat',lng:'elastic-search-my-lng',sortingId:'elastic-search-sorting',dateFieldId:'elastic-search-timeframe'});w.CB.demandModules.filterTabs.initTabs('elasticsearch-form');
-w.CB.demandModules.calendar.initCalendar({calendar: 'elasticsearch-calendar', form: 'elasticsearch-form', inputMonth: 'elastic-search-current-month', inputYear: 'elastic-search-current-year'});
-            }, false);
-        };
-        void 0!==w.CB?x():(w.CBQueue=w.CBQueue||[],w.CBQueue.push(x));
-    }(this));
-
-  Body (ohne CSS/JS):
- class="teaser__date-year">2026</span></span><span class="teaser__dash"><span class="aural"> - </span></span><span class="teaser__day-group"><span class="teaser__date-day">20</span><span class="teaser__date-month">Juli</span><span class="teaser__date-year">2026</span></span></span><span class="teaser__date-group teaser__date-group--right"><span>Rostock</span></span></p><p class="teaser__text">vom 15.06. bis 20.07.</p></div></div></section><section class="component elasticsearch__result" data-day="15" data-section="event-8WAOZ" data-ts="1781541020000"><div class="teaser teaser--event"><div class="teaser__liner teaser__liner--event"><h3 class="teaser__title teaser__title--event"><a aria-describedby="teaser-meta-8WAOZ" class="teaser__link" href="/veranstaltung/es_detail/8WAOZ/schulter-an-schulter-wo-der-staat-versagte?cHash=49fa9877f5df2b58fc08fb90b7d0af18" id="event-8WAOZ"><span class="teaser__title-text">„Schulter an Schulter-wo der Staat versagte“</span><span class="aural">, 15 Juni 2026</span></a></h3><p class="teaser__meta teaser__meta--split" id="teaser-meta-8WAOZ"><span class="aural">: </span><span class="teaser__meta-event-text"> Film </span></p><p class="teaser__meta teaser__meta--event"><span aria-hidden="true" class="teaser__date-group teaser__date-group--left"><span class="teaser__day-group"><span class="teaser__date-day">15</span><span class="teaser__date-month">Juni</span><span class="teaser__date-year">2026</span></span></span><span class="teaser__date-group teaser__date-group--right"><span>Kiel</span><span>18:30 Uhr</span></span></p><p class="teaser__text">Filmvorführung mit anschließender Diskussion und Infovortrag zu den anstehenden Protesten am 4.7. in…</p></div></div></section><section class="component elasticsearch__result" data-day="15" data-section="event-MPEI8" data-ts="1781541053000"><div class="teaser teaser--event"><div class="teaser__liner teaser__liner--event"><h3 class="teaser__title teaser__title--event"><a aria-describedby="teaser-meta-MPEI8" class="teaser__link" href="/veranstaltung/es_detail/MPEI8/vernissage-der-ausstellung-heimische-vielfalter?cHash=2d5ef86287a65c0d59a22371bf8cdf6c" id="event-MPEI8"><span class="teaser__title-text">Vernissage der Ausstellung "Heimische VIELFALTer"</span><span class="aural">, 15 Juni 2026</span></a></h3><p class="teaser__meta teaser__meta--split" id="teaser-meta-MPEI8"><span class="aural">: </span><span class="teaser__meta-event-text"> Ausstellung/Kultur </span></p><p class="teaser__meta teas
-------------------------------------------------------------
+Teaser: 186 | Berlin: 28 | andere Städte: 158
+  2026-06-02 10:00:00 | Berlin | „Der große Schock“
+  2026-06-03 19:00:37 | Berlin | Progressiver Journalismus als Akt des Widerstands in autoritären Zeiten
+  2026-06-04 19:30:00 | Berlin | Post-Punk in Berlin, 2023-'26 … und die ewige Wiederkehr
+  2026-06-05 19:00:58 | Berlin | Matchplan Meuterei – Fussballfans zwischen Kommerz und Widerstand
+  2026-06-06 21:00:00 | Berlin | Deutschlandpremiere: "Toni, My Father"
+  2026-06-08 19:00:26 | Berlin | Am Ende des Fortschritts. Überleben in den Ruinen des Kapitalismus
+  2026-06-08 20:00:36 | Berlin | Das Spiel der starken Männer – Wie die Fußball-WM den Nationalismus stärkt
+  2026-06-09 10:00:00 | Berlin | 20 Jahre draußen vor der Tür durch Hartz IV - kein Grund zum Feiern?!
+  2026-06-09 19:00:00 | Berlin | „Cuba is Frantz Fanon in the flesh“
+  2026-06-10 18:30:10 | Berlin | Extraktion. Über die Grenzen des grünen Kapitalismus
+  2026-06-12 08:00:00 | Berlin | Fallada in Carwitz und "Reineke Fuchs" in Luzin
+  2026-06-13 10:00:53 | Berlin | Für Bildungsgerechtigkeit: Mehr Gemeinschaftsschulen für Berlin!
+  2026-06-14 18:00:30 | Berlin | Gaza: Augenzeug*innen
+  2026-06-16 10:00:00 | Berlin | Erik Neutsch - der letzte Jakobiner
+  2026-06-16 18:00:37 | Berlin | The Day Apartheid Died
+  2026-06-17 13:45:52 | Berlin | Bildungsexkursion Schloss Schönhausen
+  2026-06-19 18:00:32 | Berlin | Familiengeschichte(n) in Ost und West
+  2026-06-22 18:30:00 | Berlin | Buchklub: Das Alltagsleben im Autoritarismus VIII: Paul Lynch: Das Lied des…
+  2026-06-22 19:00:37 | Berlin | Wem gehört der Reichtum?
+  2026-06-23 18:00:54 | Berlin | Geht der Westen wieder unter? Die Benjamin Lectures 2026
+  2026-06-24 19:00:00 | Berlin | Die Bildwelten der Elizabeth Shaw
+  2026-06-24 19:00:00 | Berlin | Die Bildwelten der Elizabeth Shaw
+  2026-06-24 19:00:00 | Berlin | Ines de Nil: "Wer bei der Reichsbahn war, war ein roter Hund" (Dokumentarfilm 60…
+  2026-06-25 19:00:26 | Berlin | Freiheit für wen?
+  2026-06-26 19:00:00 | Berlin | 75 Jahre Hannah Arendts "Elemente und Ursprünge totaler Herrschaft"
+  2026-06-29 18:00:00 | Berlin | Krisenbuch Schule – Ein System am Limit
+  2026-06-30 19:00:00 | Berlin | "Nur zwei Geschlechter?"
+  2026-06-30 19:00:50 | Berlin | When the Water Horse Seeks a New Home

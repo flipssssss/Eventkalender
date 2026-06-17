@@ -59,11 +59,8 @@ sources:
   # Alle Events als Vortrag; Genre "Polit" via scrapers/genres.py (FORCE_GENRE).
   # Rosa-Luxemburg-Stiftung -> eigener Ausleser (scrapers/rosalux.py): die
   # Seite hat kein JSON-LD, sondern server-gerenderte Teaser; nur Berlin.
-  # FunFacts -- als Vortrag, Genre Kultur; nur Berliner Termine (city-Filter).
-  - url: https://www.funfacts.de/tickets-kaufen
-    name: FunFacts
-    category: Vortrag
-    city: Berlin
+  # FunFacts -> eigener Ausleser (scrapers/funfacts.py): Wix-Events ohne
+  # JSON-LD, server-gerenderte data-hooks; nur Berlin (Mehringhof-Theater).
   # Boiler -> eigener Ausleser (scrapers/boiler.py), HTML-Liste.
   # Time to Shine -> eigener Ausleser (scrapers/timetoshine.py), Squarespace-JSON.
   # Party Dyke Berlin -> eigener Ausleser (scrapers/partydyke.py), weil die

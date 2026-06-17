@@ -3,13 +3,17 @@
 The Stiftung Planetarium Berlin site is Drupal; the /tickets page is a JS
 widget, but the taxonomy pages under /veranstaltungsart/<art> are
 server-rendered. We read just the two wanted categories (Konzerte,
-Hörspiele & Lesungen). Drupal renders dates as ``<time datetime="...">`` --
-we walk from each time element to its teaser and pull title + link. The raw
-teaser is dumped to the debug file so the parser can be refined if needed.
+Hörspiele & Lesungen).
+
+The first dump showed no ``<time datetime>`` elements, so the parser is
+structure-driven: we collect links to event detail pages and pull the
+German date text from the surrounding teaser. A rich structure dump goes
+to the debug file so the selectors can be refined from real markup.
 """
 
 from __future__ import annotations
 
+import datetime as _dt
 import pathlib
 import re
 from typing import Iterable
@@ -17,7 +21,7 @@ from urllib.parse import urljoin
 
 from bs4 import BeautifulSoup
 
-from .base import BaseScraper, Event, parse_datetime
+from .base import BaseScraper, Event
 
 BASE = "https://www.planetarium.berlin"
 SECTIONS = [
@@ -34,6 +38,21 @@ BROWSER = {
     "Accept": "text/html,application/xhtml+xml,*/*;q=0.8",
     "Accept-Language": "de-DE,de;q=0.9,en;q=0.8",
 }
+
+MONTHS = {
+    "januar": 1, "februar": 2, "märz": 3, "maerz": 3, "april": 4, "mai": 5,
+    "juni": 6, "juli": 7, "august": 8, "september": 9, "oktober": 10,
+    "november": 11, "dezember": 12,
+    "jan": 1, "feb": 2, "mär": 3, "mar": 3, "apr": 4, "jun": 6, "jul": 7,
+    "aug": 8, "sep": 9, "okt": 10, "nov": 11, "dez": 12,
+}
+# "18. Juni 2026", "18. Juni"
+DATE_TXT = re.compile(r"(\d{1,2})\.\s*([A-Za-zäöüÄÖÜ]+)\.?\s*(\d{4})?", re.I)
+# "18.06.2026", "18.06."
+DATE_NUM = re.compile(r"(\d{1,2})\.(\d{1,2})\.(\d{4})?")
+TIME_TXT = re.compile(r"(\d{1,2})[:.](\d{2})\s*Uhr|(\d{1,2})[:.](\d{2})")
+# Event detail pages live under /veranstaltung/<slug> (singular).
+DETAIL_RE = re.compile(r"/veranstaltung/|/event/|/programm/", re.I)
 
 
 class PlanetariumScraper(BaseScraper):
@@ -54,69 +73,142 @@ class PlanetariumScraper(BaseScraper):
                 dump.append(f"{path}: FEHLER {exc}")
                 continue
             soup = BeautifulSoup(html, "html.parser")
-            times = soup.select("time[datetime]")
-            n = 0
-            first_card = None
-            for t in times:
-                card = self._teaser(t)
-                ev = self._build(t, card, category)
-                if ev and ev._k not in seen:
-                    seen.add(ev._k)
-                    events.append(ev)
-                    n += 1
-                if first_card is None and card is not None:
-                    first_card = card
-            dump.append(f"{path} ({category}): time-Elemente={len(times)} -> {n}\n"
-                        + (first_card.prettify()[:1100] if first_card else "(kein Teaser)"))
-        self._dump(f"Events: {len(events)}\n\n" + "\n\n----\n".join(dump))
+            found, info = self._parse(soup, category, seen, events)
+            dump.append(f"{path} ({category}): +{found}\n{info}")
+        self._dump(f"Events: {len(events)}\n\n" + "\n\n========\n".join(dump))
         return events
 
-    @staticmethod
-    def _teaser(time_el):
-        node = time_el
-        for _ in range(6):
-            node = node.parent
-            if node is None:
-                return None
-            cls = " ".join(node.get("class", []))
-            if node.name in ("article",) or re.search(
-                    r"teaser|node|views-row|card|event", cls, re.I):
-                return node
-        return time_el.parent
+    def _parse(self, soup, category, seen, events):
+        # Drop chrome we never want to scan.
+        for tag in soup.select(
+                "header, footer, nav, script, style, .region-navigation"):
+            tag.decompose()
 
-    def _build(self, time_el, card, category) -> Event | None:
-        start = parse_datetime(time_el.get("datetime"))
-        if not start or card is None:
+        # Collect candidate teasers: any link to an event detail page, climbed
+        # to its surrounding card.
+        cards = []
+        seen_cards = set()
+        for a in soup.find_all("a", href=True):
+            if not DETAIL_RE.search(a["href"]):
+                continue
+            card = self._card(a)
+            key = id(card)
+            if key in seen_cards:
+                continue
+            seen_cards.add(key)
+            cards.append((a, card))
+
+        found = 0
+        for a, card in cards:
+            ev = self._build(a, card, category)
+            if ev and ev._k not in seen:
+                seen.add(ev._k)
+                events.append(ev)
+                found += 1
+
+        # Debug: structure overview so we can refine selectors.
+        info_lines = [
+            f"Detail-Links: {len(cards)}",
+            f"article-Elemente: {len(soup.select('article'))}",
+            f"views-row: {len(soup.select('.views-row'))}",
+            f"node-Elemente: {len(soup.select('[class*=node--]'))}",
+            f"time[datetime]: {len(soup.select('time[datetime]'))}",
+        ]
+        if cards:
+            info_lines.append("--- erstes Teaser-Element ---")
+            info_lines.append(cards[0][1].prettify()[:1400])
+        else:
+            main = soup.select_one(
+                "main, #main-content, .region-content, .main-content")
+            info_lines.append("--- kein Detail-Link, main-Region (Text) ---")
+            info_lines.append((main or soup).get_text(" ", strip=True)[:800])
+        return found, "\n".join(info_lines)
+
+    @staticmethod
+    def _card(a):
+        node = a
+        for _ in range(6):
+            if node.parent is None:
+                break
+            node = node.parent
+            cls = " ".join(node.get("class", []))
+            if node.name == "article" or re.search(
+                    r"teaser|views-row|node--|card|event|item", cls, re.I):
+                return node
+        return a.parent or a
+
+    def _build(self, a, card, category) -> Event | None:
+        text = card.get_text(" ", strip=True)
+        start = self._date(text)
+        if not start:
             return None
-        link = card.find("a", href=True)
-        head = card.find(["h1", "h2", "h3", "h4"])
         title = ""
+        head = card.find(["h1", "h2", "h3", "h4"])
         if head:
             title = head.get_text(" ", strip=True)
-        if not title and link:
-            title = link.get_text(" ", strip=True)
-        title = re.sub(r"\s+", " ", title).strip()
         if not title:
+            title = a.get_text(" ", strip=True)
+        title = re.sub(r"\s+", " ", title).strip()
+        if len(title) < 2:
             return None
-        href = urljoin(BASE, link["href"]) if link else BASE + "/veranstaltungen"
+        href = urljoin(BASE, a["href"])
         img = card.find("img", src=True)
+        time_known = bool(TIME_TXT.search(text))
         ev = Event(
             title=title[:160],
-            start=start.replace(tzinfo=None),
+            start=start,
             source_url=href,
             source_name=self.name,
             location="Planetarium Berlin",
             image_url=urljoin(BASE, img["src"]) if img else None,
             tags=[category],
+            time_known=time_known,
         )
         ev._k = href + "|" + start.isoformat()
         return ev
+
+    def _date(self, text):
+        now = _dt.datetime.now()
+        hour = minute = 0
+        mt = TIME_TXT.search(text)
+        if mt:
+            g = mt.groups()
+            hour = int(g[0] or g[2] or 0)
+            minute = int(g[1] or g[3] or 0)
+        m = DATE_TXT.search(text)
+        if m:
+            day = int(m.group(1))
+            mon = MONTHS.get(m.group(2).lower())
+            year = int(m.group(3)) if m.group(3) else None
+            if mon:
+                if year is None:
+                    year = now.year
+                    if (mon, day) < (now.month, now.day):
+                        year += 1
+                try:
+                    return _dt.datetime(year, mon, day, hour, minute)
+                except ValueError:
+                    return None
+        m = DATE_NUM.search(text)
+        if m:
+            day, mon = int(m.group(1)), int(m.group(2))
+            year = int(m.group(3)) if m.group(3) else None
+            if year is None:
+                year = now.year
+                if (mon, day) < (now.month, now.day):
+                    year += 1
+            try:
+                return _dt.datetime(year, mon, day, hour, minute)
+            except ValueError:
+                return None
+        return None
 
     def _dump(self, text: str) -> None:
         if not self.write_debug:
             return
         try:
             DEBUG_DIR.mkdir(parents=True, exist_ok=True)
-            (DEBUG_DIR / "planetarium-berlin.txt").write_text(text, encoding="utf-8")
+            (DEBUG_DIR / "planetarium-berlin.txt").write_text(
+                text, encoding="utf-8")
         except OSError:
             pass

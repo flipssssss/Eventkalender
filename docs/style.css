@@ -1686,9 +1686,12 @@ a.showing-time:hover {
   justify-content: center;
   gap: clamp(10px, 4vw, 22px);
 }
+/* Gleich großes Feld pro Mund -- so wirken alle (trotz sehr unterschiedlicher
+   Seitenverhältnisse) im Verhältnis gleich groß. */
 .splash-mouth {
-  height: clamp(58px, 17vw, 104px);
-  width: auto;
+  width: clamp(96px, 30vw, 148px);
+  height: clamp(96px, 30vw, 148px);
+  object-fit: contain;
 }
 .splash-title-top {
   width: min(42vw, 200px);

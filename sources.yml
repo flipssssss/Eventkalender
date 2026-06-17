@@ -57,9 +57,8 @@ sources:
     category: Workshop        # alle Karada-Events als Workshop
   # Rosa-Luxemburg-Stiftung -- politische Vorträge/Diskussionen.
   # Alle Events als Vortrag; Genre "Polit" via scrapers/genres.py (FORCE_GENRE).
-  - url: https://www.rosalux.de/veranstaltungen
-    name: Rosa-Luxemburg-Stiftung
-    category: Vortrag
+  # Rosa-Luxemburg-Stiftung -> eigener Ausleser (scrapers/rosalux.py): die
+  # Seite hat kein JSON-LD, sondern server-gerenderte Teaser; nur Berlin.
   # FunFacts -- als Vortrag, Genre Kultur; nur Berliner Termine (city-Filter).
   - url: https://www.funfacts.de/tickets-kaufen
     name: FunFacts

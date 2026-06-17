@@ -48,6 +48,7 @@ from scrapers.mec import MecScraper
 from scrapers.koenig import KoenigScraper
 from scrapers.kino import BerlinKinoScraper, group_screenings
 from scrapers import openinghours
+from scrapers.rosalux import RosaLuxScraper
 
 ROOT = pathlib.Path(__file__).parent
 OUTPUT = ROOT / "docs" / "data" / "events.json"
@@ -143,6 +144,8 @@ def get_scrapers():
         # TipsyBearScraper(),
         # Siegessäule -- queerer Eventkalender, Kategorie automatisch.
         SiegessaeuleScraper(days=HORIZON_DAYS),
+        # Rosa-Luxemburg-Stiftung -- politische Vorträge, nur Berlin (HTML-Teaser).
+        RosaLuxScraper(city="Berlin"),
         # tip Berlin -- deaktiviert: keine erreichbare Quelle für Event-Daten
         # (proprietäres "rce"-Plugin, Bot-Schutz, Ausstellungen ohne Termin).
         # TipBerlinScraper(),

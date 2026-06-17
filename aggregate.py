@@ -63,6 +63,13 @@ KEEP_PAST_DAYS = 1
 # and the scrapers use the same horizon so they don't fetch needlessly.
 HORIZON_DAYS = 14
 
+# Per-source override for sparse sources whose events are planned far ahead
+# (ticketed shows etc.), so they aren't always invisible. Kept to a tiny
+# allowlist so the feed volume -- and thus performance -- barely changes.
+SOURCE_HORIZON = {
+    "FunFacts": 90,
+}
+
 
 def load_yaml_scrapers() -> list[JsonLdScraper]:
     """Build a JSON-LD scraper for every entry in sources.yml."""
@@ -181,8 +188,8 @@ def collect() -> tuple[list[Event], list[dict]]:
 
 def filter_and_sort(events: list[Event]) -> list[Event]:
     # Drop anything before today (no "yesterday" events in the feed).
-    cutoff = _dt.datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
-    horizon = _dt.datetime.now() + _dt.timedelta(days=HORIZON_DAYS)
+    now = _dt.datetime.now()
+    cutoff = now.replace(hour=0, minute=0, second=0, microsecond=0)
 
     kept: dict[str, Event] = {}
     for event in events:
@@ -190,6 +197,9 @@ def filter_and_sort(events: list[Event]) -> list[Event]:
             continue
         # Compare naively to avoid tz-aware/naive mix-ups.
         start_naive = event.start.replace(tzinfo=None)
+        # Sparse sources may reach further into the future than the default.
+        horizon = now + _dt.timedelta(
+            days=SOURCE_HORIZON.get(event.source_name, HORIZON_DAYS))
         if start_naive < cutoff or start_naive > horizon:
             continue
         # Map the source's raw categories onto the fixed tag set; drop

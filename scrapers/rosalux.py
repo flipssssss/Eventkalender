@@ -19,6 +19,7 @@ from urllib.parse import urljoin
 from bs4 import BeautifulSoup
 
 from .base import BaseScraper, Event
+from . import metacache
 
 try:
     from zoneinfo import ZoneInfo
@@ -30,6 +31,10 @@ BASE = "https://www.rosalux.de"
 URL = BASE + "/veranstaltungen"
 DEBUG_DIR = pathlib.Path(__file__).resolve().parents[1] / "docs" / "data" / "_debug"
 TIME_RE = re.compile(r"\b(\d{1,2}):(\d{2})\b")
+OG_DESC_RE = re.compile(
+    r'<meta\b[^>]*\b(?:property|name)=["\'](?:og:description|description)["\'][^>]*>',
+    re.I)
+CONTENT_RE = re.compile(r'content=["\']([^"\']*)', re.I)
 
 BROWSER = {
     "User-Agent": (
@@ -70,11 +75,38 @@ class RosaLuxScraper(BaseScraper):
                 other_city += 1
                 continue
             events.append(ev)
+        self._add_descriptions(events)
         self._dump(f"Teaser: {len(secs)} | {self.city}: {len(events)} | "
-                   f"andere Städte: {other_city}\n" +
+                   f"andere Städte: {other_city} | "
+                   f"mit Beschreibung: {sum(1 for e in events if e.description)}\n" +
                    "\n".join(f"  {e.start} | {e.location} | {e.title}"
                              for e in events[:30]))
         return events
+
+    def _add_descriptions(self, events) -> None:
+        """Full description from each event's detail page (og:description),
+        cached so every page is fetched only once. Falls back to the teaser
+        text already set when no detail description is available."""
+        for url in dict.fromkeys(
+                e.source_url for e in events if (e.source_url or "").startswith("http")):
+            if url == URL or metacache.get(url) is not None:
+                continue
+            desc = None
+            try:
+                html = self.get(url, headers=BROWSER).text
+                m = OG_DESC_RE.search(html)
+                if m:
+                    c = CONTENT_RE.search(m.group(0))
+                    if c and c.group(1).strip():
+                        desc = c.group(1).strip()[:600]
+            except Exception:  # noqa: BLE001
+                continue
+            metacache.put(url, None, desc)
+        metacache.save()
+        for e in events:
+            c = metacache.get(e.source_url)
+            if c and c["desc"]:
+                e.description = c["desc"]
 
     def _build(self, sec) -> tuple[Event | None, str | None]:
         link = sec.select_one("a.teaser__link")

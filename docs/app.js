@@ -643,6 +643,32 @@ function isPast(ev, now) {
   return now > new Date(start.getTime() + 60 * 60 * 1000);
 }
 
+// Schlusszeit aus "10–18" / "10:00–18:00" / "9–17:30" als Dezimalstunde (18.0).
+function closingTime(hours) {
+  const parts = String(hours).split(/[-–]/);
+  if (parts.length < 2) return null;
+  const m = parts[1].match(/(\d{1,2})(?::(\d{2}))?/);
+  return m ? parseInt(m[1], 10) + (m[2] ? parseInt(m[2], 10) / 60 : 0) : null;
+}
+
+// Ausstellung an einem Tag ausgegraut? Bezieht sich auf die ÖFFNUNGSZEITEN,
+// nicht die Laufzeit: geschlossener Wochentag, oder (heute) nach Ladenschluss.
+function isExhibitionDimmed(ev, date, now) {
+  if (!ev.opening_hours) return false;
+  const hours = hoursForDay(ev, date);
+  if (hours == null) return true;                 // geschlossener Wochentag
+  if (dayKey(date) === dayKey(now)) {             // heute: nach Schließung vorbei
+    const close = closingTime(hours);
+    if (close != null && now.getHours() + now.getMinutes() / 60 >= close) return true;
+  }
+  return false;
+}
+
+// Ausgegraut/„schon vorbei"? Ausstellungen nach Öffnungszeiten, sonst nach Zeit.
+function isPastOrClosed(ev, date, now) {
+  return isExhibition(ev) ? isExhibitionDimmed(ev, date, now) : isPast(ev, now);
+}
+
 // JS getDay() (0=Sonntag) -> Schlüssel in event.opening_hours.
 const WEEKDAY_KEYS = ["so", "mo", "di", "mi", "do", "fr", "sa"];
 
@@ -691,13 +717,16 @@ function render() {
     // (von start bis end, begrenzt auf [heute, Horizont]) einblenden.
     if (isExhibition(ev)) {
       const oh = ev.opening_hours;
+      const todayK = dayKey(new Date());
       let cur = dayStart(new Date(ev.start));
       if (cur < today) cur = new Date(today);
       let last = ev.end ? dayStart(new Date(ev.end)) : new Date(horizon);
       if (last > horizon) last = new Date(horizon);
       for (; cur <= last; cur.setDate(cur.getDate() + 1)) {
-        // Geschlossene Wochentage auslassen (nur wenn Öffnungszeiten bekannt).
-        if (oh && !oh[WEEKDAY_KEYS[cur.getDay()]]) continue;
+        // Geschlossene Wochentage künftig auslassen; heute behalten (wird
+        // ausgegraut in "Schon vorbei" gezeigt).
+        const closed = oh && !oh[WEEKDAY_KEYS[cur.getDay()]];
+        if (closed && dayKey(cur) !== todayK) continue;
         ensureDay(dayKey(cur), cur).events.push(ev);
       }
       continue;
@@ -841,7 +870,6 @@ function renderList(sortedKeys, groups) {
   const frag = document.createDocumentFragment();
   const preview = previewCount();
   const now = new Date();
-  const todayKey = dayKey(now);
   for (const key of sortedKeys) {
     const { date, events } = groups.get(key);
     const group = document.createElement("section");
@@ -854,15 +882,14 @@ function renderList(sortedKeys, groups) {
     heading.textContent = DAY_FMT.format(date);
     group.appendChild(heading);
 
-    // Heute: schon vorbei -> ausgegraut in eine zugeklappte Box ganz oben.
+    // Vorbei (heute, nach Zeit) bzw. geschlossen (Ausstellung nach Öffnungs-
+    // zeiten) -> ausgegraut in eine zugeklappte Box ganz oben am Tag.
     let dayEvents = events;
-    if (key === todayKey) {
-      const past = events.filter((e) => isPast(e, now));
-      if (past.length) {
-        const passed = new Set(past);
-        dayEvents = events.filter((e) => !passed.has(e));
-        group.appendChild(renderPastBox(past, date));
-      }
+    const past = events.filter((e) => isPastOrClosed(e, date, now));
+    if (past.length) {
+      const passed = new Set(past);
+      dayEvents = events.filter((e) => !passed.has(e));
+      group.appendChild(renderPastBox(past, date));
     }
 
     if (state.sortMode === "category") renderDayByCategory(dayEvents, group, date, preview);
@@ -1888,10 +1915,10 @@ function drawMarkers() {
   const inBounds = mapDayEvents.filter((e) => bounds.contains([e.lat, e.lng]));
   const asChips = inBounds.length > 0 && inBounds.length <= CHIP_THRESHOLD;
   const now = new Date();
-  const isToday = state.mapDay === dayKey(now);
+  const mapDate = new Date(state.mapDay + "T12:00:00");
 
   for (const ev of mapDayEvents) {
-    const past = isToday && ev.time_known !== false && new Date(ev.start) < now;
+    const past = isPastOrClosed(ev, mapDate, now);
     const here = bounds.contains([ev.lat, ev.lng]);
     const marker = (asChips && here) ? chipMarker(ev, past) : dotMarker(ev, past);
     marker.on("click", () => openModal(ev));

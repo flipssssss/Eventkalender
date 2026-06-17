@@ -34,6 +34,14 @@ _CROSS = re.compile(r"(\d{1,2})\.(\d{1,2})\.?\s*[-–]\s*\d{1,2}\.\d{1,2}")
 _INTRA = re.compile(r"(\d{1,2})\.\s*[-–]\s*\d{1,2}\.(\d{1,2})")
 _SINGLE = re.compile(r"(\d{1,2})\.(\d{1,2})")
 
+# Überschriften, die keine Events sind.
+_SKIP_TITLES = {
+    "january", "february", "march", "april", "may", "june", "july", "august",
+    "september", "october", "november", "december",
+    "januar", "februar", "märz", "märz", "april", "mai", "juni", "juli",
+    "august", "september", "oktober", "november", "dezember", "specials",
+}
+
 
 def _start_daymonth(text: str):
     for rx in (_CROSS, _INTRA, _SINGLE):
@@ -76,7 +84,9 @@ class IkskScraper(BaseScraper):
             return None
         strong = p.find("strong")
         title = strong.get_text(" ", strip=True) if strong else ""
-        if not title:
+        low = title.lower().strip()
+        # Monats-/Abschnittsüberschriften und zu kurze Titel überspringen.
+        if not title or low in _SKIP_TITLES or "special" in low or len(title) < 3:
             return None
         # Date text: the paragraph text without the title.
         ptext = p.get_text(" ", strip=True)

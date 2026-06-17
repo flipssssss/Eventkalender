@@ -19,6 +19,8 @@ from .base import BaseScraper, Event
 FEED = "https://other-nature.de/blogs/events.atom"
 DEBUG_DIR = pathlib.Path(__file__).resolve().parents[1] / "docs" / "data" / "_debug"
 ATOM = "{http://www.w3.org/2005/Atom}"
+# The post title carries the real date: "18.06.26 // Event Name".
+TITLE_DATE = re.compile(r"^\s*(\d{1,2})\.(\d{1,2})\.(\d{2})\s*//\s*(.*)$", re.S)
 SLUG_DATE = re.compile(r"/blogs/events/(\d{1,2})-(\d{1,2})(?:-(\d{2}))?")
 
 BROWSER = {
@@ -72,14 +74,20 @@ class OtherNatureScraper(BaseScraper):
                 break
         if not title or not href:
             return None
-        m = SLUG_DATE.search(href)
-        if not m:
-            return None
-        day, mon = int(m.group(1)), int(m.group(2))
-        if m.group(3):
-            year = 2000 + int(m.group(3))
+        # Prefer the date from the title ("18.06.26 // Name"); fall back to slug.
+        tm = TITLE_DATE.match(title)
+        if tm:
+            day, mon, year = int(tm.group(1)), int(tm.group(2)), 2000 + int(tm.group(3))
+            title = tm.group(4).strip()
         else:
-            year = today.year + (1 if (mon, day) < (today.month, today.day) else 0)
+            m = SLUG_DATE.search(href)
+            if not m:
+                return None
+            day, mon = int(m.group(1)), int(m.group(2))
+            year = (2000 + int(m.group(3)) if m.group(3)
+                    else today.year + (1 if (mon, day) < (today.month, today.day) else 0))
+        if not title:
+            return None
         try:
             start = _dt.datetime(year, mon, day, 19, 0)
         except ValueError:

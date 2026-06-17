@@ -1655,34 +1655,42 @@ a.showing-time:hover {
 }
 
 .splash-inner {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: clamp(14px, 4vw, 26px);
-  padding: 24px;
-  max-width: 94vw;
+  position: relative;
+  width: min(94vw, 420px);
   animation: splash-pop 0.4s ease both;
 }
 
-/* Ransom-Titel oben ("Mund zu Mund", zweizeilig) + unten ("Kalender"). */
-.splash-title-top {
-  width: min(80vw, 380px);
-  height: auto;
-}
-.splash-title-bottom {
-  width: min(62vw, 300px);
-  height: auto;
-}
-
-/* Zwei zufällige Münder nebeneinander, dazwischen. */
+/* Münder sind der Anker und sitzen exakt in der Bildschirmmitte; die
+   Ransom-Titel hängen absolut darüber ("Mund zu Mund") und darunter
+   ("Kalender"), damit die Münder mittig bleiben. */
 .splash-mouths {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: clamp(10px, 4vw, 22px);
 }
 .splash-mouth {
   height: clamp(58px, 17vw, 104px);
   width: auto;
+}
+
+.splash-title-top {
+  position: absolute;
+  left: 50%;
+  bottom: 100%;
+  transform: translateX(-50%);
+  margin-bottom: clamp(16px, 5vw, 30px);
+  width: min(80vw, 380px);
+  height: auto;
+}
+.splash-title-bottom {
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translateX(-50%);
+  margin-top: clamp(16px, 5vw, 30px);
+  width: min(62vw, 300px);
+  height: auto;
 }
 
 @keyframes splash-pop {

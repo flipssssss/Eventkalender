@@ -1,86 +1,88 @@
-URL: https://www.moebel-olfe.de/programm.php
-  HTTP-Status: 200
-  HTML-Länge: 10360 Zeichen
-  JSON-LD vorhanden: False
-  Events gefunden: 0
-  Mögliche Programm-Unterseiten:
-    - https://www.moebel-olfe.de/programm.php
-  (keine Skript-Endpunkte gefunden)
-  (keine Inline-Skripte)
-  Body (ohne CSS/JS):
-<body>
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html><body>
-<br/>
-<br/>
-</body></html>
-<main class="wrap">
-<table border="0" cellpadding="0" cellspacing="0">
-<tbody>
-<tr>
-<td colspan="4">
-<div class="logo-wrapper">
-<img alt="Logo MÃ¶bel-Olfe" class="logo-img" src="images/logo02.gif"/>
-</div>
-</td>
-</tr>
-<tr><td colspan="4"><br/></td></tr>
-<tr>
-<td valign="top">
-<nav aria-label="Hauptnavigation" class="prog-nav">
-<table border="0" cellpadding="0" cellspacing="0">
-<tbody>
-<tr><td><img height="30" src="images/spacer.gif" width="1"/></td></tr>
-<tr><td height="40"><a href="index.html">HEIMAT</a></td></tr>
-<tr><td height="40"><a href="programm.php">PROGRAMM</a></td></tr>
-<tr><td height="40"><a href="soli.html">Solidarität vom Fass</a></td></tr>
-<tr><td height="40"><a href="mieten.html">Olfe mieten</a></td></tr>
-<tr><td height="40"><a href="location.html">Adresse</a></td></tr>
-<tr><td height="40"><a href="kontakt.html">Kontakt</a></td></tr>
-<tr><td height="40"><a href="mailing.html">Newsletter</a></td></tr>
-<tr><td height="40"><a href="impressum.html">Impressum</a></td></tr>
-</tbody>
-</table>
-</nav>
-</td>
-<td align="left" colspan="3" valign="top">
-<nav aria-label="Hauptnavigation (mobil)" class="prog-nav-mobile">
-<ul>
-<li><a href="index.html">HEIMAT</a></li>
-<li><a href="programm.php">PROGRAMM</a></li>
-<li><a href="soli.html">Solidarität vom Fass</a></li>
-<li><a href="mieten.html">Olfe mieten</a></li>
-<li><a href="location.html">Adresse</a></li>
-<li><a href="kontakt.html">Kontakt</a></li>
-<li><a href="mailing.html">Newsletter</a></li>
-<li><a href="impressum.html">Impressum</a></li>
-</ul>
-</nav>
-<h3 class="prog-title">Heute, Morgen und &amp; später in der Olfe....</h3>
+event-blocks: 12 | Events: 0
+
 <div class="event-block">
-<!-- Zeile 1: Datum + Titel -->
-<div class="event-row-1">
-<div class="event-time">Donnerstag, 18. Juni 21:30</div>
-<div class="event-title">Schwulenschubsen</div>
+ <!-- Zeile 1: Datum + Titel -->
+ <div class="event-row-1">
+  <div class="event-time">
+   Donnerstag, 18. Juni 21:30
+  </div>
+  <div class="event-title">
+   Schwulenschubsen
+  </div>
+ </div>
+ <!-- Zeile 2: Bild + Beschreibung -->
+ <div class="event-row-2">
+  <div class="event-image event-image--empty">
+  </div>
+  <div class="event-description">
+   Tam Tam
+  </div>
+ </div>
 </div>
-<!-- Zeile 2: Bild + Beschreibung -->
-<div class="event-row-2">
-<div class="event-image event-image--empty"></div>
-<div class="event-description">
-            Tam Tam          </div>
-</div>
-</div>
+
+
+----
 <div class="event-block">
-<!-- Zeile 1: Datum + Titel -->
-<div class="event-row-1">
-<div class="event-time">Freitag, 19. Juni 22:00</div>
-<div class="event-title">Mx Sür</div>
+ <!-- Zeile 1: Datum + Titel -->
+ <div class="event-row-1">
+  <div class="event-time">
+   Freitag, 19. Juni 22:00
+  </div>
+  <div class="event-title">
+   Mx Sür
+  </div>
+ </div>
+ <!-- Zeile 2: Bild + Beschreibung -->
+ <div class="event-row-2">
+  <div class="event-image">
+   <img alt="" src="ProgrammFotos/Max_S_r_2026_06_19.jpg"/>
+  </div>
+  <div class="event-description">
+   [Kim] is an audio &amp; video collage artist working with personal narratives and underground collective experiences. Since 2007; they have contributed to the unifying power of music and dance through eclectic mixes that celebrate rebellion, inclusivity, liberation, and sharing.
+
+
+
+Drawing on the transformative energy of music and visuals, their work explores themes of resistance, freedom and intimacy, with influences ranging from the allure of chaos to the mystery of the void.
+  </div>
+ <
+
+----
+<div class="event-block">
+ <!-- Zeile 1: Datum + Titel -->
+ <div class="event-row-1">
+  <div class="event-time">
+   Samstag, 20. Juni 21:30
+  </div>
+  <div class="event-title">
+   Jane D.
+  </div>
+ </div>
+ <!-- Zeile 2: Bild + Beschreibung -->
+ <div class="event-row-2">
+  <div class="event-image event-image--empty">
+  </div>
+ </div>
 </div>
-<!-- Zeile 2: Bild + Beschreibung -->
-<div class="event-row-2">
-<div class="event-image">
-<img alt="" src="ProgrammFotos/Max_S_r_2026_06_19.jpg"/>
+
+
+----
+<div class="event-block">
+ <!-- Zeile 1: Datum + Titel -->
+ <div class="event-row-1">
+  <div class="event-time">
+   Dienstag, 23. Juni 21:00
+  </div>
+  <div class="event-title">
+   FLINTA*-Abend
+  </div>
+ </div>
+ <!-- Zeile 2: Bild + Beschreibung -->
+ <div class="event-row-2">
+  <div class="event-image">
+   <img alt="" src="ProgrammFotos/FLINTA_ast_Abend_2026_06_23.jpg"/>
+  </div>
+  <div class="event-description">
+   mma Kgosi
+  </div>
+ </div>
 </div>
-<div class="event-description">
-            [Kim] is an 
-------------------------------------------------------------

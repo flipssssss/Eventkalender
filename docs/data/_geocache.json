@@ -153,6 +153,7 @@
  },
  "Amtsgericht Tiergarten Turmstr. 91 10559 Berlin Deutschland": null,
  "Amtsgericht Tiergarten Turmstr. 91 10559, 10559 Berlin": null,
+ "Amtsgericht Tiergarten, Saal A672, Turmstraße 91, 10559 Berlin": null,
  "Anna Landsberger Prötzeler Ring 13 12685 Berlin Deutschland": {
   "address": "Prötzeler Ring 13, 12685 Marzahn",
   "bezirk": "Marzahn-Hellersdorf",
@@ -1615,6 +1616,12 @@
   "bezirk": "Mitte",
   "lat": 52.5254923,
   "lng": 13.3526659
+ },
+ "Turmstraße 91, 10559 Berlin": {
+  "address": "Turmstraße 91, 10559 Moabit",
+  "bezirk": "Mitte",
+  "lat": 52.5259741,
+  "lng": 13.3540779
  },
  "Türrschmidtstraße 1 10317 Berlin Deutschland": {
   "address": "Türrschmidtstraße 1, 10317 Rummelsburg",

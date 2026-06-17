@@ -732,6 +732,20 @@ const COLLAPSE_CATS = {
   Kino: { label: "Kino", one: "Film", many: "Filme" },
 };
 
+// Singular/Plural je Kategorie für "+ N weitere …".
+const CATEGORY_NOUN = {
+  Theater: ["Theater", "Theater"],
+  Kino: ["Film", "Filme"],
+  Konzert: ["Konzert", "Konzerte"],
+  Party: ["Party", "Partys"],
+  Vortrag: ["Vortrag", "Vorträge"],
+  Protest: ["Protest", "Proteste"],
+  Workshop: ["Workshop", "Workshops"],
+  Ausstellung: ["Ausstellung", "Ausstellungen"],
+  Essen: ["Essen", "Essen"],
+  Sonstiges: ["Eintrag", "Einträge"],
+};
+
 function shouldCollapse(cat) {
   if (!COLLAPSE_CATS[cat]) return false;
   if (state.query || state.onlyFav) return false;
@@ -763,8 +777,8 @@ function appendCategoryCards(container, cat, list, day, preview) {
   const rest = list.slice(preview);
   for (const ev of head) grid.appendChild(renderCard(ev, day));
 
-  const meta = COLLAPSE_CATS[cat];
-  const noun = meta ? " " + (rest.length === 1 ? meta.one : meta.many) : "";
+  const n = CATEGORY_NOUN[cat];
+  const noun = n ? " " + (rest.length === 1 ? n[0] : n[1]) : "";
   const det = document.createElement("details");
   det.className = "cat-collapse";
   const sum = document.createElement("summary");

@@ -1,8 +1,20 @@
 Events: 0
 
-/veranstaltungsart/highlights-konzerte (Konzert): time-Elemente=0 -> 0
-(kein Teaser)
+/veranstaltungsart/highlights-konzerte (Konzert): +0
+Detail-Links: 0
+article-Elemente: 48
+views-row: 1
+node-Elemente: 0
+time[datetime]: 0
+--- kein Detail-Link, main-Region (Text) ---
+KONZERTE musical spheres im September 3 x 30 Minuten zzgl. Pausen | ab 12 Jahren musical spheres im November 3 x 30 Minuten zzgl. Pausen | ab 12 Jahren Peter Schilling live – Major Tom: völlig losgelöst ab 12 Jahren Ein virtuoser Kosmos 60 min | ab 10 Jahren Ambient Klassik: Mit dem Klavier zu den Sternen 90 min (ohne Pause) | ab 12 Jahren Distant Bells – The Music of Pink Floyd Live Under the Stars 90 min | ab 12 Jahren | Für Tickets für Rollstuhlfahrer*innen und Begleitpersonen melden Sie sich bitte über unsere Tickethotline. 25 Jahre »Le Voyage Abstrait« 2 x 60 min inkl. Pause | ab 12 Jahren MUSIKPROGRAMME Cosmic Movie Melodies 60 min | ab 10 Jahre Cosmic Rock 60 min | ab 12 Jahren Cosmic Jazz 60 min | ab 12 Jahren Cosmic Opera 60 min | ab 10 Jahren Major Tom: völlig losgelöst 55 min | 
 
-----
-/veranstaltungsart/hoerspiele-lesungen (Vortrag): time-Elemente=0 -> 0
-(kein Teaser)
+========
+/veranstaltungsart/hoerspiele-lesungen (Vortrag): +0
+Detail-Links: 0
+article-Elemente: 12
+views-row: 1
+node-Elemente: 0
+time[datetime]: 0
+--- kein Detail-Link, main-Region (Text) ---
+Cosmorama – Per Funkwellen durch die Galaxis Radiosendung | 120 min | 100,6 FluxFM Berlin Der Traumzauberbaum 50 min | ab 4 Jahren Die drei ??? und die Salztote 102 min | empfohlen ab 10 Jahren Die Drei ??? und das Dorf der Teufel 93 min | ab 8 Jahren Die drei ??? und die singende Schlange 90 min | ab 8 Jahren Ohrka-Hörklub ca. 60 min | ab 6 Jahren | kostenfrei (Reservierung unter: +49 30 421 845-10 oder ticket@planetarium.berlin)

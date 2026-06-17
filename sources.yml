@@ -62,19 +62,13 @@ sources:
   # FunFacts -> eigener Ausleser (scrapers/funfacts.py): Wix-Events ohne
   # JSON-LD, server-gerenderte data-hooks; nur Berlin (Mehringhof-Theater).
 
-  # Jazz-Clubs -- alle Events als Konzert (Genre Kultur per Default). Erst per
-  # JSON-LD versucht; liefert eine Seite nichts, zeigt ihre Debug-Datei die
-  # Struktur für einen eigenen Ausleser (wie bei rosalux/funfacts).
-  - url: https://www.visitberlin.de/de/kategorie/blues-jazz
-    name: visitBerlin Jazz
-    category: Konzert
-  - url: https://b-flat-berlin.de/
-    name: B-flat
-    category: Konzert
+  # Jazz-Clubs -- alle Events als Konzert (Genre Kultur per Default).
+  # A-Trane liefert sauberes JSON-LD; B-flat (Squarespace) und visitBerlin
+  # (Detailseiten) laufen über eigene Ausleser (in aggregate.py registriert).
   - url: https://www.a-trane.de/
     name: A-Trane
     category: Konzert
-  - url: https://zigzag-jazzclub.de/
+  - url: https://www.zigzag-jazzclub.de/
     name: Zig Zag
     category: Konzert
   # Boiler -> eigener Ausleser (scrapers/boiler.py), HTML-Liste.

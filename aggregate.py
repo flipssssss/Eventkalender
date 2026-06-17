@@ -50,6 +50,8 @@ from scrapers.kino import BerlinKinoScraper, group_screenings
 from scrapers import openinghours
 from scrapers.rosalux import RosaLuxScraper
 from scrapers.funfacts import FunFactsScraper
+from scrapers.squarespace import SquarespaceEventsScraper
+from scrapers.visitberlin import VisitBerlinJazzScraper
 
 ROOT = pathlib.Path(__file__).parent
 OUTPUT = ROOT / "docs" / "data" / "events.json"
@@ -170,6 +172,11 @@ def get_scrapers():
         RosaLuxScraper(city="Berlin"),
         # FunFacts (Comedy/Talk) -- Wix-Events, nur Berlin (Mehringhof-Theater).
         FunFactsScraper(city="Berlin"),
+        # Jazz: B-flat (Squarespace-JSON) und visitBerlin (Detailseiten-JSON-LD).
+        SquarespaceEventsScraper(
+            "B-flat", "https://b-flat-berlin.de/programm", category="Konzert",
+            address="Rosenthaler Str. 13, 10119 Berlin"),
+        VisitBerlinJazzScraper(category="Konzert"),
         # tip Berlin -- deaktiviert: keine erreichbare Quelle für Event-Daten
         # (proprietäres "rce"-Plugin, Bot-Schutz, Ausstellungen ohne Termin).
         # TipBerlinScraper(),

@@ -73,6 +73,8 @@ class Event:
     # Exhibitions: weekly opening hours of the venue ({"mo": "10–18"|None, ...}).
     # Lets the feed hide closed days and show the day's hours. None when unknown.
     opening_hours: dict | None = None
+    # Concerts: coarse music genre (Jazz, Punk, Techno ...), shown after "Konzert".
+    music_genre: str | None = None
 
     def dedupe_key(self) -> str:
         """Identify duplicate events, also across different sources.
@@ -113,6 +115,7 @@ class Event:
             "bezirk": self.bezirk,
             "showings": self.showings,
             "opening_hours": self.opening_hours,
+            "music_genre": self.music_genre,
         }
 
 

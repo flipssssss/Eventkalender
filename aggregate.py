@@ -28,6 +28,7 @@ from scrapers.base import Event, parse_datetime
 from scrapers.berlin_buehnen import BerlinBuehnenScraper
 from scrapers.categories import categorize
 from scrapers.genres import genre_for
+from scrapers.musicgenre import music_genre_for
 from scrapers import geocode
 from scrapers.donau115 import Donau115Scraper
 from scrapers.kulturdaten import KulturdatenScraper
@@ -254,6 +255,11 @@ def filter_and_sort(events: list[Event]) -> list[Event]:
                 event.title, event.description, event.location, " ".join(event.tags),
             ]))
             event.genre = genre_for(event.source_name, text)
+        # Concerts get a coarse music genre (shown after "Konzert").
+        if primary == "Konzert" and not event.music_genre:
+            event.music_genre = music_genre_for(
+                event.source_name,
+                " ".join(filter(None, [event.title, event.description])))
 
         key = event.dedupe_key()
         existing = kept.get(key)

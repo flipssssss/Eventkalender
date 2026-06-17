@@ -60,23 +60,30 @@ class SquarespaceEventsScraper(BaseScraper):
         except Exception as exc:  # noqa: BLE001
             self._dump(f"FEHLER: {exc}")
             return []
-        items = data.get("items") or []
+        items = (data.get("items") or data.get("upcoming")
+                 or data.get("past") or [])
         events: list[Event] = []
         for it in items:
             ev = self._build(it)
             if ev:
                 events.append(ev)
-        self._dump(f"items: {len(items)} | Events: {len(events)}\n" +
-                   "\n".join(f"  {e.start} | {e.title}" for e in events[:30]))
+        sample = items[0] if items else {}
+        self._dump(
+            f"top-keys: {list(data.keys())[:15]}\n"
+            f"items: {len(items)} | Events: {len(events)}\n"
+            f"erstes item keys: {list(sample.keys())[:25]}\n" +
+            "\n".join(f"  {e.start} | {e.title}" for e in events[:30]))
         return events
 
     def _build(self, it: dict) -> Event | None:
-        start_ms = it.get("startDate")
+        sc = it.get("structuredContent") or {}
+        start_ms = it.get("startDate") or sc.get("startDate")
+        end_ms = it.get("endDate") or sc.get("endDate")
         title = (it.get("title") or "").strip()
         if not isinstance(start_ms, (int, float)) or not title:
             return None
         start = self._dt(start_ms)
-        end = self._dt(it.get("endDate")) if it.get("endDate") else None
+        end = self._dt(end_ms) if isinstance(end_ms, (int, float)) else None
         if end and end <= start:
             end = None
         href = it.get("fullUrl") or ""

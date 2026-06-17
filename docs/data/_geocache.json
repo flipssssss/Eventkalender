@@ -1080,6 +1080,12 @@
   "lat": 52.5439729,
   "lng": 13.3537373
  },
+ "Luxemburger Straße 9, 13353 Berlin": {
+  "address": "Luxemburger Straße 8,9, 13353 Wedding",
+  "bezirk": "Mitte",
+  "lat": 52.545711,
+  "lng": 13.3552968
+ },
  "Lützowstraße 28, 10785 Berlin": {
   "address": "Lützowstraße 28, 10785 Tiergarten",
   "bezirk": "Mitte",
@@ -1329,6 +1335,12 @@
   "lng": 13.4268698
  },
  "Regenbogenfabrik Lausitzer Str. 22 10999, 10999 Berlin": null,
+ "Reichenberger Str. 177, 10999 Berlin": {
+  "address": "Reichenberger Straße 177, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5000581,
+  "lng": 13.4174433
+ },
  "Reichenberger Str. 63a, 10999 Berlin": {
   "address": "Reichenberger Straße 63a, 10999 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -1660,6 +1672,7 @@
   "lng": 13.4119171
  },
  "Volkssolidarität \"Mehr Mitte\" Torstraße 190 10115 Berlin Deutschland": null,
+ "Vor der BHT-Mensa, Luxemburger Straße 9, 13353 Berlin": null,
  "Wagenburg Lohmühle Lohmühlenstr. 17 12435 Berlin Deutschland": null,
  "Wagenburg Lohmühle Lohmühlenstr. 17 12435, 12435 Berlin": null,
  "Wedding Berlin": {

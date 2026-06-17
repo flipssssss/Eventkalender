@@ -1,5 +1,4 @@
 Events: 30
-  2026-06-17 17:00:00 | youngStars
   2026-06-18 17:00:00 | ‘Grüner Donnerstag’
   2026-06-19 17:00:00 | Aufgüsse am Freitag
   2026-06-20 17:00:00 | Aufgüsse am Samstag
@@ -24,3 +23,4 @@ Events: 30
   2026-07-09 17:00:00 | Wohlfühlabend
   2026-07-10 17:00:00 | Aufgüsse am Freitag
   2026-07-11 17:00:00 | Aufgüsse am Samstag
+  2026-07-12 17:00:00 | Aufgüsse am Sonntag

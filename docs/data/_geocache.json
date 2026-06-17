@@ -277,6 +277,12 @@
   "lat": 52.5073394,
   "lng": 13.3200854
  },
+ "Bleibtreustraße 1, 10625 Charlottenburg, Berlin": {
+  "address": "Bleibtreustraße 1, 10625 Charlottenburg",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.5073394,
+  "lng": 13.3200854
+ },
  "Blücherplatz 1, 10961 Berlin": {
   "address": "Blücherplatz 1, 10961 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",

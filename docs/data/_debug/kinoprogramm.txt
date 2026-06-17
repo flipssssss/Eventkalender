@@ -1,5 +1,5 @@
-Vorstellungen gesamt: 280 | Filmbilder: 253
-Sputnik: 42 Vorstellungen
+Vorstellungen gesamt: 238 | Filmbilder: 214
+Sputnik: FEHLER ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
 Lichtblick: 15 Vorstellungen
 Kino Zukunft: 23 Vorstellungen
 Ladenkino: 150 Vorstellungen

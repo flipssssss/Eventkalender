@@ -302,6 +302,12 @@
   "lat": 52.5133426,
   "lng": 13.4555767
  },
+ "Boxhagener Straße 18, 10245 Friedrichshain, Berlin": {
+  "address": "Boxhagener Straße 18, 10245 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5128209,
+  "lng": 13.4551231
+ },
  "Brebacher Weg 15, 12683 Berlin": {
   "address": "Brebacher Weg 15, 12683 Biesdorf",
   "bezirk": "Marzahn-Hellersdorf",
@@ -1353,6 +1359,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.4952361,
   "lng": 13.4307312
+ },
+ "Reichenberger Straße 177, 10999 Kreuzberg, Berlin": {
+  "address": "Reichenberger Straße 177, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5000581,
+  "lng": 13.4174433
  },
  "Revaler Str. 99, 10245 Berlin": {
   "address": "Revaler Straße 99, 10245 Friedrichshain",

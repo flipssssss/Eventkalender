@@ -1,7 +1,7 @@
 entries: 6 | Events: 6
-  2026-06-18 19:00:00 | 18.06.26 // Rethinking Relationships Game Night
-  2023-04-04 19:00:00 | 07.07.26 // Best Blow Job Skills
-  2026-06-19 19:00:00 | 09.07.26 // How To Go Pro
-  2026-07-14 19:00:00 | 14.7.26 // Einführung in Japanese Rope Bondage
-  2025-07-31 19:00:00 | 28.07.26 // Die queere* und trans Geschichte Berlins
-  2025-06-29 19:00:00 | 30.07.26 // Berlin's Queer and Trans History
+  2026-06-18 19:00:00 | Rethinking Relationships Game Night
+  2026-07-07 19:00:00 | Best Blow Job Skills
+  2026-07-09 19:00:00 | How To Go Pro
+  2026-07-14 19:00:00 | Einführung in Japanese Rope Bondage
+  2026-07-28 19:00:00 | Die queere* und trans Geschichte Berlins
+  2026-07-30 19:00:00 | Berlin's Queer and Trans History

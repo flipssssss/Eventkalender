@@ -44,6 +44,28 @@ def _strip(html: str | None) -> str | None:
     return t[:500] or None
 
 
+# Tag/title keywords -> our category. Checked top to bottom; non-concert types
+# win over "it has a music tag", so a punk-scene exhibition stays Ausstellung.
+_CAT_RULES = [
+    ("Ausstellung", ("exhibition", "ausstellung", "vernissage", "gallery",
+                     "galerie", "street art", "kunst")),
+    ("Workshop", ("workshop", "siebdruck", "screenprint", "skillshare",
+                  "repair", "näh", "selbsthilfe", "infoveranstaltung")),
+    ("Essen", ("vokü", "voküe", "küfa", "kuefa", "soli-dinner", "brunch", "dinner")),
+    ("Protest", ("demo", "kundgebung", "protest", "streik", "strike",
+                 "besetzung", "kiezspaziergang")),
+    ("Kino", ("filmvorführung", "filmscreening", "film screening", "kino",
+              "screening", "doku")),
+    ("Theater", ("theater", "theatre", "performance", "tanztheater")),
+    ("Vortrag", ("lesung", "reading", "vortrag", "talk", "diskussion",
+                 "präsentation", "buchvorstellung", "podium")),
+    ("Party", ("party", "rave", "club night", "clubnight", "dj set", "tanzen",
+               "queer party", "disko")),
+    ("Sonstiges", ("tour", "spaziergang", "walk", "wanderung", "ausflug",
+                   "treffen", "plenum", "meeting", "stammtisch")),
+]
+
+
 class GancioScraper(BaseScraper):
     def __init__(self, name: str, base_url: str, *, category: str = "Konzert",
                  horizon_days: int = 120, write_debug: bool = True):
@@ -93,8 +115,10 @@ class GancioScraper(BaseScraper):
             image = f"{self.base}/media/{media[0]['url']}"
         tags = e.get("tags") or []
         slug = e.get("slug") or ""
-        mg = music_genre_for(None, " ".join([title, " ".join(
-            t if isinstance(t, str) else "" for t in tags), e.get("description") or ""]))
+        tagtext = " ".join(t for t in tags if isinstance(t, str))
+        text = " ".join([title, tagtext, e.get("description") or ""])
+        mg = music_genre_for(None, text)
+        category = self._category(text.lower(), bool(mg))
         ev = Event(
             title=title[:160],
             start=start,
@@ -105,10 +129,17 @@ class GancioScraper(BaseScraper):
             address=place.get("address"),
             description=_strip(e.get("description")),
             image_url=image,
-            tags=[self.category],
-            music_genre=mg,
+            tags=[category],
+            music_genre=mg if category == "Konzert" else None,
         )
         return ev
+
+    def _category(self, text: str, has_music: bool) -> str:
+        for cat, kws in _CAT_RULES:
+            if any(k in text for k in kws):
+                return cat
+        # No explicit type -> a music genre means concert, else leftover.
+        return self.category if has_music else "Sonstiges"
 
     def _dump(self, text: str) -> None:
         if not self.write_debug:

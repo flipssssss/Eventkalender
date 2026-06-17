@@ -1,99 +1,10 @@
-URL: https://www.iksk-berlin.de/Program
-  HTTP-Status: 200
-  HTML-Länge: 279287 Zeichen
-  JSON-LD vorhanden: False
-  Events gefunden: 0
-  Mögliche Programm-Unterseiten:
-    - https://gaylovespirit.org/page/en/gp/men-s-massage-event
-    - https://urbanutopia.berlin/programm/#day2
-    - https://www.luhmendarc.com/events/fucking-problems-playful-explorations-20260718
-    - https://www.mariesauvage.com/events/p/ginqpphypdh7j67r1pi8rzfv0ip2zc
-  URL-Strings im Skript: , () => {
-		// Collects client data and updates cookies used by smart sites
-		window.expireDays = 365;
-		window.visitLength = 30 * 60000;
-		$.setCookie(, , err);
-                    }
-                )
-                .catch(function (err) {
-                    console.log(err);
-                });
-        });
-
-        // helper function to refresh the page
-        var refreshPage = (function () {
-            var refreshing;
-            return function () {
-                if (refreshing) return;
-                // prevent multiple refreshes
-                var refreshkey = , http://www.iksk-berlin.de/, https://app.multiscreenstore.com/script.js, https://app.multiscreenstore.com/script.js?35888098&lang=en, https://integration.mywebsite-editor.com/dakota-snippet-service/snippet/integration/snippet.js?sitename=, https://le-cdn.website-editor.net/, https://rtc.website-editor.net, https://static-cdn.website-editor.net, https://static-cdn.website-editor.net/mnlt/production/6560
-  Externe Skripte: https://static-cdn.website-editor.net/libs/jquery/2.2.4/jquery.min.js, https://static-cdn.website-editor.net/mnlt/production/6560/_dm/s/rt/dist/scripts/d-js-one-runtime-unified-desktop.min.js
-  Größtes Inline-Skript (4882 Zeichen)
-  --- ANFANG ---
-
-    window.INSITE = window.INSITE || {};
-    window.INSITE.device = "desktop";
-
-    window.rtCommonProps = {};
-    rtCommonProps["rt.ajax.ajaxScriptsFix"] =true;
-    rtCommonProps["rt.pushnotifs.sslframe.encoded"] = 'aHR0cHM6Ly97c3ViZG9tYWlufS5wdXNoLW5vdGlmcy5jb20=';
-    rtCommonProps["runtimecollector.url"] = 'https://rtc.website-editor.net';
-    rtCommonProps["performance.tabletPreview.removeScroll"] = 'false';
-    rtCommonProps["inlineEditGrid.snap"] =true;
-    rtCommonProps["popup.insite.cookie.ttl"] = '0.5';
-    rtCommonProps["rt.pushnotifs.force.button"] =true;
-    rtCommonProps["common.mapbox.token"] = 'pk.eyJ1IjoiZGFubnliMTIzIiwiYSI6ImNqMGljZ256dzAwMDAycXBkdWxwbDgzeXYifQ.Ck5P-0NKPVKAZ6SH98gxxw';
-    rtCommonProps["common.mapbox.js.override"] =false;
-    rtCommonProps["common.here.appId"] = 'iYvDjIQ2quyEu0rg0hLo';
-    rtCommonProps["common.here.appCode"] = '1hcIxLJcbybmtBYTD9Z1UA';
-    rtCommonProps["isCoverage.test"] =false;
-    rtCommonProps["ecommerce.ecwid.script"] = 'https://app.multiscreenstore.com/script.js';
-    rtCommonProps["common.resources.dist.cdn"] =true;
-    rtCommonProps["common.build.dist.folder"] = 'production/6560';
-    rtCommonProps["common.resources.cdn.host"] = 'https://static-cdn.website-editor.net';
-    rtCommonProps["common.resources.folder"] = 'https://static-cdn.website-editor.net/mnlt/production/6560';
-    rtCommonProps["feature.flag.runtime.backgroundSlider.preload.slowly"] =true;
-    rtCommonProps["feature.flag.runtime.newAnimation.enabled"] =true;
-    rtCommonProps["feature.flag.runtime.newAnimation.jitAnimation.enabled"] =true;
-    rtCommonProps["feature.flag.sites.google.analytics.gtag"] =true;
-    rtCommonProps["feature.flag.runOnReadyNewTask"] =true;
-    rtCommonProps["isAutomation.test"] =false;
-    rtCommonProps["booking.cal.
-  --- ENDE ---
-kiebot.mapbox.consent.category"] = 'marketing';
-    rtCommonProps["termly.mapbox.consent.category"] = 'performance';
-    // feature flags that's used out of runtime module (in  legacy files)
-    rtCommonProps["platform.monolith.personalization.dateTimeCondition.popupMsgAction.moveToclient.enabled"] =true;
-
-    window.rtFlags = {};
-    rtFlags["unsuspendEcwidStoreOnRuntime.enabled"] =false;
-    rtFlags["scripts.widgetCount.enabled"] =true;
-    rtFlags["fnb.animations.tracking.enabled"] =true;
-    rtFlags["ecom.ecwidNewUrlStructure.enabled"] = false;
-    rtFlags["ecom.ecwid.accountPage.emptyBaseUrl.enabled"] = true;
-    rtFlags["ecom.ecwid.pages.links.disable.listeners"] = true;
-    rtFlags["ecom.ecwid.storefrontV3.enabled"] = false;
-    rtFlags["ecom.ecwid.old.store.fix.facebook.share"] = true;
-    rtFlags["feature.flag.photo.gallery.exact.size"] =true;
-    rtFlags["geocode.search.localize"] =false;
-    rtFlags["feature.flag.runtime.newAnimation.asyncInit.setTimeout.enabled"] =false;
-    rtFlags["twitter.heightLimit.enabled"] = true;
-    rtFlags["runtime.lottieOverflow"] =false;
-    rtFlags["runtime.monitoring.sentry.ignoreErrors"] = "";
-    rtFlags["streamline.monolith.personalization.supportMultipleConditions.enabled"] =false;
-    rtFlags["flex.animation.design.panel.layout"] =true;
-    rtFlags["runtime.cwv.report.cls.enabled"] =false;
-    rtFlags["runtime.cwv.report.lcp.enabled"] =false;
-    rtFlags["contact.form.useActiveForm"] =true;
-    rtFlags["contact.form.custom.errors.enabled"] =false;
-    rtFlags["runtime.ssr.productStore.internal.observer"] =true;
-    rtFlags["runtime.ssr.productCustomizations"] =true;
-    rtFlags["runtime.ssr.runtime.filter-sort.newFilterSortWidgetWithOptions.enabled"] =true;
-    rtFlags["runtime.ssr.ssrSlider.jumpThreshold.enabled"] =true;
-
-  Body (ohne CSS/JS):
-ont-size-19 font-size-24" style="display: initial; font-style: italic; text-decoration: underline;">specials</strong></p><p class="m-size-19 size-24"><strong class="m-font-size-19 font-size-24" style="display: initial;">SELF DECONSTRUCTION</strong><span class="m-font-size-19 font-size-24" style="display: initial;"><span class="m-font-size-19 font-size-24" style="display: initial;">// Fakeera// 3.-5.06.//</span>
-</span><a class="m-font-size-19 font-size-24" href="https://www.iksk-berlin.de/self-deconstruction-fakeera" runtime_url="https://www.iksk-berlin.de/self-deconstruction-fakeera" style="display: initial;" type="page">MORE</a></p><p class="m-size-19 size-24"><strong class="m-font-size-19 font-size-24" style="display: initial; font-weight: bold;">FUCKING PROBLEMS</strong><span class="m-font-size-19 font-size-24" style="display: initial;"> <span class="m-font-size-19 font-size-24" style="display: initial;">// Lumen D'arc // 17.-19.07//</span>
-</span><a class="m-font-size-19 font-size-24" href="https://www.luhmendarc.com/events/fucking-problems-playful-explorations-20260718" runtime_url="https://www.luhmendarc.com/events/fucking-problems-playful-explorations-20260718" style="display: initial;" target="_blank" type="url">MORE</a></p><p class="m-size-19 size-24"><strong class="m-font-size-19 font-size-24" style="display: initial; font-weight: bold;">XPLORE BERLIN</strong><span class="m-font-size-19 font-size-24" style="display: initial;">//</span><span class="m-font-size-19 font-size-24" style="display: initial; font-style: italic;"> <span class="m-font-size-19 font-size-24" style="display: initial; font-style: italic;">"when the time is right..."</span></span><span class="m-font-size-19 font-size-24" style="display: initial;"><span class="m-font-size-19 font-size-24" style="display: initial;"> 31.07 - 02.08//</span>
-</span><a class="m-font-size-19 font-size-24" href="https://xplore-berlin.de/" runtime_url="https://xplore-berlin.de/" style="display: initial;" target="_blank" type="url">MORE</a></p><p><span class="m-font-size-19 font-size-24" style="display: initial;"><br/></span></p><p class="m-size-19 size-24"><strong class="m-font-size-19 font-size-24" style="display: initial; text-decoration: underline; font-weight: bold;">SEPTEMBER </strong><strong class="m-font-size-19 font-size-24" style="display: initial; text-decoration: underline; font-style: italic;">specials</strong></p><p class="m-size-19 size-24"><strong class="m-font-size-19 font-size-24" styl
-------------------------------------------------------------
+MORE-Links: 11 | Events: 9
+  2027-06-04 20:00:00 | JUNE
+  2027-06-12 20:00:00 | TOP'S SCHOOL
+  2026-06-19 20:00:00 | SENSUAL ROPES INMERSION
+  2027-06-03 20:00:00 | SELF DECONSTRUCTION
+  2026-07-17 20:00:00 | FUCKING PROBLEMS
+  2026-07-31 20:00:00 | XPLORE BERLIN
+  2026-09-13 20:00:00 | TEASE & TORMENT/
+  2026-10-31 20:00:00 | THE SALON OF EARTHLY DELIGHTS
+  2026-11-01 20:00:00 | THE ALCHEMY OF PAIN

@@ -94,6 +94,7 @@
   "lat": 52.4960989,
   "lng": 13.4153663
  },
+ "Ale Felcitas, Berlin": null,
  "Alexanderstr. 28, 10178 Berlin": {
   "address": "Kleine Alexanderstraße 28, 10178 Mitte",
   "bezirk": "Mitte",
@@ -1103,6 +1104,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5162846,
   "lng": 13.4422906
+ },
+ "Mareschstraße 14, 12055 Berlin": {
+  "address": "Mareschstraße 14, 12055 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4746587,
+  "lng": 13.4520113
  },
  "Mariannenplatz 1a 10997 berlin": {
   "address": "Mariannenplatz 1a, 10997 Kreuzberg",

@@ -62,6 +62,12 @@ sources:
   # FunFacts -> eigener Ausleser (scrapers/funfacts.py): Wix-Events ohne
   # JSON-LD, server-gerenderte data-hooks; nur Berlin (Mehringhof-Theater).
 
+  # Planetarium Berlin (Konzerte / Hörspiele & Lesungen). SPA -- erst per
+  # JSON-LD versucht; die Debug-Datei zeigt den API-Endpunkt für einen
+  # eigenen Ausleser.
+  - url: https://www.planetarium.berlin/tickets
+    name: Planetarium Berlin
+
   # Möbel Olfe -> eigener Ausleser (scrapers/moebelolfe.py): statische Tabelle.
   # Other Nature -> eigener Ausleser (scrapers/othernature.py): Shopify-Atom.
   # IKSK Berlin -> eigener Ausleser (scrapers/iksk.py): server-gerendert.

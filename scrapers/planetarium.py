@@ -133,13 +133,19 @@ class PlanetariumScraper(BaseScraper):
                 info_lines.append(
                     f"JSON-LD-Blöcke: {len(jsonld)} | time[datetime]: "
                     f"{len(times)} | Datumstreffer: {len(dates)}")
-                if times:
-                    info_lines.append("time-Beispiele: " + ", ".join(
-                        t.get("datetime", "") for t in times[:6]))
-                if dates:
-                    info_lines.append("Datum-Beispiele: " + ", ".join(dates[:8]))
-                if jsonld:
-                    info_lines.append("JSON-LD[0]: " + jsonld[0].get_text()[:600])
+                # Kleinste Elemente, die eine Uhrzeit enthalten -> Termin-Zeilen.
+                rows = []
+                for el in dsoup.find_all(string=re.compile(r"\d{1,2}[:.]\d{2}\s*Uhr")):
+                    parent = el.parent
+                    cls = " ".join(parent.get("class", []))
+                    rows.append(f"<{parent.name} class='{cls}'> "
+                                + parent.get_text(" ", strip=True)[:120])
+                    if len(rows) >= 8:
+                        break
+                info_lines.append(f"Uhrzeit-Zeilen: {len(rows)}")
+                info_lines.extend(rows)
+                if not rows and dates:
+                    info_lines.append("Datum-Beispiele: " + ", ".join(dates[:10]))
             except Exception as exc:  # noqa: BLE001
                 info_lines.append(f"Detail-Probe FEHLER: {exc}")
 

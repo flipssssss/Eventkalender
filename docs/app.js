@@ -1932,6 +1932,35 @@ window.addEventListener("resize", () => {
   }
 });
 
+// Auto-hide header: Genres + Kategorien klappen beim Runterscrollen weg und beim
+// Hochscrollen wieder auf (Tagesleiste bleibt). Ganz oben immer voll zeigen.
+let lastScrollY = window.scrollY;
+let scrollTicking = false;
+function onWindowScroll() {
+  scrollTicking = false;
+  const header = document.querySelector(".site-header");
+  if (header) {
+    const y = window.scrollY;
+    const delta = y - lastScrollY;
+    if (y < 60) {
+      header.classList.remove("compact");
+    } else if (delta > 4) {
+      header.classList.add("compact");      // runter -> wegklappen
+    } else if (delta < -4) {
+      header.classList.remove("compact");   // hoch -> wieder zeigen
+    }
+    lastScrollY = y;
+  }
+  headerOffset();        // geänderte Header-Höhe ins Sprungziel übernehmen
+  daySpyRecompute();     // aktiven Tag passend zur neuen Header-Linie setzen
+}
+window.addEventListener("scroll", () => {
+  if (!scrollTicking) {
+    scrollTicking = true;
+    requestAnimationFrame(onWindowScroll);
+  }
+}, { passive: true });
+
 function clearMapMarkers() {
   if (!leafletMap) return;
   for (const m of mapMarkers) leafletMap.removeLayer(m);
@@ -2097,6 +2126,9 @@ function buildDayTabs(sortedKeys, groups) {
 
 let dayIO = null;
 let lastActiveKey = null;
+// Exposed so the global scroll handler can re-check the active day while the
+// header collapses/expands (which changes the header line).
+let daySpyRecompute = () => {};
 
 // Both the click-to-jump target (CSS scroll-margin) and the scroll-spy line
 // must use the SAME, REAL header height -- otherwise jumps land behind the
@@ -2133,6 +2165,7 @@ function setupScrollSpy(sortedKeys) {
       setActiveTab(activeKey);
     }
   };
+  daySpyRecompute = recompute;
   dayIO = new IntersectionObserver(recompute, {
     rootMargin: `-${offset()}px 0px 0px 0px`,
     threshold: 0,

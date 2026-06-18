@@ -240,6 +240,18 @@
         <section class="settings-section">
           <h3 class="settings-h">Mitmachen</h3>
           <div class="action-list">
+            <button type="button" class="action-row" id="install-btn">
+              <span class="action-row__icon action-row__icon--app">
+                <img src="icons/icon-192.png" alt="" width="30" height="30" />
+              </span>
+              <span class="action-row__text">Als App hinzufügen</span>
+              <svg class="action-row__chev" viewBox="0 0 24 24" width="18" height="18"
+                   fill="none" stroke="currentColor" stroke-width="2"
+                   stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="9 6 15 12 9 18"/>
+              </svg>
+            </button>
+
             <button type="button" class="action-row" id="open-event">
               <span class="action-row__icon">
                 <svg viewBox="0 0 24 24" width="22" height="22" fill="none"
@@ -251,18 +263,6 @@
                 </svg>
               </span>
               <span class="action-row__text">Event hinzufügen</span>
-              <svg class="action-row__chev" viewBox="0 0 24 24" width="18" height="18"
-                   fill="none" stroke="currentColor" stroke-width="2"
-                   stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                <polyline points="9 6 15 12 9 18"/>
-              </svg>
-            </button>
-
-            <button type="button" class="action-row" id="install-btn">
-              <span class="action-row__icon action-row__icon--app">
-                <img src="icons/icon-192.png" alt="" width="30" height="30" />
-              </span>
-              <span class="action-row__text">Als App hinzufügen</span>
               <svg class="action-row__chev" viewBox="0 0 24 24" width="18" height="18"
                    fill="none" stroke="currentColor" stroke-width="2"
                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -292,16 +292,15 @@
     </div>
   </div>
 
-  <!-- Popup: Eigenes Event hinzufügen -->
-  <div class="modal-backdrop" id="event-backdrop" hidden>
-    <div class="modal action-modal" role="dialog" aria-modal="true"
+  <!-- Popup: Eigenes Event hinzufügen (Glas-Stil wie die App-Anleitung) -->
+  <div class="app-popup-backdrop" id="event-backdrop" hidden>
+    <div class="app-popup" role="dialog" aria-modal="true"
          aria-label="Event hinzufügen">
-      <button type="button" class="modal-close" id="event-close" aria-label="Schließen">✕</button>
-      <div class="modal-body">
-        <h2 class="modal-title">Event hinzufügen</h2>
-        <p class="settings-note">Füge ein Event hinzu, das dann für alle
-          sichtbar ist.</p>
-        <form id="mine-form" class="mine-form">
+      <button type="button" class="app-popup__close" id="event-close" aria-label="Schließen">✕</button>
+      <h2 class="app-popup__title">Event hinzufügen</h2>
+      <p class="settings-note">Füge ein Event hinzu, das dann für alle
+        sichtbar ist.</p>
+      <form id="mine-form" class="mine-form">
           <input id="mine-title" type="text" maxlength="140" required
                  placeholder="Titel *" autocomplete="off" />
           <div class="mine-row">
@@ -337,23 +336,20 @@
           <button type="submit" class="btn btn--primary" id="mine-send">Event hinzufügen</button>
           <p class="settings-note" id="mine-hint" hidden></p>
         </form>
-      </div>
     </div>
   </div>
 
-  <!-- Popup: Quelle vorschlagen -->
-  <div class="modal-backdrop" id="wish-backdrop" hidden>
-    <div class="modal action-modal" role="dialog" aria-modal="true"
+  <!-- Popup: Quelle vorschlagen (Glas-Stil wie die App-Anleitung) -->
+  <div class="app-popup-backdrop" id="wish-backdrop" hidden>
+    <div class="app-popup" role="dialog" aria-modal="true"
          aria-label="Quelle vorschlagen">
-      <button type="button" class="modal-close" id="wish-close" aria-label="Schließen">✕</button>
-      <div class="modal-body">
-        <h2 class="modal-title">Quelle vorschlagen</h2>
-        <p class="settings-note">Welche Website/Quelle fehlt dir? Adresse + kurz,
-          was es ist.</p>
-        <textarea id="wish-text" class="wish-text" rows="3"
-          placeholder="z. B. https://… – ein Club / Kollektiv / Kalender …"></textarea>
-        <button type="button" class="btn btn--primary" id="wish-send">Senden</button>
-      </div>
+      <button type="button" class="app-popup__close" id="wish-close" aria-label="Schließen">✕</button>
+      <h2 class="app-popup__title">Quelle vorschlagen</h2>
+      <p class="settings-note">Welche Website/Quelle fehlt dir? Adresse + kurz,
+        was es ist.</p>
+      <textarea id="wish-text" class="wish-text" rows="3"
+        placeholder="z. B. https://… – ein Club / Kollektiv / Kalender …"></textarea>
+      <button type="button" class="btn btn--primary" id="wish-send">Senden</button>
     </div>
   </div>
 

@@ -114,7 +114,11 @@ class PlanetariumScraper(BaseScraper):
             f"node-Elemente: {len(soup.select('[class*=node--]'))}",
             f"time[datetime]: {len(soup.select('time[datetime]'))}",
         ]
-        if cards:
+        arts = soup.select("article")
+        if arts:
+            info_lines.append("--- erstes <article> (roh) ---")
+            info_lines.append(arts[0].prettify()[:1600])
+        elif cards:
             info_lines.append("--- erstes Teaser-Element ---")
             info_lines.append(cards[0][1].prettify()[:1400])
         else:

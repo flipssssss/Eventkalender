@@ -1,3 +1,106 @@
 URL: https://www.a-trane.de/
-  FEHLER: HTTPSConnectionPool(host='www.a-trane.de', port=443): Read timed out. (read timeout=20)
+  HTTP-Status: 200
+  HTML-Länge: 1519680 Zeichen
+  JSON-LD vorhanden: True
+  Events gefunden: 60
+  Mögliche Programm-Unterseiten:
+    - https://a-trane.de/Events-Directory/a-trane-praesentiert-a-summer-residency-day1livaunspokendebutalbum-release-concertfeat-florian-schultz-laurie-rich-vincent-niessen-lucas-johnsonspecial-guest-max-hacker/
+    - https://a-trane.de/Events-Directory/a-trane-praesentiert-a-summer-residency-day1nils-kugelmannrebirthwhere-nights-unfoldcelebrating-5-years-of-the-triofeat-luca-zambito-sebastian-wolfgruber/
+    - https://a-trane.de/Events-Directory/a-trane-praesentiert-a-summer-residency-day2livaunspokendebutalbum-release-concertfeat-florian-schultz-laurie-rich-vincent-niessen-lucas-johnsonspecial-guest/
+    - https://a-trane.de/Events-Directory/a-trane-praesentiert-a-summer-residency-day2nils-kugelmannrebirthwhere-nights-unfoldcelebrating-5-years-of-the-triofeat-luca-zambito-sebastian-wolfgruber/
+    - https://a-trane.de/Events-Directory/a-trane-praesentiert-a-summer-residency-day3nils-kugelmannrebirthwhere-nights-unfoldcelebrating-5-years-of-the-triofeat-luca-zambito-sebastian-wolfgruberspecial-guests-shut/
+    - https://a-trane.de/Events-Directory/a-trane-praesentiert-a-summer-residency-day4nils-kugelmannrebirthwhere-nights-unfoldcelebrating-5-years-of-the-triofeat-luca-zambito-sebastian-wolfgruber/
+    - https://a-trane.de/Events-Directory/a-trane-praesentiert-a-summer-residency-day5nils-kugelmannrebirthwhere-nights-unfoldcelebrating-5-years-of-the-triofeat-luca-zambito-sebastian-wolfgruber/
+    - https://a-trane.de/Events-Directory/a-trane-praesentiert-artist-in-residence-day1torsten-goods-meets-atrin-madaniyachtrock-westcoastfeat-till-sahm-bjoern-werra-magro/
+    - https://a-trane.de/Events-Directory/a-trane-praesentiert-artist-in-residence-day2torsten-goods-meets-atrin-madaniyachtrock-westcoastfeat-till-sahm-bjoern-werra-magro-copy/
+    - https://a-trane.de/Events-Directory/a-trane-praesentiert-artist-in-residence-day3torsten-goods-meets-kim-sandersyachtrock-westcoastfeat-till-sahm-bjoern-werra-magro/
+    - https://a-trane.de/Events-Directory/a-trane-praesentiert-artist-in-summer-residency-day1jazz-versus-soccerernst-bier-new-triotriplefeat-christian-mueller-tal-arditi-and-guests/
+    - https://a-trane.de/Events-Directory/a-trane-praesentiert-artist-in-summer-residency-day2jazz-versus-soccerernst-bier-new-triotriplefeat-christian-mueller-tal-arditi-and-guests/
+    - https://a-trane.de/Events-Directory/a-trane-praesentiert-artist-in-summer-residency-day3jazz-versus-soccerernst-bier-new-triotriplefeat-christian-mueller-tal-arditi-and-guests/
+    - https://a-trane.de/Events-Directory/a-trane-praesentiert-jazz-versus-soccer-a-summer-residency-day1judy-niemacksinging-miles100-years-milesfeat-dima-bondarev-yuriy-seredin-doug-weiss-marc-michel/
+    - https://a-trane.de/Events-Directory/a-trane-praesentiert-jazz-versus-soccer-a-summer-residency-day2judy-niemacksinging-miles100-years-milesfeat-dima-bondarev-yuriy-seredin-doug-weiss-marc-michel/
+    - https://a-trane.de/Events-Directory/a-trane-praesentiert-jazz-versus-soccer-a-summer-residency-day3judy-niemacksinging-miles100-years-milesfeat-dima-bondarev-yuriy-seredin-doug-weiss-marc-michel/
+    - https://a-trane.de/Events-Directory/a-trane-praesentiert-jazz-versus-soccer-a-summer-residency-day4judy-niemacksinging-miles100-years-milesfeat-dima-bondarev-yuriy-seredin-doug-weiss-marc-michel/
+    - https://a-trane.de/Events-Directory/a-trane-praesentiert-jazz-versus-soccer-a-summer-residency-day5judy-niemacksinging-miles100-years-milesfeat-dima-bondarev-yuriy-seredin-doug-weiss-marc-michel/
+    - https://a-trane.de/Events-Directory/a-trane-praesentiert-summerconcerts-day1jazz-versus-soccerhanno-buschperspectivealbum-release-concertfeat-mathew-halpin-claus-fischer-jonas-burgwinkel/
+    - https://a-trane.de/Events-Directory/a-trane-praesentiert-summerconcerts-day2jazz-versus-soccerhanno-buschperspectivealbum-release-concertfeat-mathew-halpin-claus-fischer-jonas-burgwinkel/
+    - https://a-trane.de/Events-Directory/a-trane-praesentiert-summerconcerts-day3jazz-versus-soccerhanno-buschperspectivealbum-release-concertfeat-mathew-halpin-claus-fischer-jonas-burgwinkel/
+    - https://a-trane.de/Events-Directory/a-trane-praesentiert-summerconcertsjazz-versus-soccerdana-mastersreal-good-moodfeat-cian-boylan-dave-redmond-darren-beckett/
+    - https://a-trane.de/Events-Directory/a-trane-praesentiert-summerweekconcerts-day1jazz-versus-soccermaria-baptist-triofive-special-nights-trio-guestsfeat-today-fabian-timm-heinz-lichius/
+    - https://a-trane.de/Events-Directory/a-trane-praesentiert-summerweekconcerts-day2jazz-versus-soccermaria-baptist-triofive-special-nights-trio-guestsfeat-today-fabian-timm-heinz-lichius/
+    - https://a-trane.de/Events-Directory/a-trane-praesentiert-summerweekconcerts-day3jazz-versus-soccermaria-baptist-triofive-special-nights-trio-guestsfeat-today-fabian-timm-heinz-lichius-philip-sindy/
+  URL-Strings im Skript:  ] } );
+//# sourceURL=wp-i18n-js-after
+
+
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[, );
+			document.body.className = c;
+		})();
+	
+
+            window._nslDOMReady = (function () {
+                const executedCallbacks = new Set();
+            
+                return function (callback) {
+                    /**
+                    * Third parties might dispatch DOMContentLoaded events, so we need to ensure that we only run our callback once!
+                    */
+                    if (executedCallbacks.has(callback)) return;
+            
+                    const wrappedCallback = function () {
+                        if (executedCallbacks.has(callback)) return;
+                        executedCallbacks.add(callback);
+                        callback();
+                    };
+            
+                    if (document.readyState === , )})(document.documentElement);
+
+            window._nslDOMReady = (function () {
+                const executedCallbacks = new Set();
+            
+                return function (callback) {
+                    /**
+                    * Third parties might dispatch DOMContentLoaded events, so we need to ensure that we only run our callback once!
+                    */
+                    if (executedCallbacks.has(callback)) return;
+            
+                    const wrappedCallback = function () {
+                        if (executedCallbacks.has(callback)) return;
+                        executedCallbacks.add(callback);
+                        callback();
+                    };
+            
+                    if (document.readyState === , ><em><strong>In dieser Welt des ständigen Reagierens stellt Busch die Frage: Was passiert, wenn wir wirklich zuhören</strong></em></span>?</p> <p>Das Zusammenspiel der vier Musiker ist ein Dialog auf Augenhöhe – offen, empathisch, kraftvoll. Improvisation wird hier zur Haltung, die das Spannungsfeld zwischen individueller Freiheit und kollektiver Verantwortung hörbar macht. Die Musik auf Perspective bewegt sich zwischen Jazz und zeitgenössischem Pop, lässt Raum für Stille und eruptive Energie, für Meditation und Aufruhr. Dabei bewahrt sie stets eine emotionale Klarheit, die berührt.</p> <p>Perspective erscheint als liebevoll gestaltete LP, deren Artwork von Daniel F. Hirth an die handgefertigten Papierkunstwerke von Share This Room und Absent anschließt. <span style=, http://schema.org, http://www.w3.org/2000/svg\, https://a-trane.de/Events-Directory/a-trane-praesentiert-a-summer-residency-day1livaunspokendebutalbum-release-concertfeat-florian-schultz-laurie-rich-vincent-niessen-lucas-johnsonspecial-guest-max-hacker/, https://a-trane.de/Events-Directory/a-trane-praesentiert-a-summer-residency-day1nils-kugelmannrebirthwhere-nights-unfoldcelebrating-5-years-of-the-triofeat-luca-zambito-sebastian-wolfgruber/, https://a-trane.de/Events-Directory/a-trane-praesentiert-a-summer-residency-day2livaunspokendebutalbum-release-concertfeat-florian-schultz-laurie-rich-vincent-niessen-lucas-johnsonspecial-guest/, https://a-trane.de/Events-Directory/a-trane-praesentiert-a-summer-residency-day2nils-kugelmannrebirthwhere-nights-unfoldcelebrating-5-years-of-the-triofeat-luca-zambito-sebastian-wolfgruber/, https://a-trane.de/Events-Directory/a-trane-praesentiert-a-summer-residency-day3nils-kugelmannrebirthwhere-nights-unfoldcelebrating-5-years-of-the-triofeat-luca-zambito-sebastian-wolfgruberspecial-guests-shut/, https://a-trane.de/Events-Directory/a-trane-praesentiert-a-summer-residency-day4nils-kugelmannrebirthwhere-nights-unfoldcelebrating-5-years-of-the-triofeat-luca-zambito-sebastian-wolfgruber/, https://a-trane.de/Events-Directory/a-trane-praesentiert-a-summer-residency-day5nils-kugelmannrebirthwhere-nights-unfoldcelebrating-5-years-of-the-triofeat-luca-zambito-sebastian-wolfgruber/, https://a-trane.de/Events-Directory/a-trane-praesentiert-artist-in-residence-day1torsten-goods-meets-atrin-madaniyachtrock-westcoastfeat-till-sahm-bjoern-werra-magro/, https://a-trane.de/Events-Directory/a-trane-praesentiert-artist-in-residence-day2torsten-goods-meets-atrin-madaniyachtrock-westcoastfeat-till-sahm-bjoern-werra-magro-copy/
+  Externe Skripte: https://a-trane.de/wp-includes/js/jquery/jquery.min.js?ver=3.7.1, https://a-trane.de/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1, https://a-trane.de/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.10.7.0, https://a-trane.de/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.10.7.0, https://a-trane.de/wp-content/plug
+  Größtes Inline-Skript (8496 Zeichen)
+  --- ANFANG ---
+{"@context": "http://schema.org","@type": "Event",
+				"@id": "event_92699_0",
+				"eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode",
+				"eventStatus":"https://schema.org/EventScheduled",
+				"name": "A-TRANE PRÄSENTIERT A Summer Residency DAY3:&lt;br&gt;Nils Kugelmann&lt;br&gt;«Where Nights Unfold»&lt;br&gt;Celebrating 5 Years Of The Trio&lt;br&gt;FEAT: Luca Zambito-Sebastian Wolfgruber&lt;br&gt;SPECIAL GUESTS: SHUTEEN ERDENEBAATAR &amp; JAKOB MANZ",
+				"url": "https://a-trane.de/Events-Directory/a-trane-praesentiert-a-summer-residency-day3nils-kugelmannrebirthwhere-nights-unfoldcelebrating-5-years-of-the-triofeat-luca-zambito-sebastian-wolfgruberspecial-guests-shut/",
+				"startDate": "2026-7-23T20:30+2:00",
+				"endDate": "2026-7-23T23:50+2:00",
+				"image":"https://a-trane.de/wp-content/uploads/2026/04/NILSKUGELMANN-FOTO©ulineumanncosel-scaled.jpg", 
+				"description":"<p>A Summer Residency<br /> Nils Kugelmann<br /> «Where Nights Unfold»<br /> Celebrating 5 Years Of The Trio</p> <p><span style='color: #ed1c24;'><strong>HEUTE/TODAY</strong></span>: <span style='color: #ed1c24;'><strong>SPECIAL GUESTS</strong></span>: SHUTEEN ERDENEBAATAR &amp; JAKOB MANZ</p> <p>Deutsch<br /> Fünf Abende. Gleicher Club, gleiche Band – anderes Ergebnis.<br /> <span style='color: #ed1c24;'><em><strong>In seiner Residency im A-Trane bringt Nils Kugelmann neue Kompositionen genau dorthin, wo sie hingehören: auf die Bühne – wo sie für diesen Moment ihre endgültige Form finden</strong></em></span>.<br /> <span style='color: #ed1c24;'><strong>Nils Kugelmann</strong></span>, geboren in München und heute in Berlin lebend, hat in erstaunlich kurzer Zeit einen klaren künstlerischen Eindruck hinterlassen. Direkt nach seinem Masterabschluss erschien sein Debüt Stormy Beauty 
+  --- ENDE ---
+antly evolving and taking unexpected turns</em></span></strong>.<br /> <em><strong>One night is a concert. Several nights become an evolution</strong></em>.<br /> <strong>And yes</strong>: <em><strong>there will be moments that will never happen in quite the same way again</strong></em>.</p> <p><span style='color: #ed1c24;'><strong>Special Guest Information for Thursday, July 23, 2026:</strong></span><br /> English<br /> <span style='color: #ed1c24;'><strong>Today, the trio is joined by two special guests: pianist and composer Shuteen Erdenebaatar and saxophonist Jakob Manz</strong></span>.<br /> <span style='color: #ed1c24;'><strong>Shuteen Erdenebaatar</strong></span>, awarded the German Jazz Prize, is one of the most exciting voices of the young European jazz scene. She stands out for her clear compositional identity, refined sonic sensitivity, and an open, narrative approach to music.<br /> <span style='color: #ed1c24;'><strong>Jakob Manz</strong></span> is one of the most striking young saxophonists in Germany. With exceptional technical command, strong melodic expression, and high energy, he has quickly established himself as a key voice of the new jazz generation.<br /> Together, they expand the trio’s sound into new colours, constellations and spontaneous reactions – a night balancing familiarity and unpredictability.</p> <p>Nils Kugelmann — Bass, Composition<br /> Luca Zambito — Piano<br /> Sebastian Wolfgruber — Drums<br /> Special Guest: Shuteen Erdenebaatar — Piano<br /> Special Guest: Jakob Manz &#8211; Altosaxophon / Flute<br /> Fotos©Uli Neumann Cosel<br /> Foto Shuteen©Georg Stirnweiss<br /> Foto Jakob©Thomas Kiel</p> ","location":[{"@type":"Place","name":"A-Trane Berlin","address":{"@type": "PostalAddress","streetAddress":"Bleibtreustrasse 1 10623 "}}]}
+  Body (ohne CSS/JS):
+wegung und schlagen dabei immer wieder unerwartete Wege ein</strong></em></span>.<br/>
+<em><strong>Wer an einem Abend kommt, hört ein Konzert. Wer an mehreren kommt, hört eine Entwicklung</strong></em>.<br/>
+<strong>Und ja</strong>: <em><strong>Es wird Momente geben, die genau so nie wieder passieren</strong></em>.</p>
+<p><span style="color: #ed1c24;"><strong>Special Guest Info für Donnerstag den 23.07.2026:</strong></span><br/>
+Deutsch<br/>
+<span style="color: #ed1c24;"><strong>Heute erweitert sich das Trio um zwei besondere Gäste: Pianistin und Komponistin Shuteen Erdenebaatar sowie Saxophonist Jakob Manz</strong></span>.<br/>
+<span style="color: #ed1c24;"><strong>Shuteen Erdenebaatar</strong></span> zählt zu den spannendsten Stimmen der jungen europäischen Jazzszene. Die mit dem Deutschen Jazzpreis ausgezeichnete Pianistin und Komponistin überzeugt mit einer klaren kompositorischen Handschrift, großer klanglicher Sensibilität und einem offenen, erzählerischen Zugang zur Musik.<br/>
+<span style="color: #ed1c24;"><strong>Jakob Manz</strong></span> zählt zu den auffälligsten jungen Saxophonisten Deutschlands. Mit technischer Brillanz, starkem melodischem Ausdruck und hoher Energie hat er sich schnell als feste Größe der neuen Jazzgeneration etabliert.<br/>
+Gemeinsam öffnen sie den Sound des Trios für neue Farben, Konstellationen und spontane Reaktionen – ein Abend zwischen Vertrautem und Unvorhersehbarem.</p>
+<p>English<br/>
+Five nights. Same club, same band – different result.<br/>
+<span style="color: #ed1c24;"><em><strong>In his residency at A-Trane, Nils Kugelmann brings new compositions to the stage exactly where they belong: on the bandstand – where they find their final form in this moment</strong></em></span>.<br/>
+Born in Munich and now based in Berlin, <span style="color: #ed1c24;"><strong>Nils Kugelmann</strong></span> has made a clear artistic mark in a remarkably short time. Right after completing his master’s degree, he released his debut Stormy Beauty (ACT): awards, sold-out concerts, and wide attention followed. Süddeutsche Zeitung called him a “<span style="color: #ed1c24;"><em><strong>bass berserker</strong></em></span>”, BR-Klassik a “<span style="color: #ed1c24;"><em><strong>mega talent</strong></em></span>”. With his second album Life Score (ACT), this promise turned into a recognisable artistic voice.<br/>
+Since then, a lot has happened: concerts with the trio across Europe and beyond – from Italy, Switzerland and Austria to England, R
 ------------------------------------------------------------

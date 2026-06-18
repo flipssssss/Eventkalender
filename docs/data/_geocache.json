@@ -1338,6 +1338,12 @@
   "lat": 52.5326687,
   "lng": 13.3513556
  },
+ "Planetarium Berlin": {
+  "address": "Munsterdamm, 12169 Steglitz",
+  "bezirk": "Steglitz-Zehlendorf",
+  "lat": 52.4565486,
+  "lng": 13.3489971
+ },
  "Potsdamer Straße 50, 10785 Berlin": {
   "address": "Potsdamer Straße 50, 10785 Tiergarten",
   "bezirk": "Mitte",
@@ -1800,6 +1806,7 @@
  "Yorck im Bethanien Mariannenplatz 2A, 10997 Berlin": null,
  "Z-Keller (Bhf Charlottenhof) Potsdam Berlin": null,
  "Z-Keller (Bhf Charlottenhof) Potsdam Berlin Deutschland": null,
+ "Zeiss-Großplanetarium Zeiss-Großplanetarium, Berlin": null,
  "Zeltinger Str. 6, 13465 Berlin": {
   "address": "Zeltinger Straße 6, 13465 Frohnau",
   "bezirk": "Reinickendorf",

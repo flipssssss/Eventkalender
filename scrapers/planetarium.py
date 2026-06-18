@@ -127,18 +127,33 @@ class PlanetariumScraper(BaseScraper):
             if key in seen:
                 continue
             seen.add(key)
+            name, addr = self._venue(self._standort(row))
             ev = Event(
                 title=title[:160],
                 start=start,
                 source_url=url,
                 source_name=self.name,
-                location=self._standort(row) or "Planetarium Berlin",
+                location=name,
+                address=addr,
                 image_url=image_url,
                 tags=[category],
                 time_known=bool(mt),
             )
             out.append(ev)
         return out
+
+    @staticmethod
+    def _venue(standort):
+        # Bekannte Spielstätten -> sauberer Name + echte Adresse (damit der
+        # Geocoder Koordinaten/Bezirk findet). Sonst nur der gefundene Text.
+        t = (standort or "").lower()
+        if "insulaner" in t:
+            return ("Planetarium am Insulaner",
+                    "Munsterdamm 90, 12169 Berlin")
+        if "zeiss" in t or "großplanetarium" in t or "grossplanetarium" in t:
+            return ("Zeiss-Großplanetarium",
+                    "Prenzlauer Allee 80, 10405 Berlin")
+        return (standort or "Planetarium Berlin", None)
 
     @staticmethod
     def _title(soup) -> str:

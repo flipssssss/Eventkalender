@@ -8,7 +8,12 @@ node-Elemente: 0
 time[datetime]: 0
 --- Detail-Probe https://www.planetarium.berlin/veranstaltungen/musical-spheres-im-september ---
 JSON-LD-Blöcke: 0 | time[datetime]: 0 | Datumstreffer: 3
-Datum-Beispiele: 22. September , 22.09.2026, 22.09.2026
+Uhrzeit-Zeilen: 2
+<div class='col-3 event-date__table-cell'> 21:00 Uhr
+<p class=''> Sie buchen Tickets für musical spheres im September am
+                      22.09.2026
+                      um
+       
 --- erstes <article> (roh) ---
 <article class="event-page teaser-grid h-100" data-history-node-id="2059135">
  <a class="h-100 d-flex flex-column" href="/veranstaltungen/musical-spheres-im-september">
@@ -29,7 +34,11 @@ node-Elemente: 0
 time[datetime]: 0
 --- Detail-Probe https://www.planetarium.berlin/veranstaltungen/cosmorama-funkwellen-durch-die-galaxis ---
 JSON-LD-Blöcke: 0 | time[datetime]: 0 | Datumstreffer: 3
-Datum-Beispiele: 29. Juni, 29.06.2026, 29.06.2026
+Uhrzeit-Zeilen: 2
+<div class='col-3 event-date__table-cell'> 19:00 Uhr
+<p class=''> Sie buchen Tickets für Cosmorama – Per Funkwellen durch die Galaxis am
+                      29.06.2026
+                
 --- erstes <article> (roh) ---
 <article class="event-page teaser-grid h-100" data-history-node-id="878954">
  <a class="h-100 d-flex flex-column" href="/veranstaltungen/cosmorama-funkwellen-durch-die-galaxis">

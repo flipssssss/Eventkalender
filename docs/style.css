@@ -50,9 +50,10 @@
   --bezirk-on: var(--accent);  /* Bezirke in der Design-Akzentfarbe */
   --border: #463f52; --radius: 0px;
   --shadow: 6px 6px 0 #322b3b;
-  --serif: "Helvetica Neue", Arial, sans-serif;
+  /* Body harmoniert mit der Schreibmaschinen-Headline: ruhiges System-Mono. */
+  --serif: ui-monospace, "SF Mono", Menlo, "Courier New", monospace;
   --display: "Special Elite", "Courier New", Courier, monospace;
-  --grain: 0.45;
+  --grain: 0.4;
 }
 
 /* ---- Gemeinsame Punk-Struktur ---- */
@@ -64,9 +65,11 @@
   z-index: 1;
   pointer-events: none;
   opacity: var(--grain);
-  mix-blend-mode: overlay;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
-  background-size: 150px 150px;
+  /* "screen" statt "overlay": Overlay-Neutral ist 50%-Grau == das mittlere
+     Rauschen -> auf Dunkel unsichtbar. Screen hebt die hellen Körner heraus. */
+  mix-blend-mode: screen;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 130px 130px;
 }
 
 /* Harte Kanten auf den Inhalts-Bauteilen -- der Header bleibt bewusst weich
@@ -703,6 +706,11 @@ body {
   color: var(--accent);
 }
 
+/* Punk: Genre-Chips im Header eckig (wie der Rest des Zine-Looks). */
+:root[data-theme="punk"] .genre-chip {
+  border-radius: 0;
+}
+
 .genre-chip.active {
   background: var(--accent);
   border-color: var(--accent);
@@ -1096,11 +1104,12 @@ body {
   stroke-width: 2.4;
 }
 
-.bezirk-counter {
-  margin: 0 0 8px;
-  font-size: 0.9rem;
+/* Zähler oben rechts in der Karte (SVG-Text). */
+.bezirk-count {
+  fill: var(--accent);
+  font-family: var(--display, var(--serif));
+  font-size: 17px;
   font-weight: 700;
-  color: var(--accent);
 }
 
 .bezirk-extra {

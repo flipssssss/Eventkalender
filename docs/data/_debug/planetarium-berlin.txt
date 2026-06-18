@@ -6,8 +6,18 @@ article-Elemente: 48
 views-row: 1
 node-Elemente: 0
 time[datetime]: 0
---- kein Detail-Link, main-Region (Text) ---
-KONZERTE musical spheres im September 3 x 30 Minuten zzgl. Pausen | ab 12 Jahren musical spheres im November 3 x 30 Minuten zzgl. Pausen | ab 12 Jahren Peter Schilling live – Major Tom: völlig losgelöst ab 12 Jahren Ein virtuoser Kosmos 60 min | ab 10 Jahren Ambient Klassik: Mit dem Klavier zu den Sternen 90 min (ohne Pause) | ab 12 Jahren Distant Bells – The Music of Pink Floyd Live Under the Stars 90 min | ab 12 Jahren | Für Tickets für Rollstuhlfahrer*innen und Begleitpersonen melden Sie sich bitte über unsere Tickethotline. 25 Jahre »Le Voyage Abstrait« 2 x 60 min inkl. Pause | ab 12 Jahren MUSIKPROGRAMME Cosmic Movie Melodies 60 min | ab 10 Jahre Cosmic Rock 60 min | ab 12 Jahren Cosmic Jazz 60 min | ab 12 Jahren Cosmic Opera 60 min | ab 10 Jahren Major Tom: völlig losgelöst 55 min | 
+--- erstes <article> (roh) ---
+<article class="event-page teaser-grid h-100" data-history-node-id="2059135">
+ <a class="h-100 d-flex flex-column" href="/veranstaltungen/musical-spheres-im-september">
+  <div class="mb-2">
+   <div class="field field--name-field-kategoriebild-media field--type-entity-reference field--label-hidden clearfix field__item">
+    <article>
+     <div class="field field--name-field-media-image field--type-image field--label-hidden clearfix field__item">
+      <picture>
+       <source height="197" media="all and (min-width: 1200px)" srcset="/sites/default/files/styles/xl_col_4_16_9/public/2026-02/SPB_MusicalSpheres_Gelb_Format-2560x1440px.jpg?itok=StXzmwSh 1x, /sites/default/files/styles/xl_col_4_16_9_2x/public/2026-02/SPB_MusicalSpheres_Gelb_Format-2560x1440px.jpg?itok=iGFGDU-w 2x" type="image/jpeg" width="350"/>
+       <source height="163" media="all and (min-width: 992px)" srcset="/sites/default/files/styles/lg_col_4_16_9/public/2026-02/SPB_MusicalSpheres_Gelb_Format-2560x1440px.jpg?itok=PjR-mqez 1x, /sites/default/files/styles/lg_col_4_16_9_2x/public/2026-02/SPB_MusicalSpheres_Gelb_Format-2560x1440px.jpg?itok=DYz2SSnT 2x" type="image/jpeg" width="290"/>
+       <source height="388" media="all and (min-width: 768px)" srcset="/sites/default/files/styles/md_col_12_16_9/public/2026-02/SPB_MusicalSpheres_Gelb_Format-2560x1440px.jpg?itok=CuGFV1E8 1x, /sites/default/files/styles/md_col_12_16_9_2x/public/2026-02/SPB_MusicalSpheres_Gelb_Format-2560x1440px.jpg?itok=wGplKLJQ 2x" type="image/jpeg" width="690"/>
+       <source height="287" media="all and (min-width: 576px)" srcset="/sites/defa
 
 ========
 /veranstaltungsart/hoerspiele-lesungen (Vortrag): +0
@@ -16,5 +26,15 @@ article-Elemente: 12
 views-row: 1
 node-Elemente: 0
 time[datetime]: 0
---- kein Detail-Link, main-Region (Text) ---
-Cosmorama – Per Funkwellen durch die Galaxis Radiosendung | 120 min | 100,6 FluxFM Berlin Der Traumzauberbaum 50 min | ab 4 Jahren Die drei ??? und die Salztote 102 min | empfohlen ab 10 Jahren Die Drei ??? und das Dorf der Teufel 93 min | ab 8 Jahren Die drei ??? und die singende Schlange 90 min | ab 8 Jahren Ohrka-Hörklub ca. 60 min | ab 6 Jahren | kostenfrei (Reservierung unter: +49 30 421 845-10 oder ticket@planetarium.berlin)
+--- erstes <article> (roh) ---
+<article class="event-page teaser-grid h-100" data-history-node-id="878954">
+ <a class="h-100 d-flex flex-column" href="/veranstaltungen/cosmorama-funkwellen-durch-die-galaxis">
+  <div class="mb-2">
+   <div class="field field--name-field-kategoriebild-media field--type-entity-reference field--label-hidden clearfix field__item">
+    <article>
+     <div class="field field--name-field-media-image field--type-image field--label-hidden clearfix field__item">
+      <picture>
+       <source height="197" media="all and (min-width: 1200px)" srcset="/sites/default/files/styles/xl_col_4_16_9/public/2022-12/Kategorie_Cosmorama_c_FluxFM.jpg?itok=_i3KETs5 1x, /sites/default/files/styles/xl_col_4_16_9_2x/public/2022-12/Kategorie_Cosmorama_c_FluxFM.jpg?itok=qOMttVUI 2x" type="image/jpeg" width="350"/>
+       <source height="163" media="all and (min-width: 992px)" srcset="/sites/default/files/styles/lg_col_4_16_9/public/2022-12/Kategorie_Cosmorama_c_FluxFM.jpg?itok=rvk8EKsR 1x, /sites/default/files/styles/lg_col_4_16_9_2x/public/2022-12/Kategorie_Cosmorama_c_FluxFM.jpg?itok=fzr__uAK 2x" type="image/jpeg" width="290"/>
+       <source height="388" media="all and (min-width: 768px)" srcset="/sites/default/files/styles/md_col_12_16_9/public/2022-12/Kategorie_Cosmorama_c_FluxFM.jpg?itok=Q5ZGrnCp 1x, /sites/default/files/styles/md_col_12_16_9_2x/public/2022-12/Kategorie_Cosmorama_c_FluxFM.jpg?itok=3AZAXtjZ 2x" type="image/jpeg" width="690"/>
+       <source height="287" media="all and (min-width: 576px)" srcset="/sites/default/files/styles/sm_col_12_16_9/public/2022-12/Kategorie_Cosmorama_c_FluxFM

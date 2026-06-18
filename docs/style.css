@@ -1034,6 +1034,90 @@ body {
   border-radius: 0;
 }
 
+/* Symbolische Berlin-Karte zur Bezirkswahl: ausgewählt farbig, sonst ausgegraut. */
+.bezirk-map {
+  margin-top: 6px;
+}
+
+.bezirk-svg {
+  display: block;
+  width: 100%;
+  max-width: 340px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.bezirk-cell {
+  cursor: pointer;
+}
+
+.bezirk-cell rect {
+  fill: var(--accent);
+  stroke: var(--surface);
+  stroke-width: 2;
+  transition: fill 0.15s ease, opacity 0.15s ease;
+}
+
+.bezirk-cell text {
+  fill: var(--surface);
+  font-family: var(--serif);
+  font-size: 10px;
+  font-weight: 600;
+  pointer-events: none;
+}
+
+.bezirk-cell.off rect {
+  fill: var(--surface-2);
+}
+
+.bezirk-cell.off text {
+  fill: var(--muted);
+}
+
+.bezirk-cell.off {
+  opacity: 0.55;
+}
+
+.bezirk-cell:hover rect {
+  fill: color-mix(in srgb, var(--accent) 82%, var(--text));
+}
+
+.bezirk-cell.off:hover rect {
+  fill: color-mix(in srgb, var(--surface-2) 65%, var(--accent));
+}
+
+.bezirk-cell:focus-visible rect {
+  stroke: var(--text);
+  stroke-width: 3;
+}
+
+.bezirk-extra {
+  margin-top: 10px;
+}
+
+.bezirk-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 12px;
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  background: var(--accent);
+  color: var(--surface);
+  font-family: var(--serif);
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.bezirk-chip.off {
+  background: var(--surface-2);
+  color: var(--muted);
+  border-color: var(--border);
+}
+
+:root[data-theme="punk"] .bezirk-chip {
+  border-radius: 0;
+}
+
 .settings-hint {
   margin: 4px 0 8px;
   font-size: 0.82rem;

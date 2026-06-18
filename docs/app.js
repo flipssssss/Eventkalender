@@ -19,6 +19,23 @@ const BEZIRK_ORDER = [
   "Marzahn-Hellersdorf", "Lichtenberg", "Reinickendorf",
 ];
 const BEZIRK_UNKNOWN = "Unbekannt";
+
+// Schematische, "symbolische" Karte von Berlin: jeder Bezirk ein Block, grob
+// nach echter Lage angeordnet (viewBox 0 0 360 320). l = Beschriftung (1-2 Zeilen).
+const BEZIRK_MAP = [
+  { b: "Reinickendorf", x: 70, y: 0, w: 140, h: 70, l: ["Reinicken-", "dorf"] },
+  { b: "Pankow", x: 210, y: 0, w: 150, h: 110, l: ["Pankow"] },
+  { b: "Spandau", x: 0, y: 70, w: 70, h: 120, l: ["Span-", "dau"] },
+  { b: "Charlottenburg-Wilmersdorf", x: 70, y: 70, w: 80, h: 120, l: ["Charlb.-", "Wilm."] },
+  { b: "Mitte", x: 150, y: 70, w: 60, h: 40, l: ["Mitte"] },
+  { b: "Friedrichshain-Kreuzberg", x: 150, y: 110, w: 95, h: 50, l: ["Fhain-", "Kreuzb."] },
+  { b: "Lichtenberg", x: 245, y: 110, w: 60, h: 90, l: ["Lichten-", "berg"] },
+  { b: "Marzahn-Hellersdorf", x: 305, y: 110, w: 55, h: 100, l: ["Marz.-", "Hell."] },
+  { b: "Steglitz-Zehlendorf", x: 40, y: 190, w: 110, h: 130, l: ["Steglitz-", "Zehlend."] },
+  { b: "Tempelhof-Schöneberg", x: 150, y: 160, w: 85, h: 160, l: ["Tempelh.-", "Schöneb."] },
+  { b: "Neukölln", x: 235, y: 200, w: 70, h: 120, l: ["Neu-", "kölln"] },
+  { b: "Treptow-Köpenick", x: 305, y: 210, w: 55, h: 110, l: ["Treptow-", "Köpen."] },
+];
 const FAV_KEY = "ek_favorites";
 const THEME_KEY = "ek_theme";
 const SOURCES_KEY = "ek_disabled_sources";
@@ -86,7 +103,8 @@ const els = {
   sourceToggles: document.getElementById("source-toggles"),
   kdcatSection: document.getElementById("kdcat-section"),
   kdcatToggles: document.getElementById("kdcat-toggles"),
-  bezirkToggles: document.getElementById("bezirk-toggles"),
+  bezirkMap: document.getElementById("bezirk-map"),
+  bezirkExtra: document.getElementById("bezirk-extra"),
   wishText: document.getElementById("wish-text"),
   wishSend: document.getElementById("wish-send"),
   wishBackdrop: document.getElementById("wish-backdrop"),
@@ -621,33 +639,62 @@ function buildBezirkToggles() {
     if (!counts.has(b)) counts.set(b, 0);
     if (matches(e, { bezirk: true })) counts.set(b, counts.get(b) + 1);
   }
-  // Known boroughs in their fixed order, then "Unbekannt" last.
-  const present = BEZIRK_ORDER.filter((b) => counts.has(b));
-  if (counts.has(BEZIRK_UNKNOWN)) present.push(BEZIRK_UNKNOWN);
 
-  els.bezirkToggles.innerHTML = "";
-  for (const b of present) {
-    const label = document.createElement("label");
-    label.className = "source-toggle";
-    const cb = document.createElement("input");
-    cb.type = "checkbox";
-    cb.checked = !state.disabledBezirke.has(b);
-    cb.addEventListener("change", () => {
-      if (cb.checked) state.disabledBezirke.delete(b);
-      else state.disabledBezirke.add(b);
+  // Symbolische Berlin-Karte: ein Block je Bezirk, an/ausgewählt per Klick.
+  const cells = BEZIRK_MAP.map((d) => {
+    const off = state.disabledBezirke.has(d.b);
+    const cx = d.x + d.w / 2;
+    const cy = d.y + d.h / 2;
+    const top = cy - (d.l.length - 1) * 6 + 3;
+    const spans = d.l.map((ln, i) =>
+      `<tspan x="${cx}" dy="${i === 0 ? 0 : 12}">${ln}</tspan>`).join("");
+    return `<g class="bezirk-cell${off ? " off" : ""}" data-bezirk="${d.b}" `
+      + `role="button" tabindex="0" aria-pressed="${!off}" aria-label="${d.b}">`
+      + `<rect x="${d.x}" y="${d.y}" width="${d.w}" height="${d.h}" rx="7"/>`
+      + `<text x="${cx}" y="${top}" text-anchor="middle">${spans}</text></g>`;
+  }).join("");
+  els.bezirkMap.innerHTML =
+    `<svg viewBox="0 0 360 320" class="bezirk-svg" role="group" `
+    + `aria-label="Bezirke auf der Karte wählen">${cells}</svg>`;
+  els.bezirkMap.onclick = (e) => toggleBezirkCell(e.target);
+  els.bezirkMap.onkeydown = (e) => {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      toggleBezirkCell(e.target);
+    }
+  };
+
+  // "Unbekannt" (Events ohne Bezirk) lässt sich nicht verorten -> als Chip.
+  els.bezirkExtra.innerHTML = "";
+  if (counts.has(BEZIRK_UNKNOWN)) {
+    const chip = document.createElement("button");
+    chip.type = "button";
+    const setCls = () => {
+      chip.className = "bezirk-chip"
+        + (state.disabledBezirke.has(BEZIRK_UNKNOWN) ? " off" : "");
+    };
+    setCls();
+    chip.textContent = "Ohne Bezirk (" + counts.get(BEZIRK_UNKNOWN) + ")";
+    chip.addEventListener("click", () => {
+      toggleSet(state.disabledBezirke, BEZIRK_UNKNOWN);
       saveSet(BEZIRKE_KEY, state.disabledBezirke);
+      setCls();
       scheduleRender();
     });
-    label.appendChild(cb);
-    const txt = document.createElement("span");
-    txt.textContent = b;
-    label.appendChild(txt);
-    const badge = document.createElement("span");
-    badge.className = "source-count";
-    badge.textContent = counts.get(b);
-    label.appendChild(badge);
-    els.bezirkToggles.appendChild(label);
+    els.bezirkExtra.appendChild(chip);
   }
+}
+
+function toggleBezirkCell(target) {
+  const cell = target.closest && target.closest(".bezirk-cell");
+  if (!cell) return;
+  const b = cell.dataset.bezirk;
+  toggleSet(state.disabledBezirke, b);
+  saveSet(BEZIRKE_KEY, state.disabledBezirke);
+  const off = state.disabledBezirke.has(b);
+  cell.classList.toggle("off", off);
+  cell.setAttribute("aria-pressed", String(!off));
+  scheduleRender();
 }
 
 function buildKdcatToggles() {

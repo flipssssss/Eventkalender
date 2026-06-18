@@ -905,9 +905,39 @@ function isExhibitionDimmed(ev, date, now) {
   return false;
 }
 
-// Ausgegraut/„schon vorbei"? Ausstellungen nach Öffnungszeiten, sonst nach Zeit.
+function isKino(ev) {
+  return (ev.tags || []).includes("Kino");
+}
+
+// Vorstellungszeit ("HH:MM") auf den gegebenen Tag setzen.
+function showTime(time, day) {
+  const m = String(time || "").match(/(\d{1,2}):(\d{2})/);
+  if (!m) return null;
+  const d = new Date(day);
+  d.setHours(parseInt(m[1], 10), parseInt(m[2], 10), 0, 0);
+  return d;
+}
+
+// Kinofilm ist erst „vorbei", wenn ALLE Vorstellungen des Tages mindestens
+// eine Stunde her sind (eine spätere Vorstellung hält ihn im Feed).
+function kinoAllPast(ev, date, now) {
+  const sh = ev.showings;
+  if (!sh || !sh.length) return isPast(ev, now);
+  const day = date || new Date(ev.start);
+  for (const s of sh) {
+    const t = showTime(s.time, day);
+    if (!t) return false;                            // unklare Zeit -> nicht vorbei
+    if (now <= new Date(t.getTime() + 60 * 60 * 1000)) return false;
+  }
+  return true;
+}
+
+// Ausgegraut/„schon vorbei"? Ausstellungen nach Öffnungszeiten, Kino nach allen
+// Vorstellungen, sonst nach Zeit.
 function isPastOrClosed(ev, date, now) {
-  return isExhibition(ev) ? isExhibitionDimmed(ev, date, now) : isPast(ev, now);
+  if (isExhibition(ev)) return isExhibitionDimmed(ev, date, now);
+  if (isKino(ev)) return kinoAllPast(ev, date, now);
+  return isPast(ev, now);
 }
 
 // JS getDay() (0=Sonntag) -> Schlüssel in event.opening_hours.

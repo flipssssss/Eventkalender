@@ -2244,15 +2244,33 @@ function jumpToDay(key) {
   const target = document.getElementById(`day-${key}`);
   if (!target) return;
   setActiveTab(key);
-  const doScroll = () => {
-    const top = target.getBoundingClientRect().top + window.scrollY
-      - headerOffset();
-    window.scrollTo({ top: Math.max(0, top), behavior: "smooth" });
+  // Absolute Zielposition: Tagesüberschrift knapp unter den Sticky-Header.
+  const wantTop = () => Math.max(0,
+    target.getBoundingClientRect().top + window.scrollY - headerOffset());
+  window.scrollTo({ top: wantTop(), behavior: "smooth" });
+
+  // Nach der Smooth-Animation mehrfach nachjustieren: Bilder, die wegfallen,
+  // oder spät ladende Schrift verschieben das Layout, sonst landet man im
+  // Nachbartag (und müsste mehrfach klicken). Die Korrektur bricht ab, sobald
+  // der/die Nutzer:in selbst scrollt.
+  let cancelled = false;
+  const cancel = () => { cancelled = true; };
+  window.addEventListener("wheel", cancel, { passive: true, once: true });
+  window.addEventListener("touchstart", cancel, { passive: true, once: true });
+
+  let tries = 0;
+  const cleanup = () => {
+    window.removeEventListener("wheel", cancel);
+    window.removeEventListener("touchstart", cancel);
   };
-  doScroll();
-  // Lazily built day boxes can change height as they render; re-align once the
-  // layout has settled so we never come to rest inside the previous day.
-  requestAnimationFrame(doScroll);
+  const settle = () => {
+    if (cancelled) { cleanup(); return; }
+    const want = wantTop();
+    if (Math.abs(window.scrollY - want) > 2) window.scrollTo({ top: want });
+    if (++tries < 5) setTimeout(settle, 140);
+    else cleanup();
+  };
+  setTimeout(settle, 380);
 }
 
 let dayIO = null;
@@ -2305,7 +2323,14 @@ function setActiveTab(key) {
   for (const tab of els.dayTabs.children) {
     const active = tab.dataset.key === key;
     tab.classList.toggle("active", active);
-    if (active) tab.scrollIntoView({ inline: "center", block: "nearest", behavior: "smooth" });
+    if (active) {
+      // Aktiven Reiter horizontal in der Leiste zentrieren -- nur die Leiste
+      // scrollen (nicht scrollIntoView, das auch das Fenster vertikal anstößt
+      // und den Tagessprung stört).
+      const nav = els.dayTabs;
+      const left = tab.offsetLeft - (nav.clientWidth - tab.clientWidth) / 2;
+      nav.scrollTo({ left: Math.max(0, left), behavior: "smooth" });
+    }
   }
 }
 

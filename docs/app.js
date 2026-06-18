@@ -90,10 +90,13 @@ const els = {
   wishText: document.getElementById("wish-text"),
   wishSend: document.getElementById("wish-send"),
   installBtn: document.getElementById("install-btn"),
-  installHelp: document.getElementById("install-help"),
   installPill: document.getElementById("install-pill"),
   installPillYes: document.getElementById("install-pill-yes"),
   installPillNo: document.getElementById("install-pill-no"),
+  installGuide: document.getElementById("install-guide"),
+  installGuideClose: document.getElementById("install-guide-close"),
+  installGuideSteps: document.getElementById("install-guide-steps"),
+  installGuideLead: document.getElementById("install-guide-lead"),
   viewList: document.getElementById("view-list"),
   viewMap: document.getElementById("view-map"),
   mapView: document.getElementById("map-view"),
@@ -166,15 +169,8 @@ function setupInstallPill() {
   if (!els.installPill) return;
   els.installPillNo.addEventListener("click", dismissInstallPill);
   els.installPillYes.addEventListener("click", () => {
-    // Android: nativer Dialog, falls verfügbar. Sonst (iPhone) Anleitung
-    // in den Einstellungen zeigen. Danach nie wieder anbieten.
-    if (deferredInstallPrompt) {
-      deferredInstallPrompt.prompt();
-      deferredInstallPrompt = null;
-    } else {
-      openSettings();
-      els.installHelp.removeAttribute("hidden");
-    }
+    // Visuelle Anleitung zeigen; Pille danach nie wieder anbieten.
+    openInstallGuide();
     dismissInstallPill();
   });
 
@@ -188,6 +184,114 @@ function setupInstallPill() {
   setTimeout(() => {
     if (!isStandalone()) els.installPill.removeAttribute("hidden");
   }, 4000);
+}
+
+// Kleine Inline-Symbole für die Anleitungsschritte.
+const GUIDE_ICONS = {
+  // iOS-Teilen-Symbol (Pfeil aus Box).
+  share: '<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 16V4"/><path d="M8 8l4-4 4 4"/><path d="M5 12v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/></svg>',
+  // "Zum Home-Bildschirm" / installieren (Plus im Kasten).
+  plus: '<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="3"/><line x1="12" y1="9" x2="12" y2="15"/><line x1="9" y1="12" x2="15" y2="12"/></svg>',
+  // Android-Menü (drei Punkte).
+  dots: '<svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><circle cx="12" cy="5" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="12" cy="19" r="2"/></svg>',
+};
+
+function detectPlatform() {
+  const ua = navigator.userAgent || "";
+  if (/iphone|ipad|ipod/i.test(ua)
+      || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1)) {
+    return "ios";
+  }
+  if (/android/i.test(ua)) return "android";
+  return "other";
+}
+
+// Schritte je Plattform: [Symbol, Text-HTML].
+const GUIDE_STEPS = {
+  ios: {
+    lead: "In Safari in drei Schritten:",
+    steps: [
+      ["share", "Tippe unten in der Leiste auf <strong>Teilen</strong>."],
+      ["plus", "Wähle <strong>Zum Home-Bildschirm</strong>."],
+      ["plus", "Tippe oben rechts auf <strong>Hinzufügen</strong> – fertig."],
+    ],
+  },
+  android: {
+    lead: "In Chrome in zwei Schritten:",
+    steps: [
+      ["dots", "Tippe oben rechts auf das <strong>Menü (⋮)</strong>."],
+      ["plus", "Wähle <strong>App installieren</strong> bzw. <strong>Zum Startbildschirm</strong>."],
+    ],
+  },
+  other: {
+    lead: "Im Browser:",
+    steps: [
+      ["plus", "Klicke in der Adressleiste auf das <strong>Installieren</strong>-Symbol."],
+      ["dots", "Oder im <strong>Menü</strong> des Browsers „App installieren“ wählen."],
+    ],
+  },
+};
+
+function buildInstallGuideSteps() {
+  const data = GUIDE_STEPS[detectPlatform()] || GUIDE_STEPS.other;
+  els.installGuideLead.textContent = data.lead;
+  els.installGuideSteps.innerHTML = "";
+
+  // Wenn der Browser den nativen Dialog anbietet (Android/Desktop-Chrome),
+  // einen direkten Knopf zeigen -- sonst die visuellen Schritte.
+  if (deferredInstallPrompt) {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "btn btn--primary install-guide__install";
+    btn.textContent = "Jetzt installieren";
+    btn.addEventListener("click", async () => {
+      const p = deferredInstallPrompt;
+      deferredInstallPrompt = null;
+      try { await p.prompt(); } catch { /* ignore */ }
+      closeInstallGuide();
+    });
+    els.installGuideSteps.appendChild(btn);
+    return;
+  }
+
+  data.steps.forEach(([icon, text], i) => {
+    const row = document.createElement("div");
+    row.className = "install-step";
+    row.innerHTML =
+      `<span class="install-step__num">${i + 1}</span>`
+      + `<span class="install-step__icon">${GUIDE_ICONS[icon] || ""}</span>`
+      + `<span class="install-step__text">${text}</span>`;
+    els.installGuideSteps.appendChild(row);
+  });
+}
+
+function openInstallGuide() {
+  if (!els.installGuide) return;
+  buildInstallGuideSteps();
+  els.installGuide.removeAttribute("hidden");
+  document.body.style.overflow = "hidden";
+}
+
+function closeInstallGuide() {
+  if (!els.installGuide) return;
+  els.installGuide.setAttribute("hidden", "");
+  if (els.settingsBackdrop.hasAttribute("hidden")
+      && els.modalBackdrop.hasAttribute("hidden")) {
+    document.body.style.overflow = "";
+  }
+}
+
+function setupInstallGuide() {
+  if (!els.installGuide) return;
+  els.installGuideClose.addEventListener("click", closeInstallGuide);
+  els.installGuide.addEventListener("click", (e) => {
+    if (e.target === els.installGuide) closeInstallGuide(); // Klick auf Backdrop
+  });
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && !els.installGuide.hasAttribute("hidden")) {
+      closeInstallGuide();
+    }
+  });
 }
 
 // Offline-Fähigkeit (PWA) + automatische Updates.
@@ -368,17 +472,11 @@ function setupSettings() {
     btn.addEventListener("click", () => setSortMode(btn.dataset.sort));
   }
 
-  // "Als App hinzufügen": Android-Chrome bietet den nativen Dialog,
-  // sonst (iPhone) zeigen wir die Anleitung.
-  els.installBtn.addEventListener("click", async () => {
-    if (deferredInstallPrompt) {
-      deferredInstallPrompt.prompt();
-      deferredInstallPrompt = null;
-    }
-    els.installHelp.toggleAttribute("hidden");
-  });
+  // "Als App hinzufügen" in den Einstellungen öffnet dieselbe visuelle Anleitung.
+  els.installBtn.addEventListener("click", () => openInstallGuide());
 
   setupInstallPill();
+  setupInstallGuide();
 
   // Source wishes -> form service (no login). Set WISH_ENDPOINT below.
   els.wishSend.addEventListener("click", async () => {

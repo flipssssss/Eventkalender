@@ -173,12 +173,24 @@
   <!-- Dezenter Hinweis zum Installieren als App (nur Erstbesuch, einmal weg = nie wieder) -->
   <div class="install-pill" id="install-pill" role="dialog"
        aria-label="Als App hinzufügen" hidden>
-    <img class="install-pill__icon" src="icons/icon-192.png" alt=""
-         width="30" height="30" />
-    <span class="install-pill__text">Mund zu Mund als App hinzufügen?</span>
+    <img class="install-pill__icon" src="icons/icon-192.png" alt="" />
+    <span class="install-pill__text">Mund zu Mund als App?</span>
     <button type="button" class="install-pill__yes" id="install-pill-yes">Ja, wie?</button>
     <button type="button" class="install-pill__no" id="install-pill-no"
             aria-label="Nein, nicht hinzufügen">Nein</button>
+  </div>
+
+  <!-- Visuelle Anleitung: wird von der Pille und vom Einstellungen-Button geöffnet -->
+  <div class="install-guide-backdrop" id="install-guide" hidden>
+    <div class="install-guide" role="dialog" aria-modal="true"
+         aria-label="Als App hinzufügen">
+      <button type="button" class="install-guide__close" id="install-guide-close"
+              aria-label="Schließen">✕</button>
+      <img class="install-guide__icon" src="icons/icon-192.png" alt="" />
+      <h2 class="install-guide__title">Mund zu Mund als App</h2>
+      <p class="install-guide__lead" id="install-guide-lead"></p>
+      <div class="install-guide__steps" id="install-guide-steps"></div>
+    </div>
   </div>
 
   <footer class="site-footer">
@@ -267,13 +279,6 @@
         <section class="settings-section">
           <h3 class="settings-h">Als App hinzufügen</h3>
           <button type="button" class="btn btn--primary" id="install-btn">Als App hinzufügen</button>
-          <div class="install-help" id="install-help" hidden>
-            <p><strong>iPhone / iPad (Safari):</strong> unten auf das Teilen-Symbol
-              tippen und „Zum Home-Bildschirm" wählen.</p>
-            <p><strong>Android (Chrome):</strong> oben rechts auf das Menü (⋮)
-              tippen und „App installieren" bzw. „Zum Startbildschirm hinzufügen".</p>
-            <p>Danach öffnet sich der Mund zu Mund Kalender wie eine echte App.</p>
-          </div>
         </section>
 
         <section class="settings-section">

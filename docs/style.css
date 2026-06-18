@@ -971,19 +971,6 @@ body {
   font-style: italic;
 }
 
-.install-help {
-  margin-top: 10px;
-}
-
-.install-help[hidden] {
-  display: none;
-}
-
-.install-help p {
-  margin: 6px 0;
-  font-size: 0.9rem;
-  line-height: 1.45;
-}
 
 .theme-options {
   display: flex;
@@ -1289,9 +1276,11 @@ body {
   z-index: 89;
   display: flex;
   align-items: center;
-  gap: 9px;
+  gap: 10px;
   max-width: min(94vw, 430px);
-  padding: 6px 8px 6px 6px;
+  min-height: 42px;
+  padding: 0 10px 0 0;
+  overflow: hidden; /* klippt die Icon-Ecken an die Pillenform */
   border: 1px solid var(--border);
   border-radius: 999px;
   background: color-mix(in srgb, var(--surface) 68%, transparent);
@@ -1309,9 +1298,9 @@ body {
 
 .install-pill__icon {
   flex: 0 0 auto;
-  width: 30px;
-  height: 30px;
-  border-radius: 8px;
+  align-self: stretch;   /* füllt die Pille von oben nach unten */
+  width: 46px;
+  height: auto;
   object-fit: cover;
 }
 
@@ -1362,6 +1351,151 @@ body {
 :root[data-theme="punk"] .install-pill__icon,
 :root[data-theme="punk"] .install-pill__yes,
 :root[data-theme="punk"] .install-pill__no {
+  border-radius: 0;
+}
+
+/* ---- Visuelle App-Anleitung (Popup im Pillen-Stil) ---- */
+.install-guide-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 110; /* über dem Umschalter und den normalen Modals */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: rgba(40, 26, 15, 0.45);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+}
+
+.install-guide-backdrop[hidden] {
+  display: none;
+}
+
+.install-guide {
+  position: relative;
+  width: 100%;
+  max-width: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 26px 22px 24px;
+  border: 1px solid var(--border);
+  border-radius: 22px;
+  background: color-mix(in srgb, var(--surface) 88%, transparent);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 12px 40px rgba(40, 26, 15, 0.35);
+  color: var(--text);
+  text-align: center;
+  animation: install-guide-in 0.26s ease both;
+}
+
+@keyframes install-guide-in {
+  from { opacity: 0; transform: translateY(14px) scale(0.97); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.install-guide__close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 32px;
+  height: 32px;
+  border: none;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--surface) 70%, transparent);
+  color: var(--text);
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.install-guide__icon {
+  width: 66px;
+  height: 66px;
+  border-radius: 16px;
+  object-fit: cover;
+  box-shadow: 0 4px 14px rgba(40, 26, 15, 0.25);
+}
+
+.install-guide__title {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.install-guide__lead {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.install-guide__steps {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 4px;
+}
+
+.install-step {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-align: left;
+  padding: 10px 12px;
+  border-radius: 14px;
+  background: color-mix(in srgb, var(--surface-2) 70%, transparent);
+}
+
+.install-step__num {
+  flex: 0 0 auto;
+  width: 24px;
+  height: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  background: var(--accent);
+  color: var(--surface);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.install-step__icon {
+  flex: 0 0 auto;
+  display: inline-flex;
+  color: var(--accent);
+}
+
+.install-step__text {
+  flex: 1 1 auto;
+  font-size: 0.9rem;
+  line-height: 1.3;
+}
+
+.install-step__text strong {
+  font-weight: 700;
+}
+
+.install-guide__install {
+  margin-top: 2px;
+}
+
+/* Punk-Look: flach, kantig, harter Schatten. */
+:root[data-theme="punk"] .install-guide {
+  background: var(--surface);
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  border-width: 2px;
+  border-radius: 0;
+  box-shadow: var(--shadow);
+}
+
+:root[data-theme="punk"] .install-guide__icon,
+:root[data-theme="punk"] .install-step,
+:root[data-theme="punk"] .install-guide__close {
   border-radius: 0;
 }
 

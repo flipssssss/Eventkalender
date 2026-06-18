@@ -17,6 +17,7 @@
   --muted: #93795a;       /* Taupe (inaktive Reiter) -- kontraststärker */
   --accent: #7c4a2c;      /* Kakao (aktiv/Überschriften) */
   --accent-soft: rgba(124, 74, 44, 0.12);
+  --bezirk-on: #c8743a;   /* warmes Terrakotta für ausgewählte Bezirke */
   --border: #e6d7c0;      /* weiches Tan */
   --radius: 14px;
   --shadow: 0 6px 18px rgba(110, 75, 40, 0.12);
@@ -36,6 +37,7 @@
   --bg: #0b0a0d; --surface: #16131b; --surface-2: #1e1a25;
   --text: #ece7f0; --muted: #8e8699;
   --accent: #ff3d7f; --accent-soft: rgba(255, 61, 127, 0.16);
+  --bezirk-on: #ff3d7f;        /* ausgewählte Bezirke im Magenta-Akzent */
   --border: #463f52; --radius: 0px;
   --shadow: 6px 6px 0 #322b3b;
   --serif: "Helvetica Neue", Arial, sans-serif;
@@ -154,6 +156,7 @@
   --muted: #c64bd6;
   --accent: #ff1c8d;       /* Knall-Pink */
   --accent-soft: rgba(255, 28, 141, 0.14);
+  --bezirk-on: #ff1c8d;    /* ausgewählte Bezirke im Knall-Pink */
   --border: #ff7be0;
   --radius: 18px;
   --shadow: 6px 6px 0 rgba(110, 195, 255, 0.7);
@@ -1052,7 +1055,7 @@ body {
 }
 
 .bezirk-cell path {
-  fill: var(--accent);
+  fill: var(--bezirk-on);
   /* Trennlinien in eigener Farbe (Taupe) -- klar getrennt von der Schrift. */
   stroke: var(--muted);
   stroke-width: 1.2;
@@ -1079,11 +1082,11 @@ body {
 }
 
 .bezirk-cell:hover path {
-  fill: color-mix(in srgb, var(--accent) 82%, var(--text));
+  fill: color-mix(in srgb, var(--bezirk-on) 82%, var(--text));
 }
 
 .bezirk-cell.off:hover path {
-  fill: color-mix(in srgb, var(--surface-2) 65%, var(--accent));
+  fill: color-mix(in srgb, var(--surface-2) 65%, var(--bezirk-on));
 }
 
 .bezirk-cell:focus-visible path {
@@ -1099,9 +1102,9 @@ body {
   display: inline-flex;
   align-items: center;
   padding: 6px 12px;
-  border: 1px solid var(--accent);
+  border: 1px solid var(--bezirk-on);
   border-radius: 999px;
-  background: var(--accent);
+  background: var(--bezirk-on);
   color: var(--surface);
   font-family: var(--serif);
   font-size: 0.85rem;

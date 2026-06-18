@@ -1276,10 +1276,10 @@ body {
   z-index: 89;
   display: flex;
   align-items: center;
-  gap: 10px;
-  max-width: min(94vw, 430px);
-  min-height: 42px;
-  padding: 0 10px 0 0;
+  gap: 12px;
+  width: min(94vw, 380px);
+  height: 52px;
+  padding: 0 14px 0 0;
   overflow: hidden; /* klippt die Icon-Ecken an die Pillenform */
   border: 1px solid var(--border);
   border-radius: 999px;
@@ -1288,7 +1288,7 @@ body {
   -webkit-backdrop-filter: blur(8px);
   box-shadow: 0 3px 14px rgba(0, 0, 0, 0.22);
   color: var(--text);
-  font-size: 0.85rem;
+  font-size: 0.88rem;
   animation: install-pill-in 0.3s ease both;
 }
 
@@ -1298,9 +1298,8 @@ body {
 
 .install-pill__icon {
   flex: 0 0 auto;
-  align-self: stretch;   /* füllt die Pille von oben nach unten */
-  width: 46px;
-  height: auto;
+  height: 100%;          /* füllt die Pille von oben nach unten */
+  width: 52px;           /* quadratisch (= Höhe) */
   object-fit: cover;
 }
 

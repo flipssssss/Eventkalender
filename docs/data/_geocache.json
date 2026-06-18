@@ -1149,6 +1149,12 @@
   "lat": 52.4746587,
   "lng": 13.4520113
  },
+ "Mareschstraße 14, 12055 Neukölln, Berlin": {
+  "address": "Mareschstraße 14, 12055 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4746587,
+  "lng": 13.4520113
+ },
  "Mariannenplatz 1a 10997 berlin": {
   "address": "Mariannenplatz 1a, 10997 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",

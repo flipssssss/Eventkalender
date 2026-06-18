@@ -420,7 +420,9 @@ body {
 
 .day-group {
   margin-bottom: 30px;
-  scroll-margin-top: 160px;
+  /* Sprungziel landet unter dem (variabel hohen) Sticky-Header; --header-h
+     wird in app.js aus der echten Header-Höhe gesetzt. */
+  scroll-margin-top: var(--header-h, 160px);
 }
 
 .day-heading {

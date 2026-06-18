@@ -51,8 +51,8 @@ DATE_TXT = re.compile(r"(\d{1,2})\.\s*([A-Za-zäöüÄÖÜ]+)\.?\s*(\d{4})?", re
 # "18.06.2026", "18.06."
 DATE_NUM = re.compile(r"(\d{1,2})\.(\d{1,2})\.(\d{4})?")
 TIME_TXT = re.compile(r"(\d{1,2})[:.](\d{2})\s*Uhr|(\d{1,2})[:.](\d{2})")
-# Event detail pages live under /veranstaltung/<slug> (singular).
-DETAIL_RE = re.compile(r"/veranstaltung/|/event/|/programm/", re.I)
+# Teaser links point to a program page /veranstaltungen/<slug>.
+DETAIL_RE = re.compile(r"/veranstaltungen/[a-z0-9]", re.I)
 
 
 class PlanetariumScraper(BaseScraper):
@@ -114,10 +114,39 @@ class PlanetariumScraper(BaseScraper):
             f"node-Elemente: {len(soup.select('[class*=node--]'))}",
             f"time[datetime]: {len(soup.select('time[datetime]'))}",
         ]
+        # Probe: holt die erste Programm-Detailseite und prüft, ob dort
+        # Termine server-seitig stehen (JSON-LD / <time> / Datumstext) oder
+        # nur per Ticket-SPA. Entscheidet, ob Detail-Fetching sich lohnt.
+        if cards:
+            href = urljoin(BASE, cards[0][0]["href"])
+            try:
+                dhtml = self.get(href, headers=BROWSER).text
+                dsoup = BeautifulSoup(dhtml, "html.parser")
+                jsonld = dsoup.find_all("script", type="application/ld+json")
+                times = dsoup.select("time[datetime]")
+                txt = dsoup.get_text(" ", strip=True)
+                dates = re.findall(
+                    r"\d{1,2}\.\s*(?:Jan|Feb|Mär|Apr|Mai|Jun|Jul|Aug|Sep|Okt|"
+                    r"Nov|Dez)[a-zäöü]*\.?\s*\d{0,4}|\d{1,2}\.\d{1,2}\.\d{2,4}",
+                    txt, re.I)
+                info_lines.append(f"--- Detail-Probe {href} ---")
+                info_lines.append(
+                    f"JSON-LD-Blöcke: {len(jsonld)} | time[datetime]: "
+                    f"{len(times)} | Datumstreffer: {len(dates)}")
+                if times:
+                    info_lines.append("time-Beispiele: " + ", ".join(
+                        t.get("datetime", "") for t in times[:6]))
+                if dates:
+                    info_lines.append("Datum-Beispiele: " + ", ".join(dates[:8]))
+                if jsonld:
+                    info_lines.append("JSON-LD[0]: " + jsonld[0].get_text()[:600])
+            except Exception as exc:  # noqa: BLE001
+                info_lines.append(f"Detail-Probe FEHLER: {exc}")
+
         arts = soup.select("article")
         if arts:
             info_lines.append("--- erstes <article> (roh) ---")
-            info_lines.append(arts[0].prettify()[:1600])
+            info_lines.append(arts[0].prettify()[:1000])
         elif cards:
             info_lines.append("--- erstes Teaser-Element ---")
             info_lines.append(cards[0][1].prettify()[:1400])

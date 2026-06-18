@@ -265,6 +265,7 @@ async function init() {
   els.catExpand.addEventListener("click", () => {
     const expanded = els.tagFilter.classList.toggle("expanded");
     els.catExpand.setAttribute("aria-expanded", String(expanded));
+    headerOffset(); // geänderte Header-Höhe ins Sprungziel übernehmen
   });
 
   els.favToggle.addEventListener("click", () => {
@@ -1856,6 +1857,7 @@ function sizeMap() {
 }
 
 window.addEventListener("resize", () => {
+  headerOffset(); // Header-Höhe (und damit Sprungziel) aktuell halten
   if (state.viewMode === "map" && leafletMap) {
     sizeMap();
     leafletMap.invalidateSize();
@@ -2013,7 +2015,12 @@ function buildDayTabs(sortedKeys, groups) {
         render();
       } else {
         const target = document.getElementById(`day-${key}`);
-        if (target) target.scrollIntoView({ behavior: "smooth", block: "start" });
+        if (target) {
+          headerOffset(); // Sprungziel an aktuelle Header-Höhe anpassen
+          // Aktiven Tab sofort setzen (Scroll-Spy zieht beim Scrollen nach).
+          setActiveTab(key);
+          target.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
       }
     });
     els.dayTabs.appendChild(tab);
@@ -2022,6 +2029,18 @@ function buildDayTabs(sortedKeys, groups) {
 
 let dayIO = null;
 let lastActiveKey = null;
+
+// Both the click-to-jump target (CSS scroll-margin) and the scroll-spy line
+// must use the SAME, REAL header height -- otherwise jumps land behind the
+// sticky header and the wrong day gets highlighted. The header height varies
+// (genre row wraps, categories expand, safe-area inset), so measure it live.
+const HEADER_GAP = 8;
+function headerOffset() {
+  const header = document.querySelector(".site-header");
+  const h = (header ? header.offsetHeight : 0) + HEADER_GAP;
+  document.documentElement.style.setProperty("--header-h", h + "px");
+  return h;
+}
 
 // Scroll-spy via IntersectionObserver: only recompute the active day when a day
 // heading actually crosses the header line (not on every scroll frame).
@@ -2033,8 +2052,7 @@ function setupScrollSpy(sortedKeys) {
   lastActiveKey = null;
   if (!sections.length) return;
 
-  const header = document.querySelector(".site-header");
-  const offset = () => (header ? header.offsetHeight : 0) + 6;
+  const offset = headerOffset;
   const recompute = () => {
     const top = offset();
     let activeKey = sortedKeys[0];

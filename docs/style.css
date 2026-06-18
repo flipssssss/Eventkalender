@@ -1051,22 +1051,23 @@ body {
   cursor: pointer;
 }
 
-.bezirk-cell rect {
+.bezirk-cell path {
   fill: var(--accent);
   stroke: var(--surface);
-  stroke-width: 2;
+  stroke-width: 1.4;
+  stroke-linejoin: round;
   transition: fill 0.15s ease, opacity 0.15s ease;
 }
 
 .bezirk-cell text {
   fill: var(--surface);
   font-family: var(--serif);
-  font-size: 10px;
+  font-size: 9px;
   font-weight: 600;
   pointer-events: none;
 }
 
-.bezirk-cell.off rect {
+.bezirk-cell.off path {
   fill: var(--surface-2);
 }
 
@@ -1078,17 +1079,17 @@ body {
   opacity: 0.55;
 }
 
-.bezirk-cell:hover rect {
+.bezirk-cell:hover path {
   fill: color-mix(in srgb, var(--accent) 82%, var(--text));
 }
 
-.bezirk-cell.off:hover rect {
+.bezirk-cell.off:hover path {
   fill: color-mix(in srgb, var(--surface-2) 65%, var(--accent));
 }
 
-.bezirk-cell:focus-visible rect {
+.bezirk-cell:focus-visible path {
   stroke: var(--text);
-  stroke-width: 3;
+  stroke-width: 2.4;
 }
 
 .bezirk-extra {

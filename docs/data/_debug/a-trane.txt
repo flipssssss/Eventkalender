@@ -1,8 +1,8 @@
 URL: https://www.a-trane.de/
   HTTP-Status: 200
-  HTML-Länge: 1506158 Zeichen
+  HTML-Länge: 1469830 Zeichen
   JSON-LD vorhanden: True
-  Events gefunden: 60
+  Events gefunden: 58
   Mögliche Programm-Unterseiten:
     - https://a-trane.de/Events-Directory/a-trane-praesentiert-a-summer-residency-day1livaunspokendebutalbum-release-concertfeat-florian-schultz-laurie-rich-vincent-niessen-lucas-johnsonspecial-guest-max-hacker/
     - https://a-trane.de/Events-Directory/a-trane-praesentiert-a-summer-residency-day1nils-kugelmannrebirthwhere-nights-unfoldcelebrating-5-years-of-the-triofeat-luca-zambito-sebastian-wolfgruber/
@@ -22,13 +22,13 @@ URL: https://www.a-trane.de/
     - https://a-trane.de/Events-Directory/a-trane-praesentiert-jazz-versus-soccer-a-summer-residency-day3judy-niemacksinging-miles100-years-milesfeat-dima-bondarev-yuriy-seredin-doug-weiss-marc-michel/
     - https://a-trane.de/Events-Directory/a-trane-praesentiert-jazz-versus-soccer-a-summer-residency-day4judy-niemacksinging-miles100-years-milesfeat-dima-bondarev-yuriy-seredin-doug-weiss-marc-michel/
     - https://a-trane.de/Events-Directory/a-trane-praesentiert-jazz-versus-soccer-a-summer-residency-day5judy-niemacksinging-miles100-years-milesfeat-dima-bondarev-yuriy-seredin-doug-weiss-marc-michel/
-    - https://a-trane.de/Events-Directory/a-trane-praesentiert-summerconcerts-day1jazz-versus-soccerhanno-buschperspectivealbum-release-concertfeat-mathew-halpin-claus-fischer-jonas-burgwinkel/
     - https://a-trane.de/Events-Directory/a-trane-praesentiert-summerconcerts-day2jazz-versus-soccerhanno-buschperspectivealbum-release-concertfeat-mathew-halpin-claus-fischer-jonas-burgwinkel/
     - https://a-trane.de/Events-Directory/a-trane-praesentiert-summerconcerts-day3jazz-versus-soccerhanno-buschperspectivealbum-release-concertfeat-mathew-halpin-claus-fischer-jonas-burgwinkel/
     - https://a-trane.de/Events-Directory/a-trane-praesentiert-summerconcertsjazz-versus-soccerdana-mastersreal-good-moodfeat-cian-boylan-dave-redmond-darren-beckett/
     - https://a-trane.de/Events-Directory/a-trane-praesentiert-summerweekconcerts-day1jazz-versus-soccermaria-baptist-triofive-special-nights-trio-guestsfeat-today-fabian-timm-heinz-lichius/
     - https://a-trane.de/Events-Directory/a-trane-praesentiert-summerweekconcerts-day2jazz-versus-soccermaria-baptist-triofive-special-nights-trio-guestsfeat-today-fabian-timm-heinz-lichius/
     - https://a-trane.de/Events-Directory/a-trane-praesentiert-summerweekconcerts-day3jazz-versus-soccermaria-baptist-triofive-special-nights-trio-guestsfeat-today-fabian-timm-heinz-lichius-philip-sindy/
+    - https://a-trane.de/Events-Directory/a-trane-praesentiert-summerweekconcerts-day4jazz-versus-soccermaria-baptist-triofive-special-nights-trio-guestsfeat-today-fabian-timm-heinz-lichius-gabriel-coburger/
   URL-Strings im Skript:  ] } );
 //# sourceURL=wp-i18n-js-after
 

@@ -631,12 +631,10 @@ function buildSourceToggles() {
   }
 }
 
-// Beschriftung der Karte: zweiteilige Namen umbrechen und den ersten Teil
-// ausschreiben (statt beide abzukürzen); einteilige Namen einzeilig.
+// Beschriftung der Karte: bei zweiteiligen Namen nur den ersten Teil zeigen
+// (z. B. "Charlottenburg-Wilmersdorf" -> "Charlottenburg"), einzeilig.
 function bezirkLines(name) {
-  const i = name.indexOf("-");
-  if (i === -1) return [name];
-  return [name.slice(0, i + 1), name.slice(i + 1)];
+  return [name.split("-")[0]];
 }
 
 function buildBezirkToggles() {

@@ -1061,14 +1061,14 @@ body {
 
 .bezirk-cell text {
   fill: var(--text);
-  /* Lesbarer Halo: heller Umriss unter dunkler Schrift -- funktioniert auf der
-     farbigen wie auf der ausgegrauten Fläche und in jedem Design. */
+  /* Dünner, heller Umriss unter dunkler Schrift -- lesbar auf farbiger wie
+     ausgegrauter Fläche und in jedem Design, ohne die Buchstaben zuzukleistern. */
   stroke: var(--surface);
-  stroke-width: 2.4px;
+  stroke-width: 1.3px;
   paint-order: stroke;
   stroke-linejoin: round;
   font-family: var(--serif);
-  font-size: 9px;
+  font-size: 8px;
   font-weight: 700;
   pointer-events: none;
 }

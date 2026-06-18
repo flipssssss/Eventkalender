@@ -76,6 +76,7 @@
  "A-Trane Berlin, Bleibtreustrasse 1 10623": null,
  "AGB PopUp Saal Blücherplatz 1 10961 Berlin Deutschland": null,
  "AGB PopUp Saal Blücherplatz 1 10961, 10961 Berlin": null,
+ "Abfahrt Solibus Züllichauer Straße 10965 Berlin Deutschland": null,
  "Ackerstraße 169, 10115 Berlin": {
   "address": "Ackerstraße 169, 10115 Mitte",
   "bezirk": "Mitte",
@@ -364,6 +365,12 @@
   "lat": 52.5524901,
   "lng": 13.3788571
  },
+ "Buttmannstraße 1a, 13357 Berlin": {
+  "address": "Buttmannstraße 1A, 13357 Gesundbrunnen",
+  "bezirk": "Mitte",
+  "lat": 52.5524901,
+  "lng": 13.3788571
+ },
  "Böse Buben, Berlin": {
   "address": "Sachsendamm 76-77, 10829 Schöneberg",
   "bezirk": "Tempelhof-Schöneberg",
@@ -563,6 +570,7 @@
   "lat": 52.5485624,
   "lng": 13.3522707
  },
+ "Globe Berlin, Sömmeringstraße 15, 10589, Berlin": null,
  "Gneisenaustr. 2a, 10961 Berlin": {
   "address": "Gneisenaustraße 2a, 10961 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -830,6 +838,12 @@
   "lng": 13.4580211
  },
  "Kadterschmiede Rigaer Str. 94 10245, 10245 Berlin": null,
+ "Kaisersteg, 12459 Berlin": {
+  "address": "Kaisersteg, 12439 Oberschöneweide",
+  "bezirk": "Treptow-Köpenick",
+  "lat": 52.4578513,
+  "lng": 13.5194765
+ },
  "Karl Liebknecht Haus, Kleine Alexanderstraße 28, 10178 Berlin": null,
  "Karl-Liebknecht-Haus Kleine Alexanderstr. 28 10178 Berlin Deutschland": null,
  "Karl-Liebknecht-Haus Kleine Alexanderstr. 28 10178, 10178 Berlin": null,
@@ -1097,6 +1111,12 @@
   "bezirk": "Treptow-Köpenick",
   "lat": 52.489793,
   "lng": 13.4402231
+ },
+ "Lohmühlenstraße 17, 12435 Berlin": {
+  "address": "Lohmühlenstraße, 12435 Alt-Treptow",
+  "bezirk": "Treptow-Köpenick",
+  "lat": 52.4913677,
+  "lng": 13.44229
  },
  "Lottumstr. 10a, 10119 Berlin": {
   "address": "Lottumstraße 10A, 10119 Prenzlauer Berg",
@@ -1387,6 +1407,12 @@
   "lat": 52.459911,
   "lng": 13.5053346
  },
+ "Refuge Worldwide, Niemetzstraße 1, 12055 Berlin": {
+  "address": "Niemetzstraße 1, 12055 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4734946,
+  "lng": 13.449784
+ },
  "Regenbogen Cafè Lausitzer Straße 22a, 10999 Berlin (bei gutem Wetter im Hof)": null,
  "RegenbogenKino Lausitzer Straße 22a Deutschland, Berlin": null,
  "Regenbogencafé Lausitzer Str. 22 10999 Berlin Deutschland": null,
@@ -1480,7 +1506,14 @@
   "lat": 52.5244928,
   "lng": 13.4019195
  },
+ "Rote Ella, Buttmannstraße 1a, 13357 Berlin": null,
  "Rote Insel near S1 / U7 Yorckstrasse Berlin 10783 Berlin Deutschland": null,
+ "Rote Lilly Emserstraße 114 12051 Berlin": {
+  "address": "Emser Straße 114, 12051 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4687052,
+  "lng": 13.4333242
+ },
  "Rotes Rathaus Rathausstr 15 10178 Berlin Deutschland": {
   "address": "Rathausstraße 15, 10178 Mitte",
   "bezirk": "Mitte",
@@ -1648,6 +1681,12 @@
   "lng": 13.4713392
  },
  "Supamolly Jessnerstr. 41 10247, 10247 Berlin": null,
+ "Sömmeringstraße 15, 10589 Berlin": {
+  "address": "Sömmeringstraße 15, 10589 Charlottenburg",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.5225889,
+  "lng": 13.3049841
+ },
  "Südostallee 42, 12437 Berlin": {
   "address": "Südostallee 42, 12437 Johannisthal",
   "bezirk": "Treptow-Köpenick",
@@ -1748,6 +1787,7 @@
   "lng": 13.4119171
  },
  "Volkssolidarität \"Mehr Mitte\" Torstraße 190 10115 Berlin Deutschland": null,
+ "Vor der Amerika-Gedenkbibliothek, Blücherplatz 1, 10961 Berlin": null,
  "Vor der BHT-Mensa, Luxemburger Straße 9, 13353 Berlin": null,
  "Wagenburg Lohmühle Lohmühlenstr. 17 12435 Berlin Deutschland": null,
  "Wagenburg Lohmühle Lohmühlenstr. 17 12435, 12435 Berlin": null,
@@ -1855,6 +1895,12 @@
  "Zwille Fasanenstr. 1a 10623 Berlin Deutschland": null,
  "Zwille Fasanenstr. 1a, 10623 Berlin": null,
  "Zwille Reuleaux-Haus, Fasanenstraße 1A, 10623 Berlin": null,
+ "Züllichauer Straße 1096, 10965 Berlin": {
+  "address": "Züllichauer Straße, 10965 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4854788,
+  "lng": 13.405408
+ },
  "aquarium (südblock) Skalitzer str. 6 10997 Berlin Deutschland": null,
  "ask a punk, Berlin": null,
  "auf dem Dragonerareal Mehringdamm 20 10961, 10961 Berlin": null,

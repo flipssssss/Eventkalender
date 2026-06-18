@@ -1,6 +1,6 @@
 URL: https://www.a-trane.de/
   HTTP-Status: 200
-  HTML-Länge: 1519677 Zeichen
+  HTML-Länge: 1519671 Zeichen
   JSON-LD vorhanden: True
   Events gefunden: 60
   Mögliche Programm-Unterseiten:

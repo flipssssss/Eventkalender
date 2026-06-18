@@ -903,6 +903,12 @@
   "lat": 52.4716193,
   "lng": 13.4510314
  },
+ "Konnopke's Imbiss Schönhauser Allee 44b, 10435, Berlin": {
+  "address": "Schönhauser Allee 44b, 10435 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5404746,
+  "lng": 13.412219
+ },
  "Kottbusser Tor, Berlin": {
   "address": "Kottbusser Tor, 10999 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",

@@ -1276,11 +1276,10 @@ body {
   z-index: 89;
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 11px;
   width: min(94vw, 380px);
-  height: 52px;
-  padding: 0 14px 0 0;
-  overflow: hidden; /* klippt die Icon-Ecken an die Pillenform */
+  height: 54px;
+  padding: 0 14px 0 8px;
   border: 1px solid var(--border);
   border-radius: 999px;
   background: color-mix(in srgb, var(--surface) 68%, transparent);
@@ -1296,11 +1295,14 @@ body {
   display: none;
 }
 
+/* App-Icon in einem gerundeten Rahmen -- so wie es später als App aussieht. */
 .install-pill__icon {
   flex: 0 0 auto;
-  height: 100%;          /* füllt die Pille von oben nach unten */
-  width: 52px;           /* quadratisch (= Höhe) */
+  width: 40px;
+  height: 40px;
+  border-radius: 11px;
   object-fit: cover;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
 }
 
 .install-pill__text {

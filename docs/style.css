@@ -964,6 +964,76 @@ body {
   color: var(--accent);
 }
 
+/* Saubere Aktions-Liste (Event/App/Quelle) -- jede Zeile ein Button mit Symbol. */
+.action-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.action-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 11px 12px;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: var(--surface-2);
+  color: var(--text);
+  font-family: var(--serif);
+  font-size: 0.96rem;
+  text-align: left;
+  cursor: pointer;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.action-row:hover {
+  border-color: var(--accent);
+}
+
+.action-row__icon {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  background: color-mix(in srgb, var(--accent) 14%, transparent);
+  color: var(--accent);
+}
+
+.action-row__icon--app {
+  background: none;
+  padding: 0;
+  overflow: hidden;
+}
+
+.action-row__icon--app img {
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.action-row__text {
+  flex: 1 1 auto;
+  font-weight: 600;
+}
+
+.action-row__chev {
+  flex: 0 0 auto;
+  color: var(--muted);
+}
+
+/* Punk: kantig statt gerundet. */
+:root[data-theme="punk"] .action-row,
+:root[data-theme="punk"] .action-row__icon,
+:root[data-theme="punk"] .action-row__icon--app img {
+  border-radius: 0;
+}
+
 .settings-hint {
   margin: 4px 0 8px;
   font-size: 0.82rem;

@@ -89,6 +89,12 @@ const els = {
   bezirkToggles: document.getElementById("bezirk-toggles"),
   wishText: document.getElementById("wish-text"),
   wishSend: document.getElementById("wish-send"),
+  wishBackdrop: document.getElementById("wish-backdrop"),
+  wishClose: document.getElementById("wish-close"),
+  openWish: document.getElementById("open-wish"),
+  eventBackdrop: document.getElementById("event-backdrop"),
+  eventClose: document.getElementById("event-close"),
+  openEvent: document.getElementById("open-event"),
   installBtn: document.getElementById("install-btn"),
   installPill: document.getElementById("install-pill"),
   installPillYes: document.getElementById("install-pill-yes"),
@@ -475,6 +481,23 @@ function setupSettings() {
   // "Als App hinzufügen" in den Einstellungen öffnet dieselbe visuelle Anleitung.
   els.installBtn.addEventListener("click", () => openInstallGuide());
 
+  // Event-/Quelle-Popups (öffnen über den Einstellungen, schließen dorthin zurück).
+  els.openEvent.addEventListener("click", () => openOverlay(els.eventBackdrop));
+  els.eventClose.addEventListener("click", () => closeOverlay(els.eventBackdrop));
+  els.eventBackdrop.addEventListener("click", (e) => {
+    if (e.target === els.eventBackdrop) closeOverlay(els.eventBackdrop);
+  });
+  els.openWish.addEventListener("click", () => openOverlay(els.wishBackdrop));
+  els.wishClose.addEventListener("click", () => closeOverlay(els.wishBackdrop));
+  els.wishBackdrop.addEventListener("click", (e) => {
+    if (e.target === els.wishBackdrop) closeOverlay(els.wishBackdrop);
+  });
+  document.addEventListener("keydown", (e) => {
+    if (e.key !== "Escape") return;
+    if (!els.eventBackdrop.hasAttribute("hidden")) closeOverlay(els.eventBackdrop);
+    else if (!els.wishBackdrop.hasAttribute("hidden")) closeOverlay(els.wishBackdrop);
+  });
+
   setupInstallPill();
   setupInstallGuide();
 
@@ -490,8 +513,11 @@ function setupSettings() {
         headers: { "Accept": "application/json", "Content-Type": "application/json" },
         body: JSON.stringify({ vorschlag: text }),
       });
-      if (res.ok) { els.wishText.value = ""; toast("Danke! Vorschlag gesendet."); }
-      else { toast("Konnte nicht senden."); }
+      if (res.ok) {
+        els.wishText.value = "";
+        closeOverlay(els.wishBackdrop);
+        toast("Danke! Vorschlag gesendet.");
+      } else { toast("Konnte nicht senden."); }
     } catch { toast("Konnte nicht senden."); }
     els.wishSend.disabled = false;
   });
@@ -648,6 +674,21 @@ function buildKdcatToggles() {
     label.appendChild(document.createTextNode(KD_LABELS[cat] || cat));
     els.kdcatToggles.appendChild(label);
   }
+}
+
+// Generic overlay (popups, die über den Einstellungen liegen können).
+function anyOverlayOpen(except) {
+  return [els.settingsBackdrop, els.modalBackdrop, els.eventBackdrop,
+    els.wishBackdrop, els.installGuide]
+    .some((el) => el && el !== except && !el.hasAttribute("hidden"));
+}
+function openOverlay(el) {
+  el.removeAttribute("hidden");
+  document.body.style.overflow = "hidden";
+}
+function closeOverlay(el) {
+  el.setAttribute("hidden", "");
+  if (!anyOverlayOpen(el)) document.body.style.overflow = "";
 }
 
 function openSettings() {
@@ -1930,6 +1971,7 @@ async function submitOwnEvent(e) {
     if (!res.ok) throw new Error("HTTP " + res.status);
     toast("Danke! Dein Event ist jetzt für alle sichtbar.");
     els.mineForm.reset();
+    closeOverlay(els.eventBackdrop);
     await loadUserEvents();
     mergeEvents();
     buildGenreFilter();

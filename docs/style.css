@@ -301,31 +301,6 @@ body {
   padding-bottom: 12px;
 }
 
-/* Beim Runterscrollen klappen Genres + Kategorien weg (Platz fürs Lesen),
-   beim Hochscrollen wieder auf. Die Tagesleiste bleibt immer sichtbar. */
-.header-row--genres,
-.header-row--categories {
-  overflow: hidden;
-  max-height: 120px;
-  transition: max-height 0.28s ease, opacity 0.22s ease,
-    padding 0.28s ease;
-}
-
-/* Aufgeklappte Kategorien brauchen mehr Höhe (mehrere Reihen). */
-.header-row--categories:has(.tag-filter.expanded) {
-  max-height: 340px;
-}
-
-/* Eingeklappter Header: gewinnt durch Reihenfolge auch über die :has-Regel. */
-.site-header.compact .header-row--genres,
-.site-header.compact .header-row--categories {
-  max-height: 0;
-  padding-top: 0;
-  padding-bottom: 0;
-  opacity: 0;
-  pointer-events: none;
-}
-
 .icon-toggle[aria-expanded="true"] {
   color: var(--accent);
 }

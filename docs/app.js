@@ -1932,35 +1932,6 @@ window.addEventListener("resize", () => {
   }
 });
 
-// Auto-hide header: Genres + Kategorien klappen beim Runterscrollen weg und beim
-// Hochscrollen wieder auf (Tagesleiste bleibt). Ganz oben immer voll zeigen.
-let lastScrollY = window.scrollY;
-let scrollTicking = false;
-function onWindowScroll() {
-  scrollTicking = false;
-  const header = document.querySelector(".site-header");
-  if (header) {
-    const y = window.scrollY;
-    const delta = y - lastScrollY;
-    if (y < 60) {
-      header.classList.remove("compact");
-    } else if (delta > 4) {
-      header.classList.add("compact");      // runter -> wegklappen
-    } else if (delta < -4) {
-      header.classList.remove("compact");   // hoch -> wieder zeigen
-    }
-    lastScrollY = y;
-  }
-  headerOffset();        // geänderte Header-Höhe ins Sprungziel übernehmen
-  daySpyRecompute();     // aktiven Tag passend zur neuen Header-Linie setzen
-}
-window.addEventListener("scroll", () => {
-  if (!scrollTicking) {
-    scrollTicking = true;
-    requestAnimationFrame(onWindowScroll);
-  }
-}, { passive: true });
-
 function clearMapMarkers() {
   if (!leafletMap) return;
   for (const m of mapMarkers) leafletMap.removeLayer(m);
@@ -2111,24 +2082,34 @@ function buildDayTabs(sortedKeys, groups) {
         state.mapDay = key;
         render();
       } else {
-        const target = document.getElementById(`day-${key}`);
-        if (target) {
-          headerOffset(); // Sprungziel an aktuelle Header-Höhe anpassen
-          // Aktiven Tab sofort setzen (Scroll-Spy zieht beim Scrollen nach).
-          setActiveTab(key);
-          target.scrollIntoView({ behavior: "smooth", block: "start" });
-        }
+        jumpToDay(key);
       }
     });
     els.dayTabs.appendChild(tab);
   }
 }
 
+// Jump to a day's heading and park it just under the sticky header. We compute
+// the target scroll position explicitly (absolute document position minus the
+// measured header height) instead of relying on scrollIntoView + CSS
+// scroll-margin, whose timing left the previous day partly visible.
+function jumpToDay(key) {
+  const target = document.getElementById(`day-${key}`);
+  if (!target) return;
+  setActiveTab(key);
+  const doScroll = () => {
+    const top = target.getBoundingClientRect().top + window.scrollY
+      - headerOffset();
+    window.scrollTo({ top: Math.max(0, top), behavior: "smooth" });
+  };
+  doScroll();
+  // Lazily built day boxes can change height as they render; re-align once the
+  // layout has settled so we never come to rest inside the previous day.
+  requestAnimationFrame(doScroll);
+}
+
 let dayIO = null;
 let lastActiveKey = null;
-// Exposed so the global scroll handler can re-check the active day while the
-// header collapses/expands (which changes the header line).
-let daySpyRecompute = () => {};
 
 // Both the click-to-jump target (CSS scroll-margin) and the scroll-spy line
 // must use the SAME, REAL header height -- otherwise jumps land behind the
@@ -2165,7 +2146,6 @@ function setupScrollSpy(sortedKeys) {
       setActiveTab(activeKey);
     }
   };
-  daySpyRecompute = recompute;
   dayIO = new IntersectionObserver(recompute, {
     rootMargin: `-${offset()}px 0px 0px 0px`,
     threshold: 0,

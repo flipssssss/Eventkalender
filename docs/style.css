@@ -786,6 +786,8 @@ body {
   border-radius: var(--radius) var(--radius) 0 0;
   box-shadow: 0 -8px 30px rgba(60, 40, 20, 0.3);
   -webkit-overflow-scrolling: touch;
+  /* Zurückschnappen / Wegschieben des Bottom-Sheets (siehe setupSheetDrag). */
+  transition: transform 0.24s ease;
 }
 
 @media (min-width: 620px) {

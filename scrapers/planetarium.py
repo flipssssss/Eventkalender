@@ -146,6 +146,18 @@ class PlanetariumScraper(BaseScraper):
                 info_lines.extend(rows)
                 if not rows and dates:
                     info_lines.append("Datum-Beispiele: " + ", ".join(dates[:10]))
+                # Termin-Tabelle (event-date...) komplett dumpen.
+                table = dsoup.find(class_=re.compile(r"event-date", re.I))
+                if table:
+                    top = table
+                    for _ in range(4):
+                        if top.parent and "event-date" in " ".join(
+                                top.parent.get("class", [])):
+                            top = top.parent
+                        else:
+                            break
+                    info_lines.append("--- event-date-Block ---")
+                    info_lines.append(top.prettify()[:1800])
             except Exception as exc:  # noqa: BLE001
                 info_lines.append(f"Detail-Probe FEHLER: {exc}")
 

@@ -288,6 +288,7 @@ async function init() {
   els.modalBackdrop.addEventListener("click", (e) => {
     if (e.target === els.modalBackdrop) closeModal();
   });
+  setupSheetDrag();
   document.addEventListener("keydown", (e) => {
     if (e.key === "Escape") { closeModal(); closeSettings(); }
   });
@@ -1334,6 +1335,7 @@ function showModal(ev, day) {
   }
 
   c.appendChild(body);
+  resetSheet();
   els.modalBackdrop.removeAttribute("hidden");
   els.modal.scrollTop = 0;
   document.body.style.overflow = "hidden";
@@ -1478,8 +1480,74 @@ function closeModal() {
 function hideModal() {
   els.modalBackdrop.setAttribute("hidden", "");
   if (els.settingsBackdrop.hasAttribute("hidden")) document.body.style.overflow = "";
+  resetSheet();
   for (const m of modalMaps) m.remove();
   modalMaps = [];
+}
+
+// Clear any drag transform left on the sheet (so the next open starts clean).
+function resetSheet() {
+  els.modal.style.transition = "";
+  els.modal.style.transform = "";
+  els.modalBackdrop.style.background = "";
+}
+
+// Bottom-sheet "wegschieben": when the detail view is scrolled to the very top
+// and the user drags it further down, the sheet follows the finger; releasing
+// after a long enough pull -- or a quick flick -- closes it. A short, gentle
+// pull snaps back.
+function setupSheetDrag() {
+  const sheet = els.modal;
+  let startY = 0, lastY = 0, lastT = 0, dy = 0, velocity = 0;
+  let active = false, dragging = false;
+
+  sheet.addEventListener("touchstart", (e) => {
+    if (e.touches.length !== 1 || sheet.scrollTop > 0) { active = false; return; }
+    active = true; dragging = false; dy = 0; velocity = 0;
+    startY = lastY = e.touches[0].clientY;
+    lastT = e.timeStamp;
+    sheet.style.transition = "none";
+  }, { passive: true });
+
+  sheet.addEventListener("touchmove", (e) => {
+    if (!active) return;
+    const y = e.touches[0].clientY;
+    dy = y - startY;
+    if (dy > 0) {
+      // Nach unten gezogen, während der Inhalt schon ganz oben ist -> Sheet
+      // mitschieben statt scrollen. Sobald zwischendurch gescrollt wurde,
+      // den Griff loslassen.
+      if (sheet.scrollTop > 0) { active = false; resetSheet(); return; }
+      dragging = true;
+      e.preventDefault();
+      sheet.style.transform = `translateY(${dy}px)`;
+      const fade = Math.max(0, 1 - dy / (window.innerHeight * 0.8));
+      els.modalBackdrop.style.background = `rgba(40, 26, 15, ${0.45 * fade})`;
+    } else if (!dragging) {
+      // Nach oben gewischt -> normales Scrollen erlauben.
+      active = false;
+    }
+    velocity = (y - lastY) / ((e.timeStamp - lastT) || 1);
+    lastY = y; lastT = e.timeStamp;
+  }, { passive: false });
+
+  const end = () => {
+    if (!active) return;
+    active = false;
+    sheet.style.transition = "";  // CSS-Übergang fürs Zurückschnappen/Schließen
+    const flick = velocity > 0.55;             // kräftiges Wegschieben
+    const far = dy > sheet.offsetHeight * 0.28; // weit genug gezogen
+    if (dragging && (far || flick)) {
+      els.modalBackdrop.style.background = "transparent";
+      sheet.style.transform = "translateY(100%)";
+      setTimeout(() => { resetSheet(); closeModal(); }, 200);
+    } else {
+      resetSheet();
+    }
+    dragging = false;
+  };
+  sheet.addEventListener("touchend", end);
+  sheet.addEventListener("touchcancel", end);
 }
 
 // ---------------- Favourites ----------------

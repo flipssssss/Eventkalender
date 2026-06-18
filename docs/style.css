@@ -1279,6 +1279,92 @@ body {
   display: none; /* nur Symbole */
 }
 
+/* Dezenter "Als App hinzufügen"-Hinweis: Glas-Pille wie der Umschalter,
+   sitzt knapp über ihm und stört den restlichen Inhalt nicht. */
+.install-pill {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: calc(78px + env(safe-area-inset-bottom, 0px));
+  z-index: 89;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  max-width: min(94vw, 430px);
+  padding: 6px 8px 6px 6px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--surface) 68%, transparent);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 3px 14px rgba(0, 0, 0, 0.22);
+  color: var(--text);
+  font-size: 0.85rem;
+  animation: install-pill-in 0.3s ease both;
+}
+
+.install-pill[hidden] {
+  display: none;
+}
+
+.install-pill__icon {
+  flex: 0 0 auto;
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.install-pill__text {
+  flex: 1 1 auto;
+  line-height: 1.2;
+}
+
+.install-pill__yes,
+.install-pill__no {
+  flex: 0 0 auto;
+  border: none;
+  border-radius: 999px;
+  padding: 6px 12px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.install-pill__yes {
+  background: var(--accent);
+  color: var(--surface);
+}
+
+.install-pill__no {
+  background: none;
+  color: var(--muted);
+  padding: 6px 9px;
+  font-weight: 500;
+}
+
+@keyframes install-pill-in {
+  from { opacity: 0; transform: translate(-50%, 12px); }
+  to   { opacity: 1; transform: translate(-50%, 0); }
+}
+
+/* Punk-Look: flach & kantig wie der Umschalter. */
+:root[data-theme="punk"] .install-pill {
+  background: var(--surface);
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  border-width: 2px;
+  border-radius: 0;
+  box-shadow: var(--shadow);
+}
+
+:root[data-theme="punk"] .install-pill__icon,
+:root[data-theme="punk"] .install-pill__yes,
+:root[data-theme="punk"] .install-pill__no {
+  border-radius: 0;
+}
+
 /* ---------------- Kartenansicht ---------------- */
 
 .map-view {

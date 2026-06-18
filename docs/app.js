@@ -91,6 +91,9 @@ const els = {
   wishSend: document.getElementById("wish-send"),
   installBtn: document.getElementById("install-btn"),
   installHelp: document.getElementById("install-help"),
+  installPill: document.getElementById("install-pill"),
+  installPillYes: document.getElementById("install-pill-yes"),
+  installPillNo: document.getElementById("install-pill-no"),
   viewList: document.getElementById("view-list"),
   viewMap: document.getElementById("view-map"),
   mapView: document.getElementById("map-view"),
@@ -142,6 +145,50 @@ window.addEventListener("beforeinstallprompt", (e) => {
   e.preventDefault();
   deferredInstallPrompt = e;
 });
+
+// Dezenter "Als App hinzufügen"-Hinweis unten. Erscheint nur beim Erstbesuch
+// (nicht in der installierten App) und kommt nach einmaligem Wegklicken nie
+// wieder -- gemerkt in localStorage.
+const INSTALL_DISMISS_KEY = "mzm-install-dismissed";
+
+function isStandalone() {
+  return (window.matchMedia
+    && window.matchMedia("(display-mode: standalone)").matches)
+    || window.navigator.standalone === true;
+}
+
+function dismissInstallPill() {
+  if (els.installPill) els.installPill.setAttribute("hidden", "");
+  try { localStorage.setItem(INSTALL_DISMISS_KEY, "1"); } catch { /* ignore */ }
+}
+
+function setupInstallPill() {
+  if (!els.installPill) return;
+  els.installPillNo.addEventListener("click", dismissInstallPill);
+  els.installPillYes.addEventListener("click", () => {
+    // Android: nativer Dialog, falls verfügbar. Sonst (iPhone) Anleitung
+    // in den Einstellungen zeigen. Danach nie wieder anbieten.
+    if (deferredInstallPrompt) {
+      deferredInstallPrompt.prompt();
+      deferredInstallPrompt = null;
+    } else {
+      openSettings();
+      els.installHelp.removeAttribute("hidden");
+    }
+    dismissInstallPill();
+  });
+
+  // Schon installiert oder früher weggeklickt -> gar nicht erst zeigen.
+  let dismissed = false;
+  try { dismissed = localStorage.getItem(INSTALL_DISMISS_KEY) === "1"; } catch { /* ignore */ }
+  if (dismissed || isStandalone()) return;
+
+  // Etwas verzögert einblenden, damit der Hinweis erst nach dem Ankommen
+  // auf der Seite auftaucht und nicht den ersten Eindruck stört.
+  setTimeout(() => {
+    if (!isStandalone()) els.installPill.removeAttribute("hidden");
+  }, 4000);
+}
 
 // Offline-Fähigkeit (PWA) + automatische Updates.
 if ("serviceWorker" in navigator) {
@@ -330,6 +377,8 @@ function setupSettings() {
     }
     els.installHelp.toggleAttribute("hidden");
   });
+
+  setupInstallPill();
 
   // Source wishes -> form service (no login). Set WISH_ENDPOINT below.
   els.wishSend.addEventListener("click", async () => {

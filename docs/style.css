@@ -1,3 +1,13 @@
+/* Selbst gehostete Display-Schrift fürs Punk-Theme (Special Elite, Apache 2.0).
+   Kein Google-Server -- die Datei liegt im Repo unter docs/fonts/. */
+@font-face {
+  font-family: "Special Elite";
+  src: url("fonts/SpecialElite-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* Sichtbarer Fokusring für Tastatur-Navigation (Barrierefreiheit). */
 :focus-visible {
   outline: 2px solid var(--accent);
@@ -41,8 +51,8 @@
   --border: #463f52; --radius: 0px;
   --shadow: 6px 6px 0 #322b3b;
   --serif: "Helvetica Neue", Arial, sans-serif;
-  --display: "Anton", "Arial Narrow", sans-serif;
-  --grain: 0.3;
+  --display: "Special Elite", "Courier New", Courier, monospace;
+  --grain: 0.45;
 }
 
 /* ---- Gemeinsame Punk-Struktur ---- */
@@ -1084,6 +1094,13 @@ body {
 .bezirk-cell:focus-visible path {
   stroke: var(--text);
   stroke-width: 2.4;
+}
+
+.bezirk-counter {
+  margin: 0 0 8px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--accent);
 }
 
 .bezirk-extra {

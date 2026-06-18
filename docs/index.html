@@ -219,18 +219,12 @@
           </div>
         </section>
 
-        <details class="settings-section settings-collapsible" open>
-          <summary class="settings-h">Quellen</summary>
-          <div id="source-toggles" class="source-toggles"></div>
-        </details>
-
-        <details class="settings-section settings-collapsible">
-          <summary class="settings-h">Bezirke</summary>
-          <p class="settings-note">Tippe auf der Karte die Bezirke an, die du
-            sehen willst. Ausgegraute sind ausgeblendet.</p>
+        <section class="settings-section">
+          <h3 class="settings-h">Bezirke</h3>
+          <p class="bezirk-counter" id="bezirk-counter"></p>
           <div id="bezirk-map" class="bezirk-map"></div>
           <div id="bezirk-extra" class="bezirk-extra"></div>
-        </details>
+        </section>
 
         <section class="settings-section" id="kdcat-section" hidden>
           <h3 class="settings-h">kulturdaten.berlin – Kategorien</h3>
@@ -287,6 +281,11 @@
             </button>
           </div>
         </section>
+
+        <details class="settings-section settings-collapsible">
+          <summary class="settings-h">Quellen</summary>
+          <div id="source-toggles" class="source-toggles"></div>
+        </details>
       </div>
     </div>
   </div>

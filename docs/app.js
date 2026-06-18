@@ -104,6 +104,7 @@ const els = {
   kdcatToggles: document.getElementById("kdcat-toggles"),
   bezirkMap: document.getElementById("bezirk-map"),
   bezirkExtra: document.getElementById("bezirk-extra"),
+  bezirkCounter: document.getElementById("bezirk-counter"),
   wishText: document.getElementById("wish-text"),
   wishSend: document.getElementById("wish-send"),
   wishBackdrop: document.getElementById("wish-backdrop"),
@@ -687,6 +688,30 @@ function buildBezirkToggles() {
     });
     els.bezirkExtra.appendChild(chip);
   }
+  updateBezirkCounter();
+}
+
+// Findet ein Event heute statt? Ausstellungen laufen über mehrere Tage und
+// müssen heute geöffnet sein; sonst zählt der Starttag.
+function isToday(ev) {
+  const today = dayStart(new Date());
+  if (isExhibition(ev)) {
+    const start = dayStart(new Date(ev.start));
+    const end = ev.end ? dayStart(new Date(ev.end)) : today;
+    if (start > today || end < today) return false;
+    if (ev.opening_hours) return hoursForDay(ev, today) != null;
+    return true;
+  }
+  return dayKey(new Date(ev.start)) === dayKey(today);
+}
+
+// "X von Y heute": wie viele der heutigen Events mit der aktuellen Auswahl
+// (Bezirke + übrige Filter) sichtbar sind.
+function updateBezirkCounter() {
+  if (!els.bezirkCounter) return;
+  const all = state.events.filter(isToday);
+  const shown = all.filter((e) => matches(e));
+  els.bezirkCounter.textContent = `${shown.length} von ${all.length} heute`;
 }
 
 function toggleBezirkCell(target) {
@@ -698,6 +723,7 @@ function toggleBezirkCell(target) {
   const off = state.disabledBezirke.has(b);
   cell.classList.toggle("off", off);
   cell.setAttribute("aria-pressed", String(!off));
+  updateBezirkCounter();
   scheduleRender();
 }
 

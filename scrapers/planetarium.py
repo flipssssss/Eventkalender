@@ -1,14 +1,14 @@
-"""Planetarium Berlin -- Drupal event listing (per category).
+"""Planetarium Berlin -- Stiftung Planetarium Berlin (Drupal).
 
-The Stiftung Planetarium Berlin site is Drupal; the /tickets page is a JS
-widget, but the taxonomy pages under /veranstaltungsart/<art> are
-server-rendered. We read just the two wanted categories (Konzerte,
-Hörspiele & Lesungen).
+The /tickets page is a JS widget, but the taxonomy pages under
+/veranstaltungsart/<art> are server-rendered catalogues of *programmes*
+(e.g. "Cosmic Jazz"). Each programme teaser links to a detail page
+/veranstaltungen/<slug> whose booking table lists the concrete showtimes
+(Datum / Uhrzeit / Standort). We read the two wanted categories, follow
+the programme links and emit one event per showtime.
 
-The first dump showed no ``<time datetime>`` elements, so the parser is
-structure-driven: we collect links to event detail pages and pull the
-German date text from the surrounding teaser. A rich structure dump goes
-to the debug file so the selectors can be refined from real markup.
+No JSON-LD and no <time datetime> anywhere -- the table is plain text, so
+we parse "DD.MM.YYYY" + "HH:MM Uhr" out of each table row.
 """
 
 from __future__ import annotations
@@ -39,20 +39,12 @@ BROWSER = {
     "Accept-Language": "de-DE,de;q=0.9,en;q=0.8",
 }
 
-MONTHS = {
-    "januar": 1, "februar": 2, "märz": 3, "maerz": 3, "april": 4, "mai": 5,
-    "juni": 6, "juli": 7, "august": 8, "september": 9, "oktober": 10,
-    "november": 11, "dezember": 12,
-    "jan": 1, "feb": 2, "mär": 3, "mar": 3, "apr": 4, "jun": 6, "jul": 7,
-    "aug": 8, "sep": 9, "okt": 10, "nov": 11, "dez": 12,
-}
-# "18. Juni 2026", "18. Juni"
-DATE_TXT = re.compile(r"(\d{1,2})\.\s*([A-Za-zäöüÄÖÜ]+)\.?\s*(\d{4})?", re.I)
-# "18.06.2026", "18.06."
-DATE_NUM = re.compile(r"(\d{1,2})\.(\d{1,2})\.(\d{4})?")
-TIME_TXT = re.compile(r"(\d{1,2})[:.](\d{2})\s*Uhr|(\d{1,2})[:.](\d{2})")
-# Teaser links point to a program page /veranstaltungen/<slug>.
-DETAIL_RE = re.compile(r"/veranstaltungen/[a-z0-9]", re.I)
+# Teaser links point to a programme page /veranstaltungen/<slug>.
+DETAIL_RE = re.compile(r"^/veranstaltungen/[a-z0-9]", re.I)
+DATE_RE = re.compile(r"(\d{1,2})\.(\d{1,2})\.(\d{4})")
+TIME_RE = re.compile(r"(\d{1,2})[:.](\d{2})\s*Uhr")
+# Cap detail fetches so a run never explodes (there are ~30 programmes).
+MAX_DETAILS = 45
 
 
 class PlanetariumScraper(BaseScraper):
@@ -62,196 +54,113 @@ class PlanetariumScraper(BaseScraper):
         self.write_debug = write_debug
 
     def fetch_events(self) -> Iterable[Event]:
-        events: list[Event] = []
-        seen: set[str] = set()
-        dump: list[str] = []
+        # 1) Collect programme detail links per category (dedup, keep first
+        #    category a programme appears under).
+        detail: dict[str, str] = {}
+        notes: list[str] = []
         for path, category in SECTIONS:
-            url = BASE + path
             try:
-                html = self.get(url, headers=BROWSER).text
+                html = self.get(BASE + path, headers=BROWSER).text
             except Exception as exc:  # noqa: BLE001
-                dump.append(f"{path}: FEHLER {exc}")
+                notes.append(f"{path}: FEHLER {exc}")
                 continue
             soup = BeautifulSoup(html, "html.parser")
-            found, info = self._parse(soup, category, seen, events)
-            dump.append(f"{path} ({category}): +{found}\n{info}")
-        self._dump(f"Events: {len(events)}\n\n" + "\n\n========\n".join(dump))
+            n = 0
+            for a in soup.select("article.event-page a[href], article a[href]"):
+                href = a.get("href", "")
+                if DETAIL_RE.match(href):
+                    url = urljoin(BASE, href.split("?")[0])
+                    detail.setdefault(url, category)
+                    n += 1
+            notes.append(f"{path} ({category}): {n} Teaser")
+
+        # 2) Visit each programme and emit one event per showtime.
+        events: list[Event] = []
+        seen: set[str] = set()
+        for url, category in list(detail.items())[:MAX_DETAILS]:
+            try:
+                dhtml = self.get(url, headers=BROWSER).text
+            except Exception:  # noqa: BLE001
+                continue
+            events.extend(self._detail(url, category, dhtml, seen))
+
+        self._dump("Events: {}\n{}".format(
+            len(events), "\n".join(notes
+                                   + [f"Detailseiten: {len(detail)}"])))
         return events
 
-    def _parse(self, soup, category, seen, events):
-        # Drop chrome we never want to scan.
-        for tag in soup.select(
-                "header, footer, nav, script, style, .region-navigation"):
-            tag.decompose()
+    def _detail(self, url, category, html, seen) -> list[Event]:
+        soup = BeautifulSoup(html, "html.parser")
+        title = self._title(soup)
+        if not title:
+            return []
+        img = soup.find("meta", property="og:image")
+        image_url = img["content"] if img and img.get("content") else None
 
-        # Collect candidate teasers: any link to an event detail page, climbed
-        # to its surrounding card.
-        cards = []
-        seen_cards = set()
-        for a in soup.find_all("a", href=True):
-            if not DETAIL_RE.search(a["href"]):
+        out: list[Event] = []
+        # Each booking row holds a date and a time in its text; the heading row
+        # ("Datum Uhrzeit Standort Aktion") has no digits and is skipped.
+        rows = soup.select(".event-date__table-cell")
+        rowset = []
+        seen_rows = set()
+        for cell in rows:
+            row = cell.find_parent(class_="row") or cell.parent
+            if id(row) in seen_rows:
                 continue
-            card = self._card(a)
-            key = id(card)
-            if key in seen_cards:
+            seen_rows.add(id(row))
+            rowset.append(row)
+        for row in rowset:
+            text = row.get_text(" ", strip=True)
+            md = DATE_RE.search(text)
+            if not md:
                 continue
-            seen_cards.add(key)
-            cards.append((a, card))
-
-        found = 0
-        for a, card in cards:
-            ev = self._build(a, card, category)
-            if ev and ev._k not in seen:
-                seen.add(ev._k)
-                events.append(ev)
-                found += 1
-
-        # Debug: structure overview so we can refine selectors.
-        info_lines = [
-            f"Detail-Links: {len(cards)}",
-            f"article-Elemente: {len(soup.select('article'))}",
-            f"views-row: {len(soup.select('.views-row'))}",
-            f"node-Elemente: {len(soup.select('[class*=node--]'))}",
-            f"time[datetime]: {len(soup.select('time[datetime]'))}",
-        ]
-        # Probe: holt die erste Programm-Detailseite und prüft, ob dort
-        # Termine server-seitig stehen (JSON-LD / <time> / Datumstext) oder
-        # nur per Ticket-SPA. Entscheidet, ob Detail-Fetching sich lohnt.
-        if cards:
-            href = urljoin(BASE, cards[0][0]["href"])
+            mt = TIME_RE.search(text)
+            day, mon, year = (int(md.group(1)), int(md.group(2)),
+                              int(md.group(3)))
+            hour = int(mt.group(1)) if mt else 0
+            minute = int(mt.group(2)) if mt else 0
             try:
-                dhtml = self.get(href, headers=BROWSER).text
-                dsoup = BeautifulSoup(dhtml, "html.parser")
-                jsonld = dsoup.find_all("script", type="application/ld+json")
-                times = dsoup.select("time[datetime]")
-                txt = dsoup.get_text(" ", strip=True)
-                dates = re.findall(
-                    r"\d{1,2}\.\s*(?:Jan|Feb|Mär|Apr|Mai|Jun|Jul|Aug|Sep|Okt|"
-                    r"Nov|Dez)[a-zäöü]*\.?\s*\d{0,4}|\d{1,2}\.\d{1,2}\.\d{2,4}",
-                    txt, re.I)
-                info_lines.append(f"--- Detail-Probe {href} ---")
-                info_lines.append(
-                    f"JSON-LD-Blöcke: {len(jsonld)} | time[datetime]: "
-                    f"{len(times)} | Datumstreffer: {len(dates)}")
-                # Kleinste Elemente, die eine Uhrzeit enthalten -> Termin-Zeilen.
-                rows = []
-                for el in dsoup.find_all(string=re.compile(r"\d{1,2}[:.]\d{2}\s*Uhr")):
-                    parent = el.parent
-                    cls = " ".join(parent.get("class", []))
-                    rows.append(f"<{parent.name} class='{cls}'> "
-                                + parent.get_text(" ", strip=True)[:120])
-                    if len(rows) >= 8:
-                        break
-                info_lines.append(f"Uhrzeit-Zeilen: {len(rows)}")
-                info_lines.extend(rows)
-                if not rows and dates:
-                    info_lines.append("Datum-Beispiele: " + ", ".join(dates[:10]))
-                # Termin-Tabelle (event-date...) komplett dumpen.
-                table = dsoup.find(class_=re.compile(r"event-date", re.I))
-                if table:
-                    top = table
-                    for _ in range(4):
-                        if top.parent and "event-date" in " ".join(
-                                top.parent.get("class", [])):
-                            top = top.parent
-                        else:
-                            break
-                    info_lines.append("--- event-date-Block ---")
-                    info_lines.append(top.prettify()[:1800])
-            except Exception as exc:  # noqa: BLE001
-                info_lines.append(f"Detail-Probe FEHLER: {exc}")
-
-        arts = soup.select("article")
-        if arts:
-            info_lines.append("--- erstes <article> (roh) ---")
-            info_lines.append(arts[0].prettify()[:1000])
-        elif cards:
-            info_lines.append("--- erstes Teaser-Element ---")
-            info_lines.append(cards[0][1].prettify()[:1400])
-        else:
-            main = soup.select_one(
-                "main, #main-content, .region-content, .main-content")
-            info_lines.append("--- kein Detail-Link, main-Region (Text) ---")
-            info_lines.append((main or soup).get_text(" ", strip=True)[:800])
-        return found, "\n".join(info_lines)
+                start = _dt.datetime(year, mon, day, hour, minute)
+            except ValueError:
+                continue
+            key = url + "|" + start.isoformat()
+            if key in seen:
+                continue
+            seen.add(key)
+            ev = Event(
+                title=title[:160],
+                start=start,
+                source_url=url,
+                source_name=self.name,
+                location=self._standort(row) or "Planetarium Berlin",
+                image_url=image_url,
+                tags=[category],
+                time_known=bool(mt),
+            )
+            out.append(ev)
+        return out
 
     @staticmethod
-    def _card(a):
-        node = a
-        for _ in range(6):
-            if node.parent is None:
-                break
-            node = node.parent
-            cls = " ".join(node.get("class", []))
-            if node.name == "article" or re.search(
-                    r"teaser|views-row|node--|card|event|item", cls, re.I):
-                return node
-        return a.parent or a
+    def _title(soup) -> str:
+        h1 = soup.find("h1")
+        if h1:
+            t = re.sub(r"\s+", " ", h1.get_text(" ", strip=True)).strip()
+            if t:
+                return t
+        og = soup.find("meta", property="og:title")
+        if og and og.get("content"):
+            return re.sub(r"\s*\|.*$", "", og["content"]).strip()
+        return ""
 
-    def _build(self, a, card, category) -> Event | None:
-        text = card.get_text(" ", strip=True)
-        start = self._date(text)
-        if not start:
-            return None
-        title = ""
-        head = card.find(["h1", "h2", "h3", "h4"])
-        if head:
-            title = head.get_text(" ", strip=True)
-        if not title:
-            title = a.get_text(" ", strip=True)
-        title = re.sub(r"\s+", " ", title).strip()
-        if len(title) < 2:
-            return None
-        href = urljoin(BASE, a["href"])
-        img = card.find("img", src=True)
-        time_known = bool(TIME_TXT.search(text))
-        ev = Event(
-            title=title[:160],
-            start=start,
-            source_url=href,
-            source_name=self.name,
-            location="Planetarium Berlin",
-            image_url=urljoin(BASE, img["src"]) if img else None,
-            tags=[category],
-            time_known=time_known,
-        )
-        ev._k = href + "|" + start.isoformat()
-        return ev
-
-    def _date(self, text):
-        now = _dt.datetime.now()
-        hour = minute = 0
-        mt = TIME_TXT.search(text)
-        if mt:
-            g = mt.groups()
-            hour = int(g[0] or g[2] or 0)
-            minute = int(g[1] or g[3] or 0)
-        m = DATE_TXT.search(text)
-        if m:
-            day = int(m.group(1))
-            mon = MONTHS.get(m.group(2).lower())
-            year = int(m.group(3)) if m.group(3) else None
-            if mon:
-                if year is None:
-                    year = now.year
-                    if (mon, day) < (now.month, now.day):
-                        year += 1
-                try:
-                    return _dt.datetime(year, mon, day, hour, minute)
-                except ValueError:
-                    return None
-        m = DATE_NUM.search(text)
-        if m:
-            day, mon = int(m.group(1)), int(m.group(2))
-            year = int(m.group(3)) if m.group(3) else None
-            if year is None:
-                year = now.year
-                if (mon, day) < (now.month, now.day):
-                    year += 1
-            try:
-                return _dt.datetime(year, mon, day, hour, minute)
-            except ValueError:
-                return None
+    @staticmethod
+    def _standort(row) -> str | None:
+        # "Standort" cell: the one mentioning Planetarium/Zeiss, not a date/time.
+        for cell in row.select(".event-date__table-cell"):
+            t = cell.get_text(" ", strip=True)
+            if t and not DATE_RE.search(t) and not TIME_RE.search(t) \
+                    and ("planetarium" in t.lower() or "zeiss" in t.lower()
+                         or "insulaner" in t.lower()):
+                return re.sub(r"\s+", " ", t)[:80]
         return None
 
     def _dump(self, text: str) -> None:

@@ -1060,10 +1060,16 @@ body {
 }
 
 .bezirk-cell text {
-  fill: var(--surface);
+  fill: var(--text);
+  /* Lesbarer Halo: heller Umriss unter dunkler Schrift -- funktioniert auf der
+     farbigen wie auf der ausgegrauten Fläche und in jedem Design. */
+  stroke: var(--surface);
+  stroke-width: 2.4px;
+  paint-order: stroke;
+  stroke-linejoin: round;
   font-family: var(--serif);
   font-size: 9px;
-  font-weight: 600;
+  font-weight: 700;
   pointer-events: none;
 }
 
@@ -1071,12 +1077,9 @@ body {
   fill: var(--surface-2);
 }
 
-.bezirk-cell.off text {
-  fill: var(--muted);
-}
-
+/* Ausgegraut: nur die Fläche, die Schrift bleibt gut lesbar. */
 .bezirk-cell.off {
-  opacity: 0.55;
+  opacity: 0.92;
 }
 
 .bezirk-cell:hover path {

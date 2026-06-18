@@ -631,6 +631,14 @@ function buildSourceToggles() {
   }
 }
 
+// Beschriftung der Karte: zweiteilige Namen umbrechen und den ersten Teil
+// ausschreiben (statt beide abzukürzen); einteilige Namen einzeilig.
+function bezirkLines(name) {
+  const i = name.indexOf("-");
+  if (i === -1) return [name];
+  return [name.slice(0, i + 1), name.slice(i + 1)];
+}
+
 function buildBezirkToggles() {
   const counts = new Map();
   for (const e of state.events) {
@@ -642,8 +650,9 @@ function buildBezirkToggles() {
   // Echte Berlin-Umrisse: ein Pfad je Bezirk, an/ausgewählt per Klick.
   const cells = BEZIRK_GEO.paths.map((d) => {
     const off = state.disabledBezirke.has(d.b);
-    const top = d.cy - (d.l.length - 1) * 5 + 3;
-    const spans = d.l.map((ln, i) =>
+    const lines = bezirkLines(d.b);
+    const top = d.cy - (lines.length - 1) * 5 + 3;
+    const spans = lines.map((ln, i) =>
       `<tspan x="${d.cx}" dy="${i === 0 ? 0 : 10}">${ln}</tspan>`).join("");
     return `<g class="bezirk-cell${off ? " off" : ""}" data-bezirk="${d.b}" `
       + `role="button" tabindex="0" aria-pressed="${!off}" aria-label="${d.b}">`

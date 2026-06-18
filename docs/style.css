@@ -36,7 +36,7 @@
   color-scheme: dark;          /* native Datum/Zeit-Picker dunkel rendern */
   --bg: #0b0a0d; --surface: #16131b; --surface-2: #1e1a25;
   --text: #ece7f0; --muted: #8e8699;
-  --accent: #ff3d7f; --accent-soft: rgba(255, 61, 127, 0.16);
+  --accent: #bf6a3a; --accent-soft: rgba(191, 106, 58, 0.18);
   --bezirk-on: var(--accent);  /* Bezirke in der Design-Akzentfarbe */
   --border: #463f52; --radius: 0px;
   --shadow: 6px 6px 0 #322b3b;

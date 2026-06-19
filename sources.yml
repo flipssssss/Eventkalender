@@ -49,10 +49,13 @@ sources:
   - url: https://x-hain.de/de/calendar/index.ics
     name: xHain
     type: ical
-  # CCC Berlin (berlin.ccc.de) raus: vom Build-Runner nicht erreichbar
-  # ("Network is unreachable" -- vermutlich IPv6-only).
-  # - url: https://berlin.ccc.de/verein/calendar/
-  #   name: CCC Berlin
+  # CCC Berlin: vorheriger Versuch "Network is unreachable" (evtl. IPv6-only/
+  # transient). Mehrere Wege testen -> Debug zeigt, welcher Host/Feed verbindet.
+  - url: https://berlin.ccc.de/verein/calendar/index.ics
+    name: CCC Berlin
+    type: ical
+  - url: https://www.berlin.ccc.de/verein/calendar/
+    name: CCC www-Probe
 
   # Silverfuture (queere Bar, Neukölln) -- Kategorie automatisch,
   # Genre "Queer" via scrapers/genres.py.

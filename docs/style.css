@@ -1072,7 +1072,8 @@ body {
   cursor: pointer;
 }
 
-.bezirk-cell path {
+.bezirk-cell path,
+.bezirk-cell rect {
   fill: var(--bezirk-on);
   /* Trennlinien in eigener Farbe (Taupe) -- klar getrennt von der Schrift. */
   stroke: var(--muted);
@@ -1091,7 +1092,8 @@ body {
   pointer-events: none;
 }
 
-.bezirk-cell.off path {
+.bezirk-cell.off path,
+.bezirk-cell.off rect {
   fill: var(--surface-2);
 }
 
@@ -1099,9 +1101,15 @@ body {
   fill: var(--text);
 }
 
-.bezirk-cell:focus-visible path {
+.bezirk-cell:focus-visible path,
+.bezirk-cell:focus-visible rect {
   stroke: var(--text);
   stroke-width: 2.4;
+}
+
+/* "Ohne Bezirk"-Kasten: etwas kleinere Schrift, da zweizeilig im Kästchen. */
+.bezirk-cell--box text {
+  font-size: 8px;
 }
 
 /* Zähler oben rechts in der Karte (SVG-Text). */

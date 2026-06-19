@@ -657,12 +657,28 @@ function buildBezirkToggles() {
       + `<path d="${d.d}"/>`
       + `<text x="${d.cx}" y="${top}" text-anchor="middle">${spans}</text></g>`;
   }).join("");
+
+  // "Ohne Bezirk" (Events ohne Verortung) als Kasten in der freien oberen
+  // linken Ecke -- gleiche Klick-/Ausgegraut-Logik wie die Bezirke.
+  let extra = "";
+  if (counts.has(BEZIRK_UNKNOWN)) {
+    const off = state.disabledBezirke.has(BEZIRK_UNKNOWN);
+    extra = `<g class="bezirk-cell bezirk-cell--box${off ? " off" : ""}" `
+      + `data-bezirk="${BEZIRK_UNKNOWN}" role="button" tabindex="0" `
+      + `aria-pressed="${!off}" aria-label="Ohne Bezirk">`
+      + `<rect x="2" y="4" width="58" height="40" rx="3"/>`
+      + `<text x="31" y="21" text-anchor="middle">`
+      + `<tspan x="31" dy="0">Ohne</tspan><tspan x="31" dy="11">Bezirk</tspan>`
+      + `</text></g>`;
+  }
+
   // Zähler oben rechts im freien Bereich der Karte.
   const count = `<text id="bezirk-count" class="bezirk-count" x="${BEZIRK_GEO.w - 4}"`
     + ` y="22" text-anchor="end">${shownTodayCount()} heute</text>`;
   els.bezirkMap.innerHTML =
     `<svg viewBox="0 0 ${BEZIRK_GEO.w} ${BEZIRK_GEO.h}" class="bezirk-svg" `
-    + `role="group" aria-label="Bezirke auf der Karte wählen">${cells}${count}</svg>`;
+    + `role="group" aria-label="Bezirke auf der Karte wählen">`
+    + `${cells}${extra}${count}</svg>`;
   els.bezirkMap.onclick = (e) => toggleBezirkCell(e.target);
   els.bezirkMap.onkeydown = (e) => {
     if (e.key === "Enter" || e.key === " ") {
@@ -671,26 +687,7 @@ function buildBezirkToggles() {
     }
   };
 
-  // "Unbekannt" (Events ohne Bezirk) lässt sich nicht verorten -> als Chip.
   els.bezirkExtra.innerHTML = "";
-  if (counts.has(BEZIRK_UNKNOWN)) {
-    const chip = document.createElement("button");
-    chip.type = "button";
-    const setCls = () => {
-      chip.className = "bezirk-chip"
-        + (state.disabledBezirke.has(BEZIRK_UNKNOWN) ? " off" : "");
-    };
-    setCls();
-    chip.textContent = "Ohne Bezirk (" + counts.get(BEZIRK_UNKNOWN) + ")";
-    chip.addEventListener("click", () => {
-      toggleSet(state.disabledBezirke, BEZIRK_UNKNOWN);
-      saveSet(BEZIRKE_KEY, state.disabledBezirke);
-      setCls();
-      updateBezirkCounter();
-      scheduleRender();
-    });
-    els.bezirkExtra.appendChild(chip);
-  }
   updateBezirkCounter();
 }
 

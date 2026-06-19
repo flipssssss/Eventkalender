@@ -175,6 +175,12 @@
   "lat": 52.5126159,
   "lng": 13.3954281
  },
+ "Arboretum, Berlin": {
+  "address": "Blankenfelde",
+  "bezirk": "Pankow",
+  "lat": 52.604709,
+  "lng": 13.3974055
+ },
  "Archiv Potsdam Berlin": null,
  "Archiv Potsdam Berlin Deutschland": null,
  "Archiv Potsdam, Leipziger Straße 60 – 14473 Potsdam, Berlin": null,
@@ -1916,6 +1922,7 @@
  "https://karada-house.de/events/practical-reflections/, Berlin": null,
  "https://karada-house.de/events/radical-inclusion/, Berlin": null,
  "llmann🕯, Berlin": null,
+ "mainhall, Berlin": null,
  "men Race & Class“ von Angela Davis, Berlin": null,
  "men Race & Class” by Angela Davis, Berlin": null,
  "men, Race & Class“ von Angela Davis, Berlin": null,
@@ -1925,6 +1932,12 @@
  "near Bethaniendamm berlin berlin Deutschland": null,
  "rag über Stadtteilarbeit und Antifaschismus im \"Sozialen Zentrum Aenne Saefkow\", Berlin": null,
  "rk and antifascism at the “Soziales Zentrum Aenne Saefkow”, Berlin": null,
+ "tba, Berlin": {
+  "address": "Eisenacher Straße, 10777 Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4993694,
+  "lng": 13.3496349
+ },
  "verschiedene Veranstaltungsorte Berlin": null,
  "verschiedene Veranstaltungsorte, Berlin": null
 }

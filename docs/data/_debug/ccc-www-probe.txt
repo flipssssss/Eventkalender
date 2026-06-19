@@ -1,0 +1,142 @@
+URL: https://www.berlin.ccc.de/verein/calendar/
+  HTTP-Status: 200
+  HTML-Länge: 39217 Zeichen
+  JSON-LD vorhanden: True
+  Events gefunden: 0
+  Mögliche Programm-Unterseiten:
+    - https://git.berlin.ccc.de/cccb-website-team/www/src/branch/staging/content/verein/calendar/index.md
+    - https://www.berlin.ccc.de/veranstaltungen/
+    - https://www.berlin.ccc.de/veranstaltungen/chaosradio/
+    - https://www.berlin.ccc.de/veranstaltungen/clubdiscordia/
+    - https://www.berlin.ccc.de/veranstaltungen/cms/
+    - https://www.berlin.ccc.de/veranstaltungen/datengarten/
+    - https://www.berlin.ccc.de/veranstaltungen/didit/
+    - https://www.berlin.ccc.de/veranstaltungen/neujahresempfang/
+    - https://www.berlin.ccc.de/veranstaltungen/openwrt/
+    - https://www.berlin.ccc.de/veranstaltungen/spieleabend/
+    - https://www.berlin.ccc.de/verein/calendar/
+  URL-Strings im Skript: https://schema.org, https:\/\/berlin.ccc.de\/verein\/calendar\/, likes_verein\/calendar\/index.md, views_verein\/calendar\/index.md
+  Externe Skripte: ../../js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js, ../../js/main.bundle.min.165327e9b2a9a8807ad5cb6c943a8f9a52756791c128e2dbfb3623bb42429636adb4bbb076b0447b592cad02914321a6aef0db10b907465de34fda41e2830281.js, ../../lib/zoom/zoom.min.f592a181a15d2a5b042daa7f746c3721acf9063f8b6acd175d989129865a3
+  Größtes Inline-Skript (583 Zeichen)
+  --- ANFANG ---
+
+  [{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "Verein",
+    "name": "Kalender",
+    "headline": "Kalender",
+    
+    
+    "inLanguage": "de",
+    "url" : "https:\/\/berlin.ccc.de\/verein\/calendar\/",
+    "author" : {
+      "@type": "Person",
+      "name": ""
+    },
+    "copyrightYear": "2025",
+    "dateCreated": "2025-02-26T10:00:00\u002b02:00",
+    "datePublished": "2025-02-26T10:00:00\u002b02:00",
+    
+    "dateModified": "2025-02-26T10:00:00\u002b02:00",
+    
+    
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "17"
+  }]
+  
+  --- ENDE ---
+
+  [{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "Verein",
+    "name": "Kalender",
+    "headline": "Kalender",
+    
+    
+    "inLanguage": "de",
+    "url" : "https:\/\/berlin.ccc.de\/verein\/calendar\/",
+    "author" : {
+      "@type": "Person",
+      "name": ""
+    },
+    "copyrightYear": "2025",
+    "dateCreated": "2025-02-26T10:00:00\u002b02:00",
+    "datePublished": "2025-02-26T10:00:00\u002b02:00",
+    
+    "dateModified": "2025-02-26T10:00:00\u002b02:00",
+    
+    
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "17"
+  }]
+  
+  Body (ohne CSS/JS):
+:underline decoration-neutral-300 dark:underline-neutral-600" href="../../verein/calendar/">Kalender</a><span class="px-1 text-primary-500">/</span>
+</li>
+</ol>
+<h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+      Kalender
+    </h1>
+<div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+<div class="flex flex-row flex-wrap items-center">
+<time datetime="2025-02-26T10:00:00+02:00">Februar 26, 2025</time><span class="px-2 text-primary-500">·</span><span>17 WÃ¶rter</span><span class="px-2 text-primary-500">·</span><span title="Lesezeit">1 min</span><span class="px-2 text-primary-500">·</span>
+<span class="mb-[2px]">
+<a class="text-lg hover:text-primary-500" href="https://git.berlin.ccc.de/cccb-website-team/www/src/branch/staging/content/verein/calendar/index.md" rel="noopener noreferrer" target="_blank" title="Inhalt bearbeiten"><span class="inline-block align-text-bottom">
+<span class="relative block icon">
+</span>
+</span></a>
+</span>
+</div>
+<div class="flex flex-row flex-wrap items-center">
+</div>
+</div>
+</header>
+<section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+<div class="min-w-0 min-h-0 max-w-fit">
+<div class="article-content max-w-prose mb-20">
+<div class="calendar-container">
+<link href="../../css/calendar.css" rel="stylesheet"/>
+<div id="calendar">
+<div id="calendar-controls">
+<button id="prev-month">←</button>
+<span id="current-month"></span>
+<button id="next-month">→</button>
+</div>
+<table id="calendar-table">
+<thead>
+<tr>
+<th>Mo</th>
+<th>Di</th>
+<th>Mi</th>
+<th>Do</th>
+<th>Fr</th>
+<th>Sa</th>
+<th>So</th>
+</tr>
+</thead>
+<tbody id="calendar-body"></tbody>
+</table>
+</div>
+<div id="event-panel">
+<div id="event-date"></div>
+<div id="event-details"></div>
+</div>
+</div>
+<p>Keinen Termin mehr verpeilen? Einfach den <a href="../../all.ics">Veranstaltungskalender abonnieren</a>!</p>
+</div>
+</div>
+</section>
+<footer class="pt-8 max-w-prose print:hidden">
+</footer>
+</article>
+<div class="pointer-events-none absolute top-[110vh] bottom-0 w-12 ltr:right-0 rtl:left-0" id="top-scroller">
+<a aria-label="Zum Anfang scrollen" class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 mb-16 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400" href="#the-top" title="Zum Anfang scrollen">
+    ↑
+  </a>
+</div>
+</main><footer class="py-10 print:hi
+------------------------------------------------------------

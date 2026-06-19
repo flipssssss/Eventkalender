@@ -1,0 +1,108 @@
+URL: https://x-hain.de/de/calendar/
+  HTTP-Status: 200
+  HTML-Länge: 291605 Zeichen
+  JSON-LD vorhanden: False
+  Events gefunden: 0
+  Mögliche Programm-Unterseiten:
+    - https://x-hain.de/de/calendar#content
+    - https://x-hain.de/de/calendar/events/2026-06-01-open-monday/
+    - https://x-hain.de/de/calendar/events/2026-06-02-neurodivergent-crafting-night/
+    - https://x-hain.de/de/calendar/events/2026-06-03-3d-printing-introduction/
+    - https://x-hain.de/de/calendar/events/2026-06-03-entingvorstand-meeting/
+    - https://x-hain.de/de/calendar/events/2026-06-03-get-help-with-wood-projects/
+    - https://x-hain.de/de/calendar/events/2026-06-03-xhain-round-table/
+    - https://x-hain.de/de/calendar/events/2026-06-04-show-and-tell-live-presentations-start-at-1930/
+    - https://x-hain.de/de/calendar/events/2026-06-05-jugend-chillt/
+    - https://x-hain.de/de/calendar/events/2026-06-05-open-coms/
+    - https://x-hain.de/de/calendar/events/2026-06-07-diday/
+    - https://x-hain.de/de/calendar/events/2026-06-07-dome-build/
+    - https://x-hain.de/de/calendar/events/2026-06-07-rechenwerk-meeting/
+    - https://x-hain.de/de/calendar/events/2026-06-08-open-monday/
+    - https://x-hain.de/de/calendar/events/2026-06-09-jugendhackt-lab/
+    - https://x-hain.de/de/calendar/events/2026-06-09-neurodivergent-crafting-night/
+    - https://x-hain.de/de/calendar/events/2026-06-10-get-help-with-wood-projects/
+    - https://x-hain.de/de/calendar/events/2026-06-10-kitchen-planning/
+    - https://x-hain.de/de/calendar/events/2026-06-11-makeherspace-all-day--night-til-7am-fri/
+    - https://x-hain.de/de/calendar/events/2026-06-12-grin-tea-house/
+    - https://x-hain.de/de/calendar/events/2026-06-12-jugend-chillt/
+    - https://x-hain.de/de/calendar/events/2026-06-13-infra-day/
+    - https://x-hain.de/de/calendar/events/2026-06-15-open-monday/
+    - https://x-hain.de/de/calendar/events/2026-06-16-neurodivergent-crafting-night/
+    - https://x-hain.de/de/calendar/events/2026-06-17-3d-lab-intro/
+  Externe Skripte: /js/main.494264c8adf3272c7e79608e72aada133967cecacf910252f39c6d8c2c718999.js, /js/calendar.a3b50dcba8c05e04def80453e40a0da83e10cb145c8273bc82387896d799f07d.js
+  (keine Inline-Skripte)
+  Body (ohne CSS/JS):
+er">
+<div class="calendar" id="xhain_calendar">
+<div class="calendar_header">
+<h1 id="article-title">Kalender</h1>
+<a class="subscribe" href="/de/calendar/subscribe">Abonnieren</a>
+</div>
+<div class="month_wrapper">
+<div class="month_header">
+<div class="year">2026</div>
+<div class="month">Juni</div>
+</div>
+<div class="days_wrapper">
+<div class="day day-1" id="2026-06-01">
+<div class="day_title">
+<time class="monthday" datetime="2026-06-01">1</time>
+<span class="weekday">Mo</span>
+</div>
+<div class="event-wrapper">
+<a aria-controls="event-2026-06-01-open-monday" aria-haspopup="dialog" class="event" data-end-time="23:59" data-start-time="18:00" href="/de/calendar/events/2026-06-01-open-monday/" role="button">
+<div class="time">
+<time aria-label="start" class="start">
+                18:00
+            </time>
+            –
+            <time aria-label="end" class="end">
+                23:59
+            </time>
+</div>
+<span class="title">Open Monday</span>
+</a>
+<dialog class="event_modal" id="event-2026-06-01-open-monday">
+<div class="modal">
+<form method="dialog">
+<button class="close" title="close" type="submit">
+                    ×
+                </button>
+</form>
+<div id="info_date_time">
+<div class="time">
+<time class="start">18:00</time>
+                    –
+                    <time class="end">23:59</time>
+</div>
+</div>
+<div id="info_location">xHain</div>
+<div id="info_title">
+<a href="/de/calendar/events/2026-06-01-open-monday/">Open Monday</a>
+</div>
+<div id="info_description">Come by, take a look, and join in! This is the best moment for newcomers to swing by. Every Monday from 6pm until late at night in Grünberger Str. 16 in Berlin.</div>
+</div>
+</dialog>
+</div>
+</div>
+<div class="day day-2" id="2026-06-02">
+<div class="day_title">
+<time class="monthday" datetime="2026-06-02">2</time>
+<span class="weekday">Di</span>
+</div>
+<div class="event-wrapper">
+<a aria-controls="event-2026-06-02-neurodivergent-crafting-night" aria-haspopup="dialog" class="event" data-end-time="23:00" data-start-time="20:00" href="/de/calendar/events/2026-06-02-neurodivergent-crafting-night/" role="button">
+<div class="time">
+<time aria-label="start" class="start">
+                20:00
+            </time>
+            –
+            <time aria-label="end" class="end">
+                23:00
+            </time>
+</div>
+<span class="title">Neurodivergent Crafting Night</span>
+</a>
+<dialog class="event_modal" id="event-2026-06-02-neurodivergent-crafting-night">
+<div class="mod
+------------------------------------------------------------

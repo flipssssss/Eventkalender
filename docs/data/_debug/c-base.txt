@@ -1,0 +1,67 @@
+URL: https://c-base.org/calendar/
+  HTTP-Status: 200
+  HTML-Länge: 6231 Zeichen
+  JSON-LD vorhanden: False
+  Events gefunden: 0
+  Mögliche Programm-Unterseiten:
+    - https://c-base.org/calendar/exported/c-base-events.ics
+    - https://c-base.org/calendar/exported/events.ics
+    - https://c-base.org/calendar/exported/regulars.ics
+    - https://c-base.org/calendar/exported/seminars.ics
+  Externe Skripte: ../static/lib/micromodal.min.js?h=193b1e0a, ../static/lib/purify.min.js?h=4d50e013, ../static/lib/marked.min.js?h=aaa9a10d, ../static/lib/fullcalendar-6.1.17/index.global.min.js?h=25340ceb, https://www.c-base.org/calendar/exported/events.js, https://www.c-base.org/calendar/exported/errors.js, ../static/js/c-base-calendar.js?h=1baef035
+  (keine Inline-Skripte)
+  Body (ohne CSS/JS):
+<body dir="ltr">
+<nav class="navigation">
+<input class="menu-button" id="menu-button" type="checkbox"/>
+<label class="menu-icon" for="menu-button"><span class="navicon"></span></label>
+<ul class="menu">
+<li class="active"><a href="../">home</a></li>
+<li><a href="https://www.c-base.org/cv50f/">about</a></li>
+<li class="active"><a href="./">termine</a></li>
+<li><a href="https://logbuch.c-base.org/">logbuch</a></li>
+<li><a href="../impressum/">impressum</a></li>
+</ul>
+</nav>
+<main class="container">
+<div id="calendar"></div>
+<div id="calendar-export-state">
+    Stand / last exported at: <span id="last-update">unbekannt / unknown</span>,
+    Errors: <span id="error-display">---</span>
+</div>
+<details id="ics-links">
+<summary>iCalendar/ICS</summary>
+<ul>
+<li>Gesammelte iCalendar/ICS-Datei / download as iCalendar/ICS file : <tt><a href="/calendar/exported/c-base-events.ics">https://www.c-base.org/calendar/exported/c-base-events.ics</a></tt></li>
+<li>Nur Mainhall-Events / events in mainhall only: <tt><a href="/calendar/exported/events.ics">https://www.c-base.org/calendar/exported/events.ics</a></tt></li>
+<li>Wiederkehrende Events / regular events: <tt><a href="/calendar/exported/regulars.ics">https://www.c-base.org/calendar/exported/regulars.ics</a></tt></li>
+<li>Seminarraum / seminar room: <tt><a href="/calendar/exported/seminars.ics">https://www.c-base.org/calendar/exported/seminars.ics</a></tt></li>
+</ul>
+</details>
+</main>
+<footer>
+<div class="container">
+<section class="column" id="links-website">
+<ul>
+<li><a href="https://www.c-base.org/cv50f/">Über die c-base</a></li>
+<li><a href="./">Veranstaltungskalender</a></li>
+<li><a href="https://www.c-base.org/cv50f/core/foto-video-genehmigung.html">Foto- &amp; Drehgenehmigungen</a></li>
+<li><a href="https://www.c-base.org/presse/pressemappe.pdf">Pressemappe</a></li>
+<li><a href="../sponsors/">Sponsoren</a></li>
+<li><a href="../impressum/">Impressum</a></li>
+</ul>
+</section>
+<section class="column" id="links-content">
+<ul>
+<li><a href="https://logbuch.c-base.org/">logbuch (blog)</a></li>
+<li><a href="https://audioblog.c-base.org/">audioblog</a></li>
+<li><a href="https://wiki.c-base.org/coredump">Wiki</a></li>
+<li><a href="https://www.c-base.org/cv50f/">Website v5.0f</a></li>
+<li><a href="https://www.c-base.org/360/">360°-Tour</a></li>
+</ul>
+</section>
+<section class="column" id="links-social">
+<ul>
+<li><a href="https://chaos.social/@cbase" rel="me">c-base on Mastodon (chaos.social)</a></li>
+<li><a href="https://twi
+------------------------------------------------------------

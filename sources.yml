@@ -37,6 +37,14 @@
 # (scrapers/stressfaktor.py, in aggregate.py registriert), weil die
 # Originalseite einen Bot-Schutz hat.
 sources:
+  # Hacker-/Community-Spaces (Test: erst generisch, Struktur via Action-Debug).
+  - url: https://berlin.ccc.de/verein/calendar/
+    name: CCC Berlin
+  - url: https://x-hain.de/de/calendar/
+    name: xHain
+  - url: https://c-base.org/calendar/
+    name: c-base
+
   # Silverfuture (queere Bar, Neukölln) -- Kategorie automatisch,
   # Genre "Queer" via scrapers/genres.py.
   # Silverfuture -> eigener Ausleser (scrapers/silverfuture.py, Jimdo-Text).

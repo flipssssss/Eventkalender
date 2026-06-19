@@ -2238,3 +2238,7 @@ a.showing-time:hover {
 .past-box > .sort-box-head > .sort-box-title {
   color: var(--muted);
 }
+/* Favoriten-Archiv ("Vergangene") -- vom Feed abgesetzt. */
+.archive-box {
+  margin-top: 28px;
+}

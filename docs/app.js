@@ -36,6 +36,7 @@ const BEZIRK_GEO = { w: 360, h: 296, paths: [
   { b: "Reinickendorf", cx: 108.6, cy: 70.1, l: ["Reinicken-", "dorf"], d: "M124.8,101.3 L127.6,99.4 L130.3,100.1 L133.1,97.6 L139.5,99.8 L145.2,99.9 L145.4,101.1 L147.8,100.5 L148.9,103.1 L151.2,101.1 L154.5,101.0 L155.3,96.2 L161.0,94.3 L138.7,75.1 L145.7,74.1 L150.6,67.4 L154.0,59.6 L153.7,54.6 L149.1,44.0 L144.1,46.2 L132.9,46.5 L120.2,41.6 L114.6,42.5 L118.8,40.0 L116.4,33.5 L118.3,28.8 L113.5,19.4 L118.6,15.9 L117.1,14.0 L104.0,13.0 L103.6,20.0 L105.3,20.2 L104.6,30.2 L97.0,31.5 L93.0,30.6 L94.6,36.0 L94.1,42.8 L70.7,41.5 L68.7,48.7 L60.6,61.5 L69.8,73.1 L67.9,80.6 L69.8,86.5 L73.2,90.2 L74.8,98.6 L87.7,109.8 L114.1,111.4 L118.4,103.5 L124.8,101.3Z" },
 ] };
 const FAV_KEY = "ek_favorites";
+const FAV_EVENTS_KEY = "ek_fav_events";  // Snapshots der Favoriten (Archiv)
 const THEME_KEY = "ek_theme";
 const SOURCES_KEY = "ek_disabled_sources";
 const BEZIRKE_KEY = "ek_disabled_bezirke";
@@ -63,6 +64,7 @@ const state = {
   query: "",
   onlyFav: false,
   favorites: loadFavorites(),
+  favEvents: loadFavEvents(),
   disabledSources: loadDisabledSources(),
   disabledKdCats: loadSet("ek_disabled_kdcats"),
   disabledBezirke: loadSet(BEZIRKE_KEY),
@@ -1052,6 +1054,12 @@ function render() {
       if (map) setTimeout(() => map.invalidateSize(), 0);
       clearMapMarkers();
       showMapNote(0, 0);
+    } else if (state.onlyFav && pastFavorites(null).length) {
+      // Keine kommenden Favoriten, aber ein Archiv vergangener -> nur das zeigen.
+      els.feed.innerHTML = "";
+      const archive = renderFavArchive(null);
+      if (archive) els.feed.appendChild(archive);
+      spySections = [];
     } else {
       els.feed.innerHTML = '<p class="status">Keine Veranstaltungen gefunden.</p>';
     }
@@ -1202,6 +1210,16 @@ function renderList(sortedKeys, groups) {
     frag.appendChild(group);
   }
 
+  // In der Favoriten-Ansicht: vergangene Favoriten als Archiv ans Ende.
+  if (state.onlyFav) {
+    const shownIds = new Set();
+    for (const key of sortedKeys) {
+      for (const ev of groups.get(key).events) shownIds.add(eventId(ev));
+    }
+    const archive = renderFavArchive(shownIds);
+    if (archive) frag.appendChild(archive);
+  }
+
   els.feed.innerHTML = "";
   els.feed.appendChild(frag);
 
@@ -1300,6 +1318,54 @@ function renderPastBox(past, day) {
       built = true;
       for (const ev of past) {
         const c = renderCard(ev, day);
+        c.classList.add("card--past");
+        grid.appendChild(c);
+      }
+    }
+  });
+  return det;
+}
+
+// Gehört ein favorisiertes Event ins Archiv? Tag liegt vor heute (Ausstellungen
+// erst, wenn ihre Laufzeit vorbei ist -- laufende bleiben in den Favoriten).
+function isFavPast(ev) {
+  const today = dayStart(new Date());
+  if (isExhibition(ev)) {
+    return ev.end ? dayStart(new Date(ev.end)) < today : false;
+  }
+  return dayStart(new Date(ev.start)) < today;
+}
+
+// Vergangene Favoriten fürs Archiv (aus den Snapshots), neueste zuerst;
+// alles, was gerade noch im Feed sichtbar ist, wird ausgelassen (kein Doppeln).
+function pastFavorites(shownIds) {
+  const list = [];
+  for (const id in state.favEvents) {
+    if (!state.favorites.has(id)) continue;
+    if (shownIds && shownIds.has(id)) continue;
+    const ev = state.favEvents[id];
+    if (isFavPast(ev)) list.push(ev);
+  }
+  list.sort((a, b) => new Date(b.start) - new Date(a.start));
+  return list;
+}
+
+// "Vergangene": ausklappbares Archiv besuchter Veranstaltungen (für immer
+// gespeichert, bis entfavorisiert). Nur in der Favoriten-Ansicht.
+function renderFavArchive(shownIds) {
+  const past = pastFavorites(shownIds);
+  if (!past.length) return null;
+  const det = buildSortBox("Vergangene", past.length, "past-box archive-box");
+  det.open = false;
+  const grid = document.createElement("div");
+  grid.className = "cards";
+  det.appendChild(grid);
+  let built = false;
+  det.addEventListener("toggle", () => {
+    if (det.open && !built) {
+      built = true;
+      for (const ev of past) {
+        const c = renderCard(ev, new Date(ev.start));
         c.classList.add("card--past");
         grid.appendChild(c);
       }
@@ -1855,9 +1921,15 @@ function eventId(ev) {
 function isFav(ev) { return state.favorites.has(eventId(ev)); }
 function toggleFav(ev) {
   const id = eventId(ev);
-  if (state.favorites.has(id)) state.favorites.delete(id);
-  else state.favorites.add(id);
+  if (state.favorites.has(id)) {
+    state.favorites.delete(id);
+    delete state.favEvents[id];          // aus dem Archiv entfernen
+  } else {
+    state.favorites.add(id);
+    state.favEvents[id] = snapshotEvent(ev);  // fürs Archiv merken
+  }
   saveFavorites();
+  saveFavEvents();
 }
 function loadFavorites() {
   try { return new Set(JSON.parse(localStorage.getItem(FAV_KEY) || "[]")); }
@@ -1866,6 +1938,37 @@ function loadFavorites() {
 function saveFavorites() {
   try { localStorage.setItem(FAV_KEY, JSON.stringify([...state.favorites])); }
   catch { /* ignore */ }
+}
+
+// --- Favoriten-Archiv: Snapshots, damit vergangene Favoriten erhalten bleiben,
+// auch nachdem der Feed sie längst verworfen hat ("Veranstaltungen, auf denen
+// man war"). Bleibt für immer, bis entfavorisiert. ---
+function loadFavEvents() {
+  try { return JSON.parse(localStorage.getItem(FAV_EVENTS_KEY) || "{}") || {}; }
+  catch { return {}; }
+}
+function saveFavEvents() {
+  try { localStorage.setItem(FAV_EVENTS_KEY, JSON.stringify(state.favEvents)); }
+  catch { /* ignore */ }
+}
+function snapshotEvent(ev) {
+  const snap = {};
+  for (const k in ev) {
+    if (Object.prototype.hasOwnProperty.call(ev, k) && k[0] !== "_") snap[k] = ev[k];
+  }
+  return snap;
+}
+// Solange ein Favorit noch im Feed ist, seinen Snapshot aktuell halten
+// (und verwaiste Snapshots ohne Favorit aufräumen).
+function refreshFavSnapshots() {
+  for (const ev of state.events) {
+    const id = eventId(ev);
+    if (state.favorites.has(id)) state.favEvents[id] = snapshotEvent(ev);
+  }
+  for (const id in state.favEvents) {
+    if (!state.favorites.has(id)) delete state.favEvents[id];
+  }
+  saveFavEvents();
 }
 
 // ---------------- Calendar export (.ics) ----------------
@@ -1982,6 +2085,7 @@ function openSharedEvent() {
 function mergeEvents() {
   const base = state.baseEvents || [];
   state.events = base.concat(state.userEvents);
+  refreshFavSnapshots();   // Archiv-Snapshots aktuell halten
 }
 
 // Read user-submitted events that everyone shares (Firebase Realtime DB).

@@ -2193,8 +2193,8 @@ function applyViewMode() {
   els.mapView.toggleAttribute("hidden", !map);
   // Map view fills the screen and locks page scrolling.
   document.documentElement.classList.toggle("map-active", map);
-  if (map && dayIO) {
-    dayIO.disconnect();
+  if (map) {
+    spySections = [];
     lastActiveKey = null;
   }
 }
@@ -2221,6 +2221,7 @@ function sizeMap() {
 
 window.addEventListener("resize", () => {
   headerOffset(); // Header-Höhe (und damit Sprungziel) aktuell halten
+  updateActiveDay();
   if (state.viewMode === "map" && leafletMap) {
     sizeMap();
     leafletMap.invalidateSize();
@@ -2421,8 +2422,9 @@ function jumpToDay(key) {
   setTimeout(settle, 380);
 }
 
-let dayIO = null;
 let lastActiveKey = null;
+let spySections = [];   // {key, el} der sichtbaren Tagesgruppen, in Reihenfolge
+let spyTicking = false;
 
 // Both the click-to-jump target (CSS scroll-margin) and the scroll-spy line
 // must use the SAME, REAL header height -- otherwise jumps land behind the
@@ -2436,36 +2438,36 @@ function headerOffset() {
   return h;
 }
 
-// Scroll-spy via IntersectionObserver: only recompute the active day when a day
-// heading actually crosses the header line (not on every scroll frame).
+// Scroll-spy: bei JEDEM Scroll-Frame (rAF-gedrosselt) den aktiven Tag direkt
+// aus den Positionen berechnen. Robust bei jeder Scroll-Geschwindigkeit --
+// keine IntersectionObserver-Grenzen, die "nicht überspringen".
 function setupScrollSpy(sortedKeys) {
-  if (dayIO) dayIO.disconnect();
-  const sections = sortedKeys
-    .map((k) => document.getElementById(`day-${k}`))
-    .filter(Boolean);
+  spySections = sortedKeys
+    .map((k) => ({ key: k, el: document.getElementById(`day-${k}`) }))
+    .filter((s) => s.el);
   lastActiveKey = null;
-  if (!sections.length) return;
-
-  const offset = headerOffset;
-  const recompute = () => {
-    const top = offset();
-    let activeKey = sortedKeys[0];
-    for (const sec of sections) {
-      if (sec.getBoundingClientRect().top <= top) activeKey = sec.id.slice(4);
-      else break;
-    }
-    if (activeKey !== lastActiveKey) {
-      lastActiveKey = activeKey;
-      setActiveTab(activeKey);
-    }
-  };
-  dayIO = new IntersectionObserver(recompute, {
-    rootMargin: `-${offset()}px 0px 0px 0px`,
-    threshold: 0,
-  });
-  for (const sec of sections) dayIO.observe(sec);
-  recompute();
+  updateActiveDay();
 }
+
+function updateActiveDay() {
+  if (!spySections.length || state.viewMode === "map") return;
+  const line = headerOffset() + 4;   // direkt unter dem Sticky-Header
+  let activeKey = spySections[0].key;
+  for (const { key, el } of spySections) {
+    if (el.getBoundingClientRect().top <= line) activeKey = key;
+    else break;
+  }
+  if (activeKey !== lastActiveKey) {
+    lastActiveKey = activeKey;
+    setActiveTab(activeKey);
+  }
+}
+
+window.addEventListener("scroll", () => {
+  if (spyTicking) return;
+  spyTicking = true;
+  requestAnimationFrame(() => { spyTicking = false; updateActiveDay(); });
+}, { passive: true });
 
 function setActiveTab(key) {
   for (const tab of els.dayTabs.children) {

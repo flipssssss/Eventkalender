@@ -201,6 +201,29 @@ _STREET_RE = re.compile(
 )
 
 
+def _is_generic_berlin(text: str) -> bool:
+    """True, wenn der Ort praktisch nur "Berlin" ist (kein konkreter Ort)."""
+    t = re.sub(r"\b(deutschland|germany|de)\b", "", text or "", flags=re.IGNORECASE)
+    t = re.sub(r"[\s,.;:\-]+", " ", t).strip().lower()
+    return t in ("", "berlin")
+
+
+def _address_from_description(desc: str | None) -> str | None:
+    """Versucht, eine echte Adresse (Straße + ggf. PLZ) aus dem Beschreibungstext
+    zu ziehen -- für Events, deren Ortsfeld nur "Berlin" ist."""
+    if not desc:
+        return None
+    street = _STREET_RE.search(desc)
+    plz = _PLZ_RE.search(desc)
+    if street and plz:
+        return f"{street.group(1).strip()}, {plz.group(1)} Berlin"
+    if street:
+        return f"{street.group(1).strip()}, Berlin"
+    if plz:
+        return f"{plz.group(1)} Berlin"
+    return None
+
+
 def clean_query(location: str) -> str:
     """Turn a noisy ``location`` string into a Nominatim-friendly address.
 
@@ -302,6 +325,20 @@ def locate_event(event, *, allow_network: bool = True) -> None:
     # Skip obvious non-addresses (e.g. a stray URL in the location field).
     if raw.lower().startswith("http"):
         return
+
+    # Ort ist nur "Berlin": echte Adresse aus der Beschreibung holen -- sonst
+    # lieber gar kein Ort (sonst landet alles im Stadtzentrum).
+    if not fixed and _is_generic_berlin(raw):
+        addr = _address_from_description(getattr(event, "description", None))
+        if not addr:
+            event.location = None
+            event.address = None
+            event.lat = event.lng = None
+            event.bezirk = None
+            return
+        raw = addr
+        event.location = None      # nichtssagendes "Berlin"-Label verwerfen
+        event.address = addr
 
     # Try the full string first (works well for clean addresses), then the
     # extracted "Street No, PLZ Berlin" as a fallback for noisy strings.

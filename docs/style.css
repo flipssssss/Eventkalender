@@ -125,10 +125,10 @@
   border: 3px solid var(--border);
   box-shadow: var(--shadow);
 }
-:root[data-theme="punk"] .cards > .card:nth-child(4n + 1) { transform: rotate(-1.4deg); }
-:root[data-theme="punk"] .cards > .card:nth-child(4n + 2) { transform: rotate(1deg); }
-:root[data-theme="punk"] .cards > .card:nth-child(4n + 3) { transform: rotate(-0.7deg); }
-:root[data-theme="punk"] .cards > .card:nth-child(4n) { transform: rotate(1.5deg); }
+:root[data-theme="punk"] .cards > .card:nth-child(4n + 1) { transform: rotate(-0.5deg); }
+:root[data-theme="punk"] .cards > .card:nth-child(4n + 2) { transform: rotate(0.4deg); }
+:root[data-theme="punk"] .cards > .card:nth-child(4n + 3) { transform: rotate(-0.3deg); }
+:root[data-theme="punk"] .cards > .card:nth-child(4n) { transform: rotate(0.5deg); }
 :root[data-theme="punk"] .card:hover {
   transform: rotate(0) translateY(-3px);
   box-shadow: 7px 7px 0 var(--accent);

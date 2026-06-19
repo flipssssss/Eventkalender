@@ -1,30 +1,5 @@
-event-blocks: 11 | Events: 11
+event-blocks: 10 | Events: 10
 
-<div class="event-block">
- <!-- Zeile 1: Datum + Titel -->
- <div class="event-row-1">
-  <div class="event-time">
-   Freitag, 19. Juni 22:00
-  </div>
-  <div class="event-title">
-   Mx Sür
-  </div>
- </div>
- <!-- Zeile 2: Bild + Beschreibung -->
- <div class="event-row-2">
-  <div class="event-image">
-   <img alt="" src="ProgrammFotos/Max_S_r_2026_06_19.jpg"/>
-  </div>
-  <div class="event-description">
-   [Kim] is an audio &amp; video collage artist working with personal narratives and underground collective experiences. Since 2007; they have contributed to the unifying power of music and dance through eclectic mixes that celebrate rebellion, inclusivity, liberation, and sharing.
-
-
-
-Drawing on the transformative energy of music and visuals, their work explores themes of resistance, freedom and intimacy, with influences ranging from the allure of chaos to the mystery of the void.
-  </div>
- <
-
-----
 <div class="event-block">
  <!-- Zeile 1: Datum + Titel -->
  <div class="event-row-1">
@@ -83,6 +58,29 @@ Drawing on the transformative energy of music and visuals, their work explores t
   </div>
   <div class="event-description">
    Cherii
+  </div>
+ </div>
+</div>
+
+
+----
+<div class="event-block">
+ <!-- Zeile 1: Datum + Titel -->
+ <div class="event-row-1">
+  <div class="event-time">
+   Freitag, 26. Juni 22:00
+  </div>
+  <div class="event-title">
+   KUHKUZA
+  </div>
+ </div>
+ <!-- Zeile 2: Bild + Beschreibung -->
+ <div class="event-row-2">
+  <div class="event-image">
+   <img alt="" src="ProgrammFotos/KUHKUZA_2026_06_26.jpg"/>
+  </div>
+  <div class="event-description">
+   KUHKUZA is an audio engineer, DJ and multi-instrumentalist producer based in Berlin. Their unique sound is shaped by contrasting adventures, from solo travels across the sea to growing up in the Saladillo neighborhood. All these moments sparked melodies tied to memories, now immortalized in their music, which blurs time and space. A journey that blends organic textures into vibrant, multi-dimensional soundscapes.
   </div>
  </div>
 </div>

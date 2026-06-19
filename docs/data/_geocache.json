@@ -222,6 +222,12 @@
   "lat": 52.5174812,
   "lng": 13.419024
  },
+ "Bebelplatz, Berlin-Mitte 10117 Berlin Deutschland": {
+  "address": "Bebelplatz, 10117 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5164872,
+  "lng": 13.3938262
+ },
  "Bergmannstr. 12, 10961 Berlin": {
   "address": "Bergmannstraße 12, 10961 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",

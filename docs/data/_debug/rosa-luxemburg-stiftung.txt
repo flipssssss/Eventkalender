@@ -1,4 +1,4 @@
-Teaser: 186 | Berlin: 28 | andere Städte: 158 | mit Beschreibung: 26
+Teaser: 187 | Berlin: 28 | andere Städte: 159 | mit Beschreibung: 26
   2026-06-02 10:00:00 | Berlin | „Der große Schock“
   2026-06-03 19:00:37 | Berlin | Progressiver Journalismus als Akt des Widerstands in autoritären Zeiten
   2026-06-04 19:30:00 | Berlin | Post-Punk in Berlin, 2023-'26 … und die ewige Wiederkehr

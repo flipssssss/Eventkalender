@@ -37,13 +37,20 @@
 # (scrapers/stressfaktor.py, in aggregate.py registriert), weil die
 # Originalseite einen Bot-Schutz hat.
 sources:
-  # Hacker-/Community-Spaces (Test: erst generisch, Struktur via Action-Debug).
-  - url: https://berlin.ccc.de/verein/calendar/
-    name: CCC Berlin
-  - url: https://x-hain.de/de/calendar/
-    name: xHain
-  - url: https://c-base.org/calendar/
+  # Hacker-/Community-Spaces.
+  # c-base: exportiert iCal -- "Gesammelte" Datei (alle Events).
+  - url: https://www.c-base.org/calendar/exported/c-base-events.ics
     name: c-base
+    type: ical
+  # xHain: statischer Hugo-Kalender ohne JSON-LD; Hugo gibt das Kalender-
+  # Listing zusätzlich als .ics aus (Test; sonst eigener Ausleser nötig).
+  - url: https://x-hain.de/de/calendar/index.ics
+    name: xHain
+    type: ical
+  # CCC Berlin (berlin.ccc.de) raus: vom Build-Runner nicht erreichbar
+  # ("Network is unreachable" -- vermutlich IPv6-only).
+  # - url: https://berlin.ccc.de/verein/calendar/
+  #   name: CCC Berlin
 
   # Silverfuture (queere Bar, Neukölln) -- Kategorie automatisch,
   # Genre "Queer" via scrapers/genres.py.

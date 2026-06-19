@@ -44,15 +44,14 @@ sources:
   - url: https://www.c-base.org/calendar/exported/events.ics
     name: c-base
     type: ical
-  # xHain: statischer Hugo-Kalender ohne JSON-LD; index.ics existiert nicht.
-  # Abonnieren-Seite dumpen, um den echten iCal/webcal-Link zu finden.
-  - url: https://x-hain.de/de/calendar/subscribe
-    name: xHain Abo-Probe
-  # CCC Berlin: nackte Domain ist IPv6-only (unerreichbar), aber www. verbindet.
-  # Hugo-.ics auf dem www-Host probieren.
-  - url: https://www.berlin.ccc.de/verein/calendar/index.ics
-    name: CCC Berlin
+  # xHain: Nextcloud-Kalender (iCal-Export aus der Abonnieren-Seite).
+  - url: https://files.x-hain.de/remote.php/dav/public-calendars/Yi63cicwgDnjaBHR/?export
+    name: xHain
     type: ical
+  # CCC Berlin: nackte Domain ist IPv6-only (unerreichbar), aber www. verbindet.
+  # Kalenderseite als JSON-LD versuchen (Struktur via Debug).
+  - url: https://www.berlin.ccc.de/verein/calendar/
+    name: CCC Berlin
 
   # Silverfuture (queere Bar, Neukölln) -- Kategorie automatisch,
   # Genre "Queer" via scrapers/genres.py.

@@ -1,7 +1,6 @@
 top-keys: ['website', 'websiteSettings', 'collection', 'shoppingCart', 'shareButtons', 'showCart', 'localizedStrings', 'userAccountsContext', 'template', 'uiextensions', 'empty', 'emptyFolder', 'calendarView', 'pagination', 'upcoming']
-items: 49 | Events: 49
+items: 48 | Events: 48
 erstes item keys: ['id', 'collectionId', 'recordType', 'addedOn', 'updatedOn', 'starred', 'passthrough', 'tags', 'categories', 'workflowState', 'publishOn', 'authorId', 'systemDataId', 'systemDataVariants', 'systemDataSourceType', 'filename', 'mediaFocalPoint', 'colorData', 'urlId', 'title', 'sourceUrl', 'body', 'excerpt', 'location', 'customContent']
-  2026-06-18 09:00:00.506000 | Finn Seemann Quintett
   2026-06-19 09:00:00.506000 | FUASI “Journey To The Source” Gewinner des Deutschen Jazzpreises 2026
   2026-06-20 09:00:00.506000 | FUASI “Journey To The Source” Gewinner des Deutschen Jazzpreises 2026 (Kopie)
   2026-06-21 09:00:00.506000 | Amadeo Bonaiuto Quartet presents Dirk Strakhof
@@ -31,3 +30,4 @@ erstes item keys: ['id', 'collectionId', 'recordType', 'addedOn', 'updatedOn', '
   2026-07-23 09:00:00.506000 | Crème Brüllée
   2026-07-24 09:00:00.506000 | Hugo Fernandez Quartett&nbsp;plays&nbsp;«Rivermind»&nbsp;&nbsp;
   2026-07-25 09:00:00.506000 | Verajoy Band
+  2026-07-26 09:00:00.506000 | Ramiro Olaciregui "My Standards 4tet"

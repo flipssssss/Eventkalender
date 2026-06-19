@@ -145,6 +145,25 @@
   background: color-mix(in srgb, var(--accent) 8%, var(--surface-2));
 }
 
+/* Ausgerissene Papier-Kante (Zine): unregelmäßiger Rand statt gerader Kanten.
+   Jitter in px (konstant), Position in % -> skaliert auf jede Box-Größe.
+   clip-path kappt den Box-Schatten -> Tiefe per drop-shadow. */
+:root[data-theme="punk"] {
+  --torn: polygon(0.0% 3.2px, 6.67% 0.1px, 13.33% 1.4px, 20.0% 1.1px, 26.67% 3.7px, 33.33% 3.4px, 40.0% 4.5px, 46.67% 0.4px, 53.33% 2.1px, 60.0% 0.1px, 66.67% 1.1px, 73.33% 2.5px, 80.0% 0.1px, 86.67% 1.0px, 93.33% 3.2px, 100.0% 2.7px, calc(100% - 1.1px) 6.67%, calc(100% - 2.9px) 13.33%, calc(100% - 4.0px) 20.0%, calc(100% - 0.0px) 26.67%, calc(100% - 4.0px) 33.33%, calc(100% - 3.5px) 40.0%, calc(100% - 1.7px) 46.67%, calc(100% - 0.8px) 53.33%, calc(100% - 4.8px) 60.0%, calc(100% - 1.7px) 66.67%, calc(100% - 0.5px) 73.33%, calc(100% - 0.5px) 80.0%, calc(100% - 4.2px) 86.67%, calc(100% - 3.0px) 93.33%, calc(100% - 4.0px) 100.0%, 93.33% calc(100% - 3.6px), 86.67% calc(100% - 2.7px), 80.0% calc(100% - 4.9px), 73.33% calc(100% - 1.9px), 66.67% calc(100% - 2.8px), 60.0% calc(100% - 4.1px), 53.33% calc(100% - 3.1px), 46.67% calc(100% - 4.3px), 40.0% calc(100% - 2.9px), 33.33% calc(100% - 3.5px), 26.67% calc(100% - 0.2px), 20.0% calc(100% - 1.1px), 13.33% calc(100% - 1.4px), 6.67% calc(100% - 0.4px), 0.0% calc(100% - 1.2px), 0.5px 93.33%, 1.4px 86.67%, 3.2px 80.0%, 1.8px 73.33%, 1.9px 66.67%, 1.0px 60.0%, 1.3px 53.33%, 4.7px 46.67%, 3.2px 40.0%, 3.0px 33.33%, 0.9px 26.67%, 3.6px 20.0%, 0.8px 13.33%, 1.9px 6.67%, 4.9px 0.0%);
+}
+:root[data-theme="punk"] :is(.card, .sort-box, .cat-section) {
+  -webkit-clip-path: var(--torn);
+  clip-path: var(--torn);
+  /* Rand würde von clip-path zerhackt -> weg; Kante kommt aus Fläche + Schatten. */
+  border-color: transparent;
+  box-shadow: none !important;
+  filter: drop-shadow(4px 4px 0 #322b3b);
+}
+:root[data-theme="punk"] .card:hover {
+  box-shadow: none !important;
+  filter: drop-shadow(6px 6px 0 var(--accent));
+}
+
 /* Aktive Kategorie-Chips als satte Blöcke (Genre behält seine Farbe). */
 :root[data-theme="punk"] .tag-chip.active {
   background: var(--accent);

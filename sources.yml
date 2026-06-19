@@ -38,8 +38,10 @@
 # Originalseite einen Bot-Schutz hat.
 sources:
   # Hacker-/Community-Spaces.
-  # c-base: exportiert iCal -- "Gesammelte" Datei (alle Events).
-  - url: https://www.c-base.org/calendar/exported/c-base-events.ics
+  # c-base: exportiert iCal. Nur den Events-Feed nehmen (echte Veranstaltungen),
+  # NICHT die "Gesammelte" Datei -- die mischt regulars.ics (wiederkehrende
+  # interne Treffen) und seminars.ics (Raumbuchungen) mit rein.
+  - url: https://www.c-base.org/calendar/exported/events.ics
     name: c-base
     type: ical
   # xHain: statischer Hugo-Kalender ohne JSON-LD; Hugo gibt das Kalender-

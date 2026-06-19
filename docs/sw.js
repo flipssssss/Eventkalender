@@ -2,7 +2,7 @@
 // Strategie: network-first mit Cache-Fallback -- online immer frisch,
 // offline die zuletzt geladene Version.
 
-const CACHE = "ek-v9";
+const CACHE = "ek-v10";
 const SHELL = [
   "./",
   "index.html",
@@ -14,6 +14,8 @@ const SHELL = [
   "icons/apple-touch-icon.png",
   "icons/icon-192.png",
   "fonts/SpecialElite-Regular.woff2",
+  "fonts/CourierPrime-Regular.woff2",
+  "fonts/CourierPrime-Bold.woff2",
   // Splash-Assets vorab cachen, damit der Ladescreen zuverlässig erscheint.
   "splash/title0-top.webp", "splash/title0-bottom.webp",
   "splash/title1-top.webp", "splash/title1-bottom.webp",

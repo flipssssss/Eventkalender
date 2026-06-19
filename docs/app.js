@@ -104,6 +104,7 @@ const els = {
   kdcatToggles: document.getElementById("kdcat-toggles"),
   bezirkMap: document.getElementById("bezirk-map"),
   bezirkExtra: document.getElementById("bezirk-extra"),
+  bezirkCounter: document.getElementById("bezirk-counter"),
   wishText: document.getElementById("wish-text"),
   wishSend: document.getElementById("wish-send"),
   wishBackdrop: document.getElementById("wish-backdrop"),
@@ -659,26 +660,24 @@ function buildBezirkToggles() {
   }).join("");
 
   // "Ohne Bezirk" (Events ohne Verortung) als Kasten in der freien oberen
-  // linken Ecke -- gleiche Klick-/Ausgegraut-Logik wie die Bezirke.
+  // rechten Ecke -- gleiche Klick-/Ausgegraut-Logik wie die Bezirke.
   let extra = "";
   if (counts.has(BEZIRK_UNKNOWN)) {
     const off = state.disabledBezirke.has(BEZIRK_UNKNOWN);
+    const bx = BEZIRK_GEO.w - 60;
     extra = `<g class="bezirk-cell bezirk-cell--box${off ? " off" : ""}" `
       + `data-bezirk="${BEZIRK_UNKNOWN}" role="button" tabindex="0" `
       + `aria-pressed="${!off}" aria-label="Ohne Bezirk">`
-      + `<rect x="2" y="4" width="58" height="40" rx="3"/>`
-      + `<text x="31" y="21" text-anchor="middle">`
-      + `<tspan x="31" dy="0">Ohne</tspan><tspan x="31" dy="11">Bezirk</tspan>`
-      + `</text></g>`;
+      + `<rect x="${bx}" y="4" width="58" height="40" rx="3"/>`
+      + `<text x="${bx + 29}" y="21" text-anchor="middle">`
+      + `<tspan x="${bx + 29}" dy="0">Ohne</tspan>`
+      + `<tspan x="${bx + 29}" dy="11">Bezirk</tspan></text></g>`;
   }
 
-  // Zähler oben rechts im freien Bereich der Karte.
-  const count = `<text id="bezirk-count" class="bezirk-count" x="${BEZIRK_GEO.w - 4}"`
-    + ` y="22" text-anchor="end">${shownTodayCount()} heute</text>`;
   els.bezirkMap.innerHTML =
     `<svg viewBox="0 0 ${BEZIRK_GEO.w} ${BEZIRK_GEO.h}" class="bezirk-svg" `
     + `role="group" aria-label="Bezirke auf der Karte wählen">`
-    + `${cells}${extra}${count}</svg>`;
+    + `${cells}${extra}</svg>`;
   els.bezirkMap.onclick = (e) => toggleBezirkCell(e.target);
   els.bezirkMap.onkeydown = (e) => {
     if (e.key === "Enter" || e.key === " ") {
@@ -705,14 +704,13 @@ function isToday(ev) {
   return dayKey(new Date(ev.start)) === dayKey(today);
 }
 
-// "X heute": wie viele der heutigen Events mit der aktuellen Auswahl (Bezirke +
-// übrige Filter) sichtbar sind.
-function shownTodayCount() {
-  return state.events.filter((e) => isToday(e) && matches(e)).length;
-}
+// "X von Y heute": wie viele der heutigen Events mit der aktuellen Auswahl
+// (Bezirke + übrige Filter) sichtbar sind, von allen heutigen.
 function updateBezirkCounter() {
-  const t = els.bezirkMap && els.bezirkMap.querySelector("#bezirk-count");
-  if (t) t.textContent = `${shownTodayCount()} heute`;
+  if (!els.bezirkCounter) return;
+  const all = state.events.filter(isToday);
+  const shown = all.filter((e) => matches(e));
+  els.bezirkCounter.textContent = `${shown.length} von ${all.length} heute`;
 }
 
 function toggleBezirkCell(target) {

@@ -7,6 +7,21 @@
   font-style: normal;
   font-display: swap;
 }
+/* Fließtext-Companion zur Schreibmaschinen-Headline (Courier Prime, OFL). */
+@font-face {
+  font-family: "Courier Prime";
+  src: url("fonts/CourierPrime-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Courier Prime";
+  src: url("fonts/CourierPrime-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
 
 /* Sichtbarer Fokusring für Tastatur-Navigation (Barrierefreiheit). */
 :focus-visible {
@@ -50,10 +65,10 @@
   --bezirk-on: var(--accent);  /* Bezirke in der Design-Akzentfarbe */
   --border: #463f52; --radius: 0px;
   --shadow: 6px 6px 0 #322b3b;
-  /* Body harmoniert mit der Schreibmaschinen-Headline: ruhiges System-Mono. */
-  --serif: ui-monospace, "SF Mono", Menlo, "Courier New", monospace;
+  /* Durchgängig Schreibmaschine: Courier Prime (Body) + Special Elite (Headlines). */
+  --serif: "Courier Prime", "Courier New", Courier, monospace;
   --display: "Special Elite", "Courier New", Courier, monospace;
-  --grain: 0.16;
+  --grain: 0.1;
 }
 
 /* ---- Gemeinsame Punk-Struktur ---- */
@@ -149,9 +164,10 @@
    Jitter in px (konstant), Position in % -> skaliert auf jede Box-Größe.
    clip-path kappt den Box-Schatten -> Tiefe per drop-shadow. */
 :root[data-theme="punk"] {
-  --torn: polygon(0.0% 3.2px, 6.67% 0.1px, 13.33% 1.4px, 20.0% 1.1px, 26.67% 3.7px, 33.33% 3.4px, 40.0% 4.5px, 46.67% 0.4px, 53.33% 2.1px, 60.0% 0.1px, 66.67% 1.1px, 73.33% 2.5px, 80.0% 0.1px, 86.67% 1.0px, 93.33% 3.2px, 100.0% 2.7px, calc(100% - 1.1px) 6.67%, calc(100% - 2.9px) 13.33%, calc(100% - 4.0px) 20.0%, calc(100% - 0.0px) 26.67%, calc(100% - 4.0px) 33.33%, calc(100% - 3.5px) 40.0%, calc(100% - 1.7px) 46.67%, calc(100% - 0.8px) 53.33%, calc(100% - 4.8px) 60.0%, calc(100% - 1.7px) 66.67%, calc(100% - 0.5px) 73.33%, calc(100% - 0.5px) 80.0%, calc(100% - 4.2px) 86.67%, calc(100% - 3.0px) 93.33%, calc(100% - 4.0px) 100.0%, 93.33% calc(100% - 3.6px), 86.67% calc(100% - 2.7px), 80.0% calc(100% - 4.9px), 73.33% calc(100% - 1.9px), 66.67% calc(100% - 2.8px), 60.0% calc(100% - 4.1px), 53.33% calc(100% - 3.1px), 46.67% calc(100% - 4.3px), 40.0% calc(100% - 2.9px), 33.33% calc(100% - 3.5px), 26.67% calc(100% - 0.2px), 20.0% calc(100% - 1.1px), 13.33% calc(100% - 1.4px), 6.67% calc(100% - 0.4px), 0.0% calc(100% - 1.2px), 0.5px 93.33%, 1.4px 86.67%, 3.2px 80.0%, 1.8px 73.33%, 1.9px 66.67%, 1.0px 60.0%, 1.3px 53.33%, 4.7px 46.67%, 3.2px 40.0%, 3.0px 33.33%, 0.9px 26.67%, 3.6px 20.0%, 0.8px 13.33%, 1.9px 6.67%, 4.9px 0.0%);
+  --torn: polygon(0.0% 2.6px, 4.76% 1.2px, 9.52% 5.2px, 14.29% 0.6px, 19.05% 4.3px, 23.81% 2.9px, 28.57% 0.5px, 33.33% 4.1px, 38.1% 0.3px, 42.86% 3.5px, 47.62% 0.6px, 52.38% 0.7px, 57.14% 3.4px, 61.9% 6.6px, 66.67% 1.0px, 71.43% 1.8px, 76.19% 5.0px, 80.95% 7.6px, 85.71% 4.6px, 90.48% 3.2px, 95.24% 7.8px, 100.0% 0.4px, calc(100% - 6.9px) 4.76%, calc(100% - 2.3px) 9.52%, calc(100% - 1.2px) 14.29%, calc(100% - 0.9px) 19.05%, calc(100% - 2.5px) 23.81%, calc(100% - 6.5px) 28.57%, calc(100% - 1.4px) 33.33%, calc(100% - 4.7px) 38.1%, calc(100% - 5.1px) 42.86%, calc(100% - 3.0px) 47.62%, calc(100% - 4.4px) 52.38%, calc(100% - 0.5px) 57.14%, calc(100% - 0.5px) 61.9%, calc(100% - 1.6px) 66.67%, calc(100% - 5.4px) 71.43%, calc(100% - 3.4px) 76.19%, calc(100% - 2.5px) 80.95%, calc(100% - 4.7px) 85.71%, calc(100% - 3.6px) 90.48%, calc(100% - 2.4px) 95.24%, calc(100% - 6.4px) 100.0%, 95.24% calc(100% - 5.6px), 90.48% calc(100% - 2.0px), 85.71% calc(100% - 4.6px), 80.95% calc(100% - 4.2px), 76.19% calc(100% - 7.0px), 71.43% calc(100% - 5.8px), 66.67% calc(100% - 2.3px), 61.9% calc(100% - 7.8px), 57.14% calc(100% - 0.9px), 52.38% calc(100% - 3.3px), 47.62% calc(100% - 6.1px), 42.86% calc(100% - 1.2px), 38.1% calc(100% - 3.9px), 33.33% calc(100% - 0.3px), 28.57% calc(100% - 5.3px), 23.81% calc(100% - 6.1px), 19.05% calc(100% - 4.6px), 14.29% calc(100% - 7.0px), 9.52% calc(100% - 2.5px), 4.76% calc(100% - 5.6px), 0.0% calc(100% - 4.8px), 4.6px 95.24%, 3.6px 90.48%, 6.7px 85.71%, 7.6px 80.95%, 3.8px 76.19%, 5.3px 71.43%, 0.5px 66.67%, 5.6px 61.9%, 5.2px 57.14%, 7.9px 52.38%, 6.6px 47.62%, 2.3px 42.86%, 3.1px 38.1%, 5.3px 33.33%, 0.2px 28.57%, 3.7px 23.81%, 1.3px 19.05%, 0.9px 14.29%, 0.5px 9.52%, 6.1px 4.76%, 1.0px 0.0%);
 }
-:root[data-theme="punk"] :is(.card, .sort-box, .cat-section) {
+:root[data-theme="punk"] :is(.card, .sort-box, .cat-section, .cat-collapse,
+    .app-popup, .install-guide, .modal, .settings-panel) {
   -webkit-clip-path: var(--torn);
   clip-path: var(--torn);
   /* Rand würde von clip-path zerhackt -> weg; Kante kommt aus Fläche + Schatten. */
@@ -1131,12 +1147,12 @@ body {
   font-size: 8px;
 }
 
-/* Zähler oben rechts in der Karte (SVG-Text). */
-.bezirk-count {
-  fill: var(--accent);
-  font-family: var(--display, var(--serif));
-  font-size: 17px;
+/* Zähler über der Karte. */
+.bezirk-counter {
+  margin: 0 0 8px;
+  font-size: 0.95rem;
   font-weight: 700;
+  color: var(--accent);
 }
 
 .bezirk-extra {

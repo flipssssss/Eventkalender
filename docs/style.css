@@ -51,12 +51,12 @@
 }
 
 /* ============================================================
-   PUNK-THEME: DIY-Zine-Ästhetik in Dunkel -- harte Kanten, fette Versalien
-   (Anton), Offset-Schatten, schief geklebte Karten, Fotokopier-Grain;
-   Magenta nur als Akzent.
+   PUNK-THEME: DIY-Zine-Ästhetik in Dunkel -- Schreibmaschine (Special Elite +
+   Courier Prime), ausgerissene Papierkanten, Offset-Schatten, schief geklebte
+   Karten, Fotokopier-Grain; Terrakotta als Akzent.
    ============================================================ */
 
-/* Punk -- dunkles Zine: neutrale Flächen/Ränder, Magenta als Akzent. */
+/* Punk -- dunkles Zine: neutrale Flächen/Ränder, Terrakotta als Akzent. */
 :root[data-theme="punk"] {
   color-scheme: dark;          /* native Datum/Zeit-Picker dunkel rendern */
   --bg: #0b0a0d; --surface: #16131b; --surface-2: #1e1a25;

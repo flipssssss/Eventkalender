@@ -58,6 +58,7 @@ from scrapers.moebelolfe import MoebelOlfeScraper
 from scrapers.othernature import OtherNatureScraper
 from scrapers.iksk import IkskScraper
 from scrapers.planetarium import PlanetariumScraper
+from scrapers.atrane import ATraneScraper
 
 ROOT = pathlib.Path(__file__).parent
 OUTPUT = ROOT / "docs" / "data" / "events.json"
@@ -193,6 +194,8 @@ def get_scrapers():
         IkskScraper(),
         # Planetarium Berlin -- Drupal-Taxonomie-Seiten (Konzerte, Hörspiele).
         PlanetariumScraper(),
+        # A-Trane -- JSON-LD, aber Titel aus dem <br>-Block destilliert.
+        ATraneScraper(),
         # tip Berlin -- deaktiviert: keine erreichbare Quelle für Event-Daten
         # (proprietäres "rce"-Plugin, Bot-Schutz, Ausstellungen ohne Termin).
         # TipBerlinScraper(),

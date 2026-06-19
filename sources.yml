@@ -82,13 +82,11 @@ sources:
     type: ical
 
   # Jazz-Clubs -- alle Events als Konzert (Genre Kultur per Default).
-  # A-Trane liefert sauberes JSON-LD; B-flat (Squarespace) und visitBerlin
-  # (Detailseiten) laufen über eigene Ausleser (in aggregate.py registriert).
+  # A-Trane -> eigener Ausleser (scrapers/atrane.py): JSON-LD, aber der Titel
+  # wird aus dem <br>-Werbeblock destilliert; B-flat (Squarespace) und
+  # visitBerlin (Detailseiten) laufen über eigene Ausleser.
   # Zig Zag (zigzag-jazzclub.de) raus: Server lehnt den TLS-Handshake ab
   # (TLSV1_ALERT_INTERNAL_ERROR), von außen nicht erreichbar.
-  - url: https://www.a-trane.de/
-    name: A-Trane
-    category: Konzert
   # askapunk -> eigener Ausleser (scrapers/gancio.py): Gancio-Kalender mit
   # JSON-API (/api/events), inkl. Bilder. In aggregate.py registriert.
   # Boiler -> eigener Ausleser (scrapers/boiler.py), HTML-Liste.

@@ -1,0 +1,99 @@
+URL: https://x-hain.de/de/calendar/subscribe
+  HTTP-Status: 200
+  HTML-Länge: 5713 Zeichen
+  JSON-LD vorhanden: False
+  Events gefunden: 0
+  Mögliche Programm-Unterseiten:
+    - https://x-hain.de/de/calendar#content
+    - https://x-hain.de/en/calendar/subscribe/
+  Externe Skripte: /js/main.494264c8adf3272c7e79608e72aada133967cecacf910252f39c6d8c2c718999.js
+  (keine Inline-Skripte)
+  Body (ohne CSS/JS):
+ass="language-switch">
+<a href="/en/calendar/subscribe/">English</a>
+</li>
+</ul>
+</nav>
+</div>
+</header>
+<main>
+<div class="event-wrapper" id="main-wrapper">
+<div class="event-container">
+<h1 class="event-title">Kalender abonnieren</h1>
+<div class="event-meta">
+<div class="event-datetime">
+<div class="event-date">
+</div>
+<div class="event-time">
+</div>
+</div>
+</div>
+<div class="event-content">
+<p>So fügst du den xHain-Veranstaltungskalender zu deiner Kalender-App hinzu</p>
+<h3 id="mit-caldav">Mit CalDAV</h3>
+<ol>
+<li>Öffne deine Kalender-App und suche die Option, einen neuen Kalender hinzuzufügen. Diese findest du meist unter “Einstellungen” oder “Konten”.</li>
+<li>Wähle “CalDAV” als Kontotyp, falls verfügbar.</li>
+<li>Kopiere diese URL in das Server-URL-Feld (klicken zum Auswählen):</li>
+</ol>
+<input onclick="this.select()" readonly="" style="width:100%; padding: 0.5rem; font-family: monospace; background: #ccc;" type="text" value="https://files.x-hain.de/remote.php/dav/public-calendars/Yi63cicwgDnjaBHR/?export"/>
+<ol start="4">
+<li>Speichere den neuen Kalender.</li>
+</ol>
+<p>Jetzt siehst du alle xHain-Veranstaltungen direkt in deiner Kalender-App!</p>
+<p>So verpasst du keine Workshops, Vorträge, Meetups oder andere Events im xHain.</p>
+<h3 id="probleme">Probleme?</h3>
+<p>Falls du Schwierigkeiten hast, den Kalender hinzuzufügen, schau in die Dokumentation deiner Kalender-App oder melde dich in unserem <a href="https://matrix.to/#/#xhain:x-hain.de">Matrix-Chat</a>.</p>
+</div>
+</div>
+</div>
+</main>
+<footer>
+<div id="footer-wrapper">
+<div class="first-part">
+<h5>Unsere tools:</h5>
+<nav id="tools-navigation">
+<ul><li class="">
+<a class="" href="/de/blog">
+              Blog
+            </a>
+</li><li class="">
+<a class="" href="https://matrix.to/#/#xhain:x-hain.de">
+              Chat
+            </a>
+</li><li class="">
+<a class="" href="https://wiki.x-hain.de/">
+              Wiki
+            </a>
+</li>
+</ul>
+</nav>
+<h5>Wir sind auch auf:</h5>
+<nav id="social-navigation">
+<ul><li class="">
+<a class="" href="https://chaos.social/@xHain_hackspace" rel="me">
+              Fediverse
+            </a>
+</li><li class="">
+<a class="" href="https://github.com/xHain-hackspace/" rel="me">
+              Github
+            </a>
+</li>
+</ul>
+</nav>
+</div>
+<div class="second-part">
+<h5>Mehr informationen:</h5>
+<nav id="footer-navigation">
+<ul>
+<li>
+<a class="" href="/de/contact">Kontakt</a>
+</li>
+<li>
+<a class="" href="/de/privacy">Datenschutz</a>
+</li>
+</ul>
+</nav>
+</div>
+<
+------------------------------------------------------------

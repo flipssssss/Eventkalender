@@ -53,7 +53,7 @@
   /* Body harmoniert mit der Schreibmaschinen-Headline: ruhiges System-Mono. */
   --serif: ui-monospace, "SF Mono", Menlo, "Courier New", monospace;
   --display: "Special Elite", "Courier New", Courier, monospace;
-  --grain: 0.4;
+  --grain: 0.16;
 }
 
 /* ---- Gemeinsame Punk-Struktur ---- */

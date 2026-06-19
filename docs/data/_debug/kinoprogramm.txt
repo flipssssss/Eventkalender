@@ -1,6 +1,6 @@
-Vorstellungen gesamt: 243 | Filmbilder: 219
+Vorstellungen gesamt: 223 | Filmbilder: 203
 Sputnik: 36 Vorstellungen
 Lichtblick: 13 Vorstellungen
-Kino Zukunft: 20 Vorstellungen
+Kino Zukunft: FEHLER 429 Client Error: Too Many Requests for url: https://www.berlin.de/kino/_bin/kinodetail.php/35972
 Ladenkino: 130 Vorstellungen
 Wolf Kino: 44 Vorstellungen

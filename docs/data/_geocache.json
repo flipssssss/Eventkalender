@@ -1558,6 +1558,7 @@
  },
  "Rote Ella, Buttmannstraße 1a, 13357 Berlin": null,
  "Rote Insel near S1 / U7 Yorckstrasse Berlin 10783 Berlin Deutschland": null,
+ "Rote Insel, nähe S1 Yorckstraße, 10783 Berlin": null,
  "Rote Lilly Emserstraße 114 12051 Berlin": {
   "address": "Emser Straße 114, 12051 Neukölln",
   "bezirk": "Neukölln",
@@ -1924,6 +1925,12 @@
   "lng": 13.4307181
  },
  "Yorck im Bethanien Mariannenplatz 2A, 10997 Berlin": null,
+ "Yorckstraße 1078, 10783 Berlin": {
+  "address": "Yorckstraße, 10965 Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4932922,
+  "lng": 13.36737
+ },
  "Z-Keller (Bhf Charlottenhof) Potsdam Berlin": null,
  "Z-Keller (Bhf Charlottenhof) Potsdam Berlin Deutschland": null,
  "Zeiss-Großplanetarium Zeiss-Großplanetarium, Berlin": null,

@@ -12,13 +12,35 @@ and needs a small custom scraper instead.
 
 from __future__ import annotations
 
+import html as _html
 import json
+import re
 from typing import Iterable
 from urllib.parse import urljoin
 
 from bs4 import BeautifulSoup
 
 from .base import BaseScraper, Event, parse_datetime
+
+_DATE_ONLY = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+
+
+def _clean_text(value) -> str | None:
+    """Decode HTML entities, strip markup and tidy whitespace.
+
+    Source feeds often deliver descriptions/titles as (sometimes double-)
+    encoded HTML (e.g. ``&lt;strong&gt;`` or soft hyphens ``&shy;``) -- that
+    looks cryptic in the feed, so we turn it back into plain readable text.
+    """
+    raw = _text(value)
+    if not raw:
+        return None
+    text = _html.unescape(raw)
+    if "<" in text and ">" in text:
+        text = BeautifulSoup(text, "html.parser").get_text(" ")
+    text = text.replace("­", "").replace("​", "")  # soft hyphen / ZWSP
+    text = re.sub(r"\s+", " ", text).strip()
+    return text or None
 
 
 def _as_list(value):
@@ -137,8 +159,9 @@ def extract_events_from_html(
 
 
 def _build_event_from_node(node, base_url, source_name, default_tags) -> Event | None:
-    title = _text(node.get("name"))
-    start = parse_datetime(node.get("startDate"))
+    title = _clean_text(node.get("name"))
+    raw_start = node.get("startDate")
+    start = parse_datetime(raw_start)
     if not title or not start:
         return None
 
@@ -146,16 +169,31 @@ def _build_event_from_node(node, base_url, source_name, default_tags) -> Event |
     if isinstance(source_url, str):
         source_url = urljoin(base_url, source_url)
 
+    # Datums-Events ohne echte Uhrzeit (z. B. "2026-06-19" oder 00:00-00:00)
+    # nicht als "00:00 Uhr" anzeigen -> als ganztägig markieren, Mitternachts-
+    # Ende verwerfen (es ist kein sinnvoller Zeitraum).
+    end = parse_datetime(node.get("endDate"))
+    has_time = not (isinstance(raw_start, str) and _DATE_ONLY.match(raw_start.strip()))
+    midnight = start.hour == 0 and start.minute == 0 and start.second == 0
+    time_known = True
+    if not has_time or (midnight and (end is None or end <= start
+                        or (end.hour == 0 and end.minute == 0))):
+        time_known = False
+        end = None
+    elif end and end <= start:
+        end = None
+
     return Event(
         title=title,
         start=start,
-        end=parse_datetime(node.get("endDate")),
+        end=end,
         source_url=source_url,
         source_name=source_name,
         location=_location(node.get("location")),
-        description=_text(node.get("description")),
+        description=_clean_text(node.get("description")),
         image_url=_image_url(node.get("image"), base_url),
         tags=list(default_tags) + _tags(node),
+        time_known=time_known,
     )
 
 

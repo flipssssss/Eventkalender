@@ -1,24 +1,5 @@
-event-blocks: 10 | Events: 10
+event-blocks: 9 | Events: 9
 
-<div class="event-block">
- <!-- Zeile 1: Datum + Titel -->
- <div class="event-row-1">
-  <div class="event-time">
-   Samstag, 20. Juni 21:30
-  </div>
-  <div class="event-title">
-   Jane D.
-  </div>
- </div>
- <!-- Zeile 2: Bild + Beschreibung -->
- <div class="event-row-2">
-  <div class="event-image event-image--empty">
-  </div>
- </div>
-</div>
-
-
-----
 <div class="event-block">
  <!-- Zeile 1: Datum + Titel -->
  <div class="event-row-1">
@@ -81,6 +62,25 @@ event-blocks: 10 | Events: 10
   </div>
   <div class="event-description">
    KUHKUZA is an audio engineer, DJ and multi-instrumentalist producer based in Berlin. Their unique sound is shaped by contrasting adventures, from solo travels across the sea to growing up in the Saladillo neighborhood. All these moments sparked melodies tied to memories, now immortalized in their music, which blurs time and space. A journey that blends organic textures into vibrant, multi-dimensional soundscapes.
+  </div>
+ </div>
+</div>
+
+
+----
+<div class="event-block">
+ <!-- Zeile 1: Datum + Titel -->
+ <div class="event-row-1">
+  <div class="event-time">
+   Samstag, 27. Juni 22:00
+  </div>
+  <div class="event-title">
+   JoJo
+  </div>
+ </div>
+ <!-- Zeile 2: Bild + Beschreibung -->
+ <div class="event-row-2">
+  <div class="event-image event-image--empty">
   </div>
  </div>
 </div>

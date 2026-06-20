@@ -102,6 +102,7 @@
   "lng": 13.4153663
  },
  "Ale Felcitas, Berlin": null,
+ "Ale Felicitas, Berlin": null,
  "Alexanderstr. 28, 10178 Berlin": {
   "address": "Kleine Alexanderstraße 28, 10178 Mitte",
   "bezirk": "Mitte",
@@ -529,6 +530,7 @@
   "lat": 52.470975,
   "lng": 13.4309683
  },
+ "FAU-Lokal Grüntaler Str. 24 13357 Berlin Deutschland": null,
  "FMP1 Franz-Mehring-Platz 1 10243, 10243 Berlin": null,
  "FMP1 Franz-Mehring-Platz 1, 10243 Berlin": {
   "address": "Franz-Mehring-Platz 1, 10243 Friedrichshain",
@@ -549,6 +551,7 @@
   "lat": 52.5005732,
   "lng": 13.4375821
  },
+ "Fakeera, Berlin": null,
  "Fasanenstr. 1a, 10623 Berlin": {
   "address": "Fasanenstraße 1a, 10623 Charlottenburg",
   "bezirk": "Charlottenburg-Wilmersdorf",
@@ -643,6 +646,18 @@
   "bezirk": "Lichtenberg",
   "lat": 52.5056689,
   "lng": 13.5080026
+ },
+ "Grünberger Straße 73, 10245 Berlin": {
+  "address": "Grünberger Straße 73, 10245 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5114491,
+  "lng": 13.4595298
+ },
+ "Grüntaler Str. 24, 13357 Berlin": {
+  "address": "Grüntaler Straße 24, 13357 Gesundbrunnen",
+  "bezirk": "Mitte",
+  "lat": 52.553999,
+  "lng": 13.389952
  },
  "Gärtnerstraße 19, 10245 Berlin": {
   "address": "Gärtnerstraße 19, 10245 Friedrichshain",
@@ -761,6 +776,13 @@
   "lat": 52.5170316,
   "lng": 13.4012274
  },
+ "Humboldtstraße 5-6, 14467 Berlin": {
+  "address": "Humboldtstraße, 14193 Grunewald",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.490069,
+  "lng": 13.2865168
+ },
+ "Humboldtstraße 5-6, 14467 Potsdam, Berlin": null,
  "Händelallee 22, 10557 Berlin": {
   "address": "Händelallee 22, 10557 Hansaviertel",
   "bezirk": "Mitte",
@@ -827,6 +849,7 @@
   "lat": 52.470975,
   "lng": 13.4309683
  },
+ "Juliette Dragon, Berlin": null,
  "K Köpenicker Straße Berlin": {
   "address": "Köpenicker Straße, 10997 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -1407,6 +1430,12 @@
   "lat": 52.5530317,
   "lng": 13.3594121
  },
+ "PA58 Prinzenallee 58 Berlin Deutschland": {
+  "address": "Prinzenallee 58, 13359 Gesundbrunnen",
+  "bezirk": "Mitte",
+  "lat": 52.5583368,
+  "lng": 13.3846017
+ },
  "Peppi Guggenheim, Weichselstrasse 7, 12043, Berlin": {
   "address": "Weichselstraße 7, 12043 Neukölln",
   "bezirk": "Neukölln",
@@ -1481,6 +1510,12 @@
   "lng": 13.4268698
  },
  "Regenbogenfabrik Lausitzer Str. 22 10999, 10999 Berlin": null,
+ "Regenbogenfabrik Lausitzer Straße 21a, 10999 Berlin": {
+  "address": "Lausitzer Straße 21a, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4959646,
+  "lng": 13.4263213
+ },
  "Reichenberger Str. 177, 10999 Berlin": {
   "address": "Reichenberger Straße 177, 10999 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -1941,6 +1976,7 @@
   "lng": 13.2928997
  },
  "Zentrum Villa Lützow Lützowstraße 28 10785, 10785 Berlin": null,
+ "Zielona Gora, Grünberger Straße 73, 10245 Berlin": null,
  "Zielona Góra Grünbergerstr. 73 10245 Berlin Deutschland": {
   "address": "Grünberger Straße 73, 10245 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",

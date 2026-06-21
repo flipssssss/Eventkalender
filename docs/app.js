@@ -9,8 +9,8 @@ const GENRE_ORDER = ["Kultur", "Polit", "Queer", "Kink"];
 const CATEGORY_ORDER = ["Theater", "Kino", "Konzert", "Party", "Vortrag",
   "Ausstellung", "Workshop", "Protest", "Essen", "Markt", "Sonstiges"];
 // Reihenfolge der Kategorie-Kästen, wenn nach Kategorie/Genre sortiert wird.
-const SORT_CATEGORY_ORDER = ["Vortrag", "Ausstellung", "Workshop", "Protest",
-  "Essen", "Markt", "Theater", "Kino", "Konzert", "Party", "Sonstiges"];
+const SORT_CATEGORY_ORDER = ["Vortrag", "Ausstellung", "Workshop", "Markt",
+  "Protest", "Essen", "Theater", "Kino", "Konzert", "Party", "Sonstiges"];
 // Die zwölf Berliner Bezirke (für die Reihenfolge im Filter).
 const BEZIRK_ORDER = [
   "Mitte", "Friedrichshain-Kreuzberg", "Pankow",

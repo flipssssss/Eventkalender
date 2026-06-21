@@ -28,6 +28,7 @@ PRIORITY = [
     "Workshop",
     "Vortrag",
     "Essen",
+    "Markt",
 ]
 
 # Special marker: events with such a category are removed from the feed.
@@ -49,6 +50,8 @@ KEYWORDS: dict[str, list[str]] = {
                  "training", "kurs", "tutorial", "klasse"],
     "Ausstellung": ["ausstellung", "galerie", "gallery", "kunst", "museum",
                     "museen", "exhibition", "vernissage"],
+    "Markt": ["markt", "flohmarkt", "trödel", "troedel", "trödelmarkt",
+              "wochenmarkt", "antikmarkt", "kunstmarkt", "fahrradmarkt"],
     DROP: ["beratung", "hilfe", "sprechstunde"],
 }
 

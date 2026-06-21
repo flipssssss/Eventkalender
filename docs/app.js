@@ -7,10 +7,10 @@
 const GENRE_ORDER = ["Kultur", "Polit", "Queer", "Kink"];
 // Reihenfolge der Kategorie-Chips im Header (überall gleich).
 const CATEGORY_ORDER = ["Theater", "Kino", "Konzert", "Party", "Vortrag",
-  "Ausstellung", "Workshop", "Protest", "Essen", "Sonstiges"];
+  "Ausstellung", "Workshop", "Protest", "Essen", "Markt", "Sonstiges"];
 // Reihenfolge der Kategorie-Kästen, wenn nach Kategorie/Genre sortiert wird.
 const SORT_CATEGORY_ORDER = ["Vortrag", "Ausstellung", "Workshop", "Protest",
-  "Essen", "Theater", "Kino", "Konzert", "Party", "Sonstiges"];
+  "Essen", "Markt", "Theater", "Kino", "Konzert", "Party", "Sonstiges"];
 // Die zwölf Berliner Bezirke (für die Reihenfolge im Filter).
 const BEZIRK_ORDER = [
   "Mitte", "Friedrichshain-Kreuzberg", "Pankow",
@@ -1094,6 +1094,7 @@ const CATEGORY_NOUN = {
   Workshop: ["Workshop", "Workshops"],
   Ausstellung: ["Ausstellung", "Ausstellungen"],
   Essen: ["Essen", "Essen"],
+  Markt: ["Markt", "Märkte"],
   Sonstiges: ["Eintrag", "Einträge"],
 };
 

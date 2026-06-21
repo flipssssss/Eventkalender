@@ -37,6 +37,12 @@
 # (scrapers/stressfaktor.py, in aggregate.py registriert), weil die
 # Originalseite einen Bot-Schutz hat.
 sources:
+  # Wochen- & Flohmärkte -> feste Kategorie "Markt" (Genre Kultur).
+  # Test: erst generisch (JSON-LD); Struktur via Action-Debug.
+  - url: https://www.wochenmarkt-flohmarkt.de
+    name: Wochenmarkt & Flohmarkt
+    category: Markt
+
   # Hacker-/Community-Spaces.
   # c-base: exportiert iCal. Nur den Events-Feed nehmen (echte Veranstaltungen),
   # NICHT die "Gesammelte" Datei -- die mischt regulars.ics (wiederkehrende

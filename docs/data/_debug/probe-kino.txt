@@ -1,12 +1,147 @@
 
+===== https://www.berlin.de/kino/kinoprogramm/spielzeitenliste/ =====
+title: Kino Berlin - Kinoprogramm für Berlin und Umland - Berlin.de
+'klick' im Text: True
+Links gesamt: 82
+Kino-Links: 43
+  /kino/_bin/index.php
+  /kino/_bin/filmdetail.php/313732/
+  /kino/_bin/filmdetail.php/313177/
+  /kino/_bin/filmdetail.php/313346/
+  /kino/_bin/filmdetail.php/313633/
+  /kino/_bin/filmdetail.php/312733/
+  /kino/_bin/filmdetail.php/313873/
+  /kino/_bin/filmdetail.php/312472/
+  /kino/_bin/filmdetail.php/313719/
+  /kino/_bin/filmdetail.php/313724/
+  /kino/_bin/index.php?session=delete
+  /kino/_bin/azfilm.php
+  /kino/_bin/azkino.php
+  /kino/_bin/azfilm.php/ov
+  /kino/vorschau/
+  /kino/_bin/filmdetail.php/315143/
+  /kino/_bin/filmdetail.php/313339/
+  /kino/_bin/filmdetail.php/314067/
+  /kino/_bin/filmdetail.php/314368/
+  /kino/_bin/filmdetail.php/310503/
+  /kino/_bin/filmdetail.php/314369/
+  /kino/_bin/filmdetail.php/314370/
+  /kino/_bin/filmdetail.php/314371/
+  /kino/_bin/filmdetail.php/314372/
+  /kino/_bin/filmdetail.php/312473/
+  /kino/_bin/filmdetail.php/312739/
+  /kino/_bin/filmdetail.php/314373/
+  /kino/_bin/filmdetail.php/306386/
+  /kino/_bin/filmdetail.php/314719/
+  /kino/_bin/filmdetail.php/313282/
+
+===== https://www.berlin.de/kino/_bin/azlist.php =====
+FEHLER: 404 Client Error: Not Found for url: https://www.berlin.de/kino/_bin/azlist.php
+
 ===== https://www.berlin.de/kino/kinos/ =====
-Klick-Treffer: (keine)
-kinodetail-Links gesamt: 0
+title: Kinos – Berlin.de
+'klick' im Text: False
+Links gesamt: 117
+Kino-Links: 48
+  /kino/
+  /kino/kinos/
+  /kino/kinos/
+  /kino/kinos/2226085-2227502-zoopalast.html
+  /kino/kinos/2225960-2227502-arsenal-kino.html
+  /kino/kinos/2225960-2227502-arsenal-kino.html
+  /kino/kinos/2225969-2227502-babylon.html
+  /kino/kinos/2225969-2227502-babylon.html
+  /kino/berlinale/
+  /kino/berlinale/
+  /kino/kinos/2225979-2227502-centralkino.html
+  /kino/kinos/2225979-2227502-centralkino.html
+  /kino/kinos/2225988-2227502-cinema-paris.html
+  /kino/kinos/2225988-2227502-cinema-paris.html
+  /kino/kinos/2225998-2227502-uci-kinowelt-colosseum.html
+  /kino/kinos/2225998-2227502-uci-kinowelt-colosseum.html
+  /kino/kinos/2226015-2227502-delphi-kino.html
+  /kino/kinos/2226015-2227502-delphi-kino.html
+  /kino/kinos/4711969-2227502-delphi-lux.html
+  /kino/kinos/4711969-2227502-delphi-lux.html
+  /kino/kinos/4761896-2227502-kino-international.html
+  /kino/kinos/4761896-2227502-kino-international.html
+  /kino/kinos/2226041-2227502-fsk.html
+  /kino/kinos/2226041-2227502-fsk.html
+  /kino/kinos/2226050-2227502-kantkino.html
+  /kino/kinos/2226050-2227502-kantkino.html
+  /kino/kinos/2226058-2227502-moviemento.html
+  /kino/kinos/2226058-2227502-moviemento.html
+  /kino/kinos/2226067-2227502-titaniapalast.html
+  /kino/kinos/2226067-2227502-titaniapalast.html
 
 ===== https://www.berlin.de/kino/ =====
-Klick-Treffer: (keine)
-kinodetail-Links gesamt: 0
+title: Kino und Film in Berlin – Berlin.de
+'klick' im Text: False
+Links gesamt: 113
+Kino-Links: 33
+  /kino/
+  /kino/_bin/index.php
+  /kino/_bin/filmdetail.php/314067/
+  /kino/_bin/filmdetail.php/314067/
+  /kino/_bin/filmdetail.php/314075/
+  /kino/_bin/filmdetail.php/314075/
+  /kino/_bin/filmdetail.php/314071/
+  /kino/_bin/filmdetail.php/314071/
+  /kino/_bin/index.php
+  /kino/_bin/index.php
+  /kino/_bin/index.php
+  /kino/neustarts/
+  /kino/neustarts/
+  /kino/filmfestivals/
+  /kino/filmfestivals/7505586-2020379-berlinale-open-air.html
+  /kino/filmfestivals/7505586-2020379-berlinale-open-air.html
+  /kino/filmfestivals/7609791-2020379-british-shorts-summer-edition.html
+  /kino/filmfestivals/7609791-2020379-british-shorts-summer-edition.html
+  /kino/filmfestivals/2626340-2020379-ufa-filmnaechte.html
+  /kino/filmfestivals/2626340-2020379-ufa-filmnaechte.html
+  /kino/1748107-2961173-kinolandschaft-berlin.html
+  /kino/freiluftkinos/
+  /kino/freiluftkinos/
+  /kino/kinos/
+  /kino/kinos/
+  /kino/1748107-2961173-kinolandschaft-berlin.html
+  /kino/1748107-2961173-kinolandschaft-berlin.html
+  /kino/1785869-2961173-filmisch-durch-die-stadt.html
+  /kino/1785869-2961173-filmisch-durch-die-stadt.html
+  /kino/_bin/index.php
 
-===== https://www.berlin.de/kino/kinos/charlottenburg-wilmersdorf/ =====
-Klick-Treffer: (keine)
-kinodetail-Links gesamt: 0
+===== https://www.berlin.de/kino/charlottenburg/ =====
+title: Kino Berlin - Kinoprogramm für Berlin und Umland - Berlin.de
+'klick' im Text: True
+Links gesamt: 82
+Kino-Links: 43
+  /kino/_bin/index.php
+  /kino/_bin/filmdetail.php/313732/
+  /kino/_bin/filmdetail.php/313177/
+  /kino/_bin/filmdetail.php/313346/
+  /kino/_bin/filmdetail.php/313633/
+  /kino/_bin/filmdetail.php/312733/
+  /kino/_bin/filmdetail.php/313873/
+  /kino/_bin/filmdetail.php/312472/
+  /kino/_bin/filmdetail.php/313719/
+  /kino/_bin/filmdetail.php/313724/
+  /kino/_bin/index.php?session=delete
+  /kino/_bin/azfilm.php
+  /kino/_bin/azkino.php
+  /kino/_bin/azfilm.php/ov
+  /kino/vorschau/
+  /kino/_bin/filmdetail.php/315143/
+  /kino/_bin/filmdetail.php/313339/
+  /kino/_bin/filmdetail.php/314067/
+  /kino/_bin/filmdetail.php/314368/
+  /kino/_bin/filmdetail.php/310503/
+  /kino/_bin/filmdetail.php/314369/
+  /kino/_bin/filmdetail.php/314370/
+  /kino/_bin/filmdetail.php/314371/
+  /kino/_bin/filmdetail.php/314372/
+  /kino/_bin/filmdetail.php/312473/
+  /kino/_bin/filmdetail.php/312739/
+  /kino/_bin/filmdetail.php/314373/
+  /kino/_bin/filmdetail.php/306386/
+  /kino/_bin/filmdetail.php/314719/
+  /kino/_bin/filmdetail.php/313282/

@@ -149,6 +149,18 @@
   "lng": 13.3987041
  },
  "Alte Kita, Hasselwerderstr. 22A, 12439, Berlin": null,
+ "Am Juliusturm 55, 13599 Berlin": {
+  "address": "Am Juliusturm 55, 13599 Haselhorst",
+  "bezirk": "Spandau",
+  "lat": 52.5379218,
+  "lng": 13.214183
+ },
+ "Am Kupfergraben 1, 10117 Berlin": {
+  "address": "Am Kupfergraben 1, 10117 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5216902,
+  "lng": 13.3932494
+ },
  "Am Sudhaus 3, 12053 Berlin": {
   "address": "Am Sudhaus 3, 12053 Neukölln",
   "bezirk": "Neukölln",
@@ -204,6 +216,12 @@
  "Archiv Potsdam Berlin": null,
  "Archiv Potsdam Berlin Deutschland": null,
  "Archiv Potsdam, Leipziger Straße 60 – 14473 Potsdam, Berlin": null,
+ "Arkonaplatz 1, 10435 Berlin": {
+  "address": "Arkonaplatz 1, 10435 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5379007,
+  "lng": 13.4024087
+ },
  "Auf Anfrage Auf Anfrage, Berlin": null,
  "Auf Anfrage, Auf Anfrage, Berlin": null,
  "Auguststraße 69, 10117 Berlin": {
@@ -260,6 +278,12 @@
   "lat": 52.4893868,
   "lng": 13.3907542
  },
+ "Bergmannstraße 106, 10961 Berlin": {
+  "address": "Bergmannstraße 106, 10961 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4900117,
+  "lng": 13.3886452
+ },
  "Berlin": {
   "address": "Berlin",
   "bezirk": null,
@@ -302,6 +326,12 @@
   "bezirk": "Pankow",
   "lat": 52.5409538,
   "lng": 13.4027196
+ },
+ "Bernauer Straße 63-64, 13355 Berlin": {
+  "address": "Bernauer Straße 63-64, 13355 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5405661,
+  "lng": 13.4030679
  },
  "Bernkasteler Str 78, 13088 Berlin": {
   "address": "Bernkasteler Straße 78, 13088 Weißensee",
@@ -366,6 +396,12 @@
   "lat": 52.5049903,
   "lng": 13.407098
  },
+ "Boxhagener Platz 1, 10245 Berlin": {
+  "address": "Boxhagener Platz 1, 10245 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5112571,
+  "lng": 13.4589749
+ },
  "Boxhagener Straße 18, 10245 Berlin, Berlin": {
   "address": "Boxhagener Straße 18, 10245 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -420,6 +456,12 @@
   "bezirk": "Lichtenberg",
   "lat": 52.5095458,
   "lng": 13.4901817
+ },
+ "Buckower Chaussee 25, 12277 Berlin": {
+  "address": "Buckower Chaussee 25-35, 12277 Marienfelde",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4130586,
+  "lng": 13.3899419
  },
  "Bundeskanzler_innenamt Willy-Brandt-Straße 1 10557 Berlin Deutschland": null,
  "Bundesrat Leipziger Straße 3-4 10117 Berlin Deutschland": {
@@ -560,6 +602,12 @@
   "lat": 52.4952481,
   "lng": 13.4627777
  },
+ "Erich-Steinfurth-Straße 1, 10243 Berlin": {
+  "address": "Erich-Steinfurth-Straße 1-2, 10243 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5105503,
+  "lng": 13.4360792
+ },
  "Erreichbar Reichenberger Str. 63a HH 10999 Berlin Deutschland": null,
  "Erreichbar Reichenberger Str. 63a, 10999 Berlin": {
   "address": "Reichenberger Straße 63a, 10999 Kreuzberg",
@@ -606,6 +654,12 @@
   "bezirk": "Charlottenburg-Wilmersdorf",
   "lat": 52.5106031,
   "lng": 13.3292355
+ },
+ "Fehrbelliner Platz 1, 10707 Berlin": {
+  "address": "Fehrbelliner Platz 1, 10707 Wilmersdorf",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.4912236,
+  "lng": 13.3150557
  },
  "Ficken 3000 Berlin": null,
  "Ficken 3000, Berlin": null,
@@ -672,6 +726,12 @@
   "lat": 52.4919487,
   "lng": 13.3889569
  },
+ "Goerzallee 189, 14167 Berlin": {
+  "address": "Goerzallee 189-223, 14167 Lichterfelde",
+  "bezirk": "Steglitz-Zehlendorf",
+  "lat": 52.4168112,
+  "lng": 13.2896103
+ },
  "Greifswalder Straße 23A, 10405 Berlin": {
   "address": "Greifswalder Straße 23A, 10405 Prenzlauer Berg",
   "bezirk": "Pankow",
@@ -691,6 +751,12 @@
   "lng": 13.5080026
  },
  "Grillwiese THF, Eingang Leinestraße, 12049 Berlin": null,
+ "Großbeerenstraße 133, 12107 Berlin": {
+  "address": "Großbeerenstraße 133, 12107 Mariendorf",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4309937,
+  "lng": 13.3785171
+ },
  "Großer Flohmarkt am Arkonaplatz in Berlin Mitte": null,
  "Grünberger Straße 73, 10245 Berlin": {
   "address": "Grünberger Straße 73, 10245 Friedrichshain",
@@ -731,6 +797,12 @@
   "lat": 52.4991141,
   "lng": 13.3858716
  },
+ "Hansastraße 188, 13088 Berlin": {
+  "address": "Hansastraße 188, 13088 Weißensee",
+  "bezirk": "Pankow",
+  "lat": 52.5555004,
+  "lng": 13.4860982
+ },
  "Hardenbergstraße 22, 10623 Berlin": null,
  "Hasenheide 54, 10967 Berlin": {
   "address": "Hasenheide 54, 10967 Kreuzberg",
@@ -766,6 +838,12 @@
  "Hausvogteiplatz 5-7, Raum 0007, 10117 Berlin": null,
  "Herman Schulz Kollektiv Café & Bar, Finowstraße 33, 10247 Berlin": null,
  "Herman Schulz Kollektiv Finowstraße 33, 10247 Berlin": null,
+ "Hermann-Ehlers-Platz 1, 12165 Berlin": {
+  "address": "Hermann-Ehlers-Platz, Steglitz",
+  "bezirk": "Steglitz-Zehlendorf",
+  "lat": 52.456963,
+  "lng": 13.3214274
+ },
  "Hermann-Schulz Café Kollektiv, Finowstraße 33, 10247 Berlin": null,
  "Hermannstr. 146, 12051 Berlin": {
   "address": "Hermannstraße 146, 12051 Neukölln",
@@ -900,6 +978,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5104475,
   "lng": 13.4713447
+ },
+ "John-F. -Kennedy-Platz 1, 10825 Berlin": {
+  "address": "John-F.-Kennedy-Platz 1, 10825 Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4848253,
+  "lng": 13.3441027
  },
  "Jonasstr. 40, 12053 Berlin": {
   "address": "Jonasstraße 40, 12053 Neukölln",
@@ -1161,6 +1245,12 @@
   "lat": 52.5118751,
   "lng": 13.4616485
  },
+ "Landsberger Allee 364, 10365 Berlin": {
+  "address": "Landsberger Allee 364, 10365 Lichtenberg",
+  "bezirk": "Lichtenberg",
+  "lat": 52.5338376,
+  "lng": 13.514577
+ },
  "Lankwitzer Straße 42/43, 12107 Berlin": {
   "address": "Lankwitzer Straße 42/43, 12107 Mariendorf",
   "bezirk": "Tempelhof-Schöneberg",
@@ -1248,6 +1338,12 @@
   "bezirk": "Neukölln",
   "lat": 52.4899624,
   "lng": 13.425536
+ },
+ "Leopoldplatz 1, 13353 Berlin": {
+  "address": "Leopoldplatz, 13353 Wedding",
+  "bezirk": "Mitte",
+  "lat": 52.5469861,
+  "lng": 13.3592556
  },
  "Lichtblick, Berlin": {
   "address": "Birkenstraße 33, 10551 Moabit",
@@ -1498,6 +1594,12 @@
   "lat": 52.4995972,
   "lng": 13.3537297
  },
+ "Nonnendammallee 135, 12277 Berlin": {
+  "address": "Nonnendammallee 135, 13599 Haselhorst",
+  "bezirk": "Spandau",
+  "lat": 52.5397651,
+  "lng": 13.2453165
+ },
  "OGH Sonnenallee Berlin": null,
  "OGH Sonnenallee Berlin Deutschland": null,
  "OXI, Berlin": {
@@ -1645,6 +1747,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5072971,
   "lng": 13.4527414
+ },
+ "Revaler Straße 99, 10245 Berlin": {
+  "address": "Revaler Straße 99, 10245 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5076116,
+  "lng": 13.451645
  },
  "Rigaer 94 Berlin Deutschland": {
   "address": "Rigaer Straße 94, 10247 Friedrichshain",
@@ -1803,6 +1911,12 @@
   "lat": 52.5171409,
   "lng": 13.4673202
  },
+ "Schöneicher Straße 1, 12587 Berlin": {
+  "address": "Schöneicher Straße 1, 12587 Friedrichshagen",
+  "bezirk": "Treptow-Köpenick",
+  "lat": 52.4574864,
+  "lng": 13.6279264
+ },
  "Schönfließer Straße 7, 10439 Berlin": {
   "address": "Schönfließer Straße 7, 10439 Prenzlauer Berg",
   "bezirk": "Pankow",
@@ -1884,6 +1998,12 @@
  },
  "Stadtteilzentrum Schöneberg Hauptstraße 121 A 10827 Berlin Deutschland": null,
  "Stadtteilzentrum Schöneberg Hauptstraße 121 A, 10827 Berlin": null,
+ "Straße des 17. Juni 106, 10623 Berlin": {
+  "address": "Straße des 17. Juni 106, 10623 Charlottenburg",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.5141861,
+  "lng": 13.3356226
+ },
  "Subversiv Brunnenstr. 7 HH 10119 Berlin Deutschland": null,
  "Supamolly Jessnerstr. 41 10247 Berlin Deutschland": {
   "address": "Jessnerstraße 41, 10247 Friedrichshain",
@@ -2064,6 +2184,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.4973055,
   "lng": 13.4304753
+ },
+ "Wiesbadener Str. 53-55, 14197 Berlin": {
+  "address": "Wiesbadener Straße 53-55, 14197 Wilmersdorf",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.4735175,
+  "lng": 13.302305
  },
  "WikiBär Köpenicker Str. 45 10179 Berlin Deutschland": {
   "address": "Köpenicker Straße 45, 10179 Mitte",

@@ -37,11 +37,9 @@
 # (scrapers/stressfaktor.py, in aggregate.py registriert), weil die
 # Originalseite einen Bot-Schutz hat.
 sources:
-  # Wochen- & Flohmärkte -> feste Kategorie "Markt" (Genre Kultur).
-  # Test: erst generisch (JSON-LD); Struktur via Action-Debug.
-  - url: https://www.wochenmarkt-flohmarkt.de
-    name: Wochenmarkt & Flohmarkt
-    category: Markt
+  # Wochen- & Flohmärkte -> eigener Ausleser (scrapers/maerkte.py): die Seite
+  # bettet pro Termin einen Google-Calendar-Link ein, daraus lesen wir Titel/
+  # Datum/Ort/Beschreibung. Kategorie "Markt", Genre Kultur (genres.py).
 
   # Hacker-/Community-Spaces.
   # c-base: exportiert iCal. Nur den Events-Feed nehmen (echte Veranstaltungen),

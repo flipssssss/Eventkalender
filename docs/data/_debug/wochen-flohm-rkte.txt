@@ -1,0 +1,95 @@
+URL: https://www.wochenmarkt-deutschland.de/flohmaerkte/berlin-troedelmarkt/flohmaerkte-in-berlin/
+  HTTP-Status: 200
+  HTML-Länge: 723682 Zeichen
+  JSON-LD vorhanden: True
+  Events gefunden: 0
+  Mögliche Programm-Unterseiten:
+    - https://www.wochenmarkt-deutschland.de/ratgeber/ernaehrung/obst-und-gemuesekalender/
+    - https://www.wochenmarkt-deutschland.de/ratgeber/kassensystem-kartenterminal-vergleich/
+  URL-Strings im Skript: !=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+
+//# sourceURL=rocket-preload-links-js-after
+
+
+var rocket_lazyload_css_data = {, );
+//# sourceURL=real-cookie-banner-pro-banner_tcf-js-before
+
+
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+gtag(, *\/wp-content\/plugins\/modern-events-calendar\/assets\/js\/googlemap*, *\/wp-content\/plugins\/modern-events-calendar\/assets\/packages\/richmarker\/richmarker*, *\/wp-content\/plugins\/the-events-calendar\/src\/resources\/js\/embedded-map*, *\/wp-content\/plugins\/wpforms-geolocation\/assets\/js\/wpforms-geolocation-google-api*, *wp-content\/plugins\/eventin-pro\/assets\/js\/etn-location*, /(?:.+/)?feed(?:/(?:.+/?)?)?$|/(?:.+/)?embed/|/(index.php/)?(.*)wp-json(/.*|$)|/refer/|/go/|/recommend/|/recommends/, DMP \\\/ Data Provider\, Sets user-identifiers and cookies, executes ad-delivery and measurement scripts performs audience insights and product improvement; and supports security\\\/fraud prevention.\, Stores\\\/reads identifiers for ad delivery, personalized ads, and content profiling; runs measurement pixels; performs audience insights and product improvement; and supports security\\\/fraud prevention.\, ]}async t(){this.i(),this.o(),/iP(ad|hone)/.test(navigator.userAgent)&&this.h(),this.u(),this.l(this),this.m(),this.k(this),this.p(this),this._(),await Promise.all([this.R(),this.L()]),this.lastBreath=Date.now(),this.S(this),this.P(),this.D(),this.O(),this.M(),await this.C(this.delayedScripts.normal),await this.C(this.delayedScripts.defer),await this.C(this.delayedScripts.async),await this.T(),await this.F(),await this.j(),await this.A(),window.dispatchEvent(new Event(, https://fonts.googleapis.com/, https://www.wochenmarkt-deutschland.de, https://www.wochenmarkt-deutschland.de/wp-admin/admin-ajax.php
+  Externe Skripte: https://www.wochenmarkt-deutschland.de/wp-content/8142610684a7822289d3f1f1cbd7b266/dist/306457947.js?ver=fa3e989866890cdb953249cbc9c0c731, https://www.wochenmarkt-deutschland.de/wp-content/8142610684a7822289d3f1f1cbd7b266/dist/770493309.js?ver=5.2.25, https://www.wochenmarkt-deutschland.de/wp-content/8142610684a7822289d3f1f1cbd7b266/dist/1491297544.js?ver=de1152d961fb5665042db24fafac2a25, https://
+  Größtes Inline-Skript (494828 Zeichen)
+  --- ANFANG ---
+{"slug":"real-cookie-banner-pro","textDomain":"real-cookie-banner","version":"5.2.25","restUrl":"https:\/\/www.wochenmarkt-deutschland.de\/wp-json\/real-cookie-banner\/v1\/","restNamespace":"real-cookie-banner\/v1","restPathObfuscateOffset":"f024df60b9d8e9d2","restRoot":"https:\/\/www.wochenmarkt-deutschland.de\/wp-json\/","restQuery":{"_v":"5.2.25","_locale":"user"},"restNonce":"7f448f51b0","restRecreateNonceEndpoint":"https:\/\/www.wochenmarkt-deutschland.de\/wp-admin\/admin-ajax.php?action=rest-nonce","publicUrl":"https:\/\/www.wochenmarkt-deutschland.de\/wp-content\/plugins\/real-cookie-banner-pro\/public\/","chunkFolder":"dist","chunksLanguageFolder":"https:\/\/www.wochenmarkt-deutschland.de\/wp-content\/languages\/mo-cache\/real-cookie-banner-pro\/","chunks":{"chunk-config-tab-blocker.lite.js":["de_DE_formal-83d48f038e1cf6148175589160cda67e","de_DE_formal-e051c4c51a9ece7608a571f9dada4712","de_DE_formal-24de88ac89ca0a1363889bd3fd6e1c50","de_DE_formal-93ec68381a9f458fbce3acbccd434479"],"chunk-config-tab-blocker.pro.js":["de_DE_formal-ddf5ae983675e7b6eec2afc2d53654a2","de_DE_formal-ad0fc0f9f96d053303b1ede45a238984","de_DE_formal-e516a6866b9a31db231ab92dedaa8b29","de_DE_formal-1aac2e7f59d941d7ed1061d1018d2957"],"chunk-config-tab-consent.lite.js":["de_DE_formal-3823d7521a3fc2857511061e0d660408"],"chunk-config-tab-consent.pro.js":["de_DE_formal-9cb9ecf8c1e8ce14036b5f3a5e19f098"],"chunk-config-tab-cookies.lite.js":["de_DE_formal-1a51b37d0ef409906245c7ed80d76040","de_DE_formal-e051c4c51a9ece7608a571f9dada4712","de_DE_formal-24de88ac89ca0a1363889bd3fd6e1c50"],"chunk-config-tab-cookies.pro.js":["de_DE_formal-572ee75deed92e7a74abba4b86604687","de_DE_formal-ad0fc0f9f96d053303b1ede45a238984","de_DE_formal-e516a6866b9a31db231ab92dedaa8b29"],"chunk-config-tab-dashboard.lite.js":
+  --- ENDE ---
+res, die nicht unbedingt Ihre Einwilligung erfordern. Unabh\u00e4ngig davon besteht im Abschnitt \"Nicht standardisierte Datenverarbeitung\" die M\u00f6glichkeit, in den Einsatz von Services einzuwilligen oder das Recht auf Widerspruch gegen berechtigte Interessen auszu\u00fcben. Einzelheiten zur spezifischen Datenverarbeitung sind in dem benannten Abschnitt zu finden.","moreInfo":"Weitere Informationen zur Verarbeitung personenbezogener Daten durch Google und Partner:","moreInfoLink":"https:\/\/business.safety.google\/intl\/de\/privacy\/","dataProcessingInService":"Zus\u00e4tzliche Zwecke der Datenverarbeitung nach dem Google Consent Mode auf Grundlage einer Einwilligung (gilt f\u00fcr alle Services)","purposes":{"ad_storage":"Speicherung und Auslesen von Daten wie Cookies (Web) oder Ger\u00e4tekennungen (Apps) im Zusammenhang mit Werbung.","ad_user_data":"\u00dcbermitteln von Nutzerdaten an Google f\u00fcr Online-Werbezwecke.","ad_personalization":"Auswertung und Anzeige von personalisierter Werbung.","analytics_storage":"Speichern und Auslesen von Daten wie Cookies (Web) oder Ger\u00e4tekennungen (Apps) im Zusammenhang mit Analysen (z. B. Besuchsdauer).","functionality_storage":"Speichern und Auslesen von Daten f\u00fcr die Funktionalit\u00e4t der Website oder App (z. B. Spracheinstellungen).","personalization_storage":"Speichern und Auslesen von Daten im Zusammenhang mit Personalisierung (z. B. Videoempfehlungen).","security_storage":"Speichern und Auslesen von sicherheitsrelevanten Daten (z. B. Authentifizierungsfunktionen, Betrugspr\u00e4vention und anderer Nutzerschutz)."}}},"pageRequestUuid4":"a87713371-c7af-474f-bd55-c07ddd368c6d","pageByIdUrl":"https:\/\/www.wochenmarkt-deutschland.de?page_id","pluginUrl":"https:\/\/devowl.io\/wordpress-real-cookie-banner\/"}}
+  Body (ohne CSS/JS):
+<body class="wp-singular post-template-default single single-post postid-43494 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-astra astra ast-desktop ast-narrow-container ast-no-sidebar astra-4.13.4 ast-header-custom-item-inside group-blog ast-blog-single-style-1 ast-single-post ast-inherit-site-logo-transparent ast-normal-title-enabled elementor-default elementor-kit-53003 astra-addon-4.13.4" itemscope="itemscope" itemtype="https://schema.org/Blog">
+<div class="" consent-skip-blocker="1" data-bg="background-color: rgba(0, 0, 0, 0.850);" id="a87713371-c7af-474f-bd55-c07ddd368c6d" style="background-color: rgba(0, 0, 0, 0.850); -moz-backdrop-filter:blur(0px);-o-backdrop-filter:blur(0px);-webkit-backdrop-filter:blur(0px);backdrop-filter:blur(0px); position:fixed;top:0;left:0;right:0;bottom:0;z-index:999999;pointer-events:all;display:none;filter:none;max-width:100vw;max-height:100vh;transform:translateZ(0);"></div>
+<a class="skip-link screen-reader-text" href="#content">
+		Zum Inhalt springen</a>
+<div class="hfeed site" id="page">
+<header class="site-header ast-primary-submenu-animation-slide-up header-main-layout-1 ast-primary-menu-enabled ast-menu-toggle-icon ast-mobile-header-stack" id="masthead" itemid="#masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
+<div class="main-header-bar-wrap">
+<div class="main-header-bar">
+<div class="ast-container">
+<div class="ast-flex main-header-container">
+<div class="site-branding">
+<div class="ast-site-identity" itemscope="itemscope" itemtype="https://schema.org/Organization">
+<span class="site-logo-img"><a class="custom-logo-link" href="https://www.wochenmarkt-deutschland.de/" rel="home"><img alt="Das Logo von Wochenmarkt-Deutschland.de" class="custom-logo" decoding="async" height="97" sizes="(max-width: 100px) 100vw, 100px" src="https://www.wochenmarkt-deutschland.de/wp-content/uploads/cropped-wochenmarkt-deutschland-logo-100x97.png" srcset="https://www.wochenmarkt-deutschland.de/wp-content/uploads/cropped-wochenmarkt-deutschland-logo-100x97.png 100w, https://www.wochenmarkt-deutschland.de/wp-content/uploads/cropped-wochenmarkt-deutschland-logo.png 279w" width="100"/></a></span> </div>
+</div>
+<!-- .site-branding -->
+<div class="ast-mobile-menu-buttons">
+<div class="ast-button-wrap">
+<button aria-controls="primary-menu" aria-expanded="false" class="menu-toggle main-header-menu-toggle ast-mobile-menu-buttons-outline" type="button">
+<span class="screen-reader-text">Hauptmenü</span>
+------------------------------------------------------------
+URL: https://www.wochenmarkt-deutschland.de/wochenmarkt-berlin/
+  HTTP-Status: 200
+  HTML-Länge: 778796 Zeichen
+  JSON-LD vorhanden: True
+  Events gefunden: 0
+  Mögliche Programm-Unterseiten:
+    - https://www.wochenmarkt-deutschland.de/ratgeber/ernaehrung/obst-und-gemuesekalender/
+    - https://www.wochenmarkt-deutschland.de/ratgeber/kassensystem-kartenterminal-vergleich/
+  URL-Strings im Skript: !=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+
+//# sourceURL=rocket-preload-links-js-after
+
+
+var rocket_lazyload_css_data = {, );
+//# sourceURL=real-cookie-banner-pro-banner_tcf-js-before
+
+
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+gtag(, *\/wp-content\/plugins\/modern-events-calendar\/assets\/js\/googlemap*, *\/wp-content\/plugins\/modern-events-calendar\/assets\/packages\/richmarker\/richmarker*, *\/wp-content\/plugins\/the-events-calendar\/src\/resources\/js\/embedded-map*, *\/wp-content\/plugins\/wpforms-geolocation\/assets\/js\/wpforms-geolocation-google-api*, *wp-content\/plugins\/eventin-pro\/assets\/js\/etn-location*, /(?:.+/)?feed(?:/(?:.+/?)?)?$|/(?:.+/)?embed/|/(index.php/)?(.*)wp-json(/.*|$)|/refer/|/go/|/recommend/|/recommends/, DMP \\\/ Data Provider\, Sets user-identifiers and cookies, executes ad-delivery and measurement scripts performs audience insights and product improvement; and supports security\\\/fraud prevention.\, Stores\\\/reads identifiers for ad delivery, personalized ads, and content profiling; runs measurement pixels; performs audience insights and product improvement; and supports security\\\/fraud prevention.\, ]}async t(){this.i(),this.o(),/iP(ad|hone)/.test(navigator.userAgent)&&this.h(),this.u(),this.l(this),this.m(),this.k(this),this.p(this),this._(),await Promise.all([this.R(),this.L()]),this.lastBreath=Date.now(),this.S(this),this.P(),this.D(),this.O(),this.M(),await this.C(this.delayedScripts.normal),await this.C(this.delayedScripts.defer),await this.C(this.delayedScripts.async),await this.T(),await this.F(),await this.j(),await this.A(),window.dispatchEvent(new Event(, https://fonts.googleapis.com/, https://www.wochenmarkt-deutschland.de, https://www.wochenmarkt-deutschland.de/wp-admin/admin-ajax.php
+  Externe Skripte: https://www.wochenmarkt-deutschland.de/wp-content/8142610684a7822289d3f1f1cbd7b266/dist/306457947.js?ver=fa3e989866890cdb953249cbc9c0c731, https://www.wochenmarkt-deutschland.de/wp-content/8142610684a7822289d3f1f1cbd7b266/dist/770493309.js?ver=5.2.25, https://www.wochenmarkt-deutschland.de/wp-content/8142610684a7822289d3f1f1cbd7b266/dist/1491297544.js?ver=de1152d961fb5665042db24fafac2a25, https://
+  Größtes Inline-Skript (494828 Zeichen)
+  --- ANFANG ---
+{"slug":"real-cookie-banner-pro","textDomain":"real-cookie-banner","version":"5.2.25","restUrl":"https:\/\/www.wochenmarkt-deutschland.de\/wp-json\/real-cookie-banner\/v1\/","restNamespace":"real-cookie-banner\/v1","restPathObfuscateOffset":"f024df60b9d8e9d2","restRoot":"https:\/\/www.wochenmarkt-deutschland.de\/wp-json\/","restQuery":{"_v":"5.2.25","_locale":"user"},"restNonce":"7f448f51b0","restRecreateNonceEndpoint":"https:\/\/www.wochenmarkt-deutschland.de\/wp-admin\/admin-ajax.php?action=rest-nonce","publicUrl":"https:\/\/www.wochenmarkt-deutschland.de\/wp-content\/plugins\/real-cookie-banner-pro\/public\/","chunkFolder":"dist","chunksLanguageFolder":"https:\/\/www.wochenmarkt-deutschland.de\/wp-content\/languages\/mo-cache\/real-cookie-banner-pro\/","chunks":{"chunk-config-tab-blocker.lite.js":["de_DE_formal-83d48f038e1cf6148175589160cda67e","de_DE_formal-e051c4c51a9ece7608a571f9dada4712","de_DE_formal-24de88ac89ca0a1363889bd3fd6e1c50","de_DE_formal-93ec68381a9f458fbce3acbccd434479"],"chunk-config-tab-blocker.pro.js":["de_DE_formal-ddf5ae983675e7b6eec2afc2d53654a2","de_DE_formal-ad0fc0f9f96d053303b1ede45a238984","de_DE_formal-e516a6866b9a31db231ab92dedaa8b29","de_DE_formal-1aac2e7f59d941d7ed1061d1018d2957"],"chunk-config-tab-consent.lite.js":["de_DE_formal-3823d7521a3fc2857511061e0d660408"],"chunk-config-tab-consent.pro.js":["de_DE_formal-9cb9ecf8c1e8ce14036b5f3a5e19f098"],"chunk-config-tab-cookies.lite.js":["de_DE_formal-1a51b37d0ef409906245c7ed80d76040","de_DE_formal-e051c4c51a9ece7608a571f9dada4712","de_DE_formal-24de88ac89ca0a1363889bd3fd6e1c50"],"chunk-config-tab-cookies.pro.js":["de_DE_formal-572ee75deed92e7a74abba4b86604687","de_DE_formal-ad0fc0f9f96d053303b1ede45a238984","de_DE_formal-e516a6866b9a31db231ab92dedaa8b29"],"chunk-config-tab-dashboard.lite.js":
+  --- ENDE ---
+res, die nicht unbedingt Ihre Einwilligung erfordern. Unabh\u00e4ngig davon besteht im Abschnitt \"Nicht standardisierte Datenverarbeitung\" die M\u00f6glichkeit, in den Einsatz von Services einzuwilligen oder das Recht auf Widerspruch gegen berechtigte Interessen auszu\u00fcben. Einzelheiten zur spezifischen Datenverarbeitung sind in dem benannten Abschnitt zu finden.","moreInfo":"Weitere Informationen zur Verarbeitung personenbezogener Daten durch Google und Partner:","moreInfoLink":"https:\/\/business.safety.google\/intl\/de\/privacy\/","dataProcessingInService":"Zus\u00e4tzliche Zwecke der Datenverarbeitung nach dem Google Consent Mode auf Grundlage einer Einwilligung (gilt f\u00fcr alle Services)","purposes":{"ad_storage":"Speicherung und Auslesen von Daten wie Cookies (Web) oder Ger\u00e4tekennungen (Apps) im Zusammenhang mit Werbung.","ad_user_data":"\u00dcbermitteln von Nutzerdaten an Google f\u00fcr Online-Werbezwecke.","ad_personalization":"Auswertung und Anzeige von personalisierter Werbung.","analytics_storage":"Speichern und Auslesen von Daten wie Cookies (Web) oder Ger\u00e4tekennungen (Apps) im Zusammenhang mit Analysen (z. B. Besuchsdauer).","functionality_storage":"Speichern und Auslesen von Daten f\u00fcr die Funktionalit\u00e4t der Website oder App (z. B. Spracheinstellungen).","personalization_storage":"Speichern und Auslesen von Daten im Zusammenhang mit Personalisierung (z. B. Videoempfehlungen).","security_storage":"Speichern und Auslesen von sicherheitsrelevanten Daten (z. B. Authentifizierungsfunktionen, Betrugspr\u00e4vention und anderer Nutzerschutz)."}}},"pageRequestUuid4":"a44605a06-fb3b-4df4-9e32-22254a210fdb","pageByIdUrl":"https:\/\/www.wochenmarkt-deutschland.de?page_id","pluginUrl":"https:\/\/devowl.io\/wordpress-real-cookie-banner\/"}}
+  Body (ohne CSS/JS):
+<body class="wp-singular page-template-default page page-id-53001 wp-custom-logo wp-embed-responsive wp-theme-astra astra ast-desktop ast-page-builder-template ast-no-sidebar astra-4.13.4 ast-header-custom-item-inside group-blog ast-single-post ast-inherit-site-logo-transparent elementor-default elementor-kit-53003 elementor-page elementor-page-53001 astra-addon-4.13.4" itemscope="itemscope" itemtype="https://schema.org/WebPage">
+<div class="" consent-skip-blocker="1" data-bg="background-color: rgba(0, 0, 0, 0.850);" id="a44605a06-fb3b-4df4-9e32-22254a210fdb" style="background-color: rgba(0, 0, 0, 0.850); -moz-backdrop-filter:blur(0px);-o-backdrop-filter:blur(0px);-webkit-backdrop-filter:blur(0px);backdrop-filter:blur(0px); position:fixed;top:0;left:0;right:0;bottom:0;z-index:999999;pointer-events:all;display:none;filter:none;max-width:100vw;max-height:100vh;transform:translateZ(0);"></div>
+<a class="skip-link screen-reader-text" href="#content">
+		Zum Inhalt springen</a>
+<div class="hfeed site" id="page">
+<header class="site-header ast-primary-submenu-animation-slide-up header-main-layout-1 ast-primary-menu-enabled ast-menu-toggle-icon ast-mobile-header-stack" id="masthead" itemid="#masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
+<div class="main-header-bar-wrap">
+<div class="main-header-bar">
+<div class="ast-container">
+<div class="ast-flex main-header-container">
+<div class="site-branding">
+<div class="ast-site-identity" itemscope="itemscope" itemtype="https://schema.org/Organization">
+<span class="site-logo-img"><a class="custom-logo-link" href="https://www.wochenmarkt-deutschland.de/" rel="home"><img alt="Das Logo von Wochenmarkt-Deutschland.de" class="custom-logo" decoding="async" height="97" sizes="(max-width: 100px) 100vw, 100px" src="https://www.wochenmarkt-deutschland.de/wp-content/uploads/cropped-wochenmarkt-deutschland-logo-100x97.png" srcset="https://www.wochenmarkt-deutschland.de/wp-content/uploads/cropped-wochenmarkt-deutschland-logo-100x97.png 100w, https://www.wochenmarkt-deutschland.de/wp-content/uploads/cropped-wochenmarkt-deutschland-logo.png 279w" width="100"/></a></span> </div>
+</div>
+<!-- .site-branding -->
+<div class="ast-mobile-menu-buttons">
+<div class="ast-button-wrap">
+<button aria-controls="primary-menu" aria-expanded="false" class="menu-toggle main-header-menu-toggle ast-mobile-menu-buttons-outline" type="button">
+<span class="screen-reader-text">Hauptmenü</span>
+<span class="ast-icon icon-menu-bars"><s
+------------------------------------------------------------

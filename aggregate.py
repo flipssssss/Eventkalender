@@ -59,6 +59,7 @@ from scrapers.othernature import OtherNatureScraper
 from scrapers.iksk import IkskScraper
 from scrapers.planetarium import PlanetariumScraper
 from scrapers.atrane import ATraneScraper
+from scrapers.flohmarkt import FlohmarktScraper
 from scrapers.probe_markt import ProbeMarktScraper
 
 ROOT = pathlib.Path(__file__).parent
@@ -197,7 +198,9 @@ def get_scrapers():
         PlanetariumScraper(),
         # A-Trane -- JSON-LD, aber Titel aus dem <br>-Block destilliert.
         ATraneScraper(),
-        # Einmal-Struktur-Probe berlin.de Flohmärkte (liefert keine Events).
+        # Flohmärkte Berlin (berlin.de): datierte Sondermärkte + GeoJSON.
+        FlohmarktScraper(),
+        # Einmal-Probe einer Detailseite (Wochenrhythmus); liefert keine Events.
         ProbeMarktScraper(),
         # tip Berlin -- deaktiviert: keine erreichbare Quelle für Event-Daten
         # (proprietäres "rce"-Plugin, Bot-Schutz, Ausstellungen ohne Termin).

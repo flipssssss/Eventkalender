@@ -37,13 +37,9 @@
 # (scrapers/stressfaktor.py, in aggregate.py registriert), weil die
 # Originalseite einen Bot-Schutz hat.
 sources:
-  # Flohmärkte Berlin (berlin.de) -> Kategorie "Markt".
-  # Test: erst generisch (JSON-LD); Struktur via Action-Debug -> ggf. eigener Ausleser.
-  - url: https://www.berlin.de/special/shopping/flohmaerkte/
-    name: Wochen- & Flohmärkte
-    category: Markt
-    extra_urls:
-      - https://www.berlin.de/special/shopping/flohmaerkte/bezirk/
+  # Flohmärkte Berlin -> eigener Ausleser (scrapers/flohmarkt.py): datierte
+  # Sondermärkte aus den Teasern + Ort/Koordinaten aus rubric.geojson. Kategorie
+  # "Markt", Genre Kultur (genres.py).
 
   # Hacker-/Community-Spaces.
   # c-base: exportiert iCal. Nur den Events-Feed nehmen (echte Veranstaltungen),

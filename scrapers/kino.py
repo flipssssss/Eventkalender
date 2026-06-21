@@ -1,7 +1,7 @@
 """Arthouse cinema programmes via berlin.de.
 
 berlin.de exposes a per-cinema page (``kinodetail.php/<id>``) listing every
-film with a "Tag | Zeit" table. We read the five wanted cinemas, emit one raw
+film with a "Tag | Zeit" table. We read the six wanted cinemas, emit one raw
 event per single screening (film + day + time + cinema), and a grouping step in
 aggregate.py collapses them into one event per film per day with all showings.
 
@@ -25,13 +25,14 @@ BASE = "https://www.berlin.de"
 DETAIL = BASE + "/kino/_bin/kinodetail.php/{id}"
 DEBUG_DIR = pathlib.Path(__file__).resolve().parents[1] / "docs" / "data" / "_debug"
 
-# Friendly name -> berlin.de cinema id (the five wanted arthouse cinemas).
+# Friendly name -> berlin.de cinema id (the wanted arthouse cinemas).
 CINEMAS = {
     "Sputnik": "31975",
     "Lichtblick": "30219",
     "Kino Zukunft": "35972",
     "Ladenkino": "35211",
     "Wolf Kino": "38197",
+    "Klick Kino": "37946",
 }
 
 # Fixed addresses (for the map + Bezirk and the detail view).
@@ -41,6 +42,7 @@ CINEMA_ADDR = {
     "Kino Zukunft": "Laskerstraße 5, 10245 Berlin",
     "Ladenkino": "Gärtnerstraße 19, 10245 Berlin",
     "Wolf Kino": "Weserstraße 59, 12045 Berlin",
+    "Klick Kino": "Windscheidstraße 19, 10627 Berlin",
 }
 OG_META_RE = re.compile(
     r'<meta\b[^>]*\b(?:property|name)=["\'](?:og:image|twitter:image)["\'][^>]*>', re.I)

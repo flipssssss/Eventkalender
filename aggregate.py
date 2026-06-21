@@ -61,6 +61,7 @@ from scrapers.planetarium import PlanetariumScraper
 from scrapers.atrane import ATraneScraper
 from scrapers.flohmarkt import FlohmarktScraper
 from scrapers.probe_markt import ProbeMarktScraper
+from scrapers.probe_kino import ProbeKinoScraper
 
 ROOT = pathlib.Path(__file__).parent
 OUTPUT = ROOT / "docs" / "data" / "events.json"
@@ -202,6 +203,8 @@ def get_scrapers():
         FlohmarktScraper(),
         # Einmal-Probe einer Detailseite (Wochenrhythmus); liefert keine Events.
         ProbeMarktScraper(),
+        # Einmal-Probe: Klick-Kino-ID nachschlagen; liefert keine Events.
+        ProbeKinoScraper(),
         # tip Berlin -- deaktiviert: keine erreichbare Quelle für Event-Daten
         # (proprietäres "rce"-Plugin, Bot-Schutz, Ausstellungen ohne Termin).
         # TipBerlinScraper(),

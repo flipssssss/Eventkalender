@@ -70,7 +70,7 @@ FORCE_GENRE = {
     "Zum schmutzigen Hobby": "Queer",
     "Club Sauna Berlin": "Queer",
     "Kinoprogramm": "Kultur",
-    "Wochenmarkt & Flohmarkt": "Kultur",
+    "Wochen- & Flohmärkte": "Kultur",
 }
 
 

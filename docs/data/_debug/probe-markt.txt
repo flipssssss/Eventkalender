@@ -1,0 +1,189 @@
+
+========== https://www.berlin.de/special/shopping/flohmaerkte/ ==========
+article: 16
+h2: 4
+h3: 16
+--- MAIN (gekürzt) ---
+<div id="layout-grid__area--maincontent">
+ <!-- Rubrix Index Success -->
+ <div class="row">
+  <h1 id="hflohmärkteinberlin">
+   Flohmärkte in Berlin
+  </h1>
+  <!-- OvMediaTeaser context: main_elements -->
+  <div class="modul-text_bild textbildbreit mediateaser nogrid">
+   <div bis_skin_checked="1" class="image">
+    <div bis_skin_checked="1" class="image__image">
+     <img alt="Antik- und Buchmarkt am Bode-Museum" src="/binaries/asset/image_assets/10297120/ratio_2_1/1776336804/1000x500/"/>
+    </div>
+    <p class="image__caption">
+     Auf der Museumsinsel stehen Flohmarktstände vor dem Bode-Museum.
+    </p>
+    <p class="image__copyright">
+     © till beck/stock.adobe.com
+    </p>
+   </div>
+  </div>
+  <!-- /OvMediaTeaser -->
+  <div class="modul-teaser nolink span12">
+   <!-- teaser noLink context: main_elements -->
+   <div class="inner">
+    <p class="paragraph">
+     Die Berliner Flohmärkte, Trödelmärkte und Antikmärkte laden am Wochenende zum Feilschen, Stöbern und Kaufen ein. Von antiquarischen Büchern, Kunsthandwerk, Taschen und Kleidung bis zu Technik, Musik und Lampen - unter all dem Trödel können die Besucher:innen so manchen Schatz heben. Auf dieser Seite finden Sie die wichtigsten Trödelmärkte in Berlin mit Adresse, Öffnungszeiten und Anfahrt. Die Auswahl bezieht Märkte mit ein, die besonders beliebt und nachgefragt sind - sowohl bei Berliner:innen als auch Tourist:innen.
+     <br/>
+     <br/>
+     Eine nach Stadtteilen sortierte Übersicht aller auf Berlin.de beschriebenen Flohmärkte finden Sie auf unserer Seite
+     <a href="/special/shopping/flohmaerkte/bezirk/">
+      Flohmärkte nach Bezirken
+     </a>
+     . Dort sind auch die kleineren Flohmärkte, Märkte außerhalb des Stadtzentrums sowie der eine oder andere Geheimtipp zu finden.
+    </p>
+   </div>
+   <!-- /teaser noLink -->
+  </div>
+  <h2 id="hbesondereflohmärkte">
+   Besondere Flohmärkte
+  </h2>
+  <!-- imageFirst -->
+  <article class="modul-teaser _imageFirst_ span4" data-add-clickable-area="smart">
+   <div class="image">
+    <div class="image__image">
+     <img alt="Berliner Fahrradmarkt" loading="lazy" src="/binaries/asset/image_assets/10375243/ratio_4_3/1778500095/800x600/"/>
+    </div>
+    <p class="image__copyright">
+     © Berliner Fahrradmarkt
+    </p>
+   </div>
+   <h3 class="title">
+    <a class="" data-campaign="cm.articles.4409904" href="/special/shopping/flohmaerkte/4409904-1724959-fahrradmarkt-berlin.html" target="_top">
+     Berliner Fahrradmarkt
+    </a>
+   </h3>
+   <p class="teaser__meta text--meta">
+    20. und 21. Juni 2026
+   </p>
+   <div class="inner">
+    <p class="text">
+     Der Fahrrad(floh)markt hat sich im Laufe der Jahre zu einer der größten Berliner Plattformen für gebrauchte Fahrräder entwickelt.
+     <a class="more" data-campaign="cm.articles.4409904" data-mainlink="true" href="/special/shopping/flohmaerkte/4409904-1724959-fahrradmarkt-berlin.html" target="_top" title="Link zu: »Berliner Fahrradmarkt«">
+      mehr
+     </a>
+    </p>
+   </div>
+  </article>
+  <!-- /imageFirst -->
+  <!-- imageFirst -->
+  <article class="modul-teaser _imageFirst_ span4" data-add-clickable-area="smart">
+   <div class="image">
+    <div class="image__image">
+     <img alt="Rooftop Flohmarkt Berlin (1)" loading="lazy" src="/binaries/asset/image_assets/9573292/ratio_4_3/1777294596/800x600/"/>
+    </div>
+    <p class="image__copyright">
+     © Erik Saur
+    </p>
+   </div>
+   <h3 class="title">
+    <a class="" data-campaign="cm.articles.9138708" href="/special/shopping/
+
+========== https://www.berlin.de/special/shopping/flohmaerkte/bezirk/ ==========
+article: 46
+h2: 12
+h3: 47
+--- MAIN (gekürzt) ---
+<div id="layout-grid__area--maincontent">
+ <!-- Rubrix Index Success -->
+ <div class="row">
+  <h1 id="hflohmärktenachbezirken">
+   Flohmärkte nach Bezirken
+  </h1>
+  <!-- Geomap -->
+  <div class="detailpage-map modul-geomap" id="layermap_geomapId_4930779">
+   <h3 class="aural">
+    Kartenansicht
+   </h3>
+   <div class="geomap-main">
+    <p class="skipmap">
+     <span class="aural">
+      Es folgt eine Kartendarstellung.
+     </span>
+     <a href="#geomapId_4930779_skipmap">
+      Karte überspringen
+     </a>
+    </p>
+    <div class="geomap-container" id="geomapId_4930779_container">
+     <div class="geomap-map layer-map js-font-awesome" data-allow-fullscreen="true" data-map='{"layer":[{"url":"https:\/\/www.berlin.de\/special\/shopping\/flohmaerkte\/rubric.geojson?_rnd=495017","title":"Flohm\u00e4rkte in Berlin: Tr\u00f6delm\u00e4rkte der Stadt","target":"_top","gallery":false,"dataset_name":"flohm\u00e4rkteinberlintr\u00f6delm\u00e4rktederstadt","trakkking_flag":null,"campaign":"cm.rubric.1724959"}],"id":4930779,"title":null,"controlSmallZoom":null,"controlSmallMap":1,"controlMapType":1,"controlOverviewMap":null,"controlScale":null,"travel":null,"travelShowInfo":null,"zoom":11,"center_lat":52.508,"center_lon":13.402,"resizeViewport":null,"showMarker":false,"showLayerSwitch":"always","showNthLayer":-1}' data-map-zoom="11" data-marker-lat="52.508" data-marker-long="13.402" data-marker-title="" id="geomapId_4930779" style="height:300px;">
+     </div>
+    </div>
+   </div>
+   <div id="geomapId_4930779_skipmap">
+    <p class="aural">
+     Ende der Kartenansicht
+    </p>
+   </div>
+  </div>
+  <div class="modul-teaser nolink span12">
+   <!-- teaser noLink context: main_elements -->
+   <div class="inner">
+    <p class="paragraph">
+     Bummeln, stöbern, feilschen und einkaufen am Wochenende: Flohmärkte, Trödelmärkte, Antikmärkte und Babybasare in Berlin sortiert nach Bezirken im Überblick. Ein Anspruch auf Vollständigkeit wird nicht erhoben. Bitte vergewissern Sie sich vor Besuch eines Marktes beim Veranstalter, ob der kommunizierte Termin noch immer seine Gültigkeit hat.
+     <br/>
+     <br/>
+     Trödelmärkte nach Bezirk:
+     <a href="#hcharlottenburgwilmersdorf">
+      Charlottenburg-Wilmersdorf
+     </a>
+     |
+     <a href="#hfriedrichshainkreuzberg">
+      Friedrichshain-Kreuzberg
+     </a>
+     |
+     <a href="#hlichtenberg">
+      Lichtenberg
+     </a>
+     |
+     <a href="#hmitte">
+      Mitte
+     </a>
+     |
+     <a href="#hneukoelln">
+      Neukölln
+     </a>
+     |
+     <a href="#hpankow">
+      Pankow
+     </a>
+     |
+     <a href="#hspandau">
+      Spandau
+     </a>
+     |
+     <a href="#hsteglitzzehlendorf">
+      Steglitz-Zehlendorf
+     </a>
+     |
+     <a href="#htempelhofschoeneberg">
+      Tempelhof-Schöneberg
+     </a>
+     |
+     <a href="#htreptowkoepenick">
+      Treptow-Köpenick
+     </a>
+    </p>
+   </div>
+   <!-- /teaser noLink -->
+  </div>
+  <h2 id="hcharlottenburgwilmersdorf">
+   Flohmärkte in Charlottenburg-Wilmersdorf
+  </h2>
+  <!-- imageFirst -->
+  <article class="modul-teaser _imageFirst_ span4" data-add-clickable-area="smart">
+   <div class="image">
+    <div class="image__image">
+     <img alt="Regenwetter" loading="lazy" src="/binaries/asset/image_assets/7707768/ratio_4_3/1667476256/800x600/"/>
+    </div>
+    <p class="image__copyright">
+     © dpa
+    </p>
+   </div>
+   <h3 class="title">
+    <a class="" data-campaign="cm.articles.1998184" href="/special/shopping/flohmaerkte/1998184-1724959-troedel-und-kunstma

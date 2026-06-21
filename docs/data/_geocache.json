@@ -83,6 +83,12 @@
  "AGB PopUp Saal Blücherplatz 1 10961 Berlin Deutschland": null,
  "AGB PopUp Saal Blücherplatz 1 10961, 10961 Berlin": null,
  "Abfahrt Solibus Züllichauer Straße 10965 Berlin Deutschland": null,
+ "Achillesstraße 55, 13125 Berlin": {
+  "address": "Achillesstraße 55, 13125 Karow",
+  "bezirk": "Pankow",
+  "lat": 52.6181284,
+  "lng": 13.4882893
+ },
  "Ackerstraße 169, 10115 Berlin": {
   "address": "Ackerstraße 169, 10115 Mitte",
   "bezirk": "Mitte",
@@ -242,6 +248,12 @@
   "lat": 52.5164872,
   "lng": 13.3938262
  },
+ "Bellermannstraße 64, 13357 Berlin": {
+  "address": "Bellermannstraße 64, 13357 Gesundbrunnen",
+  "bezirk": "Mitte",
+  "lat": 52.549885,
+  "lng": 13.3923479
+ },
  "Bergmannstr. 12, 10961 Berlin": {
   "address": "Bergmannstraße 12, 10961 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -378,6 +390,12 @@
   "lat": 52.5200011,
   "lng": 13.3898465
  },
+ "Breitenbachplatz 12, 14195 Berlin": {
+  "address": "Breitenbachplatz 12, 14195 Dahlem",
+  "bezirk": "Steglitz-Zehlendorf",
+  "lat": 52.4671222,
+  "lng": 13.307872
+ },
  "Brotfabrik Caligariplatz 1 13086 Berlin Deutschland": {
   "address": "Caligariplatz 1, 13086 Weißensee",
   "bezirk": "Pankow",
@@ -512,6 +530,12 @@
   "bezirk": "Lichtenberg",
   "lat": 52.5070493,
   "lng": 13.4816684
+ },
+ "Crellestraße 24, 10827 Berlin": {
+  "address": "Crellestraße, 10827 Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4884198,
+  "lng": 13.3619068
  },
  "Daruma, Karl-Marx-Straße 275, 12057 Berlin": {
   "address": "Karl-Marx-Straße 275, 12057 Neukölln",
@@ -786,6 +810,12 @@
   "lat": 52.5505395,
   "lng": 13.3634054
  },
+ "Holzmarktstrasse 25, 10243 Berlin": {
+  "address": "Holzmarktstraße 25, 10243 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5117838,
+  "lng": 13.4255086
+ },
  "Holzmarktstraße 15-18, 10179 Berlin": {
   "address": "Holzmarktstraße 15—18, 10179 Mitte",
   "bezirk": "Mitte",
@@ -876,6 +906,12 @@
   "bezirk": "Neukölln",
   "lat": 52.470975,
   "lng": 13.4309683
+ },
+ "Jordanstraße 1243, 12435 Berlin": {
+  "address": "Jordanstraße, 12435 Alt-Treptow",
+  "bezirk": "Treptow-Köpenick",
+  "lat": 52.4918997,
+  "lng": 13.4509424
  },
  "Juliette Dragon, Berlin": null,
  "K Köpenicker Straße Berlin": {
@@ -1232,6 +1268,7 @@
   "lat": 52.489793,
   "lng": 13.4402231
  },
+ "Lohmühlenstraße / Ecke Jordanstraße, 12435 Berlin": null,
  "Lohmühlenstraße 17, 12435 Berlin": {
   "address": "Lohmühlenstraße, 12435 Alt-Treptow",
   "bezirk": "Treptow-Köpenick",
@@ -1353,6 +1390,12 @@
   "bezirk": "Mitte",
   "lat": 52.5085739,
   "lng": 13.3871178
+ },
+ "Maybachufer 36, 12047 Berlin": {
+  "address": "Maybachufer 36-38, 12047 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4918563,
+  "lng": 13.4326134
  },
  "Mehringdamm 20, 10961 Berlin": {
   "address": "Mehringdamm 20-30, 10961 Kreuzberg",
@@ -1784,6 +1827,12 @@
   "lat": 52.5441565,
   "lng": 13.4128297
  },
+ "Siemensstraße 27, 10551 Berlin": {
+  "address": "Siemensstraße 27, 10551 Moabit",
+  "bezirk": "Mitte",
+  "lat": 52.5338932,
+  "lng": 13.3365293
+ },
  "Skalitzer str. 6 10997, 10997 Berlin": null,
  "Skalitzer str. 6, 10997 Berlin": {
   "address": "Skalitzer Straße 6, 10999 Kreuzberg",
@@ -2028,6 +2077,12 @@
   "bezirk": "Mitte",
   "lat": 52.5201946,
   "lng": 13.3691292
+ },
+ "Winterfeldtplatz 1, 10781 Berlin": {
+  "address": "Winterfeldtplatz, Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4965286,
+  "lng": 13.3543652
  },
  "Wolf Kino, Berlin": {
   "address": "Weserstraße 59, 12045 Neukölln",

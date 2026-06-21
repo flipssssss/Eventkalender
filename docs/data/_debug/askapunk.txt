@@ -1,6 +1,5 @@
-API-Events: 56 | übernommen: 56
+API-Events: 55 | übernommen: 55
   2026-06-21 15:00:00 | Metal | Féte de la pumptraque
-  2026-06-21 16:00:00 | Jazz | Die Wallerts (humppa), Aka Rinde (Danceable, jazzy, groovy, akustik punk) & Lisa Uebel (80s synthpop) im Schokoladen Hof
   2026-06-21 16:00:00 | Punk | Fete de la musique im Wild at Heart (Indoor)
   2026-06-22 19:00:00 | Punk | Young Mountain / Fee Aviv / Abgrund
   2026-06-23 18:45:00 | None | Queer Kreuzberg - Queer Tours for All
@@ -29,3 +28,4 @@ API-Events: 56 | übernommen: 56
   2026-06-28 20:00:00 | Punk | The DJs, Gum, Xavi Badosa
   2026-06-30 18:45:00 | None | Queer Kreuzberg
   2026-06-30 19:00:00 | Punk | Ghosts and Errors (indie-rock, bln) + Crystal Glass (indie-psych-pop, bln)
+  2026-06-30 20:00:00 | Indie | Austin TV

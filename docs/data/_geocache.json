@@ -284,6 +284,7 @@
   "lat": 52.5107448,
   "lng": 13.4351709
  },
+ "Berliner Kunstmarkt": null,
  "Bernauer Straße 63, 13355 Berlin": {
   "address": "Bernauer Straße 63, 13355 Gesundbrunnen",
   "bezirk": "Pankow",
@@ -666,6 +667,7 @@
   "lng": 13.5080026
  },
  "Grillwiese THF, Eingang Leinestraße, 12049 Berlin": null,
+ "Großer Flohmarkt am Arkonaplatz in Berlin Mitte": null,
  "Grünberger Straße 73, 10245 Berlin": {
   "address": "Grünberger Straße 73, 10245 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -1088,6 +1090,7 @@
  },
  "Kulturfabrik Moabit Lehrter Str. 35 10557, 10557 Berlin": null,
  "Kulturhaus Centre Bagatelle, Zeltinger Str. 6, 13465, Berlin-Frohnau": null,
+ "Kunstmarkt Trödelmarkt Boxhagener Platz, Berlin": null,
  "KvU Händelallee 22 10557 Berlin Deutschland": null,
  "KØPI Köpenicker Straße 137 10179 Berlin Deutschland": {
   "address": "Köpenicker Straße 137, 10179 Mitte",
@@ -1904,6 +1907,13 @@
  "Tristeza Pannierstr. 5 12047, 12047 Berlin": null,
  "Trixxxter Kreuzberg Berlin": null,
  "Trixxxter Kreuzberg Berlin Deutschland": null,
+ "Trödelmarkt Bergmannstraße Marheinekeplatz, Berlin": {
+  "address": "Marheinekeplatz, 10961 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4891534,
+  "lng": 13.3957331
+ },
+ "Trödelmarkt Mauerpark, Berlin": null,
  "Turmstr. 91, 10559 Berlin": {
   "address": "Turmstraße 91, 10559 Moabit",
   "bezirk": "Mitte",

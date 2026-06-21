@@ -2204,6 +2204,12 @@
   "lat": 52.5201946,
   "lng": 13.3691292
  },
+ "Windscheidstraße 19, 10627 Berlin": {
+  "address": "Windscheidstraße 19, 10627 Charlottenburg",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.5054322,
+  "lng": 13.2993996
+ },
  "Winterfeldtplatz 1, 10781 Berlin": {
   "address": "Winterfeldtplatz, Schöneberg",
   "bezirk": "Tempelhof-Schöneberg",

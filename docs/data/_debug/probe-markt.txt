@@ -1,189 +1,91 @@
 
-========== https://www.berlin.de/special/shopping/flohmaerkte/ ==========
-article: 16
-h2: 4
-h3: 16
---- MAIN (gekürzt) ---
-<div id="layout-grid__area--maincontent">
- <!-- Rubrix Index Success -->
- <div class="row">
-  <h1 id="hflohmärkteinberlin">
-   Flohmärkte in Berlin
-  </h1>
-  <!-- OvMediaTeaser context: main_elements -->
-  <div class="modul-text_bild textbildbreit mediateaser nogrid">
-   <div bis_skin_checked="1" class="image">
-    <div bis_skin_checked="1" class="image__image">
-     <img alt="Antik- und Buchmarkt am Bode-Museum" src="/binaries/asset/image_assets/10297120/ratio_2_1/1776336804/1000x500/"/>
-    </div>
-    <p class="image__caption">
-     Auf der Museumsinsel stehen Flohmarktstände vor dem Bode-Museum.
-    </p>
-    <p class="image__copyright">
-     © till beck/stock.adobe.com
-    </p>
-   </div>
-  </div>
-  <!-- /OvMediaTeaser -->
-  <div class="modul-teaser nolink span12">
-   <!-- teaser noLink context: main_elements -->
-   <div class="inner">
-    <p class="paragraph">
-     Die Berliner Flohmärkte, Trödelmärkte und Antikmärkte laden am Wochenende zum Feilschen, Stöbern und Kaufen ein. Von antiquarischen Büchern, Kunsthandwerk, Taschen und Kleidung bis zu Technik, Musik und Lampen - unter all dem Trödel können die Besucher:innen so manchen Schatz heben. Auf dieser Seite finden Sie die wichtigsten Trödelmärkte in Berlin mit Adresse, Öffnungszeiten und Anfahrt. Die Auswahl bezieht Märkte mit ein, die besonders beliebt und nachgefragt sind - sowohl bei Berliner:innen als auch Tourist:innen.
-     <br/>
-     <br/>
-     Eine nach Stadtteilen sortierte Übersicht aller auf Berlin.de beschriebenen Flohmärkte finden Sie auf unserer Seite
-     <a href="/special/shopping/flohmaerkte/bezirk/">
-      Flohmärkte nach Bezirken
-     </a>
-     . Dort sind auch die kleineren Flohmärkte, Märkte außerhalb des Stadtzentrums sowie der eine oder andere Geheimtipp zu finden.
-    </p>
-   </div>
-   <!-- /teaser noLink -->
-  </div>
-  <h2 id="hbesondereflohmärkte">
-   Besondere Flohmärkte
-  </h2>
-  <!-- imageFirst -->
-  <article class="modul-teaser _imageFirst_ span4" data-add-clickable-area="smart">
-   <div class="image">
-    <div class="image__image">
-     <img alt="Berliner Fahrradmarkt" loading="lazy" src="/binaries/asset/image_assets/10375243/ratio_4_3/1778500095/800x600/"/>
-    </div>
-    <p class="image__copyright">
-     © Berliner Fahrradmarkt
-    </p>
-   </div>
-   <h3 class="title">
-    <a class="" data-campaign="cm.articles.4409904" href="/special/shopping/flohmaerkte/4409904-1724959-fahrradmarkt-berlin.html" target="_top">
-     Berliner Fahrradmarkt
-    </a>
-   </h3>
-   <p class="teaser__meta text--meta">
-    20. und 21. Juni 2026
-   </p>
-   <div class="inner">
-    <p class="text">
-     Der Fahrrad(floh)markt hat sich im Laufe der Jahre zu einer der größten Berliner Plattformen für gebrauchte Fahrräder entwickelt.
-     <a class="more" data-campaign="cm.articles.4409904" data-mainlink="true" href="/special/shopping/flohmaerkte/4409904-1724959-fahrradmarkt-berlin.html" target="_top" title="Link zu: »Berliner Fahrradmarkt«">
-      mehr
-     </a>
-    </p>
-   </div>
-  </article>
-  <!-- /imageFirst -->
-  <!-- imageFirst -->
-  <article class="modul-teaser _imageFirst_ span4" data-add-clickable-area="smart">
-   <div class="image">
-    <div class="image__image">
-     <img alt="Rooftop Flohmarkt Berlin (1)" loading="lazy" src="/binaries/asset/image_assets/9573292/ratio_4_3/1777294596/800x600/"/>
-    </div>
-    <p class="image__copyright">
-     © Erik Saur
-    </p>
-   </div>
-   <h3 class="title">
-    <a class="" data-campaign="cm.articles.9138708" href="/special/shopping/
+===== TEASER https://www.berlin.de/special/shopping/flohmaerkte/ =====
+- Berliner Fahrradmarkt || 20. und 21. Juni 2026 || /special/shopping/flohmaerkte/4409904-1724959-fahrradmarkt-berlin.html
+- Rooftop Flohmarkt || 3. und 4. Juli 2026 || /special/shopping/flohmaerkte/9138708-1724959-rooftop-flohmarkt.html
+- Riesenflohmarkt Trabrennbahn Karlshorst || 2. bis 4. Oktober 2026 || /special/shopping/flohmaerkte/7377869-1724959-riesenflohmarkt-trabrennbahn-karlshorst.html
+- Trödelmarkt im Tierheim Berlin || 10. und 11. Oktober 2026 || /special/shopping/flohmaerkte/3778023-1724959-troedelmarkt-im-tierheim-berlin.html
+- Flohmarkt im Mauerpark || (kein Datum) || /special/shopping/flohmaerkte/1998222-1724959-flohmarkt-am-mauerpark.html
+- Flohmarkt am Boxhagener Platz || (kein Datum) || /special/shopping/flohmaerkte/1998240-1724959-flohmarkt-am-boxhagener-platz.html
+- Trödel- und Kunstmarkt Straße des 17. Juni || (kein Datum) || /special/shopping/flohmaerkte/1998184-1724959-troedel-und-kunstmarkt-strasse-des-17-ju.html
+- Flohmarkt am Rathaus Schöneberg || (kein Datum) || /special/shopping/flohmaerkte/1998231-1724959-flohmarkt-schoeneberg.html
+- RAW-Flohmarkt || (kein Datum) || /special/shopping/flohmaerkte/3130505-1724959-rawflohmarkt.html
+- Flohmarkt am Arkonaplatz || (kein Datum) || /special/shopping/flohmaerkte/1998213-1724959-flohmarkt-am-arkonaplatz.html
+- Flohmarkt am Fehrbelliner Platz || (kein Datum) || /special/shopping/flohmaerkte/1998531-1724959-flohmarkt-am-fehrbelliner-platz.html
+- Trödelmarkt am Marheinekeplatz || (kein Datum) || /special/shopping/flohmaerkte/2222392-1724959-flohmarkt-am-marheinekeplatz-in-der-berg.html
+- Antik- und Buchmarkt am Bode-Museum || (kein Datum) || /special/shopping/flohmaerkte/1998194-1724959-antik-und-buchmarkt-am-bodemuseum.html
+- Flohmärkte nach Bezirken || (kein Datum) || /special/shopping/flohmaerkte/bezirk/
+- Designmärkte || (kein Datum) || /special/shopping/designmaerkte/
+- Markthallen || (kein Datum) || /special/shopping/markthallen/
 
-========== https://www.berlin.de/special/shopping/flohmaerkte/bezirk/ ==========
-article: 46
-h2: 12
-h3: 47
---- MAIN (gekürzt) ---
-<div id="layout-grid__area--maincontent">
- <!-- Rubrix Index Success -->
- <div class="row">
-  <h1 id="hflohmärktenachbezirken">
-   Flohmärkte nach Bezirken
-  </h1>
-  <!-- Geomap -->
-  <div class="detailpage-map modul-geomap" id="layermap_geomapId_4930779">
-   <h3 class="aural">
-    Kartenansicht
-   </h3>
-   <div class="geomap-main">
-    <p class="skipmap">
-     <span class="aural">
-      Es folgt eine Kartendarstellung.
-     </span>
-     <a href="#geomapId_4930779_skipmap">
-      Karte überspringen
-     </a>
-    </p>
-    <div class="geomap-container" id="geomapId_4930779_container">
-     <div class="geomap-map layer-map js-font-awesome" data-allow-fullscreen="true" data-map='{"layer":[{"url":"https:\/\/www.berlin.de\/special\/shopping\/flohmaerkte\/rubric.geojson?_rnd=495017","title":"Flohm\u00e4rkte in Berlin: Tr\u00f6delm\u00e4rkte der Stadt","target":"_top","gallery":false,"dataset_name":"flohm\u00e4rkteinberlintr\u00f6delm\u00e4rktederstadt","trakkking_flag":null,"campaign":"cm.rubric.1724959"}],"id":4930779,"title":null,"controlSmallZoom":null,"controlSmallMap":1,"controlMapType":1,"controlOverviewMap":null,"controlScale":null,"travel":null,"travelShowInfo":null,"zoom":11,"center_lat":52.508,"center_lon":13.402,"resizeViewport":null,"showMarker":false,"showLayerSwitch":"always","showNthLayer":-1}' data-map-zoom="11" data-marker-lat="52.508" data-marker-long="13.402" data-marker-title="" id="geomapId_4930779" style="height:300px;">
-     </div>
-    </div>
-   </div>
-   <div id="geomapId_4930779_skipmap">
-    <p class="aural">
-     Ende der Kartenansicht
-    </p>
-   </div>
-  </div>
-  <div class="modul-teaser nolink span12">
-   <!-- teaser noLink context: main_elements -->
-   <div class="inner">
-    <p class="paragraph">
-     Bummeln, stöbern, feilschen und einkaufen am Wochenende: Flohmärkte, Trödelmärkte, Antikmärkte und Babybasare in Berlin sortiert nach Bezirken im Überblick. Ein Anspruch auf Vollständigkeit wird nicht erhoben. Bitte vergewissern Sie sich vor Besuch eines Marktes beim Veranstalter, ob der kommunizierte Termin noch immer seine Gültigkeit hat.
-     <br/>
-     <br/>
-     Trödelmärkte nach Bezirk:
-     <a href="#hcharlottenburgwilmersdorf">
-      Charlottenburg-Wilmersdorf
-     </a>
-     |
-     <a href="#hfriedrichshainkreuzberg">
-      Friedrichshain-Kreuzberg
-     </a>
-     |
-     <a href="#hlichtenberg">
-      Lichtenberg
-     </a>
-     |
-     <a href="#hmitte">
-      Mitte
-     </a>
-     |
-     <a href="#hneukoelln">
-      Neukölln
-     </a>
-     |
-     <a href="#hpankow">
-      Pankow
-     </a>
-     |
-     <a href="#hspandau">
-      Spandau
-     </a>
-     |
-     <a href="#hsteglitzzehlendorf">
-      Steglitz-Zehlendorf
-     </a>
-     |
-     <a href="#htempelhofschoeneberg">
-      Tempelhof-Schöneberg
-     </a>
-     |
-     <a href="#htreptowkoepenick">
-      Treptow-Köpenick
-     </a>
-    </p>
-   </div>
-   <!-- /teaser noLink -->
-  </div>
-  <h2 id="hcharlottenburgwilmersdorf">
-   Flohmärkte in Charlottenburg-Wilmersdorf
-  </h2>
-  <!-- imageFirst -->
-  <article class="modul-teaser _imageFirst_ span4" data-add-clickable-area="smart">
-   <div class="image">
-    <div class="image__image">
-     <img alt="Regenwetter" loading="lazy" src="/binaries/asset/image_assets/7707768/ratio_4_3/1667476256/800x600/"/>
-    </div>
-    <p class="image__copyright">
-     © dpa
-    </p>
-   </div>
-   <h3 class="title">
-    <a class="" data-campaign="cm.articles.1998184" href="/special/shopping/flohmaerkte/1998184-1724959-troedel-und-kunstma
+===== TEASER https://www.berlin.de/special/shopping/flohmaerkte/bezirk/ =====
+- Trödel- und Kunstmarkt Straße des 17. Juni || (kein Datum) || /special/shopping/flohmaerkte/1998184-1724959-troedel-und-kunstmarkt-strasse-des-17-ju.html
+- Flohmarkt am Fehrbelliner Platz || (kein Datum) || /special/shopping/flohmaerkte/1998531-1724959-flohmarkt-am-fehrbelliner-platz.html
+- Flohmarkt Mecklenburgische Straße || (kein Datum) || /special/shopping/flohmaerkte/3373011-1724959-flohmarkt-mecklenburgische-strasse.html
+- Flohmarkt am Boxhagener Platz || (kein Datum) || /special/shopping/flohmaerkte/1998240-1724959-flohmarkt-am-boxhagener-platz.html
+- Trödelmarkt am Marheinekeplatz || (kein Datum) || /special/shopping/flohmaerkte/2222392-1724959-flohmarkt-am-marheinekeplatz-in-der-berg.html
+- Antikmarkt am Ostbahnhof || (kein Datum) || /special/shopping/flohmaerkte/1998249-1724959-grosser-antikmarkt-am-ostbahnhof.html
+- Friendly Flohmarkt || Termin noch nicht bekannt || /special/shopping/flohmaerkte/8828314-1724959-friendly-flohmarkt.html
+- RAW-Flohmarkt || (kein Datum) || /special/shopping/flohmaerkte/3130505-1724959-rawflohmarkt.html
+- Holzmarkt Flohmarkt || 27. Juni 2026 || /special/shopping/flohmaerkte/9680476-1724959-holzmarkt-flohmarkt.html
+- Riesenflohmarkt Trabrennbahn Karlshorst || 2. bis 4. Oktober 2026 || /special/shopping/flohmaerkte/7377869-1724959-riesenflohmarkt-trabrennbahn-karlshorst.html
+- Trödelmarkt Landsberger Allee || (kein Datum) || /special/shopping/flohmaerkte/9357058-1724959-troedelmarkt-landsberger-allee.html
+- Flohmarkt am Tuchollaplatz || (kein Datum) || /special/shopping/flohmaerkte/9682237-1724959-flohmarkt-am-tuchollaplatz.html
+- Trödelmarkt im Tierheim Berlin || 10. und 11. Oktober 2026 || /special/shopping/flohmaerkte/3778023-1724959-troedelmarkt-im-tierheim-berlin.html
+- Antik- und Buchmarkt am Bode-Museum || (kein Datum) || /special/shopping/flohmaerkte/1998194-1724959-antik-und-buchmarkt-am-bodemuseum.html
+- Flohmarkt am Arkonaplatz || (kein Datum) || /special/shopping/flohmaerkte/1998213-1724959-flohmarkt-am-arkonaplatz.html
+- Gütermarkt in Moabit || 5. Juli 2026 || /special/shopping/flohmaerkte/5468838-1724959-guetermarkt-in-moabit.html
+- Berliner Fahrradmarkt || 20. und 21. Juni 2026 || /special/shopping/flohmaerkte/4409904-1724959-fahrradmarkt-berlin.html
+- Leo Flohmarkt am Leopoldplatz || (kein Datum) || /special/shopping/flohmaerkte/2068453-1724959-flohmarkt-am-leopoldplatz.html
+- Krempel de Luxe Flohmarkt || 13. September 2026 || /special/shopping/flohmaerkte/10319212-1724959-krempel-de-luxe-flohmarkt.html
+- Flohmarkt am Haus der Statistik || Termin noch nicht bekannt || /special/shopping/flohmaerkte/8203400-1724959-flohmarkt-haus-der-statistik.html
+- Rooftop Flohmarkt || 3. und 4. Juli 2026 || /special/shopping/flohmaerkte/9138708-1724959-rooftop-flohmarkt.html
+- Nowkoelln Flowmarkt || 28. Juni 2026 || /special/shopping/flohmaerkte/1762126-1724959-nowkoelln-flowmarkt.html
+- NK Flohmarkt am Kranoldplatz || (kein Datum) || /special/shopping/flohmaerkte/9321225-1724959-flohmarkt-am-kranoldplatz.html
+- Hip Hop Flohmarkt || Termin noch nicht bekannt || /special/shopping/flohmaerkte/9790501-1724959-hip-hop-flohmarkt.html
+- Flohmarkt im Mauerpark || (kein Datum) || /special/shopping/flohmaerkte/1998222-1724959-flohmarkt-am-mauerpark.html
+- Trödelmarkt Hansamarkt || (kein Datum) || /special/shopping/flohmaerkte/3083110-1724959-troedelmarkt-hansamarkt.html
+- Karower Familien-Flohmarkt || 5. Juli 2026 || /special/shopping/flohmaerkte/10265551-1724959-karower-familienflohmarkt.html
+- Trödelmarkt Spandau || (kein Datum) || /special/shopping/flohmaerkte/3784312-1724959-troedelmarkt-spandau.html
+- Flohmarkt Spandau an der Metro || (kein Datum) || /special/shopping/flohmaerkte/9356782-1724959-flohmarkt-spandau-metro.html
+- Antik- und Trödelmarkt Goerzallee || (kein Datum) || /special/shopping/flohmaerkte/1998295-1724959-antik-und-troedelmarkt-goerzallee.html
+- Flohmarkt auf dem Breitenbachplatz || 21. Juni 2026 || /special/shopping/flohmaerkte/2564740-1724959-flohmarkt-auf-dem-breitenbachplatz.html
+- Baby- und Kinderflohmarkt auf dem Breitenbachplatz || 12. Juli 2026 || /special/shopping/flohmaerkte/4791167-1724959-baby-und-kinderflohmarkt-auf-dem-breiten.html
+- Trödelmarkt Hermann-Ehlers-Platz || (kein Datum) || /special/shopping/flohmaerkte/1998277-1724959-troedelmarkt-hermannehlersplatz.html
+- Flohmarkt am Rathaus Schöneberg || (kein Datum) || /special/shopping/flohmaerkte/1998231-1724959-flohmarkt-schoeneberg.html
+- Flohmarkt auf dem Winterfeldtplatz || 28. Juni 2026 || /special/shopping/flohmaerkte/9788359-1724959-flohmarkt-winterfeldtplatz.html
+- Schoeneboerg Flowmarkt || 21. Juni 2026 || /special/shopping/flohmaerkte/6875800-1724959-schoeneboerg-flowmarkt.html
+- Flohmarkt Marienfelde || (kein Datum) || /special/shopping/flohmaerkte/1998304-1724959-markt-und-troedelmarkt-in-der-grossbeere.html
+- Trödelmarkt in der Ufafabrik || 13. September 2026 || /special/shopping/flohmaerkte/4897006-1724959-troedelmarkt-in-der-ufafabrik.html
+- Fietsenbörse || 12. Juli 2026 || /special/shopping/flohmaerkte/7403870-1724959-fietsenboerse-berliner-fahrradmarkt.html
+- Flohmarkt Marienfelde an der Metro || (kein Datum) || /special/shopping/flohmaerkte/9356695-1724959-flohmarkt-marienfelde-metro.html
+- Fetzenmarkt in der MaHalla || Termin noch nicht bekannt || /special/shopping/flohmaerkte/7841639-1724959-fetzenmarkt-in-der-mahalla.html
+- Jordan Flohmarkt || 21. Juni 2026 || /special/shopping/flohmaerkte/9759451-1724959-jordan-flohmarkt.html
+- Flohmarkt Friedrichshagen || (kein Datum) || /special/shopping/flohmaerkte/3083150-1724959-flohmarkt-friedrichshagen.html
+- Designmärkte || (kein Datum) || /special/shopping/designmaerkte/
+- Öko-Wochenmärkte || (kein Datum) || /special/shopping/biomarkt/
+- Markthallen || (kein Datum) || /special/shopping/markthallen/
+
+===== GEOJSON https://www.berlin.de/special/shopping/flohmaerkte/rubric.geojson =====
+features: 56
+--- erstes Feature ---
+{
+ "type": "Feature",
+ "geometry": {
+  "type": "Point",
+  "coordinates": [
+   13.3923,
+   52.55
+  ]
+ },
+ "properties": {
+  "title": "Rooftop Flohmarkt",
+  "url": "https://www.berlin.de/special/shopping/flohmaerkte/9138708-1724959-rooftop-flohmarkt.html",
+  "description": "Das große Dach-Parkdeck des Gesundbrunnen-Centers verwandelt sich in einen Nachtflohmarkt über den Dächern der Stadt. ",
+  "address": "Bellermannstraße 64, Berlin, 13357, Berlin",
+  "image": null,
+  "modified": "2026-06-16T09:14:11+0200",
+  "style": null
+ }
+}
+--- Property-Keys ---
+title, url, description, address, image, modified, style

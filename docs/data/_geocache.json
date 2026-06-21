@@ -164,6 +164,12 @@
  "Amtsgericht Tiergarten Turmstr. 91 10559 Berlin Deutschland": null,
  "Amtsgericht Tiergarten Turmstr. 91 10559, 10559 Berlin": null,
  "Amtsgericht Tiergarten, Saal A672, Turmstraße 91, 10559 Berlin": null,
+ "An der Ostbahn 7, 10243 Berlin": {
+  "address": "An der Ostbahn 7, 10243 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5077986,
+  "lng": 13.4470614
+ },
  "Anna Landsberger Prötzeler Ring 13 12685 Berlin Deutschland": {
   "address": "Prötzeler Ring 13, 12685 Marzahn",
   "bezirk": "Marzahn-Hellersdorf",
@@ -278,6 +284,12 @@
   "lat": 52.5107448,
   "lng": 13.4351709
  },
+ "Bernauer Straße 63, 13355 Berlin": {
+  "address": "Bernauer Straße 63, 13355 Gesundbrunnen",
+  "bezirk": "Pankow",
+  "lat": 52.5409538,
+  "lng": 13.4027196
+ },
  "Bernkasteler Str 78, 13088 Berlin": {
   "address": "Bernkasteler Straße 78, 13088 Weißensee",
   "bezirk": "Pankow",
@@ -297,6 +309,12 @@
   "bezirk": null,
   "lat": 52.3818825,
   "lng": 13.8001845
+ },
+ "Bismarckstraße 35, 10585 Berlin": {
+  "address": "Bismarckstraße 35, 10627 Charlottenburg",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.5121441,
+  "lng": 13.3083771
  },
  "Bleibtreustrasse 1, 10623 Berlin": {
   "address": "Bleibtreustraße 1, 10625 Charlottenburg",
@@ -647,6 +665,7 @@
   "lat": 52.5056689,
   "lng": 13.5080026
  },
+ "Grillwiese THF, Eingang Leinestraße, 12049 Berlin": null,
  "Grünberger Straße 73, 10245 Berlin": {
   "address": "Grünberger Straße 73, 10245 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -721,6 +740,7 @@
  "Hausvogteiplatz 5-7, Raum 0007, 10117 Berlin": null,
  "Herman Schulz Kollektiv Café & Bar, Finowstraße 33, 10247 Berlin": null,
  "Herman Schulz Kollektiv Finowstraße 33, 10247 Berlin": null,
+ "Hermann-Schulz Café Kollektiv, Finowstraße 33, 10247 Berlin": null,
  "Hermannstr. 146, 12051 Berlin": {
   "address": "Hermannstraße 146, 12051 Neukölln",
   "bezirk": "Neukölln",
@@ -843,6 +863,12 @@
   "lat": 52.5081567,
   "lng": 13.3320921
  },
+ "Jessnerstraße 41, 10247 Berlin, Germany": {
+  "address": "Jessnerstraße 41, 10247 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5104475,
+  "lng": 13.4713447
+ },
  "Jonasstr. 40, 12053 Berlin": {
   "address": "Jonasstraße 40, 12053 Neukölln",
   "bezirk": "Neukölln",
@@ -938,11 +964,23 @@
   "lat": 52.5038714,
   "lng": 13.4836489
  },
+ "Kaskelstraße 66, 10317 Berlin": {
+  "address": "Am Bremsenwerk, 10317 Rummelsburg",
+  "bezirk": "Lichtenberg",
+  "lat": 52.5056076,
+  "lng": 13.4748832
+ },
  "Kastanienallee 77, 10435 Berlin": {
   "address": "Kastanienallee 77, 10435 Prenzlauer Berg",
   "bezirk": "Pankow",
   "lat": 52.5364741,
   "lng": 13.4078031
+ },
+ "Kiehnwerderallee 2, 12437 Berlin": {
+  "address": "Kiehnwerderallee 2, 12437 Plänterwald",
+  "bezirk": "Treptow-Köpenick",
+  "lat": 52.4814927,
+  "lng": 13.4943009
  },
  "Kietz-Klub Köpenick, Köpenzeile 117, 12557 Berlin": null,
  "Kiez Zentrum Villa Lützow Lützowstraße 28 10785 Berlin Deutschland": null,
@@ -1050,6 +1088,7 @@
  },
  "Kulturfabrik Moabit Lehrter Str. 35 10557, 10557 Berlin": null,
  "Kulturhaus Centre Bagatelle, Zeltinger Str. 6, 13465, Berlin-Frohnau": null,
+ "KvU Händelallee 22 10557 Berlin Deutschland": null,
  "KØPI Köpenicker Straße 137 10179 Berlin Deutschland": {
   "address": "Köpenicker Straße 137, 10179 Mitte",
   "bezirk": "Mitte",
@@ -1153,6 +1192,12 @@
   "lat": 52.5344522,
   "lng": 13.3600061
  },
+ "Leinestraße 1204, 12049 Berlin": {
+  "address": "Leinestraße, 12049 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4728086,
+  "lng": 13.4245118
+ },
  "Leipziger Straße 60, 14473 Berlin": {
   "address": "Leipziger Straße 60, 10117 Mitte",
   "bezirk": "Mitte",
@@ -1205,6 +1250,7 @@
   "lng": 13.4240706
  },
  "Lunte Weisestr. 53 12049, 12049 Berlin": null,
+ "Lunte Weisestr. 53 EG 12049 Berlin Deutschland": null,
  "Luxemburger Straße 10, 13353 Berlin": {
   "address": "Luxemburger Straße 10, 13353 Wedding",
   "bezirk": "Mitte",
@@ -1228,6 +1274,18 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5072971,
   "lng": 13.4527414
+ },
+ "Mansteinstr. 10, Berlin": {
+  "address": "Mansteinstraße 10, 10783 Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4917223,
+  "lng": 13.3667307
+ },
+ "Manteuffelstraße 41, 10997 Berlin": {
+  "address": "Audre-Lorde-Straße 41, 10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5018807,
+  "lng": 13.4288164
  },
  "Marchlewskistraße 6, 10243 Berlin": {
   "address": "Marchlewskistraße 6, 10243 Friedrichshain",
@@ -1286,6 +1344,7 @@
   "lat": 52.5076797,
   "lng": 13.3670096
  },
+ "Mauerpark Amphitheater, Bernauer Straße 63, 13355 Berlin": null,
  "Mauerstraße 79, 10117 Berlin": {
   "address": "Mauerstraße 79, 10117 Mitte",
   "bezirk": "Mitte",
@@ -1314,6 +1373,7 @@
  },
  "Metis Books and Café, Berlin": null,
  "MieterClub Neue Christstr. 8 14059 Berlin Deutschland": null,
+ "Milchbar, Manteuffelstraße 41, 10997 Berlin": null,
  "Mitte Museum Pankstr. 47 13357 Berlin Deutschland": {
   "address": "Pankstraße 47, 13357 Gesundbrunnen",
   "bezirk": "Mitte",
@@ -1592,6 +1652,7 @@
   "lng": 13.4019195
  },
  "Rote Ella, Buttmannstraße 1a, 13357 Berlin": null,
+ "Rote Insel Mansteinstr. 10, near S1 / U7 Yorckstrasse Deutschland, Berlin": null,
  "Rote Insel near S1 / U7 Yorckstrasse Berlin 10783 Berlin Deutschland": null,
  "Rote Insel, nähe S1 Yorckstraße, 10783 Berlin": null,
  "Rote Lilly Emserstraße 114 12051 Berlin": {
@@ -1811,6 +1872,13 @@
  },
  "Thomashöhe Hartungbaum, Berlin": null,
  "Thomashöhe, Hartungbaum, Berlin": null,
+ "Tipsy Bear, Berlin": {
+  "address": "Eberswalder Straße 21, 10437 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5410133,
+  "lng": 13.4106052
+ },
+ "Tischlerei der Deutschen Oper Berlin, Bismarckstraße 35, 10585, Berlin": null,
  "Torhaus - Columbiadamm Columbiadamm 10 12101 Berlin Deutschland": {
   "address": "Columbiadamm 10, 10965 Tempelhof",
   "bezirk": "Tempelhof-Schöneberg",
@@ -1889,6 +1957,12 @@
  "Vor der BHT-Mensa, Luxemburger Straße 9, 13353 Berlin": null,
  "Wagenburg Lohmühle Lohmühlenstr. 17 12435 Berlin Deutschland": null,
  "Wagenburg Lohmühle Lohmühlenstr. 17 12435, 12435 Berlin": null,
+ "Warthestraße 12051 Berlin Deutschland": {
+  "address": "Warthestraße, 12051 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4700859,
+  "lng": 13.4269274
+ },
  "Wedding Berlin": {
   "address": "Wedding",
   "bezirk": "Mitte",
@@ -1900,6 +1974,12 @@
   "bezirk": "Mitte",
   "lat": 52.548949,
   "lng": 13.3481653
+ },
+ "Weisestr. 53, 12049 Berlin": {
+  "address": "Weisestraße 53, 12049 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4777152,
+  "lng": 13.4240197
  },
  "Weserstr. 206, 12047 Berlin, Germany": {
   "address": "Weserstraße 206, 12047 Neukölln",

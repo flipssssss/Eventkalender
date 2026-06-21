@@ -1,29 +1,29 @@
 ExhibitionEvents -> Events: 31
-  2026-06-20 Brancusi
-  2026-06-20 Gebaute Gemeinschaft: Göbeklitepe, Taş Tepeler und
-  2026-06-20 Lina Lapelytė: We Make Years Out of Hours – Chanel
-  2026-06-20 Marina Abramović: Balkan Erotic Epic
-  2026-06-20 Marc Brandenburg: 20th Century Debris
-  2026-06-20 Freiraum Kunst: Akademie der Künste goes Bellevue
-  2026-06-20 Gabriele Stötzer: Dabei sein und nicht schweigen
-  2026-06-20 Ruin und Rausch: Berlin 1910–1930
-  2026-06-20 Cassirer und der Durchbruch des Impressionismus
-  2026-06-20 Giulia Andreani: Sabotage
-  2026-06-20 C.B. Evans: Reality or Not
-  2026-06-20 Neue Frau, Neues Sehen: Die Bauhaus-Fotografinnen
-  2026-06-20 Inventing Queer Cinema
-  2026-06-20 Walter Schels: 16° Fische – Retrospektive
-  2026-06-20 Peter Hujar und Liz Deschenes: Persistence of Visi
-  2026-06-20 Kyiv Biennial: A Bird That Cannot Land
-  2026-06-20 Shilpa Gupta: What Still Holds
-  2026-06-20 Fujiko Nakaya: Nebelskulptur im Skulpturengarten
-  2026-06-20 Iliggocene: The Age of Dizziness
-  2026-06-20 Anton Corbijn: Corbijn, Anton
-  2026-06-20 Rooms / Stages
-  2026-06-20 Intermezzo: Revisiting Helmut Newton
-  2026-06-20 Many Shades of Grès: Mode wird Kunst
-  2026-06-20 Seeing Words, Reading Images – Die Written Art Col
-  2026-06-20 Philipp Gufler: Imitations of Paul
+  2026-06-21 Brancusi
+  2026-06-21 Gebaute Gemeinschaft: Göbeklitepe, Taş Tepeler und
+  2026-06-21 Lina Lapelytė: We Make Years Out of Hours – Chanel
+  2026-06-21 Marina Abramović: Balkan Erotic Epic
+  2026-06-21 Marc Brandenburg: 20th Century Debris
+  2026-06-21 Freiraum Kunst: Akademie der Künste goes Bellevue
+  2026-06-21 Gabriele Stötzer: Dabei sein und nicht schweigen
+  2026-06-21 Ruin und Rausch: Berlin 1910–1930
+  2026-06-21 Cassirer und der Durchbruch des Impressionismus
+  2026-06-21 Giulia Andreani: Sabotage
+  2026-06-21 C.B. Evans: Reality or Not
+  2026-06-21 Neue Frau, Neues Sehen: Die Bauhaus-Fotografinnen
+  2026-06-21 Inventing Queer Cinema
+  2026-06-21 Walter Schels: 16° Fische – Retrospektive
+  2026-06-21 Peter Hujar und Liz Deschenes: Persistence of Visi
+  2026-06-21 Kyiv Biennial: A Bird That Cannot Land
+  2026-06-21 Shilpa Gupta: What Still Holds
+  2026-06-21 Fujiko Nakaya: Nebelskulptur im Skulpturengarten
+  2026-06-21 Iliggocene: The Age of Dizziness
+  2026-06-21 Anton Corbijn: Corbijn, Anton
+  2026-06-21 Rooms / Stages
+  2026-06-21 Intermezzo: Revisiting Helmut Newton
+  2026-06-21 Many Shades of Grès: Mode wird Kunst
+  2026-06-21 Seeing Words, Reading Images – Die Written Art Col
+  2026-06-21 Philipp Gufler: Imitations of Paul
   2026-07-03 Paul Signac: Symphonie der Farben
   2026-06-26 Erwin Olaf: Muses
   2026-07-02 Materialistin: Matter of Care, Care of Matter – Ma

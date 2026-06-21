@@ -1,6 +1,5 @@
 Event-Links: 21 | Events: 21
   2026-06-19 19:00:00 | verschiedene Veranstaltungsorte, Berlin | Jazzwoche Berlin #8 - Collective improv(e)ment
-  2026-06-20 20:00:00 | Peppi Guggenheim, Weichselstraße 7, 12043, Berlin | FBJR Female Bandleaders Jazz
   2026-03-09 20:00:00 | Café Engels, Herrfurthstr. 21, 12049, Berlin | Blue Moonday Jazzsession
   2026-03-26 19:00:00 | Musikinstrumenten-Museum, Tiergartenstraße, 10785, Berlin | Jazz im MIM
   2026-06-25 20:00:00 | Brotfabrik, Caligariplatz 1, 13086, Berlin | Ilona Damięcka Berlin Trio
@@ -21,3 +20,4 @@ an der Dischinger Brücke, 13581, Berlin-Spandau | Jako Trio - Everything In Bet
   2026-07-04 17:00:00 | Krankenhauskirche im Wuhlgarten, Brebacher Weg 15, 12683, Berlin | ZERBRECHLICHE SCHÖNHEIT - Marita Czepa
   2026-07-04 20:00:00 | Brotfabrik, Caligariplatz 1, 13086, Berlin | Lenn Smidt Organic Trio
   2026-07-07 19:00:00 | Globe Berlin, Sömmeringstraße 15, 10589, Berlin | The Swingin' Hermlins
+  2026-07-08 16:00:00 | Tischlerei der Deutschen Oper Berlin, Bismarckstraße 35, 10585, Berlin | Jazz & Lyrics IV: Scheherazade

@@ -1,9 +1,37 @@
-AZ https://www.berlin.de/kino/_bin/azkino.php
-Kinos gesamt: 5
---- KLICK ---
---- alle (Name -> id) ---
-Acud Kino -> /kino/_bin/kinodetail.php/30151
-Adria Filmtheater -> /kino/_bin/kinodetail.php/30152
-Arsenal -> /kino/_bin/kinodetail.php/38567
-ARTE Sommerkino Kulturforum -> /kino/_bin/kinodetail.php/34000
-Astra-Filmpalast -> /kino/_bin/kinodetail.php/30157
+NAV-Links (azkino): /kino/_bin/azkino.php?firstchar=A, /kino/_bin/azkino.php?firstchar=B, /kino/_bin/azkino.php?firstchar=C, /kino/_bin/azkino.php?firstchar=D, /kino/_bin/azkino.php?firstchar=E, /kino/_bin/azkino.php?firstchar=F, /kino/_bin/azkino.php?firstchar=H, /kino/_bin/azkino.php?firstchar=I, /kino/_bin/azkino.php?firstchar=K, /kino/_bin/azkino.php?firstchar=L, /kino/_bin/azkino.php?firstchar=M, /kino/_bin/azkino.php?firstchar=N, /kino/_bin/azkino.php?firstchar=O, /kino/_bin/azkino.php?firstchar=P, /kino/_bin/azkino.php?firstchar=R, /kino/_bin/azkino.php?firstchar=S, /kino/_bin/azkino.php?firstchar=T, /kino/_bin/azkino.php?firstchar=U, /kino/_bin/azkino.php?firstchar=W, /kino/_bin/azkino.php?firstchar=X, /kino/_bin/azkino.php?firstchar=Y, /kino/_bin/azkino.php?firstchar=Z
+
+===== https://www.berlin.de/kino/_bin/azkino.php?az=K =====
+Kinos: 5
+KLICK: (keine)
+  Acud Kino -> /kino/_bin/kinodetail.php/30151
+  Adria Filmtheater -> /kino/_bin/kinodetail.php/30152
+  Arsenal -> /kino/_bin/kinodetail.php/38567
+  ARTE Sommerkino Kulturforum -> /kino/_bin/kinodetail.php/34000
+  Astra-Filmpalast -> /kino/_bin/kinodetail.php/30157
+
+===== https://www.berlin.de/kino/_bin/azkino.php?az=k =====
+Kinos: 5
+KLICK: (keine)
+  Acud Kino -> /kino/_bin/kinodetail.php/30151
+  Adria Filmtheater -> /kino/_bin/kinodetail.php/30152
+  Arsenal -> /kino/_bin/kinodetail.php/38567
+  ARTE Sommerkino Kulturforum -> /kino/_bin/kinodetail.php/34000
+  Astra-Filmpalast -> /kino/_bin/kinodetail.php/30157
+
+===== https://www.berlin.de/kino/_bin/azkino.php?letter=K =====
+Kinos: 5
+KLICK: (keine)
+  Acud Kino -> /kino/_bin/kinodetail.php/30151
+  Adria Filmtheater -> /kino/_bin/kinodetail.php/30152
+  Arsenal -> /kino/_bin/kinodetail.php/38567
+  ARTE Sommerkino Kulturforum -> /kino/_bin/kinodetail.php/34000
+  Astra-Filmpalast -> /kino/_bin/kinodetail.php/30157
+
+===== https://www.berlin.de/kino/_bin/azkino.php/K =====
+Kinos: 5
+KLICK: (keine)
+  Acud Kino -> /kino/_bin/kinodetail.php/30151
+  Adria Filmtheater -> /kino/_bin/kinodetail.php/30152
+  Arsenal -> /kino/_bin/kinodetail.php/38567
+  ARTE Sommerkino Kulturforum -> /kino/_bin/kinodetail.php/34000
+  Astra-Filmpalast -> /kino/_bin/kinodetail.php/30157

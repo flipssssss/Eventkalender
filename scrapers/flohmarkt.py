@@ -1,16 +1,21 @@
 """Flohmärkte Berlin (berlin.de/special/shopping/flohmaerkte).
 
 Ort, Adresse und Koordinaten kommen aus dem strukturierten ``rubric.geojson``-
-Feed; die Termine aus den Teasern der Bezirks-Übersicht (Feld ``teaser__meta``,
-z. B. "28. Juni 2026" oder "2. bis 4. Oktober 2026"). Wöchentlich wiederkehrende
-Märkte (Teaser ohne Datum) werden hier (noch) übersprungen.
+Feed. Termine:
+* Sondermärkte mit festem Datum -> aus dem Teaser-Feld ``teaser__meta``
+  ("28. Juni 2026", "2. bis 4. Oktober 2026").
+* Wiederkehrende Märkte -> von der Detailseite (``<dl>`` mit "Termine: Jeden
+  Sonntag" + "Öffnungszeiten: 10 bis 18 Uhr"); daraus erzeugen wir die nächsten
+  konkreten Termine.
 """
 
 from __future__ import annotations
 
+import calendar
 import datetime as _dt
 import json
 import re
+from datetime import timedelta
 from typing import Iterable
 from urllib.parse import urljoin
 
@@ -27,11 +32,16 @@ MONTHS = {
     "juni": 6, "juli": 7, "august": 8, "september": 9, "oktober": 10,
     "november": 11, "dezember": 12,
 }
+WEEKDAYS = {"montag": 0, "dienstag": 1, "mittwoch": 2, "donnerstag": 3,
+            "freitag": 4, "samstag": 5, "sonntag": 6}
+ORDINALS = {"erste": 1, "ersten": 1, "1.": 1, "zweite": 2, "zweiten": 2,
+            "2.": 2, "dritte": 3, "dritten": 3, "3.": 3, "vierte": 4,
+            "vierten": 4, "4.": 4, "letzte": -1, "letzten": -1}
+RECUR_DAYS = 35          # so weit in die Zukunft werden Termine erzeugt
+MAX_DETAILS = 45         # Obergrenze für Detailseiten-Abrufe pro Lauf
 
 
 def _dates(meta: str) -> list[_dt.datetime]:
-    """Termine aus dem Teaser-Datum: '20. und 21. Juni 2026', '27. Juni 2026',
-    '2. bis 4. Oktober 2026'. Gibt eine Liste von Datumswerten zurück."""
     m = re.search(r"([A-Za-zäöüÄÖÜ]+)\s+(\d{4})", meta or "")
     if not m:
         return []
@@ -39,11 +49,10 @@ def _dates(meta: str) -> list[_dt.datetime]:
     if not mon:
         return []
     year = int(m.group(2))
-    head = meta[:m.start()]
-    days = [int(d) for d in re.findall(r"\d{1,2}", head)]
+    days = [int(d) for d in re.findall(r"\d{1,2}", meta[:m.start()])]
     if not days:
         return []
-    if "bis" in head.lower() and len(days) >= 2:
+    if "bis" in meta[:m.start()].lower() and len(days) >= 2:
         days = list(range(days[0], days[-1] + 1))
     out = []
     for d in days:
@@ -52,6 +61,28 @@ def _dates(meta: str) -> list[_dt.datetime]:
         except ValueError:
             pass
     return out
+
+
+def _hours(text: str):
+    m = re.search(r"(\d{1,2})(?:[:.](\d{2}))?\s*(?:bis|-|–|—|‐)\s*"
+                  r"(\d{1,2})(?:[:.](\d{2}))?", text or "")
+    if not m:
+        return None
+    return (int(m.group(1)), int(m.group(2) or 0),
+            int(m.group(3)), int(m.group(4) or 0))
+
+
+def _recurrence(termine: str):
+    """(<wochentage>, <ordinals|None>) oder None."""
+    low = (termine or "").lower()
+    if "täglich" in low or "taeglich" in low:
+        wds = list(range(7))
+    else:
+        wds = sorted({i for n, i in WEEKDAYS.items() if n in low})
+    if not wds:
+        return None
+    ords = {v for k, v in ORDINALS.items() if k in low}
+    return (wds, ords or None)
 
 
 def _clean_addr(addr: str | None) -> str | None:
@@ -68,7 +99,45 @@ class FlohmarktScraper(BaseScraper):
     name = "Flohmärkte Berlin"
 
     def fetch_events(self) -> Iterable[Event]:
-        # Ort/Koordinaten/Adresse je Markt aus dem GeoJSON.
+        geo = self._geojson()
+        try:
+            soup = BeautifulSoup(self.get(PAGE).text, "html.parser")
+        except Exception:  # noqa: BLE001
+            return []
+
+        today = _dt.date.today()
+        events: list[Event] = []
+        seen: set[str] = set()
+        details_done = 0
+
+        for art in soup.select("article.modul-teaser"):
+            a = art.select_one("h3.title a, h3 a, .title a")
+            if not a:
+                continue
+            title = a.get_text(" ", strip=True)
+            url = urljoin(BASE, a.get("href", ""))
+            g = geo.get(url)
+            meta_el = art.select_one(".teaser__meta, .text--meta")
+            dated = _dates(meta_el.get_text(" ", strip=True) if meta_el else "")
+
+            if dated:
+                for d in dated:
+                    self._add(events, seen, title, url, d, None, g, False)
+                continue
+            # Kein Datum: nur echte Märkte (im GeoJSON) -> Detailseite/Rhythmus.
+            if not g or details_done >= MAX_DETAILS:
+                continue
+            details_done += 1
+            termine, oeff = self._detail(url)
+            recur = _recurrence(termine)
+            if not recur:
+                continue
+            hrs = _hours(oeff)
+            for d in self._occurrences(recur, today):
+                self._add(events, seen, title, url, d, hrs, g, True)
+        return events
+
+    def _geojson(self) -> dict:
         geo: dict[str, dict] = {}
         try:
             data = json.loads(self.get(GEOJSON).text)
@@ -78,49 +147,78 @@ class FlohmarktScraper(BaseScraper):
                 if not url:
                     continue
                 c = (f.get("geometry") or {}).get("coordinates") or [None, None]
-                geo[url] = {
-                    "address": p.get("address"),
-                    "description": p.get("description"),
-                    "lat": c[1], "lng": c[0],
-                }
+                geo[url] = {"address": p.get("address"),
+                            "description": p.get("description"),
+                            "lat": c[1], "lng": c[0]}
         except Exception:  # noqa: BLE001
             pass
+        return geo
 
+    def _detail(self, url: str):
         try:
-            soup = BeautifulSoup(self.get(PAGE).text, "html.parser")
+            soup = BeautifulSoup(self.get(url).text, "html.parser")
         except Exception:  # noqa: BLE001
-            return []
+            return None, None
+        info: dict[str, str] = {}
+        for dl in soup.select("dl"):
+            dts = dl.find_all("dt")
+            dds = dl.find_all("dd")
+            for dt, dd in zip(dts, dds):
+                info[dt.get_text(" ", strip=True).lower()] = \
+                    dd.get_text(" ", strip=True)
+        return info.get("termine"), info.get("öffnungszeiten")
 
-        events: list[Event] = []
-        seen: set[str] = set()
-        for art in soup.select("article.modul-teaser"):
-            a = art.select_one("h3.title a, h3 a, .title a")
-            if not a:
-                continue
-            title = a.get_text(" ", strip=True)
-            url = urljoin(BASE, a.get("href", ""))
-            meta_el = art.select_one(".teaser__meta, .text--meta")
-            dates = _dates(meta_el.get_text(" ", strip=True) if meta_el else "")
-            if not dates:
-                continue  # wiederkehrend/unbekannt -> (vorerst) überspringen
-            g = geo.get(url, {})
-            desc = (g.get("description") or "").strip() or None
-            for d in dates:
-                key = url + "|" + d.isoformat()
-                if key in seen:
-                    continue
-                seen.add(key)
-                events.append(Event(
-                    title=title[:140],
-                    start=d,
-                    source_url=url,
-                    source_name=self.name,
-                    location=None,
-                    address=_clean_addr(g.get("address")),
-                    description=desc,
-                    lat=g.get("lat"),
-                    lng=g.get("lng"),
-                    tags=["Markt"],
-                    time_known=False,
-                ))
-        return events
+    @staticmethod
+    def _occurrences(recur, today) -> list[_dt.date]:
+        wds, ords = recur
+        out: list[_dt.date] = []
+        if ords is None:                      # wöchentlich
+            for off in range(RECUR_DAYS + 1):
+                d = today + timedelta(days=off)
+                if d.weekday() in wds:
+                    out.append(d)
+            return out
+        for moff in range(3):                 # n-ter Wochentag im Monat
+            y = today.year + (today.month - 1 + moff) // 12
+            m = (today.month - 1 + moff) % 12 + 1
+            for wd in wds:
+                days = [d for d in range(1, calendar.monthrange(y, m)[1] + 1)
+                        if _dt.date(y, m, d).weekday() == wd]
+                for o in ords:
+                    idx = o - 1 if o > 0 else len(days) - 1
+                    if 0 <= idx < len(days):
+                        cand = _dt.date(y, m, days[idx])
+                        if today <= cand <= today + timedelta(days=70):
+                            out.append(cand)
+        return out
+
+    def _add(self, events, seen, title, url, d, hrs, g, recurring):
+        if hasattr(d, "date"):           # datetime -> date
+            day = d.date()
+        else:
+            day = d
+        if hrs:
+            start = _dt.datetime(day.year, day.month, day.day, hrs[0], hrs[1])
+            end = _dt.datetime(day.year, day.month, day.day, hrs[2], hrs[3])
+        else:
+            start = _dt.datetime(day.year, day.month, day.day)
+            end = None
+        key = url + "|" + start.isoformat()
+        if key in seen:
+            return
+        seen.add(key)
+        g = g or {}
+        events.append(Event(
+            title=title[:140],
+            start=start,
+            end=end,
+            source_url=url,
+            source_name=self.name,
+            location=None,
+            address=_clean_addr(g.get("address")),
+            description=(g.get("description") or "").strip() or None,
+            lat=g.get("lat"),
+            lng=g.get("lng"),
+            tags=["Markt"],
+            time_known=bool(hrs),
+        ))

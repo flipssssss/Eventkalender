@@ -60,7 +60,6 @@ from scrapers.iksk import IkskScraper
 from scrapers.planetarium import PlanetariumScraper
 from scrapers.atrane import ATraneScraper
 from scrapers.flohmarkt import FlohmarktScraper
-from scrapers.probe_markt import ProbeMarktScraper
 from scrapers.probe_kino import ProbeKinoScraper
 
 ROOT = pathlib.Path(__file__).parent
@@ -201,8 +200,6 @@ def get_scrapers():
         ATraneScraper(),
         # Flohmärkte Berlin (berlin.de): datierte Sondermärkte + GeoJSON.
         FlohmarktScraper(),
-        # Einmal-Probe einer Detailseite (Wochenrhythmus); liefert keine Events.
-        ProbeMarktScraper(),
         # Einmal-Probe: Klick-Kino-ID nachschlagen; liefert keine Events.
         ProbeKinoScraper(),
         # tip Berlin -- deaktiviert: keine erreichbare Quelle für Event-Daten

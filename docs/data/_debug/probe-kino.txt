@@ -1,37 +1,14 @@
-NAV-Links (azkino): /kino/_bin/azkino.php?firstchar=A, /kino/_bin/azkino.php?firstchar=B, /kino/_bin/azkino.php?firstchar=C, /kino/_bin/azkino.php?firstchar=D, /kino/_bin/azkino.php?firstchar=E, /kino/_bin/azkino.php?firstchar=F, /kino/_bin/azkino.php?firstchar=H, /kino/_bin/azkino.php?firstchar=I, /kino/_bin/azkino.php?firstchar=K, /kino/_bin/azkino.php?firstchar=L, /kino/_bin/azkino.php?firstchar=M, /kino/_bin/azkino.php?firstchar=N, /kino/_bin/azkino.php?firstchar=O, /kino/_bin/azkino.php?firstchar=P, /kino/_bin/azkino.php?firstchar=R, /kino/_bin/azkino.php?firstchar=S, /kino/_bin/azkino.php?firstchar=T, /kino/_bin/azkino.php?firstchar=U, /kino/_bin/azkino.php?firstchar=W, /kino/_bin/azkino.php?firstchar=X, /kino/_bin/azkino.php?firstchar=Y, /kino/_bin/azkino.php?firstchar=Z
-
-===== https://www.berlin.de/kino/_bin/azkino.php?az=K =====
-Kinos: 5
-KLICK: (keine)
-  Acud Kino -> /kino/_bin/kinodetail.php/30151
-  Adria Filmtheater -> /kino/_bin/kinodetail.php/30152
-  Arsenal -> /kino/_bin/kinodetail.php/38567
-  ARTE Sommerkino Kulturforum -> /kino/_bin/kinodetail.php/34000
-  Astra-Filmpalast -> /kino/_bin/kinodetail.php/30157
-
-===== https://www.berlin.de/kino/_bin/azkino.php?az=k =====
-Kinos: 5
-KLICK: (keine)
-  Acud Kino -> /kino/_bin/kinodetail.php/30151
-  Adria Filmtheater -> /kino/_bin/kinodetail.php/30152
-  Arsenal -> /kino/_bin/kinodetail.php/38567
-  ARTE Sommerkino Kulturforum -> /kino/_bin/kinodetail.php/34000
-  Astra-Filmpalast -> /kino/_bin/kinodetail.php/30157
-
-===== https://www.berlin.de/kino/_bin/azkino.php?letter=K =====
-Kinos: 5
-KLICK: (keine)
-  Acud Kino -> /kino/_bin/kinodetail.php/30151
-  Adria Filmtheater -> /kino/_bin/kinodetail.php/30152
-  Arsenal -> /kino/_bin/kinodetail.php/38567
-  ARTE Sommerkino Kulturforum -> /kino/_bin/kinodetail.php/34000
-  Astra-Filmpalast -> /kino/_bin/kinodetail.php/30157
-
-===== https://www.berlin.de/kino/_bin/azkino.php/K =====
-Kinos: 5
-KLICK: (keine)
-  Acud Kino -> /kino/_bin/kinodetail.php/30151
-  Adria Filmtheater -> /kino/_bin/kinodetail.php/30152
-  Arsenal -> /kino/_bin/kinodetail.php/38567
-  ARTE Sommerkino Kulturforum -> /kino/_bin/kinodetail.php/34000
-  Astra-Filmpalast -> /kino/_bin/kinodetail.php/30157
+URL https://www.berlin.de/kino/_bin/azkino.php?firstchar=K
+Kinos (K): 12
+Kant Kino -> /kino/_bin/kinodetail.php/30208
+Kino & Bar in der Königstadt -> /kino/_bin/kinodetail.php/37981
+Kino im Hof -> /kino/_bin/kinodetail.php/31986
+Kino im Kulturhaus Spandau -> /kino/_bin/kinodetail.php/30154
+Kino in der KulturBrauerei Berlin -> /kino/_bin/kinodetail.php/30245
+Kino Intimes -> /kino/_bin/kinodetail.php/30207
+Kino Spreehöfe -> /kino/_bin/kinodetail.php/34313
+Kino Zukunft -> /kino/_bin/kinodetail.php/35972
+Kino-Café -> /kino/_bin/kinodetail.php/30382
+Kleines Kino im Cinestar -> /kino/_bin/kinodetail.php/38180
+KLICK Kino -> /kino/_bin/kinodetail.php/37946
+Krokodil -> /kino/_bin/kinodetail.php/30226

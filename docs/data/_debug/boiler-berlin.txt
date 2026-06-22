@@ -1,6 +1,4 @@
 Events: 30
-  2026-06-21 17:00:00 | Aufgüsse am Sonntag
-  2026-06-22 17:00:00 | Aufgüsse am Montag
   2026-06-23 17:00:00 | Themenabend
   2026-06-24 17:00:00 | Aufgüsse am Mittwoch
   2026-06-25 17:00:00 | Bäriger Saunaabend
@@ -24,3 +22,5 @@ Events: 30
   2026-07-13 17:00:00 | Aufgüsse am Montag
   2026-07-14 17:00:00 | Themenabend
   2026-07-15 17:00:00 | youngStars
+  2026-07-16 17:00:00 | ‘Grüner Donnerstag’
+  2026-07-17 17:00:00 | Aufgüsse am Freitag

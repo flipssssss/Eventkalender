@@ -29,6 +29,12 @@
   "lat": 52.4969288,
   "lng": 13.4265584
  },
+ "12049 Berlin": {
+  "address": "12049 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4762368,
+  "lng": 13.422639
+ },
  "12101 Berlin": {
   "address": "12101 Tempelhof",
   "bezirk": "Tempelhof-Schöneberg",
@@ -109,6 +115,12 @@
  },
  "Ale Felcitas, Berlin": null,
  "Ale Felicitas, Berlin": null,
+ "Alexanderplatz, Berlin": {
+  "address": "Alexanderplatz, Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5219814,
+  "lng": 13.4136358
+ },
  "Alexanderstr. 28, 10178 Berlin": {
   "address": "Kleine Alexanderstraße 28, 10178 Mitte",
   "bezirk": "Mitte",
@@ -857,6 +869,7 @@
   "lat": 52.4681788,
   "lng": 13.4309085
  },
+ "Herrfurthpl. 14, 12049 Berlin-Bezirk Neukölln": null,
  "Herrfurthstr. 21, 12049 Berlin": {
   "address": "Herrfurthstraße 21, 12049 Neukölln",
   "bezirk": "Neukölln",
@@ -1099,6 +1112,7 @@
   "lat": 52.5364741,
   "lng": 13.4078031
  },
+ "Kerala Space, Berlin": null,
  "Kiehnwerderallee 2, 12437 Berlin": {
   "address": "Kiehnwerderallee 2, 12437 Plänterwald",
   "bezirk": "Treptow-Köpenick",
@@ -2083,6 +2097,12 @@
  "Tristeza Pannierstr. 5 12047, 12047 Berlin": null,
  "Trixxxter Kreuzberg Berlin": null,
  "Trixxxter Kreuzberg Berlin Deutschland": null,
+ "Trude Ruth und Goldammer Flughafenstr. 38 12053 Berlin Deutschland": {
+  "address": "Flughafenstraße 38, 12053 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4812916,
+  "lng": 13.4279168
+ },
  "Trödelmarkt Bergmannstraße Marheinekeplatz, Berlin": {
   "address": "Marheinekeplatz, 10961 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",

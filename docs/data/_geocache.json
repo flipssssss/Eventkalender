@@ -88,6 +88,7 @@
  "A-Trane Berlin, Bleibtreustrasse 1 10623": null,
  "AGB PopUp Saal Blücherplatz 1 10961 Berlin Deutschland": null,
  "AGB PopUp Saal Blücherplatz 1 10961, 10961 Berlin": null,
+ "AStA FU Otto-von-Simson-Straße 23 Berlin Deutschland": null,
  "Abfahrt Solibus Züllichauer Straße 10965 Berlin Deutschland": null,
  "Achillesstraße 55, 13125 Berlin": {
   "address": "Achillesstraße 55, 13125 Karow",
@@ -219,6 +220,7 @@
   "lat": 52.5126159,
   "lng": 13.3954281
  },
+ "Aquarium hinterm Südblock Skalitzer Straße 6 10999 Berlin Deutschland": null,
  "Arboretum, Berlin": {
   "address": "Blankenfelde",
   "bezirk": "Pankow",
@@ -591,6 +593,12 @@
   "lat": 52.4884198,
   "lng": 13.3619068
  },
+ "Cuvrystraße 13-14, 10997 Berlin": {
+  "address": "Cuvrystraße 13-14, 10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4985917,
+  "lng": 13.4437627
+ },
  "Daruma, Karl-Marx-Straße 275, 12057 Berlin": {
   "address": "Karl-Marx-Straße 275, 12057 Neukölln",
   "bezirk": "Neukölln",
@@ -655,6 +663,12 @@
   "lng": 13.4375821
  },
  "Fakeera, Berlin": null,
+ "Fasanenstr. 1, 10623 Berlin": {
+  "address": "Fasanenstraße 1, 10623 Charlottenburg",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.5118736,
+  "lng": 13.3303286
+ },
  "Fasanenstr. 1a, 10623 Berlin": {
   "address": "Fasanenstraße 1a, 10623 Charlottenburg",
   "bezirk": "Charlottenburg-Wilmersdorf",
@@ -1079,6 +1093,7 @@
  },
  "Kalabal!k Reichenbergerstr. 63a 10999 Berlin Deutschland": null,
  "Karl Liebknecht Haus, Kleine Alexanderstraße 28, 10178 Berlin": null,
+ "Karl Liebknecht Haus, Rosa-Luxemburg-Saal, Kleine Alexanderstraße 28, 10178 Berlin": null,
  "Karl-Liebknecht-Haus Kleine Alexanderstr. 28 10178 Berlin Deutschland": null,
  "Karl-Liebknecht-Haus Kleine Alexanderstr. 28 10178, 10178 Berlin": null,
  "Karl-Marx-Allee 45, 10178, Berlin": {
@@ -1121,6 +1136,7 @@
  },
  "Kietz-Klub Köpenick, Köpenzeile 117, 12557 Berlin": null,
  "Kiez Zentrum Villa Lützow Lützowstraße 28 10785 Berlin Deutschland": null,
+ "Kiezanker 36, Cuvrystraße 13-14, 10997 Berlin": null,
  "Kiezhaus Agnes Reinhold Afrikanische Straße 74 13351 Berlin Deutschland": {
   "address": "Afrikanische Straße 74, 13351 Wedding",
   "bezirk": "Mitte",
@@ -1191,6 +1207,12 @@
  },
  "Kreuzdorf Mariannenplatz 1a 10997 Berlin Deutschland": null,
  "Kreuzdorf Mariannenplatz 1a, 10997 Berlin": null,
+ "Krugallee 2-6, 12435 Berlin": {
+  "address": "Neue Krugallee, 12435 Plänterwald",
+  "bezirk": "Treptow-Köpenick",
+  "lat": 52.4813292,
+  "lng": 13.4823458
+ },
  "KuB, Oranienstraße 159 10969 Berlin": {
   "address": "Oranienstraße 159, 10969 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -1330,6 +1352,12 @@
   "lat": 52.4972414,
   "lng": 13.4286928
  },
+ "Lausitzer Straße 8, 10999 Berlin": {
+  "address": "Lausitzer Straße 8, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4977097,
+  "lng": 13.4288764
+ },
  "Lehrter Str. 35, 10557 Berlin": {
   "address": "Lehrter Straße 35, 10557 Moabit",
   "bezirk": "Mitte",
@@ -1373,6 +1401,12 @@
   "lng": 13.4576357
  },
  "Location is TBD, Berlin": null,
+ "Loge Kinzigstr. 9 Berlin Deutschland": {
+  "address": "Kinzigstraße 9, 10247 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5136836,
+  "lng": 13.4660501
+ },
  "Lohmühlenstr. 17, 12435 Berlin": {
   "address": "Lohmühlenstraße, 12435 Alt-Treptow",
   "bezirk": "Treptow-Köpenick",
@@ -1402,6 +1436,7 @@
  },
  "Lunte Weisestr. 53 12049, 12049 Berlin": null,
  "Lunte Weisestr. 53 EG 12049 Berlin Deutschland": null,
+ "Lunte Weisestraße 53 (im Infoladen Lunte) 12049 Berlin Deutschland": null,
  "Luxemburger Straße 10, 13353 Berlin": {
   "address": "Luxemburger Straße 10, 13353 Wedding",
   "bezirk": "Mitte",
@@ -1647,6 +1682,12 @@
   "lat": 52.5003909,
   "lng": 13.4221612
  },
+ "Otto-von-Simson-Straße 23, Berlin": {
+  "address": "Otto-von-Simson-Straße 23, 14195 Dahlem",
+  "bezirk": "Steglitz-Zehlendorf",
+  "lat": 52.4533085,
+  "lng": 13.2878508
+ },
  "Oudenarder Str. 16-20, 13347 Berlin": {
   "address": "Oudenarder Straße 16-20, 13347 Wedding",
   "bezirk": "Mitte",
@@ -1658,6 +1699,12 @@
   "bezirk": "Mitte",
   "lat": 52.5583368,
   "lng": 13.3846017
+ },
+ "PANDA Platforma, Knaackstraße 97, 10435, Berlin": {
+  "address": "Knaackstraße 97, 10435 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5398077,
+  "lng": 13.4133001
  },
  "Peppi Guggenheim, Weichselstrasse 7, 12043, Berlin": {
   "address": "Weichselstraße 7, 12043 Neukölln",
@@ -1709,12 +1756,14 @@
   "lat": 52.459911,
   "lng": 13.5053346
  },
+ "Rathaus Treptow Neue Krugallee 2-6 12435 Berlin Deutschland": null,
  "Refuge Worldwide, Niemetzstraße 1, 12055 Berlin": {
   "address": "Niemetzstraße 1, 12055 Neukölln",
   "bezirk": "Neukölln",
   "lat": 52.4734946,
   "lng": 13.449784
  },
+ "Regenbogen Cafè Lausitzer Straße 22a, 10999 Berlin": null,
  "Regenbogen Cafè Lausitzer Straße 22a, 10999 Berlin (bei gutem Wetter im Hof)": null,
  "RegenbogenKino Lausitzer Straße 22a Deutschland, Berlin": null,
  "Regenbogencafé Lausitzer Str. 22 10999 Berlin Deutschland": null,
@@ -1860,6 +1909,12 @@
   "lat": 52.4934294,
   "lng": 13.3676157
  },
+ "SOLId Graefestraße 18 10967 Berlin Deutschland": {
+  "address": "Graefestraße 18, 10967 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4929561,
+  "lng": 13.417489
+ },
  "SZ Aenne Saefkow, Alfredstraße 24, 10365 Berlin": null,
  "Schaubühne am Lehniner Platz, Berlin": {
   "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
@@ -1967,6 +2022,12 @@
   "bezirk": "Mitte",
   "lat": 52.5338932,
   "lng": 13.3365293
+ },
+ "Skalitzer Straße 6, 10999 Berlin": {
+  "address": "Skalitzer Straße 6, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4986179,
+  "lng": 13.4165594
  },
  "Skalitzer str. 6 10997, 10997 Berlin": null,
  "Skalitzer str. 6, 10997 Berlin": {
@@ -2187,6 +2248,12 @@
   "lat": 52.4777152,
   "lng": 13.4240197
  },
+ "Weisestraße 53, 12049 Berlin": {
+  "address": "Weisestraße 53, 12049 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4777152,
+  "lng": 13.4240197
+ },
  "Weserstr. 206, 12047 Berlin, Germany": {
   "address": "Weserstraße 206, 12047 Neukölln",
   "bezirk": "Neukölln",
@@ -2272,6 +2339,12 @@
  },
  "Z-Keller (Bhf Charlottenhof) Potsdam Berlin": null,
  "Z-Keller (Bhf Charlottenhof) Potsdam Berlin Deutschland": null,
+ "ZGK Scharnweberstr. 38 10247 Berlin Deutschland": {
+  "address": "Scharnweberstraße 38, 10247 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5128122,
+  "lng": 13.4641154
+ },
  "Zeiss-Großplanetarium Zeiss-Großplanetarium, Berlin": null,
  "Zeltinger Str. 6, 13465 Berlin": {
   "address": "Zeltinger Straße 6, 13465 Frohnau",
@@ -2301,6 +2374,7 @@
   "lng": 13.4037357
  },
  "Zorrow Grüntalerstr.38 13359 Berlin Deutschland": null,
+ "Zwille Fasanenstr. 1 TU Berlin, Südcampus, Z-Gebäude, 3. OG Fasanenstr. 1, Ecke Müller-Breslaustr. 10623 Berlin Deutschland": null,
  "Zwille Fasanenstr. 1a 10623 Berlin Deutschland": null,
  "Zwille Fasanenstr. 1a, 10623 Berlin": null,
  "Zwille Reuleaux-Haus, Fasanenstraße 1A, 10623 Berlin": null,
@@ -2310,6 +2384,8 @@
   "lat": 52.4854788,
   "lng": 13.405408
  },
+ "across the Willy Brand Haus Berlin": null,
+ "across the Willy Brand Haus Berlin Deutschland": null,
  "aquarium (südblock) Skalitzer str. 6 10997 Berlin Deutschland": null,
  "ask a punk, Berlin": null,
  "auf dem Dragonerareal Mehringdamm 20 10961, 10961 Berlin": null,

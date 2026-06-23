@@ -1,5 +1,4 @@
-API-Events: 54 | übernommen: 54
-  2026-06-22 19:00:00 | Punk | Young Mountain / Fee Aviv / Abgrund
+API-Events: 55 | übernommen: 55
   2026-06-23 18:45:00 | None | Queer Kreuzberg - Queer Tours for All
   2026-06-23 19:00:00 | Punk | Marbled Eye / Skorts / Punchlove live at Neue Zukunft, Berlin
   2026-06-23 20:00:00 | Punk | CHOOF / CROSSED COMMENT / MOLE // June 23, 2026 // OGH Berlin
@@ -17,9 +16,10 @@ API-Events: 54 | übernommen: 54
   2026-06-26 21:30:00 | Punk | Green Milk from the Planet Orange I Supamolly
   2026-06-27 08:00:00 | Reggae | KONVULSISMO :6
   2026-06-27 14:45:00 | None | Gay and Sapphic Schöneberg
-  2026-06-27 19:00:00 | Punk | WAKE OF HUMANITY (HC), xESCALATEx (Metalcore), SACCAGE (OI!-Punk)
-  2026-06-27 19:00:00 | None | MOJA (JAP) & THE OTHER WITHIN (Bln)
   2026-06-27 19:00:00 | Punk | Shutcombo (punk, Bad Dürrenberg) + Artikel 5 (punkrock, Berlin) + DJ from 10 pm im Schokoladen
+  2026-06-27 19:00:00 | None | MOJA (JAP) & THE OTHER WITHIN (Bln)
+  2026-06-27 19:00:00 | Punk | WAKE OF HUMANITY (HC), xESCALATEx (Metalcore), SACCAGE (OI!-Punk)
+  2026-06-27 20:00:00 | Punk | Die Schlüppis + Twiggy + Blowjobs are Realjobs
   2026-06-28 13:45:00 | None | Radical Prenzlauer Berg
   2026-06-28 19:00:00 | None | BULL NAKANO, SHIV, BRAV UND BÜRGERLICH
   2026-06-28 19:00:00 | Metal | EYEHATEGOD + THE DWARVES | BI NUU - Berlin
@@ -28,4 +28,4 @@ API-Events: 54 | übernommen: 54
   2026-06-30 19:00:00 | Punk | Ghosts and Errors (indie-rock, bln) + Crystal Glass (indie-psych-pop, bln)
   2026-06-30 20:00:00 | Indie | Austin TV
   2026-07-02 17:00:00 | Punk | Soli-concert latino attack
-  2026-07-02 19:00:00 | Hip-Hop | aya / Lord Snow / soastasphrenas / draftclass / sienna sleep
+  2026-07-02 19:00:00 | Punk | Bitume (Punkrock aus dem Norden) + Television Knockout (Punkrock aus Berlin) im Schokoladen

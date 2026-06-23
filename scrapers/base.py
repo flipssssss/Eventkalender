@@ -15,6 +15,7 @@ import hashlib
 import re
 import time as _time
 from dataclasses import dataclass, field
+from urllib.parse import urlparse as _urlparse
 from typing import Iterable
 
 import requests
@@ -120,6 +121,27 @@ class Event:
         }
 
 
+# Höflichkeits-Drossel pro Host (Sekunden Mindestabstand zwischen Anfragen),
+# damit empfindliche Portale wie berlin.de nicht mit 429 drosseln. Gilt
+# scraper-übergreifend (Modul-globale Zeitstempel).
+_HOST_MIN_GAP = {"www.berlin.de": 0.6, "berlin.de": 0.6}
+_last_request_by_host: dict[str, float] = {}
+
+
+def _throttle(url: str) -> None:
+    try:
+        host = _urlparse(url).netloc.lower()
+    except Exception:  # noqa: BLE001
+        return
+    gap = _HOST_MIN_GAP.get(host)
+    if not gap:
+        return
+    wait = gap - (_time.time() - _last_request_by_host.get(host, 0.0))
+    if wait > 0:
+        _time.sleep(wait)
+    _last_request_by_host[host] = _time.time()
+
+
 class BaseScraper:
     """Base class for all scrapers.
 
@@ -142,17 +164,18 @@ class BaseScraper:
         merged = {"User-Agent": USER_AGENT}
         if headers:
             merged.update(headers)
-        # Bei 429/503 (Rate-Limit) kurz warten und erneut versuchen -- berlin.de
+        _throttle(url)
+        # Bei 429/503 (Rate-Limit) warten und erneut versuchen -- berlin.de
         # drosselt bei vielen Abrufen in einem Lauf (Kino/Märkte/Ausstellungen).
-        for attempt in range(3):
+        for attempt in range(4):
             response = requests.get(url, headers=merged, timeout=REQUEST_TIMEOUT)
-            if response.status_code in (429, 503) and attempt < 2:
+            if response.status_code in (429, 503) and attempt < 3:
                 retry_after = response.headers.get("Retry-After")
                 try:
                     wait = float(retry_after)
                 except (TypeError, ValueError):
-                    wait = 3.0 * (attempt + 1)
-                _time.sleep(min(wait, 12))
+                    wait = 4.0 * (attempt + 1)
+                _time.sleep(min(wait, 15))
                 continue
             response.raise_for_status()
             return response

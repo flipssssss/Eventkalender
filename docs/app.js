@@ -1000,6 +1000,7 @@ function formatOpeningHours(oh) {
 function render() {
   const visible = state.events.filter((e) => matches(e));
 
+  const now = new Date();
   const today = dayStart(new Date());
   const horizon = dayStart(new Date());
   horizon.setDate(horizon.getDate() + HORIZON_DAYS);
@@ -1014,25 +1015,15 @@ function render() {
     // Ausstellungen laufen über einen Zeitraum -> an jedem Tag ihres Laufs
     // (von start bis end, begrenzt auf [heute, Horizont]) einblenden.
     if (isExhibition(ev)) {
-      const oh = ev.opening_hours;
-      const todayK = dayKey(new Date());
       let cur = dayStart(new Date(ev.start));
       if (cur < today) cur = new Date(today);
       let last = ev.end ? dayStart(new Date(ev.end)) : new Date(horizon);
       if (last > horizon) last = new Date(horizon);
       for (; cur <= last; cur.setDate(cur.getDate() + 1)) {
-        const closed = oh && !oh[WEEKDAY_KEYS[cur.getDay()]];
-        if (state.onlyFav) {
-          // In den Favoriten nur EINMAL zeigen -- an der ersten offenen
-          // Gelegenheit (nicht ausgegraut), statt an jedem offenen Tag.
-          if (closed) continue;
-          ensureDay(dayKey(cur), cur).events.push(ev);
-          break;
-        }
-        // Geschlossene Wochentage künftig auslassen; heute behalten (wird
-        // ausgegraut in "Schon vorbei" gezeigt).
-        if (closed && dayKey(cur) !== todayK) continue;
+        // Geschlossen (Wochentag) oder heute nach Ladenschluss -> NICHT zeigen.
+        if (isExhibitionDimmed(ev, cur, now)) continue;
         ensureDay(dayKey(cur), cur).events.push(ev);
+        if (state.onlyFav) break;  // in Favoriten nur einmal (erste offene Gelegenheit)
       }
       continue;
     }

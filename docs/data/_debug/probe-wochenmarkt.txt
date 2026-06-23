@@ -1,27 +1,11 @@
-URL https://www.dertour.de/static/berliner-wochenmaerkte-map/
-HTML-Länge: 50768
-JSON-LD-Blöcke: 0
+===== DERTOUR https://www.dertour.de/static/berliner-wochenmaerkte-map/ =====
+Kalender-/PDF-Links:
+  PDF-Kalender -> files/kalender_A1.pdf
+  iCal-Kalender -> files/Berliner_Streetfood-Kalender.ics
+  Musical Berlin -> https://www.dertour.de/musical/berlin
+(kein offensichtliches Markt-Daten-Skript)
 
-JSON/GeoJSON-Verweise:
-
-Inline-Skripte mit Daten:
---- Skript (594 Z.) ---
-var pageData = {
-        "page": {
-            "name": "startseite:reisewelten:stä¤´ereisen:stä¤´ereiseneuropa:stä¤´ereisendeutschland:wochenmä²«teberlin",
-            "type": "content",
-            "channel": "reisewelten",
-            "hierarchy": ["reisewelten", "stä¤´ereisen", "stä¤´ereiseneuropa", "stä¤´ereisendeutschland", "wochenmä²«teberlin"],
-            "status": 200,
-            "kind_of_booking": "content",
-            "ibe": "content",
-            "site": "dertour.de",
-        },
-        "user": {
-            "id": "",
-            "status": ""
-        }
-    };
-
-Body-Text (Anfang):
-ï»¿ WochenmÃ¤rkte Berlin Map Kostenloser Streetfood-Kalender Wer Lust auf Streetfood in Berlin hat, findet im Streetfood-Kalender 2017 eine Auswahl an kulinarischen Food Events fÃ¼r GroÃ und Klein. Hier gibt es koreanische Buns, gerianisches FuFu oder veganen Kuchen. Es locken SpezialitÃ¤ten fÃ¼r alle, die gern Neues ausprobieren und schlemmen mÃ¶chten! PDF-Kalender iCal-Kalender In deinem Bezirk Mitte Tiergarten / Moabit Wedding Friedrichshain Kreuzberg Pankow / Prenzlauer Berg Charlottenburg / Wilmersdorf SchÃ¶neberg / Tempelhof NeukÃ¶lln Treptow HochenschÃ¶nhausen WeiÃensee Lichtenberg Reinickendorf Steglitz-Zehlendorf Spandau KÃ¶penick Marzahn-Hellersdorf Berliner WochenmÃ¤rkte Map Die beliebtesten WochenmÃ¤rkte Berlins auf einer Karte Die Hauptstadt erleben heiÃt auch Ã¼ber einen g
+===== BERLIN.DE Wochenmärkte? =====
+https://www.berlin.de/special/shopping/wochenmaerkte/ -> FEHLER 410 Client Error: Gone for url: https://www.berlin.de/special/shopping/wochenmaerkte/
+https://www.berlin.de/special/shopping/wochenmaerkte/rubric.geojson -> FEHLER 410 Client Error: Gone for url: https://www.berlin.de/special/shopping/wochenmaerkte/rubric.geojson
+https://www.berlin.de/special/shopping/wochenmaerkte/bezirk/ -> FEHLER 410 Client Error: Gone for url: https://www.berlin.de/special/shopping/wochenmaerkte/bezirk/

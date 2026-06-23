@@ -7,12 +7,4 @@ no_geo: 4
 geo: 56
 events: 157
 SAMPLES:
-Trödel- und Kunstmarkt S | termine='Samstag und Sonntag' | oeff='10 bis 17 Uhr'
-Flohmarkt am Fehrbelline | termine='Jeden Samstag und Sonntag (außer Volkstrauertag, Totensonntag, zwischen Weihnachten und Silvester) plus Ostermontag, 1. Mai, Pfingstmontag' | oeff='10 bis 16 Uhr'
-Flohmarkt Mecklenburgisc | termine='Jeden Sonntag' | oeff='8 bis 16 Uhr'
-Flohmarkt am Boxhagener  | termine='Jeden Sonntag' | oeff='10 bis 18 Uhr'
-Trödelmarkt am Marheinek | termine='Samstag und Sonntag' | oeff='Samstag 10 bis 16 Uhr, Sonntag 11 bis 17 Uhr (Sommerzeit) und 11 bis 16 Uhr (Winterzeit)'
-Antikmarkt am Ostbahnhof | termine='Jeden Sonntag (außer an den Sonntagen an denen der Antikflohmarkt in Karlshorst stattfindet)' | oeff='9 bis 17 Uhr'
-RAW-Flohmarkt | termine='Jeden Sonntag' | oeff='8 bis 17 Uhr'
-Trödelmarkt Landsberger  | termine='Jeden Sonntag von März bis Oktober außer an verkaufsoffenen Sonntagen' | oeff='8 bis 16 Uhr'
 FEHLER:

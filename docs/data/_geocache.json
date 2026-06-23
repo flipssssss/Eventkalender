@@ -162,6 +162,12 @@
   "lng": 13.3987041
  },
  "Alte Kita, Hasselwerderstr. 22A, 12439, Berlin": null,
+ "Altonaer Straße 22, 10557 Berlin": {
+  "address": "Altonaer Straße 22, 10557 Hansaviertel",
+  "bezirk": "Mitte",
+  "lat": 52.5186496,
+  "lng": 13.341415
+ },
  "Am Juliusturm 55, 13599 Berlin": {
   "address": "Am Juliusturm 55, 13599 Haselhorst",
   "bezirk": "Spandau",
@@ -541,6 +547,12 @@
  },
  "Café en passant, Schönhauser Allee 58 10437 Berlin - Prenzlauer Berg": null,
  "Capoeira Akademie Berlin, Hasenheide 9 (im 2. Hinterhof 1.Stock), 10967 Berlin": null,
+ "Chamissoplatz 1, 10965 Berlin": {
+  "address": "Chamissoplatz 1, 10965 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4884617,
+  "lng": 13.3905862
+ },
  "Checkpoint Charlie, Friedrichstraße 43-45, 10117 Berlin": null,
  "Christstr. 8, 14059 Berlin": {
   "address": "Christstraße 8, 14059 Charlottenburg",
@@ -616,6 +628,12 @@
  "Drugstore im Rockhaus Buchberger Str. 6 10365 Berlin Deutschland": null,
  "Drugstore im Rockhaus Buchberger Str. 6 10365, 10365 Berlin": null,
  "Eiertanz, Admiralstraße 17, 10999 Berlin": null,
+ "Elisabeth-Schwarzhaupt-Platz, 10115 Berlin": {
+  "address": "Elisabeth-Schwarzhaupt-Platz, 10115 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.532444,
+  "lng": 13.3874619
+ },
  "Else, Berlin": {
   "address": "An den Treptowers 10, 12435 Alt-Treptow",
   "bezirk": "Treptow-Köpenick",
@@ -784,6 +802,12 @@
   "lng": 13.3785171
  },
  "Großer Flohmarkt am Arkonaplatz in Berlin Mitte": null,
+ "Grunewaldstraße 77A, 10823 Berlin": {
+  "address": "Grunewaldstraße 77a, 10823 Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4891631,
+  "lng": 13.3527499
+ },
  "Grünberger Straße 73, 10245 Berlin": {
   "address": "Grünberger Straße 73, 10245 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -1180,6 +1204,12 @@
   "lat": 52.4716193,
   "lng": 13.4510314
  },
+ "Kollwitzplatz, 10435 Berlin": {
+  "address": "Wörther Straße, 10435 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5366779,
+  "lng": 13.4183045
+ },
  "Konnopke's Imbiss Schönhauser Allee 44b, 10435, Berlin": {
   "address": "Schönhauser Allee 44b, 10435 Prenzlauer Berg",
   "bezirk": "Pankow",
@@ -1256,6 +1286,12 @@
   "lng": 13.4260264
  },
  "KØPI Köpenicker Straße 137 10179, 10179 Berlin": null,
+ "Königin-Luise-Straße 49, 14195 Berlin": {
+  "address": "Königin-Luise-Straße 49, 14195 Dahlem",
+  "bezirk": "Steglitz-Zehlendorf",
+  "lat": 52.459421,
+  "lng": 13.289041
+ },
  "Königskolonnaden im Heinrich von Kleist-Park, Berlin": null,
  "Köpenicker Allee 39-57, 10318 Berlin": {
   "address": "Köpenicker Allee 39-57, 10318 Karlshorst",
@@ -1310,6 +1346,12 @@
  "Lauschangriff Rigaer Str. 103 10247, 10247 Berlin": null,
  "Lauseria Lausitzer Straße 10 10999 Berlin Deutschland": null,
  "Lauseria Lausitzer Straße 10 10999, 10999 Berlin": null,
+ "Lausitzer Platz, 10997 Berlin": {
+  "address": "Lausitzer Platz, 10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5003669,
+  "lng": 13.4316012
+ },
  "Lausitzer Str. 21a, 10999 Berlin": {
   "address": "Lausitzer Straße 21a, 10999 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -1387,6 +1429,12 @@
   "bezirk": "Mitte",
   "lat": 52.5469861,
   "lng": 13.3592556
+ },
+ "Leopoldplatz, 13347 Berlin": {
+  "address": "Schulstraße, 13353 Wedding",
+  "bezirk": "Mitte",
+  "lat": 52.5463833,
+  "lng": 13.3591672
  },
  "Lichtblick, Berlin": {
   "address": "Birkenstraße 33, 10551 Moabit",
@@ -2023,6 +2071,18 @@
   "lat": 52.5441565,
   "lng": 13.4128297
  },
+ "Schönleinstraße, 10967 Berlin": {
+  "address": "Kottbusser Damm, 10967 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4930552,
+  "lng": 13.4220572
+ },
+ "Seelower Str. 1-3, 10439 Berlin": {
+  "address": "Seelower Straße, 10439 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5537282,
+  "lng": 13.4109861
+ },
  "Siemensstraße 27, 10551 Berlin": {
   "address": "Siemensstraße 27, 10551 Moabit",
   "bezirk": "Mitte",
@@ -2132,6 +2192,7 @@
  },
  "Thomashöhe Hartungbaum, Berlin": null,
  "Thomashöhe, Hartungbaum, Berlin": null,
+ "Thusneldaallee 1, 10551 Berlin": null,
  "Tipsy Bear, Berlin": {
   "address": "Eberswalder Straße 21, 10437 Prenzlauer Berg",
   "bezirk": "Pankow",
@@ -2315,6 +2376,12 @@
   "bezirk": "Tempelhof-Schöneberg",
   "lat": 52.4965286,
   "lng": 13.3543652
+ },
+ "Wittenbergplatz, 10789 Berlin": {
+  "address": "Wittenbergplatz, 10789 Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.5017976,
+  "lng": 13.3430005
  },
  "Wolf Kino, Berlin": {
   "address": "Weserstraße 59, 12045 Neukölln",

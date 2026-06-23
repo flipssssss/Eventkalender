@@ -1,11 +1,16 @@
-===== DERTOUR https://www.dertour.de/static/berliner-wochenmaerkte-map/ =====
-Kalender-/PDF-Links:
-  PDF-Kalender -> files/kalender_A1.pdf
-  iCal-Kalender -> files/Berliner_Streetfood-Kalender.ics
-  Musical Berlin -> https://www.dertour.de/musical/berlin
-(kein offensichtliches Markt-Daten-Skript)
+===== dertour .ics https://www.dertour.de/static/berliner-wochenmaerkte-map/files/Berliner_Streetfood-Kalender.ics =====
+VEVENTs: 19 | RRULE: True
+Jahre der Termine: ['2017']
+Beispiel-SUMMARYs: Brunnenmarkt im Wedding, Breakfast Market, The green market Berlin, The green market Berlin, The green market Berlin, The green market Berlin
 
-===== BERLIN.DE Wochenmärkte? =====
-https://www.berlin.de/special/shopping/wochenmaerkte/ -> FEHLER 410 Client Error: Gone for url: https://www.berlin.de/special/shopping/wochenmaerkte/
-https://www.berlin.de/special/shopping/wochenmaerkte/rubric.geojson -> FEHLER 410 Client Error: Gone for url: https://www.berlin.de/special/shopping/wochenmaerkte/rubric.geojson
-https://www.berlin.de/special/shopping/wochenmaerkte/bezirk/ -> FEHLER 410 Client Error: Gone for url: https://www.berlin.de/special/shopping/wochenmaerkte/bezirk/
+===== berlin.de /biomarkt/ =====
+teaser: 16
+  - Ökomarkt am Chamissoplatz || (kein Datum)
+  - Ökomarkt auf der Domäne Dahlem || (kein Datum)
+  - Ökomarkt am Kollwitzplatz || (kein Datum)
+  - Ökomarkt am Nordbahnhof || (kein Datum)
+  - Ökomarkt am Hohenstaufenplatz || (kein Datum)
+  - Ökomarkt auf dem Lausitzer Platz || (kein Datum)
+  - Ökomarkt in der Thusnelda-Allee || (kein Datum)
+  - Ökomarkt im Hansaviertel || (kein Datum)
+biomarkt rubric.geojson features: 28

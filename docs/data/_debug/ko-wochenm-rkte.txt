@@ -6,4 +6,13 @@ recur: 0
 no_geo: 3
 geo: 28
 events: 1
+SAMPLES:
+Ökomarkt am Chamissoplat | termine=None | oeff='Samstags von 09 bis 15 Uhr'
+Ökomarkt auf der Domäne  | termine=None | oeff='Ökomarkt: Samstags von 08 bis 13 Uhr'
+Ökomarkt am Kollwitzplat | termine=None | oeff='Donnerstags, Januar bis März 12 bis 18 Uhr, April bis Dezember von 12 bis 19 Uhr'
+Ökomarkt am Nordbahnhof | termine=None | oeff='jeden Mittwoch von 11 bis 18 Uhr'
+Ökomarkt am Hohenstaufen | termine=None | oeff='Dienstags von 12 bis 18 Uhr (im Sommer bis 18:30 Uhr) Samstags von 09 bis 14 Uhr'
+Ökomarkt auf dem Lausitz | termine=None | oeff='Freitags von 11 bis 18 Uhr im Sommerhalbjahr bis 18:30 Uhr'
+Ökomarkt in der Thusneld | termine=None | oeff='jeden Mittwoch von 12 bis 18 Uhr'
+Ökomarkt im Hansaviertel | termine=None | oeff='Freitags von 12 bis 18.30 Uhr'
 FEHLER:

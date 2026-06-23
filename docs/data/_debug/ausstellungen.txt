@@ -1,4 +1,4 @@
-ExhibitionEvents -> Events: 31
+ExhibitionEvents -> Events: 32
   2026-06-23 Brancusi
   2026-06-23 Lina Lapelytė: We Make Years Out of Hours – Chanel
   2026-06-23 Marina Abramović: Balkan Erotic Epic
@@ -29,4 +29,5 @@ ExhibitionEvents -> Events: 31
   2026-07-02 Materialistin: Matter of Care, Care of Matter – Ma
   2026-07-04 Iván Argote: A Place To Stay
   2026-06-24 Mikołaj Sobczak: Ancora
+  2026-07-05 Open House in die RWK Studios
   2026-07-08 2101 – Future Ceramics: Tischkultur der Zukunft

@@ -1857,6 +1857,12 @@
  },
  "Rigaerstr. Ecke Liebigstr. 10247, 10247 Berlin": null,
  "Robert Havemann Saal im Haus der Demokratie und Menschenrechte Greifswalder Straße 4 Robert Havemann Saal 10405 Berlin Deutschland": null,
+ "Robert-W.-Kempner-Straße 6, 14167 Berlin": {
+  "address": "Robert-W.-Kempner-Straße 6, 14167 Zehlendorf",
+  "bezirk": "Steglitz-Zehlendorf",
+  "lat": 52.4376603,
+  "lng": 13.2799735
+ },
  "Rosa-Luxemburg-Straße 39, 10178 Berlin": {
   "address": "Rosa-Luxemburg-Straße 39, 10178 Mitte",
   "bezirk": "Mitte",

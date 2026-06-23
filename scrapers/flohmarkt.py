@@ -122,7 +122,7 @@ class FlohmarktScraper(BaseScraper):
 
     def fetch_events(self) -> Iterable[Event]:
         self._diag = {"teaser": 0, "dated": 0, "detail_ok": 0, "detail_err": 0,
-                      "recur": 0, "no_geo": 0, "errors": []}
+                      "recur": 0, "no_geo": 0, "errors": [], "samples": []}
         geo = self._geojson()
         self._diag["geo"] = len(geo)
         try:
@@ -162,6 +162,9 @@ class FlohmarktScraper(BaseScraper):
                 continue
             details_done += 1
             termine, oeff = self._detail(url)
+            if len(self._diag["samples"]) < 8:
+                self._diag["samples"].append(
+                    f"{title[:24]} | termine={termine!r} | oeff={oeff!r}")
             recur = _recurrence(termine)
             if not recur:
                 continue
@@ -177,7 +180,9 @@ class FlohmarktScraper(BaseScraper):
         try:
             DEBUG_DIR.mkdir(parents=True, exist_ok=True)
             slug = re.sub(r"[^a-z0-9]+", "-", self.name.lower()).strip("-")
-            lines = [f"{k}: {v}" for k, v in self._diag.items() if k != "errors"]
+            lines = [f"{k}: {v}" for k, v in self._diag.items()
+                     if k not in ("errors", "samples")]
+            lines += ["SAMPLES:"] + self._diag.get("samples", [])
             lines += ["FEHLER:"] + self._diag.get("errors", [])
             (DEBUG_DIR / f"{slug}.txt").write_text("\n".join(lines), encoding="utf-8")
         except OSError:

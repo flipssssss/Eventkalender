@@ -96,12 +96,23 @@ def _clean_addr(addr: str | None) -> str | None:
 
 
 class FlohmarktScraper(BaseScraper):
+    """Berliner Markt-Übersichten auf berlin.de (gleiche Struktur: Teaser +
+    rubric.geojson + Detailseiten). Standardmäßig die Flohmärkte; mit anderen
+    URLs auch z. B. die Öko-Wochenmärkte (/biomarkt/)."""
+
     name = "Flohmärkte Berlin"
+
+    def __init__(self, name: str | None = None, page: str | None = None,
+                 geojson: str | None = None):
+        if name:
+            self.name = name
+        self.page = page or PAGE
+        self.geojson_url = geojson or GEOJSON
 
     def fetch_events(self) -> Iterable[Event]:
         geo = self._geojson()
         try:
-            soup = BeautifulSoup(self.get(PAGE).text, "html.parser")
+            soup = BeautifulSoup(self.get(self.page).text, "html.parser")
         except Exception:  # noqa: BLE001
             return []
 
@@ -140,7 +151,7 @@ class FlohmarktScraper(BaseScraper):
     def _geojson(self) -> dict:
         geo: dict[str, dict] = {}
         try:
-            data = json.loads(self.get(GEOJSON).text)
+            data = json.loads(self.get(self.geojson_url).text)
             for f in data.get("features", []):
                 p = f.get("properties") or {}
                 url = p.get("url")

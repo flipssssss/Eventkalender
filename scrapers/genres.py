@@ -71,6 +71,7 @@ FORCE_GENRE = {
     "Club Sauna Berlin": "Queer",
     "Kinoprogramm": "Kultur",
     "Flohmärkte Berlin": "Kultur",
+    "Öko-Wochenmärkte": "Kultur",
 }
 
 

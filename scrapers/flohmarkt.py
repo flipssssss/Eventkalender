@@ -14,6 +14,7 @@ from __future__ import annotations
 import calendar
 import datetime as _dt
 import json
+import pathlib
 import re
 from datetime import timedelta
 from typing import Iterable
@@ -24,6 +25,16 @@ from bs4 import BeautifulSoup
 from .base import BaseScraper, Event
 
 BASE = "https://www.berlin.de"
+DEBUG_DIR = pathlib.Path(__file__).resolve().parents[1] / "docs" / "data" / "_debug"
+# Browser-User-Agent: berlin.de drosselt den Standard-Bot-UA deutlich härter.
+BROWSER = {
+    "User-Agent": (
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+    ),
+    "Accept": "text/html,application/xhtml+xml,*/*;q=0.8",
+    "Accept-Language": "de-DE,de;q=0.9,en;q=0.8",
+}
 PAGE = "https://www.berlin.de/special/shopping/flohmaerkte/bezirk/"
 GEOJSON = "https://www.berlin.de/special/shopping/flohmaerkte/rubric.geojson"
 
@@ -110,10 +121,16 @@ class FlohmarktScraper(BaseScraper):
         self.geojson_url = geojson or GEOJSON
 
     def fetch_events(self) -> Iterable[Event]:
+        self._diag = {"teaser": 0, "dated": 0, "detail_ok": 0, "detail_err": 0,
+                      "recur": 0, "no_geo": 0, "errors": []}
         geo = self._geojson()
+        self._diag["geo"] = len(geo)
         try:
-            soup = BeautifulSoup(self.get(self.page).text, "html.parser")
-        except Exception:  # noqa: BLE001
+            soup = BeautifulSoup(self.get(self.page, headers=BROWSER).text,
+                                 "html.parser")
+        except Exception as exc:  # noqa: BLE001
+            self._diag["errors"].append(f"PAGE {exc}")
+            self._dump()
             return []
 
         today = _dt.date.today()
@@ -125,6 +142,7 @@ class FlohmarktScraper(BaseScraper):
             a = art.select_one("h3.title a, h3 a, .title a")
             if not a:
                 continue
+            self._diag["teaser"] += 1
             title = a.get_text(" ", strip=True)
             url = urljoin(BASE, a.get("href", ""))
             g = geo.get(url)
@@ -132,26 +150,43 @@ class FlohmarktScraper(BaseScraper):
             dated = _dates(meta_el.get_text(" ", strip=True) if meta_el else "")
 
             if dated:
+                self._diag["dated"] += 1
                 for d in dated:
                     self._add(events, seen, title, url, d, None, g, False)
                 continue
             # Kein Datum: nur echte Märkte (im GeoJSON) -> Detailseite/Rhythmus.
-            if not g or details_done >= MAX_DETAILS:
+            if not g:
+                self._diag["no_geo"] += 1
+                continue
+            if details_done >= MAX_DETAILS:
                 continue
             details_done += 1
             termine, oeff = self._detail(url)
             recur = _recurrence(termine)
             if not recur:
                 continue
+            self._diag["recur"] += 1
             hrs = _hours(oeff)
             for d in self._occurrences(recur, today):
                 self._add(events, seen, title, url, d, hrs, g, True)
+        self._diag["events"] = len(events)
+        self._dump()
         return events
+
+    def _dump(self):
+        try:
+            DEBUG_DIR.mkdir(parents=True, exist_ok=True)
+            slug = re.sub(r"[^a-z0-9]+", "-", self.name.lower()).strip("-")
+            lines = [f"{k}: {v}" for k, v in self._diag.items() if k != "errors"]
+            lines += ["FEHLER:"] + self._diag.get("errors", [])
+            (DEBUG_DIR / f"{slug}.txt").write_text("\n".join(lines), encoding="utf-8")
+        except OSError:
+            pass
 
     def _geojson(self) -> dict:
         geo: dict[str, dict] = {}
         try:
-            data = json.loads(self.get(self.geojson_url).text)
+            data = json.loads(self.get(self.geojson_url, headers=BROWSER).text)
             for f in data.get("features", []):
                 p = f.get("properties") or {}
                 url = p.get("url")
@@ -167,8 +202,12 @@ class FlohmarktScraper(BaseScraper):
 
     def _detail(self, url: str):
         try:
-            soup = BeautifulSoup(self.get(url).text, "html.parser")
-        except Exception:  # noqa: BLE001
+            soup = BeautifulSoup(self.get(url, headers=BROWSER).text, "html.parser")
+            self._diag["detail_ok"] += 1
+        except Exception as exc:  # noqa: BLE001
+            self._diag["detail_err"] += 1
+            if len(self._diag["errors"]) < 5:
+                self._diag["errors"].append(f"DETAIL {exc}")
             return None, None
         info: dict[str, str] = {}
         for dl in soup.select("dl"):

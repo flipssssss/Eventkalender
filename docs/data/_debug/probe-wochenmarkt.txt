@@ -1,16 +1,3 @@
-===== dertour .ics https://www.dertour.de/static/berliner-wochenmaerkte-map/files/Berliner_Streetfood-Kalender.ics =====
-VEVENTs: 19 | RRULE: True
-Jahre der Termine: ['2017']
-Beispiel-SUMMARYs: Brunnenmarkt im Wedding, Breakfast Market, The green market Berlin, The green market Berlin, The green market Berlin, The green market Berlin
-
-===== berlin.de /biomarkt/ =====
-teaser: 16
-  - Ökomarkt am Chamissoplatz || (kein Datum)
-  - Ökomarkt auf der Domäne Dahlem || (kein Datum)
-  - Ökomarkt am Kollwitzplatz || (kein Datum)
-  - Ökomarkt am Nordbahnhof || (kein Datum)
-  - Ökomarkt am Hohenstaufenplatz || (kein Datum)
-  - Ökomarkt auf dem Lausitzer Platz || (kein Datum)
-  - Ökomarkt in der Thusnelda-Allee || (kein Datum)
-  - Ökomarkt im Hansaviertel || (kein Datum)
-biomarkt rubric.geojson features: 28
+GeoJSON-URLs: 28
+Beispiel: https://www.berlin.de/special/shopping/biomarkt/6305543-1925662-wochenmarkt-auf-dem-winterfeldtplatz.html
+PAGE FEHLER: 429 Client Error: Too Many Requests for url: https://www.berlin.de/special/shopping/biomarkt/

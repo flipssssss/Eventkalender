@@ -1,0 +1,9 @@
+teaser: 46
+dated: 16
+detail_ok: 26
+detail_err: 0
+recur: 21
+no_geo: 4
+geo: 56
+events: 157
+FEHLER:

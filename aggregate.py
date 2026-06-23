@@ -60,6 +60,7 @@ from scrapers.iksk import IkskScraper
 from scrapers.planetarium import PlanetariumScraper
 from scrapers.atrane import ATraneScraper
 from scrapers.flohmarkt import FlohmarktScraper
+from scrapers.probe_wochenmarkt import ProbeWochenmarktScraper
 
 ROOT = pathlib.Path(__file__).parent
 OUTPUT = ROOT / "docs" / "data" / "events.json"
@@ -199,6 +200,8 @@ def get_scrapers():
         ATraneScraper(),
         # Flohmärkte Berlin (berlin.de): datierte Sondermärkte + GeoJSON.
         FlohmarktScraper(),
+        # Einmal-Probe: Struktur der dertour-Wochenmärkte-Map; keine Events.
+        ProbeWochenmarktScraper(),
         # tip Berlin -- deaktiviert: keine erreichbare Quelle für Event-Daten
         # (proprietäres "rce"-Plugin, Bot-Schutz, Ausstellungen ohne Termin).
         # TipBerlinScraper(),

@@ -6,5 +6,4 @@ recur: 21
 no_geo: 4
 geo: 56
 events: 157
-SAMPLES:
 FEHLER:

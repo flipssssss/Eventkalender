@@ -162,14 +162,13 @@ class FlohmarktScraper(BaseScraper):
                 continue
             details_done += 1
             termine, oeff = self._detail(url)
-            if len(self._diag["samples"]) < 8:
-                self._diag["samples"].append(
-                    f"{title[:24]} | termine={termine!r} | oeff={oeff!r}")
-            recur = _recurrence(termine)
+            # Flohmärkte: Wochentag im Feld "Termine". Wochenmärkte: kein
+            # "Termine"-Feld -> Wochentag steht in den Öffnungszeiten.
+            recur = _recurrence(termine) or _recurrence(oeff)
             if not recur:
                 continue
             self._diag["recur"] += 1
-            hrs = _hours(oeff)
+            hrs = _hours(oeff) or _hours(termine)
             for d in self._occurrences(recur, today):
                 self._add(events, seen, title, url, d, hrs, g, True)
         self._diag["events"] = len(events)

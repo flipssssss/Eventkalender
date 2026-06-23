@@ -13,6 +13,7 @@ from __future__ import annotations
 import datetime as _dt
 import hashlib
 import re
+import time as _time
 from dataclasses import dataclass, field
 from typing import Iterable
 
@@ -141,7 +142,20 @@ class BaseScraper:
         merged = {"User-Agent": USER_AGENT}
         if headers:
             merged.update(headers)
-        response = requests.get(url, headers=merged, timeout=REQUEST_TIMEOUT)
+        # Bei 429/503 (Rate-Limit) kurz warten und erneut versuchen -- berlin.de
+        # drosselt bei vielen Abrufen in einem Lauf (Kino/Märkte/Ausstellungen).
+        for attempt in range(3):
+            response = requests.get(url, headers=merged, timeout=REQUEST_TIMEOUT)
+            if response.status_code in (429, 503) and attempt < 2:
+                retry_after = response.headers.get("Retry-After")
+                try:
+                    wait = float(retry_after)
+                except (TypeError, ValueError):
+                    wait = 3.0 * (attempt + 1)
+                _time.sleep(min(wait, 12))
+                continue
+            response.raise_for_status()
+            return response
         response.raise_for_status()
         return response
 

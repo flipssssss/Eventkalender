@@ -198,6 +198,12 @@
   "lat": 52.5114484,
   "lng": 13.4407738
  },
+ "Amerika-Gedenkbibliothek, Berlin": {
+  "address": "Blücherplatz 1, 10961 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4965672,
+  "lng": 13.3924936
+ },
  "Amtsgericht Tiergarten Turmstr. 91 10559 Berlin Deutschland": null,
  "Amtsgericht Tiergarten Turmstr. 91 10559, 10559 Berlin": null,
  "Amtsgericht Tiergarten, Saal A672, Turmstraße 91, 10559 Berlin": null,
@@ -274,6 +280,7 @@
   "lat": 52.5308391,
   "lng": 13.4072585
  },
+ "Bandito Rosso*, Lottumstraße 10a, 10119 Berlin": null,
  "Beate Uwe, Berlin": {
   "address": "Schillingstraße 31, 10179 Mitte",
   "bezirk": "Mitte",
@@ -339,6 +346,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5107448,
   "lng": 13.4351709
+ },
+ "Berlin Kreuzberg": {
+  "address": "Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4976443,
+  "lng": 13.411914
  },
  "Berliner Kunstmarkt": null,
  "Bernauer Straße 63, 13355 Berlin": {
@@ -508,6 +521,7 @@
   "lat": 52.4773354,
   "lng": 13.3578441
  },
+ "CHIP Jugendhaus, Reichenberger Straße 44-45, 10999 Berlin": null,
  "Cafe Cralle, Hochstädter Straße 10a, 13347 Berlin": null,
  "Café Cralle Hochstädter Straße 10A, Berlin": {
   "address": "Hochstädter Straße 10a, 13347 Wedding",
@@ -547,6 +561,7 @@
  },
  "Café en passant, Schönhauser Allee 58 10437 Berlin - Prenzlauer Berg": null,
  "Capoeira Akademie Berlin, Hasenheide 9 (im 2. Hinterhof 1.Stock), 10967 Berlin": null,
+ "Casino für Sozialmedizin, Sonnenallee 100, 12045 Berlin": null,
  "Chamissoplatz 1, 10965 Berlin": {
   "address": "Chamissoplatz 1, 10965 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -886,6 +901,12 @@
   "lng": 13.3953731
  },
  "Hausvogteiplatz 5-7, Raum 0007, 10117 Berlin": null,
+ "Heimathafen Neukölln Karl-Marx-Str. 141 12043 Berlin Deutschland": {
+  "address": "Karl-Marx-Straße 141, 12043 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4770235,
+  "lng": 13.4399161
+ },
  "Herman Schulz Kollektiv Café & Bar, Finowstraße 33, 10247 Berlin": null,
  "Herman Schulz Kollektiv Finowstraße 33, 10247 Berlin": null,
  "Hermann-Ehlers-Platz 1, 12165 Berlin": {
@@ -1048,6 +1069,7 @@
   "lat": 52.4918997,
   "lng": 13.4509424
  },
+ "Jugendclub, Schloßstraße 9, 14059 Berlin": null,
  "Juliette Dragon, Berlin": null,
  "K Köpenicker Straße Berlin": {
   "address": "Köpenicker Straße, 10997 Kreuzberg",
@@ -1082,6 +1104,12 @@
   "lng": 13.4666469
  },
  "KARA Perleberger Straße 59, 10559 Berlin": {
+  "address": "Perleberger Straße 59, 10559 Moabit",
+  "bezirk": "Mitte",
+  "lat": 52.5326481,
+  "lng": 13.3513118
+ },
+ "KARA, Berlin": {
   "address": "Perleberger Straße 59, 10559 Moabit",
   "bezirk": "Mitte",
   "lat": 52.5326481,
@@ -1474,6 +1502,12 @@
   "lat": 52.5308548,
   "lng": 13.4072136
  },
+ "Lottumstraße 10a, 10119 Berlin": {
+  "address": "Lottumstraße 10A, 10119 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5308548,
+  "lng": 13.4072136
+ },
  "Luftschloss Tempelhofer Feld, Tempelhofer Feld, 12101, Berlin": null,
  "Lumen D'arc, Berlin": null,
  "Lunte Weisestr. 53 12049 Berlin Deutschland": {
@@ -1854,6 +1888,12 @@
   "lat": 52.5000581,
   "lng": 13.4174433
  },
+ "Reichenberger Straße 44-45, 10999 Berlin": {
+  "address": "Reichenberger Straße 44-45, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.496609,
+  "lng": 13.425494
+ },
  "Reichenbergerstr. 63a, 10999 Berlin": {
   "address": "Reichenberger Straße 63a, 10999 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -1902,6 +1942,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5182565,
   "lng": 13.4552573
+ },
+ "Rigaerstr. 83, 10247 Berlin": {
+  "address": "Rigaer Straße 83, 10247 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5170566,
+  "lng": 13.4619369
  },
  "Rigaerstr. Ecke Liebigstr. 10247, 10247 Berlin": null,
  "Robert Havemann Saal im Haus der Demokratie und Menschenrechte Greifswalder Straße 4 Robert Havemann Saal 10405 Berlin Deutschland": null,
@@ -2018,6 +2064,12 @@
   "lat": 52.4548978,
   "lng": 13.3175925
  },
+ "Schloßstraße 9, 14059 Berlin": {
+  "address": "Schloßstraße 9, 14059 Charlottenburg",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.5164345,
+  "lng": 13.295777
+ },
  "Schmatzkammer Eberswalde Coppistr. 1-3 Berlin Deutschland": null,
  "Schmatzkammer Eberswalde Coppistr. 1-3, Berlin": null,
  "Schokoladen Ackerstrasse 169 10115 Berlin Deutschland": {
@@ -2107,6 +2159,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.4997903,
   "lng": 13.4201248
+ },
+ "Sonnenallee 100, 12045 Berlin": {
+  "address": "Sonnenallee 100, 12045 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4820605,
+  "lng": 13.4389626
  },
  "Sonnenallee 200, 12059 Berlin": {
   "address": "Sonnenallee 200, 12059 Neukölln",

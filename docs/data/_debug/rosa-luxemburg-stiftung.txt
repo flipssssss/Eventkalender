@@ -1,4 +1,4 @@
-Teaser: 187 | Berlin: 28 | andere Städte: 159 | mit Beschreibung: 26
+Teaser: 188 | Berlin: 29 | andere Städte: 159 | mit Beschreibung: 26
   2026-06-02 10:00:00 | Berlin | „Der große Schock“
   2026-06-03 19:00:37 | Berlin | Progressiver Journalismus als Akt des Widerstands in autoritären Zeiten
   2026-06-04 19:30:00 | Berlin | Post-Punk in Berlin, 2023-'26 … und die ewige Wiederkehr
@@ -25,5 +25,6 @@ Teaser: 187 | Berlin: 28 | andere Städte: 159 | mit Beschreibung: 26
   2026-06-25 19:00:26 | Berlin | Freiheit für wen?
   2026-06-26 19:00:00 | Berlin | 75 Jahre Hannah Arendts "Elemente und Ursprünge totaler Herrschaft"
   2026-06-29 18:00:00 | Berlin | Krisenbuch Schule – Ein System am Limit
+  2026-06-30 10:00:00 | Berlin | Antiquarische Buchwoche
   2026-06-30 19:00:00 | Berlin | "Nur zwei Geschlechter?"
   2026-06-30 19:00:50 | Berlin | When the Water Horse Seeks a New Home

@@ -1,2 +1,1 @@
-event-blocks: 0 | Events: 0
-
+FEHLER: HTTPSConnectionPool(host='www.moebel-olfe.de', port=443): Max retries exceeded with url: /programm.php (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.moebel-olfe.de', port=443) at 0x7fb455c69a10>, 'Connection to www.moebel-olfe.de timed out. (connect timeout=20)'))

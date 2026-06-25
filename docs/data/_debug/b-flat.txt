@@ -1,7 +1,6 @@
 top-keys: ['website', 'websiteSettings', 'collection', 'shoppingCart', 'shareButtons', 'showCart', 'localizedStrings', 'userAccountsContext', 'template', 'uiextensions', 'empty', 'emptyFolder', 'calendarView', 'pagination', 'upcoming']
-items: 44 | Events: 44
+items: 43 | Events: 43
 erstes item keys: ['id', 'collectionId', 'recordType', 'addedOn', 'updatedOn', 'starred', 'passthrough', 'tags', 'categories', 'workflowState', 'publishOn', 'authorId', 'systemDataId', 'systemDataVariants', 'systemDataSourceType', 'filename', 'mediaFocalPoint', 'colorData', 'urlId', 'title', 'sourceUrl', 'body', 'excerpt', 'location', 'customContent']
-  2026-06-24 09:00:00.936000 | Robins Nest - Jamsession
   2026-06-25 09:00:00.506000 | RIDDLE
   2026-06-26 09:00:00.506000 | Sebastian Schunke / Noslen Ortega "Sisetan”
   2026-06-27 09:00:00.506000 | Humboldt Bigband LATIN NIGHT
@@ -31,3 +30,4 @@ erstes item keys: ['id', 'collectionId', 'recordType', 'addedOn', 'updatedOn', '
   2026-07-30 09:00:00.506000 | Patricio Böttcher Quartett
   2026-07-31 09:00:00.506000 | Nita Aasten Latin Jazz Quartet with Eduard Alexander
   2026-08-01 09:00:00.506000 | The „B-flat All-Stars“ present Liva Strazdina und Simona Turk
+  2026-08-02 09:00:00.506000 | Bastian Menz Project

@@ -1,6 +1,4 @@
-API-Events: 57 | übernommen: 57
-  2026-06-24 19:00:00 | Punk | Nothing, Haywire
-  2026-06-24 20:00:00 | Punk | BLEAKNESS + MUNDO EN GUERRA
+API-Events: 55 | übernommen: 55
   2026-06-25 19:00:00 | Punk | NO MORE (post-punk wave pop, kiel) + Uzimoto (lofi synth dada-pop, bln)
   2026-06-25 19:00:00 | Punk | TVOD + Twiggy @Neue Zukunft
   2026-06-25 20:00:00 | Punk | S.O.H. + HEKTIKS + RISKERA
@@ -9,23 +7,25 @@ API-Events: 57 | übernommen: 57
   2026-06-26 19:00:00 | Punk | Urban Sprawl + Blockage + Nerve Center
   2026-06-26 19:00:00 | Punk | THE YOYO SOUP + EMTEN VAN ANORAK
   2026-06-26 20:00:00 | Punk | SEWER ALTAR (FIN), EXTINCT (GER) + DISTORTED AURA (GER) @ FISCHLADEN - SOLISHOW!
-  2026-06-26 20:00:00 | Punk | DIÄT | SPLIZZ | SCHIMMEL ÜBER BERLIN
   2026-06-26 20:00:00 | Punk | Nova Materia & Schwund
+  2026-06-26 20:00:00 | Punk | DIÄT | SPLIZZ | SCHIMMEL ÜBER BERLIN
   2026-06-26 21:00:00 | Punk | BAD BRIANS + THE REAL DEAL - Frustis Farewell Fest
   2026-06-26 21:30:00 | Punk | Green Milk from the Planet Orange I Supamolly
   2026-06-27 08:00:00 | Reggae | KONVULSISMO :6
   2026-06-27 14:45:00 | None | Gay and Sapphic Schöneberg
-  2026-06-27 19:00:00 | Punk | WAKE OF HUMANITY (HC), xESCALATEx (Metalcore), SACCAGE (OI!-Punk)
-  2026-06-27 19:00:00 | Indie | MOJA + THE OTHER WITHIN
-  2026-06-27 19:00:00 | Punk | Punkfilmfest Berlin - Sommerkonzerte (Punk aus aller Welt - China, Vietnam, Mexiko....)
   2026-06-27 19:00:00 | None | MOJA (JAP) & THE OTHER WITHIN (Bln)
   2026-06-27 19:00:00 | Punk | Shutcombo (punk, Bad Dürrenberg) + Artikel 5 (punkrock, Berlin) + DJ from 10 pm im Schokoladen
+  2026-06-27 19:00:00 | Punk | Punkfilmfest Berlin - Sommerkonzerte (Punk aus aller Welt - China, Vietnam, Mexiko....)
+  2026-06-27 19:00:00 | Punk | WAKE OF HUMANITY (HC), xESCALATEx (Metalcore), SACCAGE (OI!-Punk)
   2026-06-27 20:00:00 | Punk | Die Schlüppis + Twiggy + Blowjobs are Realjobs
   2026-06-28 13:45:00 | None | Radical Prenzlauer Berg
-  2026-06-28 19:00:00 | Metal | EYEHATEGOD + THE DWARVES | BI NUU - Berlin
   2026-06-28 19:00:00 | None | BULL NAKANO, SHIV, BRAV UND BÜRGERLICH
+  2026-06-28 19:00:00 | Metal | EYEHATEGOD + THE DWARVES | BI NUU - Berlin
   2026-06-28 20:00:00 | Punk | The DJs, Gum, Xavi Badosa
   2026-06-30 18:45:00 | None | Queer Kreuzberg
   2026-06-30 19:00:00 | Punk | Ghosts and Errors (indie-rock, bln) + Crystal Glass (indie-psych-pop, bln)
   2026-06-30 20:00:00 | Indie | Austin TV
   2026-07-02 17:00:00 | Punk | Soli-concert latino attack
+  2026-07-02 19:00:00 | Hip-Hop | aya / Lord Snow / soastasphrenas / draftclass / sienna sleep
+  2026-07-02 19:00:00 | Punk | Bitume (Punkrock aus dem Norden) + Television Knockout (Punkrock aus Berlin) im Schokoladen
+  2026-07-02 20:00:00 | Punk | BRAK // SPEARFLOWER // XPOLLYX feat. KULYENCHIKEV // HORA LUNGA

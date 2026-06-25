@@ -1,5 +1,6 @@
 Häuser ohne kuratierte Öffnungszeiten (in scrapers/openinghours.py ergänzen):
 
+Bebelplatz, Berlin-Mitte 10117 Berlin Deutschland
 Galerie BQ
 Hönower Straße 30 10318 Berlin Deutschland
 Museum Barberini

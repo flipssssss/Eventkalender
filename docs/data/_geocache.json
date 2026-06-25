@@ -213,6 +213,7 @@
   "lat": 52.5077986,
   "lng": 13.4470614
  },
+ "Anmeldung erforderlich Anmeldung via E-Mail an: iqpb[ät]riseup.net oder Insta @iqpberlin": null,
  "Anna Landsberger Prötzeler Ring 13 12685 Berlin Deutschland": {
   "address": "Prötzeler Ring 13, 12685 Marzahn",
   "bezirk": "Marzahn-Hellersdorf",
@@ -403,6 +404,12 @@
   "bezirk": "Charlottenburg-Wilmersdorf",
   "lat": 52.5073394,
   "lng": 13.3200854
+ },
+ "Blücherplatz (Kreuzberg) Berlin Deutschland": {
+  "address": "Blücherplatz, 10961 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4969604,
+  "lng": 13.3933346
  },
  "Blücherplatz 1, 10961 Berlin": {
   "address": "Blücherplatz 1, 10961 Kreuzberg",
@@ -668,6 +675,12 @@
   "lat": 52.4949179,
   "lng": 13.4304413
  },
+ "FAQ Infoladen Jonasstraße 40 12053 Berlin Deutschland": {
+  "address": "Jonasstraße 40, 12053 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.470975,
+  "lng": 13.4309683
+ },
  "FAQ Infoladen, Jonasstraße 40, 12053 Berlin": {
   "address": "Jonasstraße 40, 12053 Neukölln",
   "bezirk": "Neukölln",
@@ -922,6 +935,12 @@
   "lat": 52.4643376,
   "lng": 13.4333186
  },
+ "Hermannstraße 86, 12051 Berlin": {
+  "address": "Hermannstraße 86, 12051 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4716466,
+  "lng": 13.4286011
+ },
  "Hermannstraße 99-105, 12051 Berlin": {
   "address": "Hermannstraße, 12051 Neukölln",
   "bezirk": "Neukölln",
@@ -1144,6 +1163,7 @@
   "lng": 13.5194765
  },
  "Kalabal!k Reichenbergerstr. 63a 10999 Berlin Deutschland": null,
+ "Kaox Türrschmidtstr. 1 10317 Berlin Deutschland": null,
  "Karl Liebknecht Haus, Kleine Alexanderstraße 28, 10178 Berlin": null,
  "Karl Liebknecht Haus, Rosa-Luxemburg-Saal, Kleine Alexanderstraße 28, 10178 Berlin": null,
  "Karl-Liebknecht-Haus Kleine Alexanderstr. 28 10178 Berlin Deutschland": null,
@@ -1304,8 +1324,15 @@
   "lng": 13.3592766
  },
  "Kulturfabrik Moabit Lehrter Str. 35 10557, 10557 Berlin": null,
+ "Kulturhaus \"alte feuerwache\" Friedrichshain, Marchlewskistr. 6, 10243, Berlin": null,
  "Kulturhaus Centre Bagatelle, Zeltinger Str. 6, 13465, Berlin-Frohnau": null,
  "Kunstmarkt Trödelmarkt Boxhagener Platz, Berlin": null,
+ "Kurfürstenstraße 32, 10785 Berlin": {
+  "address": "Kurfürstenstraße 32, 12105 Mariendorf",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4478093,
+  "lng": 13.3769103
+ },
  "KvU Händelallee 22 10557 Berlin Deutschland": null,
  "KØPI Köpenicker Straße 137 10179 Berlin Deutschland": {
   "address": "Köpenicker Straße 137, 10179 Mitte",
@@ -1555,6 +1582,12 @@
   "lat": 52.5018807,
   "lng": 13.4288164
  },
+ "Marchlewskistr. 6, 10243 Berlin": {
+  "address": "Marchlewskistraße 6, 10243 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5162846,
+  "lng": 13.4422906
+ },
  "Marchlewskistraße 6, 10243 Berlin": {
   "address": "Marchlewskistraße 6, 10243 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -1788,6 +1821,12 @@
   "lat": 52.5398077,
   "lng": 13.4133001
  },
+ "Paloma Bar, Berlin": {
+  "address": "Skalitzer Straße, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4992818,
+  "lng": 13.418915
+ },
  "Peppi Guggenheim, Weichselstrasse 7, 12043, Berlin": {
   "address": "Weichselstraße 7, 12043 Neukölln",
   "bezirk": "Neukölln",
@@ -1811,6 +1850,12 @@
   "bezirk": "Steglitz-Zehlendorf",
   "lat": 52.4565486,
   "lng": 13.3489971
+ },
+ "Potsdamer Platz Potsdamer Platz Berlin Deutschland": {
+  "address": "Potsdamer Platz, 10785 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5094035,
+  "lng": 13.3766399
  },
  "Potsdamer Straße 50, 10785 Berlin": {
   "address": "Potsdamer Straße 50, 10785 Tiergarten",
@@ -2015,6 +2060,12 @@
   "lat": 52.4929561,
   "lng": 13.417489
  },
+ "SONNENALLEE, Neukölln Berlin Deutschland": {
+  "address": "Sonnenallee, 12059 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4741193,
+  "lng": 13.455486
+ },
  "SZ Aenne Saefkow, Alfredstraße 24, 10365 Berlin": null,
  "Schaubühne am Lehniner Platz, Berlin": {
   "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
@@ -2178,6 +2229,9 @@
   "lat": 52.5258825,
   "lng": 13.4016022
  },
+ "Spinnboden Lesbenarchiv und Bibliothek, Berlin": null,
+ "Spinnboden, Lesbenarchiv und Bibliothek, Berlin": null,
+ "Spore Initiative, Hermannstraße 86, 12051 Berlin": null,
  "Spreeweg 1, 10557 Berlin": {
   "address": "Spreeweg 1, 10557 Tiergarten",
   "bezirk": "Mitte",
@@ -2308,6 +2362,12 @@
   "lat": 52.5259741,
   "lng": 13.3540779
  },
+ "Türrschmidtstr. 1, 10317 Berlin": {
+  "address": "Türrschmidtstraße 1, 10317 Rummelsburg",
+  "bezirk": "Lichtenberg",
+  "lat": 52.5026366,
+  "lng": 13.4758561
+ },
  "Türrschmidtstraße 1 10317 Berlin Deutschland": {
   "address": "Türrschmidtstraße 1, 10317 Rummelsburg",
   "bezirk": "Lichtenberg",
@@ -2315,6 +2375,13 @@
   "lng": 13.4758561
  },
  "Türrschmidtstraße 1 10317, 10317 Berlin": null,
+ "U-Bhf Kurfürstenstr Kurfürstenstraße 32 Berlin 10785 10785 Berlin Deutschland": null,
+ "UJZ Karlshorst Hönower Str. 30 10318 Berlin Deutschland": {
+  "address": "Hönower Straße 30, 10318 Karlshorst",
+  "bezirk": "Lichtenberg",
+  "lat": 52.4891876,
+  "lng": 13.5212576
+ },
  "Unter den Linden 5, 10117 Berlin": {
   "address": "Unter den Linden 5, 10117 Mitte",
   "bezirk": "Mitte",
@@ -2447,6 +2514,14 @@
   "lat": 52.4827454,
   "lng": 13.44178
  },
+ "Wrangelstraße 70 10997 Berlin Deutschland": {
+  "address": "Wrangelstraße 70, 10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4976052,
+  "lng": 13.4449503
+ },
+ "Wrangelstraße Ecke Falckensteinstraße Berlin": null,
+ "Wrangelstraße Ecke Falckensteinstraße Berlin Deutschland": null,
  "XXL – Berlin Pornokino & Sexshop": null,
  "XXL – Berlin, Pornokino & Sexshop": null,
  "Yaam (an der Schillingbrücke) An der Schillingbrücke 3 Berlin": {

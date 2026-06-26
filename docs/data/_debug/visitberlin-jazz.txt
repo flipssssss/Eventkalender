@@ -1,10 +1,6 @@
-Event-Links: 21 | Events: 19
-  2026-03-26 19:00:00 | Musikinstrumenten-Museum, Tiergartenstraße, 10785, Berlin | Jazz im MIM
+Event-Links: 21 | Events: 18
   2026-06-19 19:00:00 | verschiedene Veranstaltungsorte, Berlin | Jazzwoche Berlin #8 - Collective improv(e)ment
   2026-06-25 20:00:00 | verschiedene Veranstaltungsorte, Berlin | Jazz am Helmholtzplatz
-  2026-06-26 19:30:00 | Kulturhaus Centre Bagatelle, Zeltinger Str. 6, 13465, Berlin-Frohnau | Festival Brassens in Basdorf
-  2026-06-26 20:00:00 | Kubiz Raoul Wallenberg, Bernkasteler Str 78, 13088, Berlin | Five Flying Elephants
-  2026-06-26 20:00:00 | Peppi Guggenheim, Weichselstrasse 7, 12043, Berlin | Rehm/Roder/Mahall
   2026-06-27 16:00:00 | Alte Kita, Hasselwerderstr. 22A, 12439, Berlin | Jazz am Kaisersteg - draußen & gratis
   2026-06-27 19:00:00 | Interkulturelles Haus - Theater unterm Dach, Schönfließer Straße 7, 10439, Berlin | Original Compositions inspired by North African Traditions and Mediterranean Culture
   2026-06-27 19:30:00 | Das Jüdische Kulturschiff MS Goldberg, Schifffahrtsufer 2
@@ -19,3 +15,6 @@ an der Dischinger Brücke, 13581, Berlin-Spandau | Jako Trio - Everything In Bet
   2026-07-04 17:00:00 | Krankenhauskirche im Wuhlgarten, Brebacher Weg 15, 12683, Berlin | ZERBRECHLICHE SCHÖNHEIT - Marita Czepa
   2026-07-04 20:00:00 | Brotfabrik, Caligariplatz 1, 13086, Berlin | Lenn Smidt Organic Trio
   2026-07-04 20:30:00 | PANDA Platforma, Knaackstraße 97, 10435, Berlin | yonglee & the DOLTANG
+  2026-07-07 19:00:00 | Globe Berlin, Sömmeringstraße 15, 10589, Berlin | The Swingin' Hermlins
+  2026-07-08 16:00:00 | Tischlerei der Deutschen Oper Berlin, Bismarckstraße 35, 10585, Berlin | Jazz & Lyrics IV: Scheherazade
+  2026-07-08 19:30:00 | GRETCHEN, Obentrautstraße 19-21, 10963, Berlin | Dominique Fils-Aimé - The Sunshine Tour

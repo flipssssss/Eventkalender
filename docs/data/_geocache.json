@@ -59,6 +59,12 @@
   "lat": 52.5372044,
   "lng": 13.5368175
  },
+ "13051 Berlin": {
+  "address": "13051 Wartenberg",
+  "bezirk": "Lichtenberg",
+  "lat": 52.5815191,
+  "lng": 13.4934872
+ },
  "13359 Berlin": {
   "address": "13359 Gesundbrunnen",
   "bezirk": "Mitte",
@@ -387,6 +393,7 @@
   "lat": 52.3818825,
   "lng": 13.8001845
  },
+ "Bibliothek der Freien Greifswalder Str. 4 2. Hof, Raum 1102 (1. OG) 10405 Berlin Deutschland": null,
  "Bismarckstraße 35, 10585 Berlin": {
   "address": "Bismarckstraße 35, 10627 Charlottenburg",
   "bezirk": "Charlottenburg-Wilmersdorf",
@@ -552,6 +559,7 @@
   "lng": 13.4324824
  },
  "Café Herman Schulz Kollektiv, Finowstraße 33, Friedrichshain 10247 Berlin Deutschland": null,
+ "Café Karanfil, Weisestraße 3, 12049 Berlin": null,
  "Café Köpenick Seelenbinderstr. 54 12555 Berlin Deutschland": {
   "address": "Seelenbinderstraße 54, 12555 Köpenick",
   "bezirk": "Treptow-Köpenick",
@@ -783,6 +791,7 @@
   "lng": 13.3903814
  },
  "Frizu Lounge, Berlin": null,
+ "GRETCHEN, Obentrautstraße 19-21, 10963, Berlin": null,
  "Gambino’s by AMANO, Berlin": null,
  "Garten Markgrafendamm 24c, 10245 Berlin": null,
  "Genter Straße 60, 13533 Berlin": {
@@ -803,6 +812,12 @@
   "bezirk": "Steglitz-Zehlendorf",
   "lat": 52.4168112,
   "lng": 13.2896103
+ },
+ "Greifswalder Str. 4, 10405 Berlin": {
+  "address": "Greifswalder Straße 4, 10405 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5286995,
+  "lng": 13.4254805
  },
  "Greifswalder Straße 23A, 10405 Berlin": {
   "address": "Greifswalder Straße 23A, 10405 Prenzlauer Berg",
@@ -991,6 +1006,7 @@
   "lat": 52.5130237,
   "lng": 13.4227766
  },
+ "Horte (Strausberg) Peter-Göring-Str. 25, Strausberg Berlin Deutschland": null,
  "Humboldt Forum, Berlin": {
   "address": "Schloßplatz, 10178 Mitte",
   "bezirk": "Mitte",
@@ -1199,6 +1215,13 @@
   "lat": 52.5364741,
   "lng": 13.4078031
  },
+ "Kastanienallee 85/86 Kastanienallee 85 Berlin Deutschland": null,
+ "Kastanienallee 85/86, Berlin": {
+  "address": "Kastanienallee, 10435 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5360518,
+  "lng": 13.4070857
+ },
  "Kerala Space, Berlin": null,
  "Kiehnwerderallee 2, 12437 Berlin": {
   "address": "Kiehnwerderallee 2, 12437 Plänterwald",
@@ -1257,6 +1280,12 @@
   "bezirk": "Pankow",
   "lat": 52.5366779,
   "lng": 13.4183045
+ },
+ "Komplex Berlin, Berlin": {
+  "address": "Modersohnstraße 35-45, 10245 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5035754,
+  "lng": 13.4585291
  },
  "Konnopke's Imbiss Schönhauser Allee 44b, 10435, Berlin": {
   "address": "Schönhauser Allee 44b, 10435 Prenzlauer Berg",
@@ -1625,6 +1654,12 @@
   "lng": 13.423541
  },
  "Mariannenplatz Bethanien New York im Bethanien 10997 Berlin Deutschland": null,
+ "Mariannenstraße 6, 10997 Berlin": {
+  "address": "Mariannenstraße 6, 10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5009077,
+  "lng": 13.4232743
+ },
  "Markgrafendamm 24c, 10245 Berlin": {
   "address": "Markgrafendamm 24c, 10245 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -1773,6 +1808,12 @@
   "lat": 52.5076121,
   "lng": 13.4749435
  },
+ "Obentrautstraße 19-21, 10963 Berlin": {
+  "address": "Obentrautstraße 19-21, 10963 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4955636,
+  "lng": 13.3879213
+ },
  "Oberwallstraße 32, 10117 Berlin": {
   "address": "Oberwallstraße, 10117 Mitte",
   "bezirk": "Mitte",
@@ -1809,6 +1850,7 @@
   "lat": 52.5530317,
   "lng": 13.3594121
  },
+ "Oya-Bar, Mariannenstraße 6 10997 Berlin Deutschland": null,
  "PA58 Prinzenallee 58 Berlin Deutschland": {
   "address": "Prinzenallee 58, 13359 Gesundbrunnen",
   "bezirk": "Mitte",
@@ -1845,6 +1887,7 @@
   "lat": 52.5326687,
   "lng": 13.3513556
  },
+ "Peter-Göring-Str. 25, Berlin": null,
  "Planetarium Berlin": {
   "address": "Munsterdamm, 12169 Steglitz",
   "bezirk": "Steglitz-Zehlendorf",
@@ -2144,6 +2187,12 @@
   "lat": 52.5171409,
   "lng": 13.4673202
  },
+ "Schreinerstraße 47, 10247 Berlin": {
+  "address": "Schreinerstraße 47, 10247 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5171409,
+  "lng": 13.4673202
+ },
  "Schöneicher Straße 1, 12587 Berlin": {
   "address": "Schöneicher Straße 1, 12587 Friedrichshagen",
   "bezirk": "Treptow-Köpenick",
@@ -2328,6 +2377,7 @@
  "TrIQ e.V., 5. Etage im Hinterhaus mit Aufzug und 3 Stufen, Gürtelstraße 35, 10247 Berlin": null,
  "Traumreparatur Lausitzer Straße 13 10999 Berlin Deutschland": null,
  "Traumreparatur Lausitzer Straße 13 10999, 10999 Berlin": null,
+ "Treffpunkt: S- und U-Bhf Wedding, Berlin": null,
  "Tristeza Pannierstr. 5 12047 Berlin Deutschland": {
   "address": "Pannierstraße 5, 12047 Neukölln",
   "bezirk": "Neukölln",
@@ -2396,6 +2446,7 @@
   "lng": 13.4606574
  },
  "Vetomat Wühlischstr. 42 10247, 10247 Berlin": null,
+ "Villa Felix Schreinerstraße 47 10247 Berlin Deutschland": null,
  "Villa Kuriosum Scheffelstr. 21 10367 Berlin Deutschland": {
   "address": "Scheffelstraße 21, 10367 Lichtenberg",
   "bezirk": "Lichtenberg",
@@ -2414,8 +2465,11 @@
  "Volkssolidarität \"Mehr Mitte\" Torstraße 190 10115 Berlin Deutschland": null,
  "Vor der Amerika-Gedenkbibliothek, Blücherplatz 1, 10961 Berlin": null,
  "Vor der BHT-Mensa, Luxemburger Straße 9, 13353 Berlin": null,
+ "WB13, Am Berl 13, 13051 Berlin": null,
  "Wagenburg Lohmühle Lohmühlenstr. 17 12435 Berlin Deutschland": null,
  "Wagenburg Lohmühle Lohmühlenstr. 17 12435, 12435 Berlin": null,
+ "Wagenplatz Scheffel 21 Berlin": null,
+ "Wagenplatz Scheffel 21 Berlin Deutschland": null,
  "Warthestraße 12051 Berlin Deutschland": {
   "address": "Warthestraße, 12051 Neukölln",
   "bezirk": "Neukölln",
@@ -2439,6 +2493,12 @@
   "bezirk": "Neukölln",
   "lat": 52.4777152,
   "lng": 13.4240197
+ },
+ "Weisestraße 3, 12049 Berlin": {
+  "address": "Weisestraße 3, 12049 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4799239,
+  "lng": 13.4229832
  },
  "Weisestraße 53, 12049 Berlin": {
   "address": "Weisestraße 53, 12049 Neukölln",
@@ -2584,6 +2644,7 @@
  "Zwille Fasanenstr. 1a 10623 Berlin Deutschland": null,
  "Zwille Fasanenstr. 1a, 10623 Berlin": null,
  "Zwille Reuleaux-Haus, Fasanenstraße 1A, 10623 Berlin": null,
+ "Zwille, Fasanenstraße 1A, 10623 Berlin": null,
  "Züllichauer Straße 1096, 10965 Berlin": {
   "address": "Züllichauer Straße, 10965 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -2595,6 +2656,12 @@
  "aquarium (südblock) Skalitzer str. 6 10997 Berlin Deutschland": null,
  "ask a punk, Berlin": null,
  "auf dem Dragonerareal Mehringdamm 20 10961, 10961 Berlin": null,
+ "bUm Berlin Paul-Lincke-Ufer 21, 10999 Berlin": {
+  "address": "Paul-Lincke-Ufer 21, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4937932,
+  "lng": 13.4296611
+ },
  "che, Berlin": null,
  "es die Möglichkeit zum Austausch und zur Vernetzung gibt, Berlin": null,
  "f.a.q. Jonasstr. 40 12053 Berlin Deutschland": null,

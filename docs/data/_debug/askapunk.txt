@@ -1,24 +1,16 @@
-API-Events: 54 | übernommen: 54
-  2026-06-26 17:45:00 | None | Ecology in Plänterwald
-  2026-06-26 19:00:00 | Punk | THE YOYO SOUP + EMTEN VAN ANORAK
-  2026-06-26 19:00:00 | Punk | Urban Sprawl + Blockage + Nerve Center
-  2026-06-26 20:00:00 | Punk | Nova Materia & Schwund
-  2026-06-26 20:00:00 | Punk | SEWER ALTAR (FIN), EXTINCT (GER) + DISTORTED AURA (GER) @ FISCHLADEN - SOLISHOW!
-  2026-06-26 20:00:00 | Punk | DIÄT | SPLIZZ | SCHIMMEL ÜBER BERLIN
-  2026-06-26 21:00:00 | Punk | BAD BRIANS + THE REAL DEAL - Frustis Farewell Fest
-  2026-06-26 21:30:00 | Punk | Green Milk from the Planet Orange I Supamolly
+API-Events: 47 | übernommen: 47
   2026-06-27 08:00:00 | Reggae | KONVULSISMO :6
   2026-06-27 13:00:00 | Punk | Greififornia Pool Bash
   2026-06-27 14:45:00 | None | Gay and Sapphic Schöneberg
-  2026-06-27 19:00:00 | Punk | Shutcombo (punk, Bad Dürrenberg) + Artikel 5 (punkrock, Berlin) + DJ from 10 pm im Schokoladen
   2026-06-27 19:00:00 | None | MOJA (JAP) & THE OTHER WITHIN (Bln)
-  2026-06-27 19:00:00 | Punk | WAKE OF HUMANITY (HC), xESCALATEx (Metalcore), SACCAGE (OI!-Punk)
   2026-06-27 19:00:00 | Punk | Punkfilmfest Berlin - Sommerkonzerte (Punk aus aller Welt - China, Vietnam, Mexiko....)
+  2026-06-27 19:00:00 | Punk | WAKE OF HUMANITY (HC), xESCALATEx (Metalcore), SACCAGE (OI!-Punk)
+  2026-06-27 19:00:00 | Punk | Shutcombo (punk, Bad Dürrenberg) + Artikel 5 (punkrock, Berlin) + DJ from 10 pm im Schokoladen
   2026-06-27 20:00:00 | Punk | Die Schlüppis + Twiggy + Blowjobs are Realjobs
   2026-06-27 20:00:00 | Punk | Packung+4FP+Sittendezernat
   2026-06-28 13:45:00 | None | Radical Prenzlauer Berg
-  2026-06-28 19:00:00 | None | BULL NAKANO, SHIV, BRAV UND BÜRGERLICH
   2026-06-28 19:00:00 | Metal | EYEHATEGOD + THE DWARVES | BI NUU - Berlin
+  2026-06-28 19:00:00 | None | BULL NAKANO, SHIV, BRAV UND BÜRGERLICH
   2026-06-28 20:00:00 | Punk | The DJs, Gum, Xavi Badosa
   2026-06-30 18:45:00 | None | Queer Kreuzberg
   2026-06-30 19:00:00 | Punk | Ghosts and Errors (indie-rock, bln) + Crystal Glass (indie-psych-pop, bln)
@@ -29,3 +21,11 @@ API-Events: 54 | übernommen: 54
   2026-07-02 20:00:00 | Punk | BRAK // SPEARFLOWER // XPOLLYX feat. KULYENCHIKEV // HORA LUNGA
   2026-07-03 17:00:00 | Punk | Punkgarten im Sektgarten
   2026-07-03 18:00:00 | Punk | Thraki Fest - Soli For Etniko Bandido
+  2026-07-03 19:00:00 | Punk | ADI SCOTHEQUE (lofi garage-pop dance-punk) & RASCO (surf garage psych)
+  2026-07-03 19:00:00 | Punk | Strung Out, The Corps & We Will Fly
+  2026-07-03 20:00:00 | Punk | BADTIME + PLATTENBAU
+  2026-07-04 16:00:00 | None | 🌵 NITRO & MILK - Staffel 2 - Folge 02  "DESPERADOS II" - PREMIERE 🌵
+  2026-07-04 19:30:00 | Punk | LETZTE HOFFNUNG - ÖPNV - SEXVERBOT
+  2026-07-04 20:00:00 | Punk | Emma Goldman / Deshielo / zhne
+  2026-07-06 19:00:00 | Punk | BOLD + DRINK DEEP + ECOTAGE
+  2026-07-08 19:00:00 | Punk | The Schizophonics (garage-punk / psych / r'n'r, san diego) + Blister (psych-indie-rock, hh/bln)

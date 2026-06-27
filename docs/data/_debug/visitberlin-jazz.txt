@@ -1,11 +1,4 @@
-Event-Links: 21 | Events: 18
-  2026-06-19 19:00:00 | verschiedene Veranstaltungsorte, Berlin | Jazzwoche Berlin #8 - Collective improv(e)ment
-  2026-06-25 20:00:00 | verschiedene Veranstaltungsorte, Berlin | Jazz am Helmholtzplatz
-  2026-06-27 16:00:00 | Alte Kita, Hasselwerderstr. 22A, 12439, Berlin | Jazz am Kaisersteg - draußen & gratis
-  2026-06-27 19:00:00 | Interkulturelles Haus - Theater unterm Dach, Schönfließer Straße 7, 10439, Berlin | Original Compositions inspired by North African Traditions and Mediterranean Culture
-  2026-06-27 19:30:00 | Das Jüdische Kulturschiff MS Goldberg, Schifffahrtsufer 2
-an der Dischinger Brücke, 13581, Berlin-Spandau | Jako Trio - Everything In Between
-  2026-06-27 20:00:00 | Peppi Guggenheim, Weichselstrasse 7, 12043, Berlin | Prince Gabriel Presents: Drag & Music
+Event-Links: 21 | Events: 17
   2026-06-29 19:30:00 | Bredouille Bar, Georgenstraße 199, 10117, Berlin | radio3 Listening Lounge:
   2026-03-09 20:00:00 | Café Engels, Herrfurthstr. 21, 12049, Berlin | Blue Moonday Jazzsession
   2026-03-18 21:00:00 | KulturMarktHalle, Hanns-Eisler-Straße 93, 10409, Berlin | The Composers' Orchestra Berlin
@@ -13,8 +6,15 @@ an der Dischinger Brücke, 13581, Berlin-Spandau | Jako Trio - Everything In Bet
   2026-07-02 20:00:00 | Alte Feuerwache Friedrichshain, Marchlewskistraße 6, 10243, Berlin | Patricio Böttcher Quartett
   2026-07-03 20:00:00 | Luftschloss Tempelhofer Feld, Tempelhofer Feld, 12101, Berlin | Big Band Kameleon
   2026-07-04 17:00:00 | Krankenhauskirche im Wuhlgarten, Brebacher Weg 15, 12683, Berlin | ZERBRECHLICHE SCHÖNHEIT - Marita Czepa
+  2026-06-25 20:00:00 | verschiedene Veranstaltungsorte, Berlin | Jazz am Helmholtzplatz
   2026-07-04 20:00:00 | Brotfabrik, Caligariplatz 1, 13086, Berlin | Lenn Smidt Organic Trio
   2026-07-04 20:30:00 | PANDA Platforma, Knaackstraße 97, 10435, Berlin | yonglee & the DOLTANG
   2026-07-07 19:00:00 | Globe Berlin, Sömmeringstraße 15, 10589, Berlin | The Swingin' Hermlins
   2026-07-08 16:00:00 | Tischlerei der Deutschen Oper Berlin, Bismarckstraße 35, 10585, Berlin | Jazz & Lyrics IV: Scheherazade
   2026-07-08 19:30:00 | GRETCHEN, Obentrautstraße 19-21, 10963, Berlin | Dominique Fils-Aimé - The Sunshine Tour
+  2026-07-10 19:30:00 | MS Goldberg am Wannsee, Kronprinzessinnenweg 5–6 |
+Brücke 1, 14109, Berlin | A Tribute to Benny Goodman
+  2026-07-11 20:00:00 | Schwartzsche Villa, Grunewaldstraße 55, 12165, Berlin | Klassik trifft Jazz - Melodie und Rhythmus im Einklang
+  2026-07-12 18:00:00 | MS Goldberg am Bhf Wannsee, Kronprinzessinnenweg 5–6
+Brücke 1, 14109, Berlin | Open Air – Swing Session
+  2026-07-16 20:00:00 | Zimmer 16, Florastraße 16, 13187, Berlin | Jamsession - Was mit Jazz

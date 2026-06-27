@@ -765,6 +765,12 @@
   "lng": 13.4619369
  },
  "Fischladen Rigaerstr. 83 10247, 10247 Berlin": null,
+ "Florastraße 16, 13187 Berlin": {
+  "address": "Florastraße 16, 13187 Pankow",
+  "bezirk": "Pankow",
+  "lat": 52.5654788,
+  "lng": 13.4013651
+ },
  "Frachtkante Flughafen Tegel 1 13405 Berlin Deutschland": null,
  "Frank-Zappa-Straße 19, 12681 Berlin": {
   "address": "Frank-Zappa-Straße 19,20, 12681 Marzahn",
@@ -862,6 +868,12 @@
   "bezirk": "Mitte",
   "lat": 52.553999,
   "lng": 13.389952
+ },
+ "Grüntaler Straße 38, 13359 Berlin": {
+  "address": "Grüntaler Straße 38, 13359 Gesundbrunnen",
+  "bezirk": "Mitte",
+  "lat": 52.5557804,
+  "lng": 13.3940256
  },
  "Gärtnerstraße 19, 10245 Berlin": {
   "address": "Gärtnerstraße 19, 10245 Friedrichshain",
@@ -1190,6 +1202,12 @@
   "lat": 52.5198483,
   "lng": 13.4251493
  },
+ "Karl-Marx-Straße 282, 12057 Berlin": {
+  "address": "Karl-Marx-Straße 282, 12057 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4638354,
+  "lng": 13.4437381
+ },
  "Karpfenteichstr. 13 12435, 12435 Berlin": null,
  "Karpfenteichstr. 13, 12435 Berlin": {
   "address": "Karpfenteichstraße 13/14, 12435 Plänterwald",
@@ -1314,6 +1332,12 @@
  },
  "Kreuzdorf Mariannenplatz 1a 10997 Berlin Deutschland": null,
  "Kreuzdorf Mariannenplatz 1a, 10997 Berlin": null,
+ "Kronprinzessinnenweg 5, 14109 Berlin": {
+  "address": "Kronprinzessinnenweg, 14109 Wannsee",
+  "bezirk": "Steglitz-Zehlendorf",
+  "lat": 52.4236482,
+  "lng": 13.1834713
+ },
  "Krugallee 2-6, 12435 Berlin": {
   "address": "Neue Krugallee, 12435 Plänterwald",
   "bezirk": "Treptow-Köpenick",
@@ -1593,6 +1617,8 @@
   "lat": 52.5041855,
   "lng": 13.3625529
  },
+ "MS Goldberg am Bhf Wannsee, Kronprinzessinnenweg 5–6\nBrücke 1, 14109, Berlin": null,
+ "MS Goldberg am Wannsee, Kronprinzessinnenweg 5–6 |\nBrücke 1, 14109, Berlin": null,
  "Maaya, Berlin": {
   "address": "Revaler Straße 99, 10245 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -1729,6 +1755,7 @@
   "lat": 52.4338463,
   "lng": 13.2543865
  },
+ "Murx, Karl-Marx-Straße 282, 12057 Berlin": null,
  "Museum des Kapitalismus Köpenicker Str. 172 10997 Berlin Deutschland": null,
  "Museum des Kapitalismus Köpenicker Str. 172 10997, 10997 Berlin": null,
  "Musikbrauerei, Greifswalder Straße 23A, 10405, Berlin": null,
@@ -2066,6 +2093,7 @@
  "Rote Ella, Buttmannstraße 1a, 13357 Berlin": null,
  "Rote Insel Mansteinstr. 10, near S1 / U7 Yorckstrasse Deutschland, Berlin": null,
  "Rote Insel near S1 / U7 Yorckstrasse Berlin 10783 Berlin Deutschland": null,
+ "Rote Insel, nähe S+U Yorckstraße, 10783 Berlin": null,
  "Rote Insel, nähe S1 Yorckstraße, 10783 Berlin": null,
  "Rote Lilly Emserstraße 114 12051 Berlin": {
   "address": "Emser Straße 114, 12051 Neukölln",
@@ -2192,6 +2220,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5171409,
   "lng": 13.4673202
+ },
+ "Schwartzsche Villa, Grunewaldstraße 55, 12165, Berlin": {
+  "address": "Grunewaldstraße 55, 12165 Steglitz",
+  "bezirk": "Steglitz-Zehlendorf",
+  "lat": 52.4569257,
+  "lng": 13.3194006
  },
  "Schöneicher Straße 1, 12587 Berlin": {
   "address": "Schöneicher Straße 1, 12587 Friedrichshagen",
@@ -2627,6 +2661,7 @@
   "lng": 13.4595298
  },
  "Zielona Góra Grünbergerstr. 73 10245, 10245 Berlin": null,
+ "Zimmer 16, Florastraße 16, 13187, Berlin": null,
  "Zionskirche Zionskirchplatz Berlin": {
   "address": "Zionskirchplatz 1, 10119 Prenzlauer Berg",
   "bezirk": "Mitte",
@@ -2640,6 +2675,7 @@
   "lng": 13.4037357
  },
  "Zorrow Grüntalerstr.38 13359 Berlin Deutschland": null,
+ "Zorrow Hinterhof, Grüntaler Straße 38, 13359 Berlin": null,
  "Zwille Fasanenstr. 1 TU Berlin, Südcampus, Z-Gebäude, 3. OG Fasanenstr. 1, Ecke Müller-Breslaustr. 10623 Berlin Deutschland": null,
  "Zwille Fasanenstr. 1a 10623 Berlin Deutschland": null,
  "Zwille Fasanenstr. 1a, 10623 Berlin": null,

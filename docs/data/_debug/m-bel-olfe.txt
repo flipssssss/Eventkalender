@@ -1,24 +1,5 @@
-event-blocks: 6 | Events: 6
+event-blocks: 5 | Events: 5
 
-<div class="event-block">
- <!-- Zeile 1: Datum + Titel -->
- <div class="event-row-1">
-  <div class="event-time">
-   Samstag, 27. Juni 22:00
-  </div>
-  <div class="event-title">
-   JoJo
-  </div>
- </div>
- <!-- Zeile 2: Bild + Beschreibung -->
- <div class="event-row-2">
-  <div class="event-image event-image--empty">
-  </div>
- </div>
-</div>
-
-
-----
 <div class="event-block">
  <!-- Zeile 1: Datum + Titel -->
  <div class="event-row-1">
@@ -81,3 +62,26 @@ event-blocks: 6 | Events: 6
   </div>
  </div>
 </div>
+
+
+----
+<div class="event-block">
+ <!-- Zeile 1: Datum + Titel -->
+ <div class="event-row-1">
+  <div class="event-time">
+   Freitag, 10. Juli 22:00
+  </div>
+  <div class="event-title">
+   BadPuppy
+  </div>
+ </div>
+ <!-- Zeile 2: Bild + Beschreibung -->
+ <div class="event-row-2">
+  <div class="event-image">
+   <img alt="" src="ProgrammFotos/BadPuppy_2026_07_10.jpg"/>
+  </div>
+  <div class="event-description">
+   Bad Puppy is a Berlin based trans femme DJ and artist, originally from Iztapalapa, Mexico. Her sound defies borders, fusing global rhythm, reggaeton, dembow, and baile funk with club ready beats like EDM, electro, and beyond. The result? A high energy mix as rebellious as it is danceable. Offstage, she is deep in queer and migrant solidarity work, co-creating safer spaces with collectives houseoflivingcolors. For sets, updates, and unapologetic vibes @badpuppy4ever.
+  </div>
+ </div>
+</div

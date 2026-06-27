@@ -60,21 +60,16 @@ class FunFactsScraper(BaseScraper):
         events: list[Event] = []
         seen: set[str] = set()
         other_city = 0
-        diag: list[str] = []
         titles = soup.select('[data-hook="ev-list-item-title"]')
         for title_el in titles:
             container = self._container(title_el)
             if container is None:
-                diag.append("(kein Container) " + title_el.get_text(" ", strip=True)[:40])
                 continue
             ev, loc = self._build(title_el, container)
             if ev is None:
-                diag.append(f"(kein Datum) loc={loc!r} :: "
-                            + title_el.get_text(" ", strip=True)[:40])
                 continue
             if self.city and self.city.lower() not in (loc or "").lower():
                 other_city += 1
-                diag.append(f"(andere Stadt) {ev.start} | loc={loc!r} | {ev.title[:30]}")
                 continue
             key = ev.title.lower() + "|" + ev.start.isoformat()
             if key in seen:
@@ -82,8 +77,9 @@ class FunFactsScraper(BaseScraper):
             seen.add(key)
             events.append(ev)
         self._dump(f"Titel: {len(titles)} | {self.city}: {len(events)} | "
-                   f"andere Städte: {other_city}\n--- alle Einträge ---\n"
-                   + "\n".join(diag[:30]))
+                   f"andere Städte: {other_city}\n" +
+                   "\n".join(f"  {e.start} | {e.location} | {e.title}"
+                             for e in events[:30]))
         return events
 
     @staticmethod

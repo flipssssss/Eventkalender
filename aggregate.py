@@ -116,6 +116,7 @@ def load_yaml_scrapers() -> list[JsonLdScraper]:
                     default_tags=entry.get("tags"),
                     category=entry.get("category"),
                     party_or_workshop=bool(entry.get("party_or_workshop")),
+                    include=entry.get("include"),
                 )
             )
         else:

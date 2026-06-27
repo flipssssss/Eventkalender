@@ -66,12 +66,16 @@ class ICalScraper(BaseScraper):
     """Read events from an iCalendar (.ics) feed."""
 
     def __init__(self, url: str, name: str | None = None, default_tags=None,
-                 category: str | None = None, party_or_workshop: bool = False):
+                 category: str | None = None, party_or_workshop: bool = False,
+                 include=None):
         self.url = url
         self.name = name or url
         self.default_tags = list(default_tags or [])
         self.category = category
         self.party_or_workshop = party_or_workshop
+        # Nur Events behalten, deren Titel einen dieser Begriffe enthält
+        # (kleingeschrieben, Teilstring). None/leer = alle behalten.
+        self.include = [s.lower() for s in (include or [])]
 
     def _fetch(self) -> requests.Response:
         """Fetch the feed, trying a plain feed UA then a browser UA.
@@ -128,6 +132,8 @@ class ICalScraper(BaseScraper):
             start = _to_datetime(component.get("dtstart"))
             title = _text(component.get("summary"))
             if not start or not title:
+                continue
+            if self.include and not any(k in title.lower() for k in self.include):
                 continue
 
             source_url = _text(component.get("url")) or self.url

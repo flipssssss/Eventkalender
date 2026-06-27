@@ -45,14 +45,18 @@ sources:
   # c-base: exportiert iCal. Nur den Events-Feed nehmen (echte Veranstaltungen),
   # NICHT die "Gesammelte" Datei -- die mischt regulars.ics (wiederkehrende
   # interne Treffen) und seminars.ics (Raumbuchungen) mit rein.
+  # c-base: nur die drei gewünschten Reihen behalten (der Feed enthält sonst
+  # hunderte wiederkehrende interne Termine). "include" = Titel-Teilstrings.
   - url: https://www.c-base.org/calendar/exported/events.ics
     name: c-base
     type: ical
+    include:
+      - netzpolit
+      - digital independence
+      - lockpick
   # xHain: auf Wunsch nicht eingebunden.
-  # CCC Berlin: nackte Domain ist IPv6-only (unerreichbar), aber www. verbindet.
-  # Kalenderseite als JSON-LD versuchen (Struktur via Debug).
-  - url: https://www.berlin.ccc.de/verein/calendar/
-    name: CCC Berlin
+  # CCC Berlin: entfernt -- nackte Domain ist IPv6-only (Build-Runner kommt nicht
+  # ran), die www-Kalenderseite hat keine maschinenlesbaren Events.
 
   # Silverfuture (queere Bar, Neukölln) -- Kategorie automatisch,
   # Genre "Queer" via scrapers/genres.py.

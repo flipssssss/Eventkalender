@@ -77,6 +77,12 @@
   "lat": 52.5589025,
   "lng": 13.2978794
  },
+ "14469 Berlin": {
+  "address": "Berlin",
+  "bezirk": null,
+  "lat": 52.5173885,
+  "lng": 13.3951309
+ },
  "2 Kinos, Berlin": {
   "address": "Straße des 17. Juni 136, 10623 Charlottenburg",
   "bezirk": "Charlottenburg-Wilmersdorf",
@@ -278,6 +284,14 @@
   "lng": 13.4832995
  },
  "BLO-Ateliers Kaskelstr. 55 10317, 10317 Berlin": null,
+ "BUNDjugend Erich-Weinert-Straße 82 10439 Berlin Deutschland": {
+  "address": "Erich-Weinert-Straße 82, 10439 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5481759,
+  "lng": 13.4270501
+ },
+ "Bahnhof Oranienburg Berlin": null,
+ "Bahnhof Oranienburg Berlin Deutschland": null,
  "Baiz Schönhauser Allee 26 A 10435 Berlin Deutschland": null,
  "Baiz Schönhauser Allee 26 A, 10435 Berlin": null,
  "Bandito Rosso Lottumstr. 10a 10119 Berlin Deutschland": null,
@@ -306,6 +320,7 @@
   "lat": 52.549885,
   "lng": 13.3923479
  },
+ "Belvedere auf dem Pfingstberg Potsdam, 14469, Potsdam, Berlin": null,
  "Bergmannstr. 12, 10961 Berlin": {
   "address": "Bergmannstraße 12, 10961 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -460,6 +475,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5128209,
   "lng": 13.4551231
+ },
+ "Brandenburger Tor Pariser Platz 10117 Berlin Deutschland": {
+  "address": "Pariser Platz 1, 10117 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5162699,
+  "lng": 13.3777034
  },
  "Brebacher Weg 15, 12683 Berlin": {
   "address": "Brebacher Weg 15, 12683 Biesdorf",
@@ -635,6 +656,12 @@
   "lat": 52.4884198,
   "lng": 13.3619068
  },
+ "Curly Adolfstrasse 17 13347 Berlin Deutschland": {
+  "address": "Adolfstraße 17, 13347 Wedding",
+  "bezirk": "Mitte",
+  "lat": 52.5479459,
+  "lng": 13.3668959
+ },
  "Cuvrystraße 13-14, 10997 Berlin": {
   "address": "Cuvrystraße 13-14, 10997 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -657,6 +684,7 @@
  "Dorfplatz (Fhain) Rigaerstr. Ecke Liebigstr. 10247 Berlin Deutschland": null,
  "Drugstore im Rockhaus Buchberger Str. 6 10365 Berlin Deutschland": null,
  "Drugstore im Rockhaus Buchberger Str. 6 10365, 10365 Berlin": null,
+ "EUREF-Campus Berlin, Torgauer Straße 25, 10829, Berlin": null,
  "Eiertanz, Admiralstraße 17, 10999 Berlin": null,
  "Elisabeth-Schwarzhaupt-Platz, 10115 Berlin": {
   "address": "Elisabeth-Schwarzhaupt-Platz, 10115 Mitte",
@@ -1191,6 +1219,12 @@
   "lng": 13.5194765
  },
  "Kalabal!k Reichenbergerstr. 63a 10999 Berlin Deutschland": null,
+ "Kandeler Weg 3, Berlin": {
+  "address": "Kandeler Weg 3, 13583 Falkenhagener Feld",
+  "bezirk": "Spandau",
+  "lat": 52.5417268,
+  "lng": 13.1846433
+ },
  "Kaox Türrschmidtstr. 1 10317 Berlin Deutschland": null,
  "Karl Liebknecht Haus, Kleine Alexanderstraße 28, 10178 Berlin": null,
  "Karl Liebknecht Haus, Rosa-Luxemburg-Saal, Kleine Alexanderstraße 28, 10178 Berlin": null,
@@ -2113,11 +2147,23 @@
   "lat": 52.5127217,
   "lng": 13.4199215
  },
+ "S Gesundbrunnen Berlin Deutschland": {
+  "address": "Behmstraße, 13357 Gesundbrunnen",
+  "bezirk": "Mitte",
+  "lat": 52.5491748,
+  "lng": 13.3900758
+ },
  "S+U Gesundbrunnen, 13355 Berlin": {
   "address": "Hanne-Sobek-Platz, 13357 Gesundbrunnen",
   "bezirk": "Mitte",
   "lat": 52.5483741,
   "lng": 13.3885086
+ },
+ "S-Bhf. Gesundbrunnen Berlin Deutschland": {
+  "address": "Hochstraße 46, 13357 Gesundbrunnen",
+  "bezirk": "Mitte",
+  "lat": 52.5442707,
+  "lng": 13.3787585
  },
  "S1 Yorckstraße, Berlin": {
   "address": "Yorckstraße, 10965 Schöneberg",
@@ -2312,6 +2358,7 @@
   "lat": 52.5258825,
   "lng": 13.4016022
  },
+ "Sozialer Treffpunkt Kandeler Weg 3, Berlin": null,
  "Spinnboden Lesbenarchiv und Bibliothek, Berlin": null,
  "Spinnboden, Lesbenarchiv und Bibliothek, Berlin": null,
  "Spore Initiative, Hermannstraße 86, 12051 Berlin": null,
@@ -2395,6 +2442,12 @@
   "lng": 13.4106052
  },
  "Tischlerei der Deutschen Oper Berlin, Bismarckstraße 35, 10585, Berlin": null,
+ "Torgauer Straße 25, 10829 Berlin": {
+  "address": "Torgauer Straße 1-25, 10829 Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4808995,
+  "lng": 13.3559366
+ },
  "Torhaus - Columbiadamm Columbiadamm 10 12101 Berlin Deutschland": {
   "address": "Columbiadamm 10, 10965 Tempelhof",
   "bezirk": "Tempelhof-Schöneberg",

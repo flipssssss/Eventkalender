@@ -1,27 +1,27 @@
 ExhibitionEvents -> Events: 29
-  2026-06-28 Brancusi
-  2026-06-28 Lina Lapelytė: We Make Years Out of Hours – Chanel
-  2026-06-28 Marina Abramović: Balkan Erotic Epic
-  2026-06-28 Marc Brandenburg: 20th Century Debris
-  2026-06-28 Gabriele Stötzer: Dabei sein und nicht schweigen
-  2026-06-28 Ruin und Rausch: Berlin 1910–1930
-  2026-06-28 Cassirer und der Durchbruch des Impressionismus
-  2026-06-28 Giulia Andreani: Sabotage
-  2026-06-28 C.B. Evans: Reality or Not
-  2026-06-28 Neue Frau, Neues Sehen: Die Bauhaus-Fotografinnen
-  2026-06-28 Inventing Queer Cinema
-  2026-06-28 Walter Schels: 16° Fische – Retrospektive
-  2026-06-28 Kyiv Biennial: A Bird That Cannot Land
-  2026-06-28 Shilpa Gupta: What Still Holds
-  2026-06-28 Gebaute Gemeinschaft: Göbeklitepe, Taş Tepeler und
-  2026-06-28 Fujiko Nakaya: Nebelskulptur im Skulpturengarten
-  2026-06-28 Iliggocene: The Age of Dizziness
-  2026-06-28 Anton Corbijn: Corbijn, Anton
-  2026-06-28 Rooms / Stages
-  2026-06-28 Intermezzo: Revisiting Helmut Newton
-  2026-06-28 Many Shades of Grès: Mode wird Kunst
-  2026-06-28 Seeing Words, Reading Images – Die Written Art Col
-  2026-06-28 Philipp Gufler: Imitations of Paul
+  2026-06-29 Brancusi
+  2026-06-29 Lina Lapelytė: We Make Years Out of Hours – Chanel
+  2026-06-29 Marina Abramović: Balkan Erotic Epic
+  2026-06-29 Marc Brandenburg: 20th Century Debris
+  2026-06-29 Gabriele Stötzer: Dabei sein und nicht schweigen
+  2026-06-29 Ruin und Rausch: Berlin 1910–1930
+  2026-06-29 Cassirer und der Durchbruch des Impressionismus
+  2026-06-29 Giulia Andreani: Sabotage
+  2026-06-29 C.B. Evans: Reality or Not
+  2026-06-29 Neue Frau, Neues Sehen: Die Bauhaus-Fotografinnen
+  2026-06-29 Inventing Queer Cinema
+  2026-06-29 Walter Schels: 16° Fische – Retrospektive
+  2026-06-29 Kyiv Biennial: A Bird That Cannot Land
+  2026-06-29 Shilpa Gupta: What Still Holds
+  2026-06-29 Gebaute Gemeinschaft: Göbeklitepe, Taş Tepeler und
+  2026-06-29 Fujiko Nakaya: Nebelskulptur im Skulpturengarten
+  2026-06-29 Iliggocene: The Age of Dizziness
+  2026-06-29 Anton Corbijn: Corbijn, Anton
+  2026-06-29 Rooms / Stages
+  2026-06-29 Intermezzo: Revisiting Helmut Newton
+  2026-06-29 Many Shades of Grès: Mode wird Kunst
+  2026-06-29 Seeing Words, Reading Images – Die Written Art Col
+  2026-06-29 Philipp Gufler: Imitations of Paul
   2026-07-03 Paul Signac: Symphonie der Farben
   2026-07-02 Materialistin: Matter of Care, Care of Matter – Ma
   2026-07-04 Iván Argote: A Place To Stay

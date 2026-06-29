@@ -219,6 +219,7 @@
  "Amtsgericht Tiergarten Turmstr. 91 10559 Berlin Deutschland": null,
  "Amtsgericht Tiergarten Turmstr. 91 10559, 10559 Berlin": null,
  "Amtsgericht Tiergarten, Saal A672, Turmstraße 91, 10559 Berlin": null,
+ "Amtsgericht Tiergarten, Turmstraße 91, 10559 Berlin": null,
  "An der Ostbahn 7, 10243 Berlin": {
   "address": "An der Ostbahn 7, 10243 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -598,6 +599,7 @@
  "Café en passant, Schönhauser Allee 58 10437 Berlin - Prenzlauer Berg": null,
  "Capoeira Akademie Berlin, Hasenheide 9 (im 2. Hinterhof 1.Stock), 10967 Berlin": null,
  "Casino für Sozialmedizin, Sonnenallee 100, 12045 Berlin": null,
+ "Casinoooo Sonnenallee 100 12045 Berlin Deutschland": null,
  "Chamissoplatz 1, 10965 Berlin": {
   "address": "Chamissoplatz 1, 10965 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -1741,6 +1743,7 @@
   "lng": 13.3670096
  },
  "Mauerpark Amphitheater, Bernauer Straße 63, 13355 Berlin": null,
+ "Mauerpark, Bernauer Straße 63, 13355 Berlin": null,
  "Mauerstraße 79, 10117 Berlin": {
   "address": "Mauerstraße 79, 10117 Mitte",
   "bezirk": "Mitte",
@@ -2136,6 +2139,12 @@
   "lng": 13.4333242
  },
  "Rotes Rathaus Rathausstr 15 10178 Berlin Deutschland": {
+  "address": "Rathausstraße 15, 10178 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5182718,
+  "lng": 13.4078309
+ },
+ "Rotes Rathaus, Rathausstraße 15, 10178 Berlin": {
   "address": "Rathausstraße 15, 10178 Mitte",
   "bezirk": "Mitte",
   "lat": 52.5182718,

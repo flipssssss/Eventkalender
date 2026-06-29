@@ -1,7 +1,6 @@
 top-keys: ['website', 'websiteSettings', 'collection', 'shoppingCart', 'shareButtons', 'showCart', 'localizedStrings', 'userAccountsContext', 'template', 'uiextensions', 'empty', 'emptyFolder', 'calendarView', 'pagination', 'upcoming']
-items: 51 | Events: 51
+items: 50 | Events: 50
 erstes item keys: ['id', 'collectionId', 'recordType', 'addedOn', 'updatedOn', 'starred', 'passthrough', 'tags', 'categories', 'workflowState', 'publishOn', 'authorId', 'systemDataId', 'systemDataVariants', 'systemDataSourceType', 'filename', 'mediaFocalPoint', 'colorData', 'urlId', 'title', 'sourceUrl', 'body', 'excerpt', 'location', 'customContent']
-  2026-06-28 09:00:00.506000 | Alessandro Bianchini | Jazz Vibraphonist &amp; New Album Release
   2026-06-30 09:00:00.506000 | Prädikat
   2026-07-01 09:00:00.936000 | Robins Nest - Jamsession
   2026-07-02 09:00:00.506000 | Magnetic Ghost Orchestra
@@ -31,3 +30,4 @@ erstes item keys: ['id', 'collectionId', 'recordType', 'addedOn', 'updatedOn', '
   2026-08-04 09:00:00.506000 | Still Waters ||:ECHO:||
   2026-08-05 09:00:00.936000 | Robins Nest - Jamsession
   2026-08-06 09:00:00.506000 | “Orquesta de Antes” / Argentina
+  2026-08-07 09:00:00.506000 | Mauritius meets Columbi

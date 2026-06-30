@@ -958,6 +958,12 @@
   "lng": 13.3507943
  },
  "Haus Schwarzenberg Rosenthalerstraße 39 10178 Berlin Deutschland": null,
+ "Haus der Demokratie, Greifswalder Straße 4, 10405 Berlin": {
+  "address": "Greifswalder Straße 4, 10405 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5289007,
+  "lng": 13.4250691
+ },
  "Haus der Kulturen der Welt, Berlin": {
   "address": "John-Foster-Dulles-Allee 10, 10557 Tiergarten",
   "bezirk": "Mitte",
@@ -1456,6 +1462,12 @@
   "lng": 13.425536
  },
  "L5 Späti Lenaustraße 5 12047, 12047 Berlin": null,
+ "La Casa Wurzener Str. 6 12627 Berlin Deutschland": {
+  "address": "Wurzener Straße 6;8, 12627 Hellersdorf",
+  "bezirk": "Marzahn-Hellersdorf",
+  "lat": 52.5422403,
+  "lng": 13.6173176
+ },
  "Ladenkino, Berlin": {
   "address": "Gärtnerstraße 19, 10245 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -1519,6 +1531,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.4970089,
   "lng": 13.428189
+ },
+ "Lausitzer Straße 21a, 10999 Berlin": {
+  "address": "Lausitzer Straße 21a, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4959646,
+  "lng": 13.4263213
  },
  "Lausitzer Straße 22, Berlin": {
   "address": "Lausitzer Straße 22, 10999 Kreuzberg",
@@ -1655,6 +1673,12 @@
  },
  "MS Goldberg am Bhf Wannsee, Kronprinzessinnenweg 5–6\nBrücke 1, 14109, Berlin": null,
  "MS Goldberg am Wannsee, Kronprinzessinnenweg 5–6 |\nBrücke 1, 14109, Berlin": null,
+ "MaHalle, Waldemarstraße 110, 10997 Berlin": {
+  "address": "Waldemarstraße 110, 10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5009882,
+  "lng": 13.4284142
+ },
  "Maaya, Berlin": {
   "address": "Revaler Straße 99, 10245 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -1815,6 +1839,7 @@
   "lat": 52.5004737,
   "lng": 13.4234898
  },
+ "Naunystrasse 72, 10997 Berlin": null,
  "Neckarstr. 19 12053 Berlin Deutschland": {
   "address": "Neckarstraße 19, 12053 Neukölln",
   "bezirk": "Neukölln",
@@ -1902,6 +1927,8 @@
   "lat": 52.5003909,
   "lng": 13.4221612
  },
+ "Ort bei Anmeldung Ort bei Anmeldung Berlin": null,
+ "Ort bei Anmeldung Ort bei Anmeldung Berlin Deutschland": null,
  "Otto-von-Simson-Straße 23, Berlin": {
   "address": "Otto-von-Simson-Straße 23, 14195 Dahlem",
   "bezirk": "Steglitz-Zehlendorf",
@@ -1990,6 +2017,12 @@
   "lat": 52.459911,
   "lng": 13.5053346
  },
+ "Radialsystem, Berlin": {
+  "address": "Holzmarktstraße 33, 10243 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5103673,
+  "lng": 13.4286199
+ },
  "Rathaus Treptow Neue Krugallee 2-6 12435 Berlin Deutschland": null,
  "Refuge Worldwide, Niemetzstraße 1, 12055 Berlin": {
   "address": "Niemetzstraße 1, 12055 Neukölln",
@@ -1999,6 +2032,7 @@
  },
  "Regenbogen Cafè Lausitzer Straße 22a, 10999 Berlin": null,
  "Regenbogen Cafè Lausitzer Straße 22a, 10999 Berlin (bei gutem Wetter im Hof)": null,
+ "Regenbogen fabrik, Lausitzer Straße 21a, 10999 Berlin": null,
  "RegenbogenKino Lausitzer Straße 22a Deutschland, Berlin": null,
  "Regenbogencafé Lausitzer Str. 22 10999 Berlin Deutschland": null,
  "Regenbogencafé Lausitzer Str. 22 10999, 10999 Berlin": null,
@@ -2156,6 +2190,8 @@
   "lat": 52.5127217,
   "lng": 13.4199215
  },
+ "Rxxxhaus Bethaniendamm Berlin": null,
+ "Rxxxhaus, Bethaniendamm Berlin Deutschland": null,
  "S Gesundbrunnen Berlin Deutschland": {
   "address": "Behmstraße, 13357 Gesundbrunnen",
   "bezirk": "Mitte",
@@ -2754,6 +2790,12 @@
  "aquarium (südblock) Skalitzer str. 6 10997 Berlin Deutschland": null,
  "ask a punk, Berlin": null,
  "auf dem Dragonerareal Mehringdamm 20 10961, 10961 Berlin": null,
+ "b-flat, Dircksenstraße 40, 10178, Berlin": {
+  "address": "Dircksenstraße 40, 10178 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5235538,
+  "lng": 13.4069893
+ },
  "bUm Berlin Paul-Lincke-Ufer 21, 10999 Berlin": {
   "address": "Paul-Lincke-Ufer 21, 10999 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",

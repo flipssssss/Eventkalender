@@ -1,30 +1,20 @@
-Teaser: 188 | Berlin: 29 | andere Städte: 159 | mit Beschreibung: 26
-  2026-06-02 10:00:00 | Berlin | „Der große Schock“
-  2026-06-03 19:00:37 | Berlin | Progressiver Journalismus als Akt des Widerstands in autoritären Zeiten
-  2026-06-04 19:30:00 | Berlin | Post-Punk in Berlin, 2023-'26 … und die ewige Wiederkehr
-  2026-06-05 19:00:58 | Berlin | Matchplan Meuterei – Fussballfans zwischen Kommerz und Widerstand
-  2026-06-06 21:00:00 | Berlin | Deutschlandpremiere: "Toni, My Father"
-  2026-06-08 19:00:26 | Berlin | Am Ende des Fortschritts. Überleben in den Ruinen des Kapitalismus
-  2026-06-08 20:00:36 | Berlin | Das Spiel der starken Männer – Wie die Fußball-WM den Nationalismus stärkt
-  2026-06-09 10:00:00 | Berlin | 20 Jahre draußen vor der Tür durch Hartz IV - kein Grund zum Feiern?!
-  2026-06-09 19:00:00 | Berlin | „Cuba is Frantz Fanon in the flesh“
-  2026-06-10 18:30:10 | Berlin | Extraktion. Über die Grenzen des grünen Kapitalismus
-  2026-06-12 08:00:00 | Berlin | Fallada in Carwitz und "Reineke Fuchs" in Luzin
-  2026-06-13 10:00:53 | Berlin | Für Bildungsgerechtigkeit: Mehr Gemeinschaftsschulen für Berlin!
-  2026-06-14 18:00:30 | Berlin | Gaza: Augenzeug*innen
-  2026-06-16 10:00:00 | Berlin | Erik Neutsch - der letzte Jakobiner
-  2026-06-16 18:00:37 | Berlin | The Day Apartheid Died
-  2026-06-17 13:45:52 | Berlin | Bildungsexkursion Schloss Schönhausen
-  2026-06-19 18:00:32 | Berlin | Familiengeschichte(n) in Ost und West
-  2026-06-22 18:30:00 | Berlin | Buchklub: Das Alltagsleben im Autoritarismus VIII: Paul Lynch: Das Lied des…
-  2026-06-22 19:00:37 | Berlin | Wem gehört der Reichtum?
-  2026-06-23 18:00:54 | Berlin | Geht der Westen wieder unter? Die Benjamin Lectures 2026
-  2026-06-24 19:00:00 | Berlin | Die Bildwelten der Elizabeth Shaw
-  2026-06-24 19:00:00 | Berlin | Die Bildwelten der Elizabeth Shaw
-  2026-06-24 19:00:00 | Berlin | Ines de Nil: "Wer bei der Reichsbahn war, war ein roter Hund" (Dokumentarfilm 60…
-  2026-06-25 19:00:26 | Berlin | Freiheit für wen?
-  2026-06-26 19:00:00 | Berlin | 75 Jahre Hannah Arendts "Elemente und Ursprünge totaler Herrschaft"
-  2026-06-29 18:00:00 | Berlin | Krisenbuch Schule – Ein System am Limit
-  2026-06-30 10:00:00 | Berlin | Antiquarische Buchwoche
-  2026-06-30 19:00:00 | Berlin | "Nur zwei Geschlechter?"
-  2026-06-30 19:00:50 | Berlin | When the Water Horse Seeks a New Home
+Teaser: 89 | Berlin: 19 | andere Städte: 70 | mit Beschreibung: 14
+  2026-07-01 10:00:00 | Berlin | Antiquarische Buchwoche
+  2026-07-01 18:30:17 | Berlin | Planetare Politik im Zeitalter des Klimawandels
+  2026-07-01 19:00:00 | Berlin | „Armut und Krieg überwinden mit Gerechtigkeit“
+  2026-07-02 10:00:00 | Berlin | Antiquarische Buchwoche
+  2026-07-03 10:00:00 | Berlin | Antiquarische Buchwoche
+  2026-07-04 10:00:00 | Berlin | Antiquarische Buchwoche
+  2026-07-04 12:15:23 | Berlin | Bildungsexkursion zur Berliner Theatergeschichte
+  2026-07-05 10:00:00 | Berlin | Antiquarische Buchwoche
+  2026-07-05 17:00:00 | Berlin | Literarisches Feld DDR
+  2026-07-07 17:00:00 | Berlin | 35 JAHRE HELLE PANKE
+  2026-07-08 19:00:59 | Berlin | Angriff auf den Sozialstaat — Kettensäge oder Ketten bilden?
+  2026-07-13 19:00:00 | Berlin | Vom Unwesen des Menschen
+  2026-07-13 20:30:28 | Berlin | Queeres Leben in Georgien
+  2026-07-14 19:00:00 | Berlin | Hakenkreuz und Heimatschutz
+  2026-07-15 19:00:42 | Berlin | Venezuela als Labor neuer geopolitischer Machtverhältnisse
+  2026-07-16 18:00:00 | Berlin | Geschichte und Gegenwart der Antifaschistischen Aktion
+  2026-07-17 13:00:00 | Berlin | Symposium: Reworking Critical Marxist Theory
+  2026-07-23 19:00:52 | Berlin | Queer und Klasse: Über Armut, Ausgrenzung und Solidarität
+  2026-07-30 18:00:11 | Berlin | Antisemitismus und die Neue Rechte

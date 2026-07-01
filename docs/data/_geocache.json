@@ -1,4 +1,10 @@
 {
+ "10117 Berlin": {
+  "address": "10117 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5169123,
+  "lng": 13.3873555
+ },
  "10245 Berlin": {
   "address": "10245 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -277,6 +283,8 @@
   "lng": 13.451159
  },
  "B-Lage Mareschstr. 1 12055, 12055 Berlin": null,
+ "BAIZ , Schönhauser Allee 26 10435 Berlin": null,
+ "BHT, Raum D E27, Luxemburger Straße 10, 13353 Berlin": null,
  "BHT, Raum D117, Luxemburger Straße 10, 13353 Berlin": null,
  "BLO-Ateliers Kaskelstr. 55 10317 Berlin Deutschland": {
   "address": "Kaskelstraße 55, 10317 Rummelsburg",
@@ -559,6 +567,12 @@
  },
  "CHIP Jugendhaus, Reichenberger Straße 44-45, 10999 Berlin": null,
  "Cafe Cralle, Hochstädter Straße 10a, 13347 Berlin": null,
+ "Cafe Hardenberg, Hardenbergstraße 10, 10623 Berlin": {
+  "address": "Hardenbergstraße 10, 10623 Charlottenburg",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.5094541,
+  "lng": 13.3249126
+ },
  "Café Cralle Hochstädter Straße 10A, Berlin": {
   "address": "Hochstädter Straße 10a, 13347 Wedding",
   "bezirk": "Mitte",
@@ -597,6 +611,7 @@
   "lng": 13.4940034
  },
  "Café en passant, Schönhauser Allee 58 10437 Berlin - Prenzlauer Berg": null,
+ "Campus Mitte, Humboldt-Universität 10117 Berlin Deutschland": null,
  "Capoeira Akademie Berlin, Hasenheide 9 (im 2. Hinterhof 1.Stock), 10967 Berlin": null,
  "Casino für Sozialmedizin, Sonnenallee 100, 12045 Berlin": null,
  "Casinoooo Sonnenallee 100 12045 Berlin Deutschland": null,
@@ -670,6 +685,7 @@
   "lat": 52.4985917,
   "lng": 13.4437627
  },
+ "DRK Kliniken, Osloer Straße 36 13359 Berlin Deutschland": null,
  "Daruma, Karl-Marx-Straße 275, 12057 Berlin": {
   "address": "Karl-Marx-Straße 275, 12057 Neukölln",
   "bezirk": "Neukölln",
@@ -848,6 +864,18 @@
   "bezirk": "Steglitz-Zehlendorf",
   "lat": 52.4168112,
   "lng": 13.2896103
+ },
+ "Graefestraße 14, 10967 Berlin": {
+  "address": "Graefestraße 14, 10967 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4932499,
+  "lng": 13.417714
+ },
+ "Greifenhagener Str. 28, 10437 Berlin": {
+  "address": "Greifenhagener Straße 28, 10437 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5514399,
+  "lng": 13.4187826
  },
  "Greifswalder Str. 4, 10405 Berlin": {
   "address": "Greifswalder Straße 4, 10405 Prenzlauer Berg",
@@ -1103,6 +1131,12 @@
  "Institut für Europäische Ethnologie der HU, Raum 408, Anton-Wilhelm-Amo-Straße 40-41, 10117 Berlin": null,
  "Interbüro Genter Straße 60 13533 Berlin Deutschland": null,
  "Interkulturelles Haus - Theater unterm Dach, Schönfließer Straße 7, 10439, Berlin": null,
+ "Invalidenstraße 129, 10115 Berlin": {
+  "address": "Invalidenstraße 129, 10115 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5314904,
+  "lng": 13.388528
+ },
  "Invalidenstraße 51, 10557 Berlin": {
   "address": "Invalidenstraße 51, 10557 Moabit",
   "bezirk": "Mitte",
@@ -1428,6 +1462,12 @@
   "lat": 52.4478093,
   "lng": 13.3769103
  },
+ "Kurfürstenstraße 52, 14469 Berlin": {
+  "address": "Kurfürstenstraße 52, 12249 Lankwitz",
+  "bezirk": "Steglitz-Zehlendorf",
+  "lat": 52.4244789,
+  "lng": 13.3380993
+ },
  "KvU Händelallee 22 10557 Berlin Deutschland": null,
  "KØPI Köpenicker Straße 137 10179 Berlin Deutschland": {
   "address": "Köpenicker Straße 137, 10179 Mitte",
@@ -1642,6 +1682,12 @@
   "lat": 52.5308548,
   "lng": 13.4072136
  },
+ "Lovelite, Haasestr. 1, 10245 Berlin": {
+  "address": "Haasestraße 1, 10245 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5067569,
+  "lng": 13.4616719
+ },
  "Luftschloss Tempelhofer Feld, Tempelhofer Feld, 12101, Berlin": null,
  "Lumen D'arc, Berlin": null,
  "Lunte Weisestr. 53 12049 Berlin Deutschland": {
@@ -1685,6 +1731,7 @@
   "lat": 52.5072971,
   "lng": 13.4527414
  },
+ "Manifest Bücher & Café, Graefestraße 14, 10967 Berlin": null,
  "Mansteinstr. 10, Berlin": {
   "address": "Mansteinstraße 10, 10783 Schöneberg",
   "bezirk": "Tempelhof-Schöneberg",
@@ -1740,6 +1787,12 @@
   "lng": 13.423541
  },
  "Mariannenplatz Bethanien New York im Bethanien 10997 Berlin Deutschland": null,
+ "Mariannenplatz berlin Deutschland": {
+  "address": "Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5038986,
+  "lng": 13.4254958
+ },
  "Mariannenstraße 6, 10997 Berlin": {
   "address": "Mariannenstraße 6, 10997 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -1929,6 +1982,12 @@
  },
  "Ort bei Anmeldung Ort bei Anmeldung Berlin": null,
  "Ort bei Anmeldung Ort bei Anmeldung Berlin Deutschland": null,
+ "Osloer Straße 36, 13359 Berlin": {
+  "address": "Osloer Straße 36, 13359 Gesundbrunnen",
+  "bezirk": "Mitte",
+  "lat": 52.5570303,
+  "lng": 13.3748997
+ },
  "Otto-von-Simson-Straße 23, Berlin": {
   "address": "Otto-von-Simson-Straße 23, 14195 Dahlem",
   "bezirk": "Steglitz-Zehlendorf",
@@ -1984,6 +2043,12 @@
   "bezirk": "Steglitz-Zehlendorf",
   "lat": 52.4565486,
   "lng": 13.3489971
+ },
+ "Platz der Republik 1, 11011 Berlin": {
+  "address": "Platz der Republik 1, 11011 Tiergarten",
+  "bezirk": "Mitte",
+  "lat": 52.5186538,
+  "lng": 13.3761015
  },
  "Potsdamer Platz Potsdamer Platz Berlin Deutschland": {
   "address": "Potsdamer Platz, 10785 Mitte",
@@ -2336,6 +2401,12 @@
   "lat": 52.5359511,
   "lng": 13.4126884
  },
+ "Schönhauser Allee 26, 10435 Berlin": {
+  "address": "Schönhauser Allee 26, 10435 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5357351,
+  "lng": 13.4130616
+ },
  "Schönhauser Allee 44b, 10435 Berlin": {
   "address": "Schönhauser Allee 44b, 10435 Prenzlauer Berg",
   "bezirk": "Pankow",
@@ -2397,6 +2468,7 @@
   "lat": 52.4749881,
   "lng": 13.4530868
  },
+ "Sonntagsclub, Sonntags-Club e.V., Greifenhagener Str. 28, 10437 Berlin": null,
  "Sophiensæle, Berlin": {
   "address": "Sophienstraße 18, 10178 Mitte",
   "bezirk": "Mitte",
@@ -2470,6 +2542,7 @@
   "lat": 52.4768251,
   "lng": 13.3876685
  },
+ "The Castle, The Castle, Berlin Mitte, Invalidenstraße 129, 10115 Berlin": null,
  "Theater Strahl. Halle Ostkreuz, Berlin": null,
  "Theater an der Parkaue, Berlin": {
   "address": "Parkaue 29, 10367 Lichtenberg",
@@ -2487,6 +2560,7 @@
   "lng": 13.4106052
  },
  "Tischlerei der Deutschen Oper Berlin, Bismarckstraße 35, 10585, Berlin": null,
+ "Tomasa Potsdam, Kurfürstenstraße 52, 14469 Potsdam, Berlin": null,
  "Torgauer Straße 25, 10829 Berlin": {
   "address": "Torgauer Straße 1-25, 10829 Schöneberg",
   "bezirk": "Tempelhof-Schöneberg",

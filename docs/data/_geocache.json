@@ -1,4 +1,5 @@
 {
+ "\"when the time is right...\" 31.07 - 02.08, Berlin": null,
  "10117 Berlin": {
   "address": "10117 Mitte",
   "bezirk": "Mitte",
@@ -268,6 +269,7 @@
   "lat": 52.5379007,
   "lng": 13.4024087
  },
+ "Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin": null,
  "Auf Anfrage Auf Anfrage, Berlin": null,
  "Auf Anfrage, Auf Anfrage, Berlin": null,
  "Auguststraße 69, 10117 Berlin": {
@@ -293,6 +295,12 @@
   "lng": 13.4832995
  },
  "BLO-Ateliers Kaskelstr. 55 10317, 10317 Berlin": null,
+ "BMI, Alt-Moabit 140, 12051 Berlin": {
+  "address": "Alt-Moabit 140, 10557 Moabit",
+  "bezirk": "Mitte",
+  "lat": 52.5218423,
+  "lng": 13.3631531
+ },
  "BUNDjugend Erich-Weinert-Straße 82 10439 Berlin Deutschland": {
   "address": "Erich-Weinert-Straße 82, 10439 Prenzlauer Berg",
   "bezirk": "Pankow",
@@ -522,11 +530,23 @@
   "lat": 52.5525923,
   "lng": 13.4305919
  },
+ "BruchBerg Bar, Okerstraße 5, 12049 Berlin": {
+  "address": "Okerstraße 5, 12049 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4742607,
+  "lng": 13.4261908
+ },
  "Brunnenstr. 7, 10119 Berlin": {
   "address": "Brunnenstraße 7, 10119 Mitte",
   "bezirk": "Mitte",
   "lat": 52.5308688,
   "lng": 13.400486
+ },
+ "Brüsseler Straße 36 A, 13353 Berlin": {
+  "address": "Brüsseler Straße 36A, 13353 Wedding",
+  "bezirk": "Mitte",
+  "lat": 52.5458366,
+  "lng": 13.348105
  },
  "Buchberger Str. 6, 10365 Berlin": {
   "address": "Buchberger Straße 6, 10365 Lichtenberg",
@@ -628,6 +648,7 @@
   "lat": 52.5168428,
   "lng": 13.2917601
  },
+ "Cittipunkt e.V., Brüsseler Straße 36 A, 13353 Berlin": null,
  "Club Sauna Berlin": {
   "address": "Mehringdamm 32, 10961 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -1254,6 +1275,12 @@
   "lng": 13.4580211
  },
  "Kadterschmiede Rigaer Str. 94 10245, 10245 Berlin": null,
+ "Kaiser-Friedrich-Straße 67, 10627 Berlin": {
+  "address": "Kaiser-Friedrich-Straße 67, 10627 Charlottenburg",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.509259,
+  "lng": 13.3021631
+ },
  "Kaisersteg, 12459 Berlin": {
   "address": "Kaisersteg, 12439 Oberschöneweide",
   "bezirk": "Treptow-Köpenick",
@@ -1341,6 +1368,12 @@
  },
  "Kiezladen Rote Ella Buttmannstr. 1A, Berlin": null,
  "Kiezladen Rote Ella, Buttmannstr. 1A, Berlin-Wedding Berlin Deutschland": null,
+ "Kiezladen Sonnenallee 154 12059 Berlin": {
+  "address": "Sonnenallee 154, 12059 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4783548,
+  "lng": 13.4463995
+ },
  "Kiezraum auf dem Dragoner-Areal Berlin": null,
  "Kiezraum auf dem Dragoner-Areal Berlin Deutschland": null,
  "Kiezraum auf dem Dragonerareal Mehringdamm 20 10961 Berlin Deutschland": null,
@@ -1813,6 +1846,12 @@
  },
  "Martha Bethaniendamm Berlin": null,
  "Martha Bethaniendamm Berlin Deutschland": null,
+ "Martha-Ndumbe-Platz, 13347 Berlin": {
+  "address": "Martha-Ndumbe-Platz, 13347 Wedding",
+  "bezirk": "Mitte",
+  "lat": 52.5447135,
+  "lng": 13.3693714
+ },
  "Matthäikirchplatz, 10785 Berlin": {
   "address": "Matthäikirchplatz, 10785 Tiergarten",
   "bezirk": "Mitte",
@@ -2644,6 +2683,12 @@
   "lat": 52.5171465,
   "lng": 13.3961451
  },
+ "Usedomer Straße 32, 13357 Berlin": {
+  "address": "Usedomer Straße 32, 13355 Gesundbrunnen",
+  "bezirk": "Mitte",
+  "lat": 52.5405935,
+  "lng": 13.3926016
+ },
  "Vagabund Brauerei Kesselhaus, Oudenarder Str. 16-20, 13347 Berlin-Wedding": null,
  "Vetomat Wühlischstr. 42 10247 Berlin Deutschland": {
   "address": "Wühlischstraße 42, 10245 Friedrichshain",
@@ -2669,6 +2714,12 @@
   "lng": 13.4119171
  },
  "Volkssolidarität \"Mehr Mitte\" Torstraße 190 10115 Berlin Deutschland": null,
+ "Vor dem Schlesischen Tor 3, 10997 Berlin": {
+  "address": "Vor dem Schlesischen Tor 3, 10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4972254,
+  "lng": 13.4493283
+ },
  "Vor der Amerika-Gedenkbibliothek, Blücherplatz 1, 10961 Berlin": null,
  "Vor der BHT-Mensa, Luxemburger Straße 9, 13353 Berlin": null,
  "WB13, Am Berl 13, 13051 Berlin": null,
@@ -2903,6 +2954,12 @@
   "bezirk": "Tempelhof-Schöneberg",
   "lat": 52.4993694,
   "lng": 13.3496349
+ },
+ "unknown, Berlin": {
+  "address": "Knesebeckstraße, 10623 Charlottenburg",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.504619,
+  "lng": 13.3219604
  },
  "verschiedene Veranstaltungsorte Berlin": null,
  "verschiedene Veranstaltungsorte, Berlin": null

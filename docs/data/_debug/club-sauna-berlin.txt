@@ -1,5 +1,4 @@
-Events: 16
-  2026-07-01 17:30:00 | gender mix
+Events: 15
   2026-07-02 17:30:00 | tin* sweat
   2026-07-03 17:30:00 | flinta sweat
   2026-07-04 17:30:00 | gender mix

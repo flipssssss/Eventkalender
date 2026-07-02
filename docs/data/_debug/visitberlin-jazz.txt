@@ -1,7 +1,4 @@
-Event-Links: 21 | Events: 21
-  2026-03-18 21:00:00 | KulturMarktHalle, Hanns-Eisler-Straße 93, 10409, Berlin | The Composers' Orchestra Berlin
-  2026-07-02 20:00:00 | Kulturhaus "alte feuerwache" Friedrichshain, Marchlewskistr. 6, 10243, Berlin | Konstantin Lemke P.R.O.J.E.C.T.S.
-  2026-07-02 20:00:00 | Alte Feuerwache Friedrichshain, Marchlewskistraße 6, 10243, Berlin | Patricio Böttcher Quartett
+Event-Links: 21 | Events: 19
   2026-07-03 20:00:00 | Luftschloss Tempelhofer Feld, Tempelhofer Feld, 12101, Berlin | Big Band Kameleon
   2026-07-04 17:00:00 | Krankenhauskirche im Wuhlgarten, Brebacher Weg 15, 12683, Berlin | ZERBRECHLICHE SCHÖNHEIT - Marita Czepa
   2026-06-25 20:00:00 | verschiedene Veranstaltungsorte, Berlin | Jazz am Helmholtzplatz
@@ -24,3 +21,4 @@ Brücke 1, 14109, Berlin | Shiny Stockings Trio
 Brücke 1, 14109, Berlin | Andrej Hermlin und The Swingin’ Hermlins »Jews in Jazz«
   2026-07-24 20:00:00 | Luftschloss Tempelhofer Feld, Tempelhofer Feld, 12101, Berlin | Berlin Beat Club
   2026-07-24 21:00:00 | b-flat, Dircksenstraße 40, 10178, Berlin | Hugo Fernandez Quartett "Rivermind"
+  2026-04-22 20:00:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Freestyle Lab – Musik, die jetzt passiert

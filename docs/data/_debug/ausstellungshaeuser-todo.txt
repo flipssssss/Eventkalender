@@ -1,9 +1,11 @@
 Häuser ohne kuratierte Öffnungszeiten (in scrapers/openinghours.py ergänzen):
 
+Berlin Berlin Deutschland
 Galerie BQ
 Museum Barberini
-Museum des Kapitalismus Köpenicker Str. 172 10997 Berlin Deutschland
 RWK Studios
 Regenbogenfabrik Lausitzer Str. 22 10999 Berlin Deutschland
 Spreepark Art Space - Eierhäuschen
+Technische Universität Berlin - Institut für Architektur
+silent green Kulturquartier - Betonhalle
 unknown

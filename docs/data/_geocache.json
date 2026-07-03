@@ -24,6 +24,12 @@
   "lat": 52.4964166,
   "lng": 13.362414
  },
+ "10961 Berlin": {
+  "address": "10961 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4926376,
+  "lng": 13.3974419
+ },
  "10997 Berlin": {
   "address": "10997 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -107,6 +113,7 @@
  "A-Trane Berlin, Bleibtreustrasse 1 10623": null,
  "AGB PopUp Saal Blücherplatz 1 10961 Berlin Deutschland": null,
  "AGB PopUp Saal Blücherplatz 1 10961, 10961 Berlin": null,
+ "AK Zwangsarbeit Ludwigsfelde, Berlin": null,
  "AStA FU Otto-von-Simson-Straße 23 Berlin Deutschland": null,
  "Abfahrt Solibus Züllichauer Straße 10965 Berlin Deutschland": null,
  "Achillesstraße 55, 13125 Berlin": {
@@ -307,6 +314,7 @@
   "lat": 52.5481759,
   "lng": 13.4270501
  },
+ "Babylon Kino, Rosa-Luxemburg-Straße 30, 10178 Berlin": null,
  "Bahnhof Oranienburg Berlin": null,
  "Bahnhof Oranienburg Berlin Deutschland": null,
  "Baiz Schönhauser Allee 26 A 10435 Berlin Deutschland": null,
@@ -426,6 +434,12 @@
   "lng": 13.8001845
  },
  "Bibliothek der Freien Greifswalder Str. 4 2. Hof, Raum 1102 (1. OG) 10405 Berlin Deutschland": null,
+ "Bilgisaray Oranienstr. 45 Berlin Deutschland": {
+  "address": "Oranienstraße 45, 10969 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5028152,
+  "lng": 13.4140937
+ },
  "Bismarckstraße 35, 10585 Berlin": {
   "address": "Bismarckstraße 35, 10627 Charlottenburg",
   "bezirk": "Charlottenburg-Wilmersdorf",
@@ -649,6 +663,7 @@
   "lng": 13.2917601
  },
  "Cittipunkt e.V., Brüsseler Straße 36 A, 13353 Berlin": null,
+ "City Kino Wedding Müllerstraße 74 13349 Berlin Deutschland": null,
  "Club Sauna Berlin": {
   "address": "Mehringdamm 32, 10961 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -872,6 +887,12 @@
   "bezirk": "Mitte",
   "lat": 52.5485624,
   "lng": 13.3522707
+ },
+ "Gerichtstraße 35, 13347 Berlin": {
+  "address": "Gerichtstraße 35, 13347 Wedding",
+  "bezirk": "Mitte",
+  "lat": 52.5456853,
+  "lng": 13.36649
  },
  "Globe Berlin, Sömmeringstraße 15, 10589, Berlin": null,
  "Gneisenaustr. 2a, 10961 Berlin": {
@@ -1374,6 +1395,12 @@
   "lat": 52.4783548,
   "lng": 13.4463995
  },
+ "Kiezladen Sonnenallee 154 Sonnenallee 154 12059 Berlin Deutschland": {
+  "address": "Sonnenallee 154, 12059 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4783548,
+  "lng": 13.4463995
+ },
  "Kiezraum auf dem Dragoner-Areal Berlin": null,
  "Kiezraum auf dem Dragoner-Areal Berlin Deutschland": null,
  "Kiezraum auf dem Dragonerareal Mehringdamm 20 10961 Berlin Deutschland": null,
@@ -1402,6 +1429,7 @@
   "lat": 52.4716193,
   "lng": 13.4510314
  },
+ "KollektivBar EigenSinn Pflügerstr. 52, 12047 Berlin Deutschland": null,
  "Kollwitzplatz, 10435 Berlin": {
   "address": "Wörther Straße, 10435 Prenzlauer Berg",
   "bezirk": "Pankow",
@@ -1528,6 +1556,12 @@
   "lat": 52.5043482,
   "lng": 13.434887
  },
+ "Köpi Berlin Deutschland": {
+  "address": "Köpenicker Straße 137, 10179 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5077022,
+  "lng": 13.4260264
+ },
  "L5 Späti Lenaustraße 5 12047 Berlin Deutschland": {
   "address": "Lenaustraße 5, 12047 Neukölln",
   "bezirk": "Neukölln",
@@ -1536,6 +1570,12 @@
  },
  "L5 Späti Lenaustraße 5 12047, 12047 Berlin": null,
  "La Casa Wurzener Str. 6 12627 Berlin Deutschland": {
+  "address": "Wurzener Straße 6;8, 12627 Hellersdorf",
+  "bezirk": "Marzahn-Hellersdorf",
+  "lat": 52.5422403,
+  "lng": 13.6173176
+ },
+ "La Casa Wurzener Straße 6, 12627 Berlin": {
   "address": "Wurzener Straße 6;8, 12627 Hellersdorf",
   "bezirk": "Marzahn-Hellersdorf",
   "lat": 52.5422403,
@@ -1924,6 +1964,12 @@
   "lat": 52.5000581,
   "lng": 13.4174433
  },
+ "Müllerstraße 74, 13349 Berlin": {
+  "address": "Müllerstraße 74, 13349 Wedding",
+  "bezirk": "Mitte",
+  "lat": 52.5583634,
+  "lng": 13.339231
+ },
  "Müßiggang Oranienstr. 14a 10999 Berlin Deutschland": null,
  "Müßiggang Oranienstr. 14a, 10999 Berlin": {
   "address": "Oranienstraße 14a, 10999 Kreuzberg",
@@ -2058,6 +2104,12 @@
   "lat": 52.4992818,
   "lng": 13.418915
  },
+ "Pankow/Weißensee Berlin Deutschland": {
+  "address": "Parkstraße 71, 13086 Weißensee",
+  "bezirk": "Pankow",
+  "lat": 52.557391,
+  "lng": 13.4600765
+ },
  "Peppi Guggenheim, Weichselstrasse 7, 12043, Berlin": {
   "address": "Weichselstraße 7, 12043 Neukölln",
   "bezirk": "Neukölln",
@@ -2077,6 +2129,13 @@
   "lng": 13.3513556
  },
  "Peter-Göring-Str. 25, Berlin": null,
+ "Pflügerstr. 52, 12047 Berlin": {
+  "address": "Pflügerstraße 52, 12047 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4901195,
+  "lng": 13.4335474
+ },
+ "Piekfeiner Laden - Hausprojekt Wönnichstr. 103 Berlin Deutschland": null,
  "Planetarium Berlin": {
   "address": "Munsterdamm, 12169 Steglitz",
   "bezirk": "Steglitz-Zehlendorf",
@@ -2221,6 +2280,12 @@
   "lng": 13.4641926
  },
  "Rigaer Str. 78 10247, 10247 Berlin": null,
+ "Rigaer Straße 94 10247 Berlin": {
+  "address": "Rigaer Straße 94, 10247 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.517933,
+  "lng": 13.4580095
+ },
  "Rigaer Straße 94, 10247 Berlin": {
   "address": "Rigaer Straße 94, 10247 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -2246,6 +2311,12 @@
   "bezirk": "Steglitz-Zehlendorf",
   "lat": 52.4376603,
   "lng": 13.2799735
+ },
+ "Rosa-Luxemburg-Straße 30, 10178 Berlin": {
+  "address": "Rosa-Luxemburg-Straße 30, 10178 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5258989,
+  "lng": 13.4114358
  },
  "Rosa-Luxemburg-Straße 39, 10178 Berlin": {
   "address": "Rosa-Luxemburg-Straße 39, 10178 Mitte",
@@ -2550,6 +2621,12 @@
   "lat": 52.5141861,
   "lng": 13.3356226
  },
+ "Straße des 17. Juni 152, 10623 Berlin": {
+  "address": "Straße des 17. Juni 152, 10623 Charlottenburg",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.5137508,
+  "lng": 13.3234541
+ },
  "Subversiv Brunnenstr. 7 HH 10119 Berlin Deutschland": null,
  "Supamolly Jessnerstr. 41 10247 Berlin Deutschland": {
   "address": "Jessnerstraße 41, 10247 Friedrichshain",
@@ -2721,6 +2798,7 @@
   "lng": 13.4493283
  },
  "Vor der Amerika-Gedenkbibliothek, Blücherplatz 1, 10961 Berlin": null,
+ "Vor der Amerika-Gedenkbibliothek, Eva-Mamlok-Platz (ehemals Blücherplatz), 10961 Berlin": null,
  "Vor der BHT-Mensa, Luxemburger Straße 9, 13353 Berlin": null,
  "WB13, Am Berl 13, 13051 Berlin": null,
  "Wagenburg Lohmühle Lohmühlenstr. 17 12435 Berlin Deutschland": null,
@@ -2839,6 +2917,12 @@
  },
  "Wrangelstraße Ecke Falckensteinstraße Berlin": null,
  "Wrangelstraße Ecke Falckensteinstraße Berlin Deutschland": null,
+ "Wönnichstr. 103, Berlin": {
+  "address": "Wönnichstraße 103, 10317 Rummelsburg",
+  "bezirk": "Lichtenberg",
+  "lat": 52.5015529,
+  "lng": 13.4954986
+ },
  "XXL – Berlin Pornokino & Sexshop": null,
  "XXL – Berlin, Pornokino & Sexshop": null,
  "Yaam (an der Schillingbrücke) An der Schillingbrücke 3 Berlin": {

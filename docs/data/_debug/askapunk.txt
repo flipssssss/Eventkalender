@@ -1,31 +1,31 @@
 API-Events: 47 | übernommen: 47
-  2026-07-02 17:00:00 | Punk | Soli-concert latino attack
-  2026-07-02 19:00:00 | Punk | Bitume (Punkrock aus dem Norden) + Television Knockout (Punkrock aus Berlin) im Schokoladen
-  2026-07-02 19:00:00 | Hip-Hop | aya / Lord Snow / soastasphrenas / draftclass / sienna sleep
-  2026-07-02 20:00:00 | Punk | BRAK // SPEARFLOWER // XPOLLYX feat. KULYENCHIKEV // HORA LUNGA
   2026-07-03 16:45:00 | None | Queer Tours for All - Radical Prenzlauer Berg
   2026-07-03 17:00:00 | Punk | Punkgarten im Sektgarten
   2026-07-03 18:00:00 | Punk | Thraki Fest - Soli For Etniko Bandido
   2026-07-03 19:00:00 | Punk | Strung Out, The Corps & We Will Fly
-  2026-07-03 19:00:00 | Punk | ADI SCOTHEQUE (lofi garage-pop dance-punk) & RASCO (surf garage psych)
   2026-07-03 19:00:00 | Punk | Wellsaid + Sorry I'm Late + The River Speaks
+  2026-07-03 19:00:00 | Punk | ADI SCOTHEQUE (lofi garage-pop dance-punk) & RASCO (surf garage psych)
   2026-07-03 20:00:00 | Punk | BADTIME + PLATTENBAU
   2026-07-04 16:00:00 | None | 🌵 NITRO & MILK - Staffel 2 - Folge 02  "DESPERADOS II" - PREMIERE 🌵
   2026-07-04 19:30:00 | Punk | LETZTE HOFFNUNG - ÖPNV - SEXVERBOT
   2026-07-04 20:00:00 | Punk | Emma Goldman / Deshielo / zhne
   2026-07-05 14:45:00 | None | Queer Tours for All - Gay and Sapphic Schöneberg
-  2026-07-06 19:00:00 | Punk | Sisters of Doom (Garage/Punk/Rock'n'Roll-Duo, °Mexiko/UK) + Royalty (Punk n Roll, °Berlin) im Schokoladen
   2026-07-06 19:00:00 | Punk | BOLD + DRINK DEEP + ECOTAGE
+  2026-07-06 19:00:00 | Punk | Sisters of Doom (Garage/Punk/Rock'n'Roll-Duo, °Mexiko/UK) + Royalty (Punk n Roll, °Berlin) im Schokoladen
   2026-07-07 18:45:00 | None | Queer Tours for All - Queer Kreuzberg
   2026-07-08 17:45:00 | None | Queer Tours for All - Anticolonial Mitte
   2026-07-08 19:00:00 | Punk | The Schizophonics (garage-punk / psych / r'n'r, san diego) + Blister (psych-indie-rock, hh/bln)
   2026-07-09 07:30:00 | Metal | DIB pres.: DIONYSIAQUE (FR) | Neue Zukunft, Berlin
   2026-07-09 19:00:00 | Punk | BALACLAVA (U.S.) & BUMM TSCHACK DEBATTE (Bln)
-  2026-07-10 17:00:00 | Punk | A WORLD OF OUR OWN FESTIVAL
   2026-07-10 17:00:00 | Punk | ORWOhaus Festival – Episode XIX
+  2026-07-10 17:00:00 | Punk | A WORLD OF OUR OWN FESTIVAL
   2026-07-10 17:45:00 | None | Queer Tours for All - Ecology in Plänterwald
   2026-07-11 18:00:00 | None | MONDO VIDEO III: Kampf der Welten - Chaostage 95 (1996, 92‘, DF) & Nie wieder Arbeit - Die APPD, der legale Arm der Chaostage? (1998, DF)
   2026-07-11 19:00:00 | Punk | MOLOCH (Punk, Bln) + PINK WONDER (Scumpunk, Bln)
   2026-07-11 20:00:00 | Punk | Shybits + Däächt + cementa
   2026-07-12 14:45:00 | None | Queer Tours for All - Gay and Sapphic Schöneberg
   2026-07-12 17:00:00 | Punk | Soli concert
+  2026-07-13 19:00:00 | Punk | CÚT LỘN (Ho Chi Minh City, hardcore punk) + I HATE THE BOUNCERS (Berlin, punk) im Schokoladen
+  2026-07-13 20:00:00 | None | DIPLOID / D'CO / LA HAINE // July 13, 2026 // OGH Berlin
+  2026-07-14 19:00:00 | Punk | HEZ + NERVE CENTER + TUÉTANO
+  2026-07-15 19:00:00 | None | Identity Shock + Preemptive Strike + Big Iron

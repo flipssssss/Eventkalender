@@ -1,8 +1,8 @@
 Events: 7
-  2026-07-02 17:00:00 | Wohlfühlabend
   2026-07-03 17:00:00 | Aufgüsse am Freitag
   2026-07-04 17:00:00 | Aufgüsse am Samstag
   2026-07-05 17:00:00 | Aufgüsse am Sonntag
   2026-07-06 17:00:00 | Aufgüsse am Montag
   2026-07-07 17:00:00 | Themenabend
   2026-07-08 17:00:00 | Aufgüsse am Mittwoch
+  2026-07-09 17:00:00 | Wohlfühlabend

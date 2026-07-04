@@ -593,6 +593,12 @@
   "lat": 52.5524901,
   "lng": 13.3788571
  },
+ "Buttmannstraße, 13357 Berlin": {
+  "address": "Buttmannstraße, 13357 Gesundbrunnen",
+  "bezirk": "Mitte",
+  "lat": 52.5526787,
+  "lng": 13.3794579
+ },
  "Böse Buben, Berlin": {
   "address": "Sachsendamm 76-77, 10829 Schöneberg",
   "bezirk": "Tempelhof-Schöneberg",
@@ -996,6 +1002,12 @@
  },
  "HAU2 Hallesches Ufer 34 10963 Berlin Deutschland": null,
  "HAU2 Hallesches Ufer 34 10963, 10963 Berlin": null,
+ "Hallesches Tor, 10969 Berlin": {
+  "address": "Mehringplatz, 10969 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4990257,
+  "lng": 13.3917126
+ },
  "Hallesches Ufer 34, 10963 Berlin": {
   "address": "Hallesches Ufer 34, 10963 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -2021,6 +2033,12 @@
   "lat": 52.4995972,
   "lng": 13.3537297
  },
+ "Nollendorfplatz / Motzstraße, Berlin": {
+  "address": "Motzstraße, 10777 Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4991429,
+  "lng": 13.3521559
+ },
  "Nonnendammallee 135, 12277 Berlin": {
   "address": "Nonnendammallee 135, 13599 Haselhorst",
   "bezirk": "Spandau",
@@ -2601,6 +2619,7 @@
   "lat": 52.5120816,
   "lng": 13.3240122
  },
+ "Stadteilladen Lunte, Weisestraße 53, 12049 Berlin": null,
  "Stadtschloss Moabit, Rostocker Straße 32, 10553 Berlin": {
   "address": "Rostocker Straße 32, 10553 Moabit",
   "bezirk": "Mitte",
@@ -2879,6 +2898,13 @@
   "lng": 13.4243386
  },
  "WikiBär Köpenicker Str. 45 10179, 10179 Berlin": null,
+ "Wilde24, Wildenbruchstraße 24, 12045 Berlin": null,
+ "Wildenbruchstraße 24, 12045 Berlin": {
+  "address": "Wildenbruchstraße 24, 12045 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4865097,
+  "lng": 13.4468623
+ },
  "Willy-Brandt-Straße 1, 10557 Berlin": {
   "address": "Willy-Brandt-Straße 1, 10557 Tiergarten",
   "bezirk": "Mitte",

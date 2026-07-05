@@ -30,6 +30,12 @@
   "lat": 52.4926376,
   "lng": 13.3974419
  },
+ "10967 Berlin": {
+  "address": "10967 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4901836,
+  "lng": 13.4164423
+ },
  "10997 Berlin": {
   "address": "10997 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -77,6 +83,12 @@
   "bezirk": "Lichtenberg",
   "lat": 52.5815191,
   "lng": 13.4934872
+ },
+ "13349 Berlin": {
+  "address": "13349 Wedding",
+  "bezirk": "Mitte",
+  "lat": 52.5579871,
+  "lng": 13.347349
  },
  "13359 Berlin": {
   "address": "13359 Gesundbrunnen",
@@ -142,6 +154,12 @@
  },
  "Ale Felcitas, Berlin": null,
  "Ale Felicitas, Berlin": null,
+ "Alexanderplatz 10187 Berlin Deutschland": {
+  "address": "Alexanderplatz, Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5219814,
+  "lng": 13.4136358
+ },
  "Alexanderplatz, Berlin": {
   "address": "Alexanderplatz, Mitte",
   "bezirk": "Mitte",
@@ -742,6 +760,12 @@
  },
  "Das Jüdische Kulturschiff MS Goldberg, Schifffahrtsufer 2\nan der Dischinger Brücke, 13581, Berlin-Spandau": null,
  "Dorfplatz (Fhain) Rigaerstr. Ecke Liebigstr. 10247 Berlin Deutschland": null,
+ "Dresdener Straße 8, 10999 Berlin": {
+  "address": "Dresdener Straße 8, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5002301,
+  "lng": 13.4176869
+ },
  "Drugstore im Rockhaus Buchberger Str. 6 10365 Berlin Deutschland": null,
  "Drugstore im Rockhaus Buchberger Str. 6 10365, 10365 Berlin": null,
  "EUREF-Campus Berlin, Torgauer Straße 25, 10829, Berlin": null,
@@ -805,6 +829,18 @@
   "lng": 13.4375821
  },
  "Fakeera, Berlin": null,
+ "Falckensteinstraße 1099, 10997 Berlin": {
+  "address": "Falckensteinstraße, 10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4973307,
+  "lng": 13.4411769
+ },
+ "Fargo Grünberger Straße 77 Berlin Deutschland": {
+  "address": "Grünberger Straße 77, 10245 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5113472,
+  "lng": 13.4600447
+ },
  "Fasanenstr. 1, 10623 Berlin": {
   "address": "Fasanenstraße 1, 10623 Charlottenburg",
   "bezirk": "Charlottenburg-Wilmersdorf",
@@ -1027,6 +1063,7 @@
   "lat": 52.4894942,
   "lng": 13.4100369
  },
+ "Hasenheide, Anmeldung erforderlich, 10967 Berlin": null,
  "Hasselwerderstr. 22A, 12439 Berlin": {
   "address": "Hasselwerderstraße 22A, 12439 Niederschöneweide",
   "bezirk": "Treptow-Köpenick",
@@ -2053,6 +2090,7 @@
   "lat": 52.5076121,
   "lng": 13.4749435
  },
+ "Obdachb e.V. Oudenarder Str. 26 Wedding Berlin Deutschland": null,
  "Obentrautstraße 19-21, 10963 Berlin": {
   "address": "Obentrautstraße 19-21, 10963 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -2102,6 +2140,12 @@
   "bezirk": "Mitte",
   "lat": 52.5530317,
   "lng": 13.3594121
+ },
+ "Oudenarder Str. 26, Berlin": {
+  "address": "Oudenarder Straße 26, 13347 Wedding",
+  "bezirk": "Mitte",
+  "lat": 52.5531466,
+  "lng": 13.3636952
  },
  "Oya-Bar, Mariannenstraße 6 10997 Berlin Deutschland": null,
  "PA58 Prinzenallee 58 Berlin Deutschland": {
@@ -2191,6 +2235,7 @@
  "Quälgeist Berlin e.V. Lankwitzer Straße 42/43, 12107 Berlin": null,
  "Quälgeist Berlin e.V., Lankwitzer Straße 42/43, Berlin, 12107, Deutschland": null,
  "Quälgeist, Lankwitzer Straße 42/43, 12107 Berlin": null,
+ "RADAU, Schererstraße 8, 13347 Berlin": null,
  "RAUM Rungestr. 20 Berlin Deutschland": null,
  "RSO.BERLIN, Berlin": {
   "address": "Schnellerstraße, 12439 Niederschöneweide",
@@ -2428,11 +2473,23 @@
   "lat": 52.4986606,
   "lng": 13.3022747
  },
+ "Schererstraße 8, 13347 Berlin": {
+  "address": "Schererstraße 8, 13347 Wedding",
+  "bezirk": "Mitte",
+  "lat": 52.5481641,
+  "lng": 13.3670511
+ },
  "Scheune, Berlin": {
   "address": "Motzstraße 25, 10777 Schöneberg",
   "bezirk": "Tempelhof-Schöneberg",
   "lat": 52.4977185,
   "lng": 13.3484263
+ },
+ "Schierker Platz, 12051 Berlin": {
+  "address": "Schierker Platz, 12051 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4704756,
+  "lng": 13.4376519
  },
  "Schifffahrtsufer 2, 13581 Berlin": {
   "address": "Hermann-Oxfort-Promenade, 13581 Spandau",
@@ -2671,12 +2728,21 @@
  "TBA, to be announced, Berlin": null,
  "THF Tower Flughafen Tempelhof in Berlin, Tempelhofer Damm 45, 12101, Berlin": null,
  "TU Berlin, Raum EB 202, Straße des 17. Juni 145, 10623 Berlin": null,
+ "Tempelhof 1210, 12101 Berlin": {
+  "address": "Tempelhof",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4649016,
+  "lng": 13.3959089
+ },
  "Tempelhofer Damm 45, 12101 Berlin": {
   "address": "Tempelhofer Damm 45, 12101 Tempelhof",
   "bezirk": "Tempelhof-Schöneberg",
   "lat": 52.4768251,
   "lng": 13.3876685
  },
+ "Tempelhofer Feld Eingang S+U-Bhf Tempelhof 12101 Berlin": null,
+ "Tempelhofer Feld Neuköllner Seite Haus 104 Tempelhofer Feld Neuköllner Seite Haus 104 Tempelhofer Damm Berlin": null,
+ "Tempelhofer Feld, Neuköllner Seite, Haus 104 Tempelhofer Feld, Neuköllner Seite, Haus 104 Tempelhofer Damm Berlin Deutschland": null,
  "The Castle, The Castle, Berlin Mitte, Invalidenstraße 129, 10115 Berlin": null,
  "Theater Strahl. Halle Ostkreuz, Berlin": null,
  "Theater an der Parkaue, Berlin": {
@@ -2766,6 +2832,7 @@
   "lng": 13.4758561
  },
  "Türrschmidtstraße 1 10317, 10317 Berlin": null,
+ "U-Bhf Afrikanische Straße, vor der Steinbock Apotheke, 13349 Berlin": null,
  "U-Bhf Kurfürstenstr Kurfürstenstraße 32 Berlin 10785 10785 Berlin Deutschland": null,
  "UJZ Karlshorst Hönower Str. 30 10318 Berlin Deutschland": {
   "address": "Hönower Straße 30, 10318 Karlshorst",
@@ -2941,6 +3008,7 @@
   "lat": 52.4976052,
   "lng": 13.4449503
  },
+ "Wrangelstraße Ecke Falckensteinstraße 10997 Berlin": null,
  "Wrangelstraße Ecke Falckensteinstraße Berlin": null,
  "Wrangelstraße Ecke Falckensteinstraße Berlin Deutschland": null,
  "Wönnichstr. 103, Berlin": {
@@ -3043,6 +3111,7 @@
  "f.a.q. Jonasstr. 40 12053, 12053 Berlin": null,
  "google.com/maps/search/52.484655 +13.479626?entry=tts&g_ep=EgoyMDI1MTIwMi4wIPu8ASoASAFQAw%3D%3D&skid=c2a426cc-7998-470e-b747-f0ef180e4ca7, Berlin": null,
  "google.com/maps/search/52.484655,+13.479626?entry=tts&g_ep=EgoyMDI1MTIwMi4wIPu8ASoASAFQAw%3D%3D&skid=c2a426cc-7998-470e-b747-f0ef180e4ca7, Berlin": null,
+ "hofkino.berlin - Freiluftkino im FMP1": null,
  "https://karada-house.de/events/having-sex-with-vulvas-2/, Berlin": null,
  "https://karada-house.de/events/how-to-play/, Berlin": null,
  "https://karada-house.de/events/hurt-me-deliciously-2/, Berlin": null,

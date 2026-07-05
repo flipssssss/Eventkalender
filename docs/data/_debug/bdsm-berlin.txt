@@ -1,6 +1,6 @@
 URL: https://bdsm-berlin.de/kalender/
   HTTP-Status: 200
-  HTML-Länge: 429490 Zeichen
+  HTML-Länge: 429503 Zeichen
   JSON-LD vorhanden: True
   Events gefunden: 47
   Mögliche Programm-Unterseiten:
@@ -116,7 +116,7 @@ jQuery(document).ready(function()
     jQuery("#mec_monthly_view_month_26_202607").mecMonthlyView(
     {
         id: "26",
-        today: "20260704",
+        today: "20260705",
         display_all: "0",
         month_id: "202607",
         active_month: {year: "2026", month: "07"},

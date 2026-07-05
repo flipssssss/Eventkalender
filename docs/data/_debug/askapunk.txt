@@ -1,10 +1,7 @@
-API-Events: 43 | übernommen: 43
-  2026-07-04 16:00:00 | None | 🌵 NITRO & MILK - Staffel 2 - Folge 02  "DESPERADOS II" - PREMIERE 🌵
-  2026-07-04 19:30:00 | Punk | LETZTE HOFFNUNG - ÖPNV - SEXVERBOT
-  2026-07-04 20:00:00 | Punk | Emma Goldman / Deshielo / zhne
+API-Events: 40 | übernommen: 40
   2026-07-05 14:45:00 | None | Queer Tours for All - Gay and Sapphic Schöneberg
-  2026-07-06 19:00:00 | Punk | BOLD + DRINK DEEP + ECOTAGE
   2026-07-06 19:00:00 | Punk | Sisters of Doom (Garage/Punk/Rock'n'Roll-Duo, °Mexiko/UK) + Royalty (Punk n Roll, °Berlin) im Schokoladen
+  2026-07-06 19:00:00 | Punk | BOLD + DRINK DEEP + ECOTAGE
   2026-07-07 18:45:00 | None | Queer Tours for All - Queer Kreuzberg
   2026-07-08 17:45:00 | None | Queer Tours for All - Anticolonial Mitte
   2026-07-08 19:00:00 | Punk | The Schizophonics (garage-punk / psych / r'n'r, san diego) + Blister (psych-indie-rock, hh/bln)
@@ -29,3 +26,6 @@ API-Events: 43 | übernommen: 43
   2026-07-17 18:00:00 | Punk | 36 Jahre Schokoladen - Hoffest
   2026-07-21 18:45:00 | None | Queer Tours for All - Queer Kreuzberg
   2026-07-21 19:00:00 | Punk | Lydia Lunch - Welcome To My Church - An Intimate evening of words & music feat. Jochen Arbeit, Kristof Hahn & Travis Jeppesen
+  2026-07-23 19:00:00 | Punk | Loveth Besamoh (exp-indie-rock/post-punk) + Apelast (psych-rock/lofi-stoner)
+  2026-07-31 19:00:00 | Punk | WRECKAGE & ECHO CHAMBER
+  2026-08-05 19:00:00 | Punk | BLEACH TV (indie-rock/post-punk, hh) & DOGDAZE (shoegaze/post-punk, bln)

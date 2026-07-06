@@ -122,6 +122,7 @@
   "lat": 52.5024767,
   "lng": 13.466302
  },
+ "@boedi.nine Bödickerstraße 9, 10245 Berlin": null,
  "A-Trane Berlin, Bleibtreustrasse 1 10623": null,
  "AGB PopUp Saal Blücherplatz 1 10961 Berlin Deutschland": null,
  "AGB PopUp Saal Blücherplatz 1 10961, 10961 Berlin": null,
@@ -617,6 +618,7 @@
   "lat": 52.5526787,
   "lng": 13.3794579
  },
+ "Bödickerstraße 9, 10245 Berlin": null,
  "Böse Buben, Berlin": {
   "address": "Sachsendamm 76-77, 10829 Schöneberg",
   "bezirk": "Tempelhof-Schöneberg",
@@ -688,6 +690,7 @@
  },
  "Cittipunkt e.V., Brüsseler Straße 36 A, 13353 Berlin": null,
  "City Kino Wedding Müllerstraße 74 13349 Berlin Deutschland": null,
+ "City-Kino Wedding, Müllerstraße 74 13349 Berlin": null,
  "Club Sauna Berlin": {
   "address": "Mehringdamm 32, 10961 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -999,6 +1002,12 @@
   "lat": 52.4891631,
   "lng": 13.3527499
  },
+ "Grünberger Str. 77, Berlin": {
+  "address": "Grünberger Straße 77, 10245 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5113257,
+  "lng": 13.4601557
+ },
  "Grünberger Straße 73, 10245 Berlin": {
   "address": "Grünberger Straße 73, 10245 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -1057,6 +1066,12 @@
   "lng": 13.4860982
  },
  "Hardenbergstraße 22, 10623 Berlin": null,
+ "Hardenbergstraße 34, 10623 Berlin": {
+  "address": "Hardenbergstraße 34, 10623 Charlottenburg",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.5098828,
+  "lng": 13.3258234
+ },
  "Hasenheide 54, 10967 Berlin": {
   "address": "Hasenheide 54, 10967 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -1096,6 +1111,13 @@
   "lng": 13.3953731
  },
  "Hausvogteiplatz 5-7, Raum 0007, 10117 Berlin": null,
+ "Hedwig-Dohm-Haus Vorlesungssaal, Ziegelstraße 5, 10117 Berlin": null,
+ "Hegelplatz, 10117 Berlin": {
+  "address": "Georgenstraße, 10117 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5197989,
+  "lng": 13.3926928
+ },
  "Heimathafen Neukölln Karl-Marx-Str. 141 12043 Berlin Deutschland": {
   "address": "Karl-Marx-Straße 141, 12043 Neukölln",
   "bezirk": "Neukölln",
@@ -1345,6 +1367,12 @@
   "lng": 13.4580211
  },
  "Kadterschmiede Rigaer Str. 94 10245, 10245 Berlin": null,
+ "Kadterschmiede, Rigaer Straße 94, 10247 Berlin": {
+  "address": "Rigaer Straße 94, 10247 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5179905,
+  "lng": 13.4580211
+ },
  "Kaiser-Friedrich-Straße 67, 10627 Berlin": {
   "address": "Kaiser-Friedrich-Straße 67, 10627 Charlottenburg",
   "bezirk": "Charlottenburg-Wilmersdorf",
@@ -1772,6 +1800,13 @@
   "lat": 52.5186639,
   "lng": 13.4576357
  },
+ "Linie 206 Linienstr. 206 10119 Berlin Deutschland": null,
+ "Linienstr. 206, 10119 Berlin": {
+  "address": "Linienstraße 206, 10119 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5288992,
+  "lng": 13.4028556
+ },
  "Location is TBD, Berlin": null,
  "Loge Kinzigstr. 9 Berlin Deutschland": {
   "address": "Kinzigstraße 9, 10247 Friedrichshain",
@@ -1997,6 +2032,12 @@
   "lat": 52.4338463,
   "lng": 13.2543865
  },
+ "Modersohnstraße 55, Berlin": {
+  "address": "Modersohnstraße 55, 10245 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.502453,
+  "lng": 13.4571706
+ },
  "Murx, Karl-Marx-Straße 282, 12057 Berlin": null,
  "Museum des Kapitalismus Köpenicker Str. 172 10997 Berlin Deutschland": null,
  "Museum des Kapitalismus Köpenicker Str. 172 10997, 10997 Berlin": null,
@@ -2026,6 +2067,7 @@
   "lat": 52.5004737,
   "lng": 13.4234898
  },
+ "Nachbarschaftszentrum Rudi Modersohnstraße 55 Berlin Deutschland": null,
  "Naunystrasse 72, 10997 Berlin": null,
  "Neckarstr. 19 12053 Berlin Deutschland": {
   "address": "Neckarstraße 19, 12053 Neukölln",
@@ -2229,6 +2271,13 @@
   "lat": 52.5430569,
   "lng": 13.4281438
  },
+ "Prinzenallee 58, 13359 Berlin": {
+  "address": "Prinzenallee 58, 13359 Gesundbrunnen",
+  "bezirk": "Mitte",
+  "lat": 52.5583368,
+  "lng": 13.3846017
+ },
+ "Prinzenallee 58, Hinterhof Prinzenallee 58 13359 Berlin Deutschland": null,
  "Prinzessinnengarten Neukölln Hermannstraße 99-105 12051 Berlin Deutschland": null,
  "Prinzessinnengarten Neukölln Hermannstraße 99-105, 12051 Berlin": null,
  "Prinzessinnenstraße 30, 10969 Berlin": null,
@@ -2243,6 +2292,7 @@
   "lat": 52.459911,
   "lng": 13.5053346
  },
+ "Radau (ex-Infoladen) Schererstrasse 8 13347 Berlin Deutschland": null,
  "Radialsystem, Berlin": {
   "address": "Holzmarktstraße 33, 10243 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -2410,6 +2460,12 @@
   "lat": 52.4687052,
   "lng": 13.4333242
  },
+ "Rote Lilly, Emserstraße 114, 12051 Berlin": {
+  "address": "Emser Straße 114, 12051 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4687052,
+  "lng": 13.4333242
+ },
  "Rotes Rathaus Rathausstr 15 10178 Berlin Deutschland": {
   "address": "Rathausstraße 15, 10178 Mitte",
   "bezirk": "Mitte",
@@ -2423,6 +2479,12 @@
   "lng": 13.4078309
  },
  "Rungestr. 20, Berlin": {
+  "address": "Rungestraße 20, 10179 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5127217,
+  "lng": 13.4199215
+ },
+ "Rungestraße 20, 10179 Berlin": {
   "address": "Rungestraße 20, 10179 Mitte",
   "bezirk": "Mitte",
   "lat": 52.5127217,
@@ -2472,6 +2534,12 @@
   "bezirk": "Charlottenburg-Wilmersdorf",
   "lat": 52.4986606,
   "lng": 13.3022747
+ },
+ "Schererstrasse 8, 13347 Berlin": {
+  "address": "Schererstraße 8, 13347 Wedding",
+  "bezirk": "Mitte",
+  "lat": 52.5481641,
+  "lng": 13.3670511
  },
  "Schererstraße 8, 13347 Berlin": {
   "address": "Schererstraße 8, 13347 Wedding",
@@ -2526,6 +2594,12 @@
   "bezirk": "Steglitz-Zehlendorf",
   "lat": 52.4548978,
   "lng": 13.3175925
+ },
+ "Schloßstraße 70, 14059 Berlin": {
+  "address": "Schloßstraße 70, 14059 Charlottenburg",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.5191183,
+  "lng": 13.2967062
  },
  "Schloßstraße 9, 14059 Berlin": {
   "address": "Schloßstraße 9, 14059 Charlottenburg",
@@ -2728,6 +2802,7 @@
  "TBA, to be announced, Berlin": null,
  "THF Tower Flughafen Tempelhof in Berlin, Tempelhofer Damm 45, 12101, Berlin": null,
  "TU Berlin, Raum EB 202, Straße des 17. Juni 145, 10623 Berlin": null,
+ "TU Mensakreuzung, Hardenbergstraße 34, 10623 Berlin": null,
  "Tempelhof 1210, 12101 Berlin": {
   "address": "Tempelhof",
   "bezirk": "Tempelhof-Schöneberg",
@@ -3054,6 +3129,12 @@
   "lng": 13.2928997
  },
  "Zentrum Villa Lützow Lützowstraße 28 10785, 10785 Berlin": null,
+ "Ziegelstraße 5, 10117 Berlin": {
+  "address": "Ziegelstraße 5, 10117 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5233563,
+  "lng": 13.3898043
+ },
  "Zielona Gora, Grünberger Straße 73, 10245 Berlin": null,
  "Zielona Góra Grünbergerstr. 73 10245 Berlin Deutschland": {
   "address": "Grünberger Straße 73, 10245 Friedrichshain",
@@ -3117,6 +3198,7 @@
  "https://karada-house.de/events/hurt-me-deliciously-2/, Berlin": null,
  "https://karada-house.de/events/practical-reflections/, Berlin": null,
  "https://karada-house.de/events/radical-inclusion/, Berlin": null,
+ "inter:Salon, Rungestraße 20, 10179 Berlin": null,
  "llmann🕯, Berlin": null,
  "mainhall, Berlin": null,
  "men Race & Class“ von Angela Davis, Berlin": null,

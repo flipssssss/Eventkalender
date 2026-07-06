@@ -1,5 +1,4 @@
-API-Events: 40 | übernommen: 40
-  2026-07-05 14:45:00 | None | Queer Tours for All - Gay and Sapphic Schöneberg
+API-Events: 41 | übernommen: 41
   2026-07-06 19:00:00 | Punk | Sisters of Doom (Garage/Punk/Rock'n'Roll-Duo, °Mexiko/UK) + Royalty (Punk n Roll, °Berlin) im Schokoladen
   2026-07-06 19:00:00 | Punk | BOLD + DRINK DEEP + ECOTAGE
   2026-07-07 18:45:00 | None | Queer Tours for All - Queer Kreuzberg
@@ -19,10 +18,11 @@ API-Events: 40 | übernommen: 40
   2026-07-13 20:00:00 | None | DIPLOID / D'CO / LA HAINE // July 13, 2026 // OGH Berlin
   2026-07-14 18:45:00 | None | Queer Tours for All - Queer Kreuzberg
   2026-07-14 19:00:00 | Punk | HEZ + NERVE CENTER + TUÉTANO
-  2026-07-15 19:00:00 | Punk | TROPICAL PUNKS: RESTLESS // ÁGUA(Brazil) // M. TAKARA & CARLA BOREGAS
-  2026-07-15 19:00:00 | Punk | MAGAZINO (INT) & MR.STRONG (LE)
   2026-07-15 19:00:00 | None | Identity Shock + Preemptive Strike + Big Iron
   2026-07-15 19:00:00 | Punk | DUMMY TOYS + Gum Bleed (Punk from China) live at Badehaus Berlin
+  2026-07-15 19:00:00 | Punk | MAGAZINO (INT) & MR.STRONG (LE)
+  2026-07-15 19:00:00 | Punk | TROPICAL PUNKS: RESTLESS // ÁGUA(Brazil) // M. TAKARA & CARLA BOREGAS
+  2026-07-16 20:00:00 | Punk | Doppelpunk
   2026-07-17 18:00:00 | Punk | 36 Jahre Schokoladen - Hoffest
   2026-07-21 18:45:00 | None | Queer Tours for All - Queer Kreuzberg
   2026-07-21 19:00:00 | Punk | Lydia Lunch - Welcome To My Church - An Intimate evening of words & music feat. Jochen Arbeit, Kristof Hahn & Travis Jeppesen

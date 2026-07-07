@@ -1,4 +1,4 @@
-Events: 12
+Events: 27
   2026-07-08 17:30:00 | gender mix
   2026-07-09 17:30:00 | foam sweat
   2026-07-10 17:30:00 | flinta sweat
@@ -11,3 +11,16 @@ Events: 12
   2026-07-24 17:30:00 | flinta sweat
   2026-07-30 17:30:00 | TIN* & Friends
   2026-07-31 17:30:00 | flinta sweat
+  2026-08-01 17:30:00 | gender mix
+  2026-08-05 17:30:00 | gender mix
+  2026-08-06 17:30:00 | foam sweat
+  2026-08-07 17:30:00 | flinta sweat
+  2026-08-12 17:30:00 | gender mix
+  2026-08-13 17:30:00 | tin* sweat
+  2026-08-14 17:30:00 | flinta sweat
+  2026-08-15 17:30:00 | gender mix
+  2026-08-19 17:30:00 | gender mix
+  2026-08-20 17:30:00 | puppy sweat
+  2026-08-21 17:30:00 | flinta sweat
+  2026-08-26 17:30:00 | gender mix
+  2026-08-27 17:30:00 | tin* sweat

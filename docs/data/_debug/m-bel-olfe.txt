@@ -1,18 +1,82 @@
-event-blocks: 1 | Events: 1
+event-blocks: 8 | Events: 7
 
 <div class="event-block">
  <!-- Zeile 1: Datum + Titel -->
  <div class="event-row-1">
   <div class="event-time">
-   Freitag, 24. Juli 15:00
+   Freitag, 10. Juli 22:00
   </div>
   <div class="event-title">
-   Marie Malarie
+   BadPuppy
+  </div>
+ </div>
+ <!-- Zeile 2: Bild + Beschreibung -->
+ <div class="event-row-2">
+  <div class="event-image">
+   <img alt="" src="ProgrammFotos/BadPuppy_2026_07_10.jpg"/>
+  </div>
+  <div class="event-description">
+   Bad Puppy is a Berlin based trans femme DJ and artist&amp;comma; originally from Iztapalapa&amp;comma; Mexico&amp;period; Her sound defies borders&amp;comma; fusing global rhythm&amp;comma; reggaeton&amp;comma; dembow&amp;comma; and baile funk with club ready beats like EDM&amp;comma; electro&amp;comma; and beyond&amp;period; The result&amp;quest; A high energy mix as rebellious as it is danceable&amp;period; Offstage&amp;comma; she is deep in queer and migrant solidarity work&amp;comma; 
+
+----
+<div class="event-block">
+ <!-- Zeile 1: Datum + Titel -->
+ <div class="event-row-1">
+  <div class="event-time">
+   Sonntag, 12. Juli 18:00
+  </div>
+  <div class="event-title">
+   Rabbit Hole
+  </div>
+ </div>
+ <!-- Zeile 2: Bild + Beschreibung -->
+ <div class="event-row-2">
+  <div class="event-image">
+   <img alt="" src="ProgrammFotos/Rabbit_Hole_2026_07_12.jpg"/>
+  </div>
+  <div class="event-description">
+   Sunday reading around the pole
+  </div>
+ </div>
+</div>
+
+
+----
+<div class="event-block">
+ <!-- Zeile 1: Datum + Titel -->
+ <div class="event-row-1">
+  <div class="event-time">
+   Freitag, 17. Juli 22:00
+  </div>
+  <div class="event-title">
+   Encanto
   </div>
  </div>
  <!-- Zeile 2: Bild + Beschreibung -->
  <div class="event-row-2">
   <div class="event-image event-image--empty">
+  </div>
+ </div>
+</div>
+
+
+----
+<div class="event-block">
+ <!-- Zeile 1: Datum + Titel -->
+ <div class="event-row-1">
+  <div class="event-time">
+   Donnerstag, 23. Juli 22:00
+  </div>
+  <div class="event-title">
+   Schwulenschubsen
+  </div>
+ </div>
+ <!-- Zeile 2: Bild + Beschreibung -->
+ <div class="event-row-2">
+  <div class="event-image event-image--empty">
+  </div>
+  <div class="event-description">
+   Boris &amp; Ralf
   </div>
  </div>
 </div>

@@ -167,6 +167,12 @@
   "lat": 52.5219814,
   "lng": 13.4136358
  },
+ "Alexanderplatz, Mitte, Berlin": {
+  "address": "Alexanderplatz, Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5219814,
+  "lng": 13.4136358
+ },
  "Alexanderstr. 28, 10178 Berlin": {
   "address": "Kleine Alexanderstraße 28, 10178 Mitte",
   "bezirk": "Mitte",
@@ -199,6 +205,12 @@
   "lat": 52.4984242,
   "lng": 13.4667373
  },
+ "Alt-Tempelhof 17, 12099 Tempelhof, Berlin": {
+  "address": "Alt-Tempelhof 17, 12099 Tempelhof",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4655581,
+  "lng": 13.3860876
+ },
  "Alte Feuerwache Friedrichshain, Marchlewskistraße 6, 10243, Berlin": null,
  "Alte Jakobstraße 124, 10969 Berlin": {
   "address": "Alte Jakobstraße 124, 10969 Kreuzberg",
@@ -224,6 +236,12 @@
   "bezirk": "Mitte",
   "lat": 52.5216902,
   "lng": 13.3932494
+ },
+ "Am Kupfergraben, 10117 Berlin": {
+  "address": "Am Kupfergraben, 10117 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5208844,
+  "lng": 13.3946306
  },
  "Am Sudhaus 3, 12053 Berlin": {
   "address": "Am Sudhaus 3, 12053 Neukölln",
@@ -311,6 +329,12 @@
   "lng": 13.451159
  },
  "B-Lage Mareschstr. 1 12055, 12055 Berlin": null,
+ "B-Lage, Mareschstraße 1, 12055 Berlin": {
+  "address": "Mareschstraße 1, 12055 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4736946,
+  "lng": 13.451159
+ },
  "BAIZ , Schönhauser Allee 26 10435 Berlin": null,
  "BHT, Raum D E27, Luxemburger Straße 10, 13353 Berlin": null,
  "BHT, Raum D117, Luxemburger Straße 10, 13353 Berlin": null,
@@ -633,6 +657,12 @@
   "lat": 52.5094541,
   "lng": 13.3249126
  },
+ "Cafè MadaMe Mehringplatz 10, 10969 Berlin": {
+  "address": "Mehringplatz 10, 10969 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4997694,
+  "lng": 13.3923025
+ },
  "Café Cralle Hochstädter Straße 10A, Berlin": {
   "address": "Hochstädter Straße 10a, 13347 Wedding",
   "bezirk": "Mitte",
@@ -772,6 +802,12 @@
  "Drugstore im Rockhaus Buchberger Str. 6 10365 Berlin Deutschland": null,
  "Drugstore im Rockhaus Buchberger Str. 6 10365, 10365 Berlin": null,
  "EUREF-Campus Berlin, Torgauer Straße 25, 10829, Berlin": null,
+ "Eberswalder Straße 21, 10437 Prenzlauer Berg, Berlin": {
+  "address": "Eberswalder Straße 21, 10437 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5410133,
+  "lng": 13.4106052
+ },
  "Eiertanz, Admiralstraße 17, 10999 Berlin": null,
  "Elisabeth-Schwarzhaupt-Platz, 10115 Berlin": {
   "address": "Elisabeth-Schwarzhaupt-Platz, 10115 Mitte",
@@ -1124,6 +1160,7 @@
   "lat": 52.4770235,
   "lng": 13.4399161
  },
+ "Heimathafen, Karl-Marx-Straße 141 12043 Berlin": null,
  "Herman Schulz Kollektiv Café & Bar, Finowstraße 33, 10247 Berlin": null,
  "Herman Schulz Kollektiv Finowstraße 33, 10247 Berlin": null,
  "Hermann-Ehlers-Platz 1, 12165 Berlin": {
@@ -1194,6 +1231,12 @@
   "bezirk": "Mitte",
   "lat": 52.5130237,
   "lng": 13.4227766
+ },
+ "Holzmarktstraße 33, 10243 Friedrichshain, Berlin": {
+  "address": "Holzmarktstraße 33, 10243 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5103673,
+  "lng": 13.4286199
  },
  "Horte (Strausberg) Peter-Göring-Str. 25, Strausberg Berlin Deutschland": null,
  "Humboldt Forum, Berlin": {
@@ -1293,6 +1336,12 @@
   "lat": 52.470975,
   "lng": 13.4309683
  },
+ "Jonasstraße 40, 12053 Berlin": {
+  "address": "Jonasstraße 40, 12053 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.470975,
+  "lng": 13.4309683
+ },
  "Jordanstraße 1243, 12435 Berlin": {
   "address": "Jordanstraße, 12435 Alt-Treptow",
   "bezirk": "Treptow-Köpenick",
@@ -1386,6 +1435,12 @@
   "lng": 13.5194765
  },
  "Kalabal!k Reichenbergerstr. 63a 10999 Berlin Deutschland": null,
+ "Kandeler Weg 3, 13583 Falkenhagener Feld, Berlin": {
+  "address": "Kandeler Weg 3, 13583 Falkenhagener Feld",
+  "bezirk": "Spandau",
+  "lat": 52.5417268,
+  "lng": 13.1846433
+ },
  "Kandeler Weg 3, Berlin": {
   "address": "Kandeler Weg 3, 13583 Falkenhagener Feld",
   "bezirk": "Spandau",
@@ -1402,6 +1457,12 @@
   "bezirk": "Mitte",
   "lat": 52.5198483,
   "lng": 13.4251493
+ },
+ "Karl-Marx-Straße 141, 12043 Berlin": {
+  "address": "Karl-Marx-Straße 141, 12043 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4770235,
+  "lng": 13.4399161
  },
  "Karl-Marx-Straße 282, 12057 Berlin": {
   "address": "Karl-Marx-Straße 282, 12057 Neukölln",
@@ -1546,6 +1607,7 @@
  },
  "Kreuzdorf Mariannenplatz 1a 10997 Berlin Deutschland": null,
  "Kreuzdorf Mariannenplatz 1a, 10997 Berlin": null,
+ "Kreuziger Str 19, Berlin": null,
  "Kronprinzessinnenweg 5, 14109 Berlin": {
   "address": "Kronprinzessinnenweg, 14109 Wannsee",
   "bezirk": "Steglitz-Zehlendorf",
@@ -1632,6 +1694,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5043482,
   "lng": 13.434887
+ },
+ "Köpenicker Straße 76, 10179 Mitte, Berlin": {
+  "address": "Köpenicker Straße 76, 10179 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5112074,
+  "lng": 13.4169157
  },
  "Köpi Berlin Deutschland": {
   "address": "Köpenicker Straße 137, 10179 Mitte",
@@ -2038,6 +2106,12 @@
   "lat": 52.502453,
   "lng": 13.4571706
  },
+ "Motzstraße 25, 10777 Schöneberg, Berlin": {
+  "address": "Motzstraße 25, 10777 Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4977722,
+  "lng": 13.3485938
+ },
  "Murx, Karl-Marx-Straße 282, 12057 Berlin": null,
  "Museum des Kapitalismus Köpenicker Str. 172 10997 Berlin Deutschland": null,
  "Museum des Kapitalismus Köpenicker Str. 172 10997, 10997 Berlin": null,
@@ -2085,6 +2159,7 @@
  },
  "Neue Republik Reger Bouchestraße A 79 12435 Berlin Deutschland": null,
  "Neue Zukunft Alt-Strahlau 68 10245 Berlin Deutschland": null,
+ "New Casa, Wurzener Straße 6–8, Hellersdorf 12627 Berlin Deutschland": null,
  "New Yorck im Bethanien Mariannenplatz 2A 10997 Berlin Deutschland": null,
  "NewYorck im Bethanien Mariannenplatz 2A 10997 Berlin Deutschland": null,
  "NewYorck im Bethanien Mariannenplatz 2A, 10997 Berlin": null,
@@ -2284,6 +2359,7 @@
  "Quälgeist Berlin e.V. Lankwitzer Straße 42/43, 12107 Berlin": null,
  "Quälgeist Berlin e.V., Lankwitzer Straße 42/43, Berlin, 12107, Deutschland": null,
  "Quälgeist, Lankwitzer Straße 42/43, 12107 Berlin": null,
+ "R94, Rigaer Straße 94, Friedrichshain 10247 Berlin Deutschland": null,
  "RADAU, Schererstraße 8, 13347 Berlin": null,
  "RAUM Rungestr. 20 Berlin Deutschland": null,
  "RSO.BERLIN, Berlin": {
@@ -2529,6 +2605,12 @@
   "lng": 13.455486
  },
  "SZ Aenne Saefkow, Alfredstraße 24, 10365 Berlin": null,
+ "Sachsendamm 76-77, 10829 Schöneberg, Berlin": {
+  "address": "Sachsendamm 76-77, 10829 Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4773354,
+  "lng": 13.3578441
+ },
  "Schaubühne am Lehniner Platz, Berlin": {
   "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
   "bezirk": "Charlottenburg-Wilmersdorf",
@@ -2701,6 +2783,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.4986179,
   "lng": 13.4165594
+ },
+ "Skalitzer Straße, 10999 Kreuzberg, Berlin": {
+  "address": "Skalitzer Straße, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4990674,
+  "lng": 13.4244238
  },
  "Skalitzer str. 6 10997, 10997 Berlin": null,
  "Skalitzer str. 6, 10997 Berlin": {
@@ -3086,6 +3174,12 @@
  "Wrangelstraße Ecke Falckensteinstraße 10997 Berlin": null,
  "Wrangelstraße Ecke Falckensteinstraße Berlin": null,
  "Wrangelstraße Ecke Falckensteinstraße Berlin Deutschland": null,
+ "Wurzener Straße 6, 12627 Berlin": {
+  "address": "Wurzener Straße 6;8, 12627 Hellersdorf",
+  "bezirk": "Marzahn-Hellersdorf",
+  "lat": 52.5422403,
+  "lng": 13.6173176
+ },
  "Wönnichstr. 103, Berlin": {
   "address": "Wönnichstraße 103, 10317 Rummelsburg",
   "bezirk": "Lichtenberg",
@@ -3190,6 +3284,7 @@
  "es die Möglichkeit zum Austausch und zur Vernetzung gibt, Berlin": null,
  "f.a.q. Jonasstr. 40 12053 Berlin Deutschland": null,
  "f.a.q. Jonasstr. 40 12053, 12053 Berlin": null,
+ "f.a.q., Jonasstraße 40, 12053 Berlin": null,
  "google.com/maps/search/52.484655 +13.479626?entry=tts&g_ep=EgoyMDI1MTIwMi4wIPu8ASoASAFQAw%3D%3D&skid=c2a426cc-7998-470e-b747-f0ef180e4ca7, Berlin": null,
  "google.com/maps/search/52.484655,+13.479626?entry=tts&g_ep=EgoyMDI1MTIwMi4wIPu8ASoASAFQAw%3D%3D&skid=c2a426cc-7998-470e-b747-f0ef180e4ca7, Berlin": null,
  "hofkino.berlin - Freiluftkino im FMP1": null,

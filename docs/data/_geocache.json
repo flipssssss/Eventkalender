@@ -147,6 +147,12 @@
   "lat": 52.4985453,
   "lng": 13.4167949
  },
+ "Admiralstraße 1-2, 10999 Berlin.": {
+  "address": "Admiralstraße 1-2, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4985453,
+  "lng": 13.4167949
+ },
  "Admiralstraße 17, 10999 Berlin": {
   "address": "Admiralstraße 17, 10999 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -462,6 +468,12 @@
   "lat": 52.5577176,
   "lng": 13.4702725
  },
+ "Bernkasteler Straße 78, 13088 Berlin": {
+  "address": "Bernkasteler Straße 78, 13088 Weißensee",
+  "bezirk": "Pankow",
+  "lat": 52.5577176,
+  "lng": 13.4702725
+ },
  "Bethanien Südflügel Berlin": null,
  "Bethanien Südflügel Berlin Deutschland": null,
  "Bethaniendamm, Berlin": {
@@ -624,6 +636,7 @@
   "lat": 52.5092997,
   "lng": 13.3811754
  },
+ "Bunte Kuh, Bernkasteler Straße 78, 13088 Berlin": null,
  "Buttmannstr. 1A, Berlin": {
   "address": "Buttmannstraße 1A, 13357 Gesundbrunnen",
   "bezirk": "Mitte",
@@ -1695,6 +1708,12 @@
   "lat": 52.5043482,
   "lng": 13.434887
  },
+ "Köpenicker Straße 137, Berlin": {
+  "address": "Köpenicker Straße 137, 10179 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5077022,
+  "lng": 13.4260264
+ },
  "Köpenicker Straße 76, 10179 Mitte, Berlin": {
   "address": "Köpenicker Straße 76, 10179 Mitte",
   "bezirk": "Mitte",
@@ -1851,6 +1870,12 @@
   "lng": 13.3592556
  },
  "Leopoldplatz, 13347 Berlin": {
+  "address": "Schulstraße, 13353 Wedding",
+  "bezirk": "Mitte",
+  "lat": 52.5463833,
+  "lng": 13.3591672
+ },
+ "Leopoldplatz, 13353 Berlin": {
   "address": "Schulstraße, 13353 Wedding",
   "bezirk": "Mitte",
   "lat": 52.5463833,
@@ -2724,6 +2749,7 @@
   "lat": 52.4569257,
   "lng": 13.3194006
  },
+ "Schwarze Risse Gneisenaustr. 2a 10961 Berlin Deutschland": null,
  "Schöneicher Straße 1, 12587 Berlin": {
   "address": "Schöneicher Straße 1, 12587 Friedrichshagen",
   "bezirk": "Treptow-Köpenick",

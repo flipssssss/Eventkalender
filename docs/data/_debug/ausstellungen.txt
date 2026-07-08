@@ -1,28 +1,28 @@
 ExhibitionEvents -> Events: 30
-  2026-07-07 Brancusi
-  2026-07-07 Lina Lapelytė: We Make Years Out of Hours – Chanel
-  2026-07-07 Paul Signac: Symphonie der Farben
-  2026-07-07 Marina Abramović: Balkan Erotic Epic
-  2026-07-07 Marc Brandenburg: 20th Century Debris
-  2026-07-07 Gabriele Stötzer: Dabei sein und nicht schweigen
-  2026-07-07 Ruin und Rausch: Berlin 1910–1930
-  2026-07-07 Materialistin: Matter of Care, Care of Matter
-  2026-07-07 Cassirer und der Durchbruch des Impressionismus
-  2026-07-07 Giulia Andreani: Sabotage
-  2026-07-07 C.B. Evans: Reality or Not
-  2026-07-07 Neue Frau, Neues Sehen: Die Bauhaus-Fotografinnen
-  2026-07-07 Inventing Queer Cinema
-  2026-07-07 Walter Schels: 16° Fische – Retrospektive
-  2026-07-07 Kyiv Biennial: A Bird That Cannot Land
-  2026-07-07 Shilpa Gupta: What Still Holds
-  2026-07-07 Gebaute Gemeinschaft: Göbeklitepe, Taş Tepeler und
-  2026-07-07 Fujiko Nakaya: Nebelskulptur im Skulpturengarten
-  2026-07-07 Iván Argote: A Place To Stay
-  2026-07-07 Iliggocene: The Age of Dizziness
-  2026-07-07 Anton Corbijn: Corbijn, Anton
-  2026-07-07 Rooms / Stages
-  2026-07-07 Many Shades of Grès: Mode wird Kunst
-  2026-07-07 Seeing Words, Reading Images – Die Written Art Col
+  2026-07-08 Brancusi
+  2026-07-08 Lina Lapelytė: We Make Years Out of Hours – Chanel
+  2026-07-08 Paul Signac: Symphonie der Farben
+  2026-07-08 Marina Abramović: Balkan Erotic Epic
+  2026-07-08 Marc Brandenburg: 20th Century Debris
+  2026-07-08 Gabriele Stötzer: Dabei sein und nicht schweigen
+  2026-07-08 Ruin und Rausch: Berlin 1910–1930
+  2026-07-08 Materialistin: Matter of Care, Care of Matter
+  2026-07-08 Cassirer und der Durchbruch des Impressionismus
+  2026-07-08 Giulia Andreani: Sabotage
+  2026-07-08 C.B. Evans: Reality or Not
+  2026-07-08 Neue Frau, Neues Sehen: Die Bauhaus-Fotografinnen
+  2026-07-08 Inventing Queer Cinema
+  2026-07-08 Walter Schels: 16° Fische – Retrospektive
+  2026-07-08 Kyiv Biennial: A Bird That Cannot Land
+  2026-07-08 Shilpa Gupta: What Still Holds
+  2026-07-08 Gebaute Gemeinschaft: Göbeklitepe, Taş Tepeler und
+  2026-07-08 Fujiko Nakaya: Nebelskulptur im Skulpturengarten
+  2026-07-08 Iván Argote: A Place To Stay
+  2026-07-08 Iliggocene: The Age of Dizziness
+  2026-07-08 Anton Corbijn: Corbijn, Anton
+  2026-07-08 Rooms / Stages
+  2026-07-08 Many Shades of Grès: Mode wird Kunst
+  2026-07-08 Seeing Words, Reading Images – Die Written Art Col
   2026-07-08 2101 – Future Ceramics: Tischkultur der Zukunft
   2026-07-16 Bjørn Melhus: Lost in Finity
   2026-07-16 Jahresausstellung Institut für Architektur: PlatzA

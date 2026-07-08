@@ -1,4 +1,4 @@
-event-blocks: 8 | Events: 7
+event-blocks: 12 | Events: 10
 
 <div class="event-block">
  <!-- Zeile 1: Datum + Titel -->
@@ -16,7 +16,36 @@ event-blocks: 8 | Events: 7
    <img alt="" src="ProgrammFotos/BadPuppy_2026_07_10.jpg"/>
   </div>
   <div class="event-description">
-   Bad Puppy is a Berlin based trans femme DJ and artist&amp;comma; originally from Iztapalapa&amp;comma; Mexico&amp;period; Her sound defies borders&amp;comma; fusing global rhythm&amp;comma; reggaeton&amp;comma; dembow&amp;comma; and baile funk with club ready beats like EDM&amp;comma; electro&amp;comma; and beyond&amp;period; The result&amp;quest; A high energy mix as rebellious as it is danceable&amp;period; Offstage&amp;comma; she is deep in queer and migrant solidarity work&amp;comma; 
+   Bad Puppy is a Berlin based trans femme DJ and artist, originally from Iztapalapa Mexico. Her sound defies borders fusing global rhythm reggaeton dembow and baile funk with club ready beats like EDM electro and beyond The result. A high energy mix as rebellious as it is danceable Offstage she is deep in queer and migrant solidarity work co-creating safer spaces with collectives houseoflivingcolors For sets updates and unapologetic vibes, badpuppy4ever
+  </div>
+ </div>
+</div>
+
+
+----
+<div class="event-block">
+ <!-- Zeile 1: Datum + Titel -->
+ <div class="event-row-1">
+  <div class="event-time">
+   Samstag, 11. Juli 21:30
+  </div>
+  <div class="event-title">
+   Wendy &amp; Bully
+  </div>
+ </div>
+ <!-- Zeile 2: Bild + Beschreibung -->
+ <div class="event-row-2">
+  <div class="event-image">
+   <img alt="" src="ProgrammFotos/Wendy_Bully_2026_07_11.jpg"/>
+  </div>
+  <div class="event-description">
+   Bully and Wendy lead you through a world of their personal vinyl collection, through all its peaks, quirks and mysteries.
+
+Expect old favs, new loves and deep cuts.
+  </div>
+ </div>
+</div>
+
 
 ----
 <div class="event-block">
@@ -55,28 +84,6 @@ event-blocks: 8 | Events: 7
  <!-- Zeile 2: Bild + Beschreibung -->
  <div class="event-row-2">
   <div class="event-image event-image--empty">
-  </div>
- </div>
-</div>
-
-
-----
-<div class="event-block">
- <!-- Zeile 1: Datum + Titel -->
- <div class="event-row-1">
-  <div class="event-time">
-   Donnerstag, 23. Juli 22:00
-  </div>
-  <div class="event-title">
-   Schwulenschubsen
-  </div>
- </div>
- <!-- Zeile 2: Bild + Beschreibung -->
- <div class="event-row-2">
-  <div class="event-image event-image--empty">
-  </div>
-  <div class="event-description">
-   Boris &amp; Ralf
   </div>
  </div>
 </div>

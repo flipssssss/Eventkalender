@@ -1,6 +1,6 @@
 URL: https://shifts-a77a1-default-rtdb.europe-west1.firebasedatabase.app/events.json
-Gefundene Einträge: 105
-Events geparst: 105
+Gefundene Einträge: 106
+Events geparst: 106
 Alle Feldnamen: ['bandName', 'contactEmail', 'date', 'description', 'facebook', 'gema', 'images', 'instagram', 'links', 'live', 'members', 'photoCredit', 'submittedAt']
 Beispiel-Datensätze (ohne Bild-Daten):
 [

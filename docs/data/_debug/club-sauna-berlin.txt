@@ -1,5 +1,4 @@
-Events: 27
-  2026-07-08 17:30:00 | gender mix
+Events: 26
   2026-07-09 17:30:00 | foam sweat
   2026-07-10 17:30:00 | flinta sweat
   2026-07-15 17:30:00 | gender mix
@@ -24,3 +23,4 @@ Events: 27
   2026-08-21 17:30:00 | flinta sweat
   2026-08-26 17:30:00 | gender mix
   2026-08-27 17:30:00 | tin* sweat
+  2026-08-28 17:30:00 | flinta sweat

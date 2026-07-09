@@ -116,7 +116,7 @@ jQuery(document).ready(function()
     jQuery("#mec_monthly_view_month_26_202607").mecMonthlyView(
     {
         id: "26",
-        today: "20260708",
+        today: "20260709",
         display_all: "0",
         month_id: "202607",
         active_month: {year: "2026", month: "07"},

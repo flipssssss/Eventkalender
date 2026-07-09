@@ -191,6 +191,12 @@
   "lat": 52.5264045,
   "lng": 13.4129027
  },
+ "Alfredstr. 24, Berlin": {
+  "address": "Alfredstraße 24, 10365 Lichtenberg",
+  "bezirk": "Lichtenberg",
+  "lat": 52.5145899,
+  "lng": 13.4904607
+ },
  "Alfredstraße 24, 10365 Berlin": {
   "address": "Alfredstraße 24, 10365 Lichtenberg",
   "bezirk": "Lichtenberg",
@@ -919,6 +925,12 @@
  },
  "Ficken 3000 Berlin": null,
  "Ficken 3000, Berlin": null,
+ "Filmrauschpalast Lehrter Str. 35 10557 Berlin Deutschland": {
+  "address": "Lehrter Straße 35, 10557 Moabit",
+  "bezirk": "Mitte",
+  "lat": 52.5343784,
+  "lng": 13.3596231
+ },
  "Filmrisz Filmrisz Rigaerstr. 103 10247 Berlin Deutschland": null,
  "Filmrisz Filmrisz Rigaerstr. 103 10247, 10247 Berlin": null,
  "Finowstraße 33, 10247 Berlin": {
@@ -1337,6 +1349,7 @@
   "lat": 52.5104475,
   "lng": 13.4713447
  },
+ "Jockel Biergarten Ratiborstr. 14c 10999 Berlin Deutschland": null,
  "John-F. -Kennedy-Platz 1, 10825 Berlin": {
   "address": "John-F.-Kennedy-Platz 1, 10825 Schöneberg",
   "bezirk": "Tempelhof-Schöneberg",
@@ -1546,6 +1559,7 @@
   "lat": 52.4783548,
   "lng": 13.4463995
  },
+ "Kiezladen Sonnenallee 154 Deutschland, Berlin": null,
  "Kiezladen Sonnenallee 154 Sonnenallee 154 12059 Berlin Deutschland": {
   "address": "Sonnenallee 154, 12059 Neukölln",
   "bezirk": "Neukölln",
@@ -1646,6 +1660,7 @@
   "lng": 13.4702725
  },
  "KuBiZ Bernkasteler Str. 78 13088, 13088 Berlin": null,
+ "KuBiZ Café U (beim kleinen Hof hinterm grünen Tor) Bernkasteler Straße 78, 13088 Berlin": null,
  "Kubiz Raoul Wallenberg, Bernkasteler Str 78, 13088, Berlin": null,
  "Kulmer Straße 20A, Berlin, DE": {
   "address": "Kulmer Straße 20a, 10783 Schöneberg",
@@ -1726,6 +1741,13 @@
   "lat": 52.5077022,
   "lng": 13.4260264
  },
+ "Kühlspot Social Club, Lehderstrasse 74, 13086, Berlin": {
+  "address": "Lehderstraße 74-79, 13086 Weißensee",
+  "bezirk": "Pankow",
+  "lat": 52.5504007,
+  "lng": 13.436534
+ },
+ "Kühslpot Social Club, Lehderstrasse 74, 13086, Berlin": null,
  "L5 Späti Lenaustraße 5 12047 Berlin Deutschland": {
   "address": "Lenaustraße 5, 12047 Neukölln",
   "bezirk": "Neukölln",
@@ -1838,6 +1860,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.4977097,
   "lng": 13.4288764
+ },
+ "Lehderstrasse 74, 13086 Berlin": {
+  "address": "Lehderstraße 74, 13086 Weißensee",
+  "bezirk": "Pankow",
+  "lat": 52.5508391,
+  "lng": 13.435867
  },
  "Lehrter Str. 35, 10557 Berlin": {
   "address": "Lehrter Straße 35, 10557 Moabit",
@@ -2401,6 +2429,12 @@
   "lng": 13.4286199
  },
  "Rathaus Treptow Neue Krugallee 2-6 12435 Berlin Deutschland": null,
+ "Ratiborstr. 14c, 10999 Berlin": {
+  "address": "Ratiborstraße 14c, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4919262,
+  "lng": 13.4383871
+ },
  "Refuge Worldwide, Niemetzstraße 1, 12055 Berlin": {
   "address": "Niemetzstraße 1, 12055 Neukölln",
   "bezirk": "Neukölln",
@@ -2579,6 +2613,12 @@
   "lat": 52.5182718,
   "lng": 13.4078309
  },
+ "Rummelsburger Bucht, 10245 Berlin": {
+  "address": "10317 Rummelsburg",
+  "bezirk": "Lichtenberg",
+  "lat": 52.4985244,
+  "lng": 13.4797821
+ },
  "Rungestr. 20, Berlin": {
   "address": "Rungestraße 20, 10179 Mitte",
   "bezirk": "Mitte",
@@ -2629,6 +2669,7 @@
   "lat": 52.4741193,
   "lng": 13.455486
  },
+ "SZ Aenne Saefkow Alfredstr. 24 Berlin Deutschland": null,
  "SZ Aenne Saefkow, Alfredstraße 24, 10365 Berlin": null,
  "Sachsendamm 76-77, 10829 Schöneberg, Berlin": {
   "address": "Sachsendamm 76-77, 10829 Schöneberg",
@@ -2834,6 +2875,12 @@
   "bezirk": "Neukölln",
   "lat": 52.4820605,
   "lng": 13.4389626
+ },
+ "Sonnenallee 154, Berlin": {
+  "address": "Sonnenallee 154, 12059 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4783733,
+  "lng": 13.4463117
  },
  "Sonnenallee 200, 12059 Berlin": {
   "address": "Sonnenallee 200, 12059 Neukölln",
@@ -3041,6 +3088,7 @@
   "lat": 52.5405935,
   "lng": 13.3926016
  },
+ "V36 Voigtstr. 36 10247 Berlin Deutschland": null,
  "Vagabund Brauerei Kesselhaus, Oudenarder Str. 16-20, 13347 Berlin-Wedding": null,
  "Vetomat Wühlischstr. 42 10247 Berlin Deutschland": {
   "address": "Wühlischstraße 42, 10245 Friedrichshain",
@@ -3058,6 +3106,12 @@
  },
  "Villa Kuriosum Scheffelstr. 21 10367, 10367 Berlin": null,
  "Void Club & Hall, Berlin": null,
+ "Voigtstr. 36, 10247 Berlin": {
+  "address": "Voigtstraße 36, 10247 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5163747,
+  "lng": 13.4681934
+ },
  "Volksbar, Rosa-Luxemburg-Straße 39, 10178 Berlin": null,
  "Volksbühne am Rosa-Luxemburg-Platz, Berlin": {
   "address": "Linienstraße 227, 10178 Mitte",
@@ -3134,6 +3188,12 @@
   "bezirk": "Mitte",
   "lat": 52.5262536,
   "lng": 13.4122498
+ },
+ "Wiener Str. 20, 10999 Berlin": {
+  "address": "Wiener Straße 20, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4973055,
+  "lng": 13.4304753
  },
  "Wiener Straße 20, 10999 Berlin": {
   "address": "Wiener Straße 20, 10999 Kreuzberg",
@@ -3306,6 +3366,12 @@
   "lat": 52.4937932,
   "lng": 13.4296611
  },
+ "bUm – Raum für solidarisches Miteinander Paul-Lincke-Ufer 21 10999 Berlin Deutschland": {
+  "address": "Paul-Lincke-Ufer 21, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4937932,
+  "lng": 13.4296611
+ },
  "che, Berlin": null,
  "es die Möglichkeit zum Austausch und zur Vernetzung gibt, Berlin": null,
  "f.a.q. Jonasstr. 40 12053 Berlin Deutschland": null,
@@ -3321,6 +3387,7 @@
  "https://karada-house.de/events/radical-inclusion/, Berlin": null,
  "inter:Salon, Rungestraße 20, 10179 Berlin": null,
  "llmann🕯, Berlin": null,
+ "loge. kneipenkollektiv Kinzigstraße 9 10247 Berlin Deutschland": null,
  "mainhall, Berlin": null,
  "men Race & Class“ von Angela Davis, Berlin": null,
  "men Race & Class” by Angela Davis, Berlin": null,

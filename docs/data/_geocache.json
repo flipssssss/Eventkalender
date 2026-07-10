@@ -592,6 +592,7 @@
   "lat": 52.4671222,
   "lng": 13.307872
  },
+ "Britzer Garten Berlin, Sangerhauser Weg 1, 12349, Berlin": null,
  "Brotfabrik Caligariplatz 1 13086 Berlin Deutschland": {
   "address": "Caligariplatz 1, 13086 Weißensee",
   "bezirk": "Pankow",
@@ -642,7 +643,19 @@
   "lat": 52.5092997,
   "lng": 13.3811754
  },
+ "Bundesrat, Leipziger Straße 3-4, 10117 Berlin": {
+  "address": "Leipziger Straße 3-4, 10117 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5092997,
+  "lng": 13.3811754
+ },
  "Bunte Kuh, Bernkasteler Straße 78, 13088 Berlin": null,
+ "Burge Burgemeisterstraße 17/18 12103 Berlin Deutschland": {
+  "address": "Burgemeisterstraße 17-18, 12103 Tempelhof",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4575695,
+  "lng": 13.3796659
+ },
  "Buttmannstr. 1A, Berlin": {
   "address": "Buttmannstraße 1A, 13357 Gesundbrunnen",
   "bezirk": "Mitte",
@@ -796,6 +809,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.4985917,
   "lng": 13.4437627
+ },
+ "DRK Kliniken Berlin Mitte, Drontheimer Straße 39, 13359 Berlin": {
+  "address": "Drontheimer Straße 39-40, 13359 Gesundbrunnen",
+  "bezirk": "Mitte",
+  "lat": 52.5574017,
+  "lng": 13.3757365
  },
  "DRK Kliniken, Osloer Straße 36 13359 Berlin Deutschland": null,
  "Daruma, Karl-Marx-Straße 275, 12057 Berlin": {
@@ -1244,6 +1263,12 @@
   "bezirk": "Mitte",
   "lat": 52.5505395,
   "lng": 13.3634054
+ },
+ "Hohenschönhauser Straße 1036, 10369 Berlin": {
+  "address": "Hohenschönhauser Straße, 10369 Fennpfuhl",
+  "bezirk": "Lichtenberg",
+  "lat": 52.5359989,
+  "lng": 13.472812
  },
  "Holzmarktstrasse 25, 10243 Berlin": {
   "address": "Holzmarktstraße 25, 10243 Friedrichshain",
@@ -2677,6 +2702,12 @@
   "lat": 52.4773354,
   "lng": 13.3578441
  },
+ "Sangerhauser Weg 1, 12349 Berlin": {
+  "address": "Sangerhauser Weg 1, 12349 Britz",
+  "bezirk": "Neukölln",
+  "lat": 52.4316471,
+  "lng": 13.4131787
+ },
  "Schaubühne am Lehniner Platz, Berlin": {
   "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
   "bezirk": "Charlottenburg-Wilmersdorf",
@@ -2694,6 +2725,12 @@
   "bezirk": "Mitte",
   "lat": 52.5481641,
   "lng": 13.3670511
+ },
+ "Schererstraße Schererstraße 13347 Berlin Deutschland": {
+  "address": "Schererstraße, 13347 Wedding",
+  "bezirk": "Mitte",
+  "lat": 52.5483388,
+  "lng": 13.3677192
  },
  "Scheune, Berlin": {
   "address": "Motzstraße 25, 10777 Schöneberg",
@@ -2926,6 +2963,12 @@
  },
  "Stadtteilzentrum Schöneberg Hauptstraße 121 A 10827 Berlin Deutschland": null,
  "Stadtteilzentrum Schöneberg Hauptstraße 121 A, 10827 Berlin": null,
+ "Storkower Str. 123, 10407 Berlin": {
+  "address": "Storkower Straße 123, 10407 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5354437,
+  "lng": 13.4532774
+ },
  "Straße des 17. Juni 106, 10623 Berlin": {
   "address": "Straße des 17. Juni 106, 10623 Charlottenburg",
   "bezirk": "Charlottenburg-Wilmersdorf",
@@ -2959,6 +3002,7 @@
   "lng": 13.4843006
  },
  "TBA - Info durch Veranstalter*in, Berlin": null,
+ "TBA - Storkower Str. 123, 10407 Berlin, Germany, Berlin": null,
  "TBA to be announced, Berlin": null,
  "TBA, to be announced, Berlin": null,
  "THF Tower Flughafen Tempelhof in Berlin, Tempelhofer Damm 45, 12101, Berlin": null,
@@ -3018,6 +3062,7 @@
   "lng": 13.3928139
  },
  "TrIQ e.V., 5. Etage im Hinterhaus mit Aufzug und 3 Stufen, Gürtelstraße 35, 10247 Berlin": null,
+ "Tram Hohenschönhauser Straße, 10369 Berlin": null,
  "Traumreparatur Lausitzer Straße 13 10999 Berlin Deutschland": null,
  "Traumreparatur Lausitzer Straße 13 10999, 10999 Berlin": null,
  "Treffpunkt: S- und U-Bhf Wedding, Berlin": null,

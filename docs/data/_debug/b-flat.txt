@@ -1,7 +1,6 @@
 top-keys: ['website', 'websiteSettings', 'collection', 'shoppingCart', 'shareButtons', 'showCart', 'localizedStrings', 'userAccountsContext', 'template', 'uiextensions', 'empty', 'emptyFolder', 'calendarView', 'pagination', 'upcoming']
-items: 43 | Events: 43
+items: 42 | Events: 42
 erstes item keys: ['id', 'collectionId', 'recordType', 'addedOn', 'updatedOn', 'starred', 'passthrough', 'tags', 'categories', 'workflowState', 'publishOn', 'authorId', 'systemDataId', 'systemDataVariants', 'systemDataSourceType', 'filename', 'mediaFocalPoint', 'colorData', 'urlId', 'title', 'sourceUrl', 'body', 'excerpt', 'location', 'customContent']
-  2026-07-09 09:00:00.506000 | Matej Korbelič Band
   2026-07-10 09:00:00.506000 | Ali N. Askin &amp; Band
   2026-07-11 09:00:00.506000 | Tunde Alibaba &amp; Band
   2026-07-12 09:00:00.506000 | CRUCES
@@ -31,3 +30,4 @@ erstes item keys: ['id', 'collectionId', 'recordType', 'addedOn', 'updatedOn', '
   2026-08-13 09:00:00.506000 | Juan Borgatti Quintett&nbsp;
   2026-08-14 09:00:00.506000 | STREAMLINE ORCHESTRA&nbsp;
   2026-08-15 09:00:00.506000 | Marcos Coll Band feat. Emiliano Juarez
+  2026-08-16 09:00:00.506000 | David Anthony Rose &amp; Manouche '26 - „La vie en rose“

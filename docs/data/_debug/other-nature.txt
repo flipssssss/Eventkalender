@@ -1,9 +1,8 @@
-entries: 8 | Events: 8
-  2026-07-20 19:00:00 | Polyamorie Diskussionsgruppe
-  2026-07-21 19:00:00 | PELVIC FLOOR HEALTH IS MORE THAN JUST KEGELS
-  2026-07-16 19:00:00 | Rethinking Relationships Game Night
-  2026-07-07 19:00:00 | Best Blow Job Skills
+entries: 7 | Events: 7
   2026-07-09 19:00:00 | How To Go Pro
   2026-07-14 19:00:00 | Einführung in Japanese Rope Bondage
+  2026-07-16 19:00:00 | Rethinking Relationships Game Night
+  2026-07-20 19:00:00 | Polyamorie Diskussionsgruppe
+  2026-07-21 19:00:00 | PELVIC FLOOR HEALTH IS MORE THAN JUST KEGELS
   2026-07-28 19:00:00 | Die queere* und trans Geschichte Berlins
   2026-07-30 19:00:00 | Berlin's Queer and Trans History

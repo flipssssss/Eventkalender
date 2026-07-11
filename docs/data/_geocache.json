@@ -382,6 +382,8 @@
   "lng": 13.4072585
  },
  "Bandito Rosso*, Lottumstraße 10a, 10119 Berlin": null,
+ "Banja Luka, Falckensteinstraße 1-2, 10997 Berlin": null,
+ "Bar at Hotel Motel One, Grunerstraße 11, 10179 Berlin": null,
  "Beate Uwe, Berlin": {
   "address": "Schillingstraße 31, 10179 Mitte",
   "bezirk": "Mitte",
@@ -906,6 +908,12 @@
   "lng": 13.4375821
  },
  "Fakeera, Berlin": null,
+ "Falckensteinstraße 1-2, 10997 Berlin": {
+  "address": "Falckensteinstraße 1-2, 10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5006078,
+  "lng": 13.4440404
+ },
  "Falckensteinstraße 1099, 10997 Berlin": {
   "address": "Falckensteinstraße, 10997 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -1062,6 +1070,7 @@
   "lat": 52.5286995,
   "lng": 13.4254805
  },
+ "Gretchen (Obentrautstr. 19-21) Obentrautstr. 19-21 (Kreuzberg Berlin Deutschland": null,
  "Gretchen, Berlin": {
   "address": "Zachertstraße, 10315 Friedrichsfelde",
   "bezirk": "Lichtenberg",
@@ -1076,6 +1085,12 @@
   "lng": 13.3785171
  },
  "Großer Flohmarkt am Arkonaplatz in Berlin Mitte": null,
+ "Grunerstraße 11, 10179 Berlin": {
+  "address": "Grunerstraße 11, 10179 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5197824,
+  "lng": 13.4124695
+ },
  "Grunewaldstraße 77A, 10823 Berlin": {
   "address": "Grunewaldstraße 77a, 10823 Schöneberg",
   "bezirk": "Tempelhof-Schöneberg",
@@ -1772,6 +1787,12 @@
   "lat": 52.5504007,
   "lng": 13.436534
  },
+ "Kühlspot Social Club, Lehderstraße 74-79, 13086, Berlin": {
+  "address": "Lehderstraße 74-79, 13086 Weißensee",
+  "bezirk": "Pankow",
+  "lat": 52.5504007,
+  "lng": 13.436534
+ },
  "Kühslpot Social Club, Lehderstrasse 74, 13086, Berlin": null,
  "L5 Späti Lenaustraße 5 12047 Berlin Deutschland": {
   "address": "Lenaustraße 5, 12047 Neukölln",
@@ -2034,6 +2055,12 @@
   "lat": 52.5072971,
   "lng": 13.4527414
  },
+ "Maigalerie Torstraße 6 10119 Berlin Deutschland": {
+  "address": "Torstraße 6, 10119 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5274247,
+  "lng": 13.4141624
+ },
  "Manifest Bücher & Café, Graefestraße 14, 10967 Berlin": null,
  "Mansteinstr. 10, Berlin": {
   "address": "Mansteinstraße 10, 10783 Schöneberg",
@@ -2277,6 +2304,12 @@
   "lat": 52.5397651,
   "lng": 13.2453165
  },
+ "Nostitzstraße 48, 10961 Berlin": {
+  "address": "Nostitzstraße 48, 10961 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4915542,
+  "lng": 13.3911786
+ },
  "OGH Sonnenallee Berlin": null,
  "OGH Sonnenallee Berlin Deutschland": null,
  "OXI, Berlin": {
@@ -2286,6 +2319,12 @@
   "lng": 13.4749435
  },
  "Obdachb e.V. Oudenarder Str. 26 Wedding Berlin Deutschland": null,
+ "Obentrautstr. 19-21, Berlin": {
+  "address": "Obentrautstraße 19-21, 10963 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4955636,
+  "lng": 13.3879213
+ },
  "Obentrautstraße 19-21, 10963 Berlin": {
   "address": "Obentrautstraße 19-21, 10963 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -2324,6 +2363,7 @@
   "lat": 52.5570303,
   "lng": 13.3748997
  },
+ "Ostkreuz, Gleis 13, 10245 Berlin": null,
  "Otto-von-Simson-Straße 23, Berlin": {
   "address": "Otto-von-Simson-Straße 23, 14195 Dahlem",
   "bezirk": "Steglitz-Zehlendorf",
@@ -2682,6 +2722,7 @@
   "lat": 52.4934294,
   "lng": 13.3676157
  },
+ "SIN Berlin, Nostitzstraße 48, 10961 Berlin": null,
  "SOLId Graefestraße 18 10967 Berlin Deutschland": {
   "address": "Graefestraße 18, 10967 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -3115,6 +3156,8 @@
  "Türrschmidtstraße 1 10317, 10317 Berlin": null,
  "U-Bhf Afrikanische Straße, vor der Steinbock Apotheke, 13349 Berlin": null,
  "U-Bhf Kurfürstenstr Kurfürstenstraße 32 Berlin 10785 10785 Berlin Deutschland": null,
+ "U-Bhf. Turmstraße Berlin": null,
+ "U-Bhf. Turmstraße Berlin Deutschland": null,
  "UJZ Karlshorst Hönower Str. 30 10318 Berlin Deutschland": {
   "address": "Hönower Straße 30, 10318 Karlshorst",
   "bezirk": "Lichtenberg",

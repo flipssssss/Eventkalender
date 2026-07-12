@@ -1,6 +1,6 @@
-Events gesamt: 71 | mit Bild: 63 | mit Beschreibung: 64
+Events gesamt: 70 | mit Bild: 62 | mit Beschreibung: 63
 club/28354 (://about blank): 40 -> 40 Berlin | flyer=0 images=36 content=38
-club/98993 (Beate Uwe): 8 -> 8 Berlin | flyer=0 images=6 content=7
+club/98993 (Beate Uwe): 7 -> 7 Berlin | flyer=0 images=5 content=6
 promoter/82597 (BOAR Berlin): 0 -> 0 Berlin | flyer=0 images=0 content=0
 promoter/71007 (Buttons): 0 -> 0 Berlin | flyer=0 images=0 content=0
 promoter/80958 (GEGEN): 8 -> 5 Berlin | flyer=0 images=7 content=8
@@ -13,7 +13,7 @@ promoter/169756 (Mala Junta): 1 -> 0 Berlin | flyer=0 images=1 content=1
 promoter/109496 (PiepShow Berlin): 6 -> 6 Berlin | flyer=0 images=6 content=6
 promoter/112980 (Pinky Promise): 0 -> 0 Berlin | flyer=0 images=0 content=0
 promoter/119317 (Polyamor): 6 -> 6 Berlin | flyer=0 images=5 content=3
-promoter/52590 (Pornceptual): 4 -> 1 Berlin | flyer=0 images=3 content=4
+promoter/52590 (Pornceptual): 3 -> 1 Berlin | flyer=0 images=2 content=3
 promoter/68628 (Room 4 Resistance): 0 -> 0 Berlin | flyer=0 images=0 content=0
 promoter/110626 (Supernature): 0 -> 0 Berlin | flyer=0 images=0 content=0
 promoter/90524 (¡MASH-UP! Multigender / Multiworld): 0 -> 0 Berlin | flyer=0 images=0 content=0

@@ -1,53 +1,5 @@
-event-blocks: 11 | Events: 9
+event-blocks: 9 | Events: 7
 
-<div class="event-block">
- <!-- Zeile 1: Datum + Titel -->
- <div class="event-row-1">
-  <div class="event-time">
-   Samstag, 11. Juli 21:30
-  </div>
-  <div class="event-title">
-   Wendy &amp; Bully
-  </div>
- </div>
- <!-- Zeile 2: Bild + Beschreibung -->
- <div class="event-row-2">
-  <div class="event-image">
-   <img alt="" src="ProgrammFotos/Wendy_Bully_2026_07_11.jpg"/>
-  </div>
-  <div class="event-description">
-   Bully and Wendy lead you through a world of their personal vinyl collection, through all its peaks, quirks and mysteries.
-
-Expect old favs, new loves and deep cuts.
-  </div>
- </div>
-</div>
-
-
-----
-<div class="event-block">
- <!-- Zeile 1: Datum + Titel -->
- <div class="event-row-1">
-  <div class="event-time">
-   Sonntag, 12. Juli 18:00
-  </div>
-  <div class="event-title">
-   Rabbit Hole
-  </div>
- </div>
- <!-- Zeile 2: Bild + Beschreibung -->
- <div class="event-row-2">
-  <div class="event-image">
-   <img alt="" src="ProgrammFotos/Rabbit_Hole_2026_07_12.jpg"/>
-  </div>
-  <div class="event-description">
-   Sunday reading around the pole
-  </div>
- </div>
-</div>
-
-
-----
 <div class="event-block">
  <!-- Zeile 1: Datum + Titel -->
  <div class="event-row-1">
@@ -86,6 +38,47 @@ Expect old favs, new loves and deep cuts.
    Carefully selected Cosmic Disco, Funk, Boogie, Italo Disco and Balearic gems,
 record digger and passionate DJ Big Bang Ben spins with love to detail and a passion for timeless grooves.
 Vinyl only!
+  </div>
+ </div>
+</div>
+
+
+----
+<div class="event-block">
+ <!-- Zeile 1: Datum + Titel -->
+ <div class="event-row-1">
+  <div class="event-time">
+   Donnerstag, 23. Juli 22:00
+  </div>
+  <div class="event-title">
+   Schwulenschubsen
+  </div>
+ </div>
+ <!-- Zeile 2: Bild + Beschreibung -->
+ <div class="event-row-2">
+  <div class="event-image event-image--empty">
+  </div>
+  <div class="event-description">
+   Boris &amp; Ralf
+  </div>
+ </div>
+</div>
+
+
+----
+<div class="event-block">
+ <!-- Zeile 1: Datum + Titel -->
+ <div class="event-row-1">
+  <div class="event-time">
+   Freitag, 24. Juli 15:00
+  </div>
+  <div class="event-title">
+   Marie Malarie
+  </div>
+ </div>
+ <!-- Zeile 2: Bild + Beschreibung -->
+ <div class="event-row-2">
+  <div class="event-image event-image--empty">
   </div>
  </div>
 </div>

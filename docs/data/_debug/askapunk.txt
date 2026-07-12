@@ -1,10 +1,4 @@
-API-Events: 44 | übernommen: 44
-  2026-07-10 17:00:00 | Punk | ORWOhaus Festival – Episode XIX
-  2026-07-10 17:00:00 | Punk | A WORLD OF OUR OWN FESTIVAL
-  2026-07-11 18:00:00 | None | MONDO VIDEO III: Kampf der Welten - Chaostage 95 (1996, 92‘, DF) & Nie wieder Arbeit - Die APPD, der legale Arm der Chaostage? (1998, DF)
-  2026-07-11 19:00:00 | Punk | MOLOCH (Punk, Bln) + PINK WONDER (Scumpunk, Bln)
-  2026-07-11 19:00:00 | Punk | The Lamplighters (PunkRock/D) + Die Ausreden (Punk/Bln) +DJ Billy Pale
-  2026-07-11 20:00:00 | Punk | Shybits + Däächt + cementa
+API-Events: 38 | übernommen: 38
   2026-07-12 14:45:00 | None | Queer Tours for All - Gay and Sapphic Schöneberg
   2026-07-12 17:00:00 | Punk | Soli concert
   2026-07-12 18:00:00 | Punk | Konzert im K19 mit GRIPP! (Murcia Punx)
@@ -13,11 +7,11 @@ API-Events: 44 | übernommen: 44
   2026-07-13 20:00:00 | None | DIPLOID / D'CO / LA HAINE // July 13, 2026 // OGH Berlin
   2026-07-14 18:45:00 | None | Queer Tours for All - Queer Kreuzberg
   2026-07-14 19:00:00 | Punk | HEZ + NERVE CENTER + TUÉTANO
-  2026-07-15 19:00:00 | Punk | TROPICAL PUNKS: RESTLESS // ÁGUA(Brazil) // M. TAKARA & CARLA BOREGAS
-  2026-07-15 19:00:00 | Punk | MAGAZINO (INT) & MR.STRONG (LE)
+  2026-07-15 19:00:00 | None | Identity Shock + Preemptive Strike + Big Iron
   2026-07-15 19:00:00 | Punk | GumBleed (China - punk/hardcore) + Dummy Toys (China - raw, fast, violent punk) im Badehaus Berlin
   2026-07-15 19:00:00 | Punk | DUMMY TOYS + Gum Bleed (Punk from China) live at Badehaus Berlin
-  2026-07-15 19:00:00 | None | Identity Shock + Preemptive Strike + Big Iron
+  2026-07-15 19:00:00 | Punk | TROPICAL PUNKS: RESTLESS // ÁGUA(Brazil) // M. TAKARA & CARLA BOREGAS
+  2026-07-15 19:00:00 | Punk | MAGAZINO (INT) & MR.STRONG (LE)
   2026-07-16 20:00:00 | Punk | Doppelpunk
   2026-07-17 18:00:00 | Punk | 36 Jahre Schokoladen - Hoffest
   2026-07-18 16:00:00 | Punk | Second Hand Market
@@ -29,3 +23,9 @@ API-Events: 44 | übernommen: 44
   2026-08-02 19:00:00 | Punk | Camelia / Only / Leep
   2026-08-05 19:00:00 | Punk | BLEACH TV (indie-rock/post-punk, hh) & DOGDAZE (shoegaze/post-punk, bln)
   2026-08-06 19:00:00 | Punk | RAGANA + DIS FIG + SPIXE
+  2026-08-07 19:00:00 | Punk | How Great / The River Speaks / Not Tonight
+  2026-08-08 18:00:00 | Punk | EA80 [Schokoladen-Hofkonzert]
+  2026-08-09 19:00:00 | Punk | EA80
+  2026-08-20 20:00:00 | Punk | Kowa Axis / Aidan Baker / Tim Wyskida
+  2026-08-26 19:00:00 | Punk | COUSINES LIKE SHIT (AT) & LIIEK (Bln) & FACE VALUE (Bln)
+  2026-09-05 17:00:00 | None | Tiergarten Maleficium

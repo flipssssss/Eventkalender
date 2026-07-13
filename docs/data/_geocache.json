@@ -999,6 +999,7 @@
   "lat": 52.5128,
   "lng": 13.4402215
  },
+ "Frauenhoferstr. 33-36, 10587 Berlin": null,
  "Freiluftkino Rehberge, Berlin": {
   "address": "Windhuker Straße, 13351 Wedding",
   "bezirk": "Mitte",
@@ -1627,6 +1628,12 @@
   "lat": 52.5112074,
   "lng": 13.4169157
  },
+ "Klingerstraße 1243, 12435 Berlin": {
+  "address": "Klingerstraße, 12435 Plänterwald",
+  "bezirk": "Treptow-Köpenick",
+  "lat": 52.4831538,
+  "lng": 13.4692694
+ },
  "Kneipe Kleinod Niemetzstraße 24 12055, 12055 Berlin": null,
  "Kneipe Kleinod Niemetzstraße 24, 12055 Berlin Deutschland": {
   "address": "Niemetzstraße 24, 12055 Neukölln",
@@ -1808,6 +1815,12 @@
   "lng": 13.6173176
  },
  "La Casa Wurzener Straße 6, 12627 Berlin": {
+  "address": "Wurzener Straße 6;8, 12627 Hellersdorf",
+  "bezirk": "Marzahn-Hellersdorf",
+  "lat": 52.5422403,
+  "lng": 13.6173176
+ },
+ "La Casa, Wurzener Straße 6, 12627 Berlin": {
   "address": "Wurzener Straße 6;8, 12627 Hellersdorf",
   "bezirk": "Marzahn-Hellersdorf",
   "lat": 52.5422403,
@@ -3107,6 +3120,7 @@
  "Traumreparatur Lausitzer Straße 13 10999 Berlin Deutschland": null,
  "Traumreparatur Lausitzer Straße 13 10999, 10999 Berlin": null,
  "Treffpunkt: S- und U-Bhf Wedding, Berlin": null,
+ "Treptower Park, Bus-Haltestelle Klingerstraße, 12435 Berlin": null,
  "Tristeza Pannierstr. 5 12047 Berlin Deutschland": {
   "address": "Pannierstraße 5, 12047 Neukölln",
   "bezirk": "Neukölln",
@@ -3473,6 +3487,7 @@
  "https://karada-house.de/events/hurt-me-deliciously-2/, Berlin": null,
  "https://karada-house.de/events/practical-reflections/, Berlin": null,
  "https://karada-house.de/events/radical-inclusion/, Berlin": null,
+ "i-café 3. OG, links, Frauenhoferstr. 33-36, 10587 Berlin": null,
  "inter:Salon, Rungestraße 20, 10179 Berlin": null,
  "llmann🕯, Berlin": null,
  "loge. kneipenkollektiv Kinzigstraße 9 10247 Berlin Deutschland": null,

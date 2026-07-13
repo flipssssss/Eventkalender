@@ -1,17 +1,14 @@
-API-Events: 38 | übernommen: 38
-  2026-07-12 14:45:00 | None | Queer Tours for All - Gay and Sapphic Schöneberg
-  2026-07-12 17:00:00 | Punk | Soli concert
-  2026-07-12 18:00:00 | Punk | Konzert im K19 mit GRIPP! (Murcia Punx)
-  2026-07-12 19:00:00 | Indie | Glimmer / The River Speaks
+API-Events: 35 | übernommen: 35
   2026-07-13 19:00:00 | Punk | CÚT LỘN (Ho Chi Minh City, hardcore punk) + I HATE THE BOUNCERS (Berlin, punk) im Schokoladen
   2026-07-13 20:00:00 | None | DIPLOID / D'CO / LA HAINE // July 13, 2026 // OGH Berlin
   2026-07-14 18:45:00 | None | Queer Tours for All - Queer Kreuzberg
   2026-07-14 19:00:00 | Punk | HEZ + NERVE CENTER + TUÉTANO
-  2026-07-15 19:00:00 | None | Identity Shock + Preemptive Strike + Big Iron
-  2026-07-15 19:00:00 | Punk | GumBleed (China - punk/hardcore) + Dummy Toys (China - raw, fast, violent punk) im Badehaus Berlin
-  2026-07-15 19:00:00 | Punk | DUMMY TOYS + Gum Bleed (Punk from China) live at Badehaus Berlin
   2026-07-15 19:00:00 | Punk | TROPICAL PUNKS: RESTLESS // ÁGUA(Brazil) // M. TAKARA & CARLA BOREGAS
   2026-07-15 19:00:00 | Punk | MAGAZINO (INT) & MR.STRONG (LE)
+  2026-07-15 19:00:00 | None | Identity Shock + Preemptive Strike + Big Iron
+  2026-07-15 19:00:00 | Punk | DUMMY TOYS + Gum Bleed (Punk from China) live at Badehaus Berlin
+  2026-07-15 19:00:00 | Punk | Punkfilmfest Berlin Sommerkonzerte
+  2026-07-15 19:00:00 | Punk | GumBleed (China - punk/hardcore) + Dummy Toys (China - raw, fast, violent punk) im Badehaus Berlin
   2026-07-16 20:00:00 | Punk | Doppelpunk
   2026-07-17 18:00:00 | Punk | 36 Jahre Schokoladen - Hoffest
   2026-07-18 16:00:00 | Punk | Second Hand Market
@@ -29,3 +26,6 @@ API-Events: 38 | übernommen: 38
   2026-08-20 20:00:00 | Punk | Kowa Axis / Aidan Baker / Tim Wyskida
   2026-08-26 19:00:00 | Punk | COUSINES LIKE SHIT (AT) & LIIEK (Bln) & FACE VALUE (Bln)
   2026-09-05 17:00:00 | None | Tiergarten Maleficium
+  2026-09-05 19:00:00 | Punk | ANCST | SVDESTADA | MARNÖ | BRÜD
+  2026-09-07 19:00:00 | None | Giöbia // B.L.O. Kantine Berlin (support: Icarus Burns)
+  2026-09-15 19:00:00 | Electro | Hole Dweller + Dragon Keep + Seregost + Potcullis + Serpent of Death

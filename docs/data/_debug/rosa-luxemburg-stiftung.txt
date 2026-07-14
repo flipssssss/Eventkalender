@@ -1,4 +1,4 @@
-Teaser: 96 | Berlin: 19 | andere Städte: 77 | mit Beschreibung: 14
+Teaser: 98 | Berlin: 20 | andere Städte: 78 | mit Beschreibung: 14
   2026-07-01 10:00:00 | Berlin | Antiquarische Buchwoche
   2026-07-01 18:30:17 | Berlin | Planetare Politik im Zeitalter des Klimawandels
   2026-07-01 19:00:00 | Berlin | „Armut und Krieg überwinden mit Gerechtigkeit“
@@ -16,5 +16,6 @@ Teaser: 96 | Berlin: 19 | andere Städte: 77 | mit Beschreibung: 14
   2026-07-15 19:00:42 | Berlin | Venezuela als Labor neuer geopolitischer Machtverhältnisse
   2026-07-16 18:00:00 | Berlin | Geschichte und Gegenwart der Antifaschistischen Aktion
   2026-07-17 13:00:00 | Berlin | Symposium: Reworking Critical Marxist Theory
+  2026-07-18 10:00:19 | Berlin | Symposium über die Internationalen Brigaden
   2026-07-23 19:00:52 | Berlin | Queer und Klasse: Über Armut, Ausgrenzung und Solidarität
   2026-07-30 18:00:11 | Berlin | Antisemitismus und die Neue Rechte

@@ -3178,6 +3178,12 @@
   "lat": 52.4891876,
   "lng": 13.5212576
  },
+ "UJZ Karlshorst, Hönower Straße 30, 10318 Berlin": {
+  "address": "Hönower Straße 30, 10318 Karlshorst",
+  "bezirk": "Lichtenberg",
+  "lat": 52.4891876,
+  "lng": 13.5212576
+ },
  "Unter den Linden 5, 10117 Berlin": {
   "address": "Unter den Linden 5, 10117 Mitte",
   "bezirk": "Mitte",

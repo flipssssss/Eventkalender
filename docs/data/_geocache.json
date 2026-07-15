@@ -115,6 +115,7 @@
   "lng": 13.3262548
  },
  "3 Kinos, Berlin": null,
+ "32-16-8 (Kiezkneipe) Perleberger Straße 58a 10559 Berlin Deutschland": null,
  ":// about blank / Garten Markgrafendamm 24c 10245 Berlin Deutschland": null,
  "://about blank, Berlin": {
   "address": "Markgrafendamm 24c, 10245 Friedrichshain",
@@ -728,6 +729,7 @@
  },
  "Café Köpenick Seelenbinderstr. 54 12555, 12555 Berlin": null,
  "Café Milagro, Bergmannstr. 12, 10961 Berlin": null,
+ "Café Sybille Karl-Marx-Allee 72 10243 Berlin Deutschland": null,
  "Café Wostok, Weitlingstraße 97, 10317 Berlin": {
   "address": "Weitlingstraße 97, 10317 Rummelsburg",
   "bezirk": "Lichtenberg",
@@ -1028,6 +1030,12 @@
   "lat": 52.5456853,
   "lng": 13.36649
  },
+ "Gesundbrunnen Berlin Deutschland": {
+  "address": "Gesundbrunnen",
+  "bezirk": "Mitte",
+  "lat": 52.5509201,
+  "lng": 13.384846
+ },
  "Globe Berlin, Sömmeringstraße 15, 10589, Berlin": null,
  "Gneisenaustr. 2a, 10961 Berlin": {
   "address": "Gneisenaustraße 2a, 10961 Kreuzberg",
@@ -1213,6 +1221,12 @@
   "bezirk": "Mitte",
   "lat": 52.5197989,
   "lng": 13.3926928
+ },
+ "Hegemeisterweg 68, 10318 Berlin": {
+  "address": "Hegemeisterweg 68, 10318 Karlshorst",
+  "bezirk": "Lichtenberg",
+  "lat": 52.4791465,
+  "lng": 13.5075324
  },
  "Heimathafen Neukölln Karl-Marx-Str. 141 12043 Berlin Deutschland": {
   "address": "Karl-Marx-Straße 141, 12043 Neukölln",
@@ -1525,6 +1539,12 @@
   "lat": 52.5198483,
   "lng": 13.4251493
  },
+ "Karl-Marx-Allee 72, 10243 Berlin": {
+  "address": "Karl-Marx-Allee 72, 10243 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5171831,
+  "lng": 13.436985
+ },
  "Karl-Marx-Straße 141, 12043 Berlin": {
   "address": "Karl-Marx-Straße 141, 12043 Neukölln",
   "bezirk": "Neukölln",
@@ -1659,6 +1679,12 @@
   "bezirk": "Pankow",
   "lat": 52.5404746,
   "lng": 13.412219
+ },
+ "Kottbusser Tor (Kreuzberg) Berlin Deutschland": {
+  "address": "Kottbusser Tor, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4989853,
+  "lng": 13.4183107
  },
  "Kottbusser Tor, Berlin": {
   "address": "Kottbusser Tor, 10999 Kreuzberg",
@@ -2048,6 +2074,12 @@
   "lat": 52.545711,
   "lng": 13.3552968
  },
+ "Lynarstr. 9, 13585 Berlin": {
+  "address": "Lynarstraße 9, 13585 Spandau",
+  "bezirk": "Spandau",
+  "lat": 52.5489919,
+  "lng": 13.2074834
+ },
  "Lützowstraße 28, 10785 Berlin": {
   "address": "Lützowstraße 28, 10785 Tiergarten",
   "bezirk": "Mitte",
@@ -2277,6 +2309,7 @@
  },
  "Neue Republik Reger Bouchestraße A 79 12435 Berlin Deutschland": null,
  "Neue Zukunft Alt-Strahlau 68 10245 Berlin Deutschland": null,
+ "New Casa, Wurzener Straße 6, 12627 Berlin": null,
  "New Casa, Wurzener Straße 6–8, Hellersdorf 12627 Berlin Deutschland": null,
  "New Yorck im Bethanien Mariannenplatz 2A 10997 Berlin Deutschland": null,
  "NewYorck im Bethanien Mariannenplatz 2A 10997 Berlin Deutschland": null,
@@ -2432,6 +2465,12 @@
   "lat": 52.4842307,
   "lng": 13.4331894
  },
+ "Perleberger Straße 58a, 10559 Berlin": {
+  "address": "Perleberger Straße 58A, 10559 Moabit",
+  "bezirk": "Mitte",
+  "lat": 52.5326254,
+  "lng": 13.3511781
+ },
  "Perleberger Straße 59, 10559 Berlin": {
   "address": "Perleberger Straße 59, 10559 Moabit",
   "bezirk": "Mitte",
@@ -2487,6 +2526,7 @@
  "Prinzessinnengarten Neukölln Hermannstraße 99-105 12051 Berlin Deutschland": null,
  "Prinzessinnengarten Neukölln Hermannstraße 99-105, 12051 Berlin": null,
  "Prinzessinnenstraße 30, 10969 Berlin": null,
+ "Projektraum ABB (Scherer 8 - Zugang über Adolfstr) Schererstraße 8 (Zugang über Adolfstraße) 13347 Berlin Deutschland": null,
  "Quälgeist Berlin e.V. Lankwitzer Straße 42/43, 12107 Berlin": null,
  "Quälgeist Berlin e.V., Lankwitzer Straße 42/43, Berlin, 12107, Deutschland": null,
  "Quälgeist, Lankwitzer Straße 42/43, 12107 Berlin": null,
@@ -3119,6 +3159,7 @@
  "Tram Hohenschönhauser Straße, 10369 Berlin": null,
  "Traumreparatur Lausitzer Straße 13 10999 Berlin Deutschland": null,
  "Traumreparatur Lausitzer Straße 13 10999, 10999 Berlin": null,
+ "Treffpunkt Regenbogen Lynarstr. 9 13585 Berlin Deutschland": null,
  "Treffpunkt: S- und U-Bhf Wedding, Berlin": null,
  "Treptower Park, Bus-Haltestelle Klingerstraße, 12435 Berlin": null,
  "Tristeza Pannierstr. 5 12047 Berlin Deutschland": {
@@ -3170,6 +3211,12 @@
  "Türrschmidtstraße 1 10317, 10317 Berlin": null,
  "U-Bhf Afrikanische Straße, vor der Steinbock Apotheke, 13349 Berlin": null,
  "U-Bhf Kurfürstenstr Kurfürstenstraße 32 Berlin 10785 10785 Berlin Deutschland": null,
+ "U-Bhf Wittenbergplatz, 10789 Berlin": {
+  "address": "Wittenbergplatz, 10789 Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.5018234,
+  "lng": 13.3429818
+ },
  "U-Bhf. Turmstraße Berlin": null,
  "U-Bhf. Turmstraße Berlin Deutschland": null,
  "UJZ Karlshorst Hönower Str. 30 10318 Berlin Deutschland": {
@@ -3184,6 +3231,7 @@
   "lat": 52.4891876,
   "lng": 13.5212576
  },
+ "Unter Strom Wagenplatz Hegemeisterweg 68 10318 Berlin Deutschland": null,
  "Unter den Linden 5, 10117 Berlin": {
   "address": "Unter den Linden 5, 10117 Mitte",
   "bezirk": "Mitte",

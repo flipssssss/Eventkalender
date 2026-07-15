@@ -1,11 +1,9 @@
-API-Events: 34 | übernommen: 34
-  2026-07-14 18:45:00 | None | Queer Tours for All - Queer Kreuzberg
-  2026-07-14 19:00:00 | Punk | HEZ + NERVE CENTER + TUÉTANO
-  2026-07-15 19:00:00 | Punk | GumBleed (China - punk/hardcore) + Dummy Toys (China - raw, fast, violent punk) im Badehaus Berlin
-  2026-07-15 19:00:00 | Punk | TROPICAL PUNKS: RESTLESS // ÁGUA(Brazil) // M. TAKARA & CARLA BOREGAS
-  2026-07-15 19:00:00 | None | Identity Shock + Preemptive Strike + Big Iron
-  2026-07-15 19:00:00 | Punk | DUMMY TOYS + Gum Bleed (Punk from China) live at Badehaus Berlin
+API-Events: 35 | übernommen: 35
   2026-07-15 19:00:00 | Punk | MAGAZINO (INT) & MR.STRONG (LE)
+  2026-07-15 19:00:00 | Punk | GumBleed (China - punk/hardcore) + Dummy Toys (China - raw, fast, violent punk) im Badehaus Berlin
+  2026-07-15 19:00:00 | None | Identity Shock + Preemptive Strike + Big Iron
+  2026-07-15 19:00:00 | Punk | TROPICAL PUNKS: RESTLESS // ÁGUA(Brazil) // M. TAKARA & CARLA BOREGAS
+  2026-07-15 19:00:00 | Punk | DUMMY TOYS + Gum Bleed (Punk from China) live at Badehaus Berlin
   2026-07-15 19:00:00 | Punk | Punkfilmfest Berlin Sommerkonzerte
   2026-07-16 20:00:00 | Punk | Doppelpunk
   2026-07-17 18:00:00 | Punk | 36 Jahre Schokoladen - Hoffest
@@ -14,7 +12,10 @@ API-Events: 34 | übernommen: 34
   2026-07-21 18:45:00 | None | Queer Tours for All - Queer Kreuzberg
   2026-07-21 19:00:00 | Punk | Lydia Lunch - Welcome To My Church - An Intimate evening of words & music feat. Jochen Arbeit, Kristof Hahn & Travis Jeppesen
   2026-07-23 19:00:00 | Punk | Loveth Besamoh (exp-indie-rock/post-punk) + Apelast (psych-rock/lofi-stoner)
+  2026-07-26 14:45:00 | None | Queer Tours for All - Gay and Sapphic Schöneberg
   2026-07-27 19:00:00 | Punk | Ballyhoo (rock reggae + punk rock/ Maryland) + Launce (funk, rock/ Berlin) im Schokoladen
+  2026-07-28 18:45:00 | None | Queer Tours for All - Queer Kreuzberg
+  2026-07-31 12:45:00 | None | Queer Tours for All - Culture in Köpenicker Forst
   2026-07-31 19:00:00 | Punk | WRECKAGE & ECHO CHAMBER
   2026-08-02 19:00:00 | Punk | Camelia / Only / Leep
   2026-08-05 19:00:00 | Punk | BLEACH TV (indie-rock/post-punk, hh) & DOGDAZE (shoegaze/post-punk, bln)
@@ -28,4 +29,3 @@ API-Events: 34 | übernommen: 34
   2026-09-05 19:00:00 | Punk | ANCST | SVDESTADA | MARNÖ | BRÜD
   2026-09-07 19:00:00 | None | Giöbia // B.L.O. Kantine Berlin (support: Icarus Burns)
   2026-09-15 19:00:00 | Electro | Hole Dweller + Dragon Keep + Seregost + Potcullis + Serpent of Death
-  2026-09-22 19:00:00 | None | Team Dresch

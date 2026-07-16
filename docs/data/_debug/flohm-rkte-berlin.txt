@@ -1,10 +1,9 @@
 teaser: 46
 dated: 16
-detail_ok: 25
-detail_err: 1
+detail_ok: 26
+detail_err: 0
 recur: 21
 no_geo: 4
 geo: 56
-events: 158
+events: 157
 FEHLER:
-DETAIL HTTPSConnectionPool(host='www.berlin.de', port=443): Read timed out. (read timeout=20)

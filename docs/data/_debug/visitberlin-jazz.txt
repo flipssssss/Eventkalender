@@ -1,8 +1,5 @@
-Event-Links: 21 | Events: 21
+Event-Links: 21 | Events: 18
   2026-07-04 17:00:00 | Krankenhauskirche im Wuhlgarten, Brebacher Weg 15, 12683, Berlin | ZERBRECHLICHE SCHÖNHEIT - Marita Czepa
-  2026-07-16 20:00:00 | Zimmer 16, Florastraße 16, 13187, Berlin | Jamsession - Was mit Jazz
-  2026-07-16 20:00:00 | Kulturhaus "alte feuerwache" Friedrichshain, Marchlewskistr. 6, 10243, Berlin | Konstantin Lemke P.R.O.J.E.C.T.S.
-  2026-07-16 20:30:00 | Kühlspot Social Club, Lehderstrasse 74, 13086, Berlin | Schwarz | Viner | Rößler
   2026-07-17 19:30:00 | MS Goldberg am Bhf Wannsee, Kronprinzessinnenweg 5–6
 Brücke 1, 14109, Berlin | Shiny Stockings Trio
   2026-07-19 15:00:00 | Belvedere auf dem Pfingstberg Potsdam, 14469, Potsdam | Kultur in der Natur: Stolen Moments

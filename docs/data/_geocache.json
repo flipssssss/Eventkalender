@@ -12,6 +12,12 @@
   "lat": 52.5006167,
   "lng": 13.4648062
  },
+ "10367 Berlin": {
+  "address": "10367 Fennpfuhl",
+  "bezirk": "Lichtenberg",
+  "lat": 52.524468,
+  "lng": 13.4819893
+ },
  "10623 Berlin": {
   "address": "10623 Charlottenburg",
   "bezirk": "Charlottenburg-Wilmersdorf",
@@ -130,6 +136,12 @@
  "AK Zwangsarbeit Ludwigsfelde, Berlin": null,
  "AStA FU Otto-von-Simson-Straße 23 Berlin Deutschland": null,
  "Abfahrt Solibus Züllichauer Straße 10965 Berlin Deutschland": null,
+ "Abstand Rigaer Straße 78 10247 Berlin Deutschland": {
+  "address": "Rigaer Straße 78, 10247 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5166542,
+  "lng": 13.4641926
+ },
  "Achillesstraße 55, 13125 Berlin": {
   "address": "Achillesstraße 55, 13125 Karow",
   "bezirk": "Pankow",
@@ -320,6 +332,12 @@
  "Archiv Potsdam Berlin": null,
  "Archiv Potsdam Berlin Deutschland": null,
  "Archiv Potsdam, Leipziger Straße 60 – 14473 Potsdam, Berlin": null,
+ "Argentinische Allee 30, 14163 Berlin": {
+  "address": "Argentinische Allee 30, 14163 Zehlendorf",
+  "bezirk": "Steglitz-Zehlendorf",
+  "lat": 52.4420634,
+  "lng": 13.2384164
+ },
  "Arkonaplatz 1, 10435 Berlin": {
   "address": "Arkonaplatz 1, 10435 Mitte",
   "bezirk": "Mitte",
@@ -2234,6 +2252,8 @@
   "lat": 52.4918919,
   "lng": 13.3890768
  },
+ "Mellowpark An der Wuhlheide 250-256 (Schöneweide) Berlin": null,
+ "Mellowpark An der Wuhlheide 250-256 (Schöneweide) Berlin Deutschland": null,
  "Metis Books and Café, Berlin": null,
  "MieterClub Neue Christstr. 8 14059 Berlin Deutschland": null,
  "Milchbar, Manteuffelstraße 41, 10997 Berlin": null,
@@ -3043,6 +3063,7 @@
   "lng": 13.3240122
  },
  "Stadteilladen Lunte, Weisestraße 53, 12049 Berlin": null,
+ "Stadtpark Lichtenberg (Parkaue) 10367 Berlin Deutschland": null,
  "Stadtschloss Moabit, Rostocker Straße 32, 10553 Berlin": {
   "address": "Rostocker Straße 32, 10553 Moabit",
   "bezirk": "Mitte",
@@ -3128,6 +3149,12 @@
  "Thomashöhe Hartungbaum, Berlin": null,
  "Thomashöhe, Hartungbaum, Berlin": null,
  "Thusneldaallee 1, 10551 Berlin": null,
+ "Tiergartenstraße 19 - 21, 10785 Berlin": {
+  "address": "Tiergartenstraße, 10785 Tiergarten",
+  "bezirk": "Mitte",
+  "lat": 52.5096204,
+  "lng": 13.3539733
+ },
  "Tipsy Bear, Berlin": {
   "address": "Eberswalder Straße 21, 10437 Prenzlauer Berg",
   "bezirk": "Pankow",
@@ -3325,6 +3352,12 @@
   "bezirk": "Neukölln",
   "lat": 52.4777152,
   "lng": 13.4240197
+ },
+ "Werderscher Markt 1, 10117 Berlin": {
+  "address": "Werderscher Markt 1, 10117 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5139807,
+  "lng": 13.3998494
  },
  "Weserstr. 206, 12047 Berlin, Germany": {
   "address": "Weserstraße 206, 12047 Neukölln",

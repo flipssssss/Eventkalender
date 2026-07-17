@@ -389,6 +389,7 @@
   "lng": 13.4270501
  },
  "Babylon Kino, Rosa-Luxemburg-Straße 30, 10178 Berlin": null,
+ "Baergarten Schnellerstraße 137 12439 Berlin Deutschland": null,
  "Bahnhof Oranienburg Berlin": null,
  "Bahnhof Oranienburg Berlin Deutschland": null,
  "Baiz Schönhauser Allee 26 A 10435 Berlin Deutschland": null,
@@ -970,6 +971,7 @@
   "lat": 52.4912236,
   "lng": 13.3150557
  },
+ "Felix & Noemi, Berlin": null,
  "Ficken 3000 Berlin": null,
  "Ficken 3000, Berlin": null,
  "Filmrauschpalast Lehrter Str. 35 10557 Berlin Deutschland": {
@@ -1774,6 +1776,12 @@
  "Kulturfabrik Moabit Lehrter Str. 35 10557, 10557 Berlin": null,
  "Kulturhaus \"alte feuerwache\" Friedrichshain, Marchlewskistr. 6, 10243, Berlin": null,
  "Kulturhaus Centre Bagatelle, Zeltinger Str. 6, 13465, Berlin-Frohnau": null,
+ "Kunstfabrik Schlot, Invalidenstraße 117, 10115, Berlin": {
+  "address": "Invalidenstraße 117, 10115 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5302814,
+  "lng": 13.385162
+ },
  "Kunstmarkt Trödelmarkt Boxhagener Platz, Berlin": null,
  "Kurfürstenstraße 32, 10785 Berlin": {
   "address": "Kurfürstenstraße 32, 12105 Mariendorf",
@@ -2298,6 +2306,12 @@
   "lat": 52.5000581,
   "lng": 13.4174433
  },
+ "Möckernstraße 26, 10963 Berlin": {
+  "address": "Möckernstraße 26, 10963 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4951332,
+  "lng": 13.377443
+ },
  "Müllerstraße 74, 13349 Berlin": {
   "address": "Müllerstraße 74, 13349 Wedding",
   "bezirk": "Mitte",
@@ -2473,6 +2487,7 @@
   "lat": 52.557391,
   "lng": 13.4600765
  },
+ "Park am Gleisdreieck, Möckernstraße 26, 10963 Berlin": null,
  "Peppi Guggenheim, Weichselstrasse 7, 12043, Berlin": {
   "address": "Weichselstraße 7, 12043 Neukölln",
   "bezirk": "Neukölln",
@@ -2573,6 +2588,8 @@
   "lat": 52.4919262,
   "lng": 13.4383871
  },
+ "Raumerweiterungshalle Berlin": null,
+ "Raumerweiterungshalle, Berlin": null,
  "Refuge Worldwide, Niemetzstraße 1, 12055 Berlin": {
   "address": "Niemetzstraße 1, 12055 Neukölln",
   "bezirk": "Neukölln",
@@ -2908,6 +2925,12 @@
  },
  "Schmatzkammer Eberswalde Coppistr. 1-3 Berlin Deutschland": null,
  "Schmatzkammer Eberswalde Coppistr. 1-3, Berlin": null,
+ "Schnellerstraße 137, 12439 Berlin": {
+  "address": "Schnellerstraße 137, 12439 Niederschöneweide",
+  "bezirk": "Treptow-Köpenick",
+  "lat": 52.4606246,
+  "lng": 13.508975
+ },
  "Schokoladen Ackerstrasse 169 10115 Berlin Deutschland": {
   "address": "Ackerstraße 169, 10115 Mitte",
   "bezirk": "Mitte",

@@ -1,8 +1,8 @@
-API-Events: 30 | übernommen: 30
-  2026-07-16 20:00:00 | Punk | Doppelpunk
+API-Events: 31 | übernommen: 31
   2026-07-17 18:00:00 | Punk | 36 Jahre Schokoladen - Hoffest
   2026-07-18 16:00:00 | None | DIRTY INKS – Punk Art Exhibition
   2026-07-18 16:00:00 | Punk | Second Hand Market
+  2026-07-18 20:00:00 | Punk | Konzert im Freiraum $@#@riterviertel
   2026-07-21 18:45:00 | None | Queer Tours for All - Queer Kreuzberg
   2026-07-21 19:00:00 | Punk | Lydia Lunch - Welcome To My Church - An Intimate evening of words & music feat. Jochen Arbeit, Kristof Hahn & Travis Jeppesen
   2026-07-23 19:00:00 | Punk | Loveth Besamoh (exp-indie-rock/post-punk) + Apelast (psych-rock/lofi-stoner)
@@ -10,6 +10,7 @@ API-Events: 30 | übernommen: 30
   2026-07-26 14:45:00 | None | Queer Tours for All - Gay and Sapphic Schöneberg
   2026-07-27 19:00:00 | Punk | Ballyhoo (rock reggae + punk rock/ Maryland) + Launce (funk, rock/ Berlin) im Schokoladen
   2026-07-28 18:45:00 | None | Queer Tours for All - Queer Kreuzberg
+  2026-07-30 20:30:00 | Electro | UZIMOTO + GELBART + ULTRAVIOLET
   2026-07-31 12:45:00 | None | Queer Tours for All - Culture in Köpenicker Forst
   2026-07-31 19:00:00 | Punk | WRECKAGE & ECHO CHAMBER
   2026-08-02 19:00:00 | Punk | Camelia / Only / Leep
@@ -28,4 +29,3 @@ API-Events: 30 | übernommen: 30
   2026-10-20 19:00:00 | Punk | Sparta, Hammok
   2026-10-23 19:00:00 | Punk | LIIEK + INESSA ANXIOUS
   2026-10-31 19:30:00 | Punk | SEEIN RED + MÖRSER + RYTES
-  2026-11-07 18:30:00 | Punk | Acht Eimer Hühnerherzen - 10-Jahre-Jubiläumskonzert, mit Akne Kid Joe, Iedereen, Schreng Schreng & La La

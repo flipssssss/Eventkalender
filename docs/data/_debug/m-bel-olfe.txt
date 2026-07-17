@@ -1,1 +1,88 @@
-FEHLER: HTTPSConnectionPool(host='www.moebel-olfe.de', port=443): Max retries exceeded with url: /programm.php (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.moebel-olfe.de', port=443) at 0x7f7f6ae9e0d0>, 'Connection to www.moebel-olfe.de timed out. (connect timeout=20)'))
+event-blocks: 8 | Events: 6
+
+<div class="event-block">
+ <!-- Zeile 1: Datum + Titel -->
+ <div class="event-row-1">
+  <div class="event-time">
+   Dienstag, 21. Juli 21:30
+  </div>
+  <div class="event-title">
+   Big Bang Ben
+  </div>
+ </div>
+ <!-- Zeile 2: Bild + Beschreibung -->
+ <div class="event-row-2">
+  <div class="event-image">
+   <img alt="" src="ProgrammFotos/Big_Bang_Ben_2026_07_21.jpg"/>
+  </div>
+  <div class="event-description">
+   Carefully selected Cosmic Disco, Funk, Boogie, Italo Disco and Balearic gems,
+record digger and passionate DJ Big Bang Ben spins with love to detail and a passion for timeless grooves.
+Vinyl only!
+  </div>
+ </div>
+</div>
+
+
+----
+<div class="event-block">
+ <!-- Zeile 1: Datum + Titel -->
+ <div class="event-row-1">
+  <div class="event-time">
+   Donnerstag, 23. Juli 22:00
+  </div>
+  <div class="event-title">
+   Schwulenschubsen
+  </div>
+ </div>
+ <!-- Zeile 2: Bild + Beschreibung -->
+ <div class="event-row-2">
+  <div class="event-image event-image--empty">
+  </div>
+  <div class="event-description">
+   Boris &amp; Ralf
+  </div>
+ </div>
+</div>
+
+
+----
+<div class="event-block">
+ <!-- Zeile 1: Datum + Titel -->
+ <div class="event-row-1">
+  <div class="event-time">
+   Freitag, 24. Juli 15:00
+  </div>
+  <div class="event-title">
+   Marie Malarie
+  </div>
+ </div>
+ <!-- Zeile 2: Bild + Beschreibung -->
+ <div class="event-row-2">
+  <div class="event-image event-image--empty">
+  </div>
+ </div>
+</div>
+
+
+----
+<div class="event-block">
+ <!-- Zeile 1: Datum + Titel -->
+ <div class="event-row-1">
+  <div class="event-time">
+   Samstag, 25. Juli 22:00
+  </div>
+  <div class="event-title">
+   Dumpster Kittens
+  </div>
+ </div>
+ <!-- Zeile 2: Bild + Beschreibung -->
+ <div class="event-row-2">
+  <div class="event-image">
+   <img alt="" src="ProgrammFotos/Dumpster_Kittens_2026_07_25.jpg"/>
+  </div>
+  <div class="event-description">
+   INTERNATIONALIST SCHLAGER
+  </div>
+ </div>
+</div>

@@ -1,4 +1,4 @@
-Event-Links: 21 | Events: 20
+Event-Links: 21 | Events: 21
   2026-07-04 17:00:00 | Krankenhauskirche im Wuhlgarten, Brebacher Weg 15, 12683, Berlin | ZERBRECHLICHE SCHÖNHEIT - Marita Czepa
   2026-07-19 15:00:00 | Belvedere auf dem Pfingstberg Potsdam, 14469, Potsdam | Kultur in der Natur: Stolen Moments
   2026-07-12 18:00:00 | MS Goldberg am Bhf Wannsee, Kronprinzessinnenweg 5–6
@@ -21,3 +21,4 @@ Brücke 1, 14109, Berlin | Andrej Hermlin und The Swingin’ Hermlins »Jews in 
   2026-07-31 20:30:00 | Kühlspot Social Club, Lehderstraße 74-79, 13086, Berlin | HOT CAT #41 + Kondo
   2026-07-31 21:00:00 | Kunstfabrik Schlot, Invalidenstraße 117, 10115, Berlin | Jive Park
   2026-08-06 19:30:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Tribute to the Life and Music of Jesse Ballard
+  2026-08-09 11:00:00 | Jüdisches Museum Berlin, Lindenstraße 9-14, 10969, Berlin | Jazz in the Garden II - Adam Ben Ezra Duo

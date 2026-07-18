@@ -1,5 +1,4 @@
-API-Events: 31 | übernommen: 31
-  2026-07-17 18:00:00 | Punk | 36 Jahre Schokoladen - Hoffest
+API-Events: 30 | übernommen: 30
   2026-07-18 16:00:00 | None | DIRTY INKS – Punk Art Exhibition
   2026-07-18 16:00:00 | Punk | Second Hand Market
   2026-07-18 20:00:00 | Punk | Konzert im Freiraum $@#@riterviertel
@@ -29,3 +28,4 @@ API-Events: 31 | übernommen: 31
   2026-10-20 19:00:00 | Punk | Sparta, Hammok
   2026-10-23 19:00:00 | Punk | LIIEK + INESSA ANXIOUS
   2026-10-31 19:30:00 | Punk | SEEIN RED + MÖRSER + RYTES
+  2026-11-07 18:30:00 | Punk | Acht Eimer Hühnerherzen - 10-Jahre-Jubiläumskonzert, mit Akne Kid Joe, Iedereen, Schreng Schreng & La La

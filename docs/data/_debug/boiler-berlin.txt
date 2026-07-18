@@ -1,5 +1,4 @@
-Events: 7
-  2026-07-17 17:00:00 | Aufgüsse am Freitag
+Events: 6
   2026-07-18 17:00:00 | Aufgüsse am Samstag
   2026-07-19 17:00:00 | Aufgüsse am Sonntag
   2026-07-20 17:00:00 | Aufgüsse am Montag

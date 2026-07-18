@@ -323,6 +323,12 @@
   "lng": 13.3954281
  },
  "Aquarium hinterm Südblock Skalitzer Straße 6 10999 Berlin Deutschland": null,
+ "Aquarium, Skalitzer Straße 6, 10999 Berlin": {
+  "address": "Skalitzer Straße 6, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4986179,
+  "lng": 13.4165594
+ },
  "Arboretum, Berlin": {
   "address": "Blankenfelde",
   "bezirk": "Pankow",
@@ -369,6 +375,12 @@
  "BAIZ , Schönhauser Allee 26 10435 Berlin": null,
  "BHT, Raum D E27, Luxemburger Straße 10, 13353 Berlin": null,
  "BHT, Raum D117, Luxemburger Straße 10, 13353 Berlin": null,
+ "BLO Ateliers Kaskelstr. 55 10317 Berlin Deutschland": {
+  "address": "Kaskelstraße 55, 10317 Rummelsburg",
+  "bezirk": "Lichtenberg",
+  "lat": 52.5046039,
+  "lng": 13.4832995
+ },
  "BLO-Ateliers Kaskelstr. 55 10317 Berlin Deutschland": {
   "address": "Kaskelstraße 55, 10317 Rummelsburg",
   "bezirk": "Lichtenberg",
@@ -404,6 +416,7 @@
  "Bandito Rosso*, Lottumstraße 10a, 10119 Berlin": null,
  "Banja Luka, Falckensteinstraße 1-2, 10997 Berlin": null,
  "Bar at Hotel Motel One, Grunerstraße 11, 10179 Berlin": null,
+ "Bayer Müllerstraße 178, U Reinickendorfer Straße 13353 Berlin Deutschland": null,
  "Beate Uwe, Berlin": {
   "address": "Schillingstraße 31, 10179 Mitte",
   "bezirk": "Mitte",
@@ -1449,8 +1462,10 @@
   "lat": 52.4918997,
   "lng": 13.4509424
  },
+ "Joris Kern, Berlin": null,
  "Jugendclub, Schloßstraße 9, 14059 Berlin": null,
  "Juliette Dragon, Berlin": null,
+ "Jüdisches Museum Berlin, Lindenstraße 9-14, 10969, Berlin": null,
  "K Köpenicker Straße Berlin": {
   "address": "Köpenicker Straße, 10997 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -2032,6 +2047,12 @@
   "lat": 52.5186639,
   "lng": 13.4576357
  },
+ "Lindenstraße 9-14, 10969 Berlin": {
+  "address": "Lindenstraße 9-14, 10969 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5016941,
+  "lng": 13.3951413
+ },
  "Linie 206 Linienstr. 206 10119 Berlin Deutschland": null,
  "Linienstr. 206, 10119 Berlin": {
   "address": "Linienstraße 206, 10119 Mitte",
@@ -2312,6 +2333,12 @@
   "lat": 52.4951332,
   "lng": 13.377443
  },
+ "Müllerstraße 178 U, 13353 Berlin": {
+  "address": "Müllerstraße, 13353 Wedding",
+  "bezirk": "Mitte",
+  "lat": 52.539354,
+  "lng": 13.3712083
+ },
  "Müllerstraße 74, 13349 Berlin": {
   "address": "Müllerstraße 74, 13349 Wedding",
   "bezirk": "Mitte",
@@ -2464,6 +2491,12 @@
  },
  "Oya-Bar, Mariannenstraße 6 10997 Berlin Deutschland": null,
  "PA58 Prinzenallee 58 Berlin Deutschland": {
+  "address": "Prinzenallee 58, 13359 Gesundbrunnen",
+  "bezirk": "Mitte",
+  "lat": 52.5583368,
+  "lng": 13.3846017
+ },
+ "PA58, Prinzenallee 58, 13359 Berlin": {
   "address": "Prinzenallee 58, 13359 Gesundbrunnen",
   "bezirk": "Mitte",
   "lat": 52.5583368,
@@ -3198,6 +3231,12 @@
   "lat": 52.484018,
   "lng": 13.3911982
  },
+ "Torhaus Columbiadamm 10 12101 Berlin Deutschland": {
+  "address": "Columbiadamm 10, 10965 Tempelhof",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.484018,
+  "lng": 13.3911982
+ },
  "Torstraße 190 10115, 10115 Berlin": null,
  "Torstraße 190, 10115 Berlin": {
   "address": "Torstraße 190, 10115 Mitte",
@@ -3609,6 +3648,7 @@
  "mit einem Infostand vertreten sein und beteiligen uns an den Diskussionen, Berlin": null,
  "near Bethaniendamm berlin berlin": null,
  "near Bethaniendamm berlin berlin Deutschland": null,
+ "north-east side of the intersection of Wassersportallee and Adlergestell near the Grunau S-Bahn, Berlin": null,
  "rag über Stadtteilarbeit und Antifaschismus im \"Sozialen Zentrum Aenne Saefkow\", Berlin": null,
  "rk and antifascism at the “Soziales Zentrum Aenne Saefkow”, Berlin": null,
  "tba, Berlin": {

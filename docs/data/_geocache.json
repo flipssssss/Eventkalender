@@ -1035,6 +1035,12 @@
   "lng": 13.4402215
  },
  "Frauenhoferstr. 33-36, 10587 Berlin": null,
+ "Freiaplatz, 10365 Berlin": {
+  "address": "Rüdigerstraße, 10365 Lichtenberg",
+  "bezirk": "Lichtenberg",
+  "lat": 52.5158373,
+  "lng": 13.4978105
+ },
  "Freiluftkino Rehberge, Berlin": {
   "address": "Windhuker Straße, 13351 Wedding",
   "bezirk": "Mitte",
@@ -1302,6 +1308,7 @@
   "lat": 52.4767265,
   "lng": 13.4200344
  },
+ "Hind-Rajab-Platz (ehem. Hermannplatz), 12049 Berlin": null,
  "Hinterhof 1, 10967 Berlin": null,
  "Hochstädter Straße 10A, Berlin": {
   "address": "Hochstädter Straße 10a, 13347 Wedding",
@@ -1384,6 +1391,7 @@
   "lat": 52.5116921,
   "lng": 13.4263208
  },
+ "Im Hof der Regenbogen fabrik, Lausitzer Straße 21a, 10999 Berlin": null,
  "Infoladen Scherer Schererstraße 8 13347 Berlin Deutschland": {
   "address": "Schererstraße 8, 13347 Wedding",
   "bezirk": "Mitte",
@@ -1670,6 +1678,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.4979656,
   "lng": 13.4661487
+ },
+ "Kinzigstr. 9, 10247 Berlin": {
+  "address": "Kinzigstraße 9, 10247 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5136974,
+  "lng": 13.4666469
  },
  "Kinzigstraße 9, 10247 Berlin": {
   "address": "Kinzigstraße 9, 10247 Friedrichshain",
@@ -2368,6 +2382,7 @@
   "lat": 52.4801032,
   "lng": 13.4340359
  },
+ "Neptunbrunnen, Rathausstraße 1, 10178 Berlin": null,
  "Neue Republik Reger Bouchestraße A 79 12435 Berlin Deutschland": null,
  "Neue Zukunft Alt-Strahlau 68 10245 Berlin Deutschland": null,
  "New Casa, Wurzener Straße 6, 12627 Berlin": null,
@@ -2615,6 +2630,12 @@
   "lng": 13.4286199
  },
  "Rathaus Treptow Neue Krugallee 2-6 12435 Berlin Deutschland": null,
+ "Rathausstraße 1, 10178 Berlin": {
+  "address": "Rathausstraße 1, 10178 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5202113,
+  "lng": 13.4120877
+ },
  "Ratiborstr. 14c, 10999 Berlin": {
   "address": "Ratiborstraße 14c, 10999 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",

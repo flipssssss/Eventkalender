@@ -1,7 +1,6 @@
 top-keys: ['website', 'websiteSettings', 'collection', 'shoppingCart', 'shareButtons', 'showCart', 'localizedStrings', 'userAccountsContext', 'template', 'uiextensions', 'empty', 'emptyFolder', 'calendarView', 'pagination', 'upcoming']
-items: 36 | Events: 36
+items: 35 | Events: 35
 erstes item keys: ['id', 'collectionId', 'recordType', 'addedOn', 'updatedOn', 'starred', 'passthrough', 'tags', 'categories', 'workflowState', 'publishOn', 'authorId', 'systemDataId', 'systemDataVariants', 'systemDataSourceType', 'filename', 'mediaFocalPoint', 'colorData', 'urlId', 'title', 'sourceUrl', 'body', 'excerpt', 'location', 'customContent']
-  2026-07-18 09:00:00.506000 | Olya Lukachova Band
   2026-07-19 09:00:00.506000 | Les Colorés Jazz Kréol
   2026-07-22 09:00:00.936000 | Robins Nest - Jamsession
   2026-07-23 09:00:00.506000 | Crème Brüllée
@@ -31,3 +30,4 @@ erstes item keys: ['id', 'collectionId', 'recordType', 'addedOn', 'updatedOn', '
   2026-08-21 09:00:00.506000 | CONEXÃO BERLIN
   2026-08-22 09:00:00.506000 | Woodbeez
   2026-08-23 09:00:00.506000 | Ido Spak Trio
+  2026-08-25 09:00:00.506000 | "The good vibes Quintett"

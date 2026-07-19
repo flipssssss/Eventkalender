@@ -1,5 +1,4 @@
-Events: 21
-  2026-07-18 17:30:00 | gender mix
+Events: 20
   2026-07-22 17:30:00 | gender mix
   2026-07-23 17:30:00 | puppy sweat *CSD spezial*
   2026-07-24 17:30:00 | flinta sweat

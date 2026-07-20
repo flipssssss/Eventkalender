@@ -1,7 +1,8 @@
-Events: 6
-  2026-07-19 17:00:00 | Aufgüsse am Sonntag
+Events: 7
   2026-07-20 17:00:00 | Aufgüsse am Montag
   2026-07-21 17:00:00 | Themenabend
   2026-07-22 17:00:00 | Aufgüsse am Mittwoch
   2026-07-23 17:00:00 | **Heute kein Wohlfühlabend
   2026-07-24 17:00:00 | Aufgüsse am Freitag
+  2026-07-25 17:00:00 | Aufgüsse am Samstag
+  2026-07-26 17:00:00 | Aufgüsse am Sonntag

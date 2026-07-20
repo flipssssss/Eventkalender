@@ -302,6 +302,12 @@
   "lat": 52.5077986,
   "lng": 13.4470614
  },
+ "An der Ostbahn 7, 10243 Berlin Germany": {
+  "address": "An der Ostbahn 7, 10243 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5077986,
+  "lng": 13.4470614
+ },
  "Anmeldung erforderlich Anmeldung via E-Mail an: iqpb[ät]riseup.net oder Insta @iqpberlin": null,
  "Anna Landsberger Prötzeler Ring 13 12685 Berlin Deutschland": {
   "address": "Prötzeler Ring 13, 12685 Marzahn",
@@ -3098,6 +3104,7 @@
   "lat": 52.4997903,
   "lng": 13.4201248
  },
+ "Skatehalle Berlin, RAW Gelände, Revaler Straße 99, 10245 Berlin": null,
  "Sonnenallee 100, 12045 Berlin": {
   "address": "Sonnenallee 100, 12045 Neukölln",
   "bezirk": "Neukölln",

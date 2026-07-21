@@ -1,4 +1,4 @@
-Events: 11
+Events: 10
 Regeln gefunden: 5
   Jeden 3. Montag im Monat -> FLINTA*-Lesekreis
   Jeden 2. Dienstag im Monat -> Internationalist Night with Perspektive Selbstverwaltung

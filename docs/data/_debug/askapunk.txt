@@ -1,4 +1,4 @@
-API-Events: 41 | übernommen: 41
+API-Events: 43 | übernommen: 43
   2026-07-21 18:45:00 | None | Queer Tours for All - Queer Kreuzberg
   2026-07-21 19:00:00 | Punk | Lydia Lunch - Welcome To My Church - An Intimate evening of words & music feat. Jochen Arbeit, Kristof Hahn & Travis Jeppesen
   2026-07-23 19:00:00 | Punk | Loveth Besamoh (exp-indie-rock/post-punk) + Apelast (psych-rock/lofi-stoner)
@@ -10,12 +10,14 @@ API-Events: 41 | übernommen: 41
   2026-07-26 14:45:00 | None | Queer Tours for All - Gay and Sapphic Schöneberg
   2026-07-27 19:00:00 | Punk | Ballyhoo (rock reggae + punk rock/ Maryland) + Launce (funk, rock/ Berlin) im Schokoladen
   2026-07-28 18:45:00 | None | Queer Tours for All - Queer Kreuzberg
+  2026-07-29 20:00:00 | Punk | Oppai Cats (girl garage band from Hiroshima) live in Berlin
   2026-07-30 20:30:00 | Electro | UZIMOTO + GELBART + ULTRAVIOLET
   2026-07-31 12:45:00 | None | Queer Tours for All - Culture in Köpenicker Forst
   2026-07-31 19:00:00 | Punk | WRECKAGE & ECHO CHAMBER
   2026-08-02 19:00:00 | Punk | Camelia / Only / Leep
   2026-08-05 19:00:00 | Punk | BLEACH TV (indie-rock/post-punk, hh) & DOGDAZE (shoegaze/post-punk, bln)
   2026-08-06 19:00:00 | Punk | RAGANA + DIS FIG + SPIXE
+  2026-08-07 17:00:00 | Punk | Punx n Kweenz Festival
   2026-08-07 19:00:00 | Punk | How Great / The River Speaks / Not Tonight
   2026-08-08 18:00:00 | Punk | EA80 [Schokoladen-Hofkonzert]
   2026-08-08 19:00:00 | Metal | PIECE (Psych Doom / Berlin) + GRIN (Doom Sludge / Berlin) + YORE (Doom Metal / Berlin)
@@ -27,5 +29,3 @@ API-Events: 41 | übernommen: 41
   2026-08-28 19:00:00 | Indie | Record Release: PAIR (Indie Rock Elektro / Berlin) + WESTHAFEN (Alternative Indie Rock / Berlin)
   2026-09-02 19:30:00 | Metal | USU pres.: Methadone Skies + Earth Ship | Neue Zukunft - 02.09.2026
   2026-09-04 19:00:00 | Metal | Fossilization + Phobocosm + Urza presented by Swamp Conspiracy and DoomShip
-  2026-09-05 17:00:00 | None | Tiergarten Maleficium
-  2026-09-05 19:00:00 | Punk | ANCST | SVDESTADA | MARNÖ | BRÜD

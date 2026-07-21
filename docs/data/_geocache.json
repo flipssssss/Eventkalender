@@ -78,6 +78,12 @@
   "lat": 52.4289185,
   "lng": 13.5885525
  },
+ "12679 Berlin": {
+  "address": "12679 Marzahn",
+  "bezirk": "Marzahn-Hellersdorf",
+  "lat": 52.5492521,
+  "lng": 13.5638043
+ },
  "12681 Berlin": {
   "address": "12681 Marzahn",
   "bezirk": "Marzahn-Hellersdorf",
@@ -882,6 +888,7 @@
  "Drugstore im Rockhaus Buchberger Str. 6 10365 Berlin Deutschland": null,
  "Drugstore im Rockhaus Buchberger Str. 6 10365, 10365 Berlin": null,
  "EUREF-Campus Berlin, Torgauer Straße 25, 10829, Berlin": null,
+ "Eastgate Marzahn, Marzahner Promenade 1A (Marzahn-Hellersdorf) 12679 Berlin Deutschland": null,
  "Eberswalder Straße 21, 10437 Prenzlauer Berg, Berlin": {
   "address": "Eberswalder Straße 21, 10437 Prenzlauer Berg",
   "bezirk": "Pankow",
@@ -2061,6 +2068,7 @@
   "lat": 52.5325483,
   "lng": 13.3411312
  },
+ "Lichtenberg/askapunk, Berlin": null,
  "Liebigstr. 1024, 10247 Berlin": {
   "address": "Liebigstraße, 10247 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -3278,6 +3286,12 @@
  "Traumreparatur Lausitzer Straße 13 10999, 10999 Berlin": null,
  "Treffpunkt Regenbogen Lynarstr. 9 13585 Berlin Deutschland": null,
  "Treffpunkt: S- und U-Bhf Wedding, Berlin": null,
+ "Treptower Park Berlin Deutschland": {
+  "address": "12435 Treptow-Köpenick",
+  "bezirk": "Treptow-Köpenick",
+  "lat": 52.4884438,
+  "lng": 13.4703145
+ },
  "Treptower Park, Bus-Haltestelle Klingerstraße, 12435 Berlin": null,
  "Tristeza Pannierstr. 5 12047 Berlin Deutschland": {
   "address": "Pannierstraße 5, 12047 Neukölln",

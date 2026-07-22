@@ -591,6 +591,7 @@
   "lng": 13.3993823
  },
  "Boiler, Berlin": null,
+ "Boltzplatz, Travemünder Straße 2 (Wedding) 13357 Berlin Deutschland": null,
  "Bona Peiser Oranienstraße 72 10969 Berlin": {
   "address": "Oranienstraße 72, 10969 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -1742,6 +1743,12 @@
   "lat": 52.5404746,
   "lng": 13.412219
  },
+ "Kopenicker Str. 147, 10997 Berlin": {
+  "address": "Köpenicker Straße 147, 10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5064362,
+  "lng": 13.4291056
+ },
  "Kottbusser Tor (Kreuzberg) Berlin Deutschland": {
   "address": "Kottbusser Tor, 10999 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -2446,6 +2453,7 @@
   "lat": 52.4915542,
   "lng": 13.3911786
  },
+ "Nähe Rosenthaler Platz, Berlin": null,
  "OGH Sonnenallee Berlin": null,
  "OGH Sonnenallee Berlin Deutschland": null,
  "OXI, Berlin": {
@@ -3284,6 +3292,12 @@
  "Tram Hohenschönhauser Straße, 10369 Berlin": null,
  "Traumreparatur Lausitzer Straße 13 10999 Berlin Deutschland": null,
  "Traumreparatur Lausitzer Straße 13 10999, 10999 Berlin": null,
+ "Travemünder Straße 2, 13357 Berlin": {
+  "address": "Travemünder Straße, 13357 Gesundbrunnen",
+  "bezirk": "Mitte",
+  "lat": 52.5534938,
+  "lng": 13.3785755
+ },
  "Treffpunkt Regenbogen Lynarstr. 9 13585 Berlin Deutschland": null,
  "Treffpunkt: S- und U-Bhf Wedding, Berlin": null,
  "Treptower Park Berlin Deutschland": {
@@ -3348,8 +3362,16 @@
   "lat": 52.5018234,
   "lng": 13.3429818
  },
+ "U-Bhf. Eberswalder Strasse Berlin": null,
+ "U-Bhf. Eberswalder Strasse Berlin Deutschland": null,
  "U-Bhf. Turmstraße Berlin": null,
  "U-Bhf. Turmstraße Berlin Deutschland": null,
+ "UJZ Hönower Str. 30 10318 Berlin": {
+  "address": "Hönower Straße 30, 10318 Karlshorst",
+  "bezirk": "Lichtenberg",
+  "lat": 52.4891876,
+  "lng": 13.5212576
+ },
  "UJZ Karlshorst Hönower Str. 30 10318 Berlin Deutschland": {
   "address": "Hönower Straße 30, 10318 Karlshorst",
   "bezirk": "Lichtenberg",
@@ -3594,6 +3616,8 @@
   "lat": 52.5128122,
   "lng": 13.4641154
  },
+ "Zaubergarten Lichtenberg S Storkower / S Frankfurter Alle Deutschland, Berlin": null,
+ "Zaubergarten Lichtenberg S Storkower / S Frankfurter Alle, Berlin": null,
  "Zeiss-Großplanetarium Zeiss-Großplanetarium, Berlin": null,
  "Zeltinger Str. 6, 13465 Berlin": {
   "address": "Zeltinger Straße 6, 13465 Frohnau",

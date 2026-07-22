@@ -1,29 +1,29 @@
 ExhibitionEvents -> Events: 28
-  2026-07-21 Brancusi
-  2026-07-21 Lina Lapelytė: We Make Years Out of Hours – Chanel
-  2026-07-21 Bjørn Melhus: Lost in Finity
-  2026-07-21 Paul Signac: Symphonie der Farben
-  2026-07-21 Marina Abramović: Balkan Erotic Epic
-  2026-07-21 Marc Brandenburg: 20th Century Debris
-  2026-07-21 Gabriele Stötzer: Dabei sein und nicht schweigen
-  2026-07-21 Ruin und Rausch: Berlin 1910–1930
-  2026-07-21 Materialistin: Matter of Care, Care of Matter
-  2026-07-21 Cassirer und der Durchbruch des Impressionismus
-  2026-07-21 Wo ich wohne
-  2026-07-21 Giulia Andreani: Sabotage
-  2026-07-21 C.B. Evans: Reality or Not
-  2026-07-21 Neue Frau, Neues Sehen: Die Bauhaus-Fotografinnen
-  2026-07-21 Inventing Queer Cinema
-  2026-07-21 Walter Schels: 16° Fische – Retrospektive
-  2026-07-21 Kyiv Biennial: A Bird That Cannot Land
-  2026-07-21 Shilpa Gupta: What Still Holds
-  2026-07-21 Fujiko Nakaya: Nebelskulptur im Skulpturengarten
-  2026-07-21 Iván Argote: A Place To Stay
-  2026-07-21 Iliggocene: The Age of Dizziness
-  2026-07-21 Anton Corbijn: Corbijn, Anton
-  2026-07-21 Rooms / Stages
-  2026-07-21 Many Shades of Grès: Mode wird Kunst
-  2026-07-21 Seeing Words, Reading Images – Die Written Art Col
+  2026-07-22 Brancusi
+  2026-07-22 Lina Lapelytė: We Make Years Out of Hours – Chanel
+  2026-07-22 Bjørn Melhus: Lost in Finity
+  2026-07-22 Paul Signac: Symphonie der Farben
+  2026-07-22 Marina Abramović: Balkan Erotic Epic
+  2026-07-22 Marc Brandenburg: 20th Century Debris
+  2026-07-22 Gabriele Stötzer: Dabei sein und nicht schweigen
+  2026-07-22 Ruin und Rausch: Berlin 1910–1930
+  2026-07-22 Materialistin: Matter of Care, Care of Matter
+  2026-07-22 Cassirer und der Durchbruch des Impressionismus
+  2026-07-22 Wo ich wohne
+  2026-07-22 Giulia Andreani: Sabotage
+  2026-07-22 C.B. Evans: Reality or Not
+  2026-07-22 Neue Frau, Neues Sehen: Die Bauhaus-Fotografinnen
+  2026-07-22 Inventing Queer Cinema
+  2026-07-22 Walter Schels: 16° Fische – Retrospektive
+  2026-07-22 Kyiv Biennial: A Bird That Cannot Land
+  2026-07-22 Shilpa Gupta: What Still Holds
+  2026-07-22 Fujiko Nakaya: Nebelskulptur im Skulpturengarten
+  2026-07-22 Iván Argote: A Place To Stay
+  2026-07-22 Iliggocene: The Age of Dizziness
+  2026-07-22 Anton Corbijn: Corbijn, Anton
+  2026-07-22 Rooms / Stages
+  2026-07-22 Many Shades of Grès: Mode wird Kunst
+  2026-07-22 Seeing Words, Reading Images – Die Written Art Col
   2026-09-10 Jean-Luc Mylayne: Reflection
   2026-09-09 Maurizio Cattelan: Night – Preis der Nationalgaler
   2026-09-10 Ryuichi Sakamoto: seeing sound, hearing time

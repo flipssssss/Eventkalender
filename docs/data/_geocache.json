@@ -909,6 +909,12 @@
   "lat": 52.4952481,
   "lng": 13.4627777
  },
+ "Emmentaler Str. 97, 13409 Berlin": {
+  "address": "Emmentaler Straße 97, 13409 Reinickendorf",
+  "bezirk": "Reinickendorf",
+  "lat": 52.5709896,
+  "lng": 13.3619429
+ },
  "Erich-Steinfurth-Straße 1, 10243 Berlin": {
   "address": "Erich-Steinfurth-Straße 1-2, 10243 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -1204,6 +1210,12 @@
  },
  "HAU2 Hallesches Ufer 34 10963 Berlin Deutschland": null,
  "HAU2 Hallesches Ufer 34 10963, 10963 Berlin": null,
+ "Hackescher Markt, 10178 Berlin": {
+  "address": "Am Zwirngraben, 10178 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5226808,
+  "lng": 13.4023418
+ },
  "Hallesches Tor, 10969 Berlin": {
   "address": "Mehringplatz, 10969 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -1546,6 +1558,12 @@
  },
  "KHSB, Café K, Köpenicker Allee 39-57, 10318 Berlin": null,
  "KOR Berlin, Sonnenallee 200, 12059 Berlin": null,
+ "KREUZWERK, Berlin": {
+  "address": "Lobeckstraße 30-35, 10969 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5030057,
+  "lng": 13.407825
+ },
  "KTS 13 Karpfenteichstr. 13 12435 Berlin Deutschland": null,
  "Kadterschmiede Rigaer Str. 94 10245 Berlin Deutschland": {
   "address": "Rigaer Straße 94, 10247 Friedrichshain",
@@ -2114,6 +2132,12 @@
   "bezirk": "Treptow-Köpenick",
   "lat": 52.4913677,
   "lng": 13.44229
+ },
+ "Lokschuppen Berlin, Berlin": {
+  "address": "Westhafenstraße, 13353 Moabit",
+  "bezirk": "Mitte",
+  "lat": 52.5366075,
+  "lng": 13.3416455
  },
  "Lottumstr. 10a, 10119 Berlin": {
   "address": "Lottumstraße 10A, 10119 Prenzlauer Berg",
@@ -2771,6 +2795,7 @@
   "lat": 52.517933,
   "lng": 13.4580095
  },
+ "Rigaer Straße 94, bei Kadterschmiede klingeln, 10247 Berlin": null,
  "Rigaerstr. 103, 10247 Berlin": {
   "address": "Rigaer Straße 103, 10247 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -3150,6 +3175,12 @@
  "Spinnboden Lesbenarchiv und Bibliothek, Berlin": null,
  "Spinnboden, Lesbenarchiv und Bibliothek, Berlin": null,
  "Spore Initiative, Hermannstraße 86, 12051 Berlin": null,
+ "Spreeufer, Berlin": {
+  "address": "Spreeufer, 10178 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5161896,
+  "lng": 13.4055347
+ },
  "Spreeweg 1, 10557 Berlin": {
   "address": "Spreeweg 1, 10557 Tiergarten",
   "bezirk": "Mitte",
@@ -3335,6 +3366,12 @@
   "lat": 52.5254923,
   "lng": 13.3526659
  },
+ "Turmstraße 1055, 10551 Berlin": {
+  "address": "Turmstraße, 10551 Moabit",
+  "bezirk": "Mitte",
+  "lat": 52.5272516,
+  "lng": 13.3304937
+ },
  "Turmstraße 91, 10559 Berlin": {
   "address": "Turmstraße 91, 10559 Moabit",
   "bezirk": "Mitte",
@@ -3354,6 +3391,7 @@
   "lng": 13.4758561
  },
  "Türrschmidtstraße 1 10317, 10317 Berlin": null,
+ "U-BHf Turmstraße 10551 Berlin": null,
  "U-Bhf Afrikanische Straße, vor der Steinbock Apotheke, 13349 Berlin": null,
  "U-Bhf Kurfürstenstr Kurfürstenstraße 32 Berlin 10785 10785 Berlin Deutschland": null,
  "U-Bhf Wittenbergplatz, 10789 Berlin": {

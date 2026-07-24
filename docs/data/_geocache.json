@@ -634,6 +634,12 @@
   "lat": 52.5200011,
   "lng": 13.3898465
  },
+ "Breite Str. 15, 13187 Berlin": {
+  "address": "Breite Straße 15, 13187 Pankow",
+  "bezirk": "Pankow",
+  "lat": 52.5704885,
+  "lng": 13.4064617
+ },
  "Breitenbachplatz 12, 14195 Berlin": {
   "address": "Breitenbachplatz 12, 14195 Dahlem",
   "bezirk": "Steglitz-Zehlendorf",
@@ -1061,6 +1067,7 @@
   "lat": 52.5158373,
   "lng": 13.4978105
  },
+ "Freilichtbühne Weißensee, Große Seestraße 10, 13086, Berlin": null,
  "Freiluftkino Rehberge, Berlin": {
   "address": "Windhuker Straße, 13351 Wedding",
   "bezirk": "Mitte",
@@ -2100,6 +2107,12 @@
   "lat": 52.5186639,
   "lng": 13.4576357
  },
+ "Lilli-Henoch-Str. 21, 10405 Berlin": {
+  "address": "Lilli-Henoch-Straße, 10405 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5405633,
+  "lng": 13.4341538
+ },
  "Lindenstraße 9-14, 10969 Berlin": {
   "address": "Lindenstraße 9-14, 10969 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -2504,6 +2517,12 @@
   "bezirk": "Mitte",
   "lat": 52.5148489,
   "lng": 13.3968392
+ },
+ "Ollenhauer Str. 107, 13403 Berlin": {
+  "address": "Ollenhauerstraße 107, 13403 Reinickendorf",
+  "bezirk": "Reinickendorf",
+  "lat": 52.5701384,
+  "lng": 13.3279286
  },
  "Oranienburger Straße 54, 10117 Berlin": {
   "address": "Oranienburger Straße 54, 10117 Mitte",
@@ -3113,6 +3132,12 @@
   "bezirk": "Pankow",
   "lat": 52.5537282,
   "lng": 13.4109861
+ },
+ "Seestraße 10, 13086 Berlin": {
+  "address": "Seestraße 10, 13353 Wedding",
+  "bezirk": "Mitte",
+  "lat": 52.5435823,
+  "lng": 13.3397881
  },
  "Siemensstraße 27, 10551 Berlin": {
   "address": "Siemensstraße 27, 10551 Moabit",

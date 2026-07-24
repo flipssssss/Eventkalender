@@ -1,13 +1,11 @@
-API-Events: 49 | übernommen: 49
-  2026-07-23 19:00:00 | Punk | Loveth Besamoh (exp-indie-rock/post-punk) + Apelast (psych-rock/lofi-stoner)
-  2026-07-23 20:00:00 | Punk | Sometimes With Others + Nochteff + The Pleasure Majentanoi
+API-Events: 50 | übernommen: 50
   2026-07-24 19:00:00 | Punk | Sundrowner Fest V presented by Swamp Conspiracy
   2026-07-24 19:00:00 | None | Wolfpack (AUS) + Not Tonight
   2026-07-24 20:00:00 | Punk | Human Needs + Soul Clear
   2026-07-24 20:30:00 | Jazz | KARSK & MUSGOS At ORWO HAUS!!!
   2026-07-25 17:00:00 | Punk | Dream Fest
-  2026-07-25 19:00:00 | Punk | KEM TRAIL (NintendoPunk / Hamburg) + KRYCEK (Hardcore Punk / Berlin)
   2026-07-25 19:00:00 | Punk | The Johnny Komet (Rock'n'Roll, Nürnberg) + Furie (kraut-tech-punk) im Schokoladen
+  2026-07-25 19:00:00 | Punk | KEM TRAIL (NintendoPunk / Hamburg) + KRYCEK (Hardcore Punk / Berlin)
   2026-07-26 14:45:00 | None | Queer Tours for All - Gay and Sapphic Schöneberg
   2026-07-27 19:00:00 | Punk | Ballyhoo (rock reggae + punk rock/ Maryland) + Launce (funk, rock/ Berlin) im Schokoladen
   2026-07-28 18:45:00 | None | Queer Tours for All - Queer Kreuzberg
@@ -16,6 +14,7 @@ API-Events: 49 | übernommen: 49
   2026-07-31 12:45:00 | None | Queer Tours for All - Culture in Köpenicker Forst
   2026-07-31 19:00:00 | Punk | WRECKAGE & ECHO CHAMBER
   2026-07-31 21:00:00 | Punk | Diapers + Spucke in den Räumen des Subversiv e.V.⁰
+  2026-08-01 19:00:00 | Punk | SCHALKO (Postpunk, Freiburg) + SCHWINDEL (Punk, Berlin)
   2026-08-02 19:00:00 | Punk | Camelia / Only / Leep
   2026-08-05 19:00:00 | Punk | BLEACH TV (indie-rock/post-punk, hh) & DOGDAZE (shoegaze/post-punk, bln)
   2026-08-06 19:00:00 | Punk | RAGANA + DIS FIG + SPIXE
@@ -29,3 +28,4 @@ API-Events: 49 | übernommen: 49
   2026-08-14 19:00:00 | Punk | KA-OH (PostPunk / Berlin) + ZWEIKANT (Alternative Hardcore / Berlin)
   2026-08-15 19:00:00 | Punk | R.O.S.A. "NO PEACE FOR YOU" // RELEASE SHOW
   2026-08-15 20:00:00 | Punk | Todesstrahlen + Indiscreet Jewels + Shunt + Rasmus Weirup
+  2026-08-19 19:00:00 | Rock | 10¹⁷ - Colin Stetson, Stian Westerhus & Erland Dahlen

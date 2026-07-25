@@ -592,6 +592,7 @@
  },
  "Boiler, Berlin": null,
  "Boltzplatz, Travemünder Straße 2 (Wedding) 13357 Berlin Deutschland": null,
+ "Bolzplatz Travemünder Straße 2, 13357 Berlin": null,
  "Bona Peiser Oranienstraße 72 10969 Berlin": {
   "address": "Oranienstraße 72, 10969 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -771,6 +772,12 @@
   "lng": 13.4324824
  },
  "Café Herman Schulz Kollektiv, Finowstraße 33, Friedrichshain 10247 Berlin Deutschland": null,
+ "Café Karanfil Weisestr. 3 12049 Berlin Deutschland": {
+  "address": "Weisestraße 3, 12049 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4799239,
+  "lng": 13.4229832
+ },
  "Café Karanfil, Weisestraße 3, 12049 Berlin": null,
  "Café Köpenick Seelenbinderstr. 54 12555 Berlin Deutschland": {
   "address": "Seelenbinderstraße 54, 12555 Köpenick",
@@ -1047,6 +1054,8 @@
   "lat": 52.5654788,
   "lng": 13.4013651
  },
+ "Forckenbeckplatz 1024, 10247 Berlin": null,
+ "Forki Forckenbeckplatz 10247 Berlin Deutschland": null,
  "Frachtkante Flughafen Tegel 1 13405 Berlin Deutschland": null,
  "Frank-Zappa-Straße 19, 12681 Berlin": {
   "address": "Frank-Zappa-Straße 19,20, 12681 Marzahn",
@@ -1850,6 +1859,7 @@
  "Kulturfabrik Moabit Lehrter Str. 35 10557, 10557 Berlin": null,
  "Kulturhaus \"alte feuerwache\" Friedrichshain, Marchlewskistr. 6, 10243, Berlin": null,
  "Kulturhaus Centre Bagatelle, Zeltinger Str. 6, 13465, Berlin-Frohnau": null,
+ "Kulturhaus Centre Bagatelle, Zeltinger Straße 6, 13465, Berlin": null,
  "Kunstfabrik Schlot, Invalidenstraße 117, 10115, Berlin": {
   "address": "Invalidenstraße 117, 10115 Mitte",
   "bezirk": "Mitte",
@@ -3109,6 +3119,12 @@
   "lat": 52.5357351,
   "lng": 13.4130616
  },
+ "Schönhauser Allee 26a, 10435 Berlin": {
+  "address": "Schönhauser Allee 26a, 10435 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5359511,
+  "lng": 13.4126884
+ },
  "Schönhauser Allee 44b, 10435 Berlin": {
   "address": "Schönhauser Allee 44b, 10435 Prenzlauer Berg",
   "bezirk": "Pankow",
@@ -3291,6 +3307,8 @@
   "lat": 52.4768251,
   "lng": 13.3876685
  },
+ "Tempelhofer Feld (Eingang Columbiadamm) Berlin": null,
+ "Tempelhofer Feld (Eingang Columbiadamm) Berlin Deutschland": null,
  "Tempelhofer Feld Eingang S+U-Bhf Tempelhof 12101 Berlin": null,
  "Tempelhofer Feld Neuköllner Seite Haus 104 Tempelhofer Feld Neuköllner Seite Haus 104 Tempelhofer Damm Berlin": null,
  "Tempelhofer Feld, Neuköllner Seite, Haus 104 Tempelhofer Feld, Neuköllner Seite, Haus 104 Tempelhofer Damm Berlin Deutschland": null,
@@ -3683,6 +3701,12 @@
  "Zaubergarten Lichtenberg S Storkower / S Frankfurter Alle, Berlin": null,
  "Zeiss-Großplanetarium Zeiss-Großplanetarium, Berlin": null,
  "Zeltinger Str. 6, 13465 Berlin": {
+  "address": "Zeltinger Straße 6, 13465 Frohnau",
+  "bezirk": "Reinickendorf",
+  "lat": 52.6347482,
+  "lng": 13.2928997
+ },
+ "Zeltinger Straße 6, 13465 Berlin": {
   "address": "Zeltinger Straße 6, 13465 Frohnau",
   "bezirk": "Reinickendorf",
   "lat": 52.6347482,

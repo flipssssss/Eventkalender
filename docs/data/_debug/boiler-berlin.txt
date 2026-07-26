@@ -1,8 +1,8 @@
 Events: 7
-  2026-07-25 17:00:00 | Pride 2026
-  2026-07-25 17:00:00 | Aufgüsse am Samstag
   2026-07-26 17:00:00 | Pride 2026
   2026-07-26 17:00:00 | Aufgüsse am Sonntag
   2026-07-27 17:00:00 | Pride 2026
   2026-07-27 17:00:00 | Aufgüsse am Montag
   2026-07-28 17:00:00 | Themenabend
+  2026-07-29 17:00:00 | youngStars XXL (Docking mit der CLUBSAUNA)
+  2026-07-30 17:00:00 | Bäriger Saunaabend

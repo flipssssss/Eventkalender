@@ -1082,6 +1082,12 @@
   "lat": 52.5158373,
   "lng": 13.4978105
  },
+ "Freienwalder Straße 20, 13359 Berlin, Germany": {
+  "address": "Freienwalder Straße 20, 13359 Gesundbrunnen",
+  "bezirk": "Mitte",
+  "lat": 52.5583231,
+  "lng": 13.3921301
+ },
  "Freilichtbühne Weißensee, Große Seestraße 10, 13086, Berlin": null,
  "Freiluftkino Rehberge, Berlin": {
   "address": "Windhuker Straße, 13351 Wedding",
@@ -1711,6 +1717,7 @@
   "lat": 52.5517747,
   "lng": 13.3380141
  },
+ "Kiezladen MaHalle Waldemarstraße 110 Berlin Deutschland": null,
  "Kiezladen Rote Ella Buttmannstr. 1A, Berlin": null,
  "Kiezladen Rote Ella, Buttmannstr. 1A, Berlin-Wedding Berlin Deutschland": null,
  "Kiezladen Sonnenallee 154 12059 Berlin": {
@@ -2464,6 +2471,7 @@
   "lat": 52.4801032,
   "lng": 13.4340359
  },
+ "Neptunbrunnen Alexanderplatz Spandauer Str. 7 10178 Berlin Deutschland": null,
  "Neptunbrunnen, Rathausstraße 1, 10178 Berlin": null,
  "Neue Republik Reger Bouchestraße A 79 12435 Berlin Deutschland": null,
  "Neue Zukunft Alt-Strahlau 68 10245 Berlin Deutschland": null,
@@ -2548,6 +2556,7 @@
   "lat": 52.5701384,
   "lng": 13.3279286
  },
+ "Online Veranstaltung Anmeldung erforderlich: https:// forms.peacefullyagainstgenocid e.org/formz/occurrences/online-training-fuer-zivilen-widerstand-2026-07-23/registrations/new, Berlin": null,
  "Oranienburger Straße 54, 10117 Berlin": {
   "address": "Oranienburger Straße 54, 10117 Mitte",
   "bezirk": "Mitte",
@@ -3229,6 +3238,12 @@
   "lng": 13.4016022
  },
  "Sozialer Treffpunkt Kandeler Weg 3, Berlin": null,
+ "Spandauer Str. 7, 10178 Berlin": {
+  "address": "Spandauer Straße 7, 10178 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5190733,
+  "lng": 13.4057946
+ },
  "Spinnboden Lesbenarchiv und Bibliothek, Berlin": null,
  "Spinnboden, Lesbenarchiv und Bibliothek, Berlin": null,
  "Spore Initiative, Hermannstraße 86, 12051 Berlin": null,
@@ -3540,6 +3555,12 @@
  "Wagenburg Lohmühle Lohmühlenstr. 17 12435, 12435 Berlin": null,
  "Wagenplatz Scheffel 21 Berlin": null,
  "Wagenplatz Scheffel 21 Berlin Deutschland": null,
+ "Waldemarstraße 110, Berlin": {
+  "address": "Waldemarstraße 110, 10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5009671,
+  "lng": 13.4284093
+ },
  "Warthestraße 12051 Berlin Deutschland": {
   "address": "Warthestraße, 12051 Neukölln",
   "bezirk": "Neukölln",

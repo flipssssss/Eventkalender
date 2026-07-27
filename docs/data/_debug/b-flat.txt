@@ -1,7 +1,6 @@
 top-keys: ['website', 'websiteSettings', 'collection', 'shoppingCart', 'shareButtons', 'showCart', 'localizedStrings', 'userAccountsContext', 'template', 'uiextensions', 'empty', 'emptyFolder', 'calendarView', 'pagination', 'upcoming']
-items: 30 | Events: 30
+items: 29 | Events: 29
 erstes item keys: ['id', 'collectionId', 'recordType', 'addedOn', 'updatedOn', 'starred', 'passthrough', 'tags', 'categories', 'workflowState', 'publishOn', 'authorId', 'systemDataId', 'systemDataVariants', 'systemDataSourceType', 'filename', 'mediaFocalPoint', 'colorData', 'urlId', 'title', 'sourceUrl', 'body', 'excerpt', 'location', 'customContent']
-  2026-07-26 09:00:00.506000 | Ramiro Olaciregui "My Standards 4tet"
   2026-07-29 09:00:00.936000 | Robins Nest - Jamsession
   2026-07-30 09:00:00.506000 | Patricio Böttcher Quartett
   2026-07-31 09:00:00.506000 | Nita Aasten Latin Jazz Quartet with Eduard Alexander

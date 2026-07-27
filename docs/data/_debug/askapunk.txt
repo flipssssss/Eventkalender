@@ -1,11 +1,11 @@
-API-Events: 46 | übernommen: 46
-  2026-07-26 14:45:00 | None | Queer Tours for All - Gay and Sapphic Schöneberg
+API-Events: 47 | übernommen: 47
   2026-07-27 19:00:00 | Punk | Ballyhoo (rock reggae + punk rock/ Maryland) + Launce (funk, rock/ Berlin) im Schokoladen
   2026-07-28 18:45:00 | None | Queer Tours for All - Queer Kreuzberg
   2026-07-29 20:00:00 | Punk | Oppai Cats (girl garage band from Hiroshima) live in Berlin
   2026-07-30 20:30:00 | Electro | UZIMOTO + GELBART + ULTRAVIOLET
   2026-07-31 12:45:00 | None | Queer Tours for All - Culture in Köpenicker Forst
   2026-07-31 19:00:00 | Punk | WRECKAGE & ECHO CHAMBER
+  2026-07-31 20:00:00 | Metal | анаша & Daffke / Sommerkonzert im Palast
   2026-07-31 21:00:00 | Punk | Diapers + Spucke in den Räumen des Subversiv e.V.⁰
   2026-08-01 19:00:00 | Punk | SCHALKO (Postpunk, Freiburg) + SCHWINDEL (Punk, Berlin)
   2026-08-02 19:00:00 | Punk | Camelia / Only / Leep

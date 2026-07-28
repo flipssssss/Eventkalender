@@ -1,9 +1,10 @@
-API-Events: 47 | übernommen: 47
-  2026-07-27 19:00:00 | Punk | Ballyhoo (rock reggae + punk rock/ Maryland) + Launce (funk, rock/ Berlin) im Schokoladen
+API-Events: 49 | übernommen: 49
   2026-07-28 18:45:00 | None | Queer Tours for All - Queer Kreuzberg
   2026-07-29 20:00:00 | Punk | Oppai Cats (girl garage band from Hiroshima) live in Berlin
+  2026-07-30 19:00:00 | Punk | NOTHING WORKS (post-hardcore, bln, ep-release!) & DOUBLE LIFE (hardcore punk, bln) & CURTAIN BANGS (dream-pop, bln)
   2026-07-30 20:30:00 | Electro | UZIMOTO + GELBART + ULTRAVIOLET
   2026-07-31 12:45:00 | None | Queer Tours for All - Culture in Köpenicker Forst
+  2026-07-31 19:00:00 | Punk | The Lost Lyrics (punkrock / Wolfhagen) + The Resets (punkrock / Berlin) + DJ from 10 pm im Schokoladen
   2026-07-31 19:00:00 | Punk | WRECKAGE & ECHO CHAMBER
   2026-07-31 20:00:00 | Metal | анаша & Daffke / Sommerkonzert im Palast
   2026-07-31 21:00:00 | Punk | Diapers + Spucke in den Räumen des Subversiv e.V.⁰
@@ -28,4 +29,3 @@ API-Events: 47 | übernommen: 47
   2026-08-21 15:00:00 | Punk | Bikinikonzert @Greifswalder DIY
   2026-08-26 19:00:00 | Punk | COUSINES LIKE SHIT (AT) & LIIEK (Bln) & FACE VALUE (Bln)
   2026-08-28 19:00:00 | Indie | Record Release: PAIR (Indie Rock Elektro / Berlin) + WESTHAFEN (Alternative Indie Rock / Berlin)
-  2026-09-02 19:30:00 | Metal | USU pres.: Methadone Skies + Earth Ship | Neue Zukunft - 02.09.2026

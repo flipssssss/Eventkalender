@@ -1,2 +1,81 @@
-event-blocks: 0 | Events: 0
+event-blocks: 13 | Events: 1
 
+<div class="event-block">
+ <!-- Zeile 1: Datum + Titel -->
+ <div class="event-row-1">
+  <div class="event-time">
+   Freitag, 31. Juli 22:00
+  </div>
+  <div class="event-title">
+   Putilla
+  </div>
+ </div>
+ <!-- Zeile 2: Bild + Beschreibung -->
+ <div class="event-row-2">
+  <div class="event-image event-image--empty">
+  </div>
+ </div>
+</div>
+
+
+----
+<div class="event-block">
+ <!-- Zeile 1: Datum + Titel -->
+ <div class="event-row-1">
+  <div class="event-time">
+   Dienstag, 4. Aug. 21:00
+  </div>
+  <div class="event-title">
+   FLINTA*-Abend
+  </div>
+ </div>
+ <!-- Zeile 2: Bild + Beschreibung -->
+ <div class="event-row-2">
+  <div class="event-image event-image--empty">
+  </div>
+  <div class="event-description">
+   Adrianna
+  </div>
+ </div>
+</div>
+
+
+----
+<div class="event-block">
+ <!-- Zeile 1: Datum + Titel -->
+ <div class="event-row-1">
+  <div class="event-time">
+   Donnerstag, 6. Aug. 22:00
+  </div>
+  <div class="event-title">
+   Schwulenschubsen
+  </div>
+ </div>
+ <!-- Zeile 2: Bild + Beschreibung -->
+ <div class="event-row-2">
+  <div class="event-image event-image--empty">
+  </div>
+  <div class="event-description">
+   Nsperger &amp; SA|RA
+  </div>
+ </div>
+</div>
+
+
+----
+<div class="event-block">
+ <!-- Zeile 1: Datum + Titel -->
+ <div class="event-row-1">
+  <div class="event-time">
+   Freitag, 7. Aug. 22:00
+  </div>
+  <div class="event-title">
+   Discreet Passion
+  </div>
+ </div>
+ <!-- Zeile 2: Bild + Beschreibung -->
+ <div class="event-row-2">
+  <div class="event-image event-image--empty">
+  </div>
+ </div>
+</div>

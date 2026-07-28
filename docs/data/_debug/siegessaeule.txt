@@ -1,5 +1,4 @@
 Tage: 30 | Events (vor Dedup): 0 | mit Venue: 0
-2026-07-27: 0 Events
 2026-07-28: 0 Events
 2026-07-29: 0 Events
 2026-07-30: 0 Events
@@ -29,3 +28,4 @@ Tage: 30 | Events (vor Dedup): 0 | mit Venue: 0
 2026-08-23: 0 Events
 2026-08-24: 0 Events
 2026-08-25: 0 Events
+2026-08-26: 0 Events

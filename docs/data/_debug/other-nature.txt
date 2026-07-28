@@ -1,6 +1,7 @@
-entries: 5 | Events: 5
-  2026-07-20 19:00:00 | Polyamorie Diskussionsgruppe
-  2026-07-21 19:00:00 | PELVIC FLOOR HEALTH IS MORE THAN JUST KEGELS (ONLINE)
-  2026-07-24 19:00:00 | Pre-Pride Warm-Up!
+entries: 6 | Events: 6
   2026-07-28 19:00:00 | Die queere* und trans Geschichte Berlins
   2026-07-30 19:00:00 | Berlin's Queer and Trans History
+  2026-08-01 19:00:00 | After Pride Pop-Up: supporting queer artists all year long!
+  2026-08-04 19:00:00 | Einführung in Japanese Rope Bondage
+  2026-09-01 19:00:00 | Woher weiß ich was ich will?
+  2026-10-13 19:00:00 | PELVIC FLOOR HEALTH IS MORE THAN JUST KEGELS (ONLINE)

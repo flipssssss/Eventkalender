@@ -502,6 +502,7 @@
   "lat": 52.4976443,
   "lng": 13.411914
  },
+ "Berliner Berg Brauerei, Treptower Str. 39, 12059, Berlin": null,
  "Berliner Kunstmarkt": null,
  "Bernauer Straße 63, 13355 Berlin": {
   "address": "Bernauer Straße 63, 13355 Gesundbrunnen",
@@ -905,6 +906,7 @@
   "lat": 52.5002301,
   "lng": 13.4176869
  },
+ "Drugstore Potsdamer Str. 134/136 10783 Berlin Deutschland": null,
  "Drugstore im Rockhaus Buchberger Str. 6 10365 Berlin Deutschland": null,
  "Drugstore im Rockhaus Buchberger Str. 6 10365, 10365 Berlin": null,
  "EUREF-Campus Berlin, Torgauer Straße 25, 10829, Berlin": null,
@@ -1614,6 +1616,12 @@
   "lat": 52.509259,
   "lng": 13.3021631
  },
+ "Kaiserin-Augusta-Straße 75, 12103 Berlin": {
+  "address": "Kaiserin-Augusta-Straße 75, 12103 Tempelhof",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4593227,
+  "lng": 13.3825419
+ },
  "Kaisersteg, 12459 Berlin": {
   "address": "Kaisersteg, 12439 Oberschöneweide",
   "bezirk": "Treptow-Köpenick",
@@ -1633,6 +1641,8 @@
   "lat": 52.5417268,
   "lng": 13.1846433
  },
+ "Kaos Berlin Wilhelminenhofstr.92 Berlin": null,
+ "Kaos Berlin Wilhelminenhofstr.92 Berlin Deutschland": null,
  "Kaox Türrschmidtstr. 1 10317 Berlin Deutschland": null,
  "Karl Liebknecht Haus, Kleine Alexanderstraße 28, 10178 Berlin": null,
  "Karl Liebknecht Haus, Rosa-Luxemburg-Saal, Kleine Alexanderstraße 28, 10178 Berlin": null,
@@ -1733,6 +1743,7 @@
   "lat": 52.4783548,
   "lng": 13.4463995
  },
+ "Kiezraum Dragoner Areal, Mehringdamm, 10963 Berlin": null,
  "Kiezraum auf dem Dragoner-Areal Berlin": null,
  "Kiezraum auf dem Dragoner-Areal Berlin Deutschland": null,
  "Kiezraum auf dem Dragonerareal Mehringdamm 20 10961 Berlin Deutschland": null,
@@ -2157,6 +2168,12 @@
   "lat": 52.5288992,
   "lng": 13.4028556
  },
+ "Linkstreff, Malplaquetstraße 12, 13347 Berlin": {
+  "address": "Malplaquetstraße 12, 13347 Wedding",
+  "bezirk": "Mitte",
+  "lat": 52.55045,
+  "lng": 13.3603197
+ },
  "Location is TBD, Berlin": null,
  "Loge Kinzigstr. 9 Berlin Deutschland": {
   "address": "Kinzigstraße 9, 10247 Friedrichshain",
@@ -2363,6 +2380,12 @@
   "bezirk": "Neukölln",
   "lat": 52.4918563,
   "lng": 13.4326134
+ },
+ "Mehringdamm 1096, 10963 Berlin": {
+  "address": "Mehringdamm, 10961 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4970938,
+  "lng": 13.389081
  },
  "Mehringdamm 20, 10961 Berlin": {
   "address": "Mehringdamm 20-30, 10961 Kreuzberg",
@@ -2683,6 +2706,12 @@
   "bezirk": "Mitte",
   "lat": 52.5094035,
   "lng": 13.3766399
+ },
+ "Potsdamer Str. 134/136, 10783 Berlin": {
+  "address": "Potsdamer Straße 134/136, 10783 Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4986655,
+  "lng": 13.3621019
  },
  "Potsdamer Straße 50, 10785 Berlin": {
   "address": "Potsdamer Straße 50, 10785 Tiergarten",
@@ -3412,6 +3441,12 @@
   "lng": 13.4703145
  },
  "Treptower Park, Bus-Haltestelle Klingerstraße, 12435 Berlin": null,
+ "Treptower Str. 39, 12059 Berlin": {
+  "address": "Treptower Straße 39, 12059 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4848891,
+  "lng": 13.4580488
+ },
  "Tristeza Pannierstr. 5 12047 Berlin Deutschland": {
   "address": "Pannierstraße 5, 12047 Neukölln",
   "bezirk": "Neukölln",

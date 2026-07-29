@@ -7,12 +7,13 @@ event-blocks: 13 | Events: 1
    Freitag, 31. Juli 22:00
   </div>
   <div class="event-title">
-   Putilla
+   DJ Putilla
   </div>
  </div>
  <!-- Zeile 2: Bild + Beschreibung -->
  <div class="event-row-2">
-  <div class="event-image event-image--empty">
+  <div class="event-image">
+   <img alt="" src="ProgrammFotos/DJ_Putilla_2026_07_31.jpg"/>
   </div>
  </div>
 </div>

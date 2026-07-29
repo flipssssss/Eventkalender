@@ -72,6 +72,12 @@
   "lat": 52.4869643,
   "lng": 13.4662697
  },
+ "12459 Berlin": {
+  "address": "12459 Oberschöneweide",
+  "bezirk": "Treptow-Köpenick",
+  "lat": 52.4652506,
+  "lng": 13.5280941
+ },
  "12557 Berlin": {
   "address": "12557 Köpenick",
   "bezirk": "Treptow-Köpenick",
@@ -2409,6 +2415,7 @@
  },
  "Mellowpark An der Wuhlheide 250-256 (Schöneweide) Berlin": null,
  "Mellowpark An der Wuhlheide 250-256 (Schöneweide) Berlin Deutschland": null,
+ "Mellowpark, 12459 Berlin": null,
  "Metis Books and Café, Berlin": null,
  "MieterClub Neue Christstr. 8 14059 Berlin Deutschland": null,
  "Milchbar, Manteuffelstraße 41, 10997 Berlin": null,
@@ -2700,6 +2707,12 @@
   "bezirk": "Mitte",
   "lat": 52.5186538,
   "lng": 13.3761015
+ },
+ "Potsdamer Platz 1011, 10117 Berlin": {
+  "address": "Potsdamer Platz, 10117 Tiergarten",
+  "bezirk": "Mitte",
+  "lat": 52.5085451,
+  "lng": 13.3770363
  },
  "Potsdamer Platz Potsdamer Platz Berlin Deutschland": {
   "address": "Potsdamer Platz, 10785 Mitte",
@@ -2997,6 +3010,12 @@
   "lng": 13.3676157
  },
  "SIN Berlin, Nostitzstraße 48, 10961 Berlin": null,
+ "SO36 Oranienstraße 190, 10999 Berlin": {
+  "address": "Oranienstraße 190, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5003909,
+  "lng": 13.4221612
+ },
  "SOLId Graefestraße 18 10967 Berlin Deutschland": {
   "address": "Graefestraße 18, 10967 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -3208,6 +3227,12 @@
   "bezirk": "Mitte",
   "lat": 52.5435823,
   "lng": 13.3397881
+ },
+ "Sensburger Allee 25, 14055 Berlin": {
+  "address": "Sensburger Allee 25, 14055 Westend",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.5099369,
+  "lng": 13.2549022
  },
  "Siemensstraße 27, 10551 Berlin": {
   "address": "Siemensstraße 27, 10551 Moabit",
@@ -3503,6 +3528,7 @@
  "U-BHf Turmstraße 10551 Berlin": null,
  "U-Bhf Afrikanische Straße, vor der Steinbock Apotheke, 13349 Berlin": null,
  "U-Bhf Kurfürstenstr Kurfürstenstraße 32 Berlin 10785 10785 Berlin Deutschland": null,
+ "U-Bhf Potsdamer Platz, 10117 Berlin": null,
  "U-Bhf Wittenbergplatz, 10789 Berlin": {
   "address": "Wittenbergplatz, 10789 Schöneberg",
   "bezirk": "Tempelhof-Schöneberg",
@@ -3829,6 +3855,7 @@
  "across the Willy Brand Haus Berlin Deutschland": null,
  "aquarium (südblock) Skalitzer str. 6 10997 Berlin Deutschland": null,
  "ask a punk, Berlin": null,
+ "askapunk, Berlin": null,
  "auf dem Dragonerareal Mehringdamm 20 10961, 10961 Berlin": null,
  "b-flat, Dircksenstraße 40, 10178, Berlin": {
   "address": "Dircksenstraße 40, 10178 Mitte",

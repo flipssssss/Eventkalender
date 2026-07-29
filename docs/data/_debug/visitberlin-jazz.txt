@@ -1,8 +1,6 @@
 Event-Links: 21 | Events: 21
   2026-07-04 17:00:00 | Krankenhauskirche im Wuhlgarten, Brebacher Weg 15, 12683, Berlin | ZERBRECHLICHE SCHÖNHEIT - Marita Czepa
   2026-07-20 18:00:00 | EUREF-Campus Berlin, Torgauer Straße 25, 10829, Berlin | The ZigZag Jazz Festival 2026
-  2026-07-07 19:00:00 | Globe Berlin, Sömmeringstraße 15, 10589, Berlin | The Swingin' Hermlins
-  2026-07-21 19:30:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Die Rickenbackers Session
   2026-03-26 19:00:00 | Musikinstrumenten-Museum, Tiergartenstraße, 10785, Berlin | Jazz im MIM
   2026-07-30 19:00:00 | Britzer Garten Berlin, Sangerhauser Weg 1, 12349, Berlin | Silent Session im Britzer Garten
   2026-07-31 20:00:00 | Berliner Berg Brauerei, Treptower Str. 39, 12059, Berlin | Diego Alejandro Quartet
@@ -10,6 +8,8 @@ Event-Links: 21 | Events: 21
   2026-07-31 20:30:00 | Kühlspot Social Club, Lehderstraße 74-79, 13086, Berlin | HOT CAT #41 + Kondo
   2026-07-31 21:00:00 | Kunstfabrik Schlot, Invalidenstraße 117, 10115, Berlin | Jive Park
   2026-08-02 14:00:00 | Freilichtbühne Weißensee, Große Seestraße 10, 13086, Berlin | Berliner Kurkonzerte in Weißensee – Sommerfrische & Pop im Kiez, mit Albertine Sarges, Andrea Ida
+  2026-07-07 19:00:00 | Globe Berlin, Sömmeringstraße 15, 10589, Berlin | The Swingin' Hermlins
+  2026-07-21 19:30:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Die Rickenbackers Session
   2026-08-06 19:30:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Tribute to the Life and Music of Jesse Ballard
   2026-08-07 20:00:00 | Berliner Berg Brauerei, Treptower Str. 39, 12059, Berlin | Nicolas Delgado Quartet
   2026-08-08 20:00:00 | Berliner Berg Brauerei, Treptower Str. 39, 12059, Berlin | Stoenescu/Joerges/Goetzen/Menz

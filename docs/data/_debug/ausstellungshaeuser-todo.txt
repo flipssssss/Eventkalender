@@ -1,5 +1,6 @@
 Häuser ohne kuratierte Öffnungszeiten (in scrapers/openinghours.py ergänzen):
 
+Georg-Kolbe-Museum
 Haus am Waldsee
 Museum Barberini
 Regenbogenfabrik Lausitzer Str. 22 10999 Berlin Deutschland

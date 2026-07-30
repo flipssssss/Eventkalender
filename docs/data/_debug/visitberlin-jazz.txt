@@ -1,8 +1,7 @@
-Event-Links: 21 | Events: 21
+Event-Links: 21 | Events: 20
   2026-07-04 17:00:00 | Krankenhauskirche im Wuhlgarten, Brebacher Weg 15, 12683, Berlin | ZERBRECHLICHE SCHÖNHEIT - Marita Czepa
   2026-07-20 18:00:00 | EUREF-Campus Berlin, Torgauer Straße 25, 10829, Berlin | The ZigZag Jazz Festival 2026
   2026-03-26 19:00:00 | Musikinstrumenten-Museum, Tiergartenstraße, 10785, Berlin | Jazz im MIM
-  2026-07-30 19:00:00 | Britzer Garten Berlin, Sangerhauser Weg 1, 12349, Berlin | Silent Session im Britzer Garten
   2026-07-31 20:00:00 | Berliner Berg Brauerei, Treptower Str. 39, 12059, Berlin | Diego Alejandro Quartet
   2026-07-31 20:00:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | The Moonshine Mile Band - Westcoast Blues & Rock'n'Roll
   2026-07-31 20:30:00 | Kühlspot Social Club, Lehderstraße 74-79, 13086, Berlin | HOT CAT #41 + Kondo

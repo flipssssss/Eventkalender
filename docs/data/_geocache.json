@@ -6,6 +6,12 @@
   "lat": 52.5169123,
   "lng": 13.3873555
  },
+ "10243 Berlin": {
+  "address": "10243 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5122697,
+  "lng": 13.4394216
+ },
  "10245 Berlin": {
   "address": "10245 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -304,6 +310,7 @@
   "lat": 52.4965672,
   "lng": 13.3924936
  },
+ "Amira & Christiane, Berlin": null,
  "Amtsgericht Tiergarten Turmstr. 91 10559 Berlin Deutschland": null,
  "Amtsgericht Tiergarten Turmstr. 91 10559, 10559 Berlin": null,
  "Amtsgericht Tiergarten, Saal A672, Turmstraße 91, 10559 Berlin": null,
@@ -704,6 +711,7 @@
   "lat": 52.4130586,
   "lng": 13.3899419
  },
+ "Bundeskanzler*innenamt, Willy-Brandt-Straße 1, 10557 Berlin": null,
  "Bundeskanzler_innenamt Willy-Brandt-Straße 1 10557 Berlin Deutschland": null,
  "Bundesrat Leipziger Straße 3-4 10117 Berlin Deutschland": {
   "address": "Leipziger Straße 3-4, 10117 Mitte",
@@ -1753,6 +1761,7 @@
  "Kiezraum auf dem Dragoner-Areal Berlin": null,
  "Kiezraum auf dem Dragoner-Areal Berlin Deutschland": null,
  "Kiezraum auf dem Dragonerareal Mehringdamm 20 10961 Berlin Deutschland": null,
+ "Kino Durchsfenster, Filmclub K18 Media Space K18, Kreutziger Straße 18, Friedrichshain (Südkiez) Berlin Deutschland": null,
  "Kino Zukunft, Berlin": {
   "address": "Kynaststraße, 10245 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -1833,6 +1842,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5131367,
   "lng": 13.4600201
+ },
+ "Kreutziger Straße 18, Berlin": {
+  "address": "Kreutzigerstraße 18, 10247 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5130346,
+  "lng": 13.459936
  },
  "Kreutzigerstr. 19, 10247 Berlin": {
   "address": "Kreutzigerstraße 19, 10247 Friedrichshain",
@@ -2506,6 +2521,7 @@
  "Neue Republik Reger Bouchestraße A 79 12435 Berlin Deutschland": null,
  "Neue Zukunft Alt-Strahlau 68 10245 Berlin Deutschland": null,
  "New Casa, Wurzener Straße 6, 12627 Berlin": null,
+ "New Casa, Wurzener Straße 6-8, 12627 Berlin": null,
  "New Casa, Wurzener Straße 6–8, Hellersdorf 12627 Berlin Deutschland": null,
  "New Yorck im Bethanien Mariannenplatz 2A 10997 Berlin Deutschland": null,
  "NewYorck im Bethanien Mariannenplatz 2A 10997 Berlin Deutschland": null,
@@ -2694,6 +2710,12 @@
   "bezirk": "Neukölln",
   "lat": 52.4901195,
   "lng": 13.4335474
+ },
+ "Pichelswerder Straße 6, 13597 Berlin": {
+  "address": "Pichelswerderstraße 6, 13597 Spandau",
+  "bezirk": "Spandau",
+  "lat": 52.5295139,
+  "lng": 13.2144631
  },
  "Piekfeiner Laden - Hausprojekt Wönnichstr. 103 Berlin Deutschland": null,
  "Planetarium Berlin": {
@@ -3035,6 +3057,12 @@
   "bezirk": "Tempelhof-Schöneberg",
   "lat": 52.4773354,
   "lng": 13.3578441
+ },
+ "Sama32 Samariterstr. 32 10247 Berlin Deutschland": {
+  "address": "Samariterstraße 32, 10247 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5167173,
+  "lng": 13.4650744
  },
  "Sangerhauser Weg 1, 12349 Berlin": {
   "address": "Sangerhauser Weg 1, 12349 Britz",
@@ -3380,6 +3408,7 @@
  "THF Tower Flughafen Tempelhof in Berlin, Tempelhofer Damm 45, 12101, Berlin": null,
  "TU Berlin, Raum EB 202, Straße des 17. Juni 145, 10623 Berlin": null,
  "TU Mensakreuzung, Hardenbergstraße 34, 10623 Berlin": null,
+ "Teepeeland Schillingbrücke 3 10243 Berlin Deutschland": null,
  "Tempelhof 1210, 12101 Berlin": {
   "address": "Tempelhof",
   "bezirk": "Tempelhof-Schöneberg",
@@ -3759,6 +3788,12 @@
   "bezirk": "Marzahn-Hellersdorf",
   "lat": 52.5422403,
   "lng": 13.6173176
+ },
+ "Wurzener Straße 6-8, 12627 Berlin": {
+  "address": "Wurzener Straße, 12627 Hellersdorf",
+  "bezirk": "Marzahn-Hellersdorf",
+  "lat": 52.541836,
+  "lng": 13.6173976
  },
  "Wönnichstr. 103, Berlin": {
   "address": "Wönnichstraße 103, 10317 Rummelsburg",

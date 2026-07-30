@@ -1,5 +1,4 @@
-API-Events: 49 | übernommen: 49
-  2026-07-29 20:00:00 | Punk | Oppai Cats (girl garage band from Hiroshima) live in Berlin
+API-Events: 50 | übernommen: 50
   2026-07-30 19:00:00 | Punk | NOTHING WORKS (post-hardcore, bln, ep-release!) & DOUBLE LIFE (hardcore punk, bln) & CURTAIN BANGS (dream-pop, bln)
   2026-07-30 20:30:00 | Electro | UZIMOTO + GELBART + ULTRAVIOLET
   2026-07-31 12:45:00 | None | Queer Tours for All - Culture in Köpenicker Forst
@@ -9,8 +8,10 @@ API-Events: 49 | übernommen: 49
   2026-07-31 21:00:00 | Punk | Diapers + Spucke in den Räumen des Subversiv e.V.⁰
   2026-08-01 19:00:00 | Punk | SCHALKO (Postpunk, Freiburg) + SCHWINDEL (Punk, Berlin)
   2026-08-01 20:00:00 | Punk | Soli-Konzert für autonome Freiräume & in Gedenken an Panzer
+  2026-08-02 14:45:00 | None | Queer Tours for All - Gay and Sapphic Schöneberg
   2026-08-02 19:00:00 | Punk | Camelia / Only / Leep
   2026-08-03 19:00:00 | Punk | N8NOFACE (Electro-Punk/Thrash Hip Hop, Los Angeles)
+  2026-08-04 18:45:00 | None | Queer Tours for All - Queer Kreuzberg
   2026-08-05 19:00:00 | Punk | BLEACH TV (indie-rock/post-punk, hh) & DOGDAZE (shoegaze/post-punk, bln)
   2026-08-06 19:00:00 | Punk | RAGANA + DIS FIG + SPIXE
   2026-08-07 17:00:00 | Punk | Punx n Kweenz Festival
@@ -28,4 +29,3 @@ API-Events: 49 | übernommen: 49
   2026-08-20 20:00:00 | Punk | Kowa Axis / Aidan Baker / Tim Wyskida
   2026-08-21 15:00:00 | Punk | Bikinikonzert @Greifswalder DIY
   2026-08-26 19:00:00 | Punk | COUSINES LIKE SHIT (AT) & LIIEK (Bln) & FACE VALUE (Bln)
-  2026-08-28 19:00:00 | Indie | Record Release: PAIR (Indie Rock Elektro / Berlin) + WESTHAFEN (Alternative Indie Rock / Berlin)

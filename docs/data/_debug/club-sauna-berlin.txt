@@ -1,5 +1,4 @@
-Events: 17
-  2026-07-30 17:30:00 | TIN* & Friends
+Events: 16
   2026-07-31 17:30:00 | flinta sweat
   2026-08-01 17:30:00 | gender mix
   2026-08-05 17:30:00 | gender mix

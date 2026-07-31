@@ -154,6 +154,7 @@
  "AK Zwangsarbeit Ludwigsfelde, Berlin": null,
  "AStA FU Otto-von-Simson-Straße 23 Berlin Deutschland": null,
  "Abfahrt Solibus Züllichauer Straße 10965 Berlin Deutschland": null,
+ "Abgedreht-Klub Karl-Marx-Allee.140 10243 Berlin Deutschland": null,
  "Abstand Rigaer Straße 78 10247 Berlin Deutschland": {
   "address": "Rigaer Straße 78, 10247 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -1824,6 +1825,12 @@
   "lat": 52.5064362,
   "lng": 13.4291056
  },
+ "Kottbusser Damm 1096, 10967 Berlin": {
+  "address": "Kottbusser Damm, 10967 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4957474,
+  "lng": 13.420274
+ },
  "Kottbusser Tor (Kreuzberg) Berlin Deutschland": {
   "address": "Kottbusser Tor, 10999 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -2630,6 +2637,7 @@
   "lng": 13.3748997
  },
  "Ostkreuz, Gleis 13, 10245 Berlin": null,
+ "Ostkreuz, Gleis 3, 10245 Berlin": null,
  "Otto-von-Simson-Straße 23, Berlin": {
   "address": "Otto-von-Simson-Straße 23, 14195 Dahlem",
   "bezirk": "Steglitz-Zehlendorf",
@@ -3846,6 +3854,7 @@
   "lng": 13.2928997
  },
  "Zentrum Villa Lützow Lützowstraße 28 10785, 10785 Berlin": null,
+ "Zickenplatz, Kottbusser Damm, 10967 Berlin": null,
  "Ziegelstraße 5, 10117 Berlin": {
   "address": "Ziegelstraße 5, 10117 Mitte",
   "bezirk": "Mitte",

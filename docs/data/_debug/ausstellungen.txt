@@ -1,30 +1,31 @@
-ExhibitionEvents -> Events: 29
-  2026-07-30 Brancusi
-  2026-07-30 Lina Lapelytė: We Make Years Out of Hours – Chanel
-  2026-07-30 Bjørn Melhus: Lost in Finity
-  2026-07-30 Paul Signac: Symphonie der Farben
-  2026-07-30 Marina Abramović: Balkan Erotic Epic
-  2026-07-30 Marc Brandenburg: 20th Century Debris
-  2026-07-30 Gabriele Stötzer: Dabei sein und nicht schweigen
+ExhibitionEvents -> Events: 30
+  2026-07-31 Brancusi
+  2026-07-31 Lina Lapelytė: We Make Years Out of Hours – Chanel
+  2026-07-31 Bjørn Melhus: Lost in Finity
+  2026-07-31 Paul Signac: Symphonie der Farben
+  2026-07-31 Marina Abramović: Balkan Erotic Epic
+  2026-07-31 Marc Brandenburg: 20th Century Debris
+  2026-07-31 Gabriele Stötzer: Dabei sein und nicht schweigen
   2026-08-01 Ruin und Rausch. Gesichter Berlins 1910-1930
-  2026-07-30 Materialistin: Matter of Care, Care of Matter
-  2026-07-30 Cassirer und der Durchbruch des Impressionismus
-  2026-07-30 Wo ich wohne
-  2026-07-30 Giulia Andreani: Sabotage
-  2026-07-30 C.B. Evans: Reality or Not
-  2026-07-30 Neue Frau, Neues Sehen: Die Bauhaus-Fotografinnen
-  2026-07-30 Inventing Queer Cinema – Freier Eintritt vom 30. J
-  2026-07-30 Walter Schels: 16° Fische – Retrospektive
-  2026-07-30 Kyiv Biennial: A Bird That Cannot Land
-  2026-07-30 Shilpa Gupta: What Still Holds
-  2026-07-30 Fujiko Nakaya: Nebelskulptur im Skulpturengarten
-  2026-07-30 Iván Argote: A Place To Stay
-  2026-07-30 Anton Corbijn: Corbijn, Anton
-  2026-07-30 Rooms / Stages
+  2026-07-31 Materialistin: Matter of Care, Care of Matter
+  2026-07-31 Cassirer und der Durchbruch des Impressionismus
+  2026-07-31 Wo ich wohne
+  2026-07-31 Giulia Andreani: Sabotage
+  2026-07-31 C.B. Evans: Reality or Not
+  2026-07-31 Neue Frau, Neues Sehen: Die Bauhaus-Fotografinnen
+  2026-07-31 Inventing Queer Cinema – Freier Eintritt vom 30. J
+  2026-07-31 Walter Schels: 16° Fische – Retrospektive
+  2026-07-31 Kyiv Biennial: A Bird That Cannot Land
+  2026-07-31 Shilpa Gupta: What Still Holds
+  2026-07-31 Fujiko Nakaya: Nebelskulptur im Skulpturengarten
+  2026-07-31 Iván Argote: A Place To Stay
+  2026-07-31 Anton Corbijn: Corbijn, Anton
+  2026-07-31 Rooms / Stages
   2026-08-02 Skulptur in Stoff - Die zeitlose Eleganz von Madam
-  2026-07-30 Seeing Words, Reading Images – Die Written Art Col
+  2026-07-31 Seeing Words, Reading Images – Die Written Art Col
   2026-08-07 Everybody
   2026-09-10 Jean-Luc Mylayne: Reflection
   2026-09-09 Maurizio Cattelan: Night – Preis der Nationalgaler
   2026-09-16 Die Magie der Straße
+  2026-08-27 Josef Kaiser: Bauen für die DDR
   2026-09-10 Ryuichi Sakamoto: seeing sound, hearing time

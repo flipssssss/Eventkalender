@@ -1,5 +1,6 @@
 Listenseite: 18 Event-Slugs gefunden
-Events gebaut: 18
+  paddys-day-a-queer-and-secular-celebration-of-irish-shenanigans-and-international-solidarity-1: FEHLER Response ended prematurely
+Events gebaut: 17
 
 --- DIAGNOSE 1. Detailseite ---
 JSON-LD im HTML: True | wix-warmup-data: True

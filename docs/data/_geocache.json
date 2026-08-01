@@ -24,6 +24,12 @@
   "lat": 52.524468,
   "lng": 13.4819893
  },
+ "10557 Berlin": {
+  "address": "10557 Moabit",
+  "bezirk": "Mitte",
+  "lat": 52.52324,
+  "lng": 13.359503
+ },
  "10623 Berlin": {
   "address": "10623 Charlottenburg",
   "bezirk": "Charlottenburg-Wilmersdorf",
@@ -191,6 +197,7 @@
   "lat": 52.4960989,
   "lng": 13.4153663
  },
+ "Akari Restaurant Babelsberg, Großbeerenstraße 107, 14482 Potsdam, Berlin": null,
  "Ale Felcitas, Berlin": null,
  "Ale Felicitas, Berlin": null,
  "Alexanderplatz 10187 Berlin Deutschland": {
@@ -510,6 +517,7 @@
   "lat": 52.5107448,
   "lng": 13.4351709
  },
+ "Berlin Hbf Gleis 8, RE8, 10557 Berlin": null,
  "Berlin Kreuzberg": {
   "address": "Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -926,6 +934,18 @@
  "Drugstore im Rockhaus Buchberger Str. 6 10365, 10365 Berlin": null,
  "EUREF-Campus Berlin, Torgauer Straße 25, 10829, Berlin": null,
  "Eastgate Marzahn, Marzahner Promenade 1A (Marzahn-Hellersdorf) 12679 Berlin Deutschland": null,
+ "Eberswalder Str. 21, 10437 Berlin, Germany": {
+  "address": "Eberswalder Straße 21, 10437 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5410133,
+  "lng": 13.4106052
+ },
+ "Eberswalder Straße 1043, 10437 Berlin": {
+  "address": "Eberswalder Straße, 10437 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5408562,
+  "lng": 13.4057206
+ },
  "Eberswalder Straße 21, 10437 Prenzlauer Berg, Berlin": {
   "address": "Eberswalder Straße 21, 10437 Prenzlauer Berg",
   "bezirk": "Pankow",
@@ -1193,6 +1213,12 @@
   "lng": 13.5080026
  },
  "Grillwiese THF, Eingang Leinestraße, 12049 Berlin": null,
+ "Großbeerenstraße 107, 14482 Berlin": {
+  "address": "Großbeerenstraße 107, 12107 Mariendorf",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4323818,
+  "lng": 13.3774557
+ },
  "Großbeerenstraße 133, 12107 Berlin": {
   "address": "Großbeerenstraße 133, 12107 Mariendorf",
   "bezirk": "Tempelhof-Schöneberg",
@@ -2784,6 +2810,12 @@
  "Pumptrack An der Ostbahn 9 Berlin Deutschland": null,
  "Quälgeist Berlin e.V. Lankwitzer Straße 42/43, 12107 Berlin": null,
  "Quälgeist Berlin e.V., Lankwitzer Straße 42/43, Berlin, 12107, Deutschland": null,
+ "Quälgeist, Berlin": {
+  "address": "Lankwitzer Straße 42/43, 12107 Mariendorf",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4374457,
+  "lng": 13.3754837
+ },
  "Quälgeist, Lankwitzer Straße 42/43, 12107 Berlin": null,
  "R94, Rigaer Straße 94, Friedrichshain 10247 Berlin Deutschland": null,
  "RADAU, Schererstraße 8, 13347 Berlin": null,
@@ -3436,6 +3468,12 @@
  "Tempelhofer Feld, Neuköllner Seite, Haus 104 Tempelhofer Feld, Neuköllner Seite, Haus 104 Tempelhofer Damm Berlin Deutschland": null,
  "The Castle, The Castle, Berlin Mitte, Invalidenstraße 129, 10115 Berlin": null,
  "Theater Strahl. Halle Ostkreuz, Berlin": null,
+ "Theater X, Wiclefstraße 32, 10551 Berlin": {
+  "address": "Wiclefstraße 32, 10551 Moabit",
+  "bezirk": "Mitte",
+  "lat": 52.5312654,
+  "lng": 13.3295679
+ },
  "Theater an der Parkaue, Berlin": {
   "address": "Parkaue 29, 10367 Lichtenberg",
   "bezirk": "Lichtenberg",
@@ -3564,6 +3602,7 @@
  "Türrschmidtstraße 1 10317, 10317 Berlin": null,
  "U-BHf Turmstraße 10551 Berlin": null,
  "U-Bhf Afrikanische Straße, vor der Steinbock Apotheke, 13349 Berlin": null,
+ "U-Bhf Eberswalder Straße, 10437 Berlin": null,
  "U-Bhf Kurfürstenstr Kurfürstenstraße 32 Berlin 10785 10785 Berlin Deutschland": null,
  "U-Bhf Potsdamer Platz, 10117 Berlin": null,
  "U-Bhf Wittenbergplatz, 10789 Berlin": {

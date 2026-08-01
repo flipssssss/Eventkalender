@@ -1,21 +1,7 @@
-Teaser: 98 | Berlin: 20 | andere Städte: 78 | mit Beschreibung: 14
-  2026-07-01 10:00:00 | Berlin | Antiquarische Buchwoche
-  2026-07-01 18:30:17 | Berlin | Planetare Politik im Zeitalter des Klimawandels
-  2026-07-01 19:00:00 | Berlin | „Armut und Krieg überwinden mit Gerechtigkeit“
-  2026-07-02 10:00:00 | Berlin | Antiquarische Buchwoche
-  2026-07-03 10:00:00 | Berlin | Antiquarische Buchwoche
-  2026-07-04 10:00:00 | Berlin | Antiquarische Buchwoche
-  2026-07-04 12:15:23 | Berlin | Bildungsexkursion zur Berliner Theatergeschichte
-  2026-07-05 10:00:00 | Berlin | Antiquarische Buchwoche
-  2026-07-05 17:00:00 | Berlin | Literarisches Feld DDR
-  2026-07-07 17:00:00 | Berlin | 35 JAHRE HELLE PANKE
-  2026-07-08 19:00:59 | Berlin | Angriff auf den Sozialstaat — Kettensäge oder Ketten bilden?
-  2026-07-13 19:00:00 | Berlin | Vom Unwesen des Menschen
-  2026-07-13 20:30:28 | Berlin | Queeres Leben in Georgien
-  2026-07-14 19:00:00 | Berlin | Hakenkreuz und Heimatschutz
-  2026-07-15 19:00:42 | Berlin | Venezuela als Labor neuer geopolitischer Machtverhältnisse
-  2026-07-16 18:00:00 | Berlin | Geschichte und Gegenwart der Antifaschistischen Aktion
-  2026-07-17 13:00:00 | Berlin | Symposium: Reworking Critical Marxist Theory
-  2026-07-18 10:00:19 | Berlin | Symposium über die Internationalen Brigaden
-  2026-07-23 19:00:52 | Berlin | Queer und Klasse: Über Armut, Ausgrenzung und Solidarität
-  2026-07-30 18:00:11 | Berlin | Antisemitismus und die Neue Rechte
+Teaser: 69 | Berlin: 6 | andere Städte: 63 | mit Beschreibung: 6
+  2026-08-12 20:30:28 | Berlin | Sabbath Queen (2024)
+  2026-08-13 20:00:30 | Berlin | Gaza: Augenzeug*innen (2025)
+  2026-08-24 21:00:28 | Berlin | „The Delivery Guy“
+  2026-08-25 20:00:28 | Berlin | Soldaten des Lichts (2025)
+  2026-08-28 14:00:30 | Berlin | Rentenpolitisches Kolloquium
+  2026-08-31 17:00:46 | Berlin | DEFA 80 - Filmplakate von 1946 bis 1990

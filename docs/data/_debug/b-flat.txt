@@ -1,7 +1,6 @@
 top-keys: ['website', 'websiteSettings', 'collection', 'shoppingCart', 'shareButtons', 'showCart', 'localizedStrings', 'userAccountsContext', 'template', 'uiextensions', 'empty', 'emptyFolder', 'calendarView', 'pagination', 'upcoming']
-items: 26 | Events: 26
+items: 25 | Events: 25
 erstes item keys: ['id', 'collectionId', 'recordType', 'addedOn', 'updatedOn', 'starred', 'passthrough', 'tags', 'categories', 'workflowState', 'publishOn', 'authorId', 'systemDataId', 'systemDataVariants', 'systemDataSourceType', 'filename', 'mediaFocalPoint', 'colorData', 'urlId', 'title', 'sourceUrl', 'body', 'excerpt', 'location', 'customContent']
-  2026-08-01 09:00:00.506000 | The „B-flat All-Stars“ present Liva Strazdina und Simona Turk
   2026-08-02 09:00:00.506000 | Bastian Menz Project
   2026-08-04 09:00:00.506000 | Still Waters ||:ECHO:||
   2026-08-05 09:00:00.936000 | Robins Nest - Jamsession

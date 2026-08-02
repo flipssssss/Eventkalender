@@ -1,6 +1,5 @@
 Event-Links: 21 | Events: 20
   2026-07-04 17:00:00 | Krankenhauskirche im Wuhlgarten, Brebacher Weg 15, 12683, Berlin | ZERBRECHLICHE SCHÖNHEIT - Marita Czepa
-  2026-08-02 14:00:00 | Freilichtbühne Weißensee, Große Seestraße 10, 13086, Berlin | Berliner Kurkonzerte in Weißensee – Sommerfrische & Pop im Kiez, mit Albertine Sarges, Andrea Ida
   2026-07-07 19:00:00 | Globe Berlin, Sömmeringstraße 15, 10589, Berlin | The Swingin' Hermlins
   2026-07-21 19:30:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Die Rickenbackers Session
   2026-08-06 19:30:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Tribute to the Life and Music of Jesse Ballard
@@ -19,3 +18,4 @@ Event-Links: 21 | Events: 20
   2026-08-25 19:30:00 | Luftschloss Tempelhofer Feld, Tempelhofer Feld, 12101, Berlin | Les Passents
   2026-03-26 19:00:00 | Musikinstrumenten-Museum, Tiergartenstraße, 10785, Berlin | Jazz im MIM
   2026-08-28 20:00:00 | Berliner Berg Brauerei, Treptower Str. 39, 12059, Berlin | Diego Piñera & Friends
+  2026-08-29 17:00:00 | Jagdschloss Stern, Jagdhausstraße, 14480, Potsdam | Schlossnacht mit Illumination und Jazz

@@ -1,6 +1,4 @@
-API-Events: 46 | übernommen: 46
-  2026-08-01 19:00:00 | Punk | SCHALKO (Postpunk, Freiburg) + SCHWINDEL (Punk, Berlin)
-  2026-08-01 20:00:00 | Punk | Soli-Konzert für autonome Freiräume & in Gedenken an Panzer
+API-Events: 45 | übernommen: 45
   2026-08-02 14:45:00 | None | Queer Tours for All - Gay and Sapphic Schöneberg
   2026-08-02 19:00:00 | Punk | Camelia / Only / Leep
   2026-08-03 19:00:00 | Punk | N8NOFACE (Electro-Punk/Thrash Hip Hop, Los Angeles)
@@ -29,3 +27,5 @@ API-Events: 46 | übernommen: 46
   2026-09-02 19:30:00 | Metal | USU pres.: Methadone Skies + Earth Ship | Neue Zukunft - 02.09.2026
   2026-09-04 19:00:00 | Metal | Fossilization + Phobocosm + Urza presented by Swamp Conspiracy and DoomShip
   2026-09-05 13:00:00 | Punk | Le Désordre C'est Moi Festival
+  2026-09-05 17:00:00 | None | Tiergarten Maleficium
+  2026-09-05 19:00:00 | Punk | ANCST | SVDESTADA | MARNÖ | BRÜD

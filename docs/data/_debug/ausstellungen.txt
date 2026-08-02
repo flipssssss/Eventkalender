@@ -1,28 +1,28 @@
 ExhibitionEvents -> Events: 30
-  2026-08-01 Brancusi
-  2026-08-01 Lina Lapelytė: We Make Years Out of Hours – Chanel
-  2026-08-01 Bjørn Melhus: Lost in Finity
-  2026-08-01 Paul Signac: Symphonie der Farben
-  2026-08-01 Marina Abramović: Balkan Erotic Epic
-  2026-08-01 Marc Brandenburg: 20th Century Debris
-  2026-08-01 Gabriele Stötzer: Dabei sein und nicht schweigen
-  2026-08-01 Ruin und Rausch. Gesichter Berlins 1910-1930
-  2026-08-01 Materialistin: Matter of Care, Care of Matter
-  2026-08-01 Cassirer und der Durchbruch des Impressionismus
-  2026-08-01 Wo ich wohne
-  2026-08-01 Giulia Andreani: Sabotage
-  2026-08-01 C.B. Evans: Reality or Not
-  2026-08-01 Neue Frau, Neues Sehen: Die Bauhaus-Fotografinnen
-  2026-08-01 Inventing Queer Cinema – Freier Eintritt vom 30. J
-  2026-08-01 Walter Schels: 16° Fische – Retrospektive
-  2026-08-01 Kyiv Biennial: A Bird That Cannot Land
-  2026-08-01 Shilpa Gupta: What Still Holds
-  2026-08-01 Fujiko Nakaya: Nebelskulptur im Skulpturengarten
-  2026-08-01 Iván Argote: A Place To Stay
-  2026-08-01 Anton Corbijn: Corbijn, Anton
-  2026-08-01 Rooms / Stages
-  2026-08-02 Skulptur in Stoff - Die zeitlose Eleganz von Madam
-  2026-08-01 Seeing Words, Reading Images – Die Written Art Col
+  2026-08-02 Brancusi
+  2026-08-02 Lina Lapelytė: We Make Years Out of Hours – Chanel
+  2026-08-02 Bjørn Melhus: Lost in Finity
+  2026-08-02 Paul Signac: Symphonie der Farben
+  2026-08-02 Marina Abramović: Balkan Erotic Epic
+  2026-08-02 Marc Brandenburg: 20th Century Debris
+  2026-08-02 Gabriele Stötzer: Dabei sein und nicht schweigen
+  2026-08-02 Ruin und Rausch: Berlin 1910–1930
+  2026-08-02 Materialistin: Matter of Care, Care of Matter
+  2026-08-02 Cassirer und der Durchbruch des Impressionismus
+  2026-08-02 Wo ich wohne
+  2026-08-02 Giulia Andreani: Sabotage
+  2026-08-02 C.B. Evans: Reality or Not
+  2026-08-02 Neue Frau, Neues Sehen: Die Bauhaus-Fotografinnen
+  2026-08-02 Inventing Queer Cinema – Freier Eintritt vom 30. J
+  2026-08-02 Walter Schels: 16° Fische – Retrospektive
+  2026-08-02 Kyiv Biennial: A Bird That Cannot Land
+  2026-08-02 Shilpa Gupta: What Still Holds
+  2026-08-02 Fujiko Nakaya: Nebelskulptur im Skulpturengarten
+  2026-08-02 Iván Argote: A Place To Stay
+  2026-08-02 Anton Corbijn: Corbijn, Anton
+  2026-08-02 Rooms / Stages
+  2026-08-02 Many Shades of Grès: Mode wird Kunst
+  2026-08-02 Seeing Words, Reading Images – Die Written Art Col
   2026-08-07 Everybody
   2026-09-10 Jean-Luc Mylayne: Reflection
   2026-09-09 Maurizio Cattelan: Night – Preis der Nationalgaler

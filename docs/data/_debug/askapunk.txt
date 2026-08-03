@@ -1,6 +1,4 @@
-API-Events: 45 | übernommen: 45
-  2026-08-02 14:45:00 | None | Queer Tours for All - Gay and Sapphic Schöneberg
-  2026-08-02 19:00:00 | Punk | Camelia / Only / Leep
+API-Events: 43 | übernommen: 43
   2026-08-03 19:00:00 | Punk | N8NOFACE (Electro-Punk/Thrash Hip Hop, Los Angeles)
   2026-08-04 18:45:00 | None | Queer Tours for All - Queer Kreuzberg
   2026-08-04 19:00:00 | Punk | N8NOFACE (Electro-Punk/Thrash Hip Hop, Los Angeles)
@@ -29,3 +27,5 @@ API-Events: 45 | übernommen: 45
   2026-09-05 13:00:00 | Punk | Le Désordre C'est Moi Festival
   2026-09-05 17:00:00 | None | Tiergarten Maleficium
   2026-09-05 19:00:00 | Punk | ANCST | SVDESTADA | MARNÖ | BRÜD
+  2026-09-07 19:00:00 | None | Giöbia // B.L.O. Kantine Berlin (support: Icarus Burns)
+  2026-09-10 17:00:00 | Metal | +++ BERLIN SWAMP FEST 2026 +++

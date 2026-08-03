@@ -24,6 +24,12 @@
   "lat": 52.524468,
   "lng": 13.4819893
  },
+ "10405 Berlin": {
+  "address": "10405 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5351707,
+  "lng": 13.4255542
+ },
  "10557 Berlin": {
   "address": "10557 Moabit",
   "bezirk": "Mitte",
@@ -1565,6 +1571,7 @@
   "lat": 52.470975,
   "lng": 13.4309683
  },
+ "Jonny Knüppel Lilli-Henoch-Str.10 10405 Berlin Deutschland": null,
  "Jordanstraße 1243, 12435 Berlin": {
   "address": "Jordanstraße, 12435 Alt-Treptow",
   "bezirk": "Treptow-Köpenick",
@@ -2231,6 +2238,7 @@
   "lng": 13.3603197
  },
  "Location is TBD, Berlin": null,
+ "Location via Telegram: https://t.me/+YzR3aM, Berlin": null,
  "Loge Kinzigstr. 9 Berlin Deutschland": {
   "address": "Kinzigstraße 9, 10247 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -2658,6 +2666,12 @@
  },
  "Ort bei Anmeldung Ort bei Anmeldung Berlin": null,
  "Ort bei Anmeldung Ort bei Anmeldung Berlin Deutschland": null,
+ "Orwohaus Berlin Deutschland": {
+  "address": "Frank-Zappa-Straße 19,20, 12681 Marzahn",
+  "bezirk": "Marzahn-Hellersdorf",
+  "lat": 52.5373536,
+  "lng": 13.5300088
+ },
  "Osloer Straße 36, 13359 Berlin": {
   "address": "Osloer Straße 36, 13359 Gesundbrunnen",
   "bezirk": "Mitte",

@@ -2717,6 +2717,7 @@
   "lat": 52.5398077,
   "lng": 13.4133001
  },
+ "Pakistanische Botschaft, Schaperstraße 29, 10719 Berlin": null,
  "Paloma Bar, Berlin": {
   "address": "Skalitzer Straße, 10999 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -2780,6 +2781,7 @@
   "lat": 52.5186538,
   "lng": 13.3761015
  },
+ "Plänterwald entrance at the corner of Bulgarische Str. & Neue Krugallee., Berlin": null,
  "Potsdamer Platz 1011, 10117 Berlin": {
   "address": "Potsdamer Platz, 10117 Tiergarten",
   "bezirk": "Mitte",
@@ -3125,6 +3127,12 @@
   "bezirk": "Neukölln",
   "lat": 52.4316471,
   "lng": 13.4131787
+ },
+ "Schaperstraße 29, 10719 Berlin": {
+  "address": "Schaperstraße 29, 10719 Wilmersdorf",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.4993092,
+  "lng": 13.3316636
  },
  "Schaubühne am Lehniner Platz, Berlin": {
   "address": "Kurfürstendamm 153, 10709 Wilmersdorf",

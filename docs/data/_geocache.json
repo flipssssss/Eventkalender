@@ -161,6 +161,7 @@
  },
  "@boedi.nine Bödickerstraße 9, 10245 Berlin": null,
  "A-Trane Berlin, Bleibtreustrasse 1 10623": null,
+ "A-Trane Jazzclub, Pestalozzistraße 105, 10625, Berlin": null,
  "AGB PopUp Saal Blücherplatz 1 10961 Berlin Deutschland": null,
  "AGB PopUp Saal Blücherplatz 1 10961, 10961 Berlin": null,
  "AK Zwangsarbeit Ludwigsfelde, Berlin": null,
@@ -1897,6 +1898,12 @@
   "lat": 52.5131608,
   "lng": 13.4600856
  },
+ "Kreutzigerstr.19, Berlin": {
+  "address": "Kreutzigerstraße 19, 10247 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5131367,
+  "lng": 13.4600201
+ },
  "Kreuzdorf Mariannenplatz 1a 10997 Berlin Deutschland": null,
  "Kreuzdorf Mariannenplatz 1a, 10997 Berlin": null,
  "Kreuziger Str 19, Berlin": null,
@@ -2405,6 +2412,12 @@
   "lat": 52.5009077,
   "lng": 13.4232743
  },
+ "Markgrafendamm 24, Berlin": {
+  "address": "Markgrafendamm 24, 10245 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.502869,
+  "lng": 13.4609428
+ },
  "Markgrafendamm 24c, 10245 Berlin": {
   "address": "Markgrafendamm 24c, 10245 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -2476,6 +2489,12 @@
  "Mellowpark, 12459 Berlin": null,
  "Metis Books and Café, Berlin": null,
  "MieterClub Neue Christstr. 8 14059 Berlin Deutschland": null,
+ "Mieterladen Kreutzigerstr. 23 10247 Berlin Deutschland": {
+  "address": "Kreutzigerstraße 23, 10247 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.513759,
+  "lng": 13.4605615
+ },
  "Milchbar, Manteuffelstraße 41, 10997 Berlin": null,
  "Mitte Museum Pankstr. 47 13357 Berlin Deutschland": {
   "address": "Pankstraße 47, 13357 Gesundbrunnen",
@@ -2502,6 +2521,7 @@
   "lat": 52.4977722,
   "lng": 13.3485938
  },
+ "Murx Karl-Marx-Straße 282 12057 Berlin Deutschland": null,
  "Murx, Karl-Marx-Straße 282, 12057 Berlin": null,
  "Museum des Kapitalismus Köpenicker Str. 172 10997 Berlin Deutschland": null,
  "Museum des Kapitalismus Köpenicker Str. 172 10997, 10997 Berlin": null,
@@ -2544,6 +2564,12 @@
   "lng": 13.4234898
  },
  "Nachbarschaftszentrum Rudi Modersohnstraße 55 Berlin Deutschland": null,
+ "Naunynstr. 60, 10997 Berlin": {
+  "address": "Naunynstraße, 10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.501549,
+  "lng": 13.4225232
+ },
  "Naunystrasse 72, 10997 Berlin": null,
  "Neckarstr. 19 12053 Berlin Deutschland": {
   "address": "Neckarstraße 19, 12053 Neukölln",
@@ -2755,6 +2781,12 @@
   "lat": 52.5326687,
   "lng": 13.3513556
  },
+ "Pestalozzistraße 105, 10625 Berlin": {
+  "address": "Pestalozzistraße 105, 10625 Charlottenburg",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.5073504,
+  "lng": 13.3198778
+ },
  "Peter-Göring-Str. 25, Berlin": null,
  "Pflügerstr. 52, 12047 Berlin": {
   "address": "Pflügerstraße 52, 12047 Neukölln",
@@ -2850,6 +2882,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5103673,
   "lng": 13.4286199
+ },
+ "Rathaus Schöneberg, John-F.-Kennedy-Platz 1, 10825 Berlin": {
+  "address": "John-F.-Kennedy-Platz 1, 10825 Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4848253,
+  "lng": 13.3441027
  },
  "Rathaus Treptow Neue Krugallee 2-6 12435 Berlin Deutschland": null,
  "Rathausstraße 1, 10178 Berlin": {
@@ -3364,6 +3402,12 @@
   "lat": 52.4820605,
   "lng": 13.4389626
  },
+ "Sonnenallee 127, 12059 Berlin": {
+  "address": "Sonnenallee 127, 12059 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4802374,
+  "lng": 13.4434931
+ },
  "Sonnenallee 154, Berlin": {
   "address": "Sonnenallee 154, 12059 Neukölln",
   "bezirk": "Neukölln",
@@ -3571,6 +3615,7 @@
   "lat": 52.4848891,
   "lng": 13.4580488
  },
+ "Trinkteufel Naunynstr. 60 10997 Berlin Deutschland": null,
  "Tristeza Pannierstr. 5 12047 Berlin Deutschland": {
   "address": "Pannierstraße 5, 12047 Neukölln",
   "bezirk": "Neukölln",
@@ -3745,6 +3790,12 @@
   "bezirk": "Neukölln",
   "lat": 52.4777152,
   "lng": 13.4240197
+ },
+ "Weisestr. 56, 12049 Berlin": {
+  "address": "Weisestraße 56, 12049 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4782022,
+  "lng": 13.4238713
  },
  "Weisestraße 3, 12049 Berlin": {
   "address": "Weisestraße 3, 12049 Neukölln",
@@ -3947,6 +3998,7 @@
  },
  "Zorrow Grüntalerstr.38 13359 Berlin Deutschland": null,
  "Zorrow Hinterhof, Grüntaler Straße 38, 13359 Berlin": null,
+ "Zuckerzauber Markgrafendamm 24 (am Ostkreuz) Berlin Deutschland": null,
  "Zwille Fasanenstr. 1 TU Berlin, Südcampus, Z-Gebäude, 3. OG Fasanenstr. 1, Ecke Müller-Breslaustr. 10623 Berlin Deutschland": null,
  "Zwille Fasanenstr. 1a 10623 Berlin Deutschland": null,
  "Zwille Fasanenstr. 1a, 10623 Berlin": null,
@@ -3983,6 +4035,7 @@
   "lng": 13.4296611
  },
  "che, Berlin": null,
+ "ehem. Syndikat Weisestr. 56 12049 Berlin Deutschland": null,
  "es die Möglichkeit zum Austausch und zur Vernetzung gibt, Berlin": null,
  "f.a.q. Jonasstr. 40 12053 Berlin Deutschland": null,
  "f.a.q. Jonasstr. 40 12053, 12053 Berlin": null,
@@ -4008,6 +4061,12 @@
  "near Bethaniendamm berlin berlin": null,
  "near Bethaniendamm berlin berlin Deutschland": null,
  "north-east side of the intersection of Wassersportallee and Adlergestell near the Grunau S-Bahn, Berlin": null,
+ "offline Lichtenrader Str. 49 12049 Berlin Deutschland": {
+  "address": "Lichtenrader Straße 49, 12049 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4765857,
+  "lng": 13.4204865
+ },
  "rag über Stadtteilarbeit und Antifaschismus im \"Sozialen Zentrum Aenne Saefkow\", Berlin": null,
  "rk and antifascism at the “Soziales Zentrum Aenne Saefkow”, Berlin": null,
  "tba, Berlin": {

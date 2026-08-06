@@ -1,7 +1,6 @@
 top-keys: ['website', 'websiteSettings', 'collection', 'shoppingCart', 'shareButtons', 'showCart', 'localizedStrings', 'userAccountsContext', 'template', 'uiextensions', 'empty', 'emptyFolder', 'calendarView', 'pagination', 'upcoming']
-items: 35 | Events: 35
+items: 49 | Events: 49
 erstes item keys: ['id', 'collectionId', 'recordType', 'addedOn', 'updatedOn', 'starred', 'passthrough', 'tags', 'categories', 'workflowState', 'publishOn', 'authorId', 'systemDataId', 'systemDataVariants', 'systemDataSourceType', 'filename', 'mediaFocalPoint', 'colorData', 'urlId', 'title', 'sourceUrl', 'body', 'excerpt', 'location', 'customContent']
-  2026-08-05 09:00:00.936000 | Robins Nest - Jamsession
   2026-08-06 09:00:00.506000 | “Orquesta de Antes” / Argentina
   2026-08-07 09:00:00.506000 | Mauritius meets Columbia
   2026-08-08 09:00:00.506000 | Tempo Havanna
@@ -31,3 +30,4 @@ erstes item keys: ['id', 'collectionId', 'recordType', 'addedOn', 'updatedOn', '
   2026-09-05 09:00:00.506000 | KIND OF BLUE - A TRIBUTE TO MILES DAVIS - Ludwig Hornung Quartett
   2026-09-06 09:00:00.506000 | Jascha Briand Quartet
   2026-09-08 09:00:00.506000 | “Roots and Things”
+  2026-09-09 09:00:00.936000 | Robins Nest - Jamsession

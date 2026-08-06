@@ -1,5 +1,4 @@
 API-Events: 56 | übernommen: 56
-  2026-08-05 19:00:00 | Punk | BLEACH TV (indie-rock/post-punk, hh) & DOGDAZE (shoegaze/post-punk, bln)
   2026-08-06 19:00:00 | Punk | RAGANA + DIS FIG + SPIXE
   2026-08-07 16:45:00 | None | Queer Tours for All - Plänterwald
   2026-08-07 17:00:00 | Punk | Punx n Kweenz Festival
@@ -27,5 +26,6 @@ API-Events: 56 | übernommen: 56
   2026-08-21 19:00:00 | Punk | Greetings From / zhne / Beach Church
   2026-08-23 19:00:00 | None | GENERATION Y PUNK – UPDATE EINER SUBKULTUR: „Von Fanzines, Faschos und der Gen-Y“ + Vortrag „Einfach machen – Wie linke Subkultur durch Selbstbeteiligung lebend
   2026-08-26 19:00:00 | Punk | COUSINES LIKE SHIT (AT) & LIIEK (Bln) & FACE VALUE (Bln)
-  2026-08-28 19:00:00 | Punk | total eggpunk nightmare with BEER (south carolina) & LOVEBOMB (Mannheim)
   2026-08-28 19:00:00 | Indie | Record Release: PAIR (Indie Rock Elektro / Berlin) + WESTHAFEN (Alternative Indie Rock / Berlin)
+  2026-08-28 19:00:00 | Punk | total eggpunk nightmare with BEER (south carolina) & LOVEBOMB (Mannheim)
+  2026-08-29 19:00:00 | Punk | ELENDE LEIBER + MIẞTRÄU

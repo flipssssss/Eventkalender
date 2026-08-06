@@ -391,6 +391,7 @@
   "lng": 13.4024087
  },
  "Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin": null,
+ "Ask a Punk, Berlin": null,
  "Auf Anfrage Auf Anfrage, Berlin": null,
  "Auf Anfrage, Auf Anfrage, Berlin": null,
  "Auguststraße 69, 10117 Berlin": {
@@ -849,6 +850,7 @@
   "lat": 52.5168428,
   "lng": 13.2917601
  },
+ "Citti Punkt e.V., Brüsseler Straße 36 A, 13353 Berlin": null,
  "Cittipunkt e.V., Brüsseler Straße 36 A, 13353 Berlin": null,
  "City Kino Wedding Müllerstraße 74 13349 Berlin Deutschland": null,
  "City-Kino Wedding, Müllerstraße 74 13349 Berlin": null,
@@ -891,6 +893,7 @@
   "lat": 52.5070493,
   "lng": 13.4816684
  },
+ "Crack Bellmer, RAW Gelände, Revaler Straße 99, 10245 Berlin": null,
  "Crellestraße 24, 10827 Berlin": {
   "address": "Crellestraße, 10827 Schöneberg",
   "bezirk": "Tempelhof-Schöneberg",
@@ -2207,6 +2210,12 @@
   "lng": 13.3411312
  },
  "Lichtenberg/askapunk, Berlin": null,
+ "Liebermann-Villa, Colomierstraße 3, 14109, Berlin": {
+  "address": "Colomierstraße 3, 14109 Wannsee",
+  "bezirk": "Steglitz-Zehlendorf",
+  "lat": 52.4287715,
+  "lng": 13.1648881
+ },
  "Liebigstr. 1024, 10247 Berlin": {
   "address": "Liebigstraße, 10247 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -2756,6 +2765,12 @@
   "lat": 52.557391,
   "lng": 13.4600765
  },
+ "Pariser Platz, 10117 Berlin": {
+  "address": "Pariser Platz, Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5163553,
+  "lng": 13.3786828
+ },
  "Park am Gleisdreieck, Möckernstraße 26, 10963 Berlin": null,
  "Peppi Guggenheim, Weichselstrasse 7, 12043, Berlin": {
   "address": "Weichselstraße 7, 12043 Neukölln",
@@ -3041,6 +3056,12 @@
   "bezirk": "Mitte",
   "lat": 52.5266687,
   "lng": 13.4106754
+ },
+ "Rosenthaler Platz, 10119 Berlin": {
+  "address": "Brunnenstraße, 10119 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5298999,
+  "lng": 13.4011206
  },
  "Rosenthaler Str. 13, 10119 Berlin": {
   "address": "Rosenthaler Straße 13, 10119 Mitte",

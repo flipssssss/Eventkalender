@@ -414,6 +414,7 @@
   "lng": 13.451159
  },
  "BAIZ , Schönhauser Allee 26 10435 Berlin": null,
+ "BAIZ Schönhauser Allee 26a 10435 Berlin Deutschland": null,
  "BHT, Raum D E27, Luxemburger Straße 10, 13353 Berlin": null,
  "BHT, Raum D117, Luxemburger Straße 10, 13353 Berlin": null,
  "BLO Ateliers Kaskelstr. 55 10317 Berlin Deutschland": {
@@ -835,6 +836,7 @@
  "Café en passant, Schönhauser Allee 58 10437 Berlin - Prenzlauer Berg": null,
  "Campus Mitte, Humboldt-Universität 10117 Berlin Deutschland": null,
  "Capoeira Akademie Berlin, Hasenheide 9 (im 2. Hinterhof 1.Stock), 10967 Berlin": null,
+ "Casino für Sozialmedizin Sonnenallee 100 12045 Berlin Deutschland": null,
  "Casino für Sozialmedizin, Sonnenallee 100, 12045 Berlin": null,
  "Casinoooo Sonnenallee 100 12045 Berlin Deutschland": null,
  "Chamissoplatz 1, 10965 Berlin": {
@@ -1142,6 +1144,13 @@
   "lat": 52.5549024,
   "lng": 13.3301501
  },
+ "Friedrich-Engels-Strasse 22, 14473 Berlin": {
+  "address": "Friedrich-Engels-Straße 22, 13156 Niederschönhausen",
+  "bezirk": "Pankow",
+  "lat": 52.5817048,
+  "lng": 13.3941482
+ },
+ "Friedrich-Engels-Strasse 22, 14473 Potsdam, Berlin": null,
  "Friedrichstraße 43-45, 10117 Berlin": {
   "address": "Friedrichstraße 43-45, 10969 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -3124,6 +3133,12 @@
  },
  "Rxxxhaus Bethaniendamm Berlin": null,
  "Rxxxhaus, Bethaniendamm Berlin Deutschland": null,
+ "Rütli Campus, Rütlistraße, 12045 Berlin": {
+  "address": "Rütlistraße 41, 12045 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4878456,
+  "lng": 13.4336098
+ },
  "S Gesundbrunnen Berlin Deutschland": {
   "address": "Behmstraße, 13357 Gesundbrunnen",
   "bezirk": "Mitte",

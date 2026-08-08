@@ -1,8 +1,4 @@
 API-Events: 56 | übernommen: 56
-  2026-08-07 16:45:00 | None | Queer Tours for All - Plänterwald
-  2026-08-07 17:00:00 | Punk | Punx n Kweenz Festival
-  2026-08-07 18:30:00 | Punk | Akne Kid Joe (punk, nürnberg) + The Dead End Kids (glitzerpunk) [Schokoladen Hofkonzert]
-  2026-08-07 19:00:00 | Punk | How Great / The River Speaks / Not Tonight
   2026-08-08 18:00:00 | Punk | EA80 [Schokoladen-Hofkonzert]
   2026-08-08 19:00:00 | Metal | PIECE (Psych Doom / Berlin) + GRIN (Doom Sludge / Berlin) + YORE (Doom Metal / Berlin)
   2026-08-08 20:30:00 | Punk | Fleischfressende Pflanzen
@@ -29,3 +25,7 @@ API-Events: 56 | übernommen: 56
   2026-08-28 19:00:00 | Punk | total eggpunk nightmare with BEER (south carolina) & LOVEBOMB (Mannheim)
   2026-08-28 19:00:00 | Indie | Record Release: PAIR (Indie Rock Elektro / Berlin) + WESTHAFEN (Alternative Indie Rock / Berlin)
   2026-08-29 19:00:00 | Punk | ELENDE LEIBER + MIẞTRÄU
+  2026-08-31 19:00:00 | Punk | UNCERTAINTY (Queercore/UK), TENSION (HC-Punk/UK), BITTER JEAN (Hardcore/Berlin)
+  2026-09-02 19:30:00 | Metal | USU pres.: Methadone Skies + Earth Ship | Neue Zukunft - 02.09.2026
+  2026-09-03 19:00:00 | Metal | Smote, Codex Serafini (heavy psych, drone, ritual)
+  2026-09-04 19:00:00 | Metal | Fossilization + Phobocosm + Urza presented by Swamp Conspiracy and DoomShip

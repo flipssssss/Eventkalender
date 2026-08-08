@@ -490,6 +490,12 @@
   "lat": 52.4900117,
   "lng": 13.3886452
  },
+ "Bergmannstraße 29, 10961 Berlin": {
+  "address": "Bergmannstraße 29, 10961 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4888143,
+  "lng": 13.395442
+ },
  "Berlin": {
   "address": "Berlin",
   "bezirk": null,
@@ -1174,6 +1180,12 @@
   "lat": 52.5456853,
   "lng": 13.36649
  },
+ "Gerichtstraße 36, 13347 Berlin": {
+  "address": "Gerichtstraße 36, 13347 Wedding",
+  "bezirk": "Mitte",
+  "lat": 52.5452015,
+  "lng": 13.3661278
+ },
  "Gesundbrunnen Berlin Deutschland": {
   "address": "Gesundbrunnen",
   "bezirk": "Mitte",
@@ -1566,6 +1578,7 @@
   "lng": 13.4713447
  },
  "Jockel Biergarten Ratiborstr. 14c 10999 Berlin Deutschland": null,
+ "Johann-Trollmann-Boxcamp, Bergmannstraße 29, 10961 Berlin": null,
  "John-F. -Kennedy-Platz 1, 10825 Berlin": {
   "address": "John-F.-Kennedy-Platz 1, 10825 Schöneberg",
   "bezirk": "Tempelhof-Schöneberg",
@@ -3710,6 +3723,7 @@
  "U-Bhf Eberswalder Straße, 10437 Berlin": null,
  "U-Bhf Kurfürstenstr Kurfürstenstraße 32 Berlin 10785 10785 Berlin Deutschland": null,
  "U-Bhf Potsdamer Platz, 10117 Berlin": null,
+ "U-Bhf Wilmersdorfer Straße, 10627 Berlin": null,
  "U-Bhf Wittenbergplatz, 10789 Berlin": {
   "address": "Wittenbergplatz, 10789 Schöneberg",
   "bezirk": "Tempelhof-Schöneberg",
@@ -3768,6 +3782,12 @@
   "lng": 13.4731889
  },
  "Villa Kuriosum Scheffelstr. 21 10367, 10367 Berlin": null,
+ "Villa Kuriosum, Scheffelstraße 21, 10367 Berlin": {
+  "address": "Scheffelstraße 21, 10367 Lichtenberg",
+  "bezirk": "Lichtenberg",
+  "lat": 52.5201505,
+  "lng": 13.4731889
+ },
  "Void Club & Hall, Berlin": null,
  "Voigtstr. 36, 10247 Berlin": {
   "address": "Voigtstraße 36, 10247 Friedrichshain",
@@ -3907,6 +3927,12 @@
   "bezirk": "Mitte",
   "lat": 52.5201946,
   "lng": 13.3691292
+ },
+ "Wilmersdorfer Straße 1062, 10627 Berlin": {
+  "address": "Wilmersdorfer Straße, 10627 Charlottenburg",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.506155,
+  "lng": 13.3066933
  },
  "Windscheidstraße 19, 10627 Berlin": {
   "address": "Windscheidstraße 19, 10627 Charlottenburg",
@@ -4052,6 +4078,12 @@
  "ask a punk, Berlin": null,
  "askapunk, Berlin": null,
  "auf dem Dragonerareal Mehringdamm 20 10961, 10961 Berlin": null,
+ "ausland, Lychener Str. 60, 10437, Berlin": {
+  "address": "Lychener Straße 60, 10437 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5448387,
+  "lng": 13.4194785
+ },
  "b-flat, Dircksenstraße 40, 10178, Berlin": {
   "address": "Dircksenstraße 40, 10178 Mitte",
   "bezirk": "Mitte",

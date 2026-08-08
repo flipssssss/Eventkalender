@@ -1,24 +1,5 @@
-event-blocks: 14 | Events: 0
+event-blocks: 13 | Events: 0
 
-<div class="event-block">
- <!-- Zeile 1: Datum + Titel -->
- <div class="event-row-1">
-  <div class="event-time">
-   Freitag, 7. Aug. 22:00
-  </div>
-  <div class="event-title">
-   Discreet Passion
-  </div>
- </div>
- <!-- Zeile 2: Bild + Beschreibung -->
- <div class="event-row-2">
-  <div class="event-image event-image--empty">
-  </div>
- </div>
-</div>
-
-
-----
 <div class="event-block">
  <!-- Zeile 1: Datum + Titel -->
  <div class="event-row-1">
@@ -80,6 +61,25 @@ event-blocks: 14 | Events: 0
   </div>
   <div class="event-description">
    Daniel Wang &amp; Tiger Disco
+  </div>
+ </div>
+</div>
+
+
+----
+<div class="event-block">
+ <!-- Zeile 1: Datum + Titel -->
+ <div class="event-row-1">
+  <div class="event-time">
+   Freitag, 14. Aug. 22:00
+  </div>
+  <div class="event-title">
+   Makode
+  </div>
+ </div>
+ <!-- Zeile 2: Bild + Beschreibung -->
+ <div class="event-row-2">
+  <div class="event-image event-image--empty">
   </div>
  </div>
 </div>

@@ -186,6 +186,7 @@
   "lat": 52.5297369,
   "lng": 13.3971786
  },
+ "Adalbertstraße Ecke Bethaniendamm, 10999 Berlin": null,
  "Admiralstraße 1-2, 10999 Berlin": {
   "address": "Admiralstraße 1-2, 10999 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -567,6 +568,12 @@
  },
  "Bethanien Südflügel Berlin": null,
  "Bethanien Südflügel Berlin Deutschland": null,
+ "Bethaniendamm 1099, 10999 Berlin": {
+  "address": "Bethaniendamm, 10179 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5055117,
+  "lng": 13.4257878
+ },
  "Bethaniendamm, Berlin": {
   "address": "Bethaniendamm, 10179 Mitte",
   "bezirk": "Mitte",
@@ -964,6 +971,12 @@
   "lat": 52.5408562,
   "lng": 13.4057206
  },
+ "Eberswalder Straße 21, 10437 Berlin": {
+  "address": "Eberswalder Straße 21, 10437 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5410003,
+  "lng": 13.4107074
+ },
  "Eberswalder Straße 21, 10437 Prenzlauer Berg, Berlin": {
   "address": "Eberswalder Straße 21, 10437 Prenzlauer Berg",
   "bezirk": "Pankow",
@@ -1162,6 +1175,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5074321,
   "lng": 13.3903814
+ },
+ "Friesenstraße 13, 10965 Berlin": {
+  "address": "Friesenstraße 13, 10965 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4862649,
+  "lng": 13.3942449
  },
  "Frizu Lounge, Berlin": null,
  "GRETCHEN, Obentrautstraße 19-21, 10963, Berlin": null,
@@ -1754,6 +1773,12 @@
   "bezirk": "Treptow-Köpenick",
   "lat": 52.4816459,
   "lng": 13.4668763
+ },
+ "Kaskelstr 55, 10317 Berlin": {
+  "address": "Kaskelstraße 55, 10317 Rummelsburg",
+  "bezirk": "Lichtenberg",
+  "lat": 52.5038714,
+  "lng": 13.4836489
  },
  "Kaskelstraße 55, 10317 Berlin Lichtenberg": {
   "address": "Kaskelstraße 55, 10317 Rummelsburg",
@@ -2620,6 +2645,12 @@
  "Neptunbrunnen, Rathausstraße 1, 10178 Berlin": null,
  "Neue Republik Reger Bouchestraße A 79 12435 Berlin Deutschland": null,
  "Neue Zukunft Alt-Strahlau 68 10245 Berlin Deutschland": null,
+ "Neurotitan Rosenthaler Str. 39 10178 Berlin Deutschland": {
+  "address": "Rosenthaler Straße 39, 10178 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.524436,
+  "lng": 13.401661
+ },
  "New Casa, Wurzener Straße 6, 12627 Berlin": null,
  "New Casa, Wurzener Straße 6-8, 12627 Berlin": null,
  "New Casa, Wurzener Straße 6–8, Hellersdorf 12627 Berlin Deutschland": null,
@@ -3606,6 +3637,7 @@
   "lat": 52.5096204,
   "lng": 13.3539733
  },
+ "Tipsy Bear Berlin, Eberswalder Straße 21, 10437 Berlin": null,
  "Tipsy Bear, Berlin": {
   "address": "Eberswalder Straße 21, 10437 Prenzlauer Berg",
   "bezirk": "Pankow",

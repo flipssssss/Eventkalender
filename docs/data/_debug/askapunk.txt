@@ -1,7 +1,4 @@
-API-Events: 56 | übernommen: 56
-  2026-08-08 18:00:00 | Punk | EA80 [Schokoladen-Hofkonzert]
-  2026-08-08 19:00:00 | Metal | PIECE (Psych Doom / Berlin) + GRIN (Doom Sludge / Berlin) + YORE (Doom Metal / Berlin)
-  2026-08-08 20:30:00 | Punk | Fleischfressende Pflanzen
+API-Events: 53 | übernommen: 53
   2026-08-09 14:45:00 | None | Queer Tours for All - Gay and Sapphic Schöneberg
   2026-08-09 18:00:00 | None | Pleasure Dome: Italo Sneak
   2026-08-09 19:00:00 | Punk | EA80
@@ -29,3 +26,6 @@ API-Events: 56 | übernommen: 56
   2026-09-02 19:30:00 | Metal | USU pres.: Methadone Skies + Earth Ship | Neue Zukunft - 02.09.2026
   2026-09-03 19:00:00 | Metal | Smote, Codex Serafini (heavy psych, drone, ritual)
   2026-09-04 19:00:00 | Metal | Fossilization + Phobocosm + Urza presented by Swamp Conspiracy and DoomShip
+  2026-09-04 19:30:00 | None | SUPER KONSOLEN KNEIPE - Round 1
+  2026-09-05 13:00:00 | Punk | Le Désordre C'est Moi Festival
+  2026-09-05 17:00:00 | None | Tiergarten Maleficium

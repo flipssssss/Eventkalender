@@ -1,28 +1,5 @@
-event-blocks: 13 | Events: 0
+event-blocks: 12 | Events: 0
 
-<div class="event-block">
- <!-- Zeile 1: Datum + Titel -->
- <div class="event-row-1">
-  <div class="event-time">
-   Samstag, 8. Aug. 21:30
-  </div>
-  <div class="event-title">
-   Norbert und Magnus - das blaue Wunder
-  </div>
- </div>
- <!-- Zeile 2: Bild + Beschreibung -->
- <div class="event-row-2">
-  <div class="event-image">
-   <img alt="" src="ProgrammFotos/Norbert_und_Magnus_das_blaue_Wunder_2026_08_08.jpg"/>
-  </div>
-  <div class="event-description">
-   ---motown---beat---schlager------this is the original 7" madness---vinyl only!
-  </div>
- </div>
-</div>
-
-
-----
 <div class="event-block">
  <!-- Zeile 1: Datum + Titel -->
  <div class="event-row-1">
@@ -80,6 +57,29 @@ event-blocks: 13 | Events: 0
  <!-- Zeile 2: Bild + Beschreibung -->
  <div class="event-row-2">
   <div class="event-image event-image--empty">
+  </div>
+ </div>
+</div>
+
+
+----
+<div class="event-block">
+ <!-- Zeile 1: Datum + Titel -->
+ <div class="event-row-1">
+  <div class="event-time">
+   Samstag, 15. Aug. 21:30
+  </div>
+  <div class="event-title">
+   Steve Morell
+  </div>
+ </div>
+ <!-- Zeile 2: Bild + Beschreibung -->
+ <div class="event-row-2">
+  <div class="event-image">
+   <img alt="" src="ProgrammFotos/Steve_Morell_2026_08_15.jpg"/>
+  </div>
+  <div class="event-description">
+   plays one of his unforgettable sets --- welcome back at olfe
   </div>
  </div>
 </div>

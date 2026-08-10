@@ -1,8 +1,8 @@
 Events: 7
-  2026-08-08 17:00:00 | Saturday Infusions
   2026-08-09 17:00:00 | Sunday Infusions
   2026-08-10 17:00:00 | Closed for renovation
   2026-08-12 17:00:00 | Wednesday Infusions
   2026-08-13 17:00:00 | Wellness Evening
   2026-08-14 17:00:00 | Friday Infusions
   2026-08-15 17:00:00 | Saturday Infusions
+  2026-08-16 17:00:00 | Sunday Infusions

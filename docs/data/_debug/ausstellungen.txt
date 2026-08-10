@@ -1,27 +1,27 @@
 ExhibitionEvents -> Events: 28
-  2026-08-09 Lina Lapelytė: We Make Years Out of Hours – Chanel
-  2026-08-09 Bjørn Melhus: Lost in Finity
-  2026-08-09 Paul Signac: Symphonie der Farben
-  2026-08-09 Marc Brandenburg: 20th Century Debris
-  2026-08-09 Gabriele Stötzer: Dabei sein und nicht schweigen
-  2026-08-09 Ruin und Rausch: Berlin 1910–1930
-  2026-08-09 Materialistin: Matter of Care, Care of Matter
-  2026-08-09 Cassirer und der Durchbruch des Impressionismus
-  2026-08-09 Wo ich wohne
-  2026-08-09 Giulia Andreani: Sabotage
-  2026-08-09 C.B. Evans: Reality or Not
-  2026-08-09 Neue Frau, Neues Sehen: Die Bauhaus-Fotografinnen
-  2026-08-09 Inventing Queer Cinema
-  2026-08-09 Walter Schels: 16° Fische – Retrospektive
-  2026-08-09 Kyiv Biennial: A Bird That Cannot Land
-  2026-08-09 Shilpa Gupta: What Still Holds
-  2026-08-09 Fujiko Nakaya: Nebelskulptur im Skulpturengarten
-  2026-08-09 Iván Argote: A Place To Stay
-  2026-08-09 Anton Corbijn: Corbijn, Anton
-  2026-08-09 Rooms / Stages
-  2026-08-09 Many Shades of Grès: Mode wird Kunst
-  2026-08-09 Seeing Words, Reading Images – Die Written Art Col
-  2026-08-09 Everybody
+  2026-08-10 Lina Lapelytė: We Make Years Out of Hours – Chanel
+  2026-08-10 Bjørn Melhus: Lost in Finity
+  2026-08-10 Paul Signac: Symphonie der Farben
+  2026-08-10 Marc Brandenburg: 20th Century Debris
+  2026-08-10 Gabriele Stötzer: Dabei sein und nicht schweigen
+  2026-08-10 Ruin und Rausch: Berlin 1910–1930
+  2026-08-10 Materialistin: Matter of Care, Care of Matter
+  2026-08-10 Cassirer und der Durchbruch des Impressionismus
+  2026-08-10 Wo ich wohne
+  2026-08-10 Giulia Andreani: Sabotage
+  2026-08-10 C.B. Evans: Reality or Not
+  2026-08-10 Neue Frau, Neues Sehen: Die Bauhaus-Fotografinnen
+  2026-08-10 Inventing Queer Cinema
+  2026-08-10 Walter Schels: 16° Fische – Retrospektive
+  2026-08-10 Kyiv Biennial: A Bird That Cannot Land
+  2026-08-10 Shilpa Gupta: What Still Holds
+  2026-08-10 Fujiko Nakaya: Nebelskulptur im Skulpturengarten
+  2026-08-10 Iván Argote: A Place To Stay
+  2026-08-10 Anton Corbijn: Corbijn, Anton
+  2026-08-10 Rooms / Stages
+  2026-08-10 Many Shades of Grès: Mode wird Kunst
+  2026-08-10 Seeing Words, Reading Images – Die Written Art Col
+  2026-08-10 Everybody
   2026-09-10 Jean-Luc Mylayne: Reflection
   2026-09-09 Maurizio Cattelan: Night – Preis der Nationalgaler
   2026-09-16 Die Magie der Straße

@@ -1,7 +1,4 @@
-API-Events: 53 | übernommen: 53
-  2026-08-09 14:45:00 | None | Queer Tours for All - Gay and Sapphic Schöneberg
-  2026-08-09 18:00:00 | None | Pleasure Dome: Italo Sneak
-  2026-08-09 19:00:00 | Punk | EA80
+API-Events: 50 | übernommen: 50
   2026-08-11 18:45:00 | None | Queer Tours for All - Queer Kreuzberg
   2026-08-12 20:00:00 | Metal | King Howl + Stoned Medusa // Neue Zukunft
   2026-08-13 21:00:00 | Metal | Ploutonion + Temora
@@ -29,3 +26,6 @@ API-Events: 53 | übernommen: 53
   2026-09-04 19:30:00 | None | SUPER KONSOLEN KNEIPE - Round 1
   2026-09-05 13:00:00 | Punk | Le Désordre C'est Moi Festival
   2026-09-05 17:00:00 | None | Tiergarten Maleficium
+  2026-09-05 19:00:00 | Punk | ANCST | SVDESTADA | MARNÖ | BRÜD
+  2026-09-07 19:00:00 | None | Giöbia // B.L.O. Kantine Berlin (support: Icarus Burns)
+  2026-09-08 19:00:00 | Punk | GEOGRAPHY OF THE MOON (diy post-punk psych-wave duo) + SEND ME LOVE LETTERS (indie-rock, fr)

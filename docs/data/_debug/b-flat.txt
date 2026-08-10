@@ -1,7 +1,6 @@
 top-keys: ['website', 'websiteSettings', 'collection', 'shoppingCart', 'shareButtons', 'showCart', 'localizedStrings', 'userAccountsContext', 'template', 'uiextensions', 'empty', 'emptyFolder', 'calendarView', 'pagination', 'upcoming']
-items: 46 | Events: 46
+items: 45 | Events: 45
 erstes item keys: ['id', 'collectionId', 'recordType', 'addedOn', 'updatedOn', 'starred', 'passthrough', 'tags', 'categories', 'workflowState', 'publishOn', 'authorId', 'systemDataId', 'systemDataVariants', 'systemDataSourceType', 'filename', 'mediaFocalPoint', 'colorData', 'urlId', 'title', 'sourceUrl', 'body', 'excerpt', 'location', 'customContent']
-  2026-08-09 09:00:00.506000 | Mate Cocido Group
   2026-08-11 09:00:00.506000 | Juan Borgatti Quintett&nbsp;
   2026-08-12 09:00:00.936000 | Robins Nest - Jamsession
   2026-08-13 09:00:00.506000 | Gal Liraz Quartett
@@ -31,3 +30,4 @@ erstes item keys: ['id', 'collectionId', 'recordType', 'addedOn', 'updatedOn', '
   2026-09-10 09:00:00.506000 | Raumschiff JAZZ
   2026-09-11 09:00:00.506000 | Maxim‘s Retrospective
   2026-09-12 09:00:00.506000 | Rolf Zielke – Trio feat. Mathilde Vendramin – voc / cello
+  2026-09-13 09:00:00.506000 | A Tribute to Carmen McRae &amp; Betty Carter

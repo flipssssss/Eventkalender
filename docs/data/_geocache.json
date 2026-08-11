@@ -42,6 +42,12 @@
   "lat": 52.5088608,
   "lng": 13.3273465
  },
+ "10777 Berlin": {
+  "address": "10777 Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4974716,
+  "lng": 13.3427239
+ },
  "10783 Berlin": {
   "address": "10783 Schöneberg",
   "bezirk": "Tempelhof-Schöneberg",
@@ -849,6 +855,7 @@
  "Café en passant, Schönhauser Allee 58 10437 Berlin - Prenzlauer Berg": null,
  "Campus Mitte, Humboldt-Universität 10117 Berlin Deutschland": null,
  "Capoeira Akademie Berlin, Hasenheide 9 (im 2. Hinterhof 1.Stock), 10967 Berlin": null,
+ "Casakua, Naunynstraße 72, 10997 Berlin": null,
  "Casino für Sozialmedizin Sonnenallee 100 12045 Berlin Deutschland": null,
  "Casino für Sozialmedizin, Sonnenallee 100, 12045 Berlin": null,
  "Casinoooo Sonnenallee 100 12045 Berlin Deutschland": null,
@@ -2544,6 +2551,12 @@
  "Mellowpark An der Wuhlheide 250-256 (Schöneweide) Berlin Deutschland": null,
  "Mellowpark, 12459 Berlin": null,
  "Metis Books and Café, Berlin": null,
+ "Metropol, Nollendorfplatz 5, Berlin, 10777": {
+  "address": "Nollendorfplatz 5, 10777 Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4989399,
+  "lng": 13.3527048
+ },
  "MieterClub Neue Christstr. 8 14059 Berlin Deutschland": null,
  "Mieterladen Kreutzigerstr. 23 10247 Berlin Deutschland": {
   "address": "Kreutzigerstraße 23, 10247 Friedrichshain",
@@ -2625,6 +2638,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.501549,
   "lng": 13.4225232
+ },
+ "Naunynstraße 72, 10997 Berlin": {
+  "address": "Naunynstraße 72, 10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5012518,
+  "lng": 13.4228971
  },
  "Naunystrasse 72, 10997 Berlin": null,
  "Neckarstr. 19 12053 Berlin Deutschland": {
@@ -3569,6 +3588,7 @@
   "lat": 52.5137508,
   "lng": 13.3234541
  },
+ "Street fair location, Fuggerstraße / Welserstraße, Berlin, 10777, Germany": null,
  "Subversiv Brunnenstr. 7 HH 10119 Berlin Deutschland": null,
  "Supamolly Jessnerstr. 41 10247 Berlin Deutschland": {
   "address": "Jessnerstraße 41, 10247 Friedrichshain",
@@ -3683,12 +3703,14 @@
  },
  "Treffpunkt Regenbogen Lynarstr. 9 13585 Berlin Deutschland": null,
  "Treffpunkt: S- und U-Bhf Wedding, Berlin": null,
+ "Treptower Park @beitrag.auslauf.erfolge, Berlin": null,
  "Treptower Park Berlin Deutschland": {
   "address": "12435 Treptow-Köpenick",
   "bezirk": "Treptow-Köpenick",
   "lat": 52.4884438,
   "lng": 13.4703145
  },
+ "Treptower Park, @beitrag.auslauf.erfolge, Berlin": null,
  "Treptower Park, Bus-Haltestelle Klingerstraße, 12435 Berlin": null,
  "Treptower Str. 39, 12059 Berlin": {
   "address": "Treptower Straße 39, 12059 Neukölln",

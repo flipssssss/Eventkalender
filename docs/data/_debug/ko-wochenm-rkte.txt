@@ -1,10 +1,9 @@
 teaser: 16
 dated: 1
-detail_ok: 11
-detail_err: 1
-recur: 11
+detail_ok: 12
+detail_err: 0
+recur: 12
 no_geo: 3
 geo: 28
-events: 66
+events: 73
 FEHLER:
-DETAIL 429 Client Error: Too Many Requests for url: https://www.berlin.de/special/shopping/biomarkt/6308913-1925662-brandenburger-bauernmarkt-auf-dem-witten.html

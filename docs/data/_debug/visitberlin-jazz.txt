@@ -1,7 +1,6 @@
-Event-Links: 21 | Events: 21
+Event-Links: 21 | Events: 20
   2026-07-04 17:00:00 | Krankenhauskirche im Wuhlgarten, Brebacher Weg 15, 12683, Berlin | ZERBRECHLICHE SCHÖNHEIT - Marita Czepa
   2026-07-07 19:00:00 | Globe Berlin, Sömmeringstraße 15, 10589, Berlin | The Swingin' Hermlins
-  2026-08-11 19:00:00 | Liebermann-Villa, Colomierstraße 3, 14109, Berlin | „Zwischen Welten“ – Anna Margolina Trio
   2026-07-21 19:30:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Die Rickenbackers Session
   2026-08-11 20:30:00 | A-Trane Jazzclub, Pestalozzistraße 105, 10625, Berlin | Jazz-Saxophonist TOBIAS MEINHART
   2026-08-12 20:00:00 | Brotfabrik, Caligariplatz 1, 13086, Berlin | Hot and Free. The Hot Jazz Club of Berlin.

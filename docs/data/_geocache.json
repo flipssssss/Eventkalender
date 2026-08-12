@@ -192,6 +192,12 @@
   "lat": 52.5297369,
   "lng": 13.3971786
  },
+ "Adalbertstraße 69, 10997 Berlin": {
+  "address": "Adalbertstraße, 10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5019589,
+  "lng": 13.4197709
+ },
  "Adalbertstraße Ecke Bethaniendamm, 10999 Berlin": null,
  "Admiralstraße 1-2, 10999 Berlin": {
   "address": "Admiralstraße 1-2, 10999 Kreuzberg",
@@ -575,6 +581,12 @@
  "Bethanien Südflügel Berlin": null,
  "Bethanien Südflügel Berlin Deutschland": null,
  "Bethaniendamm 1099, 10999 Berlin": {
+  "address": "Bethaniendamm, 10179 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5055117,
+  "lng": 13.4257878
+ },
+ "Bethaniendamm 26, Berlin": {
   "address": "Bethaniendamm, 10179 Mitte",
   "bezirk": "Mitte",
   "lat": 52.5055117,
@@ -1129,6 +1141,18 @@
   "lng": 13.4619369
  },
  "Fischladen Rigaerstr. 83 10247, 10247 Berlin": null,
+ "Flemmingstrasse 14B, 12163 Berlin": {
+  "address": "Flemmingstraße 14b, 12163 Steglitz",
+  "bezirk": "Steglitz-Zehlendorf",
+  "lat": 52.4632355,
+  "lng": 13.3134329
+ },
+ "Flemmingstraße 14 B, Berlin": {
+  "address": "Flemmingstraße 14b, 12163 Steglitz",
+  "bezirk": "Steglitz-Zehlendorf",
+  "lat": 52.4632355,
+  "lng": 13.3134329
+ },
  "Florastraße 16, 13187 Berlin": {
   "address": "Florastraße 16, 13187 Pankow",
   "bezirk": "Pankow",
@@ -1515,6 +1539,7 @@
   "lng": 13.4286199
  },
  "Horte (Strausberg) Peter-Göring-Str. 25, Strausberg Berlin Deutschland": null,
+ "Hotel Berlin, Berlin, Lützowplatz 17, Berlin, 10785": null,
  "Humboldt Forum, Berlin": {
   "address": "Schloßplatz, 10178 Mitte",
   "bezirk": "Mitte",
@@ -1582,6 +1607,8 @@
   "lat": 52.5447527,
   "lng": 13.5775261
  },
+ "JFE Flemmingstraße Flemmingstraße 14 B Berlin Deutschland": null,
+ "JFE Flämmingstraße, Flemmingstrasse 14B, 12163 Berlin": null,
  "JUP Florastr. 84 13187 Berlin Deutschland": {
   "address": "Florastraße 84, 13187 Pankow",
   "bezirk": "Pankow",
@@ -1773,6 +1800,12 @@
   "bezirk": "Neukölln",
   "lat": 52.4638354,
   "lng": 13.4437381
+ },
+ "Karl-Marx-Straße 83, 12043 Berlin": {
+  "address": "Karl-Marx-Straße 83, 12043 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4815752,
+  "lng": 13.4358354
  },
  "Karpfenteichstr. 13 12435, 12435 Berlin": null,
  "Karpfenteichstr. 13, 12435 Berlin": {
@@ -2381,6 +2414,12 @@
   "lat": 52.5489919,
   "lng": 13.2074834
  },
+ "Lützowplatz 17, 10785 Berlin": {
+  "address": "Lützowplatz 17, 10785 Tiergarten",
+  "bezirk": "Mitte",
+  "lat": 52.5036649,
+  "lng": 13.3516814
+ },
  "Lützowstraße 28, 10785 Berlin": {
   "address": "Lützowstraße 28, 10785 Tiergarten",
   "bezirk": "Mitte",
@@ -2970,6 +3009,7 @@
   "lat": 52.5103673,
   "lng": 13.4286199
  },
+ "Rathaus Neukölln, Karl-Marx-Straße 83, 12043 Berlin": null,
  "Rathaus Schöneberg, John-F.-Kennedy-Platz 1, 10825 Berlin": {
   "address": "John-F.-Kennedy-Platz 1, 10825 Schöneberg",
   "bezirk": "Tempelhof-Schöneberg",
@@ -3397,6 +3437,7 @@
   "lng": 13.3194006
  },
  "Schwarze Risse Gneisenaustr. 2a 10961 Berlin Deutschland": null,
+ "Schwester Martha Bethaniendamm 26 Berlin Deutschland": null,
  "Schöneicher Straße 1, 12587 Berlin": {
   "address": "Schöneicher Straße 1, 12587 Friedrichshagen",
   "bezirk": "Treptow-Köpenick",
@@ -3869,6 +3910,7 @@
  "WB13, Am Berl 13, 13051 Berlin": null,
  "Wagenburg Lohmühle Lohmühlenstr. 17 12435 Berlin Deutschland": null,
  "Wagenburg Lohmühle Lohmühlenstr. 17 12435, 12435 Berlin": null,
+ "Wagenplatz Kinderbauenhof Adalbertstraße 69, 10997 Berlin Deutschland": null,
  "Wagenplatz Scheffel 21 Berlin": null,
  "Wagenplatz Scheffel 21 Berlin Deutschland": null,
  "Waldemarstraße 110, Berlin": {

@@ -1,37 +1,31 @@
-Tage: 30 | Events (vor Dedup): 0 | mit Venue: 0
-== PROXY-PROBE ==
-jina-html: HTTP 200 len=120547 SAPPER=True events=True startsAt=True blocked403=False | <html lang="de"> <head> <meta charset="utf-8"> <meta content="width=device-width,initial-scale=1" na
-allorigins: HTTP 522 len=7258 SAPPER=False events=False startsAt=False blocked403=False | <!DOCTYPE html> <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]--> <!--[if I
-codetabs: HTTP 522 len=7246 SAPPER=False events=False startsAt=False blocked403=False | <!DOCTYPE html> <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]--> <!--[if I
-corsproxy: HTTP 403 len=103 SAPPER=False events=False startsAt=False blocked403=False | {"error":"Server-side requests are not allowed on your plan. Upgrade at https://corsproxy.io/pricing
-thingproxy: FEHLER HTTPSConnectionPool(host='thingproxy.freeboard.io', port=443): Max retries exceeded with url: /fetch/https://www.siegessaeule.de/en/events/?date=2026-08-13 (Caused by NameResolutionError("HTTPSConnection(host='thingproxy.freeboard.io', port=443): Failed to resolve 'thingproxy.freeboard.io' ([Errno -2] Name or service not known)"))
-2026-08-13: 0 Events
-2026-08-14: 0 Events
-2026-08-15: 0 Events
-2026-08-16: 0 Events
-2026-08-17: 0 Events
-2026-08-18: 0 Events
-2026-08-19: 0 Events
-2026-08-20: 0 Events
-2026-08-21: 0 Events
-2026-08-22: 0 Events
-2026-08-23: 0 Events
-2026-08-24: 0 Events
-2026-08-25: 0 Events
-2026-08-26: 0 Events
-2026-08-27: 0 Events
-2026-08-28: 0 Events
-2026-08-29: 0 Events
-2026-08-30: 0 Events
-2026-08-31: 0 Events
-2026-09-01: 0 Events
-2026-09-02: 0 Events
-2026-09-03: 0 Events
-2026-09-04: 0 Events
-2026-09-05: 0 Events
-2026-09-06: 0 Events
-2026-09-07: 0 Events
-2026-09-08: 0 Events
-2026-09-09: 0 Events
-2026-09-10: 0 Events
-2026-09-11: 0 Events
+Tage: 30 | Events (vor Dedup): 0 | mit Venue: 0 | via r.jina.ai
+2026-08-13: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-08-13
+2026-08-14: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-08-14
+2026-08-15: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-08-15
+2026-08-16: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-08-16
+2026-08-17: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-08-17
+2026-08-18: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-08-18
+2026-08-19: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-08-19
+2026-08-20: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-08-20
+2026-08-21: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-08-21
+2026-08-22: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-08-22
+2026-08-23: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-08-23
+2026-08-24: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-08-24
+2026-08-25: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-08-25
+2026-08-26: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-08-26
+2026-08-27: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-08-27
+2026-08-28: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-08-28
+2026-08-29: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-08-29
+2026-08-30: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-08-30
+2026-08-31: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-08-31
+2026-09-01: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-09-01
+2026-09-02: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-09-02
+2026-09-03: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-09-03
+2026-09-04: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-09-04
+2026-09-05: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-09-05
+2026-09-06: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-09-06
+2026-09-07: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-09-07
+2026-09-08: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-09-08
+2026-09-09: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-09-09
+2026-09-10: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-09-10
+2026-09-11: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-09-11

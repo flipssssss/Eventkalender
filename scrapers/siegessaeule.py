@@ -5,6 +5,13 @@ The events page is a Sapper/Apollo app that embeds its data in a
 slug, image) appear as literal strings, so we read the next ``days`` days
 via the ``?date=YYYY-MM-DD`` pages, pull the events out of the embedded
 data and auto-categorise each one from its title/info/tags.
+
+Seit 2026 sperrt siegessaeule.de Rechenzentrums-IPs (u.a. die GitHub-Actions-
+Runner) pauschal mit HTTP 403 -- selbst die Startseite. Ein Header- oder
+Pfad-Workaround gibt es nicht. Wir holen die Seiten deshalb über den
+Read-Proxy ``r.jina.ai`` (ruft die URL von einer anderen IP ab und liefert
+das echte, server-gerenderte HTML samt ``__SAPPER__``-Preload zurück). Der
+Parser bleibt unverändert -- er bekommt exakt denselben HTML.
 """
 
 from __future__ import annotations
@@ -12,10 +19,10 @@ from __future__ import annotations
 import datetime as _dt
 import pathlib
 import re
+import time as _time
 from typing import Iterable
 
 import requests
-from urllib.parse import quote as _quote
 
 from .base import BaseScraper, Event, parse_datetime
 from .categories import categorize
@@ -23,6 +30,14 @@ from .categories import categorize
 BASE = "https://www.siegessaeule.de/en/events/"
 DETAIL = "https://www.siegessaeule.de/en/events/{slug}/"
 DEBUG_DIR = pathlib.Path(__file__).resolve().parents[1] / "docs" / "data" / "_debug"
+
+# Read-Proxy, der die (für CI-IPs 403-gesperrte) Seite von anderer IP holt.
+JINA_PREFIX = "https://r.jina.ai/"
+# ``x-return-format: html`` liefert das rohe HTML (nicht Markdown), damit der
+# __SAPPER__-Preload mit den Event-Daten erhalten bleibt.
+JINA_HEADERS = {"x-return-format": "html", "x-respond-with": "html"}
+# Höflichkeits-Abstand zwischen Proxy-Abrufen (Jina drosselt ohne Key ~20/min).
+JINA_MIN_GAP = 2.0
 
 BROWSER_HEADERS = {
     "User-Agent": (
@@ -74,14 +89,10 @@ class SiegessaeuleScraper(BaseScraper):
         events: list[Event] = []
         report: list[str] = []
 
-        probe = self._probe(session, today) if self.write_debug else ""
         for offset in range(self.days):
             day = today + _dt.timedelta(days=offset)
-            url = f"{BASE}?date={day.isoformat()}"
             try:
-                response = session.get(url, timeout=25)
-                response.encoding = "utf-8"
-                html = response.text
+                html = self._fetch_day(session, day, offset)
                 found = self._parse(html)
             except Exception as exc:  # noqa: BLE001
                 report.append(f"{day}: FEHLER {exc}")
@@ -93,44 +104,38 @@ class SiegessaeuleScraper(BaseScraper):
             located = sum(1 for e in events if e.location)
             self._dump_debug(
                 f"Tage: {self.days} | Events (vor Dedup): {len(events)} "
-                f"| mit Venue: {located}\n" + probe
+                f"| mit Venue: {located} | via r.jina.ai\n"
                 + "\n".join(report)
             )
         return events
 
-    def _probe(self, session, today) -> str:
-        """One-shot Proxy-Diagnose: die Domain sperrt Rechenzentrums-IPs pauschal
-        mit 403. Hier testen wir mehrere öffentliche Read-Proxys (holen die Seite
-        von einer anderen IP), um zu sehen, ob einer den echten Sapper-HTML mit
-        ``eventsAndAdsForDate`` zurückliefert. Der Gewinner wird dann fest
-        eingebaut."""
-        target = f"https://www.siegessaeule.de/en/events/?date={today.isoformat()}"
-        q = _quote(target, safe="")
-        proxies = [
-            ("jina-html", f"https://r.jina.ai/{target}",
-             {"x-return-format": "html", "x-respond-with": "html"}),
-            ("allorigins", f"https://api.allorigins.win/raw?url={q}", None),
-            ("codetabs", f"https://api.codetabs.com/v1/proxy/?quest={target}", None),
-            ("corsproxy", f"https://corsproxy.io/?url={q}", None),
-            ("thingproxy", f"https://thingproxy.freeboard.io/fetch/{target}", None),
-        ]
-        lines = ["== PROXY-PROBE =="]
-        for label, url, hdr in proxies:
-            try:
-                r = requests.get(url, headers=hdr, timeout=40, allow_redirects=True)
-                txt = r.text or ""
-                has_sapper = "__SAPPER__" in txt
-                has_events = "eventsAndAdsForDate" in txt
-                has_starts = "startsAt" in txt
-                is403 = "<title>403</title>" in txt or "403 Forbidden" in txt
-                snippet = txt[:100].replace("\n", " ")
-                lines.append(
-                    f"{label}: HTTP {r.status_code} len={len(txt)} "
-                    f"SAPPER={has_sapper} events={has_events} startsAt={has_starts} "
-                    f"blocked403={is403} | {snippet}")
-            except Exception as exc:  # noqa: BLE001
-                lines.append(f"{label}: FEHLER {exc}")
-        return "\n".join(lines) + "\n"
+    def _fetch_day(self, session, day, offset) -> str:
+        """Hole die Tagesseite über den Read-Proxy (siehe Modul-Docstring).
+
+        Direktzugriff ist für CI-IPs pauschal 403-gesperrt; ``r.jina.ai`` ruft
+        die Seite von anderer IP ab und gibt das echte Sapper-HTML zurück.
+        Wir drosseln höflich und wiederholen bei 429/5xx.
+        """
+        target = f"{BASE}?date={day.isoformat()}"
+        url = JINA_PREFIX + target
+        if offset > 0:
+            _time.sleep(JINA_MIN_GAP)  # Jina drosselt ohne Key (~20/min)
+        last_status = None
+        for attempt in range(3):
+            response = session.get(url, headers=JINA_HEADERS, timeout=45)
+            last_status = response.status_code
+            if response.status_code in (429, 502, 503) and attempt < 2:
+                retry_after = response.headers.get("Retry-After")
+                try:
+                    wait = float(retry_after)
+                except (TypeError, ValueError):
+                    wait = 5.0 * (attempt + 1)
+                _time.sleep(min(wait, 20))
+                continue
+            response.raise_for_status()
+            response.encoding = "utf-8"
+            return response.text
+        raise RuntimeError(f"Proxy-Status {last_status}")
 
     # -- parsing ---------------------------------------------------------
 

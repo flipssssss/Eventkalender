@@ -73,7 +73,7 @@ class SiegessaeuleScraper(BaseScraper):
         events: list[Event] = []
         report: list[str] = []
 
-        diag = ""
+        probe = self._probe(session, today) if self.write_debug else ""
         for offset in range(self.days):
             day = today + _dt.timedelta(days=offset)
             url = f"{BASE}?date={day.isoformat()}"
@@ -81,17 +81,6 @@ class SiegessaeuleScraper(BaseScraper):
                 response = session.get(url, timeout=25)
                 response.encoding = "utf-8"
                 html = response.text
-                if offset == 0:
-                    diag = ("DIAG erste Seite: HTTP %s | len=%d | __SAPPER__=%s | "
-                            "eventsAndAdsForDate=%s | startsAt=%s | ld+json=%s | "
-                            "nuxt=%s | __NEXT=%s\n" % (
-                                response.status_code, len(html),
-                                "__SAPPER__" in html,
-                                "eventsAndAdsForDate" in html,
-                                "startsAt" in html,
-                                "application/ld+json" in html,
-                                "__NUXT__" in html or "nuxt" in html.lower(),
-                                "__NEXT_DATA__" in html))
                 found = self._parse(html)
             except Exception as exc:  # noqa: BLE001
                 report.append(f"{day}: FEHLER {exc}")
@@ -103,10 +92,54 @@ class SiegessaeuleScraper(BaseScraper):
             located = sum(1 for e in events if e.location)
             self._dump_debug(
                 f"Tage: {self.days} | Events (vor Dedup): {len(events)} "
-                f"| mit Venue: {located}\n" + diag
+                f"| mit Venue: {located}\n" + probe
                 + "\n".join(report)
             )
         return events
+
+    def _probe(self, session, today) -> str:
+        """One-shot Zugriffs-Diagnose: verschiedene URLs/Header testen und
+        Status + Server-Header + Body-Anfang protokollieren, um einen 403
+        (IP-/WAF-Block der ganzen Domain vs. nur ein Pfad) einzugrenzen."""
+        full_headers = {
+            "User-Agent": BROWSER_HEADERS["User-Agent"],
+            "Accept": ("text/html,application/xhtml+xml,application/xml;"
+                       "q=0.9,image/avif,image/webp,*/*;q=0.8"),
+            "Accept-Language": "de-DE,de;q=0.9,en;q=0.8",
+            "Sec-Fetch-Dest": "document",
+            "Sec-Fetch-Mode": "navigate",
+            "Sec-Fetch-Site": "none",
+            "Sec-Fetch-User": "?1",
+            "Upgrade-Insecure-Requests": "1",
+            "Cache-Control": "no-cache",
+        }
+        d = today.isoformat()
+        cases = [
+            ("A home BROWSER", "https://www.siegessaeule.de/", None),
+            ("B en/events BROWSER", "https://www.siegessaeule.de/en/events/", None),
+            ("C events BROWSER", "https://www.siegessaeule.de/events/", None),
+            ("D en/events?date FULL", f"https://www.siegessaeule.de/en/events/?date={d}", full_headers),
+            ("E events?date FULL", f"https://www.siegessaeule.de/events/?date={d}", full_headers),
+        ]
+        lines = ["== ZUGRIFFS-PROBE =="]
+        for label, url, hdr in cases:
+            try:
+                r = session.get(url, headers=hdr, timeout=25, allow_redirects=True)
+                body = (r.text or "")[:120].replace("\n", " ")
+                srv = r.headers.get("Server", "?")
+                cf = r.headers.get("CF-RAY", "")
+                markers = "SAPPER" if "__SAPPER__" in r.text else (
+                    "eventsAndAdsForDate" if "eventsAndAdsForDate" in r.text else (
+                        "ld+json" if "application/ld+json" in r.text else (
+                            "NEXT" if "__NEXT_DATA__" in r.text else (
+                                "NUXT" if "__nuxt" in r.text.lower() else "?"))))
+                lines.append(
+                    f"{label}: HTTP {r.status_code} len={len(r.text)} "
+                    f"final={r.url} Server={srv} CF-RAY={'y' if cf else 'n'} "
+                    f"data={markers} | {body}")
+            except Exception as exc:  # noqa: BLE001
+                lines.append(f"{label}: FEHLER {exc}")
+        return "\n".join(lines) + "\n"
 
     # -- parsing ---------------------------------------------------------
 

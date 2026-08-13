@@ -1,5 +1,5 @@
-Vorstellungen gesamt: 302 | Filmbilder: 284
-Sputnik: 50 Vorstellungen
+Vorstellungen gesamt: 252 | Filmbilder: 237
+Sputnik: FEHLER 429 Client Error: Too Many Requests for url: https://www.berlin.de/kino/_bin/kinodetail.php/31975
 Lichtblick: 15 Vorstellungen
 Kino Zukunft: 23 Vorstellungen
 Ladenkino: 153 Vorstellungen

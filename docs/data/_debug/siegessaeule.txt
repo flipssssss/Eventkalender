@@ -1,5 +1,10 @@
 Tage: 30 | Events (vor Dedup): 0 | mit Venue: 0
-DIAG erste Seite: HTTP 403 | len=134 | __SAPPER__=False | eventsAndAdsForDate=False | startsAt=False | ld+json=False | nuxt=False | __NEXT=False
+== ZUGRIFFS-PROBE ==
+A home BROWSER: HTTP 403 len=134 final=https://www.siegessaeule.de/ Server=? CF-RAY=n data=? | <!doctype html><meta charset="utf-8"><meta name=viewport content="width=device-width, initial-scale=1"><title>403</title
+B en/events BROWSER: HTTP 403 len=134 final=https://www.siegessaeule.de/en/events/ Server=? CF-RAY=n data=? | <!doctype html><meta charset="utf-8"><meta name=viewport content="width=device-width, initial-scale=1"><title>403</title
+C events BROWSER: HTTP 403 len=134 final=https://www.siegessaeule.de/events/ Server=? CF-RAY=n data=? | <!doctype html><meta charset="utf-8"><meta name=viewport content="width=device-width, initial-scale=1"><title>403</title
+D en/events?date FULL: HTTP 403 len=134 final=https://www.siegessaeule.de/en/events/?date=2026-08-13 Server=? CF-RAY=n data=? | <!doctype html><meta charset="utf-8"><meta name=viewport content="width=device-width, initial-scale=1"><title>403</title
+E events?date FULL: HTTP 403 len=134 final=https://www.siegessaeule.de/events/?date=2026-08-13 Server=? CF-RAY=n data=? | <!doctype html><meta charset="utf-8"><meta name=viewport content="width=device-width, initial-scale=1"><title>403</title
 2026-08-13: 0 Events
 2026-08-14: 0 Events
 2026-08-15: 0 Events

@@ -1,5 +1,4 @@
-API-Events: 52 | übernommen: 52
-  2026-08-12 20:00:00 | Metal | King Howl + Stoned Medusa // Neue Zukunft
+API-Events: 55 | übernommen: 55
   2026-08-13 21:00:00 | Metal | Ploutonion + Temora
   2026-08-14 16:45:00 | None | Queer Tours for All - Radical Prenzlauer Berg
   2026-08-14 19:00:00 | Punk | KA-OH (PostPunk / Berlin) + ZWEIKANT (Alternative Hardcore / Berlin)
@@ -7,15 +6,18 @@ API-Events: 52 | übernommen: 52
   2026-08-15 19:00:00 | Punk | R.O.S.A. "NO PEACE FOR YOU" // RELEASE SHOW
   2026-08-15 20:00:00 | Punk | Todesstrahlen + Indiscreet Jewels + Shunt + Rasmus Weirup
   2026-08-16 14:45:00 | None | Queer Tours for All - Gay and Sapphic Schöneberg
+  2026-08-18 18:45:00 | None | Queer Tours for All - Queer Kreuzberg
   2026-08-19 19:00:00 | Rock | 10¹⁷ - Colin Stetson, Stian Westerhus & Erland Dahlen
   2026-08-19 20:00:00 | Punk | Hot Load (+ Support)
   2026-08-20 20:00:00 | Punk | Kowa Axis / Aidan Baker / Tim Wyskida
+  2026-08-21 13:45:00 | None | Queer Tour for All - Köpenicker Forst
   2026-08-21 15:00:00 | Punk | Bikinikonzert @Greifswalder DIY
   2026-08-21 19:00:00 | Punk | Greetings From / zhne / Beach Church
+  2026-08-23 14:45:00 | None | Queer Tours for All - Gay and Sapphic Schöneberg
   2026-08-23 19:00:00 | None | GENERATION Y PUNK – UPDATE EINER SUBKULTUR: „Von Fanzines, Faschos und der Gen-Y“ + Vortrag „Einfach machen – Wie linke Subkultur durch Selbstbeteiligung lebend
   2026-08-25 19:00:00 | Rock | MERMAID MAN (psych/garage) + TAFTIR (neo-psychedelic)
-  2026-08-26 19:00:00 | Punk | COUSINES LIKE SHIT (AT) & LIIEK (Bln) & FACE VALUE (Bln)
   2026-08-26 19:00:00 | Punk | LUGE + 13YC
+  2026-08-26 19:00:00 | Punk | COUSINES LIKE SHIT (AT) & LIIEK (Bln) & FACE VALUE (Bln)
   2026-08-28 19:00:00 | Punk | total eggpunk nightmare with BEER (south carolina) & LOVEBOMB (Mannheim)
   2026-08-28 19:00:00 | Indie | Record Release: PAIR (Indie Rock Elektro / Berlin) + WESTHAFEN (Alternative Indie Rock / Berlin)
   2026-08-29 19:00:00 | Punk | ELENDE LEIBER + MIẞTRÄU
@@ -27,5 +29,3 @@ API-Events: 52 | übernommen: 52
   2026-09-05 13:00:00 | Punk | Le Désordre C'est Moi Festival
   2026-09-05 17:00:00 | None | Tiergarten Maleficium
   2026-09-05 19:00:00 | Punk | ANCST | SVDESTADA | MARNÖ | BRÜD
-  2026-09-05 20:00:00 | Punk | Tense + Onyon + Alibi
-  2026-09-05 21:00:00 | Punk | KALTE HAND // COLD SUMMER // GUM / September 5, 2026 / Kastanie Berlin

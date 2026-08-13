@@ -578,6 +578,12 @@
   "lat": 52.5577176,
   "lng": 13.4702725
  },
+ "Bernkasteler Straße 78, 13088 Berlin, Germany": {
+  "address": "Bernkasteler Straße 78, 13088 Weißensee",
+  "bezirk": "Pankow",
+  "lat": 52.5577176,
+  "lng": 13.4702725
+ },
  "Bethanien Südflügel Berlin": null,
  "Bethanien Südflügel Berlin Deutschland": null,
  "Bethaniendamm 1099, 10999 Berlin": {
@@ -667,6 +673,12 @@
   "bezirk": "Neukölln",
   "lat": 52.4746865,
   "lng": 13.4370719
+ },
+ "Bornsdorfer Straße 9-11, 12053 Berlin": {
+  "address": "Bornsdorfer Straße, 12053 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4777109,
+  "lng": 13.4364329
  },
  "Boxhagener Platz 1, 10245 Berlin": {
   "address": "Boxhagener Platz 1, 10245 Friedrichshain",
@@ -1913,6 +1925,7 @@
   "lat": 52.5112074,
   "lng": 13.4169157
  },
+ "Klik e. V., Torstraße 210, 10115 Berlin": null,
  "Klingerstraße 1243, 12435 Berlin": {
   "address": "Klingerstraße, 12435 Plänterwald",
   "bezirk": "Treptow-Köpenick",
@@ -1927,6 +1940,12 @@
   "lng": 13.4510314
  },
  "KollektivBar EigenSinn Pflügerstr. 52, 12047 Berlin Deutschland": null,
+ "Kollektivbar ES Pflügerstraße 52 12047 Berlin": {
+  "address": "Pflügerstraße 52, 12047 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4901195,
+  "lng": 13.4335474
+ },
  "Kollwitzplatz, 10435 Berlin": {
   "address": "Wörther Straße, 10435 Prenzlauer Berg",
   "bezirk": "Pankow",
@@ -2309,6 +2328,12 @@
   "lat": 52.5186639,
   "lng": 13.4576357
  },
+ "Lietzenburger Straße 13-15, 10777 Berlin": {
+  "address": "Lietzenburger Straße, 10777 Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.5001301,
+  "lng": 13.346057
+ },
  "Lilli-Henoch-Str. 21, 10405 Berlin": {
   "address": "Lilli-Henoch-Straße, 10405 Prenzlauer Berg",
   "bezirk": "Pankow",
@@ -2385,6 +2410,7 @@
   "lat": 52.5067569,
   "lng": 13.4616719
  },
+ "Luftschloss Tempelhofer Feld Tempelhofer Feld 12101 Berlin Deutschland": null,
  "Luftschloss Tempelhofer Feld, Tempelhofer Feld, 12101, Berlin": null,
  "Lumen D'arc, Berlin": null,
  "Lunte Weisestr. 53 12049 Berlin Deutschland": {
@@ -2560,6 +2586,7 @@
   "lat": 52.4918563,
   "lng": 13.4326134
  },
+ "Meeting @ AXEL HOTEL, Lietzenburger Straße 13-15, Schöneberg, Berlin, 10777": null,
  "Mehringdamm 1096, 10963 Berlin": {
   "address": "Mehringdamm, 10961 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -2965,6 +2992,7 @@
   "lng": 13.3676212
  },
  "Potse Zollgarage, Columbiadamm 10, 12101 Berlin": null,
+ "Prachttomate Bornsdorfer Straße 9-11, 12053 Berlin": null,
  "Prenzlauer Allee 80, 10405 Berlin": {
   "address": "Prenzlauer Allee 80, 10405 Prenzlauer Berg",
   "bezirk": "Pankow",
@@ -3004,6 +3032,12 @@
  },
  "Radau (ex-Infoladen) Schererstrasse 8 13347 Berlin Deutschland": null,
  "Radialsystem, Berlin": {
+  "address": "Holzmarktstraße 33, 10243 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5103673,
+  "lng": 13.4286199
+ },
+ "Radialsystem, Holzmarktstr. 33, 10243, Berlin": {
   "address": "Holzmarktstraße 33, 10243 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5103673,
@@ -3732,6 +3766,12 @@
   "lat": 52.5280997,
   "lng": 13.3928139
  },
+ "Torstraße 210, 10115 Berlin": {
+  "address": "Torstraße 210, 10115 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5276822,
+  "lng": 13.3908729
+ },
  "TrIQ e.V., 5. Etage im Hinterhaus mit Aufzug und 3 Stufen, Gürtelstraße 35, 10247 Berlin": null,
  "Tram Hohenschönhauser Straße, 10369 Berlin": null,
  "Traumreparatur Lausitzer Straße 13 10999 Berlin Deutschland": null,
@@ -3862,6 +3902,7 @@
  },
  "V36 Voigtstr. 36 10247 Berlin Deutschland": null,
  "Vagabund Brauerei Kesselhaus, Oudenarder Str. 16-20, 13347 Berlin-Wedding": null,
+ "Valerie Hennekemper, Berlin": null,
  "Vetomat Wühlischstr. 42 10247 Berlin Deutschland": {
   "address": "Wühlischstraße 42, 10245 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -3898,6 +3939,7 @@
   "lng": 13.4119171
  },
  "Volkssolidarität \"Mehr Mitte\" Torstraße 190 10115 Berlin Deutschland": null,
+ "Volunteer Check-in, Welser Straße 20, Berlin, 10777": null,
  "Vor dem Schlesischen Tor 3, 10997 Berlin": {
   "address": "Vor dem Schlesischen Tor 3, 10997 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -3960,6 +4002,12 @@
   "bezirk": "Neukölln",
   "lat": 52.4777152,
   "lng": 13.4240197
+ },
+ "Welser Straße 20, 10777 Berlin": {
+  "address": "Welserstraße, 10777 Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.497703,
+  "lng": 13.3419212
  },
  "Werderscher Markt 1, 10117 Berlin": {
   "address": "Werderscher Markt 1, 10117 Mitte",

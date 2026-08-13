@@ -1,27 +1,5 @@
-event-blocks: 11 | Events: 0
+event-blocks: 10 | Events: 0
 
-<div class="event-block">
- <!-- Zeile 1: Datum + Titel -->
- <div class="event-row-1">
-  <div class="event-time">
-   Donnerstag, 13. Aug. 22:00
-  </div>
-  <div class="event-title">
-   Schwulenschubsen
-  </div>
- </div>
- <!-- Zeile 2: Bild + Beschreibung -->
- <div class="event-row-2">
-  <div class="event-image event-image--empty">
-  </div>
-  <div class="event-description">
-   Daniel Wang &amp; Tiger Disco
-  </div>
- </div>
-</div>
-
-
-----
 <div class="event-block">
  <!-- Zeile 1: Datum + Titel -->
  <div class="event-row-1">
@@ -80,6 +58,28 @@ event-blocks: 11 | Events: 0
   </div>
   <div class="event-description">
    cherolaine
+  </div>
+ </div>
+</div>
+
+
+----
+<div class="event-block">
+ <!-- Zeile 1: Datum + Titel -->
+ <div class="event-row-1">
+  <div class="event-time">
+   Donnerstag, 20. Aug. 22:00
+  </div>
+  <div class="event-title">
+   Schwulenschubsen
+  </div>
+ </div>
+ <!-- Zeile 2: Bild + Beschreibung -->
+ <div class="event-row-2">
+  <div class="event-image event-image--empty">
+  </div>
+  <div class="event-description">
+   Barthymin
   </div>
  </div>
 </div>

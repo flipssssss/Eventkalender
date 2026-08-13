@@ -1,7 +1,6 @@
 top-keys: ['website', 'websiteSettings', 'collection', 'shoppingCart', 'shareButtons', 'showCart', 'localizedStrings', 'userAccountsContext', 'template', 'uiextensions', 'empty', 'emptyFolder', 'calendarView', 'pagination', 'upcoming']
-items: 44 | Events: 44
+items: 43 | Events: 43
 erstes item keys: ['id', 'collectionId', 'recordType', 'addedOn', 'updatedOn', 'starred', 'passthrough', 'tags', 'categories', 'workflowState', 'publishOn', 'authorId', 'systemDataId', 'systemDataVariants', 'systemDataSourceType', 'filename', 'mediaFocalPoint', 'colorData', 'urlId', 'title', 'sourceUrl', 'body', 'excerpt', 'location', 'customContent']
-  2026-08-12 09:00:00.936000 | Robins Nest - Jamsession
   2026-08-13 09:00:00.506000 | Gal Liraz Quartett
   2026-08-14 09:00:00.506000 | STREAMLINE ORCHESTRA&nbsp;
   2026-08-15 09:00:00.506000 | Marcos Coll Band feat. Emiliano Juarez
@@ -31,3 +30,4 @@ erstes item keys: ['id', 'collectionId', 'recordType', 'addedOn', 'updatedOn', '
   2026-09-12 09:00:00.506000 | Rolf Zielke – Trio feat. Mathilde Vendramin – voc / cello
   2026-09-13 09:00:00.506000 | A Tribute to Carmen McRae &amp; Betty Carter
   2026-09-15 09:00:00.506000 | Steve Nanda Oktett
+  2026-09-16 09:00:00.936000 | Robins Nest - Jamsession

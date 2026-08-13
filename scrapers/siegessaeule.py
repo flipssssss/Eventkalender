@@ -15,6 +15,7 @@ import re
 from typing import Iterable
 
 import requests
+from urllib.parse import quote as _quote
 
 from .base import BaseScraper, Event, parse_datetime
 from .categories import categorize
@@ -98,45 +99,35 @@ class SiegessaeuleScraper(BaseScraper):
         return events
 
     def _probe(self, session, today) -> str:
-        """One-shot Zugriffs-Diagnose: verschiedene URLs/Header testen und
-        Status + Server-Header + Body-Anfang protokollieren, um einen 403
-        (IP-/WAF-Block der ganzen Domain vs. nur ein Pfad) einzugrenzen."""
-        full_headers = {
-            "User-Agent": BROWSER_HEADERS["User-Agent"],
-            "Accept": ("text/html,application/xhtml+xml,application/xml;"
-                       "q=0.9,image/avif,image/webp,*/*;q=0.8"),
-            "Accept-Language": "de-DE,de;q=0.9,en;q=0.8",
-            "Sec-Fetch-Dest": "document",
-            "Sec-Fetch-Mode": "navigate",
-            "Sec-Fetch-Site": "none",
-            "Sec-Fetch-User": "?1",
-            "Upgrade-Insecure-Requests": "1",
-            "Cache-Control": "no-cache",
-        }
-        d = today.isoformat()
-        cases = [
-            ("A home BROWSER", "https://www.siegessaeule.de/", None),
-            ("B en/events BROWSER", "https://www.siegessaeule.de/en/events/", None),
-            ("C events BROWSER", "https://www.siegessaeule.de/events/", None),
-            ("D en/events?date FULL", f"https://www.siegessaeule.de/en/events/?date={d}", full_headers),
-            ("E events?date FULL", f"https://www.siegessaeule.de/events/?date={d}", full_headers),
+        """One-shot Proxy-Diagnose: die Domain sperrt Rechenzentrums-IPs pauschal
+        mit 403. Hier testen wir mehrere öffentliche Read-Proxys (holen die Seite
+        von einer anderen IP), um zu sehen, ob einer den echten Sapper-HTML mit
+        ``eventsAndAdsForDate`` zurückliefert. Der Gewinner wird dann fest
+        eingebaut."""
+        target = f"https://www.siegessaeule.de/en/events/?date={today.isoformat()}"
+        q = _quote(target, safe="")
+        proxies = [
+            ("jina-html", f"https://r.jina.ai/{target}",
+             {"x-return-format": "html", "x-respond-with": "html"}),
+            ("allorigins", f"https://api.allorigins.win/raw?url={q}", None),
+            ("codetabs", f"https://api.codetabs.com/v1/proxy/?quest={target}", None),
+            ("corsproxy", f"https://corsproxy.io/?url={q}", None),
+            ("thingproxy", f"https://thingproxy.freeboard.io/fetch/{target}", None),
         ]
-        lines = ["== ZUGRIFFS-PROBE =="]
-        for label, url, hdr in cases:
+        lines = ["== PROXY-PROBE =="]
+        for label, url, hdr in proxies:
             try:
-                r = session.get(url, headers=hdr, timeout=25, allow_redirects=True)
-                body = (r.text or "")[:120].replace("\n", " ")
-                srv = r.headers.get("Server", "?")
-                cf = r.headers.get("CF-RAY", "")
-                markers = "SAPPER" if "__SAPPER__" in r.text else (
-                    "eventsAndAdsForDate" if "eventsAndAdsForDate" in r.text else (
-                        "ld+json" if "application/ld+json" in r.text else (
-                            "NEXT" if "__NEXT_DATA__" in r.text else (
-                                "NUXT" if "__nuxt" in r.text.lower() else "?"))))
+                r = requests.get(url, headers=hdr, timeout=40, allow_redirects=True)
+                txt = r.text or ""
+                has_sapper = "__SAPPER__" in txt
+                has_events = "eventsAndAdsForDate" in txt
+                has_starts = "startsAt" in txt
+                is403 = "<title>403</title>" in txt or "403 Forbidden" in txt
+                snippet = txt[:100].replace("\n", " ")
                 lines.append(
-                    f"{label}: HTTP {r.status_code} len={len(r.text)} "
-                    f"final={r.url} Server={srv} CF-RAY={'y' if cf else 'n'} "
-                    f"data={markers} | {body}")
+                    f"{label}: HTTP {r.status_code} len={len(txt)} "
+                    f"SAPPER={has_sapper} events={has_events} startsAt={has_starts} "
+                    f"blocked403={is403} | {snippet}")
             except Exception as exc:  # noqa: BLE001
                 lines.append(f"{label}: FEHLER {exc}")
         return "\n".join(lines) + "\n"

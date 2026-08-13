@@ -83,8 +83,6 @@ class SiegessaeuleScraper(BaseScraper):
         self.write_debug = write_debug
 
     def fetch_events(self) -> Iterable[Event]:
-        session = requests.Session()
-        session.headers.update(BROWSER_HEADERS)
         today = _dt.date.today()
         events: list[Event] = []
         report: list[str] = []
@@ -92,7 +90,7 @@ class SiegessaeuleScraper(BaseScraper):
         for offset in range(self.days):
             day = today + _dt.timedelta(days=offset)
             try:
-                html = self._fetch_day(session, day, offset)
+                html = self._fetch_day(day, offset)
                 found = self._parse(html)
             except Exception as exc:  # noqa: BLE001
                 report.append(f"{day}: FEHLER {exc}")
@@ -109,33 +107,37 @@ class SiegessaeuleScraper(BaseScraper):
             )
         return events
 
-    def _fetch_day(self, session, day, offset) -> str:
+    def _fetch_day(self, day, offset) -> str:
         """Hole die Tagesseite über den Read-Proxy (siehe Modul-Docstring).
 
         Direktzugriff ist für CI-IPs pauschal 403-gesperrt; ``r.jina.ai`` ruft
         die Seite von anderer IP ab und gibt das echte Sapper-HTML zurück.
-        Wir drosseln höflich und wiederholen bei 429/5xx.
+        Bewusst KEINE Browser-Header/Session -- nur die Jina-Steuer-Header
+        (so lieferte die Probe HTTP 200). Bei 403/429/451/5xx (geteilte
+        CI-IP-Drossel) höflich warten und erneut versuchen; die Fehlerantwort
+        wird für die Diagnose mitgegeben.
         """
         target = f"{BASE}?date={day.isoformat()}"
         url = JINA_PREFIX + target
         if offset > 0:
             _time.sleep(JINA_MIN_GAP)  # Jina drosselt ohne Key (~20/min)
-        last_status = None
-        for attempt in range(3):
-            response = session.get(url, headers=JINA_HEADERS, timeout=45)
-            last_status = response.status_code
-            if response.status_code in (429, 502, 503) and attempt < 2:
+        last = None
+        for attempt in range(4):
+            response = requests.get(url, headers=JINA_HEADERS, timeout=45)
+            last = response
+            if response.status_code in (403, 429, 451, 502, 503) and attempt < 3:
                 retry_after = response.headers.get("Retry-After")
                 try:
                     wait = float(retry_after)
                 except (TypeError, ValueError):
-                    wait = 5.0 * (attempt + 1)
-                _time.sleep(min(wait, 20))
+                    wait = 6.0 * (attempt + 1)
+                _time.sleep(min(wait, 25))
                 continue
             response.raise_for_status()
             response.encoding = "utf-8"
             return response.text
-        raise RuntimeError(f"Proxy-Status {last_status}")
+        body = (last.text or "")[:200].replace("\n", " ") if last is not None else ""
+        raise RuntimeError(f"Proxy-Status {last.status_code if last else '?'}: {body}")
 
     # -- parsing ---------------------------------------------------------
 

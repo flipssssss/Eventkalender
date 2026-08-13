@@ -1,10 +1,10 @@
 Tage: 30 | Events (vor Dedup): 0 | mit Venue: 0
-== ZUGRIFFS-PROBE ==
-A home BROWSER: HTTP 403 len=134 final=https://www.siegessaeule.de/ Server=? CF-RAY=n data=? | <!doctype html><meta charset="utf-8"><meta name=viewport content="width=device-width, initial-scale=1"><title>403</title
-B en/events BROWSER: HTTP 403 len=134 final=https://www.siegessaeule.de/en/events/ Server=? CF-RAY=n data=? | <!doctype html><meta charset="utf-8"><meta name=viewport content="width=device-width, initial-scale=1"><title>403</title
-C events BROWSER: HTTP 403 len=134 final=https://www.siegessaeule.de/events/ Server=? CF-RAY=n data=? | <!doctype html><meta charset="utf-8"><meta name=viewport content="width=device-width, initial-scale=1"><title>403</title
-D en/events?date FULL: HTTP 403 len=134 final=https://www.siegessaeule.de/en/events/?date=2026-08-13 Server=? CF-RAY=n data=? | <!doctype html><meta charset="utf-8"><meta name=viewport content="width=device-width, initial-scale=1"><title>403</title
-E events?date FULL: HTTP 403 len=134 final=https://www.siegessaeule.de/events/?date=2026-08-13 Server=? CF-RAY=n data=? | <!doctype html><meta charset="utf-8"><meta name=viewport content="width=device-width, initial-scale=1"><title>403</title
+== PROXY-PROBE ==
+jina-html: HTTP 200 len=120547 SAPPER=True events=True startsAt=True blocked403=False | <html lang="de"> <head> <meta charset="utf-8"> <meta content="width=device-width,initial-scale=1" na
+allorigins: HTTP 522 len=7258 SAPPER=False events=False startsAt=False blocked403=False | <!DOCTYPE html> <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]--> <!--[if I
+codetabs: HTTP 522 len=7246 SAPPER=False events=False startsAt=False blocked403=False | <!DOCTYPE html> <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]--> <!--[if I
+corsproxy: HTTP 403 len=103 SAPPER=False events=False startsAt=False blocked403=False | {"error":"Server-side requests are not allowed on your plan. Upgrade at https://corsproxy.io/pricing
+thingproxy: FEHLER HTTPSConnectionPool(host='thingproxy.freeboard.io', port=443): Max retries exceeded with url: /fetch/https://www.siegessaeule.de/en/events/?date=2026-08-13 (Caused by NameResolutionError("HTTPSConnection(host='thingproxy.freeboard.io', port=443): Failed to resolve 'thingproxy.freeboard.io' ([Errno -2] Name or service not known)"))
 2026-08-13: 0 Events
 2026-08-14: 0 Events
 2026-08-15: 0 Events

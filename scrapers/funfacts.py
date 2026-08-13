@@ -16,16 +16,12 @@ from typing import Iterable
 
 from bs4 import BeautifulSoup
 
-from .base import BaseScraper, Event
+from .base import BaseScraper, Event, GERMAN_MONTHS
 
 URL = "https://www.funfacts.de/tickets-kaufen"
 DEBUG_DIR = pathlib.Path(__file__).resolve().parents[1] / "docs" / "data" / "_debug"
 
-MONTHS = {
-    "januar": 1, "februar": 2, "märz": 3, "maerz": 3, "april": 4, "mai": 5,
-    "juni": 6, "juli": 7, "august": 8, "september": 9, "oktober": 10,
-    "november": 11, "dezember": 12,
-}
+MONTHS = GERMAN_MONTHS
 DATE_RE = re.compile(
     r"(\d{1,2})\.\s*([A-Za-zäöüÄÖÜ]+)\s*(\d{4})(?:[,\s]+(\d{1,2}):(\d{2}))?")
 

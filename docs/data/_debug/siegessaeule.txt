@@ -1,4 +1,5 @@
 Tage: 30 | Events (vor Dedup): 0 | mit Venue: 0
+DIAG erste Seite: HTTP 403 | len=134 | __SAPPER__=False | eventsAndAdsForDate=False | startsAt=False | ld+json=False | nuxt=False | __NEXT=False
 2026-08-13: 0 Events
 2026-08-14: 0 Events
 2026-08-15: 0 Events

@@ -3903,6 +3903,12 @@
  "V36 Voigtstr. 36 10247 Berlin Deutschland": null,
  "Vagabund Brauerei Kesselhaus, Oudenarder Str. 16-20, 13347 Berlin-Wedding": null,
  "Valerie Hennekemper, Berlin": null,
+ "Valerie, Berlin": {
+  "address": "Holsteinische Straße, 12163 Steglitz",
+  "bezirk": "Steglitz-Zehlendorf",
+  "lat": 52.4634213,
+  "lng": 13.3287241
+ },
  "Vetomat Wühlischstr. 42 10247 Berlin Deutschland": {
   "address": "Wühlischstraße 42, 10245 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",

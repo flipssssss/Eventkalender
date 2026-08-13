@@ -1,4 +1,4 @@
-event-blocks: 10 | Events: 0
+event-blocks: 10 | Events: 10
 
 <div class="event-block">
  <!-- Zeile 1: Datum + Titel -->

@@ -554,6 +554,7 @@
  },
  "Berliner Berg Brauerei, Treptower Str. 39, 12059, Berlin": null,
  "Berliner Kunstmarkt": null,
+ "Berliner Philharmonie": null,
  "Bernauer Straße 63, 13355 Berlin": {
   "address": "Bernauer Straße 63, 13355 Gesundbrunnen",
   "bezirk": "Pankow",
@@ -634,6 +635,12 @@
   "bezirk": "Charlottenburg-Wilmersdorf",
   "lat": 52.5073394,
   "lng": 13.3200854
+ },
+ "Blond, Berlin": {
+  "address": "Motzstraße 28, 10777 Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4978319,
+  "lng": 13.3477984
  },
  "Blücherplatz (Kreuzberg) Berlin Deutschland": {
   "address": "Blücherplatz, 10961 Kreuzberg",
@@ -933,6 +940,12 @@
   "lng": 13.391197
  },
  "Columbiadamm Columbiadamm 10 12101, 12101 Berlin": null,
+ "Columbiahalle, Berlin": {
+  "address": "Columbiadamm 13-21, 10965 Tempelhof",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4847383,
+  "lng": 13.392546
+ },
  "Coppistr. 1-3, Berlin": {
   "address": "Coppistraße, 10365 Lichtenberg",
   "bezirk": "Lichtenberg",
@@ -978,6 +991,12 @@
   "lng": 13.4315445
  },
  "Das Jüdische Kulturschiff MS Goldberg, Schifffahrtsufer 2\nan der Dischinger Brücke, 13581, Berlin-Spandau": null,
+ "Der Weiße Hase, Berlin": {
+  "address": "Revaler Straße, 10245 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5075831,
+  "lng": 13.4545322
+ },
  "Dorfplatz (Fhain) Rigaerstr. Ecke Liebigstr. 10247 Berlin Deutschland": null,
  "Dresdener Straße 8, 10999 Berlin": {
   "address": "Dresdener Straße 8, 10999 Kreuzberg",
@@ -989,6 +1008,7 @@
  "Drugstore im Rockhaus Buchberger Str. 6 10365 Berlin Deutschland": null,
  "Drugstore im Rockhaus Buchberger Str. 6 10365, 10365 Berlin": null,
  "EUREF-Campus Berlin, Torgauer Straße 25, 10829, Berlin": null,
+ "EWA Frauenzentrum, Berlin": null,
  "Eastgate Marzahn, Marzahner Promenade 1A (Marzahn-Hellersdorf) 12679 Berlin Deutschland": null,
  "Eberswalder Str. 21, 10437 Berlin, Germany": {
   "address": "Eberswalder Straße 21, 10437 Prenzlauer Berg",
@@ -1046,6 +1066,7 @@
   "lat": 52.4949179,
   "lng": 13.4304413
  },
+ "Eszenzia, Berlin": null,
  "FAQ Infoladen Jonasstraße 40 12053 Berlin Deutschland": {
   "address": "Jonasstraße 40, 12053 Neukölln",
   "bezirk": "Neukölln",
@@ -1427,6 +1448,12 @@
   "lng": 13.3507943
  },
  "Haus Schwarzenberg Rosenthalerstraße 39 10178 Berlin Deutschland": null,
+ "Haus am Kleistpark, Berlin": {
+  "address": "Grunewaldstraße 6-7, 10823 Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4905797,
+  "lng": 13.3572868
+ },
  "Haus der Demokratie, Greifswalder Straße 4, 10405 Berlin": {
   "address": "Greifswalder Straße 4, 10405 Prenzlauer Berg",
   "bezirk": "Pankow",
@@ -1663,6 +1690,7 @@
   "lng": 13.4309683
  },
  "Jonny Knüppel Lilli-Henoch-Str.10 10405 Berlin Deutschland": null,
+ "Jonny Knüppel, Berlin": null,
  "Jordanstraße 1243, 12435 Berlin": {
   "address": "Jordanstraße, 12435 Alt-Treptow",
   "bezirk": "Treptow-Köpenick",
@@ -2016,6 +2044,12 @@
  "Kreuzdorf Mariannenplatz 1a 10997 Berlin Deutschland": null,
  "Kreuzdorf Mariannenplatz 1a, 10997 Berlin": null,
  "Kreuziger Str 19, Berlin": null,
+ "Kreuzwerk, Berlin": {
+  "address": "Lobeckstraße 30-35, 10969 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5030057,
+  "lng": 13.407825
+ },
  "Kronprinzessinnenweg 5, 14109 Berlin": {
   "address": "Kronprinzessinnenweg, 14109 Wannsee",
   "bezirk": "Steglitz-Zehlendorf",
@@ -2054,6 +2088,12 @@
   "bezirk": "Pankow",
   "lat": 52.539777,
   "lng": 13.4523792
+ },
+ "Kulturbrauerei, Berlin": {
+  "address": "Schönhauser Allee 36, 10435 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5393213,
+  "lng": 13.4139655
  },
  "Kulturfabrik Moabit Lehrter Str. 35 10557 Berlin Deutschland": {
   "address": "Lehrter Straße 35, 10557 Moabit",
@@ -2617,6 +2657,12 @@
  "Mellowpark An der Wuhlheide 250-256 (Schöneweide) Berlin Deutschland": null,
  "Mellowpark, 12459 Berlin": null,
  "Metis Books and Café, Berlin": null,
+ "Metropol, Berlin": {
+  "address": "Nollendorfplatz 5, 10777 Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4989399,
+  "lng": 13.3527048
+ },
  "Metropol, Nollendorfplatz 5, Berlin, 10777": {
   "address": "Nollendorfplatz 5, 10777 Schöneberg",
   "bezirk": "Tempelhof-Schöneberg",
@@ -2772,6 +2818,12 @@
   "lat": 52.4991429,
   "lng": 13.3521559
  },
+ "Nollendorfplatz, Berlin": {
+  "address": "Nollendorfplatz, 10777 Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4995972,
+  "lng": 13.3537297
+ },
  "Nonnendammallee 135, 12277 Berlin": {
   "address": "Nonnendammallee 135, 13599 Haselhorst",
   "bezirk": "Spandau",
@@ -2870,6 +2922,12 @@
   "bezirk": "Mitte",
   "lat": 52.5531466,
   "lng": 13.3636952
+ },
+ "Oxi, Berlin": {
+  "address": "Wiesenweg 1-4, 10365 Lichtenberg",
+  "bezirk": "Lichtenberg",
+  "lat": 52.5076121,
+  "lng": 13.4749435
  },
  "Oya-Bar, Mariannenstraße 6 10997 Berlin Deutschland": null,
  "PA58 Prinzenallee 58 Berlin Deutschland": {
@@ -3127,6 +3185,12 @@
   "lat": 52.4952361,
   "lng": 13.4307312
  },
+ "Renate, Berlin": {
+  "address": "Alt-Stralau 70, 10245 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4973901,
+  "lng": 13.4653065
+ },
  "Revaler Str. 99, 10245 Berlin": {
   "address": "Revaler Straße 99, 10245 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -3307,6 +3371,12 @@
   "lat": 52.5003909,
   "lng": 13.4221612
  },
+ "SO36, Berlin": {
+  "address": "Oranienstraße 190, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5003909,
+  "lng": 13.4221612
+ },
  "SOLId Graefestraße 18 10967 Berlin Deutschland": {
   "address": "Graefestraße 18, 10967 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -3444,6 +3514,12 @@
   "lng": 13.3971786
  },
  "Schokoladen Ackerstrasse 169 10115, 10115 Berlin": null,
+ "Schokoladen, Berlin": {
+  "address": "Ackerstraße 169, 10115 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5297369,
+  "lng": 13.3971786
+ },
  "Schreina47 Schreinerstr. 47 10245 Berlin Deutschland": null,
  "Schreina47 Schreinerstr. 47 10245, 10245 Berlin": null,
  "Schreinerstr. 47, 10245 Berlin": {
@@ -3472,6 +3548,12 @@
  },
  "Schwarze Risse Gneisenaustr. 2a 10961 Berlin Deutschland": null,
  "Schwester Martha Bethaniendamm 26 Berlin Deutschland": null,
+ "Schwules Museum, Berlin": {
+  "address": "Lützowstraße 73, 10785 Tiergarten",
+  "bezirk": "Mitte",
+  "lat": 52.5042512,
+  "lng": 13.3582193
+ },
  "Schöneicher Straße 1, 12587 Berlin": {
   "address": "Schöneicher Straße 1, 12587 Friedrichshagen",
   "bezirk": "Treptow-Köpenick",
@@ -3643,6 +3725,7 @@
   "lat": 52.5111324,
   "lng": 13.4515738
  },
+ "Stadtteilzentrum Haus am See, Berlin": null,
  "Stadtteilzentrum Schöneberg Hauptstraße 121 A 10827 Berlin Deutschland": null,
  "Stadtteilzentrum Schöneberg Hauptstraße 121 A, 10827 Berlin": null,
  "Storkower Str. 123, 10407 Berlin": {
@@ -3672,6 +3755,7 @@
   "lng": 13.4713392
  },
  "Supamolly Jessnerstr. 41 10247, 10247 Berlin": null,
+ "Säule/Berghain, Berlin": null,
  "Sömmeringstraße 15, 10589 Berlin": {
   "address": "Sömmeringstraße 15, 10589 Charlottenburg",
   "bezirk": "Charlottenburg-Wilmersdorf",
@@ -3708,8 +3792,20 @@
  "Tempelhofer Feld (Eingang Columbiadamm) Berlin Deutschland": null,
  "Tempelhofer Feld Eingang S+U-Bhf Tempelhof 12101 Berlin": null,
  "Tempelhofer Feld Neuköllner Seite Haus 104 Tempelhofer Feld Neuköllner Seite Haus 104 Tempelhofer Damm Berlin": null,
+ "Tempelhofer Feld, Berlin": {
+  "address": "Tempelhof-Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4744192,
+  "lng": 13.4026007
+ },
  "Tempelhofer Feld, Neuköllner Seite, Haus 104 Tempelhofer Feld, Neuköllner Seite, Haus 104 Tempelhofer Damm Berlin Deutschland": null,
  "The Castle, The Castle, Berlin Mitte, Invalidenstraße 129, 10115 Berlin": null,
+ "The JAXX, Berlin": {
+  "address": "Motzstraße 19, 10777 Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4978968,
+  "lng": 13.3489686
+ },
  "Theater Strahl. Halle Ostkreuz, Berlin": null,
  "Theater X, Wiclefstraße 32, 10551 Berlin": {
   "address": "Wiclefstraße 32, 10551 Moabit",
@@ -4149,6 +4245,12 @@
   "lat": 52.5091664,
   "lng": 13.4307181
  },
+ "Yaam, Berlin": {
+  "address": "An der Schillingbrücke 3, 10243 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5091664,
+  "lng": 13.4307181
+ },
  "Yorck im Bethanien Mariannenplatz 2A, 10997 Berlin": null,
  "Yorckstraße 1078, 10783 Berlin": {
   "address": "Yorckstraße, 10965 Schöneberg",
@@ -4164,6 +4266,7 @@
   "lat": 52.5128122,
   "lng": 13.4641154
  },
+ "ZK/U Berlin - Zentrum für Kunst und Urbanistik": null,
  "Zaubergarten Lichtenberg S Storkower / S Frankfurter Alle Deutschland, Berlin": null,
  "Zaubergarten Lichtenberg S Storkower / S Frankfurter Alle, Berlin": null,
  "Zeiss-Großplanetarium Zeiss-Großplanetarium, Berlin": null,
@@ -4211,6 +4314,12 @@
  "Zorrow Grüntalerstr.38 13359 Berlin Deutschland": null,
  "Zorrow Hinterhof, Grüntaler Straße 38, 13359 Berlin": null,
  "Zuckerzauber Markgrafendamm 24 (am Ostkreuz) Berlin Deutschland": null,
+ "Zum Schmutzigen Hobby, Berlin": {
+  "address": "Revaler Straße 99 - Tor 2, 10245 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5079394,
+  "lng": 13.4535054
+ },
  "Zwille Fasanenstr. 1 TU Berlin, Südcampus, Z-Gebäude, 3. OG Fasanenstr. 1, Ecke Müller-Breslaustr. 10623 Berlin Deutschland": null,
  "Zwille Fasanenstr. 1a 10623 Berlin Deutschland": null,
  "Zwille Fasanenstr. 1a, 10623 Berlin": null,
@@ -4221,6 +4330,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.4854788,
   "lng": 13.405408
+ },
+ "about blank, Berlin": {
+  "address": "Markgrafendamm 24c, 10245 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5024767,
+  "lng": 13.466302
  },
  "across the Willy Brand Haus Berlin": null,
  "across the Willy Brand Haus Berlin Deutschland": null,

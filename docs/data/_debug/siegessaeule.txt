@@ -1,31 +1,31 @@
-Tage: 30 | Events (vor Dedup): 0 | mit Venue: 0 | via r.jina.ai
-2026-08-13: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-08-13
-2026-08-14: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-08-14
-2026-08-15: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-08-15
-2026-08-16: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-08-16
-2026-08-17: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-08-17
-2026-08-18: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-08-18
-2026-08-19: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-08-19
-2026-08-20: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-08-20
-2026-08-21: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-08-21
-2026-08-22: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-08-22
-2026-08-23: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-08-23
-2026-08-24: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-08-24
-2026-08-25: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-08-25
-2026-08-26: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-08-26
-2026-08-27: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-08-27
-2026-08-28: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-08-28
-2026-08-29: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-08-29
-2026-08-30: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-08-30
-2026-08-31: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-08-31
-2026-09-01: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-09-01
-2026-09-02: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-09-02
-2026-09-03: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-09-03
-2026-09-04: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-09-04
-2026-09-05: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-09-05
-2026-09-06: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-09-06
-2026-09-07: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-09-07
-2026-09-08: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-09-08
-2026-09-09: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-09-09
-2026-09-10: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-09-10
-2026-09-11: FEHLER 403 Client Error: Forbidden for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-09-11
+Tage: 30 | Events (vor Dedup): 139 | mit Venue: 85 | via r.jina.ai
+2026-08-13: 5 Events
+2026-08-14: 5 Events
+2026-08-15: 4 Events
+2026-08-16: 4 Events
+2026-08-17: 4 Events
+2026-08-18: 5 Events
+2026-08-19: 3 Events
+2026-08-20: 4 Events
+2026-08-21: 2 Events
+2026-08-22: 6 Events
+2026-08-23: 9 Events
+2026-08-24: 4 Events
+2026-08-25: 4 Events
+2026-08-26: 4 Events
+2026-08-27: 4 Events
+2026-08-28: 5 Events
+2026-08-29: 8 Events
+2026-08-30: 5 Events
+2026-08-31: 4 Events
+2026-09-01: 4 Events
+2026-09-02: 2 Events
+2026-09-03: 5 Events
+2026-09-04: 7 Events
+2026-09-05: 6 Events
+2026-09-06: 3 Events
+2026-09-07: 5 Events
+2026-09-08: 3 Events
+2026-09-09: 2 Events
+2026-09-10: 6 Events
+2026-09-11: 7 Events

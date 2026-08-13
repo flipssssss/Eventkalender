@@ -10,6 +10,7 @@ from __future__ import annotations
 import datetime as _dt
 import pathlib
 import re
+import time as _time
 from typing import Iterable
 
 from bs4 import BeautifulSoup
@@ -41,13 +42,25 @@ class MoebelOlfeScraper(BaseScraper):
         self.write_debug = write_debug
 
     def fetch_events(self) -> Iterable[Event]:
-        try:
-            html = self.get(URL, headers=BROWSER).text
-        except Exception as exc:  # noqa: BLE001
-            self._dump(f"FEHLER: {exc}")
+        # Die Seite liefert gelegentlich (trotz HTTP 200) eine leere Antwort
+        # ohne ``.event-block``. Bei leerem Ergebnis kurz warten und erneut
+        # abrufen, statt sofort 0 Events zu melden.
+        blocks = []
+        last_err = None
+        for attempt in range(3):
+            try:
+                html = self.get(URL, headers=BROWSER).text
+            except Exception as exc:  # noqa: BLE001
+                last_err = exc
+                html = ""
+            blocks = BeautifulSoup(html, "html.parser").select(".event-block")
+            if blocks:
+                break
+            if attempt < 2:
+                _time.sleep(3.0 * (attempt + 1))
+        if not blocks and last_err is not None:
+            self._dump(f"FEHLER: {last_err}")
             return []
-        soup = BeautifulSoup(html, "html.parser")
-        blocks = soup.select(".event-block")
         today = _dt.date.today()
         events: list[Event] = []
         for b in blocks:

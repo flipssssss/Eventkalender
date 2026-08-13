@@ -73,13 +73,26 @@ class SiegessaeuleScraper(BaseScraper):
         events: list[Event] = []
         report: list[str] = []
 
+        diag = ""
         for offset in range(self.days):
             day = today + _dt.timedelta(days=offset)
             url = f"{BASE}?date={day.isoformat()}"
             try:
                 response = session.get(url, timeout=25)
                 response.encoding = "utf-8"
-                found = self._parse(response.text)
+                html = response.text
+                if offset == 0:
+                    diag = ("DIAG erste Seite: HTTP %s | len=%d | __SAPPER__=%s | "
+                            "eventsAndAdsForDate=%s | startsAt=%s | ld+json=%s | "
+                            "nuxt=%s | __NEXT=%s\n" % (
+                                response.status_code, len(html),
+                                "__SAPPER__" in html,
+                                "eventsAndAdsForDate" in html,
+                                "startsAt" in html,
+                                "application/ld+json" in html,
+                                "__NUXT__" in html or "nuxt" in html.lower(),
+                                "__NEXT_DATA__" in html))
+                found = self._parse(html)
             except Exception as exc:  # noqa: BLE001
                 report.append(f"{day}: FEHLER {exc}")
                 continue
@@ -90,7 +103,7 @@ class SiegessaeuleScraper(BaseScraper):
             located = sum(1 for e in events if e.location)
             self._dump_debug(
                 f"Tage: {self.days} | Events (vor Dedup): {len(events)} "
-                f"| mit Venue: {located}\n"
+                f"| mit Venue: {located}\n" + diag
                 + "\n".join(report)
             )
         return events

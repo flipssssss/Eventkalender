@@ -484,6 +484,12 @@
   "lat": 52.5164872,
   "lng": 13.3938262
  },
+ "Behaimstraße 17, 10585 Berlin": {
+  "address": "Behaimstraße 17, 10585 Charlottenburg",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.5164185,
+  "lng": 13.3039773
+ },
  "Bellermannstraße 64, 13357 Berlin": {
   "address": "Bellermannstraße 64, 13357 Gesundbrunnen",
   "bezirk": "Mitte",
@@ -1251,6 +1257,13 @@
  "Gambino’s by AMANO, Berlin": null,
  "Garten Markgrafendamm 24c, 10245 Berlin": null,
  "Gemeinschaftsgarten Prachttomate Bornsdorfer Str. 9-11 12053 Berlin Deutschland": null,
+ "Gemäldegalerie, Berlin": {
+  "address": "Stauffenbergstraße, 10785 Tiergarten",
+  "bezirk": "Mitte",
+  "lat": 52.5085133,
+  "lng": 13.3647492
+ },
+ "Genezareth-Kirche Herrfurthplatz 1 12049 Berlin Deutschland": null,
  "Genter Straße 60, 13533 Berlin": {
   "address": "Genter Straße 60, 13353 Wedding",
   "bezirk": "Mitte",
@@ -1521,6 +1534,12 @@
   "lng": 13.4309085
  },
  "Herrfurthpl. 14, 12049 Berlin-Bezirk Neukölln": null,
+ "Herrfurthplatz 1, 12049 Berlin": {
+  "address": "Herrfurthplatz 1, 12049 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4773773,
+  "lng": 13.4228681
+ },
  "Herrfurthstr. 21, 12049 Berlin": {
   "address": "Herrfurthstraße 21, 12049 Neukölln",
   "bezirk": "Neukölln",
@@ -2105,6 +2124,7 @@
  "Kulturhaus \"alte feuerwache\" Friedrichshain, Marchlewskistr. 6, 10243, Berlin": null,
  "Kulturhaus Centre Bagatelle, Zeltinger Str. 6, 13465, Berlin-Frohnau": null,
  "Kulturhaus Centre Bagatelle, Zeltinger Straße 6, 13465, Berlin": null,
+ "Kulturort Nirgendwo Wriezener Park 10245 Berlin Deutschland": null,
  "Kunstfabrik Schlot, Invalidenstraße 117, 10115, Berlin": {
   "address": "Invalidenstraße 117, 10115 Mitte",
   "bezirk": "Mitte",
@@ -2725,6 +2745,12 @@
   "lat": 52.4951332,
   "lng": 13.377443
  },
+ "Möllhausenufer 30, 12557 Berlin": {
+  "address": "Möllhausenufer 30, 12557 Köpenick",
+  "bezirk": "Treptow-Köpenick",
+  "lat": 52.4154105,
+  "lng": 13.5994753
+ },
  "Müllerstraße 178 U, 13353 Berlin": {
   "address": "Müllerstraße, 13353 Wedding",
   "bezirk": "Mitte",
@@ -3082,6 +3108,12 @@
  "R94, Rigaer Straße 94, Friedrichshain 10247 Berlin Deutschland": null,
  "RADAU, Schererstraße 8, 13347 Berlin": null,
  "RAUM Rungestr. 20 Berlin Deutschland": null,
+ "ROSA, Berlin": {
+  "address": "Rheinstraße, 12161 Friedenau",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4664077,
+  "lng": 13.3305136
+ },
  "RSO.BERLIN, Berlin": {
   "address": "Schnellerstraße, 12439 Niederschöneweide",
   "bezirk": "Treptow-Köpenick",
@@ -3734,6 +3766,7 @@
   "lat": 52.5354437,
   "lng": 13.4532774
  },
+ "Strandbad Wendenschloss, Möllhausenufer 30, 12557, Berlin": null,
  "Straße des 17. Juni 106, 10623 Berlin": {
   "address": "Straße des 17. Juni 106, 10623 Charlottenburg",
   "bezirk": "Charlottenburg-Wilmersdorf",
@@ -4267,6 +4300,12 @@
   "lng": 13.4641154
  },
  "ZK/U Berlin - Zentrum für Kunst und Urbanistik": null,
+ "ZK/U Siemensstraße 27, 10551 Berlin": {
+  "address": "Siemensstraße 27, 10551 Moabit",
+  "bezirk": "Mitte",
+  "lat": 52.5338932,
+  "lng": 13.3365293
+ },
  "Zaubergarten Lichtenberg S Storkower / S Frankfurter Alle Deutschland, Berlin": null,
  "Zaubergarten Lichtenberg S Storkower / S Frankfurter Alle, Berlin": null,
  "Zeiss-Großplanetarium Zeiss-Großplanetarium, Berlin": null,

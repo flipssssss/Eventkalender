@@ -1,5 +1,4 @@
-API-Events: 55 | übernommen: 55
-  2026-08-13 21:00:00 | Metal | Ploutonion + Temora
+API-Events: 56 | übernommen: 56
   2026-08-14 16:45:00 | None | Queer Tours for All - Radical Prenzlauer Berg
   2026-08-14 19:00:00 | Punk | KA-OH (PostPunk / Berlin) + ZWEIKANT (Alternative Hardcore / Berlin)
   2026-08-14 20:00:00 | Punk | Minifridge: How Long Are You Willing to Wait? Album release
@@ -20,6 +19,7 @@ API-Events: 55 | übernommen: 55
   2026-08-26 19:00:00 | Punk | COUSINES LIKE SHIT (AT) & LIIEK (Bln) & FACE VALUE (Bln)
   2026-08-28 19:00:00 | Punk | total eggpunk nightmare with BEER (south carolina) & LOVEBOMB (Mannheim)
   2026-08-28 19:00:00 | Indie | Record Release: PAIR (Indie Rock Elektro / Berlin) + WESTHAFEN (Alternative Indie Rock / Berlin)
+  2026-08-29 19:00:00 | None | Lesung: JÜDISCHE IDENTITÄTEN UND ANTISEMITISMUS IM PUNK
   2026-08-29 19:00:00 | Punk | ELENDE LEIBER + MIẞTRÄU
   2026-08-31 19:00:00 | Punk | UNCERTAINTY (Queercore/UK), TENSION (HC-Punk/UK), BITTER JEAN (Hardcore/Berlin)
   2026-09-02 19:30:00 | Metal | USU pres.: Methadone Skies + Earth Ship | Neue Zukunft - 02.09.2026

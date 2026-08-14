@@ -1,7 +1,7 @@
-Vorstellungen gesamt: 252 | Filmbilder: 237
-Sputnik: FEHLER 429 Client Error: Too Many Requests for url: https://www.berlin.de/kino/_bin/kinodetail.php/31975
-Lichtblick: 15 Vorstellungen
-Kino Zukunft: 23 Vorstellungen
-Ladenkino: 153 Vorstellungen
-Wolf Kino: 44 Vorstellungen
-Klick Kino: 17 Vorstellungen
+Vorstellungen gesamt: 258 | Filmbilder: 241
+Sputnik: 43 Vorstellungen
+Lichtblick: 13 Vorstellungen
+Kino Zukunft: 20 Vorstellungen
+Ladenkino: 130 Vorstellungen
+Wolf Kino: 37 Vorstellungen
+Klick Kino: 15 Vorstellungen

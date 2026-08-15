@@ -1,8 +1,5 @@
-Event-Links: 19 | Events: 19
+Event-Links: 19 | Events: 16
   2026-07-04 17:00:00 | Krankenhauskirche im Wuhlgarten, Brebacher Weg 15, 12683, Berlin | ZERBRECHLICHE SCHÖNHEIT - Marita Czepa
-  2026-08-11 20:30:00 | A-Trane Jazzclub, Pestalozzistraße 105, 10625, Berlin | Jazz-Saxophonist TOBIAS MEINHART
-  2026-08-15 20:00:00 | Brotfabrik, Caligariplatz 1, 13086, Berlin | Hot and Free. Internationale Perspektiven des komponierten Jazz. Hannes Zerbe Quintett.
-  2026-08-15 20:00:00 | Berliner Berg Brauerei, Treptower Str. 39, 12059, Berlin | Ivanov Vibe
   2026-08-16 20:00:00 | Zimmer 16, Florastraße 16, 13187, Berlin | Jamsession - Was mit Jazz
   2026-07-07 19:00:00 | Globe Berlin, Sömmeringstraße 15, 10589, Berlin | The Swingin' Hermlins
   2026-07-21 19:30:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Die Rickenbackers Session
@@ -16,5 +13,5 @@ Event-Links: 19 | Events: 19
   2026-08-28 20:00:00 | Berliner Berg Brauerei, Treptower Str. 39, 12059, Berlin | Diego Piñera & Friends
   2026-08-29 17:00:00 | Jagdschloss Stern, Jagdhausstraße, 14480, Potsdam | Schlossnacht mit Illumination und Jazz
   2026-09-05 20:30:00 | ausland, Lychener Str. 60, 10437, Berlin | biegungen im ausland
+  2026-09-06 17:00:00 | Kulturhaus Centre Bagatelle, Zeltinger Straße 6, 13465, Berlin | Europe Blues Train Festival meets Jazz@Centre Bagatelle
   2026-09-11 20:00:00 | Radialsystem, Holzmarktstr. 33, 10243, Berlin | 20 Jahre Andromeda Mega Express Orchestra
-  2026-09-12 18:00:00 | Strandbad Wendenschloss, Möllhausenufer 30, 12557, Berlin | Live Session im Strandbad : Bird Watch Trio

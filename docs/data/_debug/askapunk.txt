@@ -1,7 +1,4 @@
-API-Events: 56 | übernommen: 56
-  2026-08-14 16:45:00 | None | Queer Tours for All - Radical Prenzlauer Berg
-  2026-08-14 19:00:00 | Punk | KA-OH (PostPunk / Berlin) + ZWEIKANT (Alternative Hardcore / Berlin)
-  2026-08-14 20:00:00 | Punk | Minifridge: How Long Are You Willing to Wait? Album release
+API-Events: 54 | übernommen: 54
   2026-08-15 19:00:00 | Punk | R.O.S.A. "NO PEACE FOR YOU" // RELEASE SHOW
   2026-08-15 20:00:00 | Punk | Todesstrahlen + Indiscreet Jewels + Shunt + Rasmus Weirup
   2026-08-16 14:45:00 | None | Queer Tours for All - Gay and Sapphic Schöneberg
@@ -17,8 +14,8 @@ API-Events: 56 | übernommen: 56
   2026-08-25 19:00:00 | Rock | MERMAID MAN (psych/garage) + TAFTIR (neo-psychedelic)
   2026-08-26 19:00:00 | Punk | LUGE + 13YC
   2026-08-26 19:00:00 | Punk | COUSINES LIKE SHIT (AT) & LIIEK (Bln) & FACE VALUE (Bln)
-  2026-08-28 19:00:00 | Punk | total eggpunk nightmare with BEER (south carolina) & LOVEBOMB (Mannheim)
   2026-08-28 19:00:00 | Indie | Record Release: PAIR (Indie Rock Elektro / Berlin) + WESTHAFEN (Alternative Indie Rock / Berlin)
+  2026-08-28 19:00:00 | Punk | total eggpunk nightmare with BEER (south carolina) & LOVEBOMB (Mannheim)
   2026-08-29 19:00:00 | None | Lesung: JÜDISCHE IDENTITÄTEN UND ANTISEMITISMUS IM PUNK
   2026-08-29 19:00:00 | Punk | ELENDE LEIBER + MIẞTRÄU
   2026-08-31 19:00:00 | Punk | UNCERTAINTY (Queercore/UK), TENSION (HC-Punk/UK), BITTER JEAN (Hardcore/Berlin)
@@ -29,3 +26,6 @@ API-Events: 56 | übernommen: 56
   2026-09-05 13:00:00 | Punk | Le Désordre C'est Moi Festival
   2026-09-05 17:00:00 | None | Tiergarten Maleficium
   2026-09-05 19:00:00 | Punk | ANCST | SVDESTADA | MARNÖ | BRÜD
+  2026-09-05 20:00:00 | Punk | Tense + Onyon + Alibi
+  2026-09-05 21:00:00 | Punk | KALTE HAND // COLD SUMMER // GUM / September 5, 2026 / Kastanie Berlin
+  2026-09-07 19:00:00 | None | Giöbia // B.L.O. Kantine Berlin (support: Icarus Burns)

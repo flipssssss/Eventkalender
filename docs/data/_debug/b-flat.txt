@@ -1,7 +1,6 @@
 top-keys: ['website', 'websiteSettings', 'collection', 'shoppingCart', 'shareButtons', 'showCart', 'localizedStrings', 'userAccountsContext', 'template', 'uiextensions', 'empty', 'emptyFolder', 'calendarView', 'pagination', 'upcoming']
-items: 42 | Events: 42
+items: 41 | Events: 41
 erstes item keys: ['id', 'collectionId', 'recordType', 'addedOn', 'updatedOn', 'starred', 'passthrough', 'tags', 'categories', 'workflowState', 'publishOn', 'authorId', 'systemDataId', 'systemDataVariants', 'systemDataSourceType', 'filename', 'mediaFocalPoint', 'colorData', 'urlId', 'title', 'sourceUrl', 'body', 'excerpt', 'location', 'customContent']
-  2026-08-14 09:00:00.506000 | STREAMLINE ORCHESTRA&nbsp;
   2026-08-15 09:00:00.506000 | Marcos Coll Band feat. Emiliano Juarez
   2026-08-16 09:00:00.506000 | David Anthony Rose &amp; Manouche '26 - „La vie en rose“
   2026-08-18 09:00:00.506000 | Jessica Kandeler and Mega Nice Band
@@ -31,3 +30,4 @@ erstes item keys: ['id', 'collectionId', 'recordType', 'addedOn', 'updatedOn', '
   2026-09-15 09:00:00.506000 | Steve Nanda Oktett
   2026-09-16 09:00:00.936000 | Robins Nest - Jamsession
   2026-09-17 09:00:00.506000 | "Odd Wisdom" Feat: Zuza
+  2026-09-18 09:00:00.506000 | Ed Partyka Jazz Orchestra Feat: Karin Meier (CH)

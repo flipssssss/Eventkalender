@@ -1,7 +1,6 @@
 Häuser ohne kuratierte Öffnungszeiten (in scrapers/openinghours.py ergänzen):
 
 Café Cralle
-Eszenzia
 Georg-Kolbe-Museum
 Haus am Waldsee
 Museum Barberini

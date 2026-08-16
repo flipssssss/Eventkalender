@@ -1,6 +1,6 @@
 URL: https://bdsm-berlin.de/kalender/
   HTTP-Status: 200
-  HTML-Länge: 468421 Zeichen
+  HTML-Länge: 468436 Zeichen
   JSON-LD vorhanden: True
   Events gefunden: 47
   Mögliche Programm-Unterseiten:

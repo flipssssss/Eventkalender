@@ -1,28 +1,5 @@
-event-blocks: 10 | Events: 10
+event-blocks: 9 | Events: 9
 
-<div class="event-block">
- <!-- Zeile 1: Datum + Titel -->
- <div class="event-row-1">
-  <div class="event-time">
-   Samstag, 15. Aug. 21:30
-  </div>
-  <div class="event-title">
-   Steve Morell
-  </div>
- </div>
- <!-- Zeile 2: Bild + Beschreibung -->
- <div class="event-row-2">
-  <div class="event-image">
-   <img alt="" src="ProgrammFotos/Steve_Morell_2026_08_15.jpg"/>
-  </div>
-  <div class="event-description">
-   plays one of his unforgettable sets --- welcome back at olfe
-  </div>
- </div>
-</div>
-
-
-----
 <div class="event-block">
  <!-- Zeile 1: Datum + Titel -->
  <div class="event-row-1">
@@ -84,6 +61,29 @@ event-blocks: 10 | Events: 10
   </div>
   <div class="event-description">
    Rooted in Sao Paulos underground and now based in Berlin, Brazilian DJ Pleasure favours curiosity and texture over genre. Moving across eras of dance music, her sets are guided by mood, pacing and the logic of the dancefloor, while chasing the principle behind her name. In Berlin, she is also part of AT YOUR SERVICE, a queer, migrant-led party series known for unpretentious, high-intensity nights.
+  </div>
+ </div>
+</div>
+
+
+----
+<div class="event-block">
+ <!-- Zeile 1: Datum + Titel -->
+ <div class="event-row-1">
+  <div class="event-time">
+   Samstag, 22. Aug. 21:30
+  </div>
+  <div class="event-title">
+   Spit'n'Sawdust
+  </div>
+ </div>
+ <!-- Zeile 2: Bild + Beschreibung -->
+ <div class="event-row-2">
+  <div class="event-image">
+   <img alt="" src="ProgrammFotos/Spit_n_Sawdust_2026_08_22.jpg"/>
+  </div>
+  <div class="event-description">
+   In-Kraut --- Disco --- Punk --- No Wave --- Macht euch auf was gefasst! Vinyl only Queens!
   </div>
  </div>
 </div>

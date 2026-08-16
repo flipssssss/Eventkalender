@@ -1,5 +1,14 @@
-Events (vor Dedup): 0
-https://stressfaktor.squat.net/termine/alle page 0: FEHLER HTTPSConnectionPool(host='stressfaktor.squat.net', port=443): Max retries exceeded with url: /termine/alle (Caused by ConnectTimeoutError(<HTTPSConnection(host='stressfaktor.squat.net', port=443) at 0x7f5fae082650>, 'Connection to stressfaktor.squat.net timed out. (connect timeout=25)'))
-→ Fallback auf /termine
-https://stressfaktor.squat.net/termine page 0: FEHLER HTTPSConnectionPool(host='stressfaktor.squat.net', port=443): Max retries exceeded with url: /termine (Caused by ConnectTimeoutError(<HTTPSConnection(host='stressfaktor.squat.net', port=443) at 0x7f5fae083b10>, 'Connection to stressfaktor.squat.net timed out. (connect timeout=25)'))
-Anubis-Notizen: 
+Events (vor Dedup): 360
+https://stressfaktor.squat.net/termine/alle page 0: 30 Events (2026-08-15…2026-08-18)
+https://stressfaktor.squat.net/termine/alle page 1: 30 Events (2026-08-18…2026-08-20)
+https://stressfaktor.squat.net/termine/alle page 2: 30 Events (2026-08-20…2026-08-22)
+https://stressfaktor.squat.net/termine/alle page 3: 30 Events (2026-08-22…2026-08-25)
+https://stressfaktor.squat.net/termine/alle page 4: 30 Events (2026-08-26…2026-08-27)
+https://stressfaktor.squat.net/termine/alle page 5: 30 Events (2026-08-27…2026-08-30)
+https://stressfaktor.squat.net/termine/alle page 6: 30 Events (2026-08-30…2026-09-02)
+https://stressfaktor.squat.net/termine/alle page 7: 30 Events (2026-09-02…2026-09-06)
+https://stressfaktor.squat.net/termine/alle page 8: 30 Events (2026-09-06…2026-09-10)
+https://stressfaktor.squat.net/termine/alle page 9: 30 Events (2026-09-10…2026-09-14)
+https://stressfaktor.squat.net/termine/alle page 10: 30 Events (2026-09-14…2026-09-17)
+https://stressfaktor.squat.net/termine/alle page 11: 30 Events (2026-09-17…2026-09-22)
+Anubis-Notizen: PoW: difficulty=2 nonce=103 hash=00362302a447… pass-status=200 cookies=['techaro.lol-anubis-cookie-verification', 'techaro.lol-anubis-auth']

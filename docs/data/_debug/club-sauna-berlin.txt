@@ -1,5 +1,4 @@
-Events: 21
-  2026-08-14 17:30:00 | flinta sweat
+Events: 20
   2026-08-15 17:30:00 | gender mix
   2026-08-19 17:30:00 | gender mix
   2026-08-20 17:30:00 | puppy sweat

@@ -1356,6 +1356,12 @@
   "lng": 13.3647492
  },
  "Genezareth-Kirche Herrfurthplatz 1 12049 Berlin Deutschland": null,
+ "Genter Straße 60, 13353 Berlin": {
+  "address": "Genter Straße 60, 13353 Wedding",
+  "bezirk": "Mitte",
+  "lat": 52.5485624,
+  "lng": 13.3522707
+ },
  "Genter Straße 60, 13533 Berlin": {
   "address": "Genter Straße 60, 13353 Wedding",
   "bezirk": "Mitte",
@@ -1382,6 +1388,12 @@
  },
  "Globe Berlin, Sömmeringstraße 15, 10589, Berlin": null,
  "Gneisenaustr. 2a, 10961 Berlin": {
+  "address": "Gneisenaustraße 2a, 10961 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4919487,
+  "lng": 13.3889569
+ },
+ "Gneisenaustr. 2a, 10962 Berlin": {
   "address": "Gneisenaustraße 2a, 10961 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.4919487,
@@ -1775,6 +1787,7 @@
  },
  "Institut für Europäische Ethnologie der HU, Raum 408, Anton-Wilhelm-Amo-Straße 40-41, 10117 Berlin": null,
  "Interbüro Genter Straße 60 13533 Berlin Deutschland": null,
+ "Interbüro, Genter Straße 60, 13353 Berlin": null,
  "Interkulturelles Haus - Theater unterm Dach, Schönfließer Straße 7, 10439, Berlin": null,
  "Invalidenstraße 129, 10115 Berlin": {
   "address": "Invalidenstraße 129, 10115 Mitte",
@@ -1887,6 +1900,7 @@
   "lat": 52.5136974,
   "lng": 13.4666469
  },
+ "KAOX, Türrschmidtstraße 1, 10317 Berlin": null,
  "KARA Perleberger Straße 59, 10559 Berlin": {
   "address": "Perleberger Straße 59, 10559 Moabit",
   "bezirk": "Mitte",
@@ -2164,6 +2178,12 @@
   "lat": 52.5404746,
   "lng": 13.412219
  },
+ "Kopenhagener Straße 17, 10437 Berlin": {
+  "address": "Kopenhagener Straße 17, 10437 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5491327,
+  "lng": 13.4074992
+ },
  "Kopenicker Str. 147, 10997 Berlin": {
   "address": "Köpenicker Straße 147, 10997 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -2366,6 +2386,7 @@
   "lat": 52.5077022,
   "lng": 13.4260264
  },
+ "Körnerpark am Springbrunnen, Schierker Straße, 12051 Berlin": null,
  "Kühlspot Social Club, Lehderstrasse 74, 13086, Berlin": {
   "address": "Lehderstraße 74-79, 13086 Weißensee",
   "bezirk": "Pankow",
@@ -3054,6 +3075,7 @@
  "New Casa, Wurzener Straße 6, 12627 Berlin": null,
  "New Casa, Wurzener Straße 6-8, 12627 Berlin": null,
  "New Casa, Wurzener Straße 6–8, Hellersdorf 12627 Berlin Deutschland": null,
+ "New Fears - Gallery for dance, Berlin": null,
  "New Yorck im Bethanien Mariannenplatz 2A 10997 Berlin Deutschland": null,
  "NewYorck im Bethanien Mariannenplatz 2A 10997 Berlin Deutschland": null,
  "NewYorck im Bethanien Mariannenplatz 2A, 10997 Berlin": null,
@@ -3248,6 +3270,12 @@
   "lat": 52.5163553,
   "lng": 13.3786828
  },
+ "Park am Gleisdreieck, 10963 Berlin": {
+  "address": "Flottwellstraße, 10785 Tiergarten",
+  "bezirk": "Mitte",
+  "lat": 52.5016445,
+  "lng": 13.3722927
+ },
  "Park am Gleisdreieck, Möckernstraße 26, 10963 Berlin": null,
  "Peppi Guggenheim, Weichselstrasse 7, 12043, Berlin": {
   "address": "Weichselstraße 7, 12043 Neukölln",
@@ -3422,6 +3450,7 @@
  },
  "Raumerweiterungshalle Berlin": null,
  "Raumerweiterungshalle, Berlin": null,
+ "Raumerweiterungshalle, Kopenhagener Straße 17, 10437, Berlin": null,
  "Refuge Worldwide, Niemetzstraße 1, 12055 Berlin": {
   "address": "Niemetzstraße 1, 12055 Neukölln",
   "bezirk": "Neukölln",
@@ -3792,6 +3821,12 @@
   "bezirk": "Neukölln",
   "lat": 52.4704756,
   "lng": 13.4376519
+ },
+ "Schierker Straße 1205, 12051 Berlin": {
+  "address": "Schierker Straße, 12051 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.470252,
+  "lng": 13.4333368
  },
  "Schifffahrtsufer 2, 13581 Berlin": {
   "address": "Hermann-Oxfort-Promenade, 13581 Spandau",
@@ -4323,6 +4358,12 @@
   "lng": 13.4758561
  },
  "Türrschmidtstraße 1 10317, 10317 Berlin": null,
+ "Türrschmidtstraße 1, 10317 Berlin": {
+  "address": "Türrschmidtstraße 1, 10317 Rummelsburg",
+  "bezirk": "Lichtenberg",
+  "lat": 52.5026366,
+  "lng": 13.4758561
+ },
  "U-BHf Turmstraße 10551 Berlin": null,
  "U-Bhf Afrikanische Straße, vor der Steinbock Apotheke, 13349 Berlin": null,
  "U-Bhf Eberswalder Straße, 10437 Berlin": null,
@@ -4379,6 +4420,7 @@
   "lat": 52.4634213,
   "lng": 13.3287241
  },
+ "Versammlungsraum in dem Mehringhof Gneisenaustr. 2a 10962 Berlin Deutschland": null,
  "Vetomat Wühlischstr. 42 10247 Berlin Deutschland": {
   "address": "Wühlischstraße 42, 10245 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",

@@ -861,6 +861,12 @@
  },
  "Bundeskanzler*innenamt, Willy-Brandt-Straße 1, 10557 Berlin": null,
  "Bundeskanzler_innenamt Willy-Brandt-Straße 1 10557 Berlin Deutschland": null,
+ "Bundesplatz Kino, Berlin": {
+  "address": "Bundesplatz 14, 10715 Wilmersdorf",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.4789837,
+  "lng": 13.3293579
+ },
  "Bundesrat Leipziger Straße 3-4 10117 Berlin Deutschland": {
   "address": "Leipziger Straße 3-4, 10117 Mitte",
   "bezirk": "Mitte",
@@ -1880,6 +1886,12 @@
   "lat": 52.507824,
   "lng": 13.4271106
  },
+ "K-fetisch Wildenbruchstraße 86 12045 Berlin Deutschland": {
+  "address": "Wildenbruchstraße 86, 12045 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4830906,
+  "lng": 13.4417527
+ },
  "K19 Café Kreutzigerstr. 19 10247 Berlin Deutschland": null,
  "K19 Café Kreutzigerstr. 19 10247, 10247 Berlin": null,
  "K19, Kreutzigerstraße 19, 10247 Berlin": {
@@ -2172,6 +2184,7 @@
   "lat": 52.5035754,
   "lng": 13.4585291
  },
+ "Komşu Keller (im Hof direk links) Kottbusser Straße 4-5, 10999 Berlin": null,
  "Konnopke's Imbiss Schönhauser Allee 44b, 10435, Berlin": {
   "address": "Schönhauser Allee 44b, 10435 Prenzlauer Berg",
   "bezirk": "Pankow",
@@ -2195,6 +2208,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.4957474,
   "lng": 13.420274
+ },
+ "Kottbusser Straße 4-5, 10999 Berlin": {
+  "address": "Kottbusser Straße, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4986142,
+  "lng": 13.4186324
  },
  "Kottbusser Tor (Kreuzberg) Berlin Deutschland": {
   "address": "Kottbusser Tor, 10999 Kreuzberg",
@@ -4224,6 +4243,12 @@
  "Thomashöhe Hartungbaum, Berlin": null,
  "Thomashöhe, Hartungbaum, Berlin": null,
  "Thusneldaallee 1, 10551 Berlin": null,
+ "Tiergarten 10551 Berlin Deutschland": {
+  "address": "Tiergarten",
+  "bezirk": "Mitte",
+  "lat": 52.5097776,
+  "lng": 13.3572597
+ },
  "Tiergartenstraße 19 - 21, 10785 Berlin": {
   "address": "Tiergartenstraße, 10785 Tiergarten",
   "bezirk": "Mitte",

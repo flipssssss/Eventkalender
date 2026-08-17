@@ -1,5 +1,5 @@
-Listenseite: 21 Event-Slugs gefunden
-Events gebaut: 21
+Listenseite: 20 Event-Slugs gefunden
+Events gebaut: 20
 
 --- DIAGNOSE 1. Detailseite ---
 JSON-LD im HTML: True | wix-warmup-data: True

@@ -2152,6 +2152,7 @@
  "Kiezraum Dragoner Areal, Mehringdamm, 10963 Berlin": null,
  "Kiezraum auf dem Dragoner-Areal Berlin": null,
  "Kiezraum auf dem Dragoner-Areal Berlin Deutschland": null,
+ "Kiezraum auf dem DragonerAreal Mehringdamm 22 (hinter dem Finanzamt) Berlin Deutschland": null,
  "Kiezraum auf dem Dragonerareal Mehringdamm 20 10961 Berlin Deutschland": null,
  "Kino Durchsfenster, Filmclub K18 Media Space K18, Kreutziger Straße 18, Friedrichshain (Südkiez) Berlin Deutschland": null,
  "Kino Zukunft, Berlin": {
@@ -2995,6 +2996,12 @@
   "lat": 52.4958755,
   "lng": 13.3885858
  },
+ "Mehringdamm 22, Berlin": {
+  "address": "Mehringdamm 22, 10961 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.494773,
+  "lng": 13.3885465
+ },
  "Mehringdamm 34, 10961 Berlin": {
   "address": "Mehringdamm 34, 10961 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -3355,6 +3362,12 @@
   "lng": 13.3722927
  },
  "Park am Gleisdreieck, Möckernstraße 26, 10963 Berlin": null,
+ "Paul-Lincke-Ufer 2, 10999 Berlin": {
+  "address": "Paul-Lincke-Ufer 2, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4918988,
+  "lng": 13.437787
+ },
  "Peppi Guggenheim, Weichselstrasse 7, 12043, Berlin": {
   "address": "Weichselstraße 7, 12043 Neukölln",
   "bezirk": "Neukölln",
@@ -4111,6 +4124,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.4990674,
   "lng": 13.4244238
+ },
+ "Skalitzer Straße, Berlin": {
+  "address": "Skalitzer Straße, 10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5005478,
+  "lng": 13.4412528
  },
  "Skalitzer str. 6 10997, 10997 Berlin": null,
  "Skalitzer str. 6, 10997 Berlin": {
@@ -4893,6 +4912,7 @@
   "lat": 52.4937932,
   "lng": 13.4296611
  },
+ "bUm Paul-Lincke-Ufer 2 10999 Berlin Deutschland": null,
  "bUm – Raum für solidarisches Miteinander Paul-Lincke-Ufer 21 10999 Berlin Deutschland": {
   "address": "Paul-Lincke-Ufer 21, 10999 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",

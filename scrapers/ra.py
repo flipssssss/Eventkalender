@@ -23,7 +23,7 @@ DEBUG_DIR = pathlib.Path(__file__).resolve().parents[1] / "docs" / "data" / "_de
 
 # (type, id-or-slug) -- followed RA entities. Add a line to follow more.
 RA_FOLLOWS = [
-    ("club", "28354"), ("club", "98993"),
+    ("club", "28354"), ("club", "98993"), ("club", "298230"),
     ("promoter", "82597"), ("promoter", "71007"), ("promoter", "80958"),
     ("promoter", "79889"), ("artist", "horsemeatdisco"),
     ("promoter", "84128"),  # Klub Verboten

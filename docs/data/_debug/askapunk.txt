@@ -1,4 +1,4 @@
-API-Events: 52 | übernommen: 52
+API-Events: 53 | übernommen: 53
   2026-08-18 18:45:00 | None | Queer Tours for All - Queer Kreuzberg
   2026-08-19 19:00:00 | Rock | 10¹⁷ - Colin Stetson, Stian Westerhus & Erland Dahlen
   2026-08-19 20:00:00 | Punk | Hot Load (+ Support)
@@ -9,12 +9,13 @@ API-Events: 52 | übernommen: 52
   2026-08-23 14:45:00 | None | Queer Tours for All - Gay and Sapphic Schöneberg
   2026-08-23 19:00:00 | None | GENERATION Y PUNK – UPDATE EINER SUBKULTUR: „Von Fanzines, Faschos und der Gen-Y“ + Vortrag „Einfach machen – Wie linke Subkultur durch Selbstbeteiligung lebend
   2026-08-25 19:00:00 | Rock | MERMAID MAN (psych/garage) + TAFTIR (neo-psychedelic)
-  2026-08-26 19:00:00 | Punk | LUGE + 13YC
   2026-08-26 19:00:00 | Punk | COUSINES LIKE SHIT (AT) & LIIEK (Bln) & FACE VALUE (Bln)
+  2026-08-26 19:00:00 | Punk | LUGE + 13YC
   2026-08-28 19:00:00 | Punk | total eggpunk nightmare with BEER (south carolina) & LOVEBOMB (Mannheim)
   2026-08-28 19:00:00 | Indie | Record Release: PAIR (Indie Rock Elektro / Berlin) + WESTHAFEN (Alternative Indie Rock / Berlin)
   2026-08-29 19:00:00 | None | Lesung: JÜDISCHE IDENTITÄTEN UND ANTISEMITISMUS IM PUNK
   2026-08-29 19:00:00 | Punk | ELENDE LEIBER + MIẞTRÄU
+  2026-08-30 19:00:00 | Punk | Recovery Day + Tavare + Hannah Louve Benedum
   2026-08-31 19:00:00 | Punk | UNCERTAINTY (Queercore/UK), TENSION (HC-Punk/UK), BITTER JEAN (Hardcore/Berlin)
   2026-09-02 19:30:00 | Metal | USU pres.: Methadone Skies + Earth Ship | Neue Zukunft - 02.09.2026
   2026-09-03 19:00:00 | Metal | Smote, Codex Serafini (heavy psych, drone, ritual)
@@ -28,4 +29,3 @@ API-Events: 52 | übernommen: 52
   2026-09-07 19:00:00 | None | Giöbia // B.L.O. Kantine Berlin (support: Icarus Burns)
   2026-09-08 19:00:00 | Punk | GEOGRAPHY OF THE MOON (diy post-punk psych-wave duo) + SEND ME LOVE LETTERS (indie-rock, fr)
   2026-09-09 07:00:00 | None | concert @ bethaniendamm
-  2026-09-10 17:00:00 | Metal | +++ BERLIN SWAMP FEST 2026 +++

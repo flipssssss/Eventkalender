@@ -1,7 +1,6 @@
 top-keys: ['website', 'websiteSettings', 'collection', 'shoppingCart', 'shareButtons', 'showCart', 'localizedStrings', 'userAccountsContext', 'template', 'uiextensions', 'empty', 'emptyFolder', 'calendarView', 'pagination', 'upcoming']
-items: 39 | Events: 39
+items: 38 | Events: 38
 erstes item keys: ['id', 'collectionId', 'recordType', 'addedOn', 'updatedOn', 'starred', 'passthrough', 'tags', 'categories', 'workflowState', 'publishOn', 'authorId', 'systemDataId', 'systemDataVariants', 'systemDataSourceType', 'filename', 'mediaFocalPoint', 'colorData', 'urlId', 'title', 'sourceUrl', 'body', 'excerpt', 'location', 'customContent']
-  2026-08-18 09:00:00.506000 | Jessica Kandeler and Mega Nice Band
   2026-08-19 09:00:00.936000 | Robins Nest - Jamsession
   2026-08-20 09:00:00.506000 | Holger Scheidt "Roots To The Back"
   2026-08-21 09:00:00.506000 | CONEXÃO BERLIN
@@ -31,3 +30,4 @@ erstes item keys: ['id', 'collectionId', 'recordType', 'addedOn', 'updatedOn', '
   2026-09-18 09:00:00.506000 | Ed Partyka Jazz Orchestra Feat: Karin Meier (CH)
   2026-09-19 09:00:00.506000 | Ed Partyka Jazz Orchestra Feat: Karin Meier (CH)
   2026-09-20 09:00:00.506000 | Simone Basile Trio "Perspectives" / IT
+  2026-09-22 09:00:00.506000 | Maik Krahl - Rain, Flowers and New Beginnings&nbsp;

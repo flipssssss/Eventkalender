@@ -1,2 +1,89 @@
-event-blocks: 0 | Events: 0
+event-blocks: 8 | Events: 8
 
+<div class="event-block">
+ <!-- Zeile 1: Datum + Titel -->
+ <div class="event-row-1">
+  <div class="event-time">
+   Donnerstag, 20. Aug. 22:00
+  </div>
+  <div class="event-title">
+   Schwulenschubsen
+  </div>
+ </div>
+ <!-- Zeile 2: Bild + Beschreibung -->
+ <div class="event-row-2">
+  <div class="event-image event-image--empty">
+  </div>
+  <div class="event-description">
+   Barthymin
+  </div>
+ </div>
+</div>
+
+
+----
+<div class="event-block">
+ <!-- Zeile 1: Datum + Titel -->
+ <div class="event-row-1">
+  <div class="event-time">
+   Freitag, 21. Aug. 22:00
+  </div>
+  <div class="event-title">
+   Pleasure
+  </div>
+ </div>
+ <!-- Zeile 2: Bild + Beschreibung -->
+ <div class="event-row-2">
+  <div class="event-image">
+   <img alt="" src="ProgrammFotos/Pleasure_2026_08_21.jpg"/>
+  </div>
+  <div class="event-description">
+   Rooted in Sao Paulos underground and now based in Berlin, Brazilian DJ Pleasure favours curiosity and texture over genre. Moving across eras of dance music, her sets are guided by mood, pacing and the logic of the dancefloor, while chasing the principle behind her name. In Berlin, she is also part of AT YOUR SERVICE, a queer, migrant-led party series known for unpretentious, high-intensity nights.
+  </div>
+ </div>
+</div>
+
+
+----
+<div class="event-block">
+ <!-- Zeile 1: Datum + Titel -->
+ <div class="event-row-1">
+  <div class="event-time">
+   Samstag, 22. Aug. 21:30
+  </div>
+  <div class="event-title">
+   Spit'n'Sawdust
+  </div>
+ </div>
+ <!-- Zeile 2: Bild + Beschreibung -->
+ <div class="event-row-2">
+  <div class="event-image">
+   <img alt="" src="ProgrammFotos/Spit_n_Sawdust_2026_08_22.jpg"/>
+  </div>
+  <div class="event-description">
+   In-Kraut --- Disco --- Punk --- No Wave --- Macht euch auf was gefasst! Vinyl only Queens!
+  </div>
+ </div>
+</div>
+
+
+----
+<div class="event-block">
+ <!-- Zeile 1: Datum + Titel -->
+ <div class="event-row-1">
+  <div class="event-time">
+   Dienstag, 25. Aug. 21:00
+  </div>
+  <div class="event-title">
+   FLINTA*-Abend
+  </div>
+ </div>
+ <!-- Zeile 2: Bild + Beschreibung -->
+ <div class="event-row-2">
+  <div class="event-image event-image--empty">
+  </div>
+  <div class="event-description">
+   Nora b2b Zei
+  </div>
+ </div>
+</div>

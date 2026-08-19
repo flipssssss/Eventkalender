@@ -998,6 +998,12 @@
  },
  "Campus Mitte, Humboldt-Universität 10117 Berlin Deutschland": null,
  "Capoeira Akademie Berlin, Hasenheide 9 (im 2. Hinterhof 1.Stock), 10967 Berlin": null,
+ "Casa Kuà, Naunynstraße 72, 10997 Berlin": {
+  "address": "Naunynstraße 72, 10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5012499,
+  "lng": 13.4229186
+ },
  "Casakua, Naunynstraße 72, 10997 Berlin": null,
  "Casino für Sozialmedizin Sonnenallee 100 12045 Berlin Deutschland": null,
  "Casino für Sozialmedizin, Sonnenallee 100, 12045 Berlin": null,
@@ -1122,6 +1128,7 @@
   "lat": 52.5002301,
   "lng": 13.4176869
  },
+ "Drinkhall Venue Oranienstrasse 36 10999 Berlin Deutschland": null,
  "Drugstore Potsdamer Str. 134/136 10783 Berlin Deutschland": null,
  "Drugstore im Rockhaus Buchberger Str. 6 10365 Berlin Deutschland": null,
  "Drugstore im Rockhaus Buchberger Str. 6 10365, 10365 Berlin": null,
@@ -1268,6 +1275,7 @@
   "lng": 13.3150557
  },
  "Felix & Noemi, Berlin": null,
+ "Feministisches Zentrum Paula Panke Schulstraße 12 13187 Berlin Deutschland": null,
  "Ficken 3000 Berlin": null,
  "Ficken 3000, Berlin": null,
  "Filmrauschpalast Lehrter Str. 35 10557 Berlin Deutschland": {
@@ -1628,6 +1636,7 @@
   "lat": 52.5289007,
   "lng": 13.4250691
  },
+ "Haus der Jugend Werner-Voß-Damm 47 12101 Berlin Deutschland": null,
  "Haus der Kulturen der Welt, Berlin": {
   "address": "John-Foster-Dulles-Allee 10, 10557 Tiergarten",
   "bezirk": "Mitte",
@@ -1661,6 +1670,12 @@
   "lng": 13.4399161
  },
  "Heimathafen, Karl-Marx-Straße 141 12043 Berlin": null,
+ "Heinrichplatz (Kreuzberg) Berlin Deutschland": {
+  "address": "Rio-Reiser-Platz, Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5002391,
+  "lng": 13.4230764
+ },
  "Herman Schulz Kollektiv Café & Bar, Finowstraße 33, 10247 Berlin": null,
  "Herman Schulz Kollektiv Finowstraße 33, 10247 Berlin": null,
  "Hermann-Ehlers-Platz 1, 12165 Berlin": {
@@ -2522,6 +2537,7 @@
   "lat": 52.5017433,
   "lng": 13.4654291
  },
+ "Laster und Hänger Revaler- Ecke Modersohnstr. 10245 Berlin Deutschland": null,
  "Lauschangriff Rigaer Str. 103 10247 Berlin Deutschland": null,
  "Lauschangriff Rigaer Str. 103 10247, 10247 Berlin": null,
  "Lauseria Lausitzer Straße 10 10999 Berlin Deutschland": null,
@@ -2845,12 +2861,19 @@
   "lat": 52.5072971,
   "lng": 13.4527414
  },
+ "Magdalenenstr. 19, 10365 Berlin": {
+  "address": "Magdalenenstraße 19, 10365 Lichtenberg",
+  "bezirk": "Lichtenberg",
+  "lat": 52.5142306,
+  "lng": 13.4884364
+ },
  "Maigalerie Torstraße 6 10119 Berlin Deutschland": {
   "address": "Torstraße 6, 10119 Mitte",
   "bezirk": "Mitte",
   "lat": 52.5274247,
   "lng": 13.4141624
  },
+ "Majal Sonnenallee 127 Berlin Deutschland": null,
  "Manifest Bücher & Café, Graefestraße 14, 10967 Berlin": null,
  "Mansteinstr. 10, Berlin": {
   "address": "Mansteinstraße 10, 10783 Schöneberg",
@@ -3052,6 +3075,12 @@
   "bezirk": "Steglitz-Zehlendorf",
   "lat": 52.4338463,
   "lng": 13.2543865
+ },
+ "Modersohnstr. 1024, 10245 Berlin": {
+  "address": "Modersohnstraße, 10245 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5007222,
+  "lng": 13.4556662
  },
  "Modersohnstraße 55, Berlin": {
   "address": "Modersohnstraße 55, 10245 Friedrichshain",
@@ -3265,6 +3294,12 @@
   "lat": 52.5003909,
   "lng": 13.4221612
  },
+ "Oranienstrasse 36, 10999 Berlin": {
+  "address": "Oranienstraße 36, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5019179,
+  "lng": 13.4180816
+ },
  "Ort bei Anmeldung Ort bei Anmeldung Berlin": null,
  "Ort bei Anmeldung Ort bei Anmeldung Berlin Deutschland": null,
  "Orwohaus Berlin Deutschland": {
@@ -3281,6 +3316,12 @@
  },
  "Ostkreuz, Gleis 13, 10245 Berlin": null,
  "Ostkreuz, Gleis 3, 10245 Berlin": null,
+ "Other Nature, Berlin": {
+  "address": "Yorckstraße 75, 10965 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4928757,
+  "lng": 13.3820025
+ },
  "Otto-von-Simson-Straße 23, Berlin": {
   "address": "Otto-von-Simson-Straße 23, 14195 Dahlem",
   "bezirk": "Steglitz-Zehlendorf",
@@ -3424,6 +3465,7 @@
   "lat": 52.4565486,
   "lng": 13.3489971
  },
+ "Plattenkosmos (Magdalenenstr. 19) Magdalenenstr. 19 10365 Berlin Deutschland": null,
  "Platz der Republik 1, 11011 Berlin": {
   "address": "Platz der Republik 1, 11011 Tiergarten",
   "bezirk": "Mitte",
@@ -3455,6 +3497,8 @@
   "lat": 52.5070408,
   "lng": 13.3676212
  },
+ "Potse (Zollgarage) Deutschland, Berlin": null,
+ "Potse (Zollgarage), Berlin": null,
  "Potse Zollgarage, Columbiadamm 10, 12101 Berlin": null,
  "Prachttomate Bornsdorfer Straße 9-11, 12053 Berlin": null,
  "Prenzlauer Allee 80, 10405 Berlin": {
@@ -3815,6 +3859,12 @@
   "lat": 52.5442707,
   "lng": 13.3787585
  },
+ "S-Bhf. Köpenick Berlin Deutschland": {
+  "address": "Rudolf-Rühl-Allee, 12555 Köpenick",
+  "bezirk": "Treptow-Köpenick",
+  "lat": 52.4691104,
+  "lng": 13.5528826
+ },
  "S1 Yorckstraße, Berlin": {
   "address": "Yorckstraße, 10965 Schöneberg",
   "bezirk": "Tempelhof-Schöneberg",
@@ -4015,6 +4065,12 @@
   "lat": 52.5171409,
   "lng": 13.4673202
  },
+ "Schulstraße 12, 13187 Berlin": {
+  "address": "Schulstraße, 13187 Pankow",
+  "bezirk": "Pankow",
+  "lat": 52.5695041,
+  "lng": 13.4107964
+ },
  "Schwartzsche Villa, Grunewaldstraße 55, 12165, Berlin": {
   "address": "Grunewaldstraße 55, 12165 Steglitz",
   "bezirk": "Steglitz-Zehlendorf",
@@ -4152,6 +4208,12 @@
   "lng": 13.4389626
  },
  "Sonnenallee 127, 12059 Berlin": {
+  "address": "Sonnenallee 127, 12059 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4802374,
+  "lng": 13.4434931
+ },
+ "Sonnenallee 127, Berlin": {
   "address": "Sonnenallee 127, 12059 Neukölln",
   "bezirk": "Neukölln",
   "lat": 52.4802374,
@@ -4649,6 +4711,12 @@
   "bezirk": "Mitte",
   "lat": 52.5139807,
   "lng": 13.3998494
+ },
+ "Werner-Voß-Damm 47, 12101 Berlin": {
+  "address": "Werner-Voß-Damm, 12101 Tempelhof",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4759874,
+  "lng": 13.3752291
  },
  "Weserstr. 206, 12047 Berlin, Germany": {
   "address": "Weserstraße 206, 12047 Neukölln",

@@ -1,6 +1,7 @@
 Häuser ohne kuratierte Öffnungszeiten (in scrapers/openinghours.py ergänzen):
 
 Café Cralle
+Feministisches Zentrum Paula Panke Schulstraße 12 13187 Berlin Deutschland
 Georg-Kolbe-Museum
 Haus am Waldsee
 Kiosk of Solidarity Elsenstraße 115 / Am Treptower Park 14 Berlin Deutschland

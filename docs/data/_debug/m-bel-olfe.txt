@@ -1,27 +1,5 @@
-event-blocks: 8 | Events: 8
+event-blocks: 7 | Events: 7
 
-<div class="event-block">
- <!-- Zeile 1: Datum + Titel -->
- <div class="event-row-1">
-  <div class="event-time">
-   Donnerstag, 20. Aug. 22:00
-  </div>
-  <div class="event-title">
-   Schwulenschubsen
-  </div>
- </div>
- <!-- Zeile 2: Bild + Beschreibung -->
- <div class="event-row-2">
-  <div class="event-image event-image--empty">
-  </div>
-  <div class="event-description">
-   Barthymin
-  </div>
- </div>
-</div>
-
-
-----
 <div class="event-block">
  <!-- Zeile 1: Datum + Titel -->
  <div class="event-row-1">
@@ -84,6 +62,25 @@ event-blocks: 8 | Events: 8
   </div>
   <div class="event-description">
    Nora b2b Zei
+  </div>
+ </div>
+</div>
+
+
+----
+<div class="event-block">
+ <!-- Zeile 1: Datum + Titel -->
+ <div class="event-row-1">
+  <div class="event-time">
+   Freitag, 28. Aug. 22:00
+  </div>
+  <div class="event-title">
+   Luna Martinez
+  </div>
+ </div>
+ <!-- Zeile 2: Bild + Beschreibung -->
+ <div class="event-row-2">
+  <div class="event-image event-image--empty">
   </div>
  </div>
 </div>

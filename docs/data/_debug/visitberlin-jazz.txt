@@ -1,6 +1,5 @@
 Event-Links: 19 | Events: 19
   2026-07-04 17:00:00 | Krankenhauskirche im Wuhlgarten, Brebacher Weg 15, 12683, Berlin | ZERBRECHLICHE SCHÖNHEIT - Marita Czepa
-  2026-04-22 20:00:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Freestyle Lab – Musik, die jetzt passiert
   2026-08-21 20:02:00 | Brotfabrik, Caligariplatz 1, 13086, Berlin | Hot and Free. Zwischen Tanzband, Rock und Avantgarde ULRICH GUMPERTS B3 QUARTETT
   2026-08-22 20:00:00 | Brotfabrik, Caligariplatz 1, 13086, Berlin | Hot Tropical Nights. TREE - O
   2026-08-22 20:00:00 | Berliner Berg Brauerei, Treptower Str. 39, 12059, Berlin | The Cell The0ry
@@ -18,3 +17,4 @@ Event-Links: 19 | Events: 19
   2026-09-05 20:30:00 | ausland, Lychener Str. 60, 10437, Berlin | biegungen im ausland
   2026-09-06 17:00:00 | Kulturhaus Centre Bagatelle, Zeltinger Straße 6, 13465, Berlin | Europe Blues Train Festival meets Jazz@Centre Bagatelle
   2026-09-09 20:00:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Jon Kenzie concert - Blues, Folk, Soul
+  2026-09-11 20:00:00 | Radialsystem, Holzmarktstr. 33, 10243, Berlin | 20 Jahre Andromeda Mega Express Orchestra

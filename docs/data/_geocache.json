@@ -621,6 +621,12 @@
   "lat": 52.4976443,
   "lng": 13.411914
  },
+ "Berliner Berg Brauerei": {
+  "address": "12059 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4847503,
+  "lng": 13.4577581
+ },
  "Berliner Berg Brauerei, Treptower Str. 39, 12059, Berlin": null,
  "Berliner Kunstmarkt": null,
  "Berliner Philharmonie": null,
@@ -1275,6 +1281,7 @@
   "lng": 13.3150557
  },
  "Felix & Noemi, Berlin": null,
+ "Felix Ruckert, Berlin": null,
  "Feministisches Zentrum Paula Panke Schulstraße 12 13187 Berlin Deutschland": null,
  "Ficken 3000 Berlin": null,
  "Ficken 3000, Berlin": null,
@@ -3143,6 +3150,12 @@
   "lng": 13.4234898
  },
  "Nachbarschaftszentrum Rudi Modersohnstraße 55 Berlin Deutschland": null,
+ "Nansenstr.  12, 12047 Berlin": {
+  "address": "Nansenstraße 12, 12047 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4898608,
+  "lng": 13.4312019
+ },
  "Naunynstr. 60, 10997 Berlin": {
   "address": "Naunynstraße, 10997 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -3471,6 +3484,12 @@
   "bezirk": "Mitte",
   "lat": 52.5186538,
   "lng": 13.3761015
+ },
+ "Platzhaus Helmholtzplatz 10437 Berlin Deutschland": {
+  "address": "Helmholtzplatz 0, 10437 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5427072,
+  "lng": 13.4191812
  },
  "Plänterwald entrance at the corner of Bulgarische Str. & Neue Krugallee., Berlin": null,
  "Potsdamer Platz 1011, 10117 Berlin": {

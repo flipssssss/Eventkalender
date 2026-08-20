@@ -1,5 +1,5 @@
-teaser: 49
-dated: 19
+teaser: 50
+dated: 20
 detail_ok: 27
 detail_err: 0
 recur: 22

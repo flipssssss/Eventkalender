@@ -1,8 +1,8 @@
 Events: 7
-  2026-08-19 17:00:00 | youngStars
   2026-08-20 17:00:00 | 'green' Thursday
   2026-08-21 17:00:00 | Friday Infusions
   2026-08-22 17:00:00 | Saturday Infusions
   2026-08-23 17:00:00 | Sunday Infusions
   2026-08-24 17:00:00 | Monday Infusions
   2026-08-25 17:00:00 | Theme Night
+  2026-08-26 17:00:00 | Wednesday Infusions

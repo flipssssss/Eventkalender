@@ -222,6 +222,12 @@
   "lat": 52.5297369,
   "lng": 13.3971786
  },
+ "Adalbertstr. 95A, 10999 Berlin": {
+  "address": "Adalbertstraße 95a, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5006018,
+  "lng": 13.4182215
+ },
  "Adalbertstraße 69, 10997 Berlin": {
   "address": "Adalbertstraße, 10997 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -489,6 +495,12 @@
  },
  "BAIZ , Schönhauser Allee 26 10435 Berlin": null,
  "BAIZ Schönhauser Allee 26a 10435 Berlin Deutschland": null,
+ "BEGINE, Berlin": {
+  "address": "Potsdamer Straße 138, 10783 Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4967993,
+  "lng": 13.3618999
+ },
  "BHT, Raum D E27, Luxemburger Straße 10, 13353 Berlin": null,
  "BHT, Raum D117, Luxemburger Straße 10, 13353 Berlin": null,
  "BLO Ateliers Kaskelstr. 55 10317 Berlin Deutschland": {
@@ -912,6 +924,7 @@
   "lat": 52.4575695,
   "lng": 13.3796659
  },
+ "Busche Club, Berlin": null,
  "Buttmannstr. 1A, Berlin": {
   "address": "Buttmannstraße 1A, 13357 Gesundbrunnen",
   "bezirk": "Mitte",
@@ -1217,6 +1230,7 @@
   "lng": 13.4309683
  },
  "FAU-Lokal Grüntaler Str. 24 13357 Berlin Deutschland": null,
+ "FHXB Friedrichshain-Kreuzberg Museum Adalbertstr. 95A 10999 Berlin Deutschland": null,
  "FMP1 Franz-Mehring-Platz 1 10243, 10243 Berlin": null,
  "FMP1 Franz-Mehring-Platz 1, 10243 Berlin": {
   "address": "Franz-Mehring-Platz 1, 10243 Friedrichshain",
@@ -1352,6 +1366,12 @@
   "lat": 52.5128,
   "lng": 13.4402215
  },
+ "Französische Botschaft, Pariser Platz 10117 Berlin": {
+  "address": "Pariser Platz 5, 10117 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5171648,
+  "lng": 13.3794979
+ },
  "Frauenhoferstr. 33-36, 10587 Berlin": null,
  "Freiaplatz, 10365 Berlin": {
   "address": "Rüdigerstraße, 10365 Lichtenberg",
@@ -1393,6 +1413,7 @@
   "lng": 13.3942449
  },
  "Frizu Lounge, Berlin": null,
+ "Funkloch (ehem. Cafe U), Bernkasteler Straße 78, 13088 Berlin": null,
  "GRETCHEN, Obentrautstraße 19-21, 10963, Berlin": null,
  "Gambino’s by AMANO, Berlin": null,
  "Garten Markgrafendamm 24c, 10245 Berlin": null,
@@ -2555,6 +2576,12 @@
   "lat": 52.5003669,
   "lng": 13.4316012
  },
+ "Lausitzer Str. 21A, 10999 Berlin": {
+  "address": "Lausitzer Straße 21a, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4959646,
+  "lng": 13.4263213
+ },
  "Lausitzer Str. 21a, 10999 Berlin": {
   "address": "Lausitzer Straße 21a, 10999 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -3686,6 +3713,12 @@
   "lat": 52.4811065,
   "lng": 13.4293362
  },
+ "Reuterstraße 95, 12053 Berlin": {
+  "address": "Reuterstraße 95, 12053 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4811065,
+  "lng": 13.4293362
+ },
  "Revaler Str. 99, 10245 Berlin": {
   "address": "Revaler Straße 99, 10245 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -4116,6 +4149,12 @@
   "lat": 52.5531262,
   "lng": 13.4097182
  },
+ "Schönhauser Allee 177b, 10119 Berlin": {
+  "address": "Schönhauser Allee 177b, 10119 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5313367,
+  "lng": 13.4112365
+ },
  "Schönhauser Allee 26 A, 10435 Berlin": {
   "address": "Schönhauser Allee 26a, 10435 Prenzlauer Berg",
   "bezirk": "Pankow",
@@ -4387,6 +4426,7 @@
  },
  "Tempelhofer Feld, Neuköllner Seite, Haus 104 Tempelhofer Feld, Neuköllner Seite, Haus 104 Tempelhofer Damm Berlin Deutschland": null,
  "Tennis Bar Reuter Str. 95 Berlin Deutschland": null,
+ "Tennis Bar Reuterstraße 95, 12053 Berlin": null,
  "The Castle, The Castle, Berlin Mitte, Invalidenstraße 129, 10115 Berlin": null,
  "The JAXX, Berlin": {
   "address": "Motzstraße 19, 10777 Schöneberg",

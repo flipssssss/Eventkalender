@@ -1,6 +1,5 @@
-Event-Links: 19 | Events: 19
+Event-Links: 19 | Events: 18
   2026-07-04 17:00:00 | Krankenhauskirche im Wuhlgarten, Brebacher Weg 15, 12683, Berlin | ZERBRECHLICHE SCHÖNHEIT - Marita Czepa
-  2026-08-21 20:02:00 | Brotfabrik, Caligariplatz 1, 13086, Berlin | Hot and Free. Zwischen Tanzband, Rock und Avantgarde ULRICH GUMPERTS B3 QUARTETT
   2026-08-22 20:00:00 | Brotfabrik, Caligariplatz 1, 13086, Berlin | Hot Tropical Nights. TREE - O
   2026-08-22 20:00:00 | Berliner Berg Brauerei, Treptower Str. 39, 12059, Berlin | The Cell The0ry
   2026-08-23 19:30:00 | Kulturhaus Centre Bagatelle, Zeltinger Straße 6, 13465, Berlin | Move and Groove im Centre Bagatelle

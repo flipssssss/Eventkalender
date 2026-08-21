@@ -1,8 +1,12 @@
-API-Events: 60 | übernommen: 60
-  2026-08-20 20:00:00 | Punk | Kowa Axis / Aidan Baker / Tim Wyskida
+API-Events: 69 | übernommen: 69
   2026-08-21 13:45:00 | None | Queer Tour for All - Köpenicker Forst
   2026-08-21 15:00:00 | Punk | Bikinikonzert @Greifswalder DIY
+  2026-08-21 19:00:00 | Punk | CRUEL DIVISION + NIDARE + FLESIA
+  2026-08-21 19:00:00 | Punk | Devassas (Portugal) & Die Ausreden (Berlin)
   2026-08-21 19:00:00 | Punk | Greetings From / zhne / Beach Church
+  2026-08-21 20:00:00 | Punk | CLUBS + INESSA ANXIOUS + SCHNALLO
+  2026-08-22 20:00:00 | Punk | Konzert im Freiraum $@#@riterviertel
+  2026-08-22 20:00:00 | Punk | SRAK X TWIGGY
   2026-08-22 20:00:00 | Punk | Vorsicht Kinder - Fleischfressende Pflanzen
   2026-08-23 14:45:00 | None | Queer Tours for All - Gay and Sapphic Schöneberg
   2026-08-23 19:00:00 | None | GENERATION Y PUNK – UPDATE EINER SUBKULTUR: „Von Fanzines, Faschos und der Gen-Y“ + Vortrag „Einfach machen – Wie linke Subkultur durch Selbstbeteiligung lebend
@@ -13,19 +17,15 @@ API-Events: 60 | übernommen: 60
   2026-08-28 18:00:00 | Metal | Morbid Catacombs Fest X
   2026-08-28 19:00:00 | Punk | total eggpunk nightmare with BEER (south carolina) & LOVEBOMB (Mannheim)
   2026-08-28 19:00:00 | Indie | Record Release: PAIR (Indie Rock Elektro / Berlin) + WESTHAFEN (Alternative Indie Rock / Berlin)
-  2026-08-29 19:00:00 | Punk | ELENDE LEIBER + MIẞTRÄU
   2026-08-29 19:00:00 | None | Lesung: JÜDISCHE IDENTITÄTEN UND ANTISEMITISMUS IM PUNK
+  2026-08-29 19:00:00 | Punk | ELENDE LEIBER + MIẞTRÄU
   2026-08-30 13:00:00 | None | Malz Café
   2026-08-30 19:00:00 | Punk | Recovery Day + Tavare + Hannah Louve Benedum
   2026-08-31 19:00:00 | Punk | New Candys (Fuzz Club) & BLKE (Tonzonen)
   2026-08-31 19:00:00 | Punk | UNCERTAINTY (Queercore/UK), TENSION (HC-Punk/UK), BITTER JEAN (Hardcore/Berlin)
   2026-09-02 19:30:00 | Metal | USU pres.: Methadone Skies + Earth Ship | Neue Zukunft - 02.09.2026
   2026-09-03 19:00:00 | Metal | Smote, Codex Serafini (heavy psych, drone, ritual)
+  2026-09-03 19:00:00 | None | JUKEBOX BABY RECORDS - BIRTHDAY PARTY
   2026-09-04 19:00:00 | Metal | Fossilization + Phobocosm + Urza presented by Swamp Conspiracy and DoomShip
   2026-09-04 19:30:00 | None | SUPER KONSOLEN KNEIPE - Round 1
   2026-09-04 20:00:00 | Punk | V (Dark-Wave) + Gelbart (Computer-Pop) @ Schokoladen 4.9.26
-  2026-09-05 13:00:00 | Punk | Le Désordre C'est Moi Festival
-  2026-09-05 17:00:00 | None | Tiergarten Maleficium
-  2026-09-05 19:00:00 | Punk | ANCST | SVDESTADA | MARNÖ | BRÜD
-  2026-09-05 20:00:00 | Punk | Tense + Onyon + Alibi
-  2026-09-05 21:00:00 | Punk | KALTE HAND // COLD SUMMER // GUM / September 5, 2026 / Kastanie Berlin

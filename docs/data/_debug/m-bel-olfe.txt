@@ -4,29 +4,6 @@ event-blocks: 7 | Events: 7
  <!-- Zeile 1: Datum + Titel -->
  <div class="event-row-1">
   <div class="event-time">
-   Freitag, 21. Aug. 22:00
-  </div>
-  <div class="event-title">
-   Pleasure
-  </div>
- </div>
- <!-- Zeile 2: Bild + Beschreibung -->
- <div class="event-row-2">
-  <div class="event-image">
-   <img alt="" src="ProgrammFotos/Pleasure_2026_08_21.jpg"/>
-  </div>
-  <div class="event-description">
-   Rooted in Sao Paulos underground and now based in Berlin, Brazilian DJ Pleasure favours curiosity and texture over genre. Moving across eras of dance music, her sets are guided by mood, pacing and the logic of the dancefloor, while chasing the principle behind her name. In Berlin, she is also part of AT YOUR SERVICE, a queer, migrant-led party series known for unpretentious, high-intensity nights.
-  </div>
- </div>
-</div>
-
-
-----
-<div class="event-block">
- <!-- Zeile 1: Datum + Titel -->
- <div class="event-row-1">
-  <div class="event-time">
    Samstag, 22. Aug. 21:30
   </div>
   <div class="event-title">
@@ -81,6 +58,29 @@ event-blocks: 7 | Events: 7
  <!-- Zeile 2: Bild + Beschreibung -->
  <div class="event-row-2">
   <div class="event-image event-image--empty">
+  </div>
+ </div>
+</div>
+
+
+----
+<div class="event-block">
+ <!-- Zeile 1: Datum + Titel -->
+ <div class="event-row-1">
+  <div class="event-time">
+   Samstag, 29. Aug. 21:30
+  </div>
+  <div class="event-title">
+   Garden of Earthly Delights
+  </div>
+ </div>
+ <!-- Zeile 2: Bild + Beschreibung -->
+ <div class="event-row-2">
+  <div class="event-image">
+   <img alt="" src="ProgrammFotos/Garden_of_Earthly_Delights_2026_08_29.jpg"/>
+  </div>
+  <div class="event-description">
+   DJs Sunshine Schmitt, Julius Nerdinger, Axel + Svenja Flares will take you on a ride on the 60s and 70s soft psych baroque yacht. Strictly vinyl.
   </div>
  </div>
 </div>

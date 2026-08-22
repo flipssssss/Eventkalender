@@ -529,6 +529,13 @@
   "lng": 13.4270501
  },
  "Babylon Kino, Rosa-Luxemburg-Straße 30, 10178 Berlin": null,
+ "Badensche Str. 29, 10715 Berlin": {
+  "address": "Badensche Straße 29, 10715 Wilmersdorf",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.4858633,
+  "lng": 13.3274004
+ },
+ "Badenscher Hof Jazzclub, Badensche Str. 29, 10715, Berlin": null,
  "Baergarten Schnellerstraße 137 12439 Berlin Deutschland": null,
  "Bahnhof Oranienburg Berlin": null,
  "Bahnhof Oranienburg Berlin Deutschland": null,
@@ -1808,6 +1815,7 @@
  },
  "Horte (Strausberg) Peter-Göring-Str. 25, Strausberg Berlin Deutschland": null,
  "Hotel Berlin, Berlin, Lützowplatz 17, Berlin, 10785": null,
+ "House of Flow, Berlin": null,
  "Humboldt Forum, Berlin": {
   "address": "Schloßplatz, 10178 Mitte",
   "bezirk": "Mitte",
@@ -3121,6 +3129,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.502453,
   "lng": 13.4571706
+ },
+ "Monarch, Berlin": {
+  "address": "Skalitzer Straße 134, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4992754,
+  "lng": 13.4194716
  },
  "Motzstraße 25, 10777 Schöneberg, Berlin": {
   "address": "Motzstraße 25, 10777 Schöneberg",
@@ -5047,6 +5061,12 @@
   "lng": 13.4296611
  },
  "che, Berlin": null,
+ "delphi LUX, Berlin": {
+  "address": "Kantstraße 10, 10623 Charlottenburg",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.5060698,
+  "lng": 13.3305818
+ },
  "ehem. Syndikat Weisestr. 56 12049 Berlin Deutschland": null,
  "es die Möglichkeit zum Austausch und zur Vernetzung gibt, Berlin": null,
  "f.a.q. Jonasstr. 40 12053 Berlin Deutschland": null,

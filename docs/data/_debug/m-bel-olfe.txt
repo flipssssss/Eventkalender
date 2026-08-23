@@ -1,28 +1,5 @@
-event-blocks: 7 | Events: 7
+event-blocks: 6 | Events: 6
 
-<div class="event-block">
- <!-- Zeile 1: Datum + Titel -->
- <div class="event-row-1">
-  <div class="event-time">
-   Samstag, 22. Aug. 21:30
-  </div>
-  <div class="event-title">
-   Spit'n'Sawdust
-  </div>
- </div>
- <!-- Zeile 2: Bild + Beschreibung -->
- <div class="event-row-2">
-  <div class="event-image">
-   <img alt="" src="ProgrammFotos/Spit_n_Sawdust_2026_08_22.jpg"/>
-  </div>
-  <div class="event-description">
-   In-Kraut --- Disco --- Punk --- No Wave --- Macht euch auf was gefasst! Vinyl only Queens!
-  </div>
- </div>
-</div>
-
-
-----
 <div class="event-block">
  <!-- Zeile 1: Datum + Titel -->
  <div class="event-row-1">
@@ -81,6 +58,30 @@ event-blocks: 7 | Events: 7
   </div>
   <div class="event-description">
    DJs Sunshine Schmitt, Julius Nerdinger, Axel + Svenja Flares will take you on a ride on the 60s and 70s soft psych baroque yacht. Strictly vinyl.
+  </div>
+ </div>
+</div>
+
+
+----
+<div class="event-block">
+ <!-- Zeile 1: Datum + Titel -->
+ <div class="event-row-1">
+  <div class="event-time">
+   Samstag, 5. Sept. 21:30
+  </div>
+  <div class="event-title">
+   JAPAN TAKEOVER 4
+  </div>
+ </div>
+ <!-- Zeile 2: Bild + Beschreibung -->
+ <div class="event-row-2">
+  <div class="event-image">
+   <img alt="" src="ProgrammFotos/JAPAN_TAKEOVER_4_2026_09_05.jpg"/>
+  </div>
+  <div class="event-description">
+   100% made in Japan. 
+Djs: Nihon No Jazz. Kayuka. Nob. Teshi
   </div>
  </div>
 </div>

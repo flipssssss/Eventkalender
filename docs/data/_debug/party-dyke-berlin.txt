@@ -1,5 +1,6 @@
 Listenseite: 19 Event-Slugs gefunden
-Events gebaut: 19
+  flinta-speed-dating-the-monogamous-edition: FEHLER Response ended prematurely
+Events gebaut: 18
 
 --- DIAGNOSE 1. Detailseite ---
 JSON-LD im HTML: True | wix-warmup-data: True

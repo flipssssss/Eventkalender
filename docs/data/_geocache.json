@@ -343,6 +343,12 @@
   "lat": 52.5037937,
   "lng": 13.3987041
  },
+ "Alte Jakobstraße 124, 10969 Kreuzberg, Berlin": {
+  "address": "Alte Jakobstraße 124, 10969 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5037937,
+  "lng": 13.3987041
+ },
  "Alte Kita, Hasselwerderstr. 22A, 12439, Berlin": null,
  "Altonaer Straße 22, 10557 Berlin": {
   "address": "Altonaer Straße 22, 10557 Hansaviertel",
@@ -464,6 +470,12 @@
   "lat": 52.4420634,
   "lng": 13.2384164
  },
+ "Argentinische Allee 30, 14163 Zehlendorf, Berlin": {
+  "address": "Argentinische Allee 30, 14163 Zehlendorf",
+  "bezirk": "Steglitz-Zehlendorf",
+  "lat": 52.4420634,
+  "lng": 13.2384164
+ },
  "Arkonaplatz 1, 10435 Berlin": {
   "address": "Arkonaplatz 1, 10435 Mitte",
   "bezirk": "Mitte",
@@ -475,6 +487,12 @@
  "Auf Anfrage Auf Anfrage, Berlin": null,
  "Auf Anfrage, Auf Anfrage, Berlin": null,
  "Auguststraße 69, 10117 Berlin": {
+  "address": "Auguststraße 69, 10117 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5271636,
+  "lng": 13.3948218
+ },
+ "Auguststraße 69, 10117 Mitte, Berlin": {
   "address": "Auguststraße 69, 10117 Mitte",
   "bezirk": "Mitte",
   "lat": 52.5271636,
@@ -772,6 +790,12 @@
   "lat": 52.5201701,
   "lng": 13.3977174
  },
+ "Bodestraße 1, 10178 Mitte, Berlin": {
+  "address": "Bodestraße 1, 10178 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5201701,
+  "lng": 13.3977174
+ },
  "Bodestraße, 10178 Berlin": {
   "address": "Bodestraße, 10178 Mitte",
   "bezirk": "Mitte",
@@ -1039,6 +1063,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.4884617,
   "lng": 13.3905862
+ },
+ "Chausseestraße 102, 10115 Berlin": {
+  "address": "Chausseestraße 102, 10115 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5320664,
+  "lng": 13.3801138
  },
  "Checkpoint Charlie, Friedrichstraße 43-45, 10117 Berlin": null,
  "Christstr. 8, 14059 Berlin": {
@@ -1685,6 +1715,12 @@
   "lng": 13.3953731
  },
  "Hausvogteiplatz 5-7, Raum 0007, 10117 Berlin": null,
+ "Hausvogteiplatz, 10117 Berlin": {
+  "address": "Hausvogteiplatz, 10117 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5133502,
+  "lng": 13.395591
+ },
  "Hedwig-Dohm-Haus Vorlesungssaal, Ziegelstraße 5, 10117 Berlin": null,
  "Hegelplatz, 10117 Berlin": {
   "address": "Georgenstraße, 10117 Mitte",
@@ -1829,6 +1865,12 @@
   "lng": 13.2865168
  },
  "Humboldtstraße 5-6, 14467 Potsdam, Berlin": null,
+ "Humboldtstraße, 14193 Grunewald, Berlin": {
+  "address": "Humboldtstraße, 14193 Grunewald",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.490069,
+  "lng": 13.2865168
+ },
  "Händelallee 22, 10557 Berlin": {
   "address": "Händelallee 22, 10557 Hansaviertel",
   "bezirk": "Mitte",
@@ -1891,6 +1933,12 @@
   "lat": 52.5275532,
   "lng": 13.3723203
  },
+ "Invalidenstraße 51, 10557 Moabit, Berlin": {
+  "address": "Invalidenstraße 51, 10557 Moabit",
+  "bezirk": "Mitte",
+  "lat": 52.5275532,
+  "lng": 13.3723203
+ },
  "JFE Anna Landsberger, Prötzeler Ring 13, 12685 Berlin": {
   "address": "Prötzeler Ring 13, 12685 Marzahn",
   "bezirk": "Marzahn-Hellersdorf",
@@ -1909,6 +1957,12 @@
  "Jagdhausstraße 1448, 14480 Berlin": null,
  "Jagdschloss Stern, Jagdhausstraße, 14480, Potsdam, Berlin": null,
  "Jebensstraße 2, 10623 Berlin": {
+  "address": "Jebensstraße 2, 10623 Charlottenburg",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.5081567,
+  "lng": 13.3320921
+ },
+ "Jebensstraße 2, 10623 Charlottenburg, Berlin": {
   "address": "Jebensstraße 2, 10623 Charlottenburg",
   "bezirk": "Charlottenburg-Wilmersdorf",
   "lat": 52.5081567,
@@ -2163,6 +2217,12 @@
  },
  "Kerala Space, Berlin": null,
  "Kiehnwerderallee 2, 12437 Berlin": {
+  "address": "Kiehnwerderallee 2, 12437 Plänterwald",
+  "bezirk": "Treptow-Köpenick",
+  "lat": 52.4814927,
+  "lng": 13.4943009
+ },
+ "Kiehnwerderallee 2, 12437 Plänterwald, Berlin": {
   "address": "Kiehnwerderallee 2, 12437 Plänterwald",
   "bezirk": "Treptow-Köpenick",
   "lat": 52.4814927,
@@ -2891,6 +2951,12 @@
  },
  "MS Goldberg am Bhf Wannsee, Kronprinzessinnenweg 5–6\nBrücke 1, 14109, Berlin": null,
  "MS Goldberg am Wannsee, Kronprinzessinnenweg 5–6 |\nBrücke 1, 14109, Berlin": null,
+ "MaHalle Waldemarstraße 110 10997 Berlin Deutschland": {
+  "address": "Waldemarstraße 110, 10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5009882,
+  "lng": 13.4284142
+ },
  "MaHalle, Waldemarstraße 110, 10997 Berlin": {
   "address": "Waldemarstraße 110, 10997 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -3028,9 +3094,21 @@
   "lat": 52.5076797,
   "lng": 13.3670096
  },
+ "Matthäikirchplatz, 10785 Tiergarten, Berlin": {
+  "address": "Matthäikirchplatz, 10785 Tiergarten",
+  "bezirk": "Mitte",
+  "lat": 52.5076797,
+  "lng": 13.3670096
+ },
  "Mauerpark Amphitheater, Bernauer Straße 63, 13355 Berlin": null,
  "Mauerpark, Bernauer Straße 63, 13355 Berlin": null,
  "Mauerstraße 79, 10117 Berlin": {
+  "address": "Mauerstraße 79, 10117 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5085739,
+  "lng": 13.3871178
+ },
+ "Mauerstraße 79, 10117 Mitte, Berlin": {
   "address": "Mauerstraße 79, 10117 Mitte",
   "bezirk": "Mitte",
   "lat": 52.5085739,
@@ -3259,6 +3337,12 @@
   "lat": 52.5066209,
   "lng": 13.3819472
  },
+ "Niederkirchnerstraße 7, 10963 Kreuzberg, Berlin": {
+  "address": "Niederkirchnerstraße 7, 10963 Kreuzberg",
+  "bezirk": "Mitte",
+  "lat": 52.5066209,
+  "lng": 13.3819472
+ },
  "Nirgendwo, Berlin": {
   "address": "Rüdersdorfer Straße 67, 10243 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -3330,7 +3414,19 @@
   "lng": 13.3279286
  },
  "Online Veranstaltung Anmeldung erforderlich: https:// forms.peacefullyagainstgenocid e.org/formz/occurrences/online-training-fuer-zivilen-widerstand-2026-07-23/registrations/new, Berlin": null,
+ "Oppelner Straße 45, 10997 Berlin": {
+  "address": "Oppelner Straße 45, 10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5000219,
+  "lng": 13.4413264
+ },
  "Oranienburger Straße 54, 10117 Berlin": {
+  "address": "Oranienburger Straße 54, 10117 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5256724,
+  "lng": 13.3891203
+ },
+ "Oranienburger Straße 54, 10117 Mitte, Berlin": {
   "address": "Oranienburger Straße 54, 10117 Mitte",
   "bezirk": "Mitte",
   "lat": 52.5256724,
@@ -3557,6 +3653,12 @@
   "lat": 52.5070408,
   "lng": 13.3676212
  },
+ "Potsdamer Straße 50, 10785 Tiergarten, Berlin": {
+  "address": "Potsdamer Straße 50, 10785 Tiergarten",
+  "bezirk": "Mitte",
+  "lat": 52.5066158,
+  "lng": 13.3671577
+ },
  "Potse (Zollgarage) Deutschland, Berlin": null,
  "Potse (Zollgarage), Berlin": null,
  "Potse Zollgarage, Columbiadamm 10, 12101 Berlin": null,
@@ -3630,6 +3732,12 @@
   "bezirk": "Mitte",
   "lat": 52.5202113,
   "lng": 13.4120877
+ },
+ "Rathausstraße 15, 10178 Berlin": {
+  "address": "Rathausstraße 15, 10178 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5182718,
+  "lng": 13.4078309
  },
  "Ratiborstr. 14c, 10999 Berlin": {
   "address": "Ratiborstraße 14c, 10999 Kreuzberg",
@@ -3868,6 +3976,7 @@
   "lat": 52.4687052,
   "lng": 13.4333242
  },
+ "Rotes Rathaus Neptunbrunnen Rathausstraße 15 Neptunbrunnen 10178 Berlin Deutschland": null,
  "Rotes Rathaus Rathausstr 15 10178 Berlin Deutschland": {
   "address": "Rathausstraße 15, 10178 Mitte",
   "bezirk": "Mitte",
@@ -4230,6 +4339,12 @@
   "lng": 13.3397881
  },
  "Sensburger Allee 25, 14055 Berlin": {
+  "address": "Sensburger Allee 25, 14055 Westend",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.5099369,
+  "lng": 13.2549022
+ },
+ "Sensburger Allee 25, 14055 Westend, Berlin": {
   "address": "Sensburger Allee 25, 14055 Westend",
   "bezirk": "Charlottenburg-Wilmersdorf",
   "lat": 52.5099369,
@@ -5114,5 +5229,6 @@
   "lng": 13.3219604
  },
  "verschiedene Veranstaltungsorte Berlin": null,
- "verschiedene Veranstaltungsorte, Berlin": null
+ "verschiedene Veranstaltungsorte, Berlin": null,
+ "vor der Oppelner Straße 45 Oppelner Straße 45 10997 Berlin Deutschland": null
 }

@@ -1,7 +1,6 @@
 top-keys: ['website', 'websiteSettings', 'collection', 'shoppingCart', 'shareButtons', 'showCart', 'localizedStrings', 'userAccountsContext', 'template', 'uiextensions', 'empty', 'emptyFolder', 'calendarView', 'pagination', 'upcoming']
-items: 34 | Events: 34
+items: 33 | Events: 33
 erstes item keys: ['id', 'collectionId', 'recordType', 'addedOn', 'updatedOn', 'starred', 'passthrough', 'tags', 'categories', 'workflowState', 'publishOn', 'authorId', 'systemDataId', 'systemDataVariants', 'systemDataSourceType', 'filename', 'mediaFocalPoint', 'colorData', 'urlId', 'title', 'sourceUrl', 'body', 'excerpt', 'location', 'customContent']
-  2026-08-23 09:00:00.506000 | Ido Spak Trio
   2026-08-25 09:00:00.506000 | "The good vibes Quintett"
   2026-08-26 09:00:00.936000 | Robins Nest - Jamsession
   2026-08-27 09:00:00.506000 | Tango Jazz Quartett / Argentinien
@@ -31,3 +30,4 @@ erstes item keys: ['id', 'collectionId', 'recordType', 'addedOn', 'updatedOn', '
   2026-09-24 09:00:00.506000 | Henning Schiewer Quintett
   2026-09-25 09:00:00.506000 | Sir Bradley &nbsp;&nbsp;
   2026-09-26 09:00:00.506000 | Roman Ott Quartett - for new recording
+  2026-09-27 09:00:00.506000 | Amr Hammour &amp; Band – "Earthbound" Album Release Concert

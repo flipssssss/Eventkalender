@@ -1,7 +1,7 @@
-Vorstellungen gesamt: 120 | Filmbilder: 116
-Sputnik: 15 Vorstellungen
-Lichtblick: 9 Vorstellungen
-Kino Zukunft: 9 Vorstellungen
-Ladenkino: 64 Vorstellungen
-Wolf Kino: 18 Vorstellungen
-Klick Kino: 5 Vorstellungen
+Vorstellungen gesamt: 385 | Filmbilder: 361
+Sputnik: 64 Vorstellungen
+Lichtblick: 27 Vorstellungen
+Kino Zukunft: 29 Vorstellungen
+Ladenkino: 192 Vorstellungen
+Wolf Kino: 57 Vorstellungen
+Klick Kino: 16 Vorstellungen

@@ -156,6 +156,12 @@
   "lat": 52.5815191,
   "lng": 13.4934872
  },
+ "13187 Berlin": {
+  "address": "13187 Pankow",
+  "bezirk": "Pankow",
+  "lat": 52.5695591,
+  "lng": 13.4084463
+ },
  "13349 Berlin": {
   "address": "13349 Wedding",
   "bezirk": "Mitte",
@@ -324,6 +330,12 @@
  },
  "Alice Salomon Hochschule Alice-Salomon-Platz 5 12627, 12627 Berlin": null,
  "Allee der Kosmonauten (zw. Märkische Allee/ Helene-Weigel-Platz), 12681 Berlin": null,
+ "Alt-Schönow 10, 14165 Berlin": {
+  "address": "Alt-Schönow 10, 14165 Zehlendorf",
+  "bezirk": "Steglitz-Zehlendorf",
+  "lat": 52.406915,
+  "lng": 13.2650718
+ },
  "Alt-Stralau 68, 10245 Berlin": {
   "address": "Alt-Stralau 68, 10245 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -723,6 +735,12 @@
   "lat": 52.5055117,
   "lng": 13.4257878
  },
+ "Bethaniendamm 26, 10997 Berlin": {
+  "address": "Bethaniendamm, 10179 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5066764,
+  "lng": 13.4277222
+ },
  "Bethaniendamm 26, Berlin": {
   "address": "Bethaniendamm, 10179 Mitte",
   "bezirk": "Mitte",
@@ -777,6 +795,12 @@
   "bezirk": "Tempelhof-Schöneberg",
   "lat": 52.4978319,
   "lng": 13.3477984
+ },
+ "Blue Velvet Sangerhauser Weg 3 12349 Berlin Deutschland": {
+  "address": "Sangerhauser Weg 3, 12349 Britz",
+  "bezirk": "Neukölln",
+  "lat": 52.4311705,
+  "lng": 13.4121199
  },
  "Blücherplatz (Kreuzberg) Berlin Deutschland": {
   "address": "Blücherplatz, 10961 Kreuzberg",
@@ -986,6 +1010,12 @@
   "bezirk": "Tempelhof-Schöneberg",
   "lat": 52.4773354,
   "lng": 13.3578441
+ },
+ "Bülowstr. 39, 10783 Berlin": {
+  "address": "Bülowstraße 39, 10783 Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4962066,
+  "lng": 13.365417
  },
  "CHIP Jugendhaus, Reichenberger Straße 44-45, 10999 Berlin": null,
  "Cafe Cralle, Hochstädter Straße 10a, 13347 Berlin": null,
@@ -1240,6 +1270,7 @@
   "lat": 52.4924237,
   "lng": 13.4590319
  },
+ "Emil-Wendland-Platz 1, Berlin": null,
  "Emmentaler Str. 97, 13409 Berlin": {
   "address": "Emmentaler Straße 97, 13409 Reinickendorf",
   "bezirk": "Reinickendorf",
@@ -1714,6 +1745,12 @@
   "lat": 52.4905797,
   "lng": 13.3572868
  },
+ "Haus der Demokratie und Menschenrechte Greifswalder Str. 4 10405 Berlin Deutschland": {
+  "address": "Greifswalder Straße 4, 10405 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5289007,
+  "lng": 13.4250691
+ },
  "Haus der Demokratie, Greifswalder Straße 4, 10405 Berlin": {
   "address": "Greifswalder Straße 4, 10405 Prenzlauer Berg",
   "bezirk": "Pankow",
@@ -1766,6 +1803,7 @@
   "lat": 52.5002391,
   "lng": 13.4230764
  },
+ "Heizhaus der Uferstudios Uferstraße 23 13357 Berlin Deutschland": null,
  "Herman Schulz Kollektiv Café & Bar, Finowstraße 33, 10247 Berlin": null,
  "Herman Schulz Kollektiv Finowstraße 33, 10247 Berlin": null,
  "Hermann-Ehlers-Platz 1, 12165 Berlin": {
@@ -1973,6 +2011,7 @@
   "lng": 13.400323
  },
  "JUP Florastr. 84 13187, 13187 Berlin": null,
+ "JWP „MittenDrin“, Emil-Wendland-Platz 1 Neuruppin Deutschland, Berlin": null,
  "Jagdhausstraße 1448, 14480 Berlin": null,
  "Jagdschloss Stern, Jagdhausstraße, 14480, Potsdam, Berlin": null,
  "Jebensstraße 2, 10623 Berlin": {
@@ -2029,6 +2068,7 @@
  },
  "Joris Kern, Berlin": null,
  "Jugendclub, Schloßstraße 9, 14059 Berlin": null,
+ "Jugendkulturzentrum M24 Mühlenstr.24, 13187 Berlin Deutschland": null,
  "Juliette Dragon, Berlin": null,
  "Jüdisches Museum Berlin, Lindenstraße 9-14, 10969, Berlin": null,
  "K Köpenicker Straße Berlin": {
@@ -2043,6 +2083,8 @@
   "lat": 52.507824,
   "lng": 13.4271106
  },
+ "K-Hole Prenzlauer Berg Berlin": null,
+ "K-Hole Prenzlauer Berg Berlin Deutschland": null,
  "K-fetisch Wildenbruchstraße 86 12045 Berlin Deutschland": {
   "address": "Wildenbruchstraße 86, 12045 Neukölln",
   "bezirk": "Neukölln",
@@ -2234,6 +2276,12 @@
   "lat": 52.5360518,
   "lng": 13.4070857
  },
+ "Kastanienallee 86, 10435 Berlin": {
+  "address": "Kastanienallee 86, 10435 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5375635,
+  "lng": 13.4094316
+ },
  "Kerala Space, Berlin": null,
  "Kiehnwerderallee 2, 12437 Berlin": {
   "address": "Kiehnwerderallee 2, 12437 Plänterwald",
@@ -2284,6 +2332,7 @@
  "Kiezraum auf dem Dragoner-Areal Berlin Deutschland": null,
  "Kiezraum auf dem DragonerAreal Mehringdamm 22 (hinter dem Finanzamt) Berlin Deutschland": null,
  "Kiezraum auf dem Dragonerareal Mehringdamm 20 10961 Berlin Deutschland": null,
+ "KikiSol, Reinickendorfer Straße 96, 13347, Berlin": null,
  "Kino Durchsfenster, Filmclub K18 Media Space K18, Kreutziger Straße 18, Friedrichshain (Südkiez) Berlin Deutschland": null,
  "Kino Zukunft, Berlin": {
   "address": "Kynaststraße, 10245 Friedrichshain",
@@ -2741,6 +2790,7 @@
   "lat": 52.4977097,
   "lng": 13.4288764
  },
+ "Lawede Bülowstr. 39 10783 Berlin Deutschland": null,
  "Lehderstrasse 74, 13086 Berlin": {
   "address": "Lehderstraße 74, 13086 Weißensee",
   "bezirk": "Pankow",
@@ -3244,6 +3294,12 @@
   "bezirk": "Tempelhof-Schöneberg",
   "lat": 52.4977722,
   "lng": 13.3485938
+ },
+ "Moviemento Kino, Kottbusser Damm 22, 10967 Berlin": {
+  "address": "Kottbusser Damm 22, 10967 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4903342,
+  "lng": 13.4234006
  },
  "Murx Karl-Marx-Straße 282 12057 Berlin Deutschland": null,
  "Murx, Karl-Marx-Straße 282, 12057 Berlin": null,
@@ -3779,6 +3835,7 @@
  "Raumerweiterungshalle Berlin": null,
  "Raumerweiterungshalle, Berlin": null,
  "Raumerweiterungshalle, Kopenhagener Straße 17, 10437, Berlin": null,
+ "Rauxxxaus, Bethaniendamm 26, 10997 Berlin": null,
  "Refuge Worldwide, Niemetzstraße 1, 12055 Berlin": {
   "address": "Niemetzstraße 1, 12055 Neukölln",
   "bezirk": "Neukölln",
@@ -3847,6 +3904,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.4952361,
   "lng": 13.4307312
+ },
+ "Reinickendorfer Straße 96, 13347 Berlin": {
+  "address": "Reinickendorfer Straße 96, 13347 Wedding",
+  "bezirk": "Mitte",
+  "lat": 52.5475885,
+  "lng": 13.3683614
  },
  "Renate, Berlin": {
   "address": "Alt-Stralau 70, 10245 Friedrichshain",
@@ -4551,6 +4614,12 @@
  "TBA - Info durch Veranstalter*in, Berlin": null,
  "TBA - Storkower Str. 123, 10407 Berlin, Germany, Berlin": null,
  "TBA to be announced, Berlin": null,
+ "TBA, Berlin": {
+  "address": "Eisenacher Straße, 10777 Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4993694,
+  "lng": 13.3496349
+ },
  "TBA, to be announced, Berlin": null,
  "THF Tower Flughafen Tempelhof in Berlin, Tempelhofer Damm 45, 12101, Berlin": null,
  "TU Berlin, Raum EB 202, Straße des 17. Juni 145, 10623 Berlin": null,
@@ -4719,6 +4788,7 @@
   "lng": 13.3957331
  },
  "Trödelmarkt Mauerpark, Berlin": null,
+ "Tuntenhaus Kastanienallee 86 2. HH 10435 Berlin Deutschland": null,
  "Turmstr. 91, 10559 Berlin": {
   "address": "Turmstraße 91, 10559 Moabit",
   "bezirk": "Mitte",
@@ -4772,6 +4842,8 @@
  "U-Bhf. Eberswalder Strasse Berlin Deutschland": null,
  "U-Bhf. Turmstraße Berlin": null,
  "U-Bhf. Turmstraße Berlin Deutschland": null,
+ "U5 U-Bahnhof Tierpark Berlin": null,
+ "U5 U-Bahnhof Tierpark Berlin Deutschland": null,
  "UJZ Hönower Str. 30 10318 Berlin": {
   "address": "Hönower Straße 30, 10318 Karlshorst",
   "bezirk": "Lichtenberg",
@@ -4789,6 +4861,12 @@
   "bezirk": "Lichtenberg",
   "lat": 52.4891876,
   "lng": 13.5212576
+ },
+ "Uferstraße 23, 13357 Berlin": {
+  "address": "Uferstraße 23, 13357 Gesundbrunnen",
+  "bezirk": "Mitte",
+  "lat": 52.5519575,
+  "lng": 13.3749883
  },
  "Unter Strom Wagenplatz Hegemeisterweg 68 10318 Berlin Deutschland": null,
  "Unter den Linden 5, 10117 Berlin": {
@@ -4994,6 +5072,12 @@
   "bezirk": "Neukölln",
   "lat": 52.4865097,
   "lng": 13.4468623
+ },
+ "Wilhelminenhofstraße 76, 12459 Berlin": {
+  "address": "Wilhelminenhofstraße 76, 12459 Oberschöneweide",
+  "bezirk": "Treptow-Köpenick",
+  "lat": 52.4586963,
+  "lng": 13.5255636
  },
  "Willy-Brandt-Straße 1, 10557 Berlin": {
   "address": "Willy-Brandt-Straße 1, 10557 Tiergarten",
@@ -5255,6 +5339,7 @@
  },
  "rag über Stadtteilarbeit und Antifaschismus im \"Sozialen Zentrum Aenne Saefkow\", Berlin": null,
  "rk and antifascism at the “Soziales Zentrum Aenne Saefkow”, Berlin": null,
+ "street level on the north side of the Bösebrücke entrance to Bornholmer Str. S-Bahn, Berlin": null,
  "tba, Berlin": {
   "address": "Eisenacher Straße, 10777 Schöneberg",
   "bezirk": "Tempelhof-Schöneberg",

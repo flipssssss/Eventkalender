@@ -1,10 +1,10 @@
-Events gesamt: 64 | mit Bild: 52 | mit Beschreibung: 61
-club/28354 (://about blank): 31 -> 31 Berlin | flyer=0 images=25 content=30
+Events gesamt: 67 | mit Bild: 55 | mit Beschreibung: 64
+club/28354 (://about blank): 33 -> 33 Berlin | flyer=0 images=27 content=32
 club/98993 (Beate Uwe): 15 -> 15 Berlin | flyer=0 images=10 content=15
 club/298230 (ROSA): 3 -> 3 Berlin | flyer=0 images=3 content=3
 promoter/82597 (BOAR Berlin): 0 -> 0 Berlin | flyer=0 images=0 content=0
 promoter/71007 (Buttons): 0 -> 0 Berlin | flyer=0 images=0 content=0
-promoter/80958 (GEGEN): 10 -> 5 Berlin | flyer=0 images=10 content=10
+promoter/80958 (GEGEN): 11 -> 6 Berlin | flyer=0 images=11 content=11
 promoter/79889 (HE.SHE.THEY.): 1 -> 0 Berlin | flyer=0 images=1 content=1
 artist/horsemeatdisco: ID nicht auflösbar
 promoter/84128 (Klub Verboten): 6 -> 0 Berlin | flyer=0 images=6 content=6

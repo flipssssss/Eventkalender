@@ -1,31 +1,31 @@
-API-Events: 67 | übernommen: 67
-  2026-08-25 18:45:00 | None | Queer Tours for All - Queer Kreuzberg
-  2026-08-25 19:00:00 | Rock | MERMAID MAN (psych/garage) + TAFTIR (neo-psychedelic)
+API-Events: 71 | übernommen: 71
   2026-08-26 19:00:00 | Punk | LUGE + 13YC
   2026-08-26 19:00:00 | Punk | COUSINES LIKE SHIT (AT) & LIIEK (Bln) & FACE VALUE (Bln)
   2026-08-27 19:00:00 | Punk | The World Domination (Erfurt / electropunk, acid disco) + Uvazhaemiy (Berlin / post-punk, breakbeat) im Schokoladene
   2026-08-28 18:00:00 | Metal | Morbid Catacombs Fest X
-  2026-08-28 19:00:00 | Punk | total eggpunk nightmare with BEER (south carolina) & LOVEBOMB (Mannheim)
   2026-08-28 19:00:00 | Punk | Cut-Rate Druggist (high energy rock´n´roll, Oakland, California) + Heroine Whores (heavy riot grrrl) im Schokoladen
+  2026-08-28 19:00:00 | Punk | total eggpunk nightmare with BEER (south carolina) & LOVEBOMB (Mannheim)
   2026-08-28 19:00:00 | Indie | Record Release: PAIR (Indie Rock Elektro / Berlin) + WESTHAFEN (Alternative Indie Rock / Berlin)
   2026-08-29 10:45:00 | None | Queer Tours for All - KZ Sachsenhausen
   2026-08-29 19:00:00 | None | Lesung: JÜDISCHE IDENTITÄTEN UND ANTISEMITISMUS IM PUNK
   2026-08-29 19:00:00 | Punk | ELENDE LEIBER + MIẞTRÄU
   2026-08-30 13:00:00 | None | Malz Café
+  2026-08-30 14:45:00 | None | Queer Tours for All - Gay and Sapphic Schöneberg
   2026-08-30 19:00:00 | Punk | Recovery Day + Tavare + Hannah Louve Benedum
   2026-08-31 19:00:00 | Punk | UNCERTAINTY (Queercore/UK), TENSION (HC-Punk/UK), BITTER JEAN (Hardcore/Berlin)
   2026-08-31 19:00:00 | Punk | New Candys (Fuzz Club) & BLKE (Tonzonen)
+  2026-08-31 19:00:00 | Punk | TV MOMS (gutter rock riffs, NYC) + Bass Sick Shit (punk duo) im Schokoladen
   2026-09-02 17:00:00 | None | BVV Pankow: Kundgebung gegen die Nazitrainings in Weißensee
   2026-09-02 19:30:00 | Metal | USU pres.: Methadone Skies + Earth Ship | Neue Zukunft - 02.09.2026
-  2026-09-03 19:00:00 | None | JUKEBOX BABY RECORDS - BIRTHDAY PARTY
   2026-09-03 19:00:00 | Metal | Smote, Codex Serafini (heavy psych, drone, ritual)
+  2026-09-03 19:00:00 | None | JUKEBOX BABY RECORDS - BIRTHDAY PARTY
   2026-09-04 19:00:00 | Metal | Fossilization + Phobocosm + Urza presented by Swamp Conspiracy and DoomShip
   2026-09-04 19:30:00 | None | SUPER KONSOLEN KNEIPE - Round 1
   2026-09-04 19:30:00 | Punk | KONZERT @ RXXXXHXXS
   2026-09-04 20:00:00 | Punk | V (Dark-Wave) + Gelbart (Computer-Pop) @ Schokoladen 4.9.26
+  2026-09-04 20:00:00 | Punk | 1800 MIKEY + BALCONY PARADISE
   2026-09-05 13:00:00 | Punk | Le Désordre C'est Moi Festival
   2026-09-05 17:00:00 | None | Tiergarten Maleficium
   2026-09-05 19:00:00 | Punk | ANCST | SVDESTADA | MARNÖ | BRÜD
   2026-09-05 20:00:00 | Punk | Tense + Onyon + Alibi
   2026-09-05 21:00:00 | Punk | KALTE HAND // COLD SUMMER // GUM / September 5, 2026 / Kastanie Berlin
-  2026-09-06 18:00:00 | Punk | KALTE KNIE + FISH PEOPLE + NOVA STARA

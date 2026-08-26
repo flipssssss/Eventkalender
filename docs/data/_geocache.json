@@ -1283,6 +1283,12 @@
   "lat": 52.5105503,
   "lng": 13.4360792
  },
+ "Ernst-Reuter-Platz Berlin Deutschland": {
+  "address": "Hardenbergstraße, 10587 Charlottenburg",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.5118853,
+  "lng": 13.3221613
+ },
  "Erreichbar Reichenberger Str. 63a HH 10999 Berlin Deutschland": null,
  "Erreichbar Reichenberger Str. 63a, 10999 Berlin": {
   "address": "Reichenberger Straße 63a, 10999 Kreuzberg",
@@ -3763,6 +3769,12 @@
  "Projektraum ABB (Scherer 8 - Zugang über Adolfstr) Schererstraße 8 (Zugang über Adolfstraße) 13347 Berlin Deutschland": null,
  "Pumptrack An der Ostbahn 9 Berlin": null,
  "Pumptrack An der Ostbahn 9 Berlin Deutschland": null,
+ "Quartiersmanagement Pankstraße, Prinz-Eugen-Straße 1, 13347 Berlin": {
+  "address": "Prinz-Eugen-Straße 1, 13347 Wedding",
+  "bezirk": "Mitte",
+  "lat": 52.5468526,
+  "lng": 13.3666534
+ },
  "Quälgeist Berlin e.V. Lankwitzer Straße 42/43, 12107 Berlin": null,
  "Quälgeist Berlin e.V., Lankwitzer Straße 42/43, Berlin, 12107, Deutschland": null,
  "Quälgeist, Berlin": {
@@ -4010,6 +4022,12 @@
   "lng": 13.4619369
  },
  "Rigaerstr. Ecke Liebigstr. 10247, 10247 Berlin": null,
+ "Rio Reiser Platz, 10999 Berlin": {
+  "address": "Rio-Reiser-Platz, Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5002391,
+  "lng": 13.4230764
+ },
  "Robert Havemann Saal im Haus der Demokratie und Menschenrechte Greifswalder Straße 4 Robert Havemann Saal 10405 Berlin Deutschland": null,
  "Robert-W.-Kempner-Straße 6, 14167 Berlin": {
   "address": "Robert-W.-Kempner-Straße 6, 14167 Zehlendorf",
@@ -4141,6 +4159,12 @@
   "lng": 13.3676157
  },
  "SIN Berlin, Nostitzstraße 48, 10961 Berlin": null,
+ "SO36 Oranienstr. 190 10999 Berlin Deutschland": {
+  "address": "Oranienstraße 190, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5003909,
+  "lng": 13.4221612
+ },
  "SO36 Oranienstraße 190, 10999 Berlin": {
   "address": "Oranienstraße 190, 10999 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",

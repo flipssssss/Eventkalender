@@ -1,24 +1,5 @@
-event-blocks: 5 | Events: 5
+event-blocks: 4 | Events: 4
 
-<div class="event-block">
- <!-- Zeile 1: Datum + Titel -->
- <div class="event-row-1">
-  <div class="event-time">
-   Freitag, 28. Aug. 22:00
-  </div>
-  <div class="event-title">
-   Luna Martinez
-  </div>
- </div>
- <!-- Zeile 2: Bild + Beschreibung -->
- <div class="event-row-2">
-  <div class="event-image event-image--empty">
-  </div>
- </div>
-</div>
-
-
-----
 <div class="event-block">
  <!-- Zeile 1: Datum + Titel -->
  <div class="event-row-1">
@@ -83,6 +64,29 @@ Djs: Nihon No Jazz. Kayuka. Nob. Teshi
   </div>
   <div class="event-description">
    music for the mess age
+  </div>
+ </div>
+</div>
+
+
+----
+<div class="event-block">
+ <!-- Zeile 1: Datum + Titel -->
+ <div class="event-row-1">
+  <div class="event-time">
+   Samstag, 26. Sept. 21:30
+  </div>
+  <div class="event-title">
+   Barox
+  </div>
+ </div>
+ <!-- Zeile 2: Bild + Beschreibung -->
+ <div class="event-row-2">
+  <div class="event-image">
+   <img alt="" src="ProgrammFotos/Barox_2026_09_26.jpg"/>
+  </div>
+  <div class="event-description">
+   IIIIIITTTTTAAAAAALLLLLOOOOOODDDDDDIIIIIIISSSSSSCCCCCCOOOOOOO!!!
   </div>
  </div>
 </div>

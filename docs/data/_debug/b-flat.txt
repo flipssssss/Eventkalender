@@ -1,7 +1,6 @@
 top-keys: ['website', 'websiteSettings', 'collection', 'shoppingCart', 'shareButtons', 'showCart', 'localizedStrings', 'userAccountsContext', 'template', 'uiextensions', 'empty', 'emptyFolder', 'calendarView', 'pagination', 'upcoming']
-items: 32 | Events: 32
+items: 31 | Events: 31
 erstes item keys: ['id', 'collectionId', 'recordType', 'addedOn', 'updatedOn', 'starred', 'passthrough', 'tags', 'categories', 'workflowState', 'publishOn', 'authorId', 'systemDataId', 'systemDataVariants', 'systemDataSourceType', 'filename', 'mediaFocalPoint', 'colorData', 'urlId', 'title', 'sourceUrl', 'body', 'excerpt', 'location', 'customContent']
-  2026-08-26 09:00:00.936000 | Robins Nest - Jamsession
   2026-08-27 09:00:00.506000 | Tango Jazz Quartett / Argentinien
   2026-08-28 09:00:00.506000 | Havana Berlin Express
   2026-08-29 09:00:00.506000 | Shannon Callahan &amp; Band
@@ -31,3 +30,4 @@ erstes item keys: ['id', 'collectionId', 'recordType', 'addedOn', 'updatedOn', '
   2026-09-26 09:00:00.506000 | Roman Ott Quartett - for new recording
   2026-09-27 09:00:00.506000 | Amr Hammour &amp; Band – "Earthbound" Album Release Concert
   2026-09-29 09:00:00.506000 | Guido Spannocchi Quartet
+  2026-09-30 09:00:00.936000 | Robins Nest - Jamsession

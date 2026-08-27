@@ -162,6 +162,12 @@
   "lat": 52.5695591,
   "lng": 13.4084463
  },
+ "13347 Berlin": {
+  "address": "13347 Wedding",
+  "bezirk": "Mitte",
+  "lat": 52.5490444,
+  "lng": 13.365515
+ },
  "13349 Berlin": {
   "address": "13349 Wedding",
   "bezirk": "Mitte",
@@ -1106,6 +1112,12 @@
   "lat": 52.5320664,
   "lng": 13.3801138
  },
+ "Chausseestraße 128-129, 10115 Berlin": {
+  "address": "Chausseestraße 128/129, 10115 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5277487,
+  "lng": 13.3862025
+ },
  "Checkpoint Charlie, Friedrichstraße 43-45, 10117 Berlin": null,
  "Christstr. 8, 14059 Berlin": {
   "address": "Christstraße 8, 14059 Charlottenburg",
@@ -1180,6 +1192,12 @@
   "bezirk": "Mitte",
   "lat": 52.5479459,
   "lng": 13.3668959
+ },
+ "Cuvrystraße 1099, 10997 Berlin": {
+  "address": "Cuvrystraße, 10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5000574,
+  "lng": 13.4462138
  },
  "Cuvrystraße 13-14, 10997 Berlin": {
   "address": "Cuvrystraße 13-14, 10997 Kreuzberg",
@@ -1674,6 +1692,7 @@
   "lng": 13.4615491
  },
  "Görlitzer Park, Pamukkale 10999 Berlin": null,
+ "Görlitzer Straße Ecke Cuvrystraße, 10997 Berlin": null,
  "Gürtelstraße 35, 10247 Berlin": {
   "address": "Gürtelstraße 35, 10247 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -1711,6 +1730,12 @@
   "bezirk": "Pankow",
   "lat": 52.5555004,
   "lng": 13.4860982
+ },
+ "Hanseatenweg 10, 10557 Berlin": {
+  "address": "Hanseatenweg 10, 10557 Tiergarten",
+  "bezirk": "Mitte",
+  "lat": 52.5183273,
+  "lng": 13.3468408
  },
  "Hardenbergstraße 22, 10623 Berlin": null,
  "Hardenbergstraße 34, 10623 Berlin": {
@@ -2919,6 +2944,12 @@
   "lat": 52.55045,
   "lng": 13.3603197
  },
+ "Little Stage Berlin, Jonasstraße, 12053, Berlin": {
+  "address": "Jonasstraße 1, 12053 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4723958,
+  "lng": 13.4405933
+ },
  "Liviusstraße 1 12109 Berlin Deutschland": {
   "address": "Liviusstraße 1, 12109 Mariendorf",
   "bezirk": "Tempelhof-Schöneberg",
@@ -2994,6 +3025,12 @@
  "Lunte Weisestr. 53 12049, 12049 Berlin": null,
  "Lunte Weisestr. 53 EG 12049 Berlin Deutschland": null,
  "Lunte Weisestraße 53 (im Infoladen Lunte) 12049 Berlin Deutschland": null,
+ "Lutherplatz, 13585 Berlin": {
+  "address": "Lutherplatz, 13585 Spandau",
+  "bezirk": "Spandau",
+  "lat": 52.5482799,
+  "lng": 13.2040188
+ },
  "Luxemburger Straße 10, 13353 Berlin": {
   "address": "Luxemburger Straße 10, 13353 Wedding",
   "bezirk": "Mitte",
@@ -3029,6 +3066,12 @@
   "bezirk": "Mitte",
   "lat": 52.5041855,
   "lng": 13.3625529
+ },
+ "M29 Malmöerstr. 29 10439 Berlin Deutschland": {
+  "address": "Malmöer Straße 29, 10439 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.549755,
+  "lng": 13.4038997
  },
  "MS Goldberg am Bhf Wannsee, Kronprinzessinnenweg 5–6\nBrücke 1, 14109, Berlin": null,
  "MS Goldberg am Wannsee, Kronprinzessinnenweg 5–6 |\nBrücke 1, 14109, Berlin": null,
@@ -3695,6 +3738,7 @@
   "lat": 52.5295139,
   "lng": 13.2144631
  },
+ "Pickle Bar, Berlin": null,
  "Piekfeiner Laden - Hausprojekt Wönnichstr. 103 Berlin Deutschland": null,
  "Planetarium Berlin": {
   "address": "Munsterdamm, 12169 Steglitz",
@@ -4095,6 +4139,7 @@
   "lat": 52.5182718,
   "lng": 13.4078309
  },
+ "Rotes Rathaus, Neptunbrunnen Rathausstraße 15 10178 Berlin Deutschland": null,
  "Rotes Rathaus, Rathausstraße 15, 10178 Berlin": {
   "address": "Rathausstraße 15, 10178 Mitte",
   "bezirk": "Mitte",
@@ -4227,6 +4272,7 @@
   "lat": 52.5198504,
   "lng": 13.4745735
  },
+ "Schererstra. 8 13347 Berlin Deutschland": null,
  "Schererstrasse 8, 13347 Berlin": {
   "address": "Schererstraße 8, 13347 Wedding",
   "bezirk": "Mitte",
@@ -4438,6 +4484,8 @@
   "lat": 52.4930552,
   "lng": 13.4220572
  },
+ "Secret Location Get Adress after registration Berlin": null,
+ "Secret Location Get Adress after registration Berlin Deutschland": null,
  "Seelenbinderstraße 54, 12555 Köpenick, Berlin": {
   "address": "Seelenbinderstraße 54, 12555 Köpenick",
   "bezirk": "Treptow-Köpenick",
@@ -4584,6 +4632,12 @@
   "bezirk": "Mitte",
   "lat": 52.5317784,
   "lng": 13.3262013
+ },
+ "Stadtteilbibliothek Buch, Berlin": {
+  "address": "Wiltbergstraße 19-23, 13125 Buch",
+  "bezirk": "Pankow",
+  "lat": 52.6356441,
+  "lng": 13.4938846
  },
  "Stadtteilbüro Fhain Warschauerstr. 23 Berlin Deutschland": {
   "address": "Warschauer Straße 23, 10243 Friedrichshain",
@@ -4850,6 +4904,12 @@
   "lat": 52.5026366,
   "lng": 13.4758561
  },
+ "U Schlesisches Tor, Berlin": {
+  "address": "Köpenicker Straße, 10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.501347,
+  "lng": 13.4412845
+ },
  "U-BHf Turmstraße 10551 Berlin": null,
  "U-Bhf Afrikanische Straße, vor der Steinbock Apotheke, 13349 Berlin": null,
  "U-Bhf Eberswalder Straße, 10437 Berlin": null,
@@ -4952,6 +5012,8 @@
  },
  "Volkssolidarität \"Mehr Mitte\" Torstraße 190 10115 Berlin Deutschland": null,
  "Volunteer Check-in, Welser Straße 20, Berlin, 10777": null,
+ "Vor dem Eastgate (Marzahner Promenade 1A) Berlin": null,
+ "Vor dem Eastgate (Marzahner Promenade 1A) Berlin Deutschland": null,
  "Vor dem Schlesischen Tor 3, 10997 Berlin": {
   "address": "Vor dem Schlesischen Tor 3, 10997 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",

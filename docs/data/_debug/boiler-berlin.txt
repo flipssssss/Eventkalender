@@ -1,8 +1,8 @@
 Events: 7
-  2026-08-27 17:00:00 | Bears Sweat
   2026-08-28 17:00:00 | Friday Infusions
   2026-08-29 17:00:00 | Saturday Infusions
   2026-08-30 17:00:00 | Sunday Infusions
   2026-08-31 17:00:00 | 15 Years – 15 Specials
   2026-08-31 17:00:00 | Monday Infusions
   2026-09-01 17:00:00 | Theme Night
+  2026-09-02 17:00:00 | youngStars

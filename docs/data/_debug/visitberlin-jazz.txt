@@ -1,12 +1,9 @@
-Event-Links: 19 | Events: 18
+Event-Links: 19 | Events: 17
   2026-07-04 17:00:00 | Krankenhauskirche im Wuhlgarten, Brebacher Weg 15, 12683, Berlin | ZERBRECHLICHE SCHÖNHEIT - Marita Czepa
-  2026-03-26 19:00:00 | Musikinstrumenten-Museum, Tiergartenstraße, 10785, Berlin | Jazz im MIM
-  2026-08-28 20:00:00 | Berliner Berg Brauerei, Treptower Str. 39, 12059, Berlin | Diego Piñera & Friends
-  2026-08-28 20:00:00 | Raumerweiterungshalle, Kopenhagener Straße 17, 10437, Berlin | Hot Tropical Nights. Muacy Trio.
   2026-08-29 17:00:00 | Jagdschloss Stern, Jagdhausstraße, 14480, Potsdam | Schlossnacht mit Illumination und Jazz
   2026-08-29 20:00:00 | Raumerweiterungshalle, Kopenhagener Straße 17, 10437, Berlin | Hot Tropical Nights. De Carvalho/Maciel/Duarte/Filip
   2026-07-07 19:00:00 | Globe Berlin, Sömmeringstraße 15, 10589, Berlin | The Swingin' Hermlins
-  2026-07-21 19:30:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Die Rickenbackers Session
+  2026-09-01 19:30:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Session im ART Stalker
   2026-09-04 19:30:00 | Kulturhaus Centre Bagatelle, Zeltinger Straße 6, 13465, Berlin | Vier Hände, zwei Klaviere … und nu?
   2026-09-05 20:00:00 | Little Stage Berlin, Jonasstraße, 12053, Berlin | FOR THEIR EGOS
   2026-09-05 20:30:00 | ausland, Lychener Str. 60, 10437, Berlin | biegungen im ausland
@@ -17,3 +14,5 @@ Event-Links: 19 | Events: 18
   2026-09-11 20:00:00 | Radialsystem, Holzmarktstr. 33, 10243, Berlin | 20 Jahre Andromeda Mega Express Orchestra
   2026-09-11 20:00:00 | Little Stage Berlin, Jonasstraße, 12053, Berlin | Liberty Styles New York International Trio & Devin Gray Trio
   2026-09-11 20:15:00 | Badenscher Hof Jazzclub, Badensche Str. 29, 10715, Berlin | My Shining Hour
+  2026-09-12 18:00:00 | Strandbad Wendenschloss, Möllhausenufer 30, 12557, Berlin | Live Session im Strandbad : Bird Watch Trio
+  2026-09-12 20:00:00 | ausland, Lychener Str. 60, 10437, Berlin | LUN ÁRIO / MUNSHA / DUCHAMP / FRICTIVE FREQUENCIES

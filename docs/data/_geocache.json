@@ -583,6 +583,12 @@
   "lat": 52.5320796,
   "lng": 13.380294
  },
+ "Ballhaus Prinzenallee, Berlin": {
+  "address": "Prinzenallee 33, 13359 Gesundbrunnen",
+  "bezirk": "Mitte",
+  "lat": 52.5577738,
+  "lng": 13.3864077
+ },
  "Bandito Rosso Lottumstr. 10a 10119 Berlin Deutschland": null,
  "Bandito Rosso Lottumstr. 10a, 10119 Berlin": {
   "address": "Lottumstraße 10a, 10119 Prenzlauer Berg",
@@ -690,7 +696,19 @@
  },
  "Berliner Berg Brauerei, Treptower Str. 39, 12059, Berlin": null,
  "Berliner Kunstmarkt": null,
+ "Berliner MieterGemeinschaft Sonnenallee 101 12045 Berlin Deutschland": {
+  "address": "Sonnenallee 101, 12045 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4821725,
+  "lng": 13.4395704
+ },
  "Berliner Philharmonie": null,
+ "Berliner Straße 86, 14467 Potsdam": {
+  "address": "Berliner Straße 86, 14467 Berliner Vorstadt",
+  "bezirk": null,
+  "lat": 52.4135931,
+  "lng": 13.087704
+ },
  "Bernauer Straße 63, 13355 Berlin": {
   "address": "Bernauer Straße 63, 13355 Gesundbrunnen",
   "bezirk": "Pankow",
@@ -2227,6 +2245,12 @@
  "Karl Liebknecht Haus, Rosa-Luxemburg-Saal, Kleine Alexanderstraße 28, 10178 Berlin": null,
  "Karl-Liebknecht-Haus Kleine Alexanderstr. 28 10178 Berlin Deutschland": null,
  "Karl-Liebknecht-Haus Kleine Alexanderstr. 28 10178, 10178 Berlin": null,
+ "Karl-Liebknecht-Straße 11, 10178 Berlin": {
+  "address": "Karl-Liebknecht-Straße 11, 10178 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5217615,
+  "lng": 13.4075481
+ },
  "Karl-Marx-Allee 45, 10178, Berlin": {
   "address": "Karl-Marx-Allee 45, 10178 Mitte",
   "bezirk": "Mitte",
@@ -3549,6 +3573,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5000219,
   "lng": 13.4413264
+ },
+ "Oranienburger Straße 18, 10178 Berlin": {
+  "address": "Oranienburger Straße 18, 10178 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5240834,
+  "lng": 13.3971151
  },
  "Oranienburger Straße 54, 10117 Berlin": {
   "address": "Oranienburger Straße 54, 10117 Mitte",
@@ -5023,6 +5053,12 @@
  "Vor der Amerika-Gedenkbibliothek, Blücherplatz 1, 10961 Berlin": null,
  "Vor der Amerika-Gedenkbibliothek, Eva-Mamlok-Platz (ehemals Blücherplatz), 10961 Berlin": null,
  "Vor der BHT-Mensa, Luxemburger Straße 9, 13353 Berlin": null,
+ "WB13 Am Berl 13 13051 Berlin Deutschland": {
+  "address": "Am Berl 13, 13051 Neu-Hohenschönhausen",
+  "bezirk": "Lichtenberg",
+  "lat": 52.5741137,
+  "lng": 13.4997399
+ },
  "WB13, Am Berl 13, 13051 Berlin": null,
  "Wagenburg Lohmühle Lohmühlenstr. 17 12435 Berlin Deutschland": null,
  "Wagenburg Lohmühle Lohmühlenstr. 17 12435, 12435 Berlin": null,

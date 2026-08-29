@@ -186,6 +186,12 @@
   "lat": 52.5589025,
   "lng": 13.2978794
  },
+ "13597 Berlin": {
+  "address": "13597 Wilhelmstadt",
+  "bezirk": "Spandau",
+  "lat": 52.527257,
+  "lng": 13.2194875
+ },
  "14469 Berlin": {
   "address": "Berlin",
   "bezirk": null,
@@ -571,6 +577,12 @@
   "lat": 52.4858633,
   "lng": 13.3274004
  },
+ "Badensche Straße 29, 10715 Wilmersdorf, Berlin": {
+  "address": "Badensche Straße 29, 10715 Wilmersdorf",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.4862449,
+  "lng": 13.3274958
+ },
  "Badenscher Hof Jazzclub, Badensche Str. 29, 10715, Berlin": null,
  "Baergarten Schnellerstraße 137 12439 Berlin Deutschland": null,
  "Bahnhof Oranienburg Berlin": null,
@@ -789,6 +801,7 @@
   "lat": 52.3818825,
   "lng": 13.8001845
  },
+ "Bhf Rathaus Spandau, 13597 Berlin": null,
  "Bibliothek der Freien Greifswalder Str. 4 2. Hof, Raum 1102 (1. OG) 10405 Berlin Deutschland": null,
  "Bilgisaray Oranienstr. 45 Berlin Deutschland": {
   "address": "Oranienstraße 45, 10969 Kreuzberg",
@@ -912,6 +925,12 @@
   "bezirk": "Marzahn-Hellersdorf",
   "lat": 52.5178342,
   "lng": 13.5693025
+ },
+ "Brebacher Weg 15, 12683 Biesdorf, Berlin": {
+  "address": "Brebacher Weg 15, 12683 Biesdorf",
+  "bezirk": "Marzahn-Hellersdorf",
+  "lat": 52.5178694,
+  "lng": 13.571863
  },
  "Bredouille Bar, Georgenstraße 199, 10117, Berlin": {
   "address": "Georgenstraße 199, 10117 Mitte",
@@ -1421,6 +1440,12 @@
   "lat": 52.5343784,
   "lng": 13.3596231
  },
+ "Filmrauschpalast, Lehrter Straße 35, 10557 Berlin": {
+  "address": "Lehrter Straße 35, 10557 Moabit",
+  "bezirk": "Mitte",
+  "lat": 52.5343784,
+  "lng": 13.3596231
+ },
  "Filmrisz Filmrisz Rigaerstr. 103 10247 Berlin Deutschland": null,
  "Filmrisz Filmrisz Rigaerstr. 103 10247, 10247 Berlin": null,
  "Finowstraße 33, 10247 Berlin": {
@@ -1709,6 +1734,12 @@
   "lat": 52.5117587,
   "lng": 13.4615491
  },
+ "Görlitzer Park Berlin Deutschland": {
+  "address": "Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.496579,
+  "lng": 13.4376053
+ },
  "Görlitzer Park, Pamukkale 10999 Berlin": null,
  "Görlitzer Straße Ecke Cuvrystraße, 10997 Berlin": null,
  "Gürtelstraße 35, 10247 Berlin": {
@@ -1768,6 +1799,12 @@
   "lat": 52.4894942,
   "lng": 13.4100369
  },
+ "Hasenheide Berlin Deutschland": {
+  "address": "Hasenheide, 10967 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4881991,
+  "lng": 13.4137245
+ },
  "Hasenheide, Anmeldung erforderlich, 10967 Berlin": null,
  "Hasselwerderstr. 22A, 12439 Berlin": {
   "address": "Hasselwerderstraße 22A, 12439 Niederschöneweide",
@@ -1812,6 +1849,13 @@
   "bezirk": "Mitte",
   "lat": 52.5187884,
   "lng": 13.3648356
+ },
+ "Haus der Statistik, Otto-Braun-Straße 70-72, 10178 Berlin": null,
+ "Hausprojekt Burge Burgemeisterstraße 17 12103 Berlin Deutschland": {
+  "address": "Burgemeisterstraße 17-18, 12103 Tempelhof",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4575695,
+  "lng": 13.3796659
  },
  "Hausvogteiplatz 5-7, 10117 Berlin": {
   "address": "Hausvogteiplatz 5-7, 10117 Mitte",
@@ -1867,6 +1911,12 @@
   "bezirk": "Neukölln",
   "lat": 52.4643376,
   "lng": 13.4333186
+ },
+ "Hermannstraße 18, 12049 Berlin": {
+  "address": "Hermannstraße 18, 12049 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4836648,
+  "lng": 13.4245161
  },
  "Hermannstraße 86, 12051 Berlin": {
   "address": "Hermannstraße 86, 12051 Neukölln",
@@ -1977,6 +2027,7 @@
   "lat": 52.490069,
   "lng": 13.2865168
  },
+ "Hydra Café, Hermannstraße 18, 12049 Berlin": null,
  "Händelallee 22, 10557 Berlin": {
   "address": "Händelallee 22, 10557 Hansaviertel",
   "bezirk": "Mitte",
@@ -1996,6 +2047,12 @@
   "lng": 13.5212776
  },
  "Hönower Straße 30 10318, 10318 Berlin": null,
+ "IDA Nowhere Donaustr. 79 Berlin Deutschland": {
+  "address": "Donaustraße 79, 12043 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4782137,
+  "lng": 13.4430391
+ },
  "IKSK, Holzmarktstraße 25, 10243 Berlin": {
   "address": "Holzmarktstraße 25, 10243 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -2100,6 +2157,12 @@
   "bezirk": "Neukölln",
   "lat": 52.470975,
   "lng": 13.4309683
+ },
+ "Jonasstraße 1, 12053 Neukölln, Berlin": {
+  "address": "Jonasstraße 1, 12053 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4724292,
+  "lng": 13.4407551
  },
  "Jonasstraße 40, 12053 Berlin": {
   "address": "Jonasstraße 40, 12053 Neukölln",
@@ -2208,6 +2271,12 @@
   "lng": 13.4580211
  },
  "Kaiser-Friedrich-Straße 67, 10627 Berlin": {
+  "address": "Kaiser-Friedrich-Straße 67, 10627 Charlottenburg",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.509259,
+  "lng": 13.3021631
+ },
+ "Kaiser-Friedrich-Straße 67, 10627 Charlottenburg, Berlin": {
   "address": "Kaiser-Friedrich-Straße 67, 10627 Charlottenburg",
   "bezirk": "Charlottenburg-Wilmersdorf",
   "lat": 52.509259,
@@ -2466,6 +2535,12 @@
   "bezirk": "Pankow",
   "lat": 52.5491327,
   "lng": 13.4074992
+ },
+ "Kopenhagener Straße 17, 10437 Prenzlauer Berg, Berlin": {
+  "address": "Kopenhagener Straße 17, 10437 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5493194,
+  "lng": 13.407594
  },
  "Kopenicker Str. 147, 10997 Berlin": {
   "address": "Köpenicker Straße 147, 10997 Kreuzberg",
@@ -3067,6 +3142,12 @@
   "lat": 52.545711,
   "lng": 13.3552968
  },
+ "Lychener Straße 60, 10437 Prenzlauer Berg, Berlin": {
+  "address": "Lychener Straße 60, 10437 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5448387,
+  "lng": 13.4194785
+ },
  "Lynarstr. 9, 13585 Berlin": {
   "address": "Lynarstraße 9, 13585 Spandau",
   "bezirk": "Spandau",
@@ -3310,6 +3391,12 @@
  "Mellowpark An der Wuhlheide 250-256 (Schöneweide) Berlin": null,
  "Mellowpark An der Wuhlheide 250-256 (Schöneweide) Berlin Deutschland": null,
  "Mellowpark, 12459 Berlin": null,
+ "Menagerie, Berlin": {
+  "address": "Seestraße, 13347 Wedding",
+  "bezirk": "Mitte",
+  "lat": 52.5509569,
+  "lng": 13.3540571
+ },
  "Metis Books and Café, Berlin": null,
  "Metropol, Berlin": {
   "address": "Nollendorfplatz 5, 10777 Schöneberg",
@@ -3343,6 +3430,12 @@
   "bezirk": "Steglitz-Zehlendorf",
   "lat": 52.4338463,
   "lng": 13.2543865
+ },
+ "Moabit, Berlin": {
+  "address": "Moabit",
+  "bezirk": "Mitte",
+  "lat": 52.5301017,
+  "lng": 13.3425422
  },
  "Modersohnstr. 1024, 10245 Berlin": {
   "address": "Modersohnstraße, 10245 Friedrichshain",
@@ -3398,6 +3491,12 @@
   "lng": 13.377443
  },
  "Möllhausenufer 30, 12557 Berlin": {
+  "address": "Möllhausenufer 30, 12557 Köpenick",
+  "bezirk": "Treptow-Köpenick",
+  "lat": 52.4154105,
+  "lng": 13.5994753
+ },
+ "Möllhausenufer 30, 12557 Köpenick, Berlin": {
   "address": "Möllhausenufer 30, 12557 Köpenick",
   "bezirk": "Treptow-Köpenick",
   "lat": 52.4154105,
@@ -3632,6 +3731,12 @@
   "lat": 52.4928757,
   "lng": 13.3820025
  },
+ "Otto-Braun-Straße 70-72, 10178 Berlin": {
+  "address": "Otto-Braun-Straße, 10178 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5252818,
+  "lng": 13.4196976
+ },
  "Otto-von-Simson-Straße 23, Berlin": {
   "address": "Otto-von-Simson-Straße 23, 14195 Dahlem",
   "bezirk": "Steglitz-Zehlendorf",
@@ -3824,6 +3929,7 @@
  "Potse (Zollgarage), Berlin": null,
  "Potse Zollgarage, Columbiadamm 10, 12101 Berlin": null,
  "Prachttomate Bornsdorfer Straße 9-11, 12053 Berlin": null,
+ "Prachttomate, Bornsdorfer Straße 9-11, 12053 Berlin": null,
  "Prenzlauer Allee 80, 10405 Berlin": {
   "address": "Prenzlauer Allee 80, 10405 Prenzlauer Berg",
   "bezirk": "Pankow",
@@ -3992,6 +4098,12 @@
   "lng": 13.4307312
  },
  "Reinickendorfer Straße 96, 13347 Berlin": {
+  "address": "Reinickendorfer Straße 96, 13347 Wedding",
+  "bezirk": "Mitte",
+  "lat": 52.5475885,
+  "lng": 13.3683614
+ },
+ "Reinickendorfer Straße 96, 13347 Wedding, Berlin": {
   "address": "Reinickendorfer Straße 96, 13347 Wedding",
   "bezirk": "Mitte",
   "lat": 52.5475885,
@@ -4194,6 +4306,12 @@
   "lat": 52.5127217,
   "lng": 13.4199215
  },
+ "Rungestraße 20, 10179 Berlin, Germany": {
+  "address": "Rungestraße 20, 10179 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5127217,
+  "lng": 13.4199215
+ },
  "Rxxxhaus Bethaniendamm Berlin": null,
  "Rxxxhaus, Bethaniendamm Berlin Deutschland": null,
  "Rütli Campus, Rütlistraße, 12045 Berlin": {
@@ -4251,6 +4369,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5003909,
   "lng": 13.4221612
+ },
+ "SOLID, Graefestraße 18, 10967 Berlin": {
+  "address": "Graefestraße 18, 10967 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4929561,
+  "lng": 13.417489
  },
  "SOLId Graefestraße 18 10967 Berlin Deutschland": {
   "address": "Graefestraße 18, 10967 Kreuzberg",
@@ -4708,6 +4832,12 @@
  "Supamolly Jessnerstr. 41 10247, 10247 Berlin": null,
  "Säule/Berghain, Berlin": null,
  "Sömmeringstraße 15, 10589 Berlin": {
+  "address": "Sömmeringstraße 15, 10589 Charlottenburg",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.5225889,
+  "lng": 13.3049841
+ },
+ "Sömmeringstraße 15, 10589 Charlottenburg, Berlin": {
   "address": "Sömmeringstraße 15, 10589 Charlottenburg",
   "bezirk": "Charlottenburg-Wilmersdorf",
   "lat": 52.5225889,
@@ -5328,6 +5458,12 @@
   "lng": 13.2928997
  },
  "Zeltinger Straße 6, 13465 Berlin": {
+  "address": "Zeltinger Straße 6, 13465 Frohnau",
+  "bezirk": "Reinickendorf",
+  "lat": 52.6347482,
+  "lng": 13.2928997
+ },
+ "Zeltinger Straße 6, 13465 Frohnau, Berlin": {
   "address": "Zeltinger Straße 6, 13465 Frohnau",
   "bezirk": "Reinickendorf",
   "lat": 52.6347482,

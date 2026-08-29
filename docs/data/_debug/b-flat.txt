@@ -1,7 +1,6 @@
 top-keys: ['website', 'websiteSettings', 'collection', 'shoppingCart', 'shareButtons', 'showCart', 'localizedStrings', 'userAccountsContext', 'template', 'uiextensions', 'empty', 'emptyFolder', 'calendarView', 'pagination', 'upcoming']
-items: 30 | Events: 30
+items: 29 | Events: 29
 erstes item keys: ['id', 'collectionId', 'recordType', 'addedOn', 'updatedOn', 'starred', 'passthrough', 'tags', 'categories', 'workflowState', 'publishOn', 'authorId', 'systemDataId', 'systemDataVariants', 'systemDataSourceType', 'filename', 'mediaFocalPoint', 'colorData', 'urlId', 'title', 'sourceUrl', 'body', 'excerpt', 'location', 'customContent']
-  2026-08-28 09:00:00.506000 | Havana Berlin Express
   2026-08-29 09:00:00.506000 | Shannon Callahan &amp; Band
   2026-08-30 09:00:00.506000 | the bottomline
   2026-09-01 09:00:00.506000 | MY SPANISH HEART – Drei Jahre Flamenco-Jazz in Berlin&nbsp;Special Guest: Manuel Reina&nbsp;(dance)

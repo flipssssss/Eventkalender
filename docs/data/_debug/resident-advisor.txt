@@ -1,5 +1,5 @@
-Events gesamt: 64 | mit Bild: 54 | mit Beschreibung: 60
-club/28354 (://about blank): 29 -> 29 Berlin | flyer=0 images=25 content=27
+Events gesamt: 61 | mit Bild: 51 | mit Beschreibung: 57
+club/28354 (://about blank): 27 -> 27 Berlin | flyer=0 images=23 content=25
 club/98993 (Beate Uwe): 15 -> 15 Berlin | flyer=0 images=10 content=15
 club/298230 (ROSA): 3 -> 3 Berlin | flyer=0 images=3 content=3
 promoter/82597 (BOAR Berlin): 0 -> 0 Berlin | flyer=0 images=0 content=0
@@ -11,7 +11,7 @@ promoter/84128 (Klub Verboten): 6 -> 0 Berlin | flyer=0 images=6 content=6
 promoter/167895 (Lecken3000): 0 -> 0 Berlin | flyer=0 images=0 content=0
 promoter/137536 (Magic Dyke*): 0 -> 0 Berlin | flyer=0 images=0 content=0
 promoter/169756 (Mala Junta): 0 -> 0 Berlin | flyer=0 images=0 content=0
-promoter/109496 (PiepShow Berlin): 5 -> 5 Berlin | flyer=0 images=5 content=5
+promoter/109496 (PiepShow Berlin): 4 -> 4 Berlin | flyer=0 images=4 content=4
 promoter/112980 (Pinky Promise): 0 -> 0 Berlin | flyer=0 images=0 content=0
 promoter/119317 (Polyamor): 6 -> 4 Berlin | flyer=0 images=5 content=4
 promoter/52590 (Pornceptual): 4 -> 1 Berlin | flyer=0 images=3 content=4

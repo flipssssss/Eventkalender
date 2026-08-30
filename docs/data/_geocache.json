@@ -613,6 +613,7 @@
  "Bar at Hotel Motel One, Grunerstraße 11, 10179 Berlin": null,
  "Baumschulen-Ufer Neue Krugallee 219-231 12437 Berlin Deutschland": null,
  "Bayer Müllerstraße 178, U Reinickendorfer Straße 13353 Berlin Deutschland": null,
+ "Beach Neukölln, Treptower Straße 39, 12059 Berlin": null,
  "Beate Uwe, Berlin": {
   "address": "Schillingstraße 31, 10179 Mitte",
   "bezirk": "Mitte",
@@ -2144,6 +2145,7 @@
   "lat": 52.5106107,
   "lng": 13.4714173
  },
+ "Jiwar Space, Weserstraße 165, 12045 Berlin": null,
  "Jockel Biergarten Ratiborstr. 14c 10999 Berlin Deutschland": null,
  "Johann-Trollmann-Boxcamp, Bergmannstraße 29, 10961 Berlin": null,
  "John-F. -Kennedy-Platz 1, 10825 Berlin": {
@@ -2218,6 +2220,12 @@
   "lng": 13.4666469
  },
  "K9 Kinzigstr 9, Berlin": {
+  "address": "Kinzigstraße 9, 10247 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5136974,
+  "lng": 13.4666469
+ },
+ "K9, Kinzigstraße 9, 10247 Berlin": {
   "address": "Kinzigstraße 9, 10247 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5136974,
@@ -2458,6 +2466,12 @@
  "Kiezraum auf dem Dragonerareal Mehringdamm 20 10961 Berlin Deutschland": null,
  "KikiSol, Reinickendorfer Straße 96, 13347, Berlin": null,
  "Kino Durchsfenster, Filmclub K18 Media Space K18, Kreutziger Straße 18, Friedrichshain (Südkiez) Berlin Deutschland": null,
+ "Kino International, Berlin": {
+  "address": "Karl-Marx-Allee 33, 10178 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5206816,
+  "lng": 13.423045
+ },
  "Kino Zukunft, Berlin": {
   "address": "Kynaststraße, 10245 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -2529,6 +2543,12 @@
   "bezirk": "Pankow",
   "lat": 52.5404746,
   "lng": 13.412219
+ },
+ "Kopenhagener Str. 17, 10437 Berlin": {
+  "address": "Kopenhagener Straße 17, 10437 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5493194,
+  "lng": 13.407594
  },
  "Kopenhagener Straße 17, 10437 Berlin": {
   "address": "Kopenhagener Straße 17, 10437 Prenzlauer Berg",
@@ -2603,6 +2623,7 @@
   "lat": 52.5131367,
   "lng": 13.4600201
  },
+ "Kreuzberg/ask a punk, Berlin": null,
  "Kreuzdorf Mariannenplatz 1a 10997 Berlin Deutschland": null,
  "Kreuzdorf Mariannenplatz 1a, 10997 Berlin": null,
  "Kreuziger Str 19, Berlin": null,
@@ -3253,6 +3274,12 @@
   "bezirk": "Neukölln",
   "lat": 52.4746587,
   "lng": 13.4520113
+ },
+ "Mariannenplatz (Kreuzberg) Mariannenplatz 10997 Berlin Deutschland": {
+  "address": "Mariannenplatz 2, 10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5036639,
+  "lng": 13.424156
  },
  "Mariannenplatz 1a 10997 berlin": {
   "address": "Mariannenplatz 1a, 10997 Kreuzberg",
@@ -4025,9 +4052,16 @@
   "lng": 13.4383871
  },
  "Raumerweiterungshalle Berlin": null,
+ "Raumerweiterungshalle für Jazz, Kopenhagener Str. 17, 10437, Berlin": null,
  "Raumerweiterungshalle, Berlin": null,
  "Raumerweiterungshalle, Kopenhagener Straße 17, 10437, Berlin": null,
  "Rauxxxaus, Bethaniendamm 26, 10997 Berlin": null,
+ "Reformationsplatz 1, 13597 Berlin": {
+  "address": "Reformationsplatz, 13597 Spandau",
+  "bezirk": "Spandau",
+  "lat": 52.5384948,
+  "lng": 13.2052774
+ },
  "Refuge Worldwide, Niemetzstraße 1, 12055 Berlin": {
   "address": "Niemetzstraße 1, 12055 Neukölln",
   "bezirk": "Neukölln",
@@ -4175,6 +4209,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5182565,
   "lng": 13.4552573
+ },
+ "Rigaer Straße 78, 10247 - Berlin": {
+  "address": "Rigaer Straße 78, 10247 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5166826,
+  "lng": 13.4641691
  },
  "Rigaer Straße 94 10247 Berlin": {
   "address": "Rigaer Straße 94, 10247 Friedrichshain",
@@ -4626,6 +4666,12 @@
   "lat": 52.5404746,
   "lng": 13.412219
  },
+ "Schönhauser Allee 44b, Berlin": {
+  "address": "Schönhauser Allee 44b, 10435 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5404746,
+  "lng": 13.412219
+ },
  "Schönhauser Allee 58, 10437 Berlin": {
   "address": "Schönhauser Allee 58, 10437 Prenzlauer Berg",
   "bezirk": "Pankow",
@@ -4779,6 +4825,7 @@
   "lat": 52.5120816,
   "lng": 13.3240122
  },
+ "St. Nikolai Kirche, Reformationsplatz 1, 13597, Berlin": null,
  "Stadteilladen Lunte, Weisestraße 53, 12049 Berlin": null,
  "Stadtpark Lichtenberg (Parkaue) 10367 Berlin Deutschland": null,
  "Stadtschloss Moabit, Rostocker Straße 32, 10553 Berlin": {
@@ -5002,6 +5049,12 @@
   "lat": 52.4848891,
   "lng": 13.4580488
  },
+ "Treptower Straße 39, 12059 Berlin": {
+  "address": "Treptower Straße 39, 12059 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4848891,
+  "lng": 13.4580488
+ },
  "Trinkteufel Naunynstr. 60 10997 Berlin Deutschland": null,
  "Tristeza Kollektivkneipe, Pannierstraße 5, 12047 Berlin": null,
  "Tristeza Pannierstr. 5 12047 Berlin Deutschland": {
@@ -5112,6 +5165,7 @@
   "lat": 52.5519575,
   "lng": 13.3749883
  },
+ "Under the raised train line, on the south side of Konnopke's Imbiss Schönhauser Allee 44b, Berlin": null,
  "Unter Strom Wagenplatz Hegemeisterweg 68 10318 Berlin Deutschland": null,
  "Unter den Linden 5, 10117 Berlin": {
   "address": "Unter den Linden 5, 10117 Mitte",
@@ -5142,6 +5196,12 @@
   "lng": 13.4606574
  },
  "Vetomat Wühlischstr. 42 10247, 10247 Berlin": null,
+ "Viktoriastraße 10-18, 12105 Berlin": {
+  "address": "Viktoriastraße 10-18, 12105 Tempelhof",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4541235,
+  "lng": 13.3817861
+ },
  "Villa Felix Schreinerstraße 47 10247 Berlin Deutschland": null,
  "Villa Kuriosum Scheffelstr. 21 10367 Berlin Deutschland": {
   "address": "Scheffelstraße 21, 10367 Lichtenberg",
@@ -5193,6 +5253,7 @@
  "Wagenburg Lohmühle Lohmühlenstr. 17 12435 Berlin Deutschland": null,
  "Wagenburg Lohmühle Lohmühlenstr. 17 12435, 12435 Berlin": null,
  "Wagenplatz Kinderbauenhof Adalbertstraße 69, 10997 Berlin Deutschland": null,
+ "Wagenplatz Kinderbauernhof, Adalbertstraße 69, 10997 Berlin": null,
  "Wagenplatz Scheffel 21 Berlin": null,
  "Wagenplatz Scheffel 21 Berlin Deutschland": null,
  "Waldemarstraße 110, Berlin": {
@@ -5280,6 +5341,12 @@
   "lng": 13.4302972
  },
  "Weserstr. 206, 12047 Berlin-Bezirk Neukölln, Germany": null,
+ "Weserstraße 165, 12045 Berlin": {
+  "address": "Weserstraße 165, 12045 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4833039,
+  "lng": 13.4413146
+ },
  "Weserstraße 59, 12045 Berlin": {
   "address": "Weserstraße 59, 12045 Neukölln",
   "bezirk": "Neukölln",

@@ -1,29 +1,5 @@
-event-blocks: 3 | Events: 3
+event-blocks: 2 | Events: 2
 
-<div class="event-block">
- <!-- Zeile 1: Datum + Titel -->
- <div class="event-row-1">
-  <div class="event-time">
-   Samstag, 5. Sept. 21:30
-  </div>
-  <div class="event-title">
-   JAPAN TAKEOVER 4
-  </div>
- </div>
- <!-- Zeile 2: Bild + Beschreibung -->
- <div class="event-row-2">
-  <div class="event-image">
-   <img alt="" src="ProgrammFotos/JAPAN_TAKEOVER_4_2026_09_05.jpg"/>
-  </div>
-  <div class="event-description">
-   100% made in Japan. 
-Djs: Nihon No Jazz. Kayuka. Nob. Teshi
-  </div>
- </div>
-</div>
-
-
-----
 <div class="event-block">
  <!-- Zeile 1: Datum + Titel -->
  <div class="event-row-1">

@@ -3,7 +3,6 @@ Häuser ohne kuratierte Öffnungszeiten (in scrapers/openinghours.py ergänzen):
 Café Cralle
 Georg-Kolbe-Museum
 Haus am Waldsee
-IDA Nowhere Donaustr. 79 Berlin Deutschland
 MaHalla
 Museum Barberini
 RWK Studios

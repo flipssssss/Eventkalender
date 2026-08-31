@@ -1,5 +1,4 @@
-Events: 14
-  2026-08-29 17:30:00 | gender mix
+Events: 13
   2026-09-02 17:30:00 | gender mix
   2026-09-04 17:30:00 | flinta sweat
   2026-09-05 17:30:00 | Tin* Sweat Special (TBOY SWEAT 2.0)

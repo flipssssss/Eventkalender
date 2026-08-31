@@ -219,6 +219,12 @@
  "AGB PopUp Saal Blücherplatz 1 10961 Berlin Deutschland": null,
  "AGB PopUp Saal Blücherplatz 1 10961, 10961 Berlin": null,
  "AK Zwangsarbeit Ludwigsfelde, Berlin": null,
+ "AMT, Berlin": {
+  "address": "Werderscher Markt 1, 10117 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5139807,
+  "lng": 13.3998494
+ },
  "AStA FU Otto-von-Simson-Straße 23 Berlin Deutschland": null,
  "Abfahrt Solibus Züllichauer Straße 10965 Berlin Deutschland": null,
  "Abgedreht-Klub Karl-Marx-Allee.140 10243 Berlin Deutschland": null,
@@ -2465,6 +2471,7 @@
  "Kiezraum auf dem DragonerAreal Mehringdamm 22 (hinter dem Finanzamt) Berlin Deutschland": null,
  "Kiezraum auf dem Dragonerareal Mehringdamm 20 10961 Berlin Deutschland": null,
  "KikiSol, Reinickendorfer Straße 96, 13347, Berlin": null,
+ "Kino Durchsfenster Kreutzigerstraße 18 Berlin Deutschland": null,
  "Kino Durchsfenster, Filmclub K18 Media Space K18, Kreutziger Straße 18, Friedrichshain (Südkiez) Berlin Deutschland": null,
  "Kino International, Berlin": {
   "address": "Karl-Marx-Allee 33, 10178 Mitte",
@@ -2616,6 +2623,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5131367,
   "lng": 13.4600201
+ },
+ "Kreutzigerstraße 18, Berlin": {
+  "address": "Kreutzigerstraße 18, 10247 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5130346,
+  "lng": 13.459936
  },
  "Kreutzigerstraße 19, 10247 Friedrichshain, Berlin": {
   "address": "Kreutzigerstraße 19, 10247 Friedrichshain",
@@ -5537,6 +5550,12 @@
   "lng": 13.2928997
  },
  "Zentrum Villa Lützow Lützowstraße 28 10785, 10785 Berlin": null,
+ "Zeughauskino, Berlin": {
+  "address": "Unter den Linden 2, 10117 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5184355,
+  "lng": 13.3975301
+ },
  "Zickenplatz, Kottbusser Damm, 10967 Berlin": null,
  "Ziegelstraße 5, 10117 Berlin": {
   "address": "Ziegelstraße 5, 10117 Mitte",
@@ -5621,6 +5640,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.4937932,
   "lng": 13.4296611
+ },
+ "c-base Rungestr. 20 Berlin Deutschland": {
+  "address": "Rungestraße 20, 10179 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5129735,
+  "lng": 13.4201313
  },
  "cassiopeia Revaler Str. 99 Deutschland, Berlin": null,
  "che, Berlin": null,

@@ -1095,6 +1095,12 @@
   "lng": 13.363522
  },
  "Café Cralle, Hochstädter Straße 10A, Wedding Berlin Deutschland": null,
+ "Café Dujardin, Berlin": {
+  "address": "Uferstraße 12, 13357 Gesundbrunnen",
+  "bezirk": "Mitte",
+  "lat": 52.5508274,
+  "lng": 13.3735134
+ },
  "Café Engels, Herrfurthstr. 21, 12049, Berlin": null,
  "Café Fincan Altenbraker Str. 26 Berlin Deutschland": {
   "address": "Altenbraker Straße 26, 12051 Neukölln",
@@ -1851,6 +1857,12 @@
   "lng": 13.4250691
  },
  "Haus der Jugend Werner-Voß-Damm 47 12101 Berlin Deutschland": null,
+ "Haus der Kulturen der Welt John-Foster-Dulles-Allee 10 10557 Berlin Deutschland": {
+  "address": "John-Foster-Dulles-Allee 10, 10557 Tiergarten",
+  "bezirk": "Mitte",
+  "lat": 52.5184681,
+  "lng": 13.3643955
+ },
  "Haus der Kulturen der Welt, Berlin": {
   "address": "John-Foster-Dulles-Allee 10, 10557 Tiergarten",
   "bezirk": "Mitte",
@@ -2435,6 +2447,12 @@
  },
  "Kietz-Klub Köpenick, Köpenzeile 117, 12557 Berlin": null,
  "Kiez Zentrum Villa Lützow Lützowstraße 28 10785 Berlin Deutschland": null,
+ "Kiezanker 36 Cuvrystr. 13-14 10997 Berlin Deutschland": {
+  "address": "Cuvrystraße 13-14, 10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4985917,
+  "lng": 13.4437627
+ },
  "Kiezanker 36, Cuvrystraße 13-14, 10997 Berlin": null,
  "Kiezhaus Agnes Reinhold Afrikanische Straße 74 13351 Berlin Deutschland": {
   "address": "Afrikanische Straße 74, 13351 Wedding",
@@ -3071,6 +3089,12 @@
   "lat": 52.5288992,
   "lng": 13.4028556
  },
+ "Linienstraße 206, 10119 Berlin": {
+  "address": "Linienstraße 206, 10119 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5288992,
+  "lng": 13.4028556
+ },
  "Linkstreff, Malplaquetstraße 12, 13347 Berlin": {
   "address": "Malplaquetstraße 12, 13347 Wedding",
   "bezirk": "Mitte",
@@ -3238,6 +3262,12 @@
   "lat": 52.5142306,
   "lng": 13.4884364
  },
+ "Magdalenenstr. 19, Berlin": {
+  "address": "Magdalenenstraße 19, 10365 Lichtenberg",
+  "bezirk": "Lichtenberg",
+  "lat": 52.5142306,
+  "lng": 13.4884364
+ },
  "Maigalerie Torstraße 6 10119 Berlin Deutschland": {
   "address": "Torstraße 6, 10119 Mitte",
   "bezirk": "Mitte",
@@ -3389,7 +3419,19 @@
   "lat": 52.4918563,
   "lng": 13.4326134
  },
+ "McHurt, Tempelhofer Damm 141, 12099 Berlin": {
+  "address": "Tempelhofer Damm 141, 12099 Tempelhof",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4666197,
+  "lng": 13.3859564
+ },
  "Meeting @ AXEL HOTEL, Lietzenburger Straße 13-15, Schöneberg, Berlin, 10777": null,
+ "Mehring Platz 1, 10243 Berlin": {
+  "address": "Franz-Mehring-Platz 1, 10243 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5123937,
+  "lng": 13.4396133
+ },
  "Mehringdamm 1096, 10963 Berlin": {
   "address": "Mehringdamm, 10961 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -4156,6 +4198,7 @@
   "lat": 52.5475885,
   "lng": 13.3683614
  },
+ "Remise der Wilma19 Magdalenenstr. 19 (Lichtenberg): Berlin Deutschland": null,
  "Renate, Berlin": {
   "address": "Alt-Stralau 70, 10245 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -4286,6 +4329,7 @@
   "lat": 52.5266687,
   "lng": 13.4106754
  },
+ "Rosengarten Kulturpavillon, gegenüber Weinsbergweg 13, 10119 Berlin": null,
  "Rosenthaler Platz, 10119 Berlin": {
   "address": "Brunnenstraße, 10119 Mitte",
   "bezirk": "Mitte",
@@ -4386,6 +4430,8 @@
   "lng": 13.3885086
  },
  "S+U-Bhf Rathaus Steglitz, 12165 Berlin": null,
+ "S-/U-Bhf. Schönhauser Allee Berlin": null,
+ "S-/U-Bhf. Schönhauser Allee Berlin Deutschland": null,
  "S-Bhf. Gesundbrunnen Berlin Deutschland": {
   "address": "Hochstraße 46, 13357 Gesundbrunnen",
   "bezirk": "Mitte",
@@ -4449,6 +4495,7 @@
   "lat": 52.4773354,
   "lng": 13.3578441
  },
+ "Salon Franz Mehring Platz 1 10243 Berlin Deutschland": null,
  "Sama32 Samariterstr. 32 10247 Berlin Deutschland": {
   "address": "Samariterstraße 32, 10247 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -5293,6 +5340,7 @@
   "lat": 52.548949,
   "lng": 13.3481653
  },
+ "Weinsbergweg 13, 10119 Berlin": null,
  "Weisestr. 53, 12049 Berlin": {
   "address": "Weisestraße 53, 12049 Neukölln",
   "bezirk": "Neukölln",

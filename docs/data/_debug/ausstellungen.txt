@@ -1,25 +1,25 @@
 ExhibitionEvents -> Events: 31
-  2026-08-31 Lina Lapelytė: We Make Years Out of Hours – Chanel
-  2026-08-31 Paul Signac: Symphonie der Farben
-  2026-08-31 Marc Brandenburg: 20th Century Debris
-  2026-08-31 Josef Kaiser: Bauen für die DDR
-  2026-08-31 Gabriele Stötzer: Dabei sein und nicht schweigen
-  2026-08-31 Ruin und Rausch: Berlin 1910–1930
-  2026-08-31 Materialistin: Matter of Care, Care of Matter
-  2026-08-31 Cassirer und der Durchbruch des Impressionismus
-  2026-08-31 Wo ich wohne
-  2026-08-31 Giulia Andreani: Sabotage
-  2026-08-31 Neue Frau, Neues Sehen: Die Bauhaus-Fotografinnen
-  2026-08-31 Inventing Queer Cinema
-  2026-08-31 Everybody
-  2026-08-31 Walter Schels: 16° Fische – Retrospektive
-  2026-08-31 Kyiv Biennial: A Bird That Cannot Land
-  2026-08-31 Shilpa Gupta: What Still Holds
-  2026-08-31 Fujiko Nakaya: Nebelskulptur im Skulpturengarten
-  2026-08-31 Iván Argote: A Place To Stay
-  2026-08-31 Anton Corbijn: Corbijn, Anton
-  2026-08-31 Rooms / Stages
-  2026-08-31 Many Shades of Grès: Mode wird Kunst
+  2026-09-01 Lina Lapelytė: We Make Years Out of Hours – Chanel
+  2026-09-01 Paul Signac: Symphonie der Farben
+  2026-09-01 Marc Brandenburg: 20th Century Debris
+  2026-09-01 Josef Kaiser: Bauen für die DDR
+  2026-09-01 Gabriele Stötzer: Dabei sein und nicht schweigen
+  2026-09-01 Ruin und Rausch: Berlin 1910–1930
+  2026-09-01 Materialistin: Matter of Care, Care of Matter
+  2026-09-01 Cassirer und der Durchbruch des Impressionismus
+  2026-09-01 Wo ich wohne
+  2026-09-01 Giulia Andreani: Sabotage
+  2026-09-01 Neue Frau, Neues Sehen: Die Bauhaus-Fotografinnen
+  2026-09-01 Inventing Queer Cinema
+  2026-09-01 Everybody
+  2026-09-01 Walter Schels: 16° Fische – Retrospektive
+  2026-09-01 Kyiv Biennial: A Bird That Cannot Land
+  2026-09-01 Shilpa Gupta: What Still Holds
+  2026-09-01 Fujiko Nakaya: Nebelskulptur im Skulpturengarten
+  2026-09-01 Iván Argote: A Place To Stay
+  2026-09-01 Anton Corbijn: Corbijn, Anton
+  2026-09-01 Rooms / Stages
+  2026-09-01 Many Shades of Grès: Mode wird Kunst
   2026-09-10 Jean-Luc Mylayne: Reflection
   2026-09-09 Maurizio Cattelan: Night – Preis der Nationalgaler
   2026-09-16 Die Magie der Straße

@@ -632,6 +632,12 @@
   "lat": 52.5164872,
   "lng": 13.3938262
  },
+ "Begegnungsstätte Falckensteinstr. 6 10997 Berlin Deutschland": {
+  "address": "Falckensteinstraße 6, 10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.499513,
+  "lng": 13.4427102
+ },
  "Behaimstraße 17, 10585 Berlin": {
   "address": "Behaimstraße 17, 10585 Charlottenburg",
   "bezirk": "Charlottenburg-Wilmersdorf",
@@ -2413,6 +2419,12 @@
   "lat": 52.5056076,
   "lng": 13.4748832
  },
+ "Kastanienallee 7-9, 10435 Berlin": {
+  "address": "Kastanienallee 7-9, 10435 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5402446,
+  "lng": 13.4095113
+ },
  "Kastanienallee 77, 10435 Berlin": {
   "address": "Kastanienallee 77, 10435 Prenzlauer Berg",
   "bezirk": "Pankow",
@@ -2858,6 +2870,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5118751,
   "lng": 13.4616485
+ },
+ "Landesvertretung Sachsen-Anhalt Luisenstraße 18 10117 Berlin Deutschland": {
+  "address": "Luisenstraße 18, 10117 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5218468,
+  "lng": 13.379565
  },
  "Landsberger Allee 364, 10365 Berlin": {
   "address": "Landsberger Allee 364, 10365 Lichtenberg",
@@ -3317,6 +3335,12 @@
   "bezirk": "Neukölln",
   "lat": 52.4746587,
   "lng": 13.4520113
+ },
+ "Maria-Rimkus-Haus, Berlin": {
+  "address": "Am Gemeindepark, 12249 Lankwitz",
+  "bezirk": "Steglitz-Zehlendorf",
+  "lat": 52.4310739,
+  "lng": 13.3469692
  },
  "Mariannenplatz (Kreuzberg) Mariannenplatz 10997 Berlin Deutschland": {
   "address": "Mariannenplatz 2, 10997 Kreuzberg",
@@ -4217,6 +4241,12 @@
   "lat": 52.4811065,
   "lng": 13.4293362
  },
+ "Revaler Str. 32 10245 Berlin Deutschland": {
+  "address": "Revaler Straße 32, 10245 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5056983,
+  "lng": 13.4604609
+ },
  "Revaler Str. 99, 10245 Berlin": {
   "address": "Revaler Straße 99, 10245 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -4599,6 +4629,12 @@
   "lat": 52.5008341,
   "lng": 13.4414625
  },
+ "Schlesisches Tor, Kreuzberg Berlin Deutschland": {
+  "address": "Skalitzer Straße, 10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5008341,
+  "lng": 13.4414625
+ },
  "Schlosspark Theater, Berlin": {
   "address": "Schloßstraße 48, 12165 Steglitz",
   "bezirk": "Steglitz-Zehlendorf",
@@ -4916,6 +4952,12 @@
   "lng": 13.4532774
  },
  "Strandbad Wendenschloss, Möllhausenufer 30, 12557, Berlin": null,
+ "Strausberger Platz Berlin Deutschland": {
+  "address": "Karl-Marx-Allee, 10243 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5180981,
+  "lng": 13.4315264
+ },
  "Straße des 17. Juni 106, 10623 Berlin": {
   "address": "Straße des 17. Juni 106, 10623 Charlottenburg",
   "bezirk": "Charlottenburg-Wilmersdorf",
@@ -5619,6 +5661,7 @@
   "lng": 13.4595298
  },
  "Zielona Góra Grünbergerstr. 73 10245, 10245 Berlin": null,
+ "Zille54 - Haus der Jugend, Berlin": null,
  "Zimmer 16, Florastraße 16, 13187, Berlin": null,
  "Zionskirche Zionskirchplatz Berlin": {
   "address": "Zionskirchplatz 1, 10119 Prenzlauer Berg",

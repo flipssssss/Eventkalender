@@ -1520,6 +1520,12 @@
   "lat": 52.5373536,
   "lng": 13.5300088
  },
+ "Frankfurter Tor Frankfurter Tor 10243 Berlin Deutschland": {
+  "address": "Frankfurter Tor 1, 10243 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5165034,
+  "lng": 13.4527335
+ },
  "Franz-Mehring-Platz 1, 10243 Berlin": {
   "address": "Franz-Mehring-Platz 1, 10243 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -2501,6 +2507,7 @@
  "Kiezraum auf dem DragonerAreal Mehringdamm 22 (hinter dem Finanzamt) Berlin Deutschland": null,
  "Kiezraum auf dem Dragonerareal Mehringdamm 20 10961 Berlin Deutschland": null,
  "KikiSol, Reinickendorfer Straße 96, 13347, Berlin": null,
+ "Kino Central, Rosenthaler Straße 39, 10178 Berlin": null,
  "Kino Durchsfenster Kreutzigerstraße 18 Berlin Deutschland": null,
  "Kino Durchsfenster, Filmclub K18 Media Space K18, Kreutziger Straße 18, Friedrichshain (Südkiez) Berlin Deutschland": null,
  "Kino International, Berlin": {
@@ -3318,6 +3325,8 @@
   "lat": 52.5162846,
   "lng": 13.4422906
  },
+ "Mareen Juliette & Lucas, Berlin": null,
+ "Mareen, Juliette & Lucas, Berlin": null,
  "Mareschstraße 1, 12055 Neukölln, Berlin": {
   "address": "Mareschstraße 1, 12055 Neukölln",
   "bezirk": "Neukölln",
@@ -3737,6 +3746,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.4915542,
   "lng": 13.3911786
+ },
+ "Novalisstr. 13 10115 Berlin Deutschland": {
+  "address": "Novalisstraße 13, 10115 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5283283,
+  "lng": 13.3885123
  },
  "Nähe Rosenthaler Platz, Berlin": null,
  "OGH Sonnenallee Berlin": null,
@@ -4372,6 +4387,12 @@
   "lat": 52.5274215,
   "lng": 13.4023675
  },
+ "Rosenthaler Straße 39, 10178 Berlin": {
+  "address": "Rosenthaler Straße 39, 10178 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5244928,
+  "lng": 13.4019195
+ },
  "Rosenthaler Straße 39, 10178 Mitte, Berlin": {
   "address": "Rosenthaler Straße 39, 10178 Mitte",
   "bezirk": "Mitte",
@@ -4850,6 +4871,12 @@
   "lng": 13.4201248
  },
  "Skatehalle Berlin, RAW Gelände, Revaler Straße 99, 10245 Berlin": null,
+ "So36, Berlin": {
+  "address": "Oranienstraße 190, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5003909,
+  "lng": 13.4221612
+ },
  "Sonnenallee 100, 12045 Berlin": {
   "address": "Sonnenallee 100, 12045 Neukölln",
   "bezirk": "Neukölln",
@@ -5488,7 +5515,14 @@
   "lng": 13.4243386
  },
  "WikiBär Köpenicker Str. 45 10179, 10179 Berlin": null,
+ "Wilde 24 Wildenbruchstr. 24 12045 Berlin Deutschland": null,
  "Wilde24, Wildenbruchstraße 24, 12045 Berlin": null,
+ "Wildenbruchstr. 24, 12045 Berlin": {
+  "address": "Wildenbruchstraße 24, 12045 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4865097,
+  "lng": 13.4468623
+ },
  "Wildenbruchstraße 24, 12045 Berlin": {
   "address": "Wildenbruchstraße 24, 12045 Neukölln",
   "bezirk": "Neukölln",

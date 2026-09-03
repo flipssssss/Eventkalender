@@ -1,15 +1,12 @@
-API-Events: 70 | übernommen: 70
-  2026-09-02 17:00:00 | None | BVV Pankow: Kundgebung gegen die Nazitrainings in Weißensee
-  2026-09-02 19:00:00 | Punk | NECRØ - DANIEL KNUTZ - LEERE MENGE
-  2026-09-02 19:30:00 | Metal | USU pres.: Methadone Skies + Earth Ship | Neue Zukunft - 02.09.2026
-  2026-09-03 19:00:00 | Pop | THE HOBKNOBS (lofi/art-pop duo, nl) + SLIPPER (lofi duo, bln)
+API-Events: 73 | übernommen: 73
   2026-09-03 19:00:00 | Metal | Smote, Codex Serafini (heavy psych, drone, ritual)
   2026-09-03 19:00:00 | None | JUKEBOX BABY RECORDS - BIRTHDAY PARTY
+  2026-09-03 19:00:00 | Pop | THE HOBKNOBS (lofi/art-pop duo, nl) + SLIPPER (lofi duo, bln)
   2026-09-03 20:00:00 | Metal | DIB pres.: VANISHING KIDS (USA) + BLACK SADHU | Neue Zukunft, Berlin
   2026-09-04 16:45:00 | None | Queer Tours for All - Radical Prenzlauer Berg
   2026-09-04 19:00:00 | Metal | Fossilization + Phobocosm + Urza presented by Swamp Conspiracy and DoomShip
-  2026-09-04 19:30:00 | None | SUPER KONSOLEN KNEIPE - Round 1
   2026-09-04 19:30:00 | Punk | KONZERT @ RXXXXHXXS
+  2026-09-04 19:30:00 | None | SUPER KONSOLEN KNEIPE - Round 1
   2026-09-04 20:00:00 | Punk | 1800 MIKEY + BALCONY PARADISE
   2026-09-04 20:00:00 | Punk | V (Dark-Wave) + Gelbart (Computer-Pop) @ Schokoladen 4.9.26
   2026-09-05 13:00:00 | Punk | Le Désordre C'est Moi Festival
@@ -18,13 +15,16 @@ API-Events: 70 | übernommen: 70
   2026-09-05 19:00:00 | Metal | LUNA LIAS + SUNFEAR
   2026-09-05 20:00:00 | Punk | Tense + Onyon + Alibi
   2026-09-05 21:00:00 | Punk | KALTE HAND // COLD SUMMER // GUM / September 5, 2026 / Kastanie Berlin
+  2026-09-06 14:45:00 | None | Queer Tours for All - Gay and Sapphic Schöneberg
   2026-09-06 17:00:00 | Punk | NÃO + MALMEQUER
   2026-09-06 18:00:00 | Punk | KALTE KNIE + FISH PEOPLE + NOVA STARA
   2026-09-06 20:00:00 | Punk | CITY KINGS + RUINACHE
   2026-09-07 19:00:00 | None | Giöbia // B.L.O. Kantine Berlin (support: Icarus Burns)
-  2026-09-07 19:00:00 | Punk | COOL SORCERY (prog-ish egg-punk, bra) + DBR (post-punk, bln)
+  2026-09-07 19:00:00 | Punk | 1-800-MIKEY (lofi-pop garage-punk, aus) + DBR (post-punk, bln)
+  2026-09-08 17:45:00 | None | Queer Tours for All - Queer Kreuzberg
   2026-09-08 19:00:00 | Punk | GEOGRAPHY OF THE MOON (diy post-punk psych-wave duo) + SEND ME LOVE LETTERS (indie-rock, fr)
   2026-09-09 07:00:00 | None | RANA & QUIET³  & PROFILACHSE
+  2026-09-09 16:45:00 | None | Queer Tours for All - Königsheide Forest
   2026-09-10 17:00:00 | Metal | +++ BERLIN SWAMP FEST 2026 +++
   2026-09-10 19:00:00 | Punk | DESIGNER (U.S.) & THEE IRMA AND LOUISE (CH)
   2026-09-10 20:00:00 | Punk | BÉTON ARMÉ + BRUX + KLAVO

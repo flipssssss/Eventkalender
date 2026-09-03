@@ -1,7 +1,8 @@
-Events: 13
-Regeln gefunden: 5
+Events: 14
+Regeln gefunden: 6
   Jeden 3. Montag im Monat -> FLINTA*-Lesekreis
   Jeden 2. Dienstag im Monat -> Internationalist Night with Perspektive Selbstverwaltung
   Jeden 1. Mittwoch im Monat -> Tea, Thoughts and Theories
   Jeden zweiten Mittwoch im Monat -> Roter Kunst und Kultur Stammtisch
   Jeden letzten Mittwoch im Monat -> FLINTA*-Stammtisch
+  Jeden dritten Donnerstag im Monat -> Queerer Kneipenabend

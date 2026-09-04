@@ -1,5 +1,6 @@
 Häuser ohne kuratierte Öffnungszeiten (in scrapers/openinghours.py ergänzen):
 
+Bibliothek der Freien Greifswalder Str. 4 2. Hof, Raum 1102 (1. OG) 10405 Berlin Deutschland
 Café Cralle
 Georg-Kolbe-Museum
 Haus am Waldsee
@@ -8,9 +9,9 @@ MaHalla
 Museum Barberini
 Prater Galerie
 RWK Studios
-Regenbogenfabrik Lausitzer Str. 22 10999 Berlin Deutschland
 Rigaer Str. 78 10247 Berlin Deutschland
 Spreepark Art Space - Eierhäuschen
 Sprüth Magers
 Villa Schöningen
+f³ – Freiraum für Fotografie
 nGbK / neue Gesellschaft für bildende Kunst

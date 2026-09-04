@@ -1,12 +1,8 @@
-API-Events: 73 | übernommen: 73
-  2026-09-03 19:00:00 | Metal | Smote, Codex Serafini (heavy psych, drone, ritual)
-  2026-09-03 19:00:00 | None | JUKEBOX BABY RECORDS - BIRTHDAY PARTY
-  2026-09-03 19:00:00 | Pop | THE HOBKNOBS (lofi/art-pop duo, nl) + SLIPPER (lofi duo, bln)
-  2026-09-03 20:00:00 | Metal | DIB pres.: VANISHING KIDS (USA) + BLACK SADHU | Neue Zukunft, Berlin
+API-Events: 72 | übernommen: 72
   2026-09-04 16:45:00 | None | Queer Tours for All - Radical Prenzlauer Berg
   2026-09-04 19:00:00 | Metal | Fossilization + Phobocosm + Urza presented by Swamp Conspiracy and DoomShip
-  2026-09-04 19:30:00 | Punk | KONZERT @ RXXXXHXXS
   2026-09-04 19:30:00 | None | SUPER KONSOLEN KNEIPE - Round 1
+  2026-09-04 19:30:00 | Punk | KONZERT @ RXXXXHXXS
   2026-09-04 20:00:00 | Punk | 1800 MIKEY + BALCONY PARADISE
   2026-09-04 20:00:00 | Punk | V (Dark-Wave) + Gelbart (Computer-Pop) @ Schokoladen 4.9.26
   2026-09-05 13:00:00 | Punk | Le Désordre C'est Moi Festival
@@ -29,3 +25,7 @@ API-Events: 73 | übernommen: 73
   2026-09-10 19:00:00 | Punk | DESIGNER (U.S.) & THEE IRMA AND LOUISE (CH)
   2026-09-10 20:00:00 | Punk | BÉTON ARMÉ + BRUX + KLAVO
   2026-09-11 18:00:00 | None | Berlin FediDay 2026
+  2026-09-11 19:00:00 | None | Zelluloid42 Special presents CORRUPTION (1983) x THE IMAGE (1975)
+  2026-09-11 20:00:00 | Punk | LA HAINE / SPILLING RAW RELEASE SHOW w/ APTERA + MALMEQUER
+  2026-09-11 20:00:00 | Punk | Doom gegen rechts 2
+  2026-09-11 20:30:00 | None | Headbutt + Cardboard + Kloppe

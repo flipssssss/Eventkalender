@@ -927,6 +927,13 @@
   "lat": 52.5128209,
   "lng": 13.4551231
  },
+ "Brandenburg Deutschland, Berlin": null,
+ "Brandenburg, Berlin": {
+  "address": "Pariser Platz 1, 10117 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5162699,
+  "lng": 13.3777034
+ },
  "Brandenburger Tor Pariser Platz 10117 Berlin Deutschland": {
   "address": "Pariser Platz 1, 10117 Mitte",
   "bezirk": "Mitte",
@@ -1260,6 +1267,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.4985917,
   "lng": 13.4437627
+ },
+ "DORF, Sanderstraße 11, 12047 Berlin": {
+  "address": "Sanderstraße 11, 12047 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4923371,
+  "lng": 13.4259409
  },
  "DRK Kliniken Berlin Mitte, Drontheimer Straße 39, 13359 Berlin": {
   "address": "Drontheimer Straße 39-40, 13359 Gesundbrunnen",
@@ -1793,6 +1806,12 @@
   "lat": 52.4990257,
   "lng": 13.3917126
  },
+ "Hallesches Tor, Berlin": {
+  "address": "Hallesches Ufer, 10963 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4977596,
+  "lng": 13.3906496
+ },
  "Hallesches Ufer 34, 10963 Berlin": {
   "address": "Hallesches Ufer 34, 10963 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -2163,12 +2182,19 @@
   "lat": 52.5081567,
   "lng": 13.3320921
  },
+ "Jessnerstraße 41, 10247 Berlin": {
+  "address": "Jessnerstraße 41, 10247 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5105248,
+  "lng": 13.4713392
+ },
  "Jessnerstraße 41, 10247 Berlin, Germany": {
   "address": "Jessnerstraße 41, 10247 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5104475,
   "lng": 13.4713447
  },
+ "Jessnerstraße 41, 10247 Berlin-Bezirk Friedrichshain-Kreuzberg": null,
  "Jessnerstraße 41, 10247 Friedrichshain, Berlin": {
   "address": "Jessnerstraße 41, 10247 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -3756,6 +3782,12 @@
  "Nähe Rosenthaler Platz, Berlin": null,
  "OGH Sonnenallee Berlin": null,
  "OGH Sonnenallee Berlin Deutschland": null,
+ "OST, Berlin": {
+  "address": "Alt-Stralau 1-2, 10245 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4970681,
+  "lng": 13.4650321
+ },
  "OXI, Berlin": {
   "address": "Wiesenweg 1-4, 10365 Lichtenberg",
   "bezirk": "Lichtenberg",
@@ -4950,6 +4982,12 @@
  },
  "St. Nikolai Kirche, Reformationsplatz 1, 13597, Berlin": null,
  "Stadteilladen Lunte, Weisestraße 53, 12049 Berlin": null,
+ "Stadtgut Blankenfelde, Berlin": {
+  "address": "Blankenfelde",
+  "bezirk": "Pankow",
+  "lat": 52.6168789,
+  "lng": 13.393067
+ },
  "Stadtpark Lichtenberg (Parkaue) 10367 Berlin Deutschland": null,
  "Stadtschloss Moabit, Rostocker Straße 32, 10553 Berlin": {
   "address": "Rostocker Straße 32, 10553 Moabit",

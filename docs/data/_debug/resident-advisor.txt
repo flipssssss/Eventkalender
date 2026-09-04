@@ -1,5 +1,5 @@
-Events gesamt: 71 | mit Bild: 60 | mit Beschreibung: 67
-club/28354 (://about blank): 30 -> 30 Berlin | flyer=0 images=26 content=28
+Events gesamt: 70 | mit Bild: 59 | mit Beschreibung: 66
+club/28354 (://about blank): 29 -> 29 Berlin | flyer=0 images=25 content=27
 club/98993 (Beate Uwe): 20 -> 20 Berlin | flyer=0 images=14 content=20
 club/298230 (ROSA): 3 -> 3 Berlin | flyer=0 images=3 content=3
 promoter/82597 (BOAR Berlin): 0 -> 0 Berlin | flyer=0 images=0 content=0

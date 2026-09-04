@@ -1,7 +1,6 @@
 top-keys: ['website', 'websiteSettings', 'collection', 'shoppingCart', 'shareButtons', 'showCart', 'localizedStrings', 'userAccountsContext', 'template', 'uiextensions', 'empty', 'emptyFolder', 'calendarView', 'pagination', 'upcoming']
-items: 25 | Events: 25
+items: 24 | Events: 24
 erstes item keys: ['id', 'collectionId', 'recordType', 'addedOn', 'updatedOn', 'starred', 'passthrough', 'tags', 'categories', 'workflowState', 'publishOn', 'authorId', 'systemDataId', 'systemDataVariants', 'systemDataSourceType', 'filename', 'mediaFocalPoint', 'colorData', 'urlId', 'title', 'sourceUrl', 'body', 'excerpt', 'location', 'customContent']
-  2026-09-03 09:00:00.506000 | INDIJANA and the BANDITS
   2026-09-04 09:00:00.506000 | The „B-flat All-Stars“present&nbsp;Simona de Rosa &nbsp;
   2026-09-05 09:00:00.506000 | KIND OF BLUE - A TRIBUTE TO MILES DAVIS - Ludwig Hornung Quartett
   2026-09-06 09:00:00.506000 | Jascha Briand Quartet

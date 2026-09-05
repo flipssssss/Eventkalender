@@ -1,7 +1,6 @@
 top-keys: ['website', 'websiteSettings', 'collection', 'shoppingCart', 'shareButtons', 'showCart', 'localizedStrings', 'userAccountsContext', 'template', 'uiextensions', 'empty', 'emptyFolder', 'calendarView', 'pagination', 'upcoming']
-items: 24 | Events: 24
+items: 23 | Events: 23
 erstes item keys: ['id', 'collectionId', 'recordType', 'addedOn', 'updatedOn', 'starred', 'passthrough', 'tags', 'categories', 'workflowState', 'publishOn', 'authorId', 'systemDataId', 'systemDataVariants', 'systemDataSourceType', 'filename', 'mediaFocalPoint', 'colorData', 'urlId', 'title', 'sourceUrl', 'body', 'excerpt', 'location', 'customContent']
-  2026-09-04 09:00:00.506000 | The „B-flat All-Stars“present&nbsp;Simona de Rosa &nbsp;
   2026-09-05 09:00:00.506000 | KIND OF BLUE - A TRIBUTE TO MILES DAVIS - Ludwig Hornung Quartett
   2026-09-06 09:00:00.506000 | Jascha Briand Quartet
   2026-09-08 09:00:00.506000 | “Roots and Things”
@@ -19,7 +18,7 @@ erstes item keys: ['id', 'collectionId', 'recordType', 'addedOn', 'updatedOn', '
   2026-09-22 09:00:00.506000 | Maik Krahl - Rain, Flowers and New Beginnings&nbsp;
   2026-09-23 09:00:00.936000 | Robins Nest - Jamsession
   2026-09-24 09:00:00.506000 | Henning Schiewer Quintett
-  2026-09-25 09:00:00.506000 | Sir Bradley &nbsp;&nbsp;
+  2026-09-25 09:00:00.506000 | Amanda Mae and her Trio &nbsp;&nbsp;
   2026-09-26 09:00:00.506000 | Roman Ott Quartett - for new recording
   2026-09-27 09:00:00.506000 | Amr Hammour &amp; Band – "Earthbound" Album Release Concert
   2026-09-29 09:00:00.506000 | Guido Spannocchi Quartet

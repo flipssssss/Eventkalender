@@ -1,6 +1,5 @@
 Event-Links: 19 | Events: 18
   2026-07-04 17:00:00 | Krankenhauskirche im Wuhlgarten, Brebacher Weg 15, 12683, Berlin | ZERBRECHLICHE SCHÖNHEIT - Marita Czepa
-  2026-09-05 20:30:00 | ausland, Lychener Str. 60, 10437, Berlin | biegungen im ausland
   2026-09-06 17:00:00 | Kulturhaus Centre Bagatelle, Zeltinger Straße 6, 13465, Berlin | Europe Blues Train Festival meets Jazz@Centre Bagatelle
   2026-09-06 17:00:00 | Kulturhaus Centre Bagatelle, Zeltinger Str. 6, 13465, Berlin-Frohnau | Europe Blues Train Festival meets Centre Bagatelle
   2026-09-01 19:30:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Session im ART Stalker
@@ -17,3 +16,4 @@ Event-Links: 19 | Events: 18
   2026-09-18 20:00:00 | Raumerweiterungshalle für Jazz, Kopenhagener Str. 17, 10437, Berlin | Hot and Free. Westdeutsche Jazzkompositionen der 1950er und 1960er Jahre The Clarinet Trio
   2026-09-18 20:00:00 | Little Stage Berlin, Jonasstraße, 12053, Berlin | NAKM
   2026-09-19 20:00:00 | Brotfabrik, Caligariplatz 1, 13086, Berlin | Hot Tropical Nights. Jonatan Morgenstern Trio.
+  2026-09-19 20:00:00 | Little Stage Berlin, Jonasstraße, 12053, Berlin | PSKH

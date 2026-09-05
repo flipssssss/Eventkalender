@@ -1,6 +1,5 @@
 Listenseite: 20 Event-Slugs gefunden
-  party-dykes-karaoke-night-4: FEHLER Response ended prematurely
-Events gebaut: 19
+Events gebaut: 20
 
 --- DIAGNOSE 1. Detailseite ---
 JSON-LD im HTML: True | wix-warmup-data: True

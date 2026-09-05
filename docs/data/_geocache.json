@@ -54,6 +54,12 @@
   "lat": 52.5088608,
   "lng": 13.3273465
  },
+ "10627 Berlin": {
+  "address": "10627 Charlottenburg",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.5079939,
+  "lng": 13.3030058
+ },
  "10777 Berlin": {
   "address": "10777 Schöneberg",
   "bezirk": "Tempelhof-Schöneberg",
@@ -1211,6 +1217,12 @@
   "lng": 13.3746131
  },
  "Cocoon Exerzierstraße 14 13357, 13357 Berlin": null,
+ "Colab. Görlitzer Straße 1 10997 Berlin Deutschland": {
+  "address": "Görlitzer Straße 1, 10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4981631,
+  "lng": 13.4344313
+ },
  "Columbiadamm 10 Zollgarage im alten Flughafen Tempelhof 10965 Berlin Deutschland": null,
  "Columbiadamm 10, 10965 Berlin": {
   "address": "Columbiadamm 10, 10965 Tempelhof",
@@ -1376,12 +1388,24 @@
   "lat": 52.5118853,
   "lng": 13.3221613
  },
+ "Ernst-Reuter-Platz, 10623 Berlin": {
+  "address": "Hardenbergstraße, 10587 Charlottenburg",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.5118853,
+  "lng": 13.3221613
+ },
  "Erreichbar Reichenberger Str. 63a HH 10999 Berlin Deutschland": null,
  "Erreichbar Reichenberger Str. 63a, 10999 Berlin": {
   "address": "Reichenberger Straße 63a, 10999 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.4949179,
   "lng": 13.4304413
+ },
+ "Eschschloraque, Berlin": {
+  "address": "Rosenthaler Straße 39, 10178 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5244696,
+  "lng": 13.4017208
  },
  "Eszenzia, Berlin": null,
  "FAQ Infoladen Jonasstraße 40 12053 Berlin Deutschland": {
@@ -2488,6 +2512,12 @@
   "bezirk": "Treptow-Köpenick",
   "lat": 52.4814927,
   "lng": 13.4943009
+ },
+ "Kienbergpark, 12619 Berlin": {
+  "address": "Hellersdorfer Straße, 12627 Hellersdorf",
+  "bezirk": "Marzahn-Hellersdorf",
+  "lat": 52.5304438,
+  "lng": 13.5900449
  },
  "Kietz-Klub Köpenick, Köpenzeile 117, 12557 Berlin": null,
  "Kiez Zentrum Villa Lützow Lützowstraße 28 10785 Berlin Deutschland": null,
@@ -4041,6 +4071,12 @@
   "lat": 52.5186538,
   "lng": 13.3761015
  },
+ "Platz der Republik, 10557 Berlin": {
+  "address": "Platz der Republik, Tiergarten",
+  "bezirk": "Mitte",
+  "lat": 52.5186753,
+  "lng": 13.3731249
+ },
  "Platzhaus Helmholtzplatz 10437 Berlin Deutschland": {
   "address": "Helmholtzplatz 0, 10437 Prenzlauer Berg",
   "bezirk": "Pankow",
@@ -4515,6 +4551,7 @@
  "S+U-Bhf Rathaus Steglitz, 12165 Berlin": null,
  "S-/U-Bhf. Schönhauser Allee Berlin": null,
  "S-/U-Bhf. Schönhauser Allee Berlin Deutschland": null,
+ "S-Bhf Charlottenburg, Gleis 4, 10627 Berlin": null,
  "S-Bhf. Gesundbrunnen Berlin Deutschland": {
   "address": "Hochstraße 46, 13357 Gesundbrunnen",
   "bezirk": "Mitte",
@@ -5429,6 +5466,12 @@
   "lat": 52.5009671,
   "lng": 13.4284093
  },
+ "Walter‑Friedrich‑Straße 32, 13125 Berlin": {
+  "address": "Walter-Friedrich-Straße 32, 13125 Buch",
+  "bezirk": "Pankow",
+  "lat": 52.6309202,
+  "lng": 13.4935051
+ },
  "Warthestraße 12051 Berlin Deutschland": {
   "address": "Warthestraße, 12051 Neukölln",
   "bezirk": "Neukölln",
@@ -5546,6 +5589,7 @@
   "lat": 52.4735175,
   "lng": 13.302305
  },
+ "Wiese an der Spree im AEG-Industriepark, 12459 Berlin": null,
  "WikiBär Köpenicker Str. 45 10179 Berlin Deutschland": {
   "address": "Köpenicker Straße 45, 10179 Mitte",
   "bezirk": "Mitte",

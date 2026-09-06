@@ -1,26 +1,25 @@
-ExhibitionEvents -> Events: 31
-  2026-09-05 Lina Lapelytė: We Make Years Out of Hours – Chanel
-  2026-09-05 Paul Signac: Symphonie der Farben
-  2026-09-05 Marc Brandenburg: 20th Century Debris
-  2026-09-05 Josef Kaiser: Bauen für die DDR
-  2026-09-05 Zwischen Bäumen
-  2026-09-05 Gabriele Stötzer: Dabei sein und nicht schweigen
-  2026-09-05 Courage: Schwestern im Geiste
-  2026-09-05 Ruin und Rausch: Berlin 1910–1930
-  2026-09-05 Materialistin: Matter of Care, Care of Matter
-  2026-09-05 Cassirer und der Durchbruch des Impressionismus
-  2026-09-05 Wo ich wohne
-  2026-09-05 Giulia Andreani: Sabotage
-  2026-09-05 Neue Frau, Neues Sehen: Die Bauhaus-Fotografinnen
-  2026-09-05 Inventing Queer Cinema
-  2026-09-05 Everybody
-  2026-09-05 Kyiv Biennial: A Bird That Cannot Land
-  2026-09-05 Shilpa Gupta: What Still Holds
-  2026-09-05 Fujiko Nakaya: Nebelskulptur im Skulpturengarten
-  2026-09-05 Iván Argote: A Place To Stay
-  2026-09-05 Anton Corbijn: Corbijn, Anton
-  2026-09-05 Rooms / Stages
-  2026-09-05 Many Shades of Grès: Mode wird Kunst
+ExhibitionEvents -> Events: 30
+  2026-09-06 Lina Lapelytė: We Make Years Out of Hours – Chanel
+  2026-09-06 Paul Signac: Symphonie der Farben
+  2026-09-06 Marc Brandenburg: 20th Century Debris
+  2026-09-06 Josef Kaiser: Bauen für die DDR
+  2026-09-06 Zwischen Bäumen
+  2026-09-06 Gabriele Stötzer: Dabei sein und nicht schweigen
+  2026-09-06 Courage: Schwestern im Geiste
+  2026-09-06 Ruin und Rausch: Berlin 1910–1930
+  2026-09-06 Materialistin: Matter of Care, Care of Matter
+  2026-09-06 Cassirer und der Durchbruch des Impressionismus
+  2026-09-06 Wo ich wohne
+  2026-09-06 Giulia Andreani: Sabotage
+  2026-09-06 Neue Frau, Neues Sehen: Die Bauhaus-Fotografinnen
+  2026-09-06 Inventing Queer Cinema
+  2026-09-06 Everybody
+  2026-09-06 Kyiv Biennial: A Bird That Cannot Land
+  2026-09-06 Shilpa Gupta: What Still Holds
+  2026-09-06 Fujiko Nakaya: Nebelskulptur im Skulpturengarten
+  2026-09-06 Anton Corbijn: Corbijn, Anton
+  2026-09-06 Rooms / Stages
+  2026-09-06 Many Shades of Grès: Mode wird Kunst
   2026-09-10 Jean-Luc Mylayne: Reflection
   2026-09-09 Maurizio Cattelan: Night – Preis der Nationalgaler
   2026-09-16 Die Magie der Straße

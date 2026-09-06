@@ -1,7 +1,5 @@
-Event-Links: 19 | Events: 18
+Event-Links: 19 | Events: 17
   2026-07-04 17:00:00 | Krankenhauskirche im Wuhlgarten, Brebacher Weg 15, 12683, Berlin | ZERBRECHLICHE SCHÖNHEIT - Marita Czepa
-  2026-09-06 17:00:00 | Kulturhaus Centre Bagatelle, Zeltinger Straße 6, 13465, Berlin | Europe Blues Train Festival meets Jazz@Centre Bagatelle
-  2026-09-06 17:00:00 | Kulturhaus Centre Bagatelle, Zeltinger Str. 6, 13465, Berlin-Frohnau | Europe Blues Train Festival meets Centre Bagatelle
   2026-09-01 19:30:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Session im ART Stalker
   2026-09-09 20:00:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Jon Kenzie concert - Blues, Folk, Soul
   2026-09-10 20:30:00 | KikiSol, Reinickendorfer Straße 96, 13347, Berlin | Medina Groove
@@ -13,7 +11,8 @@ Event-Links: 19 | Events: 18
   2026-09-13 11:00:00 | Kulturhaus Centre Bagatelle e.V, Zeltinger Str. 6, 13465, Berlin-frohnau | PIAF-ESQUE – Eine Hommage an Édith Piaf
   2026-09-14 19:00:00 | St. Nikolai Kirche, Reformationsplatz 1, 13597, Berlin | Montagskonzert bei Kerzenschein - The Toughest Tenors
   2026-09-14 19:00:00 | Bredouille Bar, Georgenstraße 199, 10117, Berlin | radio3 Listening Lounge
-  2026-09-18 20:00:00 | Raumerweiterungshalle für Jazz, Kopenhagener Str. 17, 10437, Berlin | Hot and Free. Westdeutsche Jazzkompositionen der 1950er und 1960er Jahre The Clarinet Trio
   2026-09-18 20:00:00 | Little Stage Berlin, Jonasstraße, 12053, Berlin | NAKM
   2026-09-19 20:00:00 | Brotfabrik, Caligariplatz 1, 13086, Berlin | Hot Tropical Nights. Jonatan Morgenstern Trio.
   2026-09-19 20:00:00 | Little Stage Berlin, Jonasstraße, 12053, Berlin | PSKH
+  2026-09-22 21:00:00 | b-flat, Dircksenstraße 40, 10178, Berlin | Maik Krahl – „Rain, Flowers and New Beginnings“
+  2026-04-22 20:00:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Freestyle Lab – Musik, die jetzt passiert

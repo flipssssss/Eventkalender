@@ -1,10 +1,4 @@
-API-Events: 66 | übernommen: 66
-  2026-09-05 13:00:00 | Punk | Le Désordre C'est Moi Festival
-  2026-09-05 17:00:00 | None | Tiergarten Maleficium
-  2026-09-05 19:00:00 | Punk | ANCST | SVDESTADA | MARNÖ | BRÜD
-  2026-09-05 19:00:00 | Metal | LUNA LIAS + SUNFEAR
-  2026-09-05 20:00:00 | Punk | Tense + Onyon + Alibi
-  2026-09-05 21:00:00 | Punk | KALTE HAND // COLD SUMMER // GUM / September 5, 2026 / Kastanie Berlin
+API-Events: 60 | übernommen: 60
   2026-09-06 14:45:00 | None | Queer Tours for All - Gay and Sapphic Schöneberg
   2026-09-06 17:00:00 | Punk | NÃO + MALMEQUER
   2026-09-06 18:00:00 | Punk | KALTE KNIE + FISH PEOPLE + NOVA STARA
@@ -20,8 +14,8 @@ API-Events: 66 | übernommen: 66
   2026-09-10 20:00:00 | Punk | BÉTON ARMÉ + BRUX + KLAVO
   2026-09-11 18:00:00 | None | Berlin FediDay 2026
   2026-09-11 19:00:00 | None | Zelluloid42 Special presents CORRUPTION (1983) x THE IMAGE (1975)
-  2026-09-11 20:00:00 | Punk | LA HAINE / SPILLING RAW RELEASE SHOW w/ APTERA + MALMEQUER
   2026-09-11 20:00:00 | Punk | Doom gegen rechts 2
+  2026-09-11 20:00:00 | Punk | LA HAINE / SPILLING RAW RELEASE SHOW w/ APTERA + MALMEQUER
   2026-09-11 20:30:00 | None | Headbutt + Cardboard + Kloppe
   2026-09-12 19:00:00 | Punk | MINOH (Aachen – Disco Punk) + Royalty (Berlin - R'n'R) im Schokoladen
   2026-09-12 20:00:00 | Punk | 🔥 BACK TO '77 🔥 Punk night is coming to Berlin!
@@ -29,3 +23,9 @@ API-Events: 66 | übernommen: 66
   2026-09-15 19:00:00 | Electro | Hole Dweller + Dragon Keep + Seregost + Potcullis + Serpent of Death
   2026-09-16 19:00:00 | Punk | CONCRETE VEHICLES (exp post-punk/-hc noise-rock, can) + OLDER FRIENDS (twinkly emo/screamo-pop, bln)
   2026-09-18 19:00:00 | Punk | Sun Worship + PΞB + Isolationsgemeinschaft  "Wie viele Duos braucht man um eine Glühbirne zu tauschen?"
+  2026-09-18 19:00:00 | Punk | TINY DORIS + SPLIZZ
+  2026-09-18 20:00:00 | Punk | ZUR BRACHE + KALTE KNIE + GEHÖRSTURZ im OGH
+  2026-09-19 19:00:00 | Punk | LOTHARIO (garage/punk, aus) + MAGAZINO (egg-punk/garage, bln)
+  2026-09-19 19:00:00 | Punk | Laxisme + Liiek
+  2026-09-19 19:30:00 | Punk | es war mord (record release!) + moloch
+  2026-09-19 21:30:00 | Punk | Headbutt + Cardboard + Moloch

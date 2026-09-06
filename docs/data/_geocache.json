@@ -258,6 +258,12 @@
   "lat": 52.5006018,
   "lng": 13.4182215
  },
+ "Adalbertstr. 96, Berlin": {
+  "address": "Adalbertstraße 96, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5000786,
+  "lng": 13.4177996
+ },
  "Adalbertstraße 69, 10997 Berlin": {
   "address": "Adalbertstraße, 10997 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -4497,6 +4503,7 @@
   "lat": 52.5182718,
   "lng": 13.4078309
  },
+ "Rotes Rathaus, Neptunbrunnen Rathausstraße 1 10178 Berlin Deutschland": null,
  "Rotes Rathaus, Neptunbrunnen Rathausstraße 15 10178 Berlin Deutschland": null,
  "Rotes Rathaus, Rathausstraße 15, 10178 Berlin": {
   "address": "Rathausstraße 15, 10178 Mitte",
@@ -5400,6 +5407,7 @@
   "lng": 13.4606574
  },
  "Vetomat Wühlischstr. 42 10247, 10247 Berlin": null,
+ "Vierte Welt Adalbertstr. 96 Berlin Deutschland": null,
  "Viktoriastraße 10-18, 12105 Berlin": {
   "address": "Viktoriastraße 10-18, 12105 Tempelhof",
   "bezirk": "Tempelhof-Schöneberg",

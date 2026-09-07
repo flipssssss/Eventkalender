@@ -1,8 +1,8 @@
 Events: 7
-  2026-09-05 17:00:00 | **Today, unfortunately, automatic infusions only.
-  2026-09-06 17:00:00 | **Today, unfortunately, automatic infusions only.
   2026-09-07 17:00:00 | Monday Infusions
   2026-09-08 17:00:00 | Theme Night
   2026-09-09 17:00:00 | Wednesday Infusions
   2026-09-10 17:00:00 | Wellness Evening
-  2026-09-11 17:00:00 | FOLSOM 2026 im BOILER (Vorverkauf jetzt online)
+  2026-09-11 17:00:00 | “FOLSOM 2026 at BOILER (Presale now online)”
+  2026-09-11 17:00:00 | Friday Infusions
+  2026-09-12 17:00:00 | Saturday Infusions

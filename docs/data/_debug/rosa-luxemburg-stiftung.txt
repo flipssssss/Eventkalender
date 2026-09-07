@@ -1,1 +1,26 @@
-Teaser: 0 | Berlin: 0 | andere Städte: 0 | mit Beschreibung: 0
+Teaser: 139 | Berlin: 25 | andere Städte: 114 | mit Beschreibung: 25
+  2026-09-02 20:30:28 | Berlin | „Immortals“ – Bagdads Jugend erhebt ihre Stimme (2024)
+  2026-09-04 18:00:50 | Berlin | Nicht zum Nulltarif
+  2026-09-04 19:00:00 | Berlin | Ines de Nil. Leben in Freiräumen
+  2026-09-08 18:00:00 | Berlin | Pinselknecht bei Brecht
+  2026-09-09 10:00:00 | Berlin | WENZEL zu Gast im Klub
+  2026-09-09 16:30:00 | Berlin | The Political History of Gay Fetish Culture
+  2026-09-10 19:00:00 | Berlin | Nach der Wahl in Sachsen-Anhalt Was machen, wenn die extreme Rechte regiert?
+  2026-09-15 10:00:00 | Berlin | Das Wunder von Adlershof
+  2026-09-15 18:00:29 | Berlin | Franz von Assisi: Frieden, Zuwendung und neue Bescheidenheit
+  2026-09-17 10:00:29 | Berlin | Traditionen des Antimilitarismus in ihrer Aktualität
+  2026-09-19 10:00:28 | Berlin | Critical Gojness?!
+  2026-09-21 18:00:33 | Berlin | Radioactive Patriarchy
+  2026-09-21 18:00:33 | Berlin | Artists Against the Bomb
+  2026-09-21 18:30:00 | Berlin | Buchklub: Armut und soziale Abstiegsängste
+  2026-09-22 10:00:00 | Berlin | Das denkwürdige Jahr 1956, nicht nur für Europa
+  2026-09-22 20:00:59 | Berlin | Angriff auf den Sozialstaat
+  2026-09-23 15:00:26 | Berlin | Widerspenstig und unangepasst
+  2026-09-23 19:00:00 | Berlin | Linke Kunst gestalten: Das Internationale Büro Revolutionärer Künstler in den…
+  2026-09-24 15:00:00 | Berlin | Die Frau des Komponisten: Irina Antonowna Schostakowitsch
+  2026-09-24 18:00:11 | Berlin | Was ist Faschisierung? Und was tut man dagegen?
+  2026-09-26 10:00:00 | Berlin | Die Militarisierung der Gesellschaft und die Auswirkungen auf das…
+  2026-09-29 10:00:00 | Berlin | Die aktuelle Lage in Mittelosteuropa
+  2026-09-29 18:00:34 | Berlin | In Rosas Schatten
+  2026-09-30 19:00:00 | Berlin | Why Everything is at it Seems
+  2026-09-30 19:00:00 | Berlin | Erik Skare: A Brief Introduction to the Ideology and History of Palestinian…

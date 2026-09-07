@@ -1,10 +1,6 @@
-API-Events: 60 | übernommen: 60
-  2026-09-06 14:45:00 | None | Queer Tours for All - Gay and Sapphic Schöneberg
-  2026-09-06 17:00:00 | Punk | NÃO + MALMEQUER
-  2026-09-06 18:00:00 | Punk | KALTE KNIE + FISH PEOPLE + NOVA STARA
-  2026-09-06 20:00:00 | Punk | CITY KINGS + RUINACHE
-  2026-09-07 19:00:00 | None | Giöbia // B.L.O. Kantine Berlin (support: Icarus Burns)
+API-Events: 57 | übernommen: 57
   2026-09-07 19:00:00 | Punk | 1-800-MIKEY (lofi-pop garage-punk, aus) + DBR (post-punk, bln)
+  2026-09-07 19:00:00 | None | Giöbia // B.L.O. Kantine Berlin (support: Icarus Burns)
   2026-09-08 17:45:00 | None | Queer Tours for All - Queer Kreuzberg
   2026-09-08 19:00:00 | Punk | GEOGRAPHY OF THE MOON (diy post-punk psych-wave duo) + SEND ME LOVE LETTERS (indie-rock, fr)
   2026-09-09 07:00:00 | None | RANA & QUIET³  & PROFILACHSE
@@ -14,8 +10,8 @@ API-Events: 60 | übernommen: 60
   2026-09-10 20:00:00 | Punk | BÉTON ARMÉ + BRUX + KLAVO
   2026-09-11 18:00:00 | None | Berlin FediDay 2026
   2026-09-11 19:00:00 | None | Zelluloid42 Special presents CORRUPTION (1983) x THE IMAGE (1975)
-  2026-09-11 20:00:00 | Punk | Doom gegen rechts 2
   2026-09-11 20:00:00 | Punk | LA HAINE / SPILLING RAW RELEASE SHOW w/ APTERA + MALMEQUER
+  2026-09-11 20:00:00 | Punk | Doom gegen rechts 2
   2026-09-11 20:30:00 | None | Headbutt + Cardboard + Kloppe
   2026-09-12 19:00:00 | Punk | MINOH (Aachen – Disco Punk) + Royalty (Berlin - R'n'R) im Schokoladen
   2026-09-12 20:00:00 | Punk | 🔥 BACK TO '77 🔥 Punk night is coming to Berlin!
@@ -25,7 +21,11 @@ API-Events: 60 | übernommen: 60
   2026-09-18 19:00:00 | Punk | Sun Worship + PΞB + Isolationsgemeinschaft  "Wie viele Duos braucht man um eine Glühbirne zu tauschen?"
   2026-09-18 19:00:00 | Punk | TINY DORIS + SPLIZZ
   2026-09-18 20:00:00 | Punk | ZUR BRACHE + KALTE KNIE + GEHÖRSTURZ im OGH
-  2026-09-19 19:00:00 | Punk | LOTHARIO (garage/punk, aus) + MAGAZINO (egg-punk/garage, bln)
   2026-09-19 19:00:00 | Punk | Laxisme + Liiek
+  2026-09-19 19:00:00 | Punk | LOTHARIO (garage/punk, aus) + MAGAZINO (egg-punk/garage, bln)
   2026-09-19 19:30:00 | Punk | es war mord (record release!) + moloch
+  2026-09-19 20:00:00 | Punk | Hetta / soastasphrenas / Forked
   2026-09-19 21:30:00 | Punk | Headbutt + Cardboard + Moloch
+  2026-09-20 19:00:00 | Punk | Zoon Phonanta, Cobra Killer
+  2026-09-22 19:00:00 | Punk | THE HOMESICK (art-rock / exp-indie, nl) & GEO (post-punk / no-wave, nl)
+  2026-09-22 19:00:00 | None | Team Dresch

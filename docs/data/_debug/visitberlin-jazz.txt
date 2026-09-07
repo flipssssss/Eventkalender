@@ -1,4 +1,4 @@
-Event-Links: 19 | Events: 17
+Event-Links: 19 | Events: 19
   2026-07-04 17:00:00 | Krankenhauskirche im Wuhlgarten, Brebacher Weg 15, 12683, Berlin | ZERBRECHLICHE SCHÖNHEIT - Marita Czepa
   2026-09-01 19:30:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Session im ART Stalker
   2026-09-09 20:00:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Jon Kenzie concert - Blues, Folk, Soul
@@ -16,3 +16,5 @@ Event-Links: 19 | Events: 17
   2026-09-19 20:00:00 | Little Stage Berlin, Jonasstraße, 12053, Berlin | PSKH
   2026-09-22 21:00:00 | b-flat, Dircksenstraße 40, 10178, Berlin | Maik Krahl – „Rain, Flowers and New Beginnings“
   2026-04-22 20:00:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Freestyle Lab – Musik, die jetzt passiert
+  2026-03-26 19:00:00 | Musikinstrumenten-Museum, Tiergartenstraße, 10785, Berlin | Jazz im MIM
+  2026-09-24 19:30:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | SONKOMUSIC - the we experience

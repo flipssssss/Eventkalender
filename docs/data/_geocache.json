@@ -360,6 +360,7 @@
  },
  "Alice Salomon Hochschule Alice-Salomon-Platz 5 12627, 12627 Berlin": null,
  "Allee der Kosmonauten (zw. Märkische Allee/ Helene-Weigel-Platz), 12681 Berlin": null,
+ "Alt Treptow 6, 12435 Berlin-Bezirk Treptow-Köpenick": null,
  "Alt-Schönow 10, 14165 Berlin": {
   "address": "Alt-Schönow 10, 14165 Zehlendorf",
   "bezirk": "Steglitz-Zehlendorf",
@@ -1319,6 +1320,13 @@
   "lng": 13.4545322
  },
  "Dorfplatz (Fhain) Rigaerstr. Ecke Liebigstr. 10247 Berlin Deutschland": null,
+ "Dr.-Wilhelm-Külz-Straße 10A, 15517 Berlin": {
+  "address": "Dr.-Wilhelm-Külz-Straße, 15362 Berlin",
+  "bezirk": null,
+  "lat": 52.4696082,
+  "lng": 13.7851332
+ },
+ "Dr.-Wilhelm-Külz-Straße 10A, 15517 Fürstenwalde/Spree, Berlin": null,
  "Dresdener Straße 8, 10999 Berlin": {
   "address": "Dresdener Straße 8, 10999 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -3919,7 +3927,9 @@
   "lat": 52.5570303,
   "lng": 13.3748997
  },
+ "Ostkreuz Gleis 3 (Friedrichshain) Berlin": null,
  "Ostkreuz, Gleis 13, 10245 Berlin": null,
+ "Ostkreuz, Gleis 3 (Friedrichshain) Berlin Deutschland": null,
  "Ostkreuz, Gleis 3, 10245 Berlin": null,
  "Other Nature, Berlin": {
   "address": "Yorckstraße 75, 10965 Kreuzberg",

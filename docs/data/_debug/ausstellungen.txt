@@ -1,31 +1,31 @@
 ExhibitionEvents -> Events: 30
-  2026-09-07 Lina Lapelytė: We Make Years Out of Hours – Chanel
-  2026-09-07 Paul Signac: Symphonie der Farben
-  2026-09-07 Marc Brandenburg: 20th Century Debris
-  2026-09-07 Josef Kaiser: Bauen für die DDR
-  2026-09-07 Zwischen Bäumen
-  2026-09-07 Gabriele Stötzer: Dabei sein und nicht schweigen
-  2026-09-07 Courage: Schwestern im Geiste
-  2026-09-07 Ruin und Rausch: Berlin 1910–1930
-  2026-09-07 Materialistin: Matter of Care, Care of Matter
-  2026-09-07 Cassirer und der Durchbruch des Impressionismus
-  2026-09-07 Wo ich wohne
-  2026-09-07 Giulia Andreani: Sabotage
-  2026-09-07 Neue Frau, Neues Sehen: Die Bauhaus-Fotografinnen
-  2026-09-07 Inventing Queer Cinema
-  2026-09-07 Everybody
-  2026-09-07 Kyiv Biennial: A Bird That Cannot Land
-  2026-09-07 Shilpa Gupta: What Still Holds
-  2026-09-07 Fujiko Nakaya: Nebelskulptur im Skulpturengarten
-  2026-09-07 Anton Corbijn: Corbijn, Anton
-  2026-09-07 Rooms / Stages
-  2026-09-07 Many Shades of Grès: Mode wird Kunst
+  2026-09-08 Lina Lapelytė: We Make Years Out of Hours – Chanel
+  2026-09-08 Paul Signac: Symphonie der Farben
+  2026-09-08 Marc Brandenburg: 20th Century Debris
+  2026-09-08 Josef Kaiser: Bauen für die DDR
+  2026-09-08 Zwischen Bäumen
+  2026-09-08 Gabriele Stötzer: Dabei sein und nicht schweigen
+  2026-09-08 Courage: Schwestern im Geiste
+  2026-09-08 Ruin und Rausch: Berlin 1910–1930
+  2026-09-08 Materialistin: Matter of Care, Care of Matter
+  2026-09-08 Cassirer und der Durchbruch des Impressionismus
+  2026-09-08 Wo ich wohne
+  2026-09-08 Giulia Andreani: Sabotage
+  2026-09-08 Neue Frau, Neues Sehen: Die Bauhaus-Fotografinnen
+  2026-09-08 Inventing Queer Cinema
+  2026-09-08 Everybody
+  2026-09-08 Kyiv Biennial: A Bird That Cannot Land
+  2026-09-08 Shilpa Gupta: What Still Holds
+  2026-09-08 Fujiko Nakaya: Nebelskulptur im Skulpturengarten
+  2026-09-08 Anton Corbijn: Corbijn, Anton
+  2026-09-08 Rooms / Stages
+  2026-09-08 Many Shades of Grès: Mode wird Kunst
   2026-09-10 Jean-Luc Mylayne: Reflection
   2026-09-09 Maurizio Cattelan: Night – Preis der Nationalgaler
   2026-09-16 Die Magie der Straße
   2026-09-10 Ryuichi Sakamoto: seeing sound, hearing time
-  2026-09-07 Unruhe
-  2026-09-07 Holobiont
+  2026-09-08 Unruhe
+  2026-09-08 Holobiont
   2026-09-09 Projektionen auf den Osten
   2026-09-09 In touch: Goldrausch 2026
   2026-09-09 Metaxy: Zwischen Zerstörung und Wiederaufbau

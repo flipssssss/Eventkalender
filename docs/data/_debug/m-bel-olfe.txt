@@ -1,2 +1,22 @@
-event-blocks: 0 | Events: 0
+event-blocks: 1 | Events: 1
 
+<div class="event-block">
+ <!-- Zeile 1: Datum + Titel -->
+ <div class="event-row-1">
+  <div class="event-time">
+   Samstag, 26. Sept. 21:30
+  </div>
+  <div class="event-title">
+   Barox
+  </div>
+ </div>
+ <!-- Zeile 2: Bild + Beschreibung -->
+ <div class="event-row-2">
+  <div class="event-image">
+   <img alt="" src="ProgrammFotos/Barox_2026_09_26.jpg"/>
+  </div>
+  <div class="event-description">
+   IIIIIITTTTTAAAAAALLLLLOOOOOODDDDDDIIIIIIISSSSSSCCCCCCOOOOOOO!!!
+  </div>
+ </div>
+</div>

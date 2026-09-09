@@ -380,6 +380,7 @@
   "lng": 13.3860876
  },
  "Alte Feuerwache Friedrichshain, Marchlewskistraße 6, 10243, Berlin": null,
+ "Alte Feuerwache THF Tempelhofer Damm 45 12101 Berlin Deutschland": null,
  "Alte Jakobstraße 124, 10969 Berlin": {
   "address": "Alte Jakobstraße 124, 10969 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -1149,6 +1150,12 @@
   "lng": 13.5828604
  },
  "Café Köpenick Seelenbinderstr. 54 12555, 12555 Berlin": null,
+ "Café Maggie Frankfurter Allee 205 10365 Berlin Deutschland": {
+  "address": "Frankfurter Allee 205, 10365 Lichtenberg",
+  "bezirk": "Lichtenberg",
+  "lat": 52.5123101,
+  "lng": 13.4908099
+ },
  "Café Milagro, Bergmannstr. 12, 10961 Berlin": null,
  "Café Sybille Karl-Marx-Allee 72 10243 Berlin Deutschland": null,
  "Café Wostok, Weitlingstraße 97, 10317 Berlin": {
@@ -1313,6 +1320,8 @@
   "lng": 13.4315445
  },
  "Das Jüdische Kulturschiff MS Goldberg, Schifffahrtsufer 2\nan der Dischinger Brücke, 13581, Berlin-Spandau": null,
+ "Datscha Potsdam Deutschland, Berlin": null,
+ "Datscha Potsdam, Berlin": null,
  "Der Weiße Hase, Berlin": {
   "address": "Revaler Straße, 10245 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -1894,6 +1903,12 @@
   "lat": 52.4575155,
   "lng": 13.5167596
  },
+ "Hasselwerderstraße 22, 12439 Berlin": {
+  "address": "Hasselwerderstraße 22, 12439 Niederschöneweide",
+  "bezirk": "Treptow-Köpenick",
+  "lat": 52.4575425,
+  "lng": 13.5181738
+ },
  "Hauptstraße 121 A, 10827 Berlin": {
   "address": "Hauptstraße 121a, 10827 Schöneberg",
   "bezirk": "Tempelhof-Schöneberg",
@@ -1978,6 +1993,8 @@
   "lng": 13.4399161
  },
  "Heimathafen, Karl-Marx-Straße 141 12043 Berlin": null,
+ "Heinrich-Heine-Straße/Ecke Köpenicker Straße Berlin": null,
+ "Heinrich-Heine-Straße/Ecke Köpenicker Straße Berlin Deutschland": null,
  "Heinrichplatz (Kreuzberg) Berlin Deutschland": {
   "address": "Rio-Reiser-Platz, Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -3497,6 +3514,12 @@
   "lat": 52.5447135,
   "lng": 13.3693714
  },
+ "Marzahner Promenade 1A, 12679 Berlin": {
+  "address": "Marzahner Promenade 1a, 12679 Marzahn",
+  "bezirk": "Marzahn-Hellersdorf",
+  "lat": 52.5438879,
+  "lng": 13.5447601
+ },
  "Matthäikirchplatz, 10785 Berlin": {
   "address": "Matthäikirchplatz, 10785 Tiergarten",
   "bezirk": "Mitte",
@@ -3580,6 +3603,7 @@
   "lat": 52.4918919,
   "lng": 13.3890768
  },
+ "Melanchtonkirche Planufer 84 Berlin Deutschland": null,
  "Mellowpark An der Wuhlheide 250-256 (Schöneweide) Berlin": null,
  "Mellowpark An der Wuhlheide 250-256 (Schöneweide) Berlin Deutschland": null,
  "Mellowpark, 12459 Berlin": null,
@@ -3830,6 +3854,7 @@
   "lat": 52.5283283,
   "lng": 13.3885123
  },
+ "Novilla Hasselwerderstraße 22, 12439 Berlin Berlin Deutschland": null,
  "Nähe Rosenthaler Platz, Berlin": null,
  "OGH Sonnenallee Berlin": null,
  "OGH Sonnenallee Berlin Deutschland": null,
@@ -3871,6 +3896,7 @@
   "lng": 13.3279286
  },
  "Online Veranstaltung Anmeldung erforderlich: https:// forms.peacefullyagainstgenocid e.org/formz/occurrences/online-training-fuer-zivilen-widerstand-2026-07-23/registrations/new, Berlin": null,
+ "Online Veranstaltung Anmeldung erforderlich: https:// forms.peacefullyagainstgenocid e.org/formz/occurrences/online-vortrag-2026-09-09/registrations/new, Berlin": null,
  "Oppelner Straße 45, 10997 Berlin": {
   "address": "Oppelner Straße 45, 10997 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -3912,6 +3938,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5019179,
   "lng": 13.4180816
+ },
+ "Oranienstraße 190, 10999 Berlin": {
+  "address": "Oranienstraße 190, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5003909,
+  "lng": 13.4221612
  },
  "Ort bei Anmeldung Ort bei Anmeldung Berlin": null,
  "Ort bei Anmeldung Ort bei Anmeldung Berlin Deutschland": null,
@@ -4030,6 +4062,7 @@
   "lat": 52.4918988,
   "lng": 13.437787
  },
+ "Paula Panke, Schulstraße 25, 13187 Berlin Anfahrt: U2, S2, S8, S26, S85, Tram 50, M1, Bus 155, 250, 255, X54 Pankow": null,
  "Peppi Guggenheim, Weichselstrasse 7, 12043, Berlin": {
   "address": "Weichselstraße 7, 12043 Neukölln",
   "bezirk": "Neukölln",
@@ -4086,6 +4119,12 @@
   "bezirk": "Steglitz-Zehlendorf",
   "lat": 52.4565486,
   "lng": 13.3489971
+ },
+ "Planufer 84, Berlin": {
+  "address": "Planufer 84, 10967 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4947663,
+  "lng": 13.413643
  },
  "Plattenkosmos (Magdalenenstr. 19) Magdalenenstr. 19 10365 Berlin Deutschland": null,
  "Platz der Republik 1, 11011 Berlin": {
@@ -4815,6 +4854,12 @@
   "lat": 52.5695041,
   "lng": 13.4107964
  },
+ "Schulstraße 25, 13187 Berlin": {
+  "address": "Schulstraße 25, 13187 Pankow",
+  "bezirk": "Pankow",
+  "lat": 52.568688,
+  "lng": 13.4079034
+ },
  "Schwartzsche Villa, Grunewaldstraße 55, 12165, Berlin": {
   "address": "Grunewaldstraße 55, 12165 Steglitz",
   "bezirk": "Steglitz-Zehlendorf",
@@ -5023,6 +5068,7 @@
  },
  "Spinnboden Lesbenarchiv und Bibliothek, Berlin": null,
  "Spinnboden, Lesbenarchiv und Bibliothek, Berlin": null,
+ "Spore Initiative Hermannstraße 86 12051 Berlin Deutschland": null,
  "Spore Initiative, Hermannstraße 86, 12051 Berlin": null,
  "Spreeufer, Berlin": {
   "address": "Spreeufer, 10178 Mitte",
@@ -5072,6 +5118,12 @@
  "Stadtteilzentrum Haus am See, Berlin": null,
  "Stadtteilzentrum Schöneberg Hauptstraße 121 A 10827 Berlin Deutschland": null,
  "Stadtteilzentrum Schöneberg Hauptstraße 121 A, 10827 Berlin": null,
+ "Stasi-Zentrale, Berlin": {
+  "address": "Ruschestraße, 10367 Lichtenberg",
+  "bezirk": "Lichtenberg",
+  "lat": 52.5148013,
+  "lng": 13.4849557
+ },
  "Storkower Str. 123, 10407 Berlin": {
   "address": "Storkower Straße 123, 10407 Prenzlauer Berg",
   "bezirk": "Pankow",
@@ -5395,6 +5447,7 @@
   "lng": 13.3749883
  },
  "Under the raised train line, on the south side of Konnopke's Imbiss Schönhauser Allee 44b, Berlin": null,
+ "Ungarische Botschaft, Unter den Linden 76, 10117 Berlin": null,
  "Unter Strom Wagenplatz Hegemeisterweg 68 10318 Berlin Deutschland": null,
  "Unter den Linden 5, 10117 Berlin": {
   "address": "Unter den Linden 5, 10117 Mitte",
@@ -5893,6 +5946,12 @@
  "f.a.q. Jonasstr. 40 12053 Berlin Deutschland": null,
  "f.a.q. Jonasstr. 40 12053, 12053 Berlin": null,
  "f.a.q., Jonasstraße 40, 12053 Berlin": null,
+ "filmArche Lahnstraße 25 12055 Berlin - Neukölln Deutschland": {
+  "address": "Lahnstraße 25, 12055 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4682512,
+  "lng": 13.4527407
+ },
  "google.com/maps/search/52.484655 +13.479626?entry=tts&g_ep=EgoyMDI1MTIwMi4wIPu8ASoASAFQAw%3D%3D&skid=c2a426cc-7998-470e-b747-f0ef180e4ca7, Berlin": null,
  "google.com/maps/search/52.484655,+13.479626?entry=tts&g_ep=EgoyMDI1MTIwMi4wIPu8ASoASAFQAw%3D%3D&skid=c2a426cc-7998-470e-b747-f0ef180e4ca7, Berlin": null,
  "hofkino.berlin - Freiluftkino im FMP1": null,

@@ -307,6 +307,12 @@
   "lat": 52.5517747,
   "lng": 13.3380141
  },
+ "Ahornstr. 5, Berlin": {
+  "address": "Ahornstraße 5, 14163 Zehlendorf",
+  "bezirk": "Steglitz-Zehlendorf",
+  "lat": 52.4329197,
+  "lng": 13.2532705
+ },
  "Akari Restaurant Babelsberg, Großbeerenstraße 107, 14482 Potsdam, Berlin": null,
  "Ale Felcitas, Berlin": null,
  "Ale Felicitas, Berlin": null,
@@ -479,6 +485,7 @@
   "lat": 52.5447527,
   "lng": 13.5775261
  },
+ "Anna Natt, Berlin": null,
  "Anti-Kriegs-Museum Berlin Brüsseler Str. 21 13353 Berlin Deutschland": {
   "address": "Brüsseler Straße 21, 13353 Wedding",
   "bezirk": "Mitte",
@@ -1150,6 +1157,12 @@
   "lng": 13.5828604
  },
  "Café Köpenick Seelenbinderstr. 54 12555, 12555 Berlin": null,
+ "Café MadaMe Mehringplatz 10 Berlin Deutschland": {
+  "address": "Mehringplatz 10, 10969 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4997694,
+  "lng": 13.3923025
+ },
  "Café Maggie Frankfurter Allee 205 10365 Berlin Deutschland": {
   "address": "Frankfurter Allee 205, 10365 Lichtenberg",
   "bezirk": "Lichtenberg",
@@ -1647,6 +1660,7 @@
  },
  "Fröbelstraße 17, 10405 Berlin, Haus 7": null,
  "Funkloch (ehem. Cafe U), Bernkasteler Straße 78, 13088 Berlin": null,
+ "GEW-Haus Ahornstr. 5 Berlin Deutschland": null,
  "GRETCHEN, Obentrautstraße 19-21, 10963, Berlin": null,
  "Gambino’s by AMANO, Berlin": null,
  "Garten Markgrafendamm 24c, 10245 Berlin": null,
@@ -1826,6 +1840,12 @@
   "lng": 13.4376053
  },
  "Görlitzer Park, Pamukkale 10999 Berlin": null,
+ "Görlitzer Str. 1-3, 10997 Berlin": {
+  "address": "Görlitzer Straße, 10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4951735,
+  "lng": 13.4447548
+ },
  "Görlitzer Straße Ecke Cuvrystraße, 10997 Berlin": null,
  "Gürtelstraße 35, 10247 Berlin": {
   "address": "Gürtelstraße 35, 10247 Friedrichshain",
@@ -2113,6 +2133,12 @@
  "Horte (Strausberg) Peter-Göring-Str. 25, Strausberg Berlin Deutschland": null,
  "Hotel Berlin, Berlin, Lützowplatz 17, Berlin, 10785": null,
  "House of Flow, Berlin": null,
+ "Hugenottenkirche, Gendarmenmarkt 5, 10117 Berlin": {
+  "address": "Gendarmenmarkt 5, 10117 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5143687,
+  "lng": 13.3918588
+ },
  "Humboldt Forum, Berlin": {
   "address": "Schloßplatz, 10178 Mitte",
   "bezirk": "Mitte",
@@ -2294,6 +2320,7 @@
  "Joris Kern, Berlin": null,
  "Jugendclub, Schloßstraße 9, 14059 Berlin": null,
  "Jugendkulturzentrum M24 Mühlenstr.24, 13187 Berlin Deutschland": null,
+ "Jugendzentrum DieLynar, Lynarstraße 14, 13353 Berlin": null,
  "Juliette Dragon, Berlin": null,
  "Jüdisches Museum Berlin, Lindenstraße 9-14, 10969, Berlin": null,
  "K Köpenicker Straße Berlin": {
@@ -3331,6 +3358,12 @@
   "lat": 52.5489919,
   "lng": 13.2074834
  },
+ "Lynarstraße 14, 13353 Berlin": {
+  "address": "Lynarstraße 14, 13353 Wedding",
+  "bezirk": "Mitte",
+  "lat": 52.5408872,
+  "lng": 13.359604
+ },
  "Lützowplatz 17, 10785 Berlin": {
   "address": "Lützowplatz 17, 10785 Tiergarten",
   "bezirk": "Mitte",
@@ -3897,6 +3930,8 @@
  },
  "Online Veranstaltung Anmeldung erforderlich: https:// forms.peacefullyagainstgenocid e.org/formz/occurrences/online-training-fuer-zivilen-widerstand-2026-07-23/registrations/new, Berlin": null,
  "Online Veranstaltung Anmeldung erforderlich: https:// forms.peacefullyagainstgenocid e.org/formz/occurrences/online-vortrag-2026-09-09/registrations/new, Berlin": null,
+ "Online Veranstaltung URL ab Donnerstag: https://www. deutsche-juristinnen-voelkerre cht.org/webinar-nicaragua-v-/, Berlin": null,
+ "Online Veranstaltung URL ab Donnerstag: https://www. deutsche-juristinnen-voelkerre cht.org/webinar-nicaragua-v-germany/, Berlin": null,
  "Oppelner Straße 45, 10997 Berlin": {
   "address": "Oppelner Straße 45, 10997 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -4056,6 +4091,7 @@
   "lng": 13.3722927
  },
  "Park am Gleisdreieck, Möckernstraße 26, 10963 Berlin": null,
+ "Parkclub Fürstenwalde bei Berlin Dr.-Wilhelm-Külz-Straße 10A 15517 Fürstenwalde/Spree Deutschland": null,
  "Paul-Lincke-Ufer 2, 10999 Berlin": {
   "address": "Paul-Lincke-Ufer 2, 10999 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -5676,6 +5712,7 @@
   "lng": 13.4243386
  },
  "WikiBär Köpenicker Str. 45 10179, 10179 Berlin": null,
+ "Wild at Heart Wild at Heart Wiener Str. 20 10999 Berlin Deutschland": null,
  "Wilde 24 Wildenbruchstr. 24 12045 Berlin Deutschland": null,
  "Wilde24, Wildenbruchstraße 24, 12045 Berlin": null,
  "Wildenbruchstr. 24, 12045 Berlin": {

@@ -1,6 +1,5 @@
 Event-Links: 19 | Events: 18
   2026-07-04 17:00:00 | Krankenhauskirche im Wuhlgarten, Brebacher Weg 15, 12683, Berlin | ZERBRECHLICHE SCHÖNHEIT - Marita Czepa
-  2026-09-10 20:30:00 | KikiSol, Reinickendorfer Straße 96, 13347, Berlin | Medina Groove
   2026-09-11 20:00:00 | Radialsystem, Holzmarktstr. 33, 10243, Berlin | 20 Jahre Andromeda Mega Express Orchestra
   2026-09-11 20:00:00 | Little Stage Berlin, Jonasstraße, 12053, Berlin | Liberty Styles New York International Trio & Devin Gray Trio
   2026-09-11 20:15:00 | Badenscher Hof Jazzclub, Badensche Str. 29, 10715, Berlin | My Shining Hour
@@ -17,3 +16,4 @@ Event-Links: 19 | Events: 18
   2026-04-22 20:00:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Freestyle Lab – Musik, die jetzt passiert
   2026-03-26 19:00:00 | Musikinstrumenten-Museum, Tiergartenstraße, 10785, Berlin | Jazz im MIM
   2026-09-24 19:30:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | SONKOMUSIC - the we experience
+  2026-09-25 20:00:00 | Little Stage Berlin, Jonasstraße, 12053, Berlin | Die Blauen Pilze

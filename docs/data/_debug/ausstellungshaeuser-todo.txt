@@ -1,7 +1,7 @@
 Häuser ohne kuratierte Öffnungszeiten (in scrapers/openinghours.py ergänzen):
 
 Bibliothek der Freien Greifswalder Str. 4 2. Hof, Raum 1102 (1. OG) 10405 Berlin Deutschland
-Café Cralle
+Café MadaMe Mehringplatz 10 Berlin Deutschland
 Georg-Kolbe-Museum
 Haus am Waldsee
 MaHalla

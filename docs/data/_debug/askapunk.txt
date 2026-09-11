@@ -1,22 +1,21 @@
-API-Events: 59 | übernommen: 59
+API-Events: 62 | übernommen: 62
   2026-09-10 17:00:00 | Metal | +++ BERLIN SWAMP FEST 2026 +++
-  2026-09-10 17:00:00 | Punk | Laut gegen Verdrängung
-  2026-09-10 19:00:00 | Punk | DESIGNER (U.S.) & THEE IRMA AND LOUISE (CH)
-  2026-09-10 20:00:00 | Punk | BÉTON ARMÉ + BRUX + KLAVO
   2026-09-11 18:00:00 | None | Berlin FediDay 2026
+  2026-09-11 19:00:00 | Metal | SEXMAG + RAPID + DEATHLY SCYTHE
   2026-09-11 19:00:00 | None | Zelluloid42 Special presents CORRUPTION (1983) x THE IMAGE (1975)
   2026-09-11 20:00:00 | Punk | Doom gegen rechts 2
   2026-09-11 20:00:00 | Punk | LA HAINE / SPILLING RAW RELEASE SHOW w/ APTERA + MALMEQUER
   2026-09-11 20:30:00 | None | Headbutt + Cardboard + Kloppe
   2026-09-12 19:00:00 | Punk | MINOH (Aachen – Disco Punk) + Royalty (Berlin - R'n'R) im Schokoladen
+  2026-09-12 20:00:00 | Punk | Yu Ching + Championne Mondiale + Josy Basar
   2026-09-12 20:00:00 | Punk | 🔥 BACK TO '77 🔥 Punk night is coming to Berlin!
   2026-09-14 19:00:00 | None | OCCRASY (SWE) „Good To Go“ Germany Tour 2026 + Social Torsten (Alternative-Punkrock/ Bernau) im Schokoladen
   2026-09-15 17:45:00 | None | Queer Tours for All - Queer Kreuzberg
   2026-09-15 19:00:00 | Electro | Hole Dweller + Dragon Keep + Seregost + Potcullis + Serpent of Death
   2026-09-16 19:00:00 | Punk | CONCRETE VEHICLES (exp post-punk/-hc noise-rock, can) + OLDER FRIENDS (twinkly emo/screamo-pop, bln)
   2026-09-18 19:00:00 | Punk | Graupause (Lüdenscheid, punkrock) + Artikel 5 (punkrock, Berlin) im Kulturhaus Insel Berlin
-  2026-09-18 19:00:00 | Rock | Black Market Karma (UK, Fuzz Club), Sacred Buzz & Miss Mellow
   2026-09-18 19:00:00 | Punk | Sun Worship + PΞB + Isolationsgemeinschaft  "Wie viele Duos braucht man um eine Glühbirne zu tauschen?"
+  2026-09-18 19:00:00 | Rock | Black Market Karma (UK, Fuzz Club), Sacred Buzz & Miss Mellow
   2026-09-18 19:00:00 | Punk | TINY DORIS + SPLIZZ
   2026-09-18 19:00:00 | None | Special Zelluloid42: Wakaliwood Tour 2026 — VJ Emmy Live
   2026-09-18 20:00:00 | Punk | ZUR BRACHE + KALTE KNIE + GEHÖRSTURZ im OGH
@@ -29,3 +28,4 @@ API-Events: 59 | übernommen: 59
   2026-09-20 19:00:00 | Punk | Zoon Phonanta, Cobra Killer (First show in 14 years!!!)
   2026-09-22 19:00:00 | Punk | THE HOMESICK (art-rock / exp-indie, nl) & GEO (post-punk / no-wave, nl)
   2026-09-22 19:00:00 | None | Team Dresch
+  2026-09-24 19:00:00 | Punk | Wracaj Bo Ciemno / Sorry I'm Late / I Hate The Bouncers

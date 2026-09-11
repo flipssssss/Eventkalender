@@ -1,6 +1,6 @@
-Events gesamt: 68 | mit Bild: 54 | mit Beschreibung: 63
-club/28354 (://about blank): 31 -> 31 Berlin | flyer=0 images=23 content=28
-club/98993 (Beate Uwe): 17 -> 17 Berlin | flyer=0 images=12 content=17
+Events gesamt: 70 | mit Bild: 56 | mit Beschreibung: 64
+club/28354 (://about blank): 32 -> 32 Berlin | flyer=0 images=25 content=29
+club/98993 (Beate Uwe): 18 -> 18 Berlin | flyer=0 images=12 content=17
 club/298230 (ROSA): 3 -> 3 Berlin | flyer=0 images=3 content=3
 promoter/82597 (BOAR Berlin): 0 -> 0 Berlin | flyer=0 images=0 content=0
 promoter/71007 (Buttons): 0 -> 0 Berlin | flyer=0 images=0 content=0
@@ -10,7 +10,7 @@ artist/horsemeatdisco: ID nicht auflösbar
 promoter/84128 (Klub Verboten): 4 -> 0 Berlin | flyer=0 images=4 content=4
 promoter/167895 (Lecken3000): 0 -> 0 Berlin | flyer=0 images=0 content=0
 promoter/137536 (Magic Dyke*): 0 -> 0 Berlin | flyer=0 images=0 content=0
-promoter/169756 (Mala Junta): 2 -> 0 Berlin | flyer=0 images=2 content=2
+promoter/169756 (Mala Junta): 3 -> 0 Berlin | flyer=0 images=3 content=3
 promoter/109496 (PiepShow Berlin): 5 -> 5 Berlin | flyer=0 images=5 content=5
 promoter/112980 (Pinky Promise): 1 -> 1 Berlin | flyer=0 images=1 content=1
 promoter/119317 (Polyamor): 5 -> 4 Berlin | flyer=0 images=4 content=3

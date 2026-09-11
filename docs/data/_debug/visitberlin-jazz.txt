@@ -1,8 +1,5 @@
-Event-Links: 19 | Events: 18
+Event-Links: 19 | Events: 16
   2026-07-04 17:00:00 | Krankenhauskirche im Wuhlgarten, Brebacher Weg 15, 12683, Berlin | ZERBRECHLICHE SCHÖNHEIT - Marita Czepa
-  2026-09-11 20:00:00 | Radialsystem, Holzmarktstr. 33, 10243, Berlin | 20 Jahre Andromeda Mega Express Orchestra
-  2026-09-11 20:00:00 | Little Stage Berlin, Jonasstraße, 12053, Berlin | Liberty Styles New York International Trio & Devin Gray Trio
-  2026-09-11 20:15:00 | Badenscher Hof Jazzclub, Badensche Str. 29, 10715, Berlin | My Shining Hour
   2026-09-12 18:00:00 | Strandbad Wendenschloss, Möllhausenufer 30, 12557, Berlin | Live Session im Strandbad : Bird Watch Trio
   2026-09-12 20:00:00 | ausland, Lychener Str. 60, 10437, Berlin | LUN ÁRIO / MUNSHA / DUCHAMP / FRICTIVE FREQUENCIES
   2026-09-13 11:00:00 | Kulturhaus Centre Bagatelle e.V, Zeltinger Str. 6, 13465, Berlin-frohnau | PIAF-ESQUE – Eine Hommage an Édith Piaf
@@ -17,3 +14,4 @@ Event-Links: 19 | Events: 18
   2026-03-26 19:00:00 | Musikinstrumenten-Museum, Tiergartenstraße, 10785, Berlin | Jazz im MIM
   2026-09-24 19:30:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | SONKOMUSIC - the we experience
   2026-09-25 20:00:00 | Little Stage Berlin, Jonasstraße, 12053, Berlin | Die Blauen Pilze
+  2026-09-25 20:00:00 | Kesselhaus in der KulturBrauerei, Knaackstraße 97, 10435, Berlin | Thorbjørn Risager & The Black Tornado

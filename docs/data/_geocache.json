@@ -755,6 +755,12 @@
   "lat": 52.4135931,
   "lng": 13.087704
  },
+ "Bernauer Straße 53, 13355 Berlin": {
+  "address": "Bernauer Straße 53, 13507 Tegel",
+  "bezirk": "Reinickendorf",
+  "lat": 52.5754506,
+  "lng": 13.2868079
+ },
  "Bernauer Straße 63, 13355 Berlin": {
   "address": "Bernauer Straße 63, 13355 Gesundbrunnen",
   "bezirk": "Pankow",
@@ -985,6 +991,13 @@
   "lat": 52.5704885,
   "lng": 13.4064617
  },
+ "Breite Straße 11, 14943 Berlin": {
+  "address": "Breite Straße 11, 14199 Schmargendorf",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.4741765,
+  "lng": 13.2952584
+ },
+ "Breite Straße 11, 14943 Luckenwalde Gemeinsame, Berlin": null,
  "Breitenbachplatz 12, 14195 Berlin": {
   "address": "Breitenbachplatz 12, 14195 Dahlem",
   "bezirk": "Steglitz-Zehlendorf",
@@ -2559,6 +2572,7 @@
   "lng": 13.4094316
  },
  "Kerala Space, Berlin": null,
+ "Kesselhaus in der KulturBrauerei, Knaackstraße 97, 10435, Berlin": null,
  "Kiehnwerderallee 2, 12437 Berlin": {
   "address": "Kiehnwerderallee 2, 12437 Plänterwald",
   "bezirk": "Treptow-Köpenick",
@@ -2668,6 +2682,12 @@
   "bezirk": "Treptow-Köpenick",
   "lat": 52.4831538,
   "lng": 13.4692694
+ },
+ "Knaackstraße 97, 10435 Berlin": {
+  "address": "Knaackstraße 97, 10435 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5402922,
+  "lng": 13.4140783
  },
  "Kneipe Kleinod Niemetzstraße 24 12055, 12055 Berlin": null,
  "Kneipe Kleinod Niemetzstraße 24, 12055 Berlin Deutschland": {
@@ -4311,6 +4331,12 @@
   "lat": 52.4919262,
   "lng": 13.4383871
  },
+ "Raum für Drastische Massnahmen, Oderstraße 34, 10247 Berlin": {
+  "address": "Oderstraße 34, 10247 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5094253,
+  "lng": 13.4726497
+ },
  "Raumerweiterungshalle Berlin": null,
  "Raumerweiterungshalle für Jazz, Kopenhagener Str. 17, 10437, Berlin": null,
  "Raumerweiterungshalle, Berlin": null,
@@ -4529,6 +4555,7 @@
   "lat": 52.4376603,
   "lng": 13.2799735
  },
+ "Rosa-Luxemburg-Stiftung, Bibliothek, 2. Stock, Straße der Pariser Kommune 8 a 10243 Berlin": null,
  "Rosa-Luxemburg-Straße 30, 10178 Berlin": {
   "address": "Rosa-Luxemburg-Straße 30, 10178 Mitte",
   "bezirk": "Mitte",
@@ -4651,6 +4678,12 @@
  "S+U-Bhf Rathaus Steglitz, 12165 Berlin": null,
  "S-/U-Bhf. Schönhauser Allee Berlin": null,
  "S-/U-Bhf. Schönhauser Allee Berlin Deutschland": null,
+ "S-Bahnhof Südkreuz, Berlin": {
+  "address": "Hildegard-Knef-Platz, 10829 Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4763523,
+  "lng": 13.3640907
+ },
  "S-Bhf Charlottenburg, Gleis 4, 10627 Berlin": null,
  "S-Bhf. Gesundbrunnen Berlin Deutschland": {
   "address": "Hochstraße 46, 13357 Gesundbrunnen",
@@ -4727,6 +4760,12 @@
   "bezirk": "Neukölln",
   "lat": 52.4316471,
   "lng": 13.4131787
+ },
+ "Sasarsteig, Neukölln 12053 Berlin Deutschland": {
+  "address": "Sasarsteig, 12053 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.482362,
+  "lng": 13.4278313
  },
  "Schaperstraße 29, 10719 Berlin": {
   "address": "Schaperstraße 29, 10719 Wilmersdorf",
@@ -5106,6 +5145,7 @@
  "Spinnboden, Lesbenarchiv und Bibliothek, Berlin": null,
  "Spore Initiative Hermannstraße 86 12051 Berlin Deutschland": null,
  "Spore Initiative, Hermannstraße 86, 12051 Berlin": null,
+ "Spraywand Mauerpark, Bernauer Straße 53, 13355 Berlin": null,
  "Spreeufer, Berlin": {
   "address": "Spreeufer, 10178 Mitte",
   "bezirk": "Mitte",

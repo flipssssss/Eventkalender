@@ -1,8 +1,8 @@
 Events: 7
-  2026-09-10 17:00:00 | **No wellness evening today
-  2026-09-11 17:00:00 | “FOLSOM 2026 at BOILER (Presale now online)”
+  2026-09-11 17:00:00 | FOLSOM 2026 at BOILER (Presale closed)
   2026-09-11 17:00:00 | Friday Infusions
   2026-09-12 17:00:00 | Saturday Infusions
   2026-09-13 17:00:00 | Sunday Infusions
   2026-09-14 17:00:00 | Monday Infusions
   2026-09-15 17:00:00 | Theme Night
+  2026-09-16 17:00:00 | youngStars

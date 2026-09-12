@@ -1,33 +1,33 @@
 ExhibitionEvents -> Events: 32
-  2026-09-11 Maurizio Cattelan: Night – Preis der Nationalgaler
-  2026-09-11 Lina Lapelytė: We Make Years Out of Hours – Chanel
-  2026-09-11 Paul Signac: Symphonie der Farben
-  2026-09-11 Ryuichi Sakamoto: seeing sound, hearing time
-  2026-09-11 Unruhe
-  2026-09-11 Marc Brandenburg: 20th Century Debris
-  2026-09-11 Josef Kaiser: Bauen für die DDR
-  2026-09-11 Zwischen Bäumen
-  2026-09-11 Gabriele Stötzer: Dabei sein und nicht schweigen
-  2026-09-11 Courage: Schwestern im Geiste
-  2026-09-11 Ruin und Rausch: Berlin 1910–1930
-  2026-09-11 Materialistin: Matter of Care, Care of Matter
-  2026-09-11 Cassirer und der Durchbruch des Impressionismus
-  2026-09-11 Wo ich wohne
-  2026-09-11 Holobiont
-  2026-09-11 Giulia Andreani: Sabotage
-  2026-09-11 In touch: Goldrausch 2026
-  2026-09-11 Neue Frau, Neues Sehen: Die Bauhaus-Fotografinnen
-  2026-09-11 Projektionen auf den Osten
-  2026-09-11 Inventing Queer Cinema
-  2026-09-11 Everybody
-  2026-09-11 Kyiv Biennial: A Bird That Cannot Land
-  2026-09-11 Jean-Luc Mylayne: Reflection
-  2026-09-11 Shilpa Gupta: What Still Holds
-  2026-09-11 Fujiko Nakaya: Nebelskulptur im Skulpturengarten
-  2026-09-11 Metaxy: Zwischen Zerstörung und Wiederaufbau
-  2026-09-11 Anton Corbijn: Corbijn, Anton
-  2026-09-11 Rooms / Stages
-  2026-09-11 Many Shades of Grès: Mode wird Kunst
+  2026-09-12 Maurizio Cattelan: Night – Preis der Nationalgaler
+  2026-09-12 Lina Lapelytė: We Make Years Out of Hours – Chanel
+  2026-09-12 Paul Signac: Symphonie der Farben
+  2026-09-12 Ryuichi Sakamoto: seeing sound, hearing time
+  2026-09-12 Unruhe
+  2026-09-12 Marc Brandenburg: 20th Century Debris
+  2026-09-12 Josef Kaiser: Bauen für die DDR
+  2026-09-12 Zwischen Bäumen
+  2026-09-12 Gabriele Stötzer: Dabei sein und nicht schweigen
+  2026-09-12 Courage: Schwestern im Geiste
+  2026-09-12 Ruin und Rausch: Berlin 1910–1930
+  2026-09-12 Materialistin: Matter of Care, Care of Matter
+  2026-09-12 Cassirer und der Durchbruch des Impressionismus
+  2026-09-12 Wo ich wohne
+  2026-09-12 Holobiont
+  2026-09-12 Giulia Andreani: Sabotage
+  2026-09-12 In touch: Goldrausch 2026
+  2026-09-12 Neue Frau, Neues Sehen: Die Bauhaus-Fotografinnen
+  2026-09-12 Projektionen auf den Osten
+  2026-09-12 Inventing Queer Cinema
+  2026-09-12 Everybody
+  2026-09-12 Kyiv Biennial: A Bird That Cannot Land
+  2026-09-12 Jean-Luc Mylayne: Reflection
+  2026-09-12 Shilpa Gupta: What Still Holds
+  2026-09-12 Fujiko Nakaya: Nebelskulptur im Skulpturengarten
+  2026-09-12 Metaxy: Zwischen Zerstörung und Wiederaufbau
+  2026-09-12 Anton Corbijn: Corbijn, Anton
+  2026-09-12 Rooms / Stages
+  2026-09-12 Many Shades of Grès: Mode wird Kunst
   2026-09-16 Die Magie der Straße
   2026-10-08 Next Door: Tacita Dean und Bruce Nauman, Thomas De
   2026-10-20 Dschingis Khan: Die Welt der Mongolen

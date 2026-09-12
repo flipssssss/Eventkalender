@@ -1,7 +1,6 @@
 top-keys: ['website', 'websiteSettings', 'collection', 'shoppingCart', 'shareButtons', 'showCart', 'localizedStrings', 'userAccountsContext', 'template', 'uiextensions', 'empty', 'emptyFolder', 'calendarView', 'pagination', 'upcoming']
-items: 18 | Events: 18
+items: 17 | Events: 17
 erstes item keys: ['id', 'collectionId', 'recordType', 'addedOn', 'updatedOn', 'starred', 'passthrough', 'tags', 'categories', 'workflowState', 'publishOn', 'authorId', 'systemDataId', 'systemDataVariants', 'systemDataSourceType', 'filename', 'mediaFocalPoint', 'colorData', 'urlId', 'title', 'sourceUrl', 'body', 'excerpt', 'location', 'customContent']
-  2026-09-11 09:00:00.506000 | Maxim‘s Retrospective
   2026-09-12 09:00:00.506000 | Rolf Zielke – Trio feat. Mathilde Vendramin – voc / cello
   2026-09-13 09:00:00.506000 | A Tribute to Carmen McRae &amp; Betty Carter
   2026-09-15 09:00:00.506000 | Steve Nanda Oktett

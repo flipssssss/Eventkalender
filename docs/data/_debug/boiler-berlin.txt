@@ -1,6 +1,6 @@
 Events: 7
   2026-09-11 17:00:00 | FOLSOM 2026 at BOILER (Presale closed)
-  2026-09-11 17:00:00 | Friday Infusions
+  2026-09-12 17:00:00 | Event ticket €34
   2026-09-12 17:00:00 | Saturday Infusions
   2026-09-13 17:00:00 | Sunday Infusions
   2026-09-14 17:00:00 | Monday Infusions

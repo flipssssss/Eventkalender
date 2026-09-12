@@ -168,6 +168,12 @@
   "lat": 52.5695591,
   "lng": 13.4084463
  },
+ "13187 Pankow, Berlin": {
+  "address": "13187 Pankow",
+  "bezirk": "Pankow",
+  "lat": 52.5695591,
+  "lng": 13.4084463
+ },
  "13347 Berlin": {
   "address": "13347 Wedding",
   "bezirk": "Mitte",
@@ -252,6 +258,12 @@
   "lat": 52.5297369,
   "lng": 13.3971786
  },
+ "Ackerstraße 169, 10115 Mitte, Berlin": {
+  "address": "Ackerstraße 169, 10115 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5297369,
+  "lng": 13.3971786
+ },
  "Adalbertstr. 95A, 10999 Berlin": {
   "address": "Adalbertstraße 95a, 10999 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -313,6 +325,12 @@
   "lat": 52.4329197,
   "lng": 13.2532705
  },
+ "Ahornstraße 5, 14163 Zehlendorf, Berlin": {
+  "address": "Ahornstraße 5, 14163 Zehlendorf",
+  "bezirk": "Steglitz-Zehlendorf",
+  "lat": 52.4329197,
+  "lng": 13.2532705
+ },
  "Akari Restaurant Babelsberg, Großbeerenstraße 107, 14482 Potsdam, Berlin": null,
  "Ale Felcitas, Berlin": null,
  "Ale Felicitas, Berlin": null,
@@ -357,6 +375,12 @@
   "bezirk": "Lichtenberg",
   "lat": 52.5145899,
   "lng": 13.4904607
+ },
+ "Alfredstraße 24, 10365 Lichtenberg, Berlin": {
+  "address": "Alfredstraße 24, 10365 Lichtenberg",
+  "bezirk": "Lichtenberg",
+  "lat": 52.5146104,
+  "lng": 13.4905308
  },
  "Alice Salomon Hochschule Alice-Salomon-Platz 5 12627 Berlin Deutschland": {
   "address": "Alice-Salomon-Platz 5, 12627 Hellersdorf",
@@ -405,6 +429,12 @@
   "bezirk": "Mitte",
   "lat": 52.5186496,
   "lng": 13.341415
+ },
+ "Am Berl 13, 13051 Neu-Hohenschönhausen, Berlin": {
+  "address": "Am Berl 13, 13051 Neu-Hohenschönhausen",
+  "bezirk": "Lichtenberg",
+  "lat": 52.5741137,
+  "lng": 13.4997399
  },
  "Am Juliusturm 55, 13599 Berlin": {
   "address": "Am Juliusturm 55, 13599 Haselhorst",
@@ -1030,6 +1060,12 @@
   "lat": 52.5308688,
   "lng": 13.400486
  },
+ "Brunnenstraße 7, 10119 Mitte, Berlin": {
+  "address": "Brunnenstraße 7, 10119 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5308194,
+  "lng": 13.4005277
+ },
  "Brüsseler Straße 36 A, 13353 Berlin": {
   "address": "Brüsseler Straße 36A, 13353 Wedding",
   "bezirk": "Mitte",
@@ -1077,6 +1113,12 @@
  "Bunte Kuh Bernkastelerstr. 78 13088 Berlin Deutschland": null,
  "Bunte Kuh, Bernkasteler Straße 78, 13088 Berlin": null,
  "Burge Burgemeisterstraße 17/18 12103 Berlin Deutschland": {
+  "address": "Burgemeisterstraße 17-18, 12103 Tempelhof",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4575695,
+  "lng": 13.3796659
+ },
+ "Burgemeisterstraße 17-18, 12103 Tempelhof, Berlin": {
   "address": "Burgemeisterstraße 17-18, 12103 Tempelhof",
   "bezirk": "Tempelhof-Schöneberg",
   "lat": 52.4575695,
@@ -1320,6 +1362,12 @@
   "lat": 52.4985917,
   "lng": 13.4437627
  },
+ "Cuvrystraße 13-14, 10997 Kreuzberg, Berlin": {
+  "address": "Cuvrystraße 13-14, 10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4986501,
+  "lng": 13.4440231
+ },
  "DORF, Sanderstraße 11, 12047 Berlin": {
   "address": "Sanderstraße 11, 12047 Neukölln",
   "bezirk": "Neukölln",
@@ -1354,6 +1402,12 @@
   "lat": 52.5075831,
   "lng": 13.4545322
  },
+ "Deutsche Kinemathek  – Museum für Film und Fernsehen, Berlin": {
+  "address": "Mauerstraße 79, 10117 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5086058,
+  "lng": 13.3871269
+ },
  "Dorfplatz (Fhain) Rigaerstr. Ecke Liebigstr. 10247 Berlin Deutschland": null,
  "Dr.-Wilhelm-Külz-Straße 10A, 15517 Berlin": {
   "address": "Dr.-Wilhelm-Külz-Straße, 15362 Berlin",
@@ -1362,6 +1416,12 @@
   "lng": 13.7851332
  },
  "Dr.-Wilhelm-Külz-Straße 10A, 15517 Fürstenwalde/Spree, Berlin": null,
+ "Dr.-Wilhelm-Külz-Straße, 15362 Berlin": {
+  "address": "Dr.-Wilhelm-Külz-Straße, 15362 Berlin",
+  "bezirk": null,
+  "lat": 52.4703922,
+  "lng": 13.7839728
+ },
  "Dresdener Straße 8, 10999 Berlin": {
   "address": "Dresdener Straße 8, 10999 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -1504,6 +1564,12 @@
   "lat": 52.4973307,
   "lng": 13.4411769
  },
+ "Falckensteinstraße 6, 10997 Kreuzberg, Berlin": {
+  "address": "Falckensteinstraße 6, 10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.499513,
+  "lng": 13.4427102
+ },
  "Fargo Grünberger Straße 77 Berlin Deutschland": {
   "address": "Grünberger Straße 77, 10245 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -1521,6 +1587,12 @@
   "bezirk": "Charlottenburg-Wilmersdorf",
   "lat": 52.5106031,
   "lng": 13.3292355
+ },
+ "Fasanenstraße 1, 10623 Charlottenburg, Berlin": {
+  "address": "Fasanenstraße 1, 10623 Charlottenburg",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.5115607,
+  "lng": 13.3304208
  },
  "Fasanenstraße 1A, 10623 Berlin": {
   "address": "Fasanenstraße 1a, 10623 Charlottenburg",
@@ -1606,6 +1678,12 @@
   "lat": 52.5373536,
   "lng": 13.5300088
  },
+ "Frankfurter Allee 205, 10365 Lichtenberg, Berlin": {
+  "address": "Frankfurter Allee 205, 10365 Lichtenberg",
+  "bezirk": "Lichtenberg",
+  "lat": 52.5123101,
+  "lng": 13.4908099
+ },
  "Frankfurter Tor Frankfurter Tor 10243 Berlin Deutschland": {
   "address": "Frankfurter Tor 1, 10243 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -1617,6 +1695,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5128,
   "lng": 13.4402215
+ },
+ "Franz-Mehring-Platz 1, 10243 Friedrichshain, Berlin": {
+  "address": "Franz-Mehring-Platz 1, 10243 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5123937,
+  "lng": 13.4396133
  },
  "Französische Botschaft, Pariser Platz 10117 Berlin": {
   "address": "Pariser Platz 5, 10117 Mitte",
@@ -1771,6 +1855,12 @@
   "lat": 52.5286995,
   "lng": 13.4254805
  },
+ "Greifswalder Straße 4, 10405 Prenzlauer Berg, Berlin": {
+  "address": "Greifswalder Straße 4, 10405 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5286995,
+  "lng": 13.4254805
+ },
  "Gretchen (Obentrautstr. 19-21) Obentrautstr. 19-21 (Kreuzberg Berlin Deutschland": null,
  "Gretchen, Berlin": {
   "address": "Zachertstraße, 10315 Friedrichsfelde",
@@ -1834,6 +1924,12 @@
   "lat": 52.553999,
   "lng": 13.389952
  },
+ "Grüntaler Straße 24, 13357 Gesundbrunnen, Berlin": {
+  "address": "Grüntaler Straße 24, 13357 Gesundbrunnen",
+  "bezirk": "Mitte",
+  "lat": 52.5540137,
+  "lng": 13.3900055
+ },
  "Grüntaler Straße 38, 13359 Berlin": {
   "address": "Grüntaler Straße 38, 13359 Gesundbrunnen",
   "bezirk": "Mitte",
@@ -1858,6 +1954,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.4951735,
   "lng": 13.4447548
+ },
+ "Görlitzer Straße 1, 10997 Kreuzberg, Berlin": {
+  "address": "Görlitzer Straße 1, 10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4983939,
+  "lng": 13.4336934
  },
  "Görlitzer Straße Ecke Cuvrystraße, 10997 Berlin": null,
  "Gürtelstraße 35, 10247 Berlin": {
@@ -1937,6 +2039,12 @@
   "lng": 13.5167596
  },
  "Hasselwerderstraße 22, 12439 Berlin": {
+  "address": "Hasselwerderstraße 22, 12439 Niederschöneweide",
+  "bezirk": "Treptow-Köpenick",
+  "lat": 52.4575425,
+  "lng": 13.5181738
+ },
+ "Hasselwerderstraße 22, 12439 Niederschöneweide, Berlin": {
   "address": "Hasselwerderstraße 22, 12439 Niederschöneweide",
   "bezirk": "Treptow-Köpenick",
   "lat": 52.4575425,
@@ -2035,6 +2143,12 @@
   "lng": 13.4230764
  },
  "Heizhaus der Uferstudios Uferstraße 23 13357 Berlin Deutschland": null,
+ "Herbert-von-Karajan-Straße 1, 10785 Berlin": {
+  "address": "Herbert-von-Karajan-Straße 1, 10785 Tiergarten",
+  "bezirk": "Mitte",
+  "lat": 52.5099888,
+  "lng": 13.3696059
+ },
  "Herman Schulz Kollektiv Café & Bar, Finowstraße 33, 10247 Berlin": null,
  "Herman Schulz Kollektiv Finowstraße 33, 10247 Berlin": null,
  "Hermann-Ehlers-Platz 1, 12165 Berlin": {
@@ -2304,6 +2418,12 @@
   "lat": 52.4848253,
   "lng": 13.3441027
  },
+ "John-Foster-Dulles-Allee 10, 10557 Tiergarten, Berlin": {
+  "address": "John-Foster-Dulles-Allee 10, 10557 Tiergarten",
+  "bezirk": "Mitte",
+  "lat": 52.5187884,
+  "lng": 13.3648356
+ },
  "Jonasstr. 40, 12053 Berlin": {
   "address": "Jonasstraße 40, 12053 Neukölln",
   "bezirk": "Neukölln",
@@ -2454,6 +2574,7 @@
   "lng": 13.5194765
  },
  "Kalabal!k Reichenbergerstr. 63a 10999 Berlin Deutschland": null,
+ "Kammermusiksaal, Herbert-von-Karajan-Straße 1, 10785, Berlin": null,
  "Kandeler Weg 3, 13583 Falkenhagener Feld, Berlin": {
   "address": "Kandeler Weg 3, 13583 Falkenhagener Feld",
   "bezirk": "Spandau",
@@ -2571,6 +2692,12 @@
   "lat": 52.5375635,
   "lng": 13.4094316
  },
+ "Kastanienallee 86, 10435 Prenzlauer Berg, Berlin": {
+  "address": "Kastanienallee 86, 10435 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5375635,
+  "lng": 13.4094316
+ },
  "Kerala Space, Berlin": null,
  "Kesselhaus in der KulturBrauerei, Knaackstraße 97, 10435, Berlin": null,
  "Kiehnwerderallee 2, 12437 Berlin": {
@@ -2675,6 +2802,12 @@
   "bezirk": "Mitte",
   "lat": 52.5112074,
   "lng": 13.4169157
+ },
+ "Klausenerplatz, 14059 Berlin": {
+  "address": "Klausenerplatz, 14059 Charlottenburg",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.5184418,
+  "lng": 13.292551
  },
  "Klik e. V., Torstraße 210, 10115 Berlin": null,
  "Klingerstraße 1243, 12435 Berlin": {
@@ -2943,6 +3076,12 @@
   "lat": 52.5077022,
   "lng": 13.4260264
  },
+ "Köpenicker Straße 172, 10997 Kreuzberg, Berlin": {
+  "address": "Köpenicker Straße 172, 10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5043482,
+  "lng": 13.434887
+ },
  "Köpenicker Straße 45, 10179 Mitte, Berlin": {
   "address": "Köpenicker Straße 45, 10179 Mitte",
   "bezirk": "Mitte",
@@ -3011,6 +3150,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5118751,
   "lng": 13.4616485
+ },
+ "Lahnstraße 25, 12055 Neukölln, Berlin": {
+  "address": "Lahnstraße 25, 12055 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4682512,
+  "lng": 13.4527407
  },
  "Landesvertretung Sachsen-Anhalt Luisenstraße 18 10117 Berlin Deutschland": {
   "address": "Luisenstraße 18, 10117 Mitte",
@@ -3136,6 +3281,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.4977097,
   "lng": 13.4288764
+ },
+ "Lausitzer Straße, 10999 Kreuzberg, Berlin": {
+  "address": "Lausitzer Straße, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4972414,
+  "lng": 13.4286928
  },
  "Lawede Bülowstr. 39 10783 Berlin Deutschland": null,
  "Lehderstrasse 74, 13086 Berlin": {
@@ -3440,6 +3591,12 @@
   "lat": 52.5142306,
   "lng": 13.4884364
  },
+ "Magdalenenstraße 19, 10365 Lichtenberg, Berlin": {
+  "address": "Magdalenenstraße 19, 10365 Lichtenberg",
+  "bezirk": "Lichtenberg",
+  "lat": 52.5142306,
+  "lng": 13.4884364
+ },
  "Maigalerie Torstraße 6 10119 Berlin Deutschland": {
   "address": "Torstraße 6, 10119 Mitte",
   "bezirk": "Mitte",
@@ -3516,6 +3673,12 @@
   "lat": 52.5048618,
   "lng": 13.4243914
  },
+ "Mariannenplatz 2, 10997 Kreuzberg, Berlin": {
+  "address": "Mariannenplatz 2, 10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5036639,
+  "lng": 13.424156
+ },
  "Mariannenplatz 2A, 10997 Berlin": {
   "address": "Mariannenplatz 2A, 10997 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -3548,6 +3711,12 @@
   "lng": 13.4609428
  },
  "Markgrafendamm 24c, 10245 Berlin": {
+  "address": "Markgrafendamm 24c, 10245 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5024767,
+  "lng": 13.466302
+ },
+ "Markgrafendamm 24c, 10245 Friedrichshain, Berlin": {
   "address": "Markgrafendamm 24c, 10245 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5024767,
@@ -3656,6 +3825,12 @@
   "lat": 52.4918919,
   "lng": 13.3890768
  },
+ "Mehringplatz 10, 10969 Kreuzberg, Berlin": {
+  "address": "Mehringplatz 10, 10969 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4997694,
+  "lng": 13.3923025
+ },
  "Melanchtonkirche Planufer 84 Berlin Deutschland": null,
  "Mellowpark An der Wuhlheide 250-256 (Schöneweide) Berlin": null,
  "Mellowpark An der Wuhlheide 250-256 (Schöneweide) Berlin Deutschland": null,
@@ -3717,6 +3892,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.502453,
   "lng": 13.4571706
+ },
+ "Modersohnstraße, 10245 Friedrichshain, Berlin": {
+  "address": "Modersohnstraße, 10245 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5005232,
+  "lng": 13.4555307
  },
  "Monarch, Berlin": {
   "address": "Skalitzer Straße 134, 10999 Kreuzberg",
@@ -3809,7 +3990,14 @@
   "lat": 52.5012518,
   "lng": 13.4228971
  },
+ "Naunynstraße, 10997 Kreuzberg, Berlin": {
+  "address": "Naunynstraße, 10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.501549,
+  "lng": 13.4225232
+ },
  "Naunystrasse 72, 10997 Berlin": null,
+ "Near the Reichstag at the memorial to the Political Opponents of the NS, Berlin": null,
  "Neckarstr. 19 12053 Berlin Deutschland": {
   "address": "Neckarstraße 19, 12053 Neukölln",
   "bezirk": "Neukölln",
@@ -3865,6 +4053,12 @@
   "lat": 52.5066209,
   "lng": 13.3819472
  },
+ "Niemetzstraße 24, 12055 Neukölln, Berlin": {
+  "address": "Niemetzstraße 24, 12055 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4716193,
+  "lng": 13.4510314
+ },
  "Nirgendwo, Berlin": {
   "address": "Rüdersdorfer Straße 67, 10243 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -3911,6 +4105,12 @@
  "Nähe Rosenthaler Platz, Berlin": null,
  "OGH Sonnenallee Berlin": null,
  "OGH Sonnenallee Berlin Deutschland": null,
+ "OHM, Berlin": {
+  "address": "Köpenicker Straße 70, 10179 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5105954,
+  "lng": 13.4197888
+ },
  "OST, Berlin": {
   "address": "Alt-Stralau 1-2, 10245 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -3931,6 +4131,12 @@
   "lng": 13.3879213
  },
  "Obentrautstraße 19-21, 10963 Berlin": {
+  "address": "Obentrautstraße 19-21, 10963 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4955636,
+  "lng": 13.3879213
+ },
+ "Obentrautstraße 19-21, 10963 Kreuzberg, Berlin": {
   "address": "Obentrautstraße 19-21, 10963 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.4955636,
@@ -3999,6 +4205,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5003909,
   "lng": 13.4221612
+ },
+ "Oranienstraße 45, 10969 Kreuzberg, Berlin": {
+  "address": "Oranienstraße 45, 10969 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5029425,
+  "lng": 13.4142022
  },
  "Ort bei Anmeldung Ort bei Anmeldung Berlin": null,
  "Ort bei Anmeldung Ort bei Anmeldung Berlin Deutschland": null,
@@ -4249,6 +4461,12 @@
   "lat": 52.5583368,
   "lng": 13.3846017
  },
+ "Prinzenallee 58, 13359 Gesundbrunnen, Berlin": {
+  "address": "Prinzenallee 58, 13359 Gesundbrunnen",
+  "bezirk": "Mitte",
+  "lat": 52.5583368,
+  "lng": 13.3846017
+ },
  "Prinzenallee 58, Hinterhof Prinzenallee 58 13359 Berlin Deutschland": null,
  "Prinzessinnengarten Neukölln Hermannstraße 99-105 12051 Berlin Deutschland": null,
  "Prinzessinnengarten Neukölln Hermannstraße 99-105, 12051 Berlin": null,
@@ -4308,6 +4526,12 @@
  },
  "Rathaus Treptow Neue Krugallee 2-6 12435 Berlin Deutschland": null,
  "Rathausstraße 1, 10178 Berlin": {
+  "address": "Rathausstraße 1, 10178 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5202113,
+  "lng": 13.4120877
+ },
+ "Rathausstraße 1, 10178 Mitte, Berlin": {
   "address": "Rathausstraße 1, 10178 Mitte",
   "bezirk": "Mitte",
   "lat": 52.5202113,
@@ -4479,6 +4703,12 @@
   "lat": 52.5076116,
   "lng": 13.451645
  },
+ "Revaler Straße 99, 10245 Friedrichshain, Berlin": {
+  "address": "Revaler Straße 99, 10245 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5064417,
+  "lng": 13.4572149
+ },
  "Rigaer 94 Berlin Deutschland": {
   "address": "Rigaer Straße 94, 10247 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -4509,6 +4739,18 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5166826,
   "lng": 13.4641691
+ },
+ "Rigaer Straße 78, 10247 Friedrichshain, Berlin": {
+  "address": "Rigaer Straße 78, 10247 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5166826,
+  "lng": 13.4641691
+ },
+ "Rigaer Straße 83, 10247 Friedrichshain, Berlin": {
+  "address": "Rigaer Straße 83, 10247 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5170566,
+  "lng": 13.4619369
  },
  "Rigaer Straße 94 10247 Berlin": {
   "address": "Rigaer Straße 94, 10247 Friedrichshain",
@@ -4568,6 +4810,7 @@
   "lat": 52.5266687,
   "lng": 13.4106754
  },
+ "Rose Winkel at Nollendorfplatz, Berlin": null,
  "Rosengarten Kulturpavillon, gegenüber Weinsbergweg 13, 10119 Berlin": null,
  "Rosenthaler Platz, 10119 Berlin": {
   "address": "Brunnenstraße, 10119 Mitte",
@@ -4755,11 +4998,23 @@
   "lat": 52.5167173,
   "lng": 13.4650744
  },
+ "Samariterstraße 32, 10247 Friedrichshain, Berlin": {
+  "address": "Samariterstraße 32, 10247 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5167699,
+  "lng": 13.4650331
+ },
  "Sangerhauser Weg 1, 12349 Berlin": {
   "address": "Sangerhauser Weg 1, 12349 Britz",
   "bezirk": "Neukölln",
   "lat": 52.4316471,
   "lng": 13.4131787
+ },
+ "Sasarsteig, 12053 Neukölln, Berlin": {
+  "address": "Sasarsteig, 12053 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.482464,
+  "lng": 13.4283466
  },
  "Sasarsteig, Neukölln 12053 Berlin Deutschland": {
   "address": "Sasarsteig, 12053 Neukölln",
@@ -4772,6 +5027,12 @@
   "bezirk": "Charlottenburg-Wilmersdorf",
   "lat": 52.4993092,
   "lng": 13.3316636
+ },
+ "Scharnweberstraße 38, 10247 Friedrichshain, Berlin": {
+  "address": "Scharnweberstraße 38, 10247 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5128122,
+  "lng": 13.4641154
  },
  "Schaubühne am Lehniner Platz, Berlin": {
   "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
@@ -4918,6 +5179,12 @@
   "lng": 13.4673202
  },
  "Schreinerstraße 47, 10247 Berlin": {
+  "address": "Schreinerstraße 47, 10247 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5171409,
+  "lng": 13.4673202
+ },
+ "Schreinerstraße 47, 10247 Friedrichshain, Berlin": {
   "address": "Schreinerstraße 47, 10247 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5171409,
@@ -5097,6 +5364,12 @@
   "lat": 52.4820605,
   "lng": 13.4389626
  },
+ "Sonnenallee 100, 12045 Neukölln, Berlin": {
+  "address": "Sonnenallee 100, 12045 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4820545,
+  "lng": 13.438957
+ },
  "Sonnenallee 127, 12059 Berlin": {
   "address": "Sonnenallee 127, 12059 Neukölln",
   "bezirk": "Neukölln",
@@ -5108,6 +5381,12 @@
   "bezirk": "Neukölln",
   "lat": 52.4802374,
   "lng": 13.4434931
+ },
+ "Sonnenallee 154, 12059 Neukölln, Berlin": {
+  "address": "Sonnenallee 154, 12059 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4783733,
+  "lng": 13.4463117
  },
  "Sonnenallee 154, Berlin": {
   "address": "Sonnenallee 154, 12059 Neukölln",
@@ -5143,6 +5422,7 @@
  },
  "Spinnboden Lesbenarchiv und Bibliothek, Berlin": null,
  "Spinnboden, Lesbenarchiv und Bibliothek, Berlin": null,
+ "Spore Initiative Foyer, Hermannstraße 86, 12051 Berlin": null,
  "Spore Initiative Hermannstraße 86 12051 Berlin Deutschland": null,
  "Spore Initiative, Hermannstraße 86, 12051 Berlin": null,
  "Spraywand Mauerpark, Bernauer Straße 53, 13355 Berlin": null,
@@ -5200,6 +5480,12 @@
   "lat": 52.5148013,
   "lng": 13.4849557
  },
+ "Stavanger Straße 20, 10439 Berlin": {
+  "address": "Stavangerstraße 20, 10439 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5562097,
+  "lng": 13.4109431
+ },
  "Storkower Str. 123, 10407 Berlin": {
   "address": "Storkower Straße 123, 10407 Prenzlauer Berg",
   "bezirk": "Pankow",
@@ -5246,6 +5532,12 @@
   "bezirk": "Charlottenburg-Wilmersdorf",
   "lat": 52.5225889,
   "lng": 13.3049841
+ },
+ "Südkreuz, 12101 Berlin": {
+  "address": "General-Pape-Straße 1, 12101 Tempelhof",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4759806,
+  "lng": 13.3650726
  },
  "Südostallee 42, 12437 Berlin": {
   "address": "Südostallee 42, 12437 Johannisthal",
@@ -5474,6 +5766,12 @@
   "lat": 52.5026366,
   "lng": 13.4758561
  },
+ "Türrschmidtstraße 1, 10317 Rummelsburg, Berlin": {
+  "address": "Türrschmidtstraße 1, 10317 Rummelsburg",
+  "bezirk": "Lichtenberg",
+  "lat": 52.5026366,
+  "lng": 13.4758561
+ },
  "U Schlesisches Tor, Berlin": {
   "address": "Köpenicker Straße, 10997 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -5577,6 +5875,12 @@
  },
  "Void Club & Hall, Berlin": null,
  "Voigtstr. 36, 10247 Berlin": {
+  "address": "Voigtstraße 36, 10247 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5163747,
+  "lng": 13.4681934
+ },
+ "Voigtstraße 36, 10247 Friedrichshain, Berlin": {
   "address": "Voigtstraße 36, 10247 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5163747,
@@ -5733,6 +6037,12 @@
   "lng": 13.4304753
  },
  "Wiener Straße 20, 10999 Berlin": {
+  "address": "Wiener Straße 20, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4973055,
+  "lng": 13.4304753
+ },
+ "Wiener Straße 20, 10999 Kreuzberg, Berlin": {
   "address": "Wiener Straße 20, 10999 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.4973055,

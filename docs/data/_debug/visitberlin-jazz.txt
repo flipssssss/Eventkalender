@@ -1,5 +1,4 @@
-Event-Links: 19 | Events: 16
-  2026-09-13 11:00:00 | Kulturhaus Centre Bagatelle e.V, Zeltinger Str. 6, 13465, Berlin-frohnau | PIAF-ESQUE – Eine Hommage an Édith Piaf
+Event-Links: 19 | Events: 18
   2026-09-14 19:00:00 | St. Nikolai Kirche, Reformationsplatz 1, 13597, Berlin | Montagskonzert bei Kerzenschein - The Toughest Tenors
   2026-09-14 19:00:00 | Bredouille Bar, Georgenstraße 199, 10117, Berlin | radio3 Listening Lounge
   2026-09-01 19:30:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Session im ART Stalker
@@ -15,3 +14,6 @@ Event-Links: 19 | Events: 16
   2026-09-26 18:00:00 | Strandbad Wendenschloss, Möllhausenufer 30, 12557, Berlin | Live Session im Strandbad : Langschlenderer
   2026-09-26 20:00:00 | Kesselhaus in der KulturBrauerei, Knaackstraße 97, 10435, Berlin | 50 Jahre Monokel.
   2026-09-29 20:00:00 | Kammermusiksaal, Herbert-von-Karajan-Straße 1, 10785, Berlin | Jazz at Berlin Philharmonic. Miles 100
+  2026-10-03 20:00:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Dan Patlansky - Blues Rock
+  2026-10-03 20:00:00 | WABE in der Schönfließer Straße 7 (neuer Spielort), Schönfließer Straße 7, 10439, Berlin | LAURA GRANDY & BAND: All These Feelings
+  2026-10-05 20:00:00 | Café Engels, Herrfurthstr. 21, 12049, Berlin | Blue Moonday Jazzsession

@@ -5,5 +5,5 @@ detail_err: 0
 recur: 12
 no_geo: 3
 geo: 28
-events: 75
+events: 71
 FEHLER:

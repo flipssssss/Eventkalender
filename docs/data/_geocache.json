@@ -873,6 +873,7 @@
  },
  "Bhf Rathaus Spandau, 13597 Berlin": null,
  "Bibliothek der Freien Greifswalder Str. 4 2. Hof, Raum 1102 (1. OG) 10405 Berlin Deutschland": null,
+ "Biergarten Jockel, Ratiborstraße 14c, 10999 Berlin": null,
  "Bilgisaray Oranienstr. 45 Berlin Deutschland": {
   "address": "Oranienstraße 45, 10969 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -3319,6 +3320,12 @@
   "lat": 52.4901003,
   "lng": 13.4258187
  },
+ "Lenaustr. 5, 12047 Berlin": {
+  "address": "Lenaustraße 5, 12047 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4899872,
+  "lng": 13.425494
+ },
  "Lenaustraße 5, 12047 Neukölln, Berlin": {
   "address": "Lenaustraße 5, 12047 Neukölln",
   "bezirk": "Neukölln",
@@ -4549,6 +4556,12 @@
   "lat": 52.4919262,
   "lng": 13.4383871
  },
+ "Ratiborstraße 14c, 10999 Berlin": {
+  "address": "Ratiborstraße 14c, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4919262,
+  "lng": 13.4383871
+ },
  "Ratiborstraße 14c, 10999 Kreuzberg, Berlin": {
   "address": "Ratiborstraße 14c, 10999 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -5444,6 +5457,7 @@
   "lat": 52.5120816,
   "lng": 13.3240122
  },
+ "Spätverkauf L5 Lenaustr. 5 12047 Berlin Deutschland": null,
  "St. Nikolai Kirche, Reformationsplatz 1, 13597, Berlin": null,
  "Stadteilladen Lunte, Weisestraße 53, 12049 Berlin": null,
  "Stadtgut Blankenfelde, Berlin": {
@@ -5906,6 +5920,7 @@
  "Vor der Amerika-Gedenkbibliothek, Blücherplatz 1, 10961 Berlin": null,
  "Vor der Amerika-Gedenkbibliothek, Eva-Mamlok-Platz (ehemals Blücherplatz), 10961 Berlin": null,
  "Vor der BHT-Mensa, Luxemburger Straße 9, 13353 Berlin": null,
+ "WABE in der Schönfließer Straße 7 (neuer Spielort), Schönfließer Straße 7, 10439, Berlin": null,
  "WB13 Am Berl 13 13051 Berlin Deutschland": {
   "address": "Am Berl 13, 13051 Neu-Hohenschönhausen",
   "bezirk": "Lichtenberg",
@@ -6322,6 +6337,7 @@
  },
  "cassiopeia Revaler Str. 99 Deutschland, Berlin": null,
  "che, Berlin": null,
+ "corner of Bulgarische Str. & Neue Krugallee, Berlin": null,
  "delphi LUX, Berlin": {
   "address": "Kantstraße 10, 10623 Charlottenburg",
   "bezirk": "Charlottenburg-Wilmersdorf",

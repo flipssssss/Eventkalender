@@ -1,5 +1,4 @@
 Event-Links: 19 | Events: 18
-  2026-09-14 19:00:00 | St. Nikolai Kirche, Reformationsplatz 1, 13597, Berlin | Montagskonzert bei Kerzenschein - The Toughest Tenors
   2026-09-14 19:00:00 | Bredouille Bar, Georgenstraße 199, 10117, Berlin | radio3 Listening Lounge
   2026-09-01 19:30:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Session im ART Stalker
   2026-09-18 20:00:00 | Little Stage Berlin, Jonasstraße, 12053, Berlin | NAKM
@@ -17,3 +16,4 @@ Event-Links: 19 | Events: 18
   2026-10-03 20:00:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Dan Patlansky - Blues Rock
   2026-10-03 20:00:00 | WABE in der Schönfließer Straße 7 (neuer Spielort), Schönfließer Straße 7, 10439, Berlin | LAURA GRANDY & BAND: All These Feelings
   2026-10-05 20:00:00 | Café Engels, Herrfurthstr. 21, 12049, Berlin | Blue Moonday Jazzsession
+  2026-10-09 19:30:00 | Schloss und Gutshof Britz, Alt-Britz 73, 12359, Berlin | Bigband Night 2026

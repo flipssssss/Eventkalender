@@ -126,6 +126,12 @@
   "lat": 52.4556623,
   "lng": 13.314822
  },
+ "12359 Berlin": {
+  "address": "12359 Britz",
+  "bezirk": "Neukölln",
+  "lat": 52.4473406,
+  "lng": 13.4531702
+ },
  "12435 Berlin": {
   "address": "12435 Alt-Treptow",
   "bezirk": "Treptow-Köpenick",
@@ -2267,6 +2273,13 @@
   "lat": 52.5143687,
   "lng": 13.3918588
  },
+ "Hugenottenplatz 1312, 13127 Berlin": {
+  "address": "Hugenottenplatz, 13127 Französisch Buchholz",
+  "bezirk": "Pankow",
+  "lat": 52.6069386,
+  "lng": 13.4206083
+ },
+ "Hugenottenplatz, 13127 Berlin Anfahrt: Tram 50, Bus 124, 154, 259 Hugenottenplatz": null,
  "Humboldt Forum, Berlin": {
   "address": "Schloßplatz, 10178 Mitte",
   "bezirk": "Mitte",
@@ -2810,12 +2823,24 @@
   "lat": 52.5184418,
   "lng": 13.292551
  },
+ "Kleine Freiheit, Berlin": {
+  "address": "Nansenstraße 31, 12047 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4904917,
+  "lng": 13.4314456
+ },
  "Klik e. V., Torstraße 210, 10115 Berlin": null,
  "Klingerstraße 1243, 12435 Berlin": {
   "address": "Klingerstraße, 12435 Plänterwald",
   "bezirk": "Treptow-Köpenick",
   "lat": 52.4831538,
   "lng": 13.4692694
+ },
+ "Klunkerkranich, Berlin": {
+  "address": "Friedrichsfelde",
+  "bezirk": "Lichtenberg",
+  "lat": 52.5079304,
+  "lng": 13.5292772
  },
  "Knaackstraße 97, 10435 Berlin": {
   "address": "Knaackstraße 97, 10435 Prenzlauer Berg",
@@ -3121,6 +3146,12 @@
   "lng": 13.436534
  },
  "Kühslpot Social Club, Lehderstrasse 74, 13086, Berlin": null,
+ "L.U.X., Berlin": {
+  "address": "Schlesische Straße 41, 10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5004147,
+  "lng": 13.4437298
+ },
  "L5 Späti Lenaustraße 5 12047 Berlin Deutschland": {
   "address": "Lenaustraße 5, 12047 Neukölln",
   "bezirk": "Neukölln",
@@ -5138,6 +5169,7 @@
   "lat": 52.5008341,
   "lng": 13.4414625
  },
+ "Schloss und Gutshof Britz, Alt-Britz 73, 12359, Berlin": null,
  "Schlosspark Theater, Berlin": {
   "address": "Schloßstraße 48, 12165 Steglitz",
   "bezirk": "Steglitz-Zehlendorf",
@@ -5412,6 +5444,12 @@
   "bezirk": "Neukölln",
   "lat": 52.4749881,
   "lng": 13.4530868
+ },
+ "Sonntags-Club, Berlin": {
+  "address": "Greifenhagener Straße 28, 10437 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5513309,
+  "lng": 13.4187281
  },
  "Sonntagsclub, Sonntags-Club e.V., Greifenhagener Str. 28, 10437 Berlin": null,
  "Sophiensæle, Berlin": {
@@ -6304,6 +6342,12 @@
  "ask a punk, Berlin": null,
  "askapunk, Berlin": null,
  "auf dem Dragonerareal Mehringdamm 20 10961, 10961 Berlin": null,
+ "ausland, Berlin": {
+  "address": "Lychener Straße 60, 10437 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5448387,
+  "lng": 13.4194785
+ },
  "ausland, Lychener Str. 60, 10437, Berlin": {
   "address": "Lychener Straße 60, 10437 Prenzlauer Berg",
   "bezirk": "Pankow",

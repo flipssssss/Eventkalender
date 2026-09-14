@@ -1,25 +1,25 @@
 ExhibitionEvents -> Events: 24
-  2026-09-13 Maurizio Cattelan: Night – Preis der Nationalgaler
-  2026-09-13 Lina Lapelytė: We Make Years Out of Hours – Chanel
-  2026-09-13 Paul Signac: Symphonie der Farben
-  2026-09-13 Ryuichi Sakamoto: seeing sound, hearing time
-  2026-09-13 Josef Kaiser: Bauen für die DDR
-  2026-09-13 Zwischen Bäumen
-  2026-09-13 Gabriele Stötzer: Dabei sein und nicht schweigen
-  2026-09-13 Courage: Schwestern im Geiste
-  2026-09-13 Ruin und Rausch: Berlin 1910–1930
-  2026-09-13 Materialistin: Matter of Care, Care of Matter
-  2026-09-13 Cassirer und der Durchbruch des Impressionismus
-  2026-09-13 In touch: Goldrausch 2026
-  2026-09-13 Neue Frau, Neues Sehen: Die Bauhaus-Fotografinnen
-  2026-09-13 Projektionen auf den Osten
-  2026-09-13 Jean-Luc Mylayne: Reflection
-  2026-09-13 Shilpa Gupta: What Still Holds
-  2026-09-13 Fujiko Nakaya: Nebelskulptur im Skulpturengarten
-  2026-09-13 Metaxy: Zwischen Zerstörung und Wiederaufbau
-  2026-09-13 Anton Corbijn: Corbijn, Anton
-  2026-09-13 Rooms / Stages
-  2026-09-13 Many Shades of Grès: Mode wird Kunst
+  2026-09-14 Maurizio Cattelan: Night – Preis der Nationalgaler
+  2026-09-14 Lina Lapelytė: We Make Years Out of Hours – Chanel
+  2026-09-14 Paul Signac: Symphonie der Farben
+  2026-09-14 Ryuichi Sakamoto: seeing sound, hearing time
+  2026-09-14 Josef Kaiser: Bauen für die DDR
+  2026-09-14 Zwischen Bäumen
+  2026-09-14 Gabriele Stötzer: Dabei sein und nicht schweigen
+  2026-09-14 Courage: Schwestern im Geiste
+  2026-09-14 Ruin und Rausch: Berlin 1910–1930
+  2026-09-14 Materialistin: Matter of Care, Care of Matter
+  2026-09-14 Cassirer und der Durchbruch des Impressionismus
+  2026-09-14 In touch: Goldrausch 2026
+  2026-09-14 Neue Frau, Neues Sehen: Die Bauhaus-Fotografinnen
+  2026-09-14 Projektionen auf den Osten
+  2026-09-14 Jean-Luc Mylayne: Reflection
+  2026-09-14 Shilpa Gupta: What Still Holds
+  2026-09-14 Fujiko Nakaya: Nebelskulptur im Skulpturengarten
+  2026-09-14 Metaxy: Zwischen Zerstörung und Wiederaufbau
+  2026-09-14 Anton Corbijn: Corbijn, Anton
+  2026-09-14 Rooms / Stages
+  2026-09-14 Many Shades of Grès: Mode wird Kunst
   2026-09-16 Die Magie der Straße
   2026-10-08 Next Door: Tacita Dean und Bruce Nauman, Thomas De
   2026-10-20 Dschingis Khan: Die Welt der Mongolen

@@ -204,6 +204,12 @@
   "lat": 52.5589025,
   "lng": 13.2978794
  },
+ "13581 Berlin": {
+  "address": "13581 Spandau",
+  "bezirk": "Spandau",
+  "lat": 52.5310541,
+  "lng": 13.1793679
+ },
  "13597 Berlin": {
   "address": "13597 Wilhelmstadt",
   "bezirk": "Spandau",
@@ -3599,6 +3605,7 @@
  },
  "MS Goldberg am Bhf Wannsee, Kronprinzessinnenweg 5–6\nBrücke 1, 14109, Berlin": null,
  "MS Goldberg am Wannsee, Kronprinzessinnenweg 5–6 |\nBrücke 1, 14109, Berlin": null,
+ "MS Goldberg, Havelufer\nDischinger Brücke, 13581, Berlin": null,
  "MaHalle Waldemarstraße 110 10997 Berlin Deutschland": {
   "address": "Waldemarstraße 110, 10997 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -5768,6 +5775,12 @@
  "Trixxxter Kreuzberg Berlin": null,
  "Trixxxter Kreuzberg Berlin Deutschland": null,
  "Trude Ruth und Goldammer Flughafenstr. 38 12053 Berlin Deutschland": {
+  "address": "Flughafenstraße 38, 12053 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4812916,
+  "lng": 13.4279168
+ },
+ "Trude Ruth und Goldammer, Flughafenstraße 38, 12053 Berlin": {
   "address": "Flughafenstraße 38, 12053 Neukölln",
   "bezirk": "Neukölln",
   "lat": 52.4812916,

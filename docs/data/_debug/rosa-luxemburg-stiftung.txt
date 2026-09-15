@@ -1,4 +1,4 @@
-Teaser: 144 | Berlin: 27 | andere Städte: 117 | mit Beschreibung: 27
+Teaser: 145 | Berlin: 28 | andere Städte: 117 | mit Beschreibung: 28
   2026-09-02 20:30:28 | Berlin | „Immortals“ – Bagdads Jugend erhebt ihre Stimme (2024)
   2026-09-04 18:00:50 | Berlin | Nicht zum Nulltarif
   2026-09-04 19:00:00 | Berlin | Ines de Nil. Leben in Freiräumen
@@ -8,6 +8,7 @@ Teaser: 144 | Berlin: 27 | andere Städte: 117 | mit Beschreibung: 27
   2026-09-10 19:00:00 | Berlin | Nach der Wahl in Sachsen-Anhalt Was machen, wenn die extreme Rechte regiert?
   2026-09-15 10:00:00 | Berlin | Das Wunder von Adlershof
   2026-09-15 18:00:29 | Berlin | Franz von Assisi: Frieden, Zuwendung und neue Bescheidenheit
+  2026-09-16 18:00:14 | Berlin | „Die Mörder sind unter uns“
   2026-09-17 10:00:29 | Berlin | Traditionen des Antimilitarismus in ihrer Aktualität
   2026-09-19 10:00:28 | Berlin | Critical Gojness?!
   2026-09-21 18:00:33 | Berlin | Radioactive Patriarchy

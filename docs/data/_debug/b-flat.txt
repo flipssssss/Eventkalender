@@ -1,7 +1,6 @@
 top-keys: ['website', 'websiteSettings', 'collection', 'shoppingCart', 'shareButtons', 'showCart', 'localizedStrings', 'userAccountsContext', 'template', 'uiextensions', 'empty', 'emptyFolder', 'calendarView', 'pagination', 'upcoming']
-items: 15 | Events: 15
+items: 27 | Events: 27
 erstes item keys: ['id', 'collectionId', 'recordType', 'addedOn', 'updatedOn', 'starred', 'passthrough', 'tags', 'categories', 'workflowState', 'publishOn', 'authorId', 'systemDataId', 'systemDataVariants', 'systemDataSourceType', 'filename', 'mediaFocalPoint', 'colorData', 'urlId', 'title', 'sourceUrl', 'body', 'excerpt', 'location', 'customContent']
-  2026-09-15 09:00:00.506000 | Steve Nanda Oktett
   2026-09-16 09:00:00.936000 | Robins Nest - Jamsession
   2026-09-17 09:00:00.506000 | "Odd Wisdom" Feat: Zuza
   2026-09-18 09:00:00.506000 | Ed Partyka Jazz Orchestra Feat: Karin Meier (CH)
@@ -16,3 +15,16 @@ erstes item keys: ['id', 'collectionId', 'recordType', 'addedOn', 'updatedOn', '
   2026-09-29 09:00:00.506000 | Guido Spannocchi Quartet
   2026-09-30 09:00:00.936000 | Robins Nest - Jamsession
   2026-10-01 23:55:00.506000 | OLI BOTT TRIO: Chronicles of Jazz
+  2026-10-02 23:55:00.506000 | The „B-flat All-Stars“present&nbsp;Kjalar Kollmer - Vocal &nbsp;
+  2026-10-03 21:00:00.506000 | The Balkan Spirit Ensemble
+  2026-10-04 21:00:00.506000 | Laurids Richter Quartett
+  2026-10-06 21:00:00.506000 | AMELIA
+  2026-10-07 09:00:00.936000 | Robins Nest - Jamsession
+  2026-10-08 21:00:00.506000 | SOG Quartett
+  2026-10-09 21:00:00.506000 | Humboldt Bigband LATIN NIGHT
+  2026-10-10 21:00:00.506000 | Jannis Zotos Band „HYDRA“
+  2026-10-11 21:00:00.506000 | Julian Costello Quartet /UK
+  2026-10-13 21:00:00.506000 | MY SPANISH HEART – Drei Jahre Flamenco-Jazz in Berlin&nbsp;Special Guest: Nusta&nbsp;(dance)
+  2026-10-14 09:00:00.936000 | „ VANDOJAM MEETS ROBIN`S NEST“ / JAMSESSION
+  2026-10-15 21:00:00.506000 | NASSER KILADA - Blue Nile Quartet&nbsp;
+  2026-10-16 21:00:00.506000 | LUCIA FODDE QUARTETT – INNER LANDSCAPE

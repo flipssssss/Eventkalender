@@ -421,6 +421,12 @@
   "lat": 52.4655581,
   "lng": 13.3860876
  },
+ "Alt-Treptow 15, 12435 Berlin": {
+  "address": "Alt-Treptow 15, 12435 Alt-Treptow",
+  "bezirk": "Treptow-Köpenick",
+  "lat": 52.4875057,
+  "lng": 13.4777625
+ },
  "Alte Feuerwache Friedrichshain, Marchlewskistraße 6, 10243, Berlin": null,
  "Alte Feuerwache THF Tempelhofer Damm 45 12101 Berlin Deutschland": null,
  "Alte Jakobstraße 124, 10969 Berlin": {
@@ -528,6 +534,12 @@
   "lng": 13.5775261
  },
  "Anna Natt, Berlin": null,
+ "Annemirl-Bauer-Platz, Friedrichshain Berlin Deutschland": {
+  "address": "Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5047787,
+  "lng": 13.4666059
+ },
  "Anti-Kriegs-Museum Berlin Brüsseler Str. 21 13353 Berlin Deutschland": {
   "address": "Brüsseler Straße 21, 13353 Wedding",
   "bezirk": "Mitte",
@@ -680,6 +692,12 @@
  "Bandito Rosso*, Lottumstraße 10a, 10119 Berlin": null,
  "Banja Luka, Falckensteinstraße 1-2, 10997 Berlin": null,
  "Bar at Hotel Motel One, Grunerstraße 11, 10179 Berlin": null,
+ "Bat-Yam-Platz 1 12353 Berlin": {
+  "address": "Bat-Yam-Platz 1, 12353 Gropiusstadt",
+  "bezirk": "Neukölln",
+  "lat": 52.4254254,
+  "lng": 13.4618589
+ },
  "Baumschulen-Ufer Neue Krugallee 219-231 12437 Berlin Deutschland": null,
  "Bayer Müllerstraße 178, U Reinickendorfer Straße 13353 Berlin Deutschland": null,
  "Beach Neukölln, Treptower Straße 39, 12059 Berlin": null,
@@ -1772,6 +1790,7 @@
  "Funkloch (ehem. Cafe U), Bernkasteler Straße 78, 13088 Berlin": null,
  "GEW-Haus Ahornstr. 5 Berlin Deutschland": null,
  "GRETCHEN, Obentrautstraße 19-21, 10963, Berlin": null,
+ "Galerie Newman, Berlin": null,
  "Gambino’s by AMANO, Berlin": null,
  "Garten Markgrafendamm 24c, 10245 Berlin": null,
  "Gemeinschaftsgarten Prachttomate Bornsdorfer Str. 9-11 12053 Berlin Deutschland": null,
@@ -3962,6 +3981,12 @@
   "lat": 52.4903342,
   "lng": 13.4234006
  },
+ "Moviemento, Berlin": {
+  "address": "Kottbusser Damm 22, 10967 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4903342,
+  "lng": 13.4234006
+ },
  "Murx Karl-Marx-Straße 282 12057 Berlin Deutschland": null,
  "Murx, Karl-Marx-Straße 282, 12057 Berlin": null,
  "Museum des Kapitalismus Köpenicker Str. 172 10997 Berlin Deutschland": null,
@@ -4747,6 +4772,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5064417,
   "lng": 13.4572149
+ },
+ "Revaler Straße 99 10245 Berlin": {
+  "address": "Revaler Straße 99, 10245 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5076116,
+  "lng": 13.451645
  },
  "Revaler Straße 99, 10245 Berlin": {
   "address": "Revaler Straße 99, 10245 Friedrichshain",

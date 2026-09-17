@@ -1,9 +1,10 @@
-teaser: 48
+teaser: 47
 dated: 15
-detail_ok: 30
-detail_err: 0
-recur: 22
+detail_ok: 28
+detail_err: 1
+recur: 21
 no_geo: 3
 geo: 61
-events: 159
+events: 153
 FEHLER:
+DETAIL 429 Client Error: Too Many Requests for url: https://www.berlin.de/special/shopping/flohmaerkte/9321225-1724959-flohmarkt-am-kranoldplatz.html

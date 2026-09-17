@@ -1,10 +1,10 @@
-API-Events: 65 | übernommen: 65
-  2026-09-16 19:00:00 | Punk | CONCRETE VEHICLES (exp post-punk/-hc noise-rock, can) + OLDER FRIENDS (twinkly emo/screamo-pop, bln)
-  2026-09-18 19:00:00 | Punk | Graupause (Lüdenscheid, punkrock) + Artikel 5 (punkrock, Berlin) im Kulturhaus Insel Berlin
+API-Events: 83 | übernommen: 83
+  2026-09-18 19:00:00 | None | FUNSOVER + BIG GAINER
   2026-09-18 19:00:00 | Punk | TINY DORIS + SPLIZZ
+  2026-09-18 19:00:00 | Rock | Black Market Karma (UK, Fuzz Club), Sacred Buzz & Miss Mellow
+  2026-09-18 19:00:00 | Punk | Graupause (Lüdenscheid, punkrock) + Artikel 5 (punkrock, Berlin) im Kulturhaus Insel Berlin
   2026-09-18 19:00:00 | Punk | Sun Worship + PΞB + Isolationsgemeinschaft  "Wie viele Duos braucht man um eine Glühbirne zu tauschen?"
   2026-09-18 19:00:00 | None | Special Zelluloi42: Wakaliwood Tour 2026 — VJ Emmy Live
-  2026-09-18 19:00:00 | Rock | Black Market Karma (UK, Fuzz Club), Sacred Buzz & Miss Mellow
   2026-09-18 20:00:00 | Punk | ZUR BRACHE + KALTE KNIE + GEHÖRSTURZ im OGH
   2026-09-18 20:30:00 | Punk | BABY TYLER BAND + HEATHER THE JERK
   2026-09-19 10:45:00 | None | Queer Tours for All - Anticolonial Mitte
@@ -20,12 +20,12 @@ API-Events: 65 | übernommen: 65
   2026-09-22 19:00:00 | Punk | THE HOMESICK (art-rock / exp-indie, nl) & GEO (post-punk / no-wave, nl)
   2026-09-22 19:00:00 | None | Team Dresch
   2026-09-24 19:00:00 | Punk | Wracaj Bo Ciemno / Sorry I'm Late / I Hate The Bouncers
+  2026-09-24 20:00:00 | Punk | The GOODS (US) + Joel Cusumano (US)
   2026-09-25 19:40:00 | Punk | NO_FEATURE4.0: LAQQ + das_synthikat
   2026-09-25 21:00:00 | Punk | Dark Thoughts + Goulag
   2026-09-26 10:45:00 | None | Queer Tours for All - Plänterwald
   2026-09-26 19:00:00 | Punk | CHEMICAL THREAT + PLACID
   2026-09-26 19:30:00 | Punk | The Dharma Chain - Album Launch
-  2026-09-26 20:00:00 | Punk | R.M.F.C. + LEMONGRAB + INESSA ANXIOUS
   2026-09-26 20:00:00 | None | 10 YEARS+ Searchwing - Soliparty für Seenotrettung
+  2026-09-26 20:00:00 | Punk | R.M.F.C. + LEMONGRAB + INESSA ANXIOUS
   2026-09-26 21:00:00 | Punk | CAUSE A RIOT /  MUELL / SHIV @trrrxxtr
-  2026-09-27 14:00:00 | Punk | Malz-Café

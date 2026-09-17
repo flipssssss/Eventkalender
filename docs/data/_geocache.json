@@ -216,6 +216,12 @@
   "lat": 52.527257,
   "lng": 13.2194875
  },
+ "14467 Berlin": {
+  "address": "Berlin",
+  "bezirk": null,
+  "lat": 52.5173885,
+  "lng": 13.3951309
+ },
  "14469 Berlin": {
   "address": "Berlin",
   "bezirk": null,
@@ -243,6 +249,7 @@
  "AGB PopUp Saal Blücherplatz 1 10961 Berlin Deutschland": null,
  "AGB PopUp Saal Blücherplatz 1 10961, 10961 Berlin": null,
  "AK Zwangsarbeit Ludwigsfelde, Berlin": null,
+ "AL.Berlin Skalitzer Straße 114, Hinterhaus 10999 Berlin Deutschland": null,
  "AMT, Berlin": {
   "address": "Werderscher Markt 1, 10117 Mitte",
   "bezirk": "Mitte",
@@ -1022,6 +1029,7 @@
   "lat": 52.5162699,
   "lng": 13.3777034
  },
+ "Brandenburger Landtag Alter Markt 1 14467 Potsdam Deutschland, Berlin": null,
  "Brandenburger Tor Pariser Platz 10117 Berlin Deutschland": {
   "address": "Pariser Platz 1, 10117 Mitte",
   "bezirk": "Mitte",
@@ -1465,6 +1473,7 @@
  "Drugstore im Rockhaus Buchberger Str. 6 10365, 10365 Berlin": null,
  "EUREF-Campus Berlin, Torgauer Straße 25, 10829, Berlin": null,
  "EWA Frauenzentrum, Berlin": null,
+ "EWA-Frauenzentrum Prenzlauer Allee 6 10405 Berlin Deutschland": null,
  "Eastgate Marzahn, Marzahner Promenade 1A (Marzahn-Hellersdorf) 12679 Berlin Deutschland": null,
  "Eberswalder Str. 21, 10437 Berlin, Germany": {
   "address": "Eberswalder Straße 21, 10437 Prenzlauer Berg",
@@ -1562,6 +1571,12 @@
  },
  "FAU-Lokal Grüntaler Str. 24 13357 Berlin Deutschland": null,
  "FHXB Friedrichshain-Kreuzberg Museum Adalbertstr. 95A 10999 Berlin Deutschland": null,
+ "FMP1 Franz Mehring Platz 1 10243 Berlin Deutschland": {
+  "address": "Franz-Mehring-Platz 1, 10243 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5128,
+  "lng": 13.4402215
+ },
  "FMP1 Franz-Mehring-Platz 1 10243, 10243 Berlin": null,
  "FMP1 Franz-Mehring-Platz 1, 10243 Berlin": {
   "address": "Franz-Mehring-Platz 1, 10243 Friedrichshain",
@@ -1825,11 +1840,18 @@
   "lat": 52.5452015,
   "lng": 13.3661278
  },
+ "Geschäftsstelle der NaturFreunde Berlin Paretzer Straße 7 10713 Berlin Deutschland": null,
  "Gesundbrunnen Berlin Deutschland": {
   "address": "Gesundbrunnen",
   "bezirk": "Mitte",
   "lat": 52.5509201,
   "lng": 13.384846
+ },
+ "Geygerstraße 2-3 12043 Berlin Deutschland": {
+  "address": "Geygerstraße, 12043 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4790738,
+  "lng": 13.4429747
  },
  "Globe Berlin, Sömmeringstraße 15, 10589, Berlin": null,
  "Gneisenaustr. 2a, 10961 Berlin": {
@@ -2113,6 +2135,7 @@
   "lat": 52.5289007,
   "lng": 13.4250691
  },
+ "Haus der Demokratie, Robert-Havemann-Saal, 1. Hinterhof, Greifswalder Straße 4, 10405 Berlin": null,
  "Haus der Jugend Werner-Voß-Damm 47 12101 Berlin Deutschland": null,
  "Haus der Kulturen der Welt John-Foster-Dulles-Allee 10 10557 Berlin Deutschland": {
   "address": "John-Foster-Dulles-Allee 10, 10557 Tiergarten",
@@ -2474,6 +2497,12 @@
   "bezirk": "Neukölln",
   "lat": 52.4724292,
   "lng": 13.4407551
+ },
+ "Jonasstraße 29 12053 Berlin": {
+  "address": "Jonasstraße 29, 12053 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4712942,
+  "lng": 13.4314439
  },
  "Jonasstraße 40, 12053 Berlin": {
   "address": "Jonasstraße 40, 12053 Neukölln",
@@ -2990,6 +3019,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5131367,
   "lng": 13.4600201
+ },
+ "Kreuzberg / Mitte, Berlin": {
+  "address": "Niederkirchnerstraße 7, 10963 Kreuzberg",
+  "bezirk": "Mitte",
+  "lat": 52.5066209,
+  "lng": 13.3819472
  },
  "Kreuzberg/ask a punk, Berlin": null,
  "Kreuzdorf Mariannenplatz 1a 10997 Berlin Deutschland": null,
@@ -4067,6 +4102,7 @@
   "lng": 13.4225232
  },
  "Naunystrasse 72, 10997 Berlin": null,
+ "Near S-Storkower Straße, Berlin": null,
  "Near the Reichstag at the memorial to the Political Opponents of the NS, Berlin": null,
  "Neckarstr. 19 12053 Berlin Deutschland": {
   "address": "Neckarstraße 19, 12053 Neukölln",
@@ -4380,6 +4416,12 @@
   "lat": 52.4864595,
   "lng": 13.430857
  },
+ "Paretzer Straße 7, 10713 Berlin": {
+  "address": "Paretzer Straße 7, 10713 Wilmersdorf",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.4816108,
+  "lng": 13.3172153
+ },
  "Pariser Platz, 10117 Berlin": {
   "address": "Pariser Platz, Mitte",
   "bezirk": "Mitte",
@@ -4519,6 +4561,12 @@
  "Potse Zollgarage, Columbiadamm 10, 12101 Berlin": null,
  "Prachttomate Bornsdorfer Straße 9-11, 12053 Berlin": null,
  "Prachttomate, Bornsdorfer Straße 9-11, 12053 Berlin": null,
+ "Prenzlauer Allee 6, 10405 Berlin": {
+  "address": "Prenzlauer Allee 6, 10405 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5294261,
+  "lng": 13.4184861
+ },
  "Prenzlauer Allee 80, 10405 Berlin": {
   "address": "Prenzlauer Allee 80, 10405 Prenzlauer Berg",
   "bezirk": "Pankow",
@@ -5403,6 +5451,12 @@
   "lat": 52.5338932,
   "lng": 13.3365293
  },
+ "Skalitzer Straße 114, 10999 Berlin": {
+  "address": "Skalitzer Straße 114, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.499358,
+  "lng": 13.4242518
+ },
  "Skalitzer Straße 6, 10999 Berlin": {
   "address": "Skalitzer Straße 6, 10999 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -5843,6 +5897,7 @@
   "lat": 52.5259741,
   "lng": 13.3540779
  },
+ "Türkische Botschaft, Tiergartenstraße 19 - 21, 10785 Berlin": null,
  "Türrschmidtstr. 1, 10317 Berlin": {
   "address": "Türrschmidtstraße 1, 10317 Rummelsburg",
   "bezirk": "Lichtenberg",
@@ -6128,6 +6183,12 @@
   "lng": 13.4122498
  },
  "Wiener Str. 20, 10999 Berlin": {
+  "address": "Wiener Straße 20, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4973055,
+  "lng": 13.4304753
+ },
+ "Wiener Strasse 20, 10999 Berlin": {
   "address": "Wiener Straße 20, 10999 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.4973055,

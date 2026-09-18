@@ -547,6 +547,7 @@
   "lat": 52.5047787,
   "lng": 13.4666059
  },
+ "Annemirl-Bauer-Platz, bei den Tischtennisplatten, 10245 Berlin": null,
  "Anti-Kriegs-Museum Berlin Brüsseler Str. 21 13353 Berlin Deutschland": {
   "address": "Brüsseler Straße 21, 13353 Wedding",
   "bezirk": "Mitte",
@@ -594,6 +595,7 @@
   "lat": 52.5379007,
   "lng": 13.4024087
  },
+ "Ars Amatoria, Berlin": null,
  "Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin": null,
  "Ask a Punk, Berlin": null,
  "Auf Anfrage Auf Anfrage, Berlin": null,
@@ -651,6 +653,12 @@
   "bezirk": "Mitte",
   "lat": 52.5218423,
   "lng": 13.3631531
+ },
+ "BRUNO Berlin Deutschland": {
+  "address": "Schulze-Boysen-Straße, 10365 Lichtenberg",
+  "bezirk": "Lichtenberg",
+  "lat": 52.508176,
+  "lng": 13.4791496
  },
  "BUNDjugend Erich-Weinert-Straße 82 10439 Berlin Deutschland": {
   "address": "Erich-Weinert-Straße 82, 10439 Prenzlauer Berg",
@@ -1461,6 +1469,7 @@
   "lat": 52.4703922,
   "lng": 13.7839728
  },
+ "Dragon Room im KitKat-Club, Berlin": null,
  "Dresdener Straße 8, 10999 Berlin": {
   "address": "Dresdener Straße 8, 10999 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -1557,6 +1566,7 @@
   "lng": 13.4017208
  },
  "Eszenzia, Berlin": null,
+ "Evangelische Hoffnungskirchengemeinde Berlin-Pankow": null,
  "FAQ Infoladen Jonasstraße 40 12053 Berlin Deutschland": {
   "address": "Jonasstraße 40, 12053 Neukölln",
   "bezirk": "Neukölln",
@@ -1714,6 +1724,12 @@
   "bezirk": "Pankow",
   "lat": 52.5658206,
   "lng": 13.400215
+ },
+ "Flutgraben e.V. Am Flutgraben 3 Berlin Deutschland": {
+  "address": "Am Flutgraben 3, 12435 Alt-Treptow",
+  "bezirk": "Treptow-Köpenick",
+  "lat": 52.4972679,
+  "lng": 13.4513962
  },
  "Forckenbeckplatz 1024, 10247 Berlin": null,
  "Forki Forckenbeckplatz 10247 Berlin Deutschland": null,
@@ -2315,6 +2331,12 @@
  "Horte (Strausberg) Peter-Göring-Str. 25, Strausberg Berlin Deutschland": null,
  "Hotel Berlin, Berlin, Lützowplatz 17, Berlin, 10785": null,
  "House of Flow, Berlin": null,
+ "House of Music, Revaler Str. 99, 10245, Berlin": {
+  "address": "Revaler Straße 99, 10245 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5066643,
+  "lng": 13.4537702
+ },
  "Hugenottenkirche, Gendarmenmarkt 5, 10117 Berlin": {
   "address": "Gendarmenmarkt 5, 10117 Mitte",
   "bezirk": "Mitte",
@@ -2658,6 +2680,12 @@
  "Kaos Berlin Wilhelminenhofstr.92 Berlin": null,
  "Kaos Berlin Wilhelminenhofstr.92 Berlin Deutschland": null,
  "Kaox Türrschmidtstr. 1 10317 Berlin Deutschland": null,
+ "Karada House, Berlin": {
+  "address": "Perleberger Straße 59, 10559 Moabit",
+  "bezirk": "Mitte",
+  "lat": 52.5324624,
+  "lng": 13.3515286
+ },
  "Karl Liebknecht Haus, Kleine Alexanderstraße 28, 10178 Berlin": null,
  "Karl Liebknecht Haus, Rosa-Luxemburg-Saal, Kleine Alexanderstraße 28, 10178 Berlin": null,
  "Karl-Liebknecht-Haus Kleine Alexanderstr. 28 10178 Berlin Deutschland": null,
@@ -3454,6 +3482,12 @@
   "lng": 13.3411312
  },
  "Lichtenberg/askapunk, Berlin": null,
+ "Lido, Cuvrystraße 7, 10997, Berlin": {
+  "address": "Cuvrystraße 7, 10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4992172,
+  "lng": 13.4450748
+ },
  "Liebermann-Villa, Colomierstraße 3, 14109, Berlin": {
   "address": "Colomierstraße 3, 14109 Wannsee",
   "bezirk": "Steglitz-Zehlendorf",
@@ -5847,6 +5881,12 @@
   "bezirk": "Neukölln",
   "lat": 52.4848891,
   "lng": 13.4580488
+ },
+ "Treskowallee 129, 10318 Berlin": {
+  "address": "Treskowallee 129, 10318 Karlshorst",
+  "bezirk": "Lichtenberg",
+  "lat": 52.4759196,
+  "lng": 13.5239635
  },
  "Trinkteufel Naunynstr. 60 10997 Berlin Deutschland": null,
  "Tristeza Kollektivkneipe, Pannierstraße 5, 12047 Berlin": null,

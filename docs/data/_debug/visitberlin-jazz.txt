@@ -1,7 +1,7 @@
 Event-Links: 19 | Events: 18
-  2026-09-18 20:00:00 | Little Stage Berlin, Jonasstraße, 12053, Berlin | NAKM
   2026-09-19 20:00:00 | Brotfabrik, Caligariplatz 1, 13086, Berlin | Hot Tropical Nights. Jonatan Morgenstern Trio.
   2026-09-19 20:00:00 | Little Stage Berlin, Jonasstraße, 12053, Berlin | PSKH
+  2026-09-20 20:00:00 | House of Music, Revaler Str. 99, 10245, Berlin | jazzexzess w/ WOBBLE8 + CHRISTIAN MARIEN QUARTETT
   2026-09-01 19:30:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Session im ART Stalker
   2026-09-22 21:00:00 | b-flat, Dircksenstraße 40, 10178, Berlin | Maik Krahl – „Rain, Flowers and New Beginnings“
   2026-03-26 19:00:00 | Musikinstrumenten-Museum, Tiergartenstraße, 10785, Berlin | Jazz im MIM
@@ -14,8 +14,6 @@ Event-Links: 19 | Events: 18
   2026-10-03 20:00:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Dan Patlansky - Blues Rock
   2026-10-03 20:00:00 | WABE in der Schönfließer Straße 7 (neuer Spielort), Schönfließer Straße 7, 10439, Berlin | LAURA GRANDY & BAND: All These Feelings
   2026-10-05 20:00:00 | Café Engels, Herrfurthstr. 21, 12049, Berlin | Blue Moonday Jazzsession
+  2026-10-07 20:00:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Musikschule City West: Bandstand mit Meteora + Band Still Unnamed
+  2026-10-08 00:00:00 | Lido, Cuvrystraße 7, 10997, Berlin | Azymuth | Berlin
   2026-10-09 19:30:00 | Schloss und Gutshof Britz, Alt-Britz 73, 12359, Berlin | Bigband Night 2026
-  2026-10-09 19:30:00 | MS Goldberg, Havelufer
-Dischinger Brücke, 13581, Berlin | Jazz goes Synagogue
-  2026-10-10 19:30:00 | MS Goldberg, Havelufer
-Dischinger Brücke, 13581, Berlin | Yuliia Holub Quintett – Roots & Grooves

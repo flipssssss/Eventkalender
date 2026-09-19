@@ -132,6 +132,12 @@
   "lat": 52.4473406,
   "lng": 13.4531702
  },
+ "12359 Britz, Berlin": {
+  "address": "12359 Britz",
+  "bezirk": "Neukölln",
+  "lat": 52.4473406,
+  "lng": 13.4531702
+ },
  "12435 Berlin": {
   "address": "12435 Alt-Treptow",
   "bezirk": "Treptow-Köpenick",
@@ -1125,6 +1131,12 @@
   "lat": 52.5095458,
   "lng": 13.4901817
  },
+ "Buchberger Str. 6, 10365 Berlin-Lichtenberg": {
+  "address": "Buchberger Straße 6, 10365 Lichtenberg",
+  "bezirk": "Lichtenberg",
+  "lat": 52.5095458,
+  "lng": 13.4901817
+ },
  "Buchberger Straße 6, 10365 Lichtenberg, Berlin": {
   "address": "Buchberger Straße 6, 10365 Lichtenberg",
   "bezirk": "Lichtenberg",
@@ -1415,6 +1427,12 @@
   "lat": 52.4986501,
   "lng": 13.4440231
  },
+ "Cuvrystraße 7, 10997 Kreuzberg, Berlin": {
+  "address": "Cuvrystraße 7, 10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4991046,
+  "lng": 13.4451096
+ },
  "DORF, Sanderstraße 11, 12047 Berlin": {
   "address": "Sanderstraße 11, 12047 Neukölln",
   "bezirk": "Neukölln",
@@ -1454,6 +1472,12 @@
   "bezirk": "Mitte",
   "lat": 52.5086058,
   "lng": 13.3871269
+ },
+ "Dircksenstraße 40, 10178 Mitte, Berlin": {
+  "address": "Dircksenstraße 40, 10178 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5235504,
+  "lng": 13.407066
  },
  "Dorfplatz (Fhain) Rigaerstr. Ecke Liebigstr. 10247 Berlin Deutschland": null,
  "Dr.-Wilhelm-Külz-Straße 10A, 15517 Berlin": {
@@ -2101,6 +2125,12 @@
   "lat": 52.4881991,
   "lng": 13.4137245
  },
+ "Hasenheide, 10967 Berlin": {
+  "address": "Hasenheide, 10967 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4877457,
+  "lng": 13.4172248
+ },
  "Hasenheide, Anmeldung erforderlich, 10967 Berlin": null,
  "Hasselwerderstr. 22A, 12439 Berlin": {
   "address": "Hasselwerderstraße 22A, 12439 Niederschöneweide",
@@ -2220,6 +2250,12 @@
   "lat": 52.5099888,
   "lng": 13.3696059
  },
+ "Herbert-von-Karajan-Straße 1, 10785 Tiergarten, Berlin": {
+  "address": "Herbert-von-Karajan-Straße 1, 10785 Tiergarten",
+  "bezirk": "Mitte",
+  "lat": 52.5099888,
+  "lng": 13.3696059
+ },
  "Herman Schulz Kollektiv Café & Bar, Finowstraße 33, 10247 Berlin": null,
  "Herman Schulz Kollektiv Finowstraße 33, 10247 Berlin": null,
  "Hermann-Ehlers-Platz 1, 12165 Berlin": {
@@ -2267,6 +2303,12 @@
   "lng": 13.4228681
  },
  "Herrfurthstr. 21, 12049 Berlin": {
+  "address": "Herrfurthstraße 21, 12049 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4767265,
+  "lng": 13.4200344
+ },
+ "Herrfurthstraße 21, 12049 Neukölln, Berlin": {
   "address": "Herrfurthstraße 21, 12049 Neukölln",
   "bezirk": "Neukölln",
   "lat": 52.4767265,
@@ -2925,6 +2967,12 @@
   "lng": 13.5292772
  },
  "Knaackstraße 97, 10435 Berlin": {
+  "address": "Knaackstraße 97, 10435 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5402922,
+  "lng": 13.4140783
+ },
+ "Knaackstraße 97, 10435 Prenzlauer Berg, Berlin": {
   "address": "Knaackstraße 97, 10435 Prenzlauer Berg",
   "bezirk": "Pankow",
   "lat": 52.5402922,
@@ -3719,6 +3767,12 @@
   "lng": 13.4884364
  },
  "Magdalenenstr. 19, Berlin": {
+  "address": "Magdalenenstraße 19, 10365 Lichtenberg",
+  "bezirk": "Lichtenberg",
+  "lat": 52.5142306,
+  "lng": 13.4884364
+ },
+ "Magdalenenstraße 19, 10365 Berlin": {
   "address": "Magdalenenstraße 19, 10365 Lichtenberg",
   "bezirk": "Lichtenberg",
   "lat": 52.5142306,
@@ -4623,6 +4677,7 @@
  "Prinzessinnengarten Neukölln Hermannstraße 99-105 12051 Berlin Deutschland": null,
  "Prinzessinnengarten Neukölln Hermannstraße 99-105, 12051 Berlin": null,
  "Prinzessinnenstraße 30, 10969 Berlin": null,
+ "Projektraum 11m2, Berlin": null,
  "Projektraum ABB (Scherer 8 - Zugang über Adolfstr) Schererstraße 8 (Zugang über Adolfstraße) 13347 Berlin Deutschland": null,
  "Pumptrack An der Ostbahn 9 Berlin": null,
  "Pumptrack An der Ostbahn 9 Berlin Deutschland": null,
@@ -4813,6 +4868,7 @@
   "lng": 13.3683614
  },
  "Remise der Wilma19 Magdalenenstr. 19 (Lichtenberg): Berlin Deutschland": null,
+ "Remise, Magdalenenstraße 19, 10365 Berlin": null,
  "Renate, Berlin": {
   "address": "Alt-Stralau 70, 10245 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -5393,6 +5449,12 @@
   "lat": 52.5531262,
   "lng": 13.4097182
  },
+ "Schönfließer Straße 7, 10439 Prenzlauer Berg, Berlin": {
+  "address": "Schönfließer Straße 7, 10439 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5531262,
+  "lng": 13.4097182
+ },
  "Schönhauser Allee 177b, 10119 Berlin": {
   "address": "Schönhauser Allee 177b, 10119 Prenzlauer Berg",
   "bezirk": "Pankow",
@@ -5797,6 +5859,12 @@
   "lat": 52.5097776,
   "lng": 13.3572597
  },
+ "Tiergartenstraße 1, 10785 Tiergarten, Berlin": {
+  "address": "Tiergartenstraße 1, 10785 Tiergarten",
+  "bezirk": "Mitte",
+  "lat": 52.5104782,
+  "lng": 13.3708207
+ },
  "Tiergartenstraße 19 - 21, 10785 Berlin": {
   "address": "Tiergartenstraße, 10785 Tiergarten",
   "bezirk": "Mitte",
@@ -5919,6 +5987,7 @@
  },
  "Trödelmarkt Mauerpark, Berlin": null,
  "Tuntenhaus Kastanienallee 86 2. HH 10435 Berlin Deutschland": null,
+ "Tuntenhaushof, Kastanienallee 86, 10435 Berlin": null,
  "Turmstr. 91, 10559 Berlin": {
   "address": "Turmstraße 91, 10559 Moabit",
   "bezirk": "Mitte",

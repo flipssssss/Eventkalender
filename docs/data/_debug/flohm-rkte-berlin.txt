@@ -1,9 +1,10 @@
 teaser: 48
 dated: 16
-detail_ok: 29
-detail_err: 0
+detail_ok: 28
+detail_err: 1
 recur: 21
 no_geo: 3
 geo: 62
-events: 154
+events: 159
 FEHLER:
+DETAIL 429 Client Error: Too Many Requests for url: https://www.berlin.de/special/shopping/flohmaerkte/9138708-1724959-rooftop-flohmarkt.html

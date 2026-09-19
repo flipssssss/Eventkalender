@@ -1,11 +1,4 @@
-API-Events: 83 | übernommen: 83
-  2026-09-18 19:00:00 | Punk | Sun Worship + PΞB + Isolationsgemeinschaft  "Wie viele Duos braucht man um eine Glühbirne zu tauschen?"
-  2026-09-18 19:00:00 | Punk | TINY DORIS + SPLIZZ
-  2026-09-18 19:00:00 | Rock | Black Market Karma (UK, Fuzz Club), Sacred Buzz & Miss Mellow
-  2026-09-18 19:00:00 | None | Special Zelluloi42: Wakaliwood Tour 2026 — VJ Emmy Live
-  2026-09-18 19:00:00 | None | FUNSOVER + BIG GAINER
-  2026-09-18 20:00:00 | Punk | ZUR BRACHE + KALTE KNIE + GEHÖRSTURZ im OGH
-  2026-09-18 20:30:00 | Punk | BABY TYLER BAND + HEATHER THE JERK
+API-Events: 78 | übernommen: 78
   2026-09-19 10:45:00 | None | Queer Tours for All - Anticolonial Mitte
   2026-09-19 16:00:00 | Punk | UNBROKEN HARDCORE FEST
   2026-09-19 19:00:00 | Punk | LOTHARIO (garage/punk, aus) + MAGAZINO (egg-punk/garage, bln)
@@ -19,13 +12,20 @@ API-Events: 83 | übernommen: 83
   2026-09-22 19:00:00 | Punk | THE HOMESICK (art-rock / exp-indie, nl) & GEO (post-punk / no-wave, nl)
   2026-09-22 19:00:00 | None | Team Dresch
   2026-09-24 19:00:00 | Punk | Wracaj Bo Ciemno / Sorry I'm Late / I Hate The Bouncers
+  2026-09-24 19:00:00 | Punk | Grito Exclamac!ón (MX / post-punk, no wave) + J Mahon (alt. rock, chamber pop) im Schokoladen
+  2026-09-24 19:30:00 | None | NEKRODEUS - Tour - Konzert
   2026-09-24 20:00:00 | Punk | The GOODS (US) + Joel Cusumano (US)
   2026-09-25 19:40:00 | Punk | NO_FEATURE4.0: LAQQ + das_synthikat
   2026-09-25 21:00:00 | Punk | Dark Thoughts + Goulag
   2026-09-26 10:45:00 | None | Queer Tours for All - Plänterwald
   2026-09-26 19:00:00 | Punk | CHEMICAL THREAT + PLACID
   2026-09-26 19:30:00 | Punk | The Dharma Chain - Album Launch
-  2026-09-26 20:00:00 | Punk | R.M.F.C. + LEMONGRAB + INESSA ANXIOUS
   2026-09-26 20:00:00 | None | 10 YEARS+ Searchwing - Soliparty für Seenotrettung
+  2026-09-26 20:00:00 | Punk | R.M.F.C. + LEMONGRAB + INESSA ANXIOUS
   2026-09-26 21:00:00 | Punk | CAUSE A RIOT /  MUELL / SHIV @trrrxxtr
   2026-09-27 14:00:00 | Punk | Malz-Café
+  2026-09-27 14:45:00 | None | Queer Tours for All - Gay and Sapphic Schöneberg
+  2026-09-28 19:00:00 | Metal | Mourir + Iffernet (both black metal, fr) x Schokoladen
+  2026-09-28 19:00:00 | Punk | SPLIT SYSTEM + CLUBS
+  2026-09-29 19:00:00 | Punk | HYPERDOG (Linz,AT) & KLEPTOMANIM (Ramat Gan,Isr)
+  2026-09-30 19:00:00 | Punk | FRENZEE (GR/AU) + KANNABINÕID (EE)

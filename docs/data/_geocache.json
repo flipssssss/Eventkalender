@@ -618,6 +618,12 @@
   "lat": 52.5271636,
   "lng": 13.3948218
  },
+ "Ausland Lychener Str. 60 10437 Berlin Deutschland": {
+  "address": "Lychener Straße 60, 10437 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5448387,
+  "lng": 13.4194785
+ },
  "B-Lage Mareschstr. 1 12055 Berlin Deutschland": {
   "address": "Mareschstraße 1, 12055 Neukölln",
   "bezirk": "Neukölln",
@@ -1257,6 +1263,12 @@
   "lng": 13.4324824
  },
  "Café Herman Schulz Kollektiv, Finowstraße 33, Friedrichshain 10247 Berlin Deutschland": null,
+ "Café Herzberg, Berlin": {
+  "address": "Eisenacher Straße 3A, 10777 Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4995072,
+  "lng": 13.349129
+ },
  "Café Karanfil Weisestr. 3 12049 Berlin Deutschland": {
   "address": "Weisestraße 3, 12049 Neukölln",
   "bezirk": "Neukölln",
@@ -4190,6 +4202,12 @@
   "lng": 13.4225232
  },
  "Naunystrasse 72, 10997 Berlin": null,
+ "Nazarethkirchstraße 40, 13347 Berlin": {
+  "address": "Nazarethkirchstraße 40, 13347 Wedding",
+  "bezirk": "Mitte",
+  "lat": 52.5496885,
+  "lng": 13.3620935
+ },
  "Near S-Storkower Straße, Berlin": null,
  "Near the Reichstag at the memorial to the Political Opponents of the NS, Berlin": null,
  "Neckarstr. 19 12053 Berlin Deutschland": {
@@ -5461,6 +5479,7 @@
   "lat": 52.5313367,
   "lng": 13.4112365
  },
+ "Schönhauser Allee 177b, 10119 Berlin-Bezirk Pankow": null,
  "Schönhauser Allee 26 A, 10435 Berlin": {
   "address": "Schönhauser Allee 26a, 10435 Prenzlauer Berg",
   "bezirk": "Pankow",
@@ -5640,6 +5659,7 @@
   "lng": 13.4187281
  },
  "Sonntagsclub, Sonntags-Club e.V., Greifenhagener Str. 28, 10437 Berlin": null,
+ "Sophiensæle - Kantine, Berlin": null,
  "Sophiensæle, Berlin": {
   "address": "Sophienstraße 18, 10178 Mitte",
   "bezirk": "Mitte",

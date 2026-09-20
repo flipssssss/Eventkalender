@@ -1,10 +1,10 @@
-Events gesamt: 80 | mit Bild: 70 | mit Beschreibung: 74
-club/28354 (://about blank): 32 -> 32 Berlin | flyer=0 images=27 content=28
-club/98993 (Beate Uwe): 16 -> 16 Berlin | flyer=0 images=12 content=16
+Events gesamt: 77 | mit Bild: 67 | mit Beschreibung: 71
+club/28354 (://about blank): 30 -> 30 Berlin | flyer=0 images=25 content=26
+club/98993 (Beate Uwe): 15 -> 15 Berlin | flyer=0 images=11 content=15
 club/298230 (ROSA): 3 -> 3 Berlin | flyer=0 images=3 content=3
 promoter/82597 (BOAR Berlin): 0 -> 0 Berlin | flyer=0 images=0 content=0
 promoter/71007 (Buttons): 0 -> 0 Berlin | flyer=0 images=0 content=0
-promoter/80958 (GEGEN): 11 -> 4 Berlin | flyer=0 images=11 content=10
+promoter/80958 (GEGEN): 10 -> 4 Berlin | flyer=0 images=10 content=9
 promoter/79889 (HE.SHE.THEY.): 1 -> 0 Berlin | flyer=0 images=1 content=1
 artist/horsemeatdisco: ID nicht auflösbar
 promoter/84128 (Klub Verboten): 4 -> 0 Berlin | flyer=0 images=4 content=4
@@ -14,7 +14,7 @@ promoter/169756 (Mala Junta): 3 -> 0 Berlin | flyer=0 images=3 content=3
 promoter/109496 (PiepShow Berlin): 16 -> 16 Berlin | flyer=0 images=16 content=16
 promoter/112980 (Pinky Promise): 1 -> 1 Berlin | flyer=0 images=1 content=1
 promoter/119317 (Polyamor): 5 -> 4 Berlin | flyer=0 images=4 content=3
-promoter/52590 (Pornceptual): 5 -> 1 Berlin | flyer=0 images=5 content=5
+promoter/52590 (Pornceptual): 4 -> 1 Berlin | flyer=0 images=4 content=4
 promoter/68628 (Room 4 Resistance): 0 -> 0 Berlin | flyer=0 images=0 content=0
 promoter/110626 (Supernature): 0 -> 0 Berlin | flyer=0 images=0 content=0
 promoter/90524 (¡MASH-UP! Multigender / Multiworld): 1 -> 1 Berlin | flyer=0 images=1 content=1

@@ -1,12 +1,6 @@
-API-Events: 78 | übernommen: 78
-  2026-09-19 10:45:00 | None | Queer Tours for All - Anticolonial Mitte
-  2026-09-19 16:00:00 | Punk | UNBROKEN HARDCORE FEST
-  2026-09-19 19:00:00 | Punk | LOTHARIO (garage/punk, aus) + MAGAZINO (egg-punk/garage, bln)
-  2026-09-19 19:00:00 | Punk | ❗❕FÄLLT AUS ❗❕Laxisme + Liiek
-  2026-09-19 19:30:00 | Punk | es war mord (record release!) + moloch
-  2026-09-19 20:00:00 | Punk | Hetta / soastasphrenas / Forked
-  2026-09-19 21:30:00 | Punk | Headbutt + Cardboard + Moloch
+API-Events: 74 | übernommen: 74
   2026-09-20 14:45:00 | None | Queer Tours for All - Gay and Sapphic Schöneberg
+  2026-09-20 17:30:00 | Punk | Belako (Post-Punk/New-Wave) + Matrone (RnR-Metal-Punk)
   2026-09-20 19:00:00 | Punk | Zoon Phonanta, Cobra Killer (First show in 14 years!!!)
   2026-09-22 17:45:00 | None | Queer Tours for All - Queer Kreuzberg
   2026-09-22 19:00:00 | Punk | THE HOMESICK (art-rock / exp-indie, nl) & GEO (post-punk / no-wave, nl)
@@ -20,12 +14,18 @@ API-Events: 78 | übernommen: 78
   2026-09-26 10:45:00 | None | Queer Tours for All - Plänterwald
   2026-09-26 19:00:00 | Punk | CHEMICAL THREAT + PLACID
   2026-09-26 19:30:00 | Punk | The Dharma Chain - Album Launch
-  2026-09-26 20:00:00 | None | 10 YEARS+ Searchwing - Soliparty für Seenotrettung
   2026-09-26 20:00:00 | Punk | R.M.F.C. + LEMONGRAB + INESSA ANXIOUS
+  2026-09-26 20:00:00 | None | 10 YEARS+ Searchwing - Soliparty für Seenotrettung
   2026-09-26 21:00:00 | Punk | CAUSE A RIOT /  MUELL / SHIV @trrrxxtr
   2026-09-27 14:00:00 | Punk | Malz-Café
   2026-09-27 14:45:00 | None | Queer Tours for All - Gay and Sapphic Schöneberg
-  2026-09-28 19:00:00 | Metal | Mourir + Iffernet (both black metal, fr) x Schokoladen
   2026-09-28 19:00:00 | Punk | SPLIT SYSTEM + CLUBS
+  2026-09-28 19:00:00 | Metal | Mourir + Iffernet (both black metal, fr) x Schokoladen
   2026-09-29 19:00:00 | Punk | HYPERDOG (Linz,AT) & KLEPTOMANIM (Ramat Gan,Isr)
   2026-09-30 19:00:00 | Punk | FRENZEE (GR/AU) + KANNABINÕID (EE)
+  2026-10-01 17:00:00 | Punk | BIRTHDAY BASH - 15 YEARS OF DIRTY IMMIGRANT COLLECTIVE  & 11 YEARS OF FUCKED UP FIGHTERS
+  2026-10-01 19:00:00 | Punk | Conexion Sudaka
+  2026-10-02 08:30:00 | None | Las Migrañas tape release party with Diane Electro and Kaskader
+  2026-10-02 19:00:00 | Punk | Uzimoto + Gelbart + Ultra Violet @ OGH - 2.10.
+  2026-10-02 19:00:00 | Metal | Nadja & Grin
+  2026-10-02 19:00:00 | None | LADY LAZARUS + MENSTRUATIONSMASSAKER

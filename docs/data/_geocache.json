@@ -414,6 +414,12 @@
   "lng": 13.6060882
  },
  "Alice Salomon Hochschule Alice-Salomon-Platz 5 12627, 12627 Berlin": null,
+ "Alice-Salomon-Platz 5, 12627 Berlin": {
+  "address": "Alice-Salomon-Platz 5, 12627 Hellersdorf",
+  "bezirk": "Marzahn-Hellersdorf",
+  "lat": 52.5371991,
+  "lng": 13.6060882
+ },
  "Allee der Kosmonauten (zw. Märkische Allee/ Helene-Weigel-Platz), 12681 Berlin": null,
  "Alt Treptow 6, 12435 Berlin-Bezirk Treptow-Köpenick": null,
  "Alt-Schönow 10, 14165 Berlin": {
@@ -1221,6 +1227,7 @@
   "lat": 52.4962066,
   "lng": 13.365417
  },
+ "CCCB, Marienstraße 11, 10117 Berlin": null,
  "CHIP Jugendhaus, Reichenberger Straße 44-45, 10999 Berlin": null,
  "Cafe Cralle, Hochstädter Straße 10a, 13347 Berlin": null,
  "Cafe Hardenberg, Hardenbergstraße 10, 10623 Berlin": {
@@ -1262,6 +1269,7 @@
   "lat": 52.4692685,
   "lng": 13.4324824
  },
+ "Café Freiraum, Alice-Salomon-Platz 5, 12627 Berlin": null,
  "Café Herman Schulz Kollektiv, Finowstraße 33, Friedrichshain 10247 Berlin Deutschland": null,
  "Café Herzberg, Berlin": {
   "address": "Eisenacher Straße 3A, 10777 Schöneberg",
@@ -3866,6 +3874,12 @@
   "lat": 52.5048618,
   "lng": 13.4243914
  },
+ "Mariannenplatz 1a berlin": {
+  "address": "Mariannenplatz 1a, 10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5048618,
+  "lng": 13.4243914
+ },
  "Mariannenplatz 1a, 10997 Berlin": {
   "address": "Mariannenplatz 1a, 10997 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -3902,6 +3916,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5009077,
   "lng": 13.4232743
+ },
+ "Marienstraße 11, 10117 Berlin": {
+  "address": "Marienstraße 11, 10117 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5216705,
+  "lng": 13.3827917
  },
  "Markgrafendamm 24, Berlin": {
   "address": "Markgrafendamm 24, 10245 Friedrichshain",
@@ -4359,6 +4379,12 @@
   "bezirk": "Mitte",
   "lat": 52.5148489,
   "lng": 13.3968392
+ },
+ "Ohlauer Straße 18, 10999 Berlin": {
+  "address": "Ohlauer Straße, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4956578,
+  "lng": 13.4303986
  },
  "Ollenhauer Str. 107, 13403 Berlin": {
   "address": "Ollenhauerstraße 107, 13403 Reinickendorf",
@@ -5817,6 +5843,7 @@
  "TBA, to be announced, Berlin": null,
  "THF Tower Flughafen Tempelhof in Berlin, Tempelhofer Damm 45, 12101, Berlin": null,
  "TU Berlin, Raum EB 202, Straße des 17. Juni 145, 10623 Berlin": null,
+ "TU Ma Gebäude, Straße des 17. Juni 136, 10623 Berlin": null,
  "TU Mensakreuzung, Hardenbergstraße 34, 10623 Berlin": null,
  "Tauentzienstraße, 10789 Charlottenburg, Berlin": {
   "address": "Tauentzienstraße, 10789 Charlottenburg",

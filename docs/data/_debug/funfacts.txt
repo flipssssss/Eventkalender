@@ -1,8 +1,8 @@
-Titel: 20 | Berlin: 0 | andere Städte: 0
+Titel: 20 | Berlin: 0 | andere Städte: 20
 
 KEINE EVENTS ERKANNT -- Struktur des 1. Titels:
   Titel-Text: 'FUN FACTS #099 mit Philipp Walulis | MÜNCHEN'
-  Vorhandene Datums-Hooks auf der Seite: KEINE
+  Vorhandene Datums-Hooks auf der Seite: ['[data-hook="ev-date"]', '[data-hook="ev-full-date-location"]']
   Alle data-hooks: ['EVENTS_ROOT_NODE', 'bgLayers', 'ev-date', 'ev-full-date-location', 'ev-list-image', 'ev-list-item-description', 'ev-list-item-location', 'ev-list-item-title', 'ev-list-layout', 'ev-rsvp-button', 'event-list-item', 'image', 'image-background', 'left-nav-btn', 'load-more-button', 'load-more-button-container', 'right-nav-btn', 'scrollable-tabs', 'social-bar', 'social-bar-icon-facebook', 'social-bar-icon-linkedin', 'social-bar-icon-x', 'tab-item-0', 'tab-item-1', 'tab-item-2', 'tab-item-3', 'tab-item-4', 'tab-item-5', 'tab-item-6', 'tab-item-7', 'tab-item-8', 'tpa-components-provider']
 
   HTML um den 1. Titel (4 Ebenen hoch, gekürzt):

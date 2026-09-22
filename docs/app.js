@@ -1065,7 +1065,6 @@ function render() {
     } else if (state.onlyFav && pastFavorites(null).length) {
       // Keine kommenden Favoriten, aber ein Archiv vergangener -> nur das zeigen.
       els.feed.innerHTML = "";
-      if (state.favorites.size) els.feed.appendChild(renderFavSyncBar());
       const archive = renderFavArchive(null);
       if (archive) els.feed.appendChild(archive);
       spySections = [];
@@ -1191,9 +1190,6 @@ function renderList(sortedKeys, groups) {
   const frag = document.createDocumentFragment();
   const preview = previewCount();
   const now = new Date();
-
-  // Favoriten-Ansicht: Kalender-Abgleich als erste Zeile über der Liste.
-  if (state.onlyFav && state.favorites.size) frag.appendChild(renderFavSyncBar());
   for (const key of sortedKeys) {
     const { date, events } = groups.get(key);
     const group = document.createElement("section");
@@ -2053,23 +2049,6 @@ function icsEsc(s) {
     .replace(/,/g, "\\,").replace(/\r?\n/g, "\\n");
 }
 
-// ---------------- Favoriten mit dem Kalender abgleichen ----------------
-//
-// Die Seite liegt auf GitHub Pages und hat keinen Server, der pro Person eine
-// Kalenderdatei ausliefern könnte -- ein echtes Abo (eine URL, die der
-// Kalender selbst nachlädt) ist damit nicht machbar. Stattdessen: EINE .ics
-// mit allen Gemerkten, die sich beliebig oft neu einspielen lässt.
-//
-// Damit das wie ein Abgleich wirkt und nicht wie Kopieren:
-//   * jeder Termin hat eine feste UID -> beim zweiten Import aktualisiert der
-//     Kalender den vorhandenen Eintrag, statt einen zweiten anzulegen,
-//   * SEQUENCE zählt hoch, damit die Aktualisierung auch akzeptiert wird,
-//   * wer aus den Favoriten fliegt, kommt als STATUS:CANCELLED mit -> der
-//     Termin verschwindet beim nächsten Abgleich wieder aus dem Kalender.
-
-const FAV_SYNC_SEQ_KEY = "ek_fav_sync_seq";    // Zähler für SEQUENCE
-const FAV_SYNC_SENT_KEY = "ek_fav_sync_sent";  // zuletzt exportierte Event-IDs
-
 // Start und Ende für den Kalendereintrag.
 //
 // Manche Quellen setzen als "end" das Ende einer ganzen Reihe (ein wöchentlicher
@@ -2103,197 +2082,6 @@ function icsWhenLines(ev) {
     return lines;
   }
   return ["DTSTART:" + icsLocal(start), "DTEND:" + icsLocal(end)];
-}
-
-function favSyncSeq(next) {
-  let seq = 0;
-  try { seq = parseInt(localStorage.getItem(FAV_SYNC_SEQ_KEY) || "0", 10) || 0; }
-  catch { /* ignore */ }
-  if (next) {
-    seq += 1;
-    try { localStorage.setItem(FAV_SYNC_SEQ_KEY, String(seq)); } catch { /* ignore */ }
-  }
-  return seq;
-}
-
-function favSyncSent(save) {
-  if (save) {
-    try { localStorage.setItem(FAV_SYNC_SENT_KEY, JSON.stringify([...save])); }
-    catch { /* ignore */ }
-    return save;
-  }
-  try {
-    const raw = JSON.parse(localStorage.getItem(FAV_SYNC_SENT_KEY) || "[]");
-    return new Set(Array.isArray(raw) ? raw : []);
-  } catch { return new Set(); }
-}
-
-// Feste, kurze UID pro Event -- Grundlage dafür, dass ein zweiter Import
-// aktualisiert statt dupliziert.
-function favUid(id) {
-  return "mzm-" + shortHash(id) + "@mundzumund";
-}
-
-// Alle gemerkten Events: bevorzugt der frische Stand aus dem Feed, sonst der
-// gespeicherte Schnappschuss (Favoriten, die aus dem Feed gefallen sind).
-function favoriteEventList() {
-  const live = new Map();
-  for (const ev of state.events) {
-    const id = eventId(ev);
-    if (state.favorites.has(id)) live.set(id, ev);
-  }
-  const out = [];
-  for (const id of state.favorites) {
-    const ev = live.get(id) || state.favEvents[id];
-    if (ev && ev.start) out.push(ev);
-  }
-  out.sort(byStart);
-  return out;
-}
-
-function icsFold(line) {
-  // RFC 5545: Zeilen über 75 Oktetts werden umbrochen (Fortsetzung mit Space).
-  if (line.length <= 73) return line;
-  const parts = [line.slice(0, 73)];
-  let rest = line.slice(73);
-  while (rest.length > 72) {
-    parts.push(" " + rest.slice(0, 72));
-    rest = rest.slice(72);
-  }
-  if (rest) parts.push(" " + rest);
-  return parts.join("\r\n");
-}
-
-function favEventBlock(ev, seq, stamp) {
-  const lines = [
-    "BEGIN:VEVENT",
-    "UID:" + favUid(eventId(ev)),
-    "SEQUENCE:" + seq,
-    "DTSTAMP:" + stamp,
-  ];
-  lines.push(...icsWhenLines(ev));
-  lines.push("SUMMARY:" + icsEsc(ev.title || "Veranstaltung"));
-  const where = ev.address || ev.location;
-  if (where) lines.push("LOCATION:" + icsEsc(where));
-  const desc = [ev.description, ev.source_url].filter(Boolean).join("\n\n");
-  if (desc) lines.push("DESCRIPTION:" + icsEsc(desc));
-  if (ev.source_url) lines.push("URL:" + ev.source_url);
-  if (ev.lat != null && ev.lng != null) lines.push("GEO:" + ev.lat + ";" + ev.lng);
-  const cats = (ev.tags || []).concat(ev.genre ? [ev.genre] : []);
-  if (cats.length) lines.push("CATEGORIES:" + icsEsc(cats.join(",")));
-  lines.push("END:VEVENT");
-  return lines;
-}
-
-// Abgesagter Platzhalter für einen Favoriten, der entfernt wurde.
-function favCancelBlock(uid, seq, stamp) {
-  return [
-    "BEGIN:VEVENT",
-    "UID:" + uid,
-    "SEQUENCE:" + seq,
-    "DTSTAMP:" + stamp,
-    "DTSTART:" + icsLocal(new Date()),
-    "SUMMARY:Entfernt",
-    "STATUS:CANCELLED",
-    "METHOD:CANCEL",
-    "END:VEVENT",
-  ];
-}
-
-function buildFavoritesICS() {
-  const seq = favSyncSeq(true);
-  const stamp = icsStamp(new Date());
-  const events = favoriteEventList();
-
-  const currentIds = new Set(events.map(eventId));
-  const currentUids = new Set([...currentIds].map(favUid));
-  const previous = favSyncSent();
-
-  const lines = [
-    "BEGIN:VCALENDAR",
-    "VERSION:2.0",
-    "PRODID:-//Mund zu Mund Kalender//Favoriten//DE",
-    "CALSCALE:GREGORIAN",
-    "METHOD:PUBLISH",
-    "X-WR-CALNAME:Mund zu Mund – Gemerkt",
-    "X-WR-TIMEZONE:Europe/Berlin",
-  ];
-  for (const ev of events) lines.push(...favEventBlock(ev, seq, stamp));
-
-  let cancelled = 0;
-  for (const uid of previous) {
-    if (currentUids.has(uid)) continue;
-    lines.push(...favCancelBlock(uid, seq, stamp));
-    cancelled += 1;
-  }
-  lines.push("END:VCALENDAR");
-
-  favSyncSent(currentUids);
-  return {
-    text: lines.map(icsFold).join("\r\n") + "\r\n",
-    count: events.length,
-    cancelled,
-  };
-}
-
-async function syncFavoritesToCalendar() {
-  if (!state.favorites.size) {
-    toast("Noch nichts gemerkt.");
-    return;
-  }
-  const { text, count, cancelled } = buildFavoritesICS();
-  const blob = new Blob([text], { type: "text/calendar;charset=utf-8" });
-  const name = "mund-zu-mund-favoriten.ics";
-  const file = new File([blob], name, { type: "text/calendar" });
-
-  // iOS/Android: über das Teilen-Blatt landet die Datei direkt in "Kalender".
-  if (navigator.canShare && navigator.canShare({ files: [file] })) {
-    try {
-      await navigator.share({ files: [file], title: "Mund zu Mund – Gemerkt" });
-      return;
-    } catch (err) {
-      if (err && err.name === "AbortError") return;  // abgebrochen
-      /* sonst: unten als Download weiterreichen */
-    }
-  }
-  const a = document.createElement("a");
-  a.href = URL.createObjectURL(blob);
-  a.download = name;
-  document.body.appendChild(a);
-  a.click();
-  a.remove();
-  setTimeout(() => URL.revokeObjectURL(a.href), 1000);
-  toast(cancelled
-    ? `${count} Termine · ${cancelled} entfernt`
-    : `${count} ${count === 1 ? "Termin" : "Termine"} für den Kalender`);
-}
-
-// Die Leiste über der Favoritenliste mit dem Sync-Knopf.
-function renderFavSyncBar() {
-  const bar = document.createElement("div");
-  bar.className = "fav-sync";
-
-  const btn = document.createElement("button");
-  btn.type = "button";
-  btn.className = "btn btn--primary fav-sync__btn";
-  btn.innerHTML =
-    '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" '
-    + 'stroke="currentColor" stroke-width="2" stroke-linecap="round" '
-    + 'stroke-linejoin="round" aria-hidden="true">'
-    + '<rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>'
-    + '<line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/>'
-    + '<line x1="3" y1="10" x2="21" y2="10"/>'
-    + '<polyline points="9 16 11 18 15 14"/></svg>'
-    + '<span>Favoriten mit Kalender synchronisieren</span>';
-  btn.addEventListener("click", syncFavoritesToCalendar);
-  bar.appendChild(btn);
-
-  const note = document.createElement("p");
-  note.className = "fav-sync__note";
-  note.textContent = "Erneut tippen aktualisiert die schon übertragenen "
-    + "Termine, statt sie doppelt anzulegen.";
-  bar.appendChild(note);
-  return bar;
 }
 
 // ---------------- Share / deep links ----------------

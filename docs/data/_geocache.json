@@ -630,12 +630,6 @@
   "lat": 52.5448387,
   "lng": 13.4194785
  },
- "Axel-Springer-Straße 65 Berlin Deutschland": {
-  "address": "Axel-Springer-Straße 65, 10969 Kreuzberg",
-  "bezirk": "Friedrichshain-Kreuzberg",
-  "lat": 52.5078107,
-  "lng": 13.3975324
- },
  "B-Lage Mareschstr. 1 12055 Berlin Deutschland": {
   "address": "Mareschstraße 1, 12055 Neukölln",
   "bezirk": "Neukölln",
@@ -1233,6 +1227,7 @@
   "lat": 52.4962066,
   "lng": 13.365417
  },
+ "CCCB, Marienstraße 11, 10117 Berlin": null,
  "CHIP Jugendhaus, Reichenberger Straße 44-45, 10999 Berlin": null,
  "Cafe Cralle, Hochstädter Straße 10a, 13347 Berlin": null,
  "Cafe Hardenberg, Hardenbergstraße 10, 10623 Berlin": {
@@ -2150,6 +2145,12 @@
   "lat": 52.4881991,
   "lng": 13.4137245
  },
+ "Hasenheide, 10967 Berlin": {
+  "address": "Hasenheide, 10967 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4877457,
+  "lng": 13.4172248
+ },
  "Hasenheide, Anmeldung erforderlich, 10967 Berlin": null,
  "Hasselwerderstr. 22A, 12439 Berlin": {
   "address": "Hasselwerderstraße 22A, 12439 Niederschöneweide",
@@ -2330,8 +2331,8 @@
  "Herrfurthstraße 21, 12049 Neukölln, Berlin": {
   "address": "Herrfurthstraße 21, 12049 Neukölln",
   "bezirk": "Neukölln",
-  "lat": 52.4766888,
-  "lng": 13.4198521
+  "lat": 52.4767265,
+  "lng": 13.4200344
  },
  "Hind-Rajab-Platz (ehem. Hermannplatz), 12049 Berlin": null,
  "Hinterhof 1, 10967 Berlin": null,
@@ -2477,7 +2478,6 @@
   "lat": 52.4655581,
   "lng": 13.3860876
  },
- "Institut f. Sozialwissenschaften, HU Berlin Institut f. Sozialwissenschaften Universitätsstr. 3b 10117 Berlin Deutschland": null,
  "Institut für Europäische Ethnologie der HU, Raum 408, Anton-Wilhelm-Amo-Straße 40-41, 10117 Berlin": null,
  "Interbüro Genter Straße 60 13533 Berlin Deutschland": null,
  "Interbüro, Genter Straße 60, 13353 Berlin": null,
@@ -3792,6 +3792,12 @@
   "lat": 52.5142306,
   "lng": 13.4884364
  },
+ "Magdalenenstraße 19, 10365 Berlin": {
+  "address": "Magdalenenstraße 19, 10365 Lichtenberg",
+  "bezirk": "Lichtenberg",
+  "lat": 52.5142306,
+  "lng": 13.4884364
+ },
  "Magdalenenstraße 19, 10365 Lichtenberg, Berlin": {
   "address": "Magdalenenstraße 19, 10365 Lichtenberg",
   "bezirk": "Lichtenberg",
@@ -3856,7 +3862,6 @@
   "lat": 52.4310739,
   "lng": 13.3469692
  },
- "Marianenplatz 1a, 10997 Berlin": null,
  "Mariannenplatz (Kreuzberg) Mariannenplatz 10997 Berlin Deutschland": {
   "address": "Mariannenplatz 2, 10997 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -3911,6 +3916,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5009077,
   "lng": 13.4232743
+ },
+ "Marienstraße 11, 10117 Berlin": {
+  "address": "Marienstraße 11, 10117 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5216705,
+  "lng": 13.3827917
  },
  "Markgrafendamm 24, Berlin": {
   "address": "Markgrafendamm 24, 10245 Friedrichshain",
@@ -4211,6 +4222,12 @@
   "lng": 13.4225232
  },
  "Naunystrasse 72, 10997 Berlin": null,
+ "Nazarethkirchstraße 40, 13347 Berlin": {
+  "address": "Nazarethkirchstraße 40, 13347 Wedding",
+  "bezirk": "Mitte",
+  "lat": 52.5496885,
+  "lng": 13.3620935
+ },
  "Near S-Storkower Straße, Berlin": null,
  "Near the Reichstag at the memorial to the Political Opponents of the NS, Berlin": null,
  "Neckarstr. 19 12053 Berlin Deutschland": {
@@ -4895,6 +4912,7 @@
   "lng": 13.3683614
  },
  "Remise der Wilma19 Magdalenenstr. 19 (Lichtenberg): Berlin Deutschland": null,
+ "Remise, Magdalenenstraße 19, 10365 Berlin": null,
  "Renate, Berlin": {
   "address": "Alt-Stralau 70, 10245 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -5456,7 +5474,6 @@
   "lng": 13.3194006
  },
  "Schwarze Risse Gneisenaustr. 2a 10961 Berlin Deutschland": null,
- "Schwester Martha (ex R...chhaus) Marianenplatz 1a 10997 Berlin Deutschland": null,
  "Schwester Martha Bethaniendamm 26 Berlin Deutschland": null,
  "Schwules Museum, Berlin": {
   "address": "Lützowstraße 73, 10785 Tiergarten",
@@ -6017,6 +6034,7 @@
  },
  "Trödelmarkt Mauerpark, Berlin": null,
  "Tuntenhaus Kastanienallee 86 2. HH 10435 Berlin Deutschland": null,
+ "Tuntenhaushof, Kastanienallee 86, 10435 Berlin": null,
  "Turmstr. 91, 10559 Berlin": {
   "address": "Turmstraße 91, 10559 Moabit",
   "bezirk": "Mitte",
@@ -6111,12 +6129,6 @@
  },
  "Under the raised train line, on the south side of Konnopke's Imbiss Schönhauser Allee 44b, Berlin": null,
  "Ungarische Botschaft, Unter den Linden 76, 10117 Berlin": null,
- "Universitätsstr. 3b, 10117 Berlin": {
-  "address": "Universitätsstraße 3b, 10117 Mitte",
-  "bezirk": "Mitte",
-  "lat": 52.5197884,
-  "lng": 13.3915525
- },
  "Unter Strom Wagenplatz Hegemeisterweg 68 10318 Berlin Deutschland": null,
  "Unter den Linden 5, 10117 Berlin": {
   "address": "Unter den Linden 5, 10117 Mitte",

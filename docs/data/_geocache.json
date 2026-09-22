@@ -630,6 +630,12 @@
   "lat": 52.5448387,
   "lng": 13.4194785
  },
+ "Axel-Springer-Straße 65 Berlin Deutschland": {
+  "address": "Axel-Springer-Straße 65, 10969 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5078107,
+  "lng": 13.3975324
+ },
  "B-Lage Mareschstr. 1 12055 Berlin Deutschland": {
   "address": "Mareschstraße 1, 12055 Neukölln",
   "bezirk": "Neukölln",
@@ -2485,6 +2491,7 @@
   "lat": 52.4655581,
   "lng": 13.3860876
  },
+ "Institut f. Sozialwissenschaften, HU Berlin Institut f. Sozialwissenschaften Universitätsstr. 3b 10117 Berlin Deutschland": null,
  "Institut für Europäische Ethnologie der HU, Raum 408, Anton-Wilhelm-Amo-Straße 40-41, 10117 Berlin": null,
  "Interbüro Genter Straße 60 13533 Berlin Deutschland": null,
  "Interbüro, Genter Straße 60, 13353 Berlin": null,
@@ -3869,6 +3876,7 @@
   "lat": 52.4310739,
   "lng": 13.3469692
  },
+ "Marianenplatz 1a, 10997 Berlin": null,
  "Mariannenplatz (Kreuzberg) Mariannenplatz 10997 Berlin Deutschland": {
   "address": "Mariannenplatz 2, 10997 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -5487,6 +5495,7 @@
   "lng": 13.3194006
  },
  "Schwarze Risse Gneisenaustr. 2a 10961 Berlin Deutschland": null,
+ "Schwester Martha (ex R...chhaus) Marianenplatz 1a 10997 Berlin Deutschland": null,
  "Schwester Martha Bethaniendamm 26 Berlin Deutschland": null,
  "Schwules Museum, Berlin": {
   "address": "Lützowstraße 73, 10785 Tiergarten",
@@ -6143,6 +6152,12 @@
  },
  "Under the raised train line, on the south side of Konnopke's Imbiss Schönhauser Allee 44b, Berlin": null,
  "Ungarische Botschaft, Unter den Linden 76, 10117 Berlin": null,
+ "Universitätsstr. 3b, 10117 Berlin": {
+  "address": "Universitätsstraße 3b, 10117 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5197884,
+  "lng": 13.3915525
+ },
  "Unter Strom Wagenplatz Hegemeisterweg 68 10318 Berlin Deutschland": null,
  "Unter den Linden 5, 10117 Berlin": {
   "address": "Unter den Linden 5, 10117 Mitte",

@@ -77,23 +77,44 @@ def _image_url(value, base_url: str) -> str | None:
     return None
 
 
+def _as_text(value) -> str | None:
+    """Flatten a schema.org field to text.
+
+    Sites are free to repeat a field: "streetAddress" may arrive as a list
+    (["Haus 1", "2. Hinterhof"]) instead of a string. Joining that list
+    straight into an address raised "sequence item 0: expected str instance,
+    list found" and took the whole source down.
+    """
+    if value is None:
+        return None
+    if isinstance(value, (list, tuple)):
+        parts = [_as_text(v) for v in value]
+        return ", ".join(p for p in parts if p) or None
+    if isinstance(value, dict):
+        return _as_text(value.get("name"))
+    text = str(value).strip()
+    return text or None
+
+
 def _location(value) -> str | None:
     value = _first(value)
     if isinstance(value, str):
         return value.strip() or None
     if isinstance(value, dict):
-        name = value.get("name")
+        name = _as_text(value.get("name"))
         address = value.get("address")
         if isinstance(address, dict):
             parts = [
-                address.get("streetAddress"),
-                address.get("postalCode"),
-                address.get("addressLocality"),
+                _as_text(address.get("streetAddress")),
+                _as_text(address.get("postalCode")),
+                _as_text(address.get("addressLocality")),
             ]
             address = ", ".join(p for p in parts if p)
+        else:
+            address = _as_text(address)
         bits = [b for b in (name, address) if b]
         return ", ".join(bits) or None
-    return None
+    return _as_text(value)
 
 
 def _tags(node) -> list[str]:

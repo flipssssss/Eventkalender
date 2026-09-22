@@ -22,20 +22,40 @@ URL = "https://www.funfacts.de/tickets-kaufen"
 DEBUG_DIR = pathlib.Path(__file__).resolve().parents[1] / "docs" / "data" / "_debug"
 
 MONTHS = GERMAN_MONTHS
-# "18. Juni 2026, 19:00" -- das Format, das Wix bisher ausgeliefert hat.
+# "18. Juni 2026, 19:00" und -- seit Wix die Liste umgestellt hat --
+# "Di., 22. Sept." OHNE Jahr. Die Jahreszahl ist deshalb optional.
 DATE_RE = re.compile(
-    r"(\d{1,2})\.\s*([A-Za-zäöüÄÖÜ]+)\.?\s*(\d{4})(?:[,\s]+(\d{1,2})[:.](\d{2}))?")
+    r"(\d{1,2})\.\s*([A-Za-zäöüÄÖÜ]+)\.?(?:\s*(\d{4}))?"
+    r"(?:[,\s]+(\d{1,2})[:.](\d{2}))?")
 # "18.06.2026 19:00" / "18.6.26" -- rein numerisch, als zweite Chance.
 NUM_DATE_RE = re.compile(
     r"\b(\d{1,2})\.(\d{1,2})\.(\d{2,4})\b(?:[,\s]+(\d{1,2})[:.](\d{2}))?")
 # Datums-Hooks, die Wix ueber die Jahre benutzt hat. Der erste Treffer gewinnt.
 DATE_HOOKS = (
+    '[data-hook="ev-date"]',              # aktuell ausgeliefert
+    '[data-hook="ev-full-date-location"]',
     '[data-hook="date"]',
     '[data-hook="ev-list-item-date"]',
     '[data-hook="event-date"]',
     '[data-hook="events-list-item-date"]',
     "time[datetime]",
 )
+# Wix hat den Orts-Hook ebenfalls umbenannt.
+LOCATION_HOOKS = (
+    '[data-hook="ev-list-item-location"]',
+    '[data-hook="location"]',
+    '[data-hook="ev-full-date-location"]',
+)
+
+
+def _infer_year(month: int, day: int) -> int:
+    """Year for a date given without one: the next occurrence, not the past."""
+    today = _dt.date.today()
+    try:
+        candidate = _dt.date(today.year, month, day)
+    except ValueError:
+        return today.year
+    return today.year + 1 if (today - candidate).days > 60 else today.year
 
 BROWSER = {
     "User-Agent": (
@@ -155,7 +175,11 @@ class FunFactsScraper(BaseScraper):
             start = self._parse_date(container.get_text(" ", strip=True))
         if not start:
             return None, None
-        loc_el = container.select_one('[data-hook="location"]')
+        loc_el = None
+        for hook in LOCATION_HOOKS:
+            loc_el = container.select_one(hook)
+            if loc_el is not None:
+                break
         location = loc_el.get_text(" ", strip=True) if loc_el else None
         desc_el = container.select_one('[data-hook="ev-list-item-description"]')
         rsvp = container.select_one('[data-hook="ev-rsvp-button"]')
@@ -197,9 +221,11 @@ class FunFactsScraper(BaseScraper):
         if m:
             month = MONTHS.get(m.group(2).lower().rstrip("."))
             if month:
+                day = int(m.group(1))
+                year = int(m.group(3)) if m.group(3) else _infer_year(month, day)
                 try:
                     return _dt.datetime(
-                        int(m.group(3)), month, int(m.group(1)),
+                        year, month, day,
                         int(m.group(4) or 0), int(m.group(5) or 0))
                 except ValueError:
                     return None

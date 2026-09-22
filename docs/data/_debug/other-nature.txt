@@ -1,5 +1,4 @@
-entries: 5 | Events: 5
-  2026-09-17 19:00:00 | Woher weiß ich was ich will?
+entries: 5 | Events: 4
   2026-09-21 19:00:00 | Polyamorie Diskussionsgruppe
   2026-10-20 19:00:00 | Einführung in Japanese Rope Bondage
   2026-09-22 19:00:00 | Neurospicy Intimacy Exchange

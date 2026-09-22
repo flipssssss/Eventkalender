@@ -132,6 +132,12 @@
   "lat": 52.4473406,
   "lng": 13.4531702
  },
+ "12359 Britz, Berlin": {
+  "address": "12359 Britz",
+  "bezirk": "Neukölln",
+  "lat": 52.4473406,
+  "lng": 13.4531702
+ },
  "12435 Berlin": {
   "address": "12435 Alt-Treptow",
   "bezirk": "Treptow-Köpenick",
@@ -408,6 +414,12 @@
   "lng": 13.6060882
  },
  "Alice Salomon Hochschule Alice-Salomon-Platz 5 12627, 12627 Berlin": null,
+ "Alice-Salomon-Platz 5, 12627 Berlin": {
+  "address": "Alice-Salomon-Platz 5, 12627 Hellersdorf",
+  "bezirk": "Marzahn-Hellersdorf",
+  "lat": 52.5371991,
+  "lng": 13.6060882
+ },
  "Allee der Kosmonauten (zw. Märkische Allee/ Helene-Weigel-Platz), 12681 Berlin": null,
  "Alt Treptow 6, 12435 Berlin-Bezirk Treptow-Köpenick": null,
  "Alt-Schönow 10, 14165 Berlin": {
@@ -611,6 +623,18 @@
   "bezirk": "Mitte",
   "lat": 52.5271636,
   "lng": 13.3948218
+ },
+ "Ausland Lychener Str. 60 10437 Berlin Deutschland": {
+  "address": "Lychener Straße 60, 10437 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5448387,
+  "lng": 13.4194785
+ },
+ "Axel-Springer-Straße 65 Berlin Deutschland": {
+  "address": "Axel-Springer-Straße 65, 10969 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5078107,
+  "lng": 13.3975324
  },
  "B-Lage Mareschstr. 1 12055 Berlin Deutschland": {
   "address": "Mareschstraße 1, 12055 Neukölln",
@@ -1125,6 +1149,12 @@
   "lat": 52.5095458,
   "lng": 13.4901817
  },
+ "Buchberger Str. 6, 10365 Berlin-Lichtenberg": {
+  "address": "Buchberger Straße 6, 10365 Lichtenberg",
+  "bezirk": "Lichtenberg",
+  "lat": 52.5095458,
+  "lng": 13.4901817
+ },
  "Buchberger Straße 6, 10365 Lichtenberg, Berlin": {
   "address": "Buchberger Straße 6, 10365 Lichtenberg",
   "bezirk": "Lichtenberg",
@@ -1244,7 +1274,14 @@
   "lat": 52.4692685,
   "lng": 13.4324824
  },
+ "Café Freiraum, Alice-Salomon-Platz 5, 12627 Berlin": null,
  "Café Herman Schulz Kollektiv, Finowstraße 33, Friedrichshain 10247 Berlin Deutschland": null,
+ "Café Herzberg, Berlin": {
+  "address": "Eisenacher Straße 3A, 10777 Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4995072,
+  "lng": 13.349129
+ },
  "Café Karanfil Weisestr. 3 12049 Berlin Deutschland": {
   "address": "Weisestraße 3, 12049 Neukölln",
   "bezirk": "Neukölln",
@@ -1415,6 +1452,12 @@
   "lat": 52.4986501,
   "lng": 13.4440231
  },
+ "Cuvrystraße 7, 10997 Kreuzberg, Berlin": {
+  "address": "Cuvrystraße 7, 10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4991046,
+  "lng": 13.4451096
+ },
  "DORF, Sanderstraße 11, 12047 Berlin": {
   "address": "Sanderstraße 11, 12047 Neukölln",
   "bezirk": "Neukölln",
@@ -1454,6 +1497,12 @@
   "bezirk": "Mitte",
   "lat": 52.5086058,
   "lng": 13.3871269
+ },
+ "Dircksenstraße 40, 10178 Mitte, Berlin": {
+  "address": "Dircksenstraße 40, 10178 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5235504,
+  "lng": 13.407066
  },
  "Dorfplatz (Fhain) Rigaerstr. Ecke Liebigstr. 10247 Berlin Deutschland": null,
  "Dr.-Wilhelm-Külz-Straße 10A, 15517 Berlin": {
@@ -2220,6 +2269,12 @@
   "lat": 52.5099888,
   "lng": 13.3696059
  },
+ "Herbert-von-Karajan-Straße 1, 10785 Tiergarten, Berlin": {
+  "address": "Herbert-von-Karajan-Straße 1, 10785 Tiergarten",
+  "bezirk": "Mitte",
+  "lat": 52.5099888,
+  "lng": 13.3696059
+ },
  "Herman Schulz Kollektiv Café & Bar, Finowstraße 33, 10247 Berlin": null,
  "Herman Schulz Kollektiv Finowstraße 33, 10247 Berlin": null,
  "Hermann-Ehlers-Platz 1, 12165 Berlin": {
@@ -2271,6 +2326,12 @@
   "bezirk": "Neukölln",
   "lat": 52.4767265,
   "lng": 13.4200344
+ },
+ "Herrfurthstraße 21, 12049 Neukölln, Berlin": {
+  "address": "Herrfurthstraße 21, 12049 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4766888,
+  "lng": 13.4198521
  },
  "Hind-Rajab-Platz (ehem. Hermannplatz), 12049 Berlin": null,
  "Hinterhof 1, 10967 Berlin": null,
@@ -2416,6 +2477,7 @@
   "lat": 52.4655581,
   "lng": 13.3860876
  },
+ "Institut f. Sozialwissenschaften, HU Berlin Institut f. Sozialwissenschaften Universitätsstr. 3b 10117 Berlin Deutschland": null,
  "Institut für Europäische Ethnologie der HU, Raum 408, Anton-Wilhelm-Amo-Straße 40-41, 10117 Berlin": null,
  "Interbüro Genter Straße 60 13533 Berlin Deutschland": null,
  "Interbüro, Genter Straße 60, 13353 Berlin": null,
@@ -2925,6 +2987,12 @@
   "lng": 13.5292772
  },
  "Knaackstraße 97, 10435 Berlin": {
+  "address": "Knaackstraße 97, 10435 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5402922,
+  "lng": 13.4140783
+ },
+ "Knaackstraße 97, 10435 Prenzlauer Berg, Berlin": {
   "address": "Knaackstraße 97, 10435 Prenzlauer Berg",
   "bezirk": "Pankow",
   "lat": 52.5402922,
@@ -3788,6 +3856,7 @@
   "lat": 52.4310739,
   "lng": 13.3469692
  },
+ "Marianenplatz 1a, 10997 Berlin": null,
  "Mariannenplatz (Kreuzberg) Mariannenplatz 10997 Berlin Deutschland": {
   "address": "Mariannenplatz 2, 10997 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -3795,6 +3864,12 @@
   "lng": 13.424156
  },
  "Mariannenplatz 1a 10997 berlin": {
+  "address": "Mariannenplatz 1a, 10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5048618,
+  "lng": 13.4243914
+ },
+ "Mariannenplatz 1a berlin": {
   "address": "Mariannenplatz 1a, 10997 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5048618,
@@ -4288,6 +4363,12 @@
   "lat": 52.5148489,
   "lng": 13.3968392
  },
+ "Ohlauer Straße 18, 10999 Berlin": {
+  "address": "Ohlauer Straße, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4956578,
+  "lng": 13.4303986
+ },
  "Ollenhauer Str. 107, 13403 Berlin": {
   "address": "Ollenhauerstraße 107, 13403 Reinickendorf",
   "bezirk": "Reinickendorf",
@@ -4623,6 +4704,7 @@
  "Prinzessinnengarten Neukölln Hermannstraße 99-105 12051 Berlin Deutschland": null,
  "Prinzessinnengarten Neukölln Hermannstraße 99-105, 12051 Berlin": null,
  "Prinzessinnenstraße 30, 10969 Berlin": null,
+ "Projektraum 11m2, Berlin": null,
  "Projektraum ABB (Scherer 8 - Zugang über Adolfstr) Schererstraße 8 (Zugang über Adolfstraße) 13347 Berlin Deutschland": null,
  "Pumptrack An der Ostbahn 9 Berlin": null,
  "Pumptrack An der Ostbahn 9 Berlin Deutschland": null,
@@ -5374,6 +5456,7 @@
   "lng": 13.3194006
  },
  "Schwarze Risse Gneisenaustr. 2a 10961 Berlin Deutschland": null,
+ "Schwester Martha (ex R...chhaus) Marianenplatz 1a 10997 Berlin Deutschland": null,
  "Schwester Martha Bethaniendamm 26 Berlin Deutschland": null,
  "Schwules Museum, Berlin": {
   "address": "Lützowstraße 73, 10785 Tiergarten",
@@ -5393,12 +5476,19 @@
   "lat": 52.5531262,
   "lng": 13.4097182
  },
+ "Schönfließer Straße 7, 10439 Prenzlauer Berg, Berlin": {
+  "address": "Schönfließer Straße 7, 10439 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5531262,
+  "lng": 13.4097182
+ },
  "Schönhauser Allee 177b, 10119 Berlin": {
   "address": "Schönhauser Allee 177b, 10119 Prenzlauer Berg",
   "bezirk": "Pankow",
   "lat": 52.5313367,
   "lng": 13.4112365
  },
+ "Schönhauser Allee 177b, 10119 Berlin-Bezirk Pankow": null,
  "Schönhauser Allee 26 A, 10435 Berlin": {
   "address": "Schönhauser Allee 26a, 10435 Prenzlauer Berg",
   "bezirk": "Pankow",
@@ -5578,6 +5668,7 @@
   "lng": 13.4187281
  },
  "Sonntagsclub, Sonntags-Club e.V., Greifenhagener Str. 28, 10437 Berlin": null,
+ "Sophiensæle - Kantine, Berlin": null,
  "Sophiensæle, Berlin": {
   "address": "Sophienstraße 18, 10178 Mitte",
   "bezirk": "Mitte",
@@ -5735,6 +5826,7 @@
  "TBA, to be announced, Berlin": null,
  "THF Tower Flughafen Tempelhof in Berlin, Tempelhofer Damm 45, 12101, Berlin": null,
  "TU Berlin, Raum EB 202, Straße des 17. Juni 145, 10623 Berlin": null,
+ "TU Ma Gebäude, Straße des 17. Juni 136, 10623 Berlin": null,
  "TU Mensakreuzung, Hardenbergstraße 34, 10623 Berlin": null,
  "Tauentzienstraße, 10789 Charlottenburg, Berlin": {
   "address": "Tauentzienstraße, 10789 Charlottenburg",
@@ -5796,6 +5888,12 @@
   "bezirk": "Mitte",
   "lat": 52.5097776,
   "lng": 13.3572597
+ },
+ "Tiergartenstraße 1, 10785 Tiergarten, Berlin": {
+  "address": "Tiergartenstraße 1, 10785 Tiergarten",
+  "bezirk": "Mitte",
+  "lat": 52.5104782,
+  "lng": 13.3708207
  },
  "Tiergartenstraße 19 - 21, 10785 Berlin": {
   "address": "Tiergartenstraße, 10785 Tiergarten",
@@ -6013,6 +6111,12 @@
  },
  "Under the raised train line, on the south side of Konnopke's Imbiss Schönhauser Allee 44b, Berlin": null,
  "Ungarische Botschaft, Unter den Linden 76, 10117 Berlin": null,
+ "Universitätsstr. 3b, 10117 Berlin": {
+  "address": "Universitätsstraße 3b, 10117 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5197884,
+  "lng": 13.3915525
+ },
  "Unter Strom Wagenplatz Hegemeisterweg 68 10318 Berlin Deutschland": null,
  "Unter den Linden 5, 10117 Berlin": {
   "address": "Unter den Linden 5, 10117 Mitte",

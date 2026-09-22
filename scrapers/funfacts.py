@@ -22,8 +22,20 @@ URL = "https://www.funfacts.de/tickets-kaufen"
 DEBUG_DIR = pathlib.Path(__file__).resolve().parents[1] / "docs" / "data" / "_debug"
 
 MONTHS = GERMAN_MONTHS
+# "18. Juni 2026, 19:00" -- das Format, das Wix bisher ausgeliefert hat.
 DATE_RE = re.compile(
-    r"(\d{1,2})\.\s*([A-Za-zäöüÄÖÜ]+)\s*(\d{4})(?:[,\s]+(\d{1,2}):(\d{2}))?")
+    r"(\d{1,2})\.\s*([A-Za-zäöüÄÖÜ]+)\.?\s*(\d{4})(?:[,\s]+(\d{1,2})[:.](\d{2}))?")
+# "18.06.2026 19:00" / "18.6.26" -- rein numerisch, als zweite Chance.
+NUM_DATE_RE = re.compile(
+    r"\b(\d{1,2})\.(\d{1,2})\.(\d{2,4})\b(?:[,\s]+(\d{1,2})[:.](\d{2}))?")
+# Datums-Hooks, die Wix ueber die Jahre benutzt hat. Der erste Treffer gewinnt.
+DATE_HOOKS = (
+    '[data-hook="date"]',
+    '[data-hook="ev-list-item-date"]',
+    '[data-hook="event-date"]',
+    '[data-hook="events-list-item-date"]',
+    "time[datetime]",
+)
 
 BROWSER = {
     "User-Agent": (
@@ -72,30 +84,75 @@ class FunFactsScraper(BaseScraper):
                 continue
             seen.add(key)
             events.append(ev)
-        self._dump(f"Titel: {len(titles)} | {self.city}: {len(events)} | "
-                   f"andere Städte: {other_city}\n" +
-                   "\n".join(f"  {e.start} | {e.location} | {e.title}"
-                             for e in events[:30]))
+        report = [f"Titel: {len(titles)} | {self.city}: {len(events)} | "
+                  f"andere Städte: {other_city}"]
+        report += [f"  {e.start} | {e.location} | {e.title}" for e in events[:30]]
+        if titles and not events:
+            # Nichts erkannt -> Struktur des ersten Treffers mitschreiben.
+            first = titles[0]
+            report.append("\nKEINE EVENTS ERKANNT -- Struktur des 1. Titels:")
+            report.append(f"  Titel-Text: {first.get_text(' ', strip=True)[:120]!r}")
+            found = [h for h in DATE_HOOKS if soup.select_one(h)]
+            report.append(f"  Vorhandene Datums-Hooks auf der Seite: {found or 'KEINE'}")
+            hooks = sorted({el["data-hook"] for el in soup.select("[data-hook]")})
+            report.append(f"  Alle data-hooks: {hooks[:60]}")
+            node = first
+            for _ in range(4):
+                node = node.parent
+                if node is None:
+                    break
+            if node is not None:
+                report.append("\n  HTML um den 1. Titel (4 Ebenen hoch, gekürzt):")
+                report.append("  " + str(node)[:2000])
+        self._dump("\n".join(report))
         return events
 
     @staticmethod
-    def _container(title_el):
-        """Smallest ancestor of the title that also holds the date hook."""
+    def _date_el(node):
+        """The date element inside ``node``, whichever hook Wix is using."""
+        for hook in DATE_HOOKS:
+            found = node.select_one(hook)
+            if found is not None:
+                return found
+        return None
+
+    @classmethod
+    def _container(cls, title_el):
+        """Smallest ancestor of the title that also holds a date.
+
+        Wix renames its ``data-hook`` values from time to time, so we accept
+        any known hook and -- as a last resort -- any ancestor whose text
+        contains a parsable date. Without that fallback a renamed hook makes
+        the whole source silently return zero events.
+        """
         node = title_el
-        for _ in range(8):
+        for _ in range(12):
             node = node.parent
             if node is None:
                 return None
-            if node.select_one('[data-hook="date"]'):
+            if cls._date_el(node) is not None:
+                return node
+        node = title_el
+        for _ in range(12):
+            node = node.parent
+            if node is None:
+                return None
+            if cls._parse_date(node.get_text(" ", strip=True)):
                 return node
         return None
 
     def _build(self, title_el, container) -> tuple[Event | None, str | None]:
         title = title_el.get_text(" ", strip=True)
-        date_el = container.select_one('[data-hook="date"]')
-        if not title or not date_el:
+        if not title:
             return None, None
-        start = self._parse_date(date_el.get_text(" ", strip=True))
+        date_el = self._date_el(container)
+        start = None
+        if date_el is not None:
+            # <time datetime="..."> traegt das Datum im Attribut, nicht im Text.
+            start = (self._parse_date(date_el.get("datetime") or "")
+                     or self._parse_date(date_el.get_text(" ", strip=True)))
+        if not start:
+            start = self._parse_date(container.get_text(" ", strip=True))
         if not start:
             return None, None
         loc_el = container.select_one('[data-hook="location"]')
@@ -123,19 +180,41 @@ class FunFactsScraper(BaseScraper):
 
     @staticmethod
     def _parse_date(text: str) -> _dt.datetime | None:
-        m = DATE_RE.search(text or "")
-        if not m:
+        """Read "18. Juni 2026, 19:00", "18.06.2026 19:00" or an ISO string."""
+        text = (text or "").strip()
+        if not text:
             return None
-        day, mon_name, year = int(m.group(1)), m.group(2).lower(), int(m.group(3))
-        month = MONTHS.get(mon_name)
-        if not month:
-            return None
-        hour = int(m.group(4)) if m.group(4) else 0
-        minute = int(m.group(5)) if m.group(5) else 0
-        try:
-            return _dt.datetime(year, month, day, hour, minute)
-        except ValueError:
-            return None
+        # <time datetime="2026-06-18T19:00:00+02:00">
+        iso = re.match(r"(\d{4})-(\d{2})-(\d{2})(?:[T ](\d{1,2}):(\d{2}))?", text)
+        if iso:
+            try:
+                return _dt.datetime(
+                    int(iso.group(1)), int(iso.group(2)), int(iso.group(3)),
+                    int(iso.group(4) or 0), int(iso.group(5) or 0))
+            except ValueError:
+                return None
+        m = DATE_RE.search(text)
+        if m:
+            month = MONTHS.get(m.group(2).lower().rstrip("."))
+            if month:
+                try:
+                    return _dt.datetime(
+                        int(m.group(3)), month, int(m.group(1)),
+                        int(m.group(4) or 0), int(m.group(5) or 0))
+                except ValueError:
+                    return None
+        m = NUM_DATE_RE.search(text)
+        if m:
+            year = int(m.group(3))
+            if year < 100:
+                year += 2000
+            try:
+                return _dt.datetime(
+                    year, int(m.group(2)), int(m.group(1)),
+                    int(m.group(4) or 0), int(m.group(5) or 0))
+            except ValueError:
+                return None
+        return None
 
     def _dump(self, text: str) -> None:
         if not self.write_debug:

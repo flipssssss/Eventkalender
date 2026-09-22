@@ -11,6 +11,8 @@ Configure an iCal source in ``sources.yml`` with ``type: ical``.
 from __future__ import annotations
 
 import datetime as _dt
+import pathlib
+import re
 from typing import Iterable
 from urllib.parse import urlsplit
 
@@ -18,6 +20,37 @@ import requests
 from icalendar import Calendar
 
 from .base import BaseScraper, Event
+
+DEBUG_DIR = pathlib.Path(__file__).resolve().parents[1] / "docs" / "data" / "_debug"
+
+
+def _looks_like_ical(body: bytes) -> bool:
+    """True when the payload really is an iCalendar document."""
+    return b"BEGIN:VCALENDAR" in (body or b"")[:4096].upper()
+
+
+def _ical_candidates(url: str) -> list[str]:
+    """The feed URL plus known-good variants for the same site.
+
+    "The Events Calendar" (WordPress) serves its feed under several shapes and
+    silently returns an EMPTY body for the wrong one -- which surfaces as the
+    cryptic "Found no components where exactly one is required: b''". The
+    query-string form below is the one that demonstrably works for the other
+    Events-Calendar sources in this repo, so it is always worth a second try.
+    """
+    parts = urlsplit(url)
+    origin = f"{parts.scheme}://{parts.netloc}/"
+    variants = [
+        url,
+        f"{origin}?post_type=tribe_events&ical=1&eventDisplay=list",
+        f"{origin}events/?ical=1&eventDisplay=list",
+    ]
+    seen, out = set(), []
+    for candidate in variants:
+        if candidate not in seen:
+            seen.add(candidate)
+            out.append(candidate)
+    return out
 
 
 def _to_datetime(value) -> _dt.datetime | None:
@@ -77,14 +110,15 @@ class ICalScraper(BaseScraper):
         # (kleingeschrieben, Teilstring). None/leer = alle behalten.
         self.include = [s.lower() for s in (include or [])]
 
-    def _fetch(self) -> requests.Response:
+    def _fetch(self, url: str | None = None) -> requests.Response:
         """Fetch the feed, trying a plain feed UA then a browser UA.
 
         A non-"Mozilla" user agent gets past bot walls like Anubis (which only
         challenge browser-like requests). Some sites do the opposite and block
         non-browser agents (403) -- for those we retry looking like a browser.
         """
-        origin = "{0.scheme}://{0.netloc}/".format(urlsplit(self.url))
+        url = url or self.url
+        origin = "{0.scheme}://{0.netloc}/".format(urlsplit(url))
         attempts = [
             {
                 "User-Agent": "Eventkalender-Feed/1.0 (+https://github.com/flipssssss/eventkalender)",
@@ -114,7 +148,7 @@ class ICalScraper(BaseScraper):
         last_error: Exception | None = None
         for headers in attempts:
             try:
-                return self.get(self.url, headers=headers)
+                return self.get(url, headers=headers)
             except requests.HTTPError as exc:
                 last_error = exc
                 status = exc.response.status_code if exc.response is not None else None
@@ -123,9 +157,56 @@ class ICalScraper(BaseScraper):
                 raise
         raise last_error  # type: ignore[misc]
 
+    def _load_calendar(self) -> tuple[Calendar, str]:
+        """Fetch the feed and return the parsed calendar plus the URL used.
+
+        Tries the configured URL first, then the known variants. An empty or
+        non-iCal body is treated as a miss (not a hard error), so a site that
+        moved its feed is recovered instead of silently reporting zero events.
+        """
+        notes: list[str] = []
+        for candidate in _ical_candidates(self.url):
+            try:
+                response = self._fetch(candidate)
+            except Exception as exc:  # noqa: BLE001 - try the next candidate
+                notes.append(f"{candidate} -> FEHLER {type(exc).__name__}: {exc}")
+                continue
+            body = response.content or b""
+            if not _looks_like_ical(body):
+                head = body[:120].decode("utf-8", "replace").replace("\n", " ")
+                notes.append(
+                    f"{candidate} -> HTTP {response.status_code}, "
+                    f"{len(body)} Bytes, kein VCALENDAR "
+                    f"(Anfang: {head!r})")
+                continue
+            try:
+                calendar = Calendar.from_ical(body)
+            except Exception as exc:  # noqa: BLE001 - malformed feed
+                notes.append(f"{candidate} -> unlesbar: {exc}")
+                continue
+            if notes:
+                notes.append(f"{candidate} -> OK ({len(body)} Bytes)")
+                self._dump(notes)
+            return calendar, candidate
+        self._dump(notes)
+        raise RuntimeError(
+            "Kein brauchbarer iCal-Feed erreichbar. Versuche:\n  "
+            + "\n  ".join(notes))
+
+    def _dump(self, notes: list[str]) -> None:
+        """Write the per-URL diagnosis so a broken feed is debuggable."""
+        if not notes:
+            return
+        slug = re.sub(r"[^a-z0-9]+", "-", (self.name or "ical").lower()).strip("-")
+        try:
+            DEBUG_DIR.mkdir(parents=True, exist_ok=True)
+            (DEBUG_DIR / f"ical-{slug or 'feed'}.txt").write_text(
+                "iCal-Abruf\n\n" + "\n".join(notes) + "\n", encoding="utf-8")
+        except OSError:
+            pass
+
     def fetch_events(self) -> Iterable[Event]:
-        response = self._fetch()
-        calendar = Calendar.from_ical(response.content)
+        calendar, _used_url = self._load_calendar()
         events: list[Event] = []
 
         for component in calendar.walk("VEVENT"):

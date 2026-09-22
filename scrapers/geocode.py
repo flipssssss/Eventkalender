@@ -173,7 +173,8 @@ def _bezirk_from_address(addr: dict) -> str | None:
         for b in BEZIRKE:
             if val == b.lower():
                 return b
-    return None
+    # Nominatim kennt den Ortsteil nicht immer -- die PLZ reicht dann aus.
+    return PLZ_TO_BEZIRK.get((addr.get("postcode") or "").strip()[:5])
 
 
 def _format_address(addr: dict) -> str | None:
@@ -247,6 +248,121 @@ def clean_query(location: str) -> str:
     return text
 
 
+# --------------------------------------------------------------------------
+# Postleitzahl -> Bezirk.
+#
+# Warum: rund ein Sechstel der Events hatte keinen Bezirk und fiel damit aus
+# Bezirksfilter UND Karte heraus -- obwohl in der Adresse eine Berliner PLZ
+# stand. Die Zuordnung ist rein rechnerisch, braucht also weder Netz noch
+# Nominatim-Treffer und greift auch dann, wenn das Geocoding scheitert.
+#
+# Ein paar PLZ liegen auf einer Bezirksgrenze (z. B. 10119 Mitte/Prenzlauer
+# Berg, 10785 Tiergarten/Schöneberg, 14195 Dahlem/Wilmersdorf). Dort steht der
+# flächenmäßig dominierende Bezirk -- besser als "Unbekannt", aber im
+# Einzelfall eine Näherung.
+# --------------------------------------------------------------------------
+PLZ_TO_BEZIRK = {}
+
+
+def _fill_plz(bezirk: str, *codes: str) -> None:
+    for code in codes:
+        PLZ_TO_BEZIRK[code] = bezirk
+
+
+_fill_plz("Mitte",
+          "10115", "10117", "10119", "10178", "10179", "10551", "10553",
+          "10555", "10557", "10559", "10785", "10787", "13347", "13349",
+          "13351", "13353", "13355", "13357", "13359")
+_fill_plz("Friedrichshain-Kreuzberg",
+          "10243", "10245", "10247", "10249", "10961", "10963", "10965",
+          "10967", "10969", "10997", "10999")
+_fill_plz("Pankow",
+          "10405", "10407", "10409", "10435", "10437", "10439", "13086",
+          "13088", "13089", "13125", "13127", "13129", "13156", "13158",
+          "13159", "13187", "13189")
+_fill_plz("Charlottenburg-Wilmersdorf",
+          "10585", "10587", "10589", "10623", "10625", "10627", "10629",
+          "10707", "10709", "10711", "10713", "10715", "10717", "10719",
+          "10789", "14050", "14052", "14053", "14055", "14057", "14059",
+          "14193", "14195")
+_fill_plz("Spandau",
+          "13581", "13583", "13585", "13587", "13589", "13591", "13593",
+          "13595", "13597", "13599")
+_fill_plz("Steglitz-Zehlendorf",
+          "12163", "12165", "12167", "12169", "12203", "12205", "12207",
+          "12209", "12247", "14109", "14129", "14163", "14165", "14167",
+          "14169", "14199")
+_fill_plz("Tempelhof-Schöneberg",
+          "10777", "10779", "10781", "10783", "10823", "10825", "10827",
+          "10829", "12099", "12101", "12103", "12105", "12107", "12109",
+          "12157", "12159", "12161", "12249", "12277", "12279", "12305",
+          "12307", "12309", "14197")
+_fill_plz("Neukölln",
+          "12043", "12045", "12047", "12049", "12051", "12053", "12055",
+          "12057", "12059", "12347", "12349", "12351", "12353", "12355",
+          "12357", "12359")
+_fill_plz("Treptow-Köpenick",
+          "12435", "12437", "12439", "12459", "12487", "12489", "12524",
+          "12526", "12527", "12555", "12557", "12559", "12587", "12589")
+_fill_plz("Marzahn-Hellersdorf",
+          "12619", "12621", "12623", "12627", "12629", "12679", "12681",
+          "12683", "12685", "12687", "12689")
+_fill_plz("Lichtenberg",
+          "10315", "10317", "10318", "10319", "10365", "10367", "10369",
+          "13051", "13053", "13055", "13057", "13059")
+_fill_plz("Reinickendorf",
+          "13403", "13405", "13407", "13409", "13435", "13437", "13439",
+          "13465", "13467", "13469", "13503", "13505", "13507", "13509")
+
+
+def bezirk_from_plz(text: str | None) -> str | None:
+    """Borough for the first Berlin postal code found in ``text``."""
+    if not text:
+        return None
+    for match in _PLZ_RE.finditer(str(text)):
+        hit = PLZ_TO_BEZIRK.get(match.group(1))
+        if hit:
+            return hit
+    return None
+
+
+# Wiederkehrende Orte ohne brauchbare Adresse in der Quelle. Kuratiert, damit
+# sie nicht dauerhaft im Bezirksfilter fehlen (Namen kleingeschrieben).
+VENUE_BEZIRK = {
+    "säule/berghain": "Friedrichshain-Kreuzberg",
+    "säule": "Friedrichshain-Kreuzberg",
+    "berghain": "Friedrichshain-Kreuzberg",
+    "panorama bar": "Friedrichshain-Kreuzberg",
+    "ask a punk": "Friedrichshain-Kreuzberg",
+    "trixxxter": "Friedrichshain-Kreuzberg",
+    "martha": "Friedrichshain-Kreuzberg",
+    "bethaniendamm": "Friedrichshain-Kreuzberg",
+    "xxl – berlin, pornokino & sexshop": "Tempelhof-Schöneberg",
+    "xxl berlin": "Tempelhof-Schöneberg",
+    "busche club": "Friedrichshain-Kreuzberg",
+    "ogh": "Friedrichshain-Kreuzberg",
+    "nollendorfplatz": "Tempelhof-Schöneberg",
+    "thomashöhe": "Neukölln",
+    "capoeira akademie berlin": "Neukölln",
+    "plänterwald": "Treptow-Köpenick",
+    "willy brand haus": "Friedrichshain-Kreuzberg",
+    "willy-brandt-haus": "Friedrichshain-Kreuzberg",
+    "reichstag": "Mitte",
+}
+
+
+def bezirk_from_venue(*texts: str | None) -> str | None:
+    """Borough for a known venue name, matched as a substring."""
+    for text in texts:
+        if not text:
+            continue
+        low = str(text).lower()
+        for needle, bezirk in VENUE_BEZIRK.items():
+            if needle in low:
+                return bezirk
+    return None
+
+
 def _nominatim(query: str) -> dict | None:
     global _last_request
     wait = RATE_LIMIT_SECONDS - (time.time() - _last_request)
@@ -301,7 +417,46 @@ def geocode(query: str, *, allow_network: bool = True) -> dict | None:
 
 
 def locate_event(event, *, allow_network: bool = True) -> None:
-    """Fill ``event.address/lat/lng/bezirk`` in place, best effort."""
+    """Fill ``event.address/lat/lng/bezirk`` in place, best effort.
+
+    Geocoding runs first; whatever borough it could not determine is then
+    filled from the postal code, the cinema screenings or the curated venue
+    table, so an event still lands in the Bezirk filter and on the map.
+    """
+    _locate_event_core(event, allow_network=allow_network)
+    _fill_missing_bezirk(event)
+
+
+def _bezirke_from_showings(event) -> list[str]:
+    """Boroughs of all cinemas a film runs in (deduplicated, order kept)."""
+    out: list[str] = []
+    for showing in getattr(event, "showings", None) or []:
+        hit = (bezirk_from_plz(showing.get("address"))
+               or bezirk_from_venue(showing.get("cinema")))
+        if hit and hit not in out:
+            out.append(hit)
+    return out
+
+
+def _fill_missing_bezirk(event) -> None:
+    """Last-resort borough assignment, without any network call."""
+    # Filme laufen oft in mehreren Kinos -> alle Bezirke merken, damit ein Film
+    # im Neukoelln-Filter auftaucht, wenn er (auch) in Neukoelln laeuft.
+    showing_bezirke = _bezirke_from_showings(event)
+    if showing_bezirke:
+        event.bezirke = showing_bezirke
+        if not event.bezirk:
+            event.bezirk = showing_bezirke[0]
+        return
+    if event.bezirk:
+        return
+    event.bezirk = (bezirk_from_plz(event.address)
+                    or bezirk_from_plz(event.location)
+                    or bezirk_from_plz(getattr(event, "description", None))
+                    or bezirk_from_venue(event.location, event.address))
+
+
+def _locate_event_core(event, *, allow_network: bool = True) -> None:
     override = VENUE_OVERRIDES.get(event.source_name)
     if override:
         event.address = event.address or override["address"]

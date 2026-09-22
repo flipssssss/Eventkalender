@@ -2372,37 +2372,3 @@ a.showing-time:hover {
   }
   .venue-row__when { margin-bottom: 2px; }
 }
-
-/* ---------------- Favoriten: Kalender-Abgleich ---------------- */
-
-.fav-sync {
-  margin: 0 0 18px;
-  padding: 14px;
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  background: var(--surface);
-  box-shadow: var(--shadow);
-}
-
-.fav-sync__btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  width: 100%;
-}
-
-.fav-sync__note {
-  margin: 8px 0 0;
-  font-size: 0.78rem;
-  line-height: 1.35;
-  color: var(--muted);
-  text-align: center;
-}
-
-/* Bild konnte nicht geladen werden: der reservierte 16:9-Platz bleibt als
-   ruhige Fläche stehen, statt zusammenzuklappen und die Liste zu verschieben. */
-.card-image--failed,
-.modal-image--failed {
-  background: var(--surface-2);
-}

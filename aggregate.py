@@ -411,15 +411,27 @@ def _same_place(a: Event, b: Event) -> bool:
 SAME_SOURCE_SLACK_MIN = 10
 
 
+def _naive(value: _dt.datetime) -> _dt.datetime:
+    """Drop the timezone so all events compare consistently.
+
+    Die Scraper liefern gemischt: manche Quellen geben zeitzonenbehaftete
+    Zeitstempel, andere naive. Eine Subtraktion über diese Grenze hinweg wirft
+    TypeError -- der restliche Code im Modul zieht die Zeitzone aus demselben
+    Grund überall ab, bevor er rechnet.
+    """
+    return value.replace(tzinfo=None) if value.tzinfo else value
+
+
 def _close_in_time(a: Event, b: Event) -> bool:
-    if a.start.date() != b.start.date():
+    start_a, start_b = _naive(a.start), _naive(b.start)
+    if start_a.date() != start_b.date():
         return False
     same_source = a.source_name == b.source_name
     if not a.time_known or not b.time_known:
         # Ohne Uhrzeit lässt sich nichts unterscheiden -- innerhalb einer
         # Quelle dann lieber getrennt lassen.
         return not same_source
-    gap = abs((a.start - b.start).total_seconds()) / 60.0
+    gap = abs((start_a - start_b).total_seconds()) / 60.0
     return gap <= (SAME_SOURCE_SLACK_MIN if same_source else TIME_SLACK_MIN)
 
 
@@ -441,7 +453,7 @@ def merge_similar(events: list[Event]) -> tuple[list[Event], int]:
     """Collapse near-duplicate events. Returns (kept, merged_count)."""
     by_day: dict[str, list[Event]] = {}
     for event in events:
-        by_day.setdefault(event.start.date().isoformat(), []).append(event)
+        by_day.setdefault(_naive(event.start).date().isoformat(), []).append(event)
 
     dropped: set[int] = set()
     merged = 0
@@ -594,9 +606,13 @@ def main() -> int:
     locate(events)
     # Erst nach dem Verorten: der unscharfe Abgleich nutzt die Koordinaten,
     # um "derselbe Ort" zuverlässig zu erkennen.
-    events, merged = merge_similar(events)
+    try:
+        events, merged = merge_similar(events)
+    except Exception as exc:  # noqa: BLE001 - lieber ohne Dedupe als ohne Feed
+        print(f"  ✗ Zusammenführen übersprungen: {exc}", file=sys.stderr)
+        merged = 0
     if merged:
-        events.sort(key=lambda e: e.start.replace(tzinfo=None))
+        events.sort(key=lambda e: _naive(e.start))
         print(f"  ⇄ {merged} Dubletten zusammengeführt "
               f"(gleicher Ort, ähnlicher Titel, Zeit ±{TIME_SLACK_MIN} min)")
     write_output(events, report)

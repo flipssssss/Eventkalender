@@ -1,1 +1,9 @@
-Titel: 20 | Berlin: 0 | andere Städte: 0
+Titel: 20 | Berlin: 0 | andere Städte: 20
+
+KEINE EVENTS ERKANNT -- Struktur des 1. Titels:
+  Titel-Text: 'FUN FACTS #099 mit Philipp Walulis | MÜNCHEN'
+  Vorhandene Datums-Hooks auf der Seite: ['[data-hook="ev-date"]', '[data-hook="ev-full-date-location"]']
+  Alle data-hooks: ['EVENTS_ROOT_NODE', 'bgLayers', 'ev-date', 'ev-full-date-location', 'ev-list-image', 'ev-list-item-description', 'ev-list-item-location', 'ev-list-item-title', 'ev-list-layout', 'ev-rsvp-button', 'event-list-item', 'image', 'image-background', 'left-nav-btn', 'load-more-button', 'load-more-button-container', 'right-nav-btn', 'scrollable-tabs', 'social-bar', 'social-bar-icon-facebook', 'social-bar-icon-linkedin', 'social-bar-icon-x', 'tab-item-0', 'tab-item-1', 'tab-item-2', 'tab-item-3', 'tab-item-4', 'tab-item-5', 'tab-item-6', 'tab-item-7', 'tab-item-8', 'tpa-components-provider']
+
+  HTML um den 1. Titel (4 Ebenen hoch, gekürzt):
+  <div class="LFxSwa"><div class="WEIkqM"><div class="nDmqzY bu16Av m4C58U" data-hook="ev-date"><span class="GiNWmM">Di., 22. Sept.</span></div><div class="H4A4ou"><a aria-expanded="false" class="WFgzOI" role="button" tabindex="0"><span class="noWi58" data-hook="ev-list-item-title">FUN FACTS #099 mit Philipp Walulis | MÜNCHEN</span><span class="dI8er1"><svg fill="currentColor" height="10" viewbox="0 0 18 10" width="18"><path d="M251 163L259.689655 155 268.123535 163" fill="none" fill-rule="evenodd" stroke="currentColor" transform="rotate(-180 134.062 82)"></path></svg></span></a><span aria-hidden="true" class="yYcINL"> / </span><div class="lfjNTT z07QJs" data-hook="ev-list-item-location"></div></div></div><div><a class="DjQEyU m022zm aUkG34" data-anchor="event-details" data-hook="ev-rsvp-button" href="https://lachundschiess.de/event/19413/" rel="nofollow" style="min-width:100px;max-width:200px;min-height:42px;margin:0 3px" tabindex="0" target="_blank"><span class="kaP5hc">Tickets kaufen</span></a></div></div>

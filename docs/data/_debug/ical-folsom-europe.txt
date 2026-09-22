@@ -1,0 +1,4 @@
+iCal-Abruf
+
+https://folsomeurope.berlin/?post_type=tribe_events&ical=1&eventDisplay=list -> HTTP 200, 0 Bytes, kein VCALENDAR (Anfang: '')
+https://folsomeurope.berlin/events/?ical=1&eventDisplay=list -> HTTP 200, 0 Bytes, kein VCALENDAR (Anfang: '')

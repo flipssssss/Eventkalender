@@ -18,13 +18,15 @@ The GitHub Action runs exactly this script on a schedule.
 from __future__ import annotations
 
 import datetime as _dt
+import difflib
 import json
 import pathlib
+import re
 import sys
 
 import yaml
 
-from scrapers.base import Event, parse_datetime
+from scrapers.base import GENERIC_TITLES, Event, parse_datetime
 from scrapers.berlin_buehnen import BerlinBuehnenScraper
 from scrapers.categories import categorize
 from scrapers.genres import genre_for
@@ -308,6 +310,179 @@ def _richer(a: Event, b: Event) -> bool:
         bool(b.image_url), bool(b.description))
 
 
+# --------------------------------------------------------------------------
+# Unscharfes Zusammenführen (zweiter Durchgang nach dem exakten Dedupe).
+#
+# Der exakte Schlüssel (Titel + Tag + Stunde) verlangt denselben Titel auf die
+# Zeichen genau und dieselbe angefangene Stunde. Dasselbe Konzert steht bei
+# Stressfaktor und Siegessäule aber oft mit leicht anderem Titel und einer um
+# 30 Minuten abweichenden Zeit -- und blieb deshalb doppelt im Feed.
+#
+# Zusammengeführt wird nur, wenn ALLE drei Bedingungen zutreffen:
+#   1. derselbe Tag und die Startzeiten liegen höchstens TIME_SLACK_MIN
+#      auseinander (oder eine Quelle kennt gar keine Uhrzeit),
+#   2. derselbe Ort (Name oder Koordinaten dicht beieinander),
+#   3. die Titel sind sich ähnlich genug.
+# Damit bleiben zwei verschiedene Partys in derselben Nacht im selben Laden
+# getrennt, während Dubletten verschwinden.
+# --------------------------------------------------------------------------
+
+TIME_SLACK_MIN = 90        # erlaubte Abweichung der Startzeit in Minuten
+PLACE_SLACK_KM = 0.2       # Koordinaten gelten bis hierhin als derselbe Ort
+TITLE_RATIO = 0.82         # Ähnlichkeit zweier Titel (0..1)
+TOKEN_OVERLAP = 0.6        # alternativ: Anteil gemeinsamer Wörter
+
+# Füllwörter, die für die Titelähnlichkeit nichts beitragen.
+_TITLE_STOPWORDS = {
+    "der", "die", "das", "und", "mit", "im", "in", "am", "at", "the", "and",
+    "for", "von", "vom", "zum", "zur", "auf", "presents", "pres", "prsnts",
+    "live", "konzert", "concert", "party", "show", "abend", "night", "berlin",
+    "feat", "featuring", "support", "special", "guest", "w", "x", "vol",
+}
+_TITLE_NOISE = re.compile(
+    r"\b(?:tickets?|vvk|ak|einlass|doors|ab\s*\d{1,2}(?::\d{2})?\s*uhr|"
+    r"open\s*air|soli|solidarity|abgesagt|cancelled|ausverkauft|sold\s*out)\b",
+    re.IGNORECASE)
+
+
+def _norm_title(title: str) -> str:
+    """Lowercase, strip punctuation and boilerplate -- for comparison only."""
+    text = (title or "").lower()
+    text = _TITLE_NOISE.sub(" ", text)
+    text = re.sub(r"[^0-9a-zäöüß ]+", " ", text)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def _title_tokens(norm: str) -> set[str]:
+    return {w for w in norm.split() if len(w) > 2 and w not in _TITLE_STOPWORDS}
+
+
+def _titles_match(a: str, b: str) -> bool:
+    """True when two titles plausibly name the same event."""
+    na, nb = _norm_title(a), _norm_title(b)
+    if not na or not nb:
+        return False
+    # "Konzert", "Party", "Küfa" ... sagen nichts aus: zwei Abende mit dem
+    # gleichen Allerweltstitel sind nicht automatisch dieselbe Veranstaltung.
+    if (na in GENERIC_TITLES or nb in GENERIC_TITLES
+            or len(na) < 8 or len(nb) < 8):
+        return False
+    if na == nb:
+        return True
+    # "Die Sterne" vs "Die Sterne Live in Berlin" -> einer steckt im anderen.
+    shorter, longer = sorted((na, nb), key=len)
+    if len(shorter) >= 10 and shorter in longer:
+        return True
+    ta, tb = _title_tokens(na), _title_tokens(nb)
+    if ta and tb:
+        overlap = len(ta & tb) / min(len(ta), len(tb))
+        if overlap >= TOKEN_OVERLAP and len(ta & tb) >= 2:
+            return True
+    return difflib.SequenceMatcher(None, na, nb).ratio() >= TITLE_RATIO
+
+
+def _norm_place(value: str | None) -> str:
+    text = (value or "").lower()
+    text = re.sub(r"[^0-9a-zäöüß ]+", " ", text)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def _same_place(a: Event, b: Event) -> bool:
+    """True when both events happen at the same venue."""
+    if a.lat is not None and b.lat is not None:
+        # Grobe Umrechnung in Kilometer (reicht auf Stadtgröße völlig).
+        dlat = (a.lat - b.lat) * 111.0
+        dlng = (a.lng - b.lng) * 111.0 * 0.62  # cos(52.5°)
+        if (dlat * dlat + dlng * dlng) ** 0.5 <= PLACE_SLACK_KM:
+            return True
+        return False  # bekannte, aber verschiedene Koordinaten -> anderer Ort
+    pa, pb = _norm_place(a.location), _norm_place(b.location)
+    if not pa or not pb:
+        return False
+    if pa == pb:
+        return True
+    shorter, longer = sorted((pa, pb), key=len)
+    return len(shorter) >= 4 and shorter in longer
+
+
+# Dieselbe Quelle, derselbe Titel, andere Uhrzeit: das sind zwei Vorstellungen
+# (Planetarium 10:30 und 11:30), keine Dublette. Nur quellenübergreifend darf
+# die Startzeit auseinanderliegen -- dort kommt die Abweichung vom Abtippen.
+SAME_SOURCE_SLACK_MIN = 10
+
+
+def _naive(value: _dt.datetime) -> _dt.datetime:
+    """Drop the timezone so all events compare consistently.
+
+    Die Scraper liefern gemischt: manche Quellen geben zeitzonenbehaftete
+    Zeitstempel, andere naive. Eine Subtraktion über diese Grenze hinweg wirft
+    TypeError -- der restliche Code im Modul zieht die Zeitzone aus demselben
+    Grund überall ab, bevor er rechnet.
+    """
+    return value.replace(tzinfo=None) if value.tzinfo else value
+
+
+def _close_in_time(a: Event, b: Event) -> bool:
+    start_a, start_b = _naive(a.start), _naive(b.start)
+    if start_a.date() != start_b.date():
+        return False
+    same_source = a.source_name == b.source_name
+    if not a.time_known or not b.time_known:
+        # Ohne Uhrzeit lässt sich nichts unterscheiden -- innerhalb einer
+        # Quelle dann lieber getrennt lassen.
+        return not same_source
+    gap = abs((start_a - start_b).total_seconds()) / 60.0
+    return gap <= (SAME_SOURCE_SLACK_MIN if same_source else TIME_SLACK_MIN)
+
+
+def _absorb(keeper: Event, other: Event) -> None:
+    """Fill gaps in ``keeper`` from its duplicate, then drop the duplicate."""
+    for field in ("image_url", "description", "location", "address",
+                  "end", "music_genre", "opening_hours"):
+        if not getattr(keeper, field, None) and getattr(other, field, None):
+            setattr(keeper, field, getattr(other, field))
+    if keeper.lat is None and other.lat is not None:
+        keeper.lat, keeper.lng = other.lat, other.lng
+    if not keeper.bezirk and other.bezirk:
+        keeper.bezirk = other.bezirk
+    if keeper.time_known is False and other.time_known:
+        keeper.start, keeper.time_known = other.start, True
+
+
+def merge_similar(events: list[Event]) -> tuple[list[Event], int]:
+    """Collapse near-duplicate events. Returns (kept, merged_count)."""
+    by_day: dict[str, list[Event]] = {}
+    for event in events:
+        by_day.setdefault(_naive(event.start).date().isoformat(), []).append(event)
+
+    dropped: set[int] = set()
+    merged = 0
+    for day_events in by_day.values():
+        # Kino-Events sind bereits über group_screenings gebündelt; ein Film
+        # in zwei Kinos ist EIN Eintrag mit mehreren Vorstellungen.
+        candidates = [e for e in day_events if not e.showings]
+        for i, first in enumerate(candidates):
+            if id(first) in dropped:
+                continue
+            for second in candidates[i + 1:]:
+                if id(second) in dropped:
+                    continue
+                if not _close_in_time(first, second):
+                    continue
+                if not _same_place(first, second):
+                    continue
+                if not _titles_match(first.title, second.title):
+                    continue
+                keeper, loser = ((first, second) if _richer(first, second)
+                                 else (second, first))
+                _absorb(keeper, loser)
+                dropped.add(id(loser))
+                merged += 1
+                if id(first) in dropped:
+                    break  # first wurde absorbiert -> nächstes Event
+    return [e for e in events if id(e) not in dropped], merged
+
+
 def write_output(events: list[Event], report: list[dict]) -> None:
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     payload = {
@@ -387,6 +562,7 @@ def _event_from_dict(d: dict) -> Event | None:
         lat=d.get("lat"),
         lng=d.get("lng"),
         bezirk=d.get("bezirk"),
+        bezirke=list(d.get("bezirke") or []) or None,
     )
     return event
 
@@ -428,6 +604,17 @@ def main() -> int:
     events = filter_and_sort(raw)
     attach_opening_hours(events)
     locate(events)
+    # Erst nach dem Verorten: der unscharfe Abgleich nutzt die Koordinaten,
+    # um "derselbe Ort" zuverlässig zu erkennen.
+    try:
+        events, merged = merge_similar(events)
+    except Exception as exc:  # noqa: BLE001 - lieber ohne Dedupe als ohne Feed
+        print(f"  ✗ Zusammenführen übersprungen: {exc}", file=sys.stderr)
+        merged = 0
+    if merged:
+        events.sort(key=lambda e: _naive(e.start))
+        print(f"  ⇄ {merged} Dubletten zusammengeführt "
+              f"(gleicher Ort, ähnlicher Titel, Zeit ±{TIME_SLACK_MIN} min)")
     write_output(events, report)
     return 0
 

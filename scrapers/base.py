@@ -79,6 +79,10 @@ class Event:
     lng: float | None = None
     # Berlin borough (Bezirk), derived from the address by the geocoder.
     bezirk: str | None = None
+    # Further boroughs this event also takes place in -- a film showing in
+    # cinemas across town belongs in each of their Bezirk filters, not just
+    # the first one. None/empty means "only ``bezirk``".
+    bezirke: list[str] | None = None
     # Cinema events: all screenings of this film on this day, as a list of
     # {"time": "HH:MM", "cinema": str, "url": str}. None for non-film events.
     showings: list[dict] | None = None
@@ -125,6 +129,7 @@ class Event:
             "lat": self.lat,
             "lng": self.lng,
             "bezirk": self.bezirk,
+            "bezirke": self.bezirke or None,
             "showings": self.showings,
             "opening_hours": self.opening_hours,
             "music_genre": self.music_genre,

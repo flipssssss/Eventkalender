@@ -1215,6 +1215,12 @@
   "lng": 13.3794579
  },
  "Bödickerstraße 9, 10245 Berlin": null,
+ "Börnestraße 1308, 13086 Berlin": {
+  "address": "Börnestraße, 13086 Weißensee",
+  "bezirk": "Pankow",
+  "lat": 52.5493932,
+  "lng": 13.4481921
+ },
  "Böse Buben, Berlin": {
   "address": "Sachsendamm 76-77, 10829 Schöneberg",
   "bezirk": "Tempelhof-Schöneberg",
@@ -1262,6 +1268,7 @@
   "lat": 52.5508274,
   "lng": 13.3735134
  },
+ "Café Engelberg, Oderberger Straße 21, 10435, Berlin": null,
  "Café Engels, Herrfurthstr. 21, 12049, Berlin": null,
  "Café Fincan Altenbraker Str. 26 Berlin Deutschland": {
   "address": "Altenbraker Straße 26, 12051 Neukölln",
@@ -4380,6 +4387,12 @@
   "lat": 52.5148489,
   "lng": 13.3968392
  },
+ "Oderberger Straße 21, 10435 Berlin": {
+  "address": "Oderberger Straße 21, 10435 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5398582,
+  "lng": 13.4074837
+ },
  "Ohlauer Straße 18, 10999 Berlin": {
   "address": "Ohlauer Straße, 10999 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -5798,6 +5811,7 @@
   "lng": 13.3234541
  },
  "Street fair location, Fuggerstraße / Welserstraße, Berlin, 10777, Germany": null,
+ "Studio Börne, Börnestraße, 13086 Berlin, Deutschland, Börnestraße, 13086, Berlin": null,
  "Subversiv Brunnenstr. 7 HH 10119 Berlin Deutschland": null,
  "Supamolly Jessnerstr. 41 10247 Berlin Deutschland": {
   "address": "Jessnerstraße 41, 10247 Friedrichshain",

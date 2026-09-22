@@ -520,6 +520,7 @@ function setupSettings() {
 
   setupInstallPill();
   setupInstallGuide();
+  watchHeaderSize();
 
   // Source wishes -> form service (no login). Set WISH_ENDPOINT below.
   els.wishSend.addEventListener("click", async () => {
@@ -643,9 +644,13 @@ function bezirkLines(name) {
 function buildBezirkToggles() {
   const counts = new Map();
   for (const e of state.events) {
-    const b = bezirkOf(e);
-    if (!counts.has(b)) counts.set(b, 0);
-    if (matches(e, { bezirk: true })) counts.set(b, counts.get(b) + 1);
+    const hit = matches(e, { bezirk: true });
+    // Mehrfach verortete Events (Filme in mehreren Kinos) zählen in jedem
+    // ihrer Bezirke, damit die Zahlen zum Filterergebnis passen.
+    for (const b of bezirkeOf(e)) {
+      if (!counts.has(b)) counts.set(b, 0);
+      if (hit) counts.set(b, counts.get(b) + 1);
+    }
   }
 
   // Echte Berlin-Umrisse: ein Pfad je Bezirk, an/ausgewählt per Klick.
@@ -855,6 +860,18 @@ function buildTagFilter() {
 
 function bezirkOf(ev) { return ev.bezirk || BEZIRK_UNKNOWN; }
 
+// Alle Bezirke eines Events. Ein Film, der in Kinos in mehreren Bezirken
+// läuft, gehört in jeden dieser Bezirksfilter -- nicht nur in den ersten.
+function bezirkeOf(ev) {
+  if (ev.bezirke && ev.bezirke.length) return ev.bezirke;
+  return [bezirkOf(ev)];
+}
+
+// Sichtbar, solange MINDESTENS ein Bezirk des Events aktiv ist.
+function bezirkEnabled(ev) {
+  return bezirkeOf(ev).some((b) => !state.disabledBezirke.has(b));
+}
+
 // ``ignore`` lets callers skip one dimension, so the count next to a source
 // or a Bezirk reflects "how many would land in the feed" independent of that
 // dimension's own toggle.
@@ -870,7 +887,7 @@ function matches(ev, ignore = {}) {
   // Disabled sources (Einstellungen).
   if (!ignore.source && state.disabledSources.has(ev.source_name)) return false;
   // Bezirk filter (Einstellungen).
-  if (!ignore.bezirk && state.disabledBezirke.has(bezirkOf(ev))) return false;
+  if (!ignore.bezirk && !bezirkEnabled(ev)) return false;
   // kulturdaten: einzelne Unterkategorien abschaltbar.
   if (ev.source_name === KD_SOURCE && ev.subcategory &&
       state.disabledKdCats.has(ev.subcategory)) return false;
@@ -1048,6 +1065,7 @@ function render() {
     } else if (state.onlyFav && pastFavorites(null).length) {
       // Keine kommenden Favoriten, aber ein Archiv vergangener -> nur das zeigen.
       els.feed.innerHTML = "";
+      if (state.favorites.size) els.feed.appendChild(renderFavSyncBar());
       const archive = renderFavArchive(null);
       if (archive) els.feed.appendChild(archive);
       spySections = [];
@@ -1173,6 +1191,9 @@ function renderList(sortedKeys, groups) {
   const frag = document.createDocumentFragment();
   const preview = previewCount();
   const now = new Date();
+
+  // Favoriten-Ansicht: Kalender-Abgleich als erste Zeile über der Liste.
+  if (state.onlyFav && state.favorites.size) frag.appendChild(renderFavSyncBar());
   for (const key of sortedKeys) {
     const { date, events } = groups.get(key);
     const group = document.createElement("section");
@@ -1421,7 +1442,15 @@ function renderCard(ev, day) {
     img.src = ev.image_url;
     img.alt = ev.title || "";
     img.loading = "lazy";
-    img.addEventListener("error", () => img.remove());
+    img.decoding = "async";
+    // Ein kaputtes Bild NICHT entfernen: das riss bisher ~180 px aus der Karte
+    // und schob alles darunter hoch -- genau das gelegentliche Springen beim
+    // Scrollen. Stattdessen bleibt der reservierte 16:9-Platz als ruhige
+    // Fläche stehen.
+    img.addEventListener("error", () => {
+      img.removeAttribute("src");
+      img.classList.add("card-image--failed");
+    });
     card.appendChild(img);
   }
 
@@ -1446,10 +1475,7 @@ function renderCard(ev, day) {
 
   // Cinema cards list the cinemas in the screenings block instead.
   if (ev.location && !(ev.showings && ev.showings.length)) {
-    const loc = document.createElement("div");
-    loc.className = "card-location";
-    loc.textContent = "📍 " + ev.location;
-    body.appendChild(loc);
+    body.appendChild(venueLink(ev.location, "card-location"));
   }
   const cardShowings = renderShowings(ev);
   if (cardShowings) body.appendChild(cardShowings);
@@ -1526,7 +1552,10 @@ function showModal(ev, day) {
     img.className = "modal-image";
     img.src = ev.image_url;
     img.alt = ev.title || "";
-    img.addEventListener("error", () => img.remove());
+    img.addEventListener("error", () => {
+      img.removeAttribute("src");
+      img.classList.add("modal-image--failed");
+    });
     c.appendChild(img);
   }
 
@@ -1698,7 +1727,7 @@ let modalMaps = [];
 // The location block in the detail view: the location name(s) and an always-open
 // embedded map (all cinemas for a multi-cinema film), with a "copy address"
 // button (a choice menu when there's more than one address).
-function renderLocationMap(ev) {
+function renderLocationMap(ev, linkVenues = true) {
   const points = [];
   if (ev.showings && ev.showings.length) {
     const seen = new Set();
@@ -1721,7 +1750,27 @@ function renderLocationMap(ev) {
   box.className = "loc-map";
   const head = document.createElement("div");
   head.className = "loc-map-head";
-  head.textContent = "📍 " + points.map((p) => p.name).filter(Boolean).join(" · ");
+  // Jeder Ortsname führt zur Venue-Ansicht (in der Venue-Ansicht selbst
+  // nicht -- dort würde der Link auf sich selbst zeigen).
+  if (linkVenues) {
+    head.appendChild(document.createTextNode("📍 "));
+    points.forEach((point, i) => {
+      if (i) head.appendChild(document.createTextNode(" · "));
+      if (!point.name) return;
+      const link = document.createElement("button");
+      link.type = "button";
+      link.className = "venue-link venue-link--inline";
+      link.textContent = venueShortName(point.name);
+      link.title = "Alle Termine an diesem Ort";
+      link.addEventListener("click", (e) => {
+        e.stopPropagation();
+        openVenue(point.name);
+      });
+      head.appendChild(link);
+    });
+  } else {
+    head.textContent = "📍 " + points.map((p) => p.name).filter(Boolean).join(" · ");
+  }
   if (points.length === 1 && ev.bezirk) {
     const b = document.createElement("span");
     b.className = "modal-bezirk";
@@ -1818,7 +1867,9 @@ async function openMultiMap(panel, points, ev) {
 // When we navigated here in-app we go back (so we don't pile up history
 // entries); a directly opened/shared link just gets its hash stripped.
 function closeModal() {
-  if (!location.hash.startsWith("#e/")) { hideModal(); return; }
+  const onRoute = location.hash.startsWith("#e/")
+    || location.hash.startsWith("#v/");
+  if (!onRoute) { hideModal(); return; }
   if (modalPushed) {
     modalPushed = false;
     history.back();  // -> hashchange -> routeFromHash -> hideModal
@@ -1966,19 +2017,13 @@ function refreshFavSnapshots() {
 // ---------------- Calendar export (.ics) ----------------
 
 function downloadICS(ev) {
-  const start = new Date(ev.start);
   const lines = [
     "BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Mund zu Mund Kalender//DE",
     "BEGIN:VEVENT",
     "UID:" + icsEsc(eventId(ev)),
     "DTSTAMP:" + icsStamp(new Date()),
   ];
-  if (ev.time_known === false) {
-    lines.push("DTSTART;VALUE=DATE:" + icsDay(start));
-  } else {
-    const end = ev.end ? new Date(ev.end) : new Date(start.getTime() + 2 * 3600 * 1000);
-    lines.push("DTSTART:" + icsLocal(start), "DTEND:" + icsLocal(end));
-  }
+  lines.push(...icsWhenLines(ev));
   lines.push("SUMMARY:" + icsEsc(ev.title || "Veranstaltung"));
   if (ev.location) lines.push("LOCATION:" + icsEsc(ev.location));
   const desc = [ev.description, ev.source_url].filter(Boolean).join("\n\n");
@@ -2006,6 +2051,249 @@ function icsStamp(d) {
 function icsEsc(s) {
   return String(s).replace(/\\/g, "\\\\").replace(/;/g, "\\;")
     .replace(/,/g, "\\,").replace(/\r?\n/g, "\\n");
+}
+
+// ---------------- Favoriten mit dem Kalender abgleichen ----------------
+//
+// Die Seite liegt auf GitHub Pages und hat keinen Server, der pro Person eine
+// Kalenderdatei ausliefern könnte -- ein echtes Abo (eine URL, die der
+// Kalender selbst nachlädt) ist damit nicht machbar. Stattdessen: EINE .ics
+// mit allen Gemerkten, die sich beliebig oft neu einspielen lässt.
+//
+// Damit das wie ein Abgleich wirkt und nicht wie Kopieren:
+//   * jeder Termin hat eine feste UID -> beim zweiten Import aktualisiert der
+//     Kalender den vorhandenen Eintrag, statt einen zweiten anzulegen,
+//   * SEQUENCE zählt hoch, damit die Aktualisierung auch akzeptiert wird,
+//   * wer aus den Favoriten fliegt, kommt als STATUS:CANCELLED mit -> der
+//     Termin verschwindet beim nächsten Abgleich wieder aus dem Kalender.
+
+const FAV_SYNC_SEQ_KEY = "ek_fav_sync_seq";    // Zähler für SEQUENCE
+const FAV_SYNC_SENT_KEY = "ek_fav_sync_sent";  // zuletzt exportierte Event-IDs
+
+// Start und Ende für den Kalendereintrag.
+//
+// Manche Quellen setzen als "end" das Ende einer ganzen Reihe (ein wöchentlicher
+// Jam-Abend läuft dann laut Feed vom 1.9. bis 29.12.). Ungeprüft übernommen
+// ergäbe das einen viermonatigen Block im Kalender. Mehrtägiges bleibt also nur
+// dort erhalten, wo es stimmt: bei Ausstellungen.
+const ICS_MAX_HOURS = 24;
+
+function icsBounds(ev) {
+  const start = new Date(ev.start);
+  const allDay = ev.time_known === false;
+  let end = ev.end ? new Date(ev.end) : null;
+  const exhibition = (ev.tags || []).includes("Ausstellung");
+  if (!end || !(end > start)) {
+    end = new Date(start.getTime() + 2 * 3600 * 1000);
+  } else if (!exhibition
+      && (end - start) > ICS_MAX_HOURS * 3600 * 1000) {
+    end = new Date(start.getTime() + 3 * 3600 * 1000);
+  }
+  return { start, end, allDay: allDay || (exhibition && ev.time_known === false) };
+}
+
+function icsWhenLines(ev) {
+  const { start, end, allDay } = icsBounds(ev);
+  if (allDay) {
+    const last = new Date(end.getTime());
+    // DTEND ist bei Ganztagsterminen exklusiv -> einen Tag nach dem letzten.
+    last.setDate(last.getDate() + 1);
+    const lines = ["DTSTART;VALUE=DATE:" + icsDay(start)];
+    if (icsDay(last) !== icsDay(start)) lines.push("DTEND;VALUE=DATE:" + icsDay(last));
+    return lines;
+  }
+  return ["DTSTART:" + icsLocal(start), "DTEND:" + icsLocal(end)];
+}
+
+function favSyncSeq(next) {
+  let seq = 0;
+  try { seq = parseInt(localStorage.getItem(FAV_SYNC_SEQ_KEY) || "0", 10) || 0; }
+  catch { /* ignore */ }
+  if (next) {
+    seq += 1;
+    try { localStorage.setItem(FAV_SYNC_SEQ_KEY, String(seq)); } catch { /* ignore */ }
+  }
+  return seq;
+}
+
+function favSyncSent(save) {
+  if (save) {
+    try { localStorage.setItem(FAV_SYNC_SENT_KEY, JSON.stringify([...save])); }
+    catch { /* ignore */ }
+    return save;
+  }
+  try {
+    const raw = JSON.parse(localStorage.getItem(FAV_SYNC_SENT_KEY) || "[]");
+    return new Set(Array.isArray(raw) ? raw : []);
+  } catch { return new Set(); }
+}
+
+// Feste, kurze UID pro Event -- Grundlage dafür, dass ein zweiter Import
+// aktualisiert statt dupliziert.
+function favUid(id) {
+  return "mzm-" + shortHash(id) + "@mundzumund";
+}
+
+// Alle gemerkten Events: bevorzugt der frische Stand aus dem Feed, sonst der
+// gespeicherte Schnappschuss (Favoriten, die aus dem Feed gefallen sind).
+function favoriteEventList() {
+  const live = new Map();
+  for (const ev of state.events) {
+    const id = eventId(ev);
+    if (state.favorites.has(id)) live.set(id, ev);
+  }
+  const out = [];
+  for (const id of state.favorites) {
+    const ev = live.get(id) || state.favEvents[id];
+    if (ev && ev.start) out.push(ev);
+  }
+  out.sort(byStart);
+  return out;
+}
+
+function icsFold(line) {
+  // RFC 5545: Zeilen über 75 Oktetts werden umbrochen (Fortsetzung mit Space).
+  if (line.length <= 73) return line;
+  const parts = [line.slice(0, 73)];
+  let rest = line.slice(73);
+  while (rest.length > 72) {
+    parts.push(" " + rest.slice(0, 72));
+    rest = rest.slice(72);
+  }
+  if (rest) parts.push(" " + rest);
+  return parts.join("\r\n");
+}
+
+function favEventBlock(ev, seq, stamp) {
+  const lines = [
+    "BEGIN:VEVENT",
+    "UID:" + favUid(eventId(ev)),
+    "SEQUENCE:" + seq,
+    "DTSTAMP:" + stamp,
+  ];
+  lines.push(...icsWhenLines(ev));
+  lines.push("SUMMARY:" + icsEsc(ev.title || "Veranstaltung"));
+  const where = ev.address || ev.location;
+  if (where) lines.push("LOCATION:" + icsEsc(where));
+  const desc = [ev.description, ev.source_url].filter(Boolean).join("\n\n");
+  if (desc) lines.push("DESCRIPTION:" + icsEsc(desc));
+  if (ev.source_url) lines.push("URL:" + ev.source_url);
+  if (ev.lat != null && ev.lng != null) lines.push("GEO:" + ev.lat + ";" + ev.lng);
+  const cats = (ev.tags || []).concat(ev.genre ? [ev.genre] : []);
+  if (cats.length) lines.push("CATEGORIES:" + icsEsc(cats.join(",")));
+  lines.push("END:VEVENT");
+  return lines;
+}
+
+// Abgesagter Platzhalter für einen Favoriten, der entfernt wurde.
+function favCancelBlock(uid, seq, stamp) {
+  return [
+    "BEGIN:VEVENT",
+    "UID:" + uid,
+    "SEQUENCE:" + seq,
+    "DTSTAMP:" + stamp,
+    "DTSTART:" + icsLocal(new Date()),
+    "SUMMARY:Entfernt",
+    "STATUS:CANCELLED",
+    "METHOD:CANCEL",
+    "END:VEVENT",
+  ];
+}
+
+function buildFavoritesICS() {
+  const seq = favSyncSeq(true);
+  const stamp = icsStamp(new Date());
+  const events = favoriteEventList();
+
+  const currentIds = new Set(events.map(eventId));
+  const currentUids = new Set([...currentIds].map(favUid));
+  const previous = favSyncSent();
+
+  const lines = [
+    "BEGIN:VCALENDAR",
+    "VERSION:2.0",
+    "PRODID:-//Mund zu Mund Kalender//Favoriten//DE",
+    "CALSCALE:GREGORIAN",
+    "METHOD:PUBLISH",
+    "X-WR-CALNAME:Mund zu Mund – Gemerkt",
+    "X-WR-TIMEZONE:Europe/Berlin",
+  ];
+  for (const ev of events) lines.push(...favEventBlock(ev, seq, stamp));
+
+  let cancelled = 0;
+  for (const uid of previous) {
+    if (currentUids.has(uid)) continue;
+    lines.push(...favCancelBlock(uid, seq, stamp));
+    cancelled += 1;
+  }
+  lines.push("END:VCALENDAR");
+
+  favSyncSent(currentUids);
+  return {
+    text: lines.map(icsFold).join("\r\n") + "\r\n",
+    count: events.length,
+    cancelled,
+  };
+}
+
+async function syncFavoritesToCalendar() {
+  if (!state.favorites.size) {
+    toast("Noch nichts gemerkt.");
+    return;
+  }
+  const { text, count, cancelled } = buildFavoritesICS();
+  const blob = new Blob([text], { type: "text/calendar;charset=utf-8" });
+  const name = "mund-zu-mund-favoriten.ics";
+  const file = new File([blob], name, { type: "text/calendar" });
+
+  // iOS/Android: über das Teilen-Blatt landet die Datei direkt in "Kalender".
+  if (navigator.canShare && navigator.canShare({ files: [file] })) {
+    try {
+      await navigator.share({ files: [file], title: "Mund zu Mund – Gemerkt" });
+      return;
+    } catch (err) {
+      if (err && err.name === "AbortError") return;  // abgebrochen
+      /* sonst: unten als Download weiterreichen */
+    }
+  }
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = name;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+  toast(cancelled
+    ? `${count} Termine · ${cancelled} entfernt`
+    : `${count} ${count === 1 ? "Termin" : "Termine"} für den Kalender`);
+}
+
+// Die Leiste über der Favoritenliste mit dem Sync-Knopf.
+function renderFavSyncBar() {
+  const bar = document.createElement("div");
+  bar.className = "fav-sync";
+
+  const btn = document.createElement("button");
+  btn.type = "button";
+  btn.className = "btn btn--primary fav-sync__btn";
+  btn.innerHTML =
+    '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" '
+    + 'stroke="currentColor" stroke-width="2" stroke-linecap="round" '
+    + 'stroke-linejoin="round" aria-hidden="true">'
+    + '<rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>'
+    + '<line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/>'
+    + '<line x1="3" y1="10" x2="21" y2="10"/>'
+    + '<polyline points="9 16 11 18 15 14"/></svg>'
+    + '<span>Favoriten mit Kalender synchronisieren</span>';
+  btn.addEventListener("click", syncFavoritesToCalendar);
+  bar.appendChild(btn);
+
+  const note = document.createElement("p");
+  note.className = "fav-sync__note";
+  note.textContent = "Erneut tippen aktualisiert die schon übertragenen "
+    + "Termine, statt sie doppelt anzulegen.";
+  bar.appendChild(note);
+  return bar;
 }
 
 // ---------------- Share / deep links ----------------
@@ -2043,9 +2331,224 @@ async function shareEvent(ev) {
   }
 }
 
+// ---------------- Venue-Ansicht ----------------
+//
+// "Was läuft sonst noch im SO36?" -- jede Ortsangabe ist anklickbar und
+// öffnet alle kommenden Termine an diesem Ort (#v/<slug>). Filme laufen in
+// mehreren Kinos; dort zählt jedes einzelne Kino aus den Vorstellungen mit.
+
+// Manche Quellen schreiben die komplette Anschrift ins Ortsfeld
+// ("Café Maggie Frankfurter Allee 205 10365 Berlin Deutschland"). Für Anzeige
+// UND Gruppierung interessiert nur der Name davor.
+// "<Name> Frankfurter Allee 205" -> schneidet ab " Frankfurter Allee 205".
+// Das optionale erste Wort fängt zweiteilige Straßennamen mit ab.
+const VENUE_STREET_RE =
+  /\s+(?:[\wäöüßÄÖÜ-]+\s+)?[\wäöüßÄÖÜ-]*(?:stra(?:ß|ss)e|str\.?|allee|damm|platz|weg|ufer|ring|chaussee|gasse|pfad|steig)\s*\d/i;
+
+function venueShortName(name) {
+  let text = String(name || "").trim();
+  // Alles ab der Postleitzahl abschneiden ...
+  text = text.replace(/\s*[,]?\s*\b\d{5}\b.*$/, "");
+  // ... und ab "Musterstraße 12", falls die PLZ fehlt.
+  const street = text.search(VENUE_STREET_RE);
+  if (street > 2) text = text.slice(0, street);
+  text = text.replace(/\s*[,|/]\s*(berlin|deutschland|germany)\b.*$/i, "");
+  text = text.replace(/[\s,;|/-]+$/, "").trim();
+  // Ein übrig gebliebenes Bindewort ("Theater am") wieder abschneiden.
+  text = text.replace(/\s+(?:am|an|im|in|auf|zur|zum|der|den|die|das|the|at)$/i, "");
+  text = text.replace(/[\s,;|/-]+$/, "").trim();
+  // Zu kurz geworden? Dann war der Name selbst eine Adresse -- Original lassen.
+  return text.length >= 3 ? text : String(name || "").trim();
+}
+
+// Vergleichsform eines Ortsnamens: klein, ohne Satzzeichen, ohne die
+// Adress-Anhängsel, die manche Quellen an den Namen kleben.
+function venueKey(name) {
+  return venueShortName(name)
+    .toLowerCase()
+    .replace(/[^0-9a-zäöüß ]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+// Alle Orte eines Events (Kinofilme: jedes Kino der Vorstellungen).
+function venueNamesOf(ev) {
+  if (ev.showings && ev.showings.length) {
+    const out = [];
+    for (const s of ev.showings) {
+      if (s.cinema && !out.includes(s.cinema)) out.push(s.cinema);
+    }
+    if (out.length) return out;
+  }
+  return ev.location ? [ev.location] : [];
+}
+
+function venueSlug(name) {
+  return shortHash(venueKey(name));
+}
+
+// Alle kommenden Events an einem Ort -- bewusst ohne die aktiven Kategorie-,
+// Genre- und Bezirksfilter: wer auf einen Ort tippt, will dessen volles
+// Programm sehen, nicht den gefilterten Ausschnitt.
+function venueEvents(slug) {
+  const now = new Date();
+  const today = dayStart(now);
+  const hits = [];
+  for (const ev of state.events) {
+    if (!venueNamesOf(ev).some((n) => venueSlug(n) === slug)) continue;
+    const end = ev.end ? new Date(ev.end) : new Date(ev.start);
+    if (dayStart(end) < today) continue;
+    hits.push(ev);
+  }
+  hits.sort(byStart);
+  return hits;
+}
+
+// Anzeigename + Adresse: der häufigste Schreibweise-Treffer gewinnt.
+function venueLabel(slug, list) {
+  const names = new Map();
+  let address = null;
+  for (const ev of list) {
+    for (const n of venueNamesOf(ev)) {
+      if (venueSlug(n) !== slug) continue;
+      names.set(n, (names.get(n) || 0) + 1);
+      if (!address) {
+        if (ev.showings && ev.showings.length) {
+          const s = ev.showings.find((x) => x.cinema === n && x.address);
+          if (s) address = s.address;
+        } else if (ev.address) {
+          address = ev.address;
+        }
+      }
+    }
+  }
+  let best = "", bestN = -1;
+  for (const [name, n] of names) if (n > bestN) { best = name; bestN = n; }
+  return { name: venueShortName(best), address };
+}
+
+function openVenue(name) {
+  const target = "#v/" + venueSlug(name);
+  if (location.hash === target) { showVenue(venueSlug(name)); return; }
+  modalPushed = true;
+  location.hash = target;
+}
+
+function showVenue(slug) {
+  const list = venueEvents(slug);
+  const { name, address } = venueLabel(slug, list);
+  const c = els.modalContent;
+  c.innerHTML = "";
+
+  const body = document.createElement("div");
+  body.className = "modal-body";
+
+  const kicker = document.createElement("div");
+  kicker.className = "modal-time";
+  kicker.textContent = "Ort";
+  body.appendChild(kicker);
+
+  const title = document.createElement("h2");
+  title.className = "modal-title";
+  title.textContent = name || "Unbekannter Ort";
+  body.appendChild(title);
+
+  if (address) {
+    const addr = document.createElement("div");
+    addr.className = "modal-hours";
+    addr.textContent = address;
+    body.appendChild(addr);
+  }
+
+  const count = document.createElement("div");
+  count.className = "venue-count";
+  count.textContent = list.length === 1
+    ? "1 kommender Termin"
+    : list.length + " kommende Termine";
+  body.appendChild(count);
+
+  if (!list.length) {
+    const empty = document.createElement("p");
+    empty.className = "modal-desc";
+    empty.textContent = "Hier steht gerade nichts an.";
+    body.appendChild(empty);
+  } else {
+    const wrap = document.createElement("div");
+    wrap.className = "venue-list";
+    for (const ev of list) {
+      wrap.appendChild(venueRow(ev));
+    }
+    body.appendChild(wrap);
+  }
+
+  c.appendChild(body);
+
+  // Karte des Ortes, sofern eine Koordinate bekannt ist.
+  const located = list.find((e) => e.lat != null);
+  if (located) {
+    const map = renderLocationMap({
+      location: name, address: address || located.address,
+      lat: located.lat, lng: located.lng, genre: located.genre,
+    }, false);
+    if (map) body.appendChild(map);
+  }
+
+  resetSheet();
+  els.modalBackdrop.removeAttribute("hidden");
+  els.modal.scrollTop = 0;
+  document.body.style.overflow = "hidden";
+}
+
+function venueRow(ev) {
+  const row = document.createElement("button");
+  row.type = "button";
+  row.className = "venue-row";
+  row.addEventListener("click", () => {
+    modalPushed = true;
+    location.hash = "#e/" + eventSlug(ev);
+  });
+
+  const when = document.createElement("span");
+  when.className = "venue-row__when";
+  const d = new Date(ev.start);
+  when.textContent = CARD_DATE_FMT.format(d)
+    + (ev.time_known ? " · " + TIME_FMT.format(d) : "");
+  row.appendChild(when);
+
+  const what = document.createElement("span");
+  what.className = "venue-row__title";
+  what.textContent = ev.title || "Ohne Titel";
+  row.appendChild(what);
+
+  const tags = (ev.tags || []).join(" · ");
+  if (tags) {
+    const meta = document.createElement("span");
+    meta.className = "venue-row__meta";
+    meta.textContent = tags;
+    row.appendChild(meta);
+  }
+  return row;
+}
+
+// Eine anklickbare Ortszeile ("📍 SO36"), die die Venue-Ansicht öffnet.
+function venueLink(name, className) {
+  const el = document.createElement("button");
+  el.type = "button";
+  el.className = className + " venue-link";
+  el.textContent = "📍 " + venueShortName(name);
+  el.title = "Alle Termine an diesem Ort";
+  el.addEventListener("click", (e) => {
+    e.stopPropagation();   // nicht zusätzlich das Event-Detail öffnen
+    openVenue(name);
+  });
+  return el;
+}
+
 // Open/close the modal to match the current URL hash (#e/<slug>). Called on
 // load, on hashchange and when the browser back/forward button is used.
 function routeFromHash() {
+  const v = location.hash.match(/^#v\/(.+)$/);
+  if (v) { showVenue(decodeURIComponent(v[1])); return; }
   const m = location.hash.match(/^#e\/(.+)$/);
   if (!m) { hideModal(); return; }
   const slug = decodeURIComponent(m[1]);
@@ -2494,28 +2997,34 @@ function jumpToDay(key) {
     target.getBoundingClientRect().top + window.scrollY - headerOffset());
   window.scrollTo({ top: wantTop(), behavior: "smooth" });
 
-  // Nach der Smooth-Animation mehrfach nachjustieren: Bilder, die wegfallen,
-  // oder spät ladende Schrift verschieben das Layout, sonst landet man im
-  // Nachbartag (und müsste mehrfach klicken). Die Korrektur bricht ab, sobald
-  // der/die Nutzer:in selbst scrollt.
+  // Nach der Smooth-Animation EINMAL nachjustieren, falls spät geladene
+  // Schrift/Bilder das Ziel verschoben haben.
+  //
+  // Vorher lief diese Korrektur bis zu fünfmal über eine ganze Sekunde und
+  // riss die Seite auch dann noch weiter, wenn längst alles stand -- das war
+  // das "Springen" nach dem Antippen eines Tages. Jetzt gilt: sobald die
+  // Position zweimal in Folge stimmt oder jemand selbst scrollt, ist Schluss.
   let cancelled = false;
-  const cancel = () => { cancelled = true; };
-  window.addEventListener("wheel", cancel, { passive: true, once: true });
-  window.addEventListener("touchstart", cancel, { passive: true, once: true });
+  const cancel = () => { cancelled = true; cleanup(); };
+  // Jede eigene Eingabe bricht ab -- auch Trackpad, Tastatur und Scrollbar.
+  const events = ["wheel", "touchstart", "keydown", "pointerdown"];
+  for (const name of events) {
+    window.addEventListener(name, cancel, { passive: true });
+  }
+  function cleanup() {
+    for (const name of events) window.removeEventListener(name, cancel);
+  }
 
   let tries = 0;
-  const cleanup = () => {
-    window.removeEventListener("wheel", cancel);
-    window.removeEventListener("touchstart", cancel);
-  };
   const settle = () => {
-    if (cancelled) { cleanup(); return; }
+    if (cancelled) return;
     const want = wantTop();
-    if (Math.abs(window.scrollY - want) > 2) window.scrollTo({ top: want });
-    if (++tries < 5) setTimeout(settle, 140);
+    if (Math.abs(window.scrollY - want) <= 2) { cleanup(); return; }  // sitzt
+    window.scrollTo({ top: want });
+    if (++tries < 2) setTimeout(settle, 160);
     else cleanup();
   };
-  setTimeout(settle, 380);
+  setTimeout(settle, 400);
 }
 
 let lastActiveKey = null;
@@ -2527,11 +3036,37 @@ let spyTicking = false;
 // sticky header and the wrong day gets highlighted. The header height varies
 // (genre row wraps, categories expand, safe-area inset), so measure it live.
 const HEADER_GAP = 8;
-function headerOffset() {
+
+// Die Header-Höhe wird GEMESSEN und GEMERKT -- nicht bei jedem Scroll-Frame
+// neu bestimmt. Vorher las headerOffset() offsetHeight (erzwingt Layout) und
+// schrieb eine CSS-Variable auf <html> (invalidiert Styles) -- beides in der
+// Scroll-Schleife, was das Scrollen spürbar zäh macht. Jetzt aktualisiert ein
+// ResizeObserver den Wert genau dann, wenn der Header sich wirklich ändert.
+let headerH = 0;
+
+function measureHeader() {
   const header = document.querySelector(".site-header");
   const h = (header ? header.offsetHeight : 0) + HEADER_GAP;
-  document.documentElement.style.setProperty("--header-h", h + "px");
+  if (h !== headerH) {
+    headerH = h;
+    document.documentElement.style.setProperty("--header-h", h + "px");
+  }
   return h;
+}
+
+// Im Scroll-Pfad: nur den gemerkten Wert zurückgeben, nichts lesen/schreiben.
+function headerOffset() {
+  return headerH || measureHeader();
+}
+
+function watchHeaderSize() {
+  measureHeader();
+  const header = document.querySelector(".site-header");
+  if (header && typeof ResizeObserver === "function") {
+    new ResizeObserver(() => measureHeader()).observe(header);
+  }
+  window.addEventListener("resize", measureHeader, { passive: true });
+  window.addEventListener("orientationchange", measureHeader, { passive: true });
 }
 
 // Scroll-spy: bei JEDEM Scroll-Frame (rAF-gedrosselt) den aktiven Tag direkt

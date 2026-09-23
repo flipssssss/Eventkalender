@@ -301,6 +301,12 @@
   "lat": 52.5000786,
   "lng": 13.4177996
  },
+ "Adalbertstraße 1099, 10999 Berlin": {
+  "address": "Adalbertstraße, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4999917,
+  "lng": 13.4183632
+ },
  "Adalbertstraße 69, 10997 Berlin": {
   "address": "Adalbertstraße, 10997 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -1840,6 +1846,7 @@
   "lat": 52.5583231,
   "lng": 13.3921301
  },
+ "Freiland Friedrich-Engels-Strasse 22 Berlin Deutschland": null,
  "Freiland Potsdam Friedrich-Engels-Strasse 22 14473 Potsdam Deutschland, Berlin": null,
  "Freilichtbühne Weißensee, Große Seestraße 10, 13086, Berlin": null,
  "Freiluftkino Rehberge, Berlin": {
@@ -1855,6 +1862,12 @@
   "lng": 13.3941482
  },
  "Friedrich-Engels-Strasse 22, 14473 Potsdam, Berlin": null,
+ "Friedrich-Engels-Strasse 22, Berlin": {
+  "address": "Friedrich-Engels-Straße 22, 13156 Niederschönhausen",
+  "bezirk": "Pankow",
+  "lat": 52.5817048,
+  "lng": 13.3941482
+ },
  "Friedrichstraße 43-45, 10117 Berlin": {
   "address": "Friedrichstraße 43-45, 10969 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -2145,6 +2158,12 @@
   "bezirk": "Charlottenburg-Wilmersdorf",
   "lat": 52.5098828,
   "lng": 13.3258234
+ },
+ "Harzer Str. 39, 12059 Berlin": {
+  "address": "Harzer Straße 39, 12059 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4839335,
+  "lng": 13.4495146
  },
  "Hasenheide 54, 10967 Berlin": {
   "address": "Hasenheide 54, 10967 Kreuzberg",
@@ -2478,6 +2497,12 @@
  },
  "Im Hof der Regenbogen fabrik, Lausitzer Straße 21a, 10999 Berlin": null,
  "Im Kino der Regenbogen fabrik, Lausitzer Straße 21a, 10999 Berlin": null,
+ "Industriesalon Schöneweide, Reinbeckstraße 10, 12459, Berlin": {
+  "address": "Reinbeckstraße 10, 12459 Oberschöneweide",
+  "bezirk": "Treptow-Köpenick",
+  "lat": 52.4603338,
+  "lng": 13.5179898
+ },
  "Infoladen Scherer Schererstraße 8 13347 Berlin Deutschland": {
   "address": "Schererstraße 8, 13347 Wedding",
   "bezirk": "Mitte",
@@ -3087,6 +3112,7 @@
   "lat": 52.4989853,
   "lng": 13.4183107
  },
+ "Kottbusser Tor Ecke Adalbertstraße, 10999 Berlin": null,
  "Kottbusser Tor, Berlin": {
   "address": "Kottbusser Tor, 10999 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -3213,6 +3239,12 @@
  },
  "Kulturhaus Centre Bagatelle, Zeltinger Str. 6, 13465, Berlin-Frohnau": null,
  "Kulturhaus Centre Bagatelle, Zeltinger Straße 6, 13465, Berlin": null,
+ "Kulturhaus Karlshorst Treskowallee 112 10318 Berlin Deutschland": {
+  "address": "Treskowallee 112, 10318 Karlshorst",
+  "bezirk": "Lichtenberg",
+  "lat": 52.4820582,
+  "lng": 13.5251196
+ },
  "Kulturort Nirgendwo Wriezener Park 10245 Berlin Deutschland": null,
  "Kunstfabrik Schlot, Invalidenstraße 117, 10115, Berlin": {
   "address": "Invalidenstraße 117, 10115 Mitte",
@@ -3826,6 +3858,12 @@
  },
  "Majal Sonnenallee 127 Berlin Deutschland": null,
  "Manifest Bücher & Café, Graefestraße 14, 10967 Berlin": null,
+ "Mansteinstr. 10, 10783 Berlin": {
+  "address": "Mansteinstraße 10, 10783 Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4917223,
+  "lng": 13.3667307
+ },
  "Mansteinstr. 10, Berlin": {
   "address": "Mansteinstraße 10, 10783 Schöneberg",
   "bezirk": "Tempelhof-Schöneberg",
@@ -5128,6 +5166,7 @@
   "lng": 13.4019195
  },
  "Rote Ella, Buttmannstraße 1a, 13357 Berlin": null,
+ "Rote Insel Mansteinstr. 10 10783 Berlin Deutschland": null,
  "Rote Insel Mansteinstr. 10, near S1 / U7 Yorckstrasse Deutschland, Berlin": null,
  "Rote Insel near S1 / U7 Yorckstrasse Berlin 10783 Berlin Deutschland": null,
  "Rote Insel, nähe S+U Yorckstraße, 10783 Berlin": null,
@@ -5865,6 +5904,8 @@
  },
  "TBA, to be announced, Berlin": null,
  "THF Tower Flughafen Tempelhof in Berlin, Tempelhofer Damm 45, 12101, Berlin": null,
+ "TRXXXTER Berlin": null,
+ "TRXXXTER Berlin Deutschland": null,
  "TU Berlin, Raum EB 202, Straße des 17. Juni 145, 10623 Berlin": null,
  "TU Ma Gebäude, Straße des 17. Juni 136, 10623 Berlin": null,
  "TU Mensakreuzung, Hardenbergstraße 34, 10623 Berlin": null,
@@ -6733,5 +6774,6 @@
  },
  "verschiedene Veranstaltungsorte Berlin": null,
  "verschiedene Veranstaltungsorte, Berlin": null,
- "vor der Oppelner Straße 45 Oppelner Straße 45 10997 Berlin Deutschland": null
+ "vor der Oppelner Straße 45 Oppelner Straße 45 10997 Berlin Deutschland": null,
+ "workish.berlin Harzer Str. 39 12059 Berlin Deutschland": null
 }

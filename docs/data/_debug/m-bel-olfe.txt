@@ -1,46 +1,5 @@
-event-blocks: 20 | Events: 20
+event-blocks: 18 | Events: 18
 
-<div class="event-block">
- <!-- Zeile 1: Datum + Titel -->
- <div class="event-row-1">
-  <div class="event-time">
-   Dienstag, 22. Sept. 21:00
-  </div>
-  <div class="event-title">
-   FLINTA*-Abend
-  </div>
- </div>
- <!-- Zeile 2: Bild + Beschreibung -->
- <div class="event-row-2">
-  <div class="event-image event-image--empty">
-  </div>
-  <div class="event-description">
-   Loryn
-  </div>
- </div>
-</div>
-
-
-----
-<div class="event-block">
- <!-- Zeile 1: Datum + Titel -->
- <div class="event-row-1">
-  <div class="event-time">
-   Mittwoch, 23. Sept. 22:00
-  </div>
-  <div class="event-title">
-   Bad Puppy
-  </div>
- </div>
- <!-- Zeile 2: Bild + Beschreibung -->
- <div class="event-row-2">
-  <div class="event-image event-image--empty">
-  </div>
- </div>
-</div>
-
-
-----
 <div class="event-block">
  <!-- Zeile 1: Datum + Titel -->
  <div class="event-row-1">
@@ -76,6 +35,51 @@ event-blocks: 20 | Events: 20
  <!-- Zeile 2: Bild + Beschreibung -->
  <div class="event-row-2">
   <div class="event-image event-image--empty">
+  </div>
+ </div>
+</div>
+
+
+----
+<div class="event-block">
+ <!-- Zeile 1: Datum + Titel -->
+ <div class="event-row-1">
+  <div class="event-time">
+   Samstag, 26. Sept. 21:30
+  </div>
+  <div class="event-title">
+   Barox
+  </div>
+ </div>
+ <!-- Zeile 2: Bild + Beschreibung -->
+ <div class="event-row-2">
+  <div class="event-image">
+   <img alt="" src="ProgrammFotos/Barox_2026_09_26.jpg"/>
+  </div>
+  <div class="event-description">
+   IIIIIITTTTTAAAAAALLLLLOOOOOODDDDDDIIIIIIISSSSSSCCCCCCOOOOOOO!!!
+  </div>
+ </div>
+</div>
+
+
+----
+<div class="event-block">
+ <!-- Zeile 1: Datum + Titel -->
+ <div class="event-row-1">
+  <div class="event-time">
+   Dienstag, 29. Sept. 21:00
+  </div>
+  <div class="event-title">
+   FLINTA*-Abend
+  </div>
+ </div>
+ <!-- Zeile 2: Bild + Beschreibung -->
+ <div class="event-row-2">
+  <div class="event-image event-image--empty">
+  </div>
+  <div class="event-description">
+   Souci b2b elliephunk
   </div>
  </div>
 </div>

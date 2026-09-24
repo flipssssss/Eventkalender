@@ -642,6 +642,12 @@
   "lat": 52.5078107,
   "lng": 13.3975324
  },
+ "Axel-Springer-Straße 65, 10969 Berlin": {
+  "address": "Axel-Springer-Straße 65, 10969 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5078107,
+  "lng": 13.3975324
+ },
  "B-Lage Mareschstr. 1 12055 Berlin Deutschland": {
   "address": "Mareschstraße 1, 12055 Neukölln",
   "bezirk": "Neukölln",
@@ -2846,6 +2852,12 @@
   "lat": 52.5038714,
   "lng": 13.4836489
  },
+ "Kaskelstr. 55, 10317 Berlin": {
+  "address": "Kaskelstraße 55, 10317 Rummelsburg",
+  "bezirk": "Lichtenberg",
+  "lat": 52.5047247,
+  "lng": 13.4834592
+ },
  "Kaskelstraße 55, 10317 Berlin Lichtenberg": {
   "address": "Kaskelstraße 55, 10317 Rummelsburg",
   "bezirk": "Lichtenberg",
@@ -3113,6 +3125,12 @@
   "lng": 13.4183107
  },
  "Kottbusser Tor Ecke Adalbertstraße, 10999 Berlin": null,
+ "Kottbusser Tor, 10999 Berlin": {
+  "address": "Kottbusser Tor, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4989853,
+  "lng": 13.4183107
+ },
  "Kottbusser Tor, Berlin": {
   "address": "Kottbusser Tor, 10999 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -4607,6 +4625,12 @@
   "lat": 52.4864595,
   "lng": 13.430857
  },
+ "Panorama Bar/Berghain, Berlin": {
+  "address": "Am Wriezener Bahnhof, 10243 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5111669,
+  "lng": 13.4430356
+ },
  "Paretzer Straße 7, 10713 Berlin": {
   "address": "Paretzer Straße 7, 10713 Wilmersdorf",
   "bezirk": "Charlottenburg-Wilmersdorf",
@@ -5784,6 +5808,7 @@
   "lat": 52.5172851,
   "lng": 13.3524323
  },
+ "Springer Hochhaus, Axel-Springer-Straße 65, 10969 Berlin": null,
  "Sputnik, Berlin": {
   "address": "Straße des 17. Juni 145, 10623 Charlottenburg",
   "bezirk": "Charlottenburg-Wilmersdorf",
@@ -6283,6 +6308,7 @@
  "Vor der Amerika-Gedenkbibliothek, Blücherplatz 1, 10961 Berlin": null,
  "Vor der Amerika-Gedenkbibliothek, Eva-Mamlok-Platz (ehemals Blücherplatz), 10961 Berlin": null,
  "Vor der BHT-Mensa, Luxemburger Straße 9, 13353 Berlin": null,
+ "Vorm Gecekondu, Admiralstraße 1-2, 10999 Berlin": null,
  "WABE in der Schönfließer Straße 7 (neuer Spielort), Schönfließer Straße 7, 10439, Berlin": null,
  "WB13 Am Berl 13 13051 Berlin Deutschland": {
   "address": "Am Berl 13, 13051 Neu-Hohenschönhausen",

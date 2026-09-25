@@ -1,24 +1,5 @@
-event-blocks: 17 | Events: 17
+event-blocks: 16 | Events: 16
 
-<div class="event-block">
- <!-- Zeile 1: Datum + Titel -->
- <div class="event-row-1">
-  <div class="event-time">
-   Freitag, 25. Sept. 22:00
-  </div>
-  <div class="event-title">
-   Mari Corolla b2b Luxifera
-  </div>
- </div>
- <!-- Zeile 2: Bild + Beschreibung -->
- <div class="event-row-2">
-  <div class="event-image event-image--empty">
-  </div>
- </div>
-</div>
-
-
-----
 <div class="event-block">
  <!-- Zeile 1: Datum + Titel -->
  <div class="event-row-1">
@@ -80,6 +61,25 @@ event-blocks: 17 | Events: 17
   </div>
   <div class="event-description">
    Eno &amp; Dougie
+  </div>
+ </div>
+</div>
+
+
+----
+<div class="event-block">
+ <!-- Zeile 1: Datum + Titel -->
+ <div class="event-row-1">
+  <div class="event-time">
+   Freitag, 2. Okt. 22:00
+  </div>
+  <div class="event-title">
+   Barbie Garbage
+  </div>
+ </div>
+ <!-- Zeile 2: Bild + Beschreibung -->
+ <div class="event-row-2">
+  <div class="event-image event-image--empty">
   </div>
  </div>
 </div>

@@ -4248,6 +4248,12 @@
   "lat": 52.4154105,
   "lng": 13.5994753
  },
+ "Müllerstraße 147, 13353 Berlin": {
+  "address": "Müllerstraße 147, 13353 Wedding",
+  "bezirk": "Mitte",
+  "lat": 52.5468477,
+  "lng": 13.3576744
+ },
  "Müllerstraße 178 U, 13353 Berlin": {
   "address": "Müllerstraße, 13353 Wedding",
   "bezirk": "Mitte",
@@ -4701,6 +4707,12 @@
   "lat": 52.4901195,
   "lng": 13.4335474
  },
+ "Phantom Bar Berlin, Berlin": {
+  "address": "Torstraße, 10115 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5270872,
+  "lng": 13.3879283
+ },
  "Pichelswerder Straße 6, 13597 Berlin": {
   "address": "Pichelswerderstraße 6, 13597 Spandau",
   "bezirk": "Spandau",
@@ -4859,6 +4871,7 @@
   "lng": 13.3441027
  },
  "Rathaus Treptow Neue Krugallee 2-6 12435 Berlin Deutschland": null,
+ "Rathausplatz Wedding, Müllerstraße 147, 13353 Berlin": null,
  "Rathausstraße 1, 10178 Berlin": {
   "address": "Rathausstraße 1, 10178 Mitte",
   "bezirk": "Mitte",
@@ -5062,6 +5075,7 @@
   "lat": 52.517933,
   "lng": 13.4580095
  },
+ "Rigaer 94, Rigaer Straße 94, 10247 Berlin": null,
  "Rigaer Str. 103, 10247 Berlin": {
   "address": "Rigaer Straße 103, 10247 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -6653,6 +6667,7 @@
   "lng": 13.4595298
  },
  "Zielona Góra Grünbergerstr. 73 10245, 10245 Berlin": null,
+ "Zielona Góra, Grünberger Straße 73, 10245 Berlin": null,
  "Zille54 - Haus der Jugend, Berlin": null,
  "Zimmer 16, Florastraße 16, 13187, Berlin": null,
  "Zionskirche Zionskirchplatz Berlin": {

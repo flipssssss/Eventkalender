@@ -1,10 +1,4 @@
-API-Events: 83 | übernommen: 83
-  2026-09-24 19:00:00 | Punk | Grito Exclamac!ón (MX / post-punk, no wave) + J Mahon (alt. rock, chamber pop) im Schokoladen
-  2026-09-24 19:00:00 | Punk | Wracaj Bo Ciemno / Sorry I'm Late / I Hate The Bouncers
-  2026-09-24 19:30:00 | None | NEKRODEUS - Tour - Konzert
-  2026-09-24 20:00:00 | Punk | The GOODS (US) + Joel Cusumano (US)
-  2026-09-24 20:00:00 | None | yotta fm / Gravel Lung / Earth Logoff
-  2026-09-24 21:00:00 | Punk | SO FUCKIN' CONFUSED + STROZZ
+API-Events: 80 | übernommen: 80
   2026-09-25 18:00:00 | Punk | UNIVERSUM + MORBYDA
   2026-09-25 19:40:00 | Punk | NO_FEATURE4.0: LAQQ + das_synthikat
   2026-09-25 21:00:00 | Punk | Dark Thoughts + Goulag
@@ -29,3 +23,9 @@ API-Events: 83 | übernommen: 83
   2026-10-02 19:00:00 | Punk | Uzimoto + Gelbart + Ultra Violet @ OGH - 2.10.
   2026-10-02 19:00:00 | Metal | Nadja & Grin
   2026-10-02 19:00:00 | None | LADY LAZARUS + MENSTRUATIONSMASSAKER
+  2026-10-03 14:00:00 | Punk | PUNKtober Fest
+  2026-10-03 19:00:00 | Jazz | S.G.A.T.V + JAZZ
+  2026-10-04 19:00:00 | Rock | KALEIDOBOLT + SATANEN
+  2026-10-04 19:00:00 | Punk | Loma Prieta
+  2026-10-05 19:00:00 | Punk | ĠENN (post-punk, uk/malta) + Junokill (astro-punk, hh)
+  2026-10-05 19:00:00 | Techno | The Asteroid No.4, Acid Rooster

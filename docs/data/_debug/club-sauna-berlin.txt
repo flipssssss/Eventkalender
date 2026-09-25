@@ -1,5 +1,4 @@
-Events: 21
-  2026-09-24 17:30:00 | puppy sweat
+Events: 20
   2026-09-25 17:30:00 | flinta sweat
   2026-09-26 17:30:00 | Gender Mix – Couples Edition
   2026-10-01 17:30:00 | tin* sweat

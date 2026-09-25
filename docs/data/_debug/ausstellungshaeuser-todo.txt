@@ -1,9 +1,12 @@
 Häuser ohne kuratierte Öffnungszeiten (in scrapers/openinghours.py ergänzen):
 
 Café Cralle
+Café MadaMe Mehringplatz 10 Berlin Deutschland
+Greifswalder Strasse 4 10405 Berlin Deutschland
 Museum Barberini
 Prater Galerie
 Projektraum 11m2
+Regenbogenfabrik Lausitzer Str. 22 10999 Berlin Deutschland
 Sprüth Magers
 Villa Schöningen
 f³ – Freiraum für Fotografie

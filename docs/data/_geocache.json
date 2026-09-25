@@ -198,6 +198,12 @@
   "lat": 52.5579871,
   "lng": 13.347349
  },
+ "13355 Berlin": {
+  "address": "13355 Gesundbrunnen",
+  "bezirk": "Mitte",
+  "lat": 52.5418314,
+  "lng": 13.3905625
+ },
  "13359 Berlin": {
   "address": "13359 Gesundbrunnen",
   "bezirk": "Mitte",
@@ -319,6 +325,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5033045,
   "lng": 13.4207169
+ },
+ "Adlershof 1248, 12489 Berlin": {
+  "address": "12489 Adlershof",
+  "bezirk": "Treptow-Köpenick",
+  "lat": 52.4378932,
+  "lng": 13.5475496
  },
  "Admiralstr. 17 Berlin Deutschland": {
   "address": "Admiralstraße 17, 10999 Kreuzberg",
@@ -1989,6 +2001,12 @@
   "lat": 52.5286995,
   "lng": 13.4254805
  },
+ "Greifswalder Strasse 4 10405 Berlin Deutschland": {
+  "address": "Greifswalder Straße 4, 10405 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5286995,
+  "lng": 13.4254805
+ },
  "Greifswalder Straße 23A, 10405 Berlin": {
   "address": "Greifswalder Straße 23A, 10405 Prenzlauer Berg",
   "bezirk": "Pankow",
@@ -2495,6 +2513,7 @@
   "lat": 52.4782137,
   "lng": 13.4430391
  },
+ "IG-Metall-Haus, Alte Jakobstraße 149, 10969 Berlin": null,
  "IKSK, Holzmarktstraße 25, 10243 Berlin": {
   "address": "Holzmarktstraße 25, 10243 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -2569,6 +2588,12 @@
  "JWP „MittenDrin“, Emil-Wendland-Platz 1 Neuruppin Deutschland, Berlin": null,
  "Jagdhausstraße 1448, 14480 Berlin": null,
  "Jagdschloss Stern, Jagdhausstraße, 14480, Potsdam, Berlin": null,
+ "Jakobstraße 149, 10969 Berlin": {
+  "address": "Alte Jakobstraße 149, 10969 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4994538,
+  "lng": 13.3960748
+ },
  "Jebensstraße 2, 10623 Berlin": {
   "address": "Jebensstraße 2, 10623 Charlottenburg",
   "bezirk": "Charlottenburg-Wilmersdorf",
@@ -4045,6 +4070,12 @@
   "lng": 13.3670096
  },
  "Mauerpark Amphitheater, Bernauer Straße 63, 13355 Berlin": null,
+ "Mauerpark Bernauer Str. Berlin Deutschland": {
+  "address": "Bernauer Straße, 13355 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5415157,
+  "lng": 13.4023137
+ },
  "Mauerpark, Bernauer Straße 63, 13355 Berlin": null,
  "Mauerstraße 79, 10117 Berlin": {
   "address": "Mauerstraße 79, 10117 Mitte",
@@ -4273,6 +4304,7 @@
   "lat": 52.5004737,
   "lng": 13.4234898
  },
+ "NGBK Oranienstr. 25 1. Stock Berlin Deutschland": null,
  "Nachbarschaftszentrum Rudi Modersohnstraße 55 Berlin Deutschland": null,
  "Nansenstr.  12, 12047 Berlin": {
   "address": "Nansenstraße 12, 12047 Neukölln",
@@ -4514,6 +4546,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5003909,
   "lng": 13.4221612
+ },
+ "Oranienstr. 25, Berlin": {
+  "address": "Oranienstraße 25, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5009795,
+  "lng": 13.4207839
  },
  "Oranienstrasse 36, 10999 Berlin": {
   "address": "Oranienstraße 36, 10999 Kreuzberg",
@@ -5280,6 +5318,7 @@
   "lat": 52.5483741,
   "lng": 13.3885086
  },
+ "S+U Gesundbrunnen, RE3 Gleis 9, 13355 Berlin": null,
  "S+U-Bhf Rathaus Steglitz, 12165 Berlin": null,
  "S-/U-Bhf. Schönhauser Allee Berlin": null,
  "S-/U-Bhf. Schönhauser Allee Berlin Deutschland": null,
@@ -5289,6 +5328,7 @@
   "lat": 52.4763523,
   "lng": 13.3640907
  },
+ "S-Bhf Adlershof, 12489 Berlin": null,
  "S-Bhf Charlottenburg, Gleis 4, 10627 Berlin": null,
  "S-Bhf. Gesundbrunnen Berlin Deutschland": {
   "address": "Hochstraße 46, 13357 Gesundbrunnen",
@@ -6789,6 +6829,7 @@
  "men, Race & Class“ von Angela Davis, Berlin": null,
  "men, Race & Class” by Angela Davis, Berlin": null,
  "mit einem Infostand vertreten sein und beteiligen uns an den Diskussionen, Berlin": null,
+ "nGbK Oranienstaße 25 2. Stock 10999 Berlin Deutschland": null,
  "near Bethaniendamm berlin berlin": null,
  "near Bethaniendamm berlin berlin Deutschland": null,
  "north-east side of the intersection of Wassersportallee and Adlergestell near the Grunau S-Bahn, Berlin": null,

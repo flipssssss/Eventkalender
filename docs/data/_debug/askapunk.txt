@@ -1,10 +1,7 @@
-API-Events: 80 | übernommen: 80
-  2026-09-25 18:00:00 | Punk | UNIVERSUM + MORBYDA
-  2026-09-25 19:40:00 | Punk | NO_FEATURE4.0: LAQQ + das_synthikat
-  2026-09-25 21:00:00 | Punk | Dark Thoughts + Goulag
+API-Events: 79 | übernommen: 79
   2026-09-26 10:45:00 | None | Queer Tours for All - Plänterwald
-  2026-09-26 19:00:00 | Punk | CHEMICAL THREAT + PLACID
   2026-09-26 19:00:00 | None | JEFF CLARKE (folk, black lips/demons claws) & DANE JOE (ambient/exp, jukebox baby records) & Bretford Supreme DJ-Team!
+  2026-09-26 19:00:00 | Punk | CHEMICAL THREAT + PLACID
   2026-09-26 19:30:00 | Punk | The Dharma Chain - Album Launch
   2026-09-26 20:00:00 | Punk | R.M.F.C. + LEMONGRAB + INESSA ANXIOUS
   2026-09-26 20:00:00 | None | 10 YEARS+ Searchwing - Soliparty für Seenotrettung
@@ -20,12 +17,15 @@ API-Events: 80 | übernommen: 80
   2026-10-01 17:00:00 | Punk | BIRTHDAY BASH - 15 YEARS OF DIRTY IMMIGRANT COLLECTIVE  & 11 YEARS OF FUCKED UP FIGHTERS
   2026-10-01 19:00:00 | Punk | Conexion Sudaka
   2026-10-02 08:30:00 | None | Las Migrañas tape release party with Diane Electro and Kaskader
-  2026-10-02 19:00:00 | Punk | Uzimoto + Gelbart + Ultra Violet @ OGH - 2.10.
-  2026-10-02 19:00:00 | Metal | Nadja & Grin
   2026-10-02 19:00:00 | None | LADY LAZARUS + MENSTRUATIONSMASSAKER
+  2026-10-02 19:00:00 | Metal | Nadja & Grin
+  2026-10-02 19:00:00 | Punk | Uzimoto + Gelbart + Ultra Violet @ OGH - 2.10.
   2026-10-03 14:00:00 | Punk | PUNKtober Fest
   2026-10-03 19:00:00 | Jazz | S.G.A.T.V + JAZZ
+  2026-10-03 20:00:00 | Punk | Werwolf in Aspik + Zigaretti
   2026-10-04 19:00:00 | Rock | KALEIDOBOLT + SATANEN
   2026-10-04 19:00:00 | Punk | Loma Prieta
   2026-10-05 19:00:00 | Punk | ĠENN (post-punk, uk/malta) + Junokill (astro-punk, hh)
   2026-10-05 19:00:00 | Techno | The Asteroid No.4, Acid Rooster
+  2026-10-07 19:00:00 | None | Die besondere Buchvorstellung: LESUNG & LIEDER
+  2026-10-07 20:00:00 | Punk | ÚLTIMA BATALLA + TURBIO FUTURO + CHAYE

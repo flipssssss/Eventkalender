@@ -1,8 +1,7 @@
 Event-Links: 17 | Events: 15
-  2026-09-26 18:00:00 | Strandbad Wendenschloss, Möllhausenufer 30, 12557, Berlin | Live Session im Strandbad : Langschlenderer
-  2026-09-26 20:00:00 | Kesselhaus in der KulturBrauerei, Knaackstraße 97, 10435, Berlin | 50 Jahre Monokel.
   2026-09-27 15:30:00 | Industriesalon Schöneweide, Reinbeckstraße 10, 12459, Berlin | Jazz Cafe - Duo Tobias Delius – Michiel Scheen
   2026-09-27 19:00:00 | Café Engelberg, Oderberger Straße 21, 10435, Berlin | EMELEH live im Café Engelberg
+  2026-09-29 19:30:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Session im ART Stalker
   2026-10-02 20:00:00 | Studio Börne, Börnestraße, 13086 Berlin, Deutschland, Börnestraße, 13086, Berlin | Hot and Free. Generationen im Dialog. Das Vincent Meissner Trio im Gespräch mit Joachim Kühn.
   2026-10-03 20:00:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Dan Patlansky - Blues Rock
   2026-10-03 20:00:00 | WABE in der Schönfließer Straße 7 (neuer Spielort), Schönfließer Straße 7, 10439, Berlin | LAURA GRANDY & BAND: All These Feelings
@@ -16,3 +15,4 @@ Dischinger Brücke, 13581, Berlin | Jazz goes Synagogue
   2026-10-09 20:00:00 | Little Stage Berlin, Jonasstraße, 12053, Berlin | Gur Liraz Trio
   2026-10-10 19:30:00 | MS Goldberg, Havelufer
 Dischinger Brücke, 13581, Berlin | Yuliia Holub Quintett – Roots & Grooves
+  2026-10-10 20:00:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | BOFF - Indie Pop/Rock

@@ -731,6 +731,12 @@
  },
  "Badenscher Hof Jazzclub, Badensche Str. 29, 10715, Berlin": null,
  "Baergarten Schnellerstraße 137 12439 Berlin Deutschland": null,
+ "Baergarten, Berlin": {
+  "address": "Schnellerstraße, 12439 Niederschöneweide",
+  "bezirk": "Treptow-Köpenick",
+  "lat": 52.4602423,
+  "lng": 13.5057814
+ },
  "Bahnhof Oranienburg Berlin": null,
  "Bahnhof Oranienburg Berlin Deutschland": null,
  "Baiz Schönhauser Allee 26 A 10435 Berlin Deutschland": null,
@@ -947,6 +953,12 @@
   "bezirk": "Mitte",
   "lat": 52.5055117,
   "lng": 13.4257878
+ },
+ "Bethaniendamm 28, 10997 Berlin": {
+  "address": "Bethaniendamm, 10179 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5066764,
+  "lng": 13.4277222
  },
  "Bethaniendamm, 10179 Mitte, Berlin": {
   "address": "Bethaniendamm, 10179 Mitte",
@@ -1979,6 +1991,12 @@
   "lat": 52.4919487,
   "lng": 13.3889569
  },
+ "Gneisenaustr.18 10961 Berlin": {
+  "address": "Gneisenaustraße 18, 10961 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4914681,
+  "lng": 13.3932034
+ },
  "Goerzallee 189, 14167 Berlin": {
   "address": "Goerzallee 189-223, 14167 Lichterfelde",
   "bezirk": "Steglitz-Zehlendorf",
@@ -2404,6 +2422,12 @@
   "bezirk": "Neukölln",
   "lat": 52.4767265,
   "lng": 13.4200344
+ },
+ "Heynstraße 15, 13187 Berlin": {
+  "address": "Heynstraße 15, 13187 Pankow",
+  "bezirk": "Pankow",
+  "lat": 52.5629865,
+  "lng": 13.4026081
  },
  "Hind-Rajab-Platz (ehem. Hermannplatz), 12049 Berlin": null,
  "Hinterhof 1, 10967 Berlin": null,
@@ -3908,6 +3932,12 @@
   "lat": 52.5142306,
   "lng": 13.4884364
  },
+ "Mahalle Waldemarstrasse 110 Berlin Deutschland": {
+  "address": "Waldemarstraße 110, 10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5009882,
+  "lng": 13.4284142
+ },
  "Maigalerie Torstraße 6 10119 Berlin Deutschland": {
   "address": "Torstraße 6, 10119 Mitte",
   "bezirk": "Mitte",
@@ -4974,6 +5004,7 @@
   "lat": 52.4919262,
   "lng": 13.4383871
  },
+ "Rauchhaus Bethaniendamm 28 10997 Berlin Deutschland": null,
  "Raum für Drastische Massnahmen, Oderstraße 34, 10247 Berlin": {
   "address": "Oderstraße 34, 10247 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -6293,6 +6324,8 @@
   "lat": 52.4891876,
   "lng": 13.5212576
  },
+ "US Botschaft Pariser Platz/Brandenburger Tor Berlin": null,
+ "US Botschaft Pariser Platz/Brandenburger Tor Berlin Deutschland": null,
  "Uferstraße 23, 13357 Berlin": {
   "address": "Uferstraße 23, 13357 Gesundbrunnen",
   "bezirk": "Mitte",

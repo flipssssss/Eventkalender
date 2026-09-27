@@ -1,6 +1,4 @@
 Event-Links: 17 | Events: 15
-  2026-09-27 15:30:00 | Industriesalon Schöneweide, Reinbeckstraße 10, 12459, Berlin | Jazz Cafe - Duo Tobias Delius – Michiel Scheen
-  2026-09-27 19:00:00 | Café Engelberg, Oderberger Straße 21, 10435, Berlin | EMELEH live im Café Engelberg
   2026-09-29 19:30:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Session im ART Stalker
   2026-10-02 20:00:00 | Studio Börne, Börnestraße, 13086 Berlin, Deutschland, Börnestraße, 13086, Berlin | Hot and Free. Generationen im Dialog. Das Vincent Meissner Trio im Gespräch mit Joachim Kühn.
   2026-10-03 20:00:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Dan Patlansky - Blues Rock
@@ -16,3 +14,5 @@ Dischinger Brücke, 13581, Berlin | Jazz goes Synagogue
   2026-10-10 19:30:00 | MS Goldberg, Havelufer
 Dischinger Brücke, 13581, Berlin | Yuliia Holub Quintett – Roots & Grooves
   2026-10-10 20:00:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | BOFF - Indie Pop/Rock
+  2026-10-10 20:00:00 | Kubiz Raoul Wallenberg, Bernkasteler Str 78, 13088, Berlin | Sebastian Schunke Trio: Elusive Beauty
+  2026-03-18 21:00:00 | KulturMarktHalle, Hanns-Eisler-Straße 93, 10409, Berlin | The Composers' Orchestra Berlin

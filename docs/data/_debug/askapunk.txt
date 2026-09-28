@@ -1,7 +1,4 @@
-API-Events: 73 | übernommen: 73
-  2026-09-27 14:00:00 | Punk | Malz-Café
-  2026-09-27 14:45:00 | None | Queer Tours for All - Gay and Sapphic Schöneberg
-  2026-09-27 21:00:00 | Punk | DESTITUTES + MINDLOCK
+API-Events: 76 | übernommen: 76
   2026-09-28 19:00:00 | Metal | Mourir + Iffernet (both black metal, fr) x Schokoladen
   2026-09-28 19:00:00 | Punk | SPLIT SYSTEM + CLUBS
   2026-09-29 19:00:00 | Punk | HYPERDOG (Linz,AT) & KLEPTOMANIM (Ramat Gan,Isr)
@@ -9,14 +6,18 @@ API-Events: 73 | übernommen: 73
   2026-09-30 19:00:00 | Punk | FRENZEE (GR/AU) + KANNABINÕID (EE)
   2026-10-01 17:00:00 | Punk | BIRTHDAY BASH - 15 YEARS OF DIRTY IMMIGRANT COLLECTIVE  & 11 YEARS OF FUCKED UP FIGHTERS
   2026-10-01 19:00:00 | Punk | Conexion Sudaka
+  2026-10-01 20:00:00 | None | THE LAST VINCY + THE VALIDATIONS
   2026-10-02 08:30:00 | None | Las Migrañas tape release party with Diane Electro and Kaskader
+  2026-10-02 17:45:00 | None | Queer Tours for All - Queer Kreuzberg
   2026-10-02 19:00:00 | Punk | Uzimoto + Gelbart + Ultra Violet @ OGH - 2.10.
   2026-10-02 19:00:00 | Metal | Nadja & Grin
   2026-10-02 19:00:00 | None | LADY LAZARUS + MENSTRUATIONSMASSAKER
   2026-10-02 21:00:00 | None | sunflowerstarfish @ Junction Bar, Berlin, Friday, Oct 02
+  2026-10-03 11:45:00 | None | Queer Tours for All - Radical Prenzlauer Berg
   2026-10-03 14:00:00 | Punk | PUNKtober Fest
   2026-10-03 19:00:00 | Jazz | S.G.A.T.V + JAZZ
   2026-10-03 20:00:00 | Punk | Werwolf in Aspik + Zigaretti
+  2026-10-04 14:45:00 | None | Queer Tours for All - Gay and Sapphic Schöneberg
   2026-10-04 19:00:00 | Punk | Loma Prieta
   2026-10-04 19:00:00 | Rock | KALEIDOBOLT + SATANEN
   2026-10-05 19:00:00 | Punk | ĠENN (post-punk, uk/malta) + Junokill (astro-punk, hh)
@@ -24,8 +25,7 @@ API-Events: 73 | übernommen: 73
   2026-10-07 19:00:00 | None | Die besondere Buchvorstellung: LESUNG & LIEDER
   2026-10-07 20:00:00 | Punk | ÚLTIMA BATALLA + TURBIO FUTURO + CHAYE
   2026-10-08 19:00:00 | Punk | Im Anschluss präsentiert: Mangel + Dosenstolz (feat. Tancred) + Constant Disappointment
-  2026-10-09 19:00:00 | None | Inertials / Sininen / yonder
+  2026-10-09 14:45:00 | None | Queer Tours for All - Königsheide
   2026-10-09 19:00:00 | Punk | Soft Palms
+  2026-10-09 19:00:00 | None | Inertials / Sininen / yonder
   2026-10-09 19:00:00 | None | Mental Riot Festival
-  2026-10-09 19:30:00 | Punk | FANGS ON FUR + CATAPHILES
-  2026-10-09 19:30:00 | None | Jüdische Identitäten und Antisemitismus im Punk

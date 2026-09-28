@@ -24,6 +24,6 @@ Teaser: 145 | Berlin: 28 | andere Städte: 117 | mit Beschreibung: 28
   2026-09-29 10:00:00 | Berlin | Die aktuelle Lage in Mittelosteuropa
   2026-09-29 18:00:34 | Berlin | In Rosas Schatten
   2026-09-29 18:00:52 | Berlin | Koloniale Kontinuitäten in Europa und Afrika seit GEAS
-  2026-09-30 19:00:00 | Berlin | Why Everything is at it Seems
+  2026-09-30 19:00:00 | Berlin | Why Everything is as it Seems
   2026-09-30 19:00:00 | Berlin | Erik Skare: A Brief Introduction to the Ideology and History of Palestinian…
   2026-09-30 19:00:10 | Berlin | Flexibel, prekär, unsichtbar: Arbeiten in der Plattformökonomie

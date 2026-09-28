@@ -1827,6 +1827,12 @@
   "lat": 52.5658206,
   "lng": 13.400215
  },
+ "Flughafen Schönefeld Berlin Deutschland": {
+  "address": "Mittelstraße 20, 12529 Schönefeld",
+  "bezirk": null,
+  "lat": 52.391434,
+  "lng": 13.5126842
+ },
  "Flutgraben e.V. Am Flutgraben 3 Berlin Deutschland": {
   "address": "Am Flutgraben 3, 12435 Alt-Treptow",
   "bezirk": "Treptow-Köpenick",
@@ -4052,6 +4058,12 @@
   "lat": 52.5038986,
   "lng": 13.4254958
  },
+ "Mariannenplatz, 10997 Berlin": {
+  "address": "Mariannenplatz, 10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5035914,
+  "lng": 13.425348
+ },
  "Mariannenstraße 6, 10997 Berlin": {
   "address": "Mariannenstraße 6, 10997 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -4468,6 +4480,12 @@
   "bezirk": "Tempelhof-Schöneberg",
   "lat": 52.4991429,
   "lng": 13.3521559
+ },
+ "Nollendorfplatz 1078, 10787 Berlin": {
+  "address": "Nollendorfplatz, 10777 Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4993854,
+  "lng": 13.3527258
  },
  "Nollendorfplatz, Berlin": {
   "address": "Nollendorfplatz, 10777 Schöneberg",
@@ -4959,6 +4977,7 @@
   "lat": 52.5103673,
   "lng": 13.4286199
  },
+ "Rathaus Neukölln, Karl-Marx-Straße 83 12043 Berlin": null,
  "Rathaus Neukölln, Karl-Marx-Straße 83, 12043 Berlin": null,
  "Rathaus Schöneberg, John-F.-Kennedy-Platz 1, 10825 Berlin": {
   "address": "John-F.-Kennedy-Platz 1, 10825 Schöneberg",
@@ -5268,6 +5287,7 @@
   "lat": 52.5266687,
   "lng": 13.4106754
  },
+ "Rose Winkel at Nollendorfplatz, 10787 Berlin": null,
  "Rose Winkel at Nollendorfplatz, Berlin": null,
  "Rosengarten Kulturpavillon, gegenüber Weinsbergweg 13, 10119 Berlin": null,
  "Rosenthaler Platz, 10119 Berlin": {

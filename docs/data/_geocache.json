@@ -150,6 +150,12 @@
   "lat": 52.4652506,
   "lng": 13.5280941
  },
+ "12529 Berlin": {
+  "address": "Mittelstraße, 12529 Schönefeld",
+  "bezirk": null,
+  "lat": 52.3657974,
+  "lng": 13.4888906
+ },
  "12557 Berlin": {
   "address": "12557 Köpenick",
   "bezirk": "Treptow-Köpenick",
@@ -827,6 +833,7 @@
   "lat": 52.5173885,
   "lng": 13.3951309
  },
+ "Berlin - Anmeldung erforderlich!": null,
  "Berlin Berlin": {
   "address": "Tauentzienstraße, 10789 Charlottenburg",
   "bezirk": "Charlottenburg-Wilmersdorf",
@@ -2718,6 +2725,7 @@
   "lng": 13.4509424
  },
  "Joris Kern, Berlin": null,
+ "Jugendclub Schloßstraße, Schloßstraße 19, 14059 Berlin": null,
  "Jugendclub, Schloßstraße 9, 14059 Berlin": null,
  "Jugendkulturzentrum M24 Mühlenstr.24, 13187 Berlin Deutschland": null,
  "Jugendzentrum DieLynar, Lynarstraße 14, 13353 Berlin": null,
@@ -2976,6 +2984,12 @@
   "bezirk": "Pankow",
   "lat": 52.5375635,
   "lng": 13.4094316
+ },
+ "Kastanienallee, Berlin": {
+  "address": "Kastanienallee, 10435 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5382134,
+  "lng": 13.4093332
  },
  "Kerala Space, Berlin": null,
  "Kesselhaus in der KulturBrauerei, Knaackstraße 97, 10435, Berlin": null,
@@ -3944,6 +3958,7 @@
   "lat": 52.5009882,
   "lng": 13.4284142
  },
+ "Mahnwache BER Terminal 5, 12529 Schönefeld, Berlin": null,
  "Maigalerie Torstraße 6 10119 Berlin Deutschland": {
   "address": "Torstraße 6, 10119 Mitte",
   "bezirk": "Mitte",
@@ -4699,6 +4714,12 @@
   "bezirk": "Lichtenberg",
   "lat": 52.5076121,
   "lng": 13.4749435
+ },
+ "Oya Bar, Mariannenstraße 6, 10997 Berlin": {
+  "address": "Mariannenstraße 6, 10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5008915,
+  "lng": 13.4233212
  },
  "Oya-Bar, Mariannenstraße 6 10997 Berlin Deutschland": null,
  "PA58 Prinzenallee 58 Berlin Deutschland": {
@@ -5613,6 +5634,12 @@
   "lat": 52.4548978,
   "lng": 13.3175925
  },
+ "Schloßstraße 19, 14059 Berlin": {
+  "address": "Schloßstraße 19, 14059 Charlottenburg",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.5145086,
+  "lng": 13.29583
+ },
  "Schloßstraße 70, 14059 Berlin": {
   "address": "Schloßstraße 70, 14059 Charlottenburg",
   "bezirk": "Charlottenburg-Wilmersdorf",
@@ -5971,6 +5998,12 @@
   "lat": 52.6356441,
   "lng": 13.4938846
  },
+ "Stadtteilbibliothek, Halemweg 18, 13627 Berlin": {
+  "address": "Halemweg 18, 13627 Charlottenburg-Nord",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.5375039,
+  "lng": 13.2871861
+ },
  "Stadtteilbüro Fhain Warschauerstr. 23 Berlin Deutschland": {
   "address": "Warschauer Straße 23, 10243 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -6045,6 +6078,12 @@
   "bezirk": "Tempelhof-Schöneberg",
   "lat": 52.4759806,
   "lng": 13.3650726
+ },
+ "Südkreuz, Hildegard-Knef-Platz, 12101 Berlin": {
+  "address": "Hildegard-Knef-Platz, 10829 Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4757327,
+  "lng": 13.3654134
  },
  "Südostallee 42, 12437 Berlin": {
   "address": "Südostallee 42, 12437 Johannisthal",
@@ -6629,6 +6668,12 @@
   "bezirk": "Treptow-Köpenick",
   "lat": 52.4586963,
   "lng": 13.5255636
+ },
+ "Wilhelmstrasse Kreuzberg, Berlin": {
+  "address": "Wilhelmstraße 115, 10963 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5042082,
+  "lng": 13.3853499
  },
  "Willy-Brandt-Straße 1, 10557 Berlin": {
   "address": "Willy-Brandt-Straße 1, 10557 Tiergarten",

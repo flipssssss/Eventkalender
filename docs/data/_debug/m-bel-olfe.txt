@@ -1,4 +1,4 @@
-event-blocks: 14 | Events: 14
+event-blocks: 21 | Events: 21
 
 <div class="event-block">
  <!-- Zeile 1: Datum + Titel -->
@@ -34,11 +34,15 @@ event-blocks: 14 | Events: 14
  </div>
  <!-- Zeile 2: Bild + Beschreibung -->
  <div class="event-row-2">
-  <div class="event-image event-image--empty">
+  <div class="event-image">
+   <img alt="" src="ProgrammFotos/Barbie_Garbage_2026_10_02.jpg"/>
   </div>
- </div>
-</div>
+  <div class="event-description">
+   Vicky Oliver aka Barbie, based in Berlin, is a DJ and singer-producer in Furotica, an italo-disco music duo, she released five powerful EPs and multiple V/A collaborations on labels such as Bordello A Parigi, Toy Tonics, Tom Tom Disco, and Boots &amp; Legs. Along her career, she has toured extensively across South America, Europe, and Asia, performing and playing at various clubs and festivals worldwide.
 
+
+
+On her sets she delivers cool waves loaded with delightful psychede
 
 ----
 <div class="event-block">

@@ -1,12 +1,13 @@
 Event-Links: 15 | Events: 15
-  2026-09-29 19:30:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Session im ART Stalker
   2026-10-02 20:00:00 | Studio Börne, Börnestraße, 13086 Berlin, Deutschland, Börnestraße, 13086, Berlin | Hot and Free. Generationen im Dialog. Das Vincent Meissner Trio im Gespräch mit Joachim Kühn.
   2026-10-03 20:00:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Dan Patlansky - Blues Rock
   2026-10-03 20:00:00 | WABE in der Schönfließer Straße 7 (neuer Spielort), Schönfließer Straße 7, 10439, Berlin | LAURA GRANDY & BAND: All These Feelings
   2026-10-04 15:30:00 | Industriesalon Schöneweide, Reinbeckstraße 10, 12459, Berlin | Jazz Cafe - FOR THEIR EGOS
   2026-10-05 20:00:00 | Café Engels, Herrfurthstr. 21, 12049, Berlin | Blue Moonday Jazzsession
+  2026-09-29 19:30:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Session im ART Stalker
   2026-10-07 20:00:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Musikschule City West: Bandstand mit Meteora + Band Still Unnamed
   2026-10-08 00:00:00 | Lido, Cuvrystraße 7, 10997, Berlin | Azymuth | Berlin
+  2026-10-09 19:00:00 | Die 7 Landesvertretungen in den Ministergärten, In den Ministergärten 3-10, 10117, Berlin | Jazz in den Ministergärten 2026
   2026-10-09 19:30:00 | Schloss und Gutshof Britz, Alt-Britz 73, 12359, Berlin | Bigband Night 2026
   2026-10-09 19:30:00 | MS Goldberg, Havelufer
 Dischinger Brücke, 13581, Berlin | Jazz goes Synagogue
@@ -15,4 +16,3 @@ Dischinger Brücke, 13581, Berlin | Jazz goes Synagogue
   2026-10-10 19:30:00 | MS Goldberg, Havelufer
 Dischinger Brücke, 13581, Berlin | Yuliia Holub Quintett – Roots & Grooves
   2026-10-10 20:00:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | BOFF - Indie Pop/Rock
-  2026-10-10 20:00:00 | Kubiz Raoul Wallenberg, Bernkasteler Str 78, 13088, Berlin | Sebastian Schunke Trio: Elusive Beauty

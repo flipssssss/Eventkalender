@@ -1,27 +1,5 @@
-event-blocks: 21 | Events: 21
+event-blocks: 20 | Events: 20
 
-<div class="event-block">
- <!-- Zeile 1: Datum + Titel -->
- <div class="event-row-1">
-  <div class="event-time">
-   Donnerstag, 1. Okt. 22:00
-  </div>
-  <div class="event-title">
-   Schwulenschubsen
-  </div>
- </div>
- <!-- Zeile 2: Bild + Beschreibung -->
- <div class="event-row-2">
-  <div class="event-image event-image--empty">
-  </div>
-  <div class="event-description">
-   Eno &amp; Dougie
-  </div>
- </div>
-</div>
-
-
-----
 <div class="event-block">
  <!-- Zeile 1: Datum + Titel -->
  <div class="event-row-1">
@@ -82,6 +60,28 @@ On her sets she delivers cool waves loaded with delightful psychede
   </div>
   <div class="event-description">
    Altersgerechte Trinkbetreuung mit Mukke von Teshi
+  </div>
+ </div>
+</div>
+
+
+----
+<div class="event-block">
+ <!-- Zeile 1: Datum + Titel -->
+ <div class="event-row-1">
+  <div class="event-time">
+   Dienstag, 6. Okt. 21:00
+  </div>
+  <div class="event-title">
+   FLINTA*-Abend
+  </div>
+ </div>
+ <!-- Zeile 2: Bild + Beschreibung -->
+ <div class="event-row-2">
+  <div class="event-image event-image--empty">
+  </div>
+  <div class="event-description">
+   Carla Valenti
   </div>
  </div>
 </div>

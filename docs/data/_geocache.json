@@ -1558,6 +1558,7 @@
   "lat": 52.5086058,
   "lng": 13.3871269
  },
+ "Die 7 Landesvertretungen in den Ministergärten, In den Ministergärten 3-10, 10117, Berlin": null,
  "Dircksenstraße 40, 10178 Mitte, Berlin": {
   "address": "Dircksenstraße 40, 10178 Mitte",
   "bezirk": "Mitte",
@@ -1866,6 +1867,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5165034,
   "lng": 13.4527335
+ },
+ "Frankfurter Tor, 10243 Berlin": {
+  "address": "Karl-Marx-Allee, 10243 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.515818,
+  "lng": 13.4539745
  },
  "Franz-Mehring-Platz 1, 10243 Berlin": {
   "address": "Franz-Mehring-Platz 1, 10243 Friedrichshain",
@@ -3095,6 +3102,12 @@
   "bezirk": "Mitte",
   "lat": 52.5112074,
   "lng": 13.4169157
+ },
+ "KlaMotte Nazarethkirchstr. 40 13347 Berlin Deutschland": {
+  "address": "Nazarethkirchstraße 40, 13347 Wedding",
+  "bezirk": "Mitte",
+  "lat": 52.5496285,
+  "lng": 13.3619057
  },
  "Klausenerplatz, 14059 Berlin": {
   "address": "Klausenerplatz, 14059 Charlottenburg",
@@ -4951,6 +4964,7 @@
  "Prinzessinnengarten Neukölln Hermannstraße 99-105 12051 Berlin Deutschland": null,
  "Prinzessinnengarten Neukölln Hermannstraße 99-105, 12051 Berlin": null,
  "Prinzessinnenstraße 30, 10969 Berlin": null,
+ "Pritzwalker Straße Ecke Turmstraße, 10559 Berlin": null,
  "Projektraum 11m2, Berlin": null,
  "Projektraum ABB (Scherer 8 - Zugang über Adolfstr) Schererstraße 8 (Zugang über Adolfstraße) 13347 Berlin Deutschland": null,
  "Pumptrack An der Ostbahn 9 Berlin": null,
@@ -6308,6 +6322,12 @@
   "bezirk": "Mitte",
   "lat": 52.5272516,
   "lng": 13.3304937
+ },
+ "Turmstraße 1055, 10559 Berlin": {
+  "address": "Turmstraße, 10559 Moabit",
+  "bezirk": "Mitte",
+  "lat": 52.5266298,
+  "lng": 13.3538242
  },
  "Turmstraße 91, 10559 Berlin": {
   "address": "Turmstraße 91, 10559 Moabit",

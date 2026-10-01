@@ -533,6 +533,12 @@
   "lat": 52.5114484,
   "lng": 13.4407738
  },
+ "Am Wriezener bhf, 10243 Berlin": {
+  "address": "Am Wriezener Bahnhof, 10243 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5114484,
+  "lng": 13.4407738
+ },
  "Amerika-Gedenkbibliothek, Berlin": {
   "address": "Blücherplatz 1, 10961 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -1953,6 +1959,7 @@
  "Galerie Newman, Berlin": null,
  "Gambino’s by AMANO, Berlin": null,
  "Garten Markgrafendamm 24c, 10245 Berlin": null,
+ "Gecekondu, Admiralstraße 1-2, 10999 Berlin": null,
  "Gemeinschaftsgarten Prachttomate Bornsdorfer Str. 9-11 12053 Berlin Deutschland": null,
  "Gemäldegalerie, Berlin": {
   "address": "Stauffenbergstraße, 10785 Tiergarten",
@@ -4337,6 +4344,7 @@
  },
  "Murx Karl-Marx-Straße 282 12057 Berlin Deutschland": null,
  "Murx, Karl-Marx-Straße 282, 12057 Berlin": null,
+ "Museum der Trostfrauen, Korea Verband e.V., Quitzowstraße 103, 10551 Berlin": null,
  "Museum des Kapitalismus Köpenicker Str. 172 10997 Berlin Deutschland": null,
  "Museum des Kapitalismus Köpenicker Str. 172 10997, 10997 Berlin": null,
  "Musikbrauerei, Greifswalder Straße 23A, 10405, Berlin": null,
@@ -4893,6 +4901,12 @@
   "lat": 52.5186753,
   "lng": 13.3731249
  },
+ "Platz des 18. März, 10117 Berlin": {
+  "address": "Platz des 18. März, 10117 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5163704,
+  "lng": 13.3772972
+ },
  "Platzhaus Helmholtzplatz 10437 Berlin Deutschland": {
   "address": "Helmholtzplatz 0, 10437 Prenzlauer Berg",
   "bezirk": "Pankow",
@@ -4974,6 +4988,12 @@
   "bezirk": "Mitte",
   "lat": 52.5468526,
   "lng": 13.3666534
+ },
+ "Quitzowstraße 103, 10551 Berlin": {
+  "address": "Quitzowstraße 103, 10551 Moabit",
+  "bezirk": "Mitte",
+  "lat": 52.53393,
+  "lng": 13.3405293
  },
  "Quälgeist Berlin e.V. Lankwitzer Straße 42/43, 12107 Berlin": null,
  "Quälgeist Berlin e.V., Lankwitzer Straße 42/43, Berlin, 12107, Deutschland": null,
@@ -6846,6 +6866,12 @@
   "bezirk": "Mitte",
   "lat": 52.5233563,
   "lng": 13.3898043
+ },
+ "Ziegrastrasse Berlin Deutschland": {
+  "address": "Ziegrastraße, 12057 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4759716,
+  "lng": 13.4589559
  },
  "Zielona Gora, Grünberger Straße 73, 10245 Berlin": null,
  "Zielona Góra Grünbergerstr. 73 10245 Berlin Deutschland": {

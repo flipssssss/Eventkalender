@@ -2,6 +2,8 @@ Häuser ohne kuratierte Öffnungszeiten (in scrapers/openinghours.py ergänzen):
 
 Café Cralle
 Café MadaMe Mehringplatz 10 Berlin Deutschland
+JUP Florastr. 84 13187 Berlin Deutschland
+K-fetisch Wildenbruchstraße 86 12045 Berlin Deutschland
 Museum Barberini
 Prater Galerie
 Projektraum 11m2

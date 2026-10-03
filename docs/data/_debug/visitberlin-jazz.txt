@@ -1,6 +1,4 @@
-Event-Links: 17 | Events: 16
-  2026-10-03 20:00:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Dan Patlansky - Blues Rock
-  2026-10-03 20:00:00 | WABE in der Schönfließer Straße 7 (neuer Spielort), Schönfließer Straße 7, 10439, Berlin | LAURA GRANDY & BAND: All These Feelings
+Event-Links: 17 | Events: 15
   2026-10-04 15:30:00 | Industriesalon Schöneweide, Reinbeckstraße 10, 12459, Berlin | Jazz Cafe - FOR THEIR EGOS
   2026-10-05 20:00:00 | Café Engels, Herrfurthstr. 21, 12049, Berlin | Blue Moonday Jazzsession
   2026-09-29 19:30:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Session im ART Stalker
@@ -17,3 +15,4 @@ Dischinger Brücke, 13581, Berlin | Yuliia Holub Quintett – Roots & Grooves
   2026-10-10 20:00:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | BOFF - Indie Pop/Rock
   2026-10-10 20:00:00 | Kubiz Raoul Wallenberg, Bernkasteler Str 78, 13088, Berlin | Sebastian Schunke Trio: Elusive Beauty
   2026-03-18 21:00:00 | KulturMarktHalle, Hanns-Eisler-Straße 93, 10409, Berlin | The Composers' Orchestra Berlin
+  2026-10-13 20:00:00 | Kammermusiksaal, Herbert-von-Karajan-Straße 1, 10785, Berlin | Luca Sestak Trio feat. Jakob Manz

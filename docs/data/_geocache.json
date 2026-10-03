@@ -374,6 +374,12 @@
   "lat": 52.4329197,
   "lng": 13.2532705
  },
+ "Ahornstraße 15 a, 12163 Berlin": {
+  "address": "Ahornstraße 15a, 12163 Steglitz",
+  "bezirk": "Steglitz-Zehlendorf",
+  "lat": 52.4621386,
+  "lng": 13.3194198
+ },
  "Ahornstraße 5, 14163 Zehlendorf, Berlin": {
   "address": "Ahornstraße 5, 14163 Zehlendorf",
   "bezirk": "Steglitz-Zehlendorf",
@@ -469,6 +475,12 @@
   "bezirk": "Treptow-Köpenick",
   "lat": 52.4875057,
   "lng": 13.4777625
+ },
+ "Alt-Treptow 6, 12435 Berlin, Germany": {
+  "address": "Alt-Treptow 6, 12435 Alt-Treptow",
+  "bezirk": "Treptow-Köpenick",
+  "lat": 52.487407,
+  "lng": 13.4813647
  },
  "Alte Feuerwache Friedrichshain, Marchlewskistraße 6, 10243, Berlin": null,
  "Alte Feuerwache THF Tempelhofer Damm 45 12101 Berlin Deutschland": null,
@@ -751,6 +763,12 @@
  },
  "Bahnhof Oranienburg Berlin": null,
  "Bahnhof Oranienburg Berlin Deutschland": null,
+ "Bahnhofstr. 6-8, Berlin": {
+  "address": "Bahnhofstraße, 13125 Karow",
+  "bezirk": "Pankow",
+  "lat": 52.6130913,
+  "lng": 13.4721828
+ },
  "Baiz Schönhauser Allee 26 A 10435 Berlin Deutschland": null,
  "Baiz Schönhauser Allee 26 A, 10435 Berlin": null,
  "Ballhaus Berlin": {
@@ -1524,6 +1542,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.4986501,
   "lng": 13.4440231
+ },
+ "Cuvrystraße 7, 10997 Berlin, Germany": {
+  "address": "Cuvrystraße 7, 10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4991046,
+  "lng": 13.4451096
  },
  "Cuvrystraße 7, 10997 Kreuzberg, Berlin": {
   "address": "Cuvrystraße 7, 10997 Kreuzberg",
@@ -2393,6 +2417,7 @@
   "lng": 13.4230764
  },
  "Heizhaus der Uferstudios Uferstraße 23 13357 Berlin Deutschland": null,
+ "Hekate, Berlin": null,
  "Herbert-von-Karajan-Straße 1, 10785 Berlin": {
   "address": "Herbert-von-Karajan-Straße 1, 10785 Tiergarten",
   "bezirk": "Mitte",
@@ -4530,6 +4555,7 @@
   "lat": 52.4995972,
   "lng": 13.3537297
  },
+ "Nollendorfpl., 10777 Berlin-Bezirk Tempelhof-Schöneberg": null,
  "Nollendorfplatz / Motzstraße, Berlin": {
   "address": "Motzstraße, 10777 Schöneberg",
   "bezirk": "Tempelhof-Schöneberg",

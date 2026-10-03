@@ -1,7 +1,6 @@
 top-keys: ['website', 'websiteSettings', 'collection', 'shoppingCart', 'shareButtons', 'showCart', 'localizedStrings', 'userAccountsContext', 'template', 'uiextensions', 'empty', 'emptyFolder', 'calendarView', 'pagination', 'upcoming']
-items: 26 | Events: 26
+items: 25 | Events: 25
 erstes item keys: ['id', 'collectionId', 'recordType', 'addedOn', 'updatedOn', 'starred', 'passthrough', 'tags', 'categories', 'workflowState', 'publishOn', 'authorId', 'systemDataId', 'systemDataVariants', 'systemDataSourceType', 'filename', 'mediaFocalPoint', 'colorData', 'urlId', 'title', 'sourceUrl', 'body', 'excerpt', 'location', 'customContent']
-  2026-10-02 23:55:00.506000 | The „B-flat All-Stars“present&nbsp;Kjalar Kollmer - Vocal &nbsp;
   2026-10-03 21:00:00.506000 | The Balkan Spirit Ensemble
   2026-10-04 21:00:00.506000 | Laurids Richter Quartett
   2026-10-06 21:00:00.506000 | AMELIA

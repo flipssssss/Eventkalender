@@ -1,25 +1,5 @@
-event-blocks: 19 | Events: 19
+event-blocks: 18 | Events: 18
 
-<div class="event-block">
- <!-- Zeile 1: Datum + Titel -->
- <div class="event-row-1">
-  <div class="event-time">
-   Samstag, 3. Okt. 21:00
-  </div>
-  <div class="event-title">
-   Dufte 3000
-  </div>
- </div>
- <!-- Zeile 2: Bild + Beschreibung -->
- <div class="event-row-2">
-  <div class="event-image">
-   <img alt="" src="ProgrammFotos/Dufte_3000_2026_10_03.jpg"/>
-  </div>
- </div>
-</div>
-
-
-----
 <div class="event-block">
  <!-- Zeile 1: Datum + Titel -->
  <div class="event-row-1">
@@ -83,3 +63,24 @@ event-blocks: 19 | Events: 19
   <div class="event-description">
    Sparkly Pony, known for bouncy rhythms and dreamy atmospheres, has been passionate about dance music and nightlife from a young age, starting his DJ journey in his mid-teens.
 As the co&amp;#8722;founder of SWEAT, a queer &amp; trans collective, he has made a strong mark on the Swedish and Danish club scenes through DJing, producing, and organizing events. Since its launch in 2014, SWEAT has focused on uplifting queer &amp; trans artists and creating spaces for genuine connection o
+
+----
+<div class="event-block">
+ <!-- Zeile 1: Datum + Titel -->
+ <div class="event-row-1">
+  <div class="event-time">
+   Dienstag, 13. Okt. 21:00
+  </div>
+  <div class="event-title">
+   FLINTA*-Abend
+  </div>
+ </div>
+ <!-- Zeile 2: Bild + Beschreibung -->
+ <div class="event-row-2">
+  <div class="event-image event-image--empty">
+  </div>
+  <div class="event-description">
+   Yvois
+  </div>
+ </div>
+</div>

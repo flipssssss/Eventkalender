@@ -1,6 +1,6 @@
-Events gesamt: 85 | mit Bild: 77 | mit Beschreibung: 79
-club/28354 (://about blank): 32 -> 32 Berlin | flyer=0 images=26 content=29
-club/98993 (Beate Uwe): 21 -> 21 Berlin | flyer=0 images=20 content=21
+Events gesamt: 83 | mit Bild: 75 | mit Beschreibung: 74
+club/28354 (://about blank): 30 -> 30 Berlin | flyer=0 images=24 content=27
+club/98993 (Beate Uwe): 20 -> 20 Berlin | flyer=0 images=19 content=20
 club/298230 (ROSA): 3 -> 3 Berlin | flyer=0 images=3 content=3
 promoter/82597 (BOAR Berlin): 0 -> 0 Berlin | flyer=0 images=0 content=0
 promoter/71007 (Buttons): 0 -> 0 Berlin | flyer=0 images=0 content=0
@@ -13,10 +13,10 @@ promoter/137536 (Magic Dyke*): 0 -> 0 Berlin | flyer=0 images=0 content=0
 promoter/169756 (Mala Junta): 3 -> 0 Berlin | flyer=0 images=3 content=3
 promoter/109496 (PiepShow Berlin): 15 -> 15 Berlin | flyer=0 images=15 content=15
 promoter/112980 (Pinky Promise): 1 -> 1 Berlin | flyer=0 images=1 content=1
-promoter/119317 (Polyamor): 6 -> 5 Berlin | flyer=0 images=5 content=4
+promoter/119317 (Polyamor): 9 -> 8 Berlin | flyer=0 images=8 content=4
 promoter/52590 (Pornceptual): 4 -> 1 Berlin | flyer=0 images=4 content=4
 promoter/68628 (Room 4 Resistance): 0 -> 0 Berlin | flyer=0 images=0 content=0
 promoter/110626 (Supernature): 0 -> 0 Berlin | flyer=0 images=0 content=0
-promoter/90524 (¡MASH-UP! Multigender / Multiworld): 1 -> 1 Berlin | flyer=0 images=1 content=1
-promoter/111118 (Body Language): 2 -> 2 Berlin | flyer=0 images=2 content=1
+promoter/90524 (¡MASH-UP! Multigender / Multiworld): 0 -> 0 Berlin | flyer=0 images=0 content=0
+promoter/111118 (Body Language): 1 -> 1 Berlin | flyer=0 images=1 content=0
 Artist-Auflösung: status=403 len=768 keine ID

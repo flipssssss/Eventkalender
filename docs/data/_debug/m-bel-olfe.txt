@@ -1,28 +1,5 @@
-event-blocks: 18 | Events: 18
+event-blocks: 17 | Events: 17
 
-<div class="event-block">
- <!-- Zeile 1: Datum + Titel -->
- <div class="event-row-1">
-  <div class="event-time">
-   Sonntag, 4. Okt. 18:00
-  </div>
-  <div class="event-title">
-   Olle Olfen
-  </div>
- </div>
- <!-- Zeile 2: Bild + Beschreibung -->
- <div class="event-row-2">
-  <div class="event-image">
-   <img alt="" src="ProgrammFotos/Olle_Olfen_2026_10_04.jpg"/>
-  </div>
-  <div class="event-description">
-   Altersgerechte Trinkbetreuung mit Mukke von Teshi
-  </div>
- </div>
-</div>
-
-
-----
 <div class="event-block">
  <!-- Zeile 1: Datum + Titel -->
  <div class="event-row-1">
@@ -81,6 +58,28 @@ As the co&amp;#8722;founder of SWEAT, a queer &amp; trans collective, he has mad
   </div>
   <div class="event-description">
    Yvois
+  </div>
+ </div>
+</div>
+
+
+----
+<div class="event-block">
+ <!-- Zeile 1: Datum + Titel -->
+ <div class="event-row-1">
+  <div class="event-time">
+   Donnerstag, 15. Okt. 22:00
+  </div>
+  <div class="event-title">
+   Schwulenschubsen
+  </div>
+ </div>
+ <!-- Zeile 2: Bild + Beschreibung -->
+ <div class="event-row-2">
+  <div class="event-image event-image--empty">
+  </div>
+  <div class="event-description">
+   Makode
   </div>
  </div>
 </div>

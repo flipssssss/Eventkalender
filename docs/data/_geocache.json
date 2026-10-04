@@ -918,6 +918,12 @@
   "lat": 52.4135931,
   "lng": 13.087704
  },
+ "Bernau bei Berlin": {
+  "address": "16321 Berlin",
+  "bezirk": null,
+  "lat": 52.6787254,
+  "lng": 13.5881114
+ },
  "Bernauer Straße 53, 13355 Berlin": {
   "address": "Bernauer Straße 53, 13507 Tegel",
   "bezirk": "Reinickendorf",
@@ -1025,6 +1031,12 @@
   "lat": 52.5121441,
   "lng": 13.3083771
  },
+ "Blackmore's - Berlins Musikzimmer, Warmbrunner Straße 52, 14193, Berlin": {
+  "address": "Warmbrunner Straße 52, 14193 Schmargendorf",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.4860865,
+  "lng": 13.2962459
+ },
  "Bleibtreustrasse 1, 10623 Berlin": {
   "address": "Bleibtreustraße 1, 10625 Charlottenburg",
   "bezirk": "Charlottenburg-Wilmersdorf",
@@ -1105,6 +1117,12 @@
   "bezirk": "Neukölln",
   "lat": 52.4764014,
   "lng": 13.4369488
+ },
+ "Botschaft der Republik Albanien, Friedrichstraße 231, 10969 Berlin": {
+  "address": "Friedrichstraße 231, 10969 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5029601,
+  "lng": 13.3907772
  },
  "Boxhagener Platz 1, 10245 Berlin": {
   "address": "Boxhagener Platz 1, 10245 Friedrichshain",
@@ -5225,6 +5243,12 @@
  },
  "Remise der Wilma19 Magdalenenstr. 19 (Lichtenberg): Berlin Deutschland": null,
  "Remise, Magdalenenstraße 19, 10365 Berlin": null,
+ "Renaissance Theater, Berlin": {
+  "address": "Knesebeckstraße 100, 10623 Charlottenburg",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.5103384,
+  "lng": 13.323503
+ },
  "Renate, Berlin": {
   "address": "Alt-Stralau 70, 10245 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -6098,6 +6122,12 @@
  "Stadtteilzentrum Haus am See, Berlin": null,
  "Stadtteilzentrum Schöneberg Hauptstraße 121 A 10827 Berlin Deutschland": null,
  "Stadtteilzentrum Schöneberg Hauptstraße 121 A, 10827 Berlin": null,
+ "Stadtwerkstatt Karl-Liebknecht-Straße 11 10178 Berlin Deutschland": {
+  "address": "Karl-Liebknecht-Straße 11, 10178 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5218469,
+  "lng": 13.4073841
+ },
  "Stasi-Zentrale, Berlin": {
   "address": "Ruschestraße, 10367 Lichtenberg",
   "bezirk": "Lichtenberg",
@@ -6576,6 +6606,7 @@
  "Vor der Amerika-Gedenkbibliothek, Eva-Mamlok-Platz (ehemals Blücherplatz), 10961 Berlin": null,
  "Vor der BHT-Mensa, Luxemburger Straße 9, 13353 Berlin": null,
  "Vorm Gecekondu, Admiralstraße 1-2, 10999 Berlin": null,
+ "WABE (Interimsspielstätte), Schönfließer Straße 7, 10439, Berlin": null,
  "WABE in der Schönfließer Straße 7 (neuer Spielort), Schönfließer Straße 7, 10439, Berlin": null,
  "WB13 Am Berl 13 13051 Berlin Deutschland": {
   "address": "Am Berl 13, 13051 Neu-Hohenschönhausen",

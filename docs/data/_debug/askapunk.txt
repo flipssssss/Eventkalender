@@ -1,9 +1,4 @@
-API-Events: 107 | übernommen: 107
-  2026-10-03 11:45:00 | None | Queer Tours for All - Radical Prenzlauer Berg
-  2026-10-03 14:00:00 | Punk | PUNKtober Fest
-  2026-10-03 19:00:00 | Jazz | S.G.A.T.V + JAZZ
-  2026-10-03 20:00:00 | Punk | Werwolf in Aspik + Zigaretti
-  2026-10-03 20:00:00 | None | Lost in Satzkorn² – Aus lauter Langeweile: I feel violent + Z.O.L. + Summer Gloom + schæden
+API-Events: 102 | übernommen: 102
   2026-10-04 14:45:00 | None | Queer Tours for All - Gay and Sapphic Schöneberg
   2026-10-04 19:00:00 | Punk | Kaleidobolt (FIN/Svart) + Satanen (FIN/Svart) at Neue Zukunft
   2026-10-04 19:00:00 | Punk | Loma Prieta
@@ -14,12 +9,12 @@ API-Events: 107 | übernommen: 107
   2026-10-07 20:00:00 | Punk | ÚLTIMA BATALLA + TURBIO FUTURO + CHAYE
   2026-10-08 19:00:00 | Metal | MONDO DRAG (+ EARLY MOODS) | NEUE ZUKUNFT - BERLIN
   2026-10-08 19:00:00 | Punk | Im Anschluss präsentiert: Mangel + Dosenstolz (feat. Tancred) + Constant Disappointment
-  2026-10-09 14:45:00 | None | Queer Tours for All - Königsheide Forest
   2026-10-09 14:45:00 | None | Queer Tours for All - Königsheide
-  2026-10-09 19:00:00 | Punk | Soft Palms
+  2026-10-09 14:45:00 | None | Queer Tours for All - Königsheide Forest
   2026-10-09 19:00:00 | Punk | HOWLING WOLVES // BELT // FURY WHIP @ Neue Zukunft Garage, Berlin
-  2026-10-09 19:00:00 | None | Mental Riot Festival
+  2026-10-09 19:00:00 | Punk | Soft Palms
   2026-10-09 19:00:00 | None | Inertials / Sininen / yonder
+  2026-10-09 19:00:00 | None | Mental Riot Festival
   2026-10-09 19:30:00 | Punk | FANGS ON FUR + CATAPHILES
   2026-10-09 19:30:00 | None | Jüdische Identitäten und Antisemitismus im Punk
   2026-10-09 20:00:00 | Rock | Fuzz Sagrado + Blackbox Massacre + Gelaender
@@ -29,3 +24,8 @@ API-Events: 107 | übernommen: 107
   2026-10-10 19:00:00 | Punk | Stoned Medusa // Shaun // Uranus Front // Doomerang
   2026-10-10 20:00:00 | Metal | Wave Mountain 14 + Yore + By Fire + Acid Arno +
   2026-10-11 15:00:00 | Metal | Podridão + Corpserot (Death Metal Matinee)
+  2026-10-11 18:00:00 | None | MONDO VIDEO 4: RED SPIRIT LAKE + SPLATTER FARM
+  2026-10-11 20:00:00 | Jazz | OYÈMI NOIZE & THE SAD GIRLS + MOYO RAY + MC JOSH
+  2026-10-12 19:00:00 | None | Kamara / Priscilla / ...and then I feel nothing
+  2026-10-13 19:00:00 | Punk | ZUR BRACHE & FAHRRAD + THE BICYCLES
+  2026-10-13 19:00:00 | Punk | CUT (blues post-punk / noise-rock, it) & CumStick (punk, bln)

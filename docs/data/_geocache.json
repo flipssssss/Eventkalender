@@ -6,6 +6,12 @@
   "lat": 52.5169123,
   "lng": 13.3873555
  },
+ "10117 Mitte, Berlin": {
+  "address": "Dorotheenstraße, 10117 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5185793,
+  "lng": 13.3935975
+ },
  "10243 Berlin": {
   "address": "10243 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -223,6 +229,12 @@
   "lng": 13.2978794
  },
  "13581 Berlin": {
+  "address": "13581 Spandau",
+  "bezirk": "Spandau",
+  "lat": 52.5310541,
+  "lng": 13.1793679
+ },
+ "13581 Spandau, Berlin": {
   "address": "13581 Spandau",
   "bezirk": "Spandau",
   "lat": 52.5310541,
@@ -1019,6 +1031,12 @@
  "Bhf Rathaus Spandau, 13597 Berlin": null,
  "Bibliothek der Freien Greifswalder Str. 4 2. Hof, Raum 1102 (1. OG) 10405 Berlin Deutschland": null,
  "Biergarten Jockel, Ratiborstraße 14c, 10999 Berlin": null,
+ "Biesentaler Str. 24, 13359 Berlin": {
+  "address": "Biesentaler Straße 24, 13359 Gesundbrunnen",
+  "bezirk": "Mitte",
+  "lat": 52.5574665,
+  "lng": 13.3861031
+ },
  "Bilgisaray Oranienstr. 45 Berlin Deutschland": {
   "address": "Oranienstraße 45, 10969 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -2006,6 +2024,7 @@
  "GEW-Haus Ahornstr. 5 Berlin Deutschland": null,
  "GRETCHEN, Obentrautstraße 19-21, 10963, Berlin": null,
  "Galerie Newman, Berlin": null,
+ "GalileA FU Berlin, Otto-von-Simson-Straße 26 14195 Berlin": null,
  "Gambino’s by AMANO, Berlin": null,
  "Garten Markgrafendamm 24c, 10245 Berlin": null,
  "Gecekondu, Admiralstraße 1-2, 10999 Berlin": null,
@@ -2229,6 +2248,12 @@
   "lng": 13.4336934
  },
  "Görlitzer Straße Ecke Cuvrystraße, 10997 Berlin": null,
+ "Gürtelstr. 26, 10245 Berlin": {
+  "address": "Gürtelstraße 26, 10247 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5087542,
+  "lng": 13.4729455
+ },
  "Gürtelstr.666 10247, Berlin": {
   "address": "Gürtelstraße, 10247 Lichtenberg",
   "bezirk": "Lichtenberg",
@@ -2272,6 +2297,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.4991141,
   "lng": 13.3858716
+ },
+ "Hanns-Eisler-Straße 93, 10409 Prenzlauer Berg, Berlin": {
+  "address": "Hanns-Eisler-Straße 93, 10409 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.539777,
+  "lng": 13.4523792
  },
  "Hansastraße 188, 13088 Berlin": {
   "address": "Hansastraße 188, 13088 Weißensee",
@@ -2713,6 +2744,7 @@
   "lng": 13.400323
  },
  "JUP Florastr. 84 13187, 13187 Berlin": null,
+ "JVB Moabit Turmstraße 10 10559 Berlin Deutschland": null,
  "JWP „MittenDrin“, Emil-Wendland-Platz 1 Neuruppin Deutschland, Berlin": null,
  "Jagdhausstraße 1448, 14480 Berlin": null,
  "Jagdschloss Stern, Jagdhausstraße, 14480, Potsdam, Berlin": null,
@@ -4781,6 +4813,12 @@
   "lat": 52.4533085,
   "lng": 13.2878508
  },
+ "Otto-von-Simson-Straße 26, 14195 Berlin": {
+  "address": "Otto-von-Simson-Straße 26, 14195 Dahlem",
+  "bezirk": "Steglitz-Zehlendorf",
+  "lat": 52.4528704,
+  "lng": 13.2888135
+ },
  "Oudenarder Str. 16-20, 13347 Berlin": {
   "address": "Oudenarder Straße 16-20, 13347 Wedding",
   "bezirk": "Mitte",
@@ -5024,6 +5062,7 @@
   "lat": 52.5430569,
   "lng": 13.4281438
  },
+ "Prima Center Berlin Biesentaler Str. 24 13359 Berlin Deutschland": null,
  "Prinzenallee 58, 13359 Berlin": {
   "address": "Prinzenallee 58, 13359 Gesundbrunnen",
   "bezirk": "Mitte",
@@ -5483,6 +5522,7 @@
   "lat": 52.5182718,
   "lng": 13.4078309
  },
+ "Rummelplatz Gürtelstr. 26 10245 Berlin Deutschland": null,
  "Rummelsburger Bucht, 10245 Berlin": {
   "address": "10317 Rummelsburg",
   "bezirk": "Lichtenberg",
@@ -6188,6 +6228,12 @@
   "lat": 52.5225889,
   "lng": 13.3049841
  },
+ "Südblock Admiralstr. 1-2 10999 Berlin Deutschland": {
+  "address": "Admiralstraße 1-2, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4985453,
+  "lng": 13.4167949
+ },
  "Südkreuz, 12101 Berlin": {
   "address": "General-Pape-Straße 1, 12101 Tempelhof",
   "bezirk": "Tempelhof-Schöneberg",
@@ -6304,6 +6350,12 @@
  },
  "Tischlerei der Deutschen Oper Berlin, Bismarckstraße 35, 10585, Berlin": null,
  "Tomasa Potsdam, Kurfürstenstraße 52, 14469 Potsdam, Berlin": null,
+ "Torgauer Straße 1-25, 10829 Schöneberg, Berlin": {
+  "address": "Torgauer Straße 1-25, 10829 Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4808995,
+  "lng": 13.3559366
+ },
  "Torgauer Straße 25, 10829 Berlin": {
   "address": "Torgauer Straße 1-25, 10829 Schöneberg",
   "bezirk": "Tempelhof-Schöneberg",
@@ -6417,6 +6469,12 @@
   "bezirk": "Mitte",
   "lat": 52.5254923,
   "lng": 13.3526659
+ },
+ "Turmstraße 10, 10559 Berlin": {
+  "address": "Turmstraße 10, 10559 Moabit",
+  "bezirk": "Mitte",
+  "lat": 52.5265281,
+  "lng": 13.3512095
  },
  "Turmstraße 1055, 10551 Berlin": {
   "address": "Turmstraße, 10551 Moabit",
@@ -6632,6 +6690,12 @@
   "bezirk": "Pankow",
   "lat": 52.6309202,
   "lng": 13.4935051
+ },
+ "Warmbrunner Straße 52, 14193 Schmargendorf, Berlin": {
+  "address": "Warmbrunner Straße 52, 14193 Schmargendorf",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.4860637,
+  "lng": 13.2961907
  },
  "Warthestraße 12051 Berlin Deutschland": {
   "address": "Warthestraße, 12051 Neukölln",

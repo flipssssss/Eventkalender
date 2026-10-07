@@ -1,24 +1,24 @@
 ExhibitionEvents -> Events: 23
-  2026-10-06 Maurizio Cattelan: Night – Preis der Nationalgaler
-  2026-10-06 Lina Lapelytė: We Make Years Out of Hours – Chanel
-  2026-10-06 Paul Signac: Symphonie der Farben
-  2026-10-06 Nizo Yamamoto: Meister der Anime-Szenografie
-  2026-10-06 Ryuichi Sakamoto: seeing sound, hearing time
-  2026-10-06 Josef Kaiser: Bauen für die DDR
-  2026-10-06 Zwischen Bäumen
-  2026-10-06 Gabriele Stötzer: Dabei sein und nicht schweigen
-  2026-10-06 Courage: Schwestern im Geiste
-  2026-10-06 Ruin und Rausch: Berlin 1910–1930
-  2026-10-06 Materialistin: Matter of Care, Care of Matter
-  2026-10-06 Projektionen auf den Osten
-  2026-10-06 Jean-Luc Mylayne: Reflection
-  2026-10-06 Fujiko Nakaya: Nebelskulptur im Skulpturengarten
-  2026-10-06 Metaxy: Zwischen Zerstörung und Wiederaufbau
-  2026-10-06 Rooms / Stages
-  2026-10-06 Many Shades of Grès: Mode wird Kunst
-  2026-10-06 Die Magie der Straße
+  2026-10-07 Maurizio Cattelan: Night – Preis der Nationalgaler
+  2026-10-07 Lina Lapelytė: We Make Years Out of Hours – Chanel
+  2026-10-07 Paul Signac: Symphonie der Farben
+  2026-10-07 Nizo Yamamoto: Meister der Anime-Szenografie
+  2026-10-07 Ryuichi Sakamoto: seeing sound, hearing time
+  2026-10-07 Josef Kaiser: Bauen für die DDR
+  2026-10-07 Zwischen Bäumen
+  2026-10-07 Gabriele Stötzer: Dabei sein und nicht schweigen
+  2026-10-07 Courage: Schwestern im Geiste
+  2026-10-07 Ruin und Rausch: Berlin 1910–1930
+  2026-10-07 Materialistin: Matter of Care, Care of Matter
+  2026-10-07 Projektionen auf den Osten
+  2026-10-07 Jean-Luc Mylayne: Reflection
+  2026-10-07 Fujiko Nakaya: Nebelskulptur im Skulpturengarten
+  2026-10-07 Metaxy: Zwischen Zerstörung und Wiederaufbau
+  2026-10-07 Rooms / Stages
+  2026-10-07 Many Shades of Grès: Mode wird Kunst
+  2026-10-07 Die Magie der Straße
   2026-10-08 Christoph Schlingensief: Es ist nicht mehr mein Pr
   2026-10-08 Next Door: Tacita Dean und Bruce Nauman, Thomas De
   2026-10-20 Dschingis Khan: Die Welt der Mongolen
   2026-10-08 Lovis Corinth: Dann kam Berlin!
-  2026-10-06 Kreuzberg: Kunst und Migration seit 1960
+  2026-10-07 Kreuzberg: Kunst und Migration seit 1960

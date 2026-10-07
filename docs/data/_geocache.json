@@ -666,6 +666,7 @@
  "Ars Amatoria, Berlin": null,
  "Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin": null,
  "Ask a Punk, Berlin": null,
+ "Ask a punk, Berlin": null,
  "Auf Anfrage Auf Anfrage, Berlin": null,
  "Auf Anfrage, Auf Anfrage, Berlin": null,
  "Auguststraße 69, 10117 Berlin": {
@@ -1929,6 +1930,12 @@
  "Forckenbeckplatz 1024, 10247 Berlin": null,
  "Forki Forckenbeckplatz 10247 Berlin Deutschland": null,
  "Frachtkante Flughafen Tegel 1 13405 Berlin Deutschland": null,
+ "Frank-Zappa-Str. 19, 12681 Berlin": {
+  "address": "Frank-Zappa-Straße 19,20, 12681 Marzahn",
+  "bezirk": "Marzahn-Hellersdorf",
+  "lat": 52.5373536,
+  "lng": 13.5300088
+ },
  "Frank-Zappa-Straße 19, 12681 Berlin": {
   "address": "Frank-Zappa-Straße 19,20, 12681 Marzahn",
   "bezirk": "Marzahn-Hellersdorf",
@@ -2694,6 +2701,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5116921,
   "lng": 13.4263208
+ },
+ "Ihnestraße 22, 14195 Berlin": {
+  "address": "Ihnestraße 22, 14195 Dahlem",
+  "bezirk": "Steglitz-Zehlendorf",
+  "lat": 52.448917,
+  "lng": 13.2776817
  },
  "Im Hof der Regenbogen fabrik, Lausitzer Straße 21a, 10999 Berlin": null,
  "Im Kino der Regenbogen fabrik, Lausitzer Straße 21a, 10999 Berlin": null,
@@ -3559,6 +3572,12 @@
   "bezirk": "Mitte",
   "lat": 52.5092098,
   "lng": 13.4232671
+ },
+ "Köpenickerstr, Berlin": {
+  "address": "Köpenicker Straße, 10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5054143,
+  "lng": 13.4327675
  },
  "Köpi Berlin Deutschland": {
   "address": "Köpenicker Straße 137, 10179 Mitte",
@@ -4568,6 +4587,12 @@
   "lat": 52.4801032,
   "lng": 13.4340359
  },
+ "Neckarstraße 19, Berlin": {
+  "address": "Neckarstraße 19, 12053 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4801032,
+  "lng": 13.4340359
+ },
  "Neptunbrunnen Alexanderplatz Spandauer Str. 7 10178 Berlin Deutschland": null,
  "Neptunbrunnen, Rathausstraße 1, 10178 Berlin": null,
  "Neue Republik Reger Bouchestraße A 79 12435 Berlin Deutschland": null,
@@ -4793,6 +4818,8 @@
   "lat": 52.5029425,
   "lng": 13.4142022
  },
+ "Oraninplatz 1099, 10999 Berlin": null,
+ "Oraninplatz, 10999 Berlin": null,
  "Ort bei Anmeldung Ort bei Anmeldung Berlin": null,
  "Ort bei Anmeldung Ort bei Anmeldung Berlin Deutschland": null,
  "Orwohaus Berlin Deutschland": {
@@ -5254,7 +5281,14 @@
   "lat": 52.5000581,
   "lng": 13.4174433
  },
+ "Reichenberger Str. 63a (2. Hinterhof), Berlin": null,
  "Reichenberger Str. 63a, 10999 Berlin": {
+  "address": "Reichenberger Straße 63a, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4952361,
+  "lng": 13.4307312
+ },
+ "Reichenberger Str. 63a, Berlin": {
   "address": "Reichenberger Straße 63a, 10999 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.4952361,
@@ -5523,6 +5557,7 @@
   "lat": 52.4687052,
   "lng": 13.4333242
  },
+ "Rotes Café, Ihnestraße 22, 14195 Berlin": null,
  "Rotes Rathaus Neptunbrunnen Rathausstraße 15 Neptunbrunnen 10178 Berlin Deutschland": null,
  "Rotes Rathaus Rathausstr 15 10178 Berlin Deutschland": {
   "address": "Rathausstraße 15, 10178 Mitte",
@@ -6653,6 +6688,12 @@
   "lat": 52.5201505,
   "lng": 13.4731889
  },
+ "Villa Mittelhof, Berlin": {
+  "address": "Königstraße 42-43, 14163 Zehlendorf",
+  "bezirk": "Steglitz-Zehlendorf",
+  "lat": 52.4338463,
+  "lng": 13.2543865
+ },
  "Void Club & Hall, Berlin": null,
  "Voigtstr. 36, 10247 Berlin": {
   "address": "Voigtstraße 36, 10247 Friedrichshain",
@@ -6672,6 +6713,12 @@
   "bezirk": "Mitte",
   "lat": 52.527024,
   "lng": 13.4119171
+ },
+ "Volkshochschule Tempelhof-Schöneberg, Berlin": {
+  "address": "Barbarossaplatz 5, 10781 Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4922983,
+  "lng": 13.3498081
  },
  "Volkssolidarität \"Mehr Mitte\" Torstraße 190 10115 Berlin Deutschland": null,
  "Volunteer Check-in, Welser Straße 20, Berlin, 10777": null,

@@ -1,7 +1,6 @@
-Event-Links: 17 | Events: 17
-  2026-09-29 19:30:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Session im ART Stalker
-  2026-10-07 20:00:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Musikschule City West: Bandstand mit Meteora + Band Still Unnamed
+Event-Links: 17 | Events: 16
   2026-10-08 00:00:00 | Lido, Cuvrystraße 7, 10997, Berlin | Azymuth | Berlin
+  2026-10-08 20:00:00 | Kulturhaus "alte feuerwache" Friedrichshain, Marchlewskistr. 6, 10243, Berlin | Kulturhaus Alte Feuerwache I Studiobühne
   2026-10-09 19:00:00 | Die 7 Landesvertretungen in den Ministergärten, In den Ministergärten 3-10, 10117, Berlin | Jazz in den Ministergärten 2026
   2026-10-09 19:30:00 | Schloss und Gutshof Britz, Alt-Britz 73, 12359, Berlin | Bigband Night 2026
   2026-10-09 19:30:00 | MS Goldberg, Havelufer
@@ -13,8 +12,8 @@ Dischinger Brücke, 13581, Berlin | Yuliia Holub Quintett – Roots & Grooves
   2026-10-10 20:00:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | BOFF - Indie Pop/Rock
   2026-10-10 20:00:00 | Kubiz Raoul Wallenberg, Bernkasteler Str 78, 13088, Berlin | Sebastian Schunke Trio: Elusive Beauty
   2026-03-18 21:00:00 | KulturMarktHalle, Hanns-Eisler-Straße 93, 10409, Berlin | The Composers' Orchestra Berlin
+  2026-10-11 15:30:00 | Industriesalon Schöneweide, Reinbeckstraße 10, 12459, Berlin | Jazz Cafe - VORTEX
   2026-10-11 17:00:00 | Friedenskirche, Don-Ugoletti-Platz 1, 12527 Berlin, Deutschland, Don-Ugoletti-Platz 1, 12527, Berlin | Ukulelen-Orchester The Gentle Ukes
-  2026-10-05 20:00:00 | Café Engels, Herrfurthstr. 21, 12049, Berlin | Blue Moonday Jazzsession
+  2026-10-12 20:00:00 | Café Engels, Herrfurthstr. 21, 12049, Berlin | Blue Moonday Jazzsession
+  2026-09-29 19:30:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Session im ART Stalker
   2026-10-13 20:00:00 | Kammermusiksaal, Herbert-von-Karajan-Straße 1, 10785, Berlin | Luca Sestak Trio feat. Jakob Manz
-  2026-10-15 20:00:00 | WABE (Interimsspielstätte), Schönfließer Straße 7, 10439, Berlin | Anna Margolina Trio: Song Of A Girl
-  2026-10-15 20:00:00 | Blackmore's - Berlins Musikzimmer, Warmbrunner Straße 52, 14193, Berlin | ASPEKTE BACH: Gespielt und erzählt von SERGEI DREZNIN

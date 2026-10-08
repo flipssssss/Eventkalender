@@ -1724,6 +1724,12 @@
   "lat": 52.5709896,
   "lng": 13.3619429
  },
+ "Emser Straße 114, 12051 Neukölln, Berlin": {
+  "address": "Emser Straße 114, 12051 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4687052,
+  "lng": 13.4333242
+ },
  "Erich-Steinfurth-Straße 1, 10243 Berlin": {
   "address": "Erich-Steinfurth-Straße 1-2, 10243 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -6803,6 +6809,12 @@
   "bezirk": "Neukölln",
   "lat": 52.4799239,
   "lng": 13.4229832
+ },
+ "Weisestraße 3, 12049 Neukölln, Berlin": {
+  "address": "Weisestraße 3, 12049 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4800167,
+  "lng": 13.4229281
  },
  "Weisestraße 53, 12049 Berlin": {
   "address": "Weisestraße 53, 12049 Neukölln",

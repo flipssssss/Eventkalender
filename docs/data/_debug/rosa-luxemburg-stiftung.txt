@@ -1,4 +1,4 @@
-Teaser: 162 | Berlin: 36 | andere Städte: 126 | mit Beschreibung: 35
+Teaser: 163 | Berlin: 36 | andere Städte: 127 | mit Beschreibung: 35
   2026-10-01 19:00:00 | Berlin | Trump und andere autoritäre Versuchungen
   2026-10-05 19:30:59 | Berlin | Antifaschistische Wirtschaftspolitik
   2026-10-06 10:00:00 | Berlin | Unsere Mitgift: Praktische Erfahrungen und weiteres Reifen linker Ideen

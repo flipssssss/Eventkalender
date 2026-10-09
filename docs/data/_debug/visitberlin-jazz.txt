@@ -1,9 +1,4 @@
-Event-Links: 17 | Events: 16
-  2026-10-09 19:00:00 | Die 7 Landesvertretungen in den Ministergärten, In den Ministergärten 3-10, 10117, Berlin | Jazz in den Ministergärten 2026
-  2026-10-09 19:30:00 | Schloss und Gutshof Britz, Alt-Britz 73, 12359, Berlin | Bigband Night 2026
-  2026-10-09 19:30:00 | MS Goldberg, Havelufer
-Dischinger Brücke, 13581, Berlin | Jazz goes Synagogue
-  2026-10-09 20:00:00 | Little Stage Berlin, Jonasstraße, 12053, Berlin | Gur Liraz Trio
+Event-Links: 17 | Events: 13
   2026-10-09 20:00:00 | EUREF-Campus Berlin, Torgauer Straße 25, 10829, Berlin | ZigZag Hall – Berlins neue Bühne für Jazz und Live-Musik
   2026-10-10 19:30:00 | MS Goldberg, Havelufer
 Dischinger Brücke, 13581, Berlin | Yuliia Holub Quintett – Roots & Grooves
@@ -17,3 +12,4 @@ Dischinger Brücke, 13581, Berlin | Yuliia Holub Quintett – Roots & Grooves
   2026-10-13 20:00:00 | Kammermusiksaal, Herbert-von-Karajan-Straße 1, 10785, Berlin | Luca Sestak Trio feat. Jakob Manz
   2026-10-15 19:00:00 | Haus der Kulturen der Welt, John-Forster-Dulles-Allee 10, 10557, Berlin | The Berlin Afrobeat Company, Santrofi
   2026-10-15 20:00:00 | WABE (Interimsspielstätte), Schönfließer Straße 7, 10439, Berlin | Anna Margolina Trio: Song Of A Girl
+  2026-10-15 20:00:00 | Blackmore's - Berlins Musikzimmer, Warmbrunner Straße 52, 14193, Berlin | ASPEKTE BACH: Gespielt und erzählt von SERGEI DREZNIN

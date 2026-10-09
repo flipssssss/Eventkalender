@@ -287,6 +287,12 @@
   "lng": 13.3998494
  },
  "AStA FU Otto-von-Simson-Straße 23 Berlin Deutschland": null,
+ "AStA TU Berlin, Straße des 17. Juni 135, 10623 Berlin": {
+  "address": "Straße des 17. Juni 135, 10623 Charlottenburg",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.5108574,
+  "lng": 13.3276087
+ },
  "Abfahrt Solibus Züllichauer Straße 10965 Berlin Deutschland": null,
  "Abgedreht-Klub Karl-Marx-Allee.140 10243 Berlin Deutschland": null,
  "Abstand Rigaer Straße 78 10247 Berlin Deutschland": {
@@ -557,6 +563,12 @@
   "lat": 52.5114484,
   "lng": 13.4407738
  },
+ "Am Wriezener Bahnhof, 10243 Friedrichshain, Berlin": {
+  "address": "Am Wriezener Bahnhof, 10243 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5114484,
+  "lng": 13.4407738
+ },
  "Am Wriezener bhf, 10243 Berlin": {
   "address": "Am Wriezener Bahnhof, 10243 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -807,6 +819,12 @@
  "Banja Luka, Falckensteinstraße 1-2, 10997 Berlin": null,
  "Bar at Hotel Motel One (Alex), Grunerstraße 11, 10179 Berlin": null,
  "Bar at Hotel Motel One, Grunerstraße 11, 10179 Berlin": null,
+ "Barbarossaplatz 5, 10781 Schöneberg, Berlin": {
+  "address": "Barbarossaplatz 5, 10781 Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4922983,
+  "lng": 13.3498081
+ },
  "Bat-Yam-Platz 1 12353 Berlin": {
   "address": "Bat-Yam-Platz 1, 12353 Gropiusstadt",
   "bezirk": "Neukölln",
@@ -1233,6 +1251,12 @@
   "lng": 13.4261908
  },
  "Brunnenstr. 7, 10119 Berlin": {
+  "address": "Brunnenstraße 7, 10119 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5308688,
+  "lng": 13.400486
+ },
+ "Brunnenstr. 7, Berlin": {
   "address": "Brunnenstraße 7, 10119 Mitte",
   "bezirk": "Mitte",
   "lat": 52.5308688,
@@ -2045,6 +2069,7 @@
  "GRETCHEN, Obentrautstraße 19-21, 10963, Berlin": null,
  "Galerie Newman, Berlin": null,
  "GalileA FU Berlin, Otto-von-Simson-Straße 26 14195 Berlin": null,
+ "GalileA, Rost- und Silberlaube an der FU Otto-von-Simson-Str. 26 14195 Berlin Deutschland": null,
  "Gambino’s by AMANO, Berlin": null,
  "Garten Markgrafendamm 24c, 10245 Berlin": null,
  "Gecekondu, Admiralstraße 1-2, 10999 Berlin": null,
@@ -2135,6 +2160,12 @@
   "bezirk": "Pankow",
   "lat": 52.5514399,
   "lng": 13.4187826
+ },
+ "Greifenhagener Straße 28, 10437 Prenzlauer Berg, Berlin": {
+  "address": "Greifenhagener Straße 28, 10437 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5513309,
+  "lng": 13.4187281
  },
  "Greifswalder DIY Lilli-Henoch-Straße 21 10405 Berlin Deutschland": null,
  "Greifswalder Str. 4, 10405 Berlin": {
@@ -2355,6 +2386,12 @@
   "lat": 52.4839335,
   "lng": 13.4495146
  },
+ "Hasenheide 107/113, 10967 Berlin": {
+  "address": "Hasenheide 107-113, 10967 Neukölln",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4864896,
+  "lng": 13.4217418
+ },
  "Hasenheide 54, 10967 Berlin": {
   "address": "Hasenheide 54, 10967 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -2519,6 +2556,12 @@
   "bezirk": "Neukölln",
   "lat": 52.4643376,
   "lng": 13.4333186
+ },
+ "Hermannstr. 8 12051 Berlin Deutschland": {
+  "address": "Hermannstraße 8, 12049 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4851158,
+  "lng": 13.4240134
  },
  "Hermannstraße 18, 12049 Berlin": {
   "address": "Hermannstraße 18, 12049 Neukölln",
@@ -3289,6 +3332,12 @@
   "lat": 52.4716193,
   "lng": 13.4510314
  },
+ "Knesebeckstraße 100, 10623 Charlottenburg, Berlin": {
+  "address": "Knesebeckstraße 100, 10623 Charlottenburg",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.5103384,
+  "lng": 13.323503
+ },
  "KollektivBar EigenSinn Pflügerstr. 52, 12047 Berlin Deutschland": null,
  "Kollektivbar ES Pflügerstraße 52 12047 Berlin": {
   "address": "Pflügerstraße 52, 12047 Neukölln",
@@ -3531,11 +3580,23 @@
   "lng": 13.289041
  },
  "Königskolonnaden im Heinrich von Kleist-Park, Berlin": null,
+ "Königstraße 42-43, 14163 Zehlendorf, Berlin": {
+  "address": "Königstraße 42-43, 14163 Zehlendorf",
+  "bezirk": "Steglitz-Zehlendorf",
+  "lat": 52.4338463,
+  "lng": 13.2543865
+ },
  "Köpenicker Allee 39-57, 10318 Berlin": {
   "address": "Köpenicker Allee 39-57, 10318 Karlshorst",
   "bezirk": "Lichtenberg",
   "lat": 52.4881732,
   "lng": 13.5339889
+ },
+ "Köpenicker Str. 137, 10179 Berlin, Germany": {
+  "address": "Köpenicker Straße 137, 10179 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5077022,
+  "lng": 13.4260264
  },
  "Köpenicker Str. 172, 10997 Berlin": {
   "address": "Köpenicker Straße 172, 10997 Kreuzberg",
@@ -4056,6 +4117,12 @@
   "lat": 52.5041855,
   "lng": 13.3625529
  },
+ "Lützowstraße 73, 10785 Tiergarten, Berlin": {
+  "address": "Lützowstraße 73, 10785 Tiergarten",
+  "bezirk": "Mitte",
+  "lat": 52.5042512,
+  "lng": 13.3582193
+ },
  "M29 Malmöerstr. 29 10439 Berlin Deutschland": {
   "address": "Malmöer Straße 29, 10439 Prenzlauer Berg",
   "bezirk": "Pankow",
@@ -4359,6 +4426,12 @@
   "lat": 52.494773,
   "lng": 13.3885465
  },
+ "Mehringdamm 32, 10961 Kreuzberg, Berlin": {
+  "address": "Mehringdamm 32, 10961 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4939312,
+  "lng": 13.3879853
+ },
  "Mehringdamm 34, 10961 Berlin": {
   "address": "Mehringdamm 34, 10961 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -4408,6 +4481,8 @@
   "lat": 52.4989399,
   "lng": 13.3527048
  },
+ "Michael-Brückner-Platz 1243, 12439 Berlin": null,
+ "Michael-Brückner-Platz, 12439 Berlin": null,
  "MieterClub Neue Christstr. 8 14059 Berlin Deutschland": null,
  "Mieterladen Kreutzigerstr. 23 10247 Berlin Deutschland": {
   "address": "Kreutzigerstraße 23, 10247 Friedrichshain",
@@ -4546,6 +4621,12 @@
   "lat": 52.4898608,
   "lng": 13.4312019
  },
+ "Nansenstraße 31, 12047 Neukölln, Berlin": {
+  "address": "Nansenstraße 31, 12047 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4904772,
+  "lng": 13.4314849
+ },
  "Naunynstr. 60, 10997 Berlin": {
   "address": "Naunynstraße, 10997 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -4634,6 +4715,12 @@
   "lat": 52.5066209,
   "lng": 13.3819472
  },
+ "Niemetzstr. 24, 12055 Berlin-Neukölln": {
+  "address": "Niemetzstraße 24, 12055 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4716193,
+  "lng": 13.4510314
+ },
  "Niemetzstraße 24, 12055 Neukölln, Berlin": {
   "address": "Niemetzstraße 24, 12055 Neukölln",
   "bezirk": "Neukölln",
@@ -4664,6 +4751,12 @@
   "bezirk": "Tempelhof-Schöneberg",
   "lat": 52.4993854,
   "lng": 13.3527258
+ },
+ "Nollendorfplatz, 10777 Schöneberg, Berlin": {
+  "address": "Nollendorfplatz, 10777 Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4995972,
+  "lng": 13.3537297
  },
  "Nollendorfplatz, Berlin": {
   "address": "Nollendorfplatz, 10777 Schöneberg",
@@ -4756,6 +4849,7 @@
  },
  "Online Veranstaltung Anmeldung erforderlich: https:// forms.peacefullyagainstgenocid e.org/formz/occurrences/online-training-fuer-zivilen-widerstand-2026-07-23/registrations/new, Berlin": null,
  "Online Veranstaltung Anmeldung erforderlich: https:// forms.peacefullyagainstgenocid e.org/formz/occurrences/online-vortrag-2026-09-09/registrations/new, Berlin": null,
+ "Online Veranstaltung Anmeldung: https:// peacefullyagainstgenocide.org/ dabei-sein/?hx_occurrence_id=online-vortrag-2026-10-09, Berlin": null,
  "Online Veranstaltung URL ab Donnerstag: https://www. deutsche-juristinnen-voelkerre cht.org/webinar-nicaragua-v-/, Berlin": null,
  "Online Veranstaltung URL ab Donnerstag: https://www. deutsche-juristinnen-voelkerre cht.org/webinar-nicaragua-v-germany/, Berlin": null,
  "Oppelner Straße 45, 10997 Berlin": {
@@ -4856,6 +4950,12 @@
   "lat": 52.5252818,
   "lng": 13.4196976
  },
+ "Otto-von-Simson-Str. 26, 14195 Berlin": {
+  "address": "Otto-von-Simson-Straße 26, 14195 Dahlem",
+  "bezirk": "Steglitz-Zehlendorf",
+  "lat": 52.4528704,
+  "lng": 13.2888135
+ },
  "Otto-von-Simson-Straße 23, Berlin": {
   "address": "Otto-von-Simson-Straße 23, 14195 Dahlem",
   "bezirk": "Steglitz-Zehlendorf",
@@ -4923,6 +5023,12 @@
   "bezirk": "Pankow",
   "lat": 52.557391,
   "lng": 13.4600765
+ },
+ "Pannierstr 53, 12047 Berlin": {
+  "address": "Pannierstraße 53, 12047 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4879593,
+  "lng": 13.4318059
  },
  "Pannierstraße 5, 12047 Berlin": {
   "address": "Pannierstraße 5, 12047 Neukölln",
@@ -5158,6 +5264,7 @@
  "R94, Rigaer Straße 94, Friedrichshain 10247 Berlin Deutschland": null,
  "RADAU, Schererstraße 8, 13347 Berlin": null,
  "RAUM Rungestr. 20 Berlin Deutschland": null,
+ "RAW Friedrichshain Revaler Straße 99 10245 Berlin Deutschland": null,
  "ROSA, Berlin": {
   "address": "Rheinstraße, 12161 Friedenau",
   "bezirk": "Tempelhof-Schöneberg",
@@ -5404,6 +5511,12 @@
   "lat": 52.5064417,
   "lng": 13.4572149
  },
+ "Revaler Straße, 10245 Friedrichshain, Berlin": {
+  "address": "Revaler Straße, 10245 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5061505,
+  "lng": 13.4599879
+ },
  "Richard-Wagner-Straße 5, 10585 Berlin, Germany": {
   "address": "Richard-Wagner-Straße 5, 10585 Charlottenburg",
   "bezirk": "Charlottenburg-Wilmersdorf",
@@ -5625,6 +5738,18 @@
   "lng": 13.3885086
  },
  "S+U Gesundbrunnen, RE3 Gleis 9, 13355 Berlin": null,
+ "S+U Lichtenberg Berlin Deutschland": {
+  "address": "Einbecker Straße, 10317 Rummelsburg",
+  "bezirk": "Lichtenberg",
+  "lat": 52.5104839,
+  "lng": 13.501155
+ },
+ "S+U Lichtenberg, 10317 Berlin": {
+  "address": "Weitlingstraße, 10317 Rummelsburg",
+  "bezirk": "Lichtenberg",
+  "lat": 52.5104845,
+  "lng": 13.4994196
+ },
  "S+U-Bhf Rathaus Steglitz, 12165 Berlin": null,
  "S-/U-Bhf. Schönhauser Allee Berlin": null,
  "S-/U-Bhf. Schönhauser Allee Berlin Deutschland": null,
@@ -5647,6 +5772,12 @@
   "bezirk": "Treptow-Köpenick",
   "lat": 52.4691104,
   "lng": 13.5528826
+ },
+ "S-Bhf. Sonnenallee, Neukölln 12055 Berlin Deutschland": {
+  "address": "Saalestraße, 12055 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4728413,
+  "lng": 13.4553408
  },
  "S1 Yorckstraße, Berlin": {
   "address": "Yorckstraße, 10965 Schöneberg",
@@ -5867,6 +5998,12 @@
   "lat": 52.4606246,
   "lng": 13.508975
  },
+ "Schnellerstraße, 12439 Niederschöneweide, Berlin": {
+  "address": "Schnellerstraße, 12439 Niederschöneweide",
+  "bezirk": "Treptow-Köpenick",
+  "lat": 52.4544923,
+  "lng": 13.5171463
+ },
  "Schokoladen Ackerstrasse 169 10115 Berlin Deutschland": {
   "address": "Ackerstraße 169, 10115 Mitte",
   "bezirk": "Mitte",
@@ -6050,6 +6187,12 @@
   "lat": 52.499358,
   "lng": 13.4242518
  },
+ "Skalitzer Straße 134, 10999 Kreuzberg, Berlin": {
+  "address": "Skalitzer Straße 134, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4994272,
+  "lng": 13.4187092
+ },
  "Skalitzer Straße 6, 10999 Berlin": {
   "address": "Skalitzer Straße 6, 10999 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -6143,6 +6286,12 @@
   "lng": 13.4187281
  },
  "Sonntagsclub, Sonntags-Club e.V., Greifenhagener Str. 28, 10437 Berlin": null,
+ "Sophienstraße 18, 10178 Mitte, Berlin": {
+  "address": "Sophienstraße 18, 10178 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5258825,
+  "lng": 13.4016022
+ },
  "Sophiensæle - Kantine, Berlin": null,
  "Sophiensæle, Berlin": {
   "address": "Sophienstraße 18, 10178 Mitte",
@@ -6628,6 +6777,12 @@
  },
  "US Botschaft Pariser Platz/Brandenburger Tor Berlin": null,
  "US Botschaft Pariser Platz/Brandenburger Tor Berlin Deutschland": null,
+ "Uferstraße 12, 13357 Gesundbrunnen, Berlin": {
+  "address": "Uferstraße 12, 13357 Gesundbrunnen",
+  "bezirk": "Mitte",
+  "lat": 52.5508274,
+  "lng": 13.3735134
+ },
  "Uferstraße 23, 13357 Berlin": {
   "address": "Uferstraße 23, 13357 Gesundbrunnen",
   "bezirk": "Mitte",
@@ -6955,6 +7110,12 @@
   "lat": 52.506155,
   "lng": 13.3066933
  },
+ "Wiltbergstraße 19-23, 13125 Buch, Berlin": {
+  "address": "Wiltbergstraße 19-23, 13125 Buch",
+  "bezirk": "Pankow",
+  "lat": 52.6356441,
+  "lng": 13.4938846
+ },
  "Windscheidstraße 19, 10627 Berlin": {
   "address": "Windscheidstraße 19, 10627 Charlottenburg",
   "bezirk": "Charlottenburg-Wilmersdorf",
@@ -6984,6 +7145,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.4976052,
   "lng": 13.4449503
+ },
+ "Wrangelstraße 98, 10997 Kreuzberg, Berlin": {
+  "address": "Wrangelstraße 98, 10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5017231,
+  "lng": 13.4373148
  },
  "Wrangelstraße Ecke Falckensteinstraße 10997 Berlin": null,
  "Wrangelstraße Ecke Falckensteinstraße Berlin": null,
@@ -7059,6 +7226,12 @@
   "bezirk": "Mitte",
   "lat": 52.5338932,
   "lng": 13.3365293
+ },
+ "Zachertstraße, 10315 Friedrichsfelde, Berlin": {
+  "address": "Zachertstraße, 10315 Friedrichsfelde",
+  "bezirk": "Lichtenberg",
+  "lat": 52.5066823,
+  "lng": 13.503323
  },
  "Zaubergarten Lichtenberg S Storkower / S Frankfurter Alle Deutschland, Berlin": null,
  "Zaubergarten Lichtenberg S Storkower / S Frankfurter Alle, Berlin": null,
@@ -7222,6 +7395,7 @@
  "https://karada-house.de/events/practical-reflections/, Berlin": null,
  "https://karada-house.de/events/radical-inclusion/, Berlin": null,
  "i-café 3. OG, links, Frauenhoferstr. 33-36, 10587 Berlin": null,
+ "in den Räumen des Subversiv e.V. Brunnenstr. 7 HH Berlin Deutschland": null,
  "inter:Salon, Rungestraße 20, 10179 Berlin": null,
  "llmann🕯, Berlin": null,
  "loge. kneipenkollektiv Kinzigstraße 9 10247 Berlin Deutschland": null,

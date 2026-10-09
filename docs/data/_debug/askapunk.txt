@@ -1,24 +1,23 @@
-API-Events: 109 | übernommen: 109
-  2026-10-08 19:00:00 | Metal | MONDO DRAG (+ EARLY MOODS) | NEUE ZUKUNFT - BERLIN
-  2026-10-08 19:00:00 | Punk | Im Anschluss präsentiert: Mangel + Dosenstolz (feat. Tancred) + Constant Disappointment
-  2026-10-08 21:00:00 | Punk | PUNX FOR PALESTINE CONCERT
-  2026-10-09 14:45:00 | None | Queer Tours for All - Königsheide
+API-Events: 112 | übernommen: 112
   2026-10-09 14:45:00 | None | Queer Tours for All - Königsheide Forest
+  2026-10-09 14:45:00 | None | Queer Tours for All - Königsheide
+  2026-10-09 19:00:00 | Punk | Soft Palms
   2026-10-09 19:00:00 | Punk | HOWLING WOLVES // BELT // FURY WHIP @ Neue Zukunft Garage, Berlin
   2026-10-09 19:00:00 | None | Mental Riot Festival
-  2026-10-09 19:00:00 | Punk | Soft Palms
   2026-10-09 19:00:00 | None | Inertials / Sininen / yonder
-  2026-10-09 19:30:00 | None | Jüdische Identitäten und Antisemitismus im Punk
   2026-10-09 19:30:00 | Punk | FANGS ON FUR + CATAPHILES
-  2026-10-09 20:00:00 | Punk | FANGS ON FUR + CATAPHILES
+  2026-10-09 19:30:00 | None | Jüdische Identitäten und Antisemitismus im Punk
   2026-10-09 20:00:00 | Rock | Fuzz Sagrado + Blackbox Massacre + Gelaender
+  2026-10-09 20:00:00 | Punk | FANGS ON FUR + CATAPHILES
   2026-10-09 21:00:00 | Punk | +1 pres.: 7Sioux + Nervous Assistant
   2026-10-09 21:00:00 | None | WER - ENTSPANNTE KOLLISION TOUR / Post- Punk, Noise
   2026-10-10 08:30:00 | Punk | Bhuvan Singhs / Blick / Dusty House Plants / Janitor X Artistania
   2026-10-10 14:45:00 | None | Queer Tours for All - Gay and Sapphic Schöneberg
   2026-10-10 19:00:00 | Punk | Stoned Medusa // Shaun // Uranus Front // Doomerang
   2026-10-10 19:00:00 | Punk | MAGNETIC SPACEMEN (NL) & TOYBOYS (FF)
+  2026-10-10 20:00:00 | Punk | Death Gasp (US), Krime (NL) and Sense
   2026-10-10 20:00:00 | Metal | Wave Mountain 14 + Yore + By Fire + Acid Arno +
+  2026-10-10 21:00:00 | Reggae | Working Class Dubs
   2026-10-11 15:00:00 | Metal | Podridão + Corpserot (Death Metal Matinee)
   2026-10-11 18:00:00 | Punk | ONLY - NERVE CENTER - LODYNE
   2026-10-11 18:00:00 | None | MONDO VIDEO 4: RED SPIRIT LAKE + SPLATTER FARM
@@ -26,6 +25,7 @@ API-Events: 109 | übernommen: 109
   2026-10-12 07:00:00 | Punk | Buenos Vampiros
   2026-10-12 19:00:00 | None | Kamara / Priscilla / ...and then I feel nothing
   2026-10-13 17:45:00 | None | Queer Tours for All - Queer Kreuzberg
-  2026-10-13 19:00:00 | Rock | SPIRIT MOTHER + Yawning Man | Neue Zukunft - Berlin
   2026-10-13 19:00:00 | Punk | ZUR BRACHE & FAHRRAD + THE BICYCLES
+  2026-10-13 19:00:00 | Rock | SPIRIT MOTHER + Yawning Man | Neue Zukunft - Berlin
   2026-10-13 19:00:00 | Punk | CUT (blues post-punk / noise-rock, it) & CumStick (punk, bln)
+  2026-10-14 19:00:00 | Punk | Cosmic Kitten (post-grunge/punk, us) + FISH PEOPLE (punk, bln)

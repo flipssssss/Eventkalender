@@ -14,6 +14,7 @@ case-insensitively, so "HAU"/"Hebbel am Ufer", "Maxim Gorki" and
 
 from __future__ import annotations
 
+import collections
 import pathlib
 import re
 from typing import Iterable
@@ -32,6 +33,9 @@ DEFAULT_VENUES = {
     "Haus der Kulturen der Welt": ["haus der kulturen der welt", "hkw"],
     "Schaubühne": ["schaubühne", "schaubuehne"],
     "Sophiensæle": ["sophiensæle", "sophiensaele", "sophiensæ", "sophiensale"],
+    # "thikwa" allein reicht -- der Name ist eindeutig und fängt
+    # "Theater Thikwa", "Thikwa Theater" und "Thikwa" gleichermaßen.
+    "Theater Thikwa": ["thikwa"],
 }
 
 DEBUG_DIR = pathlib.Path(__file__).resolve().parents[1] / "docs" / "data" / "_debug"
@@ -62,6 +66,11 @@ class BerlinBuehnenScraper(BaseScraper):
         events: list[Event] = []
         seen_ids: set[str] = set()
         report: list[str] = []
+        # Bühnen, die das Portal listet, die aber nicht in self.venues stehen.
+        # Steht in der Diagnose, damit nachvollziehbar ist, welche Namen es
+        # überhaupt gibt -- sonst ist beim Aufnehmen einer neuen Bühne nicht
+        # unterscheidbar, ob der Alias falsch ist oder die Bühne dort fehlt.
+        self._rejected_venues = collections.Counter()
         horizon = _dt.datetime.now() + _dt.timedelta(days=self.horizon_days)
 
         for page in range(1, self.max_pages + 1):
@@ -108,11 +117,29 @@ class BerlinBuehnenScraper(BaseScraper):
         self._add_descriptions(events)
 
         if self.write_debug:
-            self._dump_debug(
-                [f"Behaltene Events: {len(events)} aus {len(seen_ids)} gescannten",
-                 f"mit Beschreibung: {sum(1 for e in events if e.description)}",
-                 "=" * 60, *report]
-            )
+            wanted = sorted(self.venues)
+            lines = [
+                f"Behaltene Events: {len(events)} aus {len(seen_ids)} gescannten",
+                f"mit Beschreibung: {sum(1 for e in events if e.description)}",
+                "",
+                "Gewünschte Bühnen und ihre Treffer:",
+            ]
+            hits = collections.Counter(e.location for e in events)
+            for name in wanted:
+                got = sum(n for loc, n in hits.items()
+                          if self._match_venue(loc) == name)
+                mark = "  " if got else "0 "
+                lines.append(f"  {mark}{name}: {got}")
+            lines += [
+                "",
+                "Auf dem Portal gelistete Bühnen, die NICHT gewünscht sind "
+                "(häufigste 60) -- hier nachsehen, wie eine Bühne dort genau "
+                "heißt:",
+            ]
+            lines += [f"  {n:4d}  {name}"
+                      for name, n in self._rejected_venues.most_common(60)]
+            lines += ["", "=" * 60, *report]
+            self._dump_debug(lines)
         return events
 
     def _add_descriptions(self, events) -> None:
@@ -156,6 +183,7 @@ class BerlinBuehnenScraper(BaseScraper):
             return None
         venue = self._match_venue(location)
         if not venue:
+            self._rejected_venues[location] += 1
             return None
 
         time_el = card.find("time", attrs={"datetime": True})

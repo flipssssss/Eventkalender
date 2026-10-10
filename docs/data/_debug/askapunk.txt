@@ -1,10 +1,7 @@
-API-Events: 102 | übernommen: 102
+API-Events: 99 | übernommen: 99
   2026-10-10 08:30:00 | Punk | Bhuvan Singhs / Blick / Dusty House Plants / Janitor X Artistania
-  2026-10-10 14:45:00 | None | Queer Tours for All - Gay and Sapphic Schöneberg
-  2026-10-10 19:00:00 | Punk | Stoned Medusa // Shaun // Uranus Front // Doomerang
-  2026-10-10 19:00:00 | Punk | MAGNETIC SPACEMEN (NL) & TOYBOYS (FF)
-  2026-10-10 20:00:00 | Metal | Wave Mountain 14 + Yore + By Fire + Acid Arno +
   2026-10-10 20:00:00 | Punk | Death Gasp (US), Krime (NL) and Sense
+  2026-10-10 20:00:00 | Metal | Wave Mountain 14 + Yore + By Fire + Acid Arno +
   2026-10-10 21:00:00 | Reggae | Working Class Dubs
   2026-10-11 15:00:00 | Metal | Podridão + Corpserot (Death Metal Matinee)
   2026-10-11 18:00:00 | Punk | ONLY - NERVE CENTER - LODYNE
@@ -27,5 +24,8 @@ API-Events: 102 | übernommen: 102
   2026-10-17 15:00:00 | Punk | Dia de la rauxa: gathering with live music in catalan
   2026-10-17 18:30:00 | Rock | AoxoToxoA@Kulturhaus Insel (17/10/26)
   2026-10-17 19:00:00 | Punk | BABE HAVEN + LATTER + YUMNUT
-  2026-10-17 19:00:00 | Punk | Drölfzehn Bier Vol. 0,15%
   2026-10-17 19:00:00 | Punk | WESLEY & THE BOYS (garage-punk/r'n'r, us) + SPA BOYS (wellnes hc/punk, sttgrt)
+  2026-10-17 19:00:00 | Punk | Drölfzehn Bier Vol. 0,15%
+  2026-10-17 19:00:00 | None | GODMOTHER + OBSTRUKTION +Support
+  2026-10-17 21:00:00 | Punk | SOLI-CONCERT FOR EARTHQUAKE VICTIMS IN COLOMBIA
+  2026-10-17 23:00:00 | None | P ▲ R ▲ N ● I ► ( PARANOID CLUB )

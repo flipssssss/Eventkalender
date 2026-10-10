@@ -1,4 +1,4 @@
-Event-Links: 17 | Events: 14
+Event-Links: 17 | Events: 15
   2026-03-18 21:00:00 | KulturMarktHalle, Hanns-Eisler-Straße 93, 10409, Berlin | The Composers' Orchestra Berlin
   2026-10-11 15:30:00 | Industriesalon Schöneweide, Reinbeckstraße 10, 12459, Berlin | Jazz Cafe - VORTEX
   2026-10-11 17:00:00 | Friedenskirche, Don-Ugoletti-Platz 1, 12527 Berlin, Deutschland, Don-Ugoletti-Platz 1, 12527, Berlin | Ukulelen-Orchester The Gentle Ukes
@@ -13,3 +13,4 @@ Event-Links: 17 | Events: 14
   2026-10-16 20:00:00 | Little Stage Berlin, Jonasstraße, 12053, Berlin | Hear Now Where
   2026-10-16 20:00:00 | WABE (Interimsspielstätte), Schönfließer Straße 7, 10439, Berlin | Shannon Callahan & Band
   2026-10-17 19:30:00 | Showfenster Theater, Letteallee 94, 13409, Berlin | Nadia Lafi
+  2026-10-17 20:00:00 | Little Stage Berlin, Jonasstraße, 12053, Berlin | Bidar

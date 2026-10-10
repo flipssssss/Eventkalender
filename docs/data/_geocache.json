@@ -114,6 +114,12 @@
   "lat": 52.4762368,
   "lng": 13.422639
  },
+ "12049 Neukölln, Berlin": {
+  "address": "12049 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4762368,
+  "lng": 13.422639
+ },
  "12101 Berlin": {
   "address": "12101 Tempelhof",
   "bezirk": "Tempelhof-Schöneberg",
@@ -1733,6 +1739,12 @@
   "bezirk": "Mitte",
   "lat": 52.5175559,
   "lng": 13.3770823
+ },
+ "Ebertstraße, 10117 Mitte, Berlin": {
+  "address": "Ebertstraße, 10117 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5139595,
+  "lng": 13.3772315
  },
  "Eiertanz, Admiralstraße 17, 10999 Berlin": null,
  "Elisabeth-Schwarzhaupt-Platz, 10115 Berlin": {
@@ -3908,6 +3920,12 @@
   "lat": 52.5344522,
   "lng": 13.3600061
  },
+ "Lehrter Straße 35, 10557 Moabit, Berlin": {
+  "address": "Lehrter Straße 35, 10557 Moabit",
+  "bezirk": "Mitte",
+  "lat": 52.5343784,
+  "lng": 13.3596231
+ },
  "Leinestraße 1204, 12049 Berlin": {
   "address": "Leinestraße, 12049 Neukölln",
   "bezirk": "Neukölln",
@@ -5018,6 +5036,12 @@
   "lng": 13.4196976
  },
  "Otto-von-Bismarck-Allee 1055, 10557 Berlin": {
+  "address": "Otto-von-Bismarck-Allee, 10557 Tiergarten",
+  "bezirk": "Mitte",
+  "lat": 52.5207478,
+  "lng": 13.3727985
+ },
+ "Otto-von-Bismarck-Allee, 10557 Tiergarten, Berlin": {
   "address": "Otto-von-Bismarck-Allee, 10557 Tiergarten",
   "bezirk": "Mitte",
   "lat": 52.5207478,
@@ -6612,6 +6636,12 @@
   "lng": 13.3489686
  },
  "Theater Strahl. Halle Ostkreuz, Berlin": null,
+ "Theater Thikwa, Berlin": {
+  "address": "Fidicinstraße 40, 10965 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4873738,
+  "lng": 13.3883479
+ },
  "Theater X, Wiclefstraße 32, 10551 Berlin": {
   "address": "Wiclefstraße 32, 10551 Moabit",
   "bezirk": "Mitte",
@@ -7003,6 +7033,12 @@
  "Wagenplatz Kinderbauernhof, Adalbertstraße 69, 10997 Berlin": null,
  "Wagenplatz Scheffel 21 Berlin": null,
  "Wagenplatz Scheffel 21 Berlin Deutschland": null,
+ "Waldemarstraße 110, 10997 Kreuzberg, Berlin": {
+  "address": "Waldemarstraße 110, 10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5009671,
+  "lng": 13.4284093
+ },
  "Waldemarstraße 110, Berlin": {
   "address": "Waldemarstraße 110, 10997 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -7075,6 +7111,12 @@
   "bezirk": "Neukölln",
   "lat": 52.4777152,
   "lng": 13.4240197
+ },
+ "Weitlingstraße, 10317 Rummelsburg, Berlin": {
+  "address": "Weitlingstraße, 10317 Rummelsburg",
+  "bezirk": "Lichtenberg",
+  "lat": 52.5036298,
+  "lng": 13.4945048
  },
  "Welser Straße 20, 10777 Berlin": {
   "address": "Welserstraße, 10777 Schöneberg",
@@ -7222,6 +7264,12 @@
   "lng": 13.3543652
  },
  "Wittenbergplatz, 10789 Berlin": {
+  "address": "Wittenbergplatz, 10789 Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.5017976,
+  "lng": 13.3430005
+ },
+ "Wittenbergplatz, 10789 Schöneberg, Berlin": {
   "address": "Wittenbergplatz, 10789 Schöneberg",
   "bezirk": "Tempelhof-Schöneberg",
   "lat": 52.5017976,

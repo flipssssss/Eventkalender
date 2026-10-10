@@ -1,7 +1,6 @@
 top-keys: ['website', 'websiteSettings', 'collection', 'shoppingCart', 'shareButtons', 'showCart', 'localizedStrings', 'userAccountsContext', 'template', 'uiextensions', 'empty', 'emptyFolder', 'calendarView', 'pagination', 'upcoming']
-items: 20 | Events: 20
+items: 19 | Events: 19
 erstes item keys: ['id', 'collectionId', 'recordType', 'addedOn', 'updatedOn', 'starred', 'passthrough', 'tags', 'categories', 'workflowState', 'publishOn', 'authorId', 'systemDataId', 'systemDataVariants', 'systemDataSourceType', 'filename', 'mediaFocalPoint', 'colorData', 'urlId', 'title', 'sourceUrl', 'body', 'excerpt', 'location', 'customContent']
-  2026-10-09 21:00:00.506000 | Humboldt Bigband SWING NIGHT
   2026-10-10 21:00:00.506000 | Jannis Zotos Band „HYDRA“
   2026-10-11 21:00:00.506000 | Julian Costello Quartet /UK
   2026-10-13 21:00:00.506000 | MY SPANISH HEART – Drei Jahre Flamenco-Jazz in Berlin&nbsp;Special Guest: Nusta&nbsp;(dance)

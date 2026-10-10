@@ -2,12 +2,10 @@ Häuser ohne kuratierte Öffnungszeiten (in scrapers/openinghours.py ergänzen):
 
 Café Cralle
 FMP1 Franz-Mehring-Platz 1, 10243 Berlin Deutschland
-K-fetisch Wildenbruchstraße 86 12045 Berlin Deutschland
 Prater Galerie
 Prima Center Berlin Biesentaler Str. 24 13359 Berlin Deutschland
 Regenbogenfabrik Lausitzer Str. 22 10999 Berlin Deutschland
 Sprüth Magers
 Tchoban Foundation
-Vetomat Wühlischstr. 42 10247 Berlin Deutschland
 Villa Schöningen
 f³ – Freiraum für Fotografie

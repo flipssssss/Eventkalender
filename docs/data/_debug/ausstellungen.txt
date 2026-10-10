@@ -1,26 +1,26 @@
 ExhibitionEvents -> Events: 25
-  2026-10-09 Maurizio Cattelan: Night – Preis der Nationalgaler
-  2026-10-09 Next Door: Tacita Dean und Bruce Nauman, Thomas De
-  2026-10-09 Lina Lapelytė: We Make Years Out of Hours – Chanel
-  2026-10-09 Nizo Yamamoto: Meister der Anime-Szenografie
-  2026-10-09 Lovis Corinth: Dann kam Berlin!
-  2026-10-09 Ryuichi Sakamoto: seeing sound, hearing time
-  2026-10-09 Josef Kaiser: Bauen für die DDR
-  2026-10-09 Zwischen Bäumen
-  2026-10-09 Gabriele Stötzer: Dabei sein und nicht schweigen
-  2026-10-09 Courage: Schwestern im Geiste
-  2026-10-09 Ruin und Rausch: Berlin 1910–1930
-  2026-10-09 Christoph Schlingensief: Es ist nicht mehr mein Pr
-  2026-10-09 Materialistin: Matter of Care, Care of Matter
-  2026-10-09 Projektionen auf den Osten
-  2026-10-09 Jean-Luc Mylayne: Reflection
-  2026-10-09 Fujiko Nakaya: Nebelskulptur im Skulpturengarten
-  2026-10-09 Metaxy: Zwischen Zerstörung und Wiederaufbau
-  2026-10-09 Rooms / Stages
-  2026-10-09 Many Shades of Grès: Mode wird Kunst
-  2026-10-09 Die Magie der Straße
+  2026-10-10 Maurizio Cattelan: Night – Preis der Nationalgaler
+  2026-10-10 Next Door: Tacita Dean und Bruce Nauman, Thomas De
+  2026-10-10 Lina Lapelytė: We Make Years Out of Hours – Chanel
+  2026-10-10 Nizo Yamamoto: Meister der Anime-Szenografie
+  2026-10-10 Lovis Corinth: Dann kam Berlin!
+  2026-10-10 Ryuichi Sakamoto: seeing sound, hearing time
+  2026-10-10 Josef Kaiser: Bauen für die DDR
+  2026-10-10 Zwischen Bäumen
+  2026-10-10 Gabriele Stötzer: Dabei sein und nicht schweigen
+  2026-10-10 Courage: Schwestern im Geiste
+  2026-10-10 Ruin und Rausch: Berlin 1910–1930
+  2026-10-10 Christoph Schlingensief: Es ist nicht mehr mein Pr
+  2026-10-10 Materialistin: Matter of Care, Care of Matter
+  2026-10-10 Projektionen auf den Osten
+  2026-10-10 Jean-Luc Mylayne: Reflection
+  2026-10-10 Fujiko Nakaya: Nebelskulptur im Skulpturengarten
+  2026-10-10 Metaxy: Zwischen Zerstörung und Wiederaufbau
+  2026-10-10 Rooms / Stages
+  2026-10-10 Many Shades of Grès: Mode wird Kunst
+  2026-10-10 Die Magie der Straße
   2026-10-20 Dschingis Khan: Die Welt der Mongolen
-  2026-10-09 Kreuzberg: Kunst und Migration seit 1960
+  2026-10-10 Kreuzberg: Kunst und Migration seit 1960
   2026-10-21 Über Zeiten: Gursky, Lucas, Miró, Warhol und die K
   2026-11-12 Sophie Calle: Is It Better?
   2026-11-27 Ulay, Ulay & Abramović

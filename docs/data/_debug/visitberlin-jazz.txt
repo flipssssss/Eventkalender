@@ -1,9 +1,4 @@
-Event-Links: 17 | Events: 13
-  2026-10-09 20:00:00 | EUREF-Campus Berlin, Torgauer Straße 25, 10829, Berlin | ZigZag Hall – Berlins neue Bühne für Jazz und Live-Musik
-  2026-10-10 19:30:00 | MS Goldberg, Havelufer
-Dischinger Brücke, 13581, Berlin | Yuliia Holub Quintett – Roots & Grooves
-  2026-10-10 20:00:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | BOFF - Indie Pop/Rock
-  2026-10-10 20:00:00 | Kubiz Raoul Wallenberg, Bernkasteler Str 78, 13088, Berlin | Sebastian Schunke Trio: Elusive Beauty
+Event-Links: 17 | Events: 14
   2026-03-18 21:00:00 | KulturMarktHalle, Hanns-Eisler-Straße 93, 10409, Berlin | The Composers' Orchestra Berlin
   2026-10-11 15:30:00 | Industriesalon Schöneweide, Reinbeckstraße 10, 12459, Berlin | Jazz Cafe - VORTEX
   2026-10-11 17:00:00 | Friedenskirche, Don-Ugoletti-Platz 1, 12527 Berlin, Deutschland, Don-Ugoletti-Platz 1, 12527, Berlin | Ukulelen-Orchester The Gentle Ukes
@@ -13,3 +8,8 @@ Dischinger Brücke, 13581, Berlin | Yuliia Holub Quintett – Roots & Grooves
   2026-10-15 19:00:00 | Haus der Kulturen der Welt, John-Forster-Dulles-Allee 10, 10557, Berlin | The Berlin Afrobeat Company, Santrofi
   2026-10-15 20:00:00 | WABE (Interimsspielstätte), Schönfließer Straße 7, 10439, Berlin | Anna Margolina Trio: Song Of A Girl
   2026-10-15 20:00:00 | Blackmore's - Berlins Musikzimmer, Warmbrunner Straße 52, 14193, Berlin | ASPEKTE BACH: Gespielt und erzählt von SERGEI DREZNIN
+  2026-10-16 19:30:00 | Kulturhaus Centre Bagatelle, Zeltinger Str. 6, 13465, Berlin-Frohnau | Berliner Musike und Seemannslieder
+  2026-10-16 20:00:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | 2Mädchen und Uwe
+  2026-10-16 20:00:00 | Little Stage Berlin, Jonasstraße, 12053, Berlin | Hear Now Where
+  2026-10-16 20:00:00 | WABE (Interimsspielstätte), Schönfließer Straße 7, 10439, Berlin | Shannon Callahan & Band
+  2026-10-17 19:30:00 | Showfenster Theater, Letteallee 94, 13409, Berlin | Nadia Lafi

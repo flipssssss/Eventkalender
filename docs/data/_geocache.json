@@ -362,6 +362,12 @@
   "lat": 52.4378932,
   "lng": 13.5475496
  },
+ "Admiralspalast, Berlin": {
+  "address": "Friedrichstraße 101, 10117 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5207714,
+  "lng": 13.3889021
+ },
  "Admiralstr. 17 Berlin Deutschland": {
   "address": "Admiralstraße 17, 10999 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -508,6 +514,7 @@
  },
  "Alte Feuerwache Friedrichshain, Marchlewskistraße 6, 10243, Berlin": null,
  "Alte Feuerwache THF Tempelhofer Damm 45 12101 Berlin Deutschland": null,
+ "Alte Feuerwache, Axel-Springer-Straße 40, 10969 Berlin": null,
  "Alte Jakobstraße 124, 10969 Berlin": {
   "address": "Alte Jakobstraße 124, 10969 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -705,6 +712,12 @@
   "lat": 52.5448387,
   "lng": 13.4194785
  },
+ "Axel-Springer-Straße 40, 10969 Berlin": {
+  "address": "Axel-Springer-Straße 40-41, 10969 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5077154,
+  "lng": 13.3990271
+ },
  "Axel-Springer-Straße 65 Berlin Deutschland": {
   "address": "Axel-Springer-Straße 65, 10969 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -740,6 +753,12 @@
  },
  "BHT, Raum D E27, Luxemburger Straße 10, 13353 Berlin": null,
  "BHT, Raum D117, Luxemburger Straße 10, 13353 Berlin": null,
+ "BKA-Theater, Berlin": {
+  "address": "Mehringdamm 34, 10961 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4936405,
+  "lng": 13.3876998
+ },
  "BLO Ateliers Kaskelstr. 55 10317 Berlin Deutschland": {
   "address": "Kaskelstraße 55, 10317 Rummelsburg",
   "bezirk": "Lichtenberg",
@@ -809,6 +828,12 @@
   "lng": 13.380294
  },
  "Ballhaus Prinzenallee, Berlin": {
+  "address": "Prinzenallee 33, 13359 Gesundbrunnen",
+  "bezirk": "Mitte",
+  "lat": 52.5577738,
+  "lng": 13.3864077
+ },
+ "Ballhaus Prinzenallee, Prinzenallee 33, 13359, Berlin": {
   "address": "Prinzenallee 33, 13359 Gesundbrunnen",
   "bezirk": "Mitte",
   "lat": 52.5577738,
@@ -934,6 +959,7 @@
  },
  "Berlin Hbf Gleis 16, 10557 Berlin": null,
  "Berlin Hbf Gleis 8, RE8, 10557 Berlin": null,
+ "Berlin Hbf, RE8 Gleis 1, 10557 Berlin": null,
  "Berlin Kreuzberg": {
   "address": "Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -2516,6 +2542,7 @@
   "lat": 52.5187884,
   "lng": 13.3648356
  },
+ "Haus der Kulturen der Welt, John-Forster-Dulles-Allee 10, 10557, Berlin": null,
  "Haus der Statistik, Otto-Braun-Straße 70-72, 10178 Berlin": null,
  "Hausprojekt Burge Burgemeisterstraße 17 12103 Berlin Deutschland": {
   "address": "Burgemeisterstraße 17-18, 12103 Tempelhof",
@@ -2926,6 +2953,7 @@
   "lat": 52.4848253,
   "lng": 13.3441027
  },
+ "John-Forster-Dulles-Allee 10, 10557 Berlin": null,
  "John-Foster-Dulles-Allee 10, 10557 Tiergarten, Berlin": {
   "address": "John-Foster-Dulles-Allee 10, 10557 Tiergarten",
   "bezirk": "Mitte",
@@ -5215,6 +5243,12 @@
   "lng": 13.3198778
  },
  "Peter-Göring-Str. 25, Berlin": null,
+ "Petruskirche Lichterfelde, Oberhofer Platz, 12209, Berlin": {
+  "address": "Oberhofer Platz 2, 12209 Lichterfelde",
+  "bezirk": "Steglitz-Zehlendorf",
+  "lat": 52.4251253,
+  "lng": 13.3280056
+ },
  "Pflügerstr. 52, 12047 Berlin": {
   "address": "Pflügerstraße 52, 12047 Neukölln",
   "bezirk": "Neukölln",
@@ -5864,6 +5898,12 @@
  },
  "S-Bhf Adlershof, 12489 Berlin": null,
  "S-Bhf Charlottenburg, Gleis 4, 10627 Berlin": null,
+ "S-Bhf Sonnenallee, 12055 Berlin": {
+  "address": "Saalestraße, 12055 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4728413,
+  "lng": 13.4553408
+ },
  "S-Bhf. Gesundbrunnen Berlin Deutschland": {
   "address": "Hochstraße 46, 13357 Gesundbrunnen",
   "bezirk": "Mitte",

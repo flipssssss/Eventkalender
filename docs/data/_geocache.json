@@ -299,6 +299,7 @@
   "lat": 52.5108574,
   "lng": 13.3276087
  },
+ "Aberrante - Anarchxfeminist Library, Schererstr. 8 (Wedding) Berlin Deutschland": null,
  "Abfahrt Solibus Züllichauer Straße 10965 Berlin Deutschland": null,
  "Abgedreht-Klub Karl-Marx-Allee.140 10243 Berlin Deutschland": null,
  "Abstand Rigaer Straße 78 10247 Berlin Deutschland": {
@@ -1451,6 +1452,7 @@
   "lat": 52.4692685,
   "lng": 13.4324824
  },
+ "Café Freiraum an der ASH, Alice-Salomon-Platz 5, 12627 Berlin": null,
  "Café Freiraum, Alice-Salomon-Platz 5, 12627 Berlin": null,
  "Café Herman Schulz Kollektiv, Finowstraße 33, Friedrichshain 10247 Berlin Deutschland": null,
  "Café Herzberg, Berlin": {
@@ -1512,6 +1514,12 @@
  "Casino für Sozialmedizin Sonnenallee 100 12045 Berlin Deutschland": null,
  "Casino für Sozialmedizin, Sonnenallee 100, 12045 Berlin": null,
  "Casinoooo Sonnenallee 100 12045 Berlin Deutschland": null,
+ "Central, Berlin": {
+  "address": "Naugarder Straße, 10409 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5430116,
+  "lng": 13.4386484
+ },
  "Chamissoplatz 1, 10965 Berlin": {
   "address": "Chamissoplatz 1, 10965 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -1708,6 +1716,12 @@
   "lng": 13.5778984
  },
  "Dorfplatz (Fhain) Rigaerstr. Ecke Liebigstr. 10247 Berlin Deutschland": null,
+ "Dorotheenstraße 24, 10117 Berlin": {
+  "address": "Dorotheenstraße 24, 10117 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5196905,
+  "lng": 13.3928455
+ },
  "Dr.-Wilhelm-Külz-Straße 10A, 15517 Berlin": {
   "address": "Dr.-Wilhelm-Külz-Straße, 15362 Berlin",
   "bezirk": null,
@@ -2393,6 +2407,7 @@
  },
  "HAU2 Hallesches Ufer 34 10963 Berlin Deutschland": null,
  "HAU2 Hallesches Ufer 34 10963, 10963 Berlin": null,
+ "HU Campus Mitte, Dorotheenstraße 24, Raum 1.204, 10117 Berlin": null,
  "Haasestraße 1, 10245 Friedrichshain, Berlin": {
   "address": "Haasestraße 1, 10245 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -6027,6 +6042,12 @@
   "bezirk": "Lichtenberg",
   "lat": 52.5198504,
   "lng": 13.4745735
+ },
+ "Schererstr. 8, Berlin": {
+  "address": "Schererstraße 8, 13347 Wedding",
+  "bezirk": "Mitte",
+  "lat": 52.5481641,
+  "lng": 13.3670511
  },
  "Schererstra. 8 13347 Berlin Deutschland": null,
  "Schererstrasse 8, 13347 Berlin": {

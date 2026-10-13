@@ -4,6 +4,6 @@ detail_ok: 32
 detail_err: 0
 recur: 21
 no_geo: 3
-geo: 63
+geo: 64
 events: 150
 FEHLER:

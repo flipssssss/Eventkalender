@@ -1,4 +1,4 @@
-event-blocks: 14 | Events: 14
+event-blocks: 17 | Events: 17
 
 <div class="event-block">
  <!-- Zeile 1: Datum + Titel -->
@@ -45,6 +45,29 @@ event-blocks: 14 | Events: 14
  <!-- Zeile 1: Datum + Titel -->
  <div class="event-row-1">
   <div class="event-time">
+   Samstag, 17. Okt. 21:00
+  </div>
+  <div class="event-title">
+   LOVERs..DUBBY...DISCOREGGAY
+  </div>
+ </div>
+ <!-- Zeile 2: Bild + Beschreibung -->
+ <div class="event-row-2">
+  <div class="event-image">
+   <img alt="" src="ProgrammFotos/LOVERs_DUBBY_DISCOREGGAY_2026_10_17.jpg"/>
+  </div>
+  <div class="event-description">
+   a night of global reggay. vinyl only - on decks miss pinky + mr.knister
+  </div>
+ </div>
+</div>
+
+
+----
+<div class="event-block">
+ <!-- Zeile 1: Datum + Titel -->
+ <div class="event-row-1">
+  <div class="event-time">
    Dienstag, 20. Okt. 21:00
   </div>
   <div class="event-title">
@@ -57,28 +80,6 @@ event-blocks: 14 | Events: 14
   </div>
   <div class="event-description">
    Boney S.
-  </div>
- </div>
-</div>
-
-
-----
-<div class="event-block">
- <!-- Zeile 1: Datum + Titel -->
- <div class="event-row-1">
-  <div class="event-time">
-   Donnerstag, 22. Okt. 22:00
-  </div>
-  <div class="event-title">
-   Schwulenschubsen
-  </div>
- </div>
- <!-- Zeile 2: Bild + Beschreibung -->
- <div class="event-row-2">
-  <div class="event-image event-image--empty">
-  </div>
-  <div class="event-description">
-   St. Laurent
   </div>
  </div>
 </div>

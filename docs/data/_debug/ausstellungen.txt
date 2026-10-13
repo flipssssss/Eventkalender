@@ -1,24 +1,24 @@
 ExhibitionEvents -> Events: 25
-  2026-10-12 Maurizio Cattelan: Night – Preis der Nationalgaler
-  2026-10-12 Next Door: Tacita Dean und Bruce Nauman, Thomas De
-  2026-10-12 Lina Lapelytė: We Make Years Out of Hours – Chanel
-  2026-10-12 Nizo Yamamoto: Meister der Anime-Szenografie
-  2026-10-12 Lovis Corinth: Dann kam Berlin!
-  2026-10-12 Ryuichi Sakamoto: seeing sound, hearing time
-  2026-10-12 Josef Kaiser: Bauen für die DDR
-  2026-10-12 Zwischen Bäumen
-  2026-10-12 Gabriele Stötzer: Dabei sein und nicht schweigen
-  2026-10-12 Kreuzberg: Kunst und Migration seit 1960
-  2026-10-12 Courage: Schwestern im Geiste
-  2026-10-12 Ruin und Rausch: Berlin 1910–1930
-  2026-10-12 Christoph Schlingensief: Es ist nicht mehr mein Pr
-  2026-10-12 Materialistin: Matter of Care, Care of Matter
-  2026-10-12 Projektionen auf den Osten
-  2026-10-12 Jean-Luc Mylayne: Reflection
-  2026-10-12 Fujiko Nakaya: Nebelskulptur im Skulpturengarten
-  2026-10-12 Metaxy: Zwischen Zerstörung und Wiederaufbau
-  2026-10-12 Rooms / Stages
-  2026-10-12 Die Magie der Straße
+  2026-10-13 Maurizio Cattelan: Night – Preis der Nationalgaler
+  2026-10-13 Next Door: Tacita Dean und Bruce Nauman, Thomas De
+  2026-10-13 Lina Lapelytė: We Make Years Out of Hours – Chanel
+  2026-10-13 Nizo Yamamoto: Meister der Anime-Szenografie
+  2026-10-13 Lovis Corinth: Dann kam Berlin!
+  2026-10-13 Ryuichi Sakamoto: seeing sound, hearing time
+  2026-10-13 Josef Kaiser: Bauen für die DDR
+  2026-10-13 Zwischen Bäumen
+  2026-10-13 Gabriele Stötzer: Dabei sein und nicht schweigen
+  2026-10-13 Kreuzberg: Kunst und Migration seit 1960
+  2026-10-13 Courage: Schwestern im Geiste
+  2026-10-13 Ruin und Rausch: Berlin 1910–1930
+  2026-10-13 Christoph Schlingensief: Es ist nicht mehr mein Pr
+  2026-10-13 Materialistin: Matter of Care, Care of Matter
+  2026-10-13 Projektionen auf den Osten
+  2026-10-13 Jean-Luc Mylayne: Reflection
+  2026-10-13 Fujiko Nakaya: Nebelskulptur im Skulpturengarten
+  2026-10-13 Metaxy: Zwischen Zerstörung und Wiederaufbau
+  2026-10-13 Rooms / Stages
+  2026-10-13 Die Magie der Straße
   2026-10-16 Susan Hiller: Bad Dreams
   2026-10-20 Dschingis Khan: Die Welt der Mongolen
   2026-10-21 Über Zeiten: Gursky, Lucas, Miró, Warhol und die K

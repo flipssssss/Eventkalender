@@ -2189,6 +2189,12 @@
   "lng": 13.4429747
  },
  "Globe Berlin, Sömmeringstraße 15, 10589, Berlin": null,
+ "GlogauAIR, Berlin": {
+  "address": "Glogauer Straße 16, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4922165,
+  "lng": 13.4359064
+ },
  "Gneisenaustr. 2a, 10961 Berlin": {
   "address": "Gneisenaustraße 2a, 10961 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -4429,6 +4435,8 @@
   "lat": 52.5009077,
   "lng": 13.4232743
  },
+ "Mariennenplatz ,1a, Berlin": null,
+ "Mariennenplatz 1a, Berlin": null,
  "Marienstraße 11, 10117 Berlin": {
   "address": "Marienstraße 11, 10117 Mitte",
   "bezirk": "Mitte",
@@ -4504,6 +4512,12 @@
   "bezirk": "Mitte",
   "lat": 52.5085739,
   "lng": 13.3871178
+ },
+ "Maxim Gorki Theater, Berlin": {
+  "address": "Am Festungsgraben 2, 10117 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5190141,
+  "lng": 13.3950767
  },
  "Maybachufer 36, 12047 Berlin": {
   "address": "Maybachufer 36-38, 12047 Neukölln",
@@ -4649,6 +4663,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5005232,
   "lng": 13.4555307
+ },
+ "Modus Berlin": {
+  "address": "Lobeckstraße, 10969 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.50304,
+  "lng": 13.4078449
  },
  "Monarch, Berlin": {
   "address": "Skalitzer Straße 134, 10999 Kreuzberg",
@@ -6960,6 +6980,12 @@
  "US Botschaft Pariser Platz/Brandenburger Tor Berlin": null,
  "US Botschaft Pariser Platz/Brandenburger Tor Berlin Deutschland": null,
  "US Botschaft, Behrenstraße Ecke Ebertstraße, 10117 Berlin": null,
+ "Uber Arena, Berlin": {
+  "address": "10243 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5063687,
+  "lng": 13.4437652
+ },
  "Uferstraße 12, 13357 Gesundbrunnen, Berlin": {
   "address": "Uferstraße 12, 13357 Gesundbrunnen",
   "bezirk": "Mitte",

@@ -1,4 +1,4 @@
-Events: 128
-/veranstaltungsart/highlights-konzerte (Konzert): 28 Teaser
+Events: 127
+/veranstaltungsart/highlights-konzerte (Konzert): 27 Teaser
 /veranstaltungsart/hoerspiele-lesungen (Vortrag): 10 Teaser
-Detailseiten: 32
+Detailseiten: 31

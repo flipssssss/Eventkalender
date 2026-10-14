@@ -1,27 +1,5 @@
-event-blocks: 17 | Events: 17
+event-blocks: 16 | Events: 16
 
-<div class="event-block">
- <!-- Zeile 1: Datum + Titel -->
- <div class="event-row-1">
-  <div class="event-time">
-   Donnerstag, 15. Okt. 22:00
-  </div>
-  <div class="event-title">
-   Schwulenschubsen
-  </div>
- </div>
- <!-- Zeile 2: Bild + Beschreibung -->
- <div class="event-row-2">
-  <div class="event-image event-image--empty">
-  </div>
-  <div class="event-description">
-   Makode
-  </div>
- </div>
-</div>
-
-
-----
 <div class="event-block">
  <!-- Zeile 1: Datum + Titel -->
  <div class="event-row-1">
@@ -80,6 +58,28 @@ event-blocks: 17 | Events: 17
   </div>
   <div class="event-description">
    Boney S.
+  </div>
+ </div>
+</div>
+
+
+----
+<div class="event-block">
+ <!-- Zeile 1: Datum + Titel -->
+ <div class="event-row-1">
+  <div class="event-time">
+   Donnerstag, 22. Okt. 22:00
+  </div>
+  <div class="event-title">
+   Schwulenschubsen
+  </div>
+ </div>
+ <!-- Zeile 2: Bild + Beschreibung -->
+ <div class="event-row-2">
+  <div class="event-image event-image--empty">
+  </div>
+  <div class="event-description">
+   St. Laurent
   </div>
  </div>
 </div>

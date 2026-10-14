@@ -1424,6 +1424,7 @@
   "lat": 52.4997694,
   "lng": 13.3923025
  },
+ "Café A (Architekturgebäude), Raum A 013, Straße des 17. Juni 152, 10623 Berlin": null,
  "Café Cralle Hochstädter Straße 10A, Berlin": {
   "address": "Hochstädter Straße 10a, 13347 Wedding",
   "bezirk": "Mitte",
@@ -2653,6 +2654,12 @@
   "lat": 52.4851158,
   "lng": 13.4240134
  },
+ "Hermannstraße 146, 12051 Berlin, Germany": {
+  "address": "Hermannstraße 146, 12051 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4643376,
+  "lng": 13.4333186
+ },
  "Hermannstraße 18, 12049 Berlin": {
   "address": "Hermannstraße 18, 12049 Neukölln",
   "bezirk": "Neukölln",
@@ -3151,6 +3158,7 @@
   "lat": 52.5417268,
   "lng": 13.1846433
  },
+ "Kantine am Berghain, Berlin": null,
  "Kaos Berlin Wilhelminenhofstr.92 Berlin": null,
  "Kaos Berlin Wilhelminenhofstr.92 Berlin Deutschland": null,
  "Kaox Türrschmidtstr. 1 10317 Berlin Deutschland": null,
@@ -3181,6 +3189,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5171831,
   "lng": 13.436985
+ },
+ "Karl-Marx-Straße 107 12043 Berlin": {
+  "address": "Karl-Marx-Straße 107, 12043 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.479261,
+  "lng": 13.438204
  },
  "Karl-Marx-Straße 141, 12043 Berlin": {
   "address": "Karl-Marx-Straße 141, 12043 Neukölln",
@@ -3581,6 +3595,7 @@
   "lat": 52.5030057,
   "lng": 13.407825
  },
+ "Kriminal Gericht Moabit (Turmstraße 91) Turmstraße 91 Berlin Deutschland": null,
  "Kronprinzessinnenweg 5, 14109 Berlin": {
   "address": "Kronprinzessinnenweg, 14109 Wannsee",
   "bezirk": "Steglitz-Zehlendorf",
@@ -6148,6 +6163,12 @@
   "lat": 52.5008341,
   "lng": 13.4414625
  },
+ "Schlesisches, Berlin": {
+  "address": "Skalitzer Straße, 10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5008511,
+  "lng": 13.4415289
+ },
  "Schloss und Gutshof Britz, Alt-Britz 73, 12359, Berlin": null,
  "Schlosspark Theater, Berlin": {
   "address": "Schloßstraße 48, 12165 Steglitz",
@@ -6904,6 +6925,12 @@
   "lng": 13.3538242
  },
  "Turmstraße 91, 10559 Berlin": {
+  "address": "Turmstraße 91, 10559 Moabit",
+  "bezirk": "Mitte",
+  "lat": 52.5259741,
+  "lng": 13.3540779
+ },
+ "Turmstraße 91, Berlin": {
   "address": "Turmstraße 91, 10559 Moabit",
   "bezirk": "Mitte",
   "lat": 52.5259741,

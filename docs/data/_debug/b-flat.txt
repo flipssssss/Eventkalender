@@ -1,7 +1,6 @@
 top-keys: ['website', 'websiteSettings', 'collection', 'shoppingCart', 'shareButtons', 'showCart', 'localizedStrings', 'userAccountsContext', 'template', 'uiextensions', 'empty', 'emptyFolder', 'calendarView', 'pagination', 'upcoming']
-items: 17 | Events: 17
+items: 26 | Events: 26
 erstes item keys: ['id', 'collectionId', 'recordType', 'addedOn', 'updatedOn', 'starred', 'passthrough', 'tags', 'categories', 'workflowState', 'publishOn', 'authorId', 'systemDataId', 'systemDataVariants', 'systemDataSourceType', 'filename', 'mediaFocalPoint', 'colorData', 'urlId', 'title', 'sourceUrl', 'body', 'excerpt', 'location', 'customContent']
-  2026-10-13 21:00:00.506000 | MY SPANISH HEART – Drei Jahre Flamenco-Jazz in Berlin&nbsp;Special Guest: Nusta&nbsp;(dance)
   2026-10-14 09:00:00.936000 | „ VANDOJAM MEETS ROBIN`S NEST“ / JAMSESSION
   2026-10-15 21:00:00.506000 | NASSER KILADA - Blue Nile Quartet&nbsp;
   2026-10-16 21:00:00.506000 | LUCIA FODDE QUARTETT – INNER LANDSCAPE
@@ -18,3 +17,13 @@ erstes item keys: ['id', 'collectionId', 'recordType', 'addedOn', 'updatedOn', '
   2026-10-29 21:00:00.506000 | STREAMLINE ORCHESTRA&nbsp;
   2026-10-30 21:00:00.506000 | FETE Bigband meets Gabriele di Franco | The Value Of Choices&nbsp; &nbsp;
   2026-10-31 21:00:00.506000 | Karl Seglem FolkJazz / Norwegen &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  2026-11-01 21:00:00.506000 | Fischbacher/Schiewer/Frohnhöfer
+  2026-11-03 21:00:00.506000 | Rodríguez &amp; Mabiala
+  2026-11-04 09:00:00.936000 | Robins Nest - Jamsession
+  2026-11-05 21:00:00.506000 | Schemes Jazz Quartet / DK,NO
+  2026-11-06 21:00:00.506000 | The „B-flat All-Stars“present&nbsp;Catalina Sophie
+  2026-11-07 21:00:00.506000 | Emiliano Sampaio Meretrio - Brazilian Night "20 Years"
+  2026-11-08 21:00:00.506000 | Diego Alejandro Ensemble &nbsp;
+  2026-11-10 23:55:00.506000 | Armin Jambor Quartet„Touch &amp; Fade“
+  2026-11-11 09:00:00.936000 | Robins Nest - Jamsession
+  2026-11-12 23:55:00.506000 | Thärichens Tentett&nbsp;

@@ -1,16 +1,7 @@
-Events (vor Dedup): 420
-https://stressfaktor.squat.net/termine/alle page 0: 30 Events (2026-10-13…2026-10-14)
-https://stressfaktor.squat.net/termine/alle page 1: 30 Events (2026-10-14…2026-10-15)
-https://stressfaktor.squat.net/termine/alle page 2: 30 Events (2026-10-15…2026-10-17)
-https://stressfaktor.squat.net/termine/alle page 3: 30 Events (2026-10-17…2026-10-19)
-https://stressfaktor.squat.net/termine/alle page 4: 30 Events (2026-10-19…2026-10-21)
-https://stressfaktor.squat.net/termine/alle page 5: 30 Events (2026-10-21…2026-10-22)
-https://stressfaktor.squat.net/termine/alle page 6: 30 Events (2026-10-22…2026-10-24)
-https://stressfaktor.squat.net/termine/alle page 7: 30 Events (2026-10-24…2026-10-28)
-https://stressfaktor.squat.net/termine/alle page 8: 30 Events (2026-10-28…2026-10-30)
-https://stressfaktor.squat.net/termine/alle page 9: 30 Events (2026-10-30…2026-11-01)
-https://stressfaktor.squat.net/termine/alle page 10: 30 Events (2026-11-01…2026-11-05)
-https://stressfaktor.squat.net/termine/alle page 11: 30 Events (2026-11-05…2026-11-09)
-https://stressfaktor.squat.net/termine/alle page 12: 30 Events (2026-11-09…2026-11-13)
-https://stressfaktor.squat.net/termine/alle page 13: 30 Events (2026-11-13…2026-11-19)
-Anubis-Notizen: PoW: difficulty=2 nonce=116 hash=00f9512565c7… pass-status=200 cookies=['techaro.lol-anubis-cookie-verification', 'techaro.lol-anubis-auth']
+Events (vor Dedup): 120
+https://stressfaktor.squat.net/termine/alle page 0: 30 Events (2026-10-14…2026-10-15)
+https://stressfaktor.squat.net/termine/alle page 1: 30 Events (2026-10-15…2026-10-16)
+https://stressfaktor.squat.net/termine/alle page 2: 30 Events (2026-10-16…2026-10-17)
+https://stressfaktor.squat.net/termine/alle page 3: 30 Events (2026-10-17…2026-10-20)
+https://stressfaktor.squat.net/termine/alle page 4: FEHLER HTTPSConnectionPool(host='stressfaktor.squat.net', port=443): Read timed out. (read timeout=25)
+Anubis-Notizen: PoW: difficulty=2 nonce=443 hash=0068c61033ee… pass-status=200 cookies=['techaro.lol-anubis-cookie-verification', 'techaro.lol-anubis-auth']

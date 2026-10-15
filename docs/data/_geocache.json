@@ -1418,6 +1418,7 @@
   "lat": 52.5094541,
   "lng": 13.3249126
  },
+ "Cafè Hermann Schulz, Finowstraße 33, Friedrichshain-Südkiez 10245 Berlin Deutschland": null,
  "Cafè MadaMe Mehringplatz 10, 10969 Berlin": {
   "address": "Mehringplatz 10, 10969 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -1447,6 +1448,7 @@
  },
  "Café Engelberg, Oderberger Straße 21, 10435, Berlin": null,
  "Café Engels, Herrfurthstr. 21, 12049, Berlin": null,
+ "Café Engels, Herrfurthstraße 21, 12049 Berlin": null,
  "Café Fincan Altenbraker Str. 26 Berlin Deutschland": {
   "address": "Altenbraker Straße 26, 12051 Neukölln",
   "bezirk": "Neukölln",
@@ -1489,6 +1491,12 @@
   "lng": 13.4908099
  },
  "Café Milagro, Bergmannstr. 12, 10961 Berlin": null,
+ "Café Sibylle Karl-Marx-Allee 72 10243 Berlin Deutschland": {
+  "address": "Karl-Marx-Allee 72, 10243 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5171831,
+  "lng": 13.436985
+ },
  "Café Sybille Karl-Marx-Allee 72 10243 Berlin Deutschland": null,
  "Café Wostok, Weitlingstraße 97, 10317 Berlin": {
   "address": "Weitlingstraße 97, 10317 Rummelsburg",
@@ -1972,6 +1980,12 @@
  },
  "Filmrisz Filmrisz Rigaerstr. 103 10247 Berlin Deutschland": null,
  "Filmrisz Filmrisz Rigaerstr. 103 10247, 10247 Berlin": null,
+ "Finowstraße 33, 10245 Berlin": {
+  "address": "Finowstraße 33, 10247 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5126523,
+  "lng": 13.4688157
+ },
  "Finowstraße 33, 10247 Berlin": {
   "address": "Finowstraße 33, 10247 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -2697,6 +2711,12 @@
   "lat": 52.4767265,
   "lng": 13.4200344
  },
+ "Herrfurthstraße 21, 12049 Berlin": {
+  "address": "Herrfurthstraße 21, 12049 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4766888,
+  "lng": 13.4198521
+ },
  "Herrfurthstraße 21, 12049 Neukölln, Berlin": {
   "address": "Herrfurthstraße 21, 12049 Neukölln",
   "bezirk": "Neukölln",
@@ -3026,6 +3046,12 @@
  "Jugendkulturzentrum M24 Mühlenstr.24, 13187 Berlin Deutschland": null,
  "Jugendzentrum DieLynar, Lynarstraße 14, 13353 Berlin": null,
  "Juliette Dragon, Berlin": null,
+ "Jüdenstraße 10, 13597 Berlin": {
+  "address": "Jüdenstraße 10, 13597 Spandau",
+  "bezirk": "Spandau",
+  "lat": 52.5369365,
+  "lng": 13.2018116
+ },
  "Jüdisches Museum Berlin, Lindenstraße 9-14, 10969, Berlin": null,
  "K Köpenicker Straße Berlin": {
   "address": "Köpenicker Straße, 10997 Kreuzberg",
@@ -3460,6 +3486,12 @@
   "bezirk": "Charlottenburg-Wilmersdorf",
   "lat": 52.5103384,
   "lng": 13.323503
+ },
+ "Kohlfurter Str. 33, 10999 Berlin": {
+  "address": "Regina-Jonas-Straße 33, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.497163,
+  "lng": 13.4172826
  },
  "KollektivBar EigenSinn Pflügerstr. 52, 12047 Berlin Deutschland": null,
  "Kollektivbar ES Pflügerstraße 52 12047 Berlin": {
@@ -3965,6 +3997,7 @@
   "lat": 52.4972414,
   "lng": 13.4286928
  },
+ "Lausutzer Straße 22, 10999 Berlin": null,
  "Lawede Bülowstr. 39 10783 Berlin Deutschland": null,
  "Lehderstrasse 74, 13086 Berlin": {
   "address": "Lehderstraße 74, 13086 Weißensee",
@@ -4547,6 +4580,7 @@
   "lng": 13.3859564
  },
  "Meeting @ AXEL HOTEL, Lietzenburger Straße 13-15, Schöneberg, Berlin, 10777": null,
+ "Meets in front of Rose Winkel at Nollendorfplatz, Berlin": null,
  "Mehring Platz 1, 10243 Berlin": {
   "address": "Franz-Mehring-Platz 1, 10243 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -5319,6 +5353,7 @@
  },
  "Pickle Bar, Berlin": null,
  "Piekfeiner Laden - Hausprojekt Wönnichstr. 103 Berlin Deutschland": null,
+ "Pirata Patata Pirata Patata, Kohlfurter Str. 33 10999 Berlin Deutschland": null,
  "Planetarium Berlin": {
   "address": "Munsterdamm, 12169 Steglitz",
   "bezirk": "Steglitz-Zehlendorf",
@@ -5552,6 +5587,7 @@
  "Regenbogen Cafè Lausitzer Straße 22a, 10999 Berlin (bei gutem Wetter im Hof)": null,
  "Regenbogen fabrik, Lausitzer Straße 21a, 10999 Berlin": null,
  "RegenbogenKino Lausitzer Straße 22a Deutschland, Berlin": null,
+ "RegenbogenKino Lausutzer Straße 22 10999 Berlin Deutschland": null,
  "Regenbogencafé Lausitzer Str. 22 10999 Berlin Deutschland": null,
  "Regenbogencafé Lausitzer Str. 22 10999, 10999 Berlin": null,
  "Regenbogenfabrik Lausitzer Str. 21a 10999 Berlin Deutschland": null,

@@ -1,31 +1,31 @@
-API-Events: 92 | übernommen: 92
-  2026-10-14 19:00:00 | Metal | DAZZLING KILLMEN (US) + PROPHET & FLESH
-  2026-10-14 19:00:00 | Punk | Cosmic Kitten (post-grunge/punk, us) + FISH PEOPLE (punk, bln)
-  2026-10-14 20:00:00 | Jazz | USU pres.: ELEPHANT9 | Neue Zukunft - 14.10.2026
+API-Events: 95 | übernommen: 95
   2026-10-15 18:00:00 | None | Konzert @ x-dorf
   2026-10-15 19:00:00 | None | Hate the Media Become the Media
   2026-10-16 18:00:00 | Metal | Heavy Psych Sounds Fest Berlin 2026
+  2026-10-16 19:00:00 | Punk | SCORN + SLOW BURN + CHLORATE
   2026-10-16 19:00:00 | Metal | DUNGEON KEEPER + MINENFELD + OBSEQUIAL SCEPTRE + SADISTIC GOATMESSIAH
   2026-10-16 19:00:00 | None | NEIN DANKE! + URSULA + CHATON LAVEUR
-  2026-10-16 19:00:00 | Punk | SCORN + SLOW BURN + CHLORATE
   2026-10-16 19:30:00 | Punk | BRUTAL VERSCHIMMELT + ROSA BETON - tba
   2026-10-16 20:00:00 | Punk | Karkait + Daniella Ljungsberg + GUM
   2026-10-16 20:00:00 | Punk | Sheena is Drag Show - Girls in your Area, Yumnut, Anita Drink
   2026-10-16 20:30:00 | Indie | Vanilla Bats + Verita Vee
+  2026-10-17 10:45:00 | None | Queer Tours for All! - Köpenicker Forst
   2026-10-17 15:00:00 | Punk | Dia de la rauxa: gathering with live music in catalan
   2026-10-17 18:30:00 | Rock | AoxoToxoA@Kulturhaus Insel (17/10/26)
   2026-10-17 19:00:00 | Punk | BABE HAVEN + LATTER + YUMNUT
   2026-10-17 19:00:00 | None | GODMOTHER + OBSTRUKTION +Support
-  2026-10-17 19:00:00 | Punk | Drölfzehn Bier Vol. 0,15%
   2026-10-17 19:00:00 | Punk | WESLEY & THE BOYS (garage-punk/r'n'r, us) + SPA BOYS (wellnes hc/punk, sttgrt)
+  2026-10-17 19:00:00 | Punk | Drölfzehn Bier Vol. 0,15%
   2026-10-17 21:00:00 | Punk | SOLI-CONCERT FOR EARTHQUAKE VICTIMS IN COLOMBIA
   2026-10-17 23:00:00 | None | P ▲ R ▲ N ● I ► ( PARANOID CLUB )
+  2026-10-18 14:45:00 | None | Queer Tours for All! - Gay and Sapphic Schöneberg
   2026-10-18 19:00:00 | Metal | DEATHCHANT(+ S.U.G.A.R.) | NEUE ZUKUNFT - Berlin
   2026-10-19 19:00:00 | None | KHAN (AU) - 'That Fair and Warlike Form' European Tour - Berlin w/ Skin Thief (AU)
   2026-10-19 19:00:00 | Punk | BARRENS (Heavy Post Rock, Swe) + D'CO (Ambient Emocrust, Bln)
   2026-10-19 20:00:00 | Punk | RETAIL SIMPS / DOC FLIPPERS
+  2026-10-20 17:45:00 | None | Queer Tours for All! - Queer Kreuzberg
+  2026-10-20 19:00:00 | Metal | SKRAECKOEDLAN | NEUE ZUKUNFT - Berlin
   2026-10-20 19:00:00 | Punk | Maquina. (PT, Fuzz Club), Errorr
   2026-10-20 19:00:00 | Punk | Sparta, Hammok
   2026-10-20 19:00:00 | Punk | THANK (Noise-Rock, Leeds) + LVFT (Noise-Rock/Post-Punk, Bln)
-  2026-10-20 19:00:00 | Metal | SKRAECKOEDLAN | NEUE ZUKUNFT - Berlin
   2026-10-21 19:00:00 | Folk | MLEKO (post-rock / indie / exp-folk, uk) & WHISKER (exp prog-rock, bln)

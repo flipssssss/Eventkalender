@@ -1,7 +1,6 @@
 top-keys: ['website', 'websiteSettings', 'collection', 'shoppingCart', 'shareButtons', 'showCart', 'localizedStrings', 'userAccountsContext', 'template', 'uiextensions', 'empty', 'emptyFolder', 'calendarView', 'pagination', 'upcoming']
-items: 26 | Events: 26
+items: 39 | Events: 39
 erstes item keys: ['id', 'collectionId', 'recordType', 'addedOn', 'updatedOn', 'starred', 'passthrough', 'tags', 'categories', 'workflowState', 'publishOn', 'authorId', 'systemDataId', 'systemDataVariants', 'systemDataSourceType', 'filename', 'mediaFocalPoint', 'colorData', 'urlId', 'title', 'sourceUrl', 'body', 'excerpt', 'location', 'customContent']
-  2026-10-14 09:00:00.936000 | „ VANDOJAM MEETS ROBIN`S NEST“ / JAMSESSION
   2026-10-15 21:00:00.506000 | NASSER KILADA - Blue Nile Quartet&nbsp;
   2026-10-16 21:00:00.506000 | LUCIA FODDE QUARTETT – INNER LANDSCAPE
   2026-10-17 21:00:00.506000 | Davide Incorvaia&nbsp;Continuum&nbsp;Quartet
@@ -26,4 +25,9 @@ erstes item keys: ['id', 'collectionId', 'recordType', 'addedOn', 'updatedOn', '
   2026-11-08 21:00:00.506000 | Diego Alejandro Ensemble &nbsp;
   2026-11-10 23:55:00.506000 | Armin Jambor Quartet„Touch &amp; Fade“
   2026-11-11 09:00:00.936000 | Robins Nest - Jamsession
-  2026-11-12 23:55:00.506000 | Thärichens Tentett&nbsp;
+  2026-11-12 21:00:00.506000 | Thärichens Tentett&nbsp;
+  2026-11-13 21:00:00.506000 | Vladimir Karparov Quartett
+  2026-11-15 21:00:00.506000 | June Yun &amp; Arseny Rykov: Raw Sketches (of a Musician’s Mind)
+  2026-11-17 21:00:00.506000 | open excess: feat Anna Reizbikh &amp; Peter Ehwald
+  2026-11-18 09:00:00.936000 | Robins Nest - Jamsession
+  2026-11-19 21:00:00.506000 | The Ari Erev Group

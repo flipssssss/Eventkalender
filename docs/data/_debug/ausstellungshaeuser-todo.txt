@@ -1,7 +1,6 @@
 Häuser ohne kuratierte Öffnungszeiten (in scrapers/openinghours.py ergänzen):
 
 Café Cralle
-FMP1 Franz-Mehring-Platz 1, 10243 Berlin Deutschland
 Prater Galerie
 Prima Center Berlin Biesentaler Str. 24 13359 Berlin Deutschland
 Regenbogenfabrik Lausitzer Str. 22 10999 Berlin Deutschland

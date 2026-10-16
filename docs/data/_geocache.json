@@ -264,6 +264,12 @@
   "lat": 52.5173885,
   "lng": 13.3951309
  },
+ "16321 Berlin": {
+  "address": "16321 Berlin",
+  "bezirk": null,
+  "lat": 52.6908773,
+  "lng": 13.5823608
+ },
  "2 Kinos, Berlin": {
   "address": "Straße des 17. Juni 136, 10623 Charlottenburg",
   "bezirk": "Charlottenburg-Wilmersdorf",
@@ -1711,6 +1717,7 @@
   "lat": 52.5086058,
   "lng": 13.3871269
  },
+ "Deutsche Oper Berlin, Tischlerei, Richard-Wagner-Str. / Ecke Zillestr., 10627, Berlin": null,
  "Die 7 Landesvertretungen in den Ministergärten, In den Ministergärten 3-10, 10117, Berlin": null,
  "Dircksenstraße 40, 10178 Mitte, Berlin": {
   "address": "Dircksenstraße 40, 10178 Mitte",
@@ -2155,6 +2162,7 @@
  "Galerie Newman, Berlin": null,
  "GalileA FU Berlin, Otto-von-Simson-Straße 26 14195 Berlin": null,
  "GalileA, Rost- und Silberlaube an der FU Otto-von-Simson-Str. 26 14195 Berlin Deutschland": null,
+ "GalileⒶ FU Berlin, 1. Obergeschoss der Silberlaube über der Mensa 2, Otto-von-Simson-Straße 26 14195 Berlin": null,
  "Gambino’s by AMANO, Berlin": null,
  "Garten Markgrafendamm 24c, 10245 Berlin": null,
  "Gecekondu, Admiralstraße 1-2, 10999 Berlin": null,
@@ -7127,6 +7135,7 @@
   "lat": 52.4338463,
   "lng": 13.2543865
  },
+ "Village, Berlin": null,
  "Void Club & Hall, Berlin": null,
  "Voigtstr. 36, 10247 Berlin": {
   "address": "Voigtstraße 36, 10247 Friedrichshain",
@@ -7575,6 +7584,12 @@
  "Zielona Góra Grünbergerstr. 73 10245, 10245 Berlin": null,
  "Zielona Góra, Grünberger Straße 73, 10245 Berlin": null,
  "Zille54 - Haus der Jugend, Berlin": null,
+ "Zillestr. 1062, 10627 Berlin": {
+  "address": "Zillestraße, 10585 Charlottenburg",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.5134341,
+  "lng": 13.3032749
+ },
  "Zimmer 16, Florastraße 16, 13187, Berlin": null,
  "Zionskirche Zionskirchplatz Berlin": {
   "address": "Zionskirchplatz 1, 10119 Prenzlauer Berg",

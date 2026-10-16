@@ -1,5 +1,4 @@
-Events: 24
-  2026-10-15 17:30:00 | TIN* & Friends
+Events: 23
   2026-10-16 17:30:00 | flinta sweat
   2026-10-17 21:00:00 | [NAKED] Foam Party
   2026-10-21 17:30:00 | gender mix

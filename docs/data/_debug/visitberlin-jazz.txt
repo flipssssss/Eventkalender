@@ -1,8 +1,4 @@
-Event-Links: 17 | Events: 14
-  2026-10-16 19:30:00 | Kulturhaus Centre Bagatelle, Zeltinger Str. 6, 13465, Berlin-Frohnau | Berliner Musike und Seemannslieder
-  2026-10-16 20:00:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | 2Mädchen und Uwe
-  2026-10-16 20:00:00 | Little Stage Berlin, Jonasstraße, 12053, Berlin | Hear Now Where
-  2026-10-16 20:00:00 | WABE (Interimsspielstätte), Schönfließer Straße 7, 10439, Berlin | Shannon Callahan & Band
+Event-Links: 17 | Events: 13
   2026-10-17 19:30:00 | Showfenster Theater, Letteallee 94, 13409, Berlin | Nadia Lafi
   2026-10-17 20:00:00 | Little Stage Berlin, Jonasstraße, 12053, Berlin | Bidar
   2026-10-17 20:00:00 | WABE (Interimsspielstätte), Schönfließer Straße 7, 10439, Berlin | Frank Brunet: Let's Swing - Das Roger-Cicero-Special
@@ -13,3 +9,6 @@ Event-Links: 17 | Events: 14
   2026-10-20 19:00:00 | Ballhaus Prinzenallee, Prinzenallee 33, 13359, Berlin | Jazz Masterz
   2026-09-29 19:30:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Session im ART Stalker
   2026-10-22 20:00:00 | Kulturhaus "alte feuerwache" Friedrichshain, Marchlewskistr. 6, 10243, Berlin | Jazz in der Alten Feuerwache |BERLIN 21
+  2026-10-23 19:00:00 | Deutsche Oper Berlin, Tischlerei, Richard-Wagner-Str. / Ecke Zillestr., 10627, Berlin | Jazz & Lyrics I: Two of a Kind
+  2026-10-23 20:00:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Jed Thomas Band - Bluesrock Sensation from Yorkshire | UK
+  2026-10-23 20:00:00 | Little Stage Berlin, Jonasstraße, 12053, Berlin | OkuSteinHuffMills

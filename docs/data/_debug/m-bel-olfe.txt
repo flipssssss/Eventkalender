@@ -1,24 +1,5 @@
-event-blocks: 16 | Events: 16
+event-blocks: 15 | Events: 15
 
-<div class="event-block">
- <!-- Zeile 1: Datum + Titel -->
- <div class="event-row-1">
-  <div class="event-time">
-   Freitag, 16. Okt. 22:00
-  </div>
-  <div class="event-title">
-   Hedda B2B Salem
-  </div>
- </div>
- <!-- Zeile 2: Bild + Beschreibung -->
- <div class="event-row-2">
-  <div class="event-image event-image--empty">
-  </div>
- </div>
-</div>
-
-
-----
 <div class="event-block">
  <!-- Zeile 1: Datum + Titel -->
  <div class="event-row-1">
@@ -80,6 +61,26 @@ event-blocks: 16 | Events: 16
   </div>
   <div class="event-description">
    St. Laurent
+  </div>
+ </div>
+</div>
+
+
+----
+<div class="event-block">
+ <!-- Zeile 1: Datum + Titel -->
+ <div class="event-row-1">
+  <div class="event-time">
+   Freitag, 23. Okt. 22:00
+  </div>
+  <div class="event-title">
+   BadPuppy
+  </div>
+ </div>
+ <!-- Zeile 2: Bild + Beschreibung -->
+ <div class="event-row-2">
+  <div class="event-image">
+   <img alt="" src="ProgrammFotos/BadPuppy_2026_10_23.jpg"/>
   </div>
  </div>
 </div>

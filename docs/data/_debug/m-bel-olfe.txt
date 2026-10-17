@@ -1,28 +1,5 @@
-event-blocks: 15 | Events: 15
+event-blocks: 14 | Events: 14
 
-<div class="event-block">
- <!-- Zeile 1: Datum + Titel -->
- <div class="event-row-1">
-  <div class="event-time">
-   Samstag, 17. Okt. 21:00
-  </div>
-  <div class="event-title">
-   LOVERs..DUBBY...DISCOREGGAY
-  </div>
- </div>
- <!-- Zeile 2: Bild + Beschreibung -->
- <div class="event-row-2">
-  <div class="event-image">
-   <img alt="" src="ProgrammFotos/LOVERs_DUBBY_DISCOREGGAY_2026_10_17.jpg"/>
-  </div>
-  <div class="event-description">
-   a night of global reggay. vinyl only - on decks miss pinky + mr.knister
-  </div>
- </div>
-</div>
-
-
-----
 <div class="event-block">
  <!-- Zeile 1: Datum + Titel -->
  <div class="event-row-1">
@@ -81,6 +58,31 @@ event-blocks: 15 | Events: 15
  <div class="event-row-2">
   <div class="event-image">
    <img alt="" src="ProgrammFotos/BadPuppy_2026_10_23.jpg"/>
+  </div>
+ </div>
+</div>
+
+
+----
+<div class="event-block">
+ <!-- Zeile 1: Datum + Titel -->
+ <div class="event-row-1">
+  <div class="event-time">
+   Samstag, 24. Okt. 21:00
+  </div>
+  <div class="event-title">
+   WENDY &amp; BULLY
+  </div>
+ </div>
+ <!-- Zeile 2: Bild + Beschreibung -->
+ <div class="event-row-2">
+  <div class="event-image">
+   <img alt="" src="ProgrammFotos/WENDY_BULLY_2026_10_24.jpg"/>
+  </div>
+  <div class="event-description">
+   Bully and Wendy lead you through a world of their personal vinyl collection, through all its peaks, quirks and mysteries.
+
+Expect old favs, new loves and deep cuts. Vinyl only!
   </div>
  </div>
 </div>

@@ -1,4 +1,4 @@
-entries: 11 | Events: 10
+entries: 12 | Events: 11
   2026-10-13 19:00:00 | PELVIC FLOOR HEALTH IS MORE THAN JUST KEGELS
   2026-10-20 19:00:00 | Einführung in Japanese Rope Bondage
   2026-10-21 19:00:00 | Poly Discussion Group (EN)
@@ -9,3 +9,4 @@ entries: 11 | Events: 10
   2026-11-17 19:00:00 | Hooked on Vulvas – Häkel dir eine Vulva! Teil 2
   2020-11-19 19:00:00 | 19.11.2026 // Sexuelle Tabus in den Wechseljahren
   2026-11-25 19:00:00 | Polyamorie Diskussionsgruppe
+  2026-12-03 19:00:00 | Einführung in Japanese Rope Bondage

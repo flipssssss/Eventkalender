@@ -2,9 +2,7 @@ Häuser ohne kuratierte Öffnungszeiten (in scrapers/openinghours.py ergänzen):
 
 Café Cralle
 Prater Galerie
-Prima Center Berlin Biesentaler Str. 24 13359 Berlin Deutschland
 Regenbogenfabrik Lausitzer Str. 22 10999 Berlin Deutschland
-Schreina47 Schreinerstr. 47 10245 Berlin Deutschland
 Sprüth Magers
 Tchoban Foundation
 Vetomat Wühlischstr. 42 10247 Berlin Deutschland

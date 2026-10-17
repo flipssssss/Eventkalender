@@ -1,7 +1,6 @@
 top-keys: ['website', 'websiteSettings', 'collection', 'shoppingCart', 'shareButtons', 'showCart', 'localizedStrings', 'userAccountsContext', 'template', 'uiextensions', 'empty', 'emptyFolder', 'calendarView', 'pagination', 'upcoming']
-items: 38 | Events: 38
+items: 37 | Events: 37
 erstes item keys: ['id', 'collectionId', 'recordType', 'addedOn', 'updatedOn', 'starred', 'passthrough', 'tags', 'categories', 'workflowState', 'publishOn', 'authorId', 'systemDataId', 'systemDataVariants', 'systemDataSourceType', 'filename', 'mediaFocalPoint', 'colorData', 'urlId', 'title', 'sourceUrl', 'body', 'excerpt', 'location', 'customContent']
-  2026-10-16 21:00:00.506000 | LUCIA FODDE QUARTETT – INNER LANDSCAPE
   2026-10-17 21:00:00.506000 | Davide Incorvaia&nbsp;Continuum&nbsp;Quartet
   2026-10-18 21:00:00.506000 | Ali N. Askin &amp; Band
   2026-10-20 21:00:00.506000 | Adi Stoenescu Group (feat. June Yun and Vid Jamnik)&nbsp;
@@ -31,3 +30,4 @@ erstes item keys: ['id', 'collectionId', 'recordType', 'addedOn', 'updatedOn', '
   2026-11-18 09:00:00.936000 | Robins Nest - Jamsession
   2026-11-19 21:00:00.506000 | The Ari Erev Group
   2026-11-20 21:00:00.506000 | SUPERSALAD
+  2026-11-21 21:00:00.506000 | Tempo Havanna

@@ -363,6 +363,12 @@
   "lat": 52.5033045,
   "lng": 13.4207169
  },
+ "Adenauerplatz, 10707 Berlin": {
+  "address": "Kurfürstendamm, 10707 Wilmersdorf",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.5000028,
+  "lng": 13.3073226
+ },
  "Adlershof 1248, 12489 Berlin": {
   "address": "12489 Adlershof",
   "bezirk": "Treptow-Köpenick",
@@ -639,6 +645,7 @@
   "lng": 13.5775261
  },
  "Anna Natt, Berlin": null,
+ "Annemirl-Bauer-Platz (Park am Ostkreuz) Ostkreuz 10245 Berlin Deutschland": null,
  "Annemirl-Bauer-Platz 1024, 10245 Berlin": null,
  "Annemirl-Bauer-Platz Annemirl-Bauer-Platz 10245 Berlin Deutschland": null,
  "Annemirl-Bauer-Platz, Friedrichshain Berlin Deutschland": {
@@ -2235,6 +2242,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.4914681,
   "lng": 13.3932034
+ },
+ "Gneisenaustraße 12, 10961 Berlin": {
+  "address": "Gneisenaustraße 12, 10961 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4918026,
+  "lng": 13.391591
  },
  "Goerzallee 189, 14167 Berlin": {
   "address": "Goerzallee 189-223, 14167 Lichterfelde",
@@ -4372,6 +4385,7 @@
   "lng": 13.4141624
  },
  "Majal Sonnenallee 127 Berlin Deutschland": null,
+ "Majal, Sonnenallee 127, 12059 Berlin": null,
  "Manifest Bücher & Café, Graefestraße 14, 10967 Berlin": null,
  "Mansteinstr. 10, 10783 Berlin": {
   "address": "Mansteinstraße 10, 10783 Schöneberg",
@@ -4589,6 +4603,7 @@
  },
  "Meeting @ AXEL HOTEL, Lietzenburger Straße 13-15, Schöneberg, Berlin, 10777": null,
  "Meets in front of Rose Winkel at Nollendorfplatz, Berlin": null,
+ "Mehrgenerationenhaus, Gneisenaustraße 12, 10961 Berlin": null,
  "Mehring Platz 1, 10243 Berlin": {
   "address": "Franz-Mehring-Platz 1, 10243 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -6892,6 +6907,12 @@
   "lat": 52.4884438,
   "lng": 13.4703145
  },
+ "Treptower Park, 12435 Berlin": {
+  "address": "Bernhard-Langwaldt-Weg, 12435 Alt-Treptow",
+  "bezirk": "Treptow-Köpenick",
+  "lat": 52.4938491,
+  "lng": 13.4618296
+ },
  "Treptower Park, @beitrag.auslauf.erfolge, Berlin": null,
  "Treptower Park, Bus-Haltestelle Klingerstraße, 12435 Berlin": null,
  "Treptower Str. 39, 12059 Berlin": {
@@ -7222,6 +7243,7 @@
   "lat": 52.4700859,
   "lng": 13.4269274
  },
+ "We meet at street level on the north side of the Bösebrücke entrance to Bornholmer Str. S-Bahn, Berlin": null,
  "Wedding Berlin": {
   "address": "Wedding",
   "bezirk": "Mitte",
@@ -7289,6 +7311,7 @@
   "lat": 52.5139807,
   "lng": 13.3998494
  },
+ "Werner-Otto-Saal - Konzerthaus Berlin, Am Gendarmenmarkt, 10117, Berlin": null,
  "Werner-Voß-Damm 47, 12101 Berlin": {
   "address": "Werner-Voß-Damm, 12101 Tempelhof",
   "bezirk": "Tempelhof-Schöneberg",
@@ -7715,6 +7738,12 @@
  "near Bethaniendamm berlin berlin": null,
  "near Bethaniendamm berlin berlin Deutschland": null,
  "north-east side of the intersection of Wassersportallee and Adlergestell near the Grunau S-Bahn, Berlin": null,
+ "null, Berlin": {
+  "address": "Grünberger Straße 61, 10245 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.511776,
+  "lng": 13.4575389
+ },
  "offline Lichtenrader Str. 49 12049 Berlin Deutschland": {
   "address": "Lichtenrader Straße 49, 12049 Neukölln",
   "bezirk": "Neukölln",

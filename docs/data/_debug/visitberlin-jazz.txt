@@ -1,10 +1,9 @@
-Event-Links: 17 | Events: 13
-  2026-10-09 20:00:00 | EUREF-Campus Berlin, Torgauer Straße 25, 10829, Berlin | ZigZag Hall – Berlins neue Bühne für Jazz und Live-Musik
-  2026-10-18 15:30:00 | Industriesalon Schöneweide, Reinbeckstraße 10, 12459, Berlin | Jazz Cafe - Jan Klares KIND
+Event-Links: 17 | Events: 16
   2026-10-12 20:00:00 | Café Engels, Herrfurthstr. 21, 12049, Berlin | Blue Moonday Jazzsession
   2026-10-20 19:00:00 | Ballhaus Prinzenallee, Prinzenallee 33, 13359, Berlin | Jazz Masterz
   2026-09-29 19:30:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Session im ART Stalker
   2026-10-22 20:00:00 | Kulturhaus "alte feuerwache" Friedrichshain, Marchlewskistr. 6, 10243, Berlin | Jazz in der Alten Feuerwache |BERLIN 21
+  2026-10-09 20:00:00 | EUREF-Campus Berlin, Torgauer Straße 25, 10829, Berlin | ZigZag Hall – Berlins neue Bühne für Jazz und Live-Musik
   2026-10-23 19:00:00 | Deutsche Oper Berlin, Tischlerei, Richard-Wagner-Str. / Ecke Zillestr., 10627, Berlin | Jazz & Lyrics I: Two of a Kind
   2026-10-23 20:00:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Jed Thomas Band - Bluesrock Sensation from Yorkshire | UK
   2026-10-23 20:00:00 | Little Stage Berlin, Jonasstraße, 12053, Berlin | OkuSteinHuffMills
@@ -12,3 +11,7 @@ Event-Links: 17 | Events: 13
   2026-10-24 20:00:00 | House of Music, Revaler Str. 99, 10245, Berlin | jazzexzess w/ Luise Volkmann’s Punk-Jazz-Projekt + vehicle/passenger
   2026-10-25 15:30:00 | Industriesalon Schöneweide, Reinbeckstraße 10, 12459, Berlin | Jazz Cafe - Kontrapunkt Berlin Colophony zum 75. Geburtstag von Jon Rose
   2026-10-25 19:00:00 | Werner-Otto-Saal - Konzerthaus Berlin, Am Gendarmenmarkt, 10117, Berlin | Kathrin Pechlof Trio
+  2026-09-14 19:00:00 | Bredouille Bar, Georgenstraße 199, 10117, Berlin | radio3 Listening Lounge
+  2026-10-28 19:00:00 | Berliner Festspiele, Schaperstraße 24, 10719, Berlin | Melting Pot
+  2026-10-29 18:00:00 | Haus der Berliner Festspiele - Großer Saal, Schaperstr. 24, 10719, Berlin | EROSÃO PERCUSSION TRIO // DREAM BABY DREAM // Anthony Braxton Septet // Alexander Hawkins Willow Music
+  2026-03-26 19:00:00 | Musikinstrumenten-Museum, Tiergartenstraße, 10785, Berlin | Jazz im MIM

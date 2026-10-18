@@ -1,24 +1,17 @@
-API-Events: 92 | übernommen: 92
-  2026-10-17 10:45:00 | None | Queer Tours for All! - Köpenicker Forst
+API-Events: 85 | übernommen: 85
   2026-10-17 15:00:00 | Punk | Dia de la rauxa: gathering with live music in catalan
-  2026-10-17 18:30:00 | Rock | AoxoToxoA@Kulturhaus Insel (17/10/26)
-  2026-10-17 19:00:00 | Punk | BABE HAVEN + LATTER + YUMNUT
-  2026-10-17 19:00:00 | Punk | WESLEY & THE BOYS (garage-punk/r'n'r, us) + SPA BOYS (wellnes hc/punk, sttgrt)
-  2026-10-17 19:00:00 | Punk | Drölfzehn Bier Vol. 0,15%
-  2026-10-17 19:00:00 | None | GODMOTHER + OBSTRUKTION +Support
-  2026-10-17 21:00:00 | Punk | SOLI-CONCERT FOR EARTHQUAKE VICTIMS IN COLOMBIA
-  2026-10-17 23:00:00 | None | P ▲ R ▲ N ● I ► ( PARANOID CLUB )
   2026-10-18 14:45:00 | None | Queer Tours for All! - Gay and Sapphic Schöneberg
   2026-10-18 19:00:00 | Metal | DEATHCHANT(+ S.U.G.A.R.) | NEUE ZUKUNFT - Berlin
   2026-10-19 19:00:00 | None | KHAN (AU) - 'That Fair and Warlike Form' European Tour - Berlin w/ Skin Thief (AU)
   2026-10-19 19:00:00 | Punk | BARRENS (Heavy Post Rock, Swe) + D'CO (Ambient Emocrust, Bln)
   2026-10-19 20:00:00 | Punk | RETAIL SIMPS / DOC FLIPPERS
   2026-10-20 17:45:00 | None | Queer Tours for All! - Queer Kreuzberg
-  2026-10-20 19:00:00 | Punk | Maquina. (PT, Fuzz Club), Errorr
   2026-10-20 19:00:00 | Metal | SKRAECKOEDLAN | NEUE ZUKUNFT - Berlin
+  2026-10-20 19:00:00 | Punk | Maquina. (PT, Fuzz Club), Errorr
   2026-10-20 19:00:00 | Punk | Sparta, Hammok
   2026-10-20 19:00:00 | Punk | THANK (Noise-Rock, Leeds) + LVFT (Noise-Rock/Post-Punk, Bln)
   2026-10-21 19:00:00 | Folk | MLEKO (post-rock / indie / exp-folk, uk) & WHISKER (exp prog-rock, bln)
+  2026-10-21 21:00:00 | Metal | HELL POISON
   2026-10-21 21:30:00 | Metal | Nadja Presents Nadja: A Live Soundtrack
   2026-10-22 19:00:00 | Punk | Treibgut + DADJ + Lovegaze
   2026-10-22 20:00:00 | None | Hate the Media Become the Media
@@ -26,6 +19,13 @@ API-Events: 92 | übernommen: 92
   2026-10-23 19:00:00 | None | RECORD RELEASE: MARGOT ERKNER + KPT. Plasto
   2026-10-23 19:00:00 | Punk | LIIEK + INESSA ANXIOUS
   2026-10-23 19:30:00 | Punk | NARKOSE + SCHIMMEL ÜBER BERLIN + SEXVERBOT
-  2026-10-24 18:00:00 | Metal | Doomed Metropolis Berlin II
   2026-10-24 18:00:00 | Punk | SoliMosh - Berlin Hardcore
+  2026-10-24 18:00:00 | Metal | Doomed Metropolis Berlin II
   2026-10-24 19:00:00 | None | THE BLACK CAT'S EYE + HIGHEST PRIMZAHL ON MARS
+  2026-10-24 20:00:00 | Punk | DAMNATION + SZNYT + EVÖL DEAD + CADAVRA
+  2026-10-25 14:45:00 | None | Queer Tours for All! - Gay and Sapphic Schöneberg
+  2026-10-25 19:00:00 | Punk | THE SLEEVEENS (U.S.) & REFAIM (IL)
+  2026-10-26 19:00:00 | Punk | Marcel (noisy Pot-Pourri/Post-Punk, B) + Jetzt werd ich dumm (noisy Post-HC/Instrumental, Bln)
+  2026-10-27 17:45:00 | None | Queer Tours for All - Queer Kreuzberg
+  2026-10-27 19:00:00 | None | Wolves in the Throne Room - Knights of Tiamat European Tour 2026 | Berlin
+  2026-10-28 19:00:00 | Punk | ✹DEAFKIDS(br)✹KOMBI(br)✹ live at neue zukunft

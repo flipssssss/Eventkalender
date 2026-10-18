@@ -1,8 +1,8 @@
 Events: 7
-  2026-10-17 17:00:00 | Saturday Infusions
   2026-10-18 17:00:00 | Sunday Infusions
   2026-10-19 17:00:00 | Monday Infusions
   2026-10-20 17:00:00 | Theme Night
   2026-10-21 17:00:00 | youngStars
   2026-10-22 17:00:00 | Wellness Evening
   2026-10-23 17:00:00 | Friday Infusions
+  2026-10-24 17:00:00 | Saturday Infusions

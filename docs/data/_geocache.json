@@ -987,6 +987,7 @@
   "lng": 13.4577581
  },
  "Berliner Berg Brauerei, Treptower Str. 39, 12059, Berlin": null,
+ "Berliner Festspiele, Schaperstraße 24, 10719, Berlin": null,
  "Berliner Kunstmarkt": null,
  "Berliner MieterGemeinschaft Sonnenallee 101 12045 Berlin Deutschland": {
   "address": "Sonnenallee 101, 12045 Neukölln",
@@ -1712,6 +1713,7 @@
  "Das Jüdische Kulturschiff MS Goldberg, Schifffahrtsufer 2\nan der Dischinger Brücke, 13581, Berlin-Spandau": null,
  "Datscha Potsdam Deutschland, Berlin": null,
  "Datscha Potsdam, Berlin": null,
+ "Der Preis ist heiß New Yorck im Bethanien Mariannenplatz 2A 10997 Berlin Deutschland": null,
  "Der Weiße Hase, Berlin": {
   "address": "Revaler Straße, 10245 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -2573,6 +2575,7 @@
   "lat": 52.4905797,
   "lng": 13.3572868
  },
+ "Haus der Berliner Festspiele - Großer Saal, Schaperstr. 24, 10719, Berlin": null,
  "Haus der Demokratie und Menschenrechte Greifswalder Str. 4 10405 Berlin Deutschland": {
   "address": "Greifswalder Straße 4, 10405 Prenzlauer Berg",
   "bezirk": "Pankow",
@@ -3731,6 +3734,7 @@
   "lng": 13.385162
  },
  "Kunstmarkt Trödelmarkt Boxhagener Platz, Berlin": null,
+ "Kurdischer Verein Berlin, Residenzstraße 54, 13409 Berlin": null,
  "Kurfürstenstraße 32, 10785 Berlin": {
   "address": "Kurfürstenstraße 32, 12105 Mariendorf",
   "bezirk": "Tempelhof-Schöneberg",
@@ -3831,6 +3835,12 @@
   "lng": 13.4260264
  },
  "Körnerpark am Springbrunnen, Schierker Straße, 12051 Berlin": null,
+ "Køpi, Berlin": {
+  "address": "Köpenicker Straße 137, 10179 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5077022,
+  "lng": 13.4260264
+ },
  "Kühlspot Social Club, Lehderstrasse 74, 13086, Berlin": {
   "address": "Lehderstraße 74-79, 13086 Weißensee",
   "bezirk": "Pankow",
@@ -4519,6 +4529,12 @@
   "lat": 52.502869,
   "lng": 13.4609428
  },
+ "Markgrafendamm 24C, 10245 Berlin": {
+  "address": "Markgrafendamm 24c, 10245 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5024767,
+  "lng": 13.466302
+ },
  "Markgrafendamm 24c, 10245 Berlin": {
   "address": "Markgrafendamm 24c, 10245 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -5066,6 +5082,12 @@
   "bezirk": "Reinickendorf",
   "lat": 52.5701384,
   "lng": 13.3279286
+ },
+ "Onkel-Tom-Straße 99, 14169 Berlin": {
+  "address": "Onkel-Tom-Straße 99, 14169 Zehlendorf",
+  "bezirk": "Steglitz-Zehlendorf",
+  "lat": 52.4495378,
+  "lng": 13.2521064
  },
  "Online Veranstaltung Anmeldung erforderlich: https:// forms.peacefullyagainstgenocid e.org/formz/occurrences/online-training-fuer-zivilen-widerstand-2026-07-23/registrations/new, Berlin": null,
  "Online Veranstaltung Anmeldung erforderlich: https:// forms.peacefullyagainstgenocid e.org/formz/occurrences/online-vortrag-2026-09-09/registrations/new, Berlin": null,
@@ -5703,6 +5725,12 @@
   "lat": 52.4973901,
   "lng": 13.4653065
  },
+ "Residenzstraße 54, 13409 Berlin": {
+  "address": "Residenzstraße 54, 13409 Reinickendorf",
+  "bezirk": "Reinickendorf",
+  "lat": 52.5626406,
+  "lng": 13.365699
+ },
  "Reuter Str. 95, Berlin": {
   "address": "Reuterstraße 95, 12053 Neukölln",
   "bezirk": "Neukölln",
@@ -6112,6 +6140,18 @@
   "bezirk": "Neukölln",
   "lat": 52.482362,
   "lng": 13.4278313
+ },
+ "Schaperstr. 24, 10719 Berlin": {
+  "address": "Schaperstraße 24, 10719 Wilmersdorf",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.4986265,
+  "lng": 13.3287067
+ },
+ "Schaperstraße 24, 10719 Berlin": {
+  "address": "Schaperstraße 24, 10719 Wilmersdorf",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.4986265,
+  "lng": 13.3287067
  },
  "Schaperstraße 29, 10719 Berlin": {
   "address": "Schaperstraße 29, 10719 Wilmersdorf",
@@ -7243,6 +7283,8 @@
   "lat": 52.4700859,
   "lng": 13.4269274
  },
+ "We begin at the Plänterwald entrance at the corner of Bulgarische Str. & Neue Krugallee, Berlin": null,
+ "We begin at the Plänterwald entrance at the corner of Bulgarische Str. & Neue Krugallee, Berlin": null,
  "We meet at street level on the north side of the Bösebrücke entrance to Bornholmer Str. S-Bahn, Berlin": null,
  "Wedding Berlin": {
   "address": "Wedding",
@@ -7646,6 +7688,7 @@
   "lat": 52.4854788,
   "lng": 13.405408
  },
+ "about blank Markgrafendamm 24C 10245 Berlin Deutschland": null,
  "about blank, Berlin": {
   "address": "Markgrafendamm 24c, 10245 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",

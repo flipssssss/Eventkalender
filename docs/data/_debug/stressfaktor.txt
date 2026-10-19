@@ -1,13 +1,15 @@
-Events (vor Dedup): 300
-https://stressfaktor.squat.net/termine/alle page 0: 30 Events (2026-10-18…2026-10-20)
-https://stressfaktor.squat.net/termine/alle page 1: 30 Events (2026-10-20…2026-10-21)
-https://stressfaktor.squat.net/termine/alle page 2: 30 Events (2026-10-21…2026-10-22)
-https://stressfaktor.squat.net/termine/alle page 3: 30 Events (2026-10-23…2026-10-24)
-https://stressfaktor.squat.net/termine/alle page 4: 30 Events (2026-10-24…2026-10-26)
-https://stressfaktor.squat.net/termine/alle page 5: 30 Events (2026-10-26…2026-10-28)
-https://stressfaktor.squat.net/termine/alle page 6: 30 Events (2026-10-28…2026-10-30)
-https://stressfaktor.squat.net/termine/alle page 7: 30 Events (2026-10-30…2026-11-01)
-https://stressfaktor.squat.net/termine/alle page 8: 30 Events (2026-11-01…2026-11-04)
-https://stressfaktor.squat.net/termine/alle page 9: 30 Events (2026-11-05…2026-11-07)
-https://stressfaktor.squat.net/termine/alle page 10: FEHLER HTTPSConnectionPool(host='stressfaktor.squat.net', port=443): Read timed out. (read timeout=25)
-Anubis-Notizen: PoW: difficulty=2 nonce=622 hash=0029b4858c57… pass-status=200 cookies=['techaro.lol-anubis-cookie-verification', 'techaro.lol-anubis-auth']
+Events (vor Dedup): 390
+https://stressfaktor.squat.net/termine/alle page 0: 30 Events (2026-10-19…2026-10-21)
+https://stressfaktor.squat.net/termine/alle page 1: 30 Events (2026-10-21…2026-10-22)
+https://stressfaktor.squat.net/termine/alle page 2: 30 Events (2026-10-22…2026-10-23)
+https://stressfaktor.squat.net/termine/alle page 3: 30 Events (2026-10-23…2026-10-25)
+https://stressfaktor.squat.net/termine/alle page 4: 30 Events (2026-10-25…2026-10-28)
+https://stressfaktor.squat.net/termine/alle page 5: 30 Events (2026-10-28…2026-10-29)
+https://stressfaktor.squat.net/termine/alle page 6: 30 Events (2026-10-29…2026-10-31)
+https://stressfaktor.squat.net/termine/alle page 7: 30 Events (2026-10-31…2026-11-04)
+https://stressfaktor.squat.net/termine/alle page 8: 30 Events (2026-11-04…2026-11-06)
+https://stressfaktor.squat.net/termine/alle page 9: 30 Events (2026-11-06…2026-11-10)
+https://stressfaktor.squat.net/termine/alle page 10: 30 Events (2026-11-10…2026-11-13)
+https://stressfaktor.squat.net/termine/alle page 11: 30 Events (2026-11-13…2026-11-18)
+https://stressfaktor.squat.net/termine/alle page 12: 30 Events (2026-11-18…2026-11-22)
+Anubis-Notizen: PoW: difficulty=2 nonce=142 hash=0006a757bd6d… pass-status=200 cookies=['techaro.lol-anubis-cookie-verification', 'techaro.lol-anubis-auth']

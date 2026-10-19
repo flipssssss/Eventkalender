@@ -541,6 +541,7 @@
   "lng": 13.3987041
  },
  "Alte Kita, Hasselwerderstr. 22A, 12439, Berlin": null,
+ "Alter Schwede Schwedenstrasse 11A 13357 Berlin Deutschland": null,
  "Altonaer Straße 22, 10557 Berlin": {
   "address": "Altonaer Straße 22, 10557 Hansaviertel",
   "bezirk": "Mitte",
@@ -1386,6 +1387,12 @@
   "lng": 13.3796659
  },
  "Busche Club, Berlin": null,
+ "Butcherei Lindinger, Motzstraße 18, 10777 Berlin": {
+  "address": "Motzstraße 18, 10777 Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4985192,
+  "lng": 13.3499726
+ },
  "Buttmannstr. 1A, Berlin": {
   "address": "Buttmannstraße 1A, 13357 Gesundbrunnen",
   "bezirk": "Mitte",
@@ -3325,6 +3332,12 @@
   "lat": 52.5364741,
   "lng": 13.4078031
  },
+ "Kastanienallee 85, 10435 Berlin": {
+  "address": "Kastanienallee 85, 10435 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.53739,
+  "lng": 13.4092293
+ },
  "Kastanienallee 85/86 Kastanienallee 85 Berlin Deutschland": null,
  "Kastanienallee 85/86, Berlin": {
   "address": "Kastanienallee, 10435 Prenzlauer Berg",
@@ -3350,6 +3363,7 @@
   "lat": 52.5382134,
   "lng": 13.4093332
  },
+ "Kastanienkeller Kastanienallee 85 HH 10435 Berlin Deutschland": null,
  "Kerala Space, Berlin": null,
  "Kesselhaus in der KulturBrauerei, Knaackstraße 97, 10435, Berlin": null,
  "Kiehnwerderallee 2, 12437 Berlin": {
@@ -4389,6 +4403,12 @@
  },
  "Mahnwache BER Terminal 5, 12529 Schönefeld, Berlin": null,
  "Maigalerie Torstraße 6 10119 Berlin Deutschland": {
+  "address": "Torstraße 6, 10119 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5274247,
+  "lng": 13.4141624
+ },
+ "Maigalerie, Torstraße 6 10119 Berlin": {
   "address": "Torstraße 6, 10119 Mitte",
   "bezirk": "Mitte",
   "lat": 52.5274247,
@@ -6366,6 +6386,12 @@
   "lng": 13.3194006
  },
  "Schwarze Risse Gneisenaustr. 2a 10961 Berlin Deutschland": null,
+ "Schwedenstrasse 11A, 13357 Berlin": {
+  "address": "Schwedenstraße 11a, 13357 Gesundbrunnen",
+  "bezirk": "Mitte",
+  "lat": 52.5558695,
+  "lng": 13.3743354
+ },
  "Schwester Martha (ex R...chhaus) Marianenplatz 1a 10997 Berlin Deutschland": null,
  "Schwester Martha Bethaniendamm 26 Berlin Deutschland": null,
  "Schwules Museum, Berlin": {
@@ -7780,6 +7806,8 @@
  "nGbK Oranienstaße 25 2. Stock 10999 Berlin Deutschland": null,
  "near Bethaniendamm berlin berlin": null,
  "near Bethaniendamm berlin berlin Deutschland": null,
+ "near Schlesi ask a punk, Berlin": null,
+ "near Schlesi, ask a punk, Berlin": null,
  "north-east side of the intersection of Wassersportallee and Adlergestell near the Grunau S-Bahn, Berlin": null,
  "null, Berlin": {
   "address": "Grünberger Straße 61, 10245 Friedrichshain",

@@ -1,5 +1,4 @@
-Tage: 30 | Events (vor Dedup): 170 | mit Venue: 88 | via r.jina.ai
-2026-10-18: 7 Events
+Tage: 30 | Events (vor Dedup): 158 | mit Venue: 81 | via r.jina.ai
 2026-10-19: 2 Events
 2026-10-20: 5 Events
 2026-10-21: 7 Events
@@ -14,7 +13,7 @@ Tage: 30 | Events (vor Dedup): 170 | mit Venue: 88 | via r.jina.ai
 2026-10-30: 5 Events
 2026-10-31: 8 Events
 2026-11-01: 11 Events
-2026-11-02: 6 Events
+2026-11-02: FEHLER 422 Client Error: Unprocessable Entity for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-11-02
 2026-11-03: 6 Events
 2026-11-04: 3 Events
 2026-11-05: 5 Events
@@ -23,9 +22,10 @@ Tage: 30 | Events (vor Dedup): 170 | mit Venue: 88 | via r.jina.ai
 2026-11-08: 2 Events
 2026-11-09: 5 Events
 2026-11-10: 5 Events
-2026-11-11: 5 Events
+2026-11-11: FEHLER 422 Client Error: Unprocessable Entity for url: https://r.jina.ai/https://www.siegessaeule.de/en/events/?date=2026-11-11
 2026-11-12: 6 Events
 2026-11-13: 1 Events
 2026-11-14: 6 Events
 2026-11-15: 7 Events
 2026-11-16: 5 Events
+2026-11-17: 6 Events

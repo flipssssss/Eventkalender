@@ -1,9 +1,9 @@
-teaser: 49
+teaser: 47
 dated: 14
-detail_ok: 32
+detail_ok: 30
 detail_err: 0
 recur: 21
 no_geo: 3
-geo: 64
+geo: 48
 events: 150
 FEHLER:

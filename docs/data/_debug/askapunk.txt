@@ -1,7 +1,4 @@
-API-Events: 83 | übernommen: 83
-  2026-10-19 19:00:00 | None | KHAN (AU) - 'That Fair and Warlike Form' European Tour - Berlin w/ Skin Thief (AU)
-  2026-10-19 19:00:00 | Punk | BARRENS (Heavy Post Rock, Swe) + D'CO (Ambient Emocrust, Bln)
-  2026-10-19 20:00:00 | Punk | RETAIL SIMPS / DOC FLIPPERS
+API-Events: 82 | übernommen: 82
   2026-10-20 17:45:00 | None | Queer Tours for All! - Queer Kreuzberg
   2026-10-20 19:00:00 | Metal | SKRAECKOEDLAN | NEUE ZUKUNFT - Berlin
   2026-10-20 19:00:00 | Punk | Maquina. (PT, Fuzz Club), Errorr
@@ -12,11 +9,13 @@ API-Events: 83 | übernommen: 83
   2026-10-21 21:30:00 | Metal | Nadja Presents Nadja: A Live Soundtrack
   2026-10-22 19:00:00 | Punk | Treibgut + DADJ + Lovegaze
   2026-10-22 20:00:00 | None | Hate the Media Become the Media
+  2026-10-22 21:00:00 | Punk | Vergessene Arbeitskämpfe -  Ein Punk-Abend
   2026-10-23 16:45:00 | None | Queer Tours for All! - Radical Prenzlauer Berg
   2026-10-23 19:00:00 | Punk | Fluten (Indie-Punk/Post-HC, HH) + Bumanbuman (Solo-Punk, Bln)
   2026-10-23 19:00:00 | None | RECORD RELEASE: MARGOT ERKNER + KPT. Plasto
   2026-10-23 19:00:00 | Punk | LIIEK + INESSA ANXIOUS
   2026-10-23 19:30:00 | Punk | NARKOSE + SCHIMMEL ÜBER BERLIN + SEXVERBOT
+  2026-10-24 14:00:00 | Punk | SOBER X FEST - Hardcore/Punk/Powerviolence
   2026-10-24 18:00:00 | Metal | Doomed Metropolis Berlin II
   2026-10-24 18:00:00 | Punk | SoliMosh - Berlin Hardcore
   2026-10-24 19:00:00 | None | THE BLACK CAT'S EYE + HIGHEST PRIMZAHL ON MARS
@@ -29,3 +28,4 @@ API-Events: 83 | übernommen: 83
   2026-10-28 19:00:00 | Punk | FCKSCHTZL (punk rock, Berlin) for free @ Wild at Heart
   2026-10-28 19:00:00 | Soul/Funk | PLAKA (psych world funk, porto) & SATURNO 4000 (psych garage funk, bln)
   2026-10-28 19:00:00 | Punk | ✹DEAFKIDS(br)✹KOMBI(br)✹ live at neue zukunft
+  2026-10-29 19:00:00 | Punk | CF98 (pop-punk, PL) + Treibgut (garage, punk, BLN) im Schokoladen (#berlinpunk)

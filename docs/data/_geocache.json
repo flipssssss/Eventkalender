@@ -4581,6 +4581,12 @@
   "lat": 52.5447135,
   "lng": 13.3693714
  },
+ "Martin-Luther-Str. 77, 10825 Berlin-Schöneberg": {
+  "address": "Martin-Luther-Straße 77, 10825 Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4883887,
+  "lng": 13.3460738
+ },
  "Marzahner Promenade 1A, 12679 Berlin": {
   "address": "Marzahner Promenade 1a, 12679 Marzahn",
   "bezirk": "Marzahn-Hellersdorf",

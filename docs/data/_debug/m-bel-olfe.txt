@@ -4,28 +4,6 @@ event-blocks: 13 | Events: 13
  <!-- Zeile 1: Datum + Titel -->
  <div class="event-row-1">
   <div class="event-time">
-   Donnerstag, 22. Okt. 22:00
-  </div>
-  <div class="event-title">
-   Schwulenschubsen
-  </div>
- </div>
- <!-- Zeile 2: Bild + Beschreibung -->
- <div class="event-row-2">
-  <div class="event-image event-image--empty">
-  </div>
-  <div class="event-description">
-   St. Laurent
-  </div>
- </div>
-</div>
-
-
-----
-<div class="event-block">
- <!-- Zeile 1: Datum + Titel -->
- <div class="event-row-1">
-  <div class="event-time">
    Freitag, 23. Okt. 22:00
   </div>
   <div class="event-title">
@@ -83,6 +61,29 @@ Expect old favs, new loves and deep cuts. Vinyl only!
   </div>
   <div class="event-description">
    Materia Hache b2b Blair
+  </div>
+ </div>
+</div>
+
+
+----
+<div class="event-block">
+ <!-- Zeile 1: Datum + Titel -->
+ <div class="event-row-1">
+  <div class="event-time">
+   Freitag, 30. Okt. 22:00
+  </div>
+  <div class="event-title">
+   BUTTY
+  </div>
+ </div>
+ <!-- Zeile 2: Bild + Beschreibung -->
+ <div class="event-row-2">
+  <div class="event-image">
+   <img alt="" src="ProgrammFotos/BUTTY_2026_10_30.jpg"/>
+  </div>
+  <div class="event-description">
+   With a deep-rooted love for electronic dance music since his '90s childhood and years of inspiration from legendary queer parties, Berlin-based BUTTY creates playful, uplifting and dreamy atmospheres by blending driving rhythms with acid, progressive and piano-infused nu-disco, italo body music, dance and house that make you forget the world around you. BUTTY makes delicious buttybeats!
   </div>
  </div>
 </div>

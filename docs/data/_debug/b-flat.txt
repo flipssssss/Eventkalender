@@ -1,7 +1,6 @@
 top-keys: ['website', 'websiteSettings', 'collection', 'shoppingCart', 'shareButtons', 'showCart', 'localizedStrings', 'userAccountsContext', 'template', 'uiextensions', 'empty', 'emptyFolder', 'calendarView', 'pagination', 'upcoming']
 items: 35 | Events: 35
 erstes item keys: ['id', 'collectionId', 'recordType', 'addedOn', 'updatedOn', 'starred', 'passthrough', 'tags', 'categories', 'workflowState', 'publishOn', 'authorId', 'systemDataId', 'systemDataVariants', 'systemDataSourceType', 'filename', 'mediaFocalPoint', 'colorData', 'urlId', 'title', 'sourceUrl', 'body', 'excerpt', 'location', 'customContent']
-  2026-10-20 21:00:00.506000 | Adi Stoenescu Group (feat. June Yun and Vid Jamnik)&nbsp;
   2026-10-21 09:00:00.936000 | Robins Nest - Jamsession
   2026-10-22 21:00:00.506000 | Matthias Kohler Quintett “This Is Pan”/ CH, D
   2026-10-23 21:00:00.506000 | CONEXÃO BERLIN
@@ -22,7 +21,8 @@ erstes item keys: ['id', 'collectionId', 'recordType', 'addedOn', 'updatedOn', '
   2026-11-10 23:55:00.506000 | Armin Jambor Quartet„Touch &amp; Fade“
   2026-11-11 09:00:00.936000 | Robins Nest - Jamsession
   2026-11-12 21:00:00.506000 | Thärichens Tentett&nbsp;
-  2026-11-13 21:00:00.506000 | Vladimir Karparov Quartett
+  2026-11-13 21:00:00.506000 | Martina Gebhardt Bandfeat. Patricio Böttcher (sax) „Light“
+  2026-11-14 21:00:00.506000 | Vladimir Karparov Quartett
   2026-11-15 21:00:00.506000 | June Yun &amp; Arseny Rykov: Raw Sketches (of a Musician’s Mind)
   2026-11-17 21:00:00.506000 | open excess: feat Anna Reizbikh &amp; Peter Ehwald
   2026-11-18 09:00:00.936000 | Robins Nest - Jamsession

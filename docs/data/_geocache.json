@@ -399,6 +399,12 @@
   "lat": 52.4985453,
   "lng": 13.4167949
  },
+ "Admiralstraße 1-2, 10999 Kreuzberg, Berlin": {
+  "address": "Admiralstraße 1-2, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4985453,
+  "lng": 13.4167949
+ },
  "Admiralstraße 17, 10999 Berlin": {
   "address": "Admiralstraße 17, 10999 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -1575,6 +1581,12 @@
   "lat": 52.5277487,
   "lng": 13.3862025
  },
+ "Chausseestraße 131, Berlin": {
+  "address": "Chausseestraße 131, 10115 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5274482,
+  "lng": 13.3864664
+ },
  "Checkpoint Charlie, Friedrichstraße 43-45, 10117 Berlin": null,
  "Christinenstraße 18, 10119 Berlin": {
   "address": "Christinenstraße 18, 10119 Prenzlauer Berg",
@@ -1972,6 +1984,12 @@
   "lat": 52.5106031,
   "lng": 13.3292355
  },
+ "Fasanenstraße 1a, 10623 Charlottenburg, Berlin": {
+  "address": "Fasanenstraße 1a, 10623 Charlottenburg",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.5106031,
+  "lng": 13.3292355
+ },
  "Fehrbelliner Platz 1, 10707 Berlin": {
   "address": "Fehrbelliner Platz 1, 10707 Wilmersdorf",
   "bezirk": "Charlottenburg-Wilmersdorf",
@@ -2041,6 +2059,12 @@
   "lat": 52.4632355,
   "lng": 13.3134329
  },
+ "Flemmingstraße 14b, 12163 Steglitz, Berlin": {
+  "address": "Flemmingstraße 14b, 12163 Steglitz",
+  "bezirk": "Steglitz-Zehlendorf",
+  "lat": 52.4632355,
+  "lng": 13.3134329
+ },
  "Florastraße 16, 13187 Berlin": {
   "address": "Florastraße 16, 13187 Pankow",
   "bezirk": "Pankow",
@@ -2080,6 +2104,7 @@
   "lat": 52.5373536,
   "lng": 13.5300088
  },
+ "Frank-Zappa-Straße 19,20, 12681 Marzahn, Berlin": null,
  "Frankfurter Allee 205, 10365 Lichtenberg, Berlin": {
   "address": "Frankfurter Allee 205, 10365 Lichtenberg",
   "bezirk": "Lichtenberg",
@@ -2258,6 +2283,12 @@
   "lat": 52.4918026,
   "lng": 13.391591
  },
+ "Gneisenaustraße 2a, 10961 Kreuzberg, Berlin": {
+  "address": "Gneisenaustraße 2a, 10961 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4919487,
+  "lng": 13.3889569
+ },
  "Goerzallee 189, 14167 Berlin": {
   "address": "Goerzallee 189-223, 14167 Lichterfelde",
   "bezirk": "Steglitz-Zehlendorf",
@@ -2382,6 +2413,12 @@
   "lat": 52.5114812,
   "lng": 13.459589
  },
+ "Grünberger Straße 77, 10245 Friedrichshain, Berlin": {
+  "address": "Grünberger Straße 77, 10245 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5113257,
+  "lng": 13.4601557
+ },
  "Grüntaler Str. 24, 13357 Berlin": {
   "address": "Grüntaler Straße 24, 13357 Gesundbrunnen",
   "bezirk": "Mitte",
@@ -2437,6 +2474,12 @@
   "bezirk": "Lichtenberg",
   "lat": 52.5129172,
   "lng": 13.4765048
+ },
+ "Gürtelstraße 26, 10247 Friedrichshain, Berlin": {
+  "address": "Gürtelstraße 26, 10247 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5087542,
+  "lng": 13.4729455
  },
  "Gürtelstraße 35, 10247 Berlin": {
   "address": "Gürtelstraße 35, 10247 Friedrichshain",
@@ -2710,6 +2753,12 @@
   "bezirk": "Neukölln",
   "lat": 52.4836648,
   "lng": 13.4245161
+ },
+ "Hermannstraße 8, 12049 Neukölln, Berlin": {
+  "address": "Hermannstraße 8, 12049 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4851158,
+  "lng": 13.4240134
  },
  "Hermannstraße 86, 12051 Berlin": {
   "address": "Hermannstraße 86, 12051 Neukölln",
@@ -3216,6 +3265,12 @@
   "lng": 13.1846433
  },
  "Kantine am Berghain, Berlin": null,
+ "Kantstraße 12A, 10623 Berlin": {
+  "address": "Kantstraße 12a, 10623 Charlottenburg",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.506069,
+  "lng": 13.3284714
+ },
  "Kaos Berlin Wilhelminenhofstr.92 Berlin": null,
  "Kaos Berlin Wilhelminenhofstr.92 Berlin Deutschland": null,
  "Kaox Türrschmidtstr. 1 10317 Berlin Deutschland": null,
@@ -3333,6 +3388,12 @@
   "lng": 13.4078031
  },
  "Kastanienallee 85, 10435 Berlin": {
+  "address": "Kastanienallee 85, 10435 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.53739,
+  "lng": 13.4092293
+ },
+ "Kastanienallee 85, 10435 Prenzlauer Berg, Berlin": {
   "address": "Kastanienallee 85, 10435 Prenzlauer Berg",
   "bezirk": "Pankow",
   "lat": 52.53739,
@@ -3994,6 +4055,12 @@
   "lat": 52.4970089,
   "lng": 13.428189
  },
+ "Lausitzer Straße 13, 10999 Kreuzberg, Berlin": {
+  "address": "Lausitzer Straße 13, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4970089,
+  "lng": 13.428189
+ },
  "Lausitzer Straße 21a, 10999 Berlin": {
   "address": "Lausitzer Straße 21a, 10999 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -4135,6 +4202,12 @@
   "lng": 13.3411312
  },
  "Lichtenberg/askapunk, Berlin": null,
+ "Lichtenrader Straße 49, 12049 Neukölln, Berlin": {
+  "address": "Lichtenrader Straße 49, 12049 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4765857,
+  "lng": 13.4204865
+ },
  "Lido, Cuvrystraße 7, 10997, Berlin": {
   "address": "Cuvrystraße 7, 10997 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -4424,6 +4497,12 @@
   "lng": 13.3667307
  },
  "Mansteinstr. 10, Berlin": {
+  "address": "Mansteinstraße 10, 10783 Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4917223,
+  "lng": 13.3667307
+ },
+ "Mansteinstraße 10, 10783 Schöneberg, Berlin": {
   "address": "Mansteinstraße 10, 10783 Schöneberg",
   "bezirk": "Tempelhof-Schöneberg",
   "lat": 52.4917223,
@@ -4754,6 +4833,13 @@
   "lat": 52.4338463,
   "lng": 13.2543865
  },
+ "Mittelstraße 20, 12529 Berlin": {
+  "address": "Mittelstraße 20, 13055 Alt-Hohenschönhausen",
+  "bezirk": "Lichtenberg",
+  "lat": 52.537941,
+  "lng": 13.4837999
+ },
+ "Mittelstraße 20, 12529 Schönefeld, Berlin": null,
  "Moabit, Berlin": {
   "address": "Moabit",
   "bezirk": "Mitte",
@@ -5475,6 +5561,12 @@
   "lat": 52.5094035,
   "lng": 13.3766399
  },
+ "Potsdamer Platz, 10117 Berlin": {
+  "address": "Potsdamer Platz, 10785 Tiergarten",
+  "bezirk": "Mitte",
+  "lat": 52.5098014,
+  "lng": 13.3755898
+ },
  "Potsdamer Str. 134/136, 10783 Berlin": {
   "address": "Potsdamer Straße 134/136, 10783 Schöneberg",
   "bezirk": "Tempelhof-Schöneberg",
@@ -5499,6 +5591,12 @@
  "Prachttomate Bornsdorfer Straße 9-11, 12053 Berlin": null,
  "Prachttomate, Bornsdorfer Straße 9-11, 12053 Berlin": null,
  "Prenzlauer Allee 6, 10405 Berlin": {
+  "address": "Prenzlauer Allee 6, 10405 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5294261,
+  "lng": 13.4184861
+ },
+ "Prenzlauer Allee 6, 10405 Prenzlauer Berg, Berlin": {
   "address": "Prenzlauer Allee 6, 10405 Prenzlauer Berg",
   "bezirk": "Pankow",
   "lat": 52.5294261,
@@ -5539,6 +5637,7 @@
   "lat": 52.5468526,
   "lng": 13.3666534
  },
+ "Quasimodo, Kantstraße 12A, 10623, Berlin": null,
  "Quitzowstraße 103, 10551 Berlin": {
   "address": "Quitzowstraße 103, 10551 Moabit",
   "bezirk": "Mitte",
@@ -6017,6 +6116,12 @@
   "lat": 52.5127217,
   "lng": 13.4199215
  },
+ "Rungestraße 20, 10179 Mitte, Berlin": {
+  "address": "Rungestraße 20, 10179 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5127217,
+  "lng": 13.4199215
+ },
  "Rxxxhaus Bethaniendamm Berlin": null,
  "Rxxxhaus, Bethaniendamm Berlin Deutschland": null,
  "Rütli Campus, Rütlistraße, 12045 Berlin": {
@@ -6393,6 +6498,12 @@
  },
  "Schwarze Risse Gneisenaustr. 2a 10961 Berlin Deutschland": null,
  "Schwedenstrasse 11A, 13357 Berlin": {
+  "address": "Schwedenstraße 11a, 13357 Gesundbrunnen",
+  "bezirk": "Mitte",
+  "lat": 52.5558695,
+  "lng": 13.3743354
+ },
+ "Schwedenstraße 11a, 13357 Gesundbrunnen, Berlin": {
   "address": "Schwedenstraße 11a, 13357 Gesundbrunnen",
   "bezirk": "Mitte",
   "lat": 52.5558695,
@@ -6812,6 +6923,7 @@
   "lat": 52.4584916,
   "lng": 13.4843006
  },
+ "TBA - Chausseestraße 131, BERLIN, Berlin": null,
  "TBA - Info durch Veranstalter*in, Berlin": null,
  "TBA - Storkower Str. 123, 10407 Berlin, Germany, Berlin": null,
  "TBA to be announced, Berlin": null,

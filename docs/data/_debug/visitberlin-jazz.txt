@@ -1,5 +1,4 @@
-Event-Links: 17 | Events: 16
-  2026-09-29 19:30:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Session im ART Stalker
+Event-Links: 17 | Events: 17
   2026-10-22 20:00:00 | Kulturhaus "alte feuerwache" Friedrichshain, Marchlewskistr. 6, 10243, Berlin | Jazz in der Alten Feuerwache |BERLIN 21
   2026-10-09 20:00:00 | EUREF-Campus Berlin, Torgauer Straße 25, 10829, Berlin | ZigZag Hall – Berlins neue Bühne für Jazz und Live-Musik
   2026-10-23 19:00:00 | Deutsche Oper Berlin, Tischlerei, Richard-Wagner-Str. / Ecke Zillestr., 10627, Berlin | Jazz & Lyrics I: Two of a Kind
@@ -11,7 +10,9 @@ Event-Links: 17 | Events: 16
   2026-10-25 19:00:00 | Werner-Otto-Saal - Konzerthaus Berlin, Am Gendarmenmarkt, 10117, Berlin | Kathrin Pechlof Trio
   2026-09-14 19:00:00 | Bredouille Bar, Georgenstraße 199, 10117, Berlin | radio3 Listening Lounge
   2026-10-12 20:00:00 | Café Engels, Herrfurthstr. 21, 12049, Berlin | Blue Moonday Jazzsession
+  2026-09-29 19:30:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Session im ART Stalker
   2026-10-28 19:00:00 | Berliner Festspiele, Schaperstraße 24, 10719, Berlin | Melting Pot
   2026-10-29 18:00:00 | Haus der Berliner Festspiele - Großer Saal, Schaperstr. 24, 10719, Berlin | EROSÃO PERCUSSION TRIO // DREAM BABY DREAM // Anthony Braxton Septet // Alexander Hawkins Willow Music
   2026-03-26 19:00:00 | Musikinstrumenten-Museum, Tiergartenstraße, 10785, Berlin | Jazz im MIM
   2026-10-29 20:00:00 | A-Trane Jazzclub, Pestalozzistraße 105, 10625, Berlin | Elin Forkelid Plays For Trane
+  2026-10-29 22:30:00 | Quasimodo, Kantstraße 12A, 10623, Berlin | Karoline Wallace

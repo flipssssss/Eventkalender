@@ -1,15 +1,5 @@
-Events (vor Dedup): 390
-https://stressfaktor.squat.net/termine/alle page 0: 30 Events (2026-10-20…2026-10-21)
-https://stressfaktor.squat.net/termine/alle page 1: 30 Events (2026-10-21…2026-10-22)
-https://stressfaktor.squat.net/termine/alle page 2: 30 Events (2026-10-22…2026-10-24)
-https://stressfaktor.squat.net/termine/alle page 3: 30 Events (2026-10-24…2026-10-25)
-https://stressfaktor.squat.net/termine/alle page 4: 30 Events (2026-10-26…2026-10-28)
-https://stressfaktor.squat.net/termine/alle page 5: 30 Events (2026-10-28…2026-10-30)
-https://stressfaktor.squat.net/termine/alle page 6: 30 Events (2026-10-30…2026-11-01)
-https://stressfaktor.squat.net/termine/alle page 7: 30 Events (2026-11-01…2026-11-04)
-https://stressfaktor.squat.net/termine/alle page 8: 30 Events (2026-11-04…2026-11-07)
-https://stressfaktor.squat.net/termine/alle page 9: 30 Events (2026-11-07…2026-11-11)
-https://stressfaktor.squat.net/termine/alle page 10: 30 Events (2026-11-11…2026-11-15)
-https://stressfaktor.squat.net/termine/alle page 11: 30 Events (2026-11-15…2026-11-19)
-https://stressfaktor.squat.net/termine/alle page 12: 30 Events (2026-11-19…2026-11-25)
-Anubis-Notizen: PoW: difficulty=2 nonce=127 hash=00fecfa217ef… pass-status=200 cookies=['techaro.lol-anubis-cookie-verification', 'techaro.lol-anubis-auth']
+Events (vor Dedup): 0
+https://stressfaktor.squat.net/termine/alle page 0: FEHLER HTTPSConnectionPool(host='stressfaktor.squat.net', port=443): Max retries exceeded with url: /termine/alle (Caused by NewConnectionError("HTTPSConnection(host='stressfaktor.squat.net', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+→ Fallback auf /termine
+https://stressfaktor.squat.net/termine page 0: FEHLER HTTPSConnectionPool(host='stressfaktor.squat.net', port=443): Max retries exceeded with url: /termine (Caused by NewConnectionError("HTTPSConnection(host='stressfaktor.squat.net', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+Anubis-Notizen: 

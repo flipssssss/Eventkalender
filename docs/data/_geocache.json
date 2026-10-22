@@ -655,6 +655,7 @@
  "Annemirl-Bauer-Platz (Park am Ostkreuz) Ostkreuz 10245 Berlin Deutschland": null,
  "Annemirl-Bauer-Platz 1024, 10245 Berlin": null,
  "Annemirl-Bauer-Platz Annemirl-Bauer-Platz 10245 Berlin Deutschland": null,
+ "Annemirl-Bauer-Platz bei den Tischtennisplatten, 10245 Berlin": null,
  "Annemirl-Bauer-Platz, Friedrichshain Berlin Deutschland": {
   "address": "Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -1003,6 +1004,12 @@
   "lng": 13.4395704
  },
  "Berliner Philharmonie": null,
+ "Berliner Straße 86, 14467 Berliner Vorstadt": {
+  "address": "Berliner Straße 86, 14467 Berliner Vorstadt",
+  "bezirk": null,
+  "lat": 52.4135931,
+  "lng": 13.087704
+ },
  "Berliner Straße 86, 14467 Potsdam": {
   "address": "Berliner Straße 86, 14467 Berliner Vorstadt",
   "bezirk": null,
@@ -1187,6 +1194,12 @@
   "bezirk": "Mitte",
   "lat": 52.5201219,
   "lng": 13.3993823
+ },
+ "Bodestraße, 10178 Mitte, Berlin": {
+  "address": "Bodestraße, 10178 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5197163,
+  "lng": 13.3983851
  },
  "Boiler, Berlin": null,
  "Boltzplatz, Travemünder Straße 2 (Wedding) 13357 Berlin Deutschland": null,
@@ -1581,6 +1594,12 @@
   "lat": 52.5277487,
   "lng": 13.3862025
  },
+ "Chausseestraße 128/129, 10115 Mitte, Berlin": {
+  "address": "Chausseestraße 128-129, 10115 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5279121,
+  "lng": 13.3860465
+ },
  "Chausseestraße 131, Berlin": {
   "address": "Chausseestraße 131, 10115 Mitte",
   "bezirk": "Mitte",
@@ -1589,6 +1608,12 @@
  },
  "Checkpoint Charlie, Friedrichstraße 43-45, 10117 Berlin": null,
  "Christinenstraße 18, 10119 Berlin": {
+  "address": "Christinenstraße 18, 10119 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5320392,
+  "lng": 13.4104725
+ },
+ "Christinenstraße 18, 10119 Prenzlauer Berg, Berlin": {
   "address": "Christinenstraße 18, 10119 Prenzlauer Berg",
   "bezirk": "Pankow",
   "lat": 52.5320392,
@@ -2083,6 +2108,7 @@
   "lat": 52.391434,
   "lng": 13.5126842
  },
+ "Flutgraben e. V., Am Flutgraben 3, 12435 Berlin": null,
  "Flutgraben e.V. Am Flutgraben 3 Berlin Deutschland": {
   "address": "Am Flutgraben 3, 12435 Alt-Treptow",
   "bezirk": "Treptow-Köpenick",
@@ -2545,6 +2571,12 @@
   "lng": 13.4860982
  },
  "Hanseatenweg 10, 10557 Berlin": {
+  "address": "Hanseatenweg 10, 10557 Tiergarten",
+  "bezirk": "Mitte",
+  "lat": 52.5183273,
+  "lng": 13.3468408
+ },
+ "Hanseatenweg 10, 10557 Tiergarten, Berlin": {
   "address": "Hanseatenweg 10, 10557 Tiergarten",
   "bezirk": "Mitte",
   "lat": 52.5183273,
@@ -3381,6 +3413,12 @@
   "lat": 52.5402446,
   "lng": 13.4095113
  },
+ "Kastanienallee 7-9, 10435 Prenzlauer Berg, Berlin": {
+  "address": "Kastanienallee 7-9, 10435 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5402446,
+  "lng": 13.4095113
+ },
  "Kastanienallee 77, 10435 Berlin": {
   "address": "Kastanienallee 77, 10435 Prenzlauer Berg",
   "bezirk": "Pankow",
@@ -4110,6 +4148,7 @@
   "lng": 13.4286928
  },
  "Lausutzer Straße 22, 10999 Berlin": null,
+ "Lavinia, Berlin": null,
  "Lawede Bülowstr. 39 10783 Berlin Deutschland": null,
  "Lehderstrasse 74, 13086 Berlin": {
   "address": "Lehderstraße 74, 13086 Weißensee",
@@ -4840,6 +4879,12 @@
   "lng": 13.4837999
  },
  "Mittelstraße 20, 12529 Schönefeld, Berlin": null,
+ "Mittelstraße 20, 13055 Alt-Hohenschönhausen, Berlin": {
+  "address": "Mittelstraße 20, 13055 Alt-Hohenschönhausen",
+  "bezirk": "Lichtenberg",
+  "lat": 52.537941,
+  "lng": 13.4837999
+ },
  "Moabit, Berlin": {
   "address": "Moabit",
   "bezirk": "Mitte",
@@ -5218,6 +5263,12 @@
   "lat": 52.5240834,
   "lng": 13.3971151
  },
+ "Oranienburger Straße 18, 10178 Mitte, Berlin": {
+  "address": "Oranienburger Straße 18, 10178 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5240834,
+  "lng": 13.3971151
+ },
  "Oranienburger Straße 54, 10117 Berlin": {
   "address": "Oranienburger Straße 54, 10117 Mitte",
   "bezirk": "Mitte",
@@ -5266,6 +5317,13 @@
   "lat": 52.5003909,
   "lng": 13.4221612
  },
+ "Oranienstraße 19A, 10999 Berlin": {
+  "address": "Oranienstraße 19a, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5008315,
+  "lng": 13.4223987
+ },
+ "Oranienstraße 19A, 10999 Berlin (XBerg)": null,
  "Oranienstraße 45, 10969 Kreuzberg, Berlin": {
   "address": "Oranienstraße 45, 10969 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -7681,6 +7739,12 @@
   "bezirk": "Marzahn-Hellersdorf",
   "lat": 52.5422219,
   "lng": 13.6191399
+ },
+ "Wurzener Straße, 12627 Hellersdorf, Berlin": {
+  "address": "Wurzener Straße, 12627 Hellersdorf",
+  "bezirk": "Marzahn-Hellersdorf",
+  "lat": 52.541836,
+  "lng": 13.6173976
  },
  "Wönnichstr. 103, Berlin": {
   "address": "Wönnichstraße 103, 10317 Rummelsburg",

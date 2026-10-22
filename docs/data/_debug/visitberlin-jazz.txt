@@ -1,5 +1,4 @@
-Event-Links: 17 | Events: 17
-  2026-10-22 20:00:00 | Kulturhaus "alte feuerwache" Friedrichshain, Marchlewskistr. 6, 10243, Berlin | Jazz in der Alten Feuerwache |BERLIN 21
+Event-Links: 17 | Events: 16
   2026-10-09 20:00:00 | EUREF-Campus Berlin, Torgauer Straße 25, 10829, Berlin | ZigZag Hall – Berlins neue Bühne für Jazz und Live-Musik
   2026-10-23 19:00:00 | Deutsche Oper Berlin, Tischlerei, Richard-Wagner-Str. / Ecke Zillestr., 10627, Berlin | Jazz & Lyrics I: Two of a Kind
   2026-10-23 20:00:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Jed Thomas Band - Bluesrock Sensation from Yorkshire | UK

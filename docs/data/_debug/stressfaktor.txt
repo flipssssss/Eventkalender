@@ -1,5 +1,47 @@
 Events (vor Dedup): 0
-https://stressfaktor.squat.net/termine/alle page 0: FEHLER HTTPSConnectionPool(host='stressfaktor.squat.net', port=443): Max retries exceeded with url: /termine/alle (Caused by NewConnectionError("HTTPSConnection(host='stressfaktor.squat.net', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+URL: https://stressfaktor.squat.net/termine/alle
+  HTML-Länge: 509 Zeichen
+  Events geparst: 0
+  Datum-Treffer (Text) im HTML: 0
+  Häufigste CSS-Klassen: []
+  Roh-HTML (vollständig):
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+<title>401 Unauthorized</title>
+</head><body>
+<h1>Unauthorized</h1>
+<p>This server could not verify that you
+are authorized to access the document
+requested.  Either you supplied the wrong
+credentials (e.g., bad password), or your
+browser doesn't understand how to supply
+the credentials required.</p>
+<hr>
+<address>Apache/2.4.68 (Debian) Server at stressfaktor.squat.net Port 80</address>
+</body></html>
+
+------------------------------------------------------------
 → Fallback auf /termine
-https://stressfaktor.squat.net/termine page 0: FEHLER HTTPSConnectionPool(host='stressfaktor.squat.net', port=443): Max retries exceeded with url: /termine (Caused by NewConnectionError("HTTPSConnection(host='stressfaktor.squat.net', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
-Anubis-Notizen: 
+URL: https://stressfaktor.squat.net/termine
+  HTML-Länge: 509 Zeichen
+  Events geparst: 0
+  Datum-Treffer (Text) im HTML: 0
+  Häufigste CSS-Klassen: []
+  Roh-HTML (vollständig):
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+<title>401 Unauthorized</title>
+</head><body>
+<h1>Unauthorized</h1>
+<p>This server could not verify that you
+are authorized to access the document
+requested.  Either you supplied the wrong
+credentials (e.g., bad password), or your
+browser doesn't understand how to supply
+the credentials required.</p>
+<hr>
+<address>Apache/2.4.68 (Debian) Server at stressfaktor.squat.net Port 80</address>
+</body></html>
+
+------------------------------------------------------------
+Anubis-Notizen: PoW: difficulty=2 nonce=168 hash=00b43515d9aa… pass-status=401 cookies=['techaro.lol-anubis-cookie-verification', 'techaro.lol-anubis-auth']

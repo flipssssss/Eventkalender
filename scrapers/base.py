@@ -139,7 +139,9 @@ class Event:
 # Höflichkeits-Drossel pro Host (Sekunden Mindestabstand zwischen Anfragen),
 # damit empfindliche Portale wie berlin.de nicht mit 429 drosseln. Gilt
 # scraper-übergreifend (Modul-globale Zeitstempel).
-_HOST_MIN_GAP = {"www.berlin.de": 0.4, "berlin.de": 0.4}
+_HOST_MIN_GAP = {"www.berlin.de": 0.4, "berlin.de": 0.4,
+                 # Festival-Ausleser blättert und liest bis zu 150 Detailseiten.
+                 "www.visitberlin.de": 0.3}
 _last_request_by_host: dict[str, float] = {}
 
 

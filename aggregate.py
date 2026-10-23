@@ -213,7 +213,7 @@ def get_scrapers():
         VisitBerlinJazzScraper(
             category="Festival", listing=VISITBERLIN_FESTIVALS,
             name="visitBerlin Festivals", slug="visitberlin-festivals",
-            max_events=80),
+            max_events=150, paged=True),
         # askapunk (Gancio-DIY-Kalender) -- Punk-Konzerte über die JSON-API.
         GancioScraper("askapunk", "https://berlin.askapunk.de", category="Konzert"),
         # Möbel Olfe (queere Bar) -- statische Tabelle.

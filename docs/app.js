@@ -568,6 +568,94 @@ function setTheme(theme) {
   }
 }
 
+// ---------------- Website je Quelle ----------------
+//
+// Jede Quelle in den Einstellungen bekommt einen Link auf ihre Webseite.
+// Die Adresse wird normalerweise aus den Event-Links dieser Quelle abgeleitet
+// (häufigste Herkunft) -- das hält sich von selbst aktuell und gilt auch für
+// Quellen, die später dazukommen.
+//
+// Die Tabelle hier korrigiert nur die Fälle, in denen das Ableiten daneben
+// liegt: die vier berlin.de-Quellen würden alle auf die Startseite von
+// berlin.de zeigen, und Quellen ohne aktuelle Events haben gar keine
+// Event-Links, aus denen sich etwas ableiten ließe. Die Adressen stammen aus
+// den jeweiligen Scrapern, sind also dieselben, die auch abgerufen werden.
+const SOURCE_SITE = {
+  // berlin.de -- ohne Korrektur alles die nackte Startseite.
+  "Kinoprogramm": "https://www.berlin.de/kino/",
+  "Flohmärkte Berlin": "https://www.berlin.de/special/shopping/flohmaerkte/",
+  "Öko-Wochenmärkte": "https://www.berlin.de/special/shopping/biomarkt/",
+  "Ausstellungen Berlin": "https://www.berlin.de/ausstellungen/",
+  // Quellen, die gerade keine Events liefern -> nichts ableitbar.
+  "FunFacts": "https://www.funfacts.de/tickets-kaufen",
+  "König Drag Show": "https://www.konigdragshow.com/dragshows",
+  "Party Dyke Berlin": "https://www.partydykeberlin.com/event-list",
+  "Silverfuture": "https://www.silverfuture.net/events-1/",
+  "Time to Shine Kink": "https://timetoshine11.eventbrite.de/",
+  "Folsom Europe": "https://folsomeurope.berlin/",
+  // Einzelne Event-Links zeigen hier woandershin als die Quelle selbst.
+  "IKSK Berlin": "https://www.iksk-berlin.de/Program",
+  "Demo Ticker Berlin": "https://todon.eu/@Demo_Ticker_Berlin",
+  "Stressfaktor": "https://stressfaktor.squat.net/termine/alle",
+  "Siegessäule": "https://www.siegessaeule.de/events/",
+  "Möbel Olfe": "https://www.moebel-olfe.de/programm.php",
+  "Lab.oratory": "https://www.lab-oratory.de/",
+  "Café Cralle": "https://cafecralle.wordpress.com/",
+};
+
+// Herkunft der Event-Links je Quelle, einmal berechnet und gemerkt.
+let sourceOriginCache = null;
+
+function sourceOrigins() {
+  if (sourceOriginCache) return sourceOriginCache;
+  const tally = new Map();
+  for (const ev of state.events) {
+    const url = ev.source_url;
+    if (!ev.source_name || !url || !/^https?:\/\//.test(url)) continue;
+    let origin;
+    try { origin = new URL(url).origin; } catch { continue; }
+    let per = tally.get(ev.source_name);
+    if (!per) { per = new Map(); tally.set(ev.source_name, per); }
+    per.set(origin, (per.get(origin) || 0) + 1);
+  }
+  sourceOriginCache = new Map();
+  for (const [src, per] of tally) {
+    let best = null, bestN = 0;
+    for (const [origin, n] of per) if (n > bestN) { best = origin; bestN = n; }
+    if (best) sourceOriginCache.set(src, best + "/");
+  }
+  return sourceOriginCache;
+}
+
+function sourceSiteUrl(src) {
+  if (src === MINE_SOURCE) return null;        // hat keine eigene Webseite
+  return SOURCE_SITE[src] || sourceOrigins().get(src) || null;
+}
+
+// Der kleine Link-Knopf rechts in einer Quellen-Zeile.
+function sourceLink(src) {
+  const url = sourceSiteUrl(src);
+  if (!url) return null;
+  const a = document.createElement("a");
+  a.className = "source-link";
+  a.href = url;
+  a.target = "_blank";
+  a.rel = "noopener noreferrer";
+  a.title = "Webseite von " + src + " öffnen";
+  a.setAttribute("aria-label", "Webseite von " + src + " öffnen");
+  a.innerHTML =
+    '<svg viewBox="0 0 24 24" width="15" height="15" fill="none" '
+    + 'stroke="currentColor" stroke-width="2" stroke-linecap="round" '
+    + 'stroke-linejoin="round" aria-hidden="true">'
+    + '<path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>'
+    + '<polyline points="15 3 21 3 21 9"/>'
+    + '<line x1="10" y1="14" x2="21" y2="3"/></svg>';
+  // Die Zeile ist ein <label> -- ohne das würde der Klick zusätzlich die
+  // Checkbox der Quelle umschalten.
+  a.addEventListener("click", (e) => e.stopPropagation());
+  return a;
+}
+
 function buildSourceToggles() {
   // Count only events that would land in the feed given every OTHER filter,
   // so the badge matches what's actually shown -- not the grand total.
@@ -631,6 +719,8 @@ function buildSourceToggles() {
     badge.className = "source-count" + (g ? " " + genreClass(g) : "");
     badge.textContent = counts.get(src);
     label.appendChild(badge);
+    const link = sourceLink(src);
+    if (link) label.appendChild(link);
     els.sourceToggles.appendChild(label);
   }
 }
@@ -2368,6 +2458,7 @@ function openSharedEvent() {
 function mergeEvents() {
   const base = state.baseEvents || [];
   state.events = base.concat(state.userEvents);
+  sourceOriginCache = null;  // Herkünfte je Quelle neu bestimmen
   refreshFavSnapshots();   // Archiv-Snapshots aktuell halten
 }
 

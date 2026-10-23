@@ -2932,6 +2932,12 @@
   "lat": 52.5066643,
   "lng": 13.4537702
  },
+ "House of Riegillio, Berlin": {
+  "address": "Eisenacher Straße 13, 10777 Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4969625,
+  "lng": 13.3494425
+ },
  "Hugenottenkirche, Gendarmenmarkt 5, 10117 Berlin": {
   "address": "Gendarmenmarkt 5, 10117 Mitte",
   "bezirk": "Mitte",

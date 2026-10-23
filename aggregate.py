@@ -54,7 +54,10 @@ from scrapers import openinghours
 from scrapers.rosalux import RosaLuxScraper
 from scrapers.funfacts import FunFactsScraper
 from scrapers.squarespace import SquarespaceEventsScraper
-from scrapers.visitberlin import VisitBerlinJazzScraper
+from scrapers.visitberlin import (
+    FESTIVAL_LISTING as VISITBERLIN_FESTIVALS,
+    VisitBerlinJazzScraper,
+)
 from scrapers.gancio import GancioScraper
 from scrapers.moebelolfe import MoebelOlfeScraper
 from scrapers.othernature import OtherNatureScraper
@@ -82,6 +85,11 @@ HORIZON_DAYS = 14
 # the load barely changes; dense categories add more, by design.
 SOURCE_HORIZON = {
     "FunFacts": 90,
+    # Festivals werden Monate im Voraus angekündigt. Der Wert steht hier und
+    # NICHT in CATEGORY_HORIZON: letzteres geht über FETCH_HORIZON_DAYS in die
+    # Abrufzeitfenster von Stressfaktor, Berlin Bühnen und Siegessäule ein --
+    # die würden dann unnötig das Vierfache abfragen.
+    "visitBerlin Festivals": 120,
 }
 CATEGORY_HORIZON: dict[str, int] = {
     "Theater": 30,
@@ -188,6 +196,13 @@ def get_scrapers():
             "B-flat", "https://b-flat-berlin.de/events", category="Konzert",
             address="Rosenthaler Str. 13, 10119 Berlin"),
         VisitBerlinJazzScraper(category="Konzert"),
+        # visitBerlin-Veranstaltungskalender, gefiltert auf die Festival-
+        # Kategorien. Läuft über denselben Ausleser (Liste rendert client-
+        # seitig, Detailseiten tragen JSON-LD), nur mit anderer Listen-URL.
+        VisitBerlinJazzScraper(
+            category="Festival", listing=VISITBERLIN_FESTIVALS,
+            name="visitBerlin Festivals", slug="visitberlin-festivals",
+            max_events=80),
         # askapunk (Gancio-DIY-Kalender) -- Punk-Konzerte über die JSON-API.
         GancioScraper("askapunk", "https://berlin.askapunk.de", category="Konzert"),
         # Möbel Olfe (queere Bar) -- statische Tabelle.

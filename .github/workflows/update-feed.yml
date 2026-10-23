@@ -48,10 +48,44 @@ jobs:
           git add docs/data
           if git diff --cached --quiet; then
             echo "Keine Änderungen am Feed."
-          else
-            git commit -m "Feed automatisch aktualisiert"
-            git push
+            exit 0
           fi
+          git commit -m "Feed automatisch aktualisiert"
+
+          # Zwei Läufe können sich überlappen (ein Push auf den Branch während
+          # dieser Lauf noch sammelt, oder ein manueller Lauf parallel zum
+          # nächtlichen). Dann wird der Push abgewiesen -- bisher war der Lauf
+          # damit rot und das Feed-Update verloren.
+          #
+          # Statt zu mergen oder zu rebasen: auf den neuen Remote-Stand setzen
+          # und die frisch erzeugten Daten darauf neu committen. Dadurch kann
+          # es keinen Konflikt geben, und die jüngeren Daten gewinnen -- was
+          # hier das Richtige ist.
+          #
+          # Wichtig sind zwei Details, die ein Testlauf aufgedeckt hat:
+          #   * "reset --mixed" (nicht --soft): Index UND HEAD gehen auf den
+          #     Remote-Stand, nur der Arbeitsbaum behält unsere neuen Dateien.
+          #   * "add --ignore-removal": sonst würden Dateien, die der ANDERE
+          #     Lauf unter docs/data angelegt hat und die in unserem Checkout
+          #     fehlen, als Löschung mitcommittet und verschwänden.
+          for versuch in 1 2 3 4 5; do
+            if git push; then
+              echo "Push erfolgreich (Versuch $versuch)."
+              exit 0
+            fi
+            echo "Push abgewiesen (Versuch $versuch) -- Remote-Stand übernehmen."
+            git fetch origin "$GITHUB_REF_NAME"
+            git reset --mixed "origin/$GITHUB_REF_NAME"
+            git add --ignore-removal docs/data
+            if git diff --cached --quiet; then
+              echo "Der andere Lauf hat dieselben Daten schon geschrieben."
+              exit 0
+            fi
+            git commit -m "Feed automatisch aktualisiert"
+            sleep $((versuch * 3))
+          done
+          echo "Push nach 5 Versuchen fehlgeschlagen." >&2
+          exit 1
 
   # --- Schritt 2: Feed-Webseite auf GitHub Pages veröffentlichen --------
   # Schlägt fehl, solange GitHub Pages nicht aktiv ist -- das ist ok und

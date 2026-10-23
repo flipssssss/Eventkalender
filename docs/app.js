@@ -6,11 +6,13 @@
 
 const GENRE_ORDER = ["Kultur", "Polit", "Queer", "Kink"];
 // Reihenfolge der Kategorie-Chips im Header (überall gleich).
-const CATEGORY_ORDER = ["Theater", "Kino", "Konzert", "Party", "Vortrag",
-  "Ausstellung", "Workshop", "Protest", "Essen", "Markt", "Sonstiges"];
+const CATEGORY_ORDER = ["Theater", "Kino", "Konzert", "Festival", "Party",
+  "Vortrag", "Ausstellung", "Workshop", "Protest", "Essen", "Markt",
+  "Sonstiges"];
 // Reihenfolge der Kategorie-Kästen, wenn nach Kategorie/Genre sortiert wird.
-const SORT_CATEGORY_ORDER = ["Vortrag", "Ausstellung", "Workshop", "Markt",
-  "Protest", "Essen", "Theater", "Kino", "Konzert", "Party", "Sonstiges"];
+const SORT_CATEGORY_ORDER = ["Vortrag", "Ausstellung", "Festival", "Workshop",
+  "Markt", "Protest", "Essen", "Theater", "Kino", "Konzert", "Party",
+  "Sonstiges"];
 // Die zwölf Berliner Bezirke (für die Reihenfolge im Filter).
 const BEZIRK_ORDER = [
   "Mitte", "Friedrichshain-Kreuzberg", "Pankow",
@@ -787,11 +789,12 @@ function buildBezirkToggles() {
   updateBezirkCounter();
 }
 
-// Findet ein Event heute statt? Ausstellungen laufen über mehrere Tage und
-// müssen heute geöffnet sein; sonst zählt der Starttag.
+// Findet ein Event heute statt? Mehrtägiges (Ausstellung, Festival) muss
+// heute laufen -- Ausstellungen zusätzlich heute geöffnet sein; sonst zählt
+// der Starttag.
 function isToday(ev) {
   const today = dayStart(new Date());
-  if (isExhibition(ev)) {
+  if (isMultiDay(ev)) {
     const start = dayStart(new Date(ev.start));
     const end = ev.end ? dayStart(new Date(ev.end)) : today;
     if (start > today || end < today) return false;
@@ -1009,6 +1012,21 @@ function isExhibition(ev) {
   return (ev.tags || []).includes("Ausstellung");
 }
 
+function isFestival(ev) {
+  return (ev.tags || []).includes("Festival");
+}
+
+// Läuft über einen ZEITRAUM statt an einem Abend: Ausstellungen und Festivals.
+// Beide erscheinen an jedem Tag ihrer Laufzeit und zeigen das jeweilige
+// Tagesdatum statt des Startdatums.
+//
+// Der Unterschied zwischen beiden steckt in den Öffnungszeiten: eine
+// Ausstellung ist an geschlossenen Tagen ausgegraut, ein Festival läuft
+// durch. Deshalb bleibt isExhibition() dort, wo es um Öffnungszeiten geht.
+function isMultiDay(ev) {
+  return isExhibition(ev) || isFestival(ev);
+}
+
 // Ist das Event (am heutigen Tag) schon vorbei? Endzeit vorbei -> vorbei;
 // nur Startzeit -> 1 Stunde nach Start; ohne Uhrzeit (ganztägig) nie.
 function isPast(ev, now) {
@@ -1119,15 +1137,25 @@ function render() {
   };
 
   for (const ev of visible) {
-    // Ausstellungen laufen über einen Zeitraum -> an jedem Tag ihres Laufs
-    // (von start bis end, begrenzt auf [heute, Horizont]) einblenden.
-    if (isExhibition(ev)) {
-      let cur = dayStart(new Date(ev.start));
+    // Ausstellungen und Festivals laufen über einen Zeitraum -> an jedem Tag
+    // ihres Laufs (von start bis end, begrenzt auf [heute, Horizont]) zeigen.
+    if (isMultiDay(ev)) {
+      const startDay = dayStart(new Date(ev.start));
+      let cur = new Date(startDay);
       if (cur < today) cur = new Date(today);
       let last = ev.end ? dayStart(new Date(ev.end)) : new Date(horizon);
       if (last > horizon) last = new Date(horizon);
+      // Beginnt es erst JENSEITS des Horizonts, ergibt die Schleife unten
+      // keinen einzigen Tag -- das Event fiele komplett aus dem Feed. Dann
+      // wenigstens an seinem Starttag zeigen. Betrifft vor allem Festivals,
+      // die Monate im Voraus angekündigt werden.
+      if (cur > last) {
+        ensureDay(dayKey(startDay), startDay).events.push(ev);
+        continue;
+      }
       for (; cur <= last; cur.setDate(cur.getDate() + 1)) {
-        // Geschlossen (Wochentag) oder heute nach Ladenschluss -> NICHT zeigen.
+        // Ausstellung geschlossen (Wochentag) oder heute nach Ladenschluss
+        // -> an diesem Tag NICHT zeigen. Festivals laufen durch.
         if (isExhibitionDimmed(ev, cur, now)) continue;
         ensureDay(dayKey(cur), cur).events.push(ev);
         if (state.onlyFav) break;  // in Favoriten nur einmal (erste offene Gelegenheit)
@@ -1191,6 +1219,7 @@ const CATEGORY_NOUN = {
   Protest: ["Protest", "Proteste"],
   Workshop: ["Workshop", "Workshops"],
   Ausstellung: ["Ausstellung", "Ausstellungen"],
+  Festival: ["Festival", "Festivals"],
   Essen: ["Essen", "Essen"],
   Markt: ["Markt", "Märkte"],
   Sonstiges: ["Eintrag", "Einträge"],
@@ -1425,11 +1454,11 @@ function renderPastBox(past, day) {
   return det;
 }
 
-// Gehört ein favorisiertes Event ins Archiv? Tag liegt vor heute (Ausstellungen
-// erst, wenn ihre Laufzeit vorbei ist -- laufende bleiben in den Favoriten).
+// Gehört ein favorisiertes Event ins Archiv? Tag liegt vor heute (Mehrtägiges
+// erst, wenn seine Laufzeit vorbei ist -- Laufendes bleibt in den Favoriten).
 function isFavPast(ev) {
   const today = dayStart(new Date());
-  if (isExhibition(ev)) {
+  if (isMultiDay(ev)) {
     return ev.end ? dayStart(new Date(ev.end)) < today : false;
   }
   return dayStart(new Date(ev.start)) < today;
@@ -1545,8 +1574,8 @@ function renderCard(ev, day) {
 
   const time = document.createElement("div");
   time.className = "card-time";
-  // Ausstellungen: das jeweilige Tagesdatum + die Öffnungszeit dieses Tages.
-  if (isExhibition(ev) && day) {
+  // Mehrtägiges: das jeweilige Tagesdatum (+ Öffnungszeit bei Ausstellungen).
+  if (isMultiDay(ev) && day) {
     const oh = hoursForDay(ev, day);
     time.textContent = CARD_DATE_FMT.format(day) + (oh ? " · " + oh + " Uhr" : "");
   } else {
@@ -1651,7 +1680,7 @@ function showModal(ev, day) {
   // Time line. Exhibitions show the day the card was opened from plus that
   // day's opening hours; other events the usual date + time.
   let timeText;
-  if (isExhibition(ev)) {
+  if (isMultiDay(ev)) {
     if (day) {
       const oh = hoursForDay(ev, day);
       timeText = CARD_DATE_FMT.format(day) + (oh ? " · " + oh + " Uhr" : "");
@@ -1673,8 +1702,9 @@ function showModal(ev, day) {
   title.textContent = ev.title || "Ohne Titel";
   body.appendChild(title);
 
-  // Exhibitions: until when the show runs + the venue's weekly opening hours.
-  if (isExhibition(ev) && ev.end) {
+  // Mehrtägiges: bis wann es läuft (bei Ausstellungen zusätzlich die
+  // Öffnungszeiten weiter unten).
+  if (isMultiDay(ev) && ev.end) {
     const runs = document.createElement("div");
     runs.className = "modal-runsuntil";
     runs.textContent = "läuft bis " + END_FMT.format(new Date(ev.end));
@@ -2042,9 +2072,12 @@ function setupSheetDrag() {
 // ---------------- Favourites ----------------
 
 function eventId(ev) {
-  // Ausstellungen ohne Datum identifizieren -- so bleibt ein Favorit stabil,
-  // auch wenn sich das Start-Datum von Lauf zu Lauf ändert.
+  // Mehrtägiges ohne Datum identifizieren -- so bleibt ein Favorit stabil,
+  // auch wenn sich das Start-Datum von Lauf zu Lauf ändert. Der Marker für
+  // Ausstellungen bleibt wörtlich "ausstellung", sonst würden bereits
+  // gemerkte Ausstellungen ihre ID verlieren.
   if (isExhibition(ev)) return (ev.source_url || "") + "|ausstellung|" + (ev.title || "");
+  if (isFestival(ev)) return (ev.source_url || "") + "|festival|" + (ev.title || "");
   return (ev.source_url || "") + "|" + (ev.start || "") + "|" + (ev.title || "");
 }
 function isFav(ev) { return state.favorites.has(eventId(ev)); }

@@ -2372,3 +2372,25 @@ a.showing-time:hover {
   }
   .venue-row__when { margin-bottom: 2px; }
 }
+
+/* Link auf die Webseite einer Quelle (in den Einstellungen).
+   Sitzt im <label> der Zeile, schaltet aber nicht die Checkbox mit -- das
+   verhindert der stopPropagation-Handler in app.js. */
+.source-link {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  margin-left: -2px;
+  border-radius: 999px;
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.source-link:hover,
+.source-link:focus-visible {
+  color: var(--accent);
+  background: var(--accent-soft);
+}

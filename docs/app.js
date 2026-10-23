@@ -1143,7 +1143,18 @@ function render() {
       const startDay = dayStart(new Date(ev.start));
       let cur = new Date(startDay);
       if (cur < today) cur = new Date(today);
-      let last = ev.end ? dayStart(new Date(ev.end)) : new Date(horizon);
+      let last;
+      if (ev.end) {
+        last = dayStart(new Date(ev.end));
+      } else if (isExhibition(ev)) {
+        // Ausstellung ohne Enddatum: läuft erfahrungsgemäß weiter.
+        last = new Date(horizon);
+      } else {
+        // Festival ohne Enddatum: nur der Starttag. Sonst würde eine einzelne
+        // Veranstaltung, die "Festival" heißt, über das ganze Fenster
+        // gespannt -- und bei manchen Quellen fehlt das Ende einfach.
+        last = new Date(startDay);
+      }
       if (last > horizon) last = new Date(horizon);
       // Beginnt es erst JENSEITS des Horizonts, ergibt die Schleife unten
       // keinen einzigen Tag -- das Event fiele komplett aus dem Feed. Dann

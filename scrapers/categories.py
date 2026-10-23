@@ -3,7 +3,14 @@
 Every event ends up with exactly ONE tag from this list:
 
     Theater, Konzert, Party, Kink, Kino, Diskussion, Essen, Protest,
-    Festival, Sonstiges
+    Sonstiges
+
+"Festival" steht hier bewusst NICHT: die Kategorie wird ausschließlich
+quellenbasiert gesetzt (FORCE_CATEGORY in aggregate.py). Als Stichwort hätte
+sie aus der Einzelvorstellung "Pornfilmfestival: Only Good Things" ein
+Festival statt Kino gemacht -- ein Filmabend AUF einem Festival ist keins.
+Manche Quellen (Siegessäule) schicken Titel und Kategorien als einen String
+hier durch, deshalb ist Stichwort-Erkennung dafür untauglich.
 
 Events categorised as advice/help ("Beratung") are dropped entirely.
 When a source provides several categories, the first match in
@@ -20,7 +27,6 @@ from __future__ import annotations
 # when Beratung (or help/advice) is essentially all it is.
 PRIORITY = [
     "Protest",
-    "Festival",
     "Konzert",
     "Party",
     "Kino",
@@ -37,16 +43,6 @@ DROP = "Beratung"
 
 # Keyword (substring, case-insensitive) -> target tag.
 KEYWORDS: dict[str, list[str]] = {
-    # ACHTUNG, Reihenfolge ist Programm: _map_one() nimmt den ERSTEN Treffer
-    # in diesem Dict. PRIORITY greift nur, wenn eine Quelle MEHRERE Kategorien
-    # liefert -- innerhalb eines einzelnen Strings entscheidet die Position
-    # hier. "Festival" muss deshalb vor Konzert und Kino stehen, sonst wird
-    # "Musikfestival" zu Konzert (Stichwort "musik") und "Filmfest" zu Kino.
-    #
-    # Bewusst eng gehalten: "fest" allein würde zu viel fangen (Stadtfest,
-    # Hoffest, Sommerfest sind keine Festivals im Sinne dieser Kategorie).
-    "Festival": ["festival", "festspiele", "filmfest", "musikfest",
-                 "literaturfest", "theaterfest", "biennale"],
     "Theater": ["theater", "theatre", "stage", "performance", "schauspiel"],
     "Konzert": ["konzert", "musik", "concert", "live music", "livemusik", "gig"],
     "Kino": ["film", "kino", "cinema", "movie", "screening", "kurzfilm"],

@@ -1,8 +1,6 @@
-Event-Links: 17 | Events: 16
-  2026-10-09 20:00:00 | EUREF-Campus Berlin, Torgauer Straße 25, 10829, Berlin | ZigZag Hall – Berlins neue Bühne für Jazz und Live-Musik
+Event-Links: 15 | Events: 13
   2026-10-23 19:00:00 | Deutsche Oper Berlin, Tischlerei, Richard-Wagner-Str. / Ecke Zillestr., 10627, Berlin | Jazz & Lyrics I: Two of a Kind
-  2026-10-23 20:00:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Jed Thomas Band - Bluesrock Sensation from Yorkshire | UK
-  2026-10-23 20:00:00 | Little Stage Berlin, Jonasstraße, 12053, Berlin | OkuSteinHuffMills
+  2026-10-09 20:00:00 | EUREF-Campus Berlin, Torgauer Straße 25, 10829, Berlin | ZigZag Hall – Berlins neue Bühne für Jazz und Live-Musik
   2026-10-23 20:30:00 | A-Trane Jazzclub, Pestalozzistraße 105, 10625, Berlin | Keith Tynes & Band – „Here Is to Life“
   2026-10-24 20:00:00 | House of Music, Revaler Str. 99, 10245, Berlin | jazzexzess w/ Luise Volkmann’s Punk-Jazz-Projekt + vehicle/passenger
   2026-10-25 15:30:00 | Industriesalon Schöneweide, Reinbeckstraße 10, 12459, Berlin | Jazz Cafe - Kontrapunkt Berlin Colophony zum 75. Geburtstag von Jon Rose
@@ -14,4 +12,3 @@ Event-Links: 17 | Events: 16
   2026-10-29 18:00:00 | Haus der Berliner Festspiele - Großer Saal, Schaperstr. 24, 10719, Berlin | EROSÃO PERCUSSION TRIO // DREAM BABY DREAM // Anthony Braxton Septet // Alexander Hawkins Willow Music
   2026-03-26 19:00:00 | Musikinstrumenten-Museum, Tiergartenstraße, 10785, Berlin | Jazz im MIM
   2026-10-29 20:00:00 | A-Trane Jazzclub, Pestalozzistraße 105, 10625, Berlin | Elin Forkelid Plays For Trane
-  2026-10-29 22:30:00 | Quasimodo, Kantstraße 12A, 10623, Berlin | Karoline Wallace

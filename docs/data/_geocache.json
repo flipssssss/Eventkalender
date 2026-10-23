@@ -1266,6 +1266,12 @@
   "lat": 52.5162699,
   "lng": 13.3777034
  },
+ "Brauhaus Neulich Selchower Str. 20 12049 Berlin Deutschland": {
+  "address": "Selchower Straße 20, 12049 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4784374,
+  "lng": 13.419898
+ },
  "Brebacher Weg 15, 12683 Berlin": {
   "address": "Brebacher Weg 15, 12683 Biesdorf",
   "bezirk": "Marzahn-Hellersdorf",
@@ -1593,6 +1599,12 @@
   "bezirk": "Mitte",
   "lat": 52.5277487,
   "lng": 13.3862025
+ },
+ "Chausseestraße 128-129, 10115 Mitte, Berlin": {
+  "address": "Chausseestraße 128-129, 10115 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5292781,
+  "lng": 13.3882266
  },
  "Chausseestraße 128/129, 10115 Mitte, Berlin": {
   "address": "Chausseestraße 128-129, 10115 Mitte",
@@ -3586,6 +3598,7 @@
   "lat": 52.4904917,
   "lng": 13.4314456
  },
+ "Klick Kino, Windscheidstr. 19 10627 Berlin Deutschland": null,
  "Klik e. V., Torstraße 210, 10115 Berlin": null,
  "Klingerstraße 1243, 12435 Berlin": {
   "address": "Klingerstraße, 12435 Plänterwald",
@@ -4240,6 +4253,8 @@
   "lat": 52.5325483,
   "lng": 13.3411312
  },
+ "Lichtenberg im Kiez Berlin": null,
+ "Lichtenberg im Kiez Berlin Deutschland": null,
  "Lichtenberg/askapunk, Berlin": null,
  "Lichtenrader Straße 49, 12049 Neukölln, Berlin": {
   "address": "Lichtenrader Straße 49, 12049 Neukölln",
@@ -4653,6 +4668,12 @@
   "lat": 52.5009077,
   "lng": 13.4232743
  },
+ "Marielle-Franco-Platz 1099, 10997 Berlin": {
+  "address": "Marielle-Franco-Platz, 10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5034195,
+  "lng": 13.4236716
+ },
  "Mariennenplatz ,1a, Berlin": null,
  "Mariennenplatz 1a, Berlin": null,
  "Marienstraße 11, 10117 Berlin": {
@@ -4710,6 +4731,12 @@
   "bezirk": "Marzahn-Hellersdorf",
   "lat": 52.5438879,
   "lng": 13.5447601
+ },
+ "Mastul Berlin Liebenwalder Str. 33 13347 Berlin Deutschland": {
+  "address": "Liebenwalder Straße 33, 13347 Wedding",
+  "bezirk": "Mitte",
+  "lat": 52.5519644,
+  "lng": 13.358201
  },
  "Matthäikirchplatz, 10785 Berlin": {
   "address": "Matthäikirchplatz, 10785 Tiergarten",
@@ -5082,6 +5109,7 @@
  "New Casa, Wurzener Straße 6–8, Hellersdorf 12627 Berlin Deutschland": null,
  "New Fears - Gallery for dance, Berlin": null,
  "New Yorck im Bethanien Mariannenplatz 2A 10997 Berlin Deutschland": null,
+ "NewYorck Marielle-Franco-Platz, 10997 Kreuzberg Deutschland, Berlin": null,
  "NewYorck im Bethanien Mariannenplatz 2A 10997 Berlin Deutschland": null,
  "NewYorck im Bethanien Mariannenplatz 2A, 10997 Berlin": null,
  "Niebuhrstraße 71, 10629 Berlin": {
@@ -6069,6 +6097,7 @@
   "lat": 52.4376603,
   "lng": 13.2799735
  },
+ "Rosa-Luxemburg-Stiftung Berlin Straße der Pariser Kommune 8A 10243 Berlin Deutschland": null,
  "Rosa-Luxemburg-Stiftung, Bibliothek, 2. Stock, Straße der Pariser Kommune 8 a 10243 Berlin": null,
  "Rosa-Luxemburg-Straße 30, 10178 Berlin": {
   "address": "Rosa-Luxemburg-Straße 30, 10178 Mitte",
@@ -7677,6 +7706,12 @@
   "lat": 52.6356441,
   "lng": 13.4938846
  },
+ "Windscheidstr. 19, 10627 Berlin": {
+  "address": "Windscheidstraße 19, 10627 Charlottenburg",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.5053319,
+  "lng": 13.2994463
+ },
  "Windscheidstraße 19, 10627 Berlin": {
   "address": "Windscheidstraße 19, 10627 Charlottenburg",
   "bezirk": "Charlottenburg-Wilmersdorf",
@@ -7977,6 +8012,12 @@
  "i-café 3. OG, links, Frauenhoferstr. 33-36, 10587 Berlin": null,
  "in den Räumen des Subversiv e.V. Brunnenstr. 7 HH Berlin Deutschland": null,
  "inter:Salon, Rungestraße 20, 10179 Berlin": null,
+ "interkosmos, Berlin": {
+  "address": "Fanningerstraße 47, 10365 Lichtenberg",
+  "bezirk": "Lichtenberg",
+  "lat": 52.5140772,
+  "lng": 13.4983885
+ },
  "llmann🕯, Berlin": null,
  "loge. kneipenkollektiv Kinzigstraße 9 10247 Berlin Deutschland": null,
  "mainhall, Berlin": null,

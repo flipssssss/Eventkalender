@@ -6,8 +6,8 @@
 
 const GENRE_ORDER = ["Kultur", "Polit", "Queer", "Kink"];
 // Reihenfolge der Kategorie-Chips im Header (überall gleich).
-const CATEGORY_ORDER = ["Theater", "Kino", "Konzert", "Festival", "Party",
-  "Vortrag", "Ausstellung", "Workshop", "Protest", "Essen", "Markt",
+const CATEGORY_ORDER = ["Theater", "Kino", "Konzert", "Party", "Vortrag",
+  "Ausstellung", "Festival", "Workshop", "Protest", "Essen", "Markt",
   "Sonstiges"];
 // Reihenfolge der Kategorie-Kästen, wenn nach Kategorie/Genre sortiert wird.
 const SORT_CATEGORY_ORDER = ["Vortrag", "Ausstellung", "Festival", "Workshop",

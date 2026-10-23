@@ -1,0 +1,22 @@
+Liste: https://www.visitberlin.de/de/veranstaltungskalender-berlin?cat%5B0%5D=9312&cat%5B1%5D=9782&keys=&date_between%5Bmin%5D=&date_between%5Bmax%5D=&district=All&items_per_page=21&page=1
+Event-Links: 20 | Events: 20
+  2026-11-01 09:00:00 → 2026-11-10 23:00:00 | Verschiedene Orte, Berlin | BERLIN SCIENCE WEEK 2026
+  2026-11-04 10:00:00 → 2026-11-04 23:00:00 | nhow Hotel Berlin, Stralauer Allee 3, 10245, Berlin | Listen to Berlin: Youth - Festival
+  2026-11-05 17:00:00 → 2026-11-08 17:00:00 | verschiedene Veranstaltungsorte, Berlin | Litauisches Kino goes Berlin
+  2026-11-06 11:00:00 → 2026-11-10 11:00:00 | MAGICUM - Berlin Magic Museum, Große Hamburger Straße 17, 10115, Berlin | Diwali im MAGICUM
+  2026-11-06 12:00:00 → 2026-11-15 23:00:00 | Kunstraum Kreuzberg/Bethanien, Mariannenplatz 2, 10997, Berlin | Klangwerkstatt Berlin 2026
+  2026-11-07 00:00:00 → None | Verschiedene Orte, Berlin | Berlin Freedom Week
+  2026-11-07 11:00:00 → 2026-11-08 19:00:00 | silent green Kulturquartier, Gerichtstraße 35, 13347, Berlin | BERLIN TEA FESTIVAL 2026
+  2026-11-07 12:00:00 → None | Jules B-Part am Gleisdreieck Park, Luckenwalder Str. 6b, 10963, Berlin | Diwali in Berlin 2026 - Fifth Edition | Grand Cultural Celebration
+  2026-11-07 20:00:00 → 2026-11-25 19:30:00 | Staatsoper Unter den Linden, Unter den Linden 7, 10117, Berlin | Barocktage 2026
+  2026-11-07 20:00:00 → None | Theater im Delphi, Gustav-Adolf-Straße 2, 13086, Berlin | Queer Performance Festival
+  2026-11-09 10:00:00 → 2026-11-15 10:00:00 | Verschiedene Orte, Berlin | AFRIKAMERA 2026: REFLECT
+  2026-11-09 15:00:00 → 2026-11-13 18:00:00 | Musik- und Kunstschule Berlin | Atelier der Sinne, Wilmersdorfer Straße 18, 10585, Berlin | Konzert- & Besucherwoche im historischen Ackerbürgerhaus von 1723
+  2026-11-11 01:00:00 → 2026-11-21 01:00:00 | Diverse Veranstaltungsorte, Berlin | NO LIMITS 2026
+  2026-11-11 20:00:00 → 2026-11-18 21:00:00 | Verschiedene Orte, Berlin | West-Eastern Divan Festival
+  2026-11-12 12:00:00 → 2026-11-22 12:00:00 | Verschiedene Orte, Berlin | 39. Jüdische Kulturtage Berlin 2026
+  2026-11-12 19:00:00 → 2026-11-14 22:00:00 | Brotfabrik, Caligariplatz 1, 13086, Berlin | UNDER BERLIN FILM FESTIVAL 2026
+  2026-11-13 10:00:00 → 2026-11-14 10:00:00 | Verschiedene Orte, Berlin | Bauhaus Music 2026. Ich fühle Luft von anderem Planeten
+  2026-11-13 23:30:00 → None | Unterfilm Clubkino, Saarbrücker Str. 23, 10405, Berlin | INTERFILM42: Film Burn - The Friday Party
+  2026-11-14 11:00:00 → 2026-11-15 11:00:00 | Hamburger Bahnhof - Museum für Gegenwart Berlin, Invalidenstraße 50-51, 10557, Berlin | 30 Jahre, 30 Stunden
+  2026-11-15 00:00:00 → None | Hamburger Bahnhof - Museum für Gegenwart Berlin, Invalidenstraße 50-51, 10557, Berlin | 30 Stunden Hamburger Bahnhof (Teil 2)

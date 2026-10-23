@@ -1790,6 +1790,8 @@
   "lat": 52.5235504,
   "lng": 13.407066
  },
+ "Diverse Veranstaltungsorte Berlin": null,
+ "Diverse Veranstaltungsorte, Berlin": null,
  "Don-Ugoletti-Platz 1, 12527 Berlin": {
   "address": "Don-Ugoletti-Platz 1, 12527 Grünau",
   "bezirk": "Treptow-Köpenick",
@@ -2570,6 +2572,13 @@
   "lat": 52.4991141,
   "lng": 13.3858716
  },
+ "Hamburger Bahnhof - Museum für Gegenwart Berlin, Invalidenstraße 50-51, 10557, Berlin": null,
+ "Hamburger Straße 17, 10115 Berlin": {
+  "address": "Hamburger Straße 17, 12623 Mahlsdorf",
+  "bezirk": "Marzahn-Hellersdorf",
+  "lat": 52.5251326,
+  "lng": 13.6381403
+ },
  "Hanns-Eisler-Straße 93, 10409 Prenzlauer Berg, Berlin": {
   "address": "Hanns-Eisler-Straße 93, 10409 Prenzlauer Berg",
   "bezirk": "Pankow",
@@ -3054,6 +3063,12 @@
   "lat": 52.5314904,
   "lng": 13.388528
  },
+ "Invalidenstraße 50-51, 10557 Berlin": {
+  "address": "Invalidenstraße 50-51, 10557 Moabit",
+  "bezirk": "Mitte",
+  "lat": 52.52844,
+  "lng": 13.3720386
+ },
  "Invalidenstraße 51, 10557 Berlin": {
   "address": "Invalidenstraße 51, 10557 Moabit",
   "bezirk": "Mitte",
@@ -3175,6 +3190,7 @@
  "Jugendclub, Schloßstraße 9, 14059 Berlin": null,
  "Jugendkulturzentrum M24 Mühlenstr.24, 13187 Berlin Deutschland": null,
  "Jugendzentrum DieLynar, Lynarstraße 14, 13353 Berlin": null,
+ "Jules B-Part am Gleisdreieck Park, Luckenwalder Str. 6b, 10963, Berlin": null,
  "Juliette Dragon, Berlin": null,
  "Jüdenstraße 10, 13597 Berlin": {
   "address": "Jüdenstraße 10, 13597 Spandau",
@@ -3866,6 +3882,7 @@
   "lng": 13.385162
  },
  "Kunstmarkt Trödelmarkt Boxhagener Platz, Berlin": null,
+ "Kunstraum Kreuzberg/Bethanien, Mariannenplatz 2, 10997, Berlin": null,
  "Kurdischer Verein Berlin, Residenzstraße 54, 13409 Berlin": null,
  "Kurfürstenstraße 32, 10785 Berlin": {
   "address": "Kurfürstenstraße 32, 12105 Mariendorf",
@@ -4405,6 +4422,12 @@
   "lng": 13.4616719
  },
  "Lu & Feli, Berlin": null,
+ "Luckenwalder Str. 6b, 10963 Berlin": {
+  "address": "Luckenwalder Straße 6b, 10963 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.499062,
+  "lng": 13.3733828
+ },
  "Luftschloss Tempelhofer Feld Tempelhofer Feld 12101 Berlin Deutschland": null,
  "Luftschloss Tempelhofer Feld, Tempelhofer Feld, 12101, Berlin": null,
  "Lumen D'arc, Berlin": null,
@@ -4483,6 +4506,7 @@
   "lat": 52.549755,
   "lng": 13.4038997
  },
+ "MAGICUM - Berlin Magic Museum, Große Hamburger Straße 17, 10115, Berlin": null,
  "MS Goldberg am Bhf Wannsee, Kronprinzessinnenweg 5–6\nBrücke 1, 14109, Berlin": null,
  "MS Goldberg am Wannsee, Kronprinzessinnenweg 5–6 |\nBrücke 1, 14109, Berlin": null,
  "MS Goldberg, Havelufer\nDischinger Brücke, 13581, Berlin": null,
@@ -4636,6 +4660,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5048618,
   "lng": 13.4243914
+ },
+ "Mariannenplatz 2, 10997 Berlin": {
+  "address": "Mariannenplatz 2, 10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.504544,
+  "lng": 13.4233799
  },
  "Mariannenplatz 2, 10997 Kreuzberg, Berlin": {
   "address": "Mariannenplatz 2, 10997 Kreuzberg",
@@ -4977,6 +5007,7 @@
  "Museum der Trostfrauen, Korea Verband e.V., Quitzowstraße 103, 10551 Berlin": null,
  "Museum des Kapitalismus Köpenicker Str. 172 10997 Berlin Deutschland": null,
  "Museum des Kapitalismus Köpenicker Str. 172 10997, 10997 Berlin": null,
+ "Musik- und Kunstschule Berlin | Atelier der Sinne, Wilmersdorfer Straße 18, 10585, Berlin": null,
  "Musikbrauerei, Greifswalder Straße 23A, 10405, Berlin": null,
  "Musikinstrumenten-Museum, Tiergartenstraße, 10785, Berlin": {
   "address": "Tiergartenstraße 1, 10785 Tiergarten",
@@ -6891,6 +6922,12 @@
  },
  "Spätverkauf L5 Lenaustr. 5 12047 Berlin Deutschland": null,
  "St. Nikolai Kirche, Reformationsplatz 1, 13597, Berlin": null,
+ "Staatsoper Unter den Linden, Unter den Linden 7, 10117, Berlin": {
+  "address": "Unter den Linden 7, 10117 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5167029,
+  "lng": 13.3947383
+ },
  "Stadteilladen Lunte, Weisestraße 53, 12049 Berlin": null,
  "Stadtgut Blankenfelde, Berlin": {
   "address": "Blankenfelde",
@@ -6949,6 +6986,12 @@
   "bezirk": "Pankow",
   "lat": 52.5354437,
   "lng": 13.4532774
+ },
+ "Stralauer Allee 3, 10245 Berlin": {
+  "address": "Stralauer Allee 3, 10245 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5010944,
+  "lng": 13.4508476
  },
  "Strandbad Wendenschloss, Möllhausenufer 30, 12557, Berlin": null,
  "Strausberger Platz Berlin Deutschland": {
@@ -7091,6 +7134,12 @@
   "bezirk": "Lichtenberg",
   "lat": 52.516993,
   "lng": 13.4772031
+ },
+ "Theater im Delphi, Gustav-Adolf-Straße 2, 13086, Berlin": {
+  "address": "Gustav-Adolf-Straße 2, 13086 Weißensee",
+  "bezirk": "Pankow",
+  "lat": 52.5519035,
+  "lng": 13.4311632
  },
  "Thomashöhe Hartungbaum, Berlin": null,
  "Thomashöhe, Hartungbaum, Berlin": null,
@@ -7382,6 +7431,12 @@
   "lat": 52.5171465,
   "lng": 13.3961451
  },
+ "Unterfilm Clubkino, Saarbrücker Str. 23, 10405, Berlin": {
+  "address": "Saarbrücker Straße 23, 10405 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.530577,
+  "lng": 13.4134103
+ },
  "Usedomer Straße 32, 13357 Berlin": {
   "address": "Usedomer Straße 32, 13355 Gesundbrunnen",
   "bezirk": "Mitte",
@@ -7399,6 +7454,8 @@
  },
  "Versammlungsraum im Mehringhof, 1. Etage, Gneisenaustraße 2a 10961 Berlin Deutschland": null,
  "Versammlungsraum in dem Mehringhof Gneisenaustr. 2a 10962 Berlin Deutschland": null,
+ "Verschiedene Orte Berlin": null,
+ "Verschiedene Orte, Berlin": null,
  "Vetomat Wühlischstr. 42 10247 Berlin Deutschland": {
   "address": "Wühlischstraße 42, 10245 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -7705,6 +7762,12 @@
   "bezirk": "Charlottenburg-Wilmersdorf",
   "lat": 52.506155,
   "lng": 13.3066933
+ },
+ "Wilmersdorfer Straße 18, 10585 Berlin": {
+  "address": "Wilmersdorfer Straße 18, 10585 Charlottenburg",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.5153742,
+  "lng": 13.3045443
  },
  "Wiltbergstraße 19-23, 13125 Buch, Berlin": {
   "address": "Wiltbergstraße 19-23, 13125 Buch",
@@ -8037,6 +8100,7 @@
  "near Bethaniendamm berlin berlin Deutschland": null,
  "near Schlesi ask a punk, Berlin": null,
  "near Schlesi, ask a punk, Berlin": null,
+ "nhow Hotel Berlin, Stralauer Allee 3, 10245, Berlin": null,
  "north-east side of the intersection of Wassersportallee and Adlergestell near the Grunau S-Bahn, Berlin": null,
  "null, Berlin": {
   "address": "Grünberger Straße 61, 10245 Friedrichshain",
@@ -8052,6 +8116,12 @@
  },
  "rag über Stadtteilarbeit und Antifaschismus im \"Sozialen Zentrum Aenne Saefkow\", Berlin": null,
  "rk and antifascism at the “Soziales Zentrum Aenne Saefkow”, Berlin": null,
+ "silent green Kulturquartier, Gerichtstraße 35, 13347, Berlin": {
+  "address": "Gerichtstraße 35, 13347 Wedding",
+  "bezirk": "Mitte",
+  "lat": 52.5456853,
+  "lng": 13.36649
+ },
  "street level on the north side of the Bösebrücke entrance to Bornholmer Str. S-Bahn, Berlin": null,
  "tba, Berlin": {
   "address": "Eisenacher Straße, 10777 Schöneberg",

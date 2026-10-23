@@ -716,6 +716,12 @@
  "Ask a punk, Berlin": null,
  "Auf Anfrage Auf Anfrage, Berlin": null,
  "Auf Anfrage, Auf Anfrage, Berlin": null,
+ "Auguste-Viktoria-Allee 99, 13403 Berlin": {
+  "address": "Auguste-Viktoria-Allee 99, 13403 Reinickendorf",
+  "bezirk": "Reinickendorf",
+  "lat": 52.5680144,
+  "lng": 13.3271326
+ },
  "Auguststraße 69, 10117 Berlin": {
   "address": "Auguststraße 69, 10117 Mitte",
   "bezirk": "Mitte",
@@ -826,6 +832,12 @@
   "lng": 13.3274958
  },
  "Badenscher Hof Jazzclub, Badensche Str. 29, 10715, Berlin": null,
+ "Badstraße 41a, 13357 Berlin": {
+  "address": "Badstraße 41a, 13357 Gesundbrunnen",
+  "bezirk": "Mitte",
+  "lat": 52.55339,
+  "lng": 13.3773734
+ },
  "Baergarten Schnellerstraße 137 12439 Berlin Deutschland": null,
  "Baergarten, Berlin": {
   "address": "Schnellerstraße, 12439 Niederschöneweide",
@@ -996,6 +1008,7 @@
  },
  "Berliner Berg Brauerei, Treptower Str. 39, 12059, Berlin": null,
  "Berliner Festspiele, Schaperstraße 24, 10719, Berlin": null,
+ "Berliner Festspiele: Haus der Berliner Festspiele, Schaperstraße 24, 10719, Berlin": null,
  "Berliner Kunstmarkt": null,
  "Berliner MieterGemeinschaft Sonnenallee 101 12045 Berlin Deutschland": {
   "address": "Sonnenallee 101, 12045 Neukölln",
@@ -1266,6 +1279,12 @@
   "lat": 52.5162699,
   "lng": 13.3777034
  },
+ "Brandenburger Tor, Pariser Platz, 10117, Berlin": {
+  "address": "Pariser Platz 1, 10117 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5162699,
+  "lng": 13.3777034
+ },
  "Brauhaus Neulich Selchower Str. 20 12049 Berlin Deutschland": {
   "address": "Selchower Straße 20, 12049 Neukölln",
   "bezirk": "Neukölln",
@@ -1449,6 +1468,7 @@
   "lat": 52.4773354,
   "lng": 13.3578441
  },
+ "Bühne 2 - Theater an der Parkaue, Parkaue 29\nTHEATER AN DER PARKAUE, 10367, Berlin": null,
  "Bülowstr. 39, 10783 Berlin": {
   "address": "Bülowstraße 39, 10783 Schöneberg",
   "bezirk": "Tempelhof-Schöneberg",
@@ -1791,6 +1811,7 @@
   "lng": 13.407066
  },
  "Diverse Veranstaltungsorte Berlin": null,
+ "Diverse Veranstaltungsorte in Marzahn-Hellersdorf, im ganzen Bezirk, 12679, Marzahn-Hellersdorf, Berlin": null,
  "Diverse Veranstaltungsorte, Berlin": null,
  "Don-Ugoletti-Platz 1, 12527 Berlin": {
   "address": "Don-Ugoletti-Platz 1, 12527 Grünau",
@@ -2044,6 +2065,7 @@
   "lat": 52.4968232,
   "lng": 13.4515556
  },
+ "Festzelt der Hauptstadt, Zitadellenweg, 13599, Berlin": null,
  "Ficken 3000 Berlin": null,
  "Ficken 3000, Berlin": null,
  "Filmrauschpalast Lehrter Str. 35 10557 Berlin Deutschland": {
@@ -2129,6 +2151,7 @@
   "lat": 52.4972679,
   "lng": 13.4513962
  },
+ "Fontane Haus Kulturzentrum, Königshorster Straße 6, 13439, Berlin": null,
  "Forckenbeckplatz 1024, 10247 Berlin": null,
  "Forki Forckenbeckplatz 10247 Berlin Deutschland": null,
  "Frachtkante Flughafen Tegel 1 13405 Berlin Deutschland": null,
@@ -2230,6 +2253,12 @@
   "lng": 13.3942449
  },
  "Frizu Lounge, Berlin": null,
+ "Fromet-und-Moses-Mendelssohn-Platz 7, 10969 Berlin": {
+  "address": "Fromet-und-Moses-Mendelssohn-Platz 7, 10969 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5032518,
+  "lng": 13.3940721
+ },
  "Fröbelstraße 17, 10405 Berlin": {
   "address": "Fröbelstraße 17, 10405 Prenzlauer Berg",
   "bezirk": "Pankow",
@@ -2389,6 +2418,12 @@
   "bezirk": "Pankow",
   "lat": 52.5286995,
   "lng": 13.4254805
+ },
+ "Greifswalder Straße 81-84, 10405 Berlin": {
+  "address": "Greifswalder Straße 81-84, 10405 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5409136,
+  "lng": 13.4390617
  },
  "Gretchen (Obentrautstr. 19-21) Obentrautstr. 19-21 (Kreuzberg Berlin Deutschland": null,
  "Gretchen, Berlin": {
@@ -3051,6 +3086,12 @@
   "lng": 13.4983885
  },
  "Interkulturelles Haus - Theater unterm Dach, Schönfließer Straße 7, 10439, Berlin": null,
+ "Invalidenstr. 117, 10115 Berlin": {
+  "address": "Invalidenstraße 117, 10115 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5302814,
+  "lng": 13.385162
+ },
  "Invalidenstraße 129, 10115 Berlin": {
   "address": "Invalidenstraße 129, 10115 Mitte",
   "bezirk": "Mitte",
@@ -3106,6 +3147,7 @@
   "lat": 52.4993004,
   "lng": 13.3960373
  },
+ "Jazzclub Kunstfabrik Schlot, Invalidenstr. 117, 10115, Berlin": null,
  "Jebensstraße 2, 10623 Berlin": {
   "address": "Jebensstraße 2, 10623 Charlottenburg",
   "bezirk": "Charlottenburg-Wilmersdorf",
@@ -3576,6 +3618,7 @@
   "lat": 52.4979656,
   "lng": 13.4661487
  },
+ "Kino in der KulturBrauerei Berlin, Schönhauser Allee 36, 10435, Berlin": null,
  "Kinzigstr. 9, 10247 Berlin": {
   "address": "Kinzigstraße 9, 10247 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -3910,6 +3953,12 @@
   "lat": 52.459421,
   "lng": 13.289041
  },
+ "Königshorster Straße 6, 13439 Berlin": {
+  "address": "Königshorster Straße 6, 13439 Märkisches Viertel",
+  "bezirk": "Reinickendorf",
+  "lat": 52.597608,
+  "lng": 13.3520921
+ },
  "Königskolonnaden im Heinrich von Kleist-Park, Berlin": null,
  "Königstraße 42-43, 14163 Zehlendorf, Berlin": {
   "address": "Königstraße 42-43, 14163 Zehlendorf",
@@ -4216,6 +4265,12 @@
   "lat": 52.4728086,
   "lng": 13.4245118
  },
+ "Leipziger Str. 16, 10117 Berlin": {
+  "address": "Leipziger Straße 16, 10117 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5099308,
+  "lng": 13.3872552
+ },
  "Leipziger Straße 60, 10117 Mitte, Berlin": {
   "address": "Leipziger Straße 60, 10117 Mitte",
   "bezirk": "Mitte",
@@ -4476,6 +4531,12 @@
   "lat": 52.5408872,
   "lng": 13.359604
  },
+ "Lüdickeweg 1, 14089 Berlin": {
+  "address": "Lüdickeweg 1, 14089 Kladow",
+  "bezirk": "Spandau",
+  "lat": 52.4445732,
+  "lng": 13.1306758
+ },
  "Lützowplatz 17, 10785 Berlin": {
   "address": "Lützowplatz 17, 10785 Tiergarten",
   "bezirk": "Mitte",
@@ -4574,6 +4635,7 @@
  "Majal Sonnenallee 127 Berlin Deutschland": null,
  "Majal, Sonnenallee 127, 12059 Berlin": null,
  "Manifest Bücher & Café, Graefestraße 14, 10967 Berlin": null,
+ "Manifesto Potsdamer Platz, Alte Potsdamer Straße 7, 10785, Berlin": null,
  "Mansteinstr. 10, 10783 Berlin": {
   "address": "Mansteinstraße 10, 10783 Schöneberg",
   "bezirk": "Tempelhof-Schöneberg",
@@ -5007,6 +5069,7 @@
  "Museum der Trostfrauen, Korea Verband e.V., Quitzowstraße 103, 10551 Berlin": null,
  "Museum des Kapitalismus Köpenicker Str. 172 10997 Berlin Deutschland": null,
  "Museum des Kapitalismus Köpenicker Str. 172 10997, 10997 Berlin": null,
+ "Museum für Kommunikation Berlin, Leipziger Str. 16, 10117, Berlin": null,
  "Musik- und Kunstschule Berlin | Atelier der Sinne, Wilmersdorfer Straße 18, 10585, Berlin": null,
  "Musikbrauerei, Greifswalder Straße 23A, 10405, Berlin": null,
  "Musikinstrumenten-Museum, Tiergartenstraße, 10785, Berlin": {
@@ -5185,6 +5248,7 @@
   "lat": 52.5105125,
   "lng": 13.4445032
  },
+ "NochMall - DAS GEBRAUCHTWARENKAUFHAUS DER BSR, Auguste-Viktoria-Allee 99, 13403, Berlin": null,
  "Nollendorfpl., 10777 Berlin": {
   "address": "Nollendorfplatz, 10777 Schöneberg",
   "bezirk": "Tempelhof-Schöneberg",
@@ -5625,6 +5689,7 @@
   "lat": 52.5270872,
   "lng": 13.3879283
  },
+ "Philharmonie, Großer Saal, Herbert-von-Karajan-Straße 1, 10785, Berlin": null,
  "Pichelswerder Straße 6, 13597 Berlin": {
   "address": "Pichelswerderstraße 6, 13597 Spandau",
   "bezirk": "Spandau",
@@ -5708,6 +5773,12 @@
   "lat": 52.5066158,
   "lng": 13.3671577
  },
+ "Potsdamer Straße 7, 10785 Berlin": {
+  "address": "Potsdamer Straße 7, 10785 Tiergarten",
+  "bezirk": "Mitte",
+  "lat": 52.5089241,
+  "lng": 13.3726176
+ },
  "Potse (Zollgarage) Deutschland, Berlin": null,
  "Potse (Zollgarage), Berlin": null,
  "Potse Zollgarage, Columbiadamm 10, 12101 Berlin": null,
@@ -5746,6 +5817,12 @@
  },
  "Prinzenallee 58, Hinterhof Prinzenallee 58 13359 Berlin Deutschland": null,
  "Prinzenallee 58, Vorderhaus 13359 Berlin": null,
+ "Prinzenstr. 85 F, 10969 Berlin": {
+  "address": "Prinzenstraße 85F, 10969 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5030903,
+  "lng": 13.4092838
+ },
  "Prinzessinnengarten Neukölln Hermannstraße 99-105 12051 Berlin Deutschland": null,
  "Prinzessinnengarten Neukölln Hermannstraße 99-105, 12051 Berlin": null,
  "Prinzessinnenstraße 30, 10969 Berlin": null,
@@ -6420,6 +6497,7 @@
   "lat": 52.5128122,
   "lng": 13.4641154
  },
+ "Schaubude Berlin, Greifswalder Straße 81-84\nEcke Storkower Straße, 10405, Berlin": null,
  "Schaubühne am Lehniner Platz, Berlin": {
   "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
   "bezirk": "Charlottenburg-Wilmersdorf",
@@ -6690,6 +6768,12 @@
   "lat": 52.5359511,
   "lng": 13.4126884
  },
+ "Schönhauser Allee 36, 10435 Berlin": {
+  "address": "Schönhauser Allee 36, 10435 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5399039,
+  "lng": 13.4136365
+ },
  "Schönhauser Allee 44b, 10435 Berlin": {
   "address": "Schönhauser Allee 44b, 10435 Prenzlauer Berg",
   "bezirk": "Pankow",
@@ -6814,6 +6898,7 @@
   "lat": 52.5003909,
   "lng": 13.4221612
  },
+ "Sommercafé im Landhausgarten Dr. Max Fraenkel, Lüdickeweg 1, 14089, Berlin": null,
  "Sonnenallee 100, 12045 Berlin": {
   "address": "Sonnenallee 100, 12045 Neukölln",
   "bezirk": "Neukölln",
@@ -7059,6 +7144,7 @@
   "lat": 52.4584916,
   "lng": 13.4843006
  },
+ "TAK - Theater Aufbau Kreuzberg, Prinzenstr. 85 F\nim Aufbau Haus am Moritzplatz, 10969, Berlin": null,
  "TBA - Chausseestraße 131, BERLIN, Berlin": null,
  "TBA - Info durch Veranstalter*in, Berlin": null,
  "TBA - Storkower Str. 123, 10407 Berlin, Germany, Berlin": null,
@@ -7107,6 +7193,12 @@
   "lng": 13.4026007
  },
  "Tempelhofer Feld, Neuköllner Seite, Haus 104 Tempelhofer Feld, Neuköllner Seite, Haus 104 Tempelhofer Damm Berlin Deutschland": null,
+ "Tempodrom, Möckernstraße 10, 10963, Berlin": {
+  "address": "Möckernstraße 10, 10963 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5016063,
+  "lng": 13.3811909
+ },
  "Tennis Bar Reuter Str. 95 Berlin Deutschland": null,
  "Tennis Bar Reuterstraße 95, 12053 Berlin": null,
  "The Castle, The Castle, Berlin Mitte, Invalidenstraße 129, 10115 Berlin": null,
@@ -7416,6 +7508,7 @@
   "lat": 52.5519575,
   "lng": 13.3749883
  },
+ "Uferstudios: Uferstudio 4, Badstraße 41a, 13357, Berlin": null,
  "Under the raised train line, on the south side of Konnopke's Imbiss Schönhauser Allee 44b, Berlin": null,
  "Ungarische Botschaft, Unter den Linden 76, 10117 Berlin": null,
  "Universitätsstr. 3b, 10117 Berlin": {
@@ -7980,6 +8073,18 @@
   "lat": 52.5346475,
   "lng": 13.4037357
  },
+ "Zitadelle Spandau, Am Juliusturm 64, 13599, Berlin": {
+  "address": "Am Juliusturm 64, 13599 Haselhorst",
+  "bezirk": "Spandau",
+  "lat": 52.5410344,
+  "lng": 13.2127443
+ },
+ "Zitadellenweg 1359, 13599 Berlin": {
+  "address": "Zitadellenweg, 13599 Haselhorst",
+  "bezirk": "Spandau",
+  "lat": 52.5389461,
+  "lng": 13.2164486
+ },
  "Zorrow Grüntalerstr.38 13359 Berlin Deutschland": null,
  "Zorrow Hinterhof, Grüntaler Straße 38, 13359 Berlin": null,
  "Zuckerzauber Markgrafendamm 24 (am Ostkreuz) Berlin Deutschland": null,
@@ -8059,11 +8164,14 @@
   "lat": 52.5060698,
   "lng": 13.3305818
  },
+ "e_0000000833-loc_bbfest Berlin": null,
+ "e_0000000833-loc_bbfest, Berlin": null,
  "ehem. Syndikat Weisestr. 56 12049 Berlin Deutschland": null,
  "es die Möglichkeit zum Austausch und zur Vernetzung gibt, Berlin": null,
  "f.a.q. Jonasstr. 40 12053 Berlin Deutschland": null,
  "f.a.q. Jonasstr. 40 12053, 12053 Berlin": null,
  "f.a.q., Jonasstraße 40, 12053 Berlin": null,
+ "feldfünf - Projektraum im Metropolenhaus, Fromet-und-Moses-Mendelssohn-Platz 7–8, 10969, Berlin": null,
  "filmArche Lahnstraße 25 12055 Berlin - Neukölln Deutschland": {
   "address": "Lahnstraße 25, 12055 Neukölln",
   "bezirk": "Neukölln",

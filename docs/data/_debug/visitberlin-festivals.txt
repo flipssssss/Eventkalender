@@ -1,5 +1,33 @@
-Liste: https://www.visitberlin.de/de/veranstaltungskalender-berlin?cat%5B0%5D=9312&cat%5B1%5D=9782&keys=&date_between%5Bmin%5D=&date_between%5Bmax%5D=&district=All&items_per_page=21&page=1
-Event-Links: 20 | Events: 20
+Liste: https://www.visitberlin.de/de/veranstaltungskalender-berlin?cat%5B0%5D=9312&cat%5B1%5D=9782&keys=&date_between%5Bmin%5D=&date_between%5Bmax%5D=&district=All&items_per_page=21
+Event-Links: 78 | Events: 78
+
+Seiten:
+  page=0: 14 Links, 14 neu
+  page=1: 20 Links, 20 neu
+  page=2: 21 Links, 21 neu
+  page=3: 21 Links, 21 neu
+  page=4: 2 Links, 2 neu
+  page=5: 0 Links, 0 neu
+
+Zeitraum der Starts: 2024-11-29 20:00:00 … 2027-09-16 00:00:00
+
+  2024-11-29 20:00:00 → 2026-11-28 20:00:00 | Bühne 2 - Theater an der Parkaue, Parkaue 29
+THEATER AN DER PARKAUE, 10367, Berlin | Patchwork on stage
+  2025-05-07 14:49:20 → 2027-05-23 22:00:00 | Berliner Festspiele: Haus der Berliner Festspiele, Schaperstraße 24, 10719, Berlin | Berliner Theatertreffen 2027
+  2026-09-18 17:00:00 → 2026-10-24 17:00:00 | Festzelt der Hauptstadt, Zitadellenweg, 13599, Berlin | Spandauer Oktoberfest
+  2026-10-02 00:00:00 → None | Verschiedene Orte, Berlin | Monat der zeitgenössischen Musik 2026
+  2026-10-11 16:00:00 → 2026-11-06 20:00:00 | Diverse Veranstaltungsorte in Marzahn-Hellersdorf, im ganzen Bezirk, 12679, Marzahn-Hellersdorf | Lese-Festival
+  2026-10-12 11:00:00 → 2026-11-17 11:00:00 | Fontane Haus Kulturzentrum, Königshorster Straße 6, 13439, Berlin | Festwoche im Fontane-Haus: 50-jähriges Jubiläum
+  2026-10-15 11:00:00 → 2026-10-31 22:00:00 | feldfünf - Projektraum im Metropolenhaus, Fromet-und-Moses-Mendelssohn-Platz 7–8, 10969, Berlin | Hidden Processes
+  2026-10-19 21:30:00 → 2026-10-25 20:00:00 | Verschiedene Orte, Berlin | 21. Pornfilmfestival Berlin
+  2026-10-23 17:30:00 → 2026-10-25 17:30:00 | Verschiedene Orte, Berlin | Atalanta Komponistinnen-Festival
+  2026-10-24 12:00:00 → 2026-10-25 20:00:00 | Manifesto Potsdamer Platz, Alte Potsdamer Straße 7, 10785, Berlin | Tattoo Festival
+  2026-10-25 12:00:00 → 2026-10-25 18:00:00 | Sommercafé im Landhausgarten Dr. Max Fraenkel, Lüdickeweg 1, 14089, Berlin | Herbstfest
+  2026-10-29 00:00:00 → None | verschiedene Veranstaltungsorte, Berlin | Jazzfest Berlin 2026
+  2026-10-30 10:00:00 → 2026-11-05 10:00:00 | Verschiedene Orte, Berlin | Theater der Dinge 2026
+  2026-10-30 15:00:00 → None | Uferstudios: Uferstudio 4, Badstraße 41a, 13357, Berlin | Shaping Reflections #1
+  2026-10-31 11:00:00 → None | Museum für Kommunikation Berlin, Leipziger Str. 16, 10117, Berlin | Yee-haw. 80 Jahre Lucky Luke
+  2026-10-31 15:00:00 → None | Uferstudios: Uferstudio 4, Badstraße 41a, 13357, Berlin | Shaping Reflections #2
   2026-11-01 09:00:00 → 2026-11-10 23:00:00 | Verschiedene Orte, Berlin | BERLIN SCIENCE WEEK 2026
   2026-11-04 10:00:00 → 2026-11-04 23:00:00 | nhow Hotel Berlin, Stralauer Allee 3, 10245, Berlin | Listen to Berlin: Youth - Festival
   2026-11-05 17:00:00 → 2026-11-08 17:00:00 | verschiedene Veranstaltungsorte, Berlin | Litauisches Kino goes Berlin
@@ -20,3 +48,48 @@ Event-Links: 20 | Events: 20
   2026-11-13 23:30:00 → None | Unterfilm Clubkino, Saarbrücker Str. 23, 10405, Berlin | INTERFILM42: Film Burn - The Friday Party
   2026-11-14 11:00:00 → 2026-11-15 11:00:00 | Hamburger Bahnhof - Museum für Gegenwart Berlin, Invalidenstraße 50-51, 10557, Berlin | 30 Jahre, 30 Stunden
   2026-11-15 00:00:00 → None | Hamburger Bahnhof - Museum für Gegenwart Berlin, Invalidenstraße 50-51, 10557, Berlin | 30 Stunden Hamburger Bahnhof (Teil 2)
+  2026-11-18 12:00:00 → 2026-11-24 12:00:00 | Kino in der KulturBrauerei Berlin, Schönhauser Allee 36, 10435, Berlin | 26. Filmfest FrauenWelten
+  2026-11-19 20:30:00 → 2026-11-19 23:59:00 | Jazzclub Kunstfabrik Schlot, Invalidenstr. 117, 10115, Berlin | rejazz-festival #7 – DAY 1
+  2026-11-19 20:30:00 → 2026-11-21 23:59:00 | Jazzclub Kunstfabrik Schlot, Invalidenstr. 117, 10115, Berlin | rejazz-festival #7
+  2026-11-20 17:00:00 → 2026-11-22 20:00:00 | Verschiedene Orte, Berlin | 1. GREEK THEATER FESTIVAL BERLIN
+  2026-11-20 19:30:00 → 2026-11-22 11:00:00 | silent green Kulturquartier, Gerichtstraße 35, 13347, Berlin | Philosophie-Festival Philo.live!
+  2026-11-20 20:30:00 → 2026-11-20 23:59:00 | Jazzclub Kunstfabrik Schlot, Invalidenstr. 117, 10115, Berlin | rejazz-festival #7 – DAY 2
+  2026-11-21 11:00:00 → 2026-11-21 18:00:00 | NochMall - DAS GEBRAUCHTWARENKAUFHAUS DER BSR, Auguste-Viktoria-Allee 99, 13403, Berlin | Zero Waste Future Festival
+  2026-11-21 16:00:00 → None | TAK - Theater Aufbau Kreuzberg, Prinzenstr. 85 F
+im Aufbau Haus am Moritzplatz, 10969, Berlin | Liebe Waschmaschine / Αγαπημένο μου πλυντήριο
+  2026-11-21 20:30:00 → 2026-11-21 23:59:00 | Jazzclub Kunstfabrik Schlot, Invalidenstr. 117, 10115, Berlin | rejazz-festival #7 – DAY 3
+  2026-11-22 18:00:00 → None | TAK - Theater Aufbau Kreuzberg, Prinzenstr. 85 F
+im Aufbau Haus am Moritzplatz, 10969, Berlin | Hotel Éternité
+  2026-11-25 01:00:00 → 2026-11-30 01:00:00 | verschiedene Veranstaltungsorte, Berlin | Treffen junge Musikszene
+  2026-11-25 01:00:00 → 2026-11-30 01:00:00 | verschiedene Veranstaltungsorte, Berlin | Treffen junger Autor*innen
+  2026-11-26 18:00:00 → 2026-11-29 18:00:00 | verschiedene Veranstaltungsorte, Berlin | BERLINER FESTIVAL ALTER MUSIK 2026
+  2026-12-07 20:00:00 → None | Philharmonie, Großer Saal, Herbert-von-Karajan-Straße 1, 10785, Berlin | ZeitenKlänge Musikfestival
+  2026-12-15 12:00:00 → 2026-12-21 12:00:00 | Verschiedene Orte, Berlin | Der KURZFILMTAG 2026
+  2026-12-31 20:00:00 → None | Brandenburger Tor, Pariser Platz, 10117, Berlin | Silvester am Brandenburger Tor 2026
+  2027-01-16 01:00:00 → 2027-01-24 01:00:00 | e_0000000833-loc_bbfest, Berlin | PURPLE 2027
+  2027-01-22 18:00:00 → 2027-01-31 18:00:00 | Verschiedene Orte, Berlin | CTM Festival 2027
+  2027-01-26 12:00:00 → 2027-01-31 12:00:00 | Verschiedene Orte, Berlin | transmediale RFC 40
+  2027-02-04 10:00:00 → 2027-02-07 10:00:00 | Schaubude Berlin, Greifswalder Straße 81-84
+Ecke Storkower Straße, 10405, Berlin | »Puls & Peilung«
+  2027-02-10 00:00:00 → None | verschiedene Veranstaltungsorte, Berlin | Berlinale 2027
+  2027-02-19 19:00:00 → None | Tempodrom, Möckernstraße 10, 10963, Berlin | Dominguinho 2 - João Gomes, Jota.Pê, Mestrinho | Berlin
+  2027-02-19 19:00:00 → None | Zitadelle Spandau, Am Juliusturm 64, 13599, Berlin | SPAM 2027 - Eröffnungskonzert - Armato il cor
+  2027-02-25 11:00:00 → 2027-03-07 11:00:00 | Diverse Veranstaltungsorte/ miscellaneous venues in Berlin | eat! Berlin 2027
+  2027-03-04 10:00:00 → 2027-04-04 10:00:00 | Diverse Veranstaltungsorte, Berlin | EMOP Berlin
+  2027-03-12 08:00:00 → 2027-03-21 08:00:00 | Haus der Berliner Festspiele, Schaperstraße 24, 10719, Berlin | MaerzMusik 2027
+  2027-03-27 20:30:00 → None | Verschiedene Orte, Berlin | Earth Hour
+  2027-04-22 10:00:00 → 2027-04-27 10:00:00 | verschiedene Veranstaltungsorte, Berlin | Berlin Design Week 2027
+  2027-04-24 12:00:00 → 2027-04-25 12:00:00 | Diverse Veranstaltungsorte, Berlin | Access All Areas
+  2027-05-02 11:00:00 → None | Kammermusiksaal, Herbert-von-Karajan-Straße 1, 10785, Berlin | ZeitenKlänge Musikfestival. “Chopin plus”
+  2027-06-04 19:00:00 → 2027-09-12 10:00:00 | Verschiedene Orte, Berlin | Berlin Biennale für zeitgenössische Kunst 2027
+  2027-06-19 16:00:00 → 2027-06-20 16:00:00 | Verschiedene Orte, Berlin | Lange Nacht der Wissenschaften
+  2027-06-21 16:00:00 → 2027-06-21 23:00:00 | Verschiedene Orte, Berlin | Fête de la Musique
+  2027-07-07 19:30:00 → 2027-07-11 19:30:00 | Gendarmenmarkt, Gendarmenmarkt, 10117, Berlin | Classic Open Air 2027 am Gendarmenmarkt
+  2027-07-10 14:00:00 → 2028-07-08 14:00:00 | Straße des 17. Juni, Straße des 17. Juni, 10785, Berlin | Rave The Planet
+  2027-07-17 11:00:00 → 2027-07-18 11:00:00 | Olympiastadion - Maifeld, Olympischer Platz 3, 14053, Berlin | Lollapalooza 2027
+  2027-07-22 18:30:00 → None | tba, Berlin | CSD AUF DER SPREE©
+  2027-07-23 16:00:00 → 2027-08-08 16:00:00 | Konzerthaus Berlin, Gendarmenmarkt, 10117, Berlin | Young Euro Classic 2027
+  2027-07-24 12:00:00 → None | Leipziger Straße/Ecke Spittelmarkt, 10117, Berlin | Christopher Street Day 2027
+  2027-08-23 00:00:00 → None | Verschiedene Orte, Berlin | Pop-Kultur 2027
+  2027-09-08 00:00:00 → None | verschiedene Veranstaltungsorte, Berlin | Berlin Art Week 2027
+  2027-09-16 00:00:00 → None | Haus der Berliner Festspiele u.a., Schaperstraße 24, 10719, Berlin | ilb – internationales literaturfestival berlin 2027

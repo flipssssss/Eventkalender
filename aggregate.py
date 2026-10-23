@@ -83,6 +83,17 @@ HORIZON_DAYS = 14
 # source, and -- for sparse sources (< SPARSE_MIN events in the default
 # window) -- SPARSE_HORIZON. Sparse sources stay small even when extended, so
 # the load barely changes; dense categories add more, by design.
+# Kategorie, die eine Quelle für ALLE ihre Events erzwingt -- unabhängig
+# davon, was categorize() aus den Rohkategorien machen würde.
+#
+# Festivals gibt es nur aus dieser einen Quelle. Über Stichwörter wäre es
+# nicht sauber zu trennen: Siegessäule schickt Titel und Kategorien als einen
+# String durch categorize(), und dann würde "Pornfilmfestival: Only Good
+# Things" (eine einzelne Vorstellung, also Kino) zum Festival.
+FORCE_CATEGORY = {
+    "visitBerlin Festivals": "Festival",
+}
+
 SOURCE_HORIZON = {
     "FunFacts": 90,
     # Festivals werden Monate im Voraus angekündigt. Der Wert steht hier und
@@ -277,6 +288,7 @@ def filter_and_sort(events: list[Event]) -> list[Event]:
         primary = categorize(event.tags)
         if primary is None:
             continue
+        primary = FORCE_CATEGORY.get(event.source_name, primary)
         event.tags = [primary]
         # Compare naively to avoid tz-aware/naive mix-ups.
         start_naive = event.start.replace(tzinfo=None)

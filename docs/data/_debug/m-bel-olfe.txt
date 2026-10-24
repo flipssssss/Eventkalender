@@ -1,30 +1,5 @@
-event-blocks: 12 | Events: 12
+event-blocks: 11 | Events: 11
 
-<div class="event-block">
- <!-- Zeile 1: Datum + Titel -->
- <div class="event-row-1">
-  <div class="event-time">
-   Samstag, 24. Okt. 21:00
-  </div>
-  <div class="event-title">
-   WENDY &amp; BULLY
-  </div>
- </div>
- <!-- Zeile 2: Bild + Beschreibung -->
- <div class="event-row-2">
-  <div class="event-image">
-   <img alt="" src="ProgrammFotos/WENDY_BULLY_2026_10_24.jpg"/>
-  </div>
-  <div class="event-description">
-   Bully and Wendy lead you through a world of their personal vinyl collection, through all its peaks, quirks and mysteries.
-
-Expect old favs, new loves and deep cuts. Vinyl only!
-  </div>
- </div>
-</div>
-
-
-----
 <div class="event-block">
  <!-- Zeile 1: Datum + Titel -->
  <div class="event-row-1">
@@ -86,6 +61,29 @@ Expect old favs, new loves and deep cuts. Vinyl only!
   </div>
   <div class="event-description">
    Jim Avignon &amp; Julius Nerdinger
+  </div>
+ </div>
+</div>
+
+
+----
+<div class="event-block">
+ <!-- Zeile 1: Datum + Titel -->
+ <div class="event-row-1">
+  <div class="event-time">
+   Samstag, 31. Okt. 21:00
+  </div>
+  <div class="event-title">
+   HALLOWEEN :::: es spielen auf: JIM AVIGNON &amp; JULIUS NERDINGER
+  </div>
+ </div>
+ <!-- Zeile 2: Bild + Beschreibung -->
+ <div class="event-row-2">
+  <div class="event-image">
+   <img alt="" src="ProgrammFotos/HALLOWEEN_es_spielen_auf_JIM_AVIGNON_JULIUS_NERDIN_2026_10_31.jpg"/>
+  </div>
+  <div class="event-description">
+   Spooky vinyls!
   </div>
  </div>
 </div>

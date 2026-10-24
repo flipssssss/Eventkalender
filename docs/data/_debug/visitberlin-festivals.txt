@@ -1,5 +1,5 @@
 Liste: https://www.visitberlin.de/de/veranstaltungskalender-berlin?cat%5B0%5D=9312&cat%5B1%5D=9782&keys=&date_between%5Bmin%5D=&date_between%5Bmax%5D=&district=All&items_per_page=21
-Event-Links: 78 | Events: 78
+Event-Links: 78 | Events: 77
 
 Seiten:
   page=0: 14 Links, 14 neu
@@ -14,12 +14,11 @@ Zeitraum der Starts: 2024-11-29 20:00:00 … 2027-09-16 00:00:00
   2024-11-29 20:00:00 → 2026-11-28 20:00:00 | Bühne 2 - Theater an der Parkaue, Parkaue 29
 THEATER AN DER PARKAUE, 10367, Berlin | Patchwork on stage
   2025-05-07 14:49:20 → 2027-05-23 22:00:00 | Berliner Festspiele: Haus der Berliner Festspiele, Schaperstraße 24, 10719, Berlin | Berliner Theatertreffen 2027
-  2026-09-18 17:00:00 → 2026-10-24 17:00:00 | Festzelt der Hauptstadt, Zitadellenweg, 13599, Berlin | Spandauer Oktoberfest
   2026-10-02 00:00:00 → None | Verschiedene Orte, Berlin | Monat der zeitgenössischen Musik 2026
-  2026-10-11 16:00:00 → 2026-11-06 20:00:00 | Diverse Veranstaltungsorte in Marzahn-Hellersdorf, im ganzen Bezirk, 12679, Marzahn-Hellersdorf | Lese-Festival
-  2026-10-12 11:00:00 → 2026-11-17 11:00:00 | Fontane Haus Kulturzentrum, Königshorster Straße 6, 13439, Berlin | Festwoche im Fontane-Haus: 50-jähriges Jubiläum
   2026-10-15 11:00:00 → 2026-10-31 22:00:00 | feldfünf - Projektraum im Metropolenhaus, Fromet-und-Moses-Mendelssohn-Platz 7–8, 10969, Berlin | Hidden Processes
   2026-10-19 21:30:00 → 2026-10-25 20:00:00 | Verschiedene Orte, Berlin | 21. Pornfilmfestival Berlin
+  2026-10-23 11:00:00 → 2026-11-17 11:00:00 | Fontane Haus Kulturzentrum, Königshorster Straße 6, 13439, Berlin | Festwoche im Fontane-Haus: 50-jähriges Jubiläum
+  2026-10-23 16:00:00 → 2026-11-06 20:00:00 | Diverse Veranstaltungsorte in Marzahn-Hellersdorf, im ganzen Bezirk, 12679, Marzahn-Hellersdorf | Lese-Festival
   2026-10-23 17:30:00 → 2026-10-25 17:30:00 | Verschiedene Orte, Berlin | Atalanta Komponistinnen-Festival
   2026-10-24 12:00:00 → 2026-10-25 20:00:00 | Manifesto Potsdamer Platz, Alte Potsdamer Straße 7, 10785, Berlin | Tattoo Festival
   2026-10-25 12:00:00 → 2026-10-25 18:00:00 | Sommercafé im Landhausgarten Dr. Max Fraenkel, Lüdickeweg 1, 14089, Berlin | Herbstfest
@@ -30,6 +29,7 @@ THEATER AN DER PARKAUE, 10367, Berlin | Patchwork on stage
   2026-10-31 15:00:00 → None | Uferstudios: Uferstudio 4, Badstraße 41a, 13357, Berlin | Shaping Reflections #2
   2026-11-01 09:00:00 → 2026-11-10 23:00:00 | Verschiedene Orte, Berlin | BERLIN SCIENCE WEEK 2026
   2026-11-04 10:00:00 → 2026-11-04 23:00:00 | nhow Hotel Berlin, Stralauer Allee 3, 10245, Berlin | Listen to Berlin: Youth - Festival
+  2026-11-05 10:00:00 → 2026-11-22 10:00:00 | verschiedene Religionsgemeinschaften, Berlin | 37. BERLINER MÄRCHENTAGE
   2026-11-05 17:00:00 → 2026-11-08 17:00:00 | verschiedene Veranstaltungsorte, Berlin | Litauisches Kino goes Berlin
   2026-11-06 11:00:00 → 2026-11-10 11:00:00 | MAGICUM - Berlin Magic Museum, Große Hamburger Straße 17, 10115, Berlin | Diwali im MAGICUM
   2026-11-06 12:00:00 → 2026-11-15 23:00:00 | Kunstraum Kreuzberg/Bethanien, Mariannenplatz 2, 10997, Berlin | Klangwerkstatt Berlin 2026
@@ -45,12 +45,11 @@ THEATER AN DER PARKAUE, 10367, Berlin | Patchwork on stage
   2026-11-12 12:00:00 → 2026-11-22 12:00:00 | Verschiedene Orte, Berlin | 39. Jüdische Kulturtage Berlin 2026
   2026-11-12 19:00:00 → 2026-11-14 22:00:00 | Brotfabrik, Caligariplatz 1, 13086, Berlin | UNDER BERLIN FILM FESTIVAL 2026
   2026-11-13 10:00:00 → 2026-11-14 10:00:00 | Verschiedene Orte, Berlin | Bauhaus Music 2026. Ich fühle Luft von anderem Planeten
-  2026-11-13 23:30:00 → None | Unterfilm Clubkino, Saarbrücker Str. 23, 10405, Berlin | INTERFILM42: Film Burn - The Friday Party
   2026-11-14 11:00:00 → 2026-11-15 11:00:00 | Hamburger Bahnhof - Museum für Gegenwart Berlin, Invalidenstraße 50-51, 10557, Berlin | 30 Jahre, 30 Stunden
   2026-11-15 00:00:00 → None | Hamburger Bahnhof - Museum für Gegenwart Berlin, Invalidenstraße 50-51, 10557, Berlin | 30 Stunden Hamburger Bahnhof (Teil 2)
   2026-11-18 12:00:00 → 2026-11-24 12:00:00 | Kino in der KulturBrauerei Berlin, Schönhauser Allee 36, 10435, Berlin | 26. Filmfest FrauenWelten
-  2026-11-19 20:30:00 → 2026-11-19 23:59:00 | Jazzclub Kunstfabrik Schlot, Invalidenstr. 117, 10115, Berlin | rejazz-festival #7 – DAY 1
   2026-11-19 20:30:00 → 2026-11-21 23:59:00 | Jazzclub Kunstfabrik Schlot, Invalidenstr. 117, 10115, Berlin | rejazz-festival #7
+  2026-11-19 20:30:00 → 2026-11-19 23:59:00 | Jazzclub Kunstfabrik Schlot, Invalidenstr. 117, 10115, Berlin | rejazz-festival #7 – DAY 1
   2026-11-20 17:00:00 → 2026-11-22 20:00:00 | Verschiedene Orte, Berlin | 1. GREEK THEATER FESTIVAL BERLIN
   2026-11-20 19:30:00 → 2026-11-22 11:00:00 | silent green Kulturquartier, Gerichtstraße 35, 13347, Berlin | Philosophie-Festival Philo.live!
   2026-11-20 20:30:00 → 2026-11-20 23:59:00 | Jazzclub Kunstfabrik Schlot, Invalidenstr. 117, 10115, Berlin | rejazz-festival #7 – DAY 2

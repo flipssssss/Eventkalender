@@ -120,6 +120,12 @@
   "lat": 52.4762368,
   "lng": 13.422639
  },
+ "12053 Berlin": {
+  "address": "12053 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4770984,
+  "lng": 13.4324541
+ },
  "12101 Berlin": {
   "address": "12101 Tempelhof",
   "bezirk": "Tempelhof-Schöneberg",
@@ -961,6 +967,7 @@
   "lng": 13.3951309
  },
  "Berlin - Anmeldung erforderlich!": null,
+ "Berlin - Anmeldung erforderlich! Ticket Anmeldung: https://www. eventbrite.com/e/gaza-tribunal -berlin-2026-tickets-2002862084410 Link zum Livestream: wird im Vorfeld der Veranstaltung auf unserer Website bekanntgegeben": null,
  "Berlin Berlin": {
   "address": "Tauentzienstraße, 10789 Charlottenburg",
   "bezirk": "Charlottenburg-Wilmersdorf",
@@ -1291,6 +1298,7 @@
   "lat": 52.4784374,
   "lng": 13.419898
  },
+ "Braustube des Berlin Global Village Am Sudhaus 2 12053 Berlin Deutschland": null,
  "Brebacher Weg 15, 12683 Berlin": {
   "address": "Brebacher Weg 15, 12683 Biesdorf",
   "bezirk": "Marzahn-Hellersdorf",
@@ -1355,6 +1363,12 @@
   "lng": 13.400486
  },
  "Brunnenstr. 7, Berlin": {
+  "address": "Brunnenstraße 7, 10119 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5308688,
+  "lng": 13.400486
+ },
+ "Brunnenstraße 7, 10119 Berlin": {
   "address": "Brunnenstraße 7, 10119 Mitte",
   "bezirk": "Mitte",
   "lat": 52.5308688,
@@ -1456,6 +1470,13 @@
   "lng": 13.3794579
  },
  "Bödickerstraße 9, 10245 Berlin": null,
+ "Böhmische Str. 46, 12055 Berlin": {
+  "address": "Böhmische Straße 46, 12055 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4737981,
+  "lng": 13.4490605
+ },
+ "Böhmische Str. 46, 12055 Berlin-Neuköln": null,
  "Börnestraße 1308, 13086 Berlin": {
   "address": "Börnestraße, 13086 Weißensee",
   "bezirk": "Pankow",
@@ -1639,6 +1660,12 @@
   "lng": 13.3864664
  },
  "Checkpoint Charlie, Friedrichstraße 43-45, 10117 Berlin": null,
+ "Choriner Straße 10, 10119 Berlin": {
+  "address": "Choriner Straße 10, 10119 Prenzlauer Berg",
+  "bezirk": "Mitte",
+  "lat": 52.5327745,
+  "lng": 13.4069122
+ },
  "Christinenstraße 18, 10119 Berlin": {
   "address": "Christinenstraße 18, 10119 Prenzlauer Berg",
   "bezirk": "Pankow",
@@ -2276,6 +2303,7 @@
  "Gambino’s by AMANO, Berlin": null,
  "Garten Markgrafendamm 24c, 10245 Berlin": null,
  "Gecekondu, Admiralstraße 1-2, 10999 Berlin": null,
+ "Gemeinsame, Berlin": null,
  "Gemeinschaftsgarten Prachttomate Bornsdorfer Str. 9-11 12053 Berlin Deutschland": null,
  "Gemäldegalerie, Berlin": {
   "address": "Stauffenbergstraße, 10785 Tiergarten",
@@ -5724,6 +5752,12 @@
   "lat": 52.5186753,
   "lng": 13.3731249
  },
+ "Platz des 18. März 10117 Berlin Deutschland": {
+  "address": "Platz des 18. März, 10117 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5163704,
+  "lng": 13.3772972
+ },
  "Platz des 18. März, 10117 Berlin": {
   "address": "Platz des 18. März, 10117 Mitte",
   "bezirk": "Mitte",
@@ -6848,6 +6882,12 @@
   "lat": 52.499358,
   "lng": 13.4242518
  },
+ "Skalitzer Straße 134 10999 Berlin": {
+  "address": "Skalitzer Straße 134, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.499273,
+  "lng": 13.4192421
+ },
  "Skalitzer Straße 134, 10999 Kreuzberg, Berlin": {
   "address": "Skalitzer Straße 134, 10999 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -7100,6 +7140,7 @@
  "Street fair location, Fuggerstraße / Welserstraße, Berlin, 10777, Germany": null,
  "Studio Börne, Börnestraße, 13086 Berlin, Deutschland, Börnestraße, 13086, Berlin": null,
  "Subversiv Brunnenstr. 7 HH 10119 Berlin Deutschland": null,
+ "Subversiv, Brunnenstraße 7, 10119 Berlin": null,
  "Supamolly Jessnerstr. 41 10247 Berlin Deutschland": {
   "address": "Jessnerstraße 41, 10247 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -7844,6 +7885,12 @@
   "lat": 52.5042082,
   "lng": 13.3853499
  },
+ "Willy-Brandt-Haus, Berlin": {
+  "address": "Stresemannstraße, 10963 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5004524,
+  "lng": 13.3873125
+ },
  "Willy-Brandt-Straße 1, 10557 Berlin": {
   "address": "Willy-Brandt-Straße 1, 10557 Tiergarten",
   "bezirk": "Mitte",
@@ -8243,6 +8290,8 @@
   "lat": 52.504619,
   "lng": 13.3219604
  },
+ "verschiedene Religionsgemeinschaften Berlin": null,
+ "verschiedene Religionsgemeinschaften, Berlin": null,
  "verschiedene Veranstaltungsorte Berlin": null,
  "verschiedene Veranstaltungsorte, Berlin": null,
  "vor der Oppelner Straße 45 Oppelner Straße 45 10997 Berlin Deutschland": null,

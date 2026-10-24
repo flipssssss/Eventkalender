@@ -1,14 +1,7 @@
-API-Events: 85 | übernommen: 85
-  2026-10-23 16:45:00 | None | Queer Tours for All! - Radical Prenzlauer Berg
-  2026-10-23 19:00:00 | Punk | Fluten (Indie-Punk/Post-HC, HH) + Bumanbuman (Solo-Punk, Bln)
-  2026-10-23 19:00:00 | None | RECORD RELEASE: MARGOT ERKNER + KPT. Plasto
-  2026-10-23 19:00:00 | Punk | LIIEK + INESSA ANXIOUS
-  2026-10-23 19:30:00 | Punk | SILENTWAYS - VORA - FESSA
-  2026-10-23 19:30:00 | Punk | NARKOSE + SCHIMMEL ÜBER BERLIN + SEXVERBOT
-  2026-10-23 20:00:00 | None | WAIFISH RELEASE PARTY
+API-Events: 82 | übernommen: 82
   2026-10-24 14:00:00 | Punk | SOBER X FEST - Hardcore/Punk/Powerviolence
-  2026-10-24 18:00:00 | Metal | Doomed Metropolis Berlin II
   2026-10-24 18:00:00 | Punk | SoliMosh - Berlin Hardcore
+  2026-10-24 18:00:00 | Metal | Doomed Metropolis Berlin II
   2026-10-24 19:00:00 | Metal | BANK MYNA - DEULE - SARRAM
   2026-10-24 19:00:00 | None | THE BLACK CAT'S EYE + HIGHEST PRIMZAHL ON MARS
   2026-10-24 20:00:00 | Punk | DAMNATION + SZNYT + EVÖL DEAD + CADAVRA
@@ -20,12 +13,19 @@ API-Events: 85 | übernommen: 85
   2026-10-27 17:45:00 | None | Queer Tours for All - Queer Kreuzberg
   2026-10-27 19:00:00 | None | Wolves in the Throne Room - Knights of Tiamat European Tour 2026 | Berlin
   2026-10-28 18:30:00 | None | Bleeding Heart Nihilist Books - Magazinreleaselesung
-  2026-10-28 19:00:00 | Punk | ✹DEAFKIDS(br)✹KOMBI(br)✹ live at neue zukunft
-  2026-10-28 19:00:00 | Punk | FCKSCHTZL (punk rock, Berlin) for free @ Wild at Heart
   2026-10-28 19:00:00 | Soul/Funk | PLAKA (psych world funk, porto) & SATURNO 4000 (psych garage funk, bln)
+  2026-10-28 19:00:00 | Punk | FCKSCHTZL (punk rock, Berlin) for free @ Wild at Heart
+  2026-10-28 19:00:00 | Punk | ✹DEAFKIDS(br)✹KOMBI(br)✹ live at neue zukunft
   2026-10-29 19:00:00 | Punk | CF98 (pop-punk, PL) + Treibgut (garage, punk, BLN) im Schokoladen (#berlinpunk)
+  2026-10-29 19:00:00 | Punk | XINILA + SCARVES AND FIRE
   2026-10-29 20:00:00 | Punk | South Sardinian Scum + Slander Tongue
   2026-10-30 10:45:00 | None | Queer Tours for All - KZ Sachsenhausen
   2026-10-30 19:00:00 | Punk | zeug [dronepunk/Berlin] x vold [stoner doom/Berlin]
   2026-10-30 19:00:00 | None | Boris “PINK” 20th Anniversary Tour
   2026-10-31 10:45:00 | None | Queer Tours for All! - Plänterwald
+  2026-10-31 15:30:00 | Metal | 100000 Tonnen Kruppstahl  + ryr + War + Deibel
+  2026-10-31 18:00:00 | Punk | GHOUL FEST VOL. 3
+  2026-10-31 18:30:00 | Punk | Folkpunk night ☆Strings for Solidarity☆
+  2026-10-31 19:30:00 | Punk | SEEIN RED + MÖRSER + RYTES
+  2026-10-31 20:00:00 | Punk | TENSE REACTION + SLAN + EARTH CRUST DISPLACEMENT
+  2026-10-31 20:00:00 | None | JUKEBOX BABY HALLOWEEN PARTY

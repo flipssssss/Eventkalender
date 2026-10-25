@@ -2201,6 +2201,12 @@
   "lat": 52.5123101,
   "lng": 13.4908099
  },
+ "Frankfurter Tor 5, 10243 Berlin": {
+  "address": "Frankfurter Tor 5, 10243 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5163589,
+  "lng": 13.4547718
+ },
  "Frankfurter Tor Frankfurter Tor 10243 Berlin Deutschland": {
   "address": "Frankfurter Tor 1, 10243 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -2770,6 +2776,7 @@
  },
  "Haus der Kulturen der Welt, John-Forster-Dulles-Allee 10, 10557, Berlin": null,
  "Haus der Statistik, Otto-Braun-Straße 70-72, 10178 Berlin": null,
+ "Haus des Rundfunks, Masurenallee 8-14, 14057, Berlin": null,
  "Hausprojekt Burge Burgemeisterstraße 17 12103 Berlin Deutschland": {
   "address": "Burgemeisterstraße 17-18, 12103 Tempelhof",
   "bezirk": "Tempelhof-Schöneberg",
@@ -4864,6 +4871,12 @@
   "lat": 52.5519644,
   "lng": 13.358201
  },
+ "Masurenallee 8-14, 14057 Berlin": {
+  "address": "Masurenallee 8-14, 14057 Westend",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.5079418,
+  "lng": 13.2766281
+ },
  "Matthäikirchplatz, 10785 Berlin": {
   "address": "Matthäikirchplatz, 10785 Tiergarten",
   "bezirk": "Mitte",
@@ -5628,6 +5641,13 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5111669,
   "lng": 13.4430356
+ },
+ "Pappelallee 43 (klingel bei „Gemeinschaftsraum“), 10437 Berlin": null,
+ "Pappelallee 43, 10437 Berlin": {
+  "address": "Pappelallee 43, 10437 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5474101,
+  "lng": 13.4194838
  },
  "Paretzer Straße 7, 10713 Berlin": {
   "address": "Paretzer Straße 7, 10713 Wilmersdorf",
@@ -8294,6 +8314,7 @@
  "verschiedene Religionsgemeinschaften, Berlin": null,
  "verschiedene Veranstaltungsorte Berlin": null,
  "verschiedene Veranstaltungsorte, Berlin": null,
+ "vor dem Gebäude Frankfurter Tor 5 Frankfurter Tor 5 10243 Berlin Deutschland": null,
  "vor der Oppelner Straße 45 Oppelner Straße 45 10997 Berlin Deutschland": null,
  "workish.berlin Harzer Str. 39 12059 Berlin Deutschland": null
 }

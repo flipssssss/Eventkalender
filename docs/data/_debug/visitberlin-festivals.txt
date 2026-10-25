@@ -1,13 +1,12 @@
 Liste: https://www.visitberlin.de/de/veranstaltungskalender-berlin?cat%5B0%5D=9312&cat%5B1%5D=9782&keys=&date_between%5Bmin%5D=&date_between%5Bmax%5D=&district=All&items_per_page=21
-Event-Links: 78 | Events: 77
+Event-Links: 77 | Events: 75
 
 Seiten:
   page=0: 14 Links, 14 neu
-  page=1: 20 Links, 20 neu
+  page=1: 21 Links, 21 neu
   page=2: 21 Links, 21 neu
   page=3: 21 Links, 21 neu
-  page=4: 2 Links, 2 neu
-  page=5: 0 Links, 0 neu
+  page=4: 0 Links, 0 neu
 
 Zeitraum der Starts: 2024-11-29 20:00:00 … 2027-09-16 00:00:00
 
@@ -17,11 +16,9 @@ THEATER AN DER PARKAUE, 10367, Berlin | Patchwork on stage
   2026-10-02 00:00:00 → None | Verschiedene Orte, Berlin | Monat der zeitgenössischen Musik 2026
   2026-10-15 11:00:00 → 2026-10-31 22:00:00 | feldfünf - Projektraum im Metropolenhaus, Fromet-und-Moses-Mendelssohn-Platz 7–8, 10969, Berlin | Hidden Processes
   2026-10-19 21:30:00 → 2026-10-25 20:00:00 | Verschiedene Orte, Berlin | 21. Pornfilmfestival Berlin
-  2026-10-23 11:00:00 → 2026-11-17 11:00:00 | Fontane Haus Kulturzentrum, Königshorster Straße 6, 13439, Berlin | Festwoche im Fontane-Haus: 50-jähriges Jubiläum
-  2026-10-23 16:00:00 → 2026-11-06 20:00:00 | Diverse Veranstaltungsorte in Marzahn-Hellersdorf, im ganzen Bezirk, 12679, Marzahn-Hellersdorf | Lese-Festival
-  2026-10-23 17:30:00 → 2026-10-25 17:30:00 | Verschiedene Orte, Berlin | Atalanta Komponistinnen-Festival
+  2026-10-24 11:00:00 → 2026-11-17 11:00:00 | Fontane Haus Kulturzentrum, Königshorster Straße 6, 13439, Berlin | Festwoche im Fontane-Haus: 50-jähriges Jubiläum
   2026-10-24 12:00:00 → 2026-10-25 20:00:00 | Manifesto Potsdamer Platz, Alte Potsdamer Straße 7, 10785, Berlin | Tattoo Festival
-  2026-10-25 12:00:00 → 2026-10-25 18:00:00 | Sommercafé im Landhausgarten Dr. Max Fraenkel, Lüdickeweg 1, 14089, Berlin | Herbstfest
+  2026-10-24 16:00:00 → 2026-11-06 20:00:00 | Diverse Veranstaltungsorte in Marzahn-Hellersdorf, im ganzen Bezirk, 12679, Marzahn-Hellersdorf | Lese-Festival
   2026-10-29 00:00:00 → None | verschiedene Veranstaltungsorte, Berlin | Jazzfest Berlin 2026
   2026-10-30 10:00:00 → 2026-11-05 10:00:00 | Verschiedene Orte, Berlin | Theater der Dinge 2026
   2026-10-30 15:00:00 → None | Uferstudios: Uferstudio 4, Badstraße 41a, 13357, Berlin | Shaping Reflections #1

@@ -20,7 +20,11 @@ import re
 from typing import Iterable
 from urllib.parse import urljoin
 
-from .base import BaseScraper, Event
+import datetime as _dt
+
+from bs4 import BeautifulSoup
+
+from .base import BaseScraper, Event, GERMAN_MONTHS
 from .jsonld import extract_events_from_html
 
 BASE = "https://www.visitberlin.de"
@@ -53,6 +57,122 @@ BROWSER = {
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
     "Accept-Language": "de-DE,de;q=0.9,en;q=0.8",
 }
+
+
+# --------------------------------------------------------------------------
+# Unzuverlässige Startdaten im JSON-LD
+#
+# visitBerlin liefert bei manchen Einträgen als "startDate" einen
+# Zeitstempel aus dem Redaktionssystem statt des Festivalbeginns. Beispiel:
+# "Berliner Theatertreffen 2027" mit startDate 2025-05-07T14:49:20 und
+# endDate 2027-05-23 -- das Festival galt damit zwei Jahre lang als
+# "laufend" und stand jeden Tag im Feed, beginnt aber erst am 06.05.2027.
+#
+# Erkennungsmerkmale, beide objektiv:
+#   * Sekunden ungleich 0 -- geplante Anfangszeiten sind nie sekundengenau,
+#     Zeitstempel eines CMS fast immer. Unter 71 Festivals traf das genau
+#     dieses eine.
+#   * Der Titel nennt ein späteres Jahr als der Start ("... 2027", Start
+#     2025), bei langer Spanne.
+#
+# Bewusst KEINE pauschale Längengrenze: die Berlin Biennale läuft wirklich
+# rund drei Monate und würde dabei fälschlich mitgetroffen.
+# --------------------------------------------------------------------------
+
+_YEAR_RE = re.compile(r"\b(20\d\d)\b")
+_MONTH_ALT = "|".join(sorted(GERMAN_MONTHS, key=len, reverse=True))
+# "06.05.2027 – 23.05.2027", "06.05. – 23.05.2027", "6.5.-23.5.2027"
+_NUM_RANGE = re.compile(
+    r"(\d{1,2})\.(\d{1,2})\.(\d{2,4})?\s*(?:–|-|—|bis)\s*"
+    r"(\d{1,2})\.(\d{1,2})\.(\d{2,4})")
+# "6. Mai – 23. Mai 2027", "6. Mai 2027 – 23. Mai 2027", "6.–23. Mai 2027"
+_WORD_RANGE = re.compile(
+    r"(\d{1,2})\.\s*(?:(" + _MONTH_ALT + r")\.?\s*(\d{4})?)?\s*(?:–|-|—|bis)\s*"
+    r"(\d{1,2})\.\s*(" + _MONTH_ALT + r")\.?\s*(\d{4})", re.IGNORECASE)
+
+
+def start_untrustworthy(ev: Event) -> bool:
+    """True, wenn das Startdatum aus dem JSON-LD erkennbar kein Festivalbeginn ist."""
+    if not ev.start:
+        return False
+    if ev.start.second != 0:
+        return True
+    years = [int(y) for y in _YEAR_RE.findall(ev.title or "")]
+    if years and ev.end and ev.start.year < max(years) \
+            and (ev.end - ev.start).days > 60:
+        return True
+    return False
+
+
+def _year(y: str | None, default: int) -> int:
+    if not y:
+        return default
+    y = int(y)
+    return y + 2000 if y < 100 else y
+
+
+def start_from_page(html: str, end: _dt.datetime | None) -> _dt.datetime | None:
+    """Beginn aus dem sichtbaren Zeitraum der Seite.
+
+    Akzeptiert wird NUR ein Zeitraum, dessen Ende auf den Tag mit dem
+    bekannten endDate übereinstimmt. Eine Detailseite enthält viele Daten
+    (Navigation, verwandte Termine, "aktualisiert am") -- ohne diesen Anker
+    würde leicht das falsche gegriffen.
+    """
+    if not end:
+        return None
+    text = BeautifulSoup(html, "html.parser").get_text(" ", strip=True)
+    target = end.date()
+    found: list[_dt.date] = []
+
+    for m in _NUM_RANGE.finditer(text):
+        try:
+            e = _dt.date(_year(m.group(6), target.year), int(m.group(5)), int(m.group(4)))
+            if e != target:
+                continue
+            sy = _year(m.group(3), e.year)
+            s = _dt.date(sy, int(m.group(2)), int(m.group(1)))
+            if s > e and not m.group(3):          # Jahreswechsel: 28.12.–03.01.
+                s = s.replace(year=s.year - 1)
+            found.append(s)
+        except ValueError:
+            continue
+
+    for m in _WORD_RANGE.finditer(text):
+        try:
+            e_month = GERMAN_MONTHS[m.group(5).lower().rstrip(".")]
+            e = _dt.date(int(m.group(6)), e_month, int(m.group(4)))
+            if e != target:
+                continue
+            s_month = (GERMAN_MONTHS[m.group(2).lower().rstrip(".")]
+                       if m.group(2) else e_month)
+            s = _dt.date(_year(m.group(3), e.year), s_month, int(m.group(1)))
+            if s > e and not m.group(3):
+                s = s.replace(year=s.year - 1)
+            found.append(s)
+        except (ValueError, KeyError):
+            continue
+
+    # Plausibel: vor dem Ende, und kein Monate langer Zeitraum.
+    found = [s for s in found if s <= target and (target - s).days <= 120]
+    if not found:
+        return None
+    start = max(found)              # engster passender Zeitraum
+    return _dt.datetime(start.year, start.month, start.day)
+
+
+def date_snippets(html: str, limit: int = 12) -> list[str]:
+    """Datumsähnliche Textstellen der Seite -- für die Diagnose."""
+    text = BeautifulSoup(html, "html.parser").get_text(" ", strip=True)
+    out = []
+    for m in re.finditer(r".{0,40}\b\d{1,2}\.\s*(?:\d{1,2}\.|" + _MONTH_ALT
+                         + r")[^|]{0,40}", text, re.IGNORECASE):
+        snip = re.sub(r"\s+", " ", m.group(0)).strip()
+        if snip not in out:
+            out.append(snip)
+        if len(out) >= limit:
+            break
+    return out
 
 
 class VisitBerlinJazzScraper(BaseScraper):
@@ -123,6 +243,8 @@ class VisitBerlinJazzScraper(BaseScraper):
             return []
         paths = all_paths[:self.max_events]
         events: list[Event] = []
+        corrected: list[str] = []
+        dropped: list[tuple] = []
         seen: set[str] = set()
         for path in paths:
             url = urljoin(BASE, path)
@@ -133,6 +255,20 @@ class VisitBerlinJazzScraper(BaseScraper):
             for ev in extract_events_from_html(dhtml, url, self.name):
                 ev.tags = [self.category]
                 ev.source_url = url
+                if start_untrustworthy(ev):
+                    bad_start = ev.start
+                    fixed = start_from_page(dhtml, ev.end)
+                    if fixed:
+                        ev.start = fixed
+                        ev.time_known = False   # der Seitentext nennt nur Tage
+                        corrected.append(f"  {ev.title}: {bad_start} -> {fixed.date()}"
+                                         f" (bis {ev.end.date()})")
+                    else:
+                        # Lieber gar kein Eintrag als einer, der monatelang
+                        # fälschlich als "laufend" im Feed steht.
+                        dropped.append((ev.title, bad_start, ev.end,
+                                        date_snippets(dhtml)))
+                        continue
                 key = url + "|" + (ev.start.isoformat() if ev.start else "")
                 if key in seen:
                     continue
@@ -141,6 +277,16 @@ class VisitBerlinJazzScraper(BaseScraper):
         lines = [f"Liste: {self.listing}",
                  f"Event-Links: {len(paths)} | Events: {len(events)}",
                  "", "Seiten:", *[f"  {l}" for l in page_log], ""]
+        if corrected:
+            lines += ["Startdatum aus dem Seitentext korrigiert "
+                      "(JSON-LD-Start war ein Zeitstempel):", *corrected, ""]
+        if dropped:
+            lines.append("VERWORFEN -- Start unzuverlässig, kein passender "
+                         "Zeitraum im Seitentext gefunden:")
+            for title, bad, end, snips in dropped:
+                lines.append(f"  {title}: JSON-LD {bad} -> {end}")
+                lines += [f"      Seitentext: {sn}" for sn in snips]
+            lines.append("")
         if events:
             starts = sorted(e.start for e in events if e.start)
             lines.append(f"Zeitraum der Starts: {starts[0]} … {starts[-1]}")

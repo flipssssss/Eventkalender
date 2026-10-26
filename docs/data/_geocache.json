@@ -584,6 +584,12 @@
   "lat": 52.5208844,
   "lng": 13.3946306
  },
+ "Am Schweizer Garten 82, 10407 Berlin, Germany": {
+  "address": "Am Schweizer Garten 82, 10407 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5305358,
+  "lng": 13.4286861
+ },
  "Am Sudhaus 3, 12053 Berlin": {
   "address": "Am Sudhaus 3, 12053 Neukölln",
   "bezirk": "Neukölln",
@@ -1323,6 +1329,12 @@
   "lat": 52.5704885,
   "lng": 13.4064617
  },
+ "Breite Str. 31, 13187 Berlin": {
+  "address": "Breite Straße 31A, 13187 Pankow",
+  "bezirk": "Pankow",
+  "lat": 52.5692836,
+  "lng": 13.4054111
+ },
  "Breite Straße 11, 14943 Berlin": {
   "address": "Breite Straße 11, 14199 Schmargendorf",
   "bezirk": "Charlottenburg-Wilmersdorf",
@@ -2041,6 +2053,7 @@
   "lat": 52.499513,
   "lng": 13.4427102
  },
+ "Fargo Berlin, Grünberger Straße 77, 10245 Berlin": null,
  "Fargo Grünberger Straße 77 Berlin Deutschland": {
   "address": "Grünberger Straße 77, 10245 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -2521,6 +2534,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5114812,
   "lng": 13.459589
+ },
+ "Grünberger Straße 77, 10245 Berlin": {
+  "address": "Grünberger Straße 77, 10245 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5113257,
+  "lng": 13.4601557
  },
  "Grünberger Straße 77, 10245 Friedrichshain, Berlin": {
   "address": "Grünberger Straße 77, 10245 Friedrichshain",

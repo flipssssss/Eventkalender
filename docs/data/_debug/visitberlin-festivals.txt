@@ -1,23 +1,23 @@
 Liste: https://www.visitberlin.de/de/veranstaltungskalender-berlin?cat%5B0%5D=9312&cat%5B1%5D=9782&keys=&date_between%5Bmin%5D=&date_between%5Bmax%5D=&district=All&items_per_page=21
-Event-Links: 77 | Events: 75
+Event-Links: 74 | Events: 74
 
 Seiten:
   page=0: 14 Links, 14 neu
   page=1: 21 Links, 21 neu
   page=2: 21 Links, 21 neu
-  page=3: 21 Links, 21 neu
+  page=3: 18 Links, 18 neu
   page=4: 0 Links, 0 neu
+
+Startdatum aus dem Seitentext korrigiert (JSON-LD-Start war ein Zeitstempel):
+  Berliner Theatertreffen 2027: 2025-05-07 14:49:20 -> 2027-05-06 (bis 2027-05-23)
 
 Zeitraum der Starts: 2024-11-29 20:00:00 … 2027-09-16 00:00:00
 
   2024-11-29 20:00:00 → 2026-11-28 20:00:00 | Bühne 2 - Theater an der Parkaue, Parkaue 29
 THEATER AN DER PARKAUE, 10367, Berlin | Patchwork on stage
-  2025-05-07 14:49:20 → 2027-05-23 22:00:00 | Berliner Festspiele: Haus der Berliner Festspiele, Schaperstraße 24, 10719, Berlin | Berliner Theatertreffen 2027
   2026-10-02 00:00:00 → None | Verschiedene Orte, Berlin | Monat der zeitgenössischen Musik 2026
   2026-10-15 11:00:00 → 2026-10-31 22:00:00 | feldfünf - Projektraum im Metropolenhaus, Fromet-und-Moses-Mendelssohn-Platz 7–8, 10969, Berlin | Hidden Processes
-  2026-10-19 21:30:00 → 2026-10-25 20:00:00 | Verschiedene Orte, Berlin | 21. Pornfilmfestival Berlin
   2026-10-24 11:00:00 → 2026-11-17 11:00:00 | Fontane Haus Kulturzentrum, Königshorster Straße 6, 13439, Berlin | Festwoche im Fontane-Haus: 50-jähriges Jubiläum
-  2026-10-24 12:00:00 → 2026-10-25 20:00:00 | Manifesto Potsdamer Platz, Alte Potsdamer Straße 7, 10785, Berlin | Tattoo Festival
   2026-10-24 16:00:00 → 2026-11-06 20:00:00 | Diverse Veranstaltungsorte in Marzahn-Hellersdorf, im ganzen Bezirk, 12679, Marzahn-Hellersdorf | Lese-Festival
   2026-10-29 00:00:00 → None | verschiedene Veranstaltungsorte, Berlin | Jazzfest Berlin 2026
   2026-10-30 10:00:00 → 2026-11-05 10:00:00 | Verschiedene Orte, Berlin | Theater der Dinge 2026
@@ -42,6 +42,7 @@ THEATER AN DER PARKAUE, 10367, Berlin | Patchwork on stage
   2026-11-12 12:00:00 → 2026-11-22 12:00:00 | Verschiedene Orte, Berlin | 39. Jüdische Kulturtage Berlin 2026
   2026-11-12 19:00:00 → 2026-11-14 22:00:00 | Brotfabrik, Caligariplatz 1, 13086, Berlin | UNDER BERLIN FILM FESTIVAL 2026
   2026-11-13 10:00:00 → 2026-11-14 10:00:00 | Verschiedene Orte, Berlin | Bauhaus Music 2026. Ich fühle Luft von anderem Planeten
+  2026-11-13 23:30:00 → None | Unterfilm Clubkino, Saarbrücker Str. 23, 10405, Berlin | INTERFILM42: Film Burn - The Friday Party
   2026-11-14 11:00:00 → 2026-11-15 11:00:00 | Hamburger Bahnhof - Museum für Gegenwart Berlin, Invalidenstraße 50-51, 10557, Berlin | 30 Jahre, 30 Stunden
   2026-11-15 00:00:00 → None | Hamburger Bahnhof - Museum für Gegenwart Berlin, Invalidenstraße 50-51, 10557, Berlin | 30 Stunden Hamburger Bahnhof (Teil 2)
   2026-11-18 12:00:00 → 2026-11-24 12:00:00 | Kino in der KulturBrauerei Berlin, Schönhauser Allee 36, 10435, Berlin | 26. Filmfest FrauenWelten
@@ -77,6 +78,7 @@ Ecke Storkower Straße, 10405, Berlin | »Puls & Peilung«
   2027-04-22 10:00:00 → 2027-04-27 10:00:00 | verschiedene Veranstaltungsorte, Berlin | Berlin Design Week 2027
   2027-04-24 12:00:00 → 2027-04-25 12:00:00 | Diverse Veranstaltungsorte, Berlin | Access All Areas
   2027-05-02 11:00:00 → None | Kammermusiksaal, Herbert-von-Karajan-Straße 1, 10785, Berlin | ZeitenKlänge Musikfestival. “Chopin plus”
+  2027-05-06 00:00:00 → 2027-05-23 22:00:00 | Berliner Festspiele: Haus der Berliner Festspiele, Schaperstraße 24, 10719, Berlin | Berliner Theatertreffen 2027
   2027-06-04 19:00:00 → 2027-09-12 10:00:00 | Verschiedene Orte, Berlin | Berlin Biennale für zeitgenössische Kunst 2027
   2027-06-19 16:00:00 → 2027-06-20 16:00:00 | Verschiedene Orte, Berlin | Lange Nacht der Wissenschaften
   2027-06-21 16:00:00 → 2027-06-21 23:00:00 | Verschiedene Orte, Berlin | Fête de la Musique

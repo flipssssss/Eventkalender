@@ -1,11 +1,11 @@
 Liste: https://www.visitberlin.de/de/veranstaltungskalender-berlin?cat%5B0%5D=9312&cat%5B1%5D=9782&keys=&date_between%5Bmin%5D=&date_between%5Bmax%5D=&district=All&items_per_page=21
-Event-Links: 74 | Events: 74
+Event-Links: 76 | Events: 76
 
 Seiten:
   page=0: 14 Links, 14 neu
   page=1: 21 Links, 21 neu
   page=2: 21 Links, 21 neu
-  page=3: 18 Links, 18 neu
+  page=3: 20 Links, 20 neu
   page=4: 0 Links, 0 neu
 
 Startdatum aus dem Seitentext korrigiert (JSON-LD-Start war ein Zeitstempel):
@@ -22,6 +22,7 @@ THEATER AN DER PARKAUE, 10367, Berlin | Patchwork on stage
   2026-10-29 00:00:00 → None | verschiedene Veranstaltungsorte, Berlin | Jazzfest Berlin 2026
   2026-10-30 10:00:00 → 2026-11-05 10:00:00 | Verschiedene Orte, Berlin | Theater der Dinge 2026
   2026-10-30 15:00:00 → None | Uferstudios: Uferstudio 4, Badstraße 41a, 13357, Berlin | Shaping Reflections #1
+  2026-10-30 17:00:00 → None | TACO & GRINGO, Rosenthaler Straße 63-64, 10119 Berlin, Deutschland, Rosenthaler Straße 63-64, 10119, Berlin | El Día de los Muertos 2026
   2026-10-31 11:00:00 → None | Museum für Kommunikation Berlin, Leipziger Str. 16, 10117, Berlin | Yee-haw. 80 Jahre Lucky Luke
   2026-10-31 15:00:00 → None | Uferstudios: Uferstudio 4, Badstraße 41a, 13357, Berlin | Shaping Reflections #2
   2026-11-01 09:00:00 → 2026-11-10 23:00:00 | Verschiedene Orte, Berlin | BERLIN SCIENCE WEEK 2026
@@ -30,7 +31,7 @@ THEATER AN DER PARKAUE, 10367, Berlin | Patchwork on stage
   2026-11-05 17:00:00 → 2026-11-08 17:00:00 | verschiedene Veranstaltungsorte, Berlin | Litauisches Kino goes Berlin
   2026-11-06 11:00:00 → 2026-11-10 11:00:00 | MAGICUM - Berlin Magic Museum, Große Hamburger Straße 17, 10115, Berlin | Diwali im MAGICUM
   2026-11-06 12:00:00 → 2026-11-15 23:00:00 | Kunstraum Kreuzberg/Bethanien, Mariannenplatz 2, 10997, Berlin | Klangwerkstatt Berlin 2026
-  2026-11-07 00:00:00 → None | Verschiedene Orte, Berlin | Berlin Freedom Week
+  2026-11-07 08:00:00 → 2026-11-14 08:00:00 | Verschiedene Orte, Berlin | Berlin Freedom Week
   2026-11-07 11:00:00 → 2026-11-08 19:00:00 | silent green Kulturquartier, Gerichtstraße 35, 13347, Berlin | BERLIN TEA FESTIVAL 2026
   2026-11-07 12:00:00 → None | Jules B-Part am Gleisdreieck Park, Luckenwalder Str. 6b, 10963, Berlin | Diwali in Berlin 2026 - Fifth Edition | Grand Cultural Celebration
   2026-11-07 20:00:00 → 2026-11-25 19:30:00 | Staatsoper Unter den Linden, Unter den Linden 7, 10117, Berlin | Barocktage 2026
@@ -42,6 +43,7 @@ THEATER AN DER PARKAUE, 10367, Berlin | Patchwork on stage
   2026-11-12 12:00:00 → 2026-11-22 12:00:00 | Verschiedene Orte, Berlin | 39. Jüdische Kulturtage Berlin 2026
   2026-11-12 19:00:00 → 2026-11-14 22:00:00 | Brotfabrik, Caligariplatz 1, 13086, Berlin | UNDER BERLIN FILM FESTIVAL 2026
   2026-11-13 10:00:00 → 2026-11-14 10:00:00 | Verschiedene Orte, Berlin | Bauhaus Music 2026. Ich fühle Luft von anderem Planeten
+  2026-11-13 14:30:00 → 2026-11-15 08:00:00 | Verschiedene Orte, Berlin | LOOPTOPIA
   2026-11-13 23:30:00 → None | Unterfilm Clubkino, Saarbrücker Str. 23, 10405, Berlin | INTERFILM42: Film Burn - The Friday Party
   2026-11-14 11:00:00 → 2026-11-15 11:00:00 | Hamburger Bahnhof - Museum für Gegenwart Berlin, Invalidenstraße 50-51, 10557, Berlin | 30 Jahre, 30 Stunden
   2026-11-15 00:00:00 → None | Hamburger Bahnhof - Museum für Gegenwart Berlin, Invalidenstraße 50-51, 10557, Berlin | 30 Stunden Hamburger Bahnhof (Teil 2)

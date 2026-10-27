@@ -1457,6 +1457,12 @@
   "lng": 13.3796659
  },
  "Busche Club, Berlin": null,
+ "Bussardsteig 9, 14195 Berlin": {
+  "address": "Bussardsteig 9, 14195 Dahlem",
+  "bezirk": "Steglitz-Zehlendorf",
+  "lat": 52.4669327,
+  "lng": 13.2747539
+ },
  "Butcherei Lindinger, Motzstraße 18, 10777 Berlin": {
   "address": "Motzstraße 18, 10777 Schöneberg",
   "bezirk": "Tempelhof-Schöneberg",
@@ -1554,6 +1560,7 @@
   "lat": 52.4692685,
   "lng": 13.4324824
  },
+ "Café Freiraum an der ASH (das Café befindet sich rechts neben dem Haupteingang), Alice- Salomon-Platz 5, 12627 Berlin": null,
  "Café Freiraum an der ASH, Alice-Salomon-Platz 5, 12627 Berlin": null,
  "Café Freiraum, Alice-Salomon-Platz 5, 12627 Berlin": null,
  "Café Herman Schulz Kollektiv, Finowstraße 33, Friedrichshain 10247 Berlin Deutschland": null,
@@ -2767,6 +2774,7 @@
   "lng": 13.3572868
  },
  "Haus der Berliner Festspiele - Großer Saal, Schaperstr. 24, 10719, Berlin": null,
+ "Haus der Berliner Festspiele, Seitenbühne, Schaperstraße 24, 10719, Berlin": null,
  "Haus der Demokratie und Menschenrechte Greifswalder Str. 4 10405 Berlin Deutschland": {
   "address": "Greifswalder Straße 4, 10405 Prenzlauer Berg",
   "bezirk": "Pankow",
@@ -4864,6 +4872,7 @@
   "lat": 52.5024767,
   "lng": 13.466302
  },
+ "Marokkanische Botschaft, Niederwallstr. 39 10117 Berlin Deutschland": null,
  "Martha Bethaniendamm Berlin": null,
  "Martha Bethaniendamm Berlin Deutschland": null,
  "Martha-Ndumbe-Platz, 13347 Berlin": {
@@ -5201,6 +5210,7 @@
   "lat": 52.4904772,
   "lng": 13.4314849
  },
+ "Naturfreundejugend Berlin Weichselstr. 14 12045 Berlin Deutschland": null,
  "Naunynstr. 60, 10997 Berlin": {
   "address": "Naunynstraße, 10997 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -5289,6 +5299,12 @@
   "bezirk": "Mitte",
   "lat": 52.5066209,
   "lng": 13.3819472
+ },
+ "Niederwallstr. 39, 10117 Berlin": {
+  "address": "Niederwallstraße 39, 10117 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5130539,
+  "lng": 13.3977882
  },
  "Niemetzstr. 24, 12055 Berlin-Neukölln": {
   "address": "Niemetzstraße 24, 12055 Neukölln",
@@ -6325,6 +6341,12 @@
   "lat": 52.5244928,
   "lng": 13.4019195
  },
+ "Rosenthaler Straße 63-64, 10119 Berlin": {
+  "address": "Rosenthaler Straße 63/64, 10119 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5280823,
+  "lng": 13.4029506
+ },
  "Rosenthalerstraße 39, 10178 Berlin": {
   "address": "Rosenthaler Straße 39, 10178 Mitte",
   "bezirk": "Mitte",
@@ -6514,6 +6536,12 @@
   "bezirk": "Tempelhof-Schöneberg",
   "lat": 52.4773354,
   "lng": 13.3578441
+ },
+ "Salomon-Platz 5, 12627 Berlin": {
+  "address": "Alice-Salomon-Platz 5, 12627 Hellersdorf",
+  "bezirk": "Marzahn-Hellersdorf",
+  "lat": 52.5371991,
+  "lng": 13.6060882
  },
  "Salon Franz Mehring Platz 1 10243 Berlin Deutschland": null,
  "Sama32 Samariterstr. 32 10247 Berlin Deutschland": {
@@ -7224,6 +7252,7 @@
   "lat": 52.4584916,
   "lng": 13.4843006
  },
+ "TACO & GRINGO, Rosenthaler Straße 63-64, 10119 Berlin, Deutschland, Rosenthaler Straße 63-64, 10119, Berlin": null,
  "TAK - Theater Aufbau Kreuzberg, Prinzenstr. 85 F\nim Aufbau Haus am Moritzplatz, 10969, Berlin": null,
  "TBA - Chausseestraße 131, BERLIN, Berlin": null,
  "TBA - Info durch Veranstalter*in, Berlin": null,
@@ -7764,6 +7793,12 @@
   "bezirk": "Mitte",
   "lat": 52.548949,
   "lng": 13.3481653
+ },
+ "Weichselstr. 14, 12045 Berlin": {
+  "address": "Weichselstraße 14, 12045 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4854451,
+  "lng": 13.4346789
  },
  "Weinsbergweg 13, 10119 Berlin": null,
  "Weisestr. 53, 12049 Berlin": {

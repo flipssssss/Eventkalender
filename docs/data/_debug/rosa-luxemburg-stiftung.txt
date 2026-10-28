@@ -1,4 +1,4 @@
-Teaser: 183 | Berlin: 36 | andere Städte: 147 | mit Beschreibung: 35
+Teaser: 184 | Berlin: 37 | andere Städte: 147 | mit Beschreibung: 36
   2026-10-01 19:00:00 | Berlin | Trump und andere autoritäre Versuchungen
   2026-10-05 19:30:59 | Berlin | Antifaschistische Wirtschaftspolitik
   2026-10-06 10:00:00 | Berlin | Unsere Mitgift: Praktische Erfahrungen und weiteres Reifen linker Ideen
@@ -27,5 +27,5 @@ Teaser: 183 | Berlin: 36 | andere Städte: 147 | mit Beschreibung: 35
   2026-10-23 17:00:00 | Berlin | Das Rätsel des Kapitals
   2026-10-24 19:00:00 | Berlin | Rethinking Marxism Today / Marxismus neu denken (Englisch mit…
   2026-10-25 11:00:00 | Berlin | Zur globalen Rezeption des "Kapital"
+  2026-10-26 18:30:00 | Berlin | Annie Ernaux: Die Scham (1998)
   2026-10-27 10:00:00 | Berlin | Die Militarisierung des Weltraums
-  2026-10-27 18:30:49 | Berlin | 25 Jahre Wegbereiterinnen

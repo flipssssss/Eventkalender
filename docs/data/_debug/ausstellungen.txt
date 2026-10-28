@@ -1,26 +1,27 @@
-ExhibitionEvents -> Events: 25
+ExhibitionEvents -> Events: 26
   2026-10-31 From the Steppe to a World Empire (in English) – P
-  2026-10-27 Maurizio Cattelan: Night – Preis der Nationalgaler
-  2026-10-27 Lina Lapelytė: We Make Years Out of Hours – Chanel
-  2026-10-27 Nizo Yamamoto: Meister der Anime-Szenografie
-  2026-10-27 Next Door: Tacita Dean und Bruce Nauman, Thomas De
-  2026-10-27 Über Zeiten: Gursky, Lucas, Miró, Warhol und die K
-  2026-10-27 Lovis Corinth: Dann kam Berlin!
-  2026-10-27 Ryuichi Sakamoto: seeing sound, hearing time
-  2026-10-27 Josef Kaiser: Bauen für die DDR
-  2026-10-27 Zwischen Bäumen
-  2026-10-27 Gabriele Stötzer: Dabei sein und nicht schweigen
-  2026-10-27 Kreuzberg: Kunst und Migration seit 1960
-  2026-10-27 Courage: Schwestern im Geiste
-  2026-10-27 Ruin und Rausch: Berlin 1910–1930
-  2026-10-27 Christoph Schlingensief: Es ist nicht mehr mein Pr
-  2026-10-27 Susan Hiller: Bad Dreams
-  2026-10-27 Projektionen auf den Osten
-  2026-10-27 Metaxy: Zwischen Zerstörung und Wiederaufbau
-  2026-10-27 Rooms / Stages
-  2026-10-27 Die Magie der Straße
+  2026-10-28 Maurizio Cattelan: Night – Preis der Nationalgaler
+  2026-10-28 Lina Lapelytė: We Make Years Out of Hours – Chanel
+  2026-10-28 Nizo Yamamoto: Meister der Anime-Szenografie
+  2026-10-28 Next Door: Tacita Dean und Bruce Nauman, Thomas De
+  2026-10-28 Über Zeiten: Gursky, Lucas, Miró, Warhol und die K
+  2026-10-28 Lovis Corinth: Dann kam Berlin!
+  2026-10-28 Ryuichi Sakamoto: seeing sound, hearing time
+  2026-10-28 Josef Kaiser: Bauen für die DDR
+  2026-10-28 Zwischen Bäumen
+  2026-10-28 Gabriele Stötzer: Dabei sein und nicht schweigen
+  2026-10-28 Kreuzberg: Kunst und Migration seit 1960
+  2026-10-28 Courage: Schwestern im Geiste
+  2026-10-28 Ruin und Rausch: Berlin 1910–1930
+  2026-10-28 Christoph Schlingensief: Es ist nicht mehr mein Pr
+  2026-10-28 Susan Hiller: Bad Dreams
+  2026-10-28 Projektionen auf den Osten
+  2026-10-28 Metaxy: Zwischen Zerstörung und Wiederaufbau
+  2026-10-28 Die Magie der Straße
+  2026-11-05 Roger Ballen: roger ballen.! drawing meets photogr
   2026-11-12 Sophie Calle: Is It Better?
   2026-11-27 Ulay, Ulay & Abramović
   2026-11-06 Schwedische Moderne
   2026-11-06 Die Impressionisten: Monet, Morisot, Renoir und ih
   2026-12-02 Helmut Newton’s Early Books
+  2026-12-17 HR Giger, Beksiński, Ruppert, Lynch: Im Schatten d

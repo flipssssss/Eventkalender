@@ -1,4 +1,4 @@
-entries: 11 | Events: 10
+entries: 12 | Events: 11
   2026-10-22 19:00:00 | Lesung mit Joris Kern "Sex, aber Richtig"
   2026-10-31 19:00:00 | Other Nature wird 15! Kunstmarkt
   2026-11-03 19:00:00 | Japanese Rope Bondage: beyond the basics
@@ -9,3 +9,4 @@ entries: 11 | Events: 10
   2026-11-25 19:00:00 | Polyamorie Diskussionsgruppe
   2026-12-03 19:00:00 | Einführung in Japanese Rope Bondage
   2026-12-02 19:00:00 | Queers and Friends of a Certain (R)Age: a Menopause Exchange & Support Group
+  2026-12-15 19:00:00 | Polyamory Discussion Group (EN)

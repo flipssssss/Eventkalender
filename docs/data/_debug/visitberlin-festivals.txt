@@ -22,7 +22,7 @@ THEATER AN DER PARKAUE, 10367, Berlin | Patchwork on stage
   2026-10-29 00:00:00 → None | verschiedene Veranstaltungsorte, Berlin | Jazzfest Berlin 2026
   2026-10-30 10:00:00 → 2026-11-05 10:00:00 | Verschiedene Orte, Berlin | Theater der Dinge 2026
   2026-10-30 15:00:00 → None | Uferstudios: Uferstudio 4, Badstraße 41a, 13357, Berlin | Shaping Reflections #1
-  2026-10-30 17:00:00 → None | TACO & GRINGO, Rosenthaler Straße 63-64, 10119 Berlin, Deutschland, Rosenthaler Straße 63-64, 10119, Berlin | El Día de los Muertos 2026
+  2026-10-30 18:00:00 → None | TACO & GRINGO, Rosenthaler Straße 63-64, 10119 Berlin, Deutschland, Rosenthaler Straße 63-64, 10119, Berlin | El Día de los Muertos 2026
   2026-10-31 11:00:00 → None | Museum für Kommunikation Berlin, Leipziger Str. 16, 10117, Berlin | Yee-haw. 80 Jahre Lucky Luke
   2026-10-31 15:00:00 → None | Uferstudios: Uferstudio 4, Badstraße 41a, 13357, Berlin | Shaping Reflections #2
   2026-11-01 09:00:00 → 2026-11-10 23:00:00 | Verschiedene Orte, Berlin | BERLIN SCIENCE WEEK 2026
@@ -76,7 +76,7 @@ Ecke Storkower Straße, 10405, Berlin | »Puls & Peilung«
   2027-02-25 11:00:00 → 2027-03-07 11:00:00 | Diverse Veranstaltungsorte/ miscellaneous venues in Berlin | eat! Berlin 2027
   2027-03-04 10:00:00 → 2027-04-04 10:00:00 | Diverse Veranstaltungsorte, Berlin | EMOP Berlin
   2027-03-12 08:00:00 → 2027-03-21 08:00:00 | Haus der Berliner Festspiele, Schaperstraße 24, 10719, Berlin | MaerzMusik 2027
-  2027-03-27 20:30:00 → None | Verschiedene Orte, Berlin | Earth Hour
+  2027-03-20 20:30:00 → None | Verschiedene Orte, Berlin | Earth Hour
   2027-04-22 10:00:00 → 2027-04-27 10:00:00 | verschiedene Veranstaltungsorte, Berlin | Berlin Design Week 2027
   2027-04-24 12:00:00 → 2027-04-25 12:00:00 | Diverse Veranstaltungsorte, Berlin | Access All Areas
   2027-05-02 11:00:00 → None | Kammermusiksaal, Herbert-von-Karajan-Straße 1, 10785, Berlin | ZeitenKlänge Musikfestival. “Chopin plus”

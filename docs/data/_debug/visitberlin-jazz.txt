@@ -1,5 +1,5 @@
 Liste: https://www.visitberlin.de/de/kategorie/blues-jazz
-Event-Links: 15 | Events: 15
+Event-Links: 15 | Events: 14
 
 Seiten:
   eine Seite: 15 Links
@@ -8,7 +8,6 @@ Zeitraum der Starts: 2026-03-26 19:00:00 … 2026-10-31 20:00:00
 
   2026-03-26 19:00:00 → 2026-12-10 21:00:00 | Musikinstrumenten-Museum, Tiergartenstraße, 10785, Berlin | Jazz im MIM
   2026-10-09 20:00:00 → 2026-12-02 20:00:00 | EUREF-Campus Berlin, Torgauer Straße 25, 10829, Berlin | ZigZag Hall – Berlins neue Bühne für Jazz und Live-Musik
-  2026-10-28 19:00:00 → None | Berliner Festspiele, Schaperstraße 24, 10719, Berlin | Melting Pot
   2026-10-29 18:00:00 → None | Haus der Berliner Festspiele - Großer Saal, Schaperstr. 24, 10719, Berlin | EROSÃO PERCUSSION TRIO // DREAM BABY DREAM // Anthony Braxton Septet // Alexander Hawkins Willow Music
   2026-10-29 20:00:00 → None | A-Trane Jazzclub, Pestalozzistraße 105, 10625, Berlin | Elin Forkelid Plays For Trane
   2026-10-29 22:30:00 → None | Quasimodo, Kantstraße 12A, 10623, Berlin | Karoline Wallace

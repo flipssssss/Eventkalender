@@ -1096,6 +1096,13 @@
   "lat": 52.5577176,
   "lng": 13.4702725
  },
+ "Bernkastler Str. 78, Berlin": {
+  "address": "Bernkastler Straße, 12247 Lankwitz",
+  "bezirk": "Steglitz-Zehlendorf",
+  "lat": 52.4397481,
+  "lng": 13.3455485
+ },
+ "Bernkastler Str. 78, Berlin-Weissensee": null,
  "Bethanien Südflügel Berlin": null,
  "Bethanien Südflügel Berlin Deutschland": null,
  "Bethaniendamm 1099, 10999 Berlin": {
@@ -1859,6 +1866,7 @@
  "Diverse Veranstaltungsorte Berlin": null,
  "Diverse Veranstaltungsorte in Marzahn-Hellersdorf, im ganzen Bezirk, 12679, Marzahn-Hellersdorf, Berlin": null,
  "Diverse Veranstaltungsorte, Berlin": null,
+ "Diverse Veranstaltungsorte/ miscellaneous venues in Berlin": null,
  "Don-Ugoletti-Platz 1, 12527 Berlin": {
   "address": "Don-Ugoletti-Platz 1, 12527 Grünau",
   "bezirk": "Treptow-Köpenick",
@@ -2258,6 +2266,7 @@
   "lng": 13.3794979
  },
  "Frauenhoferstr. 33-36, 10587 Berlin": null,
+ "Frauenkreise Berlin, Choriner Straße 10 10119 Berlin Deutschland": null,
  "Freiaplatz, 10365 Berlin": {
   "address": "Rüdigerstraße, 10365 Lichtenberg",
   "bezirk": "Lichtenberg",
@@ -2487,6 +2496,12 @@
   "lng": 13.5080026
  },
  "Grillwiese THF, Eingang Leinestraße, 12049 Berlin": null,
+ "Groni50 Groninger Str. 50 13347 Berlin Deutschland": {
+  "address": "Groninger Straße 50, 13347 Wedding",
+  "bezirk": "Mitte",
+  "lat": 52.55489,
+  "lng": 13.3620309
+ },
  "Grosse Freiheit 114, Berlin": {
   "address": "Boxhagener Straße, 10245 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -3183,6 +3198,12 @@
   "bezirk": "Mitte",
   "lat": 52.5275532,
   "lng": 13.3723203
+ },
+ "Italienische Botschaft, Hiroshimastraße 1, 10785 Berlin": {
+  "address": "Hiroshimastraße 1, 10785 Tiergarten",
+  "bezirk": "Mitte",
+  "lat": 52.5093269,
+  "lng": 13.3597359
  },
  "JFE Anna Landsberger, Prötzeler Ring 13, 12685 Berlin": {
   "address": "Prötzeler Ring 13, 12685 Marzahn",
@@ -4734,6 +4755,7 @@
   "lat": 52.5162846,
   "lng": 13.4422906
  },
+ "Mareen & Juliette, Berlin": null,
  "Mareen Juliette & Lucas, Berlin": null,
  "Mareen, Juliette & Lucas, Berlin": null,
  "Mareschstraße 1, 12055 Neukölln, Berlin": {
@@ -5343,6 +5365,12 @@
   "bezirk": "Tempelhof-Schöneberg",
   "lat": 52.4993854,
   "lng": 13.3527258
+ },
+ "Nollendorfplatz 5, 10777 Berlin, Germany": {
+  "address": "Nollendorfplatz 5, 10777 Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4989399,
+  "lng": 13.3527048
  },
  "Nollendorfplatz, 10777 Schöneberg, Berlin": {
   "address": "Nollendorfplatz, 10777 Schöneberg",
@@ -5971,6 +5999,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5103673,
   "lng": 13.4286199
+ },
+ "Rathaus Lichtenberg, Möllendorffstraße 6, 10367 Berlin": {
+  "address": "Möllendorffstraße 6, 10367 Lichtenberg",
+  "bezirk": "Lichtenberg",
+  "lat": 52.5157847,
+  "lng": 13.47984
  },
  "Rathaus Neukölln, Karl-Marx-Straße 83 12043 Berlin": null,
  "Rathaus Neukölln, Karl-Marx-Straße 83, 12043 Berlin": null,

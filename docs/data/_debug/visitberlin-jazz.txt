@@ -1,16 +1,13 @@
 Liste: https://www.visitberlin.de/de/kategorie/blues-jazz
-Event-Links: 15 | Events: 14
+Event-Links: 15 | Events: 12
 
 Seiten:
   eine Seite: 15 Links
 
-Zeitraum der Starts: 2026-03-26 19:00:00 … 2026-10-31 20:00:00
+Zeitraum der Starts: 2026-03-26 19:00:00 … 2026-10-31 22:30:00
 
   2026-03-26 19:00:00 → 2026-12-10 21:00:00 | Musikinstrumenten-Museum, Tiergartenstraße, 10785, Berlin | Jazz im MIM
   2026-10-09 20:00:00 → 2026-12-02 20:00:00 | EUREF-Campus Berlin, Torgauer Straße 25, 10829, Berlin | ZigZag Hall – Berlins neue Bühne für Jazz und Live-Musik
-  2026-10-29 18:00:00 → None | Haus der Berliner Festspiele - Großer Saal, Schaperstr. 24, 10719, Berlin | EROSÃO PERCUSSION TRIO // DREAM BABY DREAM // Anthony Braxton Septet // Alexander Hawkins Willow Music
-  2026-10-29 20:00:00 → None | A-Trane Jazzclub, Pestalozzistraße 105, 10625, Berlin | Elin Forkelid Plays For Trane
-  2026-10-29 22:30:00 → None | Quasimodo, Kantstraße 12A, 10623, Berlin | Karoline Wallace
   2026-10-30 18:30:00 → None | Haus der Berliner Festspiele - Großer Saal, Schaperstr. 24, 10719, Berlin | Camila Nebbia Large Ensemble // Amir ElSaffar New Quartet // Immanuel Wilkins Quartet
   2026-10-30 19:30:00 → 2026-10-30 22:00:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Glam Jam + Mission BlueZ - Doppelkonzert
   2026-10-30 19:30:00 → 2026-10-30 21:00:00 | Haus des Rundfunks, Masurenallee 8-14, 14057, Berlin | JAZZIK „Electrolights“
@@ -20,3 +17,4 @@ Zeitraum der Starts: 2026-03-26 19:00:00 … 2026-10-31 20:00:00
   2026-10-30 22:30:00 → None | Quasimodo, Kantstraße 12A, 10623, Berlin | Wendy Eisenberg
   2026-10-30 23:00:00 → None | Haus der Berliner Festspiele, Seitenbühne, Schaperstraße 24, 10719, Berlin | Otomo Yoshihide New Jazz Quintet
   2026-10-31 20:00:00 → None | A-Trane Jazzclub, Pestalozzistraße 105, 10625, Berlin | ¡ Ya voy !
+  2026-10-31 22:30:00 → None | Quasimodo, Kantstraße 12A, 10623, Berlin | Ingebrigt Håker Flaten (Exit) Knarr

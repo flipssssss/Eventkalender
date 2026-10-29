@@ -1,11 +1,11 @@
 Liste: https://www.visitberlin.de/de/veranstaltungskalender-berlin?cat%5B0%5D=9312&cat%5B1%5D=9782&keys=&date_between%5Bmin%5D=&date_between%5Bmax%5D=&district=All&items_per_page=21
-Event-Links: 76 | Events: 76
+Event-Links: 77 | Events: 77
 
 Seiten:
   page=0: 14 Links, 14 neu
   page=1: 21 Links, 21 neu
   page=2: 21 Links, 21 neu
-  page=3: 20 Links, 20 neu
+  page=3: 21 Links, 21 neu
   page=4: 0 Links, 0 neu
 
 Startdatum aus dem Seitentext korrigiert (JSON-LD-Start war ein Zeitstempel):
@@ -92,4 +92,5 @@ Ecke Storkower Straße, 10405, Berlin | »Puls & Peilung«
   2027-07-24 12:00:00 → None | Leipziger Straße/Ecke Spittelmarkt, 10117, Berlin | Christopher Street Day 2027
   2027-08-23 00:00:00 → None | Verschiedene Orte, Berlin | Pop-Kultur 2027
   2027-09-08 00:00:00 → None | verschiedene Veranstaltungsorte, Berlin | Berlin Art Week 2027
+  2027-09-11 09:00:00 → 2027-09-12 18:00:00 | Verschiedene Orte, Berlin | Tag des offenen Denkmals 2027
   2027-09-16 00:00:00 → None | Haus der Berliner Festspiele u.a., Schaperstraße 24, 10719, Berlin | ilb – internationales literaturfestival berlin 2027

@@ -1,5 +1,5 @@
 Liste: https://www.visitberlin.de/de/veranstaltungskalender-berlin?cat%5B0%5D=9312&cat%5B1%5D=9782&keys=&date_between%5Bmin%5D=&date_between%5Bmax%5D=&district=All&items_per_page=21
-Event-Links: 77 | Events: 77
+Event-Links: 77 | Events: 75
 
 Seiten:
   page=0: 14 Links, 14 neu
@@ -21,8 +21,6 @@ THEATER AN DER PARKAUE, 10367, Berlin | Patchwork on stage
   2026-10-24 16:00:00 → 2026-11-06 20:00:00 | Diverse Veranstaltungsorte in Marzahn-Hellersdorf, im ganzen Bezirk, 12679, Marzahn-Hellersdorf | Lese-Festival
   2026-10-29 00:00:00 → None | verschiedene Veranstaltungsorte, Berlin | Jazzfest Berlin 2026
   2026-10-30 10:00:00 → 2026-11-05 10:00:00 | Verschiedene Orte, Berlin | Theater der Dinge 2026
-  2026-10-30 15:00:00 → None | Uferstudios: Uferstudio 4, Badstraße 41a, 13357, Berlin | Shaping Reflections #1
-  2026-10-30 18:00:00 → None | TACO & GRINGO, Rosenthaler Straße 63-64, 10119 Berlin, Deutschland, Rosenthaler Straße 63-64, 10119, Berlin | El Día de los Muertos 2026
   2026-10-31 11:00:00 → None | Museum für Kommunikation Berlin, Leipziger Str. 16, 10117, Berlin | Yee-haw. 80 Jahre Lucky Luke
   2026-10-31 15:00:00 → None | Uferstudios: Uferstudio 4, Badstraße 41a, 13357, Berlin | Shaping Reflections #2
   2026-11-01 09:00:00 → 2026-11-10 23:00:00 | Verschiedene Orte, Berlin | BERLIN SCIENCE WEEK 2026

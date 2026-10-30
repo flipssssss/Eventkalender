@@ -1,7 +1,6 @@
 top-keys: ['website', 'websiteSettings', 'collection', 'shoppingCart', 'shareButtons', 'showCart', 'localizedStrings', 'userAccountsContext', 'template', 'uiextensions', 'empty', 'emptyFolder', 'calendarView', 'pagination', 'upcoming']
-items: 28 | Events: 28
+items: 27 | Events: 27
 erstes item keys: ['id', 'collectionId', 'recordType', 'addedOn', 'updatedOn', 'starred', 'passthrough', 'tags', 'categories', 'workflowState', 'publishOn', 'authorId', 'systemDataId', 'systemDataVariants', 'systemDataSourceType', 'filename', 'mediaFocalPoint', 'colorData', 'urlId', 'title', 'sourceUrl', 'body', 'excerpt', 'location', 'customContent']
-  2026-10-29 21:00:00.506000 | STREAMLINE ORCHESTRA&nbsp;
   2026-10-30 21:00:00.506000 | FETE Bigband meets Gabriele di Franco | The Value Of Choices&nbsp; &nbsp;
   2026-10-31 21:00:00.506000 | Karl Seglem FolkJazz / Norwegen &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   2026-11-01 21:00:00.506000 | Fischbacher/Schiewer/Frohnhöfer

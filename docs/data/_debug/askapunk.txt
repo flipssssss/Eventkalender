@@ -1,9 +1,8 @@
-API-Events: 77 | übernommen: 77
-  2026-10-29 19:00:00 | Punk | CF98 (pop-punk, PL) + Treibgut (garage, punk, BLN) im Schokoladen (#berlinpunk)
-  2026-10-29 20:00:00 | Punk | South Sardinian Scum + Slander Tongue
+API-Events: 84 | übernommen: 84
   2026-10-30 10:45:00 | None | Queer Tours for All - KZ Sachsenhausen
-  2026-10-30 19:00:00 | None | Boris “PINK” 20th Anniversary Tour
   2026-10-30 19:00:00 | Punk | zeug [dronepunk/Berlin] x vold [stoner doom/Berlin]
+  2026-10-30 19:00:00 | None | Boris “PINK” 20th Anniversary Tour
+  2026-10-30 19:00:00 | Punk | Crocodiles (US) and Shybits at Neue Zukunft
   2026-10-30 20:00:00 | Punk | Matching Drapes + Samt Martin + Antonia Estelle & Band
   2026-10-30 21:00:00 | Punk | Peppi P., Eddie und Piri Piri in den Räumen des Subversiv e.V.
   2026-10-31 10:45:00 | None | Queer Tours for All! - Plänterwald
@@ -11,21 +10,22 @@ API-Events: 77 | übernommen: 77
   2026-10-31 18:00:00 | Punk | GHOUL FEST VOL. 3
   2026-10-31 18:30:00 | Punk | Folkpunk night ☆Strings for Solidarity☆
   2026-10-31 19:30:00 | Punk | CANCELLED! - SEEIN RED + MÖRSER + RYTES
-  2026-10-31 20:00:00 | None | JUKEBOX BABY HALLOWEEN PARTY
   2026-10-31 20:00:00 | Punk | TENSE REACTION + SLAN + EARTH CRUST DISPLACEMENT
+  2026-10-31 20:00:00 | None | JUKEBOX BABY HALLOWEEN PARTY
   2026-10-31 21:00:00 | None | ISOLATIONGEMEINSCHAFT + VOLCAN + ULTRAVIOLET + DARDO + PAURA DIAMANTE X SVTVRA (DJ SET)
   2026-11-01 14:45:00 | None | Queer Tours for All! - Gay and Sapphic Schöneberg
   2026-11-01 15:00:00 | None | DI.day - Fediverse Workshop für Punks
   2026-11-02 19:00:00 | Indie | ROBBER ROBBER (exp-indie-rock, us) + STUDIO20 (alt-pop, uk)
   2026-11-02 19:00:00 | Metal | CANCER VOID + TERATOMA + BERHELVEN
+  2026-11-03 17:45:00 | None | Queer Tours for All! - Queer Kreuzberg
   2026-11-03 19:00:00 | Punk | PRAISE THE PLAGUE + A SECRET REVEALED | NEUE ZUKUNFT - Berlin
+  2026-11-03 20:00:00 | Punk | Sunset Images (MX / Dedstrange)
   2026-11-04 19:00:00 | Punk | MELT-BANANA - Neue Zukunft, Berlin
   2026-11-04 19:00:00 | Punk | Punk im KuBiz - Das Blanke Extrem (post punk, Freiburg), Lea (acoustic punk, Berlin), Describing Unity (anarcha queer folk punk, Berlin)
   2026-11-04 19:00:00 | Punk | MOVING AS A GIANT (fuzz-noise-rock, slo) & SOUL CLEAR (shoegaze-post-punk, bln)
-  2026-11-05 19:00:00 | Punk | ADI SCOTHEQUE (Bln) & CEL RAY (U.S.)
+  2026-11-05 19:00:00 | Punk | Nox A Carnival Vol. 13
+  2026-11-05 19:00:00 | Punk | Los Sara Fontán (esp) + Franna (bln)
   2026-11-05 19:00:00 | Punk | Pro Pain, punishable Act, Fuck
+  2026-11-05 19:00:00 | Punk | ADI SCOTHEQUE (Bln) & CEL RAY (U.S.)
+  2026-11-06 16:45:00 | None | Queer Tours for All! - Radical Prenzlauer Berg
   2026-11-06 18:30:00 | Punk | HC Show im K19 mit NOWAR + NECESSITY + PRECIOUS
-  2026-11-06 19:00:00 | Punk | FERVENTS (indie/punk, bel) & ULLA SUSPEKT (nndw/post-punk/wave, nbg)
-  2026-11-06 19:00:00 | None | Frau Mansmann + Driven by Clockwork
-  2026-11-06 19:00:00 | None | SILK + Support
-  2026-11-07 18:30:00 | Punk | Acht Eimer Hühnerherzen - 10-Jahre-Jubiläumskonzert, mit Akne Kid Joe, Iedereen, Schreng Schreng & La La

@@ -1,12 +1,12 @@
 URL: https://bdsm-berlin.de/kalender/
   HTTP-Status: 200
-  HTML-Länge: 467885 Zeichen
+  HTML-Länge: 467700 Zeichen
   JSON-LD vorhanden: True
   Events gefunden: 49
   Mögliche Programm-Unterseiten:
     - https://bdsm-berlin.de/en/calendar/
     - https://bdsm-berlin.de/events/artgerecht-bdsm-talk-384-376/?occurrence=2026-10-22&time=1792695600
-    - https://bdsm-berlin.de/events/bdsm-stammtisch-potsdam-142-633-532/?occurrence=2026-10-01
+    - https://bdsm-berlin.de/events/bdsm-stammtisch-potsdam-akari/?occurrence=2026-10-01
     - https://bdsm-berlin.de/events/beginners-rope-kara/?occurrence=2026-10-05
     - https://bdsm-berlin.de/events/beginners-rope-kara/?occurrence=2026-10-12
     - https://bdsm-berlin.de/events/beginners-rope-kara/?occurrence=2026-10-19

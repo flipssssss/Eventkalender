@@ -1,8 +1,6 @@
-Events (vor Dedup): 150
-https://stressfaktor.squat.net/termine/alle page 0: 30 Events (2026-10-29…2026-10-30)
-https://stressfaktor.squat.net/termine/alle page 1: 30 Events (2026-10-30…2026-10-31)
-https://stressfaktor.squat.net/termine/alle page 2: 30 Events (2026-10-31…2026-11-02)
-https://stressfaktor.squat.net/termine/alle page 3: 30 Events (2026-11-02…2026-11-04)
-https://stressfaktor.squat.net/termine/alle page 4: 30 Events (2026-11-04…2026-11-05)
-https://stressfaktor.squat.net/termine/alle page 5: FEHLER HTTPSConnectionPool(host='stressfaktor.squat.net', port=443): Read timed out. (read timeout=25)
-Anubis-Notizen: PoW: difficulty=2 nonce=190 hash=00d63b11167d… pass-status=200 cookies=['techaro.lol-anubis-cookie-verification', 'techaro.lol-anubis-auth']
+Events (vor Dedup): 90
+https://stressfaktor.squat.net/termine/alle page 0: 30 Events (2026-10-30…2026-10-31)
+https://stressfaktor.squat.net/termine/alle page 1: 30 Events (2026-10-31…2026-11-01)
+https://stressfaktor.squat.net/termine/alle page 2: 30 Events (2026-11-01…2026-11-04)
+https://stressfaktor.squat.net/termine/alle page 3: FEHLER HTTPSConnectionPool(host='stressfaktor.squat.net', port=443): Read timed out. (read timeout=25)
+Anubis-Notizen: PoW: difficulty=2 nonce=306 hash=009def7bd3cd… pass-status=200 cookies=['techaro.lol-anubis-cookie-verification', 'techaro.lol-anubis-auth']

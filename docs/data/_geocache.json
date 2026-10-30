@@ -885,6 +885,12 @@
   "lat": 52.5577738,
   "lng": 13.3864077
  },
+ "Ballhaus Wedding, Wriezener Str. 6, 13359, Berlin": {
+  "address": "Wriezener Straße 6, 13359 Gesundbrunnen",
+  "bezirk": "Mitte",
+  "lat": 52.5565355,
+  "lng": 13.3889798
+ },
  "Bandito Rosso Lottumstr. 10a 10119 Berlin Deutschland": null,
  "Bandito Rosso Lottumstr. 10a, 10119 Berlin": {
   "address": "Lottumstraße 10a, 10119 Prenzlauer Berg",
@@ -1354,6 +1360,12 @@
   "bezirk": "Steglitz-Zehlendorf",
   "lat": 52.4671222,
   "lng": 13.307872
+ },
+ "Breitscheidplatz 1, 10789 Berlin": {
+  "address": "Breitscheidplatz, Charlottenburg",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.5049676,
+  "lng": 13.335294
  },
  "Britzer Garten Berlin, Sangerhauser Weg 1, 12349, Berlin": null,
  "Brotfabrik Caligariplatz 1 13086 Berlin Deutschland": {
@@ -1894,6 +1906,12 @@
   "lng": 13.7839728
  },
  "Dragon Room im KitKat-Club, Berlin": null,
+ "Dresdener Straße 15, 10999 Berlin": {
+  "address": "Dresdener Straße 15, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5010071,
+  "lng": 13.4171057
+ },
  "Dresdener Straße 8, 10999 Berlin": {
   "address": "Dresdener Straße 8, 10999 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -2664,6 +2682,12 @@
   "lat": 52.5226808,
   "lng": 13.4023418
  },
+ "Hallesches Haus, Berlin": {
+  "address": "Tempelhofer Ufer 1, 10961 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4972804,
+  "lng": 13.3903466
+ },
  "Hallesches Tor, 10969 Berlin": {
   "address": "Mehringplatz, 10969 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -3404,6 +3428,12 @@
   "lng": 13.407825
  },
  "KTS 13 Karpfenteichstr. 13 12435 Berlin Deutschland": null,
+ "KW Institute for Contemporary Art, Berlin": {
+  "address": "Auguststraße 69, 10117 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5271636,
+  "lng": 13.3948218
+ },
  "Kadterschmiede Rigaer Str. 94 10245 Berlin Deutschland": {
   "address": "Rigaer Straße 94, 10247 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -3429,6 +3459,7 @@
   "lat": 52.509259,
   "lng": 13.3021631
  },
+ "Kaiser-Wilhelm-Gedächtnis-Kirche, Breitscheidplatz 1, 10789, Berlin": null,
  "Kaiserin-Augusta-Straße 75, 12103 Berlin": {
   "address": "Kaiserin-Augusta-Straße 75, 12103 Tempelhof",
   "bezirk": "Tempelhof-Schöneberg",
@@ -5474,6 +5505,7 @@
   "lat": 52.5701384,
   "lng": 13.3279286
  },
+ "Omayra Kulturzentrum, Dresdener Straße 15, 10999 Berlin": null,
  "Onkel-Tom-Straße 99, 14169 Berlin": {
   "address": "Onkel-Tom-Straße 99, 14169 Zehlendorf",
   "bezirk": "Steglitz-Zehlendorf",
@@ -6910,6 +6942,12 @@
   "lat": 52.5399039,
   "lng": 13.4136365
  },
+ "Schönhauser Allee 36, 10435 Berlin, Germany": {
+  "address": "Schönhauser Allee 36, 10435 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5382108,
+  "lng": 13.4126884
+ },
  "Schönhauser Allee 44b, 10435 Berlin": {
   "address": "Schönhauser Allee 44b, 10435 Prenzlauer Berg",
   "bezirk": "Pankow",
@@ -7304,6 +7342,7 @@
  "TRXXXTER Berlin": null,
  "TRXXXTER Berlin Deutschland": null,
  "TU Berlin Mathematikgebäude an der Werner von Siemens Statue, Straße des 17. Juni 136, 10623 Berlin": null,
+ "TU Berlin Mathematikgebäude, Straße des 17. Juni 136, 10623 Berlin": null,
  "TU Berlin, Raum EB 202, Straße des 17. Juni 145, 10623 Berlin": null,
  "TU Ma Gebäude, Straße des 17. Juni 136, 10623 Berlin": null,
  "TU Mensakreuzung, Hardenbergstraße 34, 10623 Berlin": null,

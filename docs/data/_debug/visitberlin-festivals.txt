@@ -1,11 +1,11 @@
 Liste: https://www.visitberlin.de/de/veranstaltungskalender-berlin?cat%5B0%5D=9312&cat%5B1%5D=9782&keys=&date_between%5Bmin%5D=&date_between%5Bmax%5D=&district=All&items_per_page=21
-Event-Links: 77 | Events: 75
+Event-Links: 73 | Events: 71
 
 Seiten:
   page=0: 14 Links, 14 neu
   page=1: 21 Links, 21 neu
   page=2: 21 Links, 21 neu
-  page=3: 21 Links, 21 neu
+  page=3: 17 Links, 17 neu
   page=4: 0 Links, 0 neu
 
 Startdatum aus dem Seitentext korrigiert (JSON-LD-Start war ein Zeitstempel):
@@ -15,14 +15,10 @@ Zeitraum der Starts: 2024-11-29 20:00:00 … 2027-09-16 00:00:00
 
   2024-11-29 20:00:00 → 2026-11-28 20:00:00 | Bühne 2 - Theater an der Parkaue, Parkaue 29
 THEATER AN DER PARKAUE, 10367, Berlin | Patchwork on stage
-  2026-10-02 00:00:00 → None | Verschiedene Orte, Berlin | Monat der zeitgenössischen Musik 2026
-  2026-10-15 11:00:00 → 2026-10-31 22:00:00 | feldfünf - Projektraum im Metropolenhaus, Fromet-und-Moses-Mendelssohn-Platz 7–8, 10969, Berlin | Hidden Processes
   2026-10-24 11:00:00 → 2026-11-17 11:00:00 | Fontane Haus Kulturzentrum, Königshorster Straße 6, 13439, Berlin | Festwoche im Fontane-Haus: 50-jähriges Jubiläum
   2026-10-24 16:00:00 → 2026-11-06 20:00:00 | Diverse Veranstaltungsorte in Marzahn-Hellersdorf, im ganzen Bezirk, 12679, Marzahn-Hellersdorf | Lese-Festival
   2026-10-29 00:00:00 → None | verschiedene Veranstaltungsorte, Berlin | Jazzfest Berlin 2026
   2026-10-30 10:00:00 → 2026-11-05 10:00:00 | Verschiedene Orte, Berlin | Theater der Dinge 2026
-  2026-10-31 11:00:00 → None | Museum für Kommunikation Berlin, Leipziger Str. 16, 10117, Berlin | Yee-haw. 80 Jahre Lucky Luke
-  2026-10-31 15:00:00 → None | Uferstudios: Uferstudio 4, Badstraße 41a, 13357, Berlin | Shaping Reflections #2
   2026-11-01 09:00:00 → 2026-11-10 23:00:00 | Verschiedene Orte, Berlin | BERLIN SCIENCE WEEK 2026
   2026-11-04 10:00:00 → 2026-11-04 23:00:00 | nhow Hotel Berlin, Stralauer Allee 3, 10245, Berlin | Listen to Berlin: Youth - Festival
   2026-11-05 10:00:00 → 2026-11-22 10:00:00 | verschiedene Religionsgemeinschaften, Berlin | 37. BERLINER MÄRCHENTAGE

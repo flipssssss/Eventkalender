@@ -78,6 +78,12 @@
   "lat": 52.4964166,
   "lng": 13.362414
  },
+ "10829 Berlin": {
+  "address": "10829 Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.476394,
+  "lng": 13.3608875
+ },
  "10961 Berlin": {
   "address": "10961 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -873,6 +879,7 @@
   "lat": 52.5320796,
   "lng": 13.380294
  },
+ "Ballhaus Ost, Pappelallee 15 A, 10437, Berlin": null,
  "Ballhaus Prinzenallee, Berlin": {
   "address": "Prinzenallee 33, 13359 Gesundbrunnen",
   "bezirk": "Mitte",
@@ -1660,6 +1667,12 @@
   "lat": 52.4884617,
   "lng": 13.3905862
  },
+ "Charlottenburger Str. 117, Berlin": {
+  "address": "Charlottenburger Straße 117, 13086 Weißensee",
+  "bezirk": "Pankow",
+  "lat": 52.5517464,
+  "lng": 13.4448818
+ },
  "Charlottenstr. 28, Berlin": {
   "address": "Charlottenstraße 28, 12247 Lankwitz",
   "bezirk": "Steglitz-Zehlendorf",
@@ -1769,6 +1782,12 @@
   "bezirk": "Tempelhof-Schöneberg",
   "lat": 52.484016,
   "lng": 13.391197
+ },
+ "Columbiadamm 9-11, 10965 Berlin, Germany": {
+  "address": "Columbiadamm 9-11, 10965 Tempelhof",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4847302,
+  "lng": 13.3914367
  },
  "Columbiadamm Columbiadamm 10 12101, 12101 Berlin": null,
  "Columbiahalle, Berlin": {
@@ -2026,6 +2045,12 @@
   "lng": 13.4017208
  },
  "Eszenzia, Berlin": null,
+ "Eugeniu-Botnari-Platz 1031, 10317 Berlin": {
+  "address": "Eugeniu-Botnari-Platz, Rummelsburg",
+  "bezirk": "Lichtenberg",
+  "lat": 52.5106449,
+  "lng": 13.4993679
+ },
  "Evangelische Hoffnungskirchengemeinde Berlin-Pankow": null,
  "FAQ Infoladen Jonasstraße 40 12053 Berlin Deutschland": {
   "address": "Jonasstraße 40, 12053 Neukölln",
@@ -2319,6 +2344,12 @@
   "bezirk": "Pankow",
   "lat": 52.5817048,
   "lng": 13.3941482
+ },
+ "Friedrichstraße 101, 10117 Berlin, Deutschland": {
+  "address": "Friedrichstraße 101, 10117 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5207714,
+  "lng": 13.3889021
  },
  "Friedrichstraße 43-45, 10117 Berlin": {
   "address": "Friedrichstraße 43-45, 10969 Kreuzberg",
@@ -2682,6 +2713,7 @@
   "lat": 52.5226808,
   "lng": 13.4023418
  },
+ "Hall im Mauerpark, Bernauer Straße 53, 13355 Berlin": null,
  "Hallesches Haus, Berlin": {
   "address": "Tempelhofer Ufer 1, 10961 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -2887,6 +2919,7 @@
   "lat": 52.4770235,
   "lng": 13.4399161
  },
+ "Heimathafen Neukölln, Karl-Marx-Straße 141, 12043, Berlin": null,
  "Heimathafen, Karl-Marx-Straße 141 12043 Berlin": null,
  "Heinrich-Heine-Straße/Ecke Köpenicker Straße Berlin": null,
  "Heinrich-Heine-Straße/Ecke Köpenicker Straße Berlin Deutschland": null,
@@ -4367,6 +4400,12 @@
   "lat": 52.5344522,
   "lng": 13.3600061
  },
+ "Lehrter Straße 35, 10557 Berlin, Germany": {
+  "address": "Lehrter Straße 35, 10557 Moabit",
+  "bezirk": "Mitte",
+  "lat": 52.5342464,
+  "lng": 13.3591637
+ },
  "Lehrter Straße 35, 10557 Moabit, Berlin": {
   "address": "Lehrter Straße 35, 10557 Moabit",
   "bezirk": "Mitte",
@@ -4438,6 +4477,12 @@
   "bezirk": "Mitte",
   "lat": 52.5463833,
   "lng": 13.3591672
+ },
+ "Lichtblick Kastanienallee 77 10435 Berlin Deutschland": {
+  "address": "Kastanienallee 77, 10435 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5364987,
+  "lng": 13.4077602
  },
  "Lichtblick, Berlin": {
   "address": "Birkenstraße 33, 10551 Moabit",
@@ -4548,6 +4593,12 @@
   "lng": 13.4402231
  },
  "Lohmühlenstraße / Ecke Jordanstraße, 12435 Berlin": null,
+ "Lohmühlenstraße 11, 12435 Berlin": {
+  "address": "Lohmühlenstraße, 12435 Alt-Treptow",
+  "bezirk": "Treptow-Köpenick",
+  "lat": 52.4913677,
+  "lng": 13.44229
+ },
  "Lohmühlenstraße 17, 12435 Berlin": {
   "address": "Lohmühlenstraße, 12435 Alt-Treptow",
   "bezirk": "Treptow-Köpenick",
@@ -4990,6 +5041,7 @@
   "lat": 52.5085739,
   "lng": 13.3871178
  },
+ "Maxim (Charlottenburger Str. 117) Charlottenburger Str. 117 (Weissensee) Berlin Deutschland": null,
  "Maxim Gorki Theater, Berlin": {
   "address": "Am Festungsgraben 2, 10117 Mitte",
   "bezirk": "Mitte",
@@ -5708,6 +5760,7 @@
   "lat": 52.4992818,
   "lng": 13.418915
  },
+ "Pamukkale, Görlitzer Park, Kreuzberg 10999 Berlin Deutschland": null,
  "Pankow/Weißensee Berlin Deutschland": {
   "address": "Parkstraße 71, 13086 Weißensee",
   "bezirk": "Pankow",
@@ -5737,6 +5790,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5111669,
   "lng": 13.4430356
+ },
+ "Pappelallee 15 A, 10437 Berlin": {
+  "address": "Pappelallee, 10437 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5430884,
+  "lng": 13.4145514
  },
  "Pappelallee 43 (klingel bei „Gemeinschaftsraum“), 10437 Berlin": null,
  "Pappelallee 43, 10437 Berlin": {
@@ -6499,6 +6558,7 @@
   "lat": 52.5491748,
   "lng": 13.3900758
  },
+ "S Lichtenberg Eugeniu-Botnari-Platz 10317 Berlin Deutschland": null,
  "S+U Gesundbrunnen, 13355 Berlin": {
   "address": "Hanne-Sobek-Platz, 13357 Gesundbrunnen",
   "bezirk": "Mitte",
@@ -7288,6 +7348,12 @@
   "lng": 13.4713392
  },
  "Supamolly Jessnerstr. 41 10247, 10247 Berlin": null,
+ "Syndikat Emser Straße 131 12051 Berlin Deutschland": {
+  "address": "Emser Straße 131, 12051 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4692776,
+  "lng": 13.4380596
+ },
  "Säule/Berghain, Berlin": null,
  "Sömmeringstraße 15, 10589 Berlin": {
   "address": "Sömmeringstraße 15, 10589 Charlottenburg",
@@ -7650,6 +7716,12 @@
  "U-Bhf. Eberswalder Strasse Berlin Deutschland": null,
  "U-Bhf. Turmstraße Berlin": null,
  "U-Bhf. Turmstraße Berlin Deutschland": null,
+ "U-Rosenthaler Platz, 10119 Berlin": {
+  "address": "Brunnenstraße, 10119 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5298999,
+  "lng": 13.4011206
+ },
  "U5 U-Bahnhof Tierpark Berlin": null,
  "U5 U-Bahnhof Tierpark Berlin Deutschland": null,
  "UJZ Hönower Str. 30 10318 Berlin": {
@@ -7929,6 +8001,7 @@
   "lat": 52.5139807,
   "lng": 13.3998494
  },
+ "Werkstatt 26 (W26), EUREF-Campus 26, 10829, Berlin": null,
  "Werner-Otto-Saal - Konzerthaus Berlin, Am Gendarmenmarkt, 10117, Berlin": null,
  "Werner-Voß-Damm 47, 12101 Berlin": {
   "address": "Werner-Voß-Damm, 12101 Tempelhof",
@@ -8219,6 +8292,7 @@
   "lat": 52.6347482,
   "lng": 13.2928997
  },
+ "Zentrum Dialog & So, Berlin": null,
  "Zentrum Villa Lützow Lützowstraße 28 10785, 10785 Berlin": null,
  "Zeughauskino, Berlin": {
   "address": "Unter den Linden 2, 10117 Mitte",
@@ -8393,6 +8467,7 @@
  "llmann🕯, Berlin": null,
  "loge. kneipenkollektiv Kinzigstraße 9 10247 Berlin Deutschland": null,
  "mainhall, Berlin": null,
+ "majal, Sonnenallee 127, 12059 Berlin": null,
  "men Race & Class“ von Angela Davis, Berlin": null,
  "men Race & Class” by Angela Davis, Berlin": null,
  "men, Race & Class“ von Angela Davis, Berlin": null,

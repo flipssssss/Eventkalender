@@ -1,15 +1,20 @@
 Liste: https://www.visitberlin.de/de/kategorie/blues-jazz
-Event-Links: 15 | Events: 7
+Event-Links: 15 | Events: 12
 
 Seiten:
   eine Seite: 15 Links
 
-Zeitraum der Starts: 2026-10-09 20:00:00 … 2026-11-01 18:30:00
+Zeitraum der Starts: 2026-10-09 20:00:00 … 2026-11-03 20:00:00
 
   2026-10-09 20:00:00 → 2026-12-02 20:00:00 | EUREF-Campus Berlin, Torgauer Straße 25, 10829, Berlin | ZigZag Hall – Berlins neue Bühne für Jazz und Live-Musik
-  2026-10-31 20:00:00 → None | A-Trane Jazzclub, Pestalozzistraße 105, 10625, Berlin | ¡ Ya voy !
-  2026-10-31 22:30:00 → None | Quasimodo, Kantstraße 12A, 10623, Berlin | Ingebrigt Håker Flaten (Exit) Knarr
-  2026-10-31 23:00:00 → None | Haus der Berliner Festspiele, Seitenbühne, Schaperstraße 24, 10719, Berlin | Laura Jurd
+  2026-10-26 20:00:00 → 2026-12-28 23:30:00 | Café Engels, Herrfurthstr. 21, 12049, Berlin | Blue Moonday Jazzsession
+  2026-10-27 19:30:00 → 2026-12-29 22:00:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Session im ART Stalker
   2026-11-01 13:00:00 → None | Ballhaus Wedding, Wriezener Str. 6, 13359, Berlin | Sonntagsbrunch mit Livemusik
   2026-11-01 14:30:00 → None | Kaiser-Wilhelm-Gedächtnis-Kirche, Breitscheidplatz 1, 10789, Berlin | Matthias Muche BONECRUSHER
   2026-11-01 18:30:00 → None | Haus der Berliner Festspiele - Großer Saal, Schaperstr. 24, 10719, Berlin | Graewe / Jones / Drake // ganavya // Globe Unity Orchestra
+  2026-11-01 20:00:00 → None | Ballhaus Ost, Pappelallee 15 A, 10437, Berlin | Dumbhead (MEL) & Life (B)
+  2026-11-01 20:00:00 → None | A-Trane Jazzclub, Pestalozzistraße 105, 10625, Berlin | Twin Talk
+  2026-11-01 22:30:00 → None | Quasimodo, Kantstraße 12A, 10623, Berlin | Ches Smith
+  2026-11-01 23:30:00 → None | Quasimodo, Kantstraße 12A, 10623, Berlin | Afterparty mit SACODE
+  2026-11-02 19:30:00 → None | Heimathafen Neukölln, Karl-Marx-Straße 141, 12043, Berlin | JAMIE BAUM QUARTET & ANKE HELFRICH TRIO
+  2026-11-03 20:00:00 → 2026-11-03 22:00:00 | Werkstatt 26 (W26), EUREF-Campus 26, 10829, Berlin | Zig Zag Hall: Emmet Cohen

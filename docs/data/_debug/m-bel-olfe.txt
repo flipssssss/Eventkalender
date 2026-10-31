@@ -1,27 +1,5 @@
-event-blocks: 9 | Events: 9
+event-blocks: 8 | Events: 8
 
-<div class="event-block">
- <!-- Zeile 1: Datum + Titel -->
- <div class="event-row-1">
-  <div class="event-time">
-   Samstag, 31. Okt. 22:00
-  </div>
-  <div class="event-title">
-   Halloween
-  </div>
- </div>
- <!-- Zeile 2: Bild + Beschreibung -->
- <div class="event-row-2">
-  <div class="event-image event-image--empty">
-  </div>
-  <div class="event-description">
-   Jim Avignon &amp; Julius Nerdinger
-  </div>
- </div>
-</div>
-
-
-----
 <div class="event-block">
  <!-- Zeile 1: Datum + Titel -->
  <div class="event-row-1">
@@ -81,6 +59,26 @@ event-blocks: 9 | Events: 9
   </div>
   <div class="event-description">
    ...plays alltime favs!
+  </div>
+ </div>
+</div>
+
+
+----
+<div class="event-block">
+ <!-- Zeile 1: Datum + Titel -->
+ <div class="event-row-1">
+  <div class="event-time">
+   Freitag, 13. Nov. 22:00
+  </div>
+  <div class="event-title">
+   LBXX
+  </div>
+ </div>
+ <!-- Zeile 2: Bild + Beschreibung -->
+ <div class="event-row-2">
+  <div class="event-image">
+   <img alt="" src="ProgrammFotos/LBXX_2026_11_13.jpg"/>
   </div>
  </div>
 </div>

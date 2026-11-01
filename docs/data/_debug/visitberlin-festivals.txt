@@ -1,11 +1,11 @@
 Liste: https://www.visitberlin.de/de/veranstaltungskalender-berlin?cat%5B0%5D=9312&cat%5B1%5D=9782&keys=&date_between%5Bmin%5D=&date_between%5Bmax%5D=&district=All&items_per_page=21
-Event-Links: 73 | Events: 71
+Event-Links: 71 | Events: 71
 
 Seiten:
-  page=0: 14 Links, 14 neu
+  page=0: 16 Links, 16 neu
   page=1: 21 Links, 21 neu
   page=2: 21 Links, 21 neu
-  page=3: 17 Links, 17 neu
+  page=3: 13 Links, 13 neu
   page=4: 0 Links, 0 neu
 
 Startdatum aus dem Seitentext korrigiert (JSON-LD-Start war ein Zeitstempel):
@@ -17,7 +17,6 @@ Zeitraum der Starts: 2024-11-29 20:00:00 … 2027-09-16 00:00:00
 THEATER AN DER PARKAUE, 10367, Berlin | Patchwork on stage
   2026-10-24 11:00:00 → 2026-11-17 11:00:00 | Fontane Haus Kulturzentrum, Königshorster Straße 6, 13439, Berlin | Festwoche im Fontane-Haus: 50-jähriges Jubiläum
   2026-10-24 16:00:00 → 2026-11-06 20:00:00 | Diverse Veranstaltungsorte in Marzahn-Hellersdorf, im ganzen Bezirk, 12679, Marzahn-Hellersdorf | Lese-Festival
-  2026-10-29 00:00:00 → None | verschiedene Veranstaltungsorte, Berlin | Jazzfest Berlin 2026
   2026-10-30 10:00:00 → 2026-11-05 10:00:00 | Verschiedene Orte, Berlin | Theater der Dinge 2026
   2026-11-01 09:00:00 → 2026-11-10 23:00:00 | Verschiedene Orte, Berlin | BERLIN SCIENCE WEEK 2026
   2026-11-04 10:00:00 → 2026-11-04 23:00:00 | nhow Hotel Berlin, Stralauer Allee 3, 10245, Berlin | Listen to Berlin: Youth - Festival
@@ -55,6 +54,7 @@ im Aufbau Haus am Moritzplatz, 10969, Berlin | Liebe Waschmaschine / Αγαπη�
 im Aufbau Haus am Moritzplatz, 10969, Berlin | Hotel Éternité
   2026-11-25 01:00:00 → 2026-11-30 01:00:00 | verschiedene Veranstaltungsorte, Berlin | Treffen junge Musikszene
   2026-11-25 01:00:00 → 2026-11-30 01:00:00 | verschiedene Veranstaltungsorte, Berlin | Treffen junger Autor*innen
+  2026-11-26 14:30:00 → 2026-11-27 19:00:00 | silent green Kulturquartier, Gerichtstraße 35, 13347, Berlin | Frohes Festival
   2026-11-26 18:00:00 → 2026-11-29 18:00:00 | verschiedene Veranstaltungsorte, Berlin | BERLINER FESTIVAL ALTER MUSIK 2026
   2026-12-07 20:00:00 → None | Philharmonie, Großer Saal, Herbert-von-Karajan-Straße 1, 10785, Berlin | ZeitenKlänge Musikfestival
   2026-12-15 12:00:00 → 2026-12-21 12:00:00 | Verschiedene Orte, Berlin | Der KURZFILMTAG 2026

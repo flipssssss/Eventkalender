@@ -1,9 +1,10 @@
 teaser: 16
 dated: 1
-detail_ok: 12
-detail_err: 0
-recur: 12
+detail_ok: 11
+detail_err: 1
+recur: 11
 no_geo: 3
 geo: 28
-events: 75
+events: 66
 FEHLER:
+DETAIL 429 Client Error: Too Many Requests for url: https://www.berlin.de/special/shopping/biomarkt/1925913-1925662-oekomarkt-im-hansaviertel.html

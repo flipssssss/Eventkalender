@@ -1,31 +1,31 @@
-Teaser: 184 | Berlin: 37 | andere Städte: 147 | mit Beschreibung: 36
-  2026-10-01 19:00:00 | Berlin | Trump und andere autoritäre Versuchungen
-  2026-10-05 19:30:59 | Berlin | Antifaschistische Wirtschaftspolitik
-  2026-10-06 10:00:00 | Berlin | Unsere Mitgift: Praktische Erfahrungen und weiteres Reifen linker Ideen
-  2026-10-06 19:00:00 | Berlin | Im Schatten von I. G. Auschwitz
-  2026-10-07 18:00:00 | Berlin | Exkursion zum Umgang mit dem Gelände des Bunkers der „Neuen Reichskanzlei“
-  2026-10-07 19:00:00 | Berlin | Russlands neuer Imperialismus / Russia’s New Imperialism
-  2026-10-07 19:00:13 | Berlin | Zurück in den Hinterhof?
-  2026-10-08 18:00:00 | Berlin | Ernst Busch auf der Bühne. Berlin 1957
-  2026-10-12 19:00:00 | Berlin | Der Himmel unter West-Berlin
-  2026-10-12 19:00:50 | Berlin | Möglichkeiten und Grenzen für eine Rätebewegung
-  2026-10-13 10:00:00 | Berlin | Perspektiven linker Außen- und Sicherheitspolitik
-  2026-10-13 18:00:11 | Berlin | Institutionen und Rassismus: eine Studie im Wandel der Zeit
-  2026-10-13 19:00:00 | Berlin | Hegel mit Marx und Engels
-  2026-10-14 19:00:00 | Berlin | Der Kollektivplan für Berlin 1946 (1)
-  2026-10-15 19:00:59 | Berlin | Die Bezahlkarte – Digitale Entrechtung von Geflüchteten?
-  2026-10-16 19:00:42 | Berlin | 100 Jahre Fidel Castro und die Zukunft der kubanischen Revolution
-  2026-10-17 11:35:47 | Bernau bei Berlin | Widersprechen und sich positionieren
-  2026-10-18 16:00:00 | Berlin | Rundgang am Eva-Mamlok-Platz
-  2026-10-19 18:00:58 | Berlin | Zetkin gegen Stalin
-  2026-10-19 19:00:00 | Berlin | „… verhalte dich kritisch, gib‘ bloß nicht die Vernunft auf“
-  2026-10-20 10:00:00 | Berlin | Lateinamerika im Licht der "Donroe-Doktrin"
-  2026-10-20 18:30:52 | Berlin | Hoffnung in dunklen Zeiten
-  2026-10-20 19:00:00 | Berlin | Plakatgestaltung aus der DDR
-  2026-10-21 19:00:00 | Berlin | Der Kollektivplan für Berlin 1946 (2)
-  2026-10-22 19:00:00 | Berlin | Globalisierung im Übergang. Zerfall, Teilung oder Erneuerung des Weltsystems
-  2026-10-23 17:00:00 | Berlin | Das Rätsel des Kapitals
-  2026-10-24 19:00:00 | Berlin | Rethinking Marxism Today / Marxismus neu denken (Englisch mit…
-  2026-10-25 11:00:00 | Berlin | Zur globalen Rezeption des "Kapital"
-  2026-10-26 18:30:00 | Berlin | Annie Ernaux: Die Scham (1998)
-  2026-10-27 10:00:00 | Berlin | Die Militarisierung des Weltraums
+Teaser: 203 | Berlin: 35 | andere Städte: 168 | mit Beschreibung: 34
+  2026-11-02 19:00:26 | Berlin | Alles meins?
+  2026-11-03 10:00:00 | Berlin | Wurde das einst „rote Berlin“ 1933 vom Faschismus zerschlagen?
+  2026-11-03 19:00:00 | Berlin | Bumerangeffekte. Russland, der Ukrainekrieg und die Folgen
+  2026-11-04 18:30:35 | Berlin | Solidarische Ökonomie: Gesellschaft verändern, nicht nur anders wirtschaften
+  2026-11-04 19:00:00 | Berlin | DDR-Philosophie 19451995. Vom Schließen und Aufstoßen der Fenster
+  2026-11-05 11:00:39 | Berlin | Filme gegen das Vergessen
+  2026-11-05 19:00:00 | Berlin | From the material intellect to ‘social virtuosity'
+  2026-11-06 18:00:33 | Berlin | Trending Now: The End of the World
+  2026-11-06 19:00:57 | Berlin | Israels Bumerangeffekt. Von der Besatzung zum Ende der Demokratie
+  2026-11-07 11:00:00 | Berlin | Umbau! IBA? in Berlin und Brandenburg
+  2026-11-09 18:00:27 | Berlin | Literarische Erinnerungsbilder
+  2026-11-10 10:00:00 | Berlin | Perspektiven Israels nach den Wahlen zur Knesset
+  2026-11-11 20:00:46 | Berlin | Identitti
+  2026-11-12 18:00:09 | Berlin | „Die Rechte Indigener Völker schützen!“
+  2026-11-12 19:00:00 | Berlin | Der Fall August Hanning und die geplante BND-"Großreform"
+  2026-11-12 19:00:05 | Berlin | Hans Coppi jr.: „Annäherung an meine Eltern Hans und Hilde Coppi“
+  2026-11-16 18:30:00 | Berlin | Franz Kafka: Amerika (1927)
+  2026-11-16 19:00:10 | Berlin | Flexibel, prekär, unsichtbar: Arbeiten in der Plattformökonomie
+  2026-11-17 10:00:00 | Berlin | Die aktuelle Lage in Mittelosteuropa
+  2026-11-17 19:00:00 | Berlin | Ökologische Kapitalismuskritik ist nicht genug
+  2026-11-18 19:00:00 | Berlin | ABGESAGT: Deutsche in der Résistance
+  2026-11-18 19:00:49 | Berlin | „OP – Genova 2001“
+  2026-11-19 18:30:12 | Berlin | Socialism for Future
+  2026-11-19 19:00:00 | Berlin | Nicht wie Feuer und Wasser: Religiöse Sozialisten
+  2026-11-20 18:00:00 | Berlin | Brechts Pinselknecht. Ein Brecht-Abend zu Ehren von Karl-Heinz Drescher
+  2026-11-23 18:30:09 | Berlin | Unternehmen in die Pflicht – in Deutschland, Europa und weltweit!
+  2026-11-23 20:00:00 | Berlin | “Was bedeutet für Dich Widerstand”. Eine Pasolini-Lektüre
+  2026-11-24 10:00:00 | Berlin | Justizirrtümer, Vertuschungen und Fehlurteile
+  2026-11-24 18:00:00 | Berlin | Fritz Cremer - Aufrecht!
+  2026-11-25 19:00:00 | Berlin | Zeitenwende 1956. Eine globale Revolte als Geburtsstunde der „Neuen Linken“

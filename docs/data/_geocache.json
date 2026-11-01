@@ -1067,6 +1067,12 @@
   "lat": 52.5754506,
   "lng": 13.2868079
  },
+ "Bernauer Straße 53, 13507 Tegel, Berlin": {
+  "address": "Bernauer Straße 53, 13507 Tegel",
+  "bezirk": "Reinickendorf",
+  "lat": 52.5754506,
+  "lng": 13.2868079
+ },
  "Bernauer Straße 63, 13355 Berlin": {
   "address": "Bernauer Straße 63, 13355 Gesundbrunnen",
   "bezirk": "Pankow",
@@ -1187,6 +1193,7 @@
   "lat": 52.4860865,
   "lng": 13.2962459
  },
+ "Blauer Salon im Mehringhof Gneisenaustr 2a Berlin Deutschland": null,
  "Bleibtreustrasse 1, 10623 Berlin": {
   "address": "Bleibtreustraße 1, 10625 Charlottenburg",
   "bezirk": "Charlottenburg-Wilmersdorf",
@@ -1285,6 +1292,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5112571,
   "lng": 13.4589749
+ },
+ "Boxhagener Strasse 99, 01245 Berlin": {
+  "address": "Boxhagener Straße 99, 10245 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5123604,
+  "lng": 13.4610757
  },
  "Boxhagener Straße 18, 10245 Berlin, Berlin": {
   "address": "Boxhagener Straße 18, 10245 Friedrichshain",
@@ -1887,6 +1900,12 @@
   "lng": 13.3871269
  },
  "Deutsche Oper Berlin, Tischlerei, Richard-Wagner-Str. / Ecke Zillestr., 10627, Berlin": null,
+ "Deutsche Oper, Berlin": {
+  "address": "Bismarckstraße 35, 10627 Charlottenburg",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.5121441,
+  "lng": 13.3083771
+ },
  "Die 7 Landesvertretungen in den Ministergärten, In den Ministergärten 3-10, 10117, Berlin": null,
  "Dircksenstraße 40, 10178 Mitte, Berlin": {
   "address": "Dircksenstraße 40, 10178 Mitte",
@@ -2440,6 +2459,12 @@
   "lat": 52.4922165,
   "lng": 13.4359064
  },
+ "Gneisenaustr 2a, Berlin": {
+  "address": "Gneisenaustraße 2a, 10961 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4919487,
+  "lng": 13.3889569
+ },
  "Gneisenaustr. 2a, 10961 Berlin": {
   "address": "Gneisenaustraße 2a, 10961 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -2921,6 +2946,7 @@
  },
  "Heimathafen Neukölln, Karl-Marx-Straße 141, 12043, Berlin": null,
  "Heimathafen, Karl-Marx-Straße 141 12043 Berlin": null,
+ "Heini Rio-Reiser-Platz 10999 Berlin Deutschland": null,
  "Heinrich-Heine-Straße/Ecke Köpenicker Straße Berlin": null,
  "Heinrich-Heine-Straße/Ecke Köpenicker Straße Berlin Deutschland": null,
  "Heinrichplatz (Kreuzberg) Berlin Deutschland": {
@@ -2983,6 +3009,12 @@
   "lng": 13.4240134
  },
  "Hermannstraße 86, 12051 Berlin": {
+  "address": "Hermannstraße 86, 12051 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4716466,
+  "lng": 13.4286011
+ },
+ "Hermannstraße 86, 12051 Neukölln, Berlin": {
   "address": "Hermannstraße 86, 12051 Neukölln",
   "bezirk": "Neukölln",
   "lat": 52.4716466,
@@ -4056,6 +4088,12 @@
   "lat": 52.6347482,
   "lng": 13.2928997
  },
+ "Kulturhaus Centre Bagatelle e.V., Zeltinger Str. 6, 13465, Berlin-Frohnau": {
+  "address": "Zeltinger Straße 6, 13465 Frohnau",
+  "bezirk": "Reinickendorf",
+  "lat": 52.6347482,
+  "lng": 13.2928997
+ },
  "Kulturhaus Centre Bagatelle, Zeltinger Str. 6, 13465, Berlin-Frohnau": null,
  "Kulturhaus Centre Bagatelle, Zeltinger Straße 6, 13465, Berlin": null,
  "Kulturhaus Karlshorst Treskowallee 112 10318 Berlin Deutschland": {
@@ -4478,6 +4516,12 @@
   "lat": 52.5463833,
   "lng": 13.3591672
  },
+ "Levetzowstr. 7-8, 10555 Berlin": {
+  "address": "Levetzowstraße, 10555 Moabit",
+  "bezirk": "Mitte",
+  "lat": 52.5225046,
+  "lng": 13.3305417
+ },
  "Lichtblick Kastanienallee 77 10435 Berlin Deutschland": {
   "address": "Kastanienallee 77, 10435 Prenzlauer Berg",
   "bezirk": "Pankow",
@@ -4784,6 +4828,7 @@
   "lat": 52.5009882,
   "lng": 13.4284142
  },
+ "Mahnmal Levetzowstrasse Mahnmal Levetzowstr. 7-8 (Moabit) 10555 Berlin Deutschland": null,
  "Mahnwache BER Terminal 5, 12529 Schönefeld, Berlin": null,
  "Maigalerie Torstraße 6 10119 Berlin Deutschland": {
   "address": "Torstraße 6, 10119 Mitte",
@@ -4997,6 +5042,7 @@
   "lat": 52.5438879,
   "lng": 13.5447601
  },
+ "Maschinenhaus in der Kulturbrauerei, Knaackstraße 97 / U2 Eberswalder Straße, 10435, Berlin": null,
  "Mastul Berlin Liebenwalder Str. 33 13347 Berlin Deutschland": {
   "address": "Liebenwalder Straße 33, 13347 Wedding",
   "bezirk": "Mitte",
@@ -5244,6 +5290,12 @@
  "Museum des Kapitalismus Köpenicker Str. 172 10997 Berlin Deutschland": null,
  "Museum des Kapitalismus Köpenicker Str. 172 10997, 10997 Berlin": null,
  "Museum für Kommunikation Berlin, Leipziger Str. 16, 10117, Berlin": null,
+ "Museum für Kommunikation, Berlin": {
+  "address": "Leipziger Straße 16, 10117 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5099308,
+  "lng": 13.3872552
+ },
  "Musik- und Kunstschule Berlin | Atelier der Sinne, Wilmersdorfer Straße 18, 10585, Berlin": null,
  "Musikbrauerei, Greifswalder Straße 23A, 10405, Berlin": null,
  "Musikinstrumenten-Museum, Tiergartenstraße, 10785, Berlin": {
@@ -5674,6 +5726,12 @@
   "lat": 52.4928757,
   "lng": 13.3820025
  },
+ "Other Nature, Yorckstraße 75, 10965 Berlin": {
+  "address": "Yorckstraße 75, 10965 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4928757,
+  "lng": 13.3820025
+ },
  "Otto-Braun-Straße 70-72, 10178 Berlin": {
   "address": "Otto-Braun-Straße, 10178 Mitte",
   "bezirk": "Mitte",
@@ -5829,6 +5887,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.4918988,
   "lng": 13.437787
+ },
+ "Paul-Lincke-Ufer 21, 10999 Kreuzberg, Berlin": {
+  "address": "Paul-Lincke-Ufer 21, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4937932,
+  "lng": 13.4296611
  },
  "Paula Panke, Schulstraße 25, 13187 Berlin Anfahrt: U2, S2, S8, S26, S85, Tram 50, M1, Bus 155, 250, 255, X54 Pankow": null,
  "Peppi Guggenheim, Weichselstrasse 7, 12043, Berlin": {
@@ -6271,6 +6335,12 @@
   "lat": 52.5626406,
   "lng": 13.365699
  },
+ "Residenzstraße 54, 13409 Reinickendorf, Berlin": {
+  "address": "Residenzstraße 54, 13409 Reinickendorf",
+  "bezirk": "Reinickendorf",
+  "lat": 52.5626406,
+  "lng": 13.365699
+ },
  "Reuter Str. 95, Berlin": {
   "address": "Reuterstraße 95, 12053 Neukölln",
   "bezirk": "Neukölln",
@@ -6418,6 +6488,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5002391,
   "lng": 13.4230764
+ },
+ "Rio-Reiser-Platz 1099, 10999 Berlin": {
+  "address": "Rio-Reiser-Platz, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5004307,
+  "lng": 13.4231927
  },
  "Robert Havemann Saal im Haus der Demokratie und Menschenrechte Greifswalder Straße 4 Robert Havemann Saal 10405 Berlin Deutschland": null,
  "Robert-W.-Kempner-Straße 6, 14167 Berlin": {
@@ -7156,6 +7232,12 @@
   "bezirk": "Neukölln",
   "lat": 52.4802374,
   "lng": 13.4434931
+ },
+ "Sonnenallee 127, 12059 Neukölln, Berlin": {
+  "address": "Sonnenallee 127, 12059 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4802644,
+  "lng": 13.4434219
  },
  "Sonnenallee 127, Berlin": {
   "address": "Sonnenallee 127, 12059 Neukölln",
@@ -8040,6 +8122,12 @@
   "bezirk": "Mitte",
   "lat": 52.5262536,
   "lng": 13.4122498
+ },
+ "Wiclefstraße 32, 10551 Moabit, Berlin": {
+  "address": "Wiclefstraße 32, 10551 Moabit",
+  "bezirk": "Mitte",
+  "lat": 52.5313623,
+  "lng": 13.3296189
  },
  "Wiener Str. 20, 10999 Berlin": {
   "address": "Wiener Straße 20, 10999 Kreuzberg",

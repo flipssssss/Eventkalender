@@ -1,5 +1,4 @@
-Tage: 30 | Events (vor Dedup): 140 | mit Venue: 85 | via r.jina.ai
-2026-11-01: 10 Events
+Tage: 30 | Events (vor Dedup): 134 | mit Venue: 87 | via r.jina.ai
 2026-11-02: 6 Events
 2026-11-03: 6 Events
 2026-11-04: 3 Events
@@ -29,3 +28,4 @@ Tage: 30 | Events (vor Dedup): 140 | mit Venue: 85 | via r.jina.ai
 2026-11-28: 6 Events
 2026-11-29: 3 Events
 2026-11-30: 5 Events
+2026-12-01: 4 Events

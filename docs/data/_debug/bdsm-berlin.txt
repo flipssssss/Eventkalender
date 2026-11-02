@@ -1,8 +1,8 @@
 URL: https://bdsm-berlin.de/kalender/
   HTTP-Status: 200
-  HTML-Länge: 444543 Zeichen
+  HTML-Länge: 447463 Zeichen
   JSON-LD vorhanden: True
-  Events gefunden: 42
+  Events gefunden: 43
   Mögliche Programm-Unterseiten:
     - https://bdsm-berlin.de/en/calendar/
     - https://bdsm-berlin.de/events/bdsm-stammtisch-potsdam-akari/?occurrence=2026-11-05

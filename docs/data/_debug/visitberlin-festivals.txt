@@ -1,8 +1,8 @@
 Liste: https://www.visitberlin.de/de/veranstaltungskalender-berlin?cat%5B0%5D=9312&cat%5B1%5D=9782&keys=&date_between%5Bmin%5D=&date_between%5Bmax%5D=&district=All&items_per_page=21
-Event-Links: 71 | Events: 71
+Event-Links: 74 | Events: 74
 
 Seiten:
-  page=0: 16 Links, 16 neu
+  page=0: 19 Links, 19 neu
   page=1: 21 Links, 21 neu
   page=2: 21 Links, 21 neu
   page=3: 13 Links, 13 neu
@@ -56,7 +56,10 @@ im Aufbau Haus am Moritzplatz, 10969, Berlin | Hotel Éternité
   2026-11-25 01:00:00 → 2026-11-30 01:00:00 | verschiedene Veranstaltungsorte, Berlin | Treffen junger Autor*innen
   2026-11-26 14:30:00 → 2026-11-27 19:00:00 | silent green Kulturquartier, Gerichtstraße 35, 13347, Berlin | Frohes Festival
   2026-11-26 18:00:00 → 2026-11-29 18:00:00 | verschiedene Veranstaltungsorte, Berlin | BERLINER FESTIVAL ALTER MUSIK 2026
+  2026-11-27 12:00:00 → 2026-11-27 13:00:00 | Gemäldegalerie, Matthäikirchplatz 4-6, 10785, Berlin | Faszination Renaissance – Lucas Cranach d. Ä.
   2026-12-07 20:00:00 → None | Philharmonie, Großer Saal, Herbert-von-Karajan-Straße 1, 10785, Berlin | ZeitenKlänge Musikfestival
+  2026-12-12 12:00:00 → 2026-12-13 21:00:00 | Kalle Wintergarden, Ganghofer Straße 10, 12043, Berlin | Berlin Chili Fest
+  2026-12-14 16:00:00 → 2026-12-14 23:00:00 | CABUWAZI TEMPELHOF, Columbiadamm 84, 10965, Berlin | FREEDOM OF MOVEMENT Festival
   2026-12-15 12:00:00 → 2026-12-21 12:00:00 | Verschiedene Orte, Berlin | Der KURZFILMTAG 2026
   2026-12-31 20:00:00 → None | Brandenburger Tor, Pariser Platz, 10117, Berlin | Silvester am Brandenburger Tor 2026
   2027-01-16 01:00:00 → 2027-01-24 01:00:00 | e_0000000833-loc_bbfest, Berlin | PURPLE 2027

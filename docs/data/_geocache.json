@@ -560,6 +560,7 @@
  },
  "Alte Kita, Hasselwerderstr. 22A, 12439, Berlin": null,
  "Alter Schwede Schwedenstrasse 11A 13357 Berlin Deutschland": null,
+ "Alter Schwede, Schwedenstr. 11A, 13357, Berlin": null,
  "Altonaer Straße 22, 10557 Berlin": {
   "address": "Altonaer Straße 22, 10557 Hansaviertel",
   "bezirk": "Mitte",
@@ -681,6 +682,7 @@
   "lng": 13.4666059
  },
  "Annemirl-Bauer-Platz, bei den Tischtennisplatten, 10245 Berlin": null,
+ "Another Country Bookshop, Riemannstraße 7, 10961 Berlin": null,
  "Anti-Kriegs-Museum Berlin Brüsseler Str. 21 13353 Berlin Deutschland": {
   "address": "Brüsseler Straße 21, 13353 Wedding",
   "bezirk": "Mitte",
@@ -1437,6 +1439,12 @@
   "lat": 52.5458366,
   "lng": 13.348105
  },
+ "Brüsseler Straße 36a, 13353 Berlin": {
+  "address": "Brüsseler Straße 36A, 13353 Wedding",
+  "bezirk": "Mitte",
+  "lat": 52.5458366,
+  "lng": 13.348105
+ },
  "Buchberger Str. 6, 10365 Berlin": {
   "address": "Buchberger Straße 6, 10365 Lichtenberg",
   "bezirk": "Lichtenberg",
@@ -1553,6 +1561,7 @@
   "lat": 52.4962066,
   "lng": 13.365417
  },
+ "CABUWAZI TEMPELHOF, Columbiadamm 84, 10965, Berlin": null,
  "CCCB, Marienstraße 11, 10117 Berlin": null,
  "CHIP Jugendhaus, Reichenberger Straße 44-45, 10999 Berlin": null,
  "Cafe Cralle, Hochstädter Straße 10a, 13347 Berlin": null,
@@ -1749,6 +1758,7 @@
   "lng": 13.2917601
  },
  "Citti Punkt e.V., Brüsseler Straße 36 A, 13353 Berlin": null,
+ "Cittipunkt e.V. Brüsseler Straße 36a 13353 Berlin Deutschland": null,
  "Cittipunkt e.V., Brüsseler Straße 36 A, 13353 Berlin": null,
  "City Kino Wedding Müllerstraße 74 13349 Berlin Deutschland": null,
  "City-Kino Wedding, Müllerstraße 74 13349 Berlin": null,
@@ -1795,6 +1805,12 @@
   "bezirk": "Tempelhof-Schöneberg",
   "lat": 52.484016,
   "lng": 13.391197
+ },
+ "Columbiadamm 84, 10965 Berlin": {
+  "address": "Columbiadamm 84, 10965 Tempelhof",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4819481,
+  "lng": 13.4016791
  },
  "Columbiadamm 9-11, 10965 Berlin, Germany": {
   "address": "Columbiadamm 9-11, 10965 Tempelhof",
@@ -2404,6 +2420,12 @@
  "GalileA, Rost- und Silberlaube an der FU Otto-von-Simson-Str. 26 14195 Berlin Deutschland": null,
  "GalileⒶ FU Berlin, 1. Obergeschoss der Silberlaube über der Mensa 2, Otto-von-Simson-Straße 26 14195 Berlin": null,
  "Gambino’s by AMANO, Berlin": null,
+ "Ganghofer Straße 10, 12043 Berlin": {
+  "address": "Ganghoferstraße 10, 12043 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4794325,
+  "lng": 13.4394853
+ },
  "Garten Markgrafendamm 24c, 10245 Berlin": null,
  "Gecekondu, Admiralstraße 1-2, 10999 Berlin": null,
  "Gemeinsame, Berlin": null,
@@ -2414,6 +2436,7 @@
   "lat": 52.5085133,
   "lng": 13.3647492
  },
+ "Gemäldegalerie, Matthäikirchplatz 4-6, 10785, Berlin": null,
  "Genezareth-Kirche Herrfurthplatz 1 12049 Berlin Deutschland": null,
  "Genter Straße 60, 13353 Berlin": {
   "address": "Genter Straße 60, 13353 Wedding",
@@ -3538,6 +3561,7 @@
   "lng": 13.5194765
  },
  "Kalabal!k Reichenbergerstr. 63a 10999 Berlin Deutschland": null,
+ "Kalle Wintergarden, Ganghofer Straße 10, 12043, Berlin": null,
  "Kammermusiksaal, Herbert-von-Karajan-Straße 1, 10785, Berlin": null,
  "Kandeler Weg 3, 13583 Falkenhagener Feld, Berlin": {
   "address": "Kandeler Weg 3, 13583 Falkenhagener Feld",
@@ -4286,6 +4310,7 @@
   "lat": 52.5218468,
   "lng": 13.379565
  },
+ "Landgericht ll Littenstr. 12-17 10179 Berlin Deutschland": null,
  "Landsberger Allee 364, 10365 Berlin": {
   "address": "Landsberger Allee 364, 10365 Lichtenberg",
   "bezirk": "Lichtenberg",
@@ -4609,6 +4634,12 @@
   "bezirk": "Mitte",
   "lat": 52.55045,
   "lng": 13.3603197
+ },
+ "Littenstr. 12-17, 10179 Berlin": {
+  "address": "Littenstraße 12-17, 10179 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.51868,
+  "lng": 13.4135828
  },
  "Little Stage Berlin, Jonasstraße, 12053, Berlin": {
   "address": "Jonasstraße 1, 12053 Neukölln",
@@ -5054,6 +5085,12 @@
   "bezirk": "Charlottenburg-Wilmersdorf",
   "lat": 52.5079418,
   "lng": 13.2766281
+ },
+ "Matthäikirchplatz 4-6, 10785 Berlin": {
+  "address": "Matthäikirchplatz, 10785 Tiergarten",
+  "bezirk": "Mitte",
+  "lat": 52.5081976,
+  "lng": 13.3673249
  },
  "Matthäikirchplatz, 10785 Berlin": {
   "address": "Matthäikirchplatz, 10785 Tiergarten",
@@ -5700,6 +5737,12 @@
   "lat": 52.5029425,
   "lng": 13.4142022
  },
+ "Oranienstraße 58, 10969 Berlin": {
+  "address": "Oranienstraße 58, 10969 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5037969,
+  "lng": 13.4114492
+ },
  "Oraninplatz 1099, 10999 Berlin": null,
  "Oraninplatz, 10999 Berlin": null,
  "Ort bei Anmeldung Ort bei Anmeldung Berlin": null,
@@ -6009,6 +6052,7 @@
   "lat": 52.5427072,
   "lng": 13.4191812
  },
+ "Plänterwald entrance at the corner of Bulgarische Str. & Neue Krugallee, Berlin": null,
  "Plänterwald entrance at the corner of Bulgarische Str. & Neue Krugallee., Berlin": null,
  "Potsdamer Platz 1011, 10117 Berlin": {
   "address": "Potsdamer Platz, 10117 Tiergarten",
@@ -6407,6 +6451,12 @@
   "lat": 52.5124527,
   "lng": 13.3072111
  },
+ "Riemannstraße 7, 10961 Berlin": {
+  "address": "Riemannstraße 7, 10961 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4901081,
+  "lng": 13.3929406
+ },
  "Rigaer 94 Berlin Deutschland": {
   "address": "Rigaer Straße 94, 10247 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -6747,6 +6797,7 @@
   "lng": 13.6060882
  },
  "Salon Franz Mehring Platz 1 10243 Berlin Deutschland": null,
+ "Salon am Moritzplatz, Oranienstraße 58, 10969 Berlin": null,
  "Sama32 Samariterstr. 32 10247 Berlin Deutschland": {
   "address": "Samariterstraße 32, 10247 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -7003,6 +7054,12 @@
   "lng": 13.3194006
  },
  "Schwarze Risse Gneisenaustr. 2a 10961 Berlin Deutschland": null,
+ "Schwedenstr. 11A, 13357 Berlin": {
+  "address": "Schwedenstraße 11a, 13357 Gesundbrunnen",
+  "bezirk": "Mitte",
+  "lat": 52.5558695,
+  "lng": 13.3743354
+ },
  "Schwedenstrasse 11A, 13357 Berlin": {
   "address": "Schwedenstraße 11a, 13357 Gesundbrunnen",
   "bezirk": "Mitte",
@@ -7861,6 +7918,12 @@
   "lat": 52.5171465,
   "lng": 13.3961451
  },
+ "Unter den Linden 76, 10117 Berlin": {
+  "address": "Unter den Linden 76, 10117 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5168286,
+  "lng": 13.3810657
+ },
  "Unterfilm Clubkino, Saarbrücker Str. 23, 10405, Berlin": {
   "address": "Saarbrücker Straße 23, 10405 Prenzlauer Berg",
   "bezirk": "Pankow",
@@ -7894,6 +7957,12 @@
  },
  "Vetomat Wühlischstr. 42 10247, 10247 Berlin": null,
  "Vierte Welt Adalbertstr. 96 Berlin Deutschland": null,
+ "Vierte Welt, Adalbertstraße 4, 10999, Berlin": {
+  "address": "Adalbertstraße 4, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4996795,
+  "lng": 13.4192996
+ },
  "Viktoriastraße 10-18, 12105 Berlin": {
   "address": "Viktoriastraße 10-18, 12105 Tempelhof",
   "bezirk": "Tempelhof-Schöneberg",

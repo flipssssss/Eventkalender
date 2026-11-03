@@ -1,23 +1,22 @@
-ExhibitionEvents -> Events: 26
-  2026-11-02 Dschingis Khan: Die Welt der Mongolen
-  2026-11-02 Maurizio Cattelan: Night – Preis der Nationalgaler
-  2026-11-02 Lina Lapelytė: We Make Years Out of Hours – Chanel
-  2026-11-02 Nizo Yamamoto: Meister der Anime-Szenografie
-  2026-11-02 Next Door: Tacita Dean und Bruce Nauman, Thomas De
-  2026-11-02 Über Zeiten: Gursky, Lucas, Miró, Warhol und die K
-  2026-11-02 Lovis Corinth: Dann kam Berlin!
-  2026-11-02 Ryuichi Sakamoto: seeing sound, hearing time
-  2026-11-02 Josef Kaiser: Bauen für die DDR
-  2026-11-02 Zwischen Bäumen
-  2026-11-02 Gabriele Stötzer: Dabei sein und nicht schweigen
-  2026-11-02 Kreuzberg: Kunst und Migration seit 1960
-  2026-11-02 Courage: Schwestern im Geiste
-  2026-11-02 Ruin und Rausch: Berlin 1910–1930
-  2026-11-02 Christoph Schlingensief: Es ist nicht mehr mein Pr
-  2026-11-02 Susan Hiller: Bad Dreams
-  2026-11-02 Projektionen auf den Osten
-  2026-11-02 Metaxy: Zwischen Zerstörung und Wiederaufbau
-  2026-11-02 Die Magie der Straße
+ExhibitionEvents -> Events: 25
+  2026-11-03 Dschingis Khan: Die Welt der Mongolen
+  2026-11-03 Maurizio Cattelan: Night – Preis der Nationalgaler
+  2026-11-03 Lina Lapelytė: We Make Years Out of Hours – Chanel
+  2026-11-03 Nizo Yamamoto: Meister der Anime-Szenografie
+  2026-11-03 Next Door: Tacita Dean und Bruce Nauman, Thomas De
+  2026-11-03 Über Zeiten: Gursky, Lucas, Miró, Warhol und die K
+  2026-11-03 Lovis Corinth: Dann kam Berlin!
+  2026-11-03 Ryuichi Sakamoto: seeing sound, hearing time
+  2026-11-03 Josef Kaiser: Bauen für die DDR
+  2026-11-03 Zwischen Bäumen
+  2026-11-03 Gabriele Stötzer: Dabei sein und nicht schweigen
+  2026-11-03 Kreuzberg: Kunst und Migration seit 1960
+  2026-11-03 Courage: Schwestern im Geiste
+  2026-11-03 Ruin und Rausch: Berlin 1910–1930
+  2026-11-03 Christoph Schlingensief: Es ist nicht mehr mein Pr
+  2026-11-03 Susan Hiller: Bad Dreams
+  2026-11-03 Metaxy: Zwischen Zerstörung und Wiederaufbau
+  2026-11-03 Die Magie der Straße
   2026-11-05 Roger Ballen: roger ballen.! drawing meets photogr
   2026-11-12 Sophie Calle: Is It Better?
   2026-11-27 Ulay, Ulay & Abramović

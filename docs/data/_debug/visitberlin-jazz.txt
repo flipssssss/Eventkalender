@@ -4,13 +4,12 @@ Event-Links: 19 | Events: 18
 Seiten:
   eine Seite: 19 Links
 
-Zeitraum der Starts: 2026-09-14 19:00:00 … 2026-11-14 19:30:00
+Zeitraum der Starts: 2026-09-14 19:00:00 … 2026-11-18 20:00:00
 
   2026-09-14 19:00:00 → 2027-01-18 21:00:00 | Bredouille Bar, Georgenstraße 199, 10117, Berlin | radio3 Listening Lounge
   2026-10-09 20:00:00 → 2026-12-02 20:00:00 | EUREF-Campus Berlin, Torgauer Straße 25, 10829, Berlin | ZigZag Hall – Berlins neue Bühne für Jazz und Live-Musik
   2026-10-26 20:00:00 → 2026-12-28 23:30:00 | Café Engels, Herrfurthstr. 21, 12049, Berlin | Blue Moonday Jazzsession
   2026-10-27 19:30:00 → 2026-12-29 22:00:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Session im ART Stalker
-  2026-11-03 20:00:00 → 2026-11-03 22:00:00 | Werkstatt 26 (W26), EUREF-Campus 26, 10829, Berlin | Zig Zag Hall: Emmet Cohen
   2026-11-05 20:00:00 → 2026-11-05 22:00:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | The Bottomline - Independent Jazz / Cinematic Trip Hop
   2026-11-06 19:00:00 → 2026-11-06 21:00:00 | Maschinenhaus in der Kulturbrauerei, Knaackstraße 97 / U2 Eberswalder Straße, 10435, Berlin | Preacherman & The Blues Missionaries
   2026-11-06 19:30:00 → 2026-11-06 21:30:00 | Kulturhaus Centre Bagatelle e.V., Zeltinger Str. 6, 13465, Berlin-Frohnau | Die neuen Roaring 20s-Urban Swing
@@ -25,3 +24,4 @@ Zeitraum der Starts: 2026-09-14 19:00:00 … 2026-11-14 19:30:00
   2026-11-13 20:00:00 → None | Little Stage Berlin, Jonasstraße, 12053, Berlin | Slow Loris Quartet
   2026-11-14 19:30:00 → None | Das Jüdische Kulturschiff MS Goldberg, Schifffahrtsufer 2
 an der Dischinger Brücke, 13581, Berlin-Spandau | Stripper Blues
+  2026-11-18 20:00:00 → 2026-11-18 22:00:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Alessandro Tarshahani and the Band

@@ -1,10 +1,10 @@
 Liste: https://www.visitberlin.de/de/kategorie/blues-jazz
-Event-Links: 19 | Events: 18
+Event-Links: 19 | Events: 19
 
 Seiten:
   eine Seite: 19 Links
 
-Zeitraum der Starts: 2026-09-14 19:00:00 … 2026-11-18 20:00:00
+Zeitraum der Starts: 2026-09-14 19:00:00 … 2026-11-19 20:00:00
 
   2026-09-14 19:00:00 → 2027-01-18 21:00:00 | Bredouille Bar, Georgenstraße 199, 10117, Berlin | radio3 Listening Lounge
   2026-10-09 20:00:00 → 2026-12-02 20:00:00 | EUREF-Campus Berlin, Torgauer Straße 25, 10829, Berlin | ZigZag Hall – Berlins neue Bühne für Jazz und Live-Musik
@@ -25,3 +25,4 @@ Zeitraum der Starts: 2026-09-14 19:00:00 … 2026-11-18 20:00:00
   2026-11-14 19:30:00 → None | Das Jüdische Kulturschiff MS Goldberg, Schifffahrtsufer 2
 an der Dischinger Brücke, 13581, Berlin-Spandau | Stripper Blues
   2026-11-18 20:00:00 → 2026-11-18 22:00:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Alessandro Tarshahani and the Band
+  2026-11-19 20:00:00 → 2026-11-19 23:00:00 | Kulturhaus "alte feuerwache" Friedrichshain, Marchlewskistr. 6, 10243, Berlin | Jazz in der Alten Feuerwache | Lionel Haas Trio

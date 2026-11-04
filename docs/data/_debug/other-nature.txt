@@ -1,4 +1,4 @@
-entries: 10 | Events: 9
+entries: 9 | Events: 9
   2026-11-10 19:00:00 | Woher weiß ich was ich will?
   2026-11-12 19:00:00 | Rethinking Relationships Game Night
   2026-11-17 19:00:00 | Hooked on Vulvas – Häkel dir eine Vulva! Teil 2

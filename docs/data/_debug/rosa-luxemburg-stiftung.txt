@@ -1,4 +1,4 @@
-Teaser: 209 | Berlin: 35 | andere Städte: 174 | mit Beschreibung: 34
+Teaser: 213 | Berlin: 36 | andere Städte: 177 | mit Beschreibung: 35
   2026-11-02 19:00:26 | Berlin | Alles meins?
   2026-11-03 10:00:00 | Berlin | Wurde das einst „rote Berlin“ 1933 vom Faschismus zerschlagen?
   2026-11-03 19:00:00 | Berlin | Bumerangeffekte. Russland, der Ukrainekrieg und die Folgen
@@ -8,9 +8,10 @@ Teaser: 209 | Berlin: 35 | andere Städte: 174 | mit Beschreibung: 34
   2026-11-05 19:00:00 | Berlin | From the material intellect to ‘social virtuosity'
   2026-11-06 18:00:33 | Berlin | Trending Now: The End of the World
   2026-11-06 19:00:57 | Berlin | Israels Bumerangeffekt. Von der Besatzung zum Ende der Demokratie
-  2026-11-07 11:00:00 | Berlin | Umbau! IBA? in Berlin und Brandenburg
+  2026-11-07 11:00:56 | Berlin | Umbau! IBA? In Berlin und Brandenburg
   2026-11-09 18:00:27 | Berlin | Literarische Erinnerungsbilder
   2026-11-10 10:00:00 | Berlin | Perspektiven Israels nach den Wahlen zur Knesset
+  2026-11-11 18:00:46 | Berlin | Nicht neutral - Politische Bildung für Demokratie und Pluralität
   2026-11-11 20:00:46 | Berlin | Identitti
   2026-11-12 18:00:09 | Berlin | „Die Rechte Indigener Völker schützen!“
   2026-11-12 19:00:00 | Berlin | Der Fall August Hanning und die geplante BND-"Großreform"
@@ -28,4 +29,3 @@ Teaser: 209 | Berlin: 35 | andere Städte: 174 | mit Beschreibung: 34
   2026-11-23 20:00:00 | Berlin | “Was bedeutet für Dich Widerstand”. Eine Pasolini-Lektüre
   2026-11-24 10:00:00 | Berlin | Justizirrtümer, Vertuschungen und Fehlurteile
   2026-11-24 18:00:00 | Berlin | Fritz Cremer - Aufrecht!
-  2026-11-25 19:00:00 | Berlin | Zeitenwende 1956. Eine globale Revolte als Geburtsstunde der „Neuen Linken“

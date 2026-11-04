@@ -1757,6 +1757,7 @@
   "lat": 52.5168428,
   "lng": 13.2917601
  },
+ "Circus Schatzinsel May-Ayim-Ufer 4 10997 Berlin Deutschland": null,
  "Citti Punkt e.V., Brüsseler Straße 36 A, 13353 Berlin": null,
  "Cittipunkt e.V. Brüsseler Straße 36a 13353 Berlin Deutschland": null,
  "Cittipunkt e.V., Brüsseler Straße 36 A, 13353 Berlin": null,
@@ -2961,6 +2962,7 @@
   "lat": 52.4791465,
   "lng": 13.5075324
  },
+ "Heile Haus Waldemarstraße 36 10997 Berlin Deutschland": null,
  "Heimathafen Neukölln Karl-Marx-Str. 141 12043 Berlin Deutschland": {
   "address": "Karl-Marx-Straße 141, 12043 Neukölln",
   "bezirk": "Neukölln",
@@ -3425,6 +3427,7 @@
  "Joris Kern, Berlin": null,
  "Jugendclub Schloßstraße, Schloßstraße 19, 14059 Berlin": null,
  "Jugendclub, Schloßstraße 9, 14059 Berlin": null,
+ "Jugendhaus Königstadt Saarbrücker Str. 24 Deutschland, Berlin": null,
  "Jugendkulturzentrum M24 Mühlenstr.24, 13187 Berlin Deutschland": null,
  "Jugendzentrum DieLynar, Lynarstraße 14, 13353 Berlin": null,
  "Jules B-Part am Gleisdreieck Park, Luckenwalder Str. 6b, 10963, Berlin": null,
@@ -3742,6 +3745,7 @@
   "lng": 13.4093332
  },
  "Kastanienkeller Kastanienallee 85 HH 10435 Berlin Deutschland": null,
+ "Keimzelle, Rigaer Straße 94, 10247 Berlin": null,
  "Kerala Space, Berlin": null,
  "Kesselhaus in der KulturBrauerei, Knaackstraße 97, 10435, Berlin": null,
  "Kiehnwerderallee 2, 12437 Berlin": {
@@ -5130,6 +5134,12 @@
   "bezirk": "Mitte",
   "lat": 52.5190141,
   "lng": 13.3950767
+ },
+ "May-Ayim-Ufer 4, 10997 Berlin": {
+  "address": "May-Ayim-Ufer, 10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5019815,
+  "lng": 13.4430175
  },
  "Maybachufer 36, 12047 Berlin": {
   "address": "Maybachufer 36-38, 12047 Neukölln",
@@ -6785,6 +6795,12 @@
  },
  "SZ Aenne Saefkow Alfredstr. 24 Berlin Deutschland": null,
  "SZ Aenne Saefkow, Alfredstraße 24, 10365 Berlin": null,
+ "Saarbrücker Str. 24, Berlin": {
+  "address": "Saarbrücker Straße 24, 10405 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5295306,
+  "lng": 13.4125947
+ },
  "Sachsendamm 76-77, 10829 Schöneberg, Berlin": {
   "address": "Sachsendamm 76-77, 10829 Schöneberg",
   "bezirk": "Tempelhof-Schöneberg",
@@ -8058,6 +8074,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5009671,
   "lng": 13.4284093
+ },
+ "Waldemarstraße 36, 10997 Berlin": {
+  "address": "Waldemarstraße 36, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.503462,
+  "lng": 13.4191735
  },
  "Walter‑Friedrich‑Straße 32, 13125 Berlin": {
   "address": "Walter-Friedrich-Straße 32, 13125 Buch",

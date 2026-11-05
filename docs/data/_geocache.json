@@ -368,6 +368,12 @@
   "lat": 52.5019589,
   "lng": 13.4197709
  },
+ "Adalbertstraße 96, 10999 Berlin": {
+  "address": "Adalbertstraße 96, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5001289,
+  "lng": 13.418065
+ },
  "Adalbertstraße Ecke Bethaniendamm, 10999 Berlin": null,
  "Adalbertstraße, 10997 Kreuzberg, Berlin": {
   "address": "Adalbertstraße, 10997 Kreuzberg",
@@ -634,6 +640,12 @@
   "lng": 13.3924936
  },
  "Amira & Christiane, Berlin": null,
+ "Amtsgericht Charlottenburg Amtsgerichtsplatz 1 14057 Berlin Deutschland": {
+  "address": "Amtsgerichtsplatz 1, 14057 Charlottenburg",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.505706,
+  "lng": 13.2945239
+ },
  "Amtsgericht Tiergarten Turmstr. 91 10559 Berlin Deutschland": null,
  "Amtsgericht Tiergarten Turmstr. 91 10559, 10559 Berlin": null,
  "Amtsgericht Tiergarten, Saal A672, Turmstraße 91, 10559 Berlin": null,
@@ -663,6 +675,7 @@
   "lng": 13.4307181
  },
  "An der Wuhlheide / Spindlersfelder Straße, 12459 Berlin": null,
+ "Andy Buru, Berlin": null,
  "Anmeldung erforderlich Anmeldung via E-Mail an: iqpb[ät]riseup.net oder Insta @iqpberlin": null,
  "Anna Landsberger Prötzeler Ring 13 12685 Berlin Deutschland": {
   "address": "Prötzeler Ring 13, 12685 Marzahn",
@@ -695,6 +708,12 @@
   "bezirk": "Mitte",
   "lat": 52.5126159,
   "lng": 13.3954281
+ },
+ "Antonplatz, 13088 Berlin": {
+  "address": "Antonplatz, Weißensee",
+  "bezirk": "Pankow",
+  "lat": 52.5480563,
+  "lng": 13.4510903
  },
  "Aquarium hinterm Südblock Skalitzer Straße 6 10999 Berlin Deutschland": null,
  "Aquarium, Skalitzer Straße 6, 10999 Berlin": {
@@ -944,6 +963,7 @@
   "lat": 52.499513,
   "lng": 13.4427102
  },
+ "Begegnungsstätte für Jung und Alt Stille Straße 10 13156 Berlin Deutschland": null,
  "Behaimstraße 17, 10585 Berlin": {
   "address": "Behaimstraße 17, 10585 Charlottenburg",
   "bezirk": "Charlottenburg-Wilmersdorf",
@@ -1731,6 +1751,12 @@
   "bezirk": "Mitte",
   "lat": 52.5274482,
   "lng": 13.3864664
+ },
+ "Checkpoint BLN, Berlin": {
+  "address": "Hermannstraße 256-258, 12049 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4858353,
+  "lng": 13.42456
  },
  "Checkpoint Charlie, Friedrichstraße 43-45, 10117 Berlin": null,
  "Choriner Straße 10, 10119 Berlin": {
@@ -5057,6 +5083,7 @@
   "lng": 13.466302
  },
  "Marokkanische Botschaft, Niederwallstr. 39 10117 Berlin Deutschland": null,
+ "Marrokanische Botschaft, Niederwallstraße 39, 10117 Berlin": null,
  "Martha Bethaniendamm Berlin": null,
  "Martha Bethaniendamm Berlin Deutschland": null,
  "Martha-Ndumbe-Platz, 13347 Berlin": {
@@ -5505,6 +5532,12 @@
   "lng": 13.3819472
  },
  "Niederwallstr. 39, 10117 Berlin": {
+  "address": "Niederwallstraße 39, 10117 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5130539,
+  "lng": 13.3977882
+ },
+ "Niederwallstraße 39, 10117 Berlin": {
   "address": "Niederwallstraße 39, 10117 Mitte",
   "bezirk": "Mitte",
   "lat": 52.5130539,
@@ -7462,6 +7495,12 @@
   "lat": 52.5562097,
   "lng": 13.4109431
  },
+ "Stille Straße 10, 13156 Berlin": {
+  "address": "Stille Straße 10, 13156 Niederschönhausen",
+  "bezirk": "Pankow",
+  "lat": 52.5766607,
+  "lng": 13.4028224
+ },
  "Storkower Str. 123, 10407 Berlin": {
   "address": "Storkower Straße 123, 10407 Prenzlauer Berg",
   "bezirk": "Pankow",
@@ -7980,6 +8019,7 @@
   "lat": 52.4996795,
   "lng": 13.4192996
  },
+ "Vierte Welt, Kottbusser Tor, Adalbertstraße 96, 10999 Berlin": null,
  "Viktoriastraße 10-18, 12105 Berlin": {
   "address": "Viktoriastraße 10-18, 12105 Tempelhof",
   "bezirk": "Tempelhof-Schöneberg",
@@ -8162,6 +8202,12 @@
   "bezirk": "Lichtenberg",
   "lat": 52.5036298,
   "lng": 13.4945048
+ },
+ "Weißensee, Berlin": {
+  "address": "Weißensee",
+  "bezirk": "Pankow",
+  "lat": 52.5546193,
+  "lng": 13.4630018
  },
  "Welser Straße 20, 10777 Berlin": {
   "address": "Welserstraße, 10777 Schöneberg",

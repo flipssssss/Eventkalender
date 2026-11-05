@@ -1,18 +1,16 @@
-API-Events: 98 | übernommen: 98
-  2026-11-04 19:00:00 | Punk | MOVING AS A GIANT (fuzz-noise-rock, slo) & SOUL CLEAR (shoegaze-post-punk, bln)
-  2026-11-04 19:00:00 | Punk | MELT-BANANA - Neue Zukunft, Berlin
-  2026-11-04 19:00:00 | Punk | Punk im KuBiz - Das Blanke Extrem (post punk, Freiburg), Lea (acoustic punk, Berlin), Describing Unity (anarcha queer folk punk, Berlin)
-  2026-11-05 19:00:00 | None | Monolord · Columbia Theater · Berlin
-  2026-11-05 19:00:00 | Punk | Los Sara Fontán (esp) + Franna (bln)
-  2026-11-05 19:00:00 | Punk | ADI SCOTHEQUE (Bln) & CEL RAY (U.S.)
+API-Events: 96 | übernommen: 96
   2026-11-05 19:00:00 | Punk | Nox A Carnival Vol. 13
+  2026-11-05 19:00:00 | Punk | ADI SCOTHEQUE (Bln) & CEL RAY (U.S.)
+  2026-11-05 19:00:00 | Punk | Los Sara Fontán (esp) + Franna (bln)
   2026-11-05 19:00:00 | Punk | Pro Pain, punishable Act, Fuck
+  2026-11-05 19:00:00 | None | Monolord · Columbia Theater · Berlin
   2026-11-06 16:45:00 | None | Queer Tours for All! - Radical Prenzlauer Berg
+  2026-11-06 18:00:00 | None | HERAUS ZUM ANTIFA CORNERN! Kommt zum antifaschistischen Cornern in Berlin-Weißensee!
   2026-11-06 18:30:00 | Punk | HC Show im K19 mit NOWAR + NECESSITY + PRECIOUS
   2026-11-06 18:30:00 | Punk | FOTOKILLER, S.U.G.A.R., VUG
-  2026-11-06 19:00:00 | None | SILK + Support
   2026-11-06 19:00:00 | Punk | FERVENTS (indie/punk, bel) & ULLA SUSPEKT (nndw/post-punk/wave, nbg)
   2026-11-06 19:00:00 | None | Frau Mansmann + Driven by Clockwork
+  2026-11-06 19:00:00 | None | SILK + Support
   2026-11-06 20:00:00 | Punk | INHUMAN NATURE + STATE POWER + NINTH REALM
   2026-11-07 18:30:00 | Punk | Acht Eimer Hühnerherzen - 10-Jahre-Jubiläumskonzert, mit Akne Kid Joe, Iedereen, Schreng Schreng & La La
   2026-11-07 19:00:00 | None | MONAD + SWEETSPOT
@@ -28,4 +26,6 @@ API-Events: 98 | übernommen: 98
   2026-11-12 19:00:00 | None | SAUFEN - PunkRock Lyrik Lesung
   2026-11-12 19:00:00 | Punk | UNS + Gäste
   2026-11-12 19:00:00 | Punk | PAT AND THE PISSERS (U.S.) & DIE HAARE (Bln)
+  2026-11-12 20:00:00 | Indie | Elephant Stone • Sacred Buzz • Double Album Release Show at Neue Zukunft, Berlin
   2026-11-12 20:00:00 | None | MESSA - EU / UK Tour Fall 2026 / Berlin
+  2026-11-12 20:00:00 | Punk | Sofoquina + Ross Peacock + twerkonkraftwerk

@@ -1,4 +1,4 @@
-Teaser: 213 | Berlin: 36 | andere Städte: 177 | mit Beschreibung: 35
+Teaser: 216 | Berlin: 37 | andere Städte: 179 | mit Beschreibung: 36
   2026-11-02 19:00:26 | Berlin | Alles meins?
   2026-11-03 10:00:00 | Berlin | Wurde das einst „rote Berlin“ 1933 vom Faschismus zerschlagen?
   2026-11-03 19:00:00 | Berlin | Bumerangeffekte. Russland, der Ukrainekrieg und die Folgen

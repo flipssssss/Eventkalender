@@ -1,26 +1,26 @@
 ExhibitionEvents -> Events: 25
-  2026-11-05 Dschingis Khan: Die Welt der Mongolen
-  2026-11-05 Maurizio Cattelan: Night – Preis der Nationalgaler
-  2026-11-05 Lina Lapelytė: We Make Years Out of Hours – Chanel
-  2026-11-05 Nizo Yamamoto: Meister der Anime-Szenografie
-  2026-11-05 Next Door: Tacita Dean und Bruce Nauman, Thomas De
-  2026-11-05 Über Zeiten: Gursky, Lucas, Miró, Warhol und die K
-  2026-11-05 Lovis Corinth: Dann kam Berlin!
-  2026-11-05 Ryuichi Sakamoto: seeing sound, hearing time
-  2026-11-05 Josef Kaiser: Bauen für die DDR
-  2026-11-05 Zwischen Bäumen
-  2026-11-05 Gabriele Stötzer: Dabei sein und nicht schweigen
-  2026-11-05 Kreuzberg: Kunst und Migration seit 1960
-  2026-11-05 Courage: Schwestern im Geiste
-  2026-11-05 Ruin und Rausch: Berlin 1910–1930
-  2026-11-05 Christoph Schlingensief: Es ist nicht mehr mein Pr
-  2026-11-05 Susan Hiller: Bad Dreams
-  2026-11-05 Metaxy: Zwischen Zerstörung und Wiederaufbau
-  2026-11-05 Die Magie der Straße
-  2026-11-05 Roger Ballen: roger ballen.! drawing meets photogr
-  2026-11-12 Sophie Calle: Is It Better?
-  2026-11-27 Ulay, Ulay & Abramović
+  2026-11-06 Dschingis Khan: Die Welt der Mongolen
+  2026-11-06 Maurizio Cattelan: Night – Preis der Nationalgaler
+  2026-11-06 Lina Lapelytė: We Make Years Out of Hours – Chanel
+  2026-11-06 Nizo Yamamoto: Meister der Anime-Szenografie
+  2026-11-06 Next Door: Tacita Dean und Bruce Nauman, Thomas De
   2026-11-06 Schwedische Moderne
   2026-11-06 Die Impressionisten: Monet, Morisot, Renoir und ih
+  2026-11-06 Roger Ballen: roger ballen.! drawing meets photogr
+  2026-11-06 Über Zeiten: Gursky, Lucas, Miró, Warhol und die K
+  2026-11-06 Lovis Corinth: Dann kam Berlin!
+  2026-11-06 Ryuichi Sakamoto: seeing sound, hearing time
+  2026-11-06 Josef Kaiser: Bauen für die DDR
+  2026-11-06 Zwischen Bäumen
+  2026-11-06 Gabriele Stötzer: Dabei sein und nicht schweigen
+  2026-11-06 Kreuzberg: Kunst und Migration seit 1960
+  2026-11-06 Courage: Schwestern im Geiste
+  2026-11-06 Ruin und Rausch: Berlin 1910–1930
+  2026-11-06 Christoph Schlingensief: Es ist nicht mehr mein Pr
+  2026-11-06 Susan Hiller: Bad Dreams
+  2026-11-06 Metaxy: Zwischen Zerstörung und Wiederaufbau
+  2026-11-06 Die Magie der Straße
+  2026-11-12 Sophie Calle: Is It Better?
+  2026-11-27 Ulay, Ulay & Abramović
   2026-12-02 Helmut Newton’s Early Books
   2026-12-17 HR Giger, Beksiński, Ruppert, Lynch: Im Schatten d

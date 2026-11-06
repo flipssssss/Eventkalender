@@ -1309,6 +1309,12 @@
   "lat": 52.5029601,
   "lng": 13.3907772
  },
+ "Boxhagener Platz (Friedrichshain) Berlin Deutschland": {
+  "address": "Boxhagener Platz, Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5108076,
+  "lng": 13.459703
+ },
  "Boxhagener Platz 1, 10245 Berlin": {
   "address": "Boxhagener Platz 1, 10245 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -3259,6 +3265,12 @@
   "lng": 13.4430391
  },
  "IG-Metall-Haus, Alte Jakobstraße 149, 10969 Berlin": null,
+ "IKSK – Institut für Körperforschung und sexuelle Kultur, Berlin": {
+  "address": "Holzmarktstraße 25, 10243 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5116921,
+  "lng": 13.4263208
+ },
  "IKSK, Holzmarktstraße 25, 10243 Berlin": {
   "address": "Holzmarktstraße 25, 10243 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -4046,6 +4058,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5131367,
   "lng": 13.4600201
+ },
+ "Kreutzigerstraße 18, 10247 Berlin": {
+  "address": "Kreutzigerstraße 18, 10247 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5130346,
+  "lng": 13.459936
  },
  "Kreutzigerstraße 18, Berlin": {
   "address": "Kreutzigerstraße 18, 10247 Friedrichshain",
@@ -5796,6 +5814,12 @@
   "lat": 52.5373536,
   "lng": 13.5300088
  },
+ "Osloer Straße 1335, 13359 Berlin": {
+  "address": "Osloer Straße, 13359 Gesundbrunnen",
+  "bezirk": "Mitte",
+  "lat": 52.5560804,
+  "lng": 13.3836149
+ },
  "Osloer Straße 36, 13359 Berlin": {
   "address": "Osloer Straße 36, 13359 Gesundbrunnen",
   "bezirk": "Mitte",
@@ -5897,6 +5921,7 @@
   "lat": 52.5398077,
   "lng": 13.4133001
  },
+ "PONY, Siegfriedstraße 12, 12051 Berlin": null,
  "Pakistanische Botschaft, Schaperstraße 29, 10719 Berlin": null,
  "Paloma Bar, Berlin": {
   "address": "Skalitzer Straße, 10999 Kreuzberg",
@@ -6476,6 +6501,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5076116,
   "lng": 13.451645
+ },
+ "Revaler Straße 99, 10245 Berlin, Germany": {
+  "address": "Revaler Straße 99, 10245 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5064417,
+  "lng": 13.4572149
  },
  "Revaler Straße 99, 10245 Friedrichshain, Berlin": {
   "address": "Revaler Straße 99, 10245 Friedrichshain",
@@ -7253,6 +7284,12 @@
   "lat": 52.5633944,
   "lng": 13.3772792
  },
+ "Siegfriedstraße 12, 12051 Berlin": {
+  "address": "Siegfriedstraße 12, 12051 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.468412,
+  "lng": 13.4344449
+ },
  "Siemensstraße 27, 10551 Berlin": {
   "address": "Siemensstraße 27, 10551 Moabit",
   "bezirk": "Mitte",
@@ -7899,6 +7936,7 @@
  "U-Bhf Afrikanische Straße, vor der Steinbock Apotheke, 13349 Berlin": null,
  "U-Bhf Eberswalder Straße, 10437 Berlin": null,
  "U-Bhf Kurfürstenstr Kurfürstenstraße 32 Berlin 10785 10785 Berlin Deutschland": null,
+ "U-Bhf Osloer Straße, 13359 Berlin": null,
  "U-Bhf Potsdamer Platz, 10117 Berlin": null,
  "U-Bhf Wilmersdorfer Straße, 10627 Berlin": null,
  "U-Bhf Wittenbergplatz, 10789 Berlin": {

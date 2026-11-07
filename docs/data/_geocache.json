@@ -300,6 +300,7 @@
  "@boedi.nine Bödickerstraße 9, 10245 Berlin": null,
  "A-Trane Berlin, Bleibtreustrasse 1 10623": null,
  "A-Trane Jazzclub, Pestalozzistraße 105, 10625, Berlin": null,
+ "ACUD Macht Neu, Berlin": null,
  "AGB PopUp Saal Blücherplatz 1 10961 Berlin Deutschland": null,
  "AGB PopUp Saal Blücherplatz 1 10961, 10961 Berlin": null,
  "AK Zwangsarbeit Ludwigsfelde, Berlin": null,
@@ -573,6 +574,12 @@
   "lat": 52.5186496,
   "lng": 13.341415
  },
+ "Am Berl 13, 13051 Berlin": {
+  "address": "Am Berl 13, 13051 Neu-Hohenschönhausen",
+  "bezirk": "Lichtenberg",
+  "lat": 52.5741137,
+  "lng": 13.4997399
+ },
  "Am Berl 13, 13051 Neu-Hohenschönhausen, Berlin": {
   "address": "Am Berl 13, 13051 Neu-Hohenschönhausen",
   "bezirk": "Lichtenberg",
@@ -708,6 +715,12 @@
   "bezirk": "Mitte",
   "lat": 52.5126159,
   "lng": 13.3954281
+ },
+ "Antonplatz (Weissensee) Berlin Deutschland": {
+  "address": "Antonplatz, Weißensee",
+  "bezirk": "Pankow",
+  "lat": 52.5480563,
+  "lng": 13.4510903
  },
  "Antonplatz, 13088 Berlin": {
   "address": "Antonplatz, Weißensee",
@@ -6779,6 +6792,7 @@
   "lat": 52.5104845,
   "lng": 13.4994196
  },
+ "S+U-Bahn Yorckstraße, Berlin": null,
  "S+U-Bhf Rathaus Steglitz, 12165 Berlin": null,
  "S-/U-Bhf. Schönhauser Allee Berlin": null,
  "S-/U-Bhf. Schönhauser Allee Berlin Deutschland": null,

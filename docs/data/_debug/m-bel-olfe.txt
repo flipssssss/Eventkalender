@@ -1,28 +1,5 @@
-event-blocks: 30 | Events: 30
+event-blocks: 31 | Events: 31
 
-<div class="event-block">
- <!-- Zeile 1: Datum + Titel -->
- <div class="event-row-1">
-  <div class="event-time">
-   Samstag, 7. Nov. 21:00
-  </div>
-  <div class="event-title">
-   JoJo...
-  </div>
- </div>
- <!-- Zeile 2: Bild + Beschreibung -->
- <div class="event-row-2">
-  <div class="event-image">
-   <img alt="" src="ProgrammFotos/JoJo_2026_11_07.jpg"/>
-  </div>
-  <div class="event-description">
-   ...plays alltime favs!
-  </div>
- </div>
-</div>
-
-
-----
 <div class="event-block">
  <!-- Zeile 1: Datum + Titel -->
  <div class="event-row-1">
@@ -86,3 +63,25 @@ event-blocks: 30 | Events: 30
    LBXX pronounced Lunch Box, was born August 5th, 1994 in Long Beach, California. Born into a family of Jamaican culture and reggae, LBXX had a passion for music at a very young age.
 
 LBXX is a dynamic force! As a Black queer hip hop performer, DJ, and activist, LBXX co-founded the @__Makeroom DJ collective and pioneered Project Save the Gworls, a fundraising initiative offering rapid response support to BIPOC LGBTQIA+ and TGNC individuals during crises. Renowned for high-energy performances, and
+
+----
+<div class="event-block">
+ <!-- Zeile 1: Datum + Titel -->
+ <div class="event-row-1">
+  <div class="event-time">
+   Samstag, 14. Nov. 21:00
+  </div>
+  <div class="event-title">
+   Neelz on Wheels &amp; Beat Baerbl
+  </div>
+ </div>
+ <!-- Zeile 2: Bild + Beschreibung -->
+ <div class="event-row-2">
+  <div class="event-image">
+   <img alt="" src="ProgrammFotos/Neelz_on_Wheels_Beat_Baerbl_2026_11_14.jpg"/>
+  </div>
+  <div class="event-description">
+   vintage sounds! vintage vinyls!
+  </div>
+ </div>
+</div>

@@ -1,17 +1,15 @@
 Liste: https://www.visitberlin.de/de/kategorie/blues-jazz
-Event-Links: 19 | Events: 16
+Event-Links: 19 | Events: 17
 
 Seiten:
   eine Seite: 19 Links
 
-Zeitraum der Starts: 2026-09-14 19:00:00 … 2026-11-19 20:00:00
+Zeitraum der Starts: 2026-09-14 19:00:00 … 2026-11-20 20:00:00
 
   2026-09-14 19:00:00 → 2027-01-18 21:00:00 | Bredouille Bar, Georgenstraße 199, 10117, Berlin | radio3 Listening Lounge
   2026-10-09 20:00:00 → 2026-12-02 20:00:00 | EUREF-Campus Berlin, Torgauer Straße 25, 10829, Berlin | ZigZag Hall – Berlins neue Bühne für Jazz und Live-Musik
   2026-10-26 20:00:00 → 2026-12-28 23:30:00 | Café Engels, Herrfurthstr. 21, 12049, Berlin | Blue Moonday Jazzsession
   2026-10-27 19:30:00 → 2026-12-29 22:00:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Session im ART Stalker
-  2026-11-07 19:00:00 → None | ausland, Lychener Str. 60, 10437, Berlin | Lorena Izquierdo / Mizuki Ishikawa / Matthias Koole / Frictive Frequencies
-  2026-11-07 20:00:00 → None | Little Stage Berlin, Jonasstraße, 12053, Berlin | Supersalad
   2026-11-08 11:00:00 → None | Vierte Welt, Adalbertstraße 4, 10999, Berlin | Jahrgang 2026 des Universitätslehrgangs “Kuratieren in den szenischen Künsten” Prepping for the Unexpected – Kunst, Theorie und Sauerkraut
   2026-11-08 19:00:00 → None | Schwartzsche Villa, Grunewaldstraße 55, 12165, Berlin | Raphael Gimenes – Caçador de Horizontes
   2026-11-10 20:00:00 → 2026-11-10 22:00:00 | Alter Schwede, Schwedenstr. 11A, 13357, Berlin | cttp! 12 Konzerte der Berliner Jazzszene im Wedding: VORWÄRTS/RÜCKWÄRTS
@@ -23,3 +21,6 @@ an der Dischinger Brücke, 13581, Berlin-Spandau | Stripper Blues
   2026-11-18 20:00:00 → 2026-11-18 22:00:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Alessandro Tarshahani and the Band
   2026-11-19 20:00:00 → 2026-11-19 23:00:00 | Kulturhaus "alte feuerwache" Friedrichshain, Marchlewskistr. 6, 10243, Berlin | Jazz in der Alten Feuerwache | Lionel Haas Trio
   2026-11-19 20:00:00 → 2026-11-19 22:00:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Union Duke - UD IV-Tour - Alt-Rock / Americana
+  2026-11-19 20:30:00 → 2026-11-21 23:59:00 | Jazzclub Kunstfabrik Schlot, Invalidenstr. 117, 10115, Berlin | rejazz-festival #7
+  2026-11-19 20:30:00 → 2026-11-19 23:59:00 | Jazzclub Kunstfabrik Schlot, Invalidenstr. 117, 10115, Berlin | rejazz-festival #7 – DAY 1
+  2026-11-20 20:00:00 → 2026-11-20 22:00:00 | Zimmer 16, Florastraße 16, 13187, Berlin | Jazz4Five

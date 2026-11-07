@@ -1,11 +1,11 @@
 Liste: https://www.visitberlin.de/de/veranstaltungskalender-berlin?cat%5B0%5D=9312&cat%5B1%5D=9782&keys=&date_between%5Bmin%5D=&date_between%5Bmax%5D=&district=All&items_per_page=21
-Event-Links: 72 | Events: 71
+Event-Links: 69 | Events: 68
 
 Seiten:
   page=0: 19 Links, 19 neu
-  page=1: 21 Links, 21 neu
+  page=1: 21 Links, 20 neu
   page=2: 21 Links, 21 neu
-  page=3: 11 Links, 11 neu
+  page=3: 9 Links, 9 neu
   page=4: 0 Links, 0 neu
 
 Startdatum aus dem Seitentext korrigiert (JSON-LD-Start war ein Zeitstempel):
@@ -23,9 +23,7 @@ THEATER AN DER PARKAUE, 10367, Berlin | Patchwork on stage
   2026-11-06 12:00:00 → 2026-11-15 23:00:00 | Kunstraum Kreuzberg/Bethanien, Mariannenplatz 2, 10997, Berlin | Klangwerkstatt Berlin 2026
   2026-11-07 08:00:00 → 2026-11-14 08:00:00 | Verschiedene Orte, Berlin | Berlin Freedom Week
   2026-11-07 11:00:00 → 2026-11-08 19:00:00 | silent green Kulturquartier, Gerichtstraße 35, 13347, Berlin | BERLIN TEA FESTIVAL 2026
-  2026-11-07 12:00:00 → None | Jules B-Part am Gleisdreieck Park, Luckenwalder Str. 6b, 10963, Berlin | Diwali in Berlin 2026 - Fifth Edition | Grand Cultural Celebration
   2026-11-07 20:00:00 → 2026-11-25 19:30:00 | Staatsoper Unter den Linden, Unter den Linden 7, 10117, Berlin | Barocktage 2026
-  2026-11-07 20:00:00 → None | Theater im Delphi, Gustav-Adolf-Straße 2, 13086, Berlin | Queer Performance Festival
   2026-11-09 10:00:00 → 2026-11-15 10:00:00 | Verschiedene Orte, Berlin | AFRIKAMERA 2026: REFLECT
   2026-11-09 15:00:00 → 2026-11-13 18:00:00 | Musik- und Kunstschule Berlin | Atelier der Sinne, Wilmersdorfer Straße 18, 10585, Berlin | Konzert- & Besucherwoche im historischen Ackerbürgerhaus von 1723
   2026-11-11 01:00:00 → 2026-11-21 01:00:00 | Diverse Veranstaltungsorte, Berlin | NO LIMITS 2026
@@ -56,7 +54,6 @@ im Aufbau Haus am Moritzplatz, 10969, Berlin | Hotel Éternité
   2026-11-27 12:00:00 → 2026-11-27 13:00:00 | Gemäldegalerie, Matthäikirchplatz 4-6, 10785, Berlin | Faszination Renaissance – Lucas Cranach d. Ä.
   2026-12-07 20:00:00 → None | Philharmonie, Großer Saal, Herbert-von-Karajan-Straße 1, 10785, Berlin | ZeitenKlänge Musikfestival
   2026-12-12 12:00:00 → 2026-12-13 21:00:00 | Kalle Wintergarden, Ganghofer Straße 10, 12043, Berlin | Berlin Chili Fest
-  2026-12-14 16:00:00 → 2026-12-14 23:00:00 | CABUWAZI TEMPELHOF, Columbiadamm 84, 10965, Berlin | FREEDOM OF MOVEMENT Festival
   2026-12-15 12:00:00 → 2026-12-21 12:00:00 | Verschiedene Orte, Berlin | Der KURZFILMTAG 2026
   2026-12-31 20:00:00 → None | Brandenburger Tor, Pariser Platz, 10117, Berlin | Silvester am Brandenburger Tor 2026
   2027-01-16 01:00:00 → 2027-01-24 01:00:00 | e_0000000833-loc_bbfest, Berlin | PURPLE 2027

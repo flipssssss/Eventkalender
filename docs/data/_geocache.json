@@ -290,6 +290,7 @@
  },
  "3 Kinos, Berlin": null,
  "32-16-8 (Kiezkneipe) Perleberger Straße 58a 10559 Berlin Deutschland": null,
+ "90mil, Holzmarktstrasse 19-23, 10243 Berlin": null,
  ":// about blank / Garten Markgrafendamm 24c 10245 Berlin Deutschland": null,
  "://about blank, Berlin": {
   "address": "Markgrafendamm 24c, 10245 Friedrichshain",
@@ -3179,6 +3180,12 @@
   "lat": 52.5124511,
   "lng": 13.4255606
  },
+ "Holzmarktstrasse 19-23, 10243 Berlin": {
+  "address": "Holzmarktstraße, 10243 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5111626,
+  "lng": 13.4285024
+ },
  "Holzmarktstrasse 25, 10243 Berlin": {
   "address": "Holzmarktstraße 25, 10243 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -4995,6 +5002,12 @@
   "lat": 52.4746587,
   "lng": 13.4520113
  },
+ "Marheinekeplatz 10961 Berlin": {
+  "address": "Marheinekeplatz, 10961 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4891497,
+  "lng": 13.3943454
+ },
  "Maria-Rimkus-Haus, Berlin": {
   "address": "Am Gemeindepark, 12249 Lankwitz",
   "bezirk": "Steglitz-Zehlendorf",
@@ -6711,6 +6724,7 @@
   "lat": 52.4687052,
   "lng": 13.4333242
  },
+ "Roter Laden Weidenweg 17 10249 Berlin Deutschland": null,
  "Rotes Café, Ihnestraße 22, 14195 Berlin": null,
  "Rotes Rathaus Neptunbrunnen Rathausstraße 15 Neptunbrunnen 10178 Berlin Deutschland": null,
  "Rotes Rathaus Rathausstr 15 10178 Berlin Deutschland": {
@@ -6898,6 +6912,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5167173,
   "lng": 13.4650744
+ },
+ "Samariterstrasse 1024, 10247 Berlin": {
+  "address": "Samariterstraße, 10247 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5176167,
+  "lng": 13.4657088
  },
  "Samariterstraße 32, 10247 Friedrichshain, Berlin": {
   "address": "Samariterstraße 32, 10247 Friedrichshain",
@@ -7961,6 +7981,7 @@
  },
  "U-Bhf. Eberswalder Strasse Berlin": null,
  "U-Bhf. Eberswalder Strasse Berlin Deutschland": null,
+ "U-Bhf. Samariterstrasse (Friedrichshain) U-Bhf. Samariterstrasse 10247 Berlin Deutschland": null,
  "U-Bhf. Turmstraße Berlin": null,
  "U-Bhf. Turmstraße Berlin Deutschland": null,
  "U-Rosenthaler Platz, 10119 Berlin": {
@@ -8211,6 +8232,12 @@
   "bezirk": "Neukölln",
   "lat": 52.4854451,
   "lng": 13.4346789
+ },
+ "Weidenweg 17, 10249 Berlin": {
+  "address": "Weidenweg 17, 10249 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5178675,
+  "lng": 13.4456901
  },
  "Weinsbergweg 13, 10119 Berlin": null,
  "Weisestr. 53, 12049 Berlin": {

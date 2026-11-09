@@ -1,5 +1,27 @@
-event-blocks: 30 | Events: 30
+event-blocks: 31 | Events: 31
 
+<div class="event-block">
+ <!-- Zeile 1: Datum + Titel -->
+ <div class="event-row-1">
+  <div class="event-time">
+   Dienstag, 10. Nov. 21:00
+  </div>
+  <div class="event-title">
+   FLINTA*-Abend
+  </div>
+ </div>
+ <!-- Zeile 2: Bild + Beschreibung -->
+ <div class="event-row-2">
+  <div class="event-image event-image--empty">
+  </div>
+  <div class="event-description">
+   Karani
+  </div>
+ </div>
+</div>
+
+
+----
 <div class="event-block">
  <!-- Zeile 1: Datum + Titel -->
  <div class="event-row-1">
@@ -60,28 +82,6 @@ LBXX is a dynamic force! As a Black queer hip hop performer, DJ, and activist, L
   </div>
   <div class="event-description">
    vintage sounds! vintage vinyls!
-  </div>
- </div>
-</div>
-
-
-----
-<div class="event-block">
- <!-- Zeile 1: Datum + Titel -->
- <div class="event-row-1">
-  <div class="event-time">
-   Dienstag, 17. Nov. 21:00
-  </div>
-  <div class="event-title">
-   FLINTA*-Abend
-  </div>
- </div>
- <!-- Zeile 2: Bild + Beschreibung -->
- <div class="event-row-2">
-  <div class="event-image event-image--empty">
-  </div>
-  <div class="event-description">
-   Goth Night
   </div>
  </div>
 </div>

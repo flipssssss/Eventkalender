@@ -1,4 +1,4 @@
-Titel: 18 | Berlin: 0 | andere Städte: 18
+Titel: 19 | Berlin: 0 | andere Städte: 19
 
 KEINE EVENTS ERKANNT -- Struktur des 1. Titels:
   Titel-Text: 'FUN FACTS #086 mit Team Scheiße | HAMBURG'

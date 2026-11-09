@@ -1,17 +1,5 @@
-Events (vor Dedup): 450
-https://stressfaktor.squat.net/termine/alle page 0: 30 Events (2026-11-08…2026-11-09)
-https://stressfaktor.squat.net/termine/alle page 1: 30 Events (2026-11-10…2026-11-11)
-https://stressfaktor.squat.net/termine/alle page 2: 30 Events (2026-11-11…2026-11-13)
-https://stressfaktor.squat.net/termine/alle page 3: 30 Events (2026-11-13…2026-11-14)
-https://stressfaktor.squat.net/termine/alle page 4: 30 Events (2026-11-14…2026-11-17)
-https://stressfaktor.squat.net/termine/alle page 5: 30 Events (2026-11-17…2026-11-19)
-https://stressfaktor.squat.net/termine/alle page 6: 30 Events (2026-11-19…2026-11-21)
-https://stressfaktor.squat.net/termine/alle page 7: 30 Events (2026-11-21…2026-11-23)
-https://stressfaktor.squat.net/termine/alle page 8: 30 Events (2026-11-24…2026-11-26)
-https://stressfaktor.squat.net/termine/alle page 9: 30 Events (2026-11-26…2026-11-27)
-https://stressfaktor.squat.net/termine/alle page 10: 30 Events (2026-11-27…2026-11-30)
-https://stressfaktor.squat.net/termine/alle page 11: 30 Events (2026-11-30…2026-12-03)
-https://stressfaktor.squat.net/termine/alle page 12: 30 Events (2026-12-03…2026-12-06)
-https://stressfaktor.squat.net/termine/alle page 13: 30 Events (2026-12-06…2026-12-09)
-https://stressfaktor.squat.net/termine/alle page 14: 30 Events (2026-12-09…2026-12-15)
-Anubis-Notizen: PoW: difficulty=2 nonce=56 hash=00a0d786b74d… pass-status=200 cookies=['techaro.lol-anubis-cookie-verification-347ddb4a', 'techaro.lol-anubis-auth-347ddb4a']
+Events (vor Dedup): 60
+https://stressfaktor.squat.net/termine/alle page 0: 30 Events (2026-11-09…2026-11-11)
+https://stressfaktor.squat.net/termine/alle page 1: 30 Events (2026-11-11…2026-11-12)
+https://stressfaktor.squat.net/termine/alle page 2: FEHLER HTTPSConnectionPool(host='stressfaktor.squat.net', port=443): Read timed out. (read timeout=25)
+Anubis-Notizen: PoW: difficulty=2 nonce=45 hash=00dd1de1e0ee… pass-status=200 cookies=['techaro.lol-anubis-cookie-verification-347ddb4a', 'techaro.lol-anubis-auth-347ddb4a']

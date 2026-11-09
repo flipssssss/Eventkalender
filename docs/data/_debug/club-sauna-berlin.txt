@@ -1,4 +1,4 @@
-Events: 10
+Events: 11
   2026-11-11 17:30:00 | gender mix
   2026-11-12 17:30:00 | TIN* & Friends
   2026-11-13 17:30:00 | flinta sweat
@@ -9,3 +9,4 @@ Events: 10
   2026-11-25 17:30:00 | gender mix
   2026-11-26 17:30:00 | twinks only
   2026-11-27 17:30:00 | flinta sweat
+  2026-12-03 17:30:00 | T-BOY SWEAT 3.0

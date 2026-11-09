@@ -1,31 +1,31 @@
-API-Events: 84 | übernommen: 84
-  2026-11-05 19:00:00 | Punk | Nox A Carnival Vol. 13
-  2026-11-08 14:45:00 | None | Queer Tours for All! - Gay and Sapphic Schöneberg
-  2026-11-08 19:00:00 | Rock | TÕ YÕ + Daisy Confused // B.L.O. Kantine
+API-Events: 83 | übernommen: 83
   2026-11-09 19:00:00 | Punk | IDEM / Deshielo / Saltfalls
   2026-11-09 19:00:00 | Indie | SHAKI TAVI (exp indie-rock/shoegaze, us) & ¡YUMNUT!WORLDWIDE (queer-psych-rock, bln)
   2026-11-10 17:45:00 | None | Queer Tours for All! - Queer Kreuzberg
   2026-11-10 19:00:00 | Jazz | EDGING (post-punk, chicago) + JAZZ (post-punk, halle)
   2026-11-10 19:30:00 | Punk | Walls of Jericho, Special Guest: SHÆTTERED & Waves Like Walls
   2026-11-11 19:30:00 | Punk | Bureau De Change + Mad Kitten (POST PUNK UK + NOISE PUNK FR)
-  2026-11-12 19:00:00 | None | SAUFEN - PunkRock Lyrik Lesung
   2026-11-12 19:00:00 | Punk | UNS + Gäste
   2026-11-12 19:00:00 | Punk | PAT AND THE PISSERS (U.S.) & DIE HAARE (Bln)
-  2026-11-12 20:00:00 | Indie | Elephant Stone • Sacred Buzz • Double Album Release Show at Neue Zukunft, Berlin
+  2026-11-12 19:00:00 | None | SAUFEN - PunkRock Lyrik Lesung
   2026-11-12 20:00:00 | Punk | Sofoquina + Ross Peacock + twerkonkraftwerk
   2026-11-12 20:00:00 | None | MESSA - EU / UK Tour Fall 2026 / Berlin
+  2026-11-12 20:00:00 | Indie | Elephant Stone • Sacred Buzz • Double Album Release Show at Neue Zukunft, Berlin
   2026-11-13 13:45:00 | None | Queer Tours for All! - Plänterwald
   2026-11-13 19:00:00 | Punk | EXTREME ASSI NIGHT VOL.II feat. Assi Assassin + Evöl Dead - (FREE ENTRY!)
   2026-11-13 19:00:00 | Punk | UltraNothing (post-punk / Luxembourg) + Sprung ins Leere (Düsterpunk) im Cafe Lutetia (Spandau, #spandaupunk)
   2026-11-13 19:30:00 | Punk | Jacke Schwarz und die Nieten + Tiny Doris + Paul Geigerzähler
   2026-11-13 20:00:00 | Electro | Organized Decay
   2026-11-13 21:00:00 | Metal | Rock at Slaughterhouse - Sheev + Ghostones + Caosonora
-  2026-11-14 19:00:00 | Punk | UltraNothing (post-punk / Luxembourg) + Easily Distracted by Ducks (punkrock)  im Schokoladen Berlin
   2026-11-14 19:00:00 | None | PAMPHLETS + Support
+  2026-11-14 19:00:00 | Punk | UltraNothing (post-punk / Luxembourg) + Easily Distracted by Ducks (punkrock)  im Schokoladen Berlin
   2026-11-14 20:00:00 | Punk | TO HELL WITH PUNK FEST
   2026-11-14 22:00:00 | Electro | Beat Bureau
   2026-11-15 19:00:00 | Punk | SPY + COMBUST + SIDESTEP
   2026-11-15 19:00:00 | Punk | CAREER SUICIDE (w/ Wet Dream War Machine + Batterriii)
   2026-11-17 17:45:00 | None | Queer Tours for All! - Queer Kreuzberg
   2026-11-18 19:30:00 | Punk | SIKM + CLAVV
+  2026-11-19 19:00:00 | Punk | NIGHT FREAK (U.S.) & THE INSERTS (Bln)
   2026-11-19 19:00:00 | Punk | Die Anstalt + Güner Künier + The Pleasure Majenta
+  2026-11-19 20:00:00 | Metal | USU pres.: IMPERIAL TRIUMPHANT + Knoll | Neue Zukunft - 19.11.2026
+  2026-11-19 20:00:00 | None | Anna von Hausswolff - Berlin, Astra Kulturhaus

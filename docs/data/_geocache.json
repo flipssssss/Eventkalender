@@ -1041,6 +1041,7 @@
   "lat": 52.5173885,
   "lng": 13.3951309
  },
+ "Berlin Drawing Room": null,
  "Berlin Friedrichshain Berlin": {
   "address": "Mitteltunnel, 10243 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -3130,6 +3131,12 @@
  },
  "Herrmannplatz Berlin": null,
  "Herrmannplatz Berlin Deutschland": null,
+ "Hertzbergplatz, 12059 Berlin": {
+  "address": "Sonnenallee, 12059 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4776473,
+  "lng": 13.4485645
+ },
  "Heynstraße 15, 13187 Berlin": {
   "address": "Heynstraße 15, 13187 Pankow",
   "bezirk": "Pankow",
@@ -3862,6 +3869,12 @@
   "lat": 52.4783548,
   "lng": 13.4463995
  },
+ "Kiezladen Sonnenallee 154, 12059 Berlin": {
+  "address": "Sonnenallee 154, 12059 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4783548,
+  "lng": 13.4463995
+ },
  "Kiezraum Dragoner Areal, Mehringdamm, 10963 Berlin": null,
  "Kiezraum auf dem Dragoner-Areal Berlin": null,
  "Kiezraum auf dem Dragoner-Areal Berlin Deutschland": null,
@@ -3999,6 +4012,7 @@
   "lat": 52.5404746,
   "lng": 13.412219
  },
+ "Konzerthaus, Gendarmenmarkt 2, 10117, Berlin": null,
  "Kopenhagener Str. 17, 10437 Berlin": {
   "address": "Kopenhagener Straße 17, 10437 Prenzlauer Berg",
   "bezirk": "Pankow",
@@ -4520,6 +4534,12 @@
   "lng": 13.435867
  },
  "Lehrter Str. 35, 10557 Berlin": {
+  "address": "Lehrter Straße 35, 10557 Moabit",
+  "bezirk": "Mitte",
+  "lat": 52.5344522,
+  "lng": 13.3600061
+ },
+ "Lehrter Str. 35, Berlin, DE 10557": {
   "address": "Lehrter Straße 35, 10557 Moabit",
   "bezirk": "Mitte",
   "lat": 52.5344522,
@@ -7300,6 +7320,12 @@
   "lat": 52.5435823,
   "lng": 13.3397881
  },
+ "Selchower Straße 1204, 12049 Berlin": {
+  "address": "Selchower Straße, 12049 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4790778,
+  "lng": 13.424487
+ },
  "Sensburger Allee 25, 14055 Berlin": {
   "address": "Sensburger Allee 25, 14055 Westend",
   "bezirk": "Charlottenburg-Wilmersdorf",
@@ -7968,6 +7994,7 @@
  },
  "U-BHf Turmstraße 10551 Berlin": null,
  "U-Bhf Afrikanische Straße, vor der Steinbock Apotheke, 13349 Berlin": null,
+ "U-Bhf Boddinstraße, Hermannstraße Ecke Selchower Straße, 12049 Berlin": null,
  "U-Bhf Eberswalder Straße, 10437 Berlin": null,
  "U-Bhf Kurfürstenstr Kurfürstenstraße 32 Berlin 10785 10785 Berlin Deutschland": null,
  "U-Bhf Osloer Straße, 13359 Berlin": null,

@@ -6826,6 +6826,7 @@
   "lat": 52.5104845,
   "lng": 13.4994196
  },
+ "S+U Lichtenberg, Eugeniu-Botnari-Platz, 10317 Berlin": null,
  "S+U-Bahn Yorckstraße, Berlin": null,
  "S+U-Bhf Rathaus Steglitz, 12165 Berlin": null,
  "S-/U-Bhf. Schönhauser Allee Berlin": null,
@@ -7511,6 +7512,12 @@
  "Spore Initiative Foyer, Hermannstraße 86, 12051 Berlin": null,
  "Spore Initiative Hermannstraße 86 12051 Berlin Deutschland": null,
  "Spore Initiative, Hermannstraße 86, 12051 Berlin": null,
+ "Sporthalle Anton-Saefkow-Platz, Berlin": {
+  "address": "Anton-Saefkow-Platz 5, 10369 Fennpfuhl",
+  "bezirk": "Lichtenberg",
+  "lat": 52.5298481,
+  "lng": 13.474197
+ },
  "Spraywand Mauerpark, Bernauer Straße 53, 13355 Berlin": null,
  "Spreeufer, Berlin": {
   "address": "Spreeufer, 10178 Mitte",
@@ -8009,6 +8016,8 @@
  "U-Bhf. Eberswalder Strasse Berlin": null,
  "U-Bhf. Eberswalder Strasse Berlin Deutschland": null,
  "U-Bhf. Samariterstrasse (Friedrichshain) U-Bhf. Samariterstrasse 10247 Berlin Deutschland": null,
+ "U-Bhf. Südstern Berlin": null,
+ "U-Bhf. Südstern Berlin Deutschland": null,
  "U-Bhf. Turmstraße Berlin": null,
  "U-Bhf. Turmstraße Berlin Deutschland": null,
  "U-Rosenthaler Platz, 10119 Berlin": {

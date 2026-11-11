@@ -1,135 +1,135 @@
-Behaltene Events: 114 aus 1438 gescannten
-mit Beschreibung: 114
+Behaltene Events: 110 aus 1438 gescannten
+mit Beschreibung: 110
 
 Gewünschte Bühnen und ihre Treffer:
-    Haus der Kulturen der Welt: 6
+    Haus der Kulturen der Welt: 7
     Hebbel am Ufer: 18
   0 Maxim Gorki Theater: 0
-    Schaubühne: 21
+    Schaubühne: 20
     Sophiensæle: 20
     Theater Thikwa: 9
-    Volksbühne: 40
+    Volksbühne: 36
 
 Auf dem Portal gelistete Bühnen, die NICHT gewünscht sind (häufigste 60) -- hier nachsehen, wie eine Bühne dort genau heißt:
-    58  Philharmonie Berlin
+    56  Philharmonie Berlin
     47  Berliner Ensemble
-    43  Pfefferberg Theater
-    41  Deutsches Theater Berlin
+    44  Pfefferberg Theater
+    40  Deutsches Theater Berlin
     36  ATZE Musiktheater
-    34  Staatsoper Unter den Linden
+    36  Staatsoper Unter den Linden
+    33  Galli Theater Berlin
     33  Theater an der Parkaue
-    31  Theater des Westens
+    32  Theater des Westens
     30  Konzerthaus Berlin
-    30  Galli Theater Berlin
     29  GRIPS Theater
-    27  BKA Theater
-    25  Heimathafen Neukölln
+    26  BKA Theater
+    25  Schlosspark Theater
     25  Astrid Lindgren Bühne im FEZ-Berlin
-    24  Schlosspark Theater
-    23  Friedrichstadt-Palast Berlin
+    24  Heimathafen Neukölln
+    24  Friedrichstadt-Palast Berlin
     23  Die Wühlmäuse
     23  Deutsche Oper Berlin
     22  DISTEL Kabarett-Theater
-    22  STACHELSCHWEINE
+    22  ufaFabrik
     21  Renaissance-Theater Berlin
-    21  ufaFabrik
-    19  Berliner Kriminal Theater
+    21  STACHELSCHWEINE
+    20  Theater am Potsdamer Platz
+    20  BlueMax Theater
     19  Das Wintergarten Varieté
     19  Chamäleon Berlin
-    19  Theater am Potsdamer Platz
     19  Ballhaus Ost
-    19  BlueMax Theater
-    18  Ratibor Theater
-    18  BAR JEDER VERNUNFT
     18  Admiralspalast
-    18  Morgenstern – Theater im Rathaus Friedenau
+    18  Berliner Kriminal Theater
     18  Vierte Welt
-    16  Theater Strahl Berlin
+    17  Ratibor Theater
+    17  BAR JEDER VERNUNFT
     16  Pierre Boulez Saal
-    14  Kulturhaus Spandau
-    14  Figurentheater Grashüpfer
+    16  Morgenstern – Theater im Rathaus Friedenau
+    15  Figurentheater Grashüpfer
     14  Mehringhof-Theater
     14  Prime Time Theater
     14  Komische Oper Berlin
+    13  Theater im Palais
+    13  Kulturhaus Spandau
     13  Theater Jaro
-    12  Schlossplatztheater
-    12  Theater im Palais
-    12  Schaubude Berlin
+    13  Theater Strahl Berlin
+    13  Schaubude Berlin
+    12  theatre pool
+    12  Theater der kleinen Form
     12  Neue Synagoge Berlin
-    11  Vagantenbühne Berlin
-    11  theatre pool
     11  ACUD Theater
     11  Brotfabrik
+    11  Schlossplatztheater
     11  DOCK 11
     11  Kleines Theater
-    10  TIPI AM KANZLERAMT
+    10  Vagantenbühne Berlin
     10  Berliner Festspiele
     10  Hochschule für Schauspielkunst Ernst Busch
     10  Theater im Kino
-    10  Theater der kleinen Form
+     9  TIPI AM KANZLERAMT
      9  Humboldt Forum
      9  Das Jüdische Kulturschiff MS Goldberg
+     9  DAS WEITE THEATER
      9  TD Berlin
-     8  DAS WEITE THEATER
 
 ============================================================
-Seite 1: 24 Karten, 24 neu, 1 behalten (Wunsch-Bühnen)
-Seite 2: 24 Karten, 24 neu, 4 behalten (Wunsch-Bühnen)
-Seite 3: 24 Karten, 24 neu, 3 behalten (Wunsch-Bühnen)
-Seite 4: 24 Karten, 24 neu, 6 behalten (Wunsch-Bühnen)
-Seite 5: 24 Karten, 24 neu, 4 behalten (Wunsch-Bühnen)
-Seite 6: 24 Karten, 24 neu, 0 behalten (Wunsch-Bühnen)
-Seite 7: 24 Karten, 24 neu, 3 behalten (Wunsch-Bühnen)
-Seite 8: 24 Karten, 24 neu, 4 behalten (Wunsch-Bühnen)
-Seite 9: 24 Karten, 24 neu, 1 behalten (Wunsch-Bühnen)
+Seite 1: 24 Karten, 24 neu, 3 behalten (Wunsch-Bühnen)
+Seite 2: 24 Karten, 24 neu, 6 behalten (Wunsch-Bühnen)
+Seite 3: 24 Karten, 24 neu, 4 behalten (Wunsch-Bühnen)
+Seite 4: 24 Karten, 24 neu, 0 behalten (Wunsch-Bühnen)
+Seite 5: 24 Karten, 24 neu, 5 behalten (Wunsch-Bühnen)
+Seite 6: 24 Karten, 24 neu, 2 behalten (Wunsch-Bühnen)
+Seite 7: 24 Karten, 24 neu, 1 behalten (Wunsch-Bühnen)
+Seite 8: 24 Karten, 24 neu, 0 behalten (Wunsch-Bühnen)
+Seite 9: 24 Karten, 24 neu, 4 behalten (Wunsch-Bühnen)
 Seite 10: 24 Karten, 24 neu, 0 behalten (Wunsch-Bühnen)
-Seite 11: 24 Karten, 24 neu, 4 behalten (Wunsch-Bühnen)
-Seite 12: 24 Karten, 24 neu, 0 behalten (Wunsch-Bühnen)
-Seite 13: 24 Karten, 24 neu, 3 behalten (Wunsch-Bühnen)
-Seite 14: 24 Karten, 24 neu, 1 behalten (Wunsch-Bühnen)
-Seite 15: 24 Karten, 24 neu, 1 behalten (Wunsch-Bühnen)
+Seite 11: 24 Karten, 24 neu, 3 behalten (Wunsch-Bühnen)
+Seite 12: 24 Karten, 24 neu, 1 behalten (Wunsch-Bühnen)
+Seite 13: 24 Karten, 24 neu, 1 behalten (Wunsch-Bühnen)
+Seite 14: 24 Karten, 24 neu, 2 behalten (Wunsch-Bühnen)
+Seite 15: 23 Karten, 23 neu, 1 behalten (Wunsch-Bühnen)
 Seite 16: 24 Karten, 24 neu, 2 behalten (Wunsch-Bühnen)
-Seite 17: 23 Karten, 23 neu, 1 behalten (Wunsch-Bühnen)
+Seite 17: 24 Karten, 24 neu, 2 behalten (Wunsch-Bühnen)
 Seite 18: 24 Karten, 24 neu, 2 behalten (Wunsch-Bühnen)
-Seite 19: 24 Karten, 24 neu, 1 behalten (Wunsch-Bühnen)
-Seite 20: 24 Karten, 24 neu, 3 behalten (Wunsch-Bühnen)
-Seite 21: 24 Karten, 24 neu, 2 behalten (Wunsch-Bühnen)
-Seite 22: 24 Karten, 24 neu, 1 behalten (Wunsch-Bühnen)
-Seite 23: 24 Karten, 24 neu, 1 behalten (Wunsch-Bühnen)
-Seite 24: 24 Karten, 24 neu, 3 behalten (Wunsch-Bühnen)
+Seite 19: 24 Karten, 24 neu, 2 behalten (Wunsch-Bühnen)
+Seite 20: 24 Karten, 24 neu, 2 behalten (Wunsch-Bühnen)
+Seite 21: 24 Karten, 24 neu, 0 behalten (Wunsch-Bühnen)
+Seite 22: 24 Karten, 24 neu, 3 behalten (Wunsch-Bühnen)
+Seite 23: 24 Karten, 24 neu, 0 behalten (Wunsch-Bühnen)
+Seite 24: 24 Karten, 24 neu, 1 behalten (Wunsch-Bühnen)
 Seite 25: 24 Karten, 24 neu, 0 behalten (Wunsch-Bühnen)
-Seite 26: 24 Karten, 24 neu, 1 behalten (Wunsch-Bühnen)
+Seite 26: 24 Karten, 24 neu, 3 behalten (Wunsch-Bühnen)
 Seite 27: 24 Karten, 24 neu, 0 behalten (Wunsch-Bühnen)
-Seite 28: 24 Karten, 24 neu, 3 behalten (Wunsch-Bühnen)
-Seite 29: 24 Karten, 24 neu, 0 behalten (Wunsch-Bühnen)
-Seite 30: 24 Karten, 24 neu, 1 behalten (Wunsch-Bühnen)
+Seite 28: 24 Karten, 24 neu, 1 behalten (Wunsch-Bühnen)
+Seite 29: 24 Karten, 24 neu, 2 behalten (Wunsch-Bühnen)
+Seite 30: 24 Karten, 24 neu, 2 behalten (Wunsch-Bühnen)
 Seite 31: 24 Karten, 24 neu, 2 behalten (Wunsch-Bühnen)
 Seite 32: 24 Karten, 24 neu, 2 behalten (Wunsch-Bühnen)
-Seite 33: 24 Karten, 24 neu, 1 behalten (Wunsch-Bühnen)
-Seite 34: 24 Karten, 24 neu, 3 behalten (Wunsch-Bühnen)
-Seite 35: 24 Karten, 24 neu, 0 behalten (Wunsch-Bühnen)
-Seite 36: 23 Karten, 23 neu, 3 behalten (Wunsch-Bühnen)
-Seite 37: 24 Karten, 24 neu, 3 behalten (Wunsch-Bühnen)
-Seite 38: 24 Karten, 24 neu, 1 behalten (Wunsch-Bühnen)
-Seite 39: 24 Karten, 24 neu, 1 behalten (Wunsch-Bühnen)
-Seite 40: 24 Karten, 24 neu, 0 behalten (Wunsch-Bühnen)
-Seite 41: 24 Karten, 24 neu, 2 behalten (Wunsch-Bühnen)
-Seite 42: 24 Karten, 24 neu, 3 behalten (Wunsch-Bühnen)
+Seite 33: 24 Karten, 24 neu, 0 behalten (Wunsch-Bühnen)
+Seite 34: 23 Karten, 23 neu, 4 behalten (Wunsch-Bühnen)
+Seite 35: 24 Karten, 24 neu, 2 behalten (Wunsch-Bühnen)
+Seite 36: 24 Karten, 24 neu, 1 behalten (Wunsch-Bühnen)
+Seite 37: 24 Karten, 24 neu, 1 behalten (Wunsch-Bühnen)
+Seite 38: 24 Karten, 24 neu, 0 behalten (Wunsch-Bühnen)
+Seite 39: 24 Karten, 24 neu, 2 behalten (Wunsch-Bühnen)
+Seite 40: 24 Karten, 24 neu, 3 behalten (Wunsch-Bühnen)
+Seite 41: 24 Karten, 24 neu, 0 behalten (Wunsch-Bühnen)
+Seite 42: 24 Karten, 24 neu, 0 behalten (Wunsch-Bühnen)
 Seite 43: 24 Karten, 24 neu, 0 behalten (Wunsch-Bühnen)
-Seite 44: 24 Karten, 24 neu, 0 behalten (Wunsch-Bühnen)
-Seite 45: 24 Karten, 24 neu, 0 behalten (Wunsch-Bühnen)
+Seite 44: 24 Karten, 24 neu, 3 behalten (Wunsch-Bühnen)
+Seite 45: 24 Karten, 24 neu, 3 behalten (Wunsch-Bühnen)
 Seite 46: 24 Karten, 24 neu, 3 behalten (Wunsch-Bühnen)
-Seite 47: 24 Karten, 24 neu, 3 behalten (Wunsch-Bühnen)
-Seite 48: 24 Karten, 24 neu, 3 behalten (Wunsch-Bühnen)
-Seite 49: 24 Karten, 24 neu, 0 behalten (Wunsch-Bühnen)
-Seite 50: 24 Karten, 24 neu, 4 behalten (Wunsch-Bühnen)
-Seite 51: 24 Karten, 24 neu, 2 behalten (Wunsch-Bühnen)
+Seite 47: 24 Karten, 24 neu, 0 behalten (Wunsch-Bühnen)
+Seite 48: 24 Karten, 24 neu, 4 behalten (Wunsch-Bühnen)
+Seite 49: 24 Karten, 24 neu, 2 behalten (Wunsch-Bühnen)
+Seite 50: 24 Karten, 24 neu, 2 behalten (Wunsch-Bühnen)
+Seite 51: 24 Karten, 24 neu, 1 behalten (Wunsch-Bühnen)
 Seite 52: 24 Karten, 24 neu, 2 behalten (Wunsch-Bühnen)
-Seite 53: 24 Karten, 24 neu, 1 behalten (Wunsch-Bühnen)
-Seite 54: 24 Karten, 24 neu, 2 behalten (Wunsch-Bühnen)
-Seite 55: 24 Karten, 24 neu, 3 behalten (Wunsch-Bühnen)
-Seite 56: 24 Karten, 24 neu, 0 behalten (Wunsch-Bühnen)
-Seite 57: 24 Karten, 24 neu, 2 behalten (Wunsch-Bühnen)
-Seite 58: 24 Karten, 24 neu, 5 behalten (Wunsch-Bühnen)
-Seite 59: 24 Karten, 24 neu, 1 behalten (Wunsch-Bühnen)
-Seite 60: 24 Karten, 24 neu, 6 behalten (Wunsch-Bühnen)
+Seite 53: 24 Karten, 24 neu, 3 behalten (Wunsch-Bühnen)
+Seite 54: 24 Karten, 24 neu, 0 behalten (Wunsch-Bühnen)
+Seite 55: 24 Karten, 24 neu, 2 behalten (Wunsch-Bühnen)
+Seite 56: 24 Karten, 24 neu, 5 behalten (Wunsch-Bühnen)
+Seite 57: 24 Karten, 24 neu, 1 behalten (Wunsch-Bühnen)
+Seite 58: 24 Karten, 24 neu, 6 behalten (Wunsch-Bühnen)
+Seite 59: 24 Karten, 24 neu, 0 behalten (Wunsch-Bühnen)
+Seite 60: 24 Karten, 24 neu, 1 behalten (Wunsch-Bühnen)

@@ -304,6 +304,12 @@
  "ACUD Macht Neu, Berlin": null,
  "AGB PopUp Saal Blücherplatz 1 10961 Berlin Deutschland": null,
  "AGB PopUp Saal Blücherplatz 1 10961, 10961 Berlin": null,
+ "AGIT, Nansenstraße 2, 12047 Berlin": {
+  "address": "Nansenstraße 2, 12047 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4883316,
+  "lng": 13.4297305
+ },
  "AK Zwangsarbeit Ludwigsfelde, Berlin": null,
  "AL.Berlin Skalitzer Straße 114, Hinterhaus 10999 Berlin Deutschland": null,
  "AMT, Berlin": {
@@ -951,6 +957,12 @@
   "lng": 13.3498081
  },
  "Bat-Yam-Platz 1 12353 Berlin": {
+  "address": "Bat-Yam-Platz 1, 12353 Gropiusstadt",
+  "bezirk": "Neukölln",
+  "lat": 52.4254254,
+  "lng": 13.4618589
+ },
+ "Bat-Yam-Platz 1, 12353 Berlin": {
   "address": "Bat-Yam-Platz 1, 12353 Gropiusstadt",
   "bezirk": "Neukölln",
   "lat": 52.4254254,
@@ -5404,6 +5416,12 @@
   "lat": 52.4992754,
   "lng": 13.4194716
  },
+ "Moritzplatz, 10969 Berlin": {
+  "address": "Prinzenstraße, 10969 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5036623,
+  "lng": 13.4107479
+ },
  "Motzstraße 25, 10777 Schöneberg, Berlin": {
   "address": "Motzstraße 25, 10777 Schöneberg",
   "bezirk": "Tempelhof-Schöneberg",
@@ -6377,6 +6395,7 @@
  "Raumerweiterungshalle, Berlin": null,
  "Raumerweiterungshalle, Kopenhagener Straße 17, 10437, Berlin": null,
  "Rauxxxaus, Bethaniendamm 26, 10997 Berlin": null,
+ "Raxxxxaus, Berlin": null,
  "Reformationsplatz 1, 13597 Berlin": {
   "address": "Reformationsplatz, 13597 Spandau",
   "bezirk": "Spandau",
@@ -8170,6 +8189,8 @@
   "lng": 13.4681934
  },
  "Volksbar, Rosa-Luxemburg-Straße 39, 10178 Berlin": null,
+ "Volksbühne / Roter Salon Rosa-Luxemburg-Platz Berlin": null,
+ "Volksbühne / Roter Salon Rosa-Luxemburg-Platz Berlin Deutschland": null,
  "Volksbühne am Rosa-Luxemburg-Platz, Berlin": {
   "address": "Linienstraße 227, 10178 Mitte",
   "bezirk": "Mitte",

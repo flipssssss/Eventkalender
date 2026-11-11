@@ -1,10 +1,10 @@
 Liste: https://www.visitberlin.de/de/kategorie/blues-jazz
-Event-Links: 17 | Events: 16
+Event-Links: 17 | Events: 17
 
 Seiten:
   eine Seite: 17 Links
 
-Zeitraum der Starts: 2026-09-14 19:00:00 … 2026-11-20 20:30:00
+Zeitraum der Starts: 2026-09-14 19:00:00 … 2026-11-21 19:00:00
 
   2026-09-14 19:00:00 → 2027-01-18 21:00:00 | Bredouille Bar, Georgenstraße 199, 10117, Berlin | radio3 Listening Lounge
   2026-10-09 20:00:00 → 2026-12-02 20:00:00 | EUREF-Campus Berlin, Torgauer Straße 25, 10829, Berlin | ZigZag Hall – Berlins neue Bühne für Jazz und Live-Musik
@@ -23,3 +23,4 @@ an der Dischinger Brücke, 13581, Berlin-Spandau | Stripper Blues
   2026-11-20 20:00:00 → 2026-11-20 22:00:00 | Zimmer 16, Florastraße 16, 13187, Berlin | Jazz4Five
   2026-11-20 20:00:00 → None | Little Stage Berlin, Jonasstraße, 12053, Berlin | Do Like Larry
   2026-11-20 20:30:00 → 2026-11-20 23:59:00 | Jazzclub Kunstfabrik Schlot, Invalidenstr. 117, 10115, Berlin | rejazz-festival #7 – DAY 2
+  2026-11-21 19:00:00 → 2026-11-22 18:00:00 | Deutsche Oper Berlin, Tischlerei, Richard-Wagner-Str. / Ecke Zillestr., 10627, Berlin | Jazz & Lyrics II: The Jazziversum

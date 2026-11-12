@@ -1,5 +1,5 @@
 Liste: https://www.visitberlin.de/de/kategorie/blues-jazz
-Event-Links: 17 | Events: 17
+Event-Links: 17 | Events: 16
 
 Seiten:
   eine Seite: 17 Links
@@ -10,7 +10,6 @@ Zeitraum der Starts: 2026-09-14 19:00:00 … 2026-11-21 19:00:00
   2026-10-09 20:00:00 → 2026-12-02 20:00:00 | EUREF-Campus Berlin, Torgauer Straße 25, 10829, Berlin | ZigZag Hall – Berlins neue Bühne für Jazz und Live-Musik
   2026-10-26 20:00:00 → 2026-12-28 23:30:00 | Café Engels, Herrfurthstr. 21, 12049, Berlin | Blue Moonday Jazzsession
   2026-10-27 19:30:00 → 2026-12-29 22:00:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Session im ART Stalker
-  2026-11-12 18:30:00 → None | EUREF-Campus Berlin, Torgauer Straße 25, 10829, Berlin | Konzertreihe ENCORE
   2026-11-13 19:30:00 → 2026-11-13 21:30:00 | Showfenster Theater, Letteallee 94, 13409, Berlin | The Cats Back - Konzert
   2026-11-13 20:00:00 → None | Little Stage Berlin, Jonasstraße, 12053, Berlin | Slow Loris Quartet
   2026-11-14 19:30:00 → None | Das Jüdische Kulturschiff MS Goldberg, Schifffahrtsufer 2

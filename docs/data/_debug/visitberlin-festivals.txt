@@ -1,17 +1,17 @@
 Liste: https://www.visitberlin.de/de/veranstaltungskalender-berlin?cat%5B0%5D=9312&cat%5B1%5D=9782&keys=&date_between%5Bmin%5D=&date_between%5Bmax%5D=&district=All&items_per_page=21
-Event-Links: 68 | Events: 68
+Event-Links: 70 | Events: 70
 
 Seiten:
   page=0: 17 Links, 17 neu
   page=1: 21 Links, 21 neu
   page=2: 21 Links, 21 neu
-  page=3: 9 Links, 9 neu
+  page=3: 11 Links, 11 neu
   page=4: 0 Links, 0 neu
 
 Startdatum aus dem Seitentext korrigiert (JSON-LD-Start war ein Zeitstempel):
   Berliner Theatertreffen 2027: 2025-05-07 14:49:20 -> 2027-05-06 (bis 2027-05-23)
 
-Zeitraum der Starts: 2024-11-29 20:00:00 … 2027-10-28 00:00:00
+Zeitraum der Starts: 2024-11-29 20:00:00 … 2027-11-01 09:00:00
 
   2024-11-29 20:00:00 → 2026-11-28 20:00:00 | Bühne 2 - Theater an der Parkaue, Parkaue 29
 THEATER AN DER PARKAUE, 10367, Berlin | Patchwork on stage
@@ -33,6 +33,7 @@ THEATER AN DER PARKAUE, 10367, Berlin | Patchwork on stage
   2026-11-14 11:00:00 → 2026-11-15 11:00:00 | Hamburger Bahnhof - Museum für Gegenwart Berlin, Invalidenstraße 50-51, 10557, Berlin | 30 Jahre, 30 Stunden
   2026-11-15 00:00:00 → None | Hamburger Bahnhof - Museum für Gegenwart Berlin, Invalidenstraße 50-51, 10557, Berlin | 30 Stunden Hamburger Bahnhof (Teil 2)
   2026-11-18 12:00:00 → 2026-11-24 12:00:00 | Kino in der KulturBrauerei Berlin, Schönhauser Allee 36, 10435, Berlin | 26. Filmfest FrauenWelten
+  2026-11-18 16:30:00 → 2026-11-18 17:30:00 | Bettina-von-Arnim-Bibliothek, Schönhauser Allee 75, 10439, Berlin | Bilinguale Märchentage: Deutsch - Spanisch
   2026-11-19 20:30:00 → 2026-11-21 23:59:00 | Jazzclub Kunstfabrik Schlot, Invalidenstr. 117, 10115, Berlin | rejazz-festival #7
   2026-11-19 20:30:00 → 2026-11-19 23:59:00 | Jazzclub Kunstfabrik Schlot, Invalidenstr. 117, 10115, Berlin | rejazz-festival #7 – DAY 1
   2026-11-20 17:00:00 → 2026-11-22 20:00:00 | Verschiedene Orte, Berlin | 1. GREEK THEATER FESTIVAL BERLIN
@@ -85,3 +86,4 @@ Ecke Storkower Straße, 10405, Berlin | »Puls & Peilung«
   2027-09-11 09:00:00 → 2027-09-12 18:00:00 | Verschiedene Orte, Berlin | Tag des offenen Denkmals 2027
   2027-09-16 00:00:00 → None | Haus der Berliner Festspiele u.a., Schaperstraße 24, 10719, Berlin | ilb – internationales literaturfestival berlin 2027
   2027-10-28 00:00:00 → None | verschiedene Veranstaltungsorte, Berlin | Jazzfest Berlin 2027
+  2027-11-01 09:00:00 → 2027-11-10 23:00:00 | Verschiedene Orte, Berlin | BERLIN SCIENCE WEEK 2027

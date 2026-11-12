@@ -318,6 +318,7 @@
   "lat": 52.5139807,
   "lng": 13.3998494
  },
+ "ASK A PUNK, Berlin": null,
  "AStA FU Otto-von-Simson-Straße 23 Berlin Deutschland": null,
  "AStA TU Berlin, Straße des 17. Juni 135, 10623 Berlin": {
   "address": "Straße des 17. Juni 135, 10623 Charlottenburg",
@@ -1209,6 +1210,12 @@
   "lat": 52.5066764,
   "lng": 13.4277222
  },
+ "Bettina-von-Arnim-Bibliothek, Schönhauser Allee 75, 10439, Berlin": {
+  "address": "Schönhauser Allee 75, 10439 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5492616,
+  "lng": 13.414088
+ },
  "Bhf Fangschleuse 15537 Grünheide (Mark), Berlin": {
   "address": "Eichenstraße, 15537 Berlin",
   "bezirk": null,
@@ -1586,6 +1593,12 @@
   "bezirk": "Mitte",
   "lat": 52.5526787,
   "lng": 13.3794579
+ },
+ "Bänschstraße 51; 10247 Berlin": {
+  "address": "Bänschstraße 51, 10247 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5183538,
+  "lng": 13.4655043
  },
  "Bödickerstraße 9, 10245 Berlin": null,
  "Böhmische Str. 46, 12055 Berlin": {
@@ -2102,6 +2115,12 @@
   "lat": 52.5709896,
   "lng": 13.3619429
  },
+ "Emmichstr. 8, 12249 Berlin": {
+  "address": "Emmichstraße 8, 12249 Lankwitz",
+  "bezirk": "Steglitz-Zehlendorf",
+  "lat": 52.4280485,
+  "lng": 13.3571725
+ },
  "Emser Straße 114, 12051 Neukölln, Berlin": {
   "address": "Emser Straße 114, 12051 Neukölln",
   "bezirk": "Neukölln",
@@ -2160,6 +2179,7 @@
   "lng": 13.4309683
  },
  "FAU-Lokal Grüntaler Str. 24 13357 Berlin Deutschland": null,
+ "FELD - Theater für junges Publikum, Berlin": null,
  "FHXB Friedrichshain-Kreuzberg Museum Adalbertstr. 95A 10999 Berlin Deutschland": null,
  "FMP1 Franz Mehring Platz 1 10243 Berlin Deutschland": {
   "address": "Franz-Mehring-Platz 1, 10243 Friedrichshain",
@@ -2953,6 +2973,12 @@
   "lng": 13.3572868
  },
  "Haus der Berliner Festspiele - Großer Saal, Schaperstr. 24, 10719, Berlin": null,
+ "Haus der Berliner Festspiele, Schaperstraße 24, 10719, Berlin": {
+  "address": "Schaperstraße 24, 10719 Wilmersdorf",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.4986265,
+  "lng": 13.3287067
+ },
  "Haus der Berliner Festspiele, Seitenbühne, Schaperstraße 24, 10719, Berlin": null,
  "Haus der Demokratie und Menschenrechte Greifswalder Str. 4 10405 Berlin Deutschland": {
   "address": "Greifswalder Straße 4, 10405 Prenzlauer Berg",
@@ -3852,6 +3878,7 @@
   "lng": 13.4437627
  },
  "Kiezanker 36, Cuvrystraße 13-14, 10997 Berlin": null,
+ "Kiezbüro Lankwitz Emmichstr. 8 12249 Berlin Deutschland": null,
  "Kiezhaus Agnes Reinhold Afrikanische Straße 74 13351 Berlin Deutschland": {
   "address": "Afrikanische Straße 74, 13351 Wedding",
   "bezirk": "Mitte",

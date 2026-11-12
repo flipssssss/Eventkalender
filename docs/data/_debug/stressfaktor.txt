@@ -1,16 +1,13 @@
-Events (vor Dedup): 420
-https://stressfaktor.squat.net/termine/alle page 0: 30 Events (2026-11-11…2026-11-12)
-https://stressfaktor.squat.net/termine/alle page 1: 30 Events (2026-11-12…2026-11-14)
-https://stressfaktor.squat.net/termine/alle page 2: 30 Events (2026-11-14…2026-11-16)
-https://stressfaktor.squat.net/termine/alle page 3: 30 Events (2026-11-16…2026-11-18)
-https://stressfaktor.squat.net/termine/alle page 4: 30 Events (2026-11-19…2026-11-20)
-https://stressfaktor.squat.net/termine/alle page 5: 30 Events (2026-11-20…2026-11-22)
-https://stressfaktor.squat.net/termine/alle page 6: 30 Events (2026-11-22…2026-11-25)
-https://stressfaktor.squat.net/termine/alle page 7: 30 Events (2026-11-25…2026-11-26)
-https://stressfaktor.squat.net/termine/alle page 8: 30 Events (2026-11-26…2026-11-28)
-https://stressfaktor.squat.net/termine/alle page 9: 30 Events (2026-11-29…2026-12-02)
-https://stressfaktor.squat.net/termine/alle page 10: 30 Events (2026-12-02…2026-12-04)
-https://stressfaktor.squat.net/termine/alle page 11: 30 Events (2026-12-05…2026-12-08)
-https://stressfaktor.squat.net/termine/alle page 12: 30 Events (2026-12-08…2026-12-13)
-https://stressfaktor.squat.net/termine/alle page 13: 30 Events (2026-12-13…2026-12-17)
-Anubis-Notizen: PoW: difficulty=2 nonce=147 hash=00407363ce52… pass-status=200 cookies=['techaro.lol-anubis-cookie-verification-347ddb4a', 'techaro.lol-anubis-auth-347ddb4a']
+Events (vor Dedup): 27
+URL: https://stressfaktor.squat.net/termine/alle
+  HTML-Länge: 67 Zeichen
+  Events geparst: 0
+  Datum-Treffer (Text) im HTML: 0
+  Häufigste CSS-Klassen: []
+  Roh-HTML (vollständig):
+The website encountered an unexpected error. Try again later.<br />
+------------------------------------------------------------
+→ Fallback auf /termine
+https://stressfaktor.squat.net/termine page 0: 27 Events (2026-11-12…2026-11-12)
+https://stressfaktor.squat.net/termine page 1: 0 Events – Ende
+Anubis-Notizen: PoW: difficulty=2 nonce=408 hash=00d69c6db95c… pass-status=500 cookies=['techaro.lol-anubis-cookie-verification-347ddb4a', 'techaro.lol-anubis-auth-347ddb4a']

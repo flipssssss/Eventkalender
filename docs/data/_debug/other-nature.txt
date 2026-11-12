@@ -1,6 +1,5 @@
-entries: 10 | Events: 10
-  2026-11-10 19:00:00 | Woher weiß ich was ich will?
-  2026-11-12 19:00:00 | Rethinking Relationships Game Night
+entries: 9 | Events: 9
+  2026-06-18 19:00:00 | [CANCELLED] 12.11.26 // Rethinking Relationships Game Night
   2026-11-17 19:00:00 | Hooked on Vulvas – Häkel dir eine Vulva! Teil 2
   2020-11-19 19:00:00 | 19.11.2026 // Sexualität in den Wechseljahren
   2026-11-21 19:00:00 | Other Nature's Winter Market

@@ -4,28 +4,6 @@ event-blocks: 30 | Events: 30
  <!-- Zeile 1: Datum + Titel -->
  <div class="event-row-1">
   <div class="event-time">
-   Donnerstag, 12. Nov. 21:30
-  </div>
-  <div class="event-title">
-   Schwulenschubsen
-  </div>
- </div>
- <!-- Zeile 2: Bild + Beschreibung -->
- <div class="event-row-2">
-  <div class="event-image event-image--empty">
-  </div>
-  <div class="event-description">
-   Discret Passion
-  </div>
- </div>
-</div>
-
-
-----
-<div class="event-block">
- <!-- Zeile 1: Datum + Titel -->
- <div class="event-row-1">
-  <div class="event-time">
    Freitag, 13. Nov. 22:00
   </div>
   <div class="event-title">
@@ -82,6 +60,28 @@ LBXX is a dynamic force! As a Black queer hip hop performer, DJ, and activist, L
   </div>
   <div class="event-description">
    Goth Night
+  </div>
+ </div>
+</div>
+
+
+----
+<div class="event-block">
+ <!-- Zeile 1: Datum + Titel -->
+ <div class="event-row-1">
+  <div class="event-time">
+   Donnerstag, 19. Nov. 21:30
+  </div>
+  <div class="event-title">
+   Schwulenschubsen
+  </div>
+ </div>
+ <!-- Zeile 2: Bild + Beschreibung -->
+ <div class="event-row-2">
+  <div class="event-image event-image--empty">
+  </div>
+  <div class="event-description">
+   Evan Tail
   </div>
  </div>
 </div>

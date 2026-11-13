@@ -1,13 +1,6 @@
-Events (vor Dedup): 27
-URL: https://stressfaktor.squat.net/termine/alle
-  HTML-Länge: 67 Zeichen
-  Events geparst: 0
-  Datum-Treffer (Text) im HTML: 0
-  Häufigste CSS-Klassen: []
-  Roh-HTML (vollständig):
-The website encountered an unexpected error. Try again later.<br />
-------------------------------------------------------------
-→ Fallback auf /termine
-https://stressfaktor.squat.net/termine page 0: 27 Events (2026-11-12…2026-11-12)
-https://stressfaktor.squat.net/termine page 1: 0 Events – Ende
-Anubis-Notizen: PoW: difficulty=2 nonce=408 hash=00d69c6db95c… pass-status=500 cookies=['techaro.lol-anubis-cookie-verification-347ddb4a', 'techaro.lol-anubis-auth-347ddb4a']
+Events (vor Dedup): 90
+https://stressfaktor.squat.net/termine/alle page 0: 30 Events (2026-11-12…2026-11-13)
+https://stressfaktor.squat.net/termine/alle page 1: 30 Events (2026-11-14…2026-11-17)
+https://stressfaktor.squat.net/termine/alle page 2: 30 Events (2026-11-17…2026-11-19)
+https://stressfaktor.squat.net/termine/alle page 3: 0 Events – Ende
+Anubis-Notizen: PoW: difficulty=2 nonce=101 hash=00eb286a82fb… pass-status=200 cookies=['techaro.lol-anubis-cookie-verification-347ddb4a', 'techaro.lol-anubis-auth-347ddb4a']

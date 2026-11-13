@@ -1,7 +1,6 @@
 top-keys: ['website', 'websiteSettings', 'collection', 'shoppingCart', 'shareButtons', 'showCart', 'localizedStrings', 'userAccountsContext', 'template', 'uiextensions', 'empty', 'emptyFolder', 'calendarView', 'pagination', 'upcoming']
-items: 45 | Events: 45
+items: 44 | Events: 44
 erstes item keys: ['id', 'collectionId', 'recordType', 'addedOn', 'updatedOn', 'starred', 'passthrough', 'tags', 'categories', 'workflowState', 'publishOn', 'authorId', 'systemDataId', 'systemDataVariants', 'systemDataSourceType', 'filename', 'mediaFocalPoint', 'colorData', 'urlId', 'title', 'sourceUrl', 'body', 'excerpt', 'location', 'customContent']
-  2026-11-12 21:00:00.506000 | Thärichens Tentett&nbsp;
   2026-11-13 21:00:00.506000 | Martina Gebhardt Bandfeat. Patricio Böttcher (sax) „Light“
   2026-11-14 21:00:00.506000 | Vladimir Karparov Quartett
   2026-11-15 21:00:00.506000 | June Yun &amp; Arseny Rykov: Raw Sketches (of a Musician’s Mind)
@@ -31,3 +30,4 @@ erstes item keys: ['id', 'collectionId', 'recordType', 'addedOn', 'updatedOn', '
   2026-12-13 21:00:00.506000 | Denecke/ Köhler/ Draganic/ Marcelli Quartett
   2026-12-15 21:00:00.506000 | BARABÁS LŐRINC QUARTET / Hungary
   2026-12-16 09:00:00.936000 | Robins Nest - Jamsession
+  2026-12-17 21:00:00.506000 | Ania Paz Trio

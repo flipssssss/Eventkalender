@@ -1,31 +1,31 @@
-API-Events: 85 | übernommen: 85
-  2026-11-12 19:00:00 | None | SAUFEN - PunkRock Lyrik Lesung
-  2026-11-12 19:00:00 | Punk | UNS + Gäste
-  2026-11-12 19:00:00 | Punk | PAT AND THE PISSERS (U.S.) & DIE HAARE (Bln)
-  2026-11-12 19:00:00 | Hip-Hop | PYRO ONE (Rec-Release-Show) + KET
-  2026-11-12 19:00:00 | Metal | Drawn & Quartered - Noroth
-  2026-11-12 20:00:00 | None | MESSA - EU / UK Tour Fall 2026 / Berlin
-  2026-11-12 20:00:00 | Indie | Elephant Stone • Sacred Buzz • Double Album Release Show at Neue Zukunft, Berlin
-  2026-11-12 20:00:00 | Punk | Sofoquina + Ross Peacock + twerkonkraftwerk
-  2026-11-12 20:00:00 | Punk | Dee Cracks (Wien/AT) + Power Apes (Berlin)
+API-Events: 79 | übernommen: 79
   2026-11-13 13:45:00 | None | Queer Tours for All! - Plänterwald
-  2026-11-13 19:00:00 | Punk | UltraNothing (post-punk / Luxembourg) + Sprung ins Leere (Düsterpunk) im Cafe Lutetia (Spandau, #spandaupunk)
-  2026-11-13 19:00:00 | Punk | Kharkiv Hardcore Support Show
+  2026-11-13 19:00:00 | Rock | Abanamat & The Great Marton Conspiracy (Hungary)
   2026-11-13 19:00:00 | Punk | EXTREME ASSI NIGHT VOL.II feat. Assi Assassin + Evöl Dead - (FREE ENTRY!)
+  2026-11-13 19:00:00 | Punk | Kharkiv Hardcore Support Show
+  2026-11-13 19:00:00 | Punk | UltraNothing (post-punk / Luxembourg) + Sprung ins Leere (Düsterpunk) im Cafe Lutetia (Spandau, #spandaupunk)
+  2026-11-13 19:30:00 | Metal | USU pres.: Water Damage + Gavial + Gaffa Ghandi | Neue Zukunft - 13.11.2026
   2026-11-13 19:30:00 | Punk | Jacke Schwarz und die Nieten + Tiny Doris + Paul Geigerzähler
   2026-11-13 20:00:00 | Electro | Organized Decay
   2026-11-13 21:00:00 | Metal | Rock at Slaughterhouse - Sheev + Ghostones + Caosonora
-  2026-11-14 19:00:00 | None | PAMPHLETS + Support
   2026-11-14 19:00:00 | Punk | UltraNothing (post-punk / Luxembourg) + Easily Distracted by Ducks (punkrock)  im Schokoladen Berlin
+  2026-11-14 19:00:00 | None | PAMPHLETS + Support
   2026-11-14 20:00:00 | Punk | TO HELL WITH PUNK FEST
   2026-11-14 22:00:00 | Electro | Beat Bureau
-  2026-11-15 19:00:00 | Punk | CAREER SUICIDE (w/ Wet Dream War Machine + Batterriii)
   2026-11-15 19:00:00 | Punk | SPY + COMBUST + SIDESTEP
+  2026-11-15 19:00:00 | Punk | CAREER SUICIDE (w/ Wet Dream War Machine + Batterriii)
   2026-11-17 17:45:00 | None | Queer Tours for All! - Queer Kreuzberg
   2026-11-18 19:30:00 | Punk | SIKM + CLAVV
   2026-11-19 19:00:00 | Punk | Die Anstalt + Güner Künier + The Pleasure Majenta
+  2026-11-19 19:00:00 | Punk | APART (emo-punk/indie-rock, fr) & LLANA (math-rock, bln)
   2026-11-19 19:00:00 | Punk | NIGHT FREAK (U.S.) & THE INSERTS (Bln)
   2026-11-19 20:00:00 | Metal | USU pres.: IMPERIAL TRIUMPHANT + Knoll | Neue Zukunft - 19.11.2026
   2026-11-19 20:00:00 | None | Anna von Hausswolff - Berlin, Astra Kulturhaus
   2026-11-19 21:00:00 | Punk | Icarus Burns-Stoner/Bln+Lasse Reinstroem-Stoner/Dresden
+  2026-11-20 19:00:00 | Punk | ParkPunk (deutschpunk, Regensburg) + FCKSCHNTZL  (punkrock, Bln) - #berlinpunk im Schokoladen
   2026-11-20 19:00:00 | Punk | EARTHBONG (+ FROST, PISSE & ELEND) | NEUE ZUKUNFT - Berlin
+  2026-11-20 19:00:00 | None | GNOOMES + Support
+  2026-11-20 20:00:00 | None | KONVULSISMO 7.  Arnaud Rivière + Lise Barkas + Ilia Gorovitz + ifjú sátán + Zach Hart
+  2026-11-21 10:45:00 | None | Queer Tours for All! - Köpenicker Forst
+  2026-11-21 20:00:00 | None | Ska Soiree
+  2026-11-21 20:00:00 | Metal | KRAKE + YEAST MACHINE @ Neue Zukunft

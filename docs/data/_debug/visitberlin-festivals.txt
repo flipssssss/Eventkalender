@@ -1,11 +1,11 @@
 Liste: https://www.visitberlin.de/de/veranstaltungskalender-berlin?cat%5B0%5D=9312&cat%5B1%5D=9782&keys=&date_between%5Bmin%5D=&date_between%5Bmax%5D=&district=All&items_per_page=21
-Event-Links: 70 | Events: 68
+Event-Links: 66 | Events: 65
 
 Seiten:
   page=0: 17 Links, 17 neu
   page=1: 21 Links, 21 neu
   page=2: 21 Links, 21 neu
-  page=3: 11 Links, 11 neu
+  page=3: 7 Links, 7 neu
   page=4: 0 Links, 0 neu
 
 Startdatum aus dem Seitentext korrigiert (JSON-LD-Start war ein Zeitstempel):
@@ -18,15 +18,12 @@ THEATER AN DER PARKAUE, 10367, Berlin | Patchwork on stage
   2026-10-24 11:00:00 → 2026-11-17 11:00:00 | Fontane Haus Kulturzentrum, Königshorster Straße 6, 13439, Berlin | Festwoche im Fontane-Haus: 50-jähriges Jubiläum
   2026-11-05 10:00:00 → 2026-11-22 10:00:00 | verschiedene Religionsgemeinschaften, Berlin | 37. BERLINER MÄRCHENTAGE
   2026-11-06 12:00:00 → 2026-11-15 23:00:00 | Kunstraum Kreuzberg/Bethanien, Mariannenplatz 2, 10997, Berlin | Klangwerkstatt Berlin 2026
-  2026-11-07 08:00:00 → 2026-11-14 08:00:00 | Verschiedene Orte, Berlin | Berlin Freedom Week
   2026-11-07 20:00:00 → 2026-11-25 19:30:00 | Staatsoper Unter den Linden, Unter den Linden 7, 10117, Berlin | Barocktage 2026
   2026-11-09 10:00:00 → 2026-11-15 10:00:00 | Verschiedene Orte, Berlin | AFRIKAMERA 2026: REFLECT
   2026-11-11 01:00:00 → 2026-11-21 01:00:00 | Diverse Veranstaltungsorte, Berlin | NO LIMITS 2026
   2026-11-11 19:00:00 → 2026-11-21 20:00:00 | Konzerthaus, Gendarmenmarkt 2, 10117, Berlin | NOW HERE – EIN KOOPERATIVES FESTIVAL FÜR KLANGERFAHRUNG
   2026-11-11 20:00:00 → 2026-11-18 21:00:00 | Verschiedene Orte, Berlin | West-Eastern Divan Festival
   2026-11-12 12:00:00 → 2026-11-22 12:00:00 | Verschiedene Orte, Berlin | 39. Jüdische Kulturtage Berlin 2026
-  2026-11-12 19:00:00 → 2026-11-14 22:00:00 | Brotfabrik, Caligariplatz 1, 13086, Berlin | UNDER BERLIN FILM FESTIVAL 2026
-  2026-11-13 10:00:00 → 2026-11-14 10:00:00 | Verschiedene Orte, Berlin | Bauhaus Music 2026. Ich fühle Luft von anderem Planeten
   2026-11-13 14:30:00 → 2026-11-15 08:00:00 | Verschiedene Orte, Berlin | LOOPTOPIA
   2026-11-14 11:00:00 → 2026-11-15 11:00:00 | Hamburger Bahnhof - Museum für Gegenwart Berlin, Invalidenstraße 50-51, 10557, Berlin | 30 Jahre, 30 Stunden
   2026-11-15 00:00:00 → None | Hamburger Bahnhof - Museum für Gegenwart Berlin, Invalidenstraße 50-51, 10557, Berlin | 30 Stunden Hamburger Bahnhof (Teil 2)

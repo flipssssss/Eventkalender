@@ -1,7 +1,6 @@
 top-keys: ['website', 'websiteSettings', 'collection', 'shoppingCart', 'shareButtons', 'showCart', 'localizedStrings', 'userAccountsContext', 'template', 'uiextensions', 'empty', 'emptyFolder', 'calendarView', 'pagination', 'upcoming']
-items: 44 | Events: 44
+items: 43 | Events: 43
 erstes item keys: ['id', 'collectionId', 'recordType', 'addedOn', 'updatedOn', 'starred', 'passthrough', 'tags', 'categories', 'workflowState', 'publishOn', 'authorId', 'systemDataId', 'systemDataVariants', 'systemDataSourceType', 'filename', 'mediaFocalPoint', 'colorData', 'urlId', 'title', 'sourceUrl', 'body', 'excerpt', 'location', 'customContent']
-  2026-11-13 21:00:00.506000 | Martina Gebhardt Bandfeat. Patricio Böttcher (sax) „Light“
   2026-11-14 21:00:00.506000 | Vladimir Karparov Quartett
   2026-11-15 21:00:00.506000 | June Yun &amp; Arseny Rykov: Raw Sketches (of a Musician’s Mind)
   2026-11-17 21:00:00.506000 | open excess: feat Anna Reizbikh &amp; Peter Ehwald
@@ -16,7 +15,7 @@ erstes item keys: ['id', 'collectionId', 'recordType', 'addedOn', 'updatedOn', '
   2026-11-27 21:00:00.506000 | mOOn dOgs
   2026-11-28 21:00:00.506000 | Roman Ott Quartett - for new recording
   2026-11-29 21:00:00.506000 | Searching for Home
-  2026-12-01 21:00:00.506000 | FOR FREE HANDS | Berlin . Sofia . Rom . Ljubljana . Rabatt| URBAN JAZZ . WORLD FUSION
+  2026-12-01 21:00:00.506000 | FOR FREE HANDS | Berlin . Sofia . Rom . Ljubljana . URBAN JAZZ . WORLD FUSION
   2026-12-02 09:00:00.936000 | Robins Nest - Jamsession
   2026-12-03 21:00:00.506000 | Magnetic Ghost Orchestra
   2026-12-04 21:00:00.506000 | HU Bigband – Funky X-Mas
@@ -31,3 +30,4 @@ erstes item keys: ['id', 'collectionId', 'recordType', 'addedOn', 'updatedOn', '
   2026-12-15 21:00:00.506000 | BARABÁS LŐRINC QUARTET / Hungary
   2026-12-16 09:00:00.936000 | Robins Nest - Jamsession
   2026-12-17 21:00:00.506000 | Ania Paz Trio
+  2026-12-18 21:00:00.506000 | THE TOUGHEST TENORS

@@ -1,8 +1,8 @@
 Events: 7
-  2026-11-13 17:00:00 | Friday Infusions
   2026-11-14 17:00:00 | Saturday Infusions
   2026-11-15 17:00:00 | Snax-Docking *PRESALE sold out*
   2026-11-15 17:00:00 | Sunday Infusions
   2026-11-16 17:00:00 | Monday Infusions
   2026-11-17 17:00:00 | Theme Night
   2026-11-18 17:00:00 | youngStars
+  2026-11-19 17:00:00 | 'green' Thursday

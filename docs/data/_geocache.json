@@ -648,6 +648,7 @@
   "lat": 52.5114484,
   "lng": 13.4407738
  },
+ "Amerika-Gedenkbibliothek Blücherplatz 1 PopUp Saal 10961 Berlin Deutschland": null,
  "Amerika-Gedenkbibliothek, Berlin": {
   "address": "Blücherplatz 1, 10961 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -2592,6 +2593,12 @@
   "lat": 52.4918026,
   "lng": 13.391591
  },
+ "Gneisenaustraße 2a, 10961 Berlin": {
+  "address": "Gneisenaustraße 2a, 10961 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4919487,
+  "lng": 13.3889569
+ },
  "Gneisenaustraße 2a, 10961 Kreuzberg, Berlin": {
   "address": "Gneisenaustraße 2a, 10961 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -2715,6 +2722,12 @@
   "bezirk": "Tempelhof-Schöneberg",
   "lat": 52.4891631,
   "lng": 13.3527499
+ },
+ "Grünberger Str. 46 (Friedrichshain) Berlin Deutschland": {
+  "address": "Grünberger Straße 46, 10245 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5119652,
+  "lng": 13.4545746
  },
  "Grünberger Str. 77, Berlin": {
   "address": "Grünberger Straße 77, 10245 Friedrichshain",
@@ -5349,6 +5362,7 @@
   "lat": 52.4918919,
   "lng": 13.3890768
  },
+ "Mehringhof, Gneisenaustraße 2a, 10961 Berlin": null,
  "Mehringplatz 10, 10969 Kreuzberg, Berlin": {
   "address": "Mehringplatz 10, 10969 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -5556,6 +5570,12 @@
   "bezirk": "Neukölln",
   "lat": 52.4904772,
   "lng": 13.4314849
+ },
+ "Narva Lounge, Berlin": {
+  "address": "Warschauer Platz 18, 10245 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5045582,
+  "lng": 13.4489112
  },
  "Naturfreundejugend Berlin Weichselstr. 14 12045 Berlin Deutschland": null,
  "Naunynstr. 60, 10997 Berlin": {
@@ -8914,6 +8934,12 @@
  },
  "rag über Stadtteilarbeit und Antifaschismus im \"Sozialen Zentrum Aenne Saefkow\", Berlin": null,
  "rk and antifascism at the “Soziales Zentrum Aenne Saefkow”, Berlin": null,
+ "silent green Kulturquartier, Berlin": {
+  "address": "Gerichtstraße 35, 13347 Wedding",
+  "bezirk": "Mitte",
+  "lat": 52.5456853,
+  "lng": 13.36649
+ },
  "silent green Kulturquartier, Gerichtstraße 35, 13347, Berlin": {
   "address": "Gerichtstraße 35, 13347 Wedding",
   "bezirk": "Mitte",

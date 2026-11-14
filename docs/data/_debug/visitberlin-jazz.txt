@@ -1,17 +1,16 @@
 Liste: https://www.visitberlin.de/de/kategorie/blues-jazz
-Event-Links: 17 | Events: 15
+Event-Links: 17 | Events: 16
 
 Seiten:
   eine Seite: 17 Links
 
-Zeitraum der Starts: 2026-09-14 19:00:00 … 2026-11-21 19:00:00
+Zeitraum der Starts: 2026-03-26 19:00:00 … 2026-11-21 20:30:00
 
+  2026-03-26 19:00:00 → 2026-12-10 21:00:00 | Musikinstrumenten-Museum, Tiergartenstraße, 10785, Berlin | Jazz im MIM
   2026-09-14 19:00:00 → 2027-01-18 21:00:00 | Bredouille Bar, Georgenstraße 199, 10117, Berlin | radio3 Listening Lounge
   2026-10-09 20:00:00 → 2026-12-02 20:00:00 | EUREF-Campus Berlin, Torgauer Straße 25, 10829, Berlin | ZigZag Hall – Berlins neue Bühne für Jazz und Live-Musik
   2026-10-26 20:00:00 → 2026-12-28 23:30:00 | Café Engels, Herrfurthstr. 21, 12049, Berlin | Blue Moonday Jazzsession
   2026-10-27 19:30:00 → 2026-12-29 22:00:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Session im ART Stalker
-  2026-11-14 19:30:00 → None | Das Jüdische Kulturschiff MS Goldberg, Schifffahrtsufer 2
-an der Dischinger Brücke, 13581, Berlin-Spandau | Stripper Blues
   2026-11-18 20:00:00 → 2026-11-18 22:00:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Alessandro Tarshahani and the Band
   2026-11-19 20:00:00 → 2026-11-19 23:00:00 | Kulturhaus "alte feuerwache" Friedrichshain, Marchlewskistr. 6, 10243, Berlin | Jazz in der Alten Feuerwache | Lionel Haas Trio
   2026-11-19 20:00:00 → 2026-11-19 22:00:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Union Duke - UD IV-Tour - Alt-Rock / Americana
@@ -22,3 +21,4 @@ an der Dischinger Brücke, 13581, Berlin-Spandau | Stripper Blues
   2026-11-20 20:00:00 → None | Little Stage Berlin, Jonasstraße, 12053, Berlin | Do Like Larry
   2026-11-20 20:30:00 → 2026-11-20 23:59:00 | Jazzclub Kunstfabrik Schlot, Invalidenstr. 117, 10115, Berlin | rejazz-festival #7 – DAY 2
   2026-11-21 19:00:00 → 2026-11-22 18:00:00 | Deutsche Oper Berlin, Tischlerei, Richard-Wagner-Str. / Ecke Zillestr., 10627, Berlin | Jazz & Lyrics II: The Jazziversum
+  2026-11-21 20:30:00 → 2026-11-21 23:59:00 | Jazzclub Kunstfabrik Schlot, Invalidenstr. 117, 10115, Berlin | rejazz-festival #7 – DAY 3

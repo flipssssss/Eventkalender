@@ -1,26 +1,5 @@
-event-blocks: 30 | Events: 30
+event-blocks: 29 | Events: 29
 
-<div class="event-block">
- <!-- Zeile 1: Datum + Titel -->
- <div class="event-row-1">
-  <div class="event-time">
-   Freitag, 13. Nov. 22:00
-  </div>
-  <div class="event-title">
-   LBXX
-  </div>
- </div>
- <!-- Zeile 2: Bild + Beschreibung -->
- <div class="event-row-2">
-  <div class="event-image">
-   <img alt="" src="ProgrammFotos/LBXX_2026_11_13.jpg"/>
-  </div>
-  <div class="event-description">
-   LBXX pronounced Lunch Box, was born August 5th, 1994 in Long Beach, California. Born into a family of Jamaican culture and reggae, LBXX had a passion for music at a very young age.
-
-LBXX is a dynamic force! As a Black queer hip hop performer, DJ, and activist, LBXX co-founded the @__Makeroom DJ collective and pioneered Project Save the Gworls, a fundraising initiative offering rapid response support to BIPOC LGBTQIA+ and TGNC individuals during crises. Renowned for high-energy performances, and
-
-----
 <div class="event-block">
  <!-- Zeile 1: Datum + Titel -->
  <div class="event-row-1">
@@ -85,3 +64,23 @@ LBXX is a dynamic force! As a Black queer hip hop performer, DJ, and activist, L
   </div>
  </div>
 </div>
+
+
+----
+<div class="event-block">
+ <!-- Zeile 1: Datum + Titel -->
+ <div class="event-row-1">
+  <div class="event-time">
+   Freitag, 20. Nov. 22:00
+  </div>
+  <div class="event-title">
+   Cristoval Dilunar
+  </div>
+ </div>
+ <!-- Zeile 2: Bild + Beschreibung -->
+ <div class="event-row-2">
+  <div class="event-image">
+   <img alt="" src="ProgrammFotos/Cristoval_Dilunar_2026_11_20.jpg"/>
+  </div>
+  <div class="event-description">
+   Cristoval Dilunar is the project of Cristobal Alzerreca, a producer, DJ, and performer from Santiago, Chile. In their sets, he moves freely and without prejudice through genres such as electro, new beat, house, techno, electropop, and electroclash. They also perform their own sonic creations live when they take the microphone, creating an atmosphere that ranges from joyful emotions to hypnotic, sensual, and experimental trances. They have performed on major stages of the

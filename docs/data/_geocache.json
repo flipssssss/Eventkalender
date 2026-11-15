@@ -1450,6 +1450,7 @@
   "lat": 52.5049676,
   "lng": 13.335294
  },
+ "Britischen Botschaft Wilhelmstraße 70 - 71 10117 Berlin Deutschland": null,
  "Britzer Garten Berlin, Sangerhauser Weg 1, 12349, Berlin": null,
  "Brotfabrik Caligariplatz 1 13086 Berlin Deutschland": {
   "address": "Caligariplatz 1, 13086 Weißensee",
@@ -1627,6 +1628,12 @@
   "bezirk": "Tempelhof-Schöneberg",
   "lat": 52.4962066,
   "lng": 13.365417
+ },
+ "C+ Bakery, Berlin": {
+  "address": "Falckensteinstraße 35, 10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4982114,
+  "lng": 13.4421993
  },
  "CABUWAZI TEMPELHOF, Columbiadamm 84, 10965, Berlin": null,
  "CCCB, Marienstraße 11, 10117 Berlin": null,
@@ -4427,6 +4434,12 @@
   "lat": 52.5422403,
   "lng": 13.6173176
  },
+ "Lab.oratory, Berlin": {
+  "address": "Am Wriezener Bahnhof, 10243 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5115736,
+  "lng": 13.4430142
+ },
  "Ladenkino, Berlin": {
   "address": "Gärtnerstraße 19, 10245 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -6027,6 +6040,12 @@
   "lng": 13.4233212
  },
  "Oya-Bar, Mariannenstraße 6 10997 Berlin Deutschland": null,
+ "P-Berg, Berlin": {
+  "address": "Schönhauser Allee 89, 10439 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5529072,
+  "lng": 13.414745
+ },
  "PA58 Prinzenallee 58 Berlin Deutschland": {
   "address": "Prinzenallee 58, 13359 Gesundbrunnen",
   "bezirk": "Mitte",
@@ -8545,6 +8564,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5042082,
   "lng": 13.3853499
+ },
+ "Wilhelmstraße 70 - 71, 10117 Berlin": {
+  "address": "Wilhelmstraße 70-71, 10117 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5156227,
+  "lng": 13.3807336
  },
  "Willy-Brandt-Haus, Berlin": {
   "address": "Stresemannstraße, 10963 Kreuzberg",

@@ -1,28 +1,5 @@
-event-blocks: 29 | Events: 29
+event-blocks: 28 | Events: 28
 
-<div class="event-block">
- <!-- Zeile 1: Datum + Titel -->
- <div class="event-row-1">
-  <div class="event-time">
-   Samstag, 14. Nov. 21:00
-  </div>
-  <div class="event-title">
-   Neelz on Wheels &amp; Beat Baerbl
-  </div>
- </div>
- <!-- Zeile 2: Bild + Beschreibung -->
- <div class="event-row-2">
-  <div class="event-image">
-   <img alt="" src="ProgrammFotos/Neelz_on_Wheels_Beat_Baerbl_2026_11_14.jpg"/>
-  </div>
-  <div class="event-description">
-   vintage sounds! vintage vinyls!
-  </div>
- </div>
-</div>
-
-
-----
 <div class="event-block">
  <!-- Zeile 1: Datum + Titel -->
  <div class="event-row-1">
@@ -84,3 +61,22 @@ event-blocks: 29 | Events: 29
   </div>
   <div class="event-description">
    Cristoval Dilunar is the project of Cristobal Alzerreca, a producer, DJ, and performer from Santiago, Chile. In their sets, he moves freely and without prejudice through genres such as electro, new beat, house, techno, electropop, and electroclash. They also perform their own sonic creations live when they take the microphone, creating an atmosphere that ranges from joyful emotions to hypnotic, sensual, and experimental trances. They have performed on major stages of the
+
+----
+<div class="event-block">
+ <!-- Zeile 1: Datum + Titel -->
+ <div class="event-row-1">
+  <div class="event-time">
+   Samstag, 21. Nov. 21:30
+  </div>
+  <div class="event-title">
+   Big Bang Ben --- Disco Madness from Outer Space
+  </div>
+ </div>
+ <!-- Zeile 2: Bild + Beschreibung -->
+ <div class="event-row-2">
+  <div class="event-image">
+   <img alt="" src="ProgrammFotos/Big_Bang_Ben_Disco_Madness_from_Outer_Space_2026_11_21.jpg"/>
+  </div>
+  <div class="event-description">
+   A cosmic troublemaker behind the turntables, DJ Big Bang Ben digs deep into the weird and wonderful corners of vinyl culture. His signature Disco Madness collides Italo, Cosmic Disco, Funk, Boogie, Afro grooves, Krautrock and leftfield electronics into a wild, genre-bending trip. Expect hypnotic rhythms, unexpected twists and dancefloor oddities from another dimension. No rules, no algorithms -- just pure vinyl-fuel

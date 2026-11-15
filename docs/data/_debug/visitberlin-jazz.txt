@@ -1,10 +1,10 @@
 Liste: https://www.visitberlin.de/de/kategorie/blues-jazz
-Event-Links: 17 | Events: 16
+Event-Links: 17 | Events: 17
 
 Seiten:
   eine Seite: 17 Links
 
-Zeitraum der Starts: 2026-03-26 19:00:00 … 2026-11-21 20:30:00
+Zeitraum der Starts: 2026-03-26 19:00:00 … 2026-11-27 19:30:00
 
   2026-03-26 19:00:00 → 2026-12-10 21:00:00 | Musikinstrumenten-Museum, Tiergartenstraße, 10785, Berlin | Jazz im MIM
   2026-09-14 19:00:00 → 2027-01-18 21:00:00 | Bredouille Bar, Georgenstraße 199, 10117, Berlin | radio3 Listening Lounge
@@ -22,3 +22,4 @@ Zeitraum der Starts: 2026-03-26 19:00:00 … 2026-11-21 20:30:00
   2026-11-20 20:30:00 → 2026-11-20 23:59:00 | Jazzclub Kunstfabrik Schlot, Invalidenstr. 117, 10115, Berlin | rejazz-festival #7 – DAY 2
   2026-11-21 19:00:00 → 2026-11-22 18:00:00 | Deutsche Oper Berlin, Tischlerei, Richard-Wagner-Str. / Ecke Zillestr., 10627, Berlin | Jazz & Lyrics II: The Jazziversum
   2026-11-21 20:30:00 → 2026-11-21 23:59:00 | Jazzclub Kunstfabrik Schlot, Invalidenstr. 117, 10115, Berlin | rejazz-festival #7 – DAY 3
+  2026-11-27 19:30:00 → 2026-11-27 22:00:00 | Showfenster Theater, Letteallee 94, 13409, Berlin | Bring That Thing - Konzert

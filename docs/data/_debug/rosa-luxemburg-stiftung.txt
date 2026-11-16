@@ -1,4 +1,4 @@
-Teaser: 229 | Berlin: 39 | andere Städte: 190 | mit Beschreibung: 38
+Teaser: 230 | Berlin: 40 | andere Städte: 190 | mit Beschreibung: 38
   2026-11-02 19:00:26 | Berlin | Alles meins?
   2026-11-03 10:00:00 | Berlin | Wurde das einst „rote Berlin“ 1933 vom Faschismus zerschlagen?
   2026-11-03 19:00:00 | Berlin | Bumerangeffekte. Russland, der Ukrainekrieg und die Folgen
@@ -24,8 +24,8 @@ Teaser: 229 | Berlin: 39 | andere Städte: 190 | mit Beschreibung: 38
   2026-11-18 19:00:49 | Berlin | „OP – Genova 2001“
   2026-11-19 18:30:12 | Berlin | Socialism for Future
   2026-11-19 19:00:00 | Berlin | Nicht wie Feuer und Wasser: Religiöse Sozialisten
+  2026-11-20 09:30:21 | Berlin | 5. Fachtag demokratische Wirtschaftsplanung
   2026-11-20 18:00:00 | Berlin | Brechts Pinselknecht. Ein Brecht-Abend zu Ehren von Karl-Heinz Drescher
   2026-11-23 18:30:09 | Berlin | Unternehmen in die Pflicht – in Deutschland, Europa und weltweit!
   2026-11-23 20:00:00 | Berlin | “Was bedeutet für Dich Widerstand”. Eine Pasolini-Lektüre
   2026-11-24 10:00:00 | Berlin | Justizirrtümer, Vertuschungen und Fehlurteile
-  2026-11-24 18:00:00 | Berlin | Fritz Cremer - Aufrecht!

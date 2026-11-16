@@ -1,11 +1,11 @@
 Liste: https://www.visitberlin.de/de/veranstaltungskalender-berlin?cat%5B0%5D=9312&cat%5B1%5D=9782&keys=&date_between%5Bmin%5D=&date_between%5Bmax%5D=&district=All&items_per_page=21
-Event-Links: 61 | Events: 60
+Event-Links: 60 | Events: 60
 
 Seiten:
   page=0: 17 Links, 17 neu
   page=1: 21 Links, 21 neu
   page=2: 21 Links, 21 neu
-  page=3: 2 Links, 2 neu
+  page=3: 1 Links, 1 neu
   page=4: 0 Links, 0 neu
 
 Startdatum aus dem Seitentext korrigiert (JSON-LD-Start war ein Zeitstempel):

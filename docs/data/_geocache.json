@@ -465,6 +465,12 @@
  "Akari Restaurant Babelsberg, Großbeerenstraße 107, 14482 Potsdam, Berlin": null,
  "Ale Felcitas, Berlin": null,
  "Ale Felicitas, Berlin": null,
+ "Alexanderplatz 10178 Berlin Deutschland": {
+  "address": "Alexanderplatz, Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5219814,
+  "lng": 13.4136358
+ },
  "Alexanderplatz 10187 Berlin Deutschland": {
   "address": "Alexanderplatz, Mitte",
   "bezirk": "Mitte",
@@ -916,6 +922,7 @@
  },
  "Baiz Schönhauser Allee 26 A 10435 Berlin Deutschland": null,
  "Baiz Schönhauser Allee 26 A, 10435 Berlin": null,
+ "Baiz, Schönhauser Allee 26a, 10435 Berlin": null,
  "Ballhaus Berlin": {
   "address": "Chausseestraße 102, 10115 Mitte",
   "bezirk": "Mitte",
@@ -1813,6 +1820,7 @@
   "lng": 13.42456
  },
  "Checkpoint Charlie, Friedrichstraße 43-45, 10117 Berlin": null,
+ "Chip Jugendhaus Reichenbergerstraße 44-45 Deutschland, Berlin": null,
  "Choriner Straße 10, 10119 Berlin": {
   "address": "Choriner Straße 10, 10119 Prenzlauer Berg",
   "bezirk": "Mitte",
@@ -3157,6 +3165,12 @@
   "lng": 13.4309085
  },
  "Herrfurthpl. 14, 12049 Berlin-Bezirk Neukölln": null,
+ "Herrfurthplatz (Neukölln) Berlin Deutschland": {
+  "address": "Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4770906,
+  "lng": 13.4220759
+ },
  "Herrfurthplatz 1, 12049 Berlin": {
   "address": "Herrfurthplatz 1, 12049 Neukölln",
   "bezirk": "Neukölln",
@@ -3289,6 +3303,12 @@
   "bezirk": "Tempelhof-Schöneberg",
   "lat": 52.4969625,
   "lng": 13.3494425
+ },
+ "Hubertusbad Hubertusstr. 47-49 10365 Berlin Deutschland": {
+  "address": "Hubertusstraße 47-49, 10365 Lichtenberg",
+  "bezirk": "Lichtenberg",
+  "lat": 52.5131391,
+  "lng": 13.4934212
  },
  "Hugenottenkirche, Gendarmenmarkt 5, 10117 Berlin": {
   "address": "Gendarmenmarkt 5, 10117 Mitte",
@@ -3574,6 +3594,12 @@
   "bezirk": "Mitte",
   "lat": 52.507824,
   "lng": 13.4271106
+ },
+ "K-Fetisch, Wildenbruchstr. 86, 12045 Berlin": {
+  "address": "Wildenbruchstraße 86, 12045 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4830906,
+  "lng": 13.4417527
  },
  "K-Hole Prenzlauer Berg Berlin": null,
  "K-Hole Prenzlauer Berg Berlin Deutschland": null,
@@ -4931,6 +4957,12 @@
   "lat": 52.5408872,
   "lng": 13.359604
  },
+ "Lübecker Str. 43, 10559 Berlin": {
+  "address": "Lübecker Straße 43, 10559 Moabit",
+  "bezirk": "Mitte",
+  "lat": 52.5280297,
+  "lng": 13.3451765
+ },
  "Lüdickeweg 1, 14089 Berlin": {
   "address": "Lüdickeweg 1, 14089 Kladow",
   "bezirk": "Spandau",
@@ -5408,6 +5440,12 @@
  "Michael-Brückner-Platz 1243, 12439 Berlin": null,
  "Michael-Brückner-Platz, 12439 Berlin": null,
  "MieterClub Neue Christstr. 8 14059 Berlin Deutschland": null,
+ "Mietergemeinschaft, Sonnenallee 101, 12045 Berlin": {
+  "address": "Sonnenallee 101, 12045 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4821725,
+  "lng": 13.4395704
+ },
  "Mieterladen Kreutzigerstr. 23 10247 Berlin Deutschland": {
   "address": "Kreutzigerstraße 23, 10247 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -6565,6 +6603,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.4952361,
   "lng": 13.4307312
+ },
+ "Reichenbergerstraße 44-45, Berlin": {
+  "address": "Reichenberger Straße 44-45, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.496609,
+  "lng": 13.425494
  },
  "Reinickendorfer Straße 96, 13347 Berlin": {
   "address": "Reinickendorfer Straße 96, 13347 Wedding",
@@ -7890,6 +7934,12 @@
   "bezirk": "Lichtenberg",
   "lat": 52.516993,
   "lng": 13.4772031
+ },
+ "Theater des Westens, Berlin": {
+  "address": "Kantstraße 12, 10623 Charlottenburg",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.5059047,
+  "lng": 13.3290059
  },
  "Theater im Delphi, Gustav-Adolf-Straße 2, 13086, Berlin": {
   "address": "Gustav-Adolf-Straße 2, 13086 Weißensee",

@@ -840,6 +840,12 @@
  },
  "BAIZ , Schönhauser Allee 26 10435 Berlin": null,
  "BAIZ Schönhauser Allee 26a 10435 Berlin Deutschland": null,
+ "BAR JEDER VERNUNFT, Schaperstraße 24, 10719, Berlin": {
+  "address": "Schaperstraße 24, 10719 Wilmersdorf",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.4980063,
+  "lng": 13.329586
+ },
  "BEGINE, Berlin": {
   "address": "Potsdamer Straße 138, 10783 Schöneberg",
   "bezirk": "Tempelhof-Schöneberg",
@@ -848,6 +854,12 @@
  },
  "BHT, Raum D E27, Luxemburger Straße 10, 13353 Berlin": null,
  "BHT, Raum D117, Luxemburger Straße 10, 13353 Berlin": null,
+ "BIKINI Berlin, Budapester Str., 10787, Berlin": {
+  "address": "Budapester Straße 38-50, 10787 Charlottenburg",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.5057233,
+  "lng": 13.335549
+ },
  "BKA-Theater, Berlin": {
   "address": "Mehringdamm 34, 10961 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -1043,6 +1055,7 @@
   "lng": 13.3951309
  },
  "Berlin - Anmeldung erforderlich!": null,
+ "Berlin - Anmeldung erforderlich! Anmeldung: https:// forms.peacefullyagainstgenocid e.org/formz/occurrences/training-fuer-zivilen-widerstand-berlin-2026-11-18/registrations/new": null,
  "Berlin - Anmeldung erforderlich! Ticket Anmeldung: https://www. eventbrite.com/e/gaza-tribunal -berlin-2026-tickets-2002862084410 Link zum Livestream: wird im Vorfeld der Veranstaltung auf unserer Website bekanntgegeben": null,
  "Berlin Berlin": {
   "address": "Tauentzienstraße, 10789 Charlottenburg",
@@ -1231,6 +1244,12 @@
   "lng": 13.8001845
  },
  "Bhf Rathaus Spandau, 13597 Berlin": null,
+ "Bibliothek am Wasserturm, Prenzlauer Allee 227, 10405, Berlin": {
+  "address": "Prenzlauer Allee 227/228, 10405 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5331584,
+  "lng": 13.419505
+ },
  "Bibliothek der Freien Greifswalder Str. 4 2. Hof, Raum 1102 (1. OG) 10405 Berlin Deutschland": null,
  "Biergarten Jockel, Ratiborstraße 14c, 10999 Berlin": null,
  "Biesentaler Str. 24, 13359 Berlin": {
@@ -1747,6 +1766,7 @@
   "lng": 13.4305919
  },
  "Campus Mitte, Humboldt-Universität 10117 Berlin Deutschland": null,
+ "Campus WH, Gebäude G, Wilhelminenhofstraße 75A, 12459 Berlin": null,
  "Capoeira Akademie Berlin, Hasenheide 9 (im 2. Hinterhof 1.Stock), 10967 Berlin": null,
  "Casa Kuà, Naunynstraße 72, 10997 Berlin": {
   "address": "Naunynstraße 72, 10997 Kreuzberg",
@@ -2137,6 +2157,12 @@
   "lat": 52.4280485,
   "lng": 13.3571725
  },
+ "Emser Str., Berlin": {
+  "address": "Emser Straße, 10719 Charlottenburg",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.5110159,
+  "lng": 13.3269541
+ },
  "Emser Straße 114, 12051 Neukölln, Berlin": {
   "address": "Emser Straße 114, 12051 Neukölln",
   "bezirk": "Neukölln",
@@ -2223,6 +2249,7 @@
   "lat": 52.5005732,
   "lng": 13.4375821
  },
+ "FU Berlin, Geo Campus Lankwitz, Raum G202, Malteserstraße 74 - 100, 12249 Berlin": null,
  "Fakeera, Berlin": null,
  "Falckensteinstraße 1-2, 10997 Berlin": {
   "address": "Falckensteinstraße 1-2, 10997 Kreuzberg",
@@ -3983,6 +4010,12 @@
   "lng": 13.4661487
  },
  "Kino in der KulturBrauerei Berlin, Schönhauser Allee 36, 10435, Berlin": null,
+ "Kino in der Kulturbrauerei, Berlin": {
+  "address": "Schönhauser Allee 36, 10435 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5386662,
+  "lng": 13.4141134
+ },
  "Kinzigstr. 9, 10247 Berlin": {
   "address": "Kinzigstraße 9, 10247 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -4361,6 +4394,12 @@
   "lat": 52.5043482,
   "lng": 13.434887
  },
+ "Köpenicker Str., Berlin": {
+  "address": "Köpenicker Straße, 10179 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5092098,
+  "lng": 13.4232671
+ },
  "Köpenicker Straße 137, 10179 Mitte, Berlin": {
   "address": "Köpenicker Straße 137, 10179 Mitte",
   "bezirk": "Mitte",
@@ -4531,6 +4570,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.4959646,
   "lng": 13.4263213
+ },
+ "Lausitzer Str. 21a - 10999 Berlin": {
+  "address": "Lausitzer Straße 21a, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4958955,
+  "lng": 13.4265304
  },
  "Lausitzer Str. 21a, 10999 Berlin": {
   "address": "Lausitzer Straße 21a, 10999 Kreuzberg",
@@ -5067,6 +5112,12 @@
  },
  "Majal Sonnenallee 127 Berlin Deutschland": null,
  "Majal, Sonnenallee 127, 12059 Berlin": null,
+ "Malteserstraße 74 - 100, 12249 Berlin": {
+  "address": "Malteserstraße 74-100, 12249 Lankwitz",
+  "bezirk": "Steglitz-Zehlendorf",
+  "lat": 52.4262512,
+  "lng": 13.3580331
+ },
  "Manifest Bücher & Café, Graefestraße 14, 10967 Berlin": null,
  "Manifesto Potsdamer Platz, Alte Potsdamer Straße 7, 10785, Berlin": null,
  "Mansteinstr. 10, 10783 Berlin": {
@@ -5465,6 +5516,12 @@
   "bezirk": "Steglitz-Zehlendorf",
   "lat": 52.4338463,
   "lng": 13.2543865
+ },
+ "Mittelpunktbibliothek Wilhelm Liebknecht / Namik Kemal, Berlin": {
+  "address": "Adalbertstraße 2, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4998314,
+  "lng": 13.4185013
  },
  "Mittelstraße 20, 12529 Berlin": {
   "address": "Mittelstraße 20, 13055 Alt-Hohenschönhausen",
@@ -6993,6 +7050,12 @@
  },
  "S-Bhf Adlershof, 12489 Berlin": null,
  "S-Bhf Charlottenburg, Gleis 4, 10627 Berlin": null,
+ "S-Bhf Humboldthain, 13357 Berlin": {
+  "address": "Hochstraße 46, 13357 Gesundbrunnen",
+  "bezirk": "Mitte",
+  "lat": 52.5442707,
+  "lng": 13.3787585
+ },
  "S-Bhf Sonnenallee, 12055 Berlin": {
   "address": "Saalestraße, 12055 Neukölln",
   "bezirk": "Neukölln",
@@ -7517,6 +7580,13 @@
   "lat": 52.5338932,
   "lng": 13.3365293
  },
+ "Simon-Dach-Straße 32, 10245 Berlin": {
+  "address": "Simon-Dach-Straße 32, 10245 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5091003,
+  "lng": 13.4560428
+ },
+ "Simon-Dach-Straße 32, 10245 Berlin-Bezirk Friedrichshain-Kreuzberg": null,
  "Skalitzer Straße 114, 10999 Berlin": {
   "address": "Skalitzer Straße 114, 10999 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -7726,6 +7796,7 @@
   "lat": 52.6356441,
   "lng": 13.4938846
  },
+ "Stadtteilbibliothek Buch, Wiltbergstraße 21, 13125, Berlin": null,
  "Stadtteilbibliothek, Halemweg 18, 13627 Berlin": {
   "address": "Halemweg 18, 13627 Charlottenburg-Nord",
   "bezirk": "Charlottenburg-Wilmersdorf",
@@ -8221,6 +8292,13 @@
   "lat": 52.5063687,
   "lng": 13.4437652
  },
+ "Uber Arena, Uber Platz 1, 10243, Berlin": null,
+ "Uber Platz 1, 10243 Berlin": {
+  "address": "Uber Platz 1, 10243 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5049039,
+  "lng": 13.4431471
+ },
  "Uferstraße 12, 13357 Gesundbrunnen, Berlin": {
   "address": "Uferstraße 12, 13357 Gesundbrunnen",
   "bezirk": "Mitte",
@@ -8603,6 +8681,12 @@
   "lat": 52.4865097,
   "lng": 13.4468623
  },
+ "Wilhelminenhofstraße 75A, 12459 Berlin": {
+  "address": "Wilhelminenhofstraße 75a, 12459 Oberschöneweide",
+  "bezirk": "Treptow-Köpenick",
+  "lat": 52.4550432,
+  "lng": 13.5253262
+ },
  "Wilhelminenhofstraße 76, 12459 Berlin": {
   "address": "Wilhelminenhofstraße 76, 12459 Oberschöneweide",
   "bezirk": "Treptow-Köpenick",
@@ -8650,6 +8734,12 @@
   "bezirk": "Pankow",
   "lat": 52.6356441,
   "lng": 13.4938846
+ },
+ "Wiltbergstraße 21, 13125 Berlin": {
+  "address": "Wiltbergstraße 21, 13125 Buch",
+  "bezirk": "Pankow",
+  "lat": 52.6357854,
+  "lng": 13.4938163
  },
  "Windscheidstr. 19, 10627 Berlin": {
   "address": "Windscheidstraße 19, 10627 Charlottenburg",

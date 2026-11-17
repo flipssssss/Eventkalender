@@ -4,22 +4,22 @@ Event-Links: 17 | Events: 17
 Seiten:
   eine Seite: 17 Links
 
-Zeitraum der Starts: 2026-03-26 19:00:00 … 2026-11-27 19:30:00
+Zeitraum der Starts: 2024-10-07 20:00:00 … 2027-10-28 00:00:00
 
-  2026-03-26 19:00:00 → 2026-12-10 21:00:00 | Musikinstrumenten-Museum, Tiergartenstraße, 10785, Berlin | Jazz im MIM
-  2026-09-14 19:00:00 → 2027-01-18 21:00:00 | Bredouille Bar, Georgenstraße 199, 10117, Berlin | radio3 Listening Lounge
-  2026-10-09 20:00:00 → 2026-12-02 20:00:00 | EUREF-Campus Berlin, Torgauer Straße 25, 10829, Berlin | ZigZag Hall – Berlins neue Bühne für Jazz und Live-Musik
-  2026-10-26 20:00:00 → 2026-12-28 23:30:00 | Café Engels, Herrfurthstr. 21, 12049, Berlin | Blue Moonday Jazzsession
-  2026-10-27 19:30:00 → 2026-12-29 22:00:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Session im ART Stalker
-  2026-11-18 20:00:00 → 2026-11-18 22:00:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Alessandro Tarshahani and the Band
-  2026-11-19 20:00:00 → 2026-11-19 23:00:00 | Kulturhaus "alte feuerwache" Friedrichshain, Marchlewskistr. 6, 10243, Berlin | Jazz in der Alten Feuerwache | Lionel Haas Trio
-  2026-11-19 20:00:00 → 2026-11-19 22:00:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Union Duke - UD IV-Tour - Alt-Rock / Americana
-  2026-11-19 20:30:00 → 2026-11-21 23:59:00 | Jazzclub Kunstfabrik Schlot, Invalidenstr. 117, 10115, Berlin | rejazz-festival #7
-  2026-11-19 20:30:00 → 2026-11-19 23:59:00 | Jazzclub Kunstfabrik Schlot, Invalidenstr. 117, 10115, Berlin | rejazz-festival #7 – DAY 1
-  2026-11-20 20:00:00 → None | ufaFabrik: Theatersaal, Viktoriastraße 10-18, 12105, Berlin | Herbstkonzert Berliner JugendJazzOrchester
-  2026-11-20 20:00:00 → 2026-11-20 22:00:00 | Zimmer 16, Florastraße 16, 13187, Berlin | Jazz4Five
-  2026-11-20 20:00:00 → None | Little Stage Berlin, Jonasstraße, 12053, Berlin | Do Like Larry
-  2026-11-20 20:30:00 → 2026-11-20 23:59:00 | Jazzclub Kunstfabrik Schlot, Invalidenstr. 117, 10115, Berlin | rejazz-festival #7 – DAY 2
+  2024-10-07 20:00:00 → 2027-02-14 19:00:00 | BAR JEDER VERNUNFT, Schaperstraße 24, 10719, Berlin | Heller & Bolam - L is for…
+  2026-03-18 21:00:00 → 2026-12-02 21:00:00 | KulturMarktHalle, Hanns-Eisler-Straße 93, 10409, Berlin | The Composers' Orchestra Berlin
+  2026-03-26 19:00:00 → 2026-12-10 19:00:00 | Musikinstrumenten-Museum, Tiergartenstraße, 10785, Berlin | Jazz im MIM
+  2026-09-14 19:00:00 → 2027-01-18 19:00:00 | Bredouille Bar, Georgenstraße 199, 10117, Berlin | radio3 Listening Lounge
+  2026-11-16 20:00:00 → 2026-12-28 23:30:00 | Café Engels, Herrfurthstr. 21, 12049, Berlin | Blue Moonday Jazzsession
+  2026-11-17 19:30:00 → 2026-12-29 22:00:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Session im ART Stalker
   2026-11-21 19:00:00 → 2026-11-22 18:00:00 | Deutsche Oper Berlin, Tischlerei, Richard-Wagner-Str. / Ecke Zillestr., 10627, Berlin | Jazz & Lyrics II: The Jazziversum
-  2026-11-21 20:30:00 → 2026-11-21 23:59:00 | Jazzclub Kunstfabrik Schlot, Invalidenstr. 117, 10115, Berlin | rejazz-festival #7 – DAY 3
-  2026-11-27 19:30:00 → 2026-11-27 22:00:00 | Showfenster Theater, Letteallee 94, 13409, Berlin | Bring That Thing - Konzert
+  2026-11-25 20:00:00 → None | Kammermusiksaal, Herbert-von-Karajan-Straße 1, 10785, Berlin | Jazz at Berlin Philharmonic. »Conversations«
+  2026-12-04 19:30:00 → 2026-12-05 19:30:00 | Uber Arena, Uber Platz 1, 10243, Berlin | JazzDP Exklusives Albumkonzert
+  2026-12-05 19:00:00 → None | ausland, Lychener Str. 60, 10437, Berlin | Alexandra Maciá / Zustand D. / Winona Lin / Frictive Frequencies
+  2027-01-17 20:00:00 → None | Kammermusiksaal, Herbert-von-Karajan-Straße 1, 10785, Berlin | Jazz at Berlin Philharmonic. Soul Trail
+  2027-01-30 20:00:00 → None | Petruskirche Lichterfelde, Oberhofer Platz, 12209, Berlin | THE BAKERY BROTHERS
+  2027-02-18 20:00:00 → None | Heimathafen Neukölln, Karl-Marx-Straße 141, 12043, Berlin | THE MAGIC MUMBLE JUMBLE
+  2027-04-29 20:00:00 → None | Philharmonie, Großer Saal, Herbert-von-Karajan-Straße 1, 10785, Berlin | Jazz at Berlin Philharmonic. »Wanderlust« mit Michael Wollny & Friends
+  2027-05-14 19:00:00 → 2027-05-16 18:00:00 | Deutsche Oper Berlin, Tischlerei, Richard-Wagner-Str. / Ecke Zillestr., 10627, Berlin | Jazz & Lyrics IV: Les Grandes Dames du Jazz
+  2027-06-19 20:00:00 → None | Kammermusiksaal, Herbert-von-Karajan-Straße 1, 10785, Berlin | Jazz at Berlin Philharmonic. »Remember Esbjörn Svensson«
+  2027-10-28 00:00:00 → None | verschiedene Veranstaltungsorte, Berlin | Jazzfest Berlin 2027

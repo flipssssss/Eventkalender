@@ -2,9 +2,7 @@ Häuser ohne kuratierte Öffnungszeiten (in scrapers/openinghours.py ergänzen):
 
 Brücke Museum
 Café Cralle
-Grünberger Str. 46 (Friedrichshain) Berlin Deutschland
 Museum Barberini
-Regenbogenfabrik Lausitzer Str. 22 10999 Berlin Deutschland
 Spreepark Art Space - Eierhäuschen
 Tchoban Foundation
 Villa Schöningen

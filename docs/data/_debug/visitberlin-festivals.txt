@@ -1,26 +1,24 @@
 Liste: https://www.visitberlin.de/de/veranstaltungskalender-berlin?cat%5B0%5D=9312&cat%5B1%5D=9782&keys=&date_between%5Bmin%5D=&date_between%5Bmax%5D=&district=All&items_per_page=21
-Event-Links: 17 | Events: 17
+Event-Links: 15 | Events: 15
 
 Seiten:
-  page=0: 17 Links, 17 neu
+  page=0: 15 Links, 15 neu
   page=1: 0 Links, 0 neu
 
-Zeitraum der Starts: 2026-11-11 19:00:00 … 2026-11-20 16:00:00
+Zeitraum der Starts: 2026-11-11 19:00:00 … 2026-11-20 17:00:00
 
   2026-11-11 19:00:00 → 2026-11-21 20:00:00 | Konzerthaus, Gendarmenmarkt 2, 10117, Berlin | NOW HERE – EIN KOOPERATIVES FESTIVAL FÜR KLANGERFAHRUNG
   2026-11-11 20:00:00 → 2026-11-18 21:00:00 | Verschiedene Orte, Berlin | West-Eastern Divan Festival
   2026-11-15 10:00:00 → 2026-11-22 10:00:00 | verschiedene Religionsgemeinschaften, Berlin | 37. BERLINER MÄRCHENTAGE
   2026-11-15 10:00:00 → 2026-11-28 10:00:00 | Diverse Veranstaltungsorte, Berlin | Umsonst und draußen I Kultur im Kiez - Marktbühne 2026
-  2026-11-15 11:00:00 → 2026-11-17 11:00:00 | Fontane Haus Kulturzentrum, Königshorster Straße 6, 13439, Berlin | Festwoche im Fontane-Haus: 50-jähriges Jubiläum
   2026-11-15 12:00:00 → 2026-11-22 12:00:00 | Verschiedene Orte, Berlin | 39. Jüdische Kulturtage Berlin 2026
   2026-11-16 00:00:00 → None | Diverse Veranstaltungsorte, Berlin | NO LIMITS 2026
   2026-11-16 00:00:00 → None | Haus der Berliner Festspiele, Schaperstraße 24, 10719, Berlin | Performing Arts Season
   2026-11-16 00:00:00 → None | Weihnachtsmarkt an der Kaiser-Wilhelm-Gedächtnis-Kirche, Breitscheidplatz 1, 10789, Berlin | Weihnachtsmarkt an der Kaiser-Wilhelm-Gedächtnis-Kirche
   2026-11-16 11:00:00 → 2027-01-16 19:00:00 | BIKINI Berlin, Budapester Str., 10787, Berlin | Kunst macht glücklich
-  2026-11-17 10:00:00 → 2026-12-01 10:00:00 | Bibliothek am Wasserturm, Prenzlauer Allee 227, 10405, Berlin | Bücherkiste und Liederreise: Lesung und Musik für Babys und ihre Begleitung
-  2026-11-17 13:00:00 → 2026-12-16 13:00:00 | Stadtteilbibliothek Buch, Wiltbergstraße 21, 13125, Berlin | Frauen Workshops
   2026-11-18 12:00:00 → 2026-11-24 12:00:00 | Kino in der KulturBrauerei Berlin, Schönhauser Allee 36, 10435, Berlin | 26. Filmfest FrauenWelten
   2026-11-18 16:30:00 → None | Bettina-von-Arnim-Bibliothek, Schönhauser Allee 75, 10439, Berlin | Bilinguale Märchentage: Deutsch - Spanisch
   2026-11-19 20:30:00 → 2026-11-21 23:59:00 | Jazzclub Kunstfabrik Schlot, Invalidenstr. 117, 10115, Berlin | rejazz-festival #7
   2026-11-19 20:30:00 → None | Jazzclub Kunstfabrik Schlot, Invalidenstr. 117, 10115, Berlin | rejazz-festival #7 – DAY 1
   2026-11-20 16:00:00 → None | Bibliothek am Wasserturm, Prenzlauer Allee 227, 10405, Berlin | Bundesweiter Volesetag in der Bibliothek am Wasserturm
+  2026-11-20 17:00:00 → 2026-11-22 20:00:00 | Verschiedene Orte, Berlin | 1. GREEK THEATER FESTIVAL BERLIN

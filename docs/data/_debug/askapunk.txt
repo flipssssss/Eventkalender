@@ -1,10 +1,11 @@
-API-Events: 80 | übernommen: 80
-  2026-11-17 17:45:00 | None | Queer Tours for All! - Queer Kreuzberg
+API-Events: 83 | übernommen: 83
+  2026-11-18 19:00:00 | Indie | ÅRABROT + INTERCOURSE live at Neue Zukunft, Berlin
+  2026-11-18 19:00:00 | Folk | The Cradle (NYC) + Scoops Of Glory (Brussels)
   2026-11-18 19:30:00 | Punk | SIKM + CLAVV
   2026-11-19 17:30:00 | Folk | The Cradle (NYC) + Scoops Of Glory (Brussels)
+  2026-11-19 19:00:00 | Punk | NIGHT FREAK (U.S.) & THE INSERTS (Bln)
   2026-11-19 19:00:00 | Punk | Die Anstalt + Güner Künier + The Pleasure Majenta
   2026-11-19 19:00:00 | Punk | APART (emo-punk/indie-rock, fr) & LLANA (math-rock, bln)
-  2026-11-19 19:00:00 | Punk | NIGHT FREAK (U.S.) & THE INSERTS (Bln)
   2026-11-19 20:00:00 | None | Anna von Hausswolff - Berlin, Astra Kulturhaus
   2026-11-19 20:00:00 | Metal | USU pres.: IMPERIAL TRIUMPHANT + Knoll | Neue Zukunft - 19.11.2026
   2026-11-19 21:00:00 | Punk | Icarus Burns-Stoner/Bln+Lasse Reinstroem-Stoner/Dresden
@@ -14,11 +15,12 @@ API-Events: 80 | übernommen: 80
   2026-11-20 20:00:00 | None | KONVULSISMO 7.  Arnaud Rivière + Lise Barkas + Ilia Gorovitz + ifjú sátán + Zach Hart
   2026-11-20 21:00:00 | Metal | BLOODSOACKED NECROVOID // NEKUS // CERULEAN PHLEGM
   2026-11-21 10:45:00 | None | Queer Tours for All! - Köpenicker Forst
+  2026-11-21 19:00:00 | Punk | Kraschkarma & Blitzeinbruch
   2026-11-21 19:00:00 | Punk | Awesome Scampis (Ska- und Pop-Punk mit Bläsern) + Buster Beat (Ska) im Schokoladen
   2026-11-21 20:00:00 | Metal | KRAKE + YEAST MACHINE @ Neue Zukunft
   2026-11-21 20:00:00 | Punk | Stabber // Nerve Center // Howling Wolves (Berlin Stoner Punk)
-  2026-11-21 20:00:00 | Punk | PROTEX (N.Ire) + KONG FUSS & THE ROMANTIC EARTHQUAKE BAND (Bln) + SURPRISE ACT
   2026-11-21 20:00:00 | None | Ska Soiree
+  2026-11-21 20:00:00 | Punk | PROTEX (N.Ire) + KONG FUSS & THE ROMANTIC EARTHQUAKE BAND (Bln) + SURPRISE ACT
   2026-11-21 21:00:00 | Punk | Plus1 Punk/HC Shows pres.: Pjolterguys + Shættered
   2026-11-22 14:45:00 | None | Queer Tours for All! - Gay and Sapphic Schöneberg
   2026-11-22 18:00:00 | None | Pleasure Dome: Splatterfilm-Double Feature
@@ -27,5 +29,3 @@ API-Events: 80 | übernommen: 80
   2026-11-23 19:00:00 | Punk | The Black Elephant Band (AntiFolk) + Gutter Romance (Akustikpunk) im Schokoladen - #berlinpunk
   2026-11-23 19:00:00 | Punk | Sunami
   2026-11-23 20:30:00 | Metal | CHELSEA WOLFE - Berlin, Admiralspalast
-  2026-11-24 17:45:00 | None | Queer Tours for All! - Queer Kreuzberg
-  2026-11-24 18:00:00 | Metal | I am Morbid - Atheist - Cancer -Narcotic Wasteland

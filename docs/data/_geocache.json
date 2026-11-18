@@ -898,6 +898,13 @@
   "lng": 13.4270501
  },
  "Babylon Kino, Rosa-Luxemburg-Straße 30, 10178 Berlin": null,
+ "Babylon Kreuzberg, Berlin": {
+  "address": "Dresdener Straße 126, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5006568,
+  "lng": 13.4169229
+ },
+ "Babylonia Cuvrystr. 20-23 2. Hinterhof im Kerngehäuse, 1. Stock 10999 Berlin Deutschland": null,
  "Badensche Str. 29, 10715 Berlin": {
   "address": "Badensche Straße 29, 10715 Wilmersdorf",
   "bezirk": "Charlottenburg-Wilmersdorf",
@@ -998,6 +1005,7 @@
   "lat": 52.5174812,
   "lng": 13.419024
  },
+ "Bebelplatz an der Staatsoper, Unter den Linden 7, 10117 Berlin": null,
  "Bebelplatz, Berlin-Mitte 10117 Berlin Deutschland": {
   "address": "Bebelplatz, 10117 Mitte",
   "bezirk": "Mitte",
@@ -1953,6 +1961,12 @@
   "lat": 52.5479459,
   "lng": 13.3668959
  },
+ "Cuvrystr. 20-23, 10999 Berlin": {
+  "address": "Cuvrystraße, 10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4960311,
+  "lng": 13.4423165
+ },
  "Cuvrystraße 1099, 10997 Berlin": {
   "address": "Cuvrystraße, 10997 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -2473,6 +2487,12 @@
   "bezirk": "Lichtenberg",
   "lat": 52.5158373,
   "lng": 13.4978105
+ },
+ "Freie Universität Berlin Deutschland": {
+  "address": "Brümmerstraße, 14195 Dahlem",
+  "bezirk": "Steglitz-Zehlendorf",
+  "lat": 52.4528565,
+  "lng": 13.2907249
  },
  "Freienwalder Straße 20, 13359 Berlin, Germany": {
   "address": "Freienwalder Straße 20, 13359 Gesundbrunnen",
@@ -5305,6 +5325,7 @@
  "Marrokanische Botschaft, Niederwallstraße 39, 10117 Berlin": null,
  "Martha Bethaniendamm Berlin": null,
  "Martha Bethaniendamm Berlin Deutschland": null,
+ "Martha-Ndumbe-Platz Reinickendorfer Str. 110 13347 Berlin Deutschland": null,
  "Martha-Ndumbe-Platz, 13347 Berlin": {
   "address": "Martha-Ndumbe-Platz, 13347 Wedding",
   "bezirk": "Mitte",
@@ -6667,6 +6688,12 @@
   "lat": 52.496609,
   "lng": 13.425494
  },
+ "Reinickendorfer Str. 110, 13347 Berlin": {
+  "address": "Reinickendorfer Straße 110, 13347 Wedding",
+  "bezirk": "Mitte",
+  "lat": 52.5450432,
+  "lng": 13.3692085
+ },
  "Reinickendorfer Straße 96, 13347 Berlin": {
   "address": "Reinickendorfer Straße 96, 13347 Wedding",
   "bezirk": "Mitte",
@@ -6776,6 +6803,12 @@
   "bezirk": "Charlottenburg-Wilmersdorf",
   "lat": 52.5124527,
   "lng": 13.3072111
+ },
+ "Richardstraße 31, 12043 Berlin": {
+  "address": "Richardstraße 31, 12043 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.475611,
+  "lng": 13.4434082
  },
  "Riemannstraße 7, 10961 Berlin": {
   "address": "Riemannstraße 7, 10961 Kreuzberg",
@@ -6971,6 +7004,12 @@
   "bezirk": "Mitte",
   "lat": 52.5182718,
   "lng": 13.4078309
+ },
+ "Rudolf-Breitscheid-Str. 50, Berlin": {
+  "address": "Rudolf-Breitscheid-Straße, 12589 Rahnsdorf",
+  "bezirk": "Treptow-Köpenick",
+  "lat": 52.4589014,
+  "lng": 13.7055031
  },
  "Rummelplatz Gürtelstr. 26 10245 Berlin Deutschland": null,
  "Rummelsburger Bucht, 10245 Berlin": {
@@ -7980,6 +8019,7 @@
  },
  "Tennis Bar Reuter Str. 95 Berlin Deutschland": null,
  "Tennis Bar Reuterstraße 95, 12053 Berlin": null,
+ "Thalia Filmtheater Rudolf-Breitscheid-Str. 50 Potsdam-Babelsberg Deutschland, Berlin": null,
  "The Castle, The Castle, Berlin Mitte, Invalidenstraße 129, 10115 Berlin": null,
  "The JAXX, Berlin": {
   "address": "Motzstraße 19, 10777 Schöneberg",
@@ -9037,6 +9077,12 @@
   "bezirk": "Charlottenburg-Wilmersdorf",
   "lat": 52.5060698,
   "lng": 13.3305818
+ },
+ "diffrakt, Crellestraße 22, 10827 Berlin": {
+  "address": "Crellestraße 22, 10827 Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4877321,
+  "lng": 13.3619986
  },
  "e_0000000833-loc_bbfest Berlin": null,
  "e_0000000833-loc_bbfest, Berlin": null,

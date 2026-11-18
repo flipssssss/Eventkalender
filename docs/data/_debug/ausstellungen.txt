@@ -1,24 +1,24 @@
 ExhibitionEvents -> Events: 25
   2026-11-21 Dschinghis Khan live – Musik trifft Geschichte! – 
-  2026-11-17 Maurizio Cattelan: Night – Preis der Nationalgaler
-  2026-11-17 Lina Lapelytė: We Make Years Out of Hours – Chanel
-  2026-11-17 Nizo Yamamoto: Meister der Anime-Szenografie
-  2026-11-17 Sophie Calle: Is It Better?
-  2026-11-17 Next Door: Tacita Dean und Bruce Nauman, Thomas De
-  2026-11-17 Roger Ballen: roger ballen.! drawing meets photogr
-  2026-11-17 Schwedische Moderne
-  2026-11-17 Die Impressionisten: Monet, Morisot, Renoir und ih
-  2026-11-17 Über Zeiten: Gursky, Lucas, Miró, Warhol und die K
-  2026-11-17 Lovis Corinth: Dann kam Berlin!
-  2026-11-17 Ryuichi Sakamoto: seeing sound, hearing time
-  2026-11-17 Josef Kaiser: Bauen für die DDR
-  2026-11-17 Zwischen Bäumen
-  2026-11-17 Gabriele Stötzer: Dabei sein und nicht schweigen
-  2026-11-17 Kreuzberg: Kunst und Migration seit 1960
-  2026-11-17 Christoph Schlingensief: Es ist nicht mehr mein Pr
-  2026-11-17 Susan Hiller: Bad Dreams
-  2026-11-17 Metaxy: Zwischen Zerstörung und Wiederaufbau
-  2026-11-17 Die Magie der Straße
+  2026-11-18 Maurizio Cattelan: Night – Preis der Nationalgaler
+  2026-11-18 Lina Lapelytė: We Make Years Out of Hours – Chanel
+  2026-11-18 Nizo Yamamoto: Meister der Anime-Szenografie
+  2026-11-18 Sophie Calle: Is It Better?
+  2026-11-18 Next Door: Tacita Dean und Bruce Nauman, Thomas De
+  2026-11-18 Roger Ballen: roger ballen.! drawing meets photogr
+  2026-11-18 Schwedische Moderne
+  2026-11-18 Die Impressionisten: Monet, Morisot, Renoir und ih
+  2026-11-18 Über Zeiten: Gursky, Lucas, Miró, Warhol und die K
+  2026-11-18 Lovis Corinth: Dann kam Berlin!
+  2026-11-18 Ryuichi Sakamoto: seeing sound, hearing time
+  2026-11-18 Josef Kaiser: Bauen für die DDR
+  2026-11-18 Zwischen Bäumen
+  2026-11-18 Gabriele Stötzer: Dabei sein und nicht schweigen
+  2026-11-18 Kreuzberg: Kunst und Migration seit 1960
+  2026-11-18 Christoph Schlingensief: Es ist nicht mehr mein Pr
+  2026-11-18 Susan Hiller: Bad Dreams
+  2026-11-18 Metaxy: Zwischen Zerstörung und Wiederaufbau
+  2026-11-18 Die Magie der Straße
   2026-11-27 Ulay, Ulay & Abramović
   2026-11-21 Im Dazwischen
   2026-12-02 Helmut Newton’s Early Books

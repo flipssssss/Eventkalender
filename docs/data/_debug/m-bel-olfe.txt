@@ -1,27 +1,5 @@
-event-blocks: 28 | Events: 28
+event-blocks: 27 | Events: 27
 
-<div class="event-block">
- <!-- Zeile 1: Datum + Titel -->
- <div class="event-row-1">
-  <div class="event-time">
-   Dienstag, 17. Nov. 21:00
-  </div>
-  <div class="event-title">
-   FLINTA*-Abend
-  </div>
- </div>
- <!-- Zeile 2: Bild + Beschreibung -->
- <div class="event-row-2">
-  <div class="event-image event-image--empty">
-  </div>
-  <div class="event-description">
-   Goth Night
-  </div>
- </div>
-</div>
-
-
-----
 <div class="event-block">
  <!-- Zeile 1: Datum + Titel -->
  <div class="event-row-1">
@@ -80,3 +58,24 @@ event-blocks: 28 | Events: 28
   </div>
   <div class="event-description">
    A cosmic troublemaker behind the turntables, DJ Big Bang Ben digs deep into the weird and wonderful corners of vinyl culture. His signature Disco Madness collides Italo, Cosmic Disco, Funk, Boogie, Afro grooves, Krautrock and leftfield electronics into a wild, genre-bending trip. Expect hypnotic rhythms, unexpected twists and dancefloor oddities from another dimension. No rules, no algorithms -- just pure vinyl-fuel
+
+----
+<div class="event-block">
+ <!-- Zeile 1: Datum + Titel -->
+ <div class="event-row-1">
+  <div class="event-time">
+   Dienstag, 24. Nov. 21:00
+  </div>
+  <div class="event-title">
+   FLINTA*-Abend
+  </div>
+ </div>
+ <!-- Zeile 2: Bild + Beschreibung -->
+ <div class="event-row-2">
+  <div class="event-image event-image--empty">
+  </div>
+  <div class="event-description">
+   Isa GT
+  </div>
+ </div>
+</div>

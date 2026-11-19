@@ -4,7 +4,8 @@ The events page (rosalux.de/veranstaltungen) is server-rendered HTML (no
 JSON-LD): each event is a ``section.elasticsearch__result`` carrying a
 ``data-ts`` start timestamp (ms), with the title, city and type inside a
 ``.teaser--event``. Foundation events are nationwide, so only Berlin ones are
-kept. All kept events are category Vortrag; genre Polit is set in
+kept. The listing shows one calendar month; the next months are fetched by
+re-submitting its month form. All kept events are category Vortrag; genre Polit is set in
 scrapers/genres.py.
 """
 
@@ -14,11 +15,13 @@ import datetime as _dt
 import pathlib
 import re
 from typing import Iterable
-from urllib.parse import urljoin
+from urllib.parse import urlencode, urljoin
+
+import requests
 
 from bs4 import BeautifulSoup
 
-from .base import BaseScraper, Event
+from .base import REQUEST_TIMEOUT, BaseScraper, Event, _throttle
 from . import metacache
 
 try:
@@ -29,19 +32,9 @@ except Exception:  # noqa: BLE001
 
 BASE = "https://www.rosalux.de"
 URL = BASE + "/veranstaltungen"
-MAX_PAGES = 8
-# Tried when the page offers no pager links: the user-supplied search URL and
-# the usual TYPO3/Extbase paging parameters of the cb_elasticsearch plugin.
-_SF = "tx_cbelasticsearch_searchform"
-_LIST = f"{_SF}%5Baction%5D=list&{_SF}%5Bcontroller%5D=Search"
-PROBE_URLS = [
-    f"{URL}?{_LIST}&cHash=cd3d9529dd2cffad4eb71c54f2504464",
-    f"{URL}?{_LIST}&{_SF}%5Bpage%5D=2",
-    f"{URL}?{_LIST}&{_SF}%5BcurrentPage%5D=2",
-    f"{URL}?{_SF}%5B%40widget_0%5D%5BcurrentPage%5D=2",
-    f"{URL}?{_SF}%5Bpage%5D=2",
-    f"{URL}?page=2",
-]
+# The listing shows one calendar month (hidden form fields year/month, sent
+# by POST); further months are fetched by re-submitting that form.
+MONTHS_AHEAD = 3
 DEBUG_DIR = pathlib.Path(__file__).resolve().parents[1] / "docs" / "data" / "_debug"
 TIME_RE = re.compile(r"\b(\d{1,2}):(\d{2})\b")
 OG_DESC_RE = re.compile(
@@ -71,12 +64,13 @@ class RosaLuxScraper(BaseScraper):
         self.write_debug = write_debug
 
     def fetch_events(self) -> Iterable[Event]:
+        self._session = requests.Session()
         try:
-            html = self.get(URL, headers=BROWSER).text
+            html = self._request("GET", URL).text
         except Exception as exc:  # noqa: BLE001
             self._dump(f"FEHLER: {exc}")
             return []
-        secs, pages, pager_links = self._collect(html)
+        secs, month_log = self._collect(html)
         events: list[Event] = []
         seen: set[tuple] = set()
         other_city = 0
@@ -93,125 +87,118 @@ class RosaLuxScraper(BaseScraper):
             seen.add(key)
             events.append(ev)
         self._add_descriptions(events)
-        self._dump_structure(html)
         last = max((e.start for e in events), default=None)
-        self._dump(f"Seiten: {len(pages)} | Teaser: {len(secs)} | "
+        self._dump(f"Teaser: {len(secs)} | "
                    f"{self.city}: {len(events)} | andere Städte: {other_city} | "
                    f"mit Beschreibung: {sum(1 for e in events if e.description)} | "
                    f"letzter Termin: {last}\n"
-                   "Gelesene Seiten:\n" + "\n".join(f"  {u}" for u in pages) +
-                   "\nAbfragen:\n" + "\n".join(getattr(self, "_probe_log", [])) +
-                   "\nBlätter-Kandidaten auf Seite 1:\n" +
-                   "\n".join(f"  {u}" for u in pager_links[:20]) + "\n" +
+                   "Monate:\n" + "\n".join(month_log) + "\n" +
                    "\n".join(f"  {e.start} | {e.location} | {e.title}"
-                             for e in events[:60]))
+                             for e in events[:80]))
         return events
 
-    def _collect(self, first_html: str) -> tuple[list, list[str], list[str]]:
-        """Teasers of the first listing page plus its follow-up pages.
+    def _request(self, method: str, url: str, data=None):
+        """GET/POST through one session (cookies of the first page are kept),
+        with the site's browser headers."""
+        _throttle(url)
+        headers = dict(BROWSER)
+        if method == "POST":
+            headers.update({"Origin": BASE, "Referer": URL,
+                            "Sec-Fetch-Site": "same-origin"})
+        resp = self._session.request(method, url, data=data, headers=headers,
+                                     timeout=REQUEST_TIMEOUT)
+        resp.raise_for_status()
+        return resp
 
-        The listing only shows the current batch (about a month, all cities),
-        so without paging Berlin events end after a few weeks. Pager links are
-        recognised generically (rel=next, pagination containers, or
-        cb_elasticsearch ``page`` parameters) because the markup is not
-        documented; paging stops when a page brings no new teasers."""
+    def _collect(self, first_html: str) -> tuple[list, list[str]]:
+        """Teasers of the current month plus the next MONTHS_AHEAD months.
+
+        The month form carries Extbase hidden fields (__referrer,
+        __trustedProperties) that must be sent back unchanged; only year and
+        month are changed. POST like the browser; GET with the same fields as
+        a fallback."""
         soup = BeautifulSoup(first_html, "html.parser")
         secs = list(soup.select("section.elasticsearch__result"))
-        pages = [URL]
-        pager_links = self._pager_links(soup)
-        seen_teasers = {self._teaser_key(s) for s in secs}
-        queue = list(pager_links) or list(PROBE_URLS)
-        visited = {URL}
-        self._probe_log: list[str] = []
-        while queue and len(pages) < MAX_PAGES:
-            url = queue.pop(0)
-            if url in visited:
-                continue
-            visited.add(url)
-            try:
-                page = BeautifulSoup(self.get(url, headers=BROWSER).text,
-                                     "html.parser")
-            except Exception as exc:  # noqa: BLE001
-                self._probe_log.append(f"  FEHLER {str(exc)[:80]} | {url}")
-                continue
-            found = page.select("section.elasticsearch__result")
-            new = [s for s in found if self._teaser_key(s) not in seen_teasers]
-            pages.append(url)
-            ts = sorted(int(x.get("data-ts")) for x in found
-                        if (x.get("data-ts") or "").isdigit())
-            self._probe_log.append(
-                f"  {len(found):3d} Teaser, {len(new):3d} neu, "
-                f"{self._start(str(ts[0])) if ts else '-'} .. "
-                f"{self._start(str(ts[-1])) if ts else '-'} | {url}")
-            if not new:
-                continue
-            seen_teasers.update(self._teaser_key(s) for s in new)
-            secs.extend(new)
-            queue.extend(u for u in self._pager_links(page)
-                         if u not in visited and u not in queue)
-        return secs, pages, pager_links
-
-    def _dump_structure(self, html: str) -> None:
-        """Diagnostics: forms, buttons and the markup right after the result
-        list, to see how the listing loads further events."""
-        if not self.write_debug:
-            return
-        soup = BeautifulSoup(html, "html.parser")
-        out = []
-        for f in soup.select("form"):
-            out.append(f"FORM action={f.get('action')} method={f.get('method')}")
-            for el in f.select("input, select, button"):
-                opts = [o.get("value") for o in el.select("option")][:12]
-                out.append(f"   <{el.name} name={el.get('name')} type={el.get('type')} "
-                           f"value={(el.get('value') or '')[:40]}> {opts or ''}")
-        for el in soup.select("[data-url], [data-href], [data-ajax], [data-page], "
-                              "[data-next], .load-more, [class*=more], [class*=pagin]")[:20]:
-            out.append(f"EL <{el.name} {dict((k, (v if isinstance(v, str) else ' '.join(v))[:120]) for k, v in el.attrs.items())}>")
-        secs = soup.select("section.elasticsearch__result")
-        if secs:
-            tail = str(secs[-1].parent)[-4000:]
-            after = html[html.find(str(secs[-1])[-200:]):][:3000] if str(secs[-1])[-200:] in html else ""
-            out.append("--- nach letztem Treffer ---\n" + (after or tail))
+        seen = {self._teaser_key(x) for x in secs}
+        log = [self._month_line("aktuell", secs, len(secs), URL)]
+        form = next((f for f in soup.select("form")
+                     if f.select_one('input[name$="[month]"]')), None)
+        if form is None:
+            log.append("  kein Monatsformular gefunden")
+            return secs, log
+        fields = self._form_fields(form)
+        mkey = next(k for k, _ in fields if k.endswith("[month]"))
+        ykey = next((k for k, _ in fields if k.endswith("[year]")), None)
         try:
-            DEBUG_DIR.mkdir(parents=True, exist_ok=True)
-            (DEBUG_DIR / "rosa-luxemburg-stiftung-struktur.txt").write_text(
-                "\n".join(out), encoding="utf-8")
-        except OSError:
-            pass
+            month = int(dict(fields)[mkey])
+            year = int(dict(fields)[ykey]) if ykey else _dt.date.today().year
+        except (TypeError, ValueError):
+            log.append(f"  Monatsfeld unlesbar: {dict(fields).get(mkey)!r}")
+            return secs, log
+        action = urljoin(URL, form.get("action") or URL).split("#", 1)[0]
+        for _ in range(MONTHS_AHEAD):
+            month += 1
+            if month > 12:
+                month, year = 1, year + 1
+            data = [(k, str(month) if k == mkey else
+                     str(year) if k == ykey else v) for k, v in fields]
+            label = f"{year}-{month:02d}"
+            found = None
+            for method in ("POST", "GET"):
+                try:
+                    if method == "POST":
+                        resp = self._request("POST", action, data=data)
+                    else:
+                        resp = self._request(
+                            "GET", action + ("&" if "?" in action else "?") +
+                            urlencode(data))
+                except Exception as exc:  # noqa: BLE001
+                    log.append(f"  {label} {method}: FEHLER {str(exc)[:80]}")
+                    continue
+                page = BeautifulSoup(resp.text, "html.parser")
+                found = page.select("section.elasticsearch__result")
+                new = [x for x in found if self._teaser_key(x) not in seen]
+                log.append(self._month_line(f"{label} {method}", found, len(new),
+                                            resp.url))
+                if new:
+                    seen.update(self._teaser_key(x) for x in new)
+                    secs.extend(new)
+                    break
+        return secs, log
+
+    @staticmethod
+    def _form_fields(form) -> list[tuple[str, str]]:
+        """Name/value pairs a browser would submit (no buttons, unchecked
+        boxes or empty selects)."""
+        out = []
+        for el in form.select("input[name], select[name], textarea[name]"):
+            name = el.get("name")
+            if el.name == "input":
+                typ = (el.get("type") or "text").lower()
+                if typ in ("submit", "button", "image", "reset", "file"):
+                    continue
+                if typ in ("checkbox", "radio") and not el.has_attr("checked"):
+                    continue
+                out.append((name, el.get("value") or ""))
+            elif el.name == "select":
+                opt = el.select_one("option[selected]") or el.select_one("option")
+                if opt is not None:
+                    out.append((name, opt.get("value") or opt.get_text(strip=True)))
+            else:
+                out.append((name, el.get_text()))
+        return out
+
+    def _month_line(self, label: str, found, new: int, url: str) -> str:
+        ts = sorted(int(x.get("data-ts")) for x in found
+                    if (x.get("data-ts") or "").isdigit())
+        span = (f"{self._start(str(ts[0]))} .. {self._start(str(ts[-1]))}"
+                if ts else "-")
+        return f"  {label}: {len(found)} Teaser, {new} neu, {span} | {url[:110]}"
 
     @staticmethod
     def _teaser_key(sec) -> tuple:
         link = sec.select_one("a.teaser__link")
         return ((link.get("href") if link else None), sec.get("data-ts"))
-
-    @staticmethod
-    def _pager_links(soup) -> list[str]:
-        out: list[str] = []
-        for a in soup.select("a[href]"):
-            href = a.get("href") or ""
-            if href.startswith("#") or href.startswith("javascript"):
-                continue
-            classes = " ".join(a.get("class") or [])
-            parent_cls = " ".join(
-                " ".join(p.get("class") or []) for p in a.parents
-                if getattr(p, "get", None) and p.name in ("nav", "ul", "div", "li"))
-            rel = " ".join(a.get("rel") or [])
-            low = href.lower()
-            is_pager = (
-                "next" in rel
-                or "pagination" in parent_cls.lower() or "pager" in parent_cls.lower()
-                or "next" in classes.lower()
-                or (("cbelasticsearch" in low or "veranstaltungen" in low)
-                    and re.search(r"(%5b|\[)page(%5d|\])=\d+|[?&]page=\d+", low))
-            )
-            if not is_pager:
-                continue
-            url = urljoin(URL, href).split("#", 1)[0]
-            if not url.startswith(BASE) or url == URL:
-                continue
-            if url not in out:
-                out.append(url)
-        return out
 
     def _add_descriptions(self, events) -> None:
         """Full description from each event's detail page (og:description),

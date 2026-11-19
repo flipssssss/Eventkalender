@@ -29,6 +29,7 @@ except Exception:  # noqa: BLE001
 
 BASE = "https://www.rosalux.de"
 URL = BASE + "/veranstaltungen"
+MAX_PAGES = 8
 DEBUG_DIR = pathlib.Path(__file__).resolve().parents[1] / "docs" / "data" / "_debug"
 TIME_RE = re.compile(r"\b(\d{1,2}):(\d{2})\b")
 OG_DESC_RE = re.compile(
@@ -63,9 +64,9 @@ class RosaLuxScraper(BaseScraper):
         except Exception as exc:  # noqa: BLE001
             self._dump(f"FEHLER: {exc}")
             return []
-        soup = BeautifulSoup(html, "html.parser")
-        secs = soup.select("section.elasticsearch__result")
+        secs, pages, pager_links = self._collect(html)
         events: list[Event] = []
+        seen: set[tuple] = set()
         other_city = 0
         for sec in secs:
             ev, city = self._build(sec)
@@ -74,14 +75,93 @@ class RosaLuxScraper(BaseScraper):
             if self.city and self.city.lower() not in (city or "").lower():
                 other_city += 1
                 continue
+            key = (ev.source_url, ev.start)
+            if key in seen:
+                continue
+            seen.add(key)
             events.append(ev)
         self._add_descriptions(events)
-        self._dump(f"Teaser: {len(secs)} | {self.city}: {len(events)} | "
-                   f"andere Städte: {other_city} | "
-                   f"mit Beschreibung: {sum(1 for e in events if e.description)}\n" +
+        last = max((e.start for e in events), default=None)
+        self._dump(f"Seiten: {len(pages)} | Teaser: {len(secs)} | "
+                   f"{self.city}: {len(events)} | andere Städte: {other_city} | "
+                   f"mit Beschreibung: {sum(1 for e in events if e.description)} | "
+                   f"letzter Termin: {last}\n"
+                   "Gelesene Seiten:\n" + "\n".join(f"  {u}" for u in pages) +
+                   "\nBlätter-Kandidaten auf Seite 1:\n" +
+                   "\n".join(f"  {u}" for u in pager_links[:20]) + "\n" +
                    "\n".join(f"  {e.start} | {e.location} | {e.title}"
-                             for e in events[:30]))
+                             for e in events[:60]))
         return events
+
+    def _collect(self, first_html: str) -> tuple[list, list[str], list[str]]:
+        """Teasers of the first listing page plus its follow-up pages.
+
+        The listing only shows the current batch (about a month, all cities),
+        so without paging Berlin events end after a few weeks. Pager links are
+        recognised generically (rel=next, pagination containers, or
+        cb_elasticsearch ``page`` parameters) because the markup is not
+        documented; paging stops when a page brings no new teasers."""
+        soup = BeautifulSoup(first_html, "html.parser")
+        secs = list(soup.select("section.elasticsearch__result"))
+        pages = [URL]
+        pager_links = self._pager_links(soup)
+        seen_teasers = {self._teaser_key(s) for s in secs}
+        queue = list(pager_links)
+        visited = {URL}
+        while queue and len(pages) < MAX_PAGES:
+            url = queue.pop(0)
+            if url in visited:
+                continue
+            visited.add(url)
+            try:
+                page = BeautifulSoup(self.get(url, headers=BROWSER).text,
+                                     "html.parser")
+            except Exception:  # noqa: BLE001
+                continue
+            new = [s for s in page.select("section.elasticsearch__result")
+                   if self._teaser_key(s) not in seen_teasers]
+            pages.append(url)
+            if not new:
+                continue
+            seen_teasers.update(self._teaser_key(s) for s in new)
+            secs.extend(new)
+            queue.extend(u for u in self._pager_links(page)
+                         if u not in visited and u not in queue)
+        return secs, pages, pager_links
+
+    @staticmethod
+    def _teaser_key(sec) -> tuple:
+        link = sec.select_one("a.teaser__link")
+        return ((link.get("href") if link else None), sec.get("data-ts"))
+
+    @staticmethod
+    def _pager_links(soup) -> list[str]:
+        out: list[str] = []
+        for a in soup.select("a[href]"):
+            href = a.get("href") or ""
+            if href.startswith("#") or href.startswith("javascript"):
+                continue
+            classes = " ".join(a.get("class") or [])
+            parent_cls = " ".join(
+                " ".join(p.get("class") or []) for p in a.parents
+                if getattr(p, "get", None) and p.name in ("nav", "ul", "div", "li"))
+            rel = " ".join(a.get("rel") or [])
+            low = href.lower()
+            is_pager = (
+                "next" in rel
+                or "pagination" in parent_cls.lower() or "pager" in parent_cls.lower()
+                or "next" in classes.lower()
+                or (("cbelasticsearch" in low or "veranstaltungen" in low)
+                    and re.search(r"(%5b|\[)page(%5d|\])=\d+|[?&]page=\d+", low))
+            )
+            if not is_pager:
+                continue
+            url = urljoin(URL, href).split("#", 1)[0]
+            if not url.startswith(BASE) or url == URL:
+                continue
+            if url not in out:
+                out.append(url)
+        return out
 
     def _add_descriptions(self, events) -> None:
         """Full description from each event's detail page (og:description),

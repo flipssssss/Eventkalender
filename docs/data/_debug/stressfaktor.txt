@@ -9,9 +9,9 @@ https://stressfaktor.squat.net/termine/alle page 6: 30 Events (2026-11-26…2026
 https://stressfaktor.squat.net/termine/alle page 7: 30 Events (2026-11-28…2026-11-30)
 https://stressfaktor.squat.net/termine/alle page 8: 30 Events (2026-11-30…2026-12-02)
 https://stressfaktor.squat.net/termine/alle page 9: 30 Events (2026-12-02…2026-12-04)
-https://stressfaktor.squat.net/termine/alle page 10: 30 Events (2026-12-04…2026-12-06)
+https://stressfaktor.squat.net/termine/alle page 10: 30 Events (2026-12-04…2026-12-05)
 https://stressfaktor.squat.net/termine/alle page 11: 30 Events (2026-12-06…2026-12-08)
 https://stressfaktor.squat.net/termine/alle page 12: 30 Events (2026-12-08…2026-12-11)
 https://stressfaktor.squat.net/termine/alle page 13: 30 Events (2026-12-11…2026-12-15)
 https://stressfaktor.squat.net/termine/alle page 14: 30 Events (2026-12-15…2026-12-18)
-Anubis-Notizen: PoW: difficulty=2 nonce=154 hash=0099787e50df… pass-status=200 cookies=['techaro.lol-anubis-cookie-verification-347ddb4a', 'techaro.lol-anubis-auth-347ddb4a']
+Anubis-Notizen: PoW: difficulty=2 nonce=122 hash=00260a619aae… pass-status=200 cookies=['techaro.lol-anubis-cookie-verification-347ddb4a', 'techaro.lol-anubis-auth-347ddb4a']

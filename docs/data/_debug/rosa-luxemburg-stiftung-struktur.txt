@@ -1,0 +1,48 @@
+FORM action=/metanavigation/ihre-suchergebnisse#results method=None
+   <input name=tx_cbelasticsearch_searchform[search] type=text value=> 
+   <input name=tx_cbelasticsearch_searchform[language] type=hidden value=> 
+   <input name=tx_cbelasticsearch_searchform[es_id] type=hidden value=> 
+   <input name=None type=submit value=Suchen> 
+FORM action=/veranstaltungen?tx_cbelasticsearch_searchform%5Baction%5D=list&tx_cbelasticsearch_searchform%5Bcontroller%5D=Search&cHash=cd3d9529dd2cffad4eb71c54f2504464#results method=post
+   <input name=tx_cbelasticsearch_searchform[__referrer][@extension] type=hidden value=CbElasticsearch> 
+   <input name=tx_cbelasticsearch_searchform[__referrer][@controller] type=hidden value=Search> 
+   <input name=tx_cbelasticsearch_searchform[__referrer][@action] type=hidden value=list> 
+   <input name=tx_cbelasticsearch_searchform[__referrer][arguments] type=hidden value=YTowOnt9bc39148d432c18ef669bdb8982b0751b> 
+   <input name=tx_cbelasticsearch_searchform[__referrer][@request] type=hidden value={"@extension":"CbElasticsearch","@contro> 
+   <input name=tx_cbelasticsearch_searchform[__trustedProperties] type=hidden value={"search":1}1a949caecf34d01aea7664b2a7f2> 
+   <button name=None type=button value=> 
+   <button name=None type=button value=> 
+   <input name=tx_cbelasticsearch_searchform[search] type=text value=> 
+   <input name=tx_cbelasticsearch_searchform[elastic_search_exact] type=checkbox value=> 
+   <button name=None type=button value=> 
+   <button name=None type=button value=> 
+   <button name=None type=button value=> 
+   <select name=tx_cbelasticsearch_searchform[distance] type=None value=> ['10', '10', '20', '50', '100']
+   <input name=tx_cbelasticsearch_searchform[location] type=text value=> 
+   <input name=tx_cbelasticsearch_searchform[use_my_latlng] type=checkbox value=> 
+   <input name=tx_cbelasticsearch_searchform[my_latlng][lat] type=hidden value=> 
+   <input name=tx_cbelasticsearch_searchform[my_latlng][lng] type=hidden value=> 
+   <input name=tx_cbelasticsearch_searchform[elastic_search_main_topics][0] type=checkbox value=> 
+   <input name=tx_cbelasticsearch_searchform[elastic_search_main_topics][1] type=checkbox value=> 
+   <input name=tx_cbelasticsearch_searchform[elastic_search_main_topics][2] type=checkbox value=> 
+   <input name=tx_cbelasticsearch_searchform[elastic_search_main_topics][3] type=checkbox value=> 
+   <input name=tx_cbelasticsearch_searchform[elastic_search_main_topics][4] type=checkbox value=> 
+   <input name=tx_cbelasticsearch_searchform[elastic_search_main_topics][5] type=checkbox value=> 
+   <input name=tx_cbelasticsearch_searchform[elastic_search_event_types][0] type=checkbox value=> 
+   <input name=tx_cbelasticsearch_searchform[elastic_search_event_types][1] type=checkbox value=> 
+   <input name=tx_cbelasticsearch_searchform[elastic_search_event_types][2] type=checkbox value=> 
+   <input name=tx_cbelasticsearch_searchform[elastic_search_event_types][3] type=checkbox value=> 
+   <input name=tx_cbelasticsearch_searchform[elastic_search_event_types][4] type=checkbox value=> 
+   <input name=tx_cbelasticsearch_searchform[elastic_search_event_types][5] type=checkbox value=> 
+   <input name=tx_cbelasticsearch_searchform[elastic_search_event_types][6] type=checkbox value=> 
+   <input name=tx_cbelasticsearch_searchform[elastic_search_event_types][7] type=checkbox value=> 
+   <input name=tx_cbelasticsearch_searchform[elastic_search_event_types][8] type=checkbox value=> 
+   <input name=tx_cbelasticsearch_searchform[elastic_search_event_types][9] type=checkbox value=> 
+   <input name=tx_cbelasticsearch_searchform[elastic_search_event_types][10] type=checkbox value=> 
+   <input name=tx_cbelasticsearch_searchform[year] type=hidden value=2026> 
+   <input name=tx_cbelasticsearch_searchform[month] type=hidden value=11> 
+   <input name=None type=submit value=Anwenden> 
+   <input name=elastic_search_current_tab type=hidden value=0> 
+   <input name=elastic_search_expanded type=hidden value=0> 
+--- nach letztem Treffer ---
+lass="teaser__date-group teaser__date-group--right"><span>Hamburg</span><span>19:00 Uhr</span></span></p><p class="teaser__text">Perspektiven aus Argentinien, Kenia und Polen</p></div></div></section></div></div> </div> </section> <!--TYPO3SEARCH_end--> </main> <hr class="hide"> <footer class="page__footer footer"> <div class="footer__liner"><div class="footer__logo"><a href="/" class="logo-link logo-link--footer"><img src="/_assets/bcaf2df31b3031c02e4bdc5e5aed5a50/Images/Dist/Logos/logo-rls.svg" height="19" width="521" alt="Rosa-Luxemburg-Stiftung: zur Startseite" class="logo-link__img"></a></div> <nav class="footer__navigation" aria-labelledby="servicenavigation-label" id="Servicenavigation"> <p id="servicenavigation-label" hidden>Servicenavigation</p> <ul class="footer__navigation-list" aria-label="Informationen"><li class="footer__navigation-item"><a href="/stiftung" class="footer__navigation-link">Stiftung</a></li><li class="footer__navigation-item"><a href="/themen" class="footer__navigation-link">Themen</a></li><li class="footer__navigation-item"><a href="/veranstaltungen" class="footer__navigation-link footer__navigation-link--current">Veranstaltungen</a></li><li class="footer__navigation-item"><a href="/publikationen-medien" class="footer__navigation-link">Publikationen</a></li><li class="footer__navigation-item"><a href="/stiftung/studienwerk" class="footer__navigation-link">Stipendien</a></li></ul><ul class="footer__navigation-list"><li class="footer__navigation-item"><a href="/presse" class="footer__navigation-link">Presse</a></li><li class="footer__navigation-item"><a href="/stiftung/archiv" class="footer__navigation-link">Archiv</a></li><li class="footer__navigation-item"><a href="/stiftung/bibliothek" class="footer__navigation-link">Bibliothek</a></li><li class="footer__navigation-item"><a href="/publikationen-medien/mediathek" class="footer__navigation-link">Mediathek</a></li><li class="footer__navigation-item"><a href="/podcasts" class="footer__navigation-link">Podcasts</a></li></ul><ul class="footer__navigation-list"><li class="footer__navigation-item"><a href="/newsletter-abos" class="footer__navigation-link">Newsletter und Abos</a></li><li class="footer__navigation-item"><a href="/service/ausschreibungen" class="footer__navigation-link">Ausschreibungen</a></li><li class="footer__navigation-item"><a href="/kontakt" class="footer__navigation-link">Kontakt</a></li><li class="footer__navigation-item"><a href="/stiftung/organigramm" class="footer__navigation-link">Organigramm</a></li><li class="footer__navigation-item"><a href="/service/impressum-datenschutz" class="footer__navigation-link">Impressum</a></li></ul><ul class="footer__navigation-list"><li class="footer__navigation-item"><a href="/datenschutz" class="footer__navigation-link">Datenschutz</a></li><li class="footer__navigation-item"><a href="https://rosalux.vispato.com" target="_blank" class="footer__navigation-link" rel="noreferrer">Hinweisgeberportal</a></li><li class="

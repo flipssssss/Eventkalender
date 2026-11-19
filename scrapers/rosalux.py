@@ -30,6 +30,18 @@ except Exception:  # noqa: BLE001
 BASE = "https://www.rosalux.de"
 URL = BASE + "/veranstaltungen"
 MAX_PAGES = 8
+# Tried when the page offers no pager links: the user-supplied search URL and
+# the usual TYPO3/Extbase paging parameters of the cb_elasticsearch plugin.
+_SF = "tx_cbelasticsearch_searchform"
+_LIST = f"{_SF}%5Baction%5D=list&{_SF}%5Bcontroller%5D=Search"
+PROBE_URLS = [
+    f"{URL}?{_LIST}&cHash=cd3d9529dd2cffad4eb71c54f2504464",
+    f"{URL}?{_LIST}&{_SF}%5Bpage%5D=2",
+    f"{URL}?{_LIST}&{_SF}%5BcurrentPage%5D=2",
+    f"{URL}?{_SF}%5B%40widget_0%5D%5BcurrentPage%5D=2",
+    f"{URL}?{_SF}%5Bpage%5D=2",
+    f"{URL}?page=2",
+]
 DEBUG_DIR = pathlib.Path(__file__).resolve().parents[1] / "docs" / "data" / "_debug"
 TIME_RE = re.compile(r"\b(\d{1,2}):(\d{2})\b")
 OG_DESC_RE = re.compile(
@@ -81,12 +93,14 @@ class RosaLuxScraper(BaseScraper):
             seen.add(key)
             events.append(ev)
         self._add_descriptions(events)
+        self._dump_structure(html)
         last = max((e.start for e in events), default=None)
         self._dump(f"Seiten: {len(pages)} | Teaser: {len(secs)} | "
                    f"{self.city}: {len(events)} | andere Städte: {other_city} | "
                    f"mit Beschreibung: {sum(1 for e in events if e.description)} | "
                    f"letzter Termin: {last}\n"
                    "Gelesene Seiten:\n" + "\n".join(f"  {u}" for u in pages) +
+                   "\nAbfragen:\n" + "\n".join(getattr(self, "_probe_log", [])) +
                    "\nBlätter-Kandidaten auf Seite 1:\n" +
                    "\n".join(f"  {u}" for u in pager_links[:20]) + "\n" +
                    "\n".join(f"  {e.start} | {e.location} | {e.title}"
@@ -106,8 +120,9 @@ class RosaLuxScraper(BaseScraper):
         pages = [URL]
         pager_links = self._pager_links(soup)
         seen_teasers = {self._teaser_key(s) for s in secs}
-        queue = list(pager_links)
+        queue = list(pager_links) or list(PROBE_URLS)
         visited = {URL}
+        self._probe_log: list[str] = []
         while queue and len(pages) < MAX_PAGES:
             url = queue.pop(0)
             if url in visited:
@@ -116,11 +131,18 @@ class RosaLuxScraper(BaseScraper):
             try:
                 page = BeautifulSoup(self.get(url, headers=BROWSER).text,
                                      "html.parser")
-            except Exception:  # noqa: BLE001
+            except Exception as exc:  # noqa: BLE001
+                self._probe_log.append(f"  FEHLER {str(exc)[:80]} | {url}")
                 continue
-            new = [s for s in page.select("section.elasticsearch__result")
-                   if self._teaser_key(s) not in seen_teasers]
+            found = page.select("section.elasticsearch__result")
+            new = [s for s in found if self._teaser_key(s) not in seen_teasers]
             pages.append(url)
+            ts = sorted(int(x.get("data-ts")) for x in found
+                        if (x.get("data-ts") or "").isdigit())
+            self._probe_log.append(
+                f"  {len(found):3d} Teaser, {len(new):3d} neu, "
+                f"{self._start(str(ts[0])) if ts else '-'} .. "
+                f"{self._start(str(ts[-1])) if ts else '-'} | {url}")
             if not new:
                 continue
             seen_teasers.update(self._teaser_key(s) for s in new)
@@ -128,6 +150,34 @@ class RosaLuxScraper(BaseScraper):
             queue.extend(u for u in self._pager_links(page)
                          if u not in visited and u not in queue)
         return secs, pages, pager_links
+
+    def _dump_structure(self, html: str) -> None:
+        """Diagnostics: forms, buttons and the markup right after the result
+        list, to see how the listing loads further events."""
+        if not self.write_debug:
+            return
+        soup = BeautifulSoup(html, "html.parser")
+        out = []
+        for f in soup.select("form"):
+            out.append(f"FORM action={f.get('action')} method={f.get('method')}")
+            for el in f.select("input, select, button"):
+                opts = [o.get("value") for o in el.select("option")][:12]
+                out.append(f"   <{el.name} name={el.get('name')} type={el.get('type')} "
+                           f"value={(el.get('value') or '')[:40]}> {opts or ''}")
+        for el in soup.select("[data-url], [data-href], [data-ajax], [data-page], "
+                              "[data-next], .load-more, [class*=more], [class*=pagin]")[:20]:
+            out.append(f"EL <{el.name} {dict((k, (v if isinstance(v, str) else ' '.join(v))[:120]) for k, v in el.attrs.items())}>")
+        secs = soup.select("section.elasticsearch__result")
+        if secs:
+            tail = str(secs[-1].parent)[-4000:]
+            after = html[html.find(str(secs[-1])[-200:]):][:3000] if str(secs[-1])[-200:] in html else ""
+            out.append("--- nach letztem Treffer ---\n" + (after or tail))
+        try:
+            DEBUG_DIR.mkdir(parents=True, exist_ok=True)
+            (DEBUG_DIR / "rosa-luxemburg-stiftung-struktur.txt").write_text(
+                "\n".join(out), encoding="utf-8")
+        except OSError:
+            pass
 
     @staticmethod
     def _teaser_key(sec) -> tuple:

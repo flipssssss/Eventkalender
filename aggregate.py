@@ -263,6 +263,12 @@ def collect() -> tuple[list[Event], list[dict]]:
     return events, report
 
 
+# Titles a source marks as called off ("ABGESAGT: ...", "Entfällt - ...").
+CANCELLED_RE = re.compile(
+    r"\s*[\[(]?\s*(?:abgesagt|entf[äa]llt|f[äa]llt\s+aus|cancell?ed|canceled)\b",
+    re.IGNORECASE)
+
+
 def filter_and_sort(events: list[Event]) -> list[Event]:
     # Drop anything before today (no "yesterday" events in the feed).
     now = _dt.datetime.now()
@@ -282,6 +288,8 @@ def filter_and_sort(events: list[Event]) -> list[Event]:
     kept: dict[str, Event] = {}
     for event in events:
         if not event.start:
+            continue
+        if CANCELLED_RE.match(event.title or ""):
             continue
         # Map the source's raw categories onto the fixed tag set; drop
         # advice/help ("Beratung") events entirely.

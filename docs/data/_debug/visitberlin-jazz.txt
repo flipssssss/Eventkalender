@@ -1,10 +1,10 @@
 Liste: https://www.visitberlin.de/de/kategorie/blues-jazz
-Event-Links: 17 | Events: 17
+Event-Links: 15 | Events: 15
 
 Seiten:
-  eine Seite: 17 Links
+  eine Seite: 15 Links
 
-Zeitraum der Starts: 2024-10-07 20:00:00 … 2027-10-28 00:00:00
+Zeitraum der Starts: 2024-10-07 20:00:00 … 2027-02-24 20:00:00
 
   2024-10-07 20:00:00 → 2027-02-14 19:00:00 | BAR JEDER VERNUNFT, Schaperstraße 24, 10719, Berlin | Heller & Bolam - L is for…
   2026-03-18 21:00:00 → 2026-12-02 21:00:00 | KulturMarktHalle, Hanns-Eisler-Straße 93, 10409, Berlin | The Composers' Orchestra Berlin
@@ -13,13 +13,12 @@ Zeitraum der Starts: 2024-10-07 20:00:00 … 2027-10-28 00:00:00
   2026-11-16 20:00:00 → 2026-12-28 23:30:00 | Café Engels, Herrfurthstr. 21, 12049, Berlin | Blue Moonday Jazzsession
   2026-11-17 19:30:00 → 2026-12-29 22:00:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Session im ART Stalker
   2026-11-19 20:00:00 → None | Kulturhaus "alte feuerwache" Friedrichshain, Marchlewskistr. 6, 10243, Berlin | Jazz in der Alten Feuerwache | Lionel Haas Trio
-  2026-11-21 19:00:00 → 2026-11-22 18:00:00 | Deutsche Oper Berlin, Tischlerei, Richard-Wagner-Str. / Ecke Zillestr., 10627, Berlin | Jazz & Lyrics II: The Jazziversum
   2026-12-04 19:30:00 → 2026-12-05 19:30:00 | Uber Arena, Uber Platz 1, 10243, Berlin | JazzDP Exklusives Albumkonzert
   2026-12-05 19:00:00 → None | ausland, Lychener Str. 60, 10437, Berlin | Alexandra Maciá / Zustand D. / Winona Lin / Frictive Frequencies
   2026-12-13 19:30:00 → None | Ballhaus Wedding, Wriezener Str. 6, 13359, Berlin | Christmas Swing
+  2026-12-18 19:30:00 → None | MS Goldberg, Havelufer
+Dischinger Brücke, 13581, Berlin | Jazz goes Synagogue
   2027-01-22 20:00:00 → None | Petruskirche Lichterfelde, Oberhofer Platz, 12209, Berlin | DAVE GOODMAN & “GROOVE MINISTER“ alias MARTIN RÖTTGER
   2027-01-30 20:00:00 → None | Petruskirche Lichterfelde, Oberhofer Platz, 12209, Berlin | THE BAKERY BROTHERS
   2027-02-18 20:00:00 → None | Heimathafen Neukölln, Karl-Marx-Straße 141, 12043, Berlin | THE MAGIC MUMBLE JUMBLE
   2027-02-24 20:00:00 → None | Lido, Cuvrystraße 7, 10997, Berlin | GLASPERLENSPIEL - Club Tour 2027
-  2027-05-14 19:00:00 → 2027-05-16 18:00:00 | Deutsche Oper Berlin, Tischlerei, Richard-Wagner-Str. / Ecke Zillestr., 10627, Berlin | Jazz & Lyrics IV: Les Grandes Dames du Jazz
-  2027-10-28 00:00:00 → None | verschiedene Veranstaltungsorte, Berlin | Jazzfest Berlin 2027

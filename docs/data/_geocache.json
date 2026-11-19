@@ -477,6 +477,12 @@
   "lat": 52.5219814,
   "lng": 13.4136358
  },
+ "Alexanderplatz, 10178 Berlin": {
+  "address": "Dircksenstraße 2, 10179 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5215661,
+  "lng": 13.4112804
+ },
  "Alexanderplatz, Berlin": {
   "address": "Alexanderplatz, Mitte",
   "bezirk": "Mitte",
@@ -3429,6 +3435,12 @@
   "lat": 52.5116921,
   "lng": 13.4263208
  },
+ "ILOsBAR, Berlin": {
+  "address": "Motzstraße 30, 10777 Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4977119,
+  "lng": 13.3474298
+ },
  "Ihnestraße 22, 14195 Berlin": {
   "address": "Ihnestraße 22, 14195 Dahlem",
   "bezirk": "Steglitz-Zehlendorf",
@@ -4127,6 +4139,12 @@
  },
  "KollektivBar EigenSinn Pflügerstr. 52, 12047 Berlin Deutschland": null,
  "Kollektivbar ES Pflügerstraße 52 12047 Berlin": {
+  "address": "Pflügerstraße 52, 12047 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4901195,
+  "lng": 13.4335474
+ },
+ "Kollektivbar ES, Pflügerstraße 52, 12047 Berlin": {
   "address": "Pflügerstraße 52, 12047 Neukölln",
   "bezirk": "Neukölln",
   "lat": 52.4901195,
@@ -6475,6 +6493,12 @@
  "Projektraum ABB (Scherer 8 - Zugang über Adolfstr) Schererstraße 8 (Zugang über Adolfstraße) 13347 Berlin Deutschland": null,
  "Pumptrack An der Ostbahn 9 Berlin": null,
  "Pumptrack An der Ostbahn 9 Berlin Deutschland": null,
+ "Punk, Berlin": {
+  "address": "Manteuffelstraße 48, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4983004,
+  "lng": 13.4253422
+ },
  "Quartiersmanagement Pankstraße, Prinz-Eugen-Straße 1, 13347 Berlin": {
   "address": "Prinz-Eugen-Straße 1, 13347 Wedding",
   "bezirk": "Mitte",
@@ -6531,6 +6555,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.5103673,
   "lng": 13.4286199
+ },
+ "Rathaus Lichtenberg, Berlin": {
+  "address": "Möllendorffstraße 6, 10367 Lichtenberg",
+  "bezirk": "Lichtenberg",
+  "lat": 52.5157847,
+  "lng": 13.47984
  },
  "Rathaus Lichtenberg, Möllendorffstraße 6, 10367 Berlin": {
   "address": "Möllendorffstraße 6, 10367 Lichtenberg",
@@ -8740,6 +8770,12 @@
   "lng": 13.3853499
  },
  "Wilhelmstraße 70 - 71, 10117 Berlin": {
+  "address": "Wilhelmstraße 70-71, 10117 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5156227,
+  "lng": 13.3807336
+ },
+ "Wilhelmstraße 70/71, 10117 Berlin": {
   "address": "Wilhelmstraße 70-71, 10117 Mitte",
   "bezirk": "Mitte",
   "lat": 52.5156227,

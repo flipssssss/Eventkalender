@@ -1571,6 +1571,12 @@
   "lat": 52.4130586,
   "lng": 13.3899419
  },
+ "Budapester Straße 38-50, 10787 Charlottenburg, Berlin": {
+  "address": "Budapester Straße 38-50, 10787 Charlottenburg",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.5054041,
+  "lng": 13.3373148
+ },
  "Bundeskanzler*innenamt, Willy-Brandt-Straße 1, 10557 Berlin": null,
  "Bundeskanzler_innenamt Willy-Brandt-Straße 1 10557 Berlin Deutschland": null,
  "Bundesplatz Kino, Berlin": {
@@ -1789,6 +1795,7 @@
   "lng": 13.4229186
  },
  "Casakua, Naunynstraße 72, 10997 Berlin": null,
+ "Casino For Social Medicine Sonnenallee 100 12045 Berlin Deutschland": null,
  "Casino für Sozialmedizin Sonnenallee 100 12045 Berlin Deutschland": null,
  "Casino für Sozialmedizin, Sonnenallee 100, 12045 Berlin": null,
  "Casinoooo Sonnenallee 100 12045 Berlin Deutschland": null,
@@ -2599,7 +2606,19 @@
   "lat": 52.5485624,
   "lng": 13.3522707
  },
+ "Georgenstraße 199, 10117 Mitte, Berlin": {
+  "address": "Georgenstraße 199, 10117 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5200011,
+  "lng": 13.3898465
+ },
  "Gerichtstraße 35, 13347 Berlin": {
+  "address": "Gerichtstraße 35, 13347 Wedding",
+  "bezirk": "Mitte",
+  "lat": 52.5456853,
+  "lng": 13.36649
+ },
+ "Gerichtstraße 35, 13347 Wedding, Berlin": {
   "address": "Gerichtstraße 35, 13347 Wedding",
   "bezirk": "Mitte",
   "lat": 52.5456853,
@@ -3480,6 +3499,12 @@
  },
  "Interkulturelles Haus - Theater unterm Dach, Schönfließer Straße 7, 10439, Berlin": null,
  "Invalidenstr. 117, 10115 Berlin": {
+  "address": "Invalidenstraße 117, 10115 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5302814,
+  "lng": 13.385162
+ },
+ "Invalidenstraße 117, 10115 Mitte, Berlin": {
   "address": "Invalidenstraße 117, 10115 Mitte",
   "bezirk": "Mitte",
   "lat": 52.5302814,
@@ -5194,6 +5219,12 @@
   "lat": 52.5162846,
   "lng": 13.4422906
  },
+ "Marchlewskistraße 6, 10243 Friedrichshain, Berlin": {
+  "address": "Marchlewskistraße 6, 10243 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5162846,
+  "lng": 13.4422906
+ },
  "Mareen & Juliette, Berlin": null,
  "Mareen Juliette & Lucas, Berlin": null,
  "Mareen, Juliette & Lucas, Berlin": null,
@@ -6446,6 +6477,12 @@
  "Potse Zollgarage, Columbiadamm 10, 12101 Berlin": null,
  "Prachttomate Bornsdorfer Straße 9-11, 12053 Berlin": null,
  "Prachttomate, Bornsdorfer Straße 9-11, 12053 Berlin": null,
+ "Prenzlauer Allee 227/228, 10405 Prenzlauer Berg, Berlin": {
+  "address": "Prenzlauer Allee 227/228, 10405 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5333155,
+  "lng": 13.4202437
+ },
  "Prenzlauer Allee 6, 10405 Berlin": {
   "address": "Prenzlauer Allee 6, 10405 Prenzlauer Berg",
   "bezirk": "Pankow",
@@ -7268,6 +7305,12 @@
   "lat": 52.4986265,
   "lng": 13.3287067
  },
+ "Schaperstraße 24, 10719 Wilmersdorf, Berlin": {
+  "address": "Schaperstraße 24, 10719 Wilmersdorf",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.4986265,
+  "lng": 13.3287067
+ },
  "Schaperstraße 29, 10719 Berlin": {
   "address": "Schaperstraße 29, 10719 Wilmersdorf",
   "bezirk": "Charlottenburg-Wilmersdorf",
@@ -7568,6 +7611,12 @@
   "bezirk": "Pankow",
   "lat": 52.5382108,
   "lng": 13.4126884
+ },
+ "Schönhauser Allee 36, 10435 Prenzlauer Berg, Berlin": {
+  "address": "Schönhauser Allee 36, 10435 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5394242,
+  "lng": 13.4136682
  },
  "Schönhauser Allee 44b, 10435 Berlin": {
   "address": "Schönhauser Allee 44b, 10435 Prenzlauer Berg",
@@ -8369,6 +8418,12 @@
   "lat": 52.5049039,
   "lng": 13.4431471
  },
+ "Uber Platz 1, 10243 Friedrichshain, Berlin": {
+  "address": "Uber Platz 1, 10243 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5049039,
+  "lng": 13.4431471
+ },
  "Uferstraße 12, 13357 Gesundbrunnen, Berlin": {
   "address": "Uferstraße 12, 13357 Gesundbrunnen",
   "bezirk": "Mitte",
@@ -8396,6 +8451,12 @@
   "bezirk": "Mitte",
   "lat": 52.5171465,
   "lng": 13.3961451
+ },
+ "Unter den Linden 7, 10117 Mitte, Berlin": {
+  "address": "Unter den Linden 7, 10117 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5167029,
+  "lng": 13.3947383
  },
  "Unter den Linden 76, 10117 Berlin": {
   "address": "Unter den Linden 76, 10117 Mitte",
@@ -8868,6 +8929,12 @@
  "Wrangelstraße Ecke Falckensteinstraße 10997 Berlin": null,
  "Wrangelstraße Ecke Falckensteinstraße Berlin": null,
  "Wrangelstraße Ecke Falckensteinstraße Berlin Deutschland": null,
+ "Wriezener Straße 6, 13359 Gesundbrunnen, Berlin": {
+  "address": "Wriezener Straße 6, 13359 Gesundbrunnen",
+  "bezirk": "Mitte",
+  "lat": 52.5565355,
+  "lng": 13.3889798
+ },
  "Wurzener Straße 6, 12627 Berlin": {
   "address": "Wurzener Straße 6;8, 12627 Hellersdorf",
   "bezirk": "Marzahn-Hellersdorf",

@@ -1,4 +1,8 @@
-Teaser: 231 | Berlin: 40 | andere Städte: 191 | mit Beschreibung: 38
+Seiten: 1 | Teaser: 231 | Berlin: 40 | andere Städte: 191 | mit Beschreibung: 38 | letzter Termin: 2026-11-30 18:00:02
+Gelesene Seiten:
+  https://www.rosalux.de/veranstaltungen
+Blätter-Kandidaten auf Seite 1:
+
   2026-11-02 19:00:26 | Berlin | Alles meins?
   2026-11-03 10:00:00 | Berlin | Wurde das einst „rote Berlin“ 1933 vom Faschismus zerschlagen?
   2026-11-03 19:00:00 | Berlin | Bumerangeffekte. Russland, der Ukrainekrieg und die Folgen
@@ -29,3 +33,13 @@ Teaser: 231 | Berlin: 40 | andere Städte: 191 | mit Beschreibung: 38
   2026-11-23 18:30:09 | Berlin | Unternehmen in die Pflicht – in Deutschland, Europa und weltweit!
   2026-11-23 20:00:00 | Berlin | “Was bedeutet für Dich Widerstand”. Eine Pasolini-Lektüre
   2026-11-24 10:00:00 | Berlin | Justizirrtümer, Vertuschungen und Fehlurteile
+  2026-11-24 18:00:00 | Berlin | Fritz Cremer - Aufrecht!
+  2026-11-25 10:00:30 | Berlin | Femizide
+  2026-11-25 19:00:00 | Berlin | Zeitenwende 1956. Eine globale Revolte als Geburtsstunde der „Neuen Linken“
+  2026-11-25 19:00:00 | Berlin | Testlabore für Autoritarismus
+  2026-11-26 14:00:26 | Berlin | Mauerspringer und Tunnelgräber
+  2026-11-26 15:00:00 | Berlin | „Die Kinder von der Fischerinsel“: Andreas Ulrich begab sich auf eine Reise in…
+  2026-11-26 19:00:30 | Berlin | Keine mehr! Internationale Kämpfe gegen geschlechtsspezifische Gewalt
+  2026-11-27 10:00:00 | Berlin | Konferenz: Sex zwischen Befreiung und Verwertung
+  2026-11-27 19:00:00 | Berlin | Die Stunde der Vielen: Jean-Luc Mélenchon in Berlin
+  2026-11-30 18:00:02 | Berlin | Wie konnte das geschehen? Deutschland 1933 bis 1945

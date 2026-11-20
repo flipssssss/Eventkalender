@@ -5,7 +5,7 @@ Seiten:
   page=0: 16 Links, 16 neu
   page=1: 0 Links, 0 neu
 
-Zeitraum der Starts: 2026-11-07 20:00:00 … 2026-11-20 20:30:00
+Zeitraum der Starts: 2026-11-07 20:00:00 … 2026-11-21 10:00:00
 
   2026-11-07 20:00:00 → 2026-11-25 19:30:00 | Staatsoper Unter den Linden, Unter den Linden 7, 10117, Berlin | Barocktage 2026
   2026-11-11 19:00:00 → 2026-11-21 20:00:00 | Konzerthaus, Gendarmenmarkt 2, 10117, Berlin | NOW HERE – EIN KOOPERATIVES FESTIVAL FÜR KLANGERFAHRUNG
@@ -18,8 +18,8 @@ Zeitraum der Starts: 2026-11-07 20:00:00 … 2026-11-20 20:30:00
   2026-11-16 11:00:00 → 2027-01-16 19:00:00 | BIKINI Berlin, Budapester Str., 10787, Berlin | Kunst macht glücklich
   2026-11-18 12:00:00 → 2026-11-24 12:00:00 | Kino in der KulturBrauerei Berlin, Schönhauser Allee 36, 10435, Berlin | 26. Filmfest FrauenWelten
   2026-11-19 20:30:00 → 2026-11-21 23:59:00 | Jazzclub Kunstfabrik Schlot, Invalidenstr. 117, 10115, Berlin | rejazz-festival #7
-  2026-11-19 20:30:00 → None | Jazzclub Kunstfabrik Schlot, Invalidenstr. 117, 10115, Berlin | rejazz-festival #7 – DAY 1
   2026-11-20 16:00:00 → None | Bibliothek am Wasserturm, Prenzlauer Allee 227, 10405, Berlin | Bundesweiter Volesetag in der Bibliothek am Wasserturm
   2026-11-20 17:00:00 → 2026-11-22 20:00:00 | Verschiedene Orte, Berlin | 1. GREEK THEATER FESTIVAL BERLIN
   2026-11-20 19:30:00 → 2026-11-22 11:00:00 | silent green Kulturquartier, Gerichtstraße 35, 13347, Berlin | Philosophie-Festival Philo.live!
   2026-11-20 20:30:00 → None | Jazzclub Kunstfabrik Schlot, Invalidenstr. 117, 10115, Berlin | rejazz-festival #7 – DAY 2
+  2026-11-21 10:00:00 → 2026-11-22 18:30:00 | Colosseum, Schönhauser Allee 123, 10437, Berlin | Heldenmarkt Berlin 2026

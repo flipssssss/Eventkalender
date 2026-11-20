@@ -749,6 +749,12 @@
   "lat": 52.5480563,
   "lng": 13.4510903
  },
+ "Antonplatz, Weißensee, Berlin": {
+  "address": "Antonplatz, Weißensee",
+  "bezirk": "Pankow",
+  "lat": 52.5480563,
+  "lng": 13.4510903
+ },
  "Aquarium hinterm Südblock Skalitzer Straße 6 10999 Berlin Deutschland": null,
  "Aquarium, Skalitzer Straße 6, 10999 Berlin": {
   "address": "Skalitzer Straße 6, 10999 Kreuzberg",
@@ -1917,6 +1923,12 @@
   "lat": 52.4981631,
   "lng": 13.4344313
  },
+ "Colosseum, Schönhauser Allee 123, 10437, Berlin": {
+  "address": "Schönhauser Allee 123, 10437 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5478942,
+  "lng": 13.4130423
+ },
  "Columbiadamm 10 Zollgarage im alten Flughafen Tempelhof 10965 Berlin Deutschland": null,
  "Columbiadamm 10, 10965 Berlin": {
   "address": "Columbiadamm 10, 10965 Tempelhof",
@@ -2059,6 +2071,12 @@
   "lng": 13.3083771
  },
  "Die 7 Landesvertretungen in den Ministergärten, In den Ministergärten 3-10, 10117, Berlin": null,
+ "Dircksenstraße 2, 10179 Mitte, Berlin": {
+  "address": "Dircksenstraße 2, 10179 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5215661,
+  "lng": 13.4112804
+ },
  "Dircksenstraße 40, 10178 Mitte, Berlin": {
   "address": "Dircksenstraße 40, 10178 Mitte",
   "bezirk": "Mitte",
@@ -4110,6 +4128,12 @@
   "bezirk": "Charlottenburg-Wilmersdorf",
   "lat": 52.5184418,
   "lng": 13.292551
+ },
+ "Kleine Alexanderstraße 28, 10178 Mitte, Berlin": {
+  "address": "Kleine Alexanderstraße 28, 10178 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5264478,
+  "lng": 13.4130213
  },
  "Kleine Freiheit, Berlin": {
   "address": "Nansenstraße 31, 12047 Neukölln",
@@ -8831,6 +8855,12 @@
   "lng": 13.3853499
  },
  "Wilhelmstraße 70 - 71, 10117 Berlin": {
+  "address": "Wilhelmstraße 70-71, 10117 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5156227,
+  "lng": 13.3807336
+ },
+ "Wilhelmstraße 70-71, 10117 Mitte, Berlin": {
   "address": "Wilhelmstraße 70-71, 10117 Mitte",
   "bezirk": "Mitte",
   "lat": 52.5156227,

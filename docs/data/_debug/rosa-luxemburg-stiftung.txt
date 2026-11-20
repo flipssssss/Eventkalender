@@ -1,7 +1,7 @@
-Teaser: 308 | Berlin: 55 | andere Städte: 253 | mit Beschreibung: 53 | letzter Termin: 2027-02-04 19:00:00
+Teaser: 310 | Berlin: 55 | andere Städte: 255 | mit Beschreibung: 53 | letzter Termin: 2027-02-04 19:00:00
 Monate:
-  aktuell: 231 Teaser, 231 neu, 2026-09-03 14:00:40 .. 2026-11-30 19:00:21 | https://www.rosalux.de/veranstaltungen
-  2026-12 POST: 58 Teaser, 57 neu, 2026-11-01 08:00:18 .. 2026-12-29 19:00:30 | https://www.rosalux.de/veranstaltungen?tx_cbelasticsearch_searchform%5Baction%5D=list&tx_cbelasticsearch_searc
+  aktuell: 232 Teaser, 232 neu, 2026-09-03 14:00:40 .. 2026-11-30 19:00:21 | https://www.rosalux.de/veranstaltungen
+  2026-12 POST: 59 Teaser, 58 neu, 2026-11-01 08:00:18 .. 2026-12-29 19:00:30 | https://www.rosalux.de/veranstaltungen?tx_cbelasticsearch_searchform%5Baction%5D=list&tx_cbelasticsearch_searc
   2027-01 POST: 16 Teaser, 16 neu, 2026-09-21 18:00:33 .. 2027-01-30 10:00:58 | https://www.rosalux.de/veranstaltungen?tx_cbelasticsearch_searchform%5Baction%5D=list&tx_cbelasticsearch_searc
   2027-02 POST: 6 Teaser, 4 neu, 2027-01-26 18:00:18 .. 2027-02-25 12:00:18 | https://www.rosalux.de/veranstaltungen?tx_cbelasticsearch_searchform%5Baction%5D=list&tx_cbelasticsearch_searc
   2026-11-02 19:00:26 | Berlin | Alles meins?

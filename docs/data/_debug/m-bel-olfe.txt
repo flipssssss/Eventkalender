@@ -1,24 +1,5 @@
-event-blocks: 26 | Events: 26
+event-blocks: 25 | Events: 25
 
-<div class="event-block">
- <!-- Zeile 1: Datum + Titel -->
- <div class="event-row-1">
-  <div class="event-time">
-   Freitag, 20. Nov. 22:00
-  </div>
-  <div class="event-title">
-   Cristoval Dilunar
-  </div>
- </div>
- <!-- Zeile 2: Bild + Beschreibung -->
- <div class="event-row-2">
-  <div class="event-image">
-   <img alt="" src="ProgrammFotos/Cristoval_Dilunar_2026_11_20.jpg"/>
-  </div>
-  <div class="event-description">
-   Cristoval Dilunar is the project of Cristobal Alzerreca, a producer, DJ, and performer from Santiago, Chile. In their sets, he moves freely and without prejudice through genres such as electro, new beat, house, techno, electropop, and electroclash. They also perform their own sonic creations live when they take the microphone, creating an atmosphere that ranges from joyful emotions to hypnotic, sensual, and experimental trances. They have performed on major stages of the
-
-----
 <div class="event-block">
  <!-- Zeile 1: Datum + Titel -->
  <div class="event-row-1">
@@ -76,6 +57,25 @@ event-blocks: 26 | Events: 26
   </div>
   <div class="event-description">
    MinQ
+  </div>
+ </div>
+</div>
+
+
+----
+<div class="event-block">
+ <!-- Zeile 1: Datum + Titel -->
+ <div class="event-row-1">
+  <div class="event-time">
+   Freitag, 27. Nov. 22:00
+  </div>
+  <div class="event-title">
+   LUCIFER
+  </div>
+ </div>
+ <!-- Zeile 2: Bild + Beschreibung -->
+ <div class="event-row-2">
+  <div class="event-image event-image--empty">
   </div>
  </div>
 </div>

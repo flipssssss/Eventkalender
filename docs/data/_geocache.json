@@ -371,6 +371,12 @@
   "lat": 52.4999917,
   "lng": 13.4183632
  },
+ "Adalbertstraße 2, 10999 Kreuzberg, Berlin": {
+  "address": "Adalbertstraße 2, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4998314,
+  "lng": 13.4185013
+ },
  "Adalbertstraße 69, 10997 Berlin": {
   "address": "Adalbertstraße, 10997 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -731,6 +737,12 @@
   "lng": 13.3479549
  },
  "Anti-Kriegs-Museum Berlin Brüsseler Str. 21 13353, 13353 Berlin": null,
+ "Anton-Saefkow-Platz 5, 10369 Fennpfuhl, Berlin": {
+  "address": "Anton-Saefkow-Platz 5, 10369 Fennpfuhl",
+  "bezirk": "Lichtenberg",
+  "lat": 52.5298481,
+  "lng": 13.474197
+ },
  "Anton-Wilhelm-Amo-Straße 40-41, 10117 Berlin": {
   "address": "Anton-Wilhelm-Amo-Straße 40/41, 10117 Mitte",
   "bezirk": "Mitte",
@@ -788,6 +800,13 @@
   "bezirk": "Mitte",
   "lat": 52.5379007,
   "lng": 13.4024087
+ },
+ "Arminiusmarkthalle, Arminiusstraße 2-6, 10551, Berlin": null,
+ "Arminiusstraße 2-6, 10551 Berlin": {
+  "address": "Arminiusstraße, 10551 Moabit",
+  "bezirk": "Mitte",
+  "lat": 52.5273654,
+  "lng": 13.338526
  },
  "Ars Amatoria, Berlin": null,
  "Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin": null,
@@ -1285,6 +1304,12 @@
   "lng": 13.4140937
  },
  "Bismarckstraße 35, 10585 Berlin": {
+  "address": "Bismarckstraße 35, 10627 Charlottenburg",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.5121441,
+  "lng": 13.3083771
+ },
+ "Bismarckstraße 35, 10627 Charlottenburg, Berlin": {
   "address": "Bismarckstraße 35, 10627 Charlottenburg",
   "bezirk": "Charlottenburg-Wilmersdorf",
   "lat": 52.5121441,
@@ -2114,6 +2139,12 @@
   "lng": 13.7839728
  },
  "Dragon Room im KitKat-Club, Berlin": null,
+ "Dresdener Straße 126, 10999 Kreuzberg, Berlin": {
+  "address": "Dresdener Straße 126, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5005425,
+  "lng": 13.4165384
+ },
  "Dresdener Straße 15, 10999 Berlin": {
   "address": "Dresdener Straße 15, 10999 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -2171,6 +2202,12 @@
   "lng": 13.3772315
  },
  "Eiertanz, Admiralstraße 17, 10999 Berlin": null,
+ "Eisenacher Straße 13, 10777 Schöneberg, Berlin": {
+  "address": "Eisenacher Straße 13, 10777 Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4970027,
+  "lng": 13.3494742
+ },
  "Elisabeth-Schwarzhaupt-Platz, 10115 Berlin": {
   "address": "Elisabeth-Schwarzhaupt-Platz, 10115 Mitte",
   "bezirk": "Mitte",
@@ -2307,6 +2344,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.4973307,
   "lng": 13.4411769
+ },
+ "Falckensteinstraße 35, 10997 Kreuzberg, Berlin": {
+  "address": "Falckensteinstraße 35, 10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4981865,
+  "lng": 13.442233
  },
  "Falckensteinstraße 6, 10997 Kreuzberg, Berlin": {
   "address": "Falckensteinstraße 6, 10997 Kreuzberg",
@@ -3205,6 +3248,12 @@
   "lat": 52.456963,
   "lng": 13.3214274
  },
+ "Hermann-Hesse-Straße 1315, 13156 Berlin": {
+  "address": "Hermann-Hesse-Straße, 13156 Niederschönhausen",
+  "bezirk": "Pankow",
+  "lat": 52.5805581,
+  "lng": 13.4016944
+ },
  "Hermann-Schulz Café Kollektiv, Finowstraße 33, 10247 Berlin": null,
  "Hermannstr. 146, 12051 Berlin": {
   "address": "Hermannstraße 146, 12051 Neukölln",
@@ -3831,6 +3880,12 @@
   "lng": 13.1846433
  },
  "Kantine am Berghain, Berlin": null,
+ "Kantstraße 12, 10623 Charlottenburg, Berlin": {
+  "address": "Kantstraße 12, 10623 Charlottenburg",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.5059047,
+  "lng": 13.3290059
+ },
  "Kantstraße 12A, 10623 Berlin": {
   "address": "Kantstraße 12a, 10623 Charlottenburg",
   "bezirk": "Charlottenburg-Wilmersdorf",
@@ -5481,12 +5536,19 @@
   "lat": 52.5019815,
   "lng": 13.4430175
  },
+ "Maybachufer 1-13, 10999 Berlin": {
+  "address": "Maybachufer, 12047 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4940636,
+  "lng": 13.4262529
+ },
  "Maybachufer 36, 12047 Berlin": {
   "address": "Maybachufer 36-38, 12047 Neukölln",
   "bezirk": "Neukölln",
   "lat": 52.4918563,
   "lng": 13.4326134
  },
+ "Maybachufer/Schinkestraße, Maybachufer 1-13, 10999, Berlin": null,
  "McHurt, Tempelhofer Damm 141, 12099 Berlin": {
   "address": "Tempelhofer Damm 141, 12099 Tempelhof",
   "bezirk": "Tempelhof-Schöneberg",
@@ -5611,6 +5673,7 @@
   "lat": 52.4338463,
   "lng": 13.2543865
  },
+ "Mittelpromenade Waldstraße / Ecke Hermann-Hesse-Straße, Mittelpromenade Waldstraße / Ecke Hermann-Hesse-Straße, 13156, Berlin": null,
  "Mittelpunktbibliothek Wilhelm Liebknecht / Namik Kemal, Berlin": {
   "address": "Adalbertstraße 2, 10999 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -5678,6 +5741,12 @@
   "lat": 52.4977722,
   "lng": 13.3485938
  },
+ "Motzstraße 30, 10777 Schöneberg, Berlin": {
+  "address": "Motzstraße 30, 10777 Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4977526,
+  "lng": 13.3475415
+ },
  "Moviemento Kino, Kottbusser Damm 22, 10967 Berlin": {
   "address": "Kottbusser Damm 22, 10967 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -5721,6 +5790,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.4951332,
   "lng": 13.377443
+ },
+ "Möllendorffstraße 6, 10367 Lichtenberg, Berlin": {
+  "address": "Möllendorffstraße 6, 10367 Lichtenberg",
+  "bezirk": "Lichtenberg",
+  "lat": 52.5157847,
+  "lng": 13.47984
  },
  "Möllhausenufer 30, 12557 Berlin": {
   "address": "Möllhausenufer 30, 12557 Köpenick",
@@ -6111,6 +6186,12 @@
   "lat": 52.5003909,
   "lng": 13.4221612
  },
+ "Oranienstraße 190, 10999 Kreuzberg, Berlin": {
+  "address": "Oranienstraße 190, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5003909,
+  "lng": 13.4221612
+ },
  "Oranienstraße 19A, 10999 Berlin": {
   "address": "Oranienstraße 19a, 10999 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -6387,11 +6468,23 @@
   "lat": 52.4251253,
   "lng": 13.3280056
  },
+ "Pfarrstraße, 10317 Rummelsburg, Berlin": {
+  "address": "Pfarrstraße, 10317 Rummelsburg",
+  "bezirk": "Lichtenberg",
+  "lat": 52.502784,
+  "lng": 13.4753102
+ },
  "Pflügerstr. 52, 12047 Berlin": {
   "address": "Pflügerstraße 52, 12047 Neukölln",
   "bezirk": "Neukölln",
   "lat": 52.4901195,
   "lng": 13.4335474
+ },
+ "Pflügerstraße 19, 12047 Neukölln, Berlin": {
+  "address": "Pflügerstraße 19, 12047 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4906561,
+  "lng": 13.4313828
  },
  "Phantom Bar Berlin, Berlin": {
   "address": "Torstraße, 10115 Mitte",
@@ -6477,6 +6570,12 @@
   "bezirk": "Tempelhof-Schöneberg",
   "lat": 52.4986655,
   "lng": 13.3621019
+ },
+ "Potsdamer Straße 138, 10783 Schöneberg, Berlin": {
+  "address": "Potsdamer Straße 138, 10783 Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4984129,
+  "lng": 13.3618977
  },
  "Potsdamer Straße 50, 10785 Berlin": {
   "address": "Potsdamer Straße 50, 10785 Tiergarten",
@@ -7341,6 +7440,12 @@
   "lat": 52.4993092,
   "lng": 13.3316636
  },
+ "Scharnweberstr.38, Berlin": {
+  "address": "Scharnweberstraße 38, 13405 Reinickendorf",
+  "bezirk": "Reinickendorf",
+  "lat": 52.5662457,
+  "lng": 13.3198724
+ },
  "Scharnweberstraße 38, 10247 Friedrichshain, Berlin": {
   "address": "Scharnweberstraße 38, 10247 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -7414,6 +7519,12 @@
   "bezirk": "Spandau",
   "lat": 52.528163,
   "lng": 13.2004551
+ },
+ "Schlesische Straße 41, 10997 Kreuzberg, Berlin": {
+  "address": "Schlesische Straße 41, 10997 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5004147,
+  "lng": 13.4437298
  },
  "Schlesisches Tor Berlin": {
   "address": "Skalitzer Straße, 10997 Kreuzberg",
@@ -7721,6 +7832,12 @@
   "bezirk": "Mitte",
   "lat": 52.5338932,
   "lng": 13.3365293
+ },
+ "Silvio Meier Straße, Berlin": {
+  "address": "Silvio-Meier-Straße, 10247 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5152919,
+  "lng": 13.4630098
  },
  "Simon-Dach-Straße 32, 10245 Berlin": {
   "address": "Simon-Dach-Straße 32, 10245 Friedrichshain",
@@ -8642,6 +8759,12 @@
   "bezirk": "Charlottenburg-Wilmersdorf",
   "lat": 52.4860637,
   "lng": 13.2961907
+ },
+ "Warschauer Platz 18, 10245 Friedrichshain, Berlin": {
+  "address": "Warschauer Platz 18, 10245 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5028629,
+  "lng": 13.4472391
  },
  "Warthestraße 12051 Berlin Deutschland": {
   "address": "Warthestraße, 12051 Neukölln",

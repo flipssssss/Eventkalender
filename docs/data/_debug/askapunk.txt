@@ -1,13 +1,4 @@
-API-Events: 73 | übernommen: 73
-  2026-11-21 10:45:00 | None | Queer Tours for All! - Köpenicker Forst
-  2026-11-21 16:00:00 | None | REMEMBER SILVIO - In Gedenken an Silvio Meier und aller Opfer rechter Gewalt!
-  2026-11-21 19:00:00 | Punk | Kraschkarma & Blitzeinbruch
-  2026-11-21 19:00:00 | Punk | Awesome Scampis (Ska- und Pop-Punk mit Bläsern) + Buster Beat (Ska) im Schokoladen
-  2026-11-21 20:00:00 | Metal | KRAKE + YEAST MACHINE @ Neue Zukunft
-  2026-11-21 20:00:00 | Punk | Stabber // Nerve Center // Howling Wolves (Berlin Stoner Punk)
-  2026-11-21 20:00:00 | None | Ska Soiree
-  2026-11-21 20:00:00 | Punk | PROTEX (N.Ire) + KONG FUSS & THE ROMANTIC EARTHQUAKE BAND (Bln) + SURPRISE ACT
-  2026-11-21 21:00:00 | Punk | Plus1 Punk/HC Shows pres.: Pjolterguys + Shættered
+API-Events: 65 | übernommen: 65
   2026-11-22 14:45:00 | None | Queer Tours for All! - Gay and Sapphic Schöneberg
   2026-11-22 18:00:00 | None | Pleasure Dome: Splatterfilm-Double Feature
   2026-11-22 18:30:00 | Rock | USU pres.: GONG + Atom Juice | Neue Zukunft - 22.11.2026
@@ -18,14 +9,23 @@ API-Events: 73 | übernommen: 73
   2026-11-24 17:45:00 | None | Queer Tours for All! - Queer Kreuzberg
   2026-11-24 18:00:00 | Metal | I am Morbid - Atheist - Cancer -Narcotic Wasteland
   2026-11-26 19:00:00 | Punk | OBI BLANCHE x KRISTINA TICA (post-digital-punk) + ROOVES (psych/post-rock, bln)
-  2026-11-26 19:00:00 | Punk | UK Subs, Ionis, Muttis Lieblinge
-  2026-11-26 19:00:00 | Punk | KING DICK (BE) & PEITSCHE (Bln)
   2026-11-26 19:00:00 | Blues | COOGANS BLUFF | 10 Years Of Flying To The Stars | URBAN SPREE - Berlin
+  2026-11-26 19:00:00 | Punk | KING DICK (BE) & PEITSCHE (Bln)
+  2026-11-26 19:00:00 | Punk | UK Subs, Ionis, Muttis Lieblinge
   2026-11-26 19:30:00 | Punk | DIB pres.: SUMA (SWE) + PIECE + KAVRILA | Neue Zukunft, Berlin
-  2026-11-26 20:00:00 | Rock | SLIFT / Support: Yoo Doo Right - Berlin, Lido
   2026-11-26 20:00:00 | Punk | PHRENETIX + DISTORTED AURA
   2026-11-26 20:00:00 | None | SAUFEN - PunkRock Lyrik Lesung
+  2026-11-26 20:00:00 | Rock | SLIFT / Support: Yoo Doo Right - Berlin, Lido
   2026-11-27 18:00:00 | Metal | Coma Rossi - Live in Berlin (Postrock / Doomgaze)
-  2026-11-27 19:00:00 | Punk | Lack + Tonia Reeh + Jacob Bredahl
   2026-11-27 19:00:00 | Punk | URANUS FRONT // BRATENFETT
+  2026-11-27 19:00:00 | Punk | Lack + Tonia Reeh + Jacob Bredahl
   2026-11-27 19:00:00 | Punk | Tavare / Sometimes With Others / Lynn Wright
+  2026-11-27 19:00:00 | None | BIRD CONTROL + TIGERBEAT
+  2026-11-27 20:00:00 | Punk | BLUES BUMPS: THE DARTS (US) + support // Berlin Neue Zukunft
+  2026-11-27 20:00:00 | Metal | HEALTH - Berlin, Metropol
+  2026-11-28 10:45:00 | None | Queer Tours for All! - Königsheide
+  2026-11-28 19:00:00 | None | SAMAVAYO & FRIENDS VOL. III * SAMAVAYO + 24/7 DIVA HEAVEN + BISMUT + Aftershowparty I Neue Zukunft
+  2026-11-28 19:00:00 | None | HI MUM + NIKITA CURTIS
+  2026-11-28 20:00:00 | Punk | POST-PUNK | PUNK | INDUSTRIAL w. STRES (CZ) // BbyDrive (CZ) // SOLARBÄR (BER) // SPEARFLOWER (CH)
+  2026-11-29 07:00:00 | Punk | Las Eras
+  2026-11-29 14:45:00 | None | Queer Tours for All! - Gay and Sapphic Schöneberg

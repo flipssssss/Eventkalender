@@ -1,24 +1,5 @@
-event-blocks: 25 | Events: 25
+event-blocks: 24 | Events: 24
 
-<div class="event-block">
- <!-- Zeile 1: Datum + Titel -->
- <div class="event-row-1">
-  <div class="event-time">
-   Samstag, 21. Nov. 21:30
-  </div>
-  <div class="event-title">
-   Big Bang Ben --- Disco Madness from Outer Space
-  </div>
- </div>
- <!-- Zeile 2: Bild + Beschreibung -->
- <div class="event-row-2">
-  <div class="event-image">
-   <img alt="" src="ProgrammFotos/Big_Bang_Ben_Disco_Madness_from_Outer_Space_2026_11_21.jpg"/>
-  </div>
-  <div class="event-description">
-   A cosmic troublemaker behind the turntables, DJ Big Bang Ben digs deep into the weird and wonderful corners of vinyl culture. His signature Disco Madness collides Italo, Cosmic Disco, Funk, Boogie, Afro grooves, Krautrock and leftfield electronics into a wild, genre-bending trip. Expect hypnotic rhythms, unexpected twists and dancefloor oddities from another dimension. No rules, no algorithms -- just pure vinyl-fuel
-
-----
 <div class="event-block">
  <!-- Zeile 1: Datum + Titel -->
  <div class="event-row-1">
@@ -76,6 +57,31 @@ event-blocks: 25 | Events: 25
  <!-- Zeile 2: Bild + Beschreibung -->
  <div class="event-row-2">
   <div class="event-image event-image--empty">
+  </div>
+ </div>
+</div>
+
+
+----
+<div class="event-block">
+ <!-- Zeile 1: Datum + Titel -->
+ <div class="event-row-1">
+  <div class="event-time">
+   Samstag, 28. Nov. 21:00
+  </div>
+  <div class="event-title">
+   MAGNUS + NORBERT ... das blaue Wunder
+  </div>
+ </div>
+ <!-- Zeile 2: Bild + Beschreibung -->
+ <div class="event-row-2">
+  <div class="event-image">
+   <img alt="" src="ProgrammFotos/MAGNUS_NORBERT_das_blaue_Wunder_2026_11_28.jpg"/>
+  </div>
+  <div class="event-description">
+   Ein kurzweiliger Abend mit den Grossmeistern der internationalen PopSoulBeatSchlagerDiscoundsoweiter-Unterhaltung.
+An entertaining night with the champions of PopSoulBeatSchlagerDiscoand...so on.
+7" Vinyls only!
   </div>
  </div>
 </div>

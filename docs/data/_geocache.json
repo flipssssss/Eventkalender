@@ -600,6 +600,7 @@
   "lat": 52.5186496,
   "lng": 13.341415
  },
+ "Altstadt Spandau, Markt 1, 13597, Berlin": null,
  "Am Berl 13, 13051 Berlin": {
   "address": "Am Berl 13, 13051 Neu-Hohenschönhausen",
   "bezirk": "Lichtenberg",
@@ -1769,6 +1770,12 @@
   "lat": 52.4995072,
   "lng": 13.349129
  },
+ "Café Kalwil Berlin": {
+  "address": "Motzstraße 30, 10777 Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4977876,
+  "lng": 13.3476624
+ },
  "Café Karanfil Weisestr. 3 12049 Berlin Deutschland": {
   "address": "Weisestraße 3, 12049 Neukölln",
   "bezirk": "Neukölln",
@@ -1922,6 +1929,7 @@
  "Cittipunkt e.V. Brüsseler Straße 36a 13353 Berlin Deutschland": null,
  "Cittipunkt e.V., Brüsseler Straße 36 A, 13353 Berlin": null,
  "City Kino Wedding Müllerstraße 74 13349 Berlin Deutschland": null,
+ "City Kino Wedding, Müllerstraße 74, 13349, Berlin": null,
  "City-Kino Wedding, Müllerstraße 74 13349 Berlin": null,
  "Club Sauna Berlin": {
   "address": "Mehringdamm 32, 10961 Kreuzberg",
@@ -2357,6 +2365,7 @@
   "lat": 52.499513,
   "lng": 13.4427102
  },
+ "Familienzentrum Weit.Blick, Berlin": null,
  "Fargo Berlin, Grünberger Straße 77, 10245 Berlin": null,
  "Fargo Grünberger Straße 77 Berlin Deutschland": {
   "address": "Grünberger Straße 77, 10245 Friedrichshain",
@@ -6659,6 +6668,7 @@
   "lat": 52.4983004,
   "lng": 13.4253422
  },
+ "Q*Bel Queeres Beratungszentrum Lichtenberg, Berlin": null,
  "Quartiersmanagement Pankstraße, Prinz-Eugen-Straße 1, 13347 Berlin": {
   "address": "Prinz-Eugen-Straße 1, 13347 Wedding",
   "bezirk": "Mitte",
@@ -8201,6 +8211,12 @@
  "TU Berlin, Raum EB 202, Straße des 17. Juni 145, 10623 Berlin": null,
  "TU Ma Gebäude, Straße des 17. Juni 136, 10623 Berlin": null,
  "TU Mensakreuzung, Hardenbergstraße 34, 10623 Berlin": null,
+ "Tauentzienstraße 21-24, 10789 Berlin": {
+  "address": "Tauentzienstraße 21-24, 10789 Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.5015753,
+  "lng": 13.3410035
+ },
  "Tauentzienstraße, 10789 Charlottenburg, Berlin": {
   "address": "Tauentzienstraße, 10789 Charlottenburg",
   "bezirk": "Charlottenburg-Wilmersdorf",
@@ -8799,6 +8815,7 @@
   "lat": 52.5178675,
   "lng": 13.4456901
  },
+ "Weihnachtsmarkt am KaDeWe, Tauentzienstraße 21-24, 10789, Berlin": null,
  "Weinsbergweg 13, 10119 Berlin": null,
  "Weisestr. 53, 12049 Berlin": {
   "address": "Weisestraße 53, 12049 Neukölln",

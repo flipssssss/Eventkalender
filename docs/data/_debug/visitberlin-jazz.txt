@@ -1,8 +1,8 @@
 Liste: https://www.visitberlin.de/de/kategorie/blues-jazz
-Event-Links: 15 | Events: 15
+Event-Links: 17 | Events: 17
 
 Seiten:
-  eine Seite: 15 Links
+  eine Seite: 17 Links
 
 Zeitraum der Starts: 2024-10-07 20:00:00 … 2027-03-06 20:00:00
 
@@ -14,9 +14,11 @@ Zeitraum der Starts: 2024-10-07 20:00:00 … 2027-03-06 20:00:00
   2026-11-17 19:30:00 → 2026-12-29 22:00:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Session im ART Stalker
   2026-12-04 19:30:00 → 2026-12-05 19:30:00 | Uber Arena, Uber Platz 1, 10243, Berlin | JazzDP Exklusives Albumkonzert
   2026-12-05 19:00:00 → None | ausland, Lychener Str. 60, 10437, Berlin | Alexandra Maciá / Zustand D. / Winona Lin / Frictive Frequencies
+  2026-12-11 19:30:00 → None | Showfenster Theater, Letteallee 94, 13409, Berlin | Max Stramm Quintett - Jazz, Swing, Soul
   2026-12-13 19:30:00 → None | Ballhaus Wedding, Wriezener Str. 6, 13359, Berlin | Christmas Swing
   2026-12-18 19:30:00 → None | MS Goldberg, Havelufer
 Dischinger Brücke, 13581, Berlin | Jazz goes Synagogue
+  2027-01-09 20:00:00 → None | KulturBrauerei, Schönhauser Allee 36, 10435, Berlin | 30. TRADITIONELLER NEUJAHRS-BLUES
   2027-01-16 20:00:00 → None | Petruskirche Lichterfelde, Oberhofer Platz, 12209, Berlin | KELPIE – Kerstin Blodig & Ian Melrose
   2027-01-22 20:00:00 → None | Petruskirche Lichterfelde, Oberhofer Platz, 12209, Berlin | DAVE GOODMAN & “GROOVE MINISTER“ alias MARTIN RÖTTGER
   2027-01-30 20:00:00 → None | Petruskirche Lichterfelde, Oberhofer Platz, 12209, Berlin | THE BAKERY BROTHERS

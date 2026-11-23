@@ -420,6 +420,12 @@
   "lat": 52.4960989,
   "lng": 13.4153663
  },
+ "Admiralstr. 17, Berlin": {
+  "address": "Admiralstraße 17, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4960989,
+  "lng": 13.4153663
+ },
  "Admiralstraße 1-2, 10999 Berlin": {
   "address": "Admiralstraße 1-2, 10999 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -684,6 +690,8 @@
  "Amtsgericht Tiergarten Turmstr. 91 10559 Berlin Deutschland": null,
  "Amtsgericht Tiergarten Turmstr. 91 10559, 10559 Berlin": null,
  "Amtsgericht Tiergarten, Saal A672, Turmstraße 91, 10559 Berlin": null,
+ "Amtsgericht Tiergarten, Saal A820, Turmstraße 91, 10559 Berlin": null,
+ "Amtsgericht Tiergarten, Saal C106, Turmstraße 91, 10559 Berlin": null,
  "Amtsgericht Tiergarten, Turmstraße 91, 10559 Berlin": null,
  "An der Ostbahn 7, 10243 Berlin": {
   "address": "An der Ostbahn 7, 10243 Friedrichshain",
@@ -1051,6 +1059,12 @@
   "lng": 13.4427102
  },
  "Begegnungsstätte für Jung und Alt Stille Straße 10 13156 Berlin Deutschland": null,
+ "Behaimstraße 17 10558 Berlin Deutschland": {
+  "address": "Behaimstraße 17, 10585 Charlottenburg",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.5164185,
+  "lng": 13.3039773
+ },
  "Behaimstraße 17, 10585 Berlin": {
   "address": "Behaimstraße 17, 10585 Charlottenburg",
   "bezirk": "Charlottenburg-Wilmersdorf",
@@ -2084,6 +2098,7 @@
  "Datscha Potsdam Deutschland, Berlin": null,
  "Datscha Potsdam, Berlin": null,
  "Der Preis ist heiß New Yorck im Bethanien Mariannenplatz 2A 10997 Berlin Deutschland": null,
+ "Der Weinlobbyist - Restaurant & Weinbar, Kolonnenstraße 62, 10827, Berlin": null,
  "Der Weiße Hase, Berlin": {
   "address": "Revaler Straße, 10245 Friedrichshain",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -2966,6 +2981,12 @@
   "lat": 52.5087542,
   "lng": 13.4729455
  },
+ "Gürtelstr. 35, 10247 Berlin": {
+  "address": "Gürtelstraße 35, 10247 Friedrichshain",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.5101544,
+  "lng": 13.4748641
+ },
  "Gürtelstr.666 10247, Berlin": {
   "address": "Gürtelstraße, 10247 Lichtenberg",
   "bezirk": "Lichtenberg",
@@ -3557,6 +3578,12 @@
   "lng": 13.3670511
  },
  "Infoladen Scherer Schererstraße 8 13347, 13347 Berlin": null,
+ "Innsbrucker Straße 58, 10825 Berlin": {
+  "address": "Innsbrucker Straße 58, 10825 Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4879685,
+  "lng": 13.3406007
+ },
  "Insomnia, Berlin": {
   "address": "Alt-Tempelhof 17, 12099 Tempelhof",
   "bezirk": "Tempelhof-Schöneberg",
@@ -3573,6 +3600,7 @@
   "lat": 52.5140772,
   "lng": 13.4983885
  },
+ "Interkulturelles Frauenzentrum SUSI, Innsbrucker Straße 58 10825 Berlin": null,
  "Interkulturelles Haus - Theater unterm Dach, Schönfließer Straße 7, 10439, Berlin": null,
  "Invalidenstr. 117, 10115 Berlin": {
   "address": "Invalidenstraße 117, 10115 Mitte",
@@ -3822,6 +3850,7 @@
  },
  "KHSB, Café K, Köpenicker Allee 39-57, 10318 Berlin": null,
  "KOR Berlin, Sonnenallee 200, 12059 Berlin": null,
+ "KPD/RZ Laden Admiralstr. 17 Berlin Deutschland": null,
  "KREUZWERK, Berlin": {
   "address": "Lobeckstraße 30-35, 10969 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -4132,6 +4161,7 @@
  "Kiezraum auf dem Dragoner-Areal Berlin Deutschland": null,
  "Kiezraum auf dem DragonerAreal Mehringdamm 22 (hinter dem Finanzamt) Berlin Deutschland": null,
  "Kiezraum auf dem Dragonerareal Mehringdamm 20 10961 Berlin Deutschland": null,
+ "Kiezspinne Schulze-Boysen-Str. 38 10365 Berlin Deutschland": null,
  "KikiSol, Reinickendorfer Straße 96, 13347, Berlin": null,
  "Kino Central, Rosenthaler Straße 39, 10178 Berlin": null,
  "Kino Durchsfenster Kreutzigerstraße 18 Berlin Deutschland": null,
@@ -4268,6 +4298,12 @@
   "bezirk": "Pankow",
   "lat": 52.5366779,
   "lng": 13.4183045
+ },
+ "Kolonnenstraße 62, 10827 Berlin": {
+  "address": "Kolonnenstraße 62, 10827 Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.48657,
+  "lng": 13.3592734
  },
  "Komplex Berlin, Berlin": {
   "address": "Modersohnstraße 35-45, 10245 Friedrichshain",
@@ -5629,6 +5665,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.4997694,
   "lng": 13.3923025
+ },
+ "Mehringplatz Mehringplatz 10969 Berlin Deutschland": {
+  "address": "Mehringplatz 12, 10969 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.499708,
+  "lng": 13.3912545
  },
  "Melanchtonkirche Planufer 84 Berlin Deutschland": null,
  "Mellowpark An der Wuhlheide 250-256 (Schöneweide) Berlin": null,
@@ -7572,6 +7614,7 @@
   "lat": 52.5008511,
   "lng": 13.4415289
  },
+ "Schloss Charlottenburg in Berlin, Spandauer Damm 10 -22, 14059, Berlin": null,
  "Schloss und Gutshof Britz, Alt-Britz 73, 12359, Berlin": null,
  "Schlosspark Theater, Berlin": {
   "address": "Schloßstraße 48, 12165 Steglitz",
@@ -7662,6 +7705,12 @@
   "bezirk": "Pankow",
   "lat": 52.568688,
   "lng": 13.4079034
+ },
+ "Schulze-Boysen-Str. 38, 10365 Berlin": {
+  "address": "Schulze-Boysen-Straße 38, 10365 Lichtenberg",
+  "bezirk": "Lichtenberg",
+  "lat": 52.5082395,
+  "lng": 13.479132
  },
  "Schwartzsche Villa, Grunewaldstraße 55, 12165, Berlin": {
   "address": "Grunewaldstraße 55, 12165 Steglitz",
@@ -7994,6 +8043,12 @@
   "lng": 13.4016022
  },
  "Sozialer Treffpunkt Kandeler Weg 3, Berlin": null,
+ "Spandauer Damm 10 -22, 14059 Berlin": {
+  "address": "Spandauer Damm 10-22, 14059 Charlottenburg",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.5213229,
+  "lng": 13.2992267
+ },
  "Spandauer Str. 7, 10178 Berlin": {
   "address": "Spandauer Straße 7, 10178 Mitte",
   "bezirk": "Mitte",
@@ -8137,6 +8192,8 @@
   "lng": 13.3234541
  },
  "Street fair location, Fuggerstraße / Welserstraße, Berlin, 10777, Germany": null,
+ "Stressfaktor Berlin": null,
+ "Stressfaktor Berlin Deutschland": null,
  "Studio Börne, Börnestraße, 13086 Berlin, Deutschland, Börnestraße, 13086, Berlin": null,
  "Subversiv Brunnenstr. 7 HH 10119 Berlin Deutschland": null,
  "Subversiv, Brunnenstraße 7, 10119 Berlin": null,
@@ -8369,6 +8426,7 @@
  },
  "TrIQ e.V., 5. Etage im Hinterhaus mit Aufzug und 3 Stufen, Gürtelstraße 35, 10247 Berlin": null,
  "Tram Hohenschönhauser Straße, 10369 Berlin": null,
+ "TransinterQueer e.V. Gürtelstr. 35 10247 Berlin Deutschland": null,
  "Traumreparatur Lausitzer Straße 13 10999 Berlin Deutschland": null,
  "Traumreparatur Lausitzer Straße 13 10999, 10999 Berlin": null,
  "Travemünder Straße 2, 13357 Berlin": {
@@ -8512,6 +8570,7 @@
   "lat": 52.501347,
   "lng": 13.4412845
  },
+ "U-BHf Südstern 10961 Berlin": null,
  "U-BHf Turmstraße 10551 Berlin": null,
  "U-Bhf Afrikanische Straße, vor der Steinbock Apotheke, 13349 Berlin": null,
  "U-Bhf Boddinstraße, Hermannstraße Ecke Selchower Straße, 12049 Berlin": null,

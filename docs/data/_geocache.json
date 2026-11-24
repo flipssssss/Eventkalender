@@ -689,6 +689,7 @@
  },
  "Amtsgericht Tiergarten Turmstr. 91 10559 Berlin Deutschland": null,
  "Amtsgericht Tiergarten Turmstr. 91 10559, 10559 Berlin": null,
+ "Amtsgericht Tiergarten, Saal A671, 3. Etage, Turmstraße 91, 10559 Berlin": null,
  "Amtsgericht Tiergarten, Saal A672, Turmstraße 91, 10559 Berlin": null,
  "Amtsgericht Tiergarten, Saal A820, Turmstraße 91, 10559 Berlin": null,
  "Amtsgericht Tiergarten, Saal C106, Turmstraße 91, 10559 Berlin": null,
@@ -3297,6 +3298,12 @@
   "lat": 52.4851158,
   "lng": 13.4240134
  },
+ "Hermannstraße 1205, 12051 Berlin": {
+  "address": "Hermannstraße, 12051 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4659507,
+  "lng": 13.4322074
+ },
  "Hermannstraße 146, 12051 Berlin, Germany": {
   "address": "Hermannstraße 146, 12051 Neukölln",
   "bezirk": "Neukölln",
@@ -3351,6 +3358,12 @@
   "bezirk": "Neukölln",
   "lat": 52.4773773,
   "lng": 13.4228681
+ },
+ "Herrfurthplatz, 12049 Berlin": {
+  "address": "Herrfurthplatz, 12049 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4766615,
+  "lng": 13.4222181
  },
  "Herrfurthstr. 21, 12049 Berlin": {
   "address": "Herrfurthstraße 21, 12049 Neukölln",
@@ -4974,6 +4987,12 @@
  "Lichtenberg im Kiez Berlin": null,
  "Lichtenberg im Kiez Berlin Deutschland": null,
  "Lichtenberg/askapunk, Berlin": null,
+ "Lichtenrader Straße 49, 12049 Berlin": {
+  "address": "Lichtenrader Straße 49, 12049 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4765857,
+  "lng": 13.4204865
+ },
  "Lichtenrader Straße 49, 12049 Neukölln, Berlin": {
   "address": "Lichtenrader Straße 49, 12049 Neukölln",
   "bezirk": "Neukölln",
@@ -6147,6 +6166,7 @@
   "lat": 52.5398582,
   "lng": 13.4074837
  },
+ "Offline Community Space, Lichtenrader Straße 49, 12049 Berlin": null,
  "Ohlauer Straße 18, 10999 Berlin": {
   "address": "Ohlauer Straße, 10999 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -7615,6 +7635,12 @@
   "lng": 13.4415289
  },
  "Schloss Charlottenburg in Berlin, Spandauer Damm 10 -22, 14059, Berlin": null,
+ "Schloss Schönhausen, Tschaikowskistraße 1, 13156, Berlin": {
+  "address": "Tschaikowskistraße 1, 13156 Niederschönhausen",
+  "bezirk": "Pankow",
+  "lat": 52.5783469,
+  "lng": 13.4056942
+ },
  "Schloss und Gutshof Britz, Alt-Britz 73, 12359, Berlin": null,
  "Schlosspark Theater, Berlin": {
   "address": "Schloßstraße 48, 12165 Steglitz",
@@ -8241,6 +8267,7 @@
   "lat": 52.4757327,
   "lng": 13.3654134
  },
+ "Südkreuz, RE4 Gleis 5, 12101 Berlin": null,
  "Südostallee 42, 12437 Berlin": {
   "address": "Südostallee 42, 12437 Johannisthal",
   "bezirk": "Treptow-Köpenick",
@@ -8570,11 +8597,13 @@
   "lat": 52.501347,
   "lng": 13.4412845
  },
+ "U+S-Bhf Hermannstraße 12051 Berlin": null,
  "U-BHf Südstern 10961 Berlin": null,
  "U-BHf Turmstraße 10551 Berlin": null,
  "U-Bhf Afrikanische Straße, vor der Steinbock Apotheke, 13349 Berlin": null,
  "U-Bhf Boddinstraße, Hermannstraße Ecke Selchower Straße, 12049 Berlin": null,
  "U-Bhf Eberswalder Straße, 10437 Berlin": null,
+ "U-Bhf Kottbusser Tor, Berlin": null,
  "U-Bhf Kurfürstenstr Kurfürstenstraße 32 Berlin 10785 10785 Berlin Deutschland": null,
  "U-Bhf Osloer Straße, 13359 Berlin": null,
  "U-Bhf Potsdamer Platz, 10117 Berlin": null,

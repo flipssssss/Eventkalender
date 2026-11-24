@@ -5,21 +5,21 @@ Seiten:
   page=0: 16 Links, 16 neu
   page=1: 0 Links, 0 neu
 
-Zeitraum der Starts: 2026-11-07 20:00:00 … 2026-11-26 14:30:00
+Zeitraum der Starts: 2026-11-07 20:00:00 … 2026-11-27 14:00:00
 
   2026-11-07 20:00:00 → 2026-11-25 19:30:00 | Staatsoper Unter den Linden, Unter den Linden 7, 10117, Berlin | Barocktage 2026
   2026-11-15 10:00:00 → 2026-11-28 10:00:00 | Diverse Veranstaltungsorte, Berlin | Umsonst und draußen I Kultur im Kiez - Marktbühne 2026
   2026-11-16 00:00:00 → None | Haus der Berliner Festspiele, Schaperstraße 24, 10719, Berlin | Performing Arts Season
   2026-11-16 00:00:00 → None | Weihnachtsmarkt an der Kaiser-Wilhelm-Gedächtnis-Kirche, Breitscheidplatz 1, 10789, Berlin | Weihnachtsmarkt an der Kaiser-Wilhelm-Gedächtnis-Kirche
   2026-11-16 11:00:00 → 2027-01-16 19:00:00 | BIKINI Berlin, Budapester Str., 10787, Berlin | Kunst macht glücklich
-  2026-11-16 13:00:00 → 2026-11-30 15:00:00 | Stadtteilbibliothek Buch, Wiltbergstraße 21, 13125, Berlin | Sprachcafé für Frauen
   2026-11-17 13:00:00 → 2026-12-16 13:00:00 | Stadtteilbibliothek Buch, Wiltbergstraße 21, 13125, Berlin | Frauen Workshops
   2026-11-18 12:00:00 → 2026-11-24 12:00:00 | Kino in der KulturBrauerei Berlin, Schönhauser Allee 36, 10435, Berlin | 26. Filmfest FrauenWelten
   2026-11-23 11:00:00 → 2026-12-22 11:00:00 | Altstadt Spandau, Markt 1, 13597, Berlin | Spandauer Weihnachtsmarkt
   2026-11-23 13:00:00 → 2026-12-27 12:00:00 | Schloss Charlottenburg in Berlin, Spandauer Damm 10 -22, 14059, Berlin | Weihnachtsmarkt am Schloss Charlottenburg
-  2026-11-23 14:00:00 → 2027-01-03 21:00:00 | Weihnachtsmarkt am KaDeWe, Tauentzienstraße 21-24, 10789, Berlin | SULDOK – Koreanische Trinkkultur und Kunsthandwerk am Wittenbergplatz
   2026-11-23 15:00:00 → 2026-12-28 22:00:00 | Der Weinlobbyist - Restaurant & Weinbar, Kolonnenstraße 62, 10827, Berlin | Der Weinlobbyist | Mini-Weihnachtsmarkt
   2026-11-25 00:00:00 → None | verschiedene Veranstaltungsorte, Berlin | Treffen junger Autor*innen
   2026-11-25 00:00:00 → None | verschiedene Veranstaltungsorte, Berlin | Treffen junge Musikszene
   2026-11-26 14:00:00 → 2026-12-06 14:00:00 | Verschiedene Orte, Berlin | AROUND THE WORLD IN 14 FILMS
   2026-11-26 14:30:00 → 2026-11-27 12:30:00 | silent green Kulturquartier, Gerichtstraße 35, 13347, Berlin | Frohes Festival
+  2026-11-26 18:00:00 → 2026-11-29 18:00:00 | verschiedene Veranstaltungsorte, Berlin | BERLINER FESTIVAL ALTER MUSIK 2026
+  2026-11-27 14:00:00 → 2026-11-29 12:00:00 | Schloss Schönhausen, Tschaikowskistraße 1, 13156, Berlin | 7. Manufakturen-Weihnachtsmarkt

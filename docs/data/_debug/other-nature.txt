@@ -1,4 +1,5 @@
-entries: 7 | Events: 7
+entries: 8 | Events: 8
+  2026-12-04 19:00:00 | "BUNNY WAR BÖSE" LESUNG VON LILLI LOGE
   2026-11-21 19:00:00 | Other Nature's Winter Market
   2026-11-25 19:00:00 | Polyamorie Diskussionsgruppe
   2026-12-01 19:00:00 | Drag (Queer) Speed-dating

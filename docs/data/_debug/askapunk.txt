@@ -1,19 +1,17 @@
 API-Events: 60 | übernommen: 60
-  2026-11-24 17:45:00 | None | Queer Tours for All! - Queer Kreuzberg
-  2026-11-24 18:00:00 | Metal | I am Morbid - Atheist - Cancer -Narcotic Wasteland
   2026-11-26 19:00:00 | Blues | COOGANS BLUFF | 10 Years Of Flying To The Stars | URBAN SPREE - Berlin
-  2026-11-26 19:00:00 | Punk | OBI BLANCHE x KRISTINA TICA (post-digital-punk) + ROOVES (psych/post-rock, bln)
   2026-11-26 19:00:00 | Punk | UK Subs, Ionis, Muttis Lieblinge
   2026-11-26 19:00:00 | Punk | KING DICK (BE) & PEITSCHE (Bln)
+  2026-11-26 19:00:00 | Punk | OBI BLANCHE x KRISTINA TICA (post-digital-punk) + ROOVES (psych/post-rock, bln)
   2026-11-26 19:30:00 | Punk | DIB pres.: SUMA (SWE) + PIECE + KAVRILA | Neue Zukunft, Berlin
-  2026-11-26 20:00:00 | Rock | SLIFT / Support: Yoo Doo Right - Berlin, Lido
-  2026-11-26 20:00:00 | Punk | PHRENETIX + DISTORTED AURA
   2026-11-26 20:00:00 | None | SAUFEN - PunkRock Lyrik Lesung
+  2026-11-26 20:00:00 | Punk | PHRENETIX + DISTORTED AURA
+  2026-11-26 20:00:00 | Rock | SLIFT / Support: Yoo Doo Right - Berlin, Lido
   2026-11-27 18:00:00 | Metal | Coma Rossi - Live in Berlin (Postrock / Doomgaze)
-  2026-11-27 19:00:00 | Punk | URANUS FRONT // BRATENFETT
   2026-11-27 19:00:00 | Punk | Lack + Tonia Reeh + Jacob Bredahl
-  2026-11-27 19:00:00 | None | BIRD CONTROL + TIGERBEAT
+  2026-11-27 19:00:00 | Punk | URANUS FRONT // BRATENFETT
   2026-11-27 19:00:00 | Punk | Tavare / Sometimes With Others / Lynn Wright
+  2026-11-27 19:00:00 | None | BIRD CONTROL + TIGERBEAT
   2026-11-27 20:00:00 | Punk | BLUES BUMPS: THE DARTS (US) + support // Berlin Neue Zukunft
   2026-11-27 20:00:00 | Metal | HEALTH - Berlin, Metropol
   2026-11-28 10:45:00 | None | Queer Tours for All! - Königsheide
@@ -29,3 +27,5 @@ API-Events: 60 | übernommen: 60
   2026-12-02 17:45:00 | None | 🌈13. Punkfilmfest Berlin (Lichtblick Kino, Schokoladen, Syndikat, Cafe Lutetia) #berlinpunk
   2026-12-02 19:00:00 | Soul/Funk | SABA LOU (bln, garage / r'n'b / soul / songwriter) Rec Release!
   2026-12-03 18:00:00 | None | Punkfilmfest Berlin - day 2 at Lichtblick Kino (Prenzlauer Berg) and Cafe Lutetia (Spandau)
+  2026-12-03 19:00:00 | Punk | THE WANTS (post-punk, nyc) & SCHNALLO (wave, bln)
+  2026-12-03 20:00:00 | Jazz | Decolonoize presents Otis Mensah with Astan KA & Juss Mills at 90mil

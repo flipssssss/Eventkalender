@@ -2263,6 +2263,12 @@
   "lat": 52.4280485,
   "lng": 13.3571725
  },
+ "Emser Str. 114, 12051 Berlin": {
+  "address": "Emser Straße 114, 12051 Neukölln",
+  "bezirk": "Neukölln",
+  "lat": 52.4687052,
+  "lng": 13.4333242
+ },
  "Emser Str., Berlin": {
   "address": "Emser Straße, 10719 Charlottenburg",
   "bezirk": "Charlottenburg-Wilmersdorf",
@@ -2581,6 +2587,7 @@
  },
  "Frauenhoferstr. 33-36, 10587 Berlin": null,
  "Frauenkreise Berlin, Choriner Straße 10 10119 Berlin Deutschland": null,
+ "Frauenzentrum Schokofabrik, Mariannenstraße 6, 10997 Berlin": null,
  "Freiaplatz, 10365 Berlin": {
   "address": "Rüdigerstraße, 10365 Lichtenberg",
   "bezirk": "Lichtenberg",
@@ -3723,6 +3730,12 @@
  "Jiwar Space, Weserstraße 165, 12045 Berlin": null,
  "Jockel Biergarten Ratiborstr. 14c 10999 Berlin Deutschland": null,
  "Johann-Trollmann-Boxcamp, Bergmannstraße 29, 10961 Berlin": null,
+ "John-F-Kennedy-Platz 1082, 10825 Berlin": {
+  "address": "John-F.-Kennedy-Platz, 10825 Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4850974,
+  "lng": 13.3449749
+ },
  "John-F. -Kennedy-Platz 1, 10825 Berlin": {
   "address": "John-F.-Kennedy-Platz 1, 10825 Schöneberg",
   "bezirk": "Tempelhof-Schöneberg",
@@ -3956,6 +3969,8 @@
  "Karl Liebknecht Haus, Rosa-Luxemburg-Saal, Kleine Alexanderstraße 28, 10178 Berlin": null,
  "Karl-Liebknecht-Haus Kleine Alexanderstr. 28 10178 Berlin Deutschland": null,
  "Karl-Liebknecht-Haus Kleine Alexanderstr. 28 10178, 10178 Berlin": null,
+ "Karl-Liebknecht-Stadion in Potsdam-Babelsberg Berlin": null,
+ "Karl-Liebknecht-Stadion in Potsdam-Babelsberg Berlin Deutschland": null,
  "Karl-Liebknecht-Straße 11, 10178 Berlin": {
   "address": "Karl-Liebknecht-Straße 11, 10178 Mitte",
   "bezirk": "Mitte",
@@ -4537,6 +4552,12 @@
  "Kunstmarkt Trödelmarkt Boxhagener Platz, Berlin": null,
  "Kunstraum Kreuzberg/Bethanien, Mariannenplatz 2, 10997, Berlin": null,
  "Kurdischer Verein Berlin, Residenzstraße 54, 13409 Berlin": null,
+ "Kurfürstendamm 153, 10709 Wilmersdorf, Berlin": {
+  "address": "Kurfürstendamm 153, 10709 Wilmersdorf",
+  "bezirk": "Charlottenburg-Wilmersdorf",
+  "lat": 52.4983778,
+  "lng": 13.3022709
+ },
  "Kurfürstenstraße 32, 10785 Berlin": {
   "address": "Kurfürstenstraße 32, 12105 Mariendorf",
   "bezirk": "Tempelhof-Schöneberg",
@@ -4654,6 +4675,12 @@
   "bezirk": "Mitte",
   "lat": 52.5077022,
   "lng": 13.4260264
+ },
+ "Kühlhaus Berlin, Luckenwalder Str. 3, 10963, Berlin": {
+  "address": "Luckenwalder Straße 3, 10963 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4996304,
+  "lng": 13.3764758
  },
  "Kühlspot Social Club, Lehderstrasse 74, 13086, Berlin": {
   "address": "Lehderstraße 74-79, 13086 Weißensee",
@@ -5065,6 +5092,12 @@
   "bezirk": "Mitte",
   "lat": 52.5288992,
   "lng": 13.4028556
+ },
+ "Linienstraße 227, 10178 Mitte, Berlin": {
+  "address": "Linienstraße 227, 10178 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.527024,
+  "lng": 13.4119171
  },
  "Linkstreff, Malplaquetstraße 12, 13347 Berlin": {
   "address": "Malplaquetstraße 12, 13347 Wedding",
@@ -6808,6 +6841,7 @@
   "lat": 52.4848253,
   "lng": 13.3441027
  },
+ "Rathaus Schöneberg, Marlene-Dietrich-Kinosaal, John-F-Kennedy-Platz, 10825, Berlin": null,
  "Rathaus Treptow Neue Krugallee 2-6 12435 Berlin Deutschland": null,
  "Rathausplatz Wedding, Müllerstraße 147, 13353 Berlin": null,
  "Rathausstraße 1, 10178 Berlin": {
@@ -7250,6 +7284,7 @@
   "lat": 52.4687052,
   "lng": 13.4333242
  },
+ "Rote Lily, Emser Str. 114, 12051 Berlin": null,
  "Roter Laden Weidenweg 17 10249 Berlin Deutschland": null,
  "Rotes Café, Ihnestraße 22, 14195 Berlin": null,
  "Rotes Rathaus Neptunbrunnen Rathausstraße 15 Neptunbrunnen 10178 Berlin Deutschland": null,
@@ -8218,6 +8253,12 @@
   "lng": 13.3234541
  },
  "Street fair location, Fuggerstraße / Welserstraße, Berlin, 10777, Germany": null,
+ "Stresemannstraße 29, 10963 Kreuzberg, Berlin": {
+  "address": "Stresemannstraße 29, 10963 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4999566,
+  "lng": 13.3871576
+ },
  "Stressfaktor Berlin": null,
  "Stressfaktor Berlin Deutschland": null,
  "Studio Börne, Börnestraße, 13086 Berlin, Deutschland, Börnestraße, 13086, Berlin": null,

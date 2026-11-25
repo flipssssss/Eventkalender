@@ -1,7 +1,6 @@
 top-keys: ['website', 'websiteSettings', 'collection', 'shoppingCart', 'shareButtons', 'showCart', 'localizedStrings', 'userAccountsContext', 'template', 'uiextensions', 'empty', 'emptyFolder', 'calendarView', 'pagination', 'upcoming']
-items: 35 | Events: 35
+items: 34 | Events: 34
 erstes item keys: ['id', 'collectionId', 'recordType', 'addedOn', 'updatedOn', 'starred', 'passthrough', 'tags', 'categories', 'workflowState', 'publishOn', 'authorId', 'systemDataId', 'systemDataVariants', 'systemDataSourceType', 'filename', 'mediaFocalPoint', 'colorData', 'urlId', 'title', 'sourceUrl', 'body', 'excerpt', 'location', 'customContent']
-  2026-11-24 21:00:00.506000 | Jörg Schippa´s UnbedingT
   2026-11-25 21:00:00.936000 | „ VANDOJAM MEETS ROBIN`S NEST“ / JAMSESSION
   2026-11-26 21:00:00.506000 | MATHEI FLOREA NEW GROUNDSNever Odd or Even — Album Release
   2026-11-27 21:00:00.506000 | mOOn dOgs
@@ -31,3 +30,4 @@ erstes item keys: ['id', 'collectionId', 'recordType', 'addedOn', 'updatedOn', '
   2026-12-27 21:00:00.506000 | Jacqueline Boulanger &amp; Band - “Reach out”
   2026-12-28 21:00:00.506000 | Jacqueline Boulanger &amp; Band - “Reach out”
   2026-12-29 21:00:00.506000 | Jonathan Zielke “Zeltlager” Quartett Release-Tour
+  2026-12-30 21:00:00.506000 | Emily Intsiful Band DENIM

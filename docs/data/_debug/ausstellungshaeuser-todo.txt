@@ -1,5 +1,6 @@
 Häuser ohne kuratierte Öffnungszeiten (in scrapers/openinghours.py ergänzen):
 
+Berlin Berlin Deutschland
 Brücke Museum
 Café Cralle
 FMP1 Franz-Mehring-Platz 1, 10243 Berlin Deutschland

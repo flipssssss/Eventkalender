@@ -5,9 +5,8 @@ Seiten:
   page=0: 16 Links, 16 neu
   page=1: 0 Links, 0 neu
 
-Zeitraum der Starts: 2026-11-07 20:00:00 … 2026-11-27 18:00:00
+Zeitraum der Starts: 2026-11-15 10:00:00 … 2026-11-27 19:00:00
 
-  2026-11-07 20:00:00 → 2026-11-25 19:30:00 | Staatsoper Unter den Linden, Unter den Linden 7, 10117, Berlin | Barocktage 2026
   2026-11-15 10:00:00 → 2026-11-28 10:00:00 | Diverse Veranstaltungsorte, Berlin | Umsonst und draußen I Kultur im Kiez - Marktbühne 2026
   2026-11-16 00:00:00 → None | Haus der Berliner Festspiele, Schaperstraße 24, 10719, Berlin | Performing Arts Season
   2026-11-16 00:00:00 → None | Weihnachtsmarkt an der Kaiser-Wilhelm-Gedächtnis-Kirche, Breitscheidplatz 1, 10789, Berlin | Weihnachtsmarkt an der Kaiser-Wilhelm-Gedächtnis-Kirche
@@ -23,3 +22,4 @@ Zeitraum der Starts: 2026-11-07 20:00:00 … 2026-11-27 18:00:00
   2026-11-27 14:00:00 → 2026-11-29 12:00:00 | Schloss Schönhausen, Tschaikowskistraße 1, 13156, Berlin | 7. Manufakturen-Weihnachtsmarkt
   2026-11-27 14:00:00 → 2026-11-29 11:00:00 | Kühlhaus Berlin, Luckenwalder Str. 3, 10963, Berlin | Berlin Artists Art Market (BAAM) #12
   2026-11-27 18:00:00 → 2026-11-29 17:00:00 | Rathaus Schöneberg, Marlene-Dietrich-Kinosaal, John-F-Kennedy-Platz, 10825, Berlin | 41. Black International Cinema Berlin 2026
+  2026-11-27 19:00:00 → 2026-12-04 10:00:00 | Kunsthaus Lempertz Berlin, Poststraße 21, 10178, Berlin | LEMPERTZ ART TO GO

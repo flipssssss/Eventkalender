@@ -822,6 +822,12 @@
  "Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin": null,
  "Ask a Punk, Berlin": null,
  "Ask a punk, Berlin": null,
+ "Atopia, Prenzlauer Allee 187, 10405 Berlin": {
+  "address": "Prenzlauer Allee 187, 10405 Prenzlauer Berg",
+  "bezirk": "Pankow",
+  "lat": 52.5416001,
+  "lng": 13.4252032
+ },
  "Auf Anfrage Auf Anfrage, Berlin": null,
  "Auf Anfrage, Auf Anfrage, Berlin": null,
  "Auguste-Viktoria-Allee 99, 13403 Berlin": {
@@ -2142,6 +2148,7 @@
   "lat": 52.4181343,
   "lng": 13.5778984
  },
+ "Dorfkirche Schöneberg Hauptstraße 47- 48 10827 Berlin Deutschland": null,
  "Dorfplatz (Fhain) Rigaerstr. Ecke Liebigstr. 10247 Berlin Deutschland": null,
  "Dorotheenstraße 24, 10117 Berlin": {
   "address": "Dorotheenstraße 24, 10117 Mitte",
@@ -3163,6 +3170,12 @@
   "bezirk": "Tempelhof-Schöneberg",
   "lat": 52.4829791,
   "lng": 13.3507943
+ },
+ "Hauptstraße 47- 48, 10827 Berlin": {
+  "address": "Hauptstraße, 10827 Schöneberg",
+  "bezirk": "Tempelhof-Schöneberg",
+  "lat": 52.4889958,
+  "lng": 13.358829
  },
  "Haus Schwarzenberg Rosenthalerstraße 39 10178 Berlin Deutschland": null,
  "Haus am Kleistpark, Berlin": {
@@ -4549,6 +4562,7 @@
   "lat": 52.5302814,
   "lng": 13.385162
  },
+ "Kunsthaus Lempertz Berlin, Poststraße 21, 10178, Berlin": null,
  "Kunstmarkt Trödelmarkt Boxhagener Platz, Berlin": null,
  "Kunstraum Kreuzberg/Bethanien, Mariannenplatz 2, 10997, Berlin": null,
  "Kurdischer Verein Berlin, Residenzstraße 54, 13409 Berlin": null,
@@ -5287,6 +5301,12 @@
  "MS Goldberg am Bhf Wannsee, Kronprinzessinnenweg 5–6\nBrücke 1, 14109, Berlin": null,
  "MS Goldberg am Wannsee, Kronprinzessinnenweg 5–6 |\nBrücke 1, 14109, Berlin": null,
  "MS Goldberg, Havelufer\nDischinger Brücke, 13581, Berlin": null,
+ "MS Hoppetosse, Berlin": {
+  "address": "Eichenstraße, 12435 Alt-Treptow",
+  "bezirk": "Treptow-Köpenick",
+  "lat": 52.4975117,
+  "lng": 13.4547625
+ },
  "MaHalle Waldemarstraße 110 10997 Berlin Deutschland": {
   "address": "Waldemarstraße 110, 10997 Kreuzberg",
   "bezirk": "Friedrichshain-Kreuzberg",
@@ -6651,6 +6671,12 @@
  },
  "Plänterwald entrance at the corner of Bulgarische Str. & Neue Krugallee, Berlin": null,
  "Plänterwald entrance at the corner of Bulgarische Str. & Neue Krugallee., Berlin": null,
+ "Poststraße 21, 10178 Berlin": {
+  "address": "Poststraße 21,22, 10178 Mitte",
+  "bezirk": "Mitte",
+  "lat": 52.5162866,
+  "lng": 13.4071468
+ },
  "Potsdamer Platz 1011, 10117 Berlin": {
   "address": "Potsdamer Platz, 10117 Tiergarten",
   "bezirk": "Mitte",
@@ -6786,6 +6812,7 @@
   "lng": 13.3754837
  },
  "Quälgeist, Lankwitzer Straße 42/43, 12107 Berlin": null,
+ "R94 (Klingeln bei Kadterschmiede), Rigaer Straße 94, 10247 Berlin": null,
  "R94, Rigaer Straße 94, Friedrichshain 10247 Berlin Deutschland": null,
  "RADAU, Schererstraße 8, 13347 Berlin": null,
  "RAUM Rungestr. 20 Berlin Deutschland": null,
@@ -7971,6 +7998,12 @@
   "bezirk": "Friedrichshain-Kreuzberg",
   "lat": 52.499358,
   "lng": 13.4242518
+ },
+ "Skalitzer Straße 133, 10999 Berlin": {
+  "address": "Skalitzer Straße 133, 10999 Kreuzberg",
+  "bezirk": "Friedrichshain-Kreuzberg",
+  "lat": 52.4997903,
+  "lng": 13.4201248
  },
  "Skalitzer Straße 134 10999 Berlin": {
   "address": "Skalitzer Straße 134, 10999 Kreuzberg",

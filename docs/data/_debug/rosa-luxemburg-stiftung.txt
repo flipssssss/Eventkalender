@@ -1,7 +1,7 @@
-Teaser: 337 | Berlin: 56 | andere Städte: 281 | mit Beschreibung: 54 | letzter Termin: 2027-02-04 19:00:00
+Teaser: 339 | Berlin: 57 | andere Städte: 282 | mit Beschreibung: 55 | letzter Termin: 2027-02-04 19:00:00
 Monate:
   aktuell: 235 Teaser, 235 neu, 2026-09-03 14:00:40 .. 2026-11-30 19:00:47 | https://www.rosalux.de/veranstaltungen
-  2026-12 POST: 76 Teaser, 74 neu, 2026-11-01 08:00:18 .. 2026-12-29 19:00:30 | https://www.rosalux.de/veranstaltungen?tx_cbelasticsearch_searchform%5Baction%5D=list&tx_cbelasticsearch_searc
+  2026-12 POST: 78 Teaser, 76 neu, 2026-11-01 08:00:18 .. 2026-12-29 19:00:30 | https://www.rosalux.de/veranstaltungen?tx_cbelasticsearch_searchform%5Baction%5D=list&tx_cbelasticsearch_searc
   2027-01 POST: 22 Teaser, 22 neu, 2026-09-21 18:00:33 .. 2027-01-30 10:00:58 | https://www.rosalux.de/veranstaltungen?tx_cbelasticsearch_searchform%5Baction%5D=list&tx_cbelasticsearch_searc
   2027-02 POST: 9 Teaser, 6 neu, 2027-01-26 18:00:18 .. 2027-02-25 12:00:18 | https://www.rosalux.de/veranstaltungen?tx_cbelasticsearch_searchform%5Baction%5D=list&tx_cbelasticsearch_searc
   2026-11-02 19:00:26 | Berlin | Alles meins?
@@ -56,6 +56,7 @@ Monate:
   2026-12-11 15:45:32 | Berlin | Reproduktive Gerechtigkeit im autoritären Kapitalismus?
   2026-12-12 12:30:00 | Berlin | Symposium 70 Jahre Marx-Engels-Werke
   2026-12-12 17:00:32 | Berlin | Erinnern heißt Verbünden
+  2026-12-14 18:30:00 | Berlin | Guilia Caminito: Das Wasser des Sees ist niemals süß (2022)
   2026-12-14 19:00:00 | Berlin | Dem Protest Flügel verleihen!
   2026-09-21 18:00:33 | Berlin | Artists Against the Bomb
   2027-01-19 19:00:41 | Berlin | Buchpremiere: David Roussets „Die Tage unseres Todes“

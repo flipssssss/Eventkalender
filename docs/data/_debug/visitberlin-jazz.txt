@@ -8,7 +8,6 @@ Zeitraum der Starts: 2024-10-07 20:00:00 … 2027-03-06 20:00:00
 
   2024-10-07 20:00:00 → 2027-02-14 19:00:00 | BAR JEDER VERNUNFT, Schaperstraße 24, 10719, Berlin | Heller & Bolam - L is for…
   2026-03-18 21:00:00 → 2026-12-02 21:00:00 | KulturMarktHalle, Hanns-Eisler-Straße 93, 10409, Berlin | The Composers' Orchestra Berlin
-  2026-03-26 19:00:00 → 2026-12-10 19:00:00 | Musikinstrumenten-Museum, Tiergartenstraße, 10785, Berlin | Jazz im MIM
   2026-09-14 19:00:00 → 2027-01-18 19:00:00 | Bredouille Bar, Georgenstraße 199, 10117, Berlin | radio3 Listening Lounge
   2026-11-16 20:00:00 → 2026-12-28 23:30:00 | Café Engels, Herrfurthstr. 21, 12049, Berlin | Blue Moonday Jazzsession
   2026-11-17 19:30:00 → 2026-12-29 22:00:00 | Art Stalker, Kaiser-Friedrich-Straße 67, 10627, Berlin | Session im ART Stalker
@@ -23,4 +22,5 @@ Dischinger Brücke, 13581, Berlin | Jazz goes Synagogue
   2027-01-22 20:00:00 → None | Petruskirche Lichterfelde, Oberhofer Platz, 12209, Berlin | DAVE GOODMAN & “GROOVE MINISTER“ alias MARTIN RÖTTGER
   2027-01-30 20:00:00 → None | Petruskirche Lichterfelde, Oberhofer Platz, 12209, Berlin | THE BAKERY BROTHERS
   2027-02-18 20:00:00 → None | Heimathafen Neukölln, Karl-Marx-Straße 141, 12043, Berlin | THE MAGIC MUMBLE JUMBLE
+  2027-02-26 20:00:00 → None | Kulturbrauerei - Maschinenhaus, Knaackstraße 97, 10435, Berlin | The Hamburg Blues Band & Friends feat. Will Wilde & Krissy Matthews
   2027-03-06 20:00:00 → None | Max-Schmeling-Halle, Am Falkplatz 1, 10437, Berlin | Kool & The Gang

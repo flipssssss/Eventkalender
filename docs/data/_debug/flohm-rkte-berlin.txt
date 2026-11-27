@@ -1,12 +1,9 @@
 teaser: 46
 dated: 6
-detail_ok: 34
-detail_err: 3
-recur: 19
+detail_ok: 37
+detail_err: 0
+recur: 21
 no_geo: 3
 geo: 49
-events: 133
+events: 143
 FEHLER:
-DETAIL 429 Client Error: Too Many Requests for url: https://www.berlin.de/special/shopping/flohmaerkte/1998213-1724959-flohmarkt-am-arkonaplatz.html
-DETAIL 429 Client Error: Too Many Requests for url: https://www.berlin.de/special/shopping/flohmaerkte/3083110-1724959-troedelmarkt-hansamarkt.html
-DETAIL 429 Client Error: Too Many Requests for url: https://www.berlin.de/special/shopping/flohmaerkte/9788359-1724959-flohmarkt-winterfeldtplatz.html

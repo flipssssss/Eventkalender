@@ -1,23 +1,15 @@
-API-Events: 67 | übernommen: 67
-  2026-11-26 19:00:00 | Blues | COOGANS BLUFF | 10 Years Of Flying To The Stars | URBAN SPREE - Berlin
-  2026-11-26 19:00:00 | Punk | OBI BLANCHE x KRISTINA TICA (post-digital-punk) + ROOVES (psych/post-rock, bln)
-  2026-11-26 19:00:00 | Punk | KING DICK (BE) & PEITSCHE (Bln)
-  2026-11-26 19:00:00 | Punk | UK Subs, Ionis, Muttis Lieblinge
-  2026-11-26 19:30:00 | Punk | DIB pres.: SUMA (SWE) + PIECE + KAVRILA | Neue Zukunft, Berlin
-  2026-11-26 20:00:00 | None | SAUFEN - PunkRock Lyrik Lesung
-  2026-11-26 20:00:00 | Punk | PHRENETIX + DISTORTED AURA
-  2026-11-26 20:00:00 | Rock | SLIFT / Support: Yoo Doo Right - Berlin, Lido
+API-Events: 63 | übernommen: 63
   2026-11-27 18:00:00 | Metal | Coma Rossi - Live in Berlin (Postrock / Doomgaze)
   2026-11-27 19:00:00 | Punk | Lack + Tonia Reeh + Jacob Bredahl
-  2026-11-27 19:00:00 | None | BIRD CONTROL + TIGERBEAT
   2026-11-27 19:00:00 | Punk | URANUS FRONT // BRATENFETT
+  2026-11-27 19:00:00 | None | BIRD CONTROL + TIGERBEAT
   2026-11-27 19:00:00 | Punk | Tavare / Sometimes With Others / Lynn Wright
   2026-11-27 20:00:00 | Metal | HEALTH - Berlin, Metropol
   2026-11-27 20:00:00 | Punk | BLUES BUMPS: THE DARTS (US) + support // Berlin Neue Zukunft
   2026-11-28 10:45:00 | None | Queer Tours for All! - Königsheide
-  2026-11-28 19:00:00 | Punk | CAVA + APOLLO + CATCH AS CATCH CAN
-  2026-11-28 19:00:00 | None | SAMAVAYO & FRIENDS VOL. III * SAMAVAYO + 24/7 DIVA HEAVEN + BISMUT + Aftershowparty I Neue Zukunft
   2026-11-28 19:00:00 | None | HI MUM + NIKITA CURTIS
+  2026-11-28 19:00:00 | None | SAMAVAYO & FRIENDS VOL. III * SAMAVAYO + 24/7 DIVA HEAVEN + BISMUT + Aftershowparty I Neue Zukunft
+  2026-11-28 19:00:00 | Punk | CAVA + APOLLO + CATCH AS CATCH CAN
   2026-11-28 20:00:00 | Punk | SPLIZZ + ZIGARETTI + DJ Team Vale Of Silk + DJ Geburtstagsüberraschung
   2026-11-28 20:00:00 | Punk | POST-PUNK | PUNK | INDUSTRIAL w. STRES (CZ) // BbyDrive (CZ) // SOLARBÄR (BER) // SPEARFLOWER (CH)
   2026-11-29 07:00:00 | Punk | Las Eras
@@ -28,4 +20,12 @@ API-Events: 67 | übernommen: 67
   2026-12-02 17:45:00 | None | Punkfilmfest Berlin - day 1 at Lichtblick Kino #punkfilmfestberlin
   2026-12-02 19:00:00 | Soul/Funk | SABA LOU (bln, garage / r'n'b / soul / songwriter) Rec Release!
   2026-12-03 18:00:00 | None | Punkfilmfest Berlin - day 2 at Lichtblick Kino (Prenzlauer Berg) and Cafe Lutetia (Spandau)
+  2026-12-03 18:30:00 | None | SMELLSCAPE (punk movie) + shorts: Hardcore will never die; Whole Cookie; Savage Beat; Call The Plumber at Lichtblick Kino
   2026-12-03 19:00:00 | Punk | THE WANTS (post-punk, nyc) & SCHNALLO (wave, bln)
+  2026-12-03 20:00:00 | Jazz | Decolonoize presents Otis Mensah with Astan KA & Juss Mills at 90mil
+  2026-12-04 19:00:00 | Metal | 100 Jahre Voltron mit Android Empire | Voltron | Treedeon | Schwärze
+  2026-12-04 19:00:00 | Punk | Grindfest Berlin Warm Up Show
+  2026-12-04 19:00:00 | Punk | Punkfilmfest Berlin - day 3 (Konzert at Schokoladen) - Bei Bedarf (punkrock / Berlin) + Pornobalken (punk / MV)
+  2026-12-04 19:00:00 | Punk | COLLAPS + SABOTAGE
+  2026-12-04 19:00:00 | None | Bei Bedarf + Pornobalken
+  2026-12-04 19:00:00 | None | MISSRATENE TÖCHTER + KRINSCH

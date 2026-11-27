@@ -288,6 +288,7 @@
   "lat": 52.5134702,
   "lng": 13.3262548
  },
+ "23-26.12, Berlin": null,
  "3 Kinos, Berlin": null,
  "32-16-8 (Kiezkneipe) Perleberger Straße 58a 10559 Berlin Deutschland": null,
  "90mil, Holzmarktstrasse 19-23, 10243 Berlin": null,
@@ -6003,6 +6004,7 @@
   "lat": 52.5496885,
   "lng": 13.3620935
  },
+ "Near Bethaniendamm, Berlin": null,
  "Near S-Storkower Straße, Berlin": null,
  "Near the Reichstag at the memorial to the Political Opponents of the NS, Berlin": null,
  "Neckarstr. 19 12053 Berlin Deutschland": {
@@ -6700,6 +6702,12 @@
   "bezirk": "Tempelhof-Schöneberg",
   "lat": 52.4986655,
   "lng": 13.3621019
+ },
+ "Potsdamer Strasse 7, 10785 Berlin": {
+  "address": "Potsdamer Straße 7, 10785 Tiergarten",
+  "bezirk": "Mitte",
+  "lat": 52.5089241,
+  "lng": 13.3726176
  },
  "Potsdamer Straße 138, 10783 Schöneberg, Berlin": {
   "address": "Potsdamer Straße 138, 10783 Schöneberg",
@@ -8421,6 +8429,7 @@
   "lat": 52.4978968,
   "lng": 13.3489686
  },
+ "The Playce | Potsdamer Platz Arkaden, Alte Potsdamer Strasse 7, 10785, Berlin": null,
  "Theater Strahl. Halle Ostkreuz, Berlin": null,
  "Theater Thikwa, Berlin": {
   "address": "Fidicinstraße 40, 10965 Kreuzberg",
@@ -8803,6 +8812,12 @@
   "bezirk": "Steglitz-Zehlendorf",
   "lat": 52.4634213,
   "lng": 13.3287241
+ },
+ "Verein für aktive Vielfalt e.V., Berlin": {
+  "address": "Ribnitzer Straße 1B, 13051 Neu-Hohenschönhausen",
+  "bezirk": "Lichtenberg",
+  "lat": 52.5722119,
+  "lng": 13.5022482
  },
  "Versammlungsraum im Mehringhof, 1. Etage, Gneisenaustraße 2a 10961 Berlin Deutschland": null,
  "Versammlungsraum in dem Mehringhof Gneisenaustr. 2a 10962 Berlin Deutschland": null,

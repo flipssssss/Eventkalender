@@ -5,22 +5,21 @@ Seiten:
   page=0: 16 Links, 16 neu
   page=1: 0 Links, 0 neu
 
-Zeitraum der Starts: 2024-11-29 20:00:00 … 2026-11-27 19:00:00
+Zeitraum der Starts: 2026-11-15 10:00:00 … 2026-11-28 12:00:00
 
-  2024-11-29 20:00:00 → 2026-11-28 20:00:00 | Bühne 2 - Theater an der Parkaue, Parkaue 29
-THEATER AN DER PARKAUE, 10367, Berlin | Patchwork on stage
   2026-11-15 10:00:00 → 2026-11-28 10:00:00 | Diverse Veranstaltungsorte, Berlin | Umsonst und draußen I Kultur im Kiez - Marktbühne 2026
   2026-11-16 00:00:00 → None | Haus der Berliner Festspiele, Schaperstraße 24, 10719, Berlin | Performing Arts Season
   2026-11-16 00:00:00 → None | Weihnachtsmarkt an der Kaiser-Wilhelm-Gedächtnis-Kirche, Breitscheidplatz 1, 10789, Berlin | Weihnachtsmarkt an der Kaiser-Wilhelm-Gedächtnis-Kirche
   2026-11-16 11:00:00 → 2027-01-16 19:00:00 | BIKINI Berlin, Budapester Str., 10787, Berlin | Kunst macht glücklich
   2026-11-23 11:00:00 → 2026-12-22 11:00:00 | Altstadt Spandau, Markt 1, 13597, Berlin | Spandauer Weihnachtsmarkt
-  2026-11-23 13:00:00 → 2026-12-27 12:00:00 | Schloss Charlottenburg in Berlin, Spandauer Damm 10 -22, 14059, Berlin | Weihnachtsmarkt am Schloss Charlottenburg
-  2026-11-23 15:00:00 → 2026-12-28 22:00:00 | Der Weinlobbyist - Restaurant & Weinbar, Kolonnenstraße 62, 10827, Berlin | Der Weinlobbyist | Mini-Weihnachtsmarkt
-  2026-11-26 14:00:00 → 2026-12-06 14:00:00 | Verschiedene Orte, Berlin | AROUND THE WORLD IN 14 FILMS
-  2026-11-26 14:30:00 → 2026-11-27 12:30:00 | silent green Kulturquartier, Gerichtstraße 35, 13347, Berlin | Frohes Festival
-  2026-11-26 18:00:00 → 2026-11-29 18:00:00 | verschiedene Veranstaltungsorte, Berlin | BERLINER FESTIVAL ALTER MUSIK 2026
+  2026-11-25 00:00:00 → None | verschiedene Veranstaltungsorte, Berlin | Treffen junger Autor*innen
+  2026-11-25 00:00:00 → None | verschiedene Veranstaltungsorte, Berlin | Treffen junge Musikszene
   2026-11-27 11:00:00 → 2027-01-10 22:00:00 | The Playce | Potsdamer Platz Arkaden, Alte Potsdamer Strasse 7, 10785, Berlin | Advent zum Mitmachen am Potsdamer Platz
-  2026-11-27 14:00:00 → 2026-11-29 12:00:00 | Schloss Schönhausen, Tschaikowskistraße 1, 13156, Berlin | 7. Manufakturen-Weihnachtsmarkt
   2026-11-27 14:00:00 → 2026-11-29 11:00:00 | Kühlhaus Berlin, Luckenwalder Str. 3, 10963, Berlin | Berlin Artists Art Market (BAAM) #12
-  2026-11-27 18:00:00 → 2026-11-29 17:00:00 | Rathaus Schöneberg, Marlene-Dietrich-Kinosaal, John-F-Kennedy-Platz, 10825, Berlin | 41. Black International Cinema Berlin 2026
+  2026-11-27 14:00:00 → 2026-11-29 12:00:00 | Schloss Schönhausen, Tschaikowskistraße 1, 13156, Berlin | 7. Manufakturen-Weihnachtsmarkt
   2026-11-27 19:00:00 → 2026-12-04 10:00:00 | Kunsthaus Lempertz Berlin, Poststraße 21, 10178, Berlin | LEMPERTZ ART TO GO
+  2026-11-28 10:00:00 → None | Kulturforum, Johanna-und-Eduard-Arnhold-Platz / Matthäikirchplatz, 10785, Berlin | Kunst-Buch-Basar
+  2026-11-28 11:00:00 → 2026-11-29 18:00:00 | Haus der Visionäre, Eichenstraße 4A, 12435, Berlin | Holy Shit Shopping in Berlin
+  2026-11-28 11:00:00 → 2028-11-25 17:00:00 | Maybachufer/Schinkestraße, Maybachufer 1-13, 10999, Berlin | Neuköllner Stoff - Markt der schönen Dinge
+  2026-11-28 11:00:00 → 2026-12-13 11:00:00 | Späth'sche Baumschulen, Späthstraße 81, 12437, Berlin | Weihnachtsmarkt in den Späth'schen Baumschulen
+  2026-11-28 12:00:00 → None | Vorplatz der Volkshochschule Baumschulenweg und Kirche zum Vaterhaus, Baumschulenstraße 80, 12437, Berlin | Baume Adventsmarkt auf dem Vorplatz der Volkshochschule Baumschulenweg
